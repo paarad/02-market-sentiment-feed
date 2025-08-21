@@ -49,7 +49,9 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
         # Map social into crypto bucket
         if cat not in ("crypto", "global"):
             cat = "crypto"
-        buckets[cat].append((s, w, it))
+        # Only include items with significant sentiment (filter out neutral)
+        if abs(s) > 0.1:  # Only items with clear sentiment
+            buckets[cat].append((s, w, it))
 
     def calc(b: List[Tuple[float, float, Dict]]) -> Tuple[float, float, float, int]:
         if not b:
@@ -58,8 +60,11 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
         if sw == 0:
             return 0.0, 0.0, 0.0, 0
         s_weighted = sum(s * w for s, w, _ in b) / sw
-        # convert to [0,1]
-        s01 = (s_weighted + 1.0) / 2.0
+        # Amplify the signal and make it more diverse
+        # Filter out neutral items and amplify the remaining sentiment
+        amplified = s_weighted * 2.0  # Double the impact
+        s01 = 0.5 + (amplified * 0.3)  # Spread from 0.2 to 0.8
+        s01 = max(0.2, min(0.8, s01))  # Clamp to more diverse range
         # confidence
         unique_sources = len({item.get("source") for _, _, item in b})
         k = 10.0
@@ -82,11 +87,11 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
             scored.append((s * w, s, w, it))
     scored.sort(key=lambda x: x[0], reverse=True)
     positives = [
-        {"title": it.get("title"), "url": it.get("url"), "source": it.get("source"), "weight": round(w, 4)}
+        {"title": it.get("title"), "url": it.get("url"), "source": it.get("source"), "weight": round(w, 4), "score": round(s, 4)}
         for _, s, w, it in scored if s > 0
     ][:3]
     negatives = [
-        {"title": it.get("title"), "url": it.get("url"), "source": it.get("source"), "weight": round(w, 4)}
+        {"title": it.get("title"), "url": it.get("url"), "source": it.get("source"), "weight": round(w, 4), "score": round(s, 4)}
         for _, s, w, it in reversed(scored) if s < 0
     ][:3]
 
