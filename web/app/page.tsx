@@ -49,11 +49,22 @@ export default async function Page() {
 				<span style={{ fontSize: 12, background: "#334155", color: "#cbd5e1", padding: "2px 8px", borderRadius: 6 }}>Using cached analysis</span>
 			</div>
 
-			<div style={{ marginTop: 18 }}>
-				<Sparkline
-					values={(data?.history ?? []).map((h: any) => h.combined)}
-					color="#22c55e"
-				/>
+			<div style={{ marginTop: 18, padding: 12, background: "#0f172a", border: "1px solid #1f2937", borderRadius: 8 }}>
+				<div style={{ fontSize: 14, marginBottom: 8, opacity: 0.8 }}>📊 Data Quality</div>
+				<div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, fontSize: 12 }}>
+					<div>
+						<div style={{ opacity: 0.6 }}>Crypto Sources</div>
+						<div style={{ fontSize: 16, fontWeight: 500 }}>{summary.counts?.crypto || 0}</div>
+					</div>
+					<div>
+						<div style={{ opacity: 0.6 }}>Global Sources</div>
+						<div style={{ fontSize: 16, fontWeight: 500 }}>{summary.counts?.global || 0}</div>
+					</div>
+					<div>
+						<div style={{ opacity: 0.6 }}>Confidence</div>
+						<div style={{ fontSize: 16, fontWeight: 500 }}>{Math.round((summary.confidence || 0) * 100)}%</div>
+					</div>
+				</div>
 			</div>
 
 			<div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, marginTop: 24 }}>
