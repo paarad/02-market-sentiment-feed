@@ -31,7 +31,6 @@ Visit the live site to see current sentiment metrics, which update every 12 hour
 
 ## 🔗 Links
 
-- **Feed JSON**: `https://paarad.github.io/02-market-sentiment-feed/feed.json`
 - **GitHub Repo**: [02-market-sentiment-feed](https://github.com/paarad/02-market-sentiment-feed)
 - **Live Site**: [Vercel Deployment](https://02-market-sentiment-feed.paarad.org)
 
