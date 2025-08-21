@@ -32,16 +32,11 @@ jobs:
         run: |
           python cli.py --window 1h
 
-      - name: Copy files to root for GitHub Pages
-        run: |
-          cp public/feed.json .
-          cp public/history.json .
-
       - name: Commit and push if changed
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add public/feed.json public/history.json feed.json history.json || true
+          git add feed.json history.json || true
           if ! git diff --cached --quiet; then
             git commit -m "chore(feed): update feed.json [skip ci]"
             git push
@@ -51,5 +46,4 @@ jobs:
 
       - name: Ensure feed exists
         run: |
-          test -f public/feed.json
           test -f feed.json 

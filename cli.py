@@ -6,14 +6,13 @@ from analyzer.sources import fetch_all_sources
 from analyzer.aggregate import aggregate
 from analyzer.utils import load_json, save_json
 
-PUBLIC_FEED = os.path.join("public", "feed.json")
-PUBLIC_HISTORY = os.path.join("public", "history.json")
+PUBLIC_FEED = "feed.json"
+PUBLIC_HISTORY = "history.json"
 
 SAMPLES_PATH = os.path.join("analyzer", "samples", "sample_items.json")
 
 
 def run(window: str, offline: bool = False) -> int:
-    os.makedirs("public", exist_ok=True)
     history = load_json(PUBLIC_HISTORY) or []
 
     if offline:

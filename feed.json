@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-21T18:51:03.895813+00:00",
+  "updated_at": "2025-08-21T19:01:31.122924+00:00",
   "summary": {
     "crypto_sentiment": 0.0,
     "global_sentiment": 0.0,
@@ -51,11 +51,35 @@
         "crypto": 0,
         "global": 0
       }
+    },
+    {
+      "ts": "2025-08-21T19:01:31.122924+00:00",
+      "crypto": 0.0,
+      "global": 0.0,
+      "combined": 0.5,
+      "counts": {
+        "crypto": 0,
+        "global": 0
+      }
     }
   ],
   "drivers": {
-    "positive": [],
-    "negative": []
+    "positive": [
+      {
+        "title": "Major exchange lists new token; price surges",
+        "url": "https://example.com/sample-a",
+        "source": "CoinDesk",
+        "weight": 0.0
+      }
+    ],
+    "negative": [
+      {
+        "title": "Protocol exploit triggers panic and liquidation",
+        "url": "https://example.com/sample-b",
+        "source": "CoinTelegraph",
+        "weight": 0.0
+      }
+    ]
   },
   "notes": {
     "warnings": []

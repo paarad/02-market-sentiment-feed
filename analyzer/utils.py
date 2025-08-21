@@ -87,7 +87,9 @@ def exponential_decay_weight(age_hours: float, half_life_hours: float = DEFAULT_
 
 
 def save_json(path: str, data: Any) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    dirname = os.path.dirname(path)
+    if dirname:  # Only create directory if path has a directory component
+        os.makedirs(dirname, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
