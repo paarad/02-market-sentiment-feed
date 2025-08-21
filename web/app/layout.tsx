@@ -3,6 +3,9 @@ import type { ReactNode } from "react";
 export const metadata = {
 	title: "Market Sentiment Feed",
 	description: "Crypto-first market sentiment with ISR LLM analysis",
+	icons: {
+		icon: '/favicon.ico',
+	},
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

@@ -31,7 +31,7 @@ export default async function Page() {
 	return (
 		<div>
 			<h1 style={{ fontSize: 28, margin: "10px 0 8px" }}>Crypto-First Market Sentiment</h1>
-			<p style={{ opacity: 0.8, margin: 0 }}>Hourly feed with ISR-cached LLM analysis.</p>
+			<p style={{ opacity: 0.8, margin: 0 }}>12-hour feed with ISR-cached LLM analysis.</p>
 			<div style={{ display: "flex", gap: 16, marginTop: 18, flexWrap: "wrap" }}>
 				<Gauge label="Combined" value={summary.combined_sentiment} />
 				<Gauge label="Crypto" value={summary.crypto_sentiment} />
