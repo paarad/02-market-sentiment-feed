@@ -48,6 +48,22 @@ jobs:
         run: |
           test -f feed.json
           
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+          
+      - name: Upload to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
+          name: github-pages
+          retention-days: 1
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        env:
+          GITHUB_PAGES: true
+          
       - name: Notify on failure
         if: failure()
         uses: actions/github-script@v7
