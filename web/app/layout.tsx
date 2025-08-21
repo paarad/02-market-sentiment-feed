@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
 	title: "Market Sentiment Feed",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 				<div style={{ maxWidth: 980, margin: "0 auto", padding: 20 }}>
 					{children}
 				</div>
+				<Analytics />
 			</body>
 		</html>
 	);
