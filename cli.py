@@ -2,6 +2,13 @@ import argparse
 import os
 from typing import List, Dict
 
+# Load .env file if it exists
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from analyzer.sources import fetch_all_sources
 from analyzer.aggregate import aggregate
 from analyzer.utils import load_json, save_json
