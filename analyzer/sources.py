@@ -82,6 +82,34 @@ def fetch_reuters_markets() -> List[Dict]:
 		return []
 
 
+def fetch_bloomberg_markets() -> List[Dict]:
+	try:
+		return fetch_rss("https://feeds.bloomberg.com/markets/news.rss", "Bloomberg Markets", "global")
+	except Exception:
+		return []
+
+
+def fetch_cnbc_markets() -> List[Dict]:
+	try:
+		return fetch_rss("https://www.cnbc.com/id/100003114/device/rss/rss.html", "CNBC Markets", "global")
+	except Exception:
+		return []
+
+
+def fetch_marketwatch() -> List[Dict]:
+	try:
+		return fetch_rss("https://feeds.content.dowjones.io/public/rss/mw_realtimeheadlines", "MarketWatch", "global")
+	except Exception:
+		return []
+
+
+def fetch_yahoo_finance() -> List[Dict]:
+	try:
+		return fetch_rss("https://feeds.finance.yahoo.com/rss/2.0/headline?s=^DJI,^GSPC,^IXIC&region=US&lang=en-US", "Yahoo Finance", "global")
+	except Exception:
+		return []
+
+
 def fetch_decrypt() -> List[Dict]:
 	try:
 		return fetch_rss("https://decrypt.co/feed", "Decrypt", "crypto")
@@ -264,6 +292,10 @@ def fetch_all_sources() -> List[Dict]:
 	items.extend(fetch_coindesk())
 	items.extend(fetch_cointelegraph())
 	items.extend(fetch_reuters_markets())
+	items.extend(fetch_bloomberg_markets())
+	items.extend(fetch_cnbc_markets())
+	items.extend(fetch_marketwatch())
+	items.extend(fetch_yahoo_finance())
 	items.extend(fetch_decrypt())
 	items.extend(fetch_cryptoslate())
 	items.extend(fetch_binance_tickers())

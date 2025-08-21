@@ -37,28 +37,31 @@ async function generateAnalysis(feed: any): Promise<string> {
 
 	const fallback = `Combined ${formatPct(combined)}%, crypto ${formatPct(crypto)}%, global ${formatPct(global)}% (confidence ${formatPct(conf)}%). Pos drivers: ${driversPos.slice(0,3).map((d:any)=>d.title).join("; ")}. Neg drivers: ${driversNeg.slice(0,3).map((d:any)=>d.title).join("; ")}.`;
 
+	console.log("OpenAI key present:", !!key);
 	if (!key) return fallback;
 
-	const prompt = `You are a crypto markets analyst. Given a JSON market sentiment feed, produce a concise analysis (max 5 lines). Be specific and avoid hype.
-- Emphasize combined sentiment (0..1), confidence, and notable drivers
-- Mention if the source data may be stale
-- Keep it factual and brief
-JSON:\n${JSON.stringify(feed).slice(0, 20000)}`;
+	const prompt = `You are a crypto markets analyst writing for a professional audience. Analyze this market sentiment data and provide insights in 2-3 sentences. Be conversational and insightful, not just reporting numbers. Focus on what the sentiment means for traders and investors.
+
+Data: ${JSON.stringify(feed).slice(0, 15000)}`;
 
 	try {
+		console.log("Calling OpenAI...");
 		const { OpenAI } = await import("openai/index.mjs");
 		const openai = new OpenAI({ apiKey: key });
 		const resp = await openai.chat.completions.create({
 			model: "gpt-4o-mini",
 			messages: [
-				{ role: "system", content: "You write concise factual crypto market commentary." },
+				{ role: "system", content: "You are a witty, insightful crypto analyst who provides valuable market commentary. Be engaging and provide actionable insights." },
 				{ role: "user", content: prompt },
 			],
-			max_tokens: 220,
-			temperature: 0.3,
+			max_tokens: 180,
+			temperature: 0.7,
 		});
-		return resp.choices?.[0]?.message?.content?.trim() || fallback;
-	} catch {
+		const result = resp.choices?.[0]?.message?.content?.trim() || fallback;
+		console.log("OpenAI response received:", result.substring(0, 100) + "...");
+		return result;
+	} catch (error) {
+		console.log("OpenAI error:", error);
 		return fallback;
 	}
 }
