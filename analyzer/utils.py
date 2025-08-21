@@ -103,5 +103,10 @@ def load_json(path: str) -> Optional[Any]:
 
 
 def detect_crypto_symbols(text: str) -> bool:
-    # Detect cashtags like $BTC or contract addresses 0x...
-    return bool(re.search(r"\$[A-Z]{2,6}\b", text)) or bool(re.search(r"\b0x[a-fA-F0-9]{6,}\b", text)) 
+    # Detect cashtags like $BTC or common tickers, or contract addresses 0x...
+    if bool(re.search(r"\$[A-Z]{2,6}\b", text)) or bool(re.search(r"\b0x[a-fA-F0-9]{6,}\b", text)):
+        return True
+    # Common top tickers without $ prefix
+    COMMON = {"BTC","ETH","SOL","BNB","XRP","ADA","DOGE","TON","DOT","AVAX","LINK"}
+    tokens = re.findall(r"\b[A-Z]{2,5}\b", text)
+    return any(tok in COMMON for tok in tokens) 

@@ -9,6 +9,8 @@ SOURCE_WEIGHTS = {
     "CoinDesk": 1.0,
     "Reuters Markets": 1.0,
     "CoinTelegraph": 0.8,
+    "Decrypt": 0.85,
+    "CryptoSlate": 0.75,
     "CryptoPanic": 0.5,
 }
 
@@ -40,7 +42,8 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
 
     buckets = {"crypto": [], "global": []}
     for it in items:
-        s = score_text(it.get("title", ""))
+        # Use description text when available to enrich sentiment
+        s = score_text((it.get("text") or it.get("title") or ""))
         w = compute_item_weight(it, now)
         cat = it.get("category")
         # Map social into crypto bucket

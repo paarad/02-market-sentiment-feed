@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-export const revalidate = 3600; // 1 hour
+export const revalidate = 43200; // 12 hours
 // export const revalidate = 14400; // 4 hours
 
 function clamp(n: number, lo = 0, hi = 1) {
@@ -71,7 +71,7 @@ export async function GET() {
 	if (updatedAt) {
 		const ts = new Date(updatedAt);
 		const hours = (now.getTime() - ts.getTime()) / 3600000;
-		stale = hours > 2.5; // consider stale if > ~2.5h for 1h cadence
+		stale = hours > 30; // consider stale if > ~30h for 12h cadence
 	}
 
 	const analysis = feed ? await generateAnalysis(feed) : "Feed unavailable; using last cached analysis if present.";
@@ -86,6 +86,6 @@ export async function GET() {
 	};
 
 	const res = NextResponse.json(body);
-	res.headers.set("Cache-Control", "s-maxage=3600, stale-while-revalidate=60");
+	res.headers.set("Cache-Control", "s-maxage=43200, stale-while-revalidate=600");
 	return res;
 } 
