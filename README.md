@@ -17,13 +17,9 @@ Real-time crypto market sentiment analysis with AI-powered insights. Updates eve
 | **📊 Data Quality** | Shows source counts and confidence levels |
 | **🔗 Driver Analysis** | Top positive/negative market drivers with links |
 
-## 📈 Current Metrics
+## 📈 Live Metrics
 
-- **Combined Sentiment**: 46% (bearish)
-- **Crypto Sentiment**: 46% (bearish) 
-- **Global Sentiment**: 37% (more bearish)
-- **Confidence**: 82%
-- **Data Sources**: 60 crypto + 29 global items
+Visit the live site to see current sentiment metrics, which update every 12 hours with fresh market data and AI analysis.
 
 ## 🛠️ Tech Stack
 
