@@ -1,0 +1,69 @@
+import { headers } from "next/headers";
+import Gauge from "./(components)/Gauge";
+import Sparkline from "./(components)/Sparkline";
+import DriversList from "./(components)/DriversList";
+
+export const revalidate = 0; // use API's ISR
+
+async function fetchAnalysis(origin: string) {
+	const res = await fetch(`${origin}/api/analysis`, { cache: "no-store" });
+	if (!res.ok) throw new Error("Failed to load analysis");
+	return res.json();
+}
+
+export default async function Page() {
+	const h = headers();
+	const host = h.get("x-forwarded-host") || h.get("host");
+	const proto = h.get("x-forwarded-proto") || "https";
+	const origin = `${proto}://${host}`;
+	let data: any = null;
+	try {
+		data = await fetchAnalysis(origin);
+	} catch {
+		data = null;
+	}
+
+	const summary = data?.summary ?? { crypto_sentiment: 0.5, global_sentiment: 0.5, combined_sentiment: 0.5, confidence: 0 };
+	const updatedAt = data?.updated_at ?? null;
+	const stale = !!data?.stale;
+	const drivers = data?.drivers ?? { positive: [], negative: [] };
+
+	return (
+		<div>
+			<h1 style={{ fontSize: 28, margin: "10px 0 8px" }}>Crypto-First Market Sentiment</h1>
+			<p style={{ opacity: 0.8, margin: 0 }}>Hourly feed with ISR-cached LLM analysis.</p>
+			<div style={{ display: "flex", gap: 16, marginTop: 18, flexWrap: "wrap" }}>
+				<Gauge label="Combined" value={summary.combined_sentiment} />
+				<Gauge label="Crypto" value={summary.crypto_sentiment} />
+				<Gauge label="Global" value={summary.global_sentiment} />
+				<Gauge label="Confidence" value={summary.confidence} />
+			</div>
+
+			<div style={{ display: "flex", gap: 24, marginTop: 20, alignItems: "center" }}>
+				<div style={{ fontSize: 12, opacity: 0.8 }}>
+					Updated: {updatedAt ? new Date(updatedAt).toLocaleString() : "n/a"}
+				</div>
+				{stale && (
+					<span style={{ fontSize: 12, background: "#eab308", color: "#0b0f14", padding: "2px 8px", borderRadius: 6 }}>Stale source</span>
+				)}
+				<span style={{ fontSize: 12, background: "#334155", color: "#cbd5e1", padding: "2px 8px", borderRadius: 6 }}>Using cached analysis</span>
+			</div>
+
+			<div style={{ marginTop: 18 }}>
+				<Sparkline
+					values={(data?.history ?? []).map((h: any) => h.combined)}
+					color="#22c55e"
+				/>
+			</div>
+
+			<div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, marginTop: 24 }}>
+				<DriversList title="Top Positive Drivers" items={drivers.positive} accent="#22c55e" />
+				<DriversList title="Top Negative Drivers" items={drivers.negative} accent="#ef4444" />
+			</div>
+
+			<div style={{ marginTop: 20, padding: 12, background: "#0f172a", border: "1px solid #1f2937", borderRadius: 8 }}>
+				<div style={{ fontSize: 14, whiteSpace: "pre-wrap", lineHeight: 1.5 }}>{data?.analysis || "No analysis available."}</div>
+			</div>
+		</div>
+	);
+} 
