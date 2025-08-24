@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 
 from .utils import utcnow, parse_ts, exponential_decay_weight, detect_crypto_symbols
 from .sentiment import score_text
+from .indicators import generate_market_indicators
 
 SOURCE_WEIGHTS = {
     "CoinDesk": 1.0,
@@ -39,6 +40,9 @@ def compute_item_weight(item: Dict, now: datetime) -> float:
 def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
     now = utcnow()
     items = dedupe_items(items)
+
+    # Generate comprehensive market indicators
+    market_indicators = generate_market_indicators()
 
     buckets = {"crypto": [], "global": []}
     for it in items:
@@ -103,6 +107,47 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
         "combined_sentiment": round(combined01, 4),
         "confidence": round(combined_conf, 4),
         "counts": {"crypto": c_count, "global": g_count},
+        
+        # Enhanced market indicators
+        "market_indicators": {
+            # Price performance
+            "btc_price": market_indicators.get("btc_price", 0),
+            "btc_change_24h": round(market_indicators.get("btc_change_24h", 0), 2),
+            "eth_price": market_indicators.get("eth_price", 0),
+            "eth_change_24h": round(market_indicators.get("eth_change_24h", 0), 2),
+            
+            # Market regime
+            "regime": market_indicators.get("market_regime", "unknown"),
+            "regime_strength": round(market_indicators.get("regime_strength", 0), 3),
+            "market_breadth": round(market_indicators.get("market_breadth_24h", 0), 3),
+            
+            # Fear & Greed
+            "fear_greed": {
+                "value": market_indicators.get("fear_greed_value", 50),
+                "classification": market_indicators.get("fear_greed_classification", "Neutral"),
+                "trend": market_indicators.get("fear_greed_trend", "stable")
+            },
+            
+            # Activity & Volume
+            "activity": {
+                "level": market_indicators.get("activity_level", "unknown"),
+                "volume_24h": market_indicators.get("total_volume_24h", 0),
+                "high_activity_coins": market_indicators.get("high_activity_count", 0)
+            },
+            
+            # Dominance & Seasons
+            "dominance": {
+                "btc_dominance": market_indicators.get("btc_dominance", 0),
+                "alt_season_score": market_indicators.get("alt_season_score", 0),
+                "season": market_indicators.get("market_season", "unknown")
+            },
+            
+            # Data quality
+            "data_quality": {
+                "sources": market_indicators.get("data_sources", 0),
+                "coins_analyzed": market_indicators.get("coins_analyzed", 0)
+            }
+        }
     }
 
     # History update
@@ -122,7 +167,14 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
         "updated_at": updated_at,
         "summary": summary,
         "history": history,
-        "drivers": {"positive": positives, "negative": negatives},
+        "drivers": {
+            "positive": positives, 
+            "negative": negatives,
+            "market_movers": {
+                "high_activity": market_indicators.get("high_activity_coins", [])[:3],
+                "momentum_shifts": market_indicators.get("momentum_shifts", [])[:3]
+            }
+        },
         "notes": {"warnings": []},
     }
 

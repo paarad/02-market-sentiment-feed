@@ -2,6 +2,8 @@ import { headers } from "next/headers";
 import Gauge from "./(components)/Gauge";
 import Sparkline from "./(components)/Sparkline";
 import DriversList from "./(components)/DriversList";
+import MarketIndicators from "./(components)/MarketIndicators";
+import MarketMovers from "./(components)/MarketMovers";
 
 export const revalidate = 0; // use API's ISR
 
@@ -27,6 +29,8 @@ export default async function Page() {
 	const updatedAt = data?.updated_at ?? null;
 	const stale = !!data?.stale;
 	const drivers = data?.drivers ?? { positive: [], negative: [] };
+	const marketIndicators = summary?.market_indicators;
+	const marketMovers = drivers?.market_movers;
 
 	return (
 		<div>
@@ -66,6 +70,12 @@ export default async function Page() {
 					</div>
 				</div>
 			</div>
+
+			{/* Enhanced Market Indicators */}
+			<MarketIndicators indicators={marketIndicators} />
+			
+			{/* Market Movers */}
+			<MarketMovers movers={marketMovers} />
 
 			<div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, marginTop: 24 }}>
 				<DriversList title="Top Positive Drivers" items={drivers.positive} accent="#22c55e" />
