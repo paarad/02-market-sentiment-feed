@@ -1,14 +1,42 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-24T12:38:26.922421+00:00",
+  "updated_at": "2025-08-25T01:43:58.664809+00:00",
   "summary": {
-    "crypto_sentiment": 0.4792,
-    "global_sentiment": 0.6048,
-    "combined_sentiment": 0.4931,
-    "confidence": 0.4812,
+    "crypto_sentiment": 0.403,
+    "global_sentiment": 0.5203,
+    "combined_sentiment": 0.429,
+    "confidence": 0.6093,
     "counts": {
-      "crypto": 76,
-      "global": 38
+      "crypto": 74,
+      "global": 40
+    },
+    "market_indicators": {
+      "btc_price": 112839,
+      "btc_change_24h": -2.17,
+      "eth_price": 4722.38,
+      "eth_change_24h": -1.28,
+      "regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
+      "fear_greed": {
+        "value": 47,
+        "classification": "Neutral",
+        "trend": "stable"
+      },
+      "activity": {
+        "level": "low",
+        "volume_24h": 255014448477,
+        "high_activity_coins": 2
+      },
+      "dominance": {
+        "btc_dominance": 55.95,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
+      },
+      "data_quality": {
+        "sources": 2,
+        "coins_analyzed": 100
+      }
     }
   },
   "history": [
@@ -271,55 +299,80 @@
         "crypto": 76,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-08-25T01:43:58.664809+00:00",
+      "crypto": 0.403,
+      "global": 0.5203,
+      "combined": 0.429,
+      "counts": {
+        "crypto": 74,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Nvidia Earnings Are Next Test After Powell-Led Stock Market Rally",
-        "url": "https://finance.yahoo.com/m/d7240ab8-8d40-3d7a-888f-33564f058d7f/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6964,
-        "score": 0.5333
+        "title": "Dongfeng Motor Shares Surge 69% On Privatization, Unit List Plan",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-25/dongfeng-motor-shares-surge-69-on-privatization-unit-list-plan",
+        "source": "Bloomberg Markets",
+        "weight": 0.7739,
+        "score": 1.0
       },
       {
-        "title": "Nvidia will deliver key earnings report this week",
-        "url": "https://www.thestreet.com/investing/stocks/nvidia-will-deliver-key-earnings-report-this-week?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.66,
-        "score": 0.5333
+        "title": "Asian Stocks Rise as Powell Signals Fed Will Cut: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-24/asian-stocks-set-to-advance-after-powell-pivot-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.562,
+        "score": 0.8667
       },
       {
-        "title": "Nvidia earnings set to test AI trade with stocks near record highs: What to watch this week",
-        "url": "https://finance.yahoo.com/news/nvidia-earnings-set-to-test-ai-trade-with-stocks-near-record-highs-what-to-watch-this-week-115512665.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Nvidia Is Next Big Market Test After Powell-Led Rally",
+        "url": "https://finance.yahoo.com/m/d7240ab8-8d40-3d7a-888f-33564f058d7f/dow-jones-futures%3A-nvidia-is.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7361,
-        "score": 0.3333
+        "weight": 0.7834,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Why SoundHound AI Stock Plummeted Last Week",
-        "url": "https://www.fool.com/investing/2025/08/24/why-soundhound-ai-stock-plummeted-this-week/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6619,
-        "score": -0.5333
-      },
-      {
-        "title": "The latest data from Bitcoin Is Dead dropped this week: Bitcoin has ‘died’ no less than 431 times",
-        "url": "https://cryptoslate.com/the-latest-data-from-bitcoin-is-dead-dropped-this-week-bitcoin-has-died-no-less-than-431-times/",
-        "source": "CryptoSlate",
-        "weight": 0.712,
-        "score": -0.3333
-      },
-      {
-        "title": "God in the Machine: Inside the Growing AI Religious Movement",
-        "url": "https://decrypt.co/336447/god-machine-inside-growing-ai-religious-movement",
-        "source": "Decrypt",
-        "weight": 0.111,
+        "title": "Telegram founder Pavel Durov says case going nowhere, slams French gov",
+        "url": "https://cointelegraph.com/news/pavel-durov-case-going-nowhere-slams-french-gov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5033,
         "score": -0.9333
+      },
+      {
+        "title": "Soft US Housing View Sends Reece Shares Tumbling Most Since 1978",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-25/soft-us-housing-view-sends-reece-shares-tumbling-most-since-1978",
+        "source": "Bloomberg Markets",
+        "weight": 0.7303,
+        "score": -0.6333
+      },
+      {
+        "title": "New Zealand Retail Sales Unexpectedly Rise in Sign of Recovery",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-25/new-zealand-retail-sales-unexpectedly-rise-in-sign-of-recovery",
+        "source": "Bloomberg Markets",
+        "weight": 0.7161,
+        "score": -0.6333
       }
-    ]
+    ],
+    "market_movers": {
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.6150175291175011,
+          "price_change_24h": 0.02913
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.3174726366556012,
+          "price_change_24h": 0.00879
+        }
+      ],
+      "momentum_shifts": []
+    }
   },
   "notes": {
     "warnings": []
