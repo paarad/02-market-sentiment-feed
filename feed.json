@@ -1,14 +1,51 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-24T12:38:26.922421+00:00",
+  "updated_at": "2025-08-25T21:41:48.667678+00:00",
+  "indicators": {
+    "change24h": -0.131,
+    "vol": 0.243,
+    "fearGreed": 47,
+    "momentum": -1.0,
+    "regime": "bear",
+    "activity": 0.6,
+    "dominance": "btc"
+  },
   "summary": {
-    "crypto_sentiment": 0.4792,
-    "global_sentiment": 0.6048,
-    "combined_sentiment": 0.4931,
-    "confidence": 0.4812,
+    "crypto_sentiment": 0.4141,
+    "global_sentiment": 0.5121,
+    "combined_sentiment": 0.4366,
+    "confidence": 0.8263,
     "counts": {
-      "crypto": 76,
-      "global": 38
+      "crypto": 68,
+      "global": 45
+    },
+    "market_indicators": {
+      "btc_price": 109993,
+      "btc_change_24h": -2.7,
+      "eth_price": 4366.04,
+      "eth_change_24h": -9.21,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
+      "fear_greed": {
+        "value": 47,
+        "classification": "Neutral",
+        "trend": "stable"
+      },
+      "activity": {
+        "level": "low",
+        "volume_24h": 288227741251,
+        "high_activity_coins": 3
+      },
+      "dominance": {
+        "btc_dominance": 56.8,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
+      },
+      "data_quality": {
+        "sources": 2,
+        "coins_analyzed": 100
+      }
     }
   },
   "history": [
@@ -271,55 +308,95 @@
         "crypto": 76,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-08-25T21:38:47.865718+00:00",
+      "crypto": 0.4116,
+      "global": 0.5191,
+      "combined": 0.4353,
+      "counts": {
+        "crypto": 78,
+        "global": 44
+      }
+    },
+    {
+      "ts": "2025-08-25T21:41:48.667678+00:00",
+      "crypto": 0.4141,
+      "global": 0.5121,
+      "combined": 0.4366,
+      "counts": {
+        "crypto": 68,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Nvidia Earnings Are Next Test After Powell-Led Stock Market Rally",
-        "url": "https://finance.yahoo.com/m/d7240ab8-8d40-3d7a-888f-33564f058d7f/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
+        "title": "NIO Stock Drops After Surging. What’s Behind the Unusual Moves.",
+        "url": "https://finance.yahoo.com/m/97bbe8e9-4338-3f04-b088-4a6c85004bb4/nio-stock-drops-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6964,
-        "score": 0.5333
+        "weight": 0.6874,
+        "score": 1.0
       },
       {
-        "title": "Nvidia will deliver key earnings report this week",
-        "url": "https://www.thestreet.com/investing/stocks/nvidia-will-deliver-key-earnings-report-this-week?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.66,
-        "score": 0.5333
+        "title": "Libra Wallets Linked to Hayden Davis Made $12 Million on Kanye West's Meme Coin",
+        "url": "https://decrypt.co/336762/libra-wallets-linked-hayden-davis-made-12-million-kanye-west-meme-coin",
+        "source": "Decrypt",
+        "weight": 0.6972,
+        "score": 0.6667
       },
       {
-        "title": "Nvidia earnings set to test AI trade with stocks near record highs: What to watch this week",
-        "url": "https://finance.yahoo.com/news/nvidia-earnings-set-to-test-ai-trade-with-stocks-near-record-highs-what-to-watch-this-week-115512665.html?.tsrc=rss",
+        "title": "How major US stock indexes fared Monday, 8/25/2025",
+        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-202602974.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7361,
-        "score": 0.3333
+        "weight": 0.6914,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Why SoundHound AI Stock Plummeted Last Week",
-        "url": "https://www.fool.com/investing/2025/08/24/why-soundhound-ai-stock-plummeted-this-week/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6619,
-        "score": -0.5333
+        "title": "Global regulators, exchanges push back on tokenized stocks in SEC letter",
+        "url": "https://cointelegraph.com/news/global-regulators-crackdown-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6328,
+        "score": -1.0
       },
       {
-        "title": "The latest data from Bitcoin Is Dead dropped this week: Bitcoin has ‘died’ no less than 431 times",
-        "url": "https://cryptoslate.com/the-latest-data-from-bitcoin-is-dead-dropped-this-week-bitcoin-has-died-no-less-than-431-times/",
-        "source": "CryptoSlate",
-        "weight": 0.712,
-        "score": -0.3333
+        "title": "Data Centers to Propel Infra Securitizations Past $110 Billion by 2026 End",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-25/data-centers-to-propel-infra-securitizations-past-110-billion-by-2026-end",
+        "source": "Bloomberg Markets",
+        "weight": 0.636,
+        "score": -0.9667
       },
       {
-        "title": "God in the Machine: Inside the Growing AI Religious Movement",
-        "url": "https://decrypt.co/336447/god-machine-inside-growing-ai-religious-movement",
-        "source": "Decrypt",
-        "weight": 0.111,
-        "score": -0.9333
+        "title": "ETH down -9.1% 24h — plunge",
+        "url": "https://www.binance.com/en/trade/ETH_USDT",
+        "source": "Binance 24h",
+        "weight": 0.9599,
+        "score": -0.6333
       }
-    ]
+    ],
+    "market_movers": {
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.7062753422167783,
+          "price_change_24h": 0.02063
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.35259045334046135,
+          "price_change_24h": 0.00165
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.32080220393887193,
+          "price_change_24h": 0.01231
+        }
+      ],
+      "momentum_shifts": []
+    }
   },
   "notes": {
     "warnings": []

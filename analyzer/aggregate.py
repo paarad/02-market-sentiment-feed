@@ -41,6 +41,9 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
     now = utcnow()
     items = dedupe_items(items)
 
+    # Check if this is a daily recap run (19:45 UTC = 20:45 London time)
+    is_daily_recap = now.hour == 19 and now.minute >= 45 and now.minute < 55  # Within 10 minutes of 19:45 UTC
+    
     # Generate comprehensive market indicators
     market_indicators = generate_market_indicators()
 
@@ -110,6 +113,7 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
         
         # Enhanced market indicators
         "market_indicators": {
+            
             # Price performance
             "btc_price": market_indicators.get("btc_price", 0),
             "btc_change_24h": round(market_indicators.get("btc_change_24h", 0), 2),
@@ -117,7 +121,7 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
             "eth_change_24h": round(market_indicators.get("eth_change_24h", 0), 2),
             
             # Market regime
-            "regime": market_indicators.get("market_regime", "unknown"),
+            "market_regime": market_indicators.get("market_regime", "unknown"),
             "regime_strength": round(market_indicators.get("regime_strength", 0), 3),
             "market_breadth": round(market_indicators.get("market_breadth_24h", 0), 3),
             
@@ -165,6 +169,18 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
     result = {
         "version": "v1",
         "updated_at": updated_at,
+        
+        # Normalized indicators (your requested format)
+        "indicators": {
+            "change24h": market_indicators.get("change24h", 0),
+            "vol": market_indicators.get("vol", 0.5),
+            "fearGreed": market_indicators.get("fearGreed", 50),
+            "momentum": market_indicators.get("momentum", 0),
+            "regime": market_indicators.get("regime", "chop"),
+            "activity": market_indicators.get("activity", 0.5),
+            "dominance": market_indicators.get("dominance", "mixed")
+        },
+        
         "summary": summary,
         "history": history,
         "drivers": {
@@ -177,5 +193,45 @@ def aggregate(items: List[Dict], history: List[Dict]) -> Dict:
         },
         "notes": {"warnings": []},
     }
+    
+    # Add daily recap if it's the recap time
+    if is_daily_recap:
+        # Get last 24 hours of history (6 entries at 4-hour intervals)
+        last_24h = history[-6:] if len(history) >= 6 else history
+        
+        # Calculate 24h summary
+        if last_24h:
+            crypto_24h = [entry.get("crypto", 0.5) for entry in last_24h]
+            global_24h = [entry.get("global", 0.5) for entry in last_24h]
+            combined_24h = [entry.get("combined", 0.5) for entry in last_24h]
+            
+            daily_recap = {
+                "date": now.strftime("%Y-%m-%d"),
+                "period": "24h",
+                "summary": {
+                    "crypto_avg": round(sum(crypto_24h) / len(crypto_24h), 4),
+                    "crypto_high": round(max(crypto_24h), 4),
+                    "crypto_low": round(min(crypto_24h), 4),
+                    "global_avg": round(sum(global_24h) / len(global_24h), 4),
+                    "global_high": round(max(global_24h), 4),
+                    "global_low": round(min(global_24h), 4),
+                    "combined_avg": round(sum(combined_24h) / len(combined_24h), 4),
+                    "combined_high": round(max(combined_24h), 4),
+                    "combined_low": round(min(combined_24h), 4),
+                },
+                "market_indicators_24h": {
+                    "change24h": market_indicators.get("change24h", 0),
+                    "vol": market_indicators.get("vol", 0.5),
+                    "fearGreed": market_indicators.get("fearGreed", 50),
+                    "momentum": market_indicators.get("momentum", 0),
+                    "regime": market_indicators.get("regime", "chop"),
+                    "activity": market_indicators.get("activity", 0.5),
+                    "dominance": market_indicators.get("dominance", "mixed"),
+                },
+                "entries_count": len(last_24h),
+                "generated_at": updated_at
+            }
+            
+            result["daily_recap"] = daily_recap
 
     return result 

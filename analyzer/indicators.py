@@ -258,6 +258,84 @@ def calculate_dominance_metrics(coins_data: List[Dict]) -> Dict:
     except Exception:
         return {}
 
+def normalize_change_24h(avg_change: float) -> float:
+    """Normalize 24h change to -1 to +1 scale"""
+    # Clamp to reasonable bounds and normalize
+    clamped = max(-50, min(50, avg_change))
+    return clamped / 50.0
+
+def calculate_volatility(coins_data: List[Dict]) -> float:
+    """Calculate market volatility (0 to 1)"""
+    if not coins_data:
+        return 0.5
+    
+    try:
+        # Calculate standard deviation of 24h changes
+        changes = [coin.get("price_change_percentage_24h", 0) for coin in coins_data[:20]]
+        if not changes:
+            return 0.5
+        
+        mean = sum(changes) / len(changes)
+        variance = sum((x - mean) ** 2 for x in changes) / len(changes)
+        std_dev = variance ** 0.5
+        
+        # Normalize volatility (0-1 scale, where 1 = very volatile)
+        # Typical crypto volatility ranges from 2% to 15% daily
+        normalized = min(1.0, std_dev / 15.0)
+        return normalized
+    except Exception:
+        return 0.5
+
+def calculate_momentum(coins_data: List[Dict]) -> float:
+    """Calculate market momentum (-1 to +1)"""
+    if not coins_data:
+        return 0.0
+    
+    try:
+        # Compare 24h vs 7d performance to detect momentum
+        changes_24h = [coin.get("price_change_percentage_24h", 0) for coin in coins_data[:20]]
+        changes_7d = [coin.get("price_change_percentage_7d", 0) for coin in coins_data[:20]]
+        
+        if not changes_24h or not changes_7d:
+            return 0.0
+        
+        avg_24h = sum(changes_24h) / len(changes_24h)
+        avg_7d = sum(changes_7d) / len(changes_7d)
+        
+        # Momentum = acceleration (24h rate vs 7d rate)
+        # Normalize to -1 to +1 scale
+        momentum_raw = (avg_24h - avg_7d / 7.0) * 7.0  # Daily acceleration
+        normalized = max(-1.0, min(1.0, momentum_raw / 20.0))  # Scale factor
+        
+        return normalized
+    except Exception:
+        return 0.0
+
+def calculate_onchain_activity() -> float:
+    """Calculate on-chain activity level (0 to 1)"""
+    try:
+        # This would ideally use blockchain data APIs
+        # For now, we'll use a proxy based on volume and market activity
+        # In a real implementation, you'd fetch:
+        # - Daily active addresses
+        # - Transaction count
+        # - Gas usage
+        # - DeFi TVL changes
+        
+        # Placeholder implementation
+        return 0.6  # Moderate activity level
+    except Exception:
+        return 0.5
+
+def determine_dominance(btc_dominance: float, eth_dominance: float, alt_season_score: float) -> str:
+    """Determine market dominance"""
+    if btc_dominance > 50:
+        return "btc"
+    elif eth_dominance > 20 and alt_season_score > 60:
+        return "eth"
+    else:
+        return "mixed"
+
 def generate_market_indicators() -> Dict:
     """Generate comprehensive market indicators combining all data sources"""
     
@@ -276,10 +354,34 @@ def generate_market_indicators() -> Dict:
     btc_data = next((coin for coin in coins_data if coin.get("symbol", "").lower() == "btc"), {})
     eth_data = next((coin for coin in coins_data if coin.get("symbol", "").lower() == "eth"), {})
     
+    # Calculate normalized indicators
+    avg_change_24h = regime.get("avg_change_24h", 0)
+    change24h = normalize_change_24h(avg_change_24h)
+    vol = calculate_volatility(coins_data)
+    fear_greed_value = fear_greed.get("current_value", 50)
+    momentum = calculate_momentum(coins_data)
+    regime_type = regime.get("regime", "chop")
+    onchain_activity = calculate_onchain_activity()
+    dominance_type = determine_dominance(
+        dominance.get("btc_dominance", 0),
+        dominance.get("eth_dominance", 0),
+        dominance.get("alt_season_score", 0)
+    )
+    
+    # Enhanced indicators structure
     indicators = {
         "timestamp": utcnow().isoformat(),
         
-        # Price Performance
+        # Normalized indicators (matching your requested format)
+        "change24h": round(change24h, 3),
+        "vol": round(vol, 3),
+        "fearGreed": fear_greed_value,
+        "momentum": round(momentum, 3),
+        "regime": regime_type,
+        "activity": round(onchain_activity, 3),
+        "dominance": dominance_type,
+        
+        # Detailed metrics for UI
         "btc_price": btc_data.get("current_price", 0),
         "btc_change_24h": btc_data.get("price_change_percentage_24h", 0),
         "eth_price": eth_data.get("current_price", 0),

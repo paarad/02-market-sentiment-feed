@@ -3,8 +3,8 @@ name: Update Market Sentiment Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # every 12 hours
-    # - cron: '0 */4 * * *' # 4-hour cadence option
+    - cron: '0 */4 * * *'   # every 4 hours
+    - cron: '45 19 * * *'   # daily recap at 19:45 UTC (20:45 London time)
 
 jobs:
   build-and-publish:
