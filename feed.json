@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-26T02:00:08.586210+00:00",
+  "updated_at": "2025-08-26T04:30:10.664737+00:00",
   "indicators": {
-    "change24h": -0.103,
-    "vol": 0.195,
+    "change24h": -0.099,
+    "vol": 0.201,
     "fearGreed": 48,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4008,
-    "global_sentiment": 0.4409,
-    "combined_sentiment": 0.4207,
-    "confidence": 0.7589,
+    "crypto_sentiment": 0.3977,
+    "global_sentiment": 0.4643,
+    "combined_sentiment": 0.4203,
+    "confidence": 0.7406,
     "counts": {
       "crypto": 67,
-      "global": 33
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 109859,
-      "btc_change_24h": -2.8,
-      "eth_price": 4418.44,
-      "eth_change_24h": -6.56,
+      "btc_price": 110094,
+      "btc_change_24h": -2.3,
+      "eth_price": 4426.09,
+      "eth_change_24h": -6.13,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 303566152446,
-        "high_activity_coins": 3
+        "volume_24h": 300482086534,
+        "high_activity_coins": 2
       },
       "dominance": {
         "btc_dominance": 56.55,
@@ -338,71 +338,76 @@
         "crypto": 67,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-08-26T04:30:10.664737+00:00",
+      "crypto": 0.3977,
+      "global": 0.4643,
+      "combined": 0.4203,
+      "counts": {
+        "crypto": 67,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Wall St ends down with focus on Nvidia after last week's rally",
-        "url": "https://finance.yahoo.com/video/wall-st-ends-down-focus-220524204.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5091,
-        "score": 1.0
-      },
-      {
-        "title": "China Stocks Are Sending Warning Signs on Liquidity-Driven Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-25/china-stocks-are-sending-warning-signs-on-liquidity-driven-rally",
+        "title": "Australia Hot Market Shows No Mercy for Earnings Misses",
+        "url": "https://www.bloomberg.com/news/videos/2025-08-26/australia-hot-market-shows-no-mercy-for-earnings-misses-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5655,
+        "weight": 0.7174,
         "score": 0.8667
       },
       {
-        "title": "Libra Wallets Linked to Hayden Davis Made $12 Million on Kanye West's Meme Coin",
-        "url": "https://decrypt.co/336762/libra-wallets-linked-hayden-davis-made-12-million-kanye-west-meme-coin",
-        "source": "Decrypt",
-        "weight": 0.424,
-        "score": 0.6667
+        "title": "A Hot Arbitrage Trade Has Made Hong Kong Jeweler a Top Short-Seller Target",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/hot-convertible-arb-trade-makes-chow-tai-fook-a-top-short-target",
+        "source": "Bloomberg Markets",
+        "weight": 0.6345,
+        "score": 0.6333
+      },
+      {
+        "title": "Wall St ends down with focus on Nvidia after last week's rally",
+        "url": "https://finance.yahoo.com/video/wall-st-ends-down-focus-220524204.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3814,
+        "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Hungary to Stick to Cautious Key Rate Policy",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/hungary-to-stick-to-cautious-key-rate-policy-decision-guide",
+        "source": "Bloomberg Markets",
+        "weight": 0.7548,
+        "score": -1.0
+      },
+      {
+        "title": "Crypto liquidations hit $900M as Bitcoin sheds Jackson Hole gains",
+        "url": "https://cointelegraph.com/news/crypto-liquidations-hit-900m-bitcoin-sheds-jackson-hole-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6105,
+        "score": -0.6333
+      },
+      {
         "title": "Canary Capital files &#039;American-Made&#039; crypto ETF amid SEC delays",
         "url": "https://cointelegraph.com/news/canary-capital-files-american-made-crypto-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5237,
+        "weight": 0.3923,
         "score": -0.9667
-      },
-      {
-        "title": "RBA Minutes Show Pace of Future Easing Will Depend on Data",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-26/rba-minutes-show-pace-of-future-easing-will-depend-on-data",
-        "source": "Bloomberg Markets",
-        "weight": 0.7549,
-        "score": -0.6667
-      },
-      {
-        "title": "Indian Long-Bond Bull Turns Seller as Supply Concerns Mount",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-26/indian-long-bond-bull-turns-seller-as-supply-concerns-mount",
-        "source": "Bloomberg Markets",
-        "weight": 0.7549,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7408183536765369,
-          "price_change_24h": 0.02809
+          "volume_mcap_ratio": 0.7401181927793341,
+          "price_change_24h": 0.03387
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.3455483120438257,
-          "price_change_24h": -0.00328
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.30367689500506956,
-          "price_change_24h": -0.01799
+          "volume_mcap_ratio": 0.34330522219308035,
+          "price_change_24h": 0.00185
         }
       ],
       "momentum_shifts": []
