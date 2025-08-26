@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-26T04:30:10.664737+00:00",
+  "updated_at": "2025-08-26T08:34:33.651531+00:00",
   "indicators": {
-    "change24h": -0.099,
-    "vol": 0.201,
+    "change24h": -0.052,
+    "vol": 0.141,
     "fearGreed": 48,
-    "momentum": -1.0,
+    "momentum": -0.903,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3977,
-    "global_sentiment": 0.4643,
-    "combined_sentiment": 0.4203,
-    "confidence": 0.7406,
+    "crypto_sentiment": 0.3613,
+    "global_sentiment": 0.3424,
+    "combined_sentiment": 0.3828,
+    "confidence": 0.7122,
     "counts": {
-      "crypto": 67,
-      "global": 32
+      "crypto": 62,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 110094,
-      "btc_change_24h": -2.3,
-      "eth_price": 4426.09,
-      "eth_change_24h": -6.13,
+      "btc_price": 110053,
+      "btc_change_24h": -1.4,
+      "eth_price": 4411.53,
+      "eth_change_24h": -4.01,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 300482086534,
+        "volume_24h": 274022408964,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -348,66 +348,76 @@
         "crypto": 67,
         "global": 32
       }
+    },
+    {
+      "ts": "2025-08-26T08:34:33.651531+00:00",
+      "crypto": 0.3613,
+      "global": 0.3424,
+      "combined": 0.3828,
+      "counts": {
+        "crypto": 62,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Australia Hot Market Shows No Mercy for Earnings Misses",
-        "url": "https://www.bloomberg.com/news/videos/2025-08-26/australia-hot-market-shows-no-mercy-for-earnings-misses-video",
+        "title": "China's M&A to Be More Active in Second Half, PWC Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-08-26/china-s-m-a-to-be-more-active-in-second-half-pwc-says",
         "source": "Bloomberg Markets",
-        "weight": 0.7174,
-        "score": 0.8667
-      },
-      {
-        "title": "A Hot Arbitrage Trade Has Made Hong Kong Jeweler a Top Short-Seller Target",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-26/hot-convertible-arb-trade-makes-chow-tai-fook-a-top-short-target",
-        "source": "Bloomberg Markets",
-        "weight": 0.6345,
-        "score": 0.6333
+        "weight": 0.5993,
+        "score": 0.5333
       },
       {
         "title": "Wall St ends down with focus on Nvidia after last week's rally",
         "url": "https://finance.yahoo.com/video/wall-st-ends-down-focus-220524204.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3814,
+        "weight": 0.2382,
         "score": 1.0
+      },
+      {
+        "title": "Gemini flips Coinbase on app store after XRP Mastercard launch",
+        "url": "https://cointelegraph.com/news/crypto-exchange-gemini-coinbase-app-store-xrp-mastercard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7095,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Hungary to Stick to Cautious Key Rate Policy",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-26/hungary-to-stick-to-cautious-key-rate-policy-decision-guide",
+        "title": "French Market Stress Enters Second Day as Political Fears Mount",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/french-assets-fall-for-a-second-day-as-political-concerns-mount",
         "source": "Bloomberg Markets",
-        "weight": 0.7548,
+        "weight": 0.6483,
         "score": -1.0
       },
       {
-        "title": "Crypto liquidations hit $900M as Bitcoin sheds Jackson Hole gains",
-        "url": "https://cointelegraph.com/news/crypto-liquidations-hit-900m-bitcoin-sheds-jackson-hole-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6105,
+        "title": "Swiss Manufacturers See US Tariffs Worsening a ‘Downward Spiral’",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/swiss-manufacturers-see-us-tariffs-worsening-a-downward-spiral",
+        "source": "Bloomberg Markets",
+        "weight": 0.7485,
         "score": -0.6333
       },
       {
-        "title": "Canary Capital files &#039;American-Made&#039; crypto ETF amid SEC delays",
-        "url": "https://cointelegraph.com/news/canary-capital-files-american-made-crypto-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Tom Lee calls Ether bottom ‘in next few hours’ as BitMine buys 4,871 ETH",
+        "url": "https://cointelegraph.com/news/tom-lee-eth-will-bottom-within-hours-bitmine-buys-more?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3923,
-        "score": -0.9667
+        "weight": 0.6637,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7401181927793341,
-          "price_change_24h": 0.03387
+          "volume_mcap_ratio": 0.6944618166495315,
+          "price_change_24h": 0.02009
         },
         {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.34330522219308035,
-          "price_change_24h": 0.00185
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.30396087965771346,
+          "price_change_24h": 0.14716
         }
       ],
       "momentum_shifts": []
