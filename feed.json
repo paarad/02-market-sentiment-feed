@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-25T21:41:48.667678+00:00",
+  "updated_at": "2025-08-26T02:00:08.586210+00:00",
   "indicators": {
-    "change24h": -0.131,
-    "vol": 0.243,
-    "fearGreed": 47,
+    "change24h": -0.103,
+    "vol": 0.195,
+    "fearGreed": 48,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4141,
-    "global_sentiment": 0.5121,
-    "combined_sentiment": 0.4366,
-    "confidence": 0.8263,
+    "crypto_sentiment": 0.4008,
+    "global_sentiment": 0.4409,
+    "combined_sentiment": 0.4207,
+    "confidence": 0.7589,
     "counts": {
-      "crypto": 68,
-      "global": 45
+      "crypto": 67,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 109993,
-      "btc_change_24h": -2.7,
-      "eth_price": 4366.04,
-      "eth_change_24h": -9.21,
+      "btc_price": 109859,
+      "btc_change_24h": -2.8,
+      "eth_price": 4418.44,
+      "eth_change_24h": -6.56,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.05,
       "fear_greed": {
-        "value": 47,
+        "value": 48,
         "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 288227741251,
+        "volume_24h": 303566152446,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -328,52 +328,62 @@
         "crypto": 68,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-08-26T02:00:08.586210+00:00",
+      "crypto": 0.4008,
+      "global": 0.4409,
+      "combined": 0.4207,
+      "counts": {
+        "crypto": 67,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "NIO Stock Drops After Surging. What’s Behind the Unusual Moves.",
-        "url": "https://finance.yahoo.com/m/97bbe8e9-4338-3f04-b088-4a6c85004bb4/nio-stock-drops-after.html?.tsrc=rss",
+        "title": "Wall St ends down with focus on Nvidia after last week's rally",
+        "url": "https://finance.yahoo.com/video/wall-st-ends-down-focus-220524204.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6874,
+        "weight": 0.5091,
         "score": 1.0
+      },
+      {
+        "title": "China Stocks Are Sending Warning Signs on Liquidity-Driven Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-25/china-stocks-are-sending-warning-signs-on-liquidity-driven-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.5655,
+        "score": 0.8667
       },
       {
         "title": "Libra Wallets Linked to Hayden Davis Made $12 Million on Kanye West's Meme Coin",
         "url": "https://decrypt.co/336762/libra-wallets-linked-hayden-davis-made-12-million-kanye-west-meme-coin",
         "source": "Decrypt",
-        "weight": 0.6972,
-        "score": 0.6667
-      },
-      {
-        "title": "How major US stock indexes fared Monday, 8/25/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-202602974.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6914,
+        "weight": 0.424,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Global regulators, exchanges push back on tokenized stocks in SEC letter",
-        "url": "https://cointelegraph.com/news/global-regulators-crackdown-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Canary Capital files &#039;American-Made&#039; crypto ETF amid SEC delays",
+        "url": "https://cointelegraph.com/news/canary-capital-files-american-made-crypto-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6328,
-        "score": -1.0
-      },
-      {
-        "title": "Data Centers to Propel Infra Securitizations Past $110 Billion by 2026 End",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-25/data-centers-to-propel-infra-securitizations-past-110-billion-by-2026-end",
-        "source": "Bloomberg Markets",
-        "weight": 0.636,
+        "weight": 0.5237,
         "score": -0.9667
       },
       {
-        "title": "ETH down -9.1% 24h — plunge",
-        "url": "https://www.binance.com/en/trade/ETH_USDT",
-        "source": "Binance 24h",
-        "weight": 0.9599,
+        "title": "RBA Minutes Show Pace of Future Easing Will Depend on Data",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/rba-minutes-show-pace-of-future-easing-will-depend-on-data",
+        "source": "Bloomberg Markets",
+        "weight": 0.7549,
+        "score": -0.6667
+      },
+      {
+        "title": "Indian Long-Bond Bull Turns Seller as Supply Concerns Mount",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/indian-long-bond-bull-turns-seller-as-supply-concerns-mount",
+        "source": "Bloomberg Markets",
+        "weight": 0.7549,
         "score": -0.6333
       }
     ],
@@ -381,18 +391,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7062753422167783,
-          "price_change_24h": 0.02063
+          "volume_mcap_ratio": 0.7408183536765369,
+          "price_change_24h": 0.02809
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.35259045334046135,
-          "price_change_24h": 0.00165
+          "volume_mcap_ratio": 0.3455483120438257,
+          "price_change_24h": -0.00328
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.32080220393887193,
-          "price_change_24h": 0.01231
+          "volume_mcap_ratio": 0.30367689500506956,
+          "price_change_24h": -0.01799
         }
       ],
       "momentum_shifts": []
