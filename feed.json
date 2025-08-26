@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-26T16:30:50.946364+00:00",
+  "updated_at": "2025-08-26T19:53:43.156460+00:00",
   "indicators": {
-    "change24h": -0.034,
-    "vol": 0.074,
+    "change24h": 0.041,
+    "vol": 0.145,
     "fearGreed": 48,
-    "momentum": -0.597,
-    "regime": "bear",
+    "momentum": 0.714,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3749,
-    "global_sentiment": 0.3828,
-    "combined_sentiment": 0.3964,
-    "confidence": 0.8318,
+    "crypto_sentiment": 0.3853,
+    "global_sentiment": 0.4678,
+    "combined_sentiment": 0.4113,
+    "confidence": 0.8236,
     "counts": {
-      "crypto": 64,
-      "global": 40
+      "crypto": 65,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 109707,
-      "btc_change_24h": -2.63,
-      "eth_price": 4518.19,
-      "eth_change_24h": -2.24,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 111118,
+      "btc_change_24h": -0.03,
+      "eth_price": 4587.79,
+      "eth_change_24h": 2.8,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 267446401634,
-        "high_activity_coins": 1
+        "volume_24h": 273950412246,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.12,
+        "btc_dominance": 56.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -378,61 +378,76 @@
         "crypto": 64,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-08-26T19:53:43.156460+00:00",
+      "crypto": 0.3853,
+      "global": 0.4678,
+      "combined": 0.4113,
+      "counts": {
+        "crypto": 65,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Apple announces launch event on Sept. 9, iPhone 17 expected",
-        "url": "https://www.cnbc.com/2025/08/26/apple-announces-iphone-launch-on-sept-9-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7819,
-        "score": 0.6667
-      },
-      {
-        "title": "T. Rowe Price CEO Sees No Signs of Recession in US",
-        "url": "https://www.bloomberg.com/news/videos/2025-08-26/t-rowe-price-ceo-sees-no-signs-of-recession-in-us-video",
+        "title": "London Listing Switch Poised to Give Metlen a FTSE 100 Spot",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-26/london-listing-switch-poised-to-give-metlen-a-ftse-100-berth",
         "source": "Bloomberg Markets",
-        "weight": 0.6182,
-        "score": 0.6667
+        "weight": 0.6901,
+        "score": 0.9667
       },
       {
-        "title": "Filecoin Rebounds 6% From Lows in Bullish Reversal",
-        "url": "https://www.coindesk.com/markets/2025/08/26/filecoin-rebounds-6-from-lows-in-bullish-reversal",
-        "source": "CoinDesk",
-        "weight": 0.7495,
+        "title": "Global crypto market cap up 1.0% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "US Undiscovered Gems To Watch In August 2025",
+        "url": "https://finance.yahoo.com/news/us-undiscovered-gems-watch-august-173443854.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6121,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "CRYPTO FALLS, HYPE LEADS L1S, NVIDIA RESULTS TODAY",
-        "url": "https://decrypt.co/videos/interviews/vuaTtNr4/crypto-falls-hype-leads-l1s-nvidia-results-today",
+        "title": "STRATEGY BUYS $357M IN BTC, ETH INFLOWS $1B+ IN 3 DAYS, NEW SOLANA DATS",
+        "url": "https://decrypt.co/videos/interviews/bhLq6WjM/strategy-buys-357m-in-btc-eth-inflows-1b-in-3-days-new-solana-dats",
         "source": "Decrypt",
-        "weight": 0.7415,
+        "weight": 0.7545,
         "score": -1.0
       },
       {
-        "title": "The Back-to-School Spending Bust",
-        "url": "https://www.bloomberg.com/news/videos/2025-08-26/the-back-to-school-spending-bust-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7423,
-        "score": -0.9667
+        "title": "Kanye West Meme Coin Down 81% From Peak as Rapper Says Instagram Hacked for Scam",
+        "url": "https://decrypt.co/336897/kanye-west-meme-coin-down-rapper-says-instagram-hacked-scam",
+        "source": "Decrypt",
+        "weight": 0.8339,
+        "score": -0.7333
       },
       {
-        "title": "Stocks Shrug Off Trump's Bid to Remove Fed's Cook",
-        "url": "https://finance.yahoo.com/m/7e201beb-139d-37cb-a4b6-94efa0822eba/stocks-shrug-off-trump%27s-bid.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6264,
-        "score": -0.9333
+        "title": "CRYPTO FALLS, HYPE LEADS L1S, NVIDIA RESULTS TODAY",
+        "url": "https://decrypt.co/videos/interviews/vuaTtNr4/crypto-falls-hype-leads-l1s-nvidia-results-today",
+        "source": "Decrypt",
+        "weight": 0.5017,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6730393198463205,
-          "price_change_24h": 0.00947
+          "volume_mcap_ratio": 0.6775824655559876,
+          "price_change_24h": 0.02183
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.3272301846698533,
+          "price_change_24h": 0.00317
         }
       ],
       "momentum_shifts": []
@@ -440,5 +455,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-08-26",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3629,
+      "crypto_high": 0.4008,
+      "crypto_low": 0.2576,
+      "global_avg": 0.4152,
+      "global_high": 0.4678,
+      "global_low": 0.3424,
+      "combined_avg": 0.3901,
+      "combined_high": 0.4207,
+      "combined_low": 0.3093
+    },
+    "market_indicators_24h": {
+      "change24h": 0.041,
+      "vol": 0.145,
+      "fearGreed": 48,
+      "momentum": 0.714,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-08-26T19:53:43.156460+00:00"
   }
 }
