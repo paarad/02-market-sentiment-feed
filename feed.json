@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-27T12:51:41.062497+00:00",
+  "updated_at": "2025-08-27T16:31:21.962074+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.146,
+    "change24h": 0.043,
+    "vol": 0.158,
     "fearGreed": 51,
-    "momentum": 0.491,
+    "momentum": 0.746,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5582,
-    "global_sentiment": 0.4649,
-    "combined_sentiment": 0.5407,
-    "confidence": 0.7948,
+    "crypto_sentiment": 0.5492,
+    "global_sentiment": 0.4148,
+    "combined_sentiment": 0.5298,
+    "confidence": 0.8067,
     "counts": {
-      "crypto": 67,
-      "global": 38
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 111141,
-      "btc_change_24h": 0.49,
-      "eth_price": 4595.5,
-      "eth_change_24h": 1.52,
+      "btc_price": 111799,
+      "btc_change_24h": 1.89,
+      "eth_price": 4625.95,
+      "eth_change_24h": 2.47,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.85,
       "fear_greed": {
         "value": 51,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 210555905039,
+        "volume_24h": 209387832008,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.08,
+        "btc_dominance": 56.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -438,61 +438,71 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-08-27T16:31:21.962074+00:00",
+      "crypto": 0.5492,
+      "global": 0.4148,
+      "combined": 0.5298,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bloomberg Wealth: Robert W. Sharps",
+        "url": "https://www.bloomberg.com/news/videos/2025-08-27/bloomberg-wealth-robert-w-sharps-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6065,
+        "score": 1.0
+      },
+      {
         "title": "Why 2.2 million verified identities could reshape who profits most in Lido ETH staking",
         "url": "https://cryptoslate.com/why-2-2-million-verified-identities-could-reshape-who-profits-most-in-lido-eth-staking/",
         "source": "CryptoSlate",
-        "weight": 0.8309,
+        "weight": 0.5443,
         "score": 1.0
       },
       {
-        "title": "DevvStream Regains Compliance with Nasdaq Listing Requirements",
-        "url": "https://finance.yahoo.com/news/devvstream-regains-compliance-nasdaq-listing-120300096.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7284,
-        "score": 0.9667
-      },
-      {
-        "title": "China Life Says Profit Rises as Investment Returns Expand",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-27/china-life-profit-rises-as-premium-investment-returns-expand",
-        "source": "Bloomberg Markets",
-        "weight": 0.5632,
-        "score": 1.0
+        "title": "Hyperliquid whales net $48M on 200% XPL rally, amid manipulation allegations",
+        "url": "https://cointelegraph.com/news/plasma-xpl-whale-manipulation-hyperliquid-justin-sun?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5872,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Dogecoin whales de-risk as DOGE price is in danger of dropping 45%",
-        "url": "https://cointelegraph.com/news/dogecoin-whales-de-risk-doge-price-dropping-45-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8046,
+        "title": "Cardano Gains 2%, Shrugs Off ETF Delay",
+        "url": "https://www.coindesk.com/markets/2025/08/27/cardano-spikes-on-fed-cut-bets-shrugs-off-etf-delay",
+        "source": "CoinDesk",
+        "weight": 0.8774,
+        "score": -0.9333
+      },
+      {
+        "title": "Once Booming AT1 Market Is Down to Just One Bond in Brazil",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-27/once-booming-at1-market-is-down-to-just-one-bond-in-brazil",
+        "source": "Bloomberg Markets",
+        "weight": 0.671,
         "score": -1.0
       },
       {
-        "title": "Trump’s ‘Open War’ on US Institutional Framework: Cornell’s Prasad",
-        "url": "https://www.bloomberg.com/news/videos/2025-08-27/trump-s-open-war-on-us-institutional-framework-prasad-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6464,
-        "score": -0.9667
-      },
-      {
-        "title": "Abercrombie sales growth slows again, but Hollister surges 19%",
-        "url": "https://www.cnbc.com/2025/08/27/abercrombie-fitch-anf-q2-2025-earnings.html",
-        "source": "CNBC Markets",
-        "weight": 0.7954,
-        "score": -0.6
+        "title": "Bollinger (BINI) Slashes 19.7% on Lack of Leads",
+        "url": "https://finance.yahoo.com/news/bollinger-bini-slashes-19-7-161115556.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7696,
+        "score": -0.8
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5177029430613029,
-          "price_change_24h": 0.00296
+          "volume_mcap_ratio": 0.5006973485976548,
+          "price_change_24h": 0.01369
         }
       ],
       "momentum_shifts": []
