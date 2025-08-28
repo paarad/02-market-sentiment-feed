@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-28T04:29:02.358739+00:00",
+  "updated_at": "2025-08-28T08:32:34.503228+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.086,
+    "change24h": 0.023,
+    "vol": 0.108,
     "fearGreed": 48,
-    "momentum": -0.236,
+    "momentum": 0.398,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4723,
-    "global_sentiment": 0.4641,
-    "combined_sentiment": 0.4762,
-    "confidence": 0.7207,
+    "crypto_sentiment": 0.5455,
+    "global_sentiment": 0.4432,
+    "combined_sentiment": 0.5294,
+    "confidence": 0.7218,
     "counts": {
-      "crypto": 63,
+      "crypto": 59,
       "global": 47
     },
     "market_indicators": {
-      "btc_price": 112263,
-      "btc_change_24h": 0.72,
-      "eth_price": 4555.4,
-      "eth_change_24h": -1.21,
+      "btc_price": 113063,
+      "btc_change_24h": 2.24,
+      "eth_price": 4602.6,
+      "eth_change_24h": 0.87,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 201763168393,
+        "volume_24h": 208420633431,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.26,
+        "btc_dominance": 56.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -488,61 +488,71 @@
         "crypto": 63,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-08-28T08:32:34.503228+00:00",
+      "crypto": 0.5455,
+      "global": 0.4432,
+      "combined": 0.5294,
+      "counts": {
+        "crypto": 59,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Chery Is Said to Near Hong Kong Listing as Billion-Dollar IPOs Return to City",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-28/chery-is-said-to-near-hong-kong-listing-as-billion-dollar-ipos-return-to-city",
+        "title": "Mainland Chinese Traders Sell Record Amount of Hong Kong Stocks",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-28/mainland-chinese-traders-sell-record-amount-of-hong-kong-stocks",
         "source": "Bloomberg Markets",
-        "weight": 0.7195,
-        "score": 0.6333
+        "weight": 0.7748,
+        "score": 0.8667
       },
       {
-        "title": "Global Investors Renew Confidence in China, Says Tech PE Leader",
-        "url": "https://www.bloomberg.com/news/videos/2025-08-28/investor-confidence-returning-to-china-says-pe-fund-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7642,
-        "score": 0.5333
+        "title": "Ether Futures Open Interest on CME Hits Record $10B, Hinting at Institutional Resurgence",
+        "url": "https://www.coindesk.com/markets/2025/08/28/ether-futures-open-interest-on-cme-hits-record-usd10b-hinting-at-institutional-resurgence",
+        "source": "CoinDesk",
+        "weight": 0.6771,
+        "score": 0.8667
       },
       {
-        "title": "Record State Borrowing Spree Pushes Indian Bond Yields Higher",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-28/record-state-borrowing-spree-pushes-indian-bond-yields-higher",
-        "source": "Bloomberg Markets",
-        "weight": 0.5905,
+        "title": "Solana DEX Traders Continue to Decline Amid Rise in Meme Coin Scams",
+        "url": "https://decrypt.co/337157/solana-dex-traders-decline-meme-coin-scams",
+        "source": "Decrypt",
+        "weight": 0.8198,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Stada CEO Says IPO Planned This Year in Boost to European Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-28/stada-ceo-says-ipo-planned-this-year-in-boost-to-european-market",
+        "title": "First European ‘Defense Bond’ Sale Aims to Tap Investor Frenzy",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-28/first-european-defense-bond-sale-aims-to-tap-investor-frenzy",
         "source": "Bloomberg Markets",
-        "weight": 0.7565,
+        "weight": 0.6742,
+        "score": -0.9667
+      },
+      {
+        "title": "Ethereum is very much ‘the Wall Street token,’ VanEck CEO says",
+        "url": "https://cointelegraph.com/news/vaneck-ceo-calls-ethereum-the-wall-street-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.62,
         "score": -1.0
       },
       {
-        "title": "Fenwick denies claims it was key to the multibillion-dollar FTX fraud",
-        "url": "https://cointelegraph.com/news/fenwick-denies-lawsuit-claming-it-was-key-ftx-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7364,
-        "score": -1.0
-      },
-      {
-        "title": "Criminals are ‘vibe hacking’ with AI at unprecedented levels: Anthropic",
-        "url": "https://cointelegraph.com/news/cybercriminals-vibe-hacking-ai-ransoms-says-anthropic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6772,
-        "score": -0.7333
+        "title": "Undermining Fed Independence Creates Big Risks, ECB’s Rehn Warns",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-28/undermining-fed-independence-creates-big-risks-ecb-s-rehn-warns",
+        "source": "Bloomberg Markets",
+        "weight": 0.7586,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47957470089602383,
-          "price_change_24h": -0.00052
+          "volume_mcap_ratio": 0.4994769618108887,
+          "price_change_24h": 0.00744
         }
       ],
       "momentum_shifts": []
