@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-28T08:32:34.503228+00:00",
+  "updated_at": "2025-08-28T12:51:40.324106+00:00",
   "indicators": {
-    "change24h": 0.023,
-    "vol": 0.108,
+    "change24h": 0.08,
+    "vol": 0.929,
     "fearGreed": 48,
-    "momentum": 0.398,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5455,
-    "global_sentiment": 0.4432,
-    "combined_sentiment": 0.5294,
-    "confidence": 0.7218,
+    "crypto_sentiment": 0.5586,
+    "global_sentiment": 0.4393,
+    "combined_sentiment": 0.5389,
+    "confidence": 0.7588,
     "counts": {
-      "crypto": 59,
-      "global": 47
+      "crypto": 58,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 113063,
-      "btc_change_24h": 2.24,
-      "eth_price": 4602.6,
-      "eth_change_24h": 0.87,
+      "btc_price": 113155,
+      "btc_change_24h": 1.79,
+      "eth_price": 4608.66,
+      "eth_change_24h": 0.25,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 208420633431,
+        "volume_24h": 207656716689,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.23,
+        "btc_dominance": 56.19,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -498,61 +498,71 @@
         "crypto": 59,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-08-28T12:51:40.324106+00:00",
+      "crypto": 0.5586,
+      "global": 0.4393,
+      "combined": 0.5389,
+      "counts": {
+        "crypto": 58,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Mainland Chinese Traders Sell Record Amount of Hong Kong Stocks",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-28/mainland-chinese-traders-sell-record-amount-of-hong-kong-stocks",
-        "source": "Bloomberg Markets",
-        "weight": 0.7748,
-        "score": 0.8667
+        "title": "HeartCore Regains Compliance with Nasdaq Minimum Stockholders’ Equity Requirement",
+        "url": "https://finance.yahoo.com/news/heartcore-regains-compliance-nasdaq-minimum-123000381.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7673,
+        "score": 1.0
       },
       {
-        "title": "Ether Futures Open Interest on CME Hits Record $10B, Hinting at Institutional Resurgence",
-        "url": "https://www.coindesk.com/markets/2025/08/28/ether-futures-open-interest-on-cme-hits-record-usd10b-hinting-at-institutional-resurgence",
-        "source": "CoinDesk",
-        "weight": 0.6771,
-        "score": 0.8667
+        "title": "IMUNON Successfully Regains Compliance with Nasdaq Minimum Bid Price Listing Requirement",
+        "url": "https://finance.yahoo.com/news/imunon-successfully-regains-compliance-nasdaq-120500104.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7312,
+        "score": 0.9667
       },
       {
-        "title": "Solana DEX Traders Continue to Decline Amid Rise in Meme Coin Scams",
-        "url": "https://decrypt.co/337157/solana-dex-traders-decline-meme-coin-scams",
-        "source": "Decrypt",
-        "weight": 0.8198,
-        "score": 0.6667
+        "title": "Solana price rises to 6-month high on optimism over Alpenglow upgrade",
+        "url": "https://cryptoslate.com/solana-price-rises-to-6-month-high-on-optimism-over-alpenglow-upgrade/",
+        "source": "CryptoSlate",
+        "weight": 0.5559,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "First European ‘Defense Bond’ Sale Aims to Tap Investor Frenzy",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-28/first-european-defense-bond-sale-aims-to-tap-investor-frenzy",
-        "source": "Bloomberg Markets",
-        "weight": 0.6742,
-        "score": -0.9667
-      },
-      {
-        "title": "Ethereum is very much ‘the Wall Street token,’ VanEck CEO says",
-        "url": "https://cointelegraph.com/news/vaneck-ceo-calls-ethereum-the-wall-street-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin ignores new ‘OG’ whale selling as BTC price hits $113K",
+        "url": "https://cointelegraph.com/news/bitcoin-ignores-new-og-whale-selling-btc-price-hits-113k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.62,
+        "weight": 0.6513,
         "score": -1.0
       },
       {
-        "title": "Undermining Fed Independence Creates Big Risks, ECB’s Rehn Warns",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-28/undermining-fed-independence-creates-big-risks-ecb-s-rehn-warns",
+        "title": "Nasdaq futures flat as Nvidia slips on China market uncertainty",
+        "url": "https://finance.yahoo.com/news/nasdaq-futures-flat-nvidia-slips-101420771.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5909,
+        "score": -1.0
+      },
+      {
+        "title": "Bond Market Bonanza Leaves Investors With Razor-Thin Safety Net",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-28/credit-market-fomo-leaves-investors-with-razor-thin-safety-net",
         "source": "Bloomberg Markets",
-        "weight": 0.7586,
-        "score": -0.6667
+        "weight": 0.6091,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4994769618108887,
-          "price_change_24h": 0.00744
+          "volume_mcap_ratio": 0.5004093575891287,
+          "price_change_24h": -0.00256
         }
       ],
       "momentum_shifts": []
