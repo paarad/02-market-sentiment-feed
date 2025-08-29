@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-29T04:29:25.011284+00:00",
+  "updated_at": "2025-08-29T08:32:21.956006+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.118,
+    "change24h": -0.075,
+    "vol": 0.142,
     "fearGreed": 50,
-    "momentum": -0.233,
-    "regime": "sideways",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6099,
-    "global_sentiment": 0.5475,
-    "combined_sentiment": 0.5864,
-    "confidence": 0.7596,
+    "crypto_sentiment": 0.5351,
+    "global_sentiment": 0.5552,
+    "combined_sentiment": 0.5309,
+    "confidence": 0.7624,
     "counts": {
-      "crypto": 68,
-      "global": 41
+      "crypto": 69,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 111701,
-      "btc_change_24h": -0.43,
-      "eth_price": 4495.94,
-      "eth_change_24h": -1.28,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 110058,
+      "btc_change_24h": -2.68,
+      "eth_price": 4363.33,
+      "eth_change_24h": -5.2,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 197947575054,
+        "volume_24h": 205751022184,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.23,
+        "btc_dominance": 56.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -558,61 +558,71 @@
         "crypto": 68,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-08-29T08:32:21.956006+00:00",
+      "crypto": 0.5351,
+      "global": 0.5552,
+      "combined": 0.5309,
+      "counts": {
+        "crypto": 69,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin miner IREN surges 14% on BTC-driven quarter, AI play",
-        "url": "https://cointelegraph.com/news/btc-miner-iren-rises-12-percent-record-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6624,
-        "score": 0.8667
-      },
-      {
-        "title": "Asia upbeat on Wall St boost as markets await US inflation data",
-        "url": "https://finance.yahoo.com/news/asia-upbeat-wall-st-boost-023239753.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6389,
-        "score": 0.8667
-      },
-      {
-        "title": "China’s GEM Posts Record Profit as Indonesia Nickel Output Soars",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-29/china-s-gem-posts-record-profit-as-indonesia-nickel-output-soars",
+        "title": "German Stocks’ Premium Has Investors Demanding Proof of Profits",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-29/german-stocks-premium-has-investors-demanding-proof-of-profits",
         "source": "Bloomberg Markets",
-        "weight": 0.6766,
-        "score": 0.6667
+        "weight": 0.6699,
+        "score": 1.0
+      },
+      {
+        "title": "Pound Strength Leaves UK Companies Adding Hedges as Pain Mounts",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-29/pound-strength-leaves-uk-companies-adding-hedges-as-pain-mounts",
+        "source": "Bloomberg Markets",
+        "weight": 0.7103,
+        "score": 0.8667
+      },
+      {
+        "title": "China’s $1.3 Trillion Stock Surge Intensifies Debate on Outlook",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-29/china-s-1-3-trillion-stock-frenzy-intensifies-debate-on-outlook",
+        "source": "Bloomberg Markets",
+        "weight": 0.6888,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Canadian Firm Luxxfolio Plans $73M Raise to Expand Litecoin Treasury Strategy",
-        "url": "https://decrypt.co/337295/luxxfolio-files-73m-litecoin-treasury-plans",
-        "source": "Decrypt",
-        "weight": 0.7389,
+        "title": "Eli Lilly Partners With China Tech Giant for Obesity Drug Sales",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-29/eli-lilly-partners-with-china-tech-giant-for-obesity-drug-sales",
+        "source": "Bloomberg Markets",
+        "weight": 0.7441,
         "score": -0.9333
       },
       {
-        "title": "SoftBank Sells Hybrid Bond With Japan’s Highest Coupon This Year",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-29/softbank-sets-200b-bond-at-4-556-japan-s-highest-this-year",
+        "title": "FTSE 100 Drops as Banking Stocks Lead Declines",
+        "url": "https://www.bloomberg.com/news/live-blog/2025-08-29/ftse-100-live-taxes-reeves-trump-tariffs-bonds-pound-dollar-oil-what-s-moving-uk-markets-right-now-markets-today-mewes5hc",
         "source": "Bloomberg Markets",
-        "weight": 0.567,
-        "score": -0.6667
+        "weight": 0.5797,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin miners cash out $485M as BTC struggles to hold $112K; Red flag?",
-        "url": "https://cointelegraph.com/news/bitcoin-miners-cash-out-dollar485m-in-btc-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "US banks moved $312B in dirty money, but critics still blame crypto",
+        "url": "https://cointelegraph.com/news/money-launderers-moved-312b-through-us-banks-from-2020-2024?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5689,
-        "score": -0.6
+        "weight": 0.5458,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4708095049767683,
-          "price_change_24h": 0.00867
+          "volume_mcap_ratio": 0.5012614626584055,
+          "price_change_24h": 0.00293
         }
       ],
       "momentum_shifts": []
