@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-29T20:25:52.425529+00:00",
+  "updated_at": "2025-08-30T01:49:46.180622+00:00",
   "indicators": {
-    "change24h": -0.063,
-    "vol": 0.119,
-    "fearGreed": 50,
+    "change24h": -0.061,
+    "vol": 0.11,
+    "fearGreed": 39,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5082,
-    "global_sentiment": 0.3107,
-    "combined_sentiment": 0.4904,
-    "confidence": 0.826,
+    "crypto_sentiment": 0.4041,
+    "global_sentiment": 0.3285,
+    "combined_sentiment": 0.4138,
+    "confidence": 0.8125,
     "counts": {
-      "crypto": 73,
-      "global": 41
+      "crypto": 80,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 107982,
-      "btc_change_24h": -3.66,
-      "eth_price": 4344.05,
-      "eth_change_24h": -2.71,
+      "btc_price": 107990,
+      "btc_change_24h": -3.19,
+      "eth_price": 4318.11,
+      "eth_change_24h": -3.25,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.1,
       "fear_greed": {
-        "value": 50,
-        "classification": "Neutral",
+        "value": 39,
+        "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 243279839558,
+        "volume_24h": 254988892425,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.18,
+        "btc_dominance": 56.22,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -608,61 +608,71 @@
         "crypto": 73,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-08-30T01:49:46.180622+00:00",
+      "crypto": 0.4041,
+      "global": 0.3285,
+      "combined": 0.4138,
+      "counts": {
+        "crypto": 80,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "WHY IS CRYPTO DOWN? ETH LEADS CRYPTO LOWER, PCE INFLATION TODAY",
-        "url": "https://decrypt.co/videos/interviews/2g2O5176/why-is-crypto-down-eth-leads-crypto-lower-pce-inflation-today",
-        "source": "Decrypt",
-        "weight": 0.5578,
-        "score": 1.0
-      },
-      {
-        "title": "Bitwise says Solana next to hit fresh highs as institutional adoption wave matures",
-        "url": "https://cryptoslate.com/bitwise-says-solana-next-to-hit-fresh-highs-as-institutional-adoption-wave-matures/",
-        "source": "CryptoSlate",
-        "weight": 0.6746,
-        "score": 0.6667
-      },
-      {
-        "title": "Troubled Cannabis Operator Schwazze Nears Debt Restructuring",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-29/troubled-cannabis-operator-schwazze-nears-debt-restructuring",
+        "title": "A $23 Trillion Cash Pile Holds Key for Chinese Stocks’ Bull Run",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-30/a-23-trillion-cash-pile-holds-key-for-chinese-stocks-bull-run",
         "source": "Bloomberg Markets",
-        "weight": 0.6371,
-        "score": 0.6667
+        "weight": 0.6476,
+        "score": 0.8667
+      },
+      {
+        "title": "Bitfinex-backed Plasma secures EtherFi partnership with $500 million ETH vault integration",
+        "url": "https://cryptoslate.com/bitfinex-backed-plasma-secures-etherfi-partnership-with-500-million-eth-vault-integration/",
+        "source": "CryptoSlate",
+        "weight": 0.613,
+        "score": 0.5833
+      },
+      {
+        "title": "ETH funding +0.006%",
+        "url": "https://www.binance.com/en/futures/ETHUSDT",
+        "source": "Binance Funding",
+        "weight": 0.96,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "The S&P 500 Falls as Tech Stocks Take It On the Chin",
-        "url": "https://finance.yahoo.com/m/d229c843-a2ae-347a-9a6a-42b7bdb44341/the-s%26p-500-falls-as-tech.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7641,
-        "score": -0.9333
+        "title": "SOL down -5.2% 24h — plunge",
+        "url": "https://www.binance.com/en/trade/SOL_USDT",
+        "source": "Binance 24h",
+        "weight": 0.96,
+        "score": -0.6333
       },
       {
-        "title": "Cloudflare (NET) Stock Trades Down, Here Is Why",
-        "url": "https://finance.yahoo.com/news/cloudflare-net-stock-trades-down-193059510.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7198,
-        "score": -0.9667
+        "title": "ETH down -3.3% 24h — plunge",
+        "url": "https://www.binance.com/en/trade/ETH_USDT",
+        "source": "Binance 24h",
+        "weight": 0.9599,
+        "score": -0.6333
       },
       {
-        "title": "Why Axon (AXON) Stock Is Down Today",
-        "url": "https://finance.yahoo.com/news/why-axon-axon-stock-down-193057739.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7197,
-        "score": -0.9667
+        "title": "BTC down -3.2% 24h — plunge",
+        "url": "https://www.binance.com/en/trade/BTC_USDT",
+        "source": "Binance 24h",
+        "weight": 0.9599,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6121401349231949,
-          "price_change_24h": 0.01522
+          "volume_mcap_ratio": 0.6147410294578717,
+          "price_change_24h": 0.01235
         }
       ],
       "momentum_shifts": []
