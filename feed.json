@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-30T12:45:19.326969+00:00",
+  "updated_at": "2025-08-30T16:27:21.901994+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.098,
+    "change24h": -0.003,
+    "vol": 0.058,
     "fearGreed": 39,
-    "momentum": -0.617,
-    "regime": "bear",
+    "momentum": -0.053,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4135,
-    "global_sentiment": 0.5343,
-    "combined_sentiment": 0.438,
-    "confidence": 0.6289,
+    "crypto_sentiment": 0.4821,
+    "global_sentiment": 0.6076,
+    "combined_sentiment": 0.4956,
+    "confidence": 0.638,
     "counts": {
-      "crypto": 73,
-      "global": 31
+      "crypto": 69,
+      "global": 27
     },
     "market_indicators": {
-      "btc_price": 108434,
-      "btc_change_24h": -1.93,
-      "eth_price": 4354.52,
-      "eth_change_24h": -1.08,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 108710,
+      "btc_change_24h": 0.06,
+      "eth_price": 4362.47,
+      "eth_change_24h": 0.45,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 39,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 210069533094,
+        "volume_24h": 165874393800,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.24,
+        "btc_dominance": 56.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -648,30 +648,40 @@
         "crypto": 73,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-08-30T16:27:21.901994+00:00",
+      "crypto": 0.4821,
+      "global": 0.6076,
+      "combined": 0.4956,
+      "counts": {
+        "crypto": 69,
+        "global": 27
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Longest Rise in UK Home Listings Since 2004 Weighs on Prices",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-30/longest-rise-in-uk-home-listings-since-2004-weighs-on-prices",
-        "source": "Bloomberg Markets",
-        "weight": 0.5184,
-        "score": 0.9667
-      },
-      {
-        "title": "Strategy’s Preferred Shares Form a Bullish Circle Around Bitcoin",
-        "url": "https://www.coindesk.com/markets/2025/08/29/strategy-s-preferred-shares-form-a-bullish-circle-around-bitcoin",
+        "title": "Crypto ETF Surge Could Reshape Market, but Many Products May Fail",
+        "url": "https://www.coindesk.com/markets/2025/08/29/crypto-etf-surge-could-reshape-market-but-many-products-may-fail",
         "source": "CoinDesk",
-        "weight": 0.7067,
+        "weight": 0.753,
         "score": 0.5333
       },
       {
-        "title": "Russian Oil Majors Report Income Dip on Weak Price, Strong Ruble",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-30/russian-oil-majors-report-income-dip-on-weak-price-strong-ruble",
+        "title": "Iran’s Currency Slides After Europe Moves to Reimpose Sanctions",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-30/iran-s-currency-slides-after-europe-moves-to-reimpose-sanctions",
         "source": "Bloomberg Markets",
-        "weight": 0.52,
-        "score": 0.3333
+        "weight": 0.5773,
+        "score": 0.6667
+      },
+      {
+        "title": "Longest Rise in UK Home Listings Since 2004 Weighs on Prices",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-30/longest-rise-in-uk-home-listings-since-2004-weighs-on-prices",
+        "source": "Bloomberg Markets",
+        "weight": 0.3381,
+        "score": 0.9667
       }
     ],
     "negative": [
@@ -683,26 +693,26 @@
         "score": -0.5333
       },
       {
-        "title": "Global crypto market cap down -1.8% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
+        "title": "Trump Taunting Maduro on Venezuela Coast Spurs Questions on Goal",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-30/trump-taunting-maduro-on-venezuela-coast-spurs-questions-on-goal",
+        "source": "Bloomberg Markets",
+        "weight": 0.681,
+        "score": -0.6
       },
       {
-        "title": "El Salvador splits $678M Bitcoin across 14 wallets to reduce quantum risk",
-        "url": "https://cointelegraph.com/news/el-salvador-splits-bitcoin-holdings-across-multiple-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin price loses key multiyear support trendline: A classic BTC fakeout?",
+        "url": "https://cointelegraph.com/news/bitcoin-loses-multiyear-support-trendline-classic-btc-fakeout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3109,
-        "score": -0.6333
+        "weight": 0.6319,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.523732429356786,
-          "price_change_24h": 0.00675
+          "volume_mcap_ratio": 0.4195721615254183,
+          "price_change_24h": -0.00312
         }
       ],
       "momentum_shifts": []
