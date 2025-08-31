@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-31T04:27:55.115802+00:00",
+  "updated_at": "2025-08-31T08:28:23.654613+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.073,
+    "change24h": 0.012,
+    "vol": 0.057,
     "fearGreed": 48,
-    "momentum": 0.318,
+    "momentum": 0.207,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4989,
-    "global_sentiment": 0.6449,
-    "combined_sentiment": 0.5112,
-    "confidence": 0.4703,
+    "crypto_sentiment": 0.5772,
+    "global_sentiment": 0.5769,
+    "combined_sentiment": 0.5643,
+    "confidence": 0.5755,
     "counts": {
-      "crypto": 62,
-      "global": 30
+      "crypto": 66,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 108893,
-      "btc_change_24h": 0.25,
-      "eth_price": 4468.09,
-      "eth_change_24h": 2.32,
+      "btc_price": 108895,
+      "btc_change_24h": 0.16,
+      "eth_price": 4463.17,
+      "eth_change_24h": 1.57,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128360900225,
-        "high_activity_coins": 1
+        "volume_24h": 112822347694,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 55.9,
+        "btc_dominance": 55.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -698,63 +698,67 @@
         "crypto": 62,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-08-31T08:28:23.654613+00:00",
+      "crypto": 0.5772,
+      "global": 0.5769,
+      "combined": 0.5643,
+      "counts": {
+        "crypto": 66,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Factory Activity Slump Continues Despite Tariff Relief",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-31/china-factory-activity-slump-continues-despite-us-tariff-relief",
-        "source": "Bloomberg Markets",
-        "weight": 0.6126,
-        "score": 0.3333
+        "title": "XRP Bullish Patterns Point to $5 as Korean Buyers Start to Accumulate",
+        "url": "https://www.coindesk.com/markets/2025/08/31/xrp-bullish-patterns-point-to-usd5-as-korean-buyers-start-to-accumulate",
+        "source": "CoinDesk",
+        "weight": 0.8446,
+        "score": 0.5333
       },
       {
-        "title": "Is TON’s DeFi ready to lead a true financial revolution?",
-        "url": "https://cryptoslate.com/is-tons-defi-ready-to-lead-a-true-financial-revolution/",
-        "source": "CryptoSlate",
-        "weight": 0.4843,
-        "score": 0.3333
+        "title": "Why the Stock Market Just Won’t Cave to Tariffs",
+        "url": "https://finance.yahoo.com/m/0339daf7-0512-36dc-9d80-89180092a909/why-the-stock-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6012,
+        "score": 0.5333
       },
       {
-        "title": "China’s Stock Rally Is Met With Skepticism in Options Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-31/china-s-stock-rally-is-met-with-skepticism-in-options-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.4776,
+        "title": "ETH funding +0.005%",
+        "url": "https://www.binance.com/en/futures/ETHUSDT",
+        "source": "Binance Funding",
+        "weight": 0.96,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Metaplanet’s Bitcoin strategy faces fundraising crunch as stock sinks: Report",
+        "url": "https://cointelegraph.com/news/metaplanet-bitcoin-fundraising-flywheel-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.663,
+        "score": -0.6333
+      },
+      {
+        "title": "Credo Technology (CRDO) Slashes 6.6% on AI Bubble Worries",
+        "url": "https://finance.yahoo.com/news/credo-technology-crdo-slashes-6-055802792.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5989,
+        "score": -0.6667
+      },
+      {
         "title": "US tech stocks under pressure as AI growth shows signs of cooling",
         "url": "https://cryptoslate.com/us-tech-stocks-under-pressure-as-ai-growth-shows-signs-of-cooling/",
         "source": "CryptoSlate",
-        "weight": 0.1994,
+        "weight": 0.1255,
         "score": -1.0
-      },
-      {
-        "title": "Spirit Airlines Bankruptcy Tees Up Painful Cuts in Survival Bid",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-30/spirit-airlines-bankruptcy-tees-up-painful-cuts-in-survival-bid",
-        "source": "Bloomberg Markets",
-        "weight": 0.203,
-        "score": -0.9667
-      },
-      {
-        "title": "Crypto treasury firms mirror CDO risks from 2008 financial crisis: Crypto exec",
-        "url": "https://cointelegraph.com/news/crypto-treasury-firms-cdo-risk-2008-financial-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3365,
-        "score": -0.3333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.32233052394420003,
-          "price_change_24h": -3e-05
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
