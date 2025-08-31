@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-31T12:46:27.490945+00:00",
+  "updated_at": "2025-08-31T16:27:42.291700+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.073,
+    "change24h": 0.02,
+    "vol": 0.069,
     "fearGreed": 48,
-    "momentum": 0.491,
+    "momentum": 0.35,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5552,
-    "global_sentiment": 0.5221,
-    "combined_sentiment": 0.5432,
-    "confidence": 0.6446,
+    "crypto_sentiment": 0.4393,
+    "global_sentiment": 0.453,
+    "combined_sentiment": 0.4506,
+    "confidence": 0.5537,
     "counts": {
-      "crypto": 67,
-      "global": 35
+      "crypto": 62,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 108382,
-      "btc_change_24h": -0.06,
-      "eth_price": 4470.22,
-      "eth_change_24h": 2.64,
+      "btc_price": 108663,
+      "btc_change_24h": -0.07,
+      "eth_price": 4469.3,
+      "eth_change_24h": 2.43,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118894284490,
+        "volume_24h": 122730938350,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 55.86,
+        "btc_dominance": 55.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -718,61 +718,71 @@
         "crypto": 67,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-08-31T16:27:42.291700+00:00",
+      "crypto": 0.4393,
+      "global": 0.453,
+      "combined": 0.4506,
+      "counts": {
+        "crypto": 62,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ETH up 2.4% 24h — rally",
-        "url": "https://www.binance.com/en/trade/ETH_USDT",
-        "source": "Binance 24h",
-        "weight": 0.96,
-        "score": 0.5333
-      },
-      {
         "title": "Bitcoin's Rough August Wiped Out Summer Rally; What September Might Bring",
         "url": "https://www.coindesk.com/markets/2025/08/29/bitcoin-s-rough-august-wiped-out-summer-rally",
         "source": "CoinDesk",
-        "weight": 0.9144,
+        "weight": 0.5972,
         "score": 0.5333
       },
       {
         "title": "Here's how the U.S. Open's signature Honey Deuce cocktail price stacks up against inflation",
         "url": "https://www.cnbc.com/2025/08/31/honey-deuce-us-open-signature-cocktail-price-inflation.html",
         "source": "CNBC Markets",
-        "weight": 0.7042,
+        "weight": 0.4599,
         "score": 0.6667
+      },
+      {
+        "title": "Stock Market’s Fate Comes Down to the Next 14 Trading Sessions",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-31/stock-market-s-fate-comes-down-to-the-next-14-trading-sessions",
+        "source": "Bloomberg Markets",
+        "weight": 0.5363,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin faces a fee crisis that threatens network security: Can BTCfi help?",
-        "url": "https://cointelegraph.com/news/bitcoin-fee-crisis-miners-btcfi-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7946,
+        "title": "France Issues Warnings for Thunderstorms and Floods in South",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-31/france-issues-warnings-for-thunderstorms-and-floods-in-south",
+        "source": "Bloomberg Markets",
+        "weight": 0.6619,
         "score": -1.0
       },
       {
-        "title": "Emerging Markets’ Trump Rally at Risk as Tariff Reality Kicks In",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-31/emerging-markets-trump-rally-at-risk-as-tariff-reality-kicks-in",
-        "source": "Bloomberg Markets",
-        "weight": 0.775,
-        "score": -0.4333
+        "title": "Bitcoin faces a fee crisis that threatens network security: Can BTCfi help?",
+        "url": "https://cointelegraph.com/news/bitcoin-fee-crisis-miners-btcfi-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5189,
+        "score": -1.0
       },
       {
-        "title": "Metaplanet’s Bitcoin strategy faces fundraising crunch as stock sinks: Report",
-        "url": "https://cointelegraph.com/news/metaplanet-bitcoin-fundraising-flywheel-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4034,
-        "score": -0.6333
+        "title": "After losing her husband at 26, psychotherapist's second marriage ‘opened up new possibilities’: He's my 'biggest cheerleader'",
+        "url": "https://www.cnbc.com/2025/08/31/after-losing-her-husband-therapists-second-marriage-led-to-new-possibilities.html",
+        "source": "CNBC Markets",
+        "weight": 0.5363,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.30335195798608566,
-          "price_change_24h": 0.00234
+          "volume_mcap_ratio": 0.31384511842950136,
+          "price_change_24h": 0.00826
         }
       ],
       "momentum_shifts": []
