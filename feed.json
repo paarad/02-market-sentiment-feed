@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-08-30T20:24:16.188348+00:00",
+  "updated_at": "2025-08-31T02:01:04.548058+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.034,
-    "fearGreed": 39,
-    "momentum": 0.081,
+    "change24h": 0.045,
+    "vol": 0.088,
+    "fearGreed": 48,
+    "momentum": 0.793,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4459,
-    "global_sentiment": 0.5999,
-    "combined_sentiment": 0.4678,
-    "confidence": 0.6052,
+    "crypto_sentiment": 0.5563,
+    "global_sentiment": 0.6321,
+    "combined_sentiment": 0.5532,
+    "confidence": 0.5532,
     "counts": {
-      "crypto": 66,
-      "global": 27
+      "crypto": 64,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 108707,
-      "btc_change_24h": 0.76,
-      "eth_price": 4342.79,
-      "eth_change_24h": 0.16,
+      "btc_price": 109447,
+      "btc_change_24h": 1.63,
+      "eth_price": 4457.05,
+      "eth_change_24h": 4.12,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 1.0,
       "fear_greed": {
-        "value": 39,
-        "classification": "Fear",
+        "value": 48,
+        "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 142352007304,
+        "volume_24h": 131845738432,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.28,
+        "btc_dominance": 56.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -678,30 +678,40 @@
         "crypto": 66,
         "global": 27
       }
+    },
+    {
+      "ts": "2025-08-31T02:01:04.548058+00:00",
+      "crypto": 0.5563,
+      "global": 0.6321,
+      "combined": 0.5532,
+      "counts": {
+        "crypto": 64,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto ETF Surge Could Reshape Market, but Many Products May Fail",
-        "url": "https://www.coindesk.com/markets/2025/08/29/crypto-etf-surge-could-reshape-market-but-many-products-may-fail",
-        "source": "CoinDesk",
-        "weight": 0.4772,
+        "title": "Global crypto market cap up 2.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Web3 Funding Hit $9.6B in Q2 Despite Fewer Deals",
-        "url": "https://www.coindesk.com/business/2025/08/29/web3-funding-hit-usd9-6b-in-q2-despite-fewer-deals",
-        "source": "CoinDesk",
-        "weight": 0.7575,
+        "title": "Is TON’s DeFi ready to lead a true financial revolution?",
+        "url": "https://cryptoslate.com/is-tons-defi-ready-to-lead-a-true-financial-revolution/",
+        "source": "CryptoSlate",
+        "weight": 0.6426,
         "score": 0.3333
       },
       {
-        "title": "Iran’s Currency Slides After Europe Moves to Reimpose Sanctions",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-30/iran-s-currency-slides-after-europe-moves-to-reimpose-sanctions",
+        "title": "China’s Stock Rally Is Met With Skepticism in Options Market",
+        "url": "https://www.bloomberg.com/news/articles/2025-08-31/china-s-stock-rally-is-met-with-skepticism-in-options-market",
         "source": "Bloomberg Markets",
-        "weight": 0.3658,
-        "score": 0.6667
+        "weight": 0.6336,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -709,30 +719,30 @@
         "title": "US tech stocks under pressure as AI growth shows signs of cooling",
         "url": "https://cryptoslate.com/us-tech-stocks-under-pressure-as-ai-growth-shows-signs-of-cooling/",
         "source": "CryptoSlate",
-        "weight": 0.5061,
+        "weight": 0.2646,
         "score": -1.0
       },
       {
         "title": "Spirit Airlines Bankruptcy Tees Up Painful Cuts in Survival Bid",
         "url": "https://www.bloomberg.com/news/articles/2025-08-30/spirit-airlines-bankruptcy-tees-up-painful-cuts-in-survival-bid",
         "source": "Bloomberg Markets",
-        "weight": 0.5152,
+        "weight": 0.2694,
         "score": -0.9667
       },
       {
-        "title": "Fear & Greed 39 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Crypto treasury firms mirror CDO risks from 2008 financial crisis: Crypto exec",
+        "url": "https://cointelegraph.com/news/crypto-treasury-firms-cdo-risk-2008-financial-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4465,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.367325256640967,
-          "price_change_24h": -0.0077
+          "volume_mcap_ratio": 0.34043129143895656,
+          "price_change_24h": 0.0036
         }
       ],
       "momentum_shifts": []
