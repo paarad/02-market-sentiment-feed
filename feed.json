@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-01T08:34:38.704288+00:00",
+  "updated_at": "2025-09-01T12:53:10.734111+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.043,
+    "change24h": -0.017,
+    "vol": 0.058,
     "fearGreed": 46,
-    "momentum": -0.017,
-    "regime": "sideways",
+    "momentum": -0.305,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.485,
-    "global_sentiment": 0.4759,
-    "combined_sentiment": 0.4867,
-    "confidence": 0.6731,
+    "crypto_sentiment": 0.4556,
+    "global_sentiment": 0.5145,
+    "combined_sentiment": 0.4679,
+    "confidence": 0.7456,
     "counts": {
-      "crypto": 61,
-      "global": 40
+      "crypto": 63,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 109482,
-      "btc_change_24h": 0.53,
-      "eth_price": 4469.67,
-      "eth_change_24h": 0.19,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 109001,
+      "btc_change_24h": 0.57,
+      "eth_price": 4399.37,
+      "eth_change_24h": -1.76,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168659281424,
+        "volume_24h": 182484283182,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.13,
+        "btc_dominance": 56.18,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -778,61 +778,71 @@
         "crypto": 61,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-09-01T12:53:10.734111+00:00",
+      "crypto": 0.4556,
+      "global": 0.5145,
+      "combined": 0.4679,
+      "counts": {
+        "crypto": 63,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Hoskinson pushes for Chainlink, Aave and USD1 to rescue Cardano’s weak DeFi scene",
+        "url": "https://cryptoslate.com/hoskinson-pushes-for-chainlink-aave-and-usd1-to-rescue-cardanos-weak-defi-scene/",
+        "source": "CryptoSlate",
+        "weight": 0.5224,
+        "score": 0.9167
+      },
+      {
         "title": "Bitcoin’s ‘split personality’ on display as gold hits new record: Analyst",
         "url": "https://cointelegraph.com/news/bitcoin-split-personality-gold-new-record-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6276,
+        "weight": 0.3815,
         "score": 0.8667
       },
       {
-        "title": "Odd Lots: Dan Wang on China’s Breakneck Tech Growth (Podcast)",
-        "url": "https://www.bloomberg.com/news/audio/2025-09-01/odd-lots-dan-wang-on-china-s-breakneck-tech-growth-podcast",
-        "source": "Bloomberg Markets",
-        "weight": 0.7484,
-        "score": 0.6667
-      },
-      {
-        "title": "Alibaba soars but Europe, Asia stocks mixed",
-        "url": "https://finance.yahoo.com/news/alibaba-soars-europe-asia-stocks-073247091.html?.tsrc=rss",
+        "title": "Is Thermo Fisher Scientific Stock Underperforming the Dow?",
+        "url": "https://www.barchart.com/story/news/34517479/is-thermo-fisher-scientific-stock-underperforming-the-dow?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7102,
-        "score": 0.6667
+        "weight": 0.541,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "CapVest Buys Control of Drugmaker Stada in €10 Billion Deal",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-01/capvest-agrees-to-buy-majority-stake-in-german-drugmaker-stada",
+        "title": "Lender BFA Plans to Raise $239 Million in Angola’s Biggest IPO",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-01/lender-bfa-plans-to-raise-239-million-in-angola-s-biggest-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.6516,
-        "score": -0.9333
+        "weight": 0.6682,
+        "score": -0.9667
       },
       {
-        "title": "Bond Market Watchers Expect India’s Central Bank to Step In as Yields Spike",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-01/india-bond-market-watchers-expect-rbi-to-step-in-as-yields-spike",
-        "source": "Bloomberg Markets",
-        "weight": 0.5938,
-        "score": -1.0
-      },
-      {
-        "title": "XRP Breaks $2.80 as Bearish September Begins, Oversold Signals Suggest Recovery Ahead",
-        "url": "https://www.coindesk.com/markets/2025/09/01/xrp-breaks-usd2-80-as-bearish-september-begins-oversold-signals-suggest-recovery-ahead",
+        "title": "PEPE Slips as Whale Offloads $4.8M Stake, Still Outperforms Memecoin Sector",
+        "url": "https://www.coindesk.com/markets/2025/09/01/pepe-slips-as-whale-offloads-usd4-8m-stake-still-outperforms-memecoin-sector",
         "source": "CoinDesk",
-        "weight": 1.0487,
-        "score": -0.5333
+        "weight": 0.8385,
+        "score": -0.6333
+      },
+      {
+        "title": "An Iowa nuclear plant is the next contender to restart, spurred by AI data center demand",
+        "url": "https://www.cnbc.com/2025/09/01/nuclear-duane-arnold-nextera-nee-tech-data-center-ai.html",
+        "source": "CNBC Markets",
+        "weight": 0.764,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42729245217023176,
-          "price_change_24h": -0.00591
+          "volume_mcap_ratio": 0.4475920531028287,
+          "price_change_24h": -0.01274
         }
       ],
       "momentum_shifts": []
