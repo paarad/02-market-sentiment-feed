@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-01T02:11:38.741312+00:00",
+  "updated_at": "2025-09-01T04:34:25.369480+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.09,
+    "change24h": -0.043,
+    "vol": 0.101,
     "fearGreed": 46,
-    "momentum": -0.491,
+    "momentum": -0.747,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4332,
-    "global_sentiment": 0.4546,
-    "combined_sentiment": 0.4461,
-    "confidence": 0.5873,
+    "crypto_sentiment": 0.3794,
+    "global_sentiment": 0.5094,
+    "combined_sentiment": 0.4103,
+    "confidence": 0.7012,
     "counts": {
-      "crypto": 58,
+      "crypto": 62,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 108152,
-      "btc_change_24h": -1.09,
-      "eth_price": 4411.65,
-      "eth_change_24h": -0.88,
+      "btc_price": 107392,
+      "btc_change_24h": -1.32,
+      "eth_price": 4383.63,
+      "eth_change_24h": -1.8,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 137524008274,
+        "volume_24h": 142628470194,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -758,29 +758,39 @@
         "crypto": 58,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-01T04:34:25.369480+00:00",
+      "crypto": 0.3794,
+      "global": 0.5094,
+      "combined": 0.4103,
+      "counts": {
+        "crypto": 62,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Trump Tariff Ruling May Not Affect Markets. Alibaba News Hits Nvidia, AI.",
-        "url": "https://finance.yahoo.com/m/b2825cb0-bdc3-3417-adf5-baef8ee9b7a6/dow-jones-futures%3A-trump.html?.tsrc=rss",
+        "title": "Alibaba soars but Asia markets dip",
+        "url": "https://finance.yahoo.com/news/alibaba-soars-asia-markets-dip-032030614.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.793,
+        "weight": 0.6939,
+        "score": 0.6667
+      },
+      {
+        "title": "ETH funding -0.008%",
+        "url": "https://www.binance.com/en/futures/ETHUSDT",
+        "source": "Binance Funding",
+        "weight": 0.96,
         "score": 0.3333
       },
       {
-        "title": "99% favor Solana Alpenglow upgrade for 150ms finality, so far",
-        "url": "https://cointelegraph.com/news/99-percent-solana-voters-favor-alpenglow-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7553,
-        "score": 0.3333
-      },
-      {
-        "title": "Gold Holds Near Record as Traders Weigh Fed Outlook, US Tariffs",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-01/gold-holds-near-record-as-traders-weigh-fed-outlook-us-tariffs",
-        "source": "Bloomberg Markets",
-        "weight": 0.6913,
+        "title": "BTC funding +0.010%",
+        "url": "https://www.binance.com/en/futures/BTCUSDT",
+        "source": "Binance Funding",
+        "weight": 0.96,
         "score": 0.3333
       }
     ],
@@ -789,30 +799,30 @@
         "title": "Bitcoin at risk of Labor Day crash to $105K as sellers capitalize on OG BTC whale threat",
         "url": "https://cointelegraph.com/news/bitcoin-labor-day-crash-to-dollar105k-possible-as-og-whale-may-sell?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9458,
+        "weight": 0.7185,
         "score": -1.0
       },
       {
-        "title": "Key Takeaways From the Xi-Modi Meeting in Tianjin",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-01/key-takeaways-from-the-xi-modi-meeting-in-tianjin-video",
+        "title": "Iron Ore Falls as China Steel Inventories Rise, Factories Falter",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-01/iron-ore-falls-as-china-steel-inventories-rise-factories-falter",
         "source": "Bloomberg Markets",
-        "weight": 0.7332,
-        "score": -0.6333
+        "weight": 0.6766,
+        "score": -0.9333
       },
       {
-        "title": "CapVest Nears €10 Billion Deal for Drugmaker Stada",
-        "url": "https://www.bloomberg.com/news/articles/2025-08-31/capvest-is-said-to-near-10-billion-deal-for-drugmaker-stada",
-        "source": "Bloomberg Markets",
-        "weight": 0.4908,
-        "score": -0.9333
+        "title": "SOL down -3.6% 24h — plunge",
+        "url": "https://www.binance.com/en/trade/SOL_USDT",
+        "source": "Binance 24h",
+        "weight": 0.96,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34340114749310935,
-          "price_change_24h": -0.00464
+          "volume_mcap_ratio": 0.3694437108991922,
+          "price_change_24h": -0.00121
         }
       ],
       "momentum_shifts": []
