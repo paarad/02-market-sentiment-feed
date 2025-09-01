@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-01T04:34:25.369480+00:00",
+  "updated_at": "2025-09-01T08:34:38.704288+00:00",
   "indicators": {
-    "change24h": -0.043,
-    "vol": 0.101,
+    "change24h": -0.001,
+    "vol": 0.043,
     "fearGreed": 46,
-    "momentum": -0.747,
-    "regime": "bear",
+    "momentum": -0.017,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3794,
-    "global_sentiment": 0.5094,
-    "combined_sentiment": 0.4103,
-    "confidence": 0.7012,
+    "crypto_sentiment": 0.485,
+    "global_sentiment": 0.4759,
+    "combined_sentiment": 0.4867,
+    "confidence": 0.6731,
     "counts": {
-      "crypto": 62,
-      "global": 39
+      "crypto": 61,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 107392,
-      "btc_change_24h": -1.32,
-      "eth_price": 4383.63,
-      "eth_change_24h": -1.8,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "btc_price": 109482,
+      "btc_change_24h": 0.53,
+      "eth_price": 4469.67,
+      "eth_change_24h": 0.19,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 142628470194,
+        "volume_24h": 168659281424,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.09,
+        "btc_dominance": 56.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -768,61 +768,71 @@
         "crypto": 62,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-01T08:34:38.704288+00:00",
+      "crypto": 0.485,
+      "global": 0.4759,
+      "combined": 0.4867,
+      "counts": {
+        "crypto": 61,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Alibaba soars but Asia markets dip",
-        "url": "https://finance.yahoo.com/news/alibaba-soars-asia-markets-dip-032030614.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6939,
+        "title": "Bitcoin’s ‘split personality’ on display as gold hits new record: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-split-personality-gold-new-record-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6276,
+        "score": 0.8667
+      },
+      {
+        "title": "Odd Lots: Dan Wang on China’s Breakneck Tech Growth (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2025-09-01/odd-lots-dan-wang-on-china-s-breakneck-tech-growth-podcast",
+        "source": "Bloomberg Markets",
+        "weight": 0.7484,
         "score": 0.6667
       },
       {
-        "title": "ETH funding -0.008%",
-        "url": "https://www.binance.com/en/futures/ETHUSDT",
-        "source": "Binance Funding",
-        "weight": 0.96,
-        "score": 0.3333
-      },
-      {
-        "title": "BTC funding +0.010%",
-        "url": "https://www.binance.com/en/futures/BTCUSDT",
-        "source": "Binance Funding",
-        "weight": 0.96,
-        "score": 0.3333
+        "title": "Alibaba soars but Europe, Asia stocks mixed",
+        "url": "https://finance.yahoo.com/news/alibaba-soars-europe-asia-stocks-073247091.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7102,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin at risk of Labor Day crash to $105K as sellers capitalize on OG BTC whale threat",
-        "url": "https://cointelegraph.com/news/bitcoin-labor-day-crash-to-dollar105k-possible-as-og-whale-may-sell?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7185,
-        "score": -1.0
-      },
-      {
-        "title": "Iron Ore Falls as China Steel Inventories Rise, Factories Falter",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-01/iron-ore-falls-as-china-steel-inventories-rise-factories-falter",
+        "title": "CapVest Buys Control of Drugmaker Stada in €10 Billion Deal",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-01/capvest-agrees-to-buy-majority-stake-in-german-drugmaker-stada",
         "source": "Bloomberg Markets",
-        "weight": 0.6766,
+        "weight": 0.6516,
         "score": -0.9333
       },
       {
-        "title": "SOL down -3.6% 24h — plunge",
-        "url": "https://www.binance.com/en/trade/SOL_USDT",
-        "source": "Binance 24h",
-        "weight": 0.96,
-        "score": -0.6333
+        "title": "Bond Market Watchers Expect India’s Central Bank to Step In as Yields Spike",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-01/india-bond-market-watchers-expect-rbi-to-step-in-as-yields-spike",
+        "source": "Bloomberg Markets",
+        "weight": 0.5938,
+        "score": -1.0
+      },
+      {
+        "title": "XRP Breaks $2.80 as Bearish September Begins, Oversold Signals Suggest Recovery Ahead",
+        "url": "https://www.coindesk.com/markets/2025/09/01/xrp-breaks-usd2-80-as-bearish-september-begins-oversold-signals-suggest-recovery-ahead",
+        "source": "CoinDesk",
+        "weight": 1.0487,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3694437108991922,
-          "price_change_24h": -0.00121
+          "volume_mcap_ratio": 0.42729245217023176,
+          "price_change_24h": -0.00591
         }
       ],
       "momentum_shifts": []
