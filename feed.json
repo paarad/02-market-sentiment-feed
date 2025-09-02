@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-02T04:31:38.841278+00:00",
+  "updated_at": "2025-09-02T08:33:19.717936+00:00",
   "indicators": {
-    "change24h": 0.021,
-    "vol": 0.09,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 49,
-    "momentum": 0.371,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.576,
-    "global_sentiment": 0.4435,
-    "combined_sentiment": 0.5523,
-    "confidence": 0.6871,
+    "crypto_sentiment": 0.5105,
+    "global_sentiment": 0.5252,
+    "combined_sentiment": 0.51,
+    "confidence": 0.7777,
     "counts": {
-      "crypto": 57,
-      "global": 37
+      "crypto": 69,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 110313,
-      "btc_change_24h": 2.68,
-      "eth_price": 4379.91,
-      "eth_change_24h": -0.13,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 110242,
+      "btc_change_24h": 0.68,
+      "eth_price": 4392.56,
+      "eth_change_24h": -1.79,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 212497795853,
+        "volume_24h": 195108265216,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.5,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -838,66 +838,76 @@
         "crypto": 57,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-09-02T08:33:19.717936+00:00",
+      "crypto": 0.5105,
+      "global": 0.5252,
+      "combined": 0.51,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Green Tea Maker Ito En Surges Most Since 2023 on Matcha Boom",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-02/green-tea-maker-ito-en-surges-most-since-2023-on-matcha-boom",
-        "source": "Bloomberg Markets",
-        "weight": 0.6182,
+        "title": "Global Markets Mostly Lower; Gold Continues to Hover Near Record Highs",
+        "url": "https://finance.yahoo.com/m/10c39b37-12cd-3eb5-8d1c-d03a12ec352f/global-markets-mostly-lower%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7918,
         "score": 1.0
       },
       {
-        "title": "China’s Margin Trades Surge to Record as Stock Rally Extends",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-02/china-s-margin-trades-surge-to-record-as-stock-rally-extends",
+        "title": "Morgan Stanley’s Wilson Says US Stock Rally Has Further to Run",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-02/morgan-stanley-s-wilson-says-us-stock-rally-has-further-to-run",
         "source": "Bloomberg Markets",
-        "weight": 0.629,
+        "weight": 0.7472,
         "score": 0.8667
       },
       {
-        "title": "Trump project floats token burning as WLFI dips 30% after launch",
-        "url": "https://cointelegraph.com/news/world-liberty-financial-proposes-token-buyback-and-burn-program-using-fees?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Sky’s $75M buyback plan boosts SKY token 8% in 6 months",
+        "url": "https://cointelegraph.com/news/sky-75m-token-buyback-plan-sees-8-percent-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7129,
-        "score": 0.6667
+        "weight": 0.6371,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Hackers are using the ‘classic EIP-7702’ exploit to snatch WLFI",
-        "url": "https://cointelegraph.com/news/wlfi-token-holders-falling-prey-classic-wallet-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7853,
+        "title": "Holders of Trump’s Crypto Token Targeted by Hackers in Phishing Exploit",
+        "url": "https://www.coindesk.com/markets/2025/09/02/holders-of-trump-s-crypto-token-targeted-by-hackers-in-phishing-exploit",
+        "source": "CoinDesk",
+        "weight": 0.9062,
         "score": -1.0
       },
       {
-        "title": "BofA's Guenthardt on Japan's Corporate Reforms",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-02/bofa-s-guenthardt-on-japan-s-corporate-reforms-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7026,
-        "score": -0.9667
+        "title": "Bunni DEX paused following $2.4M exploit of liquidity function",
+        "url": "https://cointelegraph.com/news/bunni-hack-2-4m-stablecoin-exploit-uniswap-v4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7672,
+        "score": -0.8333
       },
       {
-        "title": "Philippines Says Up to 70% in Flood Budget Is Lost to Corruption",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-02/philippines-says-up-to-70-in-flood-budget-is-lost-to-corruption",
-        "source": "Bloomberg Markets",
-        "weight": 0.6712,
-        "score": -0.9667
+        "title": "Crypto thefts hit $163M in August as hackers shift strategy",
+        "url": "https://cointelegraph.com/news/crypto-hacks-august-2025-bitcoiner-btcturk-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5892,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5168767830944185,
-          "price_change_24h": -0.01829
+          "volume_mcap_ratio": 0.48896412712173076,
+          "price_change_24h": 0.00634
         },
         {
           "symbol": "WLFI",
-          "volume_mcap_ratio": 0.40847255573033725,
-          "price_change_24h": -16.72812
+          "volume_mcap_ratio": 0.4247313218427562,
+          "price_change_24h": -12.60593
         }
       ],
       "momentum_shifts": []
