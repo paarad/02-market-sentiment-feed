@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-02T08:33:19.717936+00:00",
+  "updated_at": "2025-09-02T12:52:34.335464+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.029,
+    "vol": 0.08,
     "fearGreed": 49,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.502,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5105,
-    "global_sentiment": 0.5252,
-    "combined_sentiment": 0.51,
-    "confidence": 0.7777,
+    "crypto_sentiment": 0.3794,
+    "global_sentiment": 0.5803,
+    "combined_sentiment": 0.4162,
+    "confidence": 0.7912,
     "counts": {
-      "crypto": 69,
+      "crypto": 61,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 110242,
-      "btc_change_24h": 0.68,
-      "eth_price": 4392.56,
-      "eth_change_24h": -1.79,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 108563,
+      "btc_change_24h": -0.4,
+      "eth_price": 4282.1,
+      "eth_change_24h": -2.67,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.0,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 195108265216,
+        "volume_24h": 200228305749,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.29,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -848,66 +848,76 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-02T12:52:34.335464+00:00",
+      "crypto": 0.3794,
+      "global": 0.5803,
+      "combined": 0.4162,
+      "counts": {
+        "crypto": 61,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global Markets Mostly Lower; Gold Continues to Hover Near Record Highs",
-        "url": "https://finance.yahoo.com/m/10c39b37-12cd-3eb5-8d1c-d03a12ec352f/global-markets-mostly-lower%3B.html?.tsrc=rss",
+        "title": "Winklevosses’ Crypto Firm Gemini Seeks $317 Million in IPO",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-02/winklevosses-crypto-firm-gemini-seeks-317-million-in-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.709,
+        "score": 0.9667
+      },
+      {
+        "title": "5 Stocks With Recent Price Strength to Tap Wall Street Rally",
+        "url": "https://finance.yahoo.com/news/5-stocks-recent-price-strength-111400578.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7918,
+        "weight": 0.6617,
         "score": 1.0
       },
       {
-        "title": "Morgan Stanley’s Wilson Says US Stock Rally Has Further to Run",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-02/morgan-stanley-s-wilson-says-us-stock-rally-has-further-to-run",
-        "source": "Bloomberg Markets",
-        "weight": 0.7472,
-        "score": 0.8667
-      },
-      {
-        "title": "Sky’s $75M buyback plan boosts SKY token 8% in 6 months",
-        "url": "https://cointelegraph.com/news/sky-75m-token-buyback-plan-sees-8-percent-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6371,
+        "title": "Global Markets Mostly Lower; Gold Continues to Hover Near Record Highs",
+        "url": "https://finance.yahoo.com/m/10c39b37-12cd-3eb5-8d1c-d03a12ec352f/global-markets-mostly-lower%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4807,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Holders of Trump’s Crypto Token Targeted by Hackers in Phishing Exploit",
-        "url": "https://www.coindesk.com/markets/2025/09/02/holders-of-trump-s-crypto-token-targeted-by-hackers-in-phishing-exploit",
-        "source": "CoinDesk",
-        "weight": 0.9062,
-        "score": -1.0
+        "title": "Venus Protocol user suffers $13.5M loss from phishing attack",
+        "url": "https://cointelegraph.com/news/defi-trader-loses-27m-phishing-scam-venus-protocol-pauses?utm_source=rss_feed&utm_medium=rss%3Fcb%3Dj8qihpwgozo%26_%3D1756817263038%26timestamp%3D1756817263038%26r%3Dj8qihpwgozo&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6814,
+        "score": -0.9667
       },
       {
-        "title": "Bunni DEX paused following $2.4M exploit of liquidity function",
-        "url": "https://cointelegraph.com/news/bunni-hack-2-4m-stablecoin-exploit-uniswap-v4?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7672,
-        "score": -0.8333
+        "title": "Venus Protocol suspends platform after phishing scam drains $27 million, XVS falls 6%",
+        "url": "https://cryptoslate.com/venus-protocol-suspends-platform-after-phishing-scam-drains-27-million/",
+        "source": "CryptoSlate",
+        "weight": 0.6324,
+        "score": -0.9667
       },
       {
-        "title": "Crypto thefts hit $163M in August as hackers shift strategy",
-        "url": "https://cointelegraph.com/news/crypto-hacks-august-2025-bitcoiner-btcturk-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Ripple vs. SEC: How the lawsuit strengthened XRP’s narrative",
+        "url": "https://cointelegraph.com/explained/ripple-vs-sec-how-the-lawsuit-strengthened-xrps-narrative?utm_source=rss_feed&utm_medium=rss%3Fcb%3Dj8qihpwgozo%26_%3D1756817263038%26timestamp%3D1756817263038%26r%3Dj8qihpwgozo&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5892,
+        "weight": 0.596,
         "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.48896412712173076,
-          "price_change_24h": 0.00634
+          "symbol": "WLFI",
+          "volume_mcap_ratio": 0.4971168557140172,
+          "price_change_24h": -26.3388
         },
         {
-          "symbol": "WLFI",
-          "volume_mcap_ratio": 0.4247313218427562,
-          "price_change_24h": -12.60593
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.49220361378023775,
+          "price_change_24h": -0.00289
         }
       ],
       "momentum_shifts": []
