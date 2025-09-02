@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-02T12:52:34.335464+00:00",
+  "updated_at": "2025-09-02T16:30:51.260076+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.08,
+    "change24h": -0.004,
+    "vol": 0.077,
     "fearGreed": 49,
-    "momentum": -0.502,
-    "regime": "bear",
+    "momentum": -0.071,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3794,
-    "global_sentiment": 0.5803,
-    "combined_sentiment": 0.4162,
-    "confidence": 0.7912,
+    "crypto_sentiment": 0.5585,
+    "global_sentiment": 0.4034,
+    "combined_sentiment": 0.5358,
+    "confidence": 0.8188,
     "counts": {
-      "crypto": 61,
-      "global": 39
+      "crypto": 58,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 108563,
-      "btc_change_24h": -0.4,
-      "eth_price": 4282.1,
-      "eth_change_24h": -2.67,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.0,
+      "btc_price": 110579,
+      "btc_change_24h": 1.47,
+      "eth_price": 4281.37,
+      "eth_change_24h": -1.85,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 200228305749,
-        "high_activity_coins": 2
+        "volume_24h": 235585570712,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.29,
+        "btc_dominance": 56.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -858,66 +858,81 @@
         "crypto": 61,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-02T16:30:51.260076+00:00",
+      "crypto": 0.5585,
+      "global": 0.4034,
+      "combined": 0.5358,
+      "counts": {
+        "crypto": 58,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Winklevosses’ Crypto Firm Gemini Seeks $317 Million in IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-02/winklevosses-crypto-firm-gemini-seeks-317-million-in-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.709,
-        "score": 0.9667
-      },
-      {
-        "title": "5 Stocks With Recent Price Strength to Tap Wall Street Rally",
-        "url": "https://finance.yahoo.com/news/5-stocks-recent-price-strength-111400578.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6617,
+        "title": "How high can Bitcoin price go as gold hits record high above $3.5K?",
+        "url": "https://cointelegraph.com/news/how-high-can-bitcoin-price-go-gold-hits-3-5k-record-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6525,
         "score": 1.0
       },
       {
-        "title": "Global Markets Mostly Lower; Gold Continues to Hover Near Record Highs",
-        "url": "https://finance.yahoo.com/m/10c39b37-12cd-3eb5-8d1c-d03a12ec352f/global-markets-mostly-lower%3B.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4807,
-        "score": 1.0
+        "title": "XRP Consolidates Below $3 as RSI and MACD Signal Potential Breakout",
+        "url": "https://www.coindesk.com/markets/2025/09/02/xrp-consolidates-below-usd3-as-rsi-and-macd-signal-potential-breakout",
+        "source": "CoinDesk",
+        "weight": 1.0503,
+        "score": 0.5333
+      },
+      {
+        "title": "Somnia Mainnet Goes Live Along With Native SOMI Token After 10B Testnet Transactions",
+        "url": "https://www.coindesk.com/business/2025/09/02/somnia-mainnet-goes-live-along-with-native-somi-token-after-10b-testnet-transactions",
+        "source": "CoinDesk",
+        "weight": 0.8395,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Venus Protocol user suffers $13.5M loss from phishing attack",
-        "url": "https://cointelegraph.com/news/defi-trader-loses-27m-phishing-scam-venus-protocol-pauses?utm_source=rss_feed&utm_medium=rss%3Fcb%3Dj8qihpwgozo%26_%3D1756817263038%26timestamp%3D1756817263038%26r%3Dj8qihpwgozo&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6814,
-        "score": -0.9667
+        "title": "Woodside Energy CEO Downplays LNG Risk From Russia-China Pipeline Deal",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-02/woodside-energy-ceo-downplays-lng-risk-from-russia-china-pipeline-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.7179,
+        "score": -0.9333
       },
       {
-        "title": "Venus Protocol suspends platform after phishing scam drains $27 million, XVS falls 6%",
-        "url": "https://cryptoslate.com/venus-protocol-suspends-platform-after-phishing-scam-drains-27-million/",
-        "source": "CryptoSlate",
-        "weight": 0.6324,
-        "score": -0.9667
+        "title": "PepsiCo Stock Jumps. Why Elliott Investment Management Is Taking a $4 Billion Stake.",
+        "url": "https://finance.yahoo.com/m/079a38b2-f253-308b-80e2-8e47b24c3b5f/pepsico-stock-jumps.-why.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6613,
+        "score": -0.9333
       },
       {
-        "title": "Ripple vs. SEC: How the lawsuit strengthened XRP’s narrative",
-        "url": "https://cointelegraph.com/explained/ripple-vs-sec-how-the-lawsuit-strengthened-xrps-narrative?utm_source=rss_feed&utm_medium=rss%3Fcb%3Dj8qihpwgozo%26_%3D1756817263038%26timestamp%3D1756817263038%26r%3Dj8qihpwgozo&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.596,
-        "score": -1.0
+        "title": "Hundreds of economists defend Lisa Cook, Fed's independence in open letter against Trump efforts",
+        "url": "https://www.cnbc.com/2025/09/02/trump-lisa-cook-fed-powell-fraud.html",
+        "source": "CNBC Markets",
+        "weight": 0.7979,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "WLFI",
-          "volume_mcap_ratio": 0.4971168557140172,
-          "price_change_24h": -26.3388
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.5723772142693723,
+          "price_change_24h": -0.00193
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.49220361378023775,
-          "price_change_24h": -0.00289
+          "symbol": "WLFI",
+          "volume_mcap_ratio": 0.3641951460781768,
+          "price_change_24h": -5.82675
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.30684115687721547,
+          "price_change_24h": -0.03867
         }
       ],
       "momentum_shifts": []
