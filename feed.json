@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-02T20:23:57.776435+00:00",
+  "updated_at": "2025-09-03T01:49:14.080569+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.131,
-    "fearGreed": 49,
-    "momentum": 0.433,
+    "change24h": 0.023,
+    "vol": 0.11,
+    "fearGreed": 55,
+    "momentum": 0.404,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6197,
-    "global_sentiment": 0.4952,
-    "combined_sentiment": 0.5894,
-    "confidence": 0.7941,
+    "crypto_sentiment": 0.6579,
+    "global_sentiment": 0.5396,
+    "combined_sentiment": 0.6217,
+    "confidence": 0.7467,
     "counts": {
-      "crypto": 56,
-      "global": 38
+      "crypto": 54,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 111299,
-      "btc_change_24h": 2.07,
-      "eth_price": 4312.7,
-      "eth_change_24h": -0.81,
+      "btc_price": 110914,
+      "btc_change_24h": 1.34,
+      "eth_price": 4285.36,
+      "eth_change_24h": -1.24,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 49,
-        "classification": "Neutral",
+        "value": 55,
+        "classification": "Greed",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 241966584903,
-        "high_activity_coins": 2
+        "volume_24h": 225180213648,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.62,
+        "btc_dominance": 56.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -888,66 +888,71 @@
         "crypto": 56,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-09-03T01:49:14.080569+00:00",
+      "crypto": 0.6579,
+      "global": 0.5396,
+      "combined": 0.6217,
+      "counts": {
+        "crypto": 54,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto.com CEO Says He’s Tempted to IPO",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-02/crypto-com-ceo-says-he-s-tempted-to-ipo-video",
+        "title": "SEC, CFTC Staff Offer Path to Register Spot Crypto Asset Trades",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-02/sec-cftc-staff-offer-path-to-register-spot-crypto-asset-trades",
         "source": "Bloomberg Markets",
-        "weight": 0.7295,
+        "weight": 0.6194,
         "score": 1.0
       },
       {
-        "title": "Crypto Firm Gemini Seeks $317M in IPO",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-02/crypto-firm-gemini-seeks-317m-in-ipo-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6779,
-        "score": 0.9667
+        "title": "Pumpfun launches initiative to become Solana’s ‘hub for successful projects.’ boosts creator earnings 10x",
+        "url": "https://cryptoslate.com/pumpfun-launches-initiative-to-become-solanas-hub-for-successful-projects-boosts-creator-earnings-10x/",
+        "source": "CryptoSlate",
+        "weight": 0.6079,
+        "score": 1.0
       },
       {
-        "title": "Stocks have literally never been this expensive",
-        "url": "https://www.cnn.com/2025/09/02/economy/us-stock-market?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6264,
-        "score": 1.0
+        "title": "Global crypto market cap up 1.4% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stocks Off Their Lows as Wall Street Buys the Dip",
-        "url": "https://finance.yahoo.com/m/b7c99be8-0b52-389f-87e0-35bf3c617082/stocks-off-their-lows-as-wall.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6266,
-        "score": -1.0
+        "title": "JPMorgan to Boost Corporate Banking in India on Investment Jump",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-03/jpmorgan-to-boost-corporate-banking-in-india-on-investment-jump",
+        "source": "Bloomberg Markets",
+        "weight": 0.6483,
+        "score": -0.9667
       },
       {
-        "title": "Vicor (VICR) Stock Trades Down, Here Is Why",
-        "url": "https://finance.yahoo.com/news/vicor-vicr-stock-trades-down-182603720.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6375,
-        "score": -0.8
+        "title": "Japanese Super-Long Bonds Fall After Treasuries: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-02/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.5537,
+        "score": -0.9667
       },
       {
-        "title": "Hundreds of economists defend Lisa Cook, Fed's independence in open letter against Trump efforts",
-        "url": "https://www.cnbc.com/2025/09/02/trump-lisa-cook-fed-powell-fraud.html",
-        "source": "CNBC Markets",
-        "weight": 0.6388,
-        "score": -0.7333
+        "title": "Galaxy Digital CEO Novogratz on Crypto Market Outlook",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-03/galaxy-digital-ceo-novogratz-on-crypto-market-outlook-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7882,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5971049854690846,
-          "price_change_24h": 0.00345
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.30797119142255286,
-          "price_change_24h": 0.07789
+          "volume_mcap_ratio": 0.5588773794382761,
+          "price_change_24h": -0.00548
         }
       ],
       "momentum_shifts": []
