@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-03T20:26:21.316239+00:00",
+  "updated_at": "2025-09-04T01:49:59.219369+00:00",
   "indicators": {
-    "change24h": 0.039,
-    "vol": 0.107,
-    "fearGreed": 55,
-    "momentum": 0.678,
+    "change24h": 0.035,
+    "vol": 0.109,
+    "fearGreed": 51,
+    "momentum": 0.621,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6455,
-    "global_sentiment": 0.5556,
-    "combined_sentiment": 0.6138,
-    "confidence": 0.8276,
+    "crypto_sentiment": 0.6013,
+    "global_sentiment": 0.534,
+    "combined_sentiment": 0.5788,
+    "confidence": 0.8087,
     "counts": {
-      "crypto": 61,
-      "global": 51
+      "crypto": 62,
+      "global": 55
     },
     "market_indicators": {
-      "btc_price": 112126,
-      "btc_change_24h": 0.81,
-      "eth_price": 4470.88,
-      "eth_change_24h": 3.86,
+      "btc_price": 111893,
+      "btc_change_24h": 0.88,
+      "eth_price": 4465.01,
+      "eth_change_24h": 4.01,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.95,
       "fear_greed": {
-        "value": 55,
-        "classification": "Greed",
-        "trend": "stable"
+        "value": 51,
+        "classification": "Neutral",
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188890111446,
+        "volume_24h": 175780459512,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -958,61 +958,71 @@
         "crypto": 61,
         "global": 51
       }
+    },
+    {
+      "ts": "2025-09-04T01:49:59.219369+00:00",
+      "crypto": 0.6013,
+      "global": 0.534,
+      "combined": 0.5788,
+      "counts": {
+        "crypto": 62,
+        "global": 55
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Loses 250 Points But Nasdaq Up On Rate-Cut Bets; Nvidia, Palantir Slip Below Key Levels (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/b56ccf49-9bee-327b-9e4e-be76c473379a/stock-market-today%3A-dow-loses.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7056,
-        "score": 0.8667
-      },
-      {
-        "title": "Joby Aviation (JOBY) Unveils Superpilot Autonomous Flight Technology in Pacific Exercise",
-        "url": "https://finance.yahoo.com/news/joby-aviation-joby-unveils-superpilot-174623858.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5879,
+        "title": "ETH breakout or fakeout? Traders debate whether Ether holds $4.5K",
+        "url": "https://cointelegraph.com/news/eth-rally-toward-dollar4-5k-on-shaky-ground-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5408,
         "score": 1.0
       },
       {
-        "title": "Snowflake (SNOW) Partners With Siemens To Drive AI-Driven Manufacturing Efficiency",
-        "url": "https://finance.yahoo.com/news/snowflake-snow-partners-siemens-drive-174524550.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5868,
-        "score": 1.0
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "BMV Head Expects More Mexican Firms to Dual List in the US",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-04/bmv-head-expects-more-mexican-firms-to-dual-list-in-the-us",
+        "source": "Bloomberg Markets",
+        "weight": 0.6698,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Sector Update: Energy Stocks Slide Late Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-slide-afternoon-194426362.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.738,
-        "score": -1.0
+        "title": "AI Companions Are Grooming Kids Every 5 Minutes, New Report Warns",
+        "url": "https://decrypt.co/338013/ai-companions-grooming-kids-every-5-minutes-new-report",
+        "source": "Decrypt",
+        "weight": 0.6482,
+        "score": -0.9333
       },
       {
-        "title": "Newsmax sues Fox News for allegedly abusing monopoly power",
-        "url": "https://www.cnbc.com/2025/09/03/fox-news-newsmax-antitrust-lawsuit.html",
-        "source": "CNBC Markets",
-        "weight": 0.738,
-        "score": -1.0
-      },
-      {
-        "title": "Polestar Stock Plummets on ‘Going Concern’ Warning. It’s a Bad Time for EV Startups.",
-        "url": "https://finance.yahoo.com/m/fc4dad6d-42ec-35b9-bc26-0f2ef3b36fbd/polestar-stock-plummets-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7233,
+        "title": "Ether exchange reserves fall to 3-year low as ETFs, corporate treasuries soak up supply",
+        "url": "https://cointelegraph.com/news/ether-exchange-reserves-fall-3-year-low-etfs-corporate-treasuries?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.499,
         "score": -0.9667
+      },
+      {
+        "title": "Oil Declines on OPEC+ Supply Concerns and Signs of US Slowdown",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-03/latest-oil-market-news-and-analysis-for-september-4",
+        "source": "Bloomberg Markets",
+        "weight": 0.6287,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4692633280277228,
-          "price_change_24h": 0.03275
+          "volume_mcap_ratio": 0.4428505119684871,
+          "price_change_24h": 0.03658
         }
       ],
       "momentum_shifts": []
