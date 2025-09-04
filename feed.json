@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-04T12:48:52.420546+00:00",
+  "updated_at": "2025-09-04T16:30:29.721776+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.057,
+    "change24h": -0.048,
+    "vol": 0.101,
     "fearGreed": 51,
-    "momentum": -0.039,
-    "regime": "sideways",
+    "momentum": -0.839,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4182,
-    "global_sentiment": 0.3857,
-    "combined_sentiment": 0.4291,
-    "confidence": 0.7966,
+    "crypto_sentiment": 0.3345,
+    "global_sentiment": 0.4461,
+    "combined_sentiment": 0.3714,
+    "confidence": 0.8125,
     "counts": {
-      "crypto": 65,
-      "global": 40
+      "crypto": 60,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 110734,
-      "btc_change_24h": -0.39,
-      "eth_price": 4397.59,
-      "eth_change_24h": 1.0,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 109434,
+      "btc_change_24h": -2.29,
+      "eth_price": 4289.63,
+      "eth_change_24h": -3.79,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181660423528,
+        "volume_24h": 172828898639,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.27,
+        "btc_dominance": 56.35,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -998,52 +998,62 @@
         "crypto": 65,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-09-04T16:30:29.721776+00:00",
+      "crypto": 0.3345,
+      "global": 0.4461,
+      "combined": 0.3714,
+      "counts": {
+        "crypto": 60,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock Market Today: Dow Up On Jobs Data; American Eagle Soars, Credo Makes New High (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/fa257d4c-edb6-3344-a0c7-b12c72b2743d/stock-market-today%3A-dow-up-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7431,
+        "score": 1.0
+      },
+      {
         "title": "Dogecoin’s ‘next wave’ targets $1.40 as first DOGE treasury is launched",
         "url": "https://cointelegraph.com/news/dogecoin-next-wave-targets-1-40-first-doge-treasury-is-launched?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9427,
+        "weight": 0.6153,
         "score": 0.8667
       },
       {
-        "title": "Stock Market Today: Dow Wavers On Surprise Jobs Data; American Eagle Soars On Earnings (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/fa257d4c-edb6-3344-a0c7-b12c72b2743d/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7922,
-        "score": 1.0
-      },
-      {
-        "title": "Why There Are Fears Over China’s Soaring Stock Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-04/why-china-s-stock-market-rally-is-causing-concern",
-        "source": "Bloomberg Markets",
-        "weight": 0.6425,
-        "score": 1.0
+        "title": "Ethereum Whales Stacking ETH, Hinting at Further Upside",
+        "url": "https://decrypt.co/338075/ethereum-whales-stacking-eth-hinting-at-further-upside",
+        "source": "Decrypt",
+        "weight": 0.5942,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "PEPE Faces 15% Downside Risk as Trading Volumes and On-Chain Activity Plunge",
-        "url": "https://www.coindesk.com/markets/2025/09/04/pepe-faces-15-downside-risk-as-trading-volumes-and-on-chain-activity-plunge",
+        "title": "Trump-Linked American Bitcoin Stock Falls Below IPO Price After 15% Plunge",
+        "url": "https://www.coindesk.com/markets/2025/09/04/trump-linked-american-bitcoin-stock-falls-below-ipo-price-after-15-plunge",
         "source": "CoinDesk",
-        "weight": 0.8798,
+        "weight": 0.8892,
         "score": -0.9667
       },
       {
-        "title": "Great Elm Capital Corp. Announces Public Offering of Unsecured Notes",
-        "url": "https://finance.yahoo.com/news/great-elm-capital-corp-announces-115900930.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7268,
-        "score": -0.9667
+        "title": "Bitcoin price sinks into ‘critical support’ under $110K in 2% daily dip",
+        "url": "https://cointelegraph.com/news/bitcoin-price-sinks-into-critical-support-under-110k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7809,
+        "score": -0.9333
       },
       {
-        "title": "VinFast Stock Stable After EV Maker Posts Wider-Than-Expected Loss",
-        "url": "https://finance.yahoo.com/m/be74855a-afcc-3eb0-8e67-28bd8eb728ad/vinfast-stock-stable-after-ev.html?.tsrc=rss",
+        "title": "VinFast Stock Is Steady After EV Maker Posts Wider-Than-Expected Loss",
+        "url": "https://finance.yahoo.com/m/be74855a-afcc-3eb0-8e67-28bd8eb728ad/vinfast-stock-is-steady-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6626,
+        "weight": 0.5965,
         "score": -0.9667
       }
     ],
@@ -1051,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45067122067145343,
-          "price_change_24h": 0.01305
+          "volume_mcap_ratio": 0.4364052996599161,
+          "price_change_24h": -0.0081
         }
       ],
       "momentum_shifts": []
