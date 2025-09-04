@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-04T19:53:33.027954+00:00",
+  "updated_at": "2025-09-04T20:26:00.205334+00:00",
   "indicators": {
-    "change24h": -0.057,
-    "vol": 0.123,
+    "change24h": -0.049,
+    "vol": 0.108,
     "fearGreed": 51,
-    "momentum": -0.995,
+    "momentum": -0.849,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.377,
-    "global_sentiment": 0.4475,
-    "combined_sentiment": 0.4034,
-    "confidence": 0.8129,
+    "crypto_sentiment": 0.3905,
+    "global_sentiment": 0.4191,
+    "combined_sentiment": 0.4111,
+    "confidence": 0.8098,
     "counts": {
       "crypto": 61,
-      "global": 45
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 109811,
-      "btc_change_24h": -2.09,
-      "eth_price": 4272.82,
-      "eth_change_24h": -4.56,
+      "btc_price": 110347,
+      "btc_change_24h": -1.6,
+      "eth_price": 4305.59,
+      "eth_change_24h": -3.69,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.05,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173549359866,
-        "high_activity_coins": 2
+        "volume_24h": 175907682365,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.52,
+        "btc_dominance": 56.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T16:07:16.637746+00:00",
-      "crypto": 0.0,
-      "global": 0.0,
-      "combined": 0.5,
-      "counts": {
-        "crypto": 0,
-        "global": 0
-      }
-    },
     {
       "ts": "2025-08-21T18:37:32.223010+00:00",
       "crypto": 0.0,
@@ -1008,30 +998,40 @@
         "crypto": 61,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-09-04T20:26:00.205334+00:00",
+      "crypto": 0.3905,
+      "global": 0.4191,
+      "combined": 0.4111,
+      "counts": {
+        "crypto": 61,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto Rally Falters as Trump Tokens, Stocks Come Under Pressure",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-04/crypto-rally-falters-as-trump-tokens-stocks-come-under-pressure",
-        "source": "Bloomberg Markets",
-        "weight": 0.6378,
-        "score": 1.0
-      },
-      {
         "title": "Walmart (WMT) Launches Collector's Night Series For Hobby Enthusiasts",
         "url": "https://finance.yahoo.com/news/walmart-wmt-launches-collectors-night-172838436.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6052,
+        "weight": 0.5686,
         "score": 1.0
       },
       {
         "title": "BHP Group (ASX:BHP) Successfully Prices US$1.5 Billion Bond Offer in U.S Market",
         "url": "https://finance.yahoo.com/news/bhp-group-asx-bhp-successfully-172305151.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5988,
+        "weight": 0.5625,
         "score": 1.0
+      },
+      {
+        "title": "Stripe and Paradigm reveal Tempo layer-1 blockchain for stablecoin payments infrastructure",
+        "url": "https://cryptoslate.com/stripe-and-paradigm-reveal-tempo-layer-1-blockchain-for-stablecoin-payments-infrastructure/",
+        "source": "CryptoSlate",
+        "weight": 0.5695,
+        "score": 0.9667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "RFK Jr., Senators Spar Over Vaccines, Health Policy in Fiery Hearing",
         "url": "https://www.bloomberg.com/news/videos/2025-09-04/rfk-jr-senators-spar-over-health-policy-in-hearing-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7907,
+        "weight": 0.7428,
         "score": -0.9667
       },
       {
         "title": "Las Vegas travel is slumping. What does it mean for the rest of the U.S.?",
         "url": "https://www.cnbc.com/2025/09/04/mgm-resorts-ceo-las-vegas-slump-us-travel.html",
         "source": "CNBC Markets",
-        "weight": 0.7715,
+        "weight": 0.7248,
         "score": -0.9667
       },
       {
         "title": "Smaller Banks Tackle $395 Billion Bond Headache With Share Sales",
         "url": "https://www.bloomberg.com/news/articles/2025-09-04/smaller-banks-tackle-395-billion-bond-headache-with-share-sales",
         "source": "Bloomberg Markets",
-        "weight": 0.6588,
+        "weight": 0.6189,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4371001608703732,
-          "price_change_24h": -0.00823
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3172613160400002,
-          "price_change_24h": -0.04186
+          "volume_mcap_ratio": 0.43959941881349646,
+          "price_change_24h": -0.02772
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-04",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4647,
-      "crypto_high": 0.6013,
-      "crypto_low": 0.3345,
-      "global_avg": 0.4574,
-      "global_high": 0.534,
-      "global_low": 0.3857,
-      "combined_avg": 0.47,
-      "combined_high": 0.5788,
-      "combined_low": 0.3714
-    },
-    "market_indicators_24h": {
-      "change24h": -0.057,
-      "vol": 0.123,
-      "fearGreed": 51,
-      "momentum": -0.995,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-04T19:53:33.027954+00:00"
   }
 }
