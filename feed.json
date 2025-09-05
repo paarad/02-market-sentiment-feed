@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-04T20:26:00.205334+00:00",
+  "updated_at": "2025-09-05T01:52:53.079098+00:00",
   "indicators": {
-    "change24h": -0.049,
-    "vol": 0.108,
-    "fearGreed": 51,
-    "momentum": -0.849,
+    "change24h": -0.03,
+    "vol": 0.126,
+    "fearGreed": 48,
+    "momentum": -0.528,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3905,
-    "global_sentiment": 0.4191,
-    "combined_sentiment": 0.4111,
-    "confidence": 0.8098,
+    "crypto_sentiment": 0.4885,
+    "global_sentiment": 0.408,
+    "combined_sentiment": 0.4837,
+    "confidence": 0.7808,
     "counts": {
-      "crypto": 61,
-      "global": 48
+      "crypto": 64,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 110347,
-      "btc_change_24h": -1.6,
-      "eth_price": 4305.59,
-      "eth_change_24h": -3.69,
+      "btc_price": 111048,
+      "btc_change_24h": -0.75,
+      "eth_price": 4330.77,
+      "eth_change_24h": -3.02,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 51,
+        "value": 48,
         "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 175907682365,
-        "high_activity_coins": 1
+        "volume_24h": 183308129069,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T18:37:32.223010+00:00",
-      "crypto": 0.0,
-      "global": 0.0,
-      "combined": 0.5,
-      "counts": {
-        "crypto": 0,
-        "global": 0
-      }
-    },
     {
       "ts": "2025-08-21T18:51:03.895813+00:00",
       "crypto": 0.0,
@@ -1008,52 +998,62 @@
         "crypto": 61,
         "global": 48
       }
+    },
+    {
+      "ts": "2025-09-05T01:52:53.079098+00:00",
+      "crypto": 0.4885,
+      "global": 0.408,
+      "combined": 0.4837,
+      "counts": {
+        "crypto": 64,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Walmart (WMT) Launches Collector's Night Series For Hobby Enthusiasts",
-        "url": "https://finance.yahoo.com/news/walmart-wmt-launches-collectors-night-172838436.html?.tsrc=rss",
+        "title": "S&P notches record-high close as data keeps rate cut views intact",
+        "url": "https://finance.yahoo.com/video/p-notches-record-high-close-223339674.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5686,
+        "weight": 0.5451,
         "score": 1.0
       },
       {
-        "title": "BHP Group (ASX:BHP) Successfully Prices US$1.5 Billion Bond Offer in U.S Market",
-        "url": "https://finance.yahoo.com/news/bhp-group-asx-bhp-successfully-172305151.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5625,
-        "score": 1.0
+        "title": "China’s Fund Managers Rest Hopes for Slow Bull Run on Beijing",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-05/china-s-fund-managers-rest-hopes-for-slow-bull-run-on-government",
+        "source": "Bloomberg Markets",
+        "weight": 0.6708,
+        "score": 0.6667
       },
       {
-        "title": "Stripe and Paradigm reveal Tempo layer-1 blockchain for stablecoin payments infrastructure",
-        "url": "https://cryptoslate.com/stripe-and-paradigm-reveal-tempo-layer-1-blockchain-for-stablecoin-payments-infrastructure/",
-        "source": "CryptoSlate",
-        "weight": 0.5695,
-        "score": 0.9667
+        "title": "Our Enterprise Value is Over $20B: MLS Commissioner",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-04/our-enterprise-value-is-over-20b-mls-commissioner-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5588,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "RFK Jr., Senators Spar Over Vaccines, Health Policy in Fiery Hearing",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-04/rfk-jr-senators-spar-over-health-policy-in-hearing-video",
+        "title": "Dow, S&P, Nasdaq Rise Before ADP Jobs Report | The Close 9/4/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-05/the-close-9-4-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7428,
+        "weight": 0.6485,
         "score": -0.9667
       },
       {
-        "title": "Las Vegas travel is slumping. What does it mean for the rest of the U.S.?",
-        "url": "https://www.cnbc.com/2025/09/04/mgm-resorts-ceo-las-vegas-slump-us-travel.html",
-        "source": "CNBC Markets",
-        "weight": 0.7248,
-        "score": -0.9667
+        "title": "Labor Market Seeing Supply & Demand Shocks: Rosengren",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-04/labor-market-seeing-supply-demand-shocks-rosengren-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5292,
+        "score": -1.0
       },
       {
-        "title": "Smaller Banks Tackle $395 Billion Bond Headache With Share Sales",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-04/smaller-banks-tackle-395-billion-bond-headache-with-share-sales",
-        "source": "Bloomberg Markets",
-        "weight": 0.6189,
+        "title": "Bitcoin drop to $108K possible as investors fly to ‘safer’ assets",
+        "url": "https://cointelegraph.com/news/bitcoin-drop-to-108k-possible-as-investors-fly-to-safer-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4633,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43959941881349646,
-          "price_change_24h": -0.02772
+          "volume_mcap_ratio": 0.45035857357460723,
+          "price_change_24h": -0.02184
+        },
+        {
+          "symbol": "WLFI",
+          "volume_mcap_ratio": 0.3114437722986658,
+          "price_change_24h": -15.26323
         }
       ],
       "momentum_shifts": []
