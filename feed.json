@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-05T04:28:42.561516+00:00",
+  "updated_at": "2025-09-05T08:31:55.622258+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.102,
+    "change24h": 0.01,
+    "vol": 0.076,
     "fearGreed": 48,
-    "momentum": -0.266,
-    "regime": "bear",
+    "momentum": 0.177,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4612,
-    "global_sentiment": 0.4391,
-    "combined_sentiment": 0.4658,
-    "confidence": 0.7628,
+    "crypto_sentiment": 0.4497,
+    "global_sentiment": 0.4308,
+    "combined_sentiment": 0.4565,
+    "confidence": 0.7494,
     "counts": {
-      "crypto": 64,
-      "global": 49
+      "crypto": 65,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 111278,
-      "btc_change_24h": 0.12,
-      "eth_price": 4321.18,
-      "eth_change_24h": -1.83,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 112748,
+      "btc_change_24h": 1.79,
+      "eth_price": 4395.58,
+      "eth_change_24h": 0.17,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 170735333630,
-        "high_activity_coins": 2
+        "volume_24h": 184772832327,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.64,
+        "btc_dominance": 56.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T19:01:31.122924+00:00",
-      "crypto": 0.0,
-      "global": 0.0,
-      "combined": 0.5,
-      "counts": {
-        "crypto": 0,
-        "global": 0
-      }
-    },
     {
       "ts": "2025-08-21T19:05:21.861137+00:00",
       "crypto": 0.0,
@@ -1008,52 +998,62 @@
         "crypto": 64,
         "global": 49
       }
+    },
+    {
+      "ts": "2025-09-05T08:31:55.622258+00:00",
+      "crypto": 0.4497,
+      "global": 0.4308,
+      "combined": 0.4565,
+      "counts": {
+        "crypto": 65,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Bond Demand Improves in Auction as Stock Ardor Cools",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-05/china-bond-demand-improves-in-auction-as-stock-ardor-cools",
+        "title": "Citi: Expect Gold to Climb to $3,600 Over Next Months",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-05/citi-expect-gold-to-climb-to-3-600-over-next-months-video",
         "source": "Bloomberg Markets",
-        "weight": 0.779,
+        "weight": 0.5653,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Iron Ore Set for Weekly Gain With Margins and Supply in Focus",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-05/iron-ore-set-for-weekly-gain-with-margins-and-supply-in-focus",
+        "title": "UK House Prices Hit New Record High in August, Halifax Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-05/uk-house-prices-rose-for-a-third-month-in-august-halifax-says",
         "source": "Bloomberg Markets",
-        "weight": 0.6131,
+        "weight": 0.6043,
         "score": 0.6667
-      },
-      {
-        "title": "S&P notches record-high close as data keeps rate cut views intact",
-        "url": "https://finance.yahoo.com/video/p-notches-record-high-close-223339674.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4038,
-        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Two Venezuelan Aircraft Fly Over US Ship as Tensions Rise",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-05/two-venezuela-military-planes-fly-over-us-ships-as-tensions-rise",
-        "source": "Bloomberg Markets",
-        "weight": 0.6221,
-        "score": -0.9333
-      },
-      {
-        "title": "Bitcoin bulls buy the dip but can BTC secure a daily close above $112K?",
-        "url": "https://cointelegraph.com/news/bitcoin-dip-buyers-step-in-but-dollar112k-is-the-price-to-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8774,
+        "title": "Bitcoin Crash Brewing? Trader Plans Bids at $94K, $82K for Potential Market Freakout",
+        "url": "https://www.coindesk.com/markets/2025/09/05/bitcoin-crash-brewing-trader-puts-bids-at-usd94k-and-usd82k-for-potential-market-freakout",
+        "source": "CoinDesk",
+        "weight": 0.8778,
         "score": -0.6333
       },
       {
-        "title": "Coinbase’s preferred AI coding tool can be hijacked by new virus",
-        "url": "https://cointelegraph.com/news/coinbase-preferred-ai-coding-tool-hijacked-new-virus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7657,
+        "title": "What a Bayrou Au Revoir Would Mean for Economy",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-05/what-a-bayrou-au-revoir-would-mean-for-economy-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7501,
+        "score": -0.6667
+      },
+      {
+        "title": "German Factory Orders’ Unexpected Drop Hurts Rebound Hopes",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-05/german-factory-orders-unexpectedly-plummet-dimming-rebound-hope",
+        "source": "Bloomberg Markets",
+        "weight": 0.6063,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4318953799270484,
-          "price_change_24h": -0.01881
-        },
-        {
-          "symbol": "WLFI",
-          "volume_mcap_ratio": 0.30235759526078637,
-          "price_change_24h": -7.97519
+          "volume_mcap_ratio": 0.46928568848528446,
+          "price_change_24h": -0.0095
         }
       ],
       "momentum_shifts": []
