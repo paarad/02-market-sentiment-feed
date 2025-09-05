@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-05T01:52:53.079098+00:00",
+  "updated_at": "2025-09-05T04:28:42.561516+00:00",
   "indicators": {
-    "change24h": -0.03,
-    "vol": 0.126,
+    "change24h": -0.015,
+    "vol": 0.102,
     "fearGreed": 48,
-    "momentum": -0.528,
+    "momentum": -0.266,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4885,
-    "global_sentiment": 0.408,
-    "combined_sentiment": 0.4837,
-    "confidence": 0.7808,
+    "crypto_sentiment": 0.4612,
+    "global_sentiment": 0.4391,
+    "combined_sentiment": 0.4658,
+    "confidence": 0.7628,
     "counts": {
       "crypto": 64,
-      "global": 43
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 111048,
-      "btc_change_24h": -0.75,
-      "eth_price": 4330.77,
-      "eth_change_24h": -3.02,
+      "btc_price": 111278,
+      "btc_change_24h": 0.12,
+      "eth_price": 4321.18,
+      "eth_change_24h": -1.83,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 183308129069,
+        "volume_24h": 170735333630,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.58,
+        "btc_dominance": 56.64,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T18:51:03.895813+00:00",
-      "crypto": 0.0,
-      "global": 0.0,
-      "combined": 0.5,
-      "counts": {
-        "crypto": 0,
-        "global": 0
-      }
-    },
     {
       "ts": "2025-08-21T19:01:31.122924+00:00",
       "crypto": 0.0,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-09-05T04:28:42.561516+00:00",
+      "crypto": 0.4612,
+      "global": 0.4391,
+      "combined": 0.4658,
+      "counts": {
+        "crypto": 64,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "China Bond Demand Improves in Auction as Stock Ardor Cools",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-05/china-bond-demand-improves-in-auction-as-stock-ardor-cools",
+        "source": "Bloomberg Markets",
+        "weight": 0.779,
+        "score": 0.5333
+      },
+      {
+        "title": "Iron Ore Set for Weekly Gain With Margins and Supply in Focus",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-05/iron-ore-set-for-weekly-gain-with-margins-and-supply-in-focus",
+        "source": "Bloomberg Markets",
+        "weight": 0.6131,
+        "score": 0.6667
+      },
+      {
         "title": "S&P notches record-high close as data keeps rate cut views intact",
         "url": "https://finance.yahoo.com/video/p-notches-record-high-close-223339674.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5451,
+        "weight": 0.4038,
         "score": 1.0
-      },
-      {
-        "title": "China’s Fund Managers Rest Hopes for Slow Bull Run on Beijing",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-05/china-s-fund-managers-rest-hopes-for-slow-bull-run-on-government",
-        "source": "Bloomberg Markets",
-        "weight": 0.6708,
-        "score": 0.6667
-      },
-      {
-        "title": "Our Enterprise Value is Over $20B: MLS Commissioner",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-04/our-enterprise-value-is-over-20b-mls-commissioner-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5588,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Dow, S&P, Nasdaq Rise Before ADP Jobs Report | The Close 9/4/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-05/the-close-9-4-2025-video",
+        "title": "Two Venezuelan Aircraft Fly Over US Ship as Tensions Rise",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-05/two-venezuela-military-planes-fly-over-us-ships-as-tensions-rise",
         "source": "Bloomberg Markets",
-        "weight": 0.6485,
-        "score": -0.9667
+        "weight": 0.6221,
+        "score": -0.9333
       },
       {
-        "title": "Labor Market Seeing Supply & Demand Shocks: Rosengren",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-04/labor-market-seeing-supply-demand-shocks-rosengren-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5292,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin drop to $108K possible as investors fly to ‘safer’ assets",
-        "url": "https://cointelegraph.com/news/bitcoin-drop-to-108k-possible-as-investors-fly-to-safer-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin bulls buy the dip but can BTC secure a daily close above $112K?",
+        "url": "https://cointelegraph.com/news/bitcoin-dip-buyers-step-in-but-dollar112k-is-the-price-to-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4633,
-        "score": -1.0
+        "weight": 0.8774,
+        "score": -0.6333
+      },
+      {
+        "title": "Coinbase’s preferred AI coding tool can be hijacked by new virus",
+        "url": "https://cointelegraph.com/news/coinbase-preferred-ai-coding-tool-hijacked-new-virus?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7657,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45035857357460723,
-          "price_change_24h": -0.02184
+          "volume_mcap_ratio": 0.4318953799270484,
+          "price_change_24h": -0.01881
         },
         {
           "symbol": "WLFI",
-          "volume_mcap_ratio": 0.3114437722986658,
-          "price_change_24h": -15.26323
+          "volume_mcap_ratio": 0.30235759526078637,
+          "price_change_24h": -7.97519
         }
       ],
       "momentum_shifts": []
