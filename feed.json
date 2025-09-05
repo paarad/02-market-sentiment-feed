@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-05T19:53:21.735580+00:00",
+  "updated_at": "2025-09-05T20:26:01.854803+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.118,
+    "change24h": 0.029,
+    "vol": 0.109,
     "fearGreed": 48,
-    "momentum": 0.664,
+    "momentum": 0.511,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6086,
-    "global_sentiment": 0.4711,
-    "combined_sentiment": 0.5791,
-    "confidence": 0.8047,
+    "crypto_sentiment": 0.6426,
+    "global_sentiment": 0.4288,
+    "combined_sentiment": 0.601,
+    "confidence": 0.8063,
     "counts": {
       "crypto": 56,
-      "global": 60
+      "global": 55
     },
     "market_indicators": {
-      "btc_price": 111401,
-      "btc_change_24h": 1.47,
-      "eth_price": 4323.89,
-      "eth_change_24h": 1.27,
+      "btc_price": 111365,
+      "btc_change_24h": 0.89,
+      "eth_price": 4326.18,
+      "eth_change_24h": 0.46,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 240268156815,
+        "volume_24h": 240274784558,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.55,
+        "btc_dominance": 56.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T19:21:27.666500+00:00",
-      "crypto": 0.0,
-      "global": 0.0,
-      "combined": 0.5,
-      "counts": {
-        "crypto": 0,
-        "global": 0
-      }
-    },
     {
       "ts": "2025-08-21T19:24:00.303687+00:00",
       "crypto": 0.0,
@@ -1008,52 +998,62 @@
         "crypto": 56,
         "global": 60
       }
+    },
+    {
+      "ts": "2025-09-05T20:26:01.854803+00:00",
+      "crypto": 0.6426,
+      "global": 0.4288,
+      "combined": 0.601,
+      "counts": {
+        "crypto": 56,
+        "global": 55
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "SOL Strategies Wins Nasdaq Listing, Shares to Trade Under ‘STKE’",
+        "url": "https://www.coindesk.com/business/2025/09/05/sol-strategies-wins-nasdaq-listing-shares-to-trade-under-stke",
+        "source": "CoinDesk",
+        "weight": 1.0557,
+        "score": 0.9667
+      },
+      {
+        "title": "Credit Demand is Strong: HSBC's Patrice Altongy",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-05/credit-demand-is-strong-hsbc-s-patrice-altongy-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7791,
+        "score": 0.8667
+      },
+      {
         "title": "PredictIt Gains CFTC Approval to Launch Regulated Exchange",
         "url": "https://www.bloomberg.com/news/articles/2025-09-05/predictit-gains-cftc-approval-to-launch-regulated-exchange",
         "source": "Bloomberg Markets",
-        "weight": 0.7711,
+        "weight": 0.7241,
         "score": 0.9167
-      },
-      {
-        "title": "Cooling Labor Market Reinforces Case for a Rate Cut | Open Interest 9/5/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-05/open-interest-9-5-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.634,
-        "score": 1.0
-      },
-      {
-        "title": "FIL Rises 3% Amid Pronounced Trading Volatility, Volume Surges",
-        "url": "https://www.coindesk.com/markets/2025/09/05/fil-rises-3-amid-pronounced-trading-volatility-volume-surges",
-        "source": "CoinDesk",
-        "weight": 0.6462,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-afternoon-195330442.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7514,
+        "score": -0.9667
+      },
+      {
         "title": "Why Allstate (ALL) Shares Are Sliding Today",
         "url": "https://finance.yahoo.com/news/why-allstate-shares-sliding-today-192550963.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7587,
+        "weight": 0.7124,
         "score": -1.0
       },
       {
         "title": "Weak Jobs Report Weighs on Equities Intraday; Yields Tumble",
         "url": "https://finance.yahoo.com/news/weak-jobs-report-weighs-equities-182202576.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.671,
-        "score": -0.9667
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Friday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-friday-174152669.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6211,
+        "weight": 0.6301,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6057609576464418,
-          "price_change_24h": 0.00351
+          "volume_mcap_ratio": 0.6087658107149315,
+          "price_change_24h": 0.00782
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-05",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5158,
-      "crypto_high": 0.6086,
-      "crypto_low": 0.4497,
-      "global_avg": 0.4436,
-      "global_high": 0.4774,
-      "global_low": 0.408,
-      "combined_avg": 0.5071,
-      "combined_high": 0.5791,
-      "combined_low": 0.4565
-    },
-    "market_indicators_24h": {
-      "change24h": 0.038,
-      "vol": 0.118,
-      "fearGreed": 48,
-      "momentum": 0.664,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-05T19:53:21.735580+00:00"
   }
 }
