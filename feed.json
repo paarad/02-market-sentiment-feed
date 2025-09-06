@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-06T12:42:50.548329+00:00",
+  "updated_at": "2025-09-06T16:26:16.420525+00:00",
   "indicators": {
-    "change24h": -0.036,
-    "vol": 0.089,
+    "change24h": -0.015,
+    "vol": 0.062,
     "fearGreed": 48,
-    "momentum": -0.624,
+    "momentum": -0.269,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4416,
-    "global_sentiment": 0.4665,
-    "combined_sentiment": 0.4534,
-    "confidence": 0.6501,
+    "crypto_sentiment": 0.5639,
+    "global_sentiment": 0.4734,
+    "combined_sentiment": 0.5457,
+    "confidence": 0.7323,
     "counts": {
-      "crypto": 63,
-      "global": 44
+      "crypto": 67,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 110817,
-      "btc_change_24h": -1.62,
-      "eth_price": 4295.71,
-      "eth_change_24h": -3.19,
+      "btc_price": 110132,
+      "btc_change_24h": -0.58,
+      "eth_price": 4249.91,
+      "eth_change_24h": -0.97,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176226858368,
-        "high_activity_coins": 2
+        "volume_24h": 120632662548,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.54,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T20:47:28.380435+00:00",
-      "crypto": 0.4808,
-      "global": 0.4731,
-      "combined": 0.48,
-      "counts": {
-        "crypto": 117,
-        "global": 90
-      }
-    },
     {
       "ts": "2025-08-21T20:49:05.440878+00:00",
       "crypto": 0.4846,
@@ -1008,66 +998,71 @@
         "crypto": 63,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-06T16:26:16.420525+00:00",
+      "crypto": 0.5639,
+      "global": 0.4734,
+      "combined": 0.5457,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold is on a record run — here's how to invest, according to experts",
-        "url": "https://www.cnbc.com/2025/09/06/how-to-invest-in-gold-amid-record-run.html",
-        "source": "CNBC Markets",
-        "weight": 0.6563,
+        "title": "DOGE Flashes Bullish Signal as RSI Holds Neutral and Volume Surges",
+        "url": "https://www.coindesk.com/markets/2025/09/06/doge-flashes-bullish-signal-as-rsi-holds-neutral-and-volume-surges",
+        "source": "CoinDesk",
+        "weight": 1.0169,
+        "score": 1.0
+      },
+      {
+        "title": "ARK Invest boosts crypto bets with $16M BitMine, $7.5M Bullish stock buys",
+        "url": "https://cointelegraph.com/news/ark-invest-crypto-bitmine-bullish-stock-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5397,
         "score": 0.8667
       },
       {
-        "title": "The New Gold Rush: Why Australia’s Miners Say This Time Is Different",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-06/the-new-gold-rush-why-it-s-different-in-australia-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7446,
-        "score": 0.5333
-      },
-      {
-        "title": "SOL Strategies Wins Nasdaq Listing, Shares to Trade Under ‘STKE’",
-        "url": "https://www.coindesk.com/business/2025/09/05/sol-strategies-wins-nasdaq-listing-shares-to-trade-under-stke",
-        "source": "CoinDesk",
-        "weight": 0.161,
-        "score": 0.9667
+        "title": "Bitcoin and Ethereum Hit New Highs—Why Not Dogecoin?",
+        "url": "https://decrypt.co/338172/bitcoin-ethereum-hit-new-highs-why-not-dogecoin",
+        "source": "Decrypt",
+        "weight": 0.5725,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Ethena token rallies over 12% following StablecoinX’s $530 million capital raise",
-        "url": "https://cryptoslate.com/ethena-token-rallies-over-12-on-saturday-following-stablecoinxs-530-million-capital-raise/",
-        "source": "CryptoSlate",
-        "weight": 0.6728,
+        "title": "President Trump vs. the Fed: Larry Summers Warns of a Credibility Crisis",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-06/larry-summers-warns-of-a-fed-credibility-crisis-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6098,
+        "score": -0.9667
+      },
+      {
+        "title": "StablecoinX Secures $530M Investment to Back Ethena-Linked Treasury",
+        "url": "https://www.coindesk.com/business/2025/09/06/stablecoinx-secures-usd530m-investment-to-back-ethena-linked-treasury",
+        "source": "CoinDesk",
+        "weight": 0.8915,
         "score": -0.6333
       },
       {
-        "title": "IMF Warns Angola Faces Rising Debt Risks as Oil Income Declines",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-06/imf-warns-angola-faces-rising-debt-risks-as-oil-income-declines",
-        "source": "Bloomberg Markets",
-        "weight": 0.5781,
-        "score": -0.6667
-      },
-      {
-        "title": "Adnoc Is Said to Mull $10 Billion Plus Financing for Santos Deal",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-06/adnoc-is-said-to-mull-10-billion-plus-financing-for-santos-deal",
-        "source": "Bloomberg Markets",
-        "weight": 0.5386,
-        "score": -0.6667
+        "title": "The Banks and the Unbanked: Blockchain’s Biggest Beneficiaries Sit at Both Ends of the Financial Spectrum",
+        "url": "https://www.coindesk.com/opinion/2025/09/06/the-banks-and-the-unbanked-blockchain-s-biggest-beneficiaries-sit-at-both-ends-of-the-financial-spectrum",
+        "source": "CoinDesk",
+        "weight": 0.8604,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44568403191166156,
-          "price_change_24h": 0.00096
-        },
-        {
-          "symbol": "ENA",
-          "volume_mcap_ratio": 0.3003067326352811,
-          "price_change_24h": 10.23602
+          "volume_mcap_ratio": 0.30546802815546525,
+          "price_change_24h": 0.01403
         }
       ],
       "momentum_shifts": []
