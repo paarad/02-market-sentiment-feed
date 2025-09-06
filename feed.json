@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-06T16:26:16.420525+00:00",
+  "updated_at": "2025-09-06T19:53:47.378324+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.062,
+    "change24h": -0.03,
+    "vol": 0.073,
     "fearGreed": 48,
-    "momentum": -0.269,
+    "momentum": -0.526,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5639,
-    "global_sentiment": 0.4734,
-    "combined_sentiment": 0.5457,
-    "confidence": 0.7323,
+    "crypto_sentiment": 0.5916,
+    "global_sentiment": 0.4987,
+    "combined_sentiment": 0.5686,
+    "confidence": 0.7157,
     "counts": {
-      "crypto": 67,
-      "global": 41
+      "crypto": 68,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 110132,
-      "btc_change_24h": -0.58,
-      "eth_price": 4249.91,
-      "eth_change_24h": -0.97,
+      "btc_price": 110048,
+      "btc_change_24h": -1.25,
+      "eth_price": 4256.7,
+      "eth_change_24h": -1.62,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.1,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 120632662548,
-        "high_activity_coins": 1
+        "volume_24h": 112371268579,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.51,
+        "btc_dominance": 56.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-21T20:49:05.440878+00:00",
-      "crypto": 0.4846,
-      "global": 0.479,
-      "combined": 0.48,
-      "counts": {
-        "crypto": 117,
-        "global": 90
-      }
-    },
     {
       "ts": "2025-08-21T20:55:57.441251+00:00",
       "crypto": 0.4767,
@@ -1008,6 +998,16 @@
         "crypto": 67,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-06T19:53:47.378324+00:00",
+      "crypto": 0.5916,
+      "global": 0.4987,
+      "combined": 0.5686,
+      "counts": {
+        "crypto": 68,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,59 +1016,79 @@
         "title": "DOGE Flashes Bullish Signal as RSI Holds Neutral and Volume Surges",
         "url": "https://www.coindesk.com/markets/2025/09/06/doge-flashes-bullish-signal-as-rsi-holds-neutral-and-volume-surges",
         "source": "CoinDesk",
-        "weight": 1.0169,
+        "weight": 0.682,
         "score": 1.0
       },
       {
-        "title": "ARK Invest boosts crypto bets with $16M BitMine, $7.5M Bullish stock buys",
-        "url": "https://cointelegraph.com/news/ark-invest-crypto-bitmine-bullish-stock-buys?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5397,
+        "title": "The Nasdaq’s historic market cap surge is unprecedented and ‘insane’",
+        "url": "https://cryptoslate.com/the-nasdaqs-historic-market-cap-surge-is-unprecedented-and-insane/",
+        "source": "CryptoSlate",
+        "weight": 0.5373,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin and Ethereum Hit New Highs—Why Not Dogecoin?",
-        "url": "https://decrypt.co/338172/bitcoin-ethereum-hit-new-highs-why-not-dogecoin",
-        "source": "Decrypt",
-        "weight": 0.5725,
-        "score": 0.6667
+        "title": "ARK Invest Snaps Up $23.5M in BitMine and Bullish Shares Across Flagship ETFs",
+        "url": "https://www.coindesk.com/markets/2025/09/06/ark-invest-snaps-up-usd23-5m-in-bitmine-and-bullish-shares-across-flagship-etfs",
+        "source": "CoinDesk",
+        "weight": 0.7802,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Greek Premier Offers €1.6 Billion Tax Cuts to Spur Middle Class",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-06/greek-premier-offers-1-6-billion-tax-cuts-to-spur-middle-class",
+        "source": "Bloomberg Markets",
+        "weight": 0.6934,
+        "score": -0.6
+      },
+      {
         "title": "President Trump vs. the Fed: Larry Summers Warns of a Credibility Crisis",
         "url": "https://www.bloomberg.com/news/videos/2025-09-06/larry-summers-warns-of-a-fed-credibility-crisis-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6098,
+        "weight": 0.409,
         "score": -0.9667
       },
       {
         "title": "StablecoinX Secures $530M Investment to Back Ethena-Linked Treasury",
         "url": "https://www.coindesk.com/business/2025/09/06/stablecoinx-secures-usd530m-investment-to-back-ethena-linked-treasury",
         "source": "CoinDesk",
-        "weight": 0.8915,
+        "weight": 0.5979,
         "score": -0.6333
-      },
-      {
-        "title": "The Banks and the Unbanked: Blockchain’s Biggest Beneficiaries Sit at Both Ends of the Financial Spectrum",
-        "url": "https://www.coindesk.com/opinion/2025/09/06/the-banks-and-the-unbanked-blockchain-s-biggest-beneficiaries-sit-at-both-ends-of-the-financial-spectrum",
-        "source": "CoinDesk",
-        "weight": 0.8604,
-        "score": -0.3333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.30546802815546525,
-          "price_change_24h": 0.01403
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-06",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5625,
+      "crypto_high": 0.6534,
+      "crypto_low": 0.4416,
+      "global_avg": 0.4712,
+      "global_high": 0.4987,
+      "global_low": 0.4477,
+      "combined_avg": 0.5445,
+      "combined_high": 0.6126,
+      "combined_low": 0.4534
+    },
+    "market_indicators_24h": {
+      "change24h": -0.03,
+      "vol": 0.073,
+      "fearGreed": 48,
+      "momentum": -0.526,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-06T19:53:47.378324+00:00"
   }
 }
