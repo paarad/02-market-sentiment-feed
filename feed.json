@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-07T12:43:52.986698+00:00",
+  "updated_at": "2025-09-07T16:26:47.752062+00:00",
   "indicators": {
-    "change24h": 0.01,
-    "vol": 0.06,
+    "change24h": 0.024,
+    "vol": 0.07,
     "fearGreed": 44,
-    "momentum": 0.177,
+    "momentum": 0.427,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4835,
-    "global_sentiment": 0.3566,
-    "combined_sentiment": 0.4757,
-    "confidence": 0.4873,
+    "crypto_sentiment": 0.4789,
+    "global_sentiment": 0.3402,
+    "combined_sentiment": 0.4708,
+    "confidence": 0.5905,
     "counts": {
       "crypto": 66,
-      "global": 45
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 111171,
-      "btc_change_24h": 0.34,
-      "eth_price": 4299.82,
-      "eth_change_24h": 0.13,
+      "btc_price": 111217,
+      "btc_change_24h": 0.98,
+      "eth_price": 4291.19,
+      "eth_change_24h": 0.96,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.8,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 108753225479.0,
+        "volume_24h": 107347829372.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.49,
+        "btc_dominance": 56.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-22T13:03:35.911530+00:00",
-      "crypto": 0.4218,
-      "global": 0.5257,
-      "combined": 0.4435,
-      "counts": {
-        "crypto": 68,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-08-22T18:55:20.420593+00:00",
       "crypto": 0.4949,
@@ -1008,6 +998,16 @@
         "crypto": 66,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-09-07T16:26:47.752062+00:00",
+      "crypto": 0.4789,
+      "global": 0.3402,
+      "combined": 0.4708,
+      "counts": {
+        "crypto": 66,
+        "global": 41
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Gold is on a record run — here's how to invest, according to experts",
         "url": "https://www.cnbc.com/2025/09/06/how-to-invest-in-gold-amid-record-run.html",
         "source": "CNBC Markets",
-        "weight": 0.591,
+        "weight": 0.3847,
         "score": 0.8667
       },
       {
-        "title": "Macro Hedge Funds Play Index Versus Index in Niche Option Trades",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/macro-hedge-funds-play-index-versus-index-in-niche-option-trades",
-        "source": "Bloomberg Markets",
-        "weight": 0.7352,
+        "title": "Bitcoin Illiquid Supply Hits Record 14.3M as Long-Term Holders Continue to Accumulate",
+        "url": "https://www.coindesk.com/markets/2025/09/07/bitcoin-illiquid-supply-hits-record-14-3m-as-long-term-holders-continue-to-accumulate",
+        "source": "CoinDesk",
+        "weight": 0.7538,
         "score": 0.3333
       },
       {
-        "title": "What To Expect in Markets This Week: August Inflation Data, Apple iPhone Event, Updates From Nvidia, Oracle, GameStop",
-        "url": "https://www.investopedia.com/what-to-expect-in-markets-this-week-august-inflation-data-apple-iphone-event-updates-from-nvidia-oracle-gamestop-11803381?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5199,
+        "title": "Tether denies Bitcoin sell-off rumors, confirms buying BTC, gold, land",
+        "url": "https://cointelegraph.com/news/tether-denies-bitcoin-sell-off-invests-btc-gold-land?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6571,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "UK Home Secretary to Host Five Eyes Meeting on Border Security",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-07/uk-home-secretary-to-host-five-eyes-meeting-on-border-security",
+        "source": "Bloomberg Markets",
+        "weight": 0.7247,
+        "score": -0.9333
+      },
+      {
+        "title": "Chainlink CEO Sees Tokenization as Sector's Rising Future After Meeting SEC's Atkins",
+        "url": "https://www.coindesk.com/policy/2025/09/05/chainlink-ceo-sees-tokenization-as-sector-s-rising-future-after-meeting-sec-s-atkins",
+        "source": "CoinDesk",
+        "weight": 0.8461,
+        "score": -0.6333
+      },
+      {
         "title": "Can We Trust America's Jobs Data?",
         "url": "https://www.bloomberg.com/news/videos/2025-09-07/in-america-s-jobs-data-we-trust-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7437,
+        "weight": 0.4841,
         "score": -1.0
-      },
-      {
-        "title": "Japan Long Bonds, Yen to Fall After Ishiba Resigns, Analysts Say",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/japan-long-bonds-yen-to-fall-after-ishiba-resigns-analysts-say",
-        "source": "Bloomberg Markets",
-        "weight": 0.6346,
-        "score": -0.9667
-      },
-      {
-        "title": "Japan Prime Minister Ishiba Shigeru says he will step down after election setback",
-        "url": "https://www.cnbc.com/2025/09/07/japan-prime-minister-ishiba-shigeru-announces-his-resignation.html",
-        "source": "CNBC Markets",
-        "weight": 0.6069,
-        "score": -0.6333
       }
     ],
     "market_movers": {
