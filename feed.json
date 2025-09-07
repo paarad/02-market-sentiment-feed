@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-07T16:26:47.752062+00:00",
+  "updated_at": "2025-09-07T19:53:45.819797+00:00",
   "indicators": {
     "change24h": 0.024,
-    "vol": 0.07,
+    "vol": 0.095,
     "fearGreed": 44,
-    "momentum": 0.427,
+    "momentum": 0.412,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4789,
-    "global_sentiment": 0.3402,
-    "combined_sentiment": 0.4708,
-    "confidence": 0.5905,
+    "crypto_sentiment": 0.5058,
+    "global_sentiment": 0.3676,
+    "combined_sentiment": 0.4933,
+    "confidence": 0.5914,
     "counts": {
-      "crypto": 66,
-      "global": 41
+      "crypto": 65,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 111217,
-      "btc_change_24h": 0.98,
-      "eth_price": 4291.19,
-      "eth_change_24h": 0.96,
+      "btc_price": 111206,
+      "btc_change_24h": 1.02,
+      "eth_price": 4292.22,
+      "eth_change_24h": 0.88,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 107347829372.0,
+        "volume_24h": 107235506236.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.43,
+        "btc_dominance": 56.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-22T18:55:20.420593+00:00",
-      "crypto": 0.4949,
-      "global": 0.63,
-      "combined": 0.507,
-      "counts": {
-        "crypto": 66,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-08-23T01:36:38.195385+00:00",
       "crypto": 0.5212,
@@ -1008,53 +998,63 @@
         "crypto": 66,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-07T19:53:45.819797+00:00",
+      "crypto": 0.5058,
+      "global": 0.3676,
+      "combined": 0.4933,
+      "counts": {
+        "crypto": 65,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Bullish Treasuries Traders Awaits Jobs Revisions, Inflation Data",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-07/bullish-treasuries-traders-awaits-jobs-revisions-inflation-data",
+        "source": "Bloomberg Markets",
+        "weight": 0.7213,
+        "score": 0.5333
+      },
+      {
         "title": "Gold is on a record run — here's how to invest, according to experts",
         "url": "https://www.cnbc.com/2025/09/06/how-to-invest-in-gold-amid-record-run.html",
         "source": "CNBC Markets",
-        "weight": 0.3847,
+        "weight": 0.2583,
         "score": 0.8667
-      },
-      {
-        "title": "Bitcoin Illiquid Supply Hits Record 14.3M as Long-Term Holders Continue to Accumulate",
-        "url": "https://www.coindesk.com/markets/2025/09/07/bitcoin-illiquid-supply-hits-record-14-3m-as-long-term-holders-continue-to-accumulate",
-        "source": "CoinDesk",
-        "weight": 0.7538,
-        "score": 0.3333
-      },
-      {
-        "title": "Tether denies Bitcoin sell-off rumors, confirms buying BTC, gold, land",
-        "url": "https://cointelegraph.com/news/tether-denies-bitcoin-sell-off-invests-btc-gold-land?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6571,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "CEOs Eyeing Tech Deals Record Flock to Key Goldman Confab",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-07/ceos-eyeing-tech-deals-record-flock-to-key-goldman-confab",
+        "source": "Bloomberg Markets",
+        "weight": 0.7462,
+        "score": -0.9667
+      },
+      {
         "title": "UK Home Secretary to Host Five Eyes Meeting on Border Security",
         "url": "https://www.bloomberg.com/news/articles/2025-09-07/uk-home-secretary-to-host-five-eyes-meeting-on-border-security",
         "source": "Bloomberg Markets",
-        "weight": 0.7247,
+        "weight": 0.4865,
         "score": -0.9333
       },
       {
-        "title": "Chainlink CEO Sees Tokenization as Sector's Rising Future After Meeting SEC's Atkins",
-        "url": "https://www.coindesk.com/policy/2025/09/05/chainlink-ceo-sees-tokenization-as-sector-s-rising-future-after-meeting-sec-s-atkins",
-        "source": "CoinDesk",
-        "weight": 0.8461,
-        "score": -0.6333
-      },
-      {
-        "title": "Can We Trust America's Jobs Data?",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-07/in-america-s-jobs-data-we-trust-video",
+        "title": "Ghana Taps KPMG to Advise on Telecom Stakes to End Losses",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-07/ghana-taps-kpmg-to-advise-on-telecom-stakes-to-end-losses",
         "source": "Bloomberg Markets",
-        "weight": 0.4841,
-        "score": -1.0
+        "weight": 0.6491,
+        "score": -0.6333
       }
     ],
     "market_movers": {
@@ -1064,5 +1064,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-07",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5509,
+      "crypto_high": 0.634,
+      "crypto_low": 0.4789,
+      "global_avg": 0.4041,
+      "global_high": 0.5076,
+      "global_low": 0.3402,
+      "combined_avg": 0.5302,
+      "combined_high": 0.5983,
+      "combined_low": 0.4708
+    },
+    "market_indicators_24h": {
+      "change24h": 0.024,
+      "vol": 0.095,
+      "fearGreed": 44,
+      "momentum": 0.412,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-07T19:53:45.819797+00:00"
   }
 }
