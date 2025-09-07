@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-07T04:27:26.563960+00:00",
+  "updated_at": "2025-09-07T08:27:11.268839+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.043,
+    "change24h": 0.004,
+    "vol": 0.049,
     "fearGreed": 44,
-    "momentum": -0.111,
+    "momentum": 0.073,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.634,
-    "global_sentiment": 0.4736,
-    "combined_sentiment": 0.5983,
-    "confidence": 0.5681,
+    "crypto_sentiment": 0.5802,
+    "global_sentiment": 0.379,
+    "combined_sentiment": 0.5501,
+    "confidence": 0.518,
     "counts": {
-      "crypto": 66,
-      "global": 44
+      "crypto": 65,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 110582,
-      "btc_change_24h": -0.2,
-      "eth_price": 4295.61,
-      "eth_change_24h": -0.31,
+      "btc_price": 111177,
+      "btc_change_24h": 0.35,
+      "eth_price": 4311.05,
+      "eth_change_24h": 0.05,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 99693533980,
+        "volume_24h": 103142093367.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.41,
+        "btc_dominance": 56.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-22T01:37:56.444631+00:00",
-      "crypto": 0.5212,
-      "global": 0.4521,
-      "combined": 0.5119,
-      "counts": {
-        "crypto": 68,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-08-22T12:39:48.404048+00:00",
       "crypto": 0.4161,
@@ -1008,6 +998,16 @@
         "crypto": 66,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-07T08:27:11.268839+00:00",
+      "crypto": 0.5802,
+      "global": 0.379,
+      "combined": 0.5501,
+      "counts": {
+        "crypto": 65,
+        "global": 46
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "DOGE Flashes Bullish Signal as RSI Holds Neutral and Volume Surges",
         "url": "https://www.coindesk.com/markets/2025/09/06/doge-flashes-bullish-signal-as-rsi-holds-neutral-and-volume-surges",
         "source": "CoinDesk",
-        "weight": 0.2537,
+        "weight": 0.1599,
         "score": 1.0
       },
       {
         "title": "Michael Saylor’s fortune jumps $1B amid billionaire index inclusion",
         "url": "https://cointelegraph.com/news/michael-saylor-s-fortune-jumps-1b-amid-billionaire-index-inclusion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6943,
+        "weight": 0.4376,
         "score": 0.3333
       },
       {
         "title": "The Nasdaq’s historic market cap surge is unprecedented and ‘insane’",
         "url": "https://cryptoslate.com/the-nasdaqs-historic-market-cap-surge-is-unprecedented-and-insane/",
         "source": "CryptoSlate",
-        "weight": 0.1999,
+        "weight": 0.126,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "China’s Central Bank Extends Gold Buying Spree to 10 Months",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/china-s-central-bank-extends-gold-buying-spree-to-10-months",
+        "title": "President Donald Trump Just Made Stock Market History by Doing Something No Other President Has in 75 Years",
+        "url": "https://www.fool.com/investing/2025/09/07/donald-trump-made-stock-market-history-75-years/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6842,
+        "score": -0.6333
+      },
+      {
+        "title": "France Political Mess Poses ‘Long-Lasting’ Risk to Stocks, Bonds",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-07/france-political-mess-poses-long-lasting-risk-to-stocks-bonds",
         "source": "Bloomberg Markets",
-        "weight": 0.6407,
+        "weight": 0.7166,
         "score": -0.3333
       },
       {
-        "title": "Greek Premier Offers €1.6 Billion Tax Cuts to Spur Middle Class",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-06/greek-premier-offers-1-6-billion-tax-cuts-to-spur-middle-class",
-        "source": "Bloomberg Markets",
-        "weight": 0.2579,
-        "score": -0.6
-      },
-      {
-        "title": "President Trump vs. the Fed: Larry Summers Warns of a Credibility Crisis",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-06/larry-summers-warns-of-a-fed-credibility-crisis-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.1521,
-        "score": -0.9667
+        "title": "Crypto sentiment moves into Fear as interest wanes on ‘obscure altcoins’",
+        "url": "https://cointelegraph.com/news/crypto-market-sentiment-fear-altcoin-interest-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5958,
+        "score": -0.3333
       }
     ],
     "market_movers": {
