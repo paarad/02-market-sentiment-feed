@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-07T19:53:45.819797+00:00",
+  "updated_at": "2025-09-07T20:23:31.151940+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.095,
+    "change24h": 0.036,
+    "vol": 0.186,
     "fearGreed": 44,
-    "momentum": 0.412,
+    "momentum": 0.633,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5058,
+    "crypto_sentiment": 0.4232,
     "global_sentiment": 0.3676,
-    "combined_sentiment": 0.4933,
-    "confidence": 0.5914,
+    "combined_sentiment": 0.4314,
+    "confidence": 0.5836,
     "counts": {
-      "crypto": 65,
+      "crypto": 64,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 111206,
-      "btc_change_24h": 1.02,
-      "eth_price": 4292.22,
-      "eth_change_24h": 0.88,
+      "btc_price": 111230,
+      "btc_change_24h": 1.04,
+      "eth_price": 4284.18,
+      "eth_change_24h": 0.45,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 107235506236.0,
+        "volume_24h": 104826397388.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.47,
+        "btc_dominance": 56.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-23T01:36:38.195385+00:00",
-      "crypto": 0.5212,
-      "global": 0.5086,
-      "combined": 0.5166,
-      "counts": {
-        "crypto": 73,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-08-23T12:37:45.954754+00:00",
       "crypto": 0.6399,
@@ -1008,30 +998,40 @@
         "crypto": 65,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-09-07T20:23:31.151940+00:00",
+      "crypto": 0.4232,
+      "global": 0.3676,
+      "combined": 0.4314,
+      "counts": {
+        "crypto": 64,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
         "title": "Bullish Treasuries Traders Awaits Jobs Revisions, Inflation Data",
         "url": "https://www.bloomberg.com/news/articles/2025-09-07/bullish-treasuries-traders-awaits-jobs-revisions-inflation-data",
         "source": "Bloomberg Markets",
-        "weight": 0.7213,
+        "weight": 0.6812,
         "score": 0.5333
       },
       {
         "title": "Gold is on a record run — here's how to invest, according to experts",
         "url": "https://www.cnbc.com/2025/09/06/how-to-invest-in-gold-amid-record-run.html",
         "source": "CNBC Markets",
-        "weight": 0.2583,
+        "weight": 0.2439,
         "score": 0.8667
+      },
+      {
+        "title": "Job Revisions, Inflation, New iPhones, GameStop, Oracle, and More to Watch This Week",
+        "url": "https://finance.yahoo.com/m/4b7803e6-4b0e-3886-aa55-cc27aab4074d/job-revisions%2C-inflation%2C-new.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6068,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "CEOs Eyeing Tech Deals Record Flock to Key Goldman Confab",
         "url": "https://www.bloomberg.com/news/articles/2025-09-07/ceos-eyeing-tech-deals-record-flock-to-key-goldman-confab",
         "source": "Bloomberg Markets",
-        "weight": 0.7462,
+        "weight": 0.7046,
         "score": -0.9667
       },
       {
         "title": "UK Home Secretary to Host Five Eyes Meeting on Border Security",
         "url": "https://www.bloomberg.com/news/articles/2025-09-07/uk-home-secretary-to-host-five-eyes-meeting-on-border-security",
         "source": "Bloomberg Markets",
-        "weight": 0.4865,
+        "weight": 0.4594,
         "score": -0.9333
       },
       {
         "title": "Ghana Taps KPMG to Advise on Telecom Stakes to End Losses",
         "url": "https://www.bloomberg.com/news/articles/2025-09-07/ghana-taps-kpmg-to-advise-on-telecom-stakes-to-end-losses",
         "source": "Bloomberg Markets",
-        "weight": 0.6491,
+        "weight": 0.613,
         "score": -0.6333
       }
     ],
@@ -1064,31 +1064,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-07",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5509,
-      "crypto_high": 0.634,
-      "crypto_low": 0.4789,
-      "global_avg": 0.4041,
-      "global_high": 0.5076,
-      "global_low": 0.3402,
-      "combined_avg": 0.5302,
-      "combined_high": 0.5983,
-      "combined_low": 0.4708
-    },
-    "market_indicators_24h": {
-      "change24h": 0.024,
-      "vol": 0.095,
-      "fearGreed": 44,
-      "momentum": 0.412,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-07T19:53:45.819797+00:00"
   }
 }
