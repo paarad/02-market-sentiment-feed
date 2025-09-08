@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-08T01:58:21.229390+00:00",
+  "updated_at": "2025-09-08T04:29:37.947559+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.085,
+    "change24h": 0.024,
+    "vol": 0.112,
     "fearGreed": 51,
-    "momentum": 0.299,
+    "momentum": 0.411,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4361,
-    "global_sentiment": 0.4828,
-    "combined_sentiment": 0.4507,
-    "confidence": 0.5752,
+    "crypto_sentiment": 0.3365,
+    "global_sentiment": 0.4913,
+    "combined_sentiment": 0.3766,
+    "confidence": 0.5833,
     "counts": {
       "crypto": 63,
       "global": 43
     },
     "market_indicators": {
-      "btc_price": 110893,
-      "btc_change_24h": 0.28,
-      "eth_price": 4291.07,
-      "eth_change_24h": -0.16,
+      "btc_price": 111106,
+      "btc_change_24h": 0.5,
+      "eth_price": 4303.02,
+      "eth_change_24h": 0.15,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113744843812.0,
-        "high_activity_coins": 0
+        "volume_24h": 122781128576.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.33,
+        "btc_dominance": 56.3,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-24T01:49:05.540198+00:00",
-      "crypto": 0.4921,
-      "global": 0.5431,
-      "combined": 0.4976,
-      "counts": {
-        "crypto": 77,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-08-24T12:38:26.922421+00:00",
       "crypto": 0.4792,
@@ -1008,57 +998,73 @@
         "crypto": 63,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-09-08T04:29:37.947559+00:00",
+      "crypto": 0.3365,
+      "global": 0.4913,
+      "combined": 0.3766,
+      "counts": {
+        "crypto": 63,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Hedge Funds See Yuan Bets as Hot Options Trade After US Payrolls",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/hedge-funds-see-yuan-bets-as-hot-options-trade-after-us-payrolls",
+        "source": "Bloomberg Markets",
+        "weight": 0.75,
+        "score": 0.5333
+      },
+      {
         "title": "Lidar Maker Hesai Seeks $497 Million in Hong Kong Listing",
         "url": "https://www.bloomberg.com/news/articles/2025-09-08/lidar-maker-hesai-seeks-497-million-in-hong-kong-listing",
         "source": "Bloomberg Markets",
-        "weight": 0.6728,
+        "weight": 0.5028,
         "score": 0.6333
       },
       {
-        "title": "Billionaires Who Amassed Gold Fortunes in Dubai Face Slowdown",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/billionaires-who-amassed-gold-fortunes-in-dubai-face-slowdown",
+        "title": "Oil Gains as Constrained Output Hike by OPEC+ Hints at Caution",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-07/latest-oil-market-news-and-analysis-for-sept-8",
         "source": "Bloomberg Markets",
-        "weight": 0.715,
-        "score": 0.3333
-      },
-      {
-        "title": "Indonesia Protests in Rear View as Analysts Bullish on Earnings",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/indonesia-protests-in-rear-view-as-analysts-bullish-on-earnings",
-        "source": "Bloomberg Markets",
-        "weight": 0.6468,
-        "score": 0.3333
+        "weight": 0.3878,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Japan’s PM Ishiba to Step Down",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-08/japan-s-pm-ishiba-to-step-down-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7073,
-        "score": -0.6333
-      },
-      {
-        "title": "CEOs Eyeing Tech Deals Record Flock to Key Goldman Confab",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/ceos-eyeing-tech-deals-record-flock-to-key-goldman-confab",
-        "source": "Bloomberg Markets",
-        "weight": 0.3698,
-        "score": -0.9667
-      },
-      {
-        "title": "El Salvador celebrates Bitcoin anniversary amid mixed results 4 years on",
-        "url": "https://cointelegraph.com/news/el-salvador-bitcoin-anniversary-mixed-results-4-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Kinto plunges 81% as ETH L2 set to wind down months after hack",
+        "url": "https://cointelegraph.com/news/kinto-plunges-81-as-eth-l2-is-set-to-wind-down-months-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4569,
+        "weight": 0.7349,
+        "score": -1.0
+      },
+      {
+        "title": "Akeso Drops Most in 3 Months on Mixed Drug Data From US Partner",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/akeso-drops-most-in-3-months-on-mixed-drug-data-from-us-partner",
+        "source": "Bloomberg Markets",
+        "weight": 0.6212,
+        "score": -0.9333
+      },
+      {
+        "title": "Abu Dhabi’s Mubadala Launches Du Stake Sale",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/abu-dhabi-s-mubadala-launches-du-stake-sale",
+        "source": "Bloomberg Markets",
+        "weight": 0.7707,
         "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.31676211522939657,
+          "price_change_24h": -0.0313
+        }
+      ],
       "momentum_shifts": []
     }
   },
