@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-07T20:23:31.151940+00:00",
+  "updated_at": "2025-09-08T01:58:21.229390+00:00",
   "indicators": {
-    "change24h": 0.036,
-    "vol": 0.186,
-    "fearGreed": 44,
-    "momentum": 0.633,
+    "change24h": 0.017,
+    "vol": 0.085,
+    "fearGreed": 51,
+    "momentum": 0.299,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4232,
-    "global_sentiment": 0.3676,
-    "combined_sentiment": 0.4314,
-    "confidence": 0.5836,
+    "crypto_sentiment": 0.4361,
+    "global_sentiment": 0.4828,
+    "combined_sentiment": 0.4507,
+    "confidence": 0.5752,
     "counts": {
-      "crypto": 64,
-      "global": 46
+      "crypto": 63,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 111230,
-      "btc_change_24h": 1.04,
-      "eth_price": 4284.18,
-      "eth_change_24h": 0.45,
+      "btc_price": 110893,
+      "btc_change_24h": 0.28,
+      "eth_price": 4291.07,
+      "eth_change_24h": -0.16,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
-        "value": 44,
-        "classification": "Fear",
+        "value": 51,
+        "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 104826397388.0,
+        "volume_24h": 113744843812.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-23T12:37:45.954754+00:00",
-      "crypto": 0.6399,
-      "global": 0.509,
-      "combined": 0.6057,
-      "counts": {
-        "crypto": 79,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-08-24T01:49:05.540198+00:00",
       "crypto": 0.4921,
@@ -1008,52 +998,62 @@
         "crypto": 64,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-09-08T01:58:21.229390+00:00",
+      "crypto": 0.4361,
+      "global": 0.4828,
+      "combined": 0.4507,
+      "counts": {
+        "crypto": 63,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bullish Treasuries Traders Awaits Jobs Revisions, Inflation Data",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/bullish-treasuries-traders-awaits-jobs-revisions-inflation-data",
+        "title": "Lidar Maker Hesai Seeks $497 Million in Hong Kong Listing",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/lidar-maker-hesai-seeks-497-million-in-hong-kong-listing",
         "source": "Bloomberg Markets",
-        "weight": 0.6812,
-        "score": 0.5333
+        "weight": 0.6728,
+        "score": 0.6333
       },
       {
-        "title": "Gold is on a record run — here's how to invest, according to experts",
-        "url": "https://www.cnbc.com/2025/09/06/how-to-invest-in-gold-amid-record-run.html",
-        "source": "CNBC Markets",
-        "weight": 0.2439,
-        "score": 0.8667
+        "title": "Billionaires Who Amassed Gold Fortunes in Dubai Face Slowdown",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/billionaires-who-amassed-gold-fortunes-in-dubai-face-slowdown",
+        "source": "Bloomberg Markets",
+        "weight": 0.715,
+        "score": 0.3333
       },
       {
-        "title": "Job Revisions, Inflation, New iPhones, GameStop, Oracle, and More to Watch This Week",
-        "url": "https://finance.yahoo.com/m/4b7803e6-4b0e-3886-aa55-cc27aab4074d/job-revisions%2C-inflation%2C-new.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6068,
+        "title": "Indonesia Protests in Rear View as Analysts Bullish on Earnings",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/indonesia-protests-in-rear-view-as-analysts-bullish-on-earnings",
+        "source": "Bloomberg Markets",
+        "weight": 0.6468,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Japan’s PM Ishiba to Step Down",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-08/japan-s-pm-ishiba-to-step-down-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7073,
+        "score": -0.6333
+      },
+      {
         "title": "CEOs Eyeing Tech Deals Record Flock to Key Goldman Confab",
         "url": "https://www.bloomberg.com/news/articles/2025-09-07/ceos-eyeing-tech-deals-record-flock-to-key-goldman-confab",
         "source": "Bloomberg Markets",
-        "weight": 0.7046,
+        "weight": 0.3698,
         "score": -0.9667
       },
       {
-        "title": "UK Home Secretary to Host Five Eyes Meeting on Border Security",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/uk-home-secretary-to-host-five-eyes-meeting-on-border-security",
-        "source": "Bloomberg Markets",
-        "weight": 0.4594,
-        "score": -0.9333
-      },
-      {
-        "title": "Ghana Taps KPMG to Advise on Telecom Stakes to End Losses",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/ghana-taps-kpmg-to-advise-on-telecom-stakes-to-end-losses",
-        "source": "Bloomberg Markets",
-        "weight": 0.613,
+        "title": "El Salvador celebrates Bitcoin anniversary amid mixed results 4 years on",
+        "url": "https://cointelegraph.com/news/el-salvador-bitcoin-anniversary-mixed-results-4-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4569,
         "score": -0.6333
       }
     ],
