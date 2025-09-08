@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-08T08:34:39.680853+00:00",
+  "updated_at": "2025-09-08T12:53:03.934091+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.047,
+    "vol": 0.167,
     "fearGreed": 51,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.821,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.466,
-    "global_sentiment": 0.5409,
-    "combined_sentiment": 0.4779,
-    "confidence": 0.7067,
+    "crypto_sentiment": 0.5979,
+    "global_sentiment": 0.4065,
+    "combined_sentiment": 0.5656,
+    "confidence": 0.7948,
     "counts": {
-      "crypto": 63,
-      "global": 40
+      "crypto": 67,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 111666,
-      "btc_change_24h": 0.41,
-      "eth_price": 4299.96,
-      "eth_change_24h": -0.22,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 112080,
+      "btc_change_24h": 0.87,
+      "eth_price": 4321.41,
+      "eth_change_24h": 0.52,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 131369637489.0,
+        "volume_24h": 157484248036,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.29,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-25T21:38:47.865718+00:00",
-      "crypto": 0.4116,
-      "global": 0.5191,
-      "combined": 0.4353,
-      "counts": {
-        "crypto": 78,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-08-25T21:41:48.667678+00:00",
       "crypto": 0.4141,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-09-08T12:53:03.934091+00:00",
+      "crypto": 0.5979,
+      "global": 0.4065,
+      "combined": 0.5656,
+      "counts": {
+        "crypto": 67,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ethereum added $1B of stablecoins almost every day last week",
-        "url": "https://cointelegraph.com/news/ethereum-added-5b-new-stablecoins-every-day-last-week?utm_source=rss_feed&utm_medium=rss%3F__%3D1757320427268%26rand%3D0.862365395245124&utm_campaign=rss_partner_inbound",
+        "title": "Can XRP keep outperforming Bitcoin this bull cycle?",
+        "url": "https://cointelegraph.com/news/can-xrp-keep-outperforming-bitcoin-this-bull-cycle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6018,
+        "weight": 0.8414,
         "score": 0.8667
       },
       {
-        "title": "XRP and SOL Signal Bullish Strength While Traders Hedge For Downside in Bitcoin and Ether",
-        "url": "https://www.coindesk.com/markets/2025/09/08/xrp-and-sol-signal-bullish-strength-while-traders-hedge-for-downside-in-bitcoin-and-ether",
+        "title": "Nasdaq-Listed Firm Raises $1.65B to Launch Solana Treasury, Shares Surge 128% Pre-Market",
+        "url": "https://www.coindesk.com/business/2025/09/08/nasdaq-listed-firm-raises-usd1-65b-to-launch-solana-treasury-shares-surge-128-pre-market",
         "source": "CoinDesk",
-        "weight": 0.9346,
-        "score": 0.5333
+        "weight": 0.7594,
+        "score": 0.8667
       },
       {
-        "title": "Oil Gains Amid Constrained OPEC+ Production Hike",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-08/oil-gains-amid-constrained-opec-production-hike-video",
+        "title": "France Holds Confidence Vote; US Weighs Chip License for Samsung, Hynix | Bloomberg Brief 9/8/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-08/bloomberg-brief-9-8-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5833,
-        "score": 0.6667
+        "weight": 0.6354,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Swedbank Seen at Risk From US Probes Even After Clearing SEC",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/swedbank-seen-at-risk-from-us-probes-even-after-clearing-sec",
+        "title": "Sui-Based Yield Protocol Nemo Exploited for $2.4M in USDC",
+        "url": "https://www.coindesk.com/markets/2025/09/08/sui-based-yield-protocol-nemo-exploited-for-usd2-4m-in-usdc",
+        "source": "CoinDesk",
+        "weight": 0.5568,
+        "score": -0.8333
+      },
+      {
+        "title": "Scaramucci’s Bet on Fund Targeted at Poor Areas Turns Into Bust for Clients",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/scaramucci-s-new-orleans-hotel-bet-turns-into-bust-for-opportunity-zone-backers",
         "source": "Bloomberg Markets",
-        "weight": 0.6148,
-        "score": -1.0
+        "weight": 0.7234,
+        "score": -0.6
       },
       {
-        "title": "Betting on the nuclear renaissance: How investors are weighing risk amid surging clean energy demand",
-        "url": "https://www.cnbc.com/2025/09/08/how-investors-are-weighing-risk-amid-surging-demand-for-nuclear-energy.html",
-        "source": "CNBC Markets",
-        "weight": 0.7899,
-        "score": -0.6333
-      },
-      {
-        "title": "The dead don’t spend Bitcoin: How to set up a crypto inheritance plan (before it’s too late)",
-        "url": "https://cointelegraph.com/news/how-to-set-up-a-crypto-inheritance-plan?utm_source=rss_feed&utm_medium=rss%3F__%3D1757320427268%26rand%3D0.862365395245124&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7273,
-        "score": -0.6333
+        "title": "French Government Collapse, Japan's Prime Minister Resigns | The Opening Trade 9/8",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-08/the-opening-trade-9-8-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6186,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3400325777327834,
-          "price_change_24h": -0.02027
+          "volume_mcap_ratio": 0.3927048497632221,
+          "price_change_24h": -0.02721
         }
       ],
       "momentum_shifts": []
