@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-08T04:29:37.947559+00:00",
+  "updated_at": "2025-09-08T08:34:39.680853+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.112,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 51,
-    "momentum": 0.411,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3365,
-    "global_sentiment": 0.4913,
-    "combined_sentiment": 0.3766,
-    "confidence": 0.5833,
+    "crypto_sentiment": 0.466,
+    "global_sentiment": 0.5409,
+    "combined_sentiment": 0.4779,
+    "confidence": 0.7067,
     "counts": {
       "crypto": 63,
-      "global": 43
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 111106,
-      "btc_change_24h": 0.5,
-      "eth_price": 4303.02,
-      "eth_change_24h": 0.15,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "btc_price": 111666,
+      "btc_change_24h": 0.41,
+      "eth_price": 4299.96,
+      "eth_change_24h": -0.22,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122781128576.0,
+        "volume_24h": 131369637489.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.3,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-24T12:38:26.922421+00:00",
-      "crypto": 0.4792,
-      "global": 0.6048,
-      "combined": 0.4931,
-      "counts": {
-        "crypto": 76,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-08-25T21:38:47.865718+00:00",
       "crypto": 0.4116,
@@ -1008,52 +998,62 @@
         "crypto": 63,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-09-08T08:34:39.680853+00:00",
+      "crypto": 0.466,
+      "global": 0.5409,
+      "combined": 0.4779,
+      "counts": {
+        "crypto": 63,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Hedge Funds See Yuan Bets as Hot Options Trade After US Payrolls",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/hedge-funds-see-yuan-bets-as-hot-options-trade-after-us-payrolls",
-        "source": "Bloomberg Markets",
-        "weight": 0.75,
+        "title": "Ethereum added $1B of stablecoins almost every day last week",
+        "url": "https://cointelegraph.com/news/ethereum-added-5b-new-stablecoins-every-day-last-week?utm_source=rss_feed&utm_medium=rss%3F__%3D1757320427268%26rand%3D0.862365395245124&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6018,
+        "score": 0.8667
+      },
+      {
+        "title": "XRP and SOL Signal Bullish Strength While Traders Hedge For Downside in Bitcoin and Ether",
+        "url": "https://www.coindesk.com/markets/2025/09/08/xrp-and-sol-signal-bullish-strength-while-traders-hedge-for-downside-in-bitcoin-and-ether",
+        "source": "CoinDesk",
+        "weight": 0.9346,
         "score": 0.5333
       },
       {
-        "title": "Lidar Maker Hesai Seeks $497 Million in Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/lidar-maker-hesai-seeks-497-million-in-hong-kong-listing",
+        "title": "Oil Gains Amid Constrained OPEC+ Production Hike",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-08/oil-gains-amid-constrained-opec-production-hike-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5028,
-        "score": 0.6333
-      },
-      {
-        "title": "Oil Gains as Constrained Output Hike by OPEC+ Hints at Caution",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-07/latest-oil-market-news-and-analysis-for-sept-8",
-        "source": "Bloomberg Markets",
-        "weight": 0.3878,
+        "weight": 0.5833,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Kinto plunges 81% as ETH L2 set to wind down months after hack",
-        "url": "https://cointelegraph.com/news/kinto-plunges-81-as-eth-l2-is-set-to-wind-down-months-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7349,
+        "title": "Swedbank Seen at Risk From US Probes Even After Clearing SEC",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/swedbank-seen-at-risk-from-us-probes-even-after-clearing-sec",
+        "source": "Bloomberg Markets",
+        "weight": 0.6148,
         "score": -1.0
       },
       {
-        "title": "Akeso Drops Most in 3 Months on Mixed Drug Data From US Partner",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/akeso-drops-most-in-3-months-on-mixed-drug-data-from-us-partner",
-        "source": "Bloomberg Markets",
-        "weight": 0.6212,
-        "score": -0.9333
+        "title": "Betting on the nuclear renaissance: How investors are weighing risk amid surging clean energy demand",
+        "url": "https://www.cnbc.com/2025/09/08/how-investors-are-weighing-risk-amid-surging-demand-for-nuclear-energy.html",
+        "source": "CNBC Markets",
+        "weight": 0.7899,
+        "score": -0.6333
       },
       {
-        "title": "Abu Dhabi’s Mubadala Launches Du Stake Sale",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-08/abu-dhabi-s-mubadala-launches-du-stake-sale",
-        "source": "Bloomberg Markets",
-        "weight": 0.7707,
+        "title": "The dead don’t spend Bitcoin: How to set up a crypto inheritance plan (before it’s too late)",
+        "url": "https://cointelegraph.com/news/how-to-set-up-a-crypto-inheritance-plan?utm_source=rss_feed&utm_medium=rss%3F__%3D1757320427268%26rand%3D0.862365395245124&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7273,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.31676211522939657,
-          "price_change_24h": -0.0313
+          "volume_mcap_ratio": 0.3400325777327834,
+          "price_change_24h": -0.02027
         }
       ],
       "momentum_shifts": []
