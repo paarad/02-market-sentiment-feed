@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-08T19:53:25.946813+00:00",
+  "updated_at": "2025-09-08T20:27:10.039072+00:00",
   "indicators": {
-    "change24h": 0.041,
-    "vol": 0.164,
+    "change24h": 0.039,
+    "vol": 0.165,
     "fearGreed": 51,
-    "momentum": 0.713,
+    "momentum": 0.691,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5069,
-    "global_sentiment": 0.511,
-    "combined_sentiment": 0.5061,
-    "confidence": 0.8208,
+    "crypto_sentiment": 0.4955,
+    "global_sentiment": 0.5027,
+    "combined_sentiment": 0.4968,
+    "confidence": 0.8187,
     "counts": {
-      "crypto": 69,
-      "global": 47
+      "crypto": 68,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 112093,
-      "btc_change_24h": 0.81,
-      "eth_price": 4292.57,
-      "eth_change_24h": 0.05,
+      "btc_price": 111993,
+      "btc_change_24h": 0.74,
+      "eth_price": 4283.68,
+      "eth_change_24h": 0.01,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 191198156904,
+        "volume_24h": 190495271232,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-26T04:30:10.664737+00:00",
-      "crypto": 0.3977,
-      "global": 0.4643,
-      "combined": 0.4203,
-      "counts": {
-        "crypto": 67,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-08-26T08:34:33.651531+00:00",
       "crypto": 0.3613,
@@ -1008,26 +998,36 @@
         "crypto": 69,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-09-08T20:27:10.039072+00:00",
+      "crypto": 0.4955,
+      "global": 0.5027,
+      "combined": 0.4968,
+      "counts": {
+        "crypto": 68,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Nasdaq Notches Record In Tepid Session Ahead of Labor Market Data",
+        "url": "https://finance.yahoo.com/m/9b8da2f3-b8c4-3de7-833e-3cd9a5afbefa/nasdaq-notches-record-in.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7636,
+        "score": 0.6667
+      },
+      {
         "title": "Musk’s SpaceX to Buy EchoStar Spectrum for $17B | Open Interest 9/8/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-09-08/open-interest-9-8-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6747,
+        "weight": 0.6323,
         "score": 0.7
       },
       {
-        "title": "Filecoin Continues Steady Bullish Momentum with Strong Volume Support",
-        "url": "https://www.coindesk.com/markets/2025/09/08/filecoin-continues-steady-bullish-momentum-with-strong-volume-support",
-        "source": "CoinDesk",
-        "weight": 0.8403,
-        "score": 0.5333
-      },
-      {
-        "title": "Global crypto market cap up 1.1% — rally",
+        "title": "Global crypto market cap up 1.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1039,30 +1039,30 @@
         "title": "Crypto Users Warned to Stop Transacting as Massive Exploit Threatens Apps and Wallets",
         "url": "https://decrypt.co/338516/crypto-users-warned-stop-transacting-massive-exploit-threatens-apps-wallets",
         "source": "Decrypt",
-        "weight": 0.8116,
+        "weight": 0.7606,
+        "score": -1.0
+      },
+      {
+        "title": "Solana trading bot Aqua allegedly rug pulls $4.65 million after major ecosystem endorsements",
+        "url": "https://cryptoslate.com/solana-trading-bot-aqua-allegedly-rug-pulls-4-65-million-after-major-ecosystem-endorsements/",
+        "source": "CryptoSlate",
+        "weight": 0.7259,
         "score": -1.0
       },
       {
         "title": "Trump’s Made-in-USA Push Undermined by Hyundai Raid",
         "url": "https://www.bloomberg.com/news/videos/2025-09-08/trump-s-made-in-usa-push-undermined-by-hyundai-raid-video",
         "source": "Bloomberg Markets",
-        "weight": 0.736,
+        "weight": 0.6897,
         "score": -0.9333
-      },
-      {
-        "title": "Largest supply chain attack in history targets crypto users through compromised JavaScript packages",
-        "url": "https://cryptoslate.com/largest-supply-chain-attack-in-history-targets-crypto-users-through-compromised-javascript-packages/",
-        "source": "CryptoSlate",
-        "weight": 0.6737,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4895226068769525,
-          "price_change_24h": -0.00314
+          "volume_mcap_ratio": 0.4933945011370119,
+          "price_change_24h": -0.00798
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-08",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4852,
-      "crypto_high": 0.5979,
-      "crypto_low": 0.3365,
-      "global_avg": 0.4926,
-      "global_high": 0.5409,
-      "global_low": 0.4065,
-      "combined_avg": 0.4883,
-      "combined_high": 0.5656,
-      "combined_low": 0.3766
-    },
-    "market_indicators_24h": {
-      "change24h": 0.041,
-      "vol": 0.164,
-      "fearGreed": 51,
-      "momentum": 0.713,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-08T19:53:25.946813+00:00"
   }
 }
