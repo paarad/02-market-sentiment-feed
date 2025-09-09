@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-09T19:53:51.912842+00:00",
+  "updated_at": "2025-09-09T20:26:02.570530+00:00",
   "indicators": {
-    "change24h": 0.01,
-    "vol": 0.098,
+    "change24h": 0.008,
+    "vol": 0.097,
     "fearGreed": 48,
-    "momentum": 0.167,
+    "momentum": 0.133,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.632,
-    "global_sentiment": 0.4112,
-    "combined_sentiment": 0.5916,
-    "confidence": 0.8173,
+    "crypto_sentiment": 0.6312,
+    "global_sentiment": 0.4631,
+    "combined_sentiment": 0.5954,
+    "confidence": 0.8238,
     "counts": {
       "crypto": 64,
-      "global": 36
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 111360,
-      "btc_change_24h": -0.67,
-      "eth_price": 4296.33,
-      "eth_change_24h": 0.04,
+      "btc_price": 111173,
+      "btc_change_24h": -0.76,
+      "eth_price": 4288.78,
+      "eth_change_24h": 0.12,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.7,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 222088874272,
+        "volume_24h": 220641461835,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.08,
+        "btc_dominance": 56.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-27T04:29:39.182301+00:00",
-      "crypto": 0.3994,
-      "global": 0.4541,
-      "combined": 0.4207,
-      "counts": {
-        "crypto": 67,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-08-27T08:32:43.387812+00:00",
       "crypto": 0.4355,
@@ -1008,30 +998,40 @@
         "crypto": 64,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-09-09T20:26:02.570530+00:00",
+      "crypto": 0.6312,
+      "global": 0.4631,
+      "combined": 0.5954,
+      "counts": {
+        "crypto": 64,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BNB Price Rise to $884 Short-Lived as Market Sell-Off Cuts Gains",
-        "url": "https://www.coindesk.com/markets/2025/09/09/bnb-price-rise-to-usd884-short-lived-as-market-sell-off-cuts-gains",
-        "source": "CoinDesk",
-        "weight": 0.7706,
+        "title": "Solana TVL hits new all-time high of $12.1B amid rising institutional interest",
+        "url": "https://cryptoslate.com/solana-tvl-hits-new-all-time-high-of-12-1b-amid-rising-institutional-interest/",
+        "source": "CryptoSlate",
+        "weight": 0.7262,
+        "score": 1.0
+      },
+      {
+        "title": "Oracle pops 21% on growth projections even as earnings miss estimates",
+        "url": "https://www.cnbc.com/2025/09/09/oracle-orcl-q1-earnings-report-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.7949,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin falls on dismal US jobs data, but Q4 rally to $185K still possible",
-        "url": "https://cointelegraph.com/news/bitcoin-falls-on-dismal-us-jobs-data-but-q4-rally-to-dollar185k-still-possible?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5697,
-        "score": 0.9
-      },
-      {
-        "title": "Trump Media boosts CRO, converting Truth Gems to crypto with Truth Social integration",
-        "url": "https://cryptoslate.com/trump-media-boosts-cronos-converting-truth-gems-to-crypto-with-truth-social-integration/",
-        "source": "CryptoSlate",
-        "weight": 0.4747,
-        "score": 1.0
+        "title": "Apple Launches iPhone 17 Lineup | Bloomberg Businessweek Daily 9/9/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-09/bloomberg-businessweek-daily-9-9-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7629,
+        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Harvard's New AI Tool Could Pinpoint Treatments for Parkinson's and Alzheimer's",
         "url": "https://decrypt.co/338672/harvard-ai-tool-treatments-parkinsons-alzheimers",
         "source": "Decrypt",
-        "weight": 0.7453,
+        "weight": 0.7005,
         "score": -0.9333
       },
       {
         "title": "Ethena enters USDH race supported by BlackRock BUIDL, Anchorage, Securitize",
         "url": "https://cryptoslate.com/ethena-enters-usdh-race-supported-by-blackrock-buidl-anchorage-securitize/",
         "source": "CryptoSlate",
-        "weight": 0.5877,
+        "weight": 0.5524,
         "score": -0.9667
       },
       {
-        "title": "Sector Update: Energy Stocks Gain Late Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-gain-afternoon-194410319.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7852,
+        "title": "Nasdaq to invest $50 million in Winklevoss-founded crypto exchange Gemini",
+        "url": "https://www.cnbc.com/2025/09/09/nasdaq-to-invest-50-million-in-winklevoss-founded-crypto-exchange-gemini.html",
+        "source": "CNBC Markets",
+        "weight": 0.7522,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 1.129331832367399,
-          "price_change_24h": 23.12115
+          "volume_mcap_ratio": 1.167420575446454,
+          "price_change_24h": 19.51517
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.564424890256863,
-          "price_change_24h": 0.00033
+          "volume_mcap_ratio": 0.5640628699381396,
+          "price_change_24h": 0.00548
         },
         {
           "symbol": "ENA",
-          "volume_mcap_ratio": 0.3057814247289501,
-          "price_change_24h": 7.43086
+          "volume_mcap_ratio": 0.30793588921738246,
+          "price_change_24h": 6.81534
         }
       ],
       "momentum_shifts": []
@@ -1080,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-09",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5443,
-      "crypto_high": 0.656,
-      "crypto_low": 0.4046,
-      "global_avg": 0.5031,
-      "global_high": 0.5756,
-      "global_low": 0.4112,
-      "combined_avg": 0.5335,
-      "combined_high": 0.6175,
-      "combined_low": 0.4303
-    },
-    "market_indicators_24h": {
-      "change24h": 0.01,
-      "vol": 0.098,
-      "fearGreed": 48,
-      "momentum": 0.167,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-09T19:53:51.912842+00:00"
   }
 }
