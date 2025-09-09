@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-08T20:27:10.039072+00:00",
+  "updated_at": "2025-09-09T01:54:35.547185+00:00",
   "indicators": {
-    "change24h": 0.039,
-    "vol": 0.165,
-    "fearGreed": 51,
-    "momentum": 0.691,
+    "change24h": 0.033,
+    "vol": 0.154,
+    "fearGreed": 48,
+    "momentum": 0.582,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4955,
-    "global_sentiment": 0.5027,
-    "combined_sentiment": 0.4968,
-    "confidence": 0.8187,
+    "crypto_sentiment": 0.4046,
+    "global_sentiment": 0.5226,
+    "combined_sentiment": 0.4303,
+    "confidence": 0.7667,
     "counts": {
-      "crypto": 68,
-      "global": 45
+      "crypto": 63,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 111993,
-      "btc_change_24h": 0.74,
-      "eth_price": 4283.68,
-      "eth_change_24h": 0.01,
+      "btc_price": 111468,
+      "btc_change_24h": 0.55,
+      "eth_price": 4289.88,
+      "eth_change_24h": -0.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 51,
+        "value": 48,
         "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190495271232,
-        "high_activity_coins": 1
+        "volume_24h": 203216528209,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.34,
+        "btc_dominance": 56.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-26T08:34:33.651531+00:00",
-      "crypto": 0.3613,
-      "global": 0.3424,
-      "combined": 0.3828,
-      "counts": {
-        "crypto": 62,
-        "global": 30
-      }
-    },
     {
       "ts": "2025-08-26T12:54:58.278930+00:00",
       "crypto": 0.2576,
@@ -1008,61 +998,76 @@
         "crypto": 68,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-09-09T01:54:35.547185+00:00",
+      "crypto": 0.4046,
+      "global": 0.5226,
+      "combined": 0.4303,
+      "counts": {
+        "crypto": 63,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nasdaq Notches Record In Tepid Session Ahead of Labor Market Data",
-        "url": "https://finance.yahoo.com/m/9b8da2f3-b8c4-3de7-833e-3cd9a5afbefa/nasdaq-notches-record-in.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7636,
-        "score": 0.6667
-      },
-      {
-        "title": "Musk’s SpaceX to Buy EchoStar Spectrum for $17B | Open Interest 9/8/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-08/open-interest-9-8-2025-video",
+        "title": "Gold Climbs to Another Record After Fed Rate-Cut Optimism Soars",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-09/gold-holds-near-latest-record-after-fed-rate-cut-optimism-soars",
         "source": "Bloomberg Markets",
-        "weight": 0.6323,
-        "score": 0.7
+        "weight": 0.6683,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 1.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Asia Morning Briefing: Equities Rally on Rate-Cut Bets, Crypto Stays Cautious",
+        "url": "https://www.coindesk.com/markets/2025/09/09/asia-morning-briefing-equities-rally-on-rate-cut-bets-crypto-stays-cautious",
+        "source": "CoinDesk",
+        "weight": 0.9395,
         "score": 0.5333
+      },
+      {
+        "title": "Eurizon’s Jen Sees Over 10% Rise in Yuan on Trade Spat, Inflows",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-08/china-s-yuan-could-hit-low-6-against-dollar-says-eurizon-s-jen",
+        "source": "Bloomberg Markets",
+        "weight": 0.4537,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Crypto Users Warned to Stop Transacting as Massive Exploit Threatens Apps and Wallets",
-        "url": "https://decrypt.co/338516/crypto-users-warned-stop-transacting-massive-exploit-threatens-apps-wallets",
-        "source": "Decrypt",
-        "weight": 0.7606,
-        "score": -1.0
+        "title": "US SEC crypto task force to tackle financial surveillance and privacy",
+        "url": "https://cointelegraph.com/news/sec-financial-surveillance-privacy-crypto-task-force?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5705,
+        "score": -0.9667
       },
       {
-        "title": "Solana trading bot Aqua allegedly rug pulls $4.65 million after major ecosystem endorsements",
-        "url": "https://cryptoslate.com/solana-trading-bot-aqua-allegedly-rug-pulls-4-65-million-after-major-ecosystem-endorsements/",
-        "source": "CryptoSlate",
-        "weight": 0.7259,
-        "score": -1.0
+        "title": "Ex-Meta employee files whistleblower suit for alleged security flaws at WhatsApp",
+        "url": "https://www.cnbc.com/2025/09/08/ex-meta-employee-whistleblower-suit-alleged-security-flaws-whatsapp-.html",
+        "source": "CNBC Markets",
+        "weight": 0.4666,
+        "score": -0.9667
       },
       {
-        "title": "Trump’s Made-in-USA Push Undermined by Hyundai Raid",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-08/trump-s-made-in-usa-push-undermined-by-hyundai-raid-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6897,
-        "score": -0.9333
+        "title": "SwissBorg hacked for $41M SOL after third-party API compromise",
+        "url": "https://cointelegraph.com/news/swissborg-hacked-41m-sol-api-compromise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6123,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "WLD",
+          "volume_mcap_ratio": 1.0186514769100283,
+          "price_change_24h": 58.58243
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4933945011370119,
-          "price_change_24h": -0.00798
+          "volume_mcap_ratio": 0.5060284620123828,
+          "price_change_24h": 0.01738
         }
       ],
       "momentum_shifts": []
