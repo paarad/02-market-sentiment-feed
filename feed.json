@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-09T16:31:13.025132+00:00",
+  "updated_at": "2025-09-09T19:53:51.912842+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.078,
+    "change24h": 0.01,
+    "vol": 0.098,
     "fearGreed": 48,
-    "momentum": -0.264,
-    "regime": "bear",
+    "momentum": 0.167,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.656,
-    "global_sentiment": 0.5057,
-    "combined_sentiment": 0.6175,
-    "confidence": 0.841,
+    "crypto_sentiment": 0.632,
+    "global_sentiment": 0.4112,
+    "combined_sentiment": 0.5916,
+    "confidence": 0.8173,
     "counts": {
       "crypto": 64,
-      "global": 38
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 110929,
-      "btc_change_24h": -1.5,
-      "eth_price": 4286.78,
-      "eth_change_24h": -1.79,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 111360,
+      "btc_change_24h": -0.67,
+      "eth_price": 4296.33,
+      "eth_change_24h": 0.04,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 227361605011,
-        "high_activity_coins": 2
+        "volume_24h": 222088874272,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.07,
+        "btc_dominance": 56.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-27T01:56:20.150138+00:00",
-      "crypto": 0.4001,
-      "global": 0.3955,
-      "combined": 0.4163,
-      "counts": {
-        "crypto": 68,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-08-27T04:29:39.182301+00:00",
       "crypto": 0.3994,
@@ -1008,6 +998,16 @@
         "crypto": 64,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-09-09T19:53:51.912842+00:00",
+      "crypto": 0.632,
+      "global": 0.4112,
+      "combined": 0.5916,
+      "counts": {
+        "crypto": 64,
+        "global": 36
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,63 @@
         "title": "BNB Price Rise to $884 Short-Lived as Market Sell-Off Cuts Gains",
         "url": "https://www.coindesk.com/markets/2025/09/09/bnb-price-rise-to-usd884-short-lived-as-market-sell-off-cuts-gains",
         "source": "CoinDesk",
-        "weight": 1.1383,
+        "weight": 0.7706,
         "score": 0.6667
+      },
+      {
+        "title": "Bitcoin falls on dismal US jobs data, but Q4 rally to $185K still possible",
+        "url": "https://cointelegraph.com/news/bitcoin-falls-on-dismal-us-jobs-data-but-q4-rally-to-dollar185k-still-possible?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5697,
+        "score": 0.9
       },
       {
         "title": "Trump Media boosts CRO, converting Truth Gems to crypto with Truth Social integration",
         "url": "https://cryptoslate.com/trump-media-boosts-cronos-converting-truth-gems-to-crypto-with-truth-social-integration/",
         "source": "CryptoSlate",
-        "weight": 0.7012,
+        "weight": 0.4747,
         "score": 1.0
-      },
-      {
-        "title": "Cboe Plans to Offer ‘Continuous’ Futures for Bitcoin, Ether",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-09/cboe-plans-to-offer-continuous-futures-for-bitcoin-and-ether",
-        "source": "Bloomberg Markets",
-        "weight": 0.7615,
-        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Short-Seller Culper Sued by Firm It Said Had Drug Cartel Ties",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-09/short-seller-culper-sued-by-firm-it-said-had-drug-cartel-ties",
-        "source": "Bloomberg Markets",
-        "weight": 0.7146,
+        "title": "Harvard's New AI Tool Could Pinpoint Treatments for Parkinson's and Alzheimer's",
+        "url": "https://decrypt.co/338672/harvard-ai-tool-treatments-parkinsons-alzheimers",
+        "source": "Decrypt",
+        "weight": 0.7453,
         "score": -0.9333
       },
       {
-        "title": "Uruguay’s Finance Minister Shuns Chainsaw for Modest Tax Hikes",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-09/uruguay-s-finance-minister-shuns-chainsaw-for-modest-tax-hikes",
-        "source": "Bloomberg Markets",
-        "weight": 0.6911,
-        "score": -0.9333
+        "title": "Ethena enters USDH race supported by BlackRock BUIDL, Anchorage, Securitize",
+        "url": "https://cryptoslate.com/ethena-enters-usdh-race-supported-by-blackrock-buidl-anchorage-securitize/",
+        "source": "CryptoSlate",
+        "weight": 0.5877,
+        "score": -0.9667
       },
       {
-        "title": "Failed NPM exploit highlights looming threat to crypto security: Exec",
-        "url": "https://cointelegraph.com/news/failed-npm-exploit-crypto-security-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4918,
-        "score": -1.0
+        "title": "Sector Update: Energy Stocks Gain Late Afternoon",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-gain-afternoon-194410319.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7852,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 1.2061813672509618,
-          "price_change_24h": 16.49763
+          "volume_mcap_ratio": 1.129331832367399,
+          "price_change_24h": 23.12115
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5727160517632384,
-          "price_change_24h": -0.00188
+          "volume_mcap_ratio": 0.564424890256863,
+          "price_change_24h": 0.00033
+        },
+        {
+          "symbol": "ENA",
+          "volume_mcap_ratio": 0.3057814247289501,
+          "price_change_24h": 7.43086
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-09",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5443,
+      "crypto_high": 0.656,
+      "crypto_low": 0.4046,
+      "global_avg": 0.5031,
+      "global_high": 0.5756,
+      "global_low": 0.4112,
+      "combined_avg": 0.5335,
+      "combined_high": 0.6175,
+      "combined_low": 0.4303
+    },
+    "market_indicators_24h": {
+      "change24h": 0.01,
+      "vol": 0.098,
+      "fearGreed": 48,
+      "momentum": 0.167,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-09T19:53:51.912842+00:00"
   }
 }
