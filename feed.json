@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-10T08:32:48.253089+00:00",
+  "updated_at": "2025-09-10T12:50:03.482923+00:00",
   "indicators": {
-    "change24h": -0.008,
-    "vol": 0.049,
+    "change24h": 0.008,
+    "vol": 0.056,
     "fearGreed": 49,
-    "momentum": -0.148,
+    "momentum": 0.141,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6101,
-    "global_sentiment": 0.5099,
-    "combined_sentiment": 0.5834,
-    "confidence": 0.7274,
+    "crypto_sentiment": 0.5577,
+    "global_sentiment": 0.6992,
+    "combined_sentiment": 0.5599,
+    "confidence": 0.795,
     "counts": {
       "crypto": 64,
-      "global": 30
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 112663,
-      "btc_change_24h": -0.42,
-      "eth_price": 4328.44,
-      "eth_change_24h": -0.77,
+      "btc_price": 113139,
+      "btc_change_24h": 0.41,
+      "eth_price": 4373.5,
+      "eth_change_24h": 0.5,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 209047664867,
+        "volume_24h": 221115815873,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.15,
+        "btc_dominance": 56.1,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-27T19:53:27.992745+00:00",
-      "crypto": 0.5997,
-      "global": 0.4409,
-      "combined": 0.5699,
-      "counts": {
-        "crypto": 64,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-08-27T20:27:02.723183+00:00",
       "crypto": 0.6,
@@ -1008,52 +998,62 @@
         "crypto": 64,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-09-10T12:50:03.482923+00:00",
+      "crypto": 0.5577,
+      "global": 0.6992,
+      "combined": 0.5599,
+      "counts": {
+        "crypto": 64,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Cboe plans 10-year-dated Bitcoin and Ethereum futures for US",
-        "url": "https://cointelegraph.com/news/cboe-plans-10-year-dated-bitcoin-ethereum-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5273,
-        "score": 0.9167
-      },
-      {
-        "title": "What Next as XRP Slumps After Failed Breakout Above $3",
-        "url": "https://www.coindesk.com/markets/2025/09/10/what-next-as-xrp-slumps-after-failed-breakout-above-usd3",
+        "title": "Crypto Markets Today: IP Token Surges on Corporate Treasury Adoption",
+        "url": "https://www.coindesk.com/markets/2025/09/10/crypto-markets-today-ip-token-surges-on-corporate-treasury-adoption",
         "source": "CoinDesk",
-        "weight": 0.7802,
-        "score": 0.5333
+        "weight": 0.9081,
+        "score": 0.8667
       },
       {
-        "title": "Roebuck: Gulf Nervous About US Security Guarantees",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-10/roebuck-gulf-nervous-about-us-security-guarantees-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6102,
-        "score": 0.6667
+        "title": "Three Companies That May Be Trading Below Estimated Values In September 2025",
+        "url": "https://finance.yahoo.com/news/three-companies-may-trading-below-113758962.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6963,
+        "score": 1.0
+      },
+      {
+        "title": "CoinShares Bitcoin Mining ETF Hits Record High as AI Stocks Extend Rally",
+        "url": "https://www.coindesk.com/markets/2025/09/10/coinshares-bitcoin-mining-etf-hits-record-high-as-ai-stocks-extend-rally",
+        "source": "CoinDesk",
+        "weight": 0.7591,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Dutch Pension Shift Has Hedge Fund Chasing Mispricings",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-10/dutch-pension-shift-has-arbitrage-hedge-fund-chasing-mispricings",
-        "source": "Bloomberg Markets",
-        "weight": 0.5961,
-        "score": -0.8333
+        "title": "Linea resolves sequencer bug as massive token airdrop set to kick off",
+        "url": "https://cointelegraph.com/news/linea-restores-mainnet-sequencer-after-fix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5636,
+        "score": -1.0
       },
       {
-        "title": "China to Overtake Germany as World’s Top Importer of Piped Gas",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-10/china-to-overtake-germany-as-world-s-top-importer-of-piped-gas",
-        "source": "Bloomberg Markets",
-        "weight": 0.751,
-        "score": -0.6333
+        "title": "Ethereum layer-2 solutions Linea and Polygon stumble with outages and finality delays",
+        "url": "https://cryptoslate.com/ethereum-layer-2-solutions-linea-and-polygon-stumble-with-outages-and-finality-delays/",
+        "source": "CryptoSlate",
+        "weight": 0.5142,
+        "score": -1.0
       },
       {
-        "title": "China AI Rally Continues Amid Weak Inflation Data | The China Show 9/10/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-10/the-china-show-9-10-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5527,
+        "title": "SEC chair says most tokens are not securities, backs ‘super-app’ platforms",
+        "url": "https://cointelegraph.com/news/sec-chair-says-most-tokens-are-not-securities-backs-super-app-platforms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7265,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.9849985234215477,
-          "price_change_24h": -2.39256
+          "volume_mcap_ratio": 0.7325145151823155,
+          "price_change_24h": -0.1635
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5299005745587086,
-          "price_change_24h": 0.00425
+          "volume_mcap_ratio": 0.5655052498373931,
+          "price_change_24h": 0.00904
         }
       ],
       "momentum_shifts": []
