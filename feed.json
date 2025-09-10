@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-10T04:27:33.482969+00:00",
+  "updated_at": "2025-09-10T08:32:48.253089+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.052,
+    "change24h": -0.008,
+    "vol": 0.049,
     "fearGreed": 49,
-    "momentum": 0.161,
+    "momentum": -0.148,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5675,
-    "global_sentiment": 0.5589,
-    "combined_sentiment": 0.5555,
-    "confidence": 0.7517,
+    "crypto_sentiment": 0.6101,
+    "global_sentiment": 0.5099,
+    "combined_sentiment": 0.5834,
+    "confidence": 0.7274,
     "counts": {
-      "crypto": 68,
-      "global": 31
+      "crypto": 64,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 111518,
-      "btc_change_24h": -0.38,
-      "eth_price": 4312.26,
-      "eth_change_24h": 0.01,
+      "btc_price": 112663,
+      "btc_change_24h": -0.42,
+      "eth_price": 4328.44,
+      "eth_change_24h": -0.77,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 213513190332,
-        "high_activity_coins": 3
+        "volume_24h": 209047664867,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.02,
+        "btc_dominance": 56.15,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-27T16:31:21.962074+00:00",
-      "crypto": 0.5492,
-      "global": 0.4148,
-      "combined": 0.5298,
-      "counts": {
-        "crypto": 68,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-08-27T19:53:27.992745+00:00",
       "crypto": 0.5997,
@@ -1008,71 +998,76 @@
         "crypto": 68,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-09-10T08:32:48.253089+00:00",
+      "crypto": 0.6101,
+      "global": 0.5099,
+      "combined": 0.5834,
+      "counts": {
+        "crypto": 64,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Oracle Soars On Huge Backlog; Palantir Leads Buys As Nasdaq Hits High",
-        "url": "https://finance.yahoo.com/m/259bda4c-fa19-3d22-8325-80046d056ed5/dow-jones-futures%3A-oracle.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7673,
-        "score": 0.6667
-      },
-      {
-        "title": "XRP flirts with $3 amid ETF approval hope: Is $3.60 the next stop?",
-        "url": "https://cointelegraph.com/news/xrp-aims-for-dollar3-amid-etf-approval-hopes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Cboe plans 10-year-dated Bitcoin and Ethereum futures for US",
+        "url": "https://cointelegraph.com/news/cboe-plans-10-year-dated-bitcoin-ethereum-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4975,
-        "score": 0.95
+        "weight": 0.5273,
+        "score": 0.9167
       },
       {
-        "title": "Prediction Market PredictIt Launches in October—Here's What to Expect",
-        "url": "https://decrypt.co/338715/prediction-market-predictit-launches-october",
-        "source": "Decrypt",
-        "weight": 0.374,
-        "score": 0.9167
+        "title": "What Next as XRP Slumps After Failed Breakout Above $3",
+        "url": "https://www.coindesk.com/markets/2025/09/10/what-next-as-xrp-slumps-after-failed-breakout-above-usd3",
+        "source": "CoinDesk",
+        "weight": 0.7802,
+        "score": 0.5333
+      },
+      {
+        "title": "Roebuck: Gulf Nervous About US Security Guarantees",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-10/roebuck-gulf-nervous-about-us-security-guarantees-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6102,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "SEC Delays Decision on Grayscale’s Hedera Trust as Firm Updates Bitcoin Cash, Litecoin Filings",
-        "url": "https://decrypt.co/338747/sec-delays-decision-grayscale-hedera-trust-bitcoin-cash-litecoin-filings",
-        "source": "Decrypt",
-        "weight": 0.7647,
+        "title": "Dutch Pension Shift Has Hedge Fund Chasing Mispricings",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-10/dutch-pension-shift-has-arbitrage-hedge-fund-chasing-mispricings",
+        "source": "Bloomberg Markets",
+        "weight": 0.5961,
+        "score": -0.8333
+      },
+      {
+        "title": "China to Overtake Germany as World’s Top Importer of Piped Gas",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-10/china-to-overtake-germany-as-world-s-top-importer-of-piped-gas",
+        "source": "Bloomberg Markets",
+        "weight": 0.751,
         "score": -0.6333
       },
       {
-        "title": "Trump signs memo to crack down on direct-to-consumer pharma ads",
-        "url": "https://www.cnbc.com/2025/09/09/trump-signs-memo-to-crack-down-on-direct-to-consumer-pharma-ads.html",
-        "source": "CNBC Markets",
-        "weight": 0.4141,
-        "score": -1.0
-      },
-      {
-        "title": "SEC pushes back decisions on Bitwise, Grayscale crypto ETFs to November",
-        "url": "https://cointelegraph.com/news/sec-pushes-back-decisions-bitwise-grayscale-crypto-etfs-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4016,
-        "score": -0.9667
+        "title": "China AI Rally Continues Amid Weak Inflation Data | The China Show 9/10/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-10/the-china-show-9-10-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5527,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 1.0793941732378804,
-          "price_change_24h": 5.15392
+          "volume_mcap_ratio": 0.9849985234215477,
+          "price_change_24h": -2.39256
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5491808927976156,
-          "price_change_24h": -0.00518
-        },
-        {
-          "symbol": "ENA",
-          "volume_mcap_ratio": 0.3174536326021098,
-          "price_change_24h": 2.34061
+          "volume_mcap_ratio": 0.5299005745587086,
+          "price_change_24h": 0.00425
         }
       ],
       "momentum_shifts": []
