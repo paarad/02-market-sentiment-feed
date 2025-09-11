@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-11T12:49:18.534721+00:00",
+  "updated_at": "2025-09-11T16:29:57.469994+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.066,
+    "change24h": 0.011,
+    "vol": 0.054,
     "fearGreed": 54,
-    "momentum": 0.322,
+    "momentum": 0.201,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5151,
-    "global_sentiment": 0.4818,
-    "combined_sentiment": 0.5098,
-    "confidence": 0.8123,
+    "crypto_sentiment": 0.5099,
+    "global_sentiment": 0.5409,
+    "combined_sentiment": 0.5108,
+    "confidence": 0.8149,
     "counts": {
-      "crypto": 73,
-      "global": 39
+      "crypto": 65,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 114069,
-      "btc_change_24h": 0.89,
-      "eth_price": 4433.36,
-      "eth_change_24h": 1.5,
+      "btc_price": 114413,
+      "btc_change_24h": 0.64,
+      "eth_price": 4414.27,
+      "eth_change_24h": 1.01,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 54,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 243314188814,
+        "volume_24h": 228297728160,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.09,
+        "btc_dominance": 56.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-28T20:26:52.067359+00:00",
-      "crypto": 0.631,
-      "global": 0.4784,
-      "combined": 0.5964,
-      "counts": {
-        "crypto": 63,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-08-29T01:55:22.176527+00:00",
       "crypto": 0.6723,
@@ -1008,61 +998,71 @@
         "crypto": 73,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-11T16:29:57.469994+00:00",
+      "crypto": 0.5099,
+      "global": 0.5409,
+      "combined": 0.5108,
+      "counts": {
+        "crypto": 65,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Avalanche Foundation pushes AVAX price to seven-month high with $1 billion fundraising talks",
-        "url": "https://cryptoslate.com/avalanche-foundation-pushes-avax-price-to-seven-month-high-with-1-billion-fundraising-talks/",
-        "source": "CryptoSlate",
-        "weight": 0.766,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin’s Choppiness Index Continues to Climb, Potential Breakout Looms",
-        "url": "https://www.coindesk.com/markets/2025/09/11/bitcoin-s-choppiness-index-continues-to-climb-potential-breakout-looms",
-        "source": "CoinDesk",
-        "weight": 0.7415,
+        "title": "Stocks Set New Highs, Treasuries Rally as Market Readies for Fed Rate Cut",
+        "url": "https://finance.yahoo.com/m/632f8a82-d0d7-31ab-a904-2a64c3eb25bd/stocks-set-new-highs%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.607,
         "score": 0.8667
       },
       {
-        "title": "Venezuela’s Battered Bonds Tempt Investors as US Pressure Grows",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-11/venezuela-s-battered-bonds-tempt-investors-as-us-pressure-grows",
-        "source": "Bloomberg Markets",
-        "weight": 0.6118,
+        "title": "Stock Futures Pare Gains, Treasuries Rally After Latest Economic Data",
+        "url": "https://finance.yahoo.com/m/aedff6b4-cce6-3bb4-9041-1520821bbc33/stock-futures-pare-gains%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5198,
+        "score": 1.0
+      },
+      {
+        "title": "Chip Stocks Are on the Move. Where the Charts Say AMD and Micron Go Next.",
+        "url": "https://finance.yahoo.com/m/376e9b0e-91c8-39e8-b3a5-8de9346f7c38/chip-stocks-are-on-the-move..html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5994,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "ECB Holds Rates With Inflation Tamed and Economy Sturdy",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-11/ecb-holds-rates-with-inflation-tamed-and-economy-proving-sturdy",
-        "source": "Bloomberg Markets",
-        "weight": 0.7499,
-        "score": -0.9667
+        "title": "The truth behind crypto scams, hacks and blockchain security",
+        "url": "https://cointelegraph.com/news/the-truth-crypto-scams-hacks-blockchain-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6864,
+        "score": -1.0
+      },
+      {
+        "title": "How to Use Google’s Nano Banana AI to Transform Your Selfies Into Digital Figurines",
+        "url": "https://decrypt.co/338994/how-use-google-nano-banana-ai-transform-selfies-digital-figurines",
+        "source": "Decrypt",
+        "weight": 0.7494,
+        "score": -0.6333
       },
       {
         "title": "Auditor flagged issue before $2.59M Nemo hack, team admits",
         "url": "https://cointelegraph.com/news/2-6-million-lost-in-nemo-hack-due-to-unaudited-code-and-ignored-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6482,
+        "weight": 0.4238,
         "score": -1.0
-      },
-      {
-        "title": "Quantum computers could bring lost Bitcoin back to life: Here’s how",
-        "url": "https://cointelegraph.com/explained/quantum-computers-could-bring-lost-bitcoin-back-to-life-heres-how?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5346,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5940359668624946,
-          "price_change_24h": 0.00249
+          "volume_mcap_ratio": 0.5582035331665686,
+          "price_change_24h": -0.01182
         }
       ],
       "momentum_shifts": []
