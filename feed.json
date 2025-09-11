@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-10T20:26:23.140734+00:00",
+  "updated_at": "2025-09-11T01:54:00.645206+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.069,
-    "fearGreed": 49,
-    "momentum": 0.474,
+    "change24h": 0.054,
+    "vol": 0.174,
+    "fearGreed": 54,
+    "momentum": 0.941,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5711,
-    "global_sentiment": 0.4552,
-    "combined_sentiment": 0.5496,
-    "confidence": 0.8467,
+    "crypto_sentiment": 0.4854,
+    "global_sentiment": 0.511,
+    "combined_sentiment": 0.4899,
+    "confidence": 0.8132,
     "counts": {
-      "crypto": 72,
-      "global": 41
+      "crypto": 74,
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 113805,
-      "btc_change_24h": 2.4,
-      "eth_price": 4334.09,
-      "eth_change_24h": 1.03,
+      "btc_price": 113890,
+      "btc_change_24h": 2.63,
+      "eth_price": 4365.0,
+      "eth_change_24h": 1.47,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "regime_strength": 0.8,
+      "market_breadth": 1.0,
       "fear_greed": {
-        "value": 49,
+        "value": 54,
         "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 233291408861,
+        "volume_24h": 232310099058,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.34,
+        "btc_dominance": 56.19,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-28T08:32:34.503228+00:00",
-      "crypto": 0.5455,
-      "global": 0.4432,
-      "combined": 0.5294,
-      "counts": {
-        "crypto": 59,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-08-28T12:51:40.324106+00:00",
       "crypto": 0.5586,
@@ -1008,52 +998,62 @@
         "crypto": 72,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-11T01:54:00.645206+00:00",
+      "crypto": 0.4854,
+      "global": 0.511,
+      "combined": 0.4899,
+      "counts": {
+        "crypto": 74,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ethena’s USDe stablecoin surges to over $13B after Binance listing",
-        "url": "https://cryptoslate.com/ethenas-usde-stablecoin-surges-to-over-13b-after-binance-listing/",
-        "source": "CryptoSlate",
-        "weight": 0.6698,
-        "score": 1.0
-      },
-      {
-        "title": "Yunfeng Financial Group (SEHK:376) Reports Net Income Surge To HK$486 Million",
-        "url": "https://finance.yahoo.com/news/yunfeng-financial-group-sehk-376-184551550.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6592,
-        "score": 1.0
-      },
-      {
-        "title": "Bullish Oracle Options Holders In Line for $1.5 Billion Windfall",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-10/bullish-oracle-options-holders-in-line-for-1-5-billion-windfall",
+        "title": "Larry Ellison’s $89 Billion One-Day Wealth Boom Shatters Records",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-10/ellison-s-89b-one-day-wealth-boom-shatters-records-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6451,
+        "weight": 0.5202,
         "score": 1.0
+      },
+      {
+        "title": "Global crypto market cap up 2.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Prospective CFTC chair releases private texts with Winklevoss twins, hours before IPO",
+        "url": "https://cointelegraph.com/news/brian-quintenz-cftc-texts-gemini-tyler-winklevoss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5439,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "The Protocol: SwissBorg’s SOL Earn Wallet Exploited for $41.5M",
-        "url": "https://www.coindesk.com/tech/2025/09/10/the-protocol-swissborg-s-sol-earn-wallet-exploited-for-usd41-5m",
-        "source": "CoinDesk",
-        "weight": 0.9354,
-        "score": -0.8333
+        "title": "Federal Prosecutors Looking Into Fraud Allegations at Tricolor",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-11/federal-prosecutors-looking-into-fraud-allegations-at-tricolor",
+        "source": "Bloomberg Markets",
+        "weight": 0.6731,
+        "score": -0.9667
       },
       {
-        "title": "CVS Unit Omnicare Taps Alvarez &amp; Marsal for Operational Help",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-10/cvs-unit-omnicare-taps-alvarez-marsal-for-operational-help",
-        "source": "Bloomberg Markets",
-        "weight": 0.7556,
+        "title": "Bitcoin Giant Strategy Dodges Another Lawsuit Alleging Accounting Wrongs",
+        "url": "https://decrypt.co/338904/bitcoin-giant-strategy-dodges-lawsuit-alleging-accounting-wrongs",
+        "source": "Decrypt",
+        "weight": 0.5919,
         "score": -1.0
       },
       {
-        "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 29, 2025",
-        "url": "https://finance.yahoo.com/news/nasdaq-announces-end-month-open-200500446.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7677,
+        "title": "SEC delays BlackRock, Franklin Templeton crypto ETF decisions",
+        "url": "https://cointelegraph.com/news/sec-delays-blackrock-franklin-templeton-crypto-etf-decisions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5275,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.602547633206782,
-          "price_change_24h": 0.02781
+          "volume_mcap_ratio": 0.5936719392660798,
+          "price_change_24h": 0.02356
         },
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.5326483649225185,
-          "price_change_24h": 3.23097
+          "volume_mcap_ratio": 0.3771597597709141,
+          "price_change_24h": -8.46705
         }
       ],
       "momentum_shifts": []
