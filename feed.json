@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-11T16:29:57.469994+00:00",
+  "updated_at": "2025-09-11T19:53:47.458561+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.054,
+    "change24h": 0.036,
+    "vol": 0.085,
     "fearGreed": 54,
-    "momentum": 0.201,
+    "momentum": 0.625,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5099,
-    "global_sentiment": 0.5409,
-    "combined_sentiment": 0.5108,
-    "confidence": 0.8149,
+    "crypto_sentiment": 0.5612,
+    "global_sentiment": 0.598,
+    "combined_sentiment": 0.5541,
+    "confidence": 0.8127,
     "counts": {
-      "crypto": 65,
-      "global": 34
+      "crypto": 64,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 114413,
-      "btc_change_24h": 0.64,
-      "eth_price": 4414.27,
-      "eth_change_24h": 1.01,
+      "btc_price": 114453,
+      "btc_change_24h": 0.93,
+      "eth_price": 4429.61,
+      "eth_change_24h": 2.59,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 54,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 228297728160,
+        "volume_24h": 217312948085,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.21,
+        "btc_dominance": 56.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-29T01:55:22.176527+00:00",
-      "crypto": 0.6723,
-      "global": 0.5328,
-      "combined": 0.632,
-      "counts": {
-        "crypto": 66,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-08-29T04:29:25.011284+00:00",
       "crypto": 0.6099,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-09-11T19:53:47.458561+00:00",
+      "crypto": 0.5612,
+      "global": 0.598,
+      "combined": 0.5541,
+      "counts": {
+        "crypto": 64,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stocks Set New Highs, Treasuries Rally as Market Readies for Fed Rate Cut",
-        "url": "https://finance.yahoo.com/m/632f8a82-d0d7-31ab-a904-2a64c3eb25bd/stocks-set-new-highs%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.607,
+        "title": "$4.3B Bitcoin options expiry could open the door for a BTC rally to $120K",
+        "url": "https://cointelegraph.com/news/bitcoin-dollar4-3b-monthly-options-expiry-paves-path-to-dollar120k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9176,
         "score": 0.8667
       },
       {
-        "title": "Stock Futures Pare Gains, Treasuries Rally After Latest Economic Data",
-        "url": "https://finance.yahoo.com/m/aedff6b4-cce6-3bb4-9041-1520821bbc33/stock-futures-pare-gains%2C.html?.tsrc=rss",
+        "title": "Stock Market Today: Tesla Hits New Buy Point As Alibaba, Blackstone Break Out (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/b1d6d5f1-a571-3096-853c-9d00d383d199/stock-market-today%3A-tesla.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5198,
+        "weight": 0.7811,
         "score": 1.0
       },
       {
-        "title": "Chip Stocks Are on the Move. Where the Charts Say AMD and Micron Go Next.",
-        "url": "https://finance.yahoo.com/m/376e9b0e-91c8-39e8-b3a5-8de9346f7c38/chip-stocks-are-on-the-move..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5994,
-        "score": 0.8667
+        "title": "Mexico’s Sleepy Stock Market Stirs With Latest Listing Plans",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-11/mexico-s-sleepy-stock-market-stirs-with-latest-listing-plans",
+        "source": "Bloomberg Markets",
+        "weight": 0.6676,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "The truth behind crypto scams, hacks and blockchain security",
-        "url": "https://cointelegraph.com/news/the-truth-crypto-scams-hacks-blockchain-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6864,
+        "title": "Prescription Drug Ads Could Be Changing. These Stocks Could Get Hurt the Most.",
+        "url": "https://finance.yahoo.com/m/58217ebd-d4b9-3fe5-8cfc-9309aa8f127e/prescription-drug-ads-could.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7835,
         "score": -1.0
       },
       {
-        "title": "How to Use Google’s Nano Banana AI to Transform Your Selfies Into Digital Figurines",
-        "url": "https://decrypt.co/338994/how-use-google-nano-banana-ai-transform-selfies-digital-figurines",
-        "source": "Decrypt",
-        "weight": 0.7494,
+        "title": "Ethena Labs drops out of Hyperliquid’s USDH stablecoin bid citing ecosystem concerns",
+        "url": "https://cryptoslate.com/ethena-labs-drops-out-of-hyperliquids-usdh-stablecoin-bid-citing-ecosystem-concerns/",
+        "source": "CryptoSlate",
+        "weight": 0.5281,
+        "score": -1.0
+      },
+      {
+        "title": "Right Now on the Curve, 5 Years is the Sweet Spot: Davis",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-11/right-now-on-the-curve-5-years-is-the-sweet-spot-davis-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7852,
         "score": -0.6333
-      },
-      {
-        "title": "Auditor flagged issue before $2.59M Nemo hack, team admits",
-        "url": "https://cointelegraph.com/news/2-6-million-lost-in-nemo-hack-due-to-unaudited-code-and-ignored-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4238,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5582035331665686,
-          "price_change_24h": -0.01182
+          "volume_mcap_ratio": 0.5272091131356633,
+          "price_change_24h": -0.00502
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-11",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5101,
+      "crypto_high": 0.5612,
+      "crypto_low": 0.4854,
+      "global_avg": 0.5121,
+      "global_high": 0.598,
+      "global_low": 0.4076,
+      "combined_avg": 0.5086,
+      "combined_high": 0.5541,
+      "combined_low": 0.4899
+    },
+    "market_indicators_24h": {
+      "change24h": 0.036,
+      "vol": 0.085,
+      "fearGreed": 54,
+      "momentum": 0.625,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-11T19:53:47.458561+00:00"
   }
 }
