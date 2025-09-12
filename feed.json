@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-12T04:27:27.114399+00:00",
+  "updated_at": "2025-09-12T08:31:28.274973+00:00",
   "indicators": {
     "change24h": 0.038,
-    "vol": 0.094,
+    "vol": 0.109,
     "fearGreed": 57,
-    "momentum": 0.661,
+    "momentum": 0.669,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5481,
-    "global_sentiment": 0.5881,
-    "combined_sentiment": 0.5434,
-    "confidence": 0.7527,
+    "crypto_sentiment": 0.6009,
+    "global_sentiment": 0.4735,
+    "combined_sentiment": 0.5734,
+    "confidence": 0.7635,
     "counts": {
-      "crypto": 67,
-      "global": 35
+      "crypto": 66,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 115335,
-      "btc_change_24h": 0.94,
-      "eth_price": 4514.38,
-      "eth_change_24h": 2.22,
+      "btc_price": 115207,
+      "btc_change_24h": 0.91,
+      "eth_price": 4521.56,
+      "eth_change_24h": 2.04,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 57,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 238726575778,
-        "high_activity_coins": 1
+        "volume_24h": 255746038323,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.97,
+        "btc_dominance": 55.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-29T16:30:18.080205+00:00",
-      "crypto": 0.4675,
-      "global": 0.4634,
-      "combined": 0.4726,
-      "counts": {
-        "crypto": 57,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-08-29T19:53:36.689542+00:00",
       "crypto": 0.4889,
@@ -1008,22 +998,25 @@
         "crypto": 67,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-12T08:31:28.274973+00:00",
+      "crypto": 0.6009,
+      "global": 0.4735,
+      "combined": 0.5734,
+      "counts": {
+        "crypto": 66,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: New Bullish Phase For Market Rally? Tesla Leads 5 Stocks Flashing Buy Signals",
-        "url": "https://finance.yahoo.com/m/aa45d44a-0bd3-30ff-a943-7a760ecc8f1f/dow-jones-futures%3A-new.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6786,
-        "score": 1.0
-      },
-      {
-        "title": "SK Hynix shares soar to 25-year highs on high-end chip breakthrough",
-        "url": "https://www.cnbc.com/2025/09/12/asia-pacific-markets-nikkei-225-kospi-nifty-50.html",
-        "source": "CNBC Markets",
-        "weight": 0.6798,
+        "title": "Bitcoin in consolidation as treasuries eye altcoins: Novogratz",
+        "url": "https://cointelegraph.com/news/bitcoin-consolidation-altcoin-treasury-growth-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6379,
         "score": 0.8667
       },
       {
@@ -1032,37 +1025,49 @@
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Dow Jones Futures: New Bullish Phase For Market Rally? Tesla Leads 5 Stocks Flashing Buy Signals",
+        "url": "https://finance.yahoo.com/m/aa45d44a-0bd3-30ff-a943-7a760ecc8f1f/dow-jones-futures%3A-new.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4242,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Researchers Uncover Undetectable Malware Draining Crypto Browser Wallets",
-        "url": "https://decrypt.co/339153/researchers-undetectable-malware-drain-crypto-browser-wallets",
-        "source": "Decrypt",
-        "weight": 0.8035,
-        "score": -0.6333
+        "title": "Ripple vs. SEC: How the lawsuit strengthened XRP’s narrative",
+        "url": "https://cointelegraph.com/explained/ripple-vs-sec-how-the-lawsuit-strengthened-xrps-narrative?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8863,
+        "score": -1.0
       },
       {
-        "title": "Goldman Flags Bullish Outlook on China Oil Stockpiling Into 2026",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-12/goldman-flags-bullish-outlook-on-china-oil-stockpiling-into-2026",
+        "title": "US Recession Risk 'Pretty Remote,' SocGen Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-12/us-recession-risk-pretty-remote-socgen-says-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7207,
-        "score": -0.6333
-      },
-      {
-        "title": "Battery Plant Delayed After Immigration Raid: Hyundai",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-12/battery-plant-delayed-after-immigration-raid-hyundai-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6419,
+        "weight": 0.7469,
         "score": -0.6667
+      },
+      {
+        "title": "US Seeks to Drop Fentanyl Charge Against Indian Pharma Executive",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-12/us-seeks-to-drop-fentanyl-charge-against-indian-pharma-executive",
+        "source": "Bloomberg Markets",
+        "weight": 0.7144,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5954858258536667,
-          "price_change_24h": 0.01267
+          "volume_mcap_ratio": 0.6201160632958769,
+          "price_change_24h": 0.00487
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.32437081705105636,
+          "price_change_24h": -0.02243
         }
       ],
       "momentum_shifts": []
