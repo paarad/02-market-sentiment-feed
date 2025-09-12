@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-11T20:22:21.070962+00:00",
+  "updated_at": "2025-09-12T01:49:08.815989+00:00",
   "indicators": {
-    "change24h": 0.029,
-    "vol": 0.072,
-    "fearGreed": 54,
-    "momentum": 0.504,
+    "change24h": 0.045,
+    "vol": 0.096,
+    "fearGreed": 57,
+    "momentum": 0.787,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5529,
-    "global_sentiment": 0.562,
-    "combined_sentiment": 0.5449,
-    "confidence": 0.8052,
+    "crypto_sentiment": 0.5724,
+    "global_sentiment": 0.5995,
+    "combined_sentiment": 0.5626,
+    "confidence": 0.7656,
     "counts": {
-      "crypto": 62,
-      "global": 50
+      "crypto": 65,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 114395,
-      "btc_change_24h": 0.62,
-      "eth_price": 4422.28,
-      "eth_change_24h": 2.17,
+      "btc_price": 115632,
+      "btc_change_24h": 1.5,
+      "eth_price": 4510.41,
+      "eth_change_24h": 3.28,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 1.0,
       "fear_greed": {
-        "value": 54,
-        "classification": "Neutral",
-        "trend": "stable"
+        "value": 57,
+        "classification": "Greed",
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 210757416979,
+        "volume_24h": 237330185644,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.16,
+        "btc_dominance": 56.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-29T08:32:21.956006+00:00",
-      "crypto": 0.5351,
-      "global": 0.5552,
-      "combined": 0.5309,
-      "counts": {
-        "crypto": 69,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-08-29T12:50:22.552585+00:00",
       "crypto": 0.5038,
@@ -1008,61 +998,71 @@
         "crypto": 62,
         "global": 50
       }
+    },
+    {
+      "ts": "2025-09-12T01:49:08.815989+00:00",
+      "crypto": 0.5724,
+      "global": 0.5995,
+      "combined": 0.5626,
+      "counts": {
+        "crypto": 65,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "$4.3B Bitcoin options expiry could open the door for a BTC rally to $120K",
-        "url": "https://cointelegraph.com/news/bitcoin-dollar4-3b-monthly-options-expiry-paves-path-to-dollar120k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8685,
+        "title": "Dow Jones Futures: New Bullish Phase For Market Rally? Tesla Leads 5 Stocks Flashing Buy Signals",
+        "url": "https://finance.yahoo.com/m/aa45d44a-0bd3-30ff-a943-7a760ecc8f1f/dow-jones-futures%3A-new.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7679,
+        "score": 1.0
+      },
+      {
+        "title": "Asia-Pacific markets trade higher, tracking Wall Street gains",
+        "url": "https://www.cnbc.com/2025/09/12/asia-pacific-markets-nikkei-225-kospi-nifty-50.html",
+        "source": "CNBC Markets",
+        "weight": 0.6604,
         "score": 0.8667
       },
       {
-        "title": "Stock Market Today: Tesla Hits New Buy Point As Alibaba, Blackstone Break Out (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/b1d6d5f1-a571-3096-853c-9d00d383d199/stock-market-today%3A-tesla.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7393,
-        "score": 1.0
-      },
-      {
-        "title": "Rusta (OM:RUSTA) Q1 Earnings Show Modest Sales Increase But Lower Net Income",
-        "url": "https://finance.yahoo.com/news/rusta-om-rusta-q1-earnings-181651547.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6283,
-        "score": 1.0
+        "title": "After a record day for the indexes, Jim Cramer argues against market 'cynics'",
+        "url": "https://www.cnbc.com/2025/09/11/jim-cramer-argues-against-market-cynics-after-records.html",
+        "source": "CNBC Markets",
+        "weight": 0.5396,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Prescription Drug Ads Could Be Changing. These Stocks Could Get Hurt the Most.",
-        "url": "https://finance.yahoo.com/m/58217ebd-d4b9-3fe5-8cfc-9309aa8f127e/prescription-drug-ads-could.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7416,
-        "score": -1.0
+        "title": "Albania’s AI virtual assistant Diella just got promoted to ‘minister’",
+        "url": "https://cointelegraph.com/news/albania-appoints-ai-powered-bot-diella-minister-procurement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.701,
+        "score": -0.6667
       },
       {
-        "title": "Bakken Oil Output Shows Signs of Slowing as Pipeline Flows Slip",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-11/bakken-oil-output-shows-signs-of-slowing-as-pipeline-flows-slip",
+        "title": "SEC Moves to Dismiss Case Against Former Nikola CEO Milton",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-11/sec-moves-to-dismiss-case-against-former-nikola-ceo-milton",
         "source": "Bloomberg Markets",
-        "weight": 0.7619,
-        "score": -0.9667
+        "weight": 0.5133,
+        "score": -0.8
       },
       {
-        "title": "Ethena Labs drops out of Hyperliquid’s USDH stablecoin bid citing ecosystem concerns",
-        "url": "https://cryptoslate.com/ethena-labs-drops-out-of-hyperliquids-usdh-stablecoin-bid-citing-ecosystem-concerns/",
-        "source": "CryptoSlate",
-        "weight": 0.4999,
-        "score": -1.0
+        "title": "S&P 500 Hits New High as CPI Revives Rate Cut Bets | The Close 9/11/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-11/the-close-9-11-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5542,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5214262289634242,
-          "price_change_24h": -0.00653
+          "volume_mcap_ratio": 0.5860172824522086,
+          "price_change_24h": 0.01108
         }
       ],
       "momentum_shifts": []
