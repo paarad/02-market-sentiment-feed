@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-12T19:53:21.997846+00:00",
+  "updated_at": "2025-09-12T20:25:17.423603+00:00",
   "indicators": {
-    "change24h": 0.063,
-    "vol": 0.144,
+    "change24h": 0.058,
+    "vol": 0.143,
     "fearGreed": 57,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6115,
-    "global_sentiment": 0.592,
-    "combined_sentiment": 0.5913,
-    "confidence": 0.8114,
+    "crypto_sentiment": 0.6449,
+    "global_sentiment": 0.5101,
+    "combined_sentiment": 0.6095,
+    "confidence": 0.8194,
     "counts": {
-      "crypto": 62,
-      "global": 44
+      "crypto": 64,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 116633,
-      "btc_change_24h": 1.91,
-      "eth_price": 4653.26,
-      "eth_change_24h": 5.06,
+      "btc_price": 116101,
+      "btc_change_24h": 1.52,
+      "eth_price": 4638.02,
+      "eth_change_24h": 4.84,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 57,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 239981507970,
+        "volume_24h": 249083279754,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.77,
+        "btc_dominance": 55.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-30T04:27:24.519509+00:00",
-      "crypto": 0.4131,
-      "global": 0.3259,
-      "combined": 0.4203,
-      "counts": {
-        "crypto": 75,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-08-30T08:28:36.599321+00:00",
       "crypto": 0.392,
@@ -1008,66 +998,76 @@
         "crypto": 62,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-12T20:25:17.423603+00:00",
+      "crypto": 0.6449,
+      "global": 0.5101,
+      "combined": 0.6095,
+      "counts": {
+        "crypto": 64,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Polymarket Weighs $9B Valuation Amid User Surge and CFTC Approval: The Information",
+        "url": "https://www.coindesk.com/markets/2025/09/12/polymarket-weighs-usd9b-valuation-amid-user-surge-and-cftc-approval-the-information",
+        "source": "CoinDesk",
+        "weight": 0.9455,
+        "score": 1.0
+      },
+      {
         "title": "Polymarket eyes $10B valuation as prediction market preps US comeback: Report",
         "url": "https://cointelegraph.com/news/polymarket-us-launch-10b-valuation-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7289,
+        "weight": 0.6854,
         "score": 1.0
       },
       {
         "title": "Jamf Holding (JAMF) Sees 28% Price Rise Over Last Month",
         "url": "https://finance.yahoo.com/news/jamf-holding-jamf-sees-28-183013752.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6816,
-        "score": 1.0
-      },
-      {
-        "title": "Socionext (TSE:6526) Reports 19% Price Gain Over Last Quarter",
-        "url": "https://finance.yahoo.com/news/socionext-tse-6526-reports-19-182723540.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6779,
+        "weight": 0.641,
         "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Market Underpricing How Much Fed Will Cut: Cabana",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-12/market-underpricing-how-much-fed-will-cut-cabana-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7823,
+        "score": -0.9667
+      },
+      {
+        "title": "S&P 500 Barely Snaps Four-Day Winning Streak as Most Stocks Fall",
+        "url": "https://finance.yahoo.com/m/a3c5e757-c0da-3fe2-913e-1d1d1a4e0545/s%26p-500-barely-snaps-four-day.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7794,
+        "score": -0.9667
+      },
+      {
         "title": "Fed on Track for Rate Cut | Real Yield 9/12/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-09-12/real-yield-9-12-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6489,
+        "weight": 0.6102,
         "score": -0.9667
-      },
-      {
-        "title": "Djamo Gets Green Light to Offer Loans and Savings in Ivory Coast",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-12/djamo-gets-green-light-to-offer-loans-and-savings-in-ivory-coast",
-        "source": "Bloomberg Markets",
-        "weight": 0.6042,
-        "score": -0.9667
-      },
-      {
-        "title": "DuPont Bondholders Form Majority to Reject Two Debt Exchanges",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-12/dupont-bondholders-form-majority-to-reject-two-debt-exchanges",
-        "source": "Bloomberg Markets",
-        "weight": 0.7121,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6072416996353075,
-          "price_change_24h": 0.06647
+          "volume_mcap_ratio": 0.6260828549062188,
+          "price_change_24h": 0.03358
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3502687054254874,
-          "price_change_24h": 0.0806
+          "volume_mcap_ratio": 0.3757049696032319,
+          "price_change_24h": 0.04859
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-12",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5767,
-      "crypto_high": 0.6115,
-      "crypto_low": 0.5226,
-      "global_avg": 0.5323,
-      "global_high": 0.5995,
-      "global_low": 0.4537,
-      "combined_avg": 0.5602,
-      "combined_high": 0.5913,
-      "combined_low": 0.5159
-    },
-    "market_indicators_24h": {
-      "change24h": 0.063,
-      "vol": 0.144,
-      "fearGreed": 57,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-12T19:53:21.997846+00:00"
   }
 }
