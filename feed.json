@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-12T08:31:28.274973+00:00",
+  "updated_at": "2025-09-12T12:48:25.859389+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.109,
+    "change24h": 0.035,
+    "vol": 0.105,
     "fearGreed": 57,
-    "momentum": 0.669,
+    "momentum": 0.608,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6009,
-    "global_sentiment": 0.4735,
-    "combined_sentiment": 0.5734,
-    "confidence": 0.7635,
+    "crypto_sentiment": 0.5226,
+    "global_sentiment": 0.4872,
+    "combined_sentiment": 0.5159,
+    "confidence": 0.7974,
     "counts": {
       "crypto": 66,
-      "global": 40
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 115207,
-      "btc_change_24h": 0.91,
-      "eth_price": 4521.56,
-      "eth_change_24h": 2.04,
+      "btc_price": 115015,
+      "btc_change_24h": 0.77,
+      "eth_price": 4518.37,
+      "eth_change_24h": 2.28,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.9,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 255746038323,
+        "volume_24h": 226865025731,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-29T19:53:36.689542+00:00",
-      "crypto": 0.4889,
-      "global": 0.388,
-      "combined": 0.4824,
-      "counts": {
-        "crypto": 79,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-08-29T20:25:52.425529+00:00",
       "crypto": 0.5082,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-09-12T12:48:25.859389+00:00",
+      "crypto": 0.5226,
+      "global": 0.4872,
+      "combined": 0.5159,
+      "counts": {
+        "crypto": 66,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin in consolidation as treasuries eye altcoins: Novogratz",
-        "url": "https://cointelegraph.com/news/bitcoin-consolidation-altcoin-treasury-growth-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6379,
-        "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 1.3% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Dow Jones Futures: New Bullish Phase For Market Rally? Tesla Leads 5 Stocks Flashing Buy Signals",
-        "url": "https://finance.yahoo.com/m/aa45d44a-0bd3-30ff-a943-7a760ecc8f1f/dow-jones-futures%3A-new.html?.tsrc=rss",
+        "title": "Dow Jones Futures Fall: New Bullish Phase For Market Rally? Tesla Leads 5 Stocks Flashing Buy Signals",
+        "url": "https://finance.yahoo.com/m/aa45d44a-0bd3-30ff-a943-7a760ecc8f1f/dow-jones-futures-fall%3A-new.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4242,
+        "weight": 0.7413,
         "score": 1.0
+      },
+      {
+        "title": "Wall Street Expects Rally in Riskiest Stocks to Last 12 Months",
+        "url": "https://finance.yahoo.com/news/wall-street-expects-rally-riskiest-093000182.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.546,
+        "score": 1.0
+      },
+      {
+        "title": "Morning Minute: BlackRock Wants To Tokenize Its ETFs",
+        "url": "https://decrypt.co/339231/morning-minute-blackrock-wants-to-tokenize-its-etfs",
+        "source": "Decrypt",
+        "weight": 0.8445,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Ripple vs. SEC: How the lawsuit strengthened XRP’s narrative",
-        "url": "https://cointelegraph.com/explained/ripple-vs-sec-how-the-lawsuit-strengthened-xrps-narrative?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8863,
+        "title": "Weight-loss drug boom has reached apparel store rack as America resizes",
+        "url": "https://www.cnbc.com/2025/09/12/weight-loss-drugs-ozempic-zepbound-glp1-apparel-clothing-sizes.html",
+        "source": "CNBC Markets",
+        "weight": 0.6799,
         "score": -1.0
       },
       {
-        "title": "US Recession Risk 'Pretty Remote,' SocGen Says",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-12/us-recession-risk-pretty-remote-socgen-says-video",
+        "title": "OpenAI & Nvidia CEOs Plan UK Data Center Push | The Pulse 9/12/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-12/the-pulse-9-12-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7469,
-        "score": -0.6667
+        "weight": 0.5759,
+        "score": -0.9667
       },
       {
-        "title": "US Seeks to Drop Fentanyl Charge Against Indian Pharma Executive",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-12/us-seeks-to-drop-fentanyl-charge-against-indian-pharma-executive",
-        "source": "Bloomberg Markets",
-        "weight": 0.7144,
-        "score": -0.6333
+        "title": "Ripple vs. SEC: How the lawsuit strengthened XRP’s narrative",
+        "url": "https://cointelegraph.com/explained/ripple-vs-sec-how-the-lawsuit-strengthened-xrps-narrative?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5404,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6201160632958769,
-          "price_change_24h": 0.00487
+          "volume_mcap_ratio": 0.566657917056756,
+          "price_change_24h": -0.0021
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.32437081705105636,
-          "price_change_24h": -0.02243
+          "volume_mcap_ratio": 0.3251724821050751,
+          "price_change_24h": 0.02498
         }
       ],
       "momentum_shifts": []
