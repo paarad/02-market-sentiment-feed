@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-13T16:25:27.514847+00:00",
+  "updated_at": "2025-09-13T19:53:52.032358+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.174,
+    "change24h": 0.001,
+    "vol": 0.116,
     "fearGreed": 52,
-    "momentum": 0.621,
+    "momentum": 0.023,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4739,
-    "global_sentiment": 0.5848,
-    "combined_sentiment": 0.4875,
-    "confidence": 0.6809,
+    "crypto_sentiment": 0.4858,
+    "global_sentiment": 0.6748,
+    "combined_sentiment": 0.5039,
+    "confidence": 0.6994,
     "counts": {
       "crypto": 63,
-      "global": 34
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 115577,
-      "btc_change_24h": 0.19,
-      "eth_price": 4638.43,
-      "eth_change_24h": 1.69,
+      "btc_price": 115838,
+      "btc_change_24h": -0.74,
+      "eth_price": 4642.61,
+      "eth_change_24h": -0.38,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 52,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 251404215055,
+        "volume_24h": 224400506353,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 55.44,
+        "btc_dominance": 55.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-31T02:01:04.548058+00:00",
-      "crypto": 0.5563,
-      "global": 0.6321,
-      "combined": 0.5532,
-      "counts": {
-        "crypto": 64,
-        "global": 29
-      }
-    },
     {
       "ts": "2025-08-31T04:27:55.115802+00:00",
       "crypto": 0.4989,
@@ -1008,71 +998,81 @@
         "crypto": 63,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-09-13T19:53:52.032358+00:00",
+      "crypto": 0.4858,
+      "global": 0.6748,
+      "combined": 0.5039,
+      "counts": {
+        "crypto": 63,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock-Market Rally Is Built on Narrative That’s Loaded With Risk",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-13/stock-market-rally-is-built-on-narrative-that-s-loaded-with-risk",
-        "source": "Bloomberg Markets",
-        "weight": 0.6786,
-        "score": 0.8667
-      },
-      {
-        "title": "The $14 Trillion US Stock Rally is Seeking a Fed Cut Playbook",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-13/the-14-trillion-us-stock-rally-is-seeking-a-fed-cut-playbook",
-        "source": "Bloomberg Markets",
-        "weight": 0.5386,
-        "score": 0.8667
-      },
-      {
-        "title": "OpenAI's spending spree is powering the tech industry. Oracle is the latest winner",
-        "url": "https://www.cnbc.com/2025/09/13/openai-spending-spree-powering-much-of-tech-oracle-latest-example.html",
-        "source": "CNBC Markets",
-        "weight": 0.4275,
+        "title": "Belite Bio (BLTE) Completes Phase 3 DRAGON Trial Enrollment For Stargardt Treatment",
+        "url": "https://finance.yahoo.com/news/belite-bio-blte-completes-phase-173631567.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6141,
         "score": 1.0
+      },
+      {
+        "title": "SharpLink Gaming (SBET) Proposes Changes to Bylaws to Increase Authorized Shares",
+        "url": "https://finance.yahoo.com/news/sharplink-gaming-sbet-proposes-changes-173459524.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6123,
+        "score": 1.0
+      },
+      {
+        "title": "Warner Bros. Brings Big Win for Fallen Angel Debt: Credit Weekly",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-13/warner-bros-brings-big-win-for-fallen-angel-debt-credit-weekly",
+        "source": "Bloomberg Markets",
+        "weight": 0.6598,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "The intersection of DeFi and AI calls for transparent security",
-        "url": "https://cointelegraph.com/news/defi-ai-calls-for-transparent-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5707,
+        "title": "BioNTech (BNTX) Faces Legal Challenges Over mRNA Patent",
+        "url": "https://finance.yahoo.com/news/biontech-bntx-faces-legal-challenges-173004893.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6065,
+        "score": -1.0
+      },
+      {
+        "title": "Zoetis (ZTS) Gains Positive Opinion For Portela Therapy In EU For Cat OA Pain Relief",
+        "url": "https://finance.yahoo.com/news/zoetis-zts-gains-positive-opinion-173148387.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6085,
         "score": -0.9667
       },
       {
-        "title": "Julian Figueroa lost 14 BTC worth $1.6 million: he says millions of others will make the same mistakes",
-        "url": "https://cryptoslate.com/julian-figueroa-lost-14-btc-worth-1-6-million-he-says-millions-of-others-will-make-the-same-mistakes/",
-        "source": "CryptoSlate",
-        "weight": 0.6261,
+        "title": "TON Strategy Starts Share Buyback, Treasury Staking After Shares Plunge 40%",
+        "url": "https://www.coindesk.com/markets/2025/09/13/ton-strategy-starts-share-buyback-treasury-staking-after-shares-plunge-40",
+        "source": "CoinDesk",
+        "weight": 0.7534,
         "score": -0.6333
-      },
-      {
-        "title": "$300M Coinbase hacker buys $18.9M in Ether as ETH breaks above $4,700",
-        "url": "https://cointelegraph.com/news/coinbase-hacker-buys-18m-eth-at-4756?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5333,
-        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6592641527777039,
-          "price_change_24h": -0.00636
+          "volume_mcap_ratio": 0.6829825000803965,
+          "price_change_24h": -0.02609
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6209436885471591,
-          "price_change_24h": 0.02096
+          "volume_mcap_ratio": 0.5755987689305165,
+          "price_change_24h": -0.04642
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.39192039532446604,
-          "price_change_24h": 13.86539
+          "volume_mcap_ratio": 0.358079101403458,
+          "price_change_24h": 2.71697
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-13",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5885,
+      "crypto_high": 0.6882,
+      "crypto_low": 0.4739,
+      "global_avg": 0.5305,
+      "global_high": 0.6748,
+      "global_low": 0.4551,
+      "combined_avg": 0.569,
+      "combined_high": 0.6377,
+      "combined_low": 0.4875
+    },
+    "market_indicators_24h": {
+      "change24h": 0.001,
+      "vol": 0.116,
+      "fearGreed": 52,
+      "momentum": 0.023,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-13T19:53:52.032358+00:00"
   }
 }
