@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-13T12:42:57.697680+00:00",
+  "updated_at": "2025-09-13T16:25:27.514847+00:00",
   "indicators": {
-    "change24h": 0.074,
-    "vol": 0.207,
+    "change24h": 0.035,
+    "vol": 0.174,
     "fearGreed": 52,
-    "momentum": 1.0,
+    "momentum": 0.621,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5355,
-    "global_sentiment": 0.5071,
-    "combined_sentiment": 0.5272,
-    "confidence": 0.6608,
+    "crypto_sentiment": 0.4739,
+    "global_sentiment": 0.5848,
+    "combined_sentiment": 0.4875,
+    "confidence": 0.6809,
     "counts": {
-      "crypto": 62,
-      "global": 38
+      "crypto": 63,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 116055,
-      "btc_change_24h": 0.97,
-      "eth_price": 4728.74,
-      "eth_change_24h": 4.72,
+      "btc_price": 115577,
+      "btc_change_24h": 0.19,
+      "eth_price": 4638.43,
+      "eth_change_24h": 1.69,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 52,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 238523390377,
+        "volume_24h": 251404215055,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 55.23,
+        "btc_dominance": 55.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-30T20:24:16.188348+00:00",
-      "crypto": 0.4459,
-      "global": 0.5999,
-      "combined": 0.4678,
-      "counts": {
-        "crypto": 66,
-        "global": 27
-      }
-    },
     {
       "ts": "2025-08-31T02:01:04.548058+00:00",
       "crypto": 0.5563,
@@ -1008,71 +998,81 @@
         "crypto": 62,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-09-13T16:25:27.514847+00:00",
+      "crypto": 0.4739,
+      "global": 0.5848,
+      "combined": 0.4875,
+      "counts": {
+        "crypto": 63,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock-Market Rally Is Built on Narrative That’s Loaded With Risk",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-13/stock-market-rally-is-built-on-narrative-that-s-loaded-with-risk",
+        "source": "Bloomberg Markets",
+        "weight": 0.6786,
+        "score": 0.8667
+      },
+      {
+        "title": "The $14 Trillion US Stock Rally is Seeking a Fed Cut Playbook",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-13/the-14-trillion-us-stock-rally-is-seeking-a-fed-cut-playbook",
+        "source": "Bloomberg Markets",
+        "weight": 0.5386,
+        "score": 0.8667
+      },
+      {
         "title": "OpenAI's spending spree is powering the tech industry. Oracle is the latest winner",
         "url": "https://www.cnbc.com/2025/09/13/openai-spending-spree-powering-much-of-tech-oracle-latest-example.html",
         "source": "CNBC Markets",
-        "weight": 0.6562,
+        "weight": 0.4275,
         "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 2.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Dow Jones Futures: Market Runs But Not Extended As Fed Looms; Nvidia, Meta, Tesla Near Buy Zones",
-        "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7833,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "The intersection of DeFi and AI calls for transparent security",
+        "url": "https://cointelegraph.com/news/defi-ai-calls-for-transparent-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5707,
+        "score": -0.9667
+      },
+      {
+        "title": "Julian Figueroa lost 14 BTC worth $1.6 million: he says millions of others will make the same mistakes",
+        "url": "https://cryptoslate.com/julian-figueroa-lost-14-btc-worth-1-6-million-he-says-millions-of-others-will-make-the-same-mistakes/",
+        "source": "CryptoSlate",
+        "weight": 0.6261,
+        "score": -0.6333
+      },
+      {
         "title": "$300M Coinbase hacker buys $18.9M in Ether as ETH breaks above $4,700",
         "url": "https://cointelegraph.com/news/coinbase-hacker-buys-18m-eth-at-4756?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8186,
+        "weight": 0.5333,
         "score": -0.7333
-      },
-      {
-        "title": "Botswana Has Credit Rating Cut by S&amp;P on Diamond Slump",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-13/botswana-has-credit-rating-cut-by-s-p-on-diamond-slump",
-        "source": "Bloomberg Markets",
-        "weight": 0.5416,
-        "score": -0.9333
-      },
-      {
-        "title": "‘Crypto’s Time Has Come’: SEC Chair Outlines Vision for On-Chain Markets and Agentic Finance",
-        "url": "https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance",
-        "source": "CoinDesk",
-        "weight": 0.6514,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6493249426552772,
-          "price_change_24h": 0.05513
+          "volume_mcap_ratio": 0.6592641527777039,
+          "price_change_24h": -0.00636
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.609280686018763,
-          "price_change_24h": 0.02976
+          "volume_mcap_ratio": 0.6209436885471591,
+          "price_change_24h": 0.02096
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.31928261290321636,
-          "price_change_24h": 18.04003
+          "volume_mcap_ratio": 0.39192039532446604,
+          "price_change_24h": 13.86539
         }
       ],
       "momentum_shifts": []
