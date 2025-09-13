@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-13T01:44:30.358722+00:00",
+  "updated_at": "2025-09-13T04:26:55.617378+00:00",
   "indicators": {
-    "change24h": 0.049,
-    "vol": 0.154,
+    "change24h": 0.052,
+    "vol": 0.162,
     "fearGreed": 52,
-    "momentum": 0.851,
+    "momentum": 0.909,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6704,
-    "global_sentiment": 0.4551,
-    "combined_sentiment": 0.6241,
-    "confidence": 0.7585,
+    "crypto_sentiment": 0.6774,
+    "global_sentiment": 0.5023,
+    "combined_sentiment": 0.6333,
+    "confidence": 0.7096,
     "counts": {
-      "crypto": 62,
-      "global": 34
+      "crypto": 61,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 115951,
-      "btc_change_24h": 0.27,
-      "eth_price": 4718.01,
-      "eth_change_24h": 4.53,
+      "btc_price": 115819,
+      "btc_change_24h": 0.4,
+      "eth_price": 4737.22,
+      "eth_change_24h": 4.93,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 52,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 251890899601,
+        "volume_24h": 253443440788,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.4,
+        "btc_dominance": 55.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-30T12:45:19.326969+00:00",
-      "crypto": 0.4135,
-      "global": 0.5343,
-      "combined": 0.438,
-      "counts": {
-        "crypto": 73,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-08-30T16:27:21.901994+00:00",
       "crypto": 0.4821,
@@ -1008,30 +998,40 @@
         "crypto": 62,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-09-13T04:26:55.617378+00:00",
+      "crypto": 0.6774,
+      "global": 0.5023,
+      "combined": 0.6333,
+      "counts": {
+        "crypto": 61,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "Polymarket Weighs $9B Valuation Amid User Surge and CFTC Approval: The Information",
         "url": "https://www.coindesk.com/markets/2025/09/12/polymarket-weighs-usd9b-valuation-amid-user-surge-and-cftc-approval-the-information",
         "source": "CoinDesk",
-        "weight": 0.5114,
+        "weight": 0.374,
         "score": 1.0
       },
       {
-        "title": "Polymarket seeking funding round that could surge its valuation to $10B",
-        "url": "https://cryptoslate.com/polymarket-seeking-funding-round-that-could-surge-its-valuation-to-10b/",
-        "source": "CryptoSlate",
-        "weight": 0.4735,
-        "score": 1.0
-      },
-      {
-        "title": "Hedge Funds Slash Bullish Oil Bets to Lowest Ever Amid OPEC Hike",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-12/hedge-funds-slash-bullish-oil-bets-to-lowest-ever-amid-opec-hike",
-        "source": "Bloomberg Markets",
-        "weight": 0.4458,
-        "score": 1.0
+        "title": "Dow Jones Futures: Fed Looms With Market At Highs; Nvidia, Meta Eye Buy Points, Tesla Races",
+        "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures%3A-fed-looms.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6799,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Kalshi ‘ready to defend’ prediction markets amid Massachusetts lawsuit",
         "url": "https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7451,
+        "weight": 0.545,
         "score": -1.0
       },
       {
         "title": "Stock Buyer Fatigue Appears As Bond Yields Rise | The Close 9/12/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-09-12/the-close-9-12-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5423,
+        "weight": 0.3967,
         "score": -0.9667
       },
       {
         "title": "BofA Announces C-Suite Leadership Shakeups",
         "url": "https://www.bloomberg.com/news/videos/2025-09-12/bofa-announces-c-suite-leadership-shakeups",
         "source": "Bloomberg Markets",
-        "weight": 0.4626,
+        "weight": 0.3384,
         "score": -0.6667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.621289632205094,
-          "price_change_24h": 0.02143
+          "volume_mcap_ratio": 0.6290955032452877,
+          "price_change_24h": 0.00864
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3683843160407274,
-          "price_change_24h": 0.04597
+          "volume_mcap_ratio": 0.4588575214189721,
+          "price_change_24h": -0.009
         }
       ],
       "momentum_shifts": []
