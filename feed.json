@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-14T16:25:23.853761+00:00",
+  "updated_at": "2025-09-14T19:53:20.419883+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.143,
+    "change24h": -0.016,
+    "vol": 0.086,
     "fearGreed": 55,
-    "momentum": -0.486,
+    "momentum": -0.281,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4783,
-    "global_sentiment": 0.4945,
-    "combined_sentiment": 0.4832,
-    "confidence": 0.5578,
+    "crypto_sentiment": 0.5306,
+    "global_sentiment": 0.5082,
+    "combined_sentiment": 0.5236,
+    "confidence": 0.558,
     "counts": {
-      "crypto": 58,
-      "global": 44
+      "crypto": 57,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 115444,
-      "btc_change_24h": -0.11,
-      "eth_price": 4605.8,
-      "eth_change_24h": -0.76,
+      "btc_price": 115649,
+      "btc_change_24h": -0.15,
+      "eth_price": 4614.14,
+      "eth_change_24h": -0.61,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.15,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178124261243,
+        "volume_24h": 167703878726,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-01T02:11:38.741312+00:00",
-      "crypto": 0.4332,
-      "global": 0.4546,
-      "combined": 0.4461,
-      "counts": {
-        "crypto": 58,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-01T04:34:25.369480+00:00",
       "crypto": 0.3794,
@@ -1008,30 +998,40 @@
         "crypto": 58,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-14T19:53:20.419883+00:00",
+      "crypto": 0.5306,
+      "global": 0.5082,
+      "combined": 0.5236,
+      "counts": {
+        "crypto": 57,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "ETH/BTC ratio remains below 0.05 despite institutional adoption and ATH",
+        "url": "https://cointelegraph.com/news/eth-btc-ratio-below-0-05-despite-rally-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8392,
+        "score": 0.6667
+      },
+      {
         "title": "Dow Jones Futures Loom; Nvidia, Meta, Tesla Near Buy Zones With Fed Meeting Ahead",
         "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures-loom%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6627,
+        "weight": 0.5424,
         "score": 0.5333
       },
       {
-        "title": "Are the Record Flows for Traditional and Crypto ETFs Reducing the Power of the Fed?",
-        "url": "https://www.coindesk.com/markets/2025/09/14/are-the-record-flows-for-traditional-and-crypto-etfs-reducing-the-power-of-the-fed",
-        "source": "CoinDesk",
-        "weight": 0.9568,
-        "score": 0.3333
-      },
-      {
-        "title": "What’s Happening in EM: Yuan’s Gains May Boost EM FX (Podcast)",
-        "url": "https://www.bloomberg.com/news/audio/2025-09-14/what-s-happening-in-em-yuan-s-gains-may-boost-em-fx-podcast",
+        "title": "Markets Gear Up for Series of Fed Cuts With Bullish Bets at Risk",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/markets-gear-up-for-series-of-fed-cuts-with-bullish-bets-at-risk",
         "source": "Bloomberg Markets",
-        "weight": 0.5085,
-        "score": 0.5333
+        "weight": 0.7219,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,30 +1039,30 @@
         "title": "$7.5T in US money market funds could soon be seeking a new home",
         "url": "https://cryptoslate.com/7-5t-in-us-money-market-funds-could-soon-be-seeking-a-new-home/",
         "source": "CryptoSlate",
-        "weight": 0.5679,
+        "weight": 0.3805,
         "score": -0.6667
+      },
+      {
+        "title": "‘Monumental’: Russia is likely buying silver for its reserves",
+        "url": "https://cryptoslate.com/monumental-russia-is-likely-buying-silver-for-its-reserves/",
+        "source": "CryptoSlate",
+        "weight": 0.6769,
+        "score": -0.3333
       },
       {
         "title": "Global week ahead: From royal pomp to tech deals as Trump visits the U.K.",
         "url": "https://www.cnbc.com/2025/09/14/global-week-ahead-from-royals-to-tech-deals-as-trump-visits-uk.html",
         "source": "CNBC Markets",
-        "weight": 0.2753,
+        "weight": 0.1845,
         "score": -0.9667
-      },
-      {
-        "title": "US Official Offers Regrets Over Detention of South Koreans",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/us-official-offers-regrets-over-detention-of-south-koreans",
-        "source": "Bloomberg Markets",
-        "weight": 0.4077,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4540382554925646,
-          "price_change_24h": 0.00747
+          "volume_mcap_ratio": 0.43904470595546163,
+          "price_change_24h": 0.01583
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-14",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.513,
+      "crypto_high": 0.5509,
+      "crypto_low": 0.4783,
+      "global_avg": 0.5411,
+      "global_high": 0.6304,
+      "global_low": 0.4847,
+      "combined_avg": 0.5132,
+      "combined_high": 0.5381,
+      "combined_low": 0.4832
+    },
+    "market_indicators_24h": {
+      "change24h": -0.016,
+      "vol": 0.086,
+      "fearGreed": 55,
+      "momentum": -0.281,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-14T19:53:20.419883+00:00"
   }
 }
