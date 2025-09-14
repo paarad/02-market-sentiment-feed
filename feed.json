@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-14T08:27:58.136903+00:00",
+  "updated_at": "2025-09-14T12:42:55.998285+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.099,
+    "change24h": -0.039,
+    "vol": 0.119,
     "fearGreed": 55,
-    "momentum": -0.254,
-    "regime": "sideways",
+    "momentum": -0.677,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5498,
-    "global_sentiment": 0.4847,
-    "combined_sentiment": 0.5361,
-    "confidence": 0.4978,
+    "crypto_sentiment": 0.5509,
+    "global_sentiment": 0.4987,
+    "combined_sentiment": 0.5381,
+    "confidence": 0.4221,
     "counts": {
-      "crypto": 59,
-      "global": 48
+      "crypto": 58,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 115923,
-      "btc_change_24h": 0.05,
-      "eth_price": 4661.33,
-      "eth_change_24h": -1.25,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 115780,
+      "btc_change_24h": -0.23,
+      "eth_price": 4631.82,
+      "eth_change_24h": -2.05,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 55,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188555848580,
+        "volume_24h": 179031377034,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.48,
+        "btc_dominance": 55.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-31T19:53:39.041410+00:00",
-      "crypto": 0.5707,
-      "global": 0.5082,
-      "combined": 0.5537,
-      "counts": {
-        "crypto": 61,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-08-31T20:25:20.931594+00:00",
       "crypto": 0.5708,
@@ -1008,30 +998,40 @@
         "crypto": 59,
         "global": 48
       }
+    },
+    {
+      "ts": "2025-09-14T12:42:55.998285+00:00",
+      "crypto": 0.5509,
+      "global": 0.4987,
+      "combined": 0.5381,
+      "counts": {
+        "crypto": 58,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "What’s Happening in EM: Yuan’s Gains May Boost EM FX (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2025-09-14/what-s-happening-in-em-yuan-s-gains-may-boost-em-fx-podcast",
+        "source": "Bloomberg Markets",
+        "weight": 0.7803,
+        "score": 0.5333
+      },
+      {
+        "title": "Yuan’s Gradual Advance May Offer Boost to Emerging Currencies",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/yuan-s-gradual-advance-may-offer-boost-to-emerging-currencies",
+        "source": "Bloomberg Markets",
+        "weight": 0.6193,
+        "score": 0.5333
+      },
+      {
         "title": "Bitcoin Climbs as Economy Cracks — Is it Bullish or Bearish?",
         "url": "https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
         "source": "CoinDesk",
-        "weight": 0.9476,
+        "weight": 0.58,
         "score": 0.3333
-      },
-      {
-        "title": "Belite Bio (BLTE) Completes Phase 3 DRAGON Trial Enrollment For Stargardt Treatment",
-        "url": "https://finance.yahoo.com/news/belite-bio-blte-completes-phase-173631567.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1438,
-        "score": 1.0
-      },
-      {
-        "title": "SharpLink Gaming (SBET) Proposes Changes to Bylaws to Increase Authorized Shares",
-        "url": "https://finance.yahoo.com/news/sharplink-gaming-sbet-proposes-changes-173459524.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1433,
-        "score": 1.0
       }
     ],
     "negative": [
@@ -1039,35 +1039,35 @@
         "title": "Global week ahead: From royal pomp to tech deals as Trump visits the U.K.",
         "url": "https://www.cnbc.com/2025/09/14/global-week-ahead-from-royals-to-tech-deals-as-trump-visits-uk.html",
         "source": "CNBC Markets",
-        "weight": 0.6902,
+        "weight": 0.4225,
         "score": -0.9667
       },
       {
-        "title": "Switzerland’s Central Bank Learns to Live With a Strong Franc",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/switzerland-s-central-bank-learns-to-live-with-a-strong-franc",
+        "title": "US Official Offers Regrets Over Detention of South Koreans",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/us-official-offers-regrets-over-detention-of-south-koreans",
         "source": "Bloomberg Markets",
-        "weight": 0.6754,
-        "score": -0.3333
+        "weight": 0.6256,
+        "score": -0.6333
       },
       {
-        "title": "Cross-Border Bank Consolidation Benefits Cyprus, Patsalides Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/cross-border-bank-consolidation-benefits-cyprus-patsalides-says",
+        "title": "Iran Warns Sanctions Would Derail Ties With UN Atomic Watchdog",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/iran-warns-sanctions-would-derail-ties-with-un-atomic-watchdog",
         "source": "Bloomberg Markets",
-        "weight": 0.6017,
-        "score": -0.3333
+        "weight": 0.605,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.470981899893545,
-          "price_change_24h": 0.01076
+          "volume_mcap_ratio": 0.4482545530408423,
+          "price_change_24h": 0.02094
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4520223845735088,
-          "price_change_24h": 0.06271
+          "volume_mcap_ratio": 0.32601586454548476,
+          "price_change_24h": -0.05979
         }
       ],
       "momentum_shifts": []
