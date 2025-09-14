@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-14T12:42:55.998285+00:00",
+  "updated_at": "2025-09-14T16:25:23.853761+00:00",
   "indicators": {
-    "change24h": -0.039,
-    "vol": 0.119,
+    "change24h": -0.028,
+    "vol": 0.143,
     "fearGreed": 55,
-    "momentum": -0.677,
+    "momentum": -0.486,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5509,
-    "global_sentiment": 0.4987,
-    "combined_sentiment": 0.5381,
-    "confidence": 0.4221,
+    "crypto_sentiment": 0.4783,
+    "global_sentiment": 0.4945,
+    "combined_sentiment": 0.4832,
+    "confidence": 0.5578,
     "counts": {
       "crypto": 58,
-      "global": 49
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 115780,
-      "btc_change_24h": -0.23,
-      "eth_price": 4631.82,
-      "eth_change_24h": -2.05,
+      "btc_price": 115444,
+      "btc_change_24h": -0.11,
+      "eth_price": 4605.8,
+      "eth_change_24h": -0.76,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 55,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 179031377034,
-        "high_activity_coins": 2
+        "volume_24h": 178124261243,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 55.56,
+        "btc_dominance": 55.66,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-31T20:25:20.931594+00:00",
-      "crypto": 0.5708,
-      "global": 0.5076,
-      "combined": 0.5537,
-      "counts": {
-        "crypto": 59,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-01T02:11:38.741312+00:00",
       "crypto": 0.4332,
@@ -1008,52 +998,62 @@
         "crypto": 58,
         "global": 49
       }
+    },
+    {
+      "ts": "2025-09-14T16:25:23.853761+00:00",
+      "crypto": 0.4783,
+      "global": 0.4945,
+      "combined": 0.4832,
+      "counts": {
+        "crypto": 58,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Dow Jones Futures Loom; Nvidia, Meta, Tesla Near Buy Zones With Fed Meeting Ahead",
+        "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures-loom%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6627,
+        "score": 0.5333
+      },
+      {
+        "title": "Are the Record Flows for Traditional and Crypto ETFs Reducing the Power of the Fed?",
+        "url": "https://www.coindesk.com/markets/2025/09/14/are-the-record-flows-for-traditional-and-crypto-etfs-reducing-the-power-of-the-fed",
+        "source": "CoinDesk",
+        "weight": 0.9568,
+        "score": 0.3333
+      },
+      {
         "title": "What’s Happening in EM: Yuan’s Gains May Boost EM FX (Podcast)",
         "url": "https://www.bloomberg.com/news/audio/2025-09-14/what-s-happening-in-em-yuan-s-gains-may-boost-em-fx-podcast",
         "source": "Bloomberg Markets",
-        "weight": 0.7803,
+        "weight": 0.5085,
         "score": 0.5333
-      },
-      {
-        "title": "Yuan’s Gradual Advance May Offer Boost to Emerging Currencies",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/yuan-s-gradual-advance-may-offer-boost-to-emerging-currencies",
-        "source": "Bloomberg Markets",
-        "weight": 0.6193,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin Climbs as Economy Cracks — Is it Bullish or Bearish?",
-        "url": "https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
-        "source": "CoinDesk",
-        "weight": 0.58,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "$7.5T in US money market funds could soon be seeking a new home",
+        "url": "https://cryptoslate.com/7-5t-in-us-money-market-funds-could-soon-be-seeking-a-new-home/",
+        "source": "CryptoSlate",
+        "weight": 0.5679,
+        "score": -0.6667
+      },
+      {
         "title": "Global week ahead: From royal pomp to tech deals as Trump visits the U.K.",
         "url": "https://www.cnbc.com/2025/09/14/global-week-ahead-from-royals-to-tech-deals-as-trump-visits-uk.html",
         "source": "CNBC Markets",
-        "weight": 0.4225,
+        "weight": 0.2753,
         "score": -0.9667
       },
       {
         "title": "US Official Offers Regrets Over Detention of South Koreans",
         "url": "https://www.bloomberg.com/news/articles/2025-09-14/us-official-offers-regrets-over-detention-of-south-koreans",
         "source": "Bloomberg Markets",
-        "weight": 0.6256,
-        "score": -0.6333
-      },
-      {
-        "title": "Iran Warns Sanctions Would Derail Ties With UN Atomic Watchdog",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/iran-warns-sanctions-would-derail-ties-with-un-atomic-watchdog",
-        "source": "Bloomberg Markets",
-        "weight": 0.605,
+        "weight": 0.4077,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4482545530408423,
-          "price_change_24h": 0.02094
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.32601586454548476,
-          "price_change_24h": -0.05979
+          "volume_mcap_ratio": 0.4540382554925646,
+          "price_change_24h": 0.00747
         }
       ],
       "momentum_shifts": []
