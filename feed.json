@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-14T04:26:58.290565+00:00",
+  "updated_at": "2025-09-14T08:27:58.136903+00:00",
   "indicators": {
-    "change24h": -0.016,
-    "vol": 0.088,
+    "change24h": -0.015,
+    "vol": 0.099,
     "fearGreed": 55,
-    "momentum": -0.284,
+    "momentum": -0.254,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4841,
-    "global_sentiment": 0.6304,
-    "combined_sentiment": 0.499,
-    "confidence": 0.5144,
+    "crypto_sentiment": 0.5498,
+    "global_sentiment": 0.4847,
+    "combined_sentiment": 0.5361,
+    "confidence": 0.4978,
     "counts": {
-      "crypto": 61,
-      "global": 47
+      "crypto": 59,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 115719,
-      "btc_change_24h": -0.09,
-      "eth_price": 4657.64,
-      "eth_change_24h": -1.68,
+      "btc_price": 115923,
+      "btc_change_24h": 0.05,
+      "eth_price": 4661.33,
+      "eth_change_24h": -1.25,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.35,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 191075961298,
-        "high_activity_coins": 3
+        "volume_24h": 188555848580,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.5,
+        "btc_dominance": 55.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-08-31T16:27:42.291700+00:00",
-      "crypto": 0.4393,
-      "global": 0.453,
-      "combined": 0.4506,
-      "counts": {
-        "crypto": 62,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-08-31T19:53:39.041410+00:00",
       "crypto": 0.5707,
@@ -1008,71 +998,76 @@
         "crypto": 61,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-09-14T08:27:58.136903+00:00",
+      "crypto": 0.5498,
+      "global": 0.4847,
+      "combined": 0.5361,
+      "counts": {
+        "crypto": 59,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin Climbs as Economy Cracks — Is it Bullish or Bearish?",
+        "url": "https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
+        "source": "CoinDesk",
+        "weight": 0.9476,
+        "score": 0.3333
+      },
+      {
         "title": "Belite Bio (BLTE) Completes Phase 3 DRAGON Trial Enrollment For Stargardt Treatment",
         "url": "https://finance.yahoo.com/news/belite-bio-blte-completes-phase-173631567.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2287,
+        "weight": 0.1438,
         "score": 1.0
       },
       {
         "title": "SharpLink Gaming (SBET) Proposes Changes to Bylaws to Increase Authorized Shares",
         "url": "https://finance.yahoo.com/news/sharplink-gaming-sbet-proposes-changes-173459524.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.228,
+        "weight": 0.1433,
         "score": 1.0
-      },
-      {
-        "title": "Warner Bros. Brings Big Win for Fallen Angel Debt: Credit Weekly",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-13/warner-bros-brings-big-win-for-fallen-angel-debt-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.2457,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "BioNTech (BNTX) Faces Legal Challenges Over mRNA Patent",
-        "url": "https://finance.yahoo.com/news/biontech-bntx-faces-legal-challenges-173004893.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2258,
-        "score": -1.0
-      },
-      {
-        "title": "Zoetis (ZTS) Gains Positive Opinion For Portela Therapy In EU For Cat OA Pain Relief",
-        "url": "https://finance.yahoo.com/news/zoetis-zts-gains-positive-opinion-173148387.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2266,
+        "title": "Global week ahead: From royal pomp to tech deals as Trump visits the U.K.",
+        "url": "https://www.cnbc.com/2025/09/14/global-week-ahead-from-royals-to-tech-deals-as-trump-visits-uk.html",
+        "source": "CNBC Markets",
+        "weight": 0.6902,
         "score": -0.9667
       },
       {
-        "title": "Global 36-Hour Interest-Rate Spree Heralds First US Cut of 2025",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-13/global-36-hour-interest-rate-spree-heralds-first-us-cut-of-2025",
+        "title": "Switzerland’s Central Bank Learns to Live With a Strong Franc",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/switzerland-s-central-bank-learns-to-live-with-a-strong-franc",
         "source": "Bloomberg Markets",
-        "weight": 0.3014,
-        "score": -0.6333
+        "weight": 0.6754,
+        "score": -0.3333
+      },
+      {
+        "title": "Cross-Border Bank Consolidation Benefits Cyprus, Patsalides Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/cross-border-bank-consolidation-benefits-cyprus-patsalides-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6017,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47492710902487156,
-          "price_change_24h": 0.0214
+          "volume_mcap_ratio": 0.470981899893545,
+          "price_change_24h": 0.01076
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3339516878696614,
-          "price_change_24h": 0.00177
-        },
-        {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.31635401183831663,
-          "price_change_24h": -2.85819
+          "volume_mcap_ratio": 0.4520223845735088,
+          "price_change_24h": 0.06271
         }
       ],
       "momentum_shifts": []
