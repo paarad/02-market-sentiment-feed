@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-14T20:23:15.914178+00:00",
+  "updated_at": "2025-09-15T01:59:48.727968+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.09,
-    "fearGreed": 55,
-    "momentum": -0.339,
+    "change24h": -0.027,
+    "vol": 0.075,
+    "fearGreed": 53,
+    "momentum": -0.481,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5306,
-    "global_sentiment": 0.5082,
-    "combined_sentiment": 0.5236,
-    "confidence": 0.5469,
+    "crypto_sentiment": 0.37,
+    "global_sentiment": 0.4561,
+    "combined_sentiment": 0.3988,
+    "confidence": 0.5508,
     "counts": {
-      "crypto": 57,
-      "global": 42
+      "crypto": 55,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 115744,
-      "btc_change_24h": -0.2,
-      "eth_price": 4623.22,
-      "eth_change_24h": -0.79,
+      "btc_price": 115199,
+      "btc_change_24h": -0.71,
+      "eth_price": 4618.42,
+      "eth_change_24h": -1.22,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.0,
       "fear_greed": {
-        "value": 55,
-        "classification": "Greed",
+        "value": 53,
+        "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 169411712630,
+        "volume_24h": 173881543309,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 55.66,
+        "btc_dominance": 55.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-01T08:34:38.704288+00:00",
-      "crypto": 0.485,
-      "global": 0.4759,
-      "combined": 0.4867,
-      "counts": {
-        "crypto": 61,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-09-01T12:53:10.734111+00:00",
       "crypto": 0.4556,
@@ -1008,61 +998,71 @@
         "crypto": 57,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-09-15T01:59:48.727968+00:00",
+      "crypto": 0.37,
+      "global": 0.4561,
+      "combined": 0.3988,
+      "counts": {
+        "crypto": 55,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Macro Funds Ramp Up Option Bets on Aussie After Currency Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/macro-funds-lift-bets-on-aussie-with-options-surge-across-majors",
+        "source": "Bloomberg Markets",
+        "weight": 0.7466,
+        "score": 1.0
+      },
+      {
+        "title": "Dow Jones Futures: Nvidia, Meta, Tesla In Focus; Markets Want This From Fed Meeting",
+        "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7737,
+        "score": 0.8667
+      },
+      {
         "title": "ETH/BTC ratio remains below 0.05 despite institutional adoption and ATH",
         "url": "https://cointelegraph.com/news/eth-btc-ratio-below-0-05-despite-rally-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7922,
+        "weight": 0.4144,
         "score": 0.6667
-      },
-      {
-        "title": "Dow Jones Futures Loom; Nvidia, Meta, Tesla Near Buy Zones With Fed Meeting Ahead",
-        "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures-loom%3B.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.512,
-        "score": 0.5333
-      },
-      {
-        "title": "Markets Gear Up for Series of Fed Cuts With Bullish Bets at Risk",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/markets-gear-up-for-series-of-fed-cuts-with-bullish-bets-at-risk",
-        "source": "Bloomberg Markets",
-        "weight": 0.6815,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "$7.5T in US money market funds could soon be seeking a new home",
-        "url": "https://cryptoslate.com/7-5t-in-us-money-market-funds-could-soon-be-seeking-a-new-home/",
-        "source": "CryptoSlate",
-        "weight": 0.3592,
-        "score": -0.6667
+        "title": "China Used Home Prices Drop Faster as Top Cities Expand Support",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/china-used-home-prices-drop-faster-as-top-cities-expand-support",
+        "source": "Bloomberg Markets",
+        "weight": 0.7682,
+        "score": -1.0
       },
       {
-        "title": "‘Monumental’: Russia is likely buying silver for its reserves",
-        "url": "https://cryptoslate.com/monumental-russia-is-likely-buying-silver-for-its-reserves/",
-        "source": "CryptoSlate",
-        "weight": 0.639,
-        "score": -0.3333
-      },
-      {
-        "title": "Global week ahead: From royal pomp to tech deals as Trump visits the U.K.",
-        "url": "https://www.cnbc.com/2025/09/14/global-week-ahead-from-royals-to-tech-deals-as-trump-visits-uk.html",
+        "title": "Asia markets open mixed as investors watch U.S.-China talks in Spain",
+        "url": "https://www.cnbc.com/2025/09/15/asia-markets-today-hang-seng-index-asx-200-nifty-50.html",
         "source": "CNBC Markets",
-        "weight": 0.1741,
+        "weight": 0.7111,
         "score": -0.9667
+      },
+      {
+        "title": "Near-Default Prompts Korea to Push for Petrochem Sector Reform",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-14/south-korea-urges-petrochem-industry-to-act-as-debt-risks-rise",
+        "source": "Bloomberg Markets",
+        "weight": 0.5659,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43523330196410226,
-          "price_change_24h": 0.01362
+          "volume_mcap_ratio": 0.4526896788822681,
+          "price_change_24h": -0.00357
         }
       ],
       "momentum_shifts": []
