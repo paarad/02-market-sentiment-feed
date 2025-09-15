@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-15T04:29:45.556584+00:00",
+  "updated_at": "2025-09-15T08:32:35.203356+00:00",
   "indicators": {
-    "change24h": -0.008,
-    "vol": 0.047,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 53,
-    "momentum": -0.142,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.5041,
-    "global_sentiment": 0.5485,
-    "combined_sentiment": 0.5071,
-    "confidence": 0.5933,
+    "crypto_sentiment": 0.4107,
+    "global_sentiment": 0.458,
+    "combined_sentiment": 0.4295,
+    "confidence": 0.6726,
     "counts": {
-      "crypto": 56,
-      "global": 43
+      "crypto": 59,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 116031,
-      "btc_change_24h": 0.22,
-      "eth_price": 4655.05,
-      "eth_change_24h": -0.18,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 115676,
+      "btc_change_24h": -0.23,
+      "eth_price": 4561.48,
+      "eth_change_24h": -2.17,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 53,
         "classification": "Neutral",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178668736763,
+        "volume_24h": 195485534880,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-01T16:29:42.381023+00:00",
-      "crypto": 0.5036,
-      "global": 0.3992,
-      "combined": 0.4943,
-      "counts": {
-        "crypto": 68,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-09-01T19:53:53.815291+00:00",
       "crypto": 0.5404,
@@ -1008,52 +998,62 @@
         "crypto": 56,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-09-15T08:32:35.203356+00:00",
+      "crypto": 0.4107,
+      "global": 0.458,
+      "combined": 0.4295,
+      "counts": {
+        "crypto": 59,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Asia’s Stock Benchmark Heads for a Record Close as Rally Extends",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-15/asia-s-stock-benchmark-heads-for-a-record-close-as-rally-extends",
+        "title": "German Prosthetics Maker Ottobock Plans Fresh IPO Attempt",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/german-prosthetics-maker-ottobock-plans-fresh-ipo-attempt",
         "source": "Bloomberg Markets",
-        "weight": 0.745,
-        "score": 0.8667
+        "weight": 0.6028,
+        "score": 0.9667
       },
       {
-        "title": "CATL Jumps on JPMorgan Upgrade, China Energy Storage Plan",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-15/catl-stock-jumps-as-jpmorgan-upgrades-on-strong-earnings-outlook",
+        "title": "Asia’s Stock Benchmark Nears a Record Close as Rally Extends",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/asia-s-stock-benchmark-heads-for-a-record-close-as-rally-extends",
         "source": "Bloomberg Markets",
-        "weight": 0.6188,
-        "score": 1.0
+        "weight": 0.4668,
+        "score": 0.8667
       },
       {
         "title": "Coinbase publishes guide to crypto asset listing process to bolster transparency",
         "url": "https://cryptoslate.com/coinbase-publishes-guide-to-crypto-asset-listing-process-to-bolster-transparency/",
         "source": "CryptoSlate",
-        "weight": 0.6319,
+        "weight": 0.3959,
         "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "Boutique Investment Bank BDA Cuts Jobs in China on M&amp;A Woes",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-15/boutique-investment-bank-bda-cuts-jobs-in-china-on-m-a-woes",
-        "source": "Bloomberg Markets",
-        "weight": 0.7225,
-        "score": -0.9667
-      },
-      {
         "title": "South Korea's Kospi index hits record high after government scraps tax-hike plan",
         "url": "https://www.cnbc.com/2025/09/15/asia-markets-today-hang-seng-index-asx-200-nifty-50.html",
         "source": "CNBC Markets",
-        "weight": 0.6604,
+        "weight": 0.7699,
         "score": -0.9667
       },
       {
-        "title": "Native Markets Secures USDH Ticker Following Hyperliquid Governance Vote",
-        "url": "https://decrypt.co/339418/native-markets-secures-usdh-ticker-hyperliquid-governance-vote",
-        "source": "Decrypt",
-        "weight": 0.6039,
+        "title": "South Africa Banks Pan Minister’s U-Turn on Credit-Law Changes",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/south-africa-banks-pan-minister-s-u-turn-on-credit-law-changes",
+        "source": "Bloomberg Markets",
+        "weight": 0.6595,
+        "score": -0.9667
+      },
+      {
+        "title": "ICG Raises €3.15 Billion for Second European Infrastructure Fund",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/icg-raises-3-15-billion-for-second-european-infrastructure-fund",
+        "source": "Bloomberg Markets",
+        "weight": 0.7578,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45322253285259256,
-          "price_change_24h": -0.01891
+          "volume_mcap_ratio": 0.5155241974997512,
+          "price_change_24h": -0.02555
         }
       ],
       "momentum_shifts": []
