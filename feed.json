@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-15T01:59:48.727968+00:00",
+  "updated_at": "2025-09-15T04:29:45.556584+00:00",
   "indicators": {
-    "change24h": -0.027,
-    "vol": 0.075,
+    "change24h": -0.008,
+    "vol": 0.047,
     "fearGreed": 53,
-    "momentum": -0.481,
-    "regime": "bear",
+    "momentum": -0.142,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.37,
-    "global_sentiment": 0.4561,
-    "combined_sentiment": 0.3988,
-    "confidence": 0.5508,
+    "crypto_sentiment": 0.5041,
+    "global_sentiment": 0.5485,
+    "combined_sentiment": 0.5071,
+    "confidence": 0.5933,
     "counts": {
-      "crypto": 55,
-      "global": 48
+      "crypto": 56,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 115199,
-      "btc_change_24h": -0.71,
-      "eth_price": 4618.42,
-      "eth_change_24h": -1.22,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.0,
+      "btc_price": 116031,
+      "btc_change_24h": 0.22,
+      "eth_price": 4655.05,
+      "eth_change_24h": -0.18,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 53,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173881543309,
+        "volume_24h": 178668736763,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 55.59,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-01T12:53:10.734111+00:00",
-      "crypto": 0.4556,
-      "global": 0.5145,
-      "combined": 0.4679,
-      "counts": {
-        "crypto": 63,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-09-01T16:29:42.381023+00:00",
       "crypto": 0.5036,
@@ -1008,61 +998,71 @@
         "crypto": 55,
         "global": 48
       }
+    },
+    {
+      "ts": "2025-09-15T04:29:45.556584+00:00",
+      "crypto": 0.5041,
+      "global": 0.5485,
+      "combined": 0.5071,
+      "counts": {
+        "crypto": 56,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Macro Funds Ramp Up Option Bets on Aussie After Currency Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-15/macro-funds-lift-bets-on-aussie-with-options-surge-across-majors",
+        "title": "Asia’s Stock Benchmark Heads for a Record Close as Rally Extends",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/asia-s-stock-benchmark-heads-for-a-record-close-as-rally-extends",
         "source": "Bloomberg Markets",
-        "weight": 0.7466,
-        "score": 1.0
-      },
-      {
-        "title": "Dow Jones Futures: Nvidia, Meta, Tesla In Focus; Markets Want This From Fed Meeting",
-        "url": "https://finance.yahoo.com/m/fb8c61cb-24fa-3070-b2df-a0deeb78c8df/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7737,
+        "weight": 0.745,
         "score": 0.8667
       },
       {
-        "title": "ETH/BTC ratio remains below 0.05 despite institutional adoption and ATH",
-        "url": "https://cointelegraph.com/news/eth-btc-ratio-below-0-05-despite-rally-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4144,
-        "score": 0.6667
+        "title": "CATL Jumps on JPMorgan Upgrade, China Energy Storage Plan",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/catl-stock-jumps-as-jpmorgan-upgrades-on-strong-earnings-outlook",
+        "source": "Bloomberg Markets",
+        "weight": 0.6188,
+        "score": 1.0
+      },
+      {
+        "title": "Coinbase publishes guide to crypto asset listing process to bolster transparency",
+        "url": "https://cryptoslate.com/coinbase-publishes-guide-to-crypto-asset-listing-process-to-bolster-transparency/",
+        "source": "CryptoSlate",
+        "weight": 0.6319,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "China Used Home Prices Drop Faster as Top Cities Expand Support",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-15/china-used-home-prices-drop-faster-as-top-cities-expand-support",
+        "title": "Boutique Investment Bank BDA Cuts Jobs in China on M&amp;A Woes",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-15/boutique-investment-bank-bda-cuts-jobs-in-china-on-m-a-woes",
         "source": "Bloomberg Markets",
-        "weight": 0.7682,
-        "score": -1.0
-      },
-      {
-        "title": "Asia markets open mixed as investors watch U.S.-China talks in Spain",
-        "url": "https://www.cnbc.com/2025/09/15/asia-markets-today-hang-seng-index-asx-200-nifty-50.html",
-        "source": "CNBC Markets",
-        "weight": 0.7111,
+        "weight": 0.7225,
         "score": -0.9667
       },
       {
-        "title": "Near-Default Prompts Korea to Push for Petrochem Sector Reform",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-14/south-korea-urges-petrochem-industry-to-act-as-debt-risks-rise",
-        "source": "Bloomberg Markets",
-        "weight": 0.5659,
-        "score": -1.0
+        "title": "South Korea's Kospi index hits record high after government scraps tax-hike plan",
+        "url": "https://www.cnbc.com/2025/09/15/asia-markets-today-hang-seng-index-asx-200-nifty-50.html",
+        "source": "CNBC Markets",
+        "weight": 0.6604,
+        "score": -0.9667
+      },
+      {
+        "title": "Native Markets Secures USDH Ticker Following Hyperliquid Governance Vote",
+        "url": "https://decrypt.co/339418/native-markets-secures-usdh-ticker-hyperliquid-governance-vote",
+        "source": "Decrypt",
+        "weight": 0.6039,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4526896788822681,
-          "price_change_24h": -0.00357
+          "volume_mcap_ratio": 0.45322253285259256,
+          "price_change_24h": -0.01891
         }
       ],
       "momentum_shifts": []
