@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-16T12:51:37.602834+00:00",
+  "updated_at": "2025-09-16T16:30:29.406706+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.1,
+    "change24h": 0.016,
+    "vol": 0.099,
     "fearGreed": 52,
-    "momentum": 0.244,
+    "momentum": 0.284,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5511,
-    "global_sentiment": 0.5177,
-    "combined_sentiment": 0.5398,
-    "confidence": 0.7341,
+    "crypto_sentiment": 0.598,
+    "global_sentiment": 0.5075,
+    "combined_sentiment": 0.5741,
+    "confidence": 0.7791,
     "counts": {
-      "crypto": 53,
-      "global": 47
+      "crypto": 52,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 115411,
-      "btc_change_24h": 0.55,
-      "eth_price": 4501.78,
-      "eth_change_24h": -0.47,
+      "btc_price": 115841,
+      "btc_change_24h": 0.96,
+      "eth_price": 4461.89,
+      "eth_change_24h": -0.8,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 52,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 182516138253,
+        "volume_24h": 190174011309,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.01,
+        "btc_dominance": 56.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-02T20:23:57.776435+00:00",
-      "crypto": 0.6197,
-      "global": 0.4952,
-      "combined": 0.5894,
-      "counts": {
-        "crypto": 56,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-03T01:49:14.080569+00:00",
       "crypto": 0.6579,
@@ -1008,61 +998,71 @@
         "crypto": 53,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-09-16T16:30:29.406706+00:00",
+      "crypto": 0.598,
+      "global": 0.5075,
+      "combined": 0.5741,
+      "counts": {
+        "crypto": 52,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto Market Today: IMX, AVAX, HASH Rally as Majors Trade Little Changed",
-        "url": "https://www.coindesk.com/markets/2025/09/16/crypto-market-today-imx-avax-hash-rally-as-majors-trade-little-changed",
-        "source": "CoinDesk",
-        "weight": 1.0865,
-        "score": 0.5333
-      },
-      {
-        "title": "Pump.fun daily volume crosses $1B as memecoins surge in September",
-        "url": "https://cointelegraph.com/news/pumpfun-trading-volume-1b-memecoin-rally-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.502,
+        "title": "Circle brings native USDC to Hyperliquid as volume breaks 14% of Binance trades",
+        "url": "https://cryptoslate.com/circle-boosts-usdc-liquidity-with-hyperliquid-integration/",
+        "source": "CryptoSlate",
+        "weight": 0.6946,
         "score": 1.0
       },
       {
-        "title": "Best-Performing ETFs of Last Week: Crypto & Blockchain Rule",
-        "url": "https://finance.yahoo.com/news/best-performing-etfs-last-week-100000413.html?.tsrc=rss",
+        "title": "Micron Stock Rises Toward Record High. This Is Driving Its 10-Day Winning Run.",
+        "url": "https://finance.yahoo.com/m/cfe71771-7617-3a9f-a963-2b8d2061e460/micron-stock-rises-toward.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5749,
-        "score": 0.8667
+        "weight": 0.584,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today: Nasdaq, S&P 500 Retreat After Highs; This Energy Name Gets A Jolt (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/0a73413b-b9d7-35ef-ba69-839e6e6980f1/stock-market-today%3A-nasdaq%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7876,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "UK Stocks Are So Out of Favor They’re Now a Top Contrarian Trade",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-16/uk-stocks-are-so-out-of-favor-they-re-now-a-top-contrarian-trade",
-        "source": "Bloomberg Markets",
-        "weight": 0.6181,
-        "score": -0.8667
+        "title": "Trump sues The New York Times for $15 billion, alleging defamation and libel",
+        "url": "https://www.cnbc.com/2025/09/16/trump-to-sue-new-york-times-for-15-billion-alleging-defamation-and-libel-.html",
+        "source": "CNBC Markets",
+        "weight": 0.681,
+        "score": -0.7333
       },
       {
         "title": "Bessent sees trade deal likely with China before November deadline on reciprocal tariffs",
         "url": "https://www.cnbc.com/2025/09/16/bessent-sees-trade-deal-likely-with-china-before-november-deadline-on-reciprocal-tariffs.html",
         "source": "CNBC Markets",
-        "weight": 0.7852,
+        "weight": 0.6649,
         "score": -0.6333
       },
       {
-        "title": "Mexico Kicks Off Dollar Bond Sale in Further Support to Pemex",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-16/mexico-kicks-off-dollar-bond-sale-in-further-support-to-pemex",
-        "source": "Bloomberg Markets",
-        "weight": 0.774,
-        "score": -0.6333
+        "title": "Most U.S. adults want to be their own boss, but aren't doing it—these 3 expert-endorsed tips can make it easier",
+        "url": "https://www.cnbc.com/2025/09/16/expert-tips-to-help-you-become-your-own-boss.html",
+        "source": "CNBC Markets",
+        "weight": 0.5386,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47218575151577863,
-          "price_change_24h": -0.0168
+          "volume_mcap_ratio": 0.47596591698351387,
+          "price_change_24h": -0.01888
         }
       ],
       "momentum_shifts": []
