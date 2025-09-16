@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-15T20:25:51.509360+00:00",
+  "updated_at": "2025-09-16T01:50:34.476505+00:00",
   "indicators": {
-    "change24h": -0.036,
-    "vol": 0.11,
-    "fearGreed": 53,
-    "momentum": -0.636,
+    "change24h": -0.029,
+    "vol": 0.091,
+    "fearGreed": 52,
+    "momentum": -0.505,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5233,
-    "global_sentiment": 0.4927,
-    "combined_sentiment": 0.5169,
-    "confidence": 0.804,
+    "crypto_sentiment": 0.4698,
+    "global_sentiment": 0.56,
+    "combined_sentiment": 0.4823,
+    "confidence": 0.7478,
     "counts": {
       "crypto": 59,
-      "global": 38
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 115382,
-      "btc_change_24h": -0.3,
-      "eth_price": 4509.37,
-      "eth_change_24h": -2.42,
+      "btc_price": 115263,
+      "btc_change_24h": 0.08,
+      "eth_price": 4532.41,
+      "eth_change_24h": -1.77,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 53,
+        "value": 52,
         "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 247071717232,
+        "volume_24h": 231102050994,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.1,
+        "btc_dominance": 55.97,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-02T08:33:19.717936+00:00",
-      "crypto": 0.5105,
-      "global": 0.5252,
-      "combined": 0.51,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-02T12:52:34.335464+00:00",
       "crypto": 0.3794,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-09-16T01:50:34.476505+00:00",
+      "crypto": 0.4698,
+      "global": 0.56,
+      "combined": 0.4823,
+      "counts": {
+        "crypto": 59,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Base officially explores native token launch to boost decentralization and global growth",
-        "url": "https://cryptoslate.com/base-officially-explores-native-token-launch-to-boost-decentralization-and-global-growth/",
-        "source": "CryptoSlate",
-        "weight": 0.6005,
+        "title": "Wall Street indexes end higher ahead of Fed meeting; Tesla rallies",
+        "url": "https://finance.yahoo.com/video/wall-street-indexes-end-higher-222750563.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5415,
         "score": 1.0
       },
       {
-        "title": "How major US stock indexes fared Monday, 9/15/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-201947887.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7907,
-        "score": 0.6667
+        "title": "Musk’s $1 Billion Tesla Stock Buy Sends Shares Up for 2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-15/musk-s-1b-tesla-stock-buy-sends-shares-up-for-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4995,
+        "score": 1.0
       },
       {
-        "title": "Nasdaq, S&P 500 reach new record highs amid Monday stock gains",
-        "url": "https://finance.yahoo.com/video/nasdaq-p-500-reach-record-201059923.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7774,
-        "score": 0.6667
+        "title": "Lidar Giant Hesai Rises in HK Debut After $535 Million Listing",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-16/lidar-giant-hesai-rises-in-hk-debut-after-535-million-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.7608,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "'I Encourage You to Exit': Bitcoin Treasury Nakamoto's Shares Plunge 50% After CEO Letter",
-        "url": "https://decrypt.co/339555/exit-bitcoin-treasury-nakamoto-shares-plunge-ceo-letter",
-        "source": "Decrypt",
-        "weight": 0.8115,
+        "title": "Stocks Rise on Tech Boost Ahead of Fed Decision | The Close 9/15/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-15/the-close-9-15-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6104,
         "score": -0.6333
       },
       {
-        "title": "CoreWeave's stock rallies on disclosure of $6.3 billion order from Nvidia",
-        "url": "https://www.cnbc.com/2025/09/15/coreweave-stock-jumps-on-disclosure-of-6point3-billion-order-from-nvidia.html",
-        "source": "CNBC Markets",
-        "weight": 0.7626,
+        "title": "NAKA shares plunge 54% in a day, reinforcing investor exhaustion toward Bitcoin treasury companies",
+        "url": "https://cryptoslate.com/naka-shares-plunge-54-in-a-day-reinforcing-investor-exhaustion-toward-bitcoin-treasury-companies/",
+        "source": "CryptoSlate",
+        "weight": 0.6069,
         "score": -0.6333
       },
       {
-        "title": "Sector Update: Energy Stocks Mixed in Late Afternoon Trading",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-mixed-afternoon-195253613.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7508,
-        "score": -0.6333
+        "title": "Wall Street Bank Citigroup Sees Ether Falling to $4,300 by Year-End",
+        "url": "https://www.coindesk.com/markets/2025/09/15/wall-street-bank-citigroup-sees-ether-falling-to-usd4-300-by-year-end",
+        "source": "CoinDesk",
+        "weight": 0.5686,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6173097552500335,
-          "price_change_24h": -0.03982
+          "volume_mcap_ratio": 0.5942834120349583,
+          "price_change_24h": -0.02519
         }
       ],
       "momentum_shifts": []
