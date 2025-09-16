@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-16T01:50:34.476505+00:00",
+  "updated_at": "2025-09-16T04:27:56.131443+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.091,
+    "change24h": -0.046,
+    "vol": 0.12,
     "fearGreed": 52,
-    "momentum": -0.505,
+    "momentum": -0.811,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4698,
-    "global_sentiment": 0.56,
-    "combined_sentiment": 0.4823,
-    "confidence": 0.7478,
+    "crypto_sentiment": 0.4504,
+    "global_sentiment": 0.4874,
+    "combined_sentiment": 0.4617,
+    "confidence": 0.7192,
     "counts": {
-      "crypto": 59,
-      "global": 36
+      "crypto": 58,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 115263,
-      "btc_change_24h": 0.08,
-      "eth_price": 4532.41,
-      "eth_change_24h": -1.77,
+      "btc_price": 115318,
+      "btc_change_24h": -0.58,
+      "eth_price": 4513.72,
+      "eth_change_24h": -2.91,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.0,
       "fear_greed": {
         "value": 52,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 231102050994,
+        "volume_24h": 227292175596,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 55.97,
+        "btc_dominance": 56.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-02T12:52:34.335464+00:00",
-      "crypto": 0.3794,
-      "global": 0.5803,
-      "combined": 0.4162,
-      "counts": {
-        "crypto": 61,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-02T16:30:51.260076+00:00",
       "crypto": 0.5585,
@@ -1008,6 +998,16 @@
         "crypto": 59,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-09-16T04:27:56.131443+00:00",
+      "crypto": 0.4504,
+      "global": 0.4874,
+      "combined": 0.4617,
+      "counts": {
+        "crypto": 58,
+        "global": 37
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "Wall Street indexes end higher ahead of Fed meeting; Tesla rallies",
         "url": "https://finance.yahoo.com/video/wall-street-indexes-end-higher-222750563.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5415,
+        "weight": 0.3999,
         "score": 1.0
       },
       {
-        "title": "Musk’s $1 Billion Tesla Stock Buy Sends Shares Up for 2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-15/musk-s-1b-tesla-stock-buy-sends-shares-up-for-2025-video",
+        "title": "New Climate Target Could Reshape Australia’s Future",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-16/new-climate-target-could-reshape-australia-s-future-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4995,
-        "score": 1.0
+        "weight": 0.6852,
+        "score": 0.5333
       },
       {
-        "title": "Lidar Giant Hesai Rises in HK Debut After $535 Million Listing",
+        "title": "Hesai Jumps in Hong Kong Debut After $535 Million Listing",
         "url": "https://www.bloomberg.com/news/articles/2025-09-16/lidar-giant-hesai-rises-in-hk-debut-after-535-million-listing",
         "source": "Bloomberg Markets",
-        "weight": 0.7608,
+        "weight": 0.5619,
         "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Stocks Rise on Tech Boost Ahead of Fed Decision | The Close 9/15/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-15/the-close-9-15-2025-video",
+        "title": "Fosun’s Henlius Is Said in Talks With J&amp;J, Roche on Cancer Drug",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-16/fosun-s-henlius-is-said-in-talks-with-j-j-roche-on-cancer-drug",
         "source": "Bloomberg Markets",
-        "weight": 0.6104,
+        "weight": 0.6569,
+        "score": -0.9333
+      },
+      {
+        "title": "Bessent: TikTok deal 'framework' reached with China, Trump and Xi will finalize it Friday",
+        "url": "https://www.cnbc.com/2025/09/15/trump-tiktok-china.html",
+        "source": "CNBC Markets",
+        "weight": 0.6686,
         "score": -0.6333
       },
       {
-        "title": "NAKA shares plunge 54% in a day, reinforcing investor exhaustion toward Bitcoin treasury companies",
-        "url": "https://cryptoslate.com/naka-shares-plunge-54-in-a-day-reinforcing-investor-exhaustion-toward-bitcoin-treasury-companies/",
-        "source": "CryptoSlate",
-        "weight": 0.6069,
+        "title": "GCL Shares Climb After Equity Sale for China Solar Reform",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-16/gcl-shares-climb-after-equity-sale-for-china-solar-market-reform",
+        "source": "Bloomberg Markets",
+        "weight": 0.6061,
         "score": -0.6333
-      },
-      {
-        "title": "Wall Street Bank Citigroup Sees Ether Falling to $4,300 by Year-End",
-        "url": "https://www.coindesk.com/markets/2025/09/15/wall-street-bank-citigroup-sees-ether-falling-to-usd4-300-by-year-end",
-        "source": "CoinDesk",
-        "weight": 0.5686,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5942834120349583,
-          "price_change_24h": -0.02519
+          "volume_mcap_ratio": 0.5834272692058313,
+          "price_change_24h": -0.02912
         }
       ],
       "momentum_shifts": []
