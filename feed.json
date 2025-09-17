@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-16T20:26:32.128662+00:00",
+  "updated_at": "2025-09-17T01:50:13.182699+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.086,
-    "fearGreed": 52,
-    "momentum": 0.299,
+    "change24h": 0.012,
+    "vol": 0.079,
+    "fearGreed": 53,
+    "momentum": 0.205,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5907,
-    "global_sentiment": 0.4418,
-    "combined_sentiment": 0.5632,
-    "confidence": 0.7894,
+    "crypto_sentiment": 0.567,
+    "global_sentiment": 0.5004,
+    "combined_sentiment": 0.5503,
+    "confidence": 0.7499,
     "counts": {
-      "crypto": 53,
-      "global": 35
+      "crypto": 52,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 116789,
+      "btc_price": 116652,
       "btc_change_24h": 1.27,
-      "eth_price": 4489.12,
-      "eth_change_24h": -0.4,
+      "eth_price": 4506.08,
+      "eth_change_24h": -0.56,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 52,
+        "value": 53,
         "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196150652424,
+        "volume_24h": 199097185540,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.2,
+        "btc_dominance": 56.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-03T08:31:36.275770+00:00",
-      "crypto": 0.6397,
-      "global": 0.4211,
-      "combined": 0.5982,
-      "counts": {
-        "crypto": 55,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-03T12:50:14.379672+00:00",
       "crypto": 0.6647,
@@ -1008,66 +998,76 @@
         "crypto": 53,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-17T01:50:13.182699+00:00",
+      "crypto": 0.567,
+      "global": 0.5004,
+      "combined": 0.5503,
+      "counts": {
+        "crypto": 52,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin analyst predicts 35% rally after 9th bullish RSI signal fires",
-        "url": "https://cointelegraph.com/news/bitcoin-analyst-predicts-35percent-rally-after-9th-bullish-rsi-signal-fires?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5918,
+        "title": "Gold Holds Near Record as Dollar Sinks Before Fed Rate Decision",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-17/gold-holds-near-record-as-dollar-sinks-before-fed-rate-decision",
+        "source": "Bloomberg Markets",
+        "weight": 0.6858,
         "score": 1.0
       },
       {
-        "title": "How major US stock indexes fared Tuesday, 9/16/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-201620851.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7844,
-        "score": 0.6667
-      },
-      {
-        "title": "Circle brings native USDC to Hyperliquid as volume breaks 14% of Binance trades",
-        "url": "https://cryptoslate.com/circle-boosts-usdc-liquidity-with-hyperliquid-integration/",
+        "title": "Majority of institutions with no stablecoin project plan adoption within 12 months",
+        "url": "https://cryptoslate.com/majority-of-institutions-with-no-stablecoin-project-plan-adoption-within-12-months/",
         "source": "CryptoSlate",
-        "weight": 0.4409,
-        "score": 1.0
+        "weight": 0.6427,
+        "score": 0.8667
+      },
+      {
+        "title": "Asia’s Record Stock Rally May Unravel as Tariffs Bite, Funds Say",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-16/asia-s-record-stock-rally-may-unravel-as-tariffs-bite-funds-say",
+        "source": "Bloomberg Markets",
+        "weight": 0.5764,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Krugman Says There's No Need to Panic If Mamdani Becomes NYC Mayor",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-16/krugman-says-there-s-no-need-to-panic-if-mamdani-becomes-nyc-mayor",
+        "title": "Biden Official Urges Australia to Press Trump to Revive Quad",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-17/biden-official-urges-australia-to-press-trump-to-revive-quad",
         "source": "Bloomberg Markets",
-        "weight": 0.7135,
-        "score": -0.9333
-      },
-      {
-        "title": "Binance approaches deal with DOJ to drop outside monitor from $4.3 billion settlement",
-        "url": "https://cryptoslate.com/binance-approaches-deal-with-doj-to-drop-outside-monitor-from-4-3-billion-settlement/",
-        "source": "CryptoSlate",
-        "weight": 0.5546,
+        "weight": 0.7838,
         "score": -0.9667
       },
       {
-        "title": "Trump sues NYT, investors eye Fed meeting, gold hits new record",
-        "url": "https://finance.yahoo.com/video/trump-sues-nyt-investors-eye-170923418.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5473,
-        "score": -0.9
+        "title": "Indonesia Seen Holding Rates as BI Independence in Focus: Guide",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-16/indonesia-seen-holding-rates-as-bi-independence-in-focus-guide",
+        "source": "Bloomberg Markets",
+        "weight": 0.6107,
+        "score": -0.6667
+      },
+      {
+        "title": "Stock Rally Stalls Ahead of Fed Decision | The Close 9/16/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-16/the-close-9-16-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5466,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.48811176939164014,
-          "price_change_24h": 0.00593
+          "volume_mcap_ratio": 0.4909679575305584,
+          "price_change_24h": 0.00041
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.31717362586174414,
-          "price_change_24h": -0.03872
+          "volume_mcap_ratio": 0.36382846255881257,
+          "price_change_24h": 0.03493
         }
       ],
       "momentum_shifts": []
