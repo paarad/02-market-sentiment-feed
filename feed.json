@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-18T04:28:26.402896+00:00",
+  "updated_at": "2025-09-18T08:31:27.739625+00:00",
   "indicators": {
-    "change24h": 0.068,
-    "vol": 0.178,
+    "change24h": 0.059,
+    "vol": 0.17,
     "fearGreed": 52,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6141,
-    "global_sentiment": 0.3985,
-    "combined_sentiment": 0.5771,
-    "confidence": 0.7622,
+    "crypto_sentiment": 0.6209,
+    "global_sentiment": 0.3578,
+    "combined_sentiment": 0.5788,
+    "confidence": 0.7465,
     "counts": {
-      "crypto": 68,
-      "global": 35
+      "crypto": 67,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 117434,
-      "btc_change_24h": 0.95,
-      "eth_price": 4609.67,
-      "eth_change_24h": 2.71,
+      "btc_price": 117349,
+      "btc_change_24h": 0.37,
+      "eth_price": 4594.02,
+      "eth_change_24h": 1.88,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 321550062241,
-        "high_activity_coins": 3
+        "volume_24h": 302075579601,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.7,
+        "btc_dominance": 55.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-04T16:30:29.721776+00:00",
-      "crypto": 0.3345,
-      "global": 0.4461,
-      "combined": 0.3714,
-      "counts": {
-        "crypto": 60,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-04T19:53:33.027954+00:00",
       "crypto": 0.377,
@@ -1008,19 +998,29 @@
         "crypto": 68,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-18T08:31:27.739625+00:00",
+      "crypto": 0.6209,
+      "global": 0.3578,
+      "combined": 0.5788,
+      "counts": {
+        "crypto": 67,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "HYPE hits an all-time high as Binance founder shouts out rival DEX Aster",
+        "title": "HYPE hits all-time high as Binance founder shouts out rival DEX Aster",
         "url": "https://cointelegraph.com/news/hype-hits-an-all-time-high-as-binance-founder-pushes-rival-dex-aster?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.796,
+        "weight": 0.4985,
         "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 2.2% — rally",
+        "title": "Global crypto market cap up 1.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1030,49 +1030,44 @@
         "title": "Coinbase CEO says the next major crypto bill is a ‘freight train’",
         "url": "https://cointelegraph.com/news/coinbase-ceo-says-next-major-crypto-bill-freight-train?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7973,
+        "weight": 0.4993,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Two-Speed Zinc Market Means China May Get a Chance to Export",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-18/two-speed-zinc-market-means-china-may-get-a-chance-to-export",
+        "title": "Australia Watchdog Issues Stop Order to La Trobe Credit Fund",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-18/australia-watchdog-issues-stop-order-to-la-trobe-credit-fund",
         "source": "Bloomberg Markets",
-        "weight": 0.546,
+        "weight": 0.77,
+        "score": -1.0
+      },
+      {
+        "title": "Futures tick up after Fed cuts rates as anticipated - what’s moving markets",
+        "url": "https://finance.yahoo.com/news/futures-tick-fed-cuts-rates-082304121.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7872,
+        "score": -0.6667
+      },
+      {
+        "title": "Roche to Buy 89bio for Up to $3.5 Billion in Obesity Push",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-18/roche-to-buy-biopharmceutical-firm-89bio-in-3-5-billion-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.5572,
         "score": -0.9333
-      },
-      {
-        "title": "Iron Ore Slips as China’s Spending Slows, Weighing on Demand",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-18/iron-ore-slips-as-china-s-spending-slows-weighing-on-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.6699,
-        "score": -0.6333
-      },
-      {
-        "title": "Cybersecurity Firm Netskope Raises $908.2 Million in US IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-17/cybersecurity-firm-netskope-said-to-price-ipo-at-19-per-share",
-        "source": "Bloomberg Markets",
-        "weight": 0.4233,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7946355642000621,
-          "price_change_24h": -0.01324
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.45620067142387494,
-          "price_change_24h": -0.00938
+          "volume_mcap_ratio": 0.8011414262690323,
+          "price_change_24h": -0.01224
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3962325787056925,
-          "price_change_24h": -0.09683
+          "volume_mcap_ratio": 0.4031649258535598,
+          "price_change_24h": -0.02227
         }
       ],
       "momentum_shifts": []
