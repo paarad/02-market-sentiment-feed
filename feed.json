@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-19T19:53:45.178925+00:00",
+  "updated_at": "2025-09-19T20:25:43.404230+00:00",
   "indicators": {
     "change24h": -0.054,
-    "vol": 0.132,
+    "vol": 0.13,
     "fearGreed": 53,
-    "momentum": -0.944,
+    "momentum": -0.952,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5469,
-    "global_sentiment": 0.4777,
-    "combined_sentiment": 0.5333,
-    "confidence": 0.7883,
+    "crypto_sentiment": 0.5879,
+    "global_sentiment": 0.459,
+    "combined_sentiment": 0.5625,
+    "confidence": 0.7979,
     "counts": {
-      "crypto": 57,
-      "global": 47
+      "crypto": 59,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 115191,
-      "btc_change_24h": -1.94,
-      "eth_price": 4447.81,
-      "eth_change_24h": -3.18,
+      "btc_price": 115398,
+      "btc_change_24h": -1.79,
+      "eth_price": 4463.38,
+      "eth_change_24h": -2.92,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 53,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196493659971,
+        "volume_24h": 196982537621,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.87,
+        "btc_dominance": 55.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-06T04:27:21.233896+00:00",
-      "crypto": 0.6177,
-      "global": 0.4709,
-      "combined": 0.5859,
-      "counts": {
-        "crypto": 61,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-09-06T08:27:02.280852+00:00",
       "crypto": 0.5067,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-09-19T20:25:43.404230+00:00",
+      "crypto": 0.5879,
+      "global": 0.459,
+      "combined": 0.5625,
+      "counts": {
+        "crypto": 59,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Ethereum onchain activity surge hints at ETH price rally to $5K",
+        "url": "https://cointelegraph.com/news/ethereum-onchain-activity-surge-hints-at-eth-price-rally-to-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9114,
+        "score": 1.0
+      },
+      {
         "title": "Ethena taps Flowdesk as USDe climbs $14 billion amid synthetic dollar surge",
         "url": "https://cointelegraph.com/news/ethena-flowdesk-usde-14-billion-synthetic-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7076,
+        "weight": 0.6653,
         "score": 1.0
       },
       {
         "title": "What's the US economy's long-term picture? Ian Bremmer weighs in.",
         "url": "https://finance.yahoo.com/video/whats-us-economys-long-term-190500716.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7283,
+        "weight": 0.6848,
         "score": 0.8667
-      },
-      {
-        "title": "Columbia Banking System Among 3 Stocks Estimated To Be Undervalued",
-        "url": "https://finance.yahoo.com/news/columbia-banking-system-among-3-173817947.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6163,
-        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Judge tosses Trump's $15 billion suit against NY Times as 'improper,' allows refiling",
-        "url": "https://www.cnbc.com/2025/09/19/trump-new-york-times-lawsuit-merryday.html",
-        "source": "CNBC Markets",
-        "weight": 0.6736,
-        "score": -0.7333
+        "title": "Sector Update: Energy Stocks Fall Late Afternoon",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-afternoon-201801386.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7882,
+        "score": -1.0
       },
       {
-        "title": "Walmart's lax vetting helped fuel a Marketplace boom, but came with fakes and frauds",
-        "url": "https://www.cnbc.com/2025/09/19/walmart-marketplace-fakes-scams-investigation.html",
-        "source": "CNBC Markets",
-        "weight": 0.6647,
+        "title": "Investigating the Human Cost of Disrupting the US Fertility Industry",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-19/ivf-disrupted-the-kindbody-story-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7794,
         "score": -0.6667
       },
       {
-        "title": "Estonia Invokes NATO Consultations After Russian Jets Enter Airspace",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-19/estonia-invokes-nato-article-after-russian-violaiton-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6973,
-        "score": -0.6333
+        "title": "Inside the fakes and scams on Walmart.com",
+        "url": "https://www.cnbc.com/2025/09/19/walmart-marketplace-fakes-scams-investigation.html",
+        "source": "CNBC Markets",
+        "weight": 0.7747,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4742986555086787,
-          "price_change_24h": 0.00894
+          "volume_mcap_ratio": 0.4766502359993052,
+          "price_change_24h": 0.00504
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.33393253428684794,
-          "price_change_24h": 0.0311
+          "volume_mcap_ratio": 0.38310962771626145,
+          "price_change_24h": 0.0332
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-19",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.6293,
-      "crypto_high": 0.6964,
-      "crypto_low": 0.5327,
-      "global_avg": 0.4634,
-      "global_high": 0.543,
-      "global_low": 0.3217,
-      "combined_avg": 0.5939,
-      "combined_high": 0.6395,
-      "combined_low": 0.5281
-    },
-    "market_indicators_24h": {
-      "change24h": -0.054,
-      "vol": 0.132,
-      "fearGreed": 53,
-      "momentum": -0.944,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-19T19:53:45.178925+00:00"
   }
 }
