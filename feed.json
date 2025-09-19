@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-18T20:26:39.583303+00:00",
+  "updated_at": "2025-09-19T01:54:08.164124+00:00",
   "indicators": {
-    "change24h": 0.061,
-    "vol": 0.222,
-    "fearGreed": 52,
-    "momentum": 1.0,
+    "change24h": 0.014,
+    "vol": 0.146,
+    "fearGreed": 53,
+    "momentum": 0.249,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5884,
-    "global_sentiment": 0.5498,
-    "combined_sentiment": 0.5704,
-    "confidence": 0.7755,
+    "crypto_sentiment": 0.6944,
+    "global_sentiment": 0.4245,
+    "combined_sentiment": 0.6395,
+    "confidence": 0.7628,
     "counts": {
-      "crypto": 52,
-      "global": 46
+      "crypto": 61,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 117487,
-      "btc_change_24h": 1.37,
-      "eth_price": 4596.7,
-      "eth_change_24h": 1.57,
+      "btc_price": 117190,
+      "btc_change_24h": 0.37,
+      "eth_price": 4603.89,
+      "eth_change_24h": -0.38,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 52,
+        "value": 53,
         "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 275957480979,
-        "high_activity_coins": 3
+        "volume_24h": 222732050815,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.65,
+        "btc_dominance": 55.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-05T08:31:55.622258+00:00",
-      "crypto": 0.4497,
-      "global": 0.4308,
-      "combined": 0.4565,
-      "counts": {
-        "crypto": 65,
-        "global": 48
-      }
-    },
     {
       "ts": "2025-09-05T12:49:38.547051+00:00",
       "crypto": 0.5601,
@@ -1008,71 +998,76 @@
         "crypto": 52,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-09-19T01:54:08.164124+00:00",
+      "crypto": 0.6944,
+      "global": 0.4245,
+      "combined": 0.6395,
+      "counts": {
+        "crypto": 61,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Solana’s (SOL) next stop could be $300: Here’s why",
+        "url": "https://cointelegraph.com/news/solana-s-sol-next-stop-could-be-300-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.537,
+        "score": 1.0
+      },
+      {
+        "title": "Nvidia Invests $5 Billion in Intel | Open Interest 9/18/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-18/nvidia-invests-5-billion-in-intel-open-interest-9-18-2025",
+        "source": "Bloomberg Markets",
+        "weight": 0.5,
+        "score": 1.0
+      },
+      {
         "title": "Chainlink sees best performance since 2021 as cup-and-handle targets $100 LINK",
         "url": "https://cointelegraph.com/news/link-cup-and-handle-targets-dollar100-as-charts-show-best-price-action-since-2021?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8351,
-        "score": 1.0
-      },
-      {
-        "title": "How major US stock indexes fared Thursday, 9/18/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-202149355.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7926,
-        "score": 1.0
-      },
-      {
-        "title": "BTC & SOLANA JUMP UP, BNB CROSSES $1,000, HYPE HITS ATH",
-        "url": "https://decrypt.co/videos/interviews/rUjt3KOd/btc-solana-jump-up-bnb-crosses-1-000-hype-hits-ath",
-        "source": "Decrypt",
-        "weight": 0.5677,
+        "weight": 0.4445,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Intel Spikes 23% on Deal With Nvidia to Develop AI Hardware",
-        "url": "https://decrypt.co/340262/intel-spikes-23-deal-nvidia-ai",
-        "source": "Decrypt",
-        "weight": 0.7301,
-        "score": -0.9333
-      },
-      {
-        "title": "Summers Says This Is an 'Unprecedented Time' for the Fed",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-18/summers-says-this-is-an-unprecedented-time-for-the-fed-video",
+        "title": "Nomura’s China JV Sued by Former Top Exec Over Labor Dispute",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-19/nomura-s-china-jv-sued-by-former-top-exec-over-labor-dispute",
         "source": "Bloomberg Markets",
-        "weight": 0.6118,
+        "weight": 0.7237,
         "score": -0.9667
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq hit records as rate-cut relief, Nvidia's Intel bet lift markets",
-        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-hit-records-as-rate-cut-relief-nvidias-intel-bet-lift-markets-200041899.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.761,
-        "score": -0.6667
+        "title": "NZ Government’s Economic Stewardship Challenged by Big GDP Slump",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-19/nz-government-s-economic-stewardship-challenged-by-big-gdp-slump",
+        "source": "Bloomberg Markets",
+        "weight": 0.7533,
+        "score": -0.6333
+      },
+      {
+        "title": "Japan Housing Finance Sells RMBS at Widest Spread Since 2023",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-19/japan-housing-finance-sells-rmbs-at-widest-spread-since-2023",
+        "source": "Bloomberg Markets",
+        "weight": 0.7409,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6821121578469693,
-          "price_change_24h": -0.01373
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.40951889207116826,
-          "price_change_24h": -0.00763
+          "volume_mcap_ratio": 0.584766425111461,
+          "price_change_24h": -0.00366
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.343060798119111,
-          "price_change_24h": -0.01001
+          "volume_mcap_ratio": 0.3886149662903074,
+          "price_change_24h": -0.05054
         }
       ],
       "momentum_shifts": []
