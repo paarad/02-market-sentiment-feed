@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-19T12:50:46.393949+00:00",
+  "updated_at": "2025-09-19T16:29:37.374575+00:00",
   "indicators": {
-    "change24h": -0.021,
-    "vol": 0.108,
+    "change24h": -0.043,
+    "vol": 0.149,
     "fearGreed": 53,
-    "momentum": -0.368,
+    "momentum": -0.747,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6411,
-    "global_sentiment": 0.5125,
-    "combined_sentiment": 0.6069,
-    "confidence": 0.7782,
+    "crypto_sentiment": 0.5327,
+    "global_sentiment": 0.543,
+    "combined_sentiment": 0.5281,
+    "confidence": 0.7924,
     "counts": {
-      "crypto": 60,
-      "global": 41
+      "crypto": 57,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 116175,
-      "btc_change_24h": -0.89,
-      "eth_price": 4518.82,
-      "eth_change_24h": -1.32,
+      "btc_price": 116014,
+      "btc_change_24h": -1.5,
+      "eth_price": 4485.13,
+      "eth_change_24h": -2.83,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 53,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 203865953701,
+        "volume_24h": 200962153023,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.8,
+        "btc_dominance": 55.91,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-05T20:26:01.854803+00:00",
-      "crypto": 0.6426,
-      "global": 0.4288,
-      "combined": 0.601,
-      "counts": {
-        "crypto": 56,
-        "global": 55
-      }
-    },
     {
       "ts": "2025-09-06T01:49:35.325916+00:00",
       "crypto": 0.6534,
@@ -1008,52 +998,62 @@
         "crypto": 60,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-19T16:29:37.374575+00:00",
+      "crypto": 0.5327,
+      "global": 0.543,
+      "combined": 0.5281,
+      "counts": {
+        "crypto": 57,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Why Ether’s price may surge 75% versus Bitcoin by New Year’s",
-        "url": "https://cointelegraph.com/news/why-ethereum-price-can-surge-75-versus-bitcoin-by-new-year-s?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5803,
-        "score": 1.0
+        "title": "Can the market's bull run continue as Fed eyes more rate cuts?",
+        "url": "https://finance.yahoo.com/video/markets-bull-run-continue-fed-144500560.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.654,
+        "score": 0.8667
       },
       {
-        "title": "Ethereum target December for Fusaka upgrade launch as $2M bug bounty heats up",
-        "url": "https://cryptoslate.com/ethereum-target-december-for-fusaka-upgrade-launch-as-2m-bug-bounty-heats-up/",
-        "source": "CryptoSlate",
-        "weight": 0.5439,
-        "score": 1.0
+        "title": "Stocks Edge Higher After US Indexes Post Rare Quadruple Records",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-19/stock-market-edges-higher-after-quadruple-records-for-us-indexes",
+        "source": "Bloomberg Markets",
+        "weight": 0.5741,
+        "score": 0.8667
       },
       {
-        "title": "Rex-Osprey hybrid spot XRP ETF makes 2025 record-breaking debut",
-        "url": "https://cryptoslate.com/rex-osprey-hybrid-spot-xrp-etf-makes-2025-record-breaking-debut/",
-        "source": "CryptoSlate",
-        "weight": 0.7937,
+        "title": "Ethereum Developers Set Fusaka Upgrade for December, Ahead of  Blob Capacity Boosts",
+        "url": "https://www.coindesk.com/business/2025/09/19/ethereum-developers-set-fusaka-upgrade-for-december-ahead-of-blob-capacity-boosts",
+        "source": "CoinDesk",
+        "weight": 0.6478,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "SEC to propose rule change on Trump's call to end quarterly earnings reporting, says Chair Atkins",
-        "url": "https://www.cnbc.com/2025/09/19/sec-to-propose-rule-change-on-trumps-call-to-end-quarterly-earnings-reporting-says-chair-atkins.html",
-        "source": "CNBC Markets",
-        "weight": 0.7967,
-        "score": -0.6333
+        "title": "Solana co-founder urges need for Bitcoin to adopt quantum resistance for future security",
+        "url": "https://cryptoslate.com/solana-co-founder-urges-need-for-bitcoin-to-adopt-quantum-resistance-for-future-security/",
+        "source": "CryptoSlate",
+        "weight": 0.6044,
+        "score": -0.9667
       },
       {
-        "title": "Dutch Pension Delays Pose Risk to ‘Crowded’ Bond Market Trade",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-19/dutch-pension-delays-pose-risk-to-crowded-bond-market-trade",
-        "source": "Bloomberg Markets",
-        "weight": 0.7201,
+        "title": "Treasury Market Wobbles After Fed Rate Cut. We’ve Seen This Before.",
+        "url": "https://finance.yahoo.com/m/fb2aeaca-c120-38ed-a8e3-e24eacbc5fdd/treasury-market-wobbles-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7703,
         "score": -0.6667
       },
       {
-        "title": "Bank of Italy calls for tighter rules on global multi-issuance stablecoins",
-        "url": "https://cointelegraph.com/news/multi-issuance-stablecoins-should-be-limited-to-equivalently-regulated-jurisdictions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6938,
+        "title": "Walmart's lax vetting helped fuel a Marketplace boom, but came with fakes and frauds",
+        "url": "https://www.cnbc.com/2025/09/19/walmart-marketplace-fakes-scams-investigation.html",
+        "source": "CNBC Markets",
+        "weight": 0.6965,
         "score": -0.6667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4960510703333802,
-          "price_change_24h": 0.00539
+          "volume_mcap_ratio": 0.49895109170701124,
+          "price_change_24h": -0.01222
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.34612553322334444,
-          "price_change_24h": 0.03484
+          "volume_mcap_ratio": 0.3470194895749601,
+          "price_change_24h": -0.0529
         }
       ],
       "momentum_shifts": []
