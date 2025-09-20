@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-20T04:27:55.737697+00:00",
+  "updated_at": "2025-09-20T08:28:56.602558+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.087,
+    "change24h": -0.032,
+    "vol": 0.099,
     "fearGreed": 48,
-    "momentum": -0.613,
+    "momentum": -0.555,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5443,
-    "global_sentiment": 0.3615,
-    "combined_sentiment": 0.5217,
-    "confidence": 0.743,
+    "crypto_sentiment": 0.6357,
+    "global_sentiment": 0.3767,
+    "combined_sentiment": 0.5915,
+    "confidence": 0.6216,
     "counts": {
-      "crypto": 61,
-      "global": 32
+      "crypto": 56,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 115512,
-      "btc_change_24h": -1.28,
-      "eth_price": 4466.84,
-      "eth_change_24h": -1.8,
+      "btc_price": 115858,
+      "btc_change_24h": -1.05,
+      "eth_price": 4476.2,
+      "eth_change_24h": -1.46,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 169413704275,
-        "high_activity_coins": 1
+        "volume_24h": 158039357485,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.89,
+        "btc_dominance": 55.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-06T16:26:16.420525+00:00",
-      "crypto": 0.5639,
-      "global": 0.4734,
-      "combined": 0.5457,
-      "counts": {
-        "crypto": 67,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-09-06T19:53:47.378324+00:00",
       "crypto": 0.5916,
@@ -1008,61 +998,76 @@
         "crypto": 61,
         "global": 32
       }
+    },
+    {
+      "ts": "2025-09-20T08:28:56.602558+00:00",
+      "crypto": 0.6357,
+      "global": 0.3767,
+      "combined": 0.5915,
+      "counts": {
+        "crypto": 56,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "BitGo files for US IPO with $90B in assets under custody",
+        "url": "https://cointelegraph.com/news/bitgo-us-ipo-crypto-custody-90b-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6992,
+        "score": 0.9667
+      },
+      {
+        "title": "ECB Needs December Cut to Safely Reach 2% Inflation, Simkus Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-20/ecb-needs-december-cut-to-safely-reach-2-inflation-simkus-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6977,
+        "score": 0.3333
+      },
+      {
         "title": "Ethereum onchain activity surge hints at ETH price rally to $5K",
         "url": "https://cointelegraph.com/news/ethereum-onchain-activity-surge-hints-at-eth-price-rally-to-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3602,
+        "weight": 0.2264,
         "score": 1.0
-      },
-      {
-        "title": "Grayscale’s ETF offering ADA and XRP captures $22M trading volume in market debut",
-        "url": "https://cryptoslate.com/grayscales-etf-offering-ada-and-xrp-captures-22m-trading-volume-in-market-debut/",
-        "source": "CryptoSlate",
-        "weight": 0.5072,
-        "score": 0.6667
-      },
-      {
-        "title": "ETH funding -0.002%",
-        "url": "https://www.binance.com/en/futures/ETHUSDT",
-        "source": "Binance Funding",
-        "weight": 0.96,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "SOL down -2.6% 24h — plunge",
-        "url": "https://www.binance.com/en/trade/SOL_USDT",
-        "source": "Binance 24h",
-        "weight": 0.96,
-        "score": -0.6333
-      },
-      {
         "title": "Philippines Widens Freeze on Bank Accounts in Graft Clampdown",
         "url": "https://www.bloomberg.com/news/articles/2025-09-20/philippines-widens-freeze-on-bank-accounts-in-graft-clampdown",
         "source": "Bloomberg Markets",
-        "weight": 0.5487,
+        "weight": 0.345,
         "score": -1.0
       },
       {
         "title": "Luxury face cream from a pizza parlor: Inside fraud on Walmart.com",
         "url": "https://www.cnbc.com/2025/09/19/walmart-marketplace-fakes-scams-investigation.html",
         "source": "CNBC Markets",
-        "weight": 0.5632,
+        "weight": 0.3541,
         "score": -0.6667
+      },
+      {
+        "title": "Working smarter, not harder: AI could help fight burnout — but is it?",
+        "url": "https://www.cnbc.com/2025/09/20/working-smarter-not-harder-how-ai-could-help-fight-burnout-.html",
+        "source": "CNBC Markets",
+        "weight": 0.6897,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.4031577714890883,
+          "price_change_24h": 0.00904
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4178251847824755,
-          "price_change_24h": 0.01449
+          "volume_mcap_ratio": 0.39070565924626977,
+          "price_change_24h": 0.00673
         }
       ],
       "momentum_shifts": []
