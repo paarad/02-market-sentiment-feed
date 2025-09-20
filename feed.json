@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-20T16:26:09.065811+00:00",
+  "updated_at": "2025-09-20T19:53:51.791141+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.09,
+    "change24h": -0.001,
+    "vol": 0.103,
     "fearGreed": 48,
-    "momentum": -0.056,
+    "momentum": -0.024,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6025,
-    "global_sentiment": 0.366,
-    "combined_sentiment": 0.5657,
-    "confidence": 0.5758,
+    "crypto_sentiment": 0.525,
+    "global_sentiment": 0.4053,
+    "combined_sentiment": 0.5109,
+    "confidence": 0.5862,
     "counts": {
-      "crypto": 57,
-      "global": 39
+      "crypto": 58,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 115926,
-      "btc_change_24h": -0.03,
-      "eth_price": 4495.56,
-      "eth_change_24h": 0.27,
+      "btc_price": 115747,
+      "btc_change_24h": 0.47,
+      "eth_price": 4478.7,
+      "eth_change_24h": 0.69,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126150909216,
-        "high_activity_coins": 2
+        "volume_24h": 117308596972,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 55.8,
+        "btc_dominance": 55.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-07T01:58:35.843688+00:00",
-      "crypto": 0.6231,
-      "global": 0.5076,
-      "combined": 0.5929,
-      "counts": {
-        "crypto": 65,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-09-07T04:27:26.563960+00:00",
       "crypto": 0.634,
@@ -1008,66 +998,71 @@
         "crypto": 57,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-20T19:53:51.791141+00:00",
+      "crypto": 0.525,
+      "global": 0.4053,
+      "combined": 0.5109,
+      "counts": {
+        "crypto": 58,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Solana’s Yakovenko Says Bitcoin Must Upgrade to Survive Quantum Threat by 2030",
+        "url": "https://www.coindesk.com/tech/2025/09/20/solana-s-yakovenko-says-bitcoin-must-upgrade-to-survive-quantum-threat-by-2030",
+        "source": "CoinDesk",
+        "weight": 0.9017,
+        "score": 0.3333
+      },
+      {
+        "title": "Big Tech companies, foreign governments scramble after Trump slaps $100,000 fee on H-1B visas",
+        "url": "https://www.cnbc.com/2025/09/20/trump-h-1b-visa-tech-foreign-governments.html",
+        "source": "CNBC Markets",
+        "weight": 0.7658,
+        "score": 0.3333
+      },
+      {
         "title": "Web3 needs to rely on Web2 to survive",
         "url": "https://cointelegraph.com/news/web3-rely-on-web2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5699,
+        "weight": 0.382,
         "score": 0.6667
-      },
-      {
-        "title": "Stock Market Rally Risks Losing Steam as Economic Bounce Fades",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-20/stock-market-rally-risks-losing-steam-as-economic-bounce-fades",
-        "source": "Bloomberg Markets",
-        "weight": 0.5379,
-        "score": 0.7
-      },
-      {
-        "title": "BitGo files for US IPO with $90B in assets under custody",
-        "url": "https://cointelegraph.com/news/bitgo-us-ipo-crypto-custody-90b-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.279,
-        "score": 0.9667
       }
     ],
     "negative": [
       {
+        "title": "Crisis crossroads: Japan’s debt reckoning and the global economic warning",
+        "url": "https://cryptoslate.com/crisis-crossroads-japans-debt-reckoning-and-the-global-economic-warning/",
+        "source": "CryptoSlate",
+        "weight": 0.6034,
+        "score": -0.6667
+      },
+      {
         "title": "Greece Welcomes More Cross-Border Banking Deals, Stournaras Says",
         "url": "https://www.bloomberg.com/news/articles/2025-09-20/greece-welcomes-more-cross-border-banking-deals-stournaras-says",
         "source": "Bloomberg Markets",
-        "weight": 0.4072,
+        "weight": 0.273,
         "score": -0.9667
       },
       {
         "title": "Italy Budget Gap May Fall Below 3% This Year, Giorgetti Says",
         "url": "https://www.bloomberg.com/news/articles/2025-09-20/italy-budget-gap-may-be-below-3-already-in-2025-minister-says",
         "source": "Bloomberg Markets",
-        "weight": 0.3738,
+        "weight": 0.2506,
         "score": -1.0
-      },
-      {
-        "title": "Scicluna Says ECB Can Cope With Downside Risks and Rate on Hold",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-20/scicluna-says-ecb-can-cope-with-downside-risks-and-rate-on-hold",
-        "source": "Bloomberg Markets",
-        "weight": 0.4878,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.41714917822898473,
-          "price_change_24h": -0.00293
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.30835050390905244,
-          "price_change_24h": 0.00528
+          "volume_mcap_ratio": 0.43245919780596737,
+          "price_change_24h": -0.0385
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-20",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5775,
+      "crypto_high": 0.6357,
+      "crypto_low": 0.525,
+      "global_avg": 0.3658,
+      "global_high": 0.4053,
+      "global_low": 0.3274,
+      "combined_avg": 0.547,
+      "combined_high": 0.5915,
+      "combined_low": 0.5109
+    },
+    "market_indicators_24h": {
+      "change24h": -0.001,
+      "vol": 0.103,
+      "fearGreed": 48,
+      "momentum": -0.024,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-20T19:53:51.791141+00:00"
   }
 }
