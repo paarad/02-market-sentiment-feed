@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-21T04:27:59.443163+00:00",
+  "updated_at": "2025-09-21T08:27:16.744475+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.127,
+    "change24h": -0.004,
+    "vol": 0.139,
     "fearGreed": 49,
-    "momentum": 0.076,
-    "regime": "sideways",
+    "momentum": -0.076,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5509,
-    "global_sentiment": 0.3715,
-    "combined_sentiment": 0.5275,
-    "confidence": 0.5052,
+    "crypto_sentiment": 0.6352,
+    "global_sentiment": 0.3424,
+    "combined_sentiment": 0.5883,
+    "confidence": 0.4753,
     "counts": {
-      "crypto": 57,
-      "global": 34
+      "crypto": 56,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 115621,
-      "btc_change_24h": 0.1,
-      "eth_price": 4472.18,
-      "eth_change_24h": 0.09,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "btc_price": 115711,
+      "btc_change_24h": -0.13,
+      "eth_price": 4472.38,
+      "eth_change_24h": -0.09,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 112859787258,
-        "high_activity_coins": 1
+        "volume_24h": 117057300897,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.69,
+        "btc_dominance": 55.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-07T16:26:47.752062+00:00",
-      "crypto": 0.4789,
-      "global": 0.3402,
-      "combined": 0.4708,
-      "counts": {
-        "crypto": 66,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-09-07T19:53:45.819797+00:00",
       "crypto": 0.5058,
@@ -1008,52 +998,62 @@
         "crypto": 57,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-09-21T08:27:16.744475+00:00",
+      "crypto": 0.6352,
+      "global": 0.3424,
+      "combined": 0.5883,
+      "counts": {
+        "crypto": 56,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Cannabis firm Flora Growth launches $401M treasury backing Zero Gravity",
+        "url": "https://cointelegraph.com/news/flora-growth-launches-401m-treasury-for-0g-ai-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7092,
+        "score": 0.6667
+      },
+      {
         "title": "Kalshi Outpaces Polymarket in Prediction Market Volume Amid Surge in U.S. Trading",
         "url": "https://www.coindesk.com/markets/2025/09/20/kalshi-outpaces-polymarket-in-prediction-market-volume-amid-surge-in-u-s-trading",
         "source": "CoinDesk",
-        "weight": 0.532,
+        "weight": 0.3356,
         "score": 0.5333
       },
       {
         "title": "Bitcoin will &#039;accelerate&#039; as world heads into the Fourth Turning — Analyst",
         "url": "https://cointelegraph.com/news/bitcoin-accelerate-world-heads-fourth-turning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.304,
+        "weight": 0.1917,
         "score": 0.6667
-      },
-      {
-        "title": "Big Tech companies, foreign governments scramble after Trump slaps $100,000 fee on H-1B visas",
-        "url": "https://www.cnbc.com/2025/09/20/trump-h-1b-visa-tech-foreign-governments.html",
-        "source": "CNBC Markets",
-        "weight": 0.3688,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Low-risk DeFi could do for Ethereum what search did for Google, Vitalik says",
-        "url": "https://cointelegraph.com/news/low-risk-defi-could-drive-ethereum-fees-while-keeping-values-intact?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7798,
+        "title": "The Trade Desk (TTD) Draws Overweight Rating Despite Competitive Concerns",
+        "url": "https://finance.yahoo.com/news/trade-desk-ttd-draws-overweight-075939179.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7586,
         "score": -0.3333
       },
       {
-        "title": "Trump aide denies Jimmy Kimmel suspended because of WH pressure despite Carr threat",
-        "url": "https://www.cnbc.com/2025/09/20/jimmy-kimmel-disney-abc-trump-fcc.html",
-        "source": "CNBC Markets",
-        "weight": 0.3273,
-        "score": -0.6333
+        "title": "Arc’teryx Fireworks in Tibet Trigger Backlash, Government Probe",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-21/arc-teryx-fireworks-in-tibet-trigger-backlash-government-probe",
+        "source": "Bloomberg Markets",
+        "weight": 0.5358,
+        "score": -0.3333
       },
       {
-        "title": "The Fed cut its interest rate, but long-term rates — including those on mortgages — went higher",
-        "url": "https://www.cnbc.com/2025/09/20/the-fed-cut-its-interest-rate-but-mortgage-costs-went-higher.html",
-        "source": "CNBC Markets",
-        "weight": 0.5691,
+        "title": "Low-risk DeFi could do for Ethereum what search did for Google, Vitalik says",
+        "url": "https://cointelegraph.com/news/low-risk-defi-could-drive-ethereum-fees-while-keeping-values-intact?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4919,
         "score": -0.3333
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.41094284620470073,
-          "price_change_24h": -0.05606
+          "volume_mcap_ratio": 0.5036619645296347,
+          "price_change_24h": -0.03569
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3061761398000442,
+          "price_change_24h": 0.01775
         }
       ],
       "momentum_shifts": []
