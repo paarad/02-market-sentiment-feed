@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-21T08:27:16.744475+00:00",
+  "updated_at": "2025-09-21T12:45:19.166173+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.139,
+    "change24h": 0.001,
+    "vol": 0.113,
     "fearGreed": 49,
-    "momentum": -0.076,
-    "regime": "bear",
+    "momentum": 0.02,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6352,
-    "global_sentiment": 0.3424,
-    "combined_sentiment": 0.5883,
-    "confidence": 0.4753,
+    "crypto_sentiment": 0.7071,
+    "global_sentiment": 0.4853,
+    "combined_sentiment": 0.6541,
+    "confidence": 0.461,
     "counts": {
       "crypto": 56,
-      "global": 35
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 115711,
-      "btc_change_24h": -0.13,
-      "eth_price": 4472.38,
-      "eth_change_24h": -0.09,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 115787,
+      "btc_change_24h": -0.1,
+      "eth_price": 4468.78,
+      "eth_change_24h": 0.07,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 117057300897,
+        "volume_24h": 119834217012,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 55.72,
+        "btc_dominance": 55.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-07T19:53:45.819797+00:00",
-      "crypto": 0.5058,
-      "global": 0.3676,
-      "combined": 0.4933,
-      "counts": {
-        "crypto": 65,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-09-07T20:23:31.151940+00:00",
       "crypto": 0.4232,
@@ -1008,52 +998,62 @@
         "crypto": 56,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-21T12:45:19.166173+00:00",
+      "crypto": 0.7071,
+      "global": 0.4853,
+      "combined": 0.6541,
+      "counts": {
+        "crypto": 56,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Mag 7s’ trajectory shows legacy economy ‘being sunset’ for the digital age",
+        "url": "https://cryptoslate.com/mag-7s-trajectory-shows-legacy-economy-being-sunset-for-the-digital-age/",
+        "source": "CryptoSlate",
+        "weight": 0.6593,
+        "score": 0.6667
+      },
+      {
         "title": "Cannabis firm Flora Growth launches $401M treasury backing Zero Gravity",
         "url": "https://cointelegraph.com/news/flora-growth-launches-401m-treasury-for-0g-ai-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7092,
+        "weight": 0.4315,
         "score": 0.6667
       },
       {
-        "title": "Kalshi Outpaces Polymarket in Prediction Market Volume Amid Surge in U.S. Trading",
-        "url": "https://www.coindesk.com/markets/2025/09/20/kalshi-outpaces-polymarket-in-prediction-market-volume-amid-surge-in-u-s-trading",
-        "source": "CoinDesk",
-        "weight": 0.3356,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin will &#039;accelerate&#039; as world heads into the Fourth Turning — Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-accelerate-world-heads-fourth-turning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.1917,
-        "score": 0.6667
+        "title": "What’s Happening in EM: Fed Cut Adds Fuel to EM Rally (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2025-09-21/what-s-happening-in-em-fed-cut-adds-fuel-to-em-rally-podcast",
+        "source": "Bloomberg Markets",
+        "weight": 0.7767,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "The Trade Desk (TTD) Draws Overweight Rating Despite Competitive Concerns",
-        "url": "https://finance.yahoo.com/news/trade-desk-ttd-draws-overweight-075939179.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7586,
-        "score": -0.3333
-      },
-      {
-        "title": "Arc’teryx Fireworks in Tibet Trigger Backlash, Government Probe",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-21/arc-teryx-fireworks-in-tibet-trigger-backlash-government-probe",
+        "title": "ECB Officials Zero In on December to See If 2% Inflation Target Reached",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-21/ecb-officials-zero-in-on-december-to-see-if-2-inflation-target-reached",
         "source": "Bloomberg Markets",
-        "weight": 0.5358,
+        "weight": 0.7767,
         "score": -0.3333
       },
       {
-        "title": "Low-risk DeFi could do for Ethereum what search did for Google, Vitalik says",
-        "url": "https://cointelegraph.com/news/low-risk-defi-could-drive-ethereum-fees-while-keeping-values-intact?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4919,
+        "title": "Congo to End Cobalt Export Ban in October, Introduces Quotas",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-21/congo-to-end-cobalt-export-ban-in-october-introduces-quotas",
+        "source": "Bloomberg Markets",
+        "weight": 0.7295,
+        "score": -0.3333
+      },
+      {
+        "title": "ECB Mustn’t Rush Next Move With Prices at Target, Kazaks Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-21/ecb-mustn-t-rush-next-move-with-prices-at-target-kazaks-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6173,
         "score": -0.3333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5036619645296347,
-          "price_change_24h": -0.03569
+          "volume_mcap_ratio": 0.5405416159373385,
+          "price_change_24h": -0.05491
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3061761398000442,
-          "price_change_24h": 0.01775
+          "volume_mcap_ratio": 0.3132760802276093,
+          "price_change_24h": 0.00871
         }
       ],
       "momentum_shifts": []
