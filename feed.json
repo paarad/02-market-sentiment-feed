@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-22T02:01:33.207495+00:00",
+  "updated_at": "2025-09-22T04:28:59.827455+00:00",
   "indicators": {
-    "change24h": -0.053,
-    "vol": 0.13,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 45,
-    "momentum": -0.923,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4907,
-    "global_sentiment": 0.4902,
-    "combined_sentiment": 0.4922,
-    "confidence": 0.6742,
+    "crypto_sentiment": 0.5215,
+    "global_sentiment": 0.5096,
+    "combined_sentiment": 0.5169,
+    "confidence": 0.6326,
     "counts": {
-      "crypto": 60,
-      "global": 41
+      "crypto": 55,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 114335,
-      "btc_change_24h": -1.06,
-      "eth_price": 4331.87,
-      "eth_change_24h": -3.35,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "btc_price": 114546,
+      "btc_change_24h": -0.93,
+      "eth_price": 4301.55,
+      "eth_change_24h": -3.82,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 45,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 142074494152,
+        "volume_24h": 166985209327,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.05,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-08T12:53:03.934091+00:00",
-      "crypto": 0.5979,
-      "global": 0.4065,
-      "combined": 0.5656,
-      "counts": {
-        "crypto": 67,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-08T16:29:43.019418+00:00",
       "crypto": 0.5678,
@@ -1008,66 +998,76 @@
         "crypto": 60,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-22T04:28:59.827455+00:00",
+      "crypto": 0.5215,
+      "global": 0.5096,
+      "combined": 0.5169,
+      "counts": {
+        "crypto": 55,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China’s Magnet Exports to EU Surge as Bloc Bears Brunt of Crunch",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/china-s-magnet-exports-to-eu-surge-as-bloc-bears-brunt-of-crunch",
+        "title": "Arthur Hayes says he sold all his HYPE... to buy a Ferrari",
+        "url": "https://cointelegraph.com/news/arthur-hayes-sold-all-hype-ferrari-testarossa?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7769,
+        "score": 0.8667
+      },
+      {
+        "title": "Hedge Funds Clash With Asset Managers on Where Yen Is Heading",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/hedge-funds-clash-with-asset-managers-on-where-yen-is-heading",
         "source": "Bloomberg Markets",
-        "weight": 0.7275,
+        "weight": 0.6678,
         "score": 0.5333
       },
       {
-        "title": "ETH funding -0.008%",
-        "url": "https://www.binance.com/en/futures/ETHUSDT",
-        "source": "Binance Funding",
-        "weight": 0.96,
-        "score": 0.3333
-      },
-      {
-        "title": "BTC funding +0.005%",
-        "url": "https://www.binance.com/en/futures/BTCUSDT",
-        "source": "Binance Funding",
-        "weight": 0.96,
-        "score": 0.3333
+        "title": "China’s Magnet Exports to EU Surge as Bloc Bears Brunt of Crunch",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/china-s-magnet-exports-to-eu-surge-as-bloc-bears-brunt-of-crunch",
+        "source": "Bloomberg Markets",
+        "weight": 0.5477,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "SOL down -3.0% 24h — plunge",
-        "url": "https://www.binance.com/en/trade/SOL_USDT",
-        "source": "Binance 24h",
-        "weight": 0.96,
+        "title": "Crypto.com Data Breach Linked to Scattered Spider Hacker Collective: Report",
+        "url": "https://decrypt.co/340618/crypto-com-data-breach-scattered-spider",
+        "source": "Decrypt",
+        "weight": 0.7796,
+        "score": -0.7333
+      },
+      {
+        "title": "Crypto.com says report of undisclosed user data leak ‘unfounded’",
+        "url": "https://cointelegraph.com/news/crypto-com-report-undisclosed-user-data-leak-unfounded?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6399,
         "score": -0.6333
       },
       {
-        "title": "ETH down -3.3% 24h — plunge",
-        "url": "https://www.binance.com/en/trade/ETH_USDT",
-        "source": "Binance 24h",
-        "weight": 0.9599,
-        "score": -0.6333
-      },
-      {
-        "title": "Asian Shares Advance as Japan Rallies, Oil Gains: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-21/us-futures-slip-as-traders-gauge-h-1b-visa-fallout-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.5417,
-        "score": -0.6667
+        "title": "Global crypto market cap down -1.9% — selloff",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.49961825774050905,
-          "price_change_24h": -0.01645
+          "volume_mcap_ratio": 0.4935516322621432,
+          "price_change_24h": -0.03003
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37529226505597507,
-          "price_change_24h": 0.01156
+          "volume_mcap_ratio": 0.42180533072609494,
+          "price_change_24h": -0.00334
         }
       ],
       "momentum_shifts": []
