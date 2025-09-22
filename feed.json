@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-22T12:52:22.953772+00:00",
+  "updated_at": "2025-09-22T16:31:46.653440+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.088,
+    "vol": 0.213,
     "fearGreed": 45,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4709,
-    "global_sentiment": 0.4484,
-    "combined_sentiment": 0.4739,
-    "confidence": 0.7608,
+    "crypto_sentiment": 0.4038,
+    "global_sentiment": 0.5098,
+    "combined_sentiment": 0.4287,
+    "confidence": 0.7954,
     "counts": {
       "crypto": 57,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 112749,
-      "btc_change_24h": -2.59,
-      "eth_price": 4191.97,
-      "eth_change_24h": -6.15,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 112796,
+      "btc_change_24h": -2.3,
+      "eth_price": 4176.69,
+      "eth_change_24h": -6.9,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 45,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 277532364593,
+        "volume_24h": 318939870412,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.45,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-08T20:27:10.039072+00:00",
-      "crypto": 0.4955,
-      "global": 0.5027,
-      "combined": 0.4968,
-      "counts": {
-        "crypto": 68,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-09-09T01:54:35.547185+00:00",
       "crypto": 0.4046,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-22T16:31:46.653440+00:00",
+      "crypto": 0.4038,
+      "global": 0.5098,
+      "combined": 0.4287,
+      "counts": {
+        "crypto": 57,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ECD Automotive Design Granted Continued Listing by the Nasdaq Hearings Panel",
-        "url": "https://finance.yahoo.com/news/ecd-automotive-design-granted-continued-120500520.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7302,
-        "score": 0.6333
+        "title": "Better Home Surges as Man Behind Opendoor’s Meme Rally Goes Long",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/better-home-surges-as-man-behind-opendoor-s-meme-rally-goes-long",
+        "source": "Bloomberg Markets",
+        "weight": 0.7045,
+        "score": 0.8667
       },
       {
-        "title": "Stock Futures Drop as Markets Focus on Fed Speakers to Bolster Rate-Cut Hopes",
-        "url": "https://finance.yahoo.com/m/4ac9363a-2939-3e22-97e6-88e7e883f514/stock-futures-drop-as-markets.html?.tsrc=rss",
+        "title": "Apple stock turns positive for 2025, gold's new record high",
+        "url": "https://finance.yahoo.com/video/apple-stock-turns-positive-2025-160530945.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5837,
+        "weight": 0.7605,
         "score": 0.6667
       },
       {
-        "title": "BNB is Soaring: Here's Where Analysts See It Headed Next",
-        "url": "https://decrypt.co/340621/bnb-soaring-heres-where-analysts-see-headed-next",
-        "source": "Decrypt",
-        "weight": 0.3873,
-        "score": 1.0
+        "title": "Stocks steady ahead of key US inflation data",
+        "url": "https://finance.yahoo.com/news/asian-markets-mixed-traders-stock-030351392.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.748,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Intel Needs Chip Factory Win to Sustain $50 Billion Stock Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/intel-needs-chip-factory-win-to-sustain-50-billion-stock-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.7737,
-        "score": -0.9667
-      },
-      {
-        "title": "Ex-Barings Boss Fails to Halt Suit Over Poached Bankers’ Bonuses",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/ex-barings-boss-fails-to-halt-suit-over-poached-bankers-bonuses",
-        "source": "Bloomberg Markets",
-        "weight": 0.715,
+        "title": "Is XRP price going to crash after falling below $3 again?",
+        "url": "https://cointelegraph.com/news/is-xrp-price-going-to-crash-after-falling-below-3-again?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7307,
         "score": -1.0
       },
       {
-        "title": "Nvidia Stock Falls. Why Trump-China Talks Are Key to a Revival for the Chip Maker.",
-        "url": "https://finance.yahoo.com/m/e29f24db-543f-3132-bfd1-6fc3e2bdda78/nvidia-stock-falls.-why.html?.tsrc=rss",
+        "title": "Nvidia Stock Struggles Again. Why Trump’s China Talks Are Vital.",
+        "url": "https://finance.yahoo.com/m/e29f24db-543f-3132-bfd1-6fc3e2bdda78/nvidia-stock-struggles-again..html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7274,
+        "weight": 0.5859,
         "score": -0.9333
+      },
+      {
+        "title": "ECB’s Nagel Plays Down Fears That Strong Euro Will Hurt Exports",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/ecb-s-nagel-plays-down-fears-that-strong-euro-will-hurt-exports",
+        "source": "Bloomberg Markets",
+        "weight": 0.7671,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.710514011448142,
-          "price_change_24h": 0.0138
+          "volume_mcap_ratio": 0.7906617876356417,
+          "price_change_24h": 0.02688
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4708771915037614,
-          "price_change_24h": -0.01664
+          "volume_mcap_ratio": 0.4483362216019697,
+          "price_change_24h": 0.04697
         }
       ],
       "momentum_shifts": []
