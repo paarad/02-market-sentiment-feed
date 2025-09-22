@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-22T19:53:24.497520+00:00",
+  "updated_at": "2025-09-22T20:26:38.085663+00:00",
   "indicators": {
-    "change24h": -0.105,
-    "vol": 0.239,
+    "change24h": -0.102,
+    "vol": 0.234,
     "fearGreed": 45,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4131,
-    "global_sentiment": 0.4762,
-    "combined_sentiment": 0.4329,
-    "confidence": 0.8195,
+    "crypto_sentiment": 0.4023,
+    "global_sentiment": 0.4952,
+    "combined_sentiment": 0.4263,
+    "confidence": 0.8129,
     "counts": {
       "crypto": 60,
-      "global": 44
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 112277,
-      "btc_change_24h": -2.82,
-      "eth_price": 4142.5,
-      "eth_change_24h": -7.84,
+      "btc_price": 112210,
+      "btc_change_24h": -2.86,
+      "eth_price": 4156.17,
+      "eth_change_24h": -7.45,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 45,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 326167771833,
-        "high_activity_coins": 2
+        "volume_24h": 342223077082,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-09T04:28:51.303570+00:00",
-      "crypto": 0.4513,
-      "global": 0.5756,
-      "combined": 0.4698,
-      "counts": {
-        "crypto": 64,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-09T08:33:06.428337+00:00",
       "crypto": 0.5538,
@@ -1008,6 +998,16 @@
         "crypto": 60,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-22T20:26:38.085663+00:00",
+      "crypto": 0.4023,
+      "global": 0.4952,
+      "combined": 0.4263,
+      "counts": {
+        "crypto": 60,
+        "global": 38
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Gold Price Hits New Record",
         "url": "https://finance.yahoo.com/m/965a9f86-6465-30ce-b494-ab384666eeb1/gold-price-hits-new-record.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7278,
+        "weight": 0.6827,
         "score": 0.8667
       },
       {
         "title": "Stocks Pick Up Steam as S&P 500, Nasdaq Hit Fresh Intraday Highs",
         "url": "https://finance.yahoo.com/m/c9832f79-80b5-37f4-a579-21293871a660/stocks-pick-up-steam-as-s%26p.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.592,
+        "weight": 0.5553,
         "score": 0.8667
       },
       {
         "title": "South African asset management giant advises clients against over exposure to Bitcoin",
         "url": "https://cryptoslate.com/south-african-asset-management-giant-advises-clients-against-over-exposure-to-bitcoin/",
         "source": "CryptoSlate",
-        "weight": 0.7352,
+        "weight": 0.6897,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Investors Are Buying Growth: Steward Partners’ Beiley",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-22/investors-are-buying-growth-steward-partners-beiley-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7503,
+        "score": -1.0
+      },
+      {
         "title": "ETH futures turn bearish: A market overreaction, or is $3.8K next?",
         "url": "https://cointelegraph.com/news/eth-futures-turn-bearish-a-market-overreaction-or-is-3-8k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9177,
+        "weight": 0.8608,
         "score": -0.8667
-      },
-      {
-        "title": "CVS’s Omnicare Files for Bankruptcy After $949 Million Judgment",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/cvs-unit-omnicare-files-bankruptcy-after-949-million-judgment",
-        "source": "Bloomberg Markets",
-        "weight": 0.6257,
-        "score": -1.0
       },
       {
         "title": "Spirit Airlines to furlough 1,800 flight attendants to cut costs in bankruptcy",
         "url": "https://www.cnbc.com/2025/09/22/spirit-airlines-furlough-flight-attendants-bankruptcy.html",
         "source": "CNBC Markets",
-        "weight": 0.5869,
+        "weight": 0.5505,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8342271615736212,
-          "price_change_24h": 0.00553
+          "volume_mcap_ratio": 0.8441089423392882,
+          "price_change_24h": 0.00041
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.44011779869701506,
-          "price_change_24h": -8e-05
+          "volume_mcap_ratio": 0.39927222860574285,
+          "price_change_24h": 0.01217
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.31505987049575296,
+          "price_change_24h": -0.00548
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-22",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.481,
-      "crypto_high": 0.5859,
-      "crypto_low": 0.4038,
-      "global_avg": 0.4824,
-      "global_high": 0.5098,
-      "global_low": 0.4484,
-      "combined_avg": 0.4843,
-      "combined_high": 0.5612,
-      "combined_low": 0.4287
-    },
-    "market_indicators_24h": {
-      "change24h": -0.105,
-      "vol": 0.239,
-      "fearGreed": 45,
-      "momentum": -1.0,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-22T19:53:24.497520+00:00"
   }
 }
