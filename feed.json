@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-22T16:31:46.653440+00:00",
+  "updated_at": "2025-09-22T19:53:24.497520+00:00",
   "indicators": {
-    "change24h": -0.088,
-    "vol": 0.213,
+    "change24h": -0.105,
+    "vol": 0.239,
     "fearGreed": 45,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4038,
-    "global_sentiment": 0.5098,
-    "combined_sentiment": 0.4287,
-    "confidence": 0.7954,
+    "crypto_sentiment": 0.4131,
+    "global_sentiment": 0.4762,
+    "combined_sentiment": 0.4329,
+    "confidence": 0.8195,
     "counts": {
-      "crypto": 57,
+      "crypto": 60,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 112796,
-      "btc_change_24h": -2.3,
-      "eth_price": 4176.69,
-      "eth_change_24h": -6.9,
+      "btc_price": 112277,
+      "btc_change_24h": -2.82,
+      "eth_price": 4142.5,
+      "eth_change_24h": -7.84,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.2,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 318939870412,
+        "volume_24h": 326167771833,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.45,
+        "btc_dominance": 56.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-09T01:54:35.547185+00:00",
-      "crypto": 0.4046,
-      "global": 0.5226,
-      "combined": 0.4303,
-      "counts": {
-        "crypto": 63,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-09-09T04:28:51.303570+00:00",
       "crypto": 0.4513,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-09-22T19:53:24.497520+00:00",
+      "crypto": 0.4131,
+      "global": 0.4762,
+      "combined": 0.4329,
+      "counts": {
+        "crypto": 60,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Better Home Surges as Man Behind Opendoor’s Meme Rally Goes Long",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/better-home-surges-as-man-behind-opendoor-s-meme-rally-goes-long",
-        "source": "Bloomberg Markets",
-        "weight": 0.7045,
+        "title": "Gold Price Hits New Record",
+        "url": "https://finance.yahoo.com/m/965a9f86-6465-30ce-b494-ab384666eeb1/gold-price-hits-new-record.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7278,
         "score": 0.8667
       },
       {
-        "title": "Apple stock turns positive for 2025, gold's new record high",
-        "url": "https://finance.yahoo.com/video/apple-stock-turns-positive-2025-160530945.html?.tsrc=rss",
+        "title": "Stocks Pick Up Steam as S&P 500, Nasdaq Hit Fresh Intraday Highs",
+        "url": "https://finance.yahoo.com/m/c9832f79-80b5-37f4-a579-21293871a660/stocks-pick-up-steam-as-s%26p.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7605,
-        "score": 0.6667
+        "weight": 0.592,
+        "score": 0.8667
       },
       {
-        "title": "Stocks steady ahead of key US inflation data",
-        "url": "https://finance.yahoo.com/news/asian-markets-mixed-traders-stock-030351392.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.748,
+        "title": "South African asset management giant advises clients against over exposure to Bitcoin",
+        "url": "https://cryptoslate.com/south-african-asset-management-giant-advises-clients-against-over-exposure-to-bitcoin/",
+        "source": "CryptoSlate",
+        "weight": 0.7352,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Is XRP price going to crash after falling below $3 again?",
-        "url": "https://cointelegraph.com/news/is-xrp-price-going-to-crash-after-falling-below-3-again?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "ETH futures turn bearish: A market overreaction, or is $3.8K next?",
+        "url": "https://cointelegraph.com/news/eth-futures-turn-bearish-a-market-overreaction-or-is-3-8k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7307,
+        "weight": 0.9177,
+        "score": -0.8667
+      },
+      {
+        "title": "CVS’s Omnicare Files for Bankruptcy After $949 Million Judgment",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/cvs-unit-omnicare-files-bankruptcy-after-949-million-judgment",
+        "source": "Bloomberg Markets",
+        "weight": 0.6257,
         "score": -1.0
       },
       {
-        "title": "Nvidia Stock Struggles Again. Why Trump’s China Talks Are Vital.",
-        "url": "https://finance.yahoo.com/m/e29f24db-543f-3132-bfd1-6fc3e2bdda78/nvidia-stock-struggles-again..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5859,
-        "score": -0.9333
-      },
-      {
-        "title": "ECB’s Nagel Plays Down Fears That Strong Euro Will Hurt Exports",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/ecb-s-nagel-plays-down-fears-that-strong-euro-will-hurt-exports",
-        "source": "Bloomberg Markets",
-        "weight": 0.7671,
-        "score": -0.6667
+        "title": "Spirit Airlines to furlough 1,800 flight attendants to cut costs in bankruptcy",
+        "url": "https://www.cnbc.com/2025/09/22/spirit-airlines-furlough-flight-attendants-bankruptcy.html",
+        "source": "CNBC Markets",
+        "weight": 0.5869,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7906617876356417,
-          "price_change_24h": 0.02688
+          "volume_mcap_ratio": 0.8342271615736212,
+          "price_change_24h": 0.00553
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4483362216019697,
-          "price_change_24h": 0.04697
+          "volume_mcap_ratio": 0.44011779869701506,
+          "price_change_24h": -8e-05
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-22",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.481,
+      "crypto_high": 0.5859,
+      "crypto_low": 0.4038,
+      "global_avg": 0.4824,
+      "global_high": 0.5098,
+      "global_low": 0.4484,
+      "combined_avg": 0.4843,
+      "combined_high": 0.5612,
+      "combined_low": 0.4287
+    },
+    "market_indicators_24h": {
+      "change24h": -0.105,
+      "vol": 0.239,
+      "fearGreed": 45,
+      "momentum": -1.0,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-22T19:53:24.497520+00:00"
   }
 }
