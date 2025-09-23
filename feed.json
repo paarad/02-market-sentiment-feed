@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-23T12:50:56.855901+00:00",
+  "updated_at": "2025-09-23T16:31:14.248062+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.15,
+    "change24h": 0.015,
+    "vol": 0.157,
     "fearGreed": 43,
-    "momentum": 0.21,
+    "momentum": 0.254,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4415,
-    "global_sentiment": 0.5745,
-    "combined_sentiment": 0.4623,
-    "confidence": 0.7966,
+    "crypto_sentiment": 0.5174,
+    "global_sentiment": 0.5498,
+    "combined_sentiment": 0.5172,
+    "confidence": 0.8422,
     "counts": {
-      "crypto": 62,
-      "global": 39
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 113041,
-      "btc_change_24h": 0.25,
-      "eth_price": 4202.03,
-      "eth_change_24h": 0.42,
+      "btc_price": 112852,
+      "btc_change_24h": 0.05,
+      "eth_price": 4190.6,
+      "eth_change_24h": 0.22,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.65,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 251498195611,
-        "high_activity_coins": 2
+        "volume_24h": 196797443210,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.38,
+        "btc_dominance": 56.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-09T20:26:02.570530+00:00",
-      "crypto": 0.6312,
-      "global": 0.4631,
-      "combined": 0.5954,
-      "counts": {
-        "crypto": 64,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-09-10T01:50:26.945379+00:00",
       "crypto": 0.6251,
@@ -1008,66 +998,81 @@
         "crypto": 62,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-23T16:31:14.248062+00:00",
+      "crypto": 0.5174,
+      "global": 0.5498,
+      "combined": 0.5172,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Stocks That May Be Undervalued By Up To 49%",
-        "url": "https://finance.yahoo.com/news/3-stocks-may-undervalued-49-113800718.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6952,
+        "title": "Aster’s perpetuals daily volume edges past Hyperliquid with over $12 billion trading surge",
+        "url": "https://cryptoslate.com/insights/asters-perpetuals-daily-volume-edges-past-hyperliquid-with-over-12-billion-trading-surge/",
+        "source": "CryptoSlate",
+        "weight": 0.5882,
         "score": 1.0
       },
       {
-        "title": "Crypto Market Today: OG, ASTR Surge as Bitcoin Defends $112K",
-        "url": "https://www.coindesk.com/markets/2025/09/23/crypto-market-today-og-astr-surge-as-bitcoin-defends-usd112k",
-        "source": "CoinDesk",
-        "weight": 0.9487,
-        "score": 0.5333
+        "title": "World Liberty adviser bets millions as corporate treasuries fuel AVAX rally",
+        "url": "https://cointelegraph.com/news/wlfi-advisor-longs-2-2m-avax-10x-leverage-550m-avalanche-treasury-announcement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6363,
+        "score": 0.8667
       },
       {
-        "title": "Tom Brady joins wellness company Aescape, bringing his longevity protocols to massage robots",
-        "url": "https://www.cnbc.com/2025/09/23/tom-brady-robotics-massage-company-aescape.html",
-        "source": "CNBC Markets",
-        "weight": 0.7196,
-        "score": 0.5833
+        "title": "WLFI promises Apple Pay card while price slips 10% amid Asia expansion",
+        "url": "https://cryptoslate.com/wlfi-promises-apple-pay-card-while-price-slips-10-after-1-7b-wipeout-amid-asia-expansion/",
+        "source": "CryptoSlate",
+        "weight": 0.5462,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "UXLink hack turns ironic as attacker gets phished mid-exploit",
-        "url": "https://cointelegraph.com/news/uxlink-token-cruxlink-hack-turns-ironic-attacker-phishedash-hacker-mints-billions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "SEC Chair Paul Atkins Says Crypto 'Innovation Exemption' Coming This Year",
+        "url": "https://decrypt.co/340898/sec-chair-paul-atkins-crypto-innovation-exemption-coming-this-year",
+        "source": "Decrypt",
+        "weight": 0.8449,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin struggles at $113K as Fed&#039;s Bowman hints at faster rate cuts",
+        "url": "https://cointelegraph.com/news/bitcoin-struggles-113k-fed-bowman-hints-faster-rate-cuts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6818,
-        "score": -1.0
+        "weight": 0.6404,
+        "score": -0.9333
       },
       {
-        "title": "Crypto hacker falls victim to own scam losing $50 million to Inferno Drainer’s phishing attack",
-        "url": "https://cryptoslate.com/crypto-hacker-falls-victim-to-own-scam-losing-50-million-to-inferno-drainers-phishing-attack/",
-        "source": "CryptoSlate",
-        "weight": 0.5707,
-        "score": -1.0
-      },
-      {
-        "title": "Firefly Aerospace Stock Tumbles Back to Earth. Why Earnings Were Disappointing.",
-        "url": "https://finance.yahoo.com/m/1cf6ad11-ce2d-3a36-aec6-6647a47e3b77/firefly-aerospace-stock.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6663,
-        "score": -0.8
+        "title": "SEC's Atkins Says Agency Pushing Toward 2025 Rules Allowing Crypto Firm Innovation",
+        "url": "https://www.coindesk.com/policy/2025/09/23/sec-s-atkins-says-agency-pushing-toward-2025-rules-allowing-crypto-firm-innovation",
+        "source": "CoinDesk",
+        "weight": 0.8175,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.6568686278713411,
+          "price_change_24h": 50.61143
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6125735597422364,
-          "price_change_24h": -0.01215
+          "volume_mcap_ratio": 0.49266955611704405,
+          "price_change_24h": -0.01935
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5296474612761907,
-          "price_change_24h": -1.20896
+          "volume_mcap_ratio": 0.37941155172704844,
+          "price_change_24h": 0.01432
         }
       ],
       "momentum_shifts": []
