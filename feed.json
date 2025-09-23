@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-22T20:26:38.085663+00:00",
+  "updated_at": "2025-09-23T01:51:16.239641+00:00",
   "indicators": {
-    "change24h": -0.102,
-    "vol": 0.234,
-    "fearGreed": 45,
-    "momentum": -1.0,
+    "change24h": -0.057,
+    "vol": 0.19,
+    "fearGreed": 43,
+    "momentum": -0.999,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4023,
-    "global_sentiment": 0.4952,
-    "combined_sentiment": 0.4263,
-    "confidence": 0.8129,
+    "crypto_sentiment": 0.3721,
+    "global_sentiment": 0.518,
+    "combined_sentiment": 0.4056,
+    "confidence": 0.7824,
     "counts": {
-      "crypto": 60,
-      "global": 38
+      "crypto": 63,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 112210,
-      "btc_change_24h": -2.86,
-      "eth_price": 4156.17,
-      "eth_change_24h": -7.45,
+      "btc_price": 112310,
+      "btc_change_24h": -2.06,
+      "eth_price": 4178.81,
+      "eth_change_24h": -3.84,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 45,
+        "value": 43,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 342223077082,
+        "volume_24h": 326457865252,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.47,
+        "btc_dominance": 56.42,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-09T08:33:06.428337+00:00",
-      "crypto": 0.5538,
-      "global": 0.5065,
-      "combined": 0.5409,
-      "counts": {
-        "crypto": 63,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-09-09T12:53:38.651778+00:00",
       "crypto": 0.5682,
@@ -1008,71 +998,81 @@
         "crypto": 60,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-09-23T01:51:16.239641+00:00",
+      "crypto": 0.3721,
+      "global": 0.518,
+      "combined": 0.4056,
+      "counts": {
+        "crypto": 63,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold Price Hits New Record",
-        "url": "https://finance.yahoo.com/m/965a9f86-6465-30ce-b494-ab384666eeb1/gold-price-hits-new-record.html?.tsrc=rss",
+        "title": "How major US stock indexes fared Monday, 9/22/2025",
+        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-002925037.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6827,
-        "score": 0.8667
+        "weight": 0.6834,
+        "score": 0.6667
       },
       {
-        "title": "Stocks Pick Up Steam as S&P 500, Nasdaq Hit Fresh Intraday Highs",
-        "url": "https://finance.yahoo.com/m/c9832f79-80b5-37f4-a579-21293871a660/stocks-pick-up-steam-as-s%26p.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5553,
-        "score": 0.8667
+        "title": "Jim Cramer names inexpensive stocks worth buying as the S&P 500 heads higher",
+        "url": "https://www.cnbc.com/2025/09/22/jim-cramer-sp500-undervalued-stocks.html",
+        "source": "CNBC Markets",
+        "weight": 0.561,
+        "score": 0.6667
       },
       {
-        "title": "South African asset management giant advises clients against over exposure to Bitcoin",
-        "url": "https://cryptoslate.com/south-african-asset-management-giant-advises-clients-against-over-exposure-to-bitcoin/",
-        "source": "CryptoSlate",
-        "weight": 0.6897,
+        "title": "Asian Stocks Edge Up After Record on Wall Street: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.5469,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Investors Are Buying Growth: Steward Partners’ Beiley",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-22/investors-are-buying-growth-steward-partners-beiley-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7503,
-        "score": -1.0
-      },
-      {
-        "title": "ETH futures turn bearish: A market overreaction, or is $3.8K next?",
-        "url": "https://cointelegraph.com/news/eth-futures-turn-bearish-a-market-overreaction-or-is-3-8k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Tether denies reports it ditched $500M crypto project in Uruguay",
+        "url": "https://cointelegraph.com/news/tethers-denies-shut-down-crypto-mining-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8608,
-        "score": -0.8667
+        "weight": 0.586,
+        "score": -0.9333
       },
       {
-        "title": "Spirit Airlines to furlough 1,800 flight attendants to cut costs in bankruptcy",
-        "url": "https://www.cnbc.com/2025/09/22/spirit-airlines-furlough-flight-attendants-bankruptcy.html",
-        "source": "CNBC Markets",
-        "weight": 0.5505,
-        "score": -1.0
+        "title": "Ex-FTX exec’s plea deal still at center of  court case",
+        "url": "https://cointelegraph.com/news/ftx-ryan-salame-plea-deal-michelle-bond-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4854,
+        "score": -0.9667
+      },
+      {
+        "title": "US lawmakers urge SEC to act on Trump’s crypto retirement plan",
+        "url": "https://cointelegraph.com/news/us-lawmakers-urge-sec-deliver-on-crypto-401k-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6861,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8441089423392882,
-          "price_change_24h": 0.00041
+          "volume_mcap_ratio": 0.8061193342024096,
+          "price_change_24h": 0.01768
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.39927222860574285,
-          "price_change_24h": 0.01217
+          "volume_mcap_ratio": 0.47244426843578285,
+          "price_change_24h": 0.08393
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.31505987049575296,
-          "price_change_24h": -0.00548
+          "volume_mcap_ratio": 0.3005706798738732,
+          "price_change_24h": -0.0051
         }
       ],
       "momentum_shifts": []
