@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-23T04:29:04.260067+00:00",
+  "updated_at": "2025-09-23T08:32:26.850968+00:00",
   "indicators": {
-    "change24h": -0.043,
-    "vol": 0.215,
+    "change24h": 0.021,
+    "vol": 0.21,
     "fearGreed": 43,
-    "momentum": -0.755,
-    "regime": "bear",
+    "momentum": 0.374,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3684,
-    "global_sentiment": 0.5738,
-    "combined_sentiment": 0.4074,
-    "confidence": 0.7471,
+    "crypto_sentiment": 0.4294,
+    "global_sentiment": 0.5032,
+    "combined_sentiment": 0.4473,
+    "confidence": 0.757,
     "counts": {
-      "crypto": 62,
-      "global": 35
+      "crypto": 61,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 112171,
-      "btc_change_24h": -2.06,
-      "eth_price": 4169.93,
-      "eth_change_24h": -3.05,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "btc_price": 113131,
+      "btc_change_24h": 0.35,
+      "eth_price": 4211.37,
+      "eth_change_24h": 0.32,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 43,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 316629718946,
+        "volume_24h": 258216310949,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.41,
+        "btc_dominance": 56.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-09T16:31:13.025132+00:00",
-      "crypto": 0.656,
-      "global": 0.5057,
-      "combined": 0.6175,
-      "counts": {
-        "crypto": 64,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-09T19:53:51.912842+00:00",
       "crypto": 0.632,
@@ -1008,52 +998,62 @@
         "crypto": 62,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-23T08:32:26.850968+00:00",
+      "crypto": 0.4294,
+      "global": 0.5032,
+      "combined": 0.4473,
+      "counts": {
+        "crypto": 61,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "UK Boards Tempted by Foreign Stock Listings, Numis Poll Shows",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-23/uk-boards-tempted-by-foreign-stock-listings-numis-poll-shows",
+        "title": "FTSE 100 Live: UK Stocks Rise and B&amp;Q Owner Kingfisher Surges",
+        "url": "https://www.bloomberg.com/news/live-blog/2025-09-23/ftse-100-live-pmi-data-pound-trump-tariffs-what-s-moving-uk-markets-right-now-markets-today-mfw4oiyi",
         "source": "Bloomberg Markets",
-        "weight": 0.7565,
-        "score": 0.6333
-      },
-      {
-        "title": "Asian Shares Edge Up to Near Record, China Slips: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.4036,
+        "weight": 0.5763,
         "score": 0.8667
       },
       {
-        "title": "How major US stock indexes fared Monday, 9/22/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-002925037.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5043,
+        "title": "Rupee at New Record Low as US Visa-Fee Hike Adds to Tariff Woes",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-23/rupee-at-new-record-low-as-us-visa-fee-hike-adds-to-tarrif-woes",
+        "source": "Bloomberg Markets",
+        "weight": 0.7266,
         "score": 0.6667
+      },
+      {
+        "title": "Societe Generale Selects Bullish Europe to Debut Its USD Stablecoin",
+        "url": "https://www.coindesk.com/business/2025/09/23/societe-generale-selects-bullish-europe-to-debut-its-usd-stablecoin",
+        "source": "CoinDesk",
+        "weight": 0.7456,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Tether denies reports it ditched $500M crypto project in Uruguay",
-        "url": "https://cointelegraph.com/news/tethers-denies-shut-down-crypto-mining-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "$657M out of Tesla, $12B into crypto: What Korea’s big bet means for global markets",
+        "url": "https://cointelegraph.com/explained/657m-out-of-tesla-12b-into-crypto-what-koreas-big-bet-means-for-global-markets?utm_source=rss_feed&utm_medium=rss%3FnoCache%3Dtrue%26rand%3Dx2ijn_1758616055448%26__%3D1758616055448&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4325,
-        "score": -0.9333
+        "weight": 0.7372,
+        "score": -0.6667
       },
       {
-        "title": "Ex-FTX exec’s plea deal still at center of  court case",
-        "url": "https://cointelegraph.com/news/ftx-ryan-salame-plea-deal-michelle-bond-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3582,
-        "score": -0.9667
+        "title": "Dollar Set to Gain as Fed to Cut Once More: Vanguard",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-23/dollar-set-to-gain-as-fed-to-cut-once-more-vanguard-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7556,
+        "score": -0.6333
       },
       {
-        "title": "US lawmakers urge SEC to act on Trump’s crypto retirement plan",
-        "url": "https://cointelegraph.com/news/us-lawmakers-urge-sec-deliver-on-crypto-401k-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5063,
+        "title": "Euro-Zone Private Sector Grows at Fastest Pace in 16 Months",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-23/euro-zone-private-sector-grows-at-fastest-pace-in-16-months",
+        "source": "Bloomberg Markets",
+        "weight": 0.7515,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7978514346286726,
-          "price_change_24h": 0.02838
+          "volume_mcap_ratio": 0.6551090446813881,
+          "price_change_24h": -0.011
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4858009407601638,
-          "price_change_24h": 0.00428
+          "volume_mcap_ratio": 0.5195247348146782,
+          "price_change_24h": -0.88764
         }
       ],
       "momentum_shifts": []
