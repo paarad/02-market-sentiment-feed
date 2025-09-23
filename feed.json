@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-23T01:51:16.239641+00:00",
+  "updated_at": "2025-09-23T04:29:04.260067+00:00",
   "indicators": {
-    "change24h": -0.057,
-    "vol": 0.19,
+    "change24h": -0.043,
+    "vol": 0.215,
     "fearGreed": 43,
-    "momentum": -0.999,
+    "momentum": -0.755,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3721,
-    "global_sentiment": 0.518,
-    "combined_sentiment": 0.4056,
-    "confidence": 0.7824,
+    "crypto_sentiment": 0.3684,
+    "global_sentiment": 0.5738,
+    "combined_sentiment": 0.4074,
+    "confidence": 0.7471,
     "counts": {
-      "crypto": 63,
+      "crypto": 62,
       "global": 35
     },
     "market_indicators": {
-      "btc_price": 112310,
+      "btc_price": 112171,
       "btc_change_24h": -2.06,
-      "eth_price": 4178.81,
-      "eth_change_24h": -3.84,
+      "eth_price": 4169.93,
+      "eth_change_24h": -3.05,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 43,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 326457865252,
-        "high_activity_coins": 3
+        "volume_24h": 316629718946,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.42,
+        "btc_dominance": 56.41,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-09T12:53:38.651778+00:00",
-      "crypto": 0.5682,
-      "global": 0.497,
-      "combined": 0.5509,
-      "counts": {
-        "crypto": 69,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-09T16:31:13.025132+00:00",
       "crypto": 0.656,
@@ -1008,29 +998,39 @@
         "crypto": 63,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-23T04:29:04.260067+00:00",
+      "crypto": 0.3684,
+      "global": 0.5738,
+      "combined": 0.4074,
+      "counts": {
+        "crypto": 62,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "UK Boards Tempted by Foreign Stock Listings, Numis Poll Shows",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-23/uk-boards-tempted-by-foreign-stock-listings-numis-poll-shows",
+        "source": "Bloomberg Markets",
+        "weight": 0.7565,
+        "score": 0.6333
+      },
+      {
+        "title": "Asian Shares Edge Up to Near Record, China Slips: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-22/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.4036,
+        "score": 0.8667
+      },
+      {
         "title": "How major US stock indexes fared Monday, 9/22/2025",
         "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-002925037.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6834,
-        "score": 0.6667
-      },
-      {
-        "title": "Jim Cramer names inexpensive stocks worth buying as the S&P 500 heads higher",
-        "url": "https://www.cnbc.com/2025/09/22/jim-cramer-sp500-undervalued-stocks.html",
-        "source": "CNBC Markets",
-        "weight": 0.561,
-        "score": 0.6667
-      },
-      {
-        "title": "Asian Stocks Edge Up After Record on Wall Street: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-22/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.5469,
+        "weight": 0.5043,
         "score": 0.6667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Tether denies reports it ditched $500M crypto project in Uruguay",
         "url": "https://cointelegraph.com/news/tethers-denies-shut-down-crypto-mining-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.586,
+        "weight": 0.4325,
         "score": -0.9333
       },
       {
         "title": "Ex-FTX exec’s plea deal still at center of  court case",
         "url": "https://cointelegraph.com/news/ftx-ryan-salame-plea-deal-michelle-bond-court?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4854,
+        "weight": 0.3582,
         "score": -0.9667
       },
       {
         "title": "US lawmakers urge SEC to act on Trump’s crypto retirement plan",
         "url": "https://cointelegraph.com/news/us-lawmakers-urge-sec-deliver-on-crypto-401k-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6861,
+        "weight": 0.5063,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8061193342024096,
-          "price_change_24h": 0.01768
+          "volume_mcap_ratio": 0.7978514346286726,
+          "price_change_24h": 0.02838
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.47244426843578285,
-          "price_change_24h": 0.08393
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.3005706798738732,
-          "price_change_24h": -0.0051
+          "volume_mcap_ratio": 0.4858009407601638,
+          "price_change_24h": 0.00428
         }
       ],
       "momentum_shifts": []
