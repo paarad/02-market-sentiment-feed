@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-24T19:53:56.327969+00:00",
+  "updated_at": "2025-09-24T20:27:38.011781+00:00",
   "indicators": {
-    "change24h": 0.023,
-    "vol": 0.086,
+    "change24h": 0.021,
+    "vol": 0.079,
     "fearGreed": 44,
-    "momentum": 0.395,
+    "momentum": 0.374,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5247,
-    "global_sentiment": 0.4267,
-    "combined_sentiment": 0.5124,
-    "confidence": 0.8171,
+    "crypto_sentiment": 0.5263,
+    "global_sentiment": 0.3995,
+    "combined_sentiment": 0.5113,
+    "confidence": 0.8109,
     "counts": {
-      "crypto": 62,
-      "global": 41
+      "crypto": 60,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 113499,
-      "btc_change_24h": 1.67,
-      "eth_price": 4165.07,
-      "eth_change_24h": 0.26,
+      "btc_price": 113612,
+      "btc_change_24h": 1.65,
+      "eth_price": 4164.23,
+      "eth_change_24h": 0.27,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 216896377094,
-        "high_activity_coins": 2
+        "volume_24h": 218546011824,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.47,
+        "btc_dominance": 56.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-11T04:28:36.817816+00:00",
-      "crypto": 0.4991,
-      "global": 0.4076,
-      "combined": 0.4916,
-      "counts": {
-        "crypto": 75,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-09-11T08:31:52.725317+00:00",
       "crypto": 0.4899,
@@ -1008,66 +998,81 @@
         "crypto": 62,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-24T20:27:38.011781+00:00",
+      "crypto": 0.5263,
+      "global": 0.3995,
+      "combined": 0.5113,
+      "counts": {
+        "crypto": 60,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock market today: Nasdaq, Dow, S&P 500 fall with divided Fed, Alibaba in focus",
-        "url": "https://finance.yahoo.com/news/live/stock-market-today-nasdaq-dow-sp-500-fall-with-divided-fed-alibaba-in-focus-230354294.html?.tsrc=rss",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq slip for 2nd day in a row as Fed sends mixed signals, Alibaba plans AI push",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slip-for-2nd-day-in-a-row-as-fed-sends-mixed-signals-alibaba-plans-ai-push-200103891.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6365,
+        "weight": 0.7601,
         "score": 1.0
       },
       {
         "title": "Bitcoin rallies to $113.9K as bullish divergence points to trend reversal",
         "url": "https://cointelegraph.com/news/bitcoin-rallies-to-dollar113-9k-as-bullish-divergence-points-to-trend-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.602,
+        "weight": 0.5642,
         "score": 1.0
       },
       {
-        "title": "Medline Weighs $5 Billion US IPO Filing as Soon as October",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-24/medline-said-to-weigh-5-billion-ipo-filing-as-soon-as-october",
-        "source": "Bloomberg Markets",
-        "weight": 0.7137,
-        "score": 0.6333
+        "title": "How major US stock indexes fared Wednesday, 9/24/2025",
+        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-202020829.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7888,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 15, 2025",
+        "url": "https://finance.yahoo.com/news/nasdaq-announces-mid-month-open-200500884.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7659,
+        "score": -0.9667
+      },
+      {
+        "title": "US Equity Indexes Head for Second Straight Decline; Treasury Yields Rise",
+        "url": "https://finance.yahoo.com/news/us-equity-indexes-head-second-195011656.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7443,
+        "score": -0.9667
+      },
+      {
         "title": "AI can now pass the hardest level of the CFA exam in a matter of minutes",
         "url": "https://www.cnbc.com/2025/09/24/ai-cfa-exam-pass-minutes-study.html",
         "source": "CNBC Markets",
-        "weight": 0.5995,
+        "weight": 0.5618,
         "score": -0.9333
-      },
-      {
-        "title": "Ethereum Layer-2 Rollups Misprice Small Transactions, Study Warns",
-        "url": "https://decrypt.co/341111/ethereum-layer-2-rollups-misprice-small-transactions-study-warns",
-        "source": "Decrypt",
-        "weight": 0.7853,
-        "score": -0.6667
-      },
-      {
-        "title": "Intel Is Seeking an Investment From Apple as Part of Its Comeback Bid",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-24/intel-is-seeking-an-investment-from-apple-as-part-of-its-comeback-bid",
-        "source": "Bloomberg Markets",
-        "weight": 0.7919,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.6378254568843266,
+          "price_change_24h": 21.3599
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5540777292179699,
-          "price_change_24h": 0.00181
+          "volume_mcap_ratio": 0.5515659349058044,
+          "price_change_24h": -0.0063
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.47284392395923197,
-          "price_change_24h": -0.04474
+          "volume_mcap_ratio": 0.46435314174591047,
+          "price_change_24h": -0.03803
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-24",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5265,
-      "crypto_high": 0.5704,
-      "crypto_low": 0.4668,
-      "global_avg": 0.4533,
-      "global_high": 0.4982,
-      "global_low": 0.4202,
-      "combined_avg": 0.5159,
-      "combined_high": 0.5467,
-      "combined_low": 0.4715
-    },
-    "market_indicators_24h": {
-      "change24h": 0.023,
-      "vol": 0.086,
-      "fearGreed": 44,
-      "momentum": 0.395,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-24T19:53:56.327969+00:00"
   }
 }
