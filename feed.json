@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-24T01:52:55.754088+00:00",
+  "updated_at": "2025-09-24T04:28:58.717026+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.084,
+    "change24h": -0.026,
+    "vol": 0.104,
     "fearGreed": 44,
-    "momentum": 0.115,
-    "regime": "sideways",
+    "momentum": -0.451,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4668,
-    "global_sentiment": 0.4573,
-    "combined_sentiment": 0.4715,
-    "confidence": 0.7798,
+    "crypto_sentiment": 0.5228,
+    "global_sentiment": 0.4982,
+    "combined_sentiment": 0.517,
+    "confidence": 0.7514,
     "counts": {
-      "crypto": 69,
-      "global": 32
+      "crypto": 66,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 112447,
-      "btc_change_24h": 0.15,
-      "eth_price": 4192.77,
-      "eth_change_24h": 0.55,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "btc_price": 111836,
+      "btc_change_24h": -0.19,
+      "eth_price": 4117.51,
+      "eth_change_24h": -1.27,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 216131914217,
+        "volume_24h": 216207397608,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.3,
+        "btc_dominance": 56.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-10T12:50:03.482923+00:00",
-      "crypto": 0.5577,
-      "global": 0.6992,
-      "combined": 0.5599,
-      "counts": {
-        "crypto": 64,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-10T16:30:34.279310+00:00",
       "crypto": 0.5571,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 32
       }
+    },
+    {
+      "ts": "2025-09-24T04:28:58.717026+00:00",
+      "crypto": 0.5228,
+      "global": 0.4982,
+      "combined": 0.517,
+      "counts": {
+        "crypto": 66,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Crypto millionaires at record level with ‘watershed year for institutional adoption’",
+        "url": "https://cointelegraph.com/news/crypto-millionaire-count-rises-40-percent-in-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7894,
+        "score": 1.0
+      },
+      {
         "title": "Argentina Gets Lenders to Pledge Help, But No US Firepower Yet",
         "url": "https://www.bloomberg.com/news/articles/2025-09-24/argentina-gets-lenders-to-pledge-help-but-no-us-firepower-yet",
         "source": "Bloomberg Markets",
-        "weight": 0.7566,
+        "weight": 0.5602,
         "score": 0.6667
       },
       {
         "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge up after Wall Street's record-setting rally stalls",
         "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-edge-up-after-wall-streets-record-setting-rally-stalls-230354377.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5778,
+        "weight": 0.4278,
         "score": 0.8667
-      },
-      {
-        "title": "Morgan Stanley to kick off proprietary crypto trading services via digital platform in 2026",
-        "url": "https://cryptoslate.com/morgan-stanley-to-kick-off-proprietary-crypto-trading-services-via-digital-platform-in-2026/",
-        "source": "CryptoSlate",
-        "weight": 0.3699,
-        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Stocks Lower, Powell Reiterates 'No Risk-Free Pat' For Fed | The Close 9/23/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-23/the-close-9-23-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5738,
-        "score": -0.9667
-      },
-      {
         "title": "FTX Trust seeks to claw back $1B from Genesis Digital",
         "url": "https://cointelegraph.com/news/ftx-trust-genesis-digital-sam-bankman-fried-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5118,
+        "weight": 0.379,
         "score": -1.0
       },
       {
         "title": "Bitcoin’s ‘supply in loss’ doubled as price dipped below $112k",
         "url": "https://cryptoslate.com/bitcoins-supply-in-loss-doubled-as-price-dipped-below-112000/",
         "source": "CryptoSlate",
-        "weight": 0.6038,
+        "weight": 0.4471,
         "score": -0.6667
+      },
+      {
+        "title": "Judge denies Justin Sun’s bid to block Bloomberg over crypto holdings",
+        "url": "https://cointelegraph.com/news/judge-denies-justin-sun-bid-bloomberg-crypto-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.2675,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5477354023885561,
-          "price_change_24h": -0.04648
+          "volume_mcap_ratio": 0.5657722783855335,
+          "price_change_24h": -0.04614
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4905705866219156,
-          "price_change_24h": 0.03202
+          "volume_mcap_ratio": 0.5346109720625339,
+          "price_change_24h": 1.00069
         }
       ],
       "momentum_shifts": []
