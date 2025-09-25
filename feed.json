@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-24T20:27:38.011781+00:00",
+  "updated_at": "2025-09-25T01:53:41.025262+00:00",
   "indicators": {
-    "change24h": 0.021,
-    "vol": 0.079,
+    "change24h": -0.023,
+    "vol": 0.105,
     "fearGreed": 44,
-    "momentum": 0.374,
+    "momentum": -0.403,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5263,
-    "global_sentiment": 0.3995,
-    "combined_sentiment": 0.5113,
-    "confidence": 0.8109,
+    "crypto_sentiment": 0.6019,
+    "global_sentiment": 0.4508,
+    "combined_sentiment": 0.5724,
+    "confidence": 0.7609,
     "counts": {
-      "crypto": 60,
-      "global": 43
+      "crypto": 59,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 113612,
-      "btc_change_24h": 1.65,
-      "eth_price": 4164.23,
-      "eth_change_24h": 0.27,
+      "btc_price": 112629,
+      "btc_change_24h": 0.15,
+      "eth_price": 4093.16,
+      "eth_change_24h": -2.36,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 218546011824,
+        "volume_24h": 232861257805,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.48,
+        "btc_dominance": 56.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-11T08:31:52.725317+00:00",
-      "crypto": 0.4899,
-      "global": 0.533,
-      "combined": 0.4952,
-      "counts": {
-        "crypto": 76,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-09-11T12:49:18.534721+00:00",
       "crypto": 0.5151,
@@ -1008,71 +998,81 @@
         "crypto": 60,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-09-25T01:53:41.025262+00:00",
+      "crypto": 0.6019,
+      "global": 0.4508,
+      "combined": 0.5724,
+      "counts": {
+        "crypto": 59,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq slip for 2nd day in a row as Fed sends mixed signals, Alibaba plans AI push",
-        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slip-for-2nd-day-in-a-row-as-fed-sends-mixed-signals-alibaba-plans-ai-push-200103891.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7601,
-        "score": 1.0
+        "title": "Crypto Millionaires Surge 40%, Led by Bitcoin's Rise, as Market Hits $3.3 Trillion",
+        "url": "https://www.coindesk.com/business/2025/09/24/crypto-millionaires-surge-40-led-by-bitcoin-s-rise-as-market-hits-usd3-3-trillion",
+        "source": "CoinDesk",
+        "weight": 0.6199,
+        "score": 0.8667
       },
       {
-        "title": "Bitcoin rallies to $113.9K as bullish divergence points to trend reversal",
-        "url": "https://cointelegraph.com/news/bitcoin-rallies-to-dollar113-9k-as-bullish-divergence-points-to-trend-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5642,
-        "score": 1.0
+        "title": "EU Commissioner Jozef Sikela on Global Competitiveness",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-25/eu-commissioner-jozef-sikela-on-global-competitiveness-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6877,
+        "score": 0.5833
       },
       {
-        "title": "How major US stock indexes fared Wednesday, 9/24/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-202020829.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7888,
-        "score": 0.6667
+        "title": "OpenAI's Lane Dilg on global AI and Tech",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-25/openai-s-lane-dilg-on-global-ai-and-tech-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6551,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 15, 2025",
-        "url": "https://finance.yahoo.com/news/nasdaq-announces-mid-month-open-200500884.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7659,
-        "score": -0.9667
-      },
-      {
-        "title": "US Equity Indexes Head for Second Straight Decline; Treasury Yields Rise",
-        "url": "https://finance.yahoo.com/news/us-equity-indexes-head-second-195011656.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7443,
-        "score": -0.9667
-      },
-      {
-        "title": "AI can now pass the hardest level of the CFA exam in a matter of minutes",
-        "url": "https://www.cnbc.com/2025/09/24/ai-cfa-exam-pass-minutes-study.html",
+        "title": "Here's why Jim Cramer is more cautious on speculative stocks",
+        "url": "https://www.cnbc.com/2025/09/24/heres-why-jim-cramer-is-more-cautious-on-speculative-stocks.html",
         "source": "CNBC Markets",
-        "weight": 0.5618,
-        "score": -0.9333
+        "weight": 0.5593,
+        "score": -0.6333
+      },
+      {
+        "title": "Tech Shares Drop While Alibaba Ups AI Spending | The Close 9/24/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-24/the-close-9-24-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5421,
+        "score": -0.6333
+      },
+      {
+        "title": "1 ICE detainee dead, 2 wounded in Dallas shooting; gunman identified",
+        "url": "https://www.cnbc.com/2025/09/24/ice-shooting-dallas-noem.html",
+        "source": "CNBC Markets",
+        "weight": 0.4567,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.6378254568843266,
-          "price_change_24h": 21.3599
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.5515659349058044,
-          "price_change_24h": -0.0063
+          "volume_mcap_ratio": 0.6321318648518865,
+          "price_change_24h": 10.88228
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.46435314174591047,
-          "price_change_24h": -0.03803
+          "volume_mcap_ratio": 0.6068763396009776,
+          "price_change_24h": 0.01223
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.5781163989872807,
+          "price_change_24h": -0.00098
         }
       ],
       "momentum_shifts": []
