@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-25T19:53:41.785523+00:00",
+  "updated_at": "2025-09-25T20:27:06.014840+00:00",
   "indicators": {
-    "change24h": -0.098,
-    "vol": 0.223,
+    "change24h": -0.102,
+    "vol": 0.229,
     "fearGreed": 44,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3744,
-    "global_sentiment": 0.4945,
-    "combined_sentiment": 0.4054,
-    "confidence": 0.7938,
+    "crypto_sentiment": 0.3838,
+    "global_sentiment": 0.485,
+    "combined_sentiment": 0.4116,
+    "confidence": 0.7923,
     "counts": {
       "crypto": 55,
-      "global": 37
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 109386,
-      "btc_change_24h": -3.55,
-      "eth_price": 3916.75,
-      "eth_change_24h": -5.95,
+      "btc_price": 109345,
+      "btc_change_24h": -3.76,
+      "eth_price": 3907.39,
+      "eth_change_24h": -6.16,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 363611166908,
+        "volume_24h": 365907222160,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.74,
+        "btc_dominance": 56.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-12T04:27:27.114399+00:00",
-      "crypto": 0.5481,
-      "global": 0.5881,
-      "combined": 0.5434,
-      "counts": {
-        "crypto": 67,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-12T08:31:28.274973+00:00",
       "crypto": 0.6009,
@@ -1008,30 +998,40 @@
         "crypto": 55,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-09-25T20:27:06.014840+00:00",
+      "crypto": 0.3838,
+      "global": 0.485,
+      "combined": 0.4116,
+      "counts": {
+        "crypto": 55,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Starbucks to Close Stores, NFL's Patriots Sell 8% Stake | Open Interest 9/25/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-25/open-interest-9-25-2025-video",
+        "title": "Nscale Raises $1 Billion, Data Center Frenzy Continues",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-25/nscale-raises-1-billion-data-center-frenzy-continues-video",
         "source": "Bloomberg Markets",
-        "weight": 0.652,
-        "score": 0.9167
-      },
-      {
-        "title": "There's 'more juice' in this market rally heading into October",
-        "url": "https://finance.yahoo.com/video/theres-more-juice-market-rally-153553395.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.487,
-        "score": 1.0
+        "weight": 0.783,
+        "score": 0.5833
       },
       {
         "title": "Plasma Debuts XPL at Massive Multiple of ICO Price—And Hands Out Millions in Free Tokens",
         "url": "https://decrypt.co/341345/plasma-debuts-xpl-at-massive-multiple-of-ico-price-and-hands-out-millions-in-free-tokens",
         "source": "Decrypt",
-        "weight": 0.4987,
+        "weight": 0.4677,
         "score": 0.9667
+      },
+      {
+        "title": "The biggest wealth drivers, factors amid the market rally",
+        "url": "https://finance.yahoo.com/video/biggest-wealth-drivers-factors-amid-191500299.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6963,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Amazon Reaches $2.5 Billion Settlement With the FTC Over Prime Case",
         "url": "https://finance.yahoo.com/m/533997ea-9219-3f99-8a2d-202815e093c7/amazon-reaches-%242.5-billion.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6402,
+        "weight": 0.6004,
         "score": -1.0
       },
       {
         "title": "Crypto Liquidations Top $1B as Bitcoin, Ether, Solana Selloffs Worsen",
         "url": "https://www.coindesk.com/markets/2025/09/25/crypto-liquidations-top-usd1b-as-bitcoin-ether-solana-selloffs-worsen",
         "source": "CoinDesk",
-        "weight": 0.8674,
+        "weight": 0.8134,
         "score": -0.6667
       },
       {
         "title": "Bitcoin Falls Below $111K, Crypto Stocks Plunge as GDP Revision Dampens Rate Cut Odds",
         "url": "https://www.coindesk.com/markets/2025/09/25/bitcoin-falls-below-usd111k-crypto-stocks-plunge-as-gdp-revision-dampens-rate-cut-odds",
         "source": "CoinDesk",
-        "weight": 0.5704,
+        "weight": 0.5348,
         "score": -0.9667
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8994682455841015,
-          "price_change_24h": -0.00468
+          "volume_mcap_ratio": 0.9074712859400457,
+          "price_change_24h": 0.00505
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.8049004265781065,
-          "price_change_24h": -12.85726
+          "volume_mcap_ratio": 0.8056879541634048,
+          "price_change_24h": -13.85094
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.625858278833869,
-          "price_change_24h": -0.17596
+          "volume_mcap_ratio": 0.6662332224959887,
+          "price_change_24h": -0.02272
         }
       ],
       "momentum_shifts": []
@@ -1080,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-09-25",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4601,
-      "crypto_high": 0.6019,
-      "crypto_low": 0.3744,
-      "global_avg": 0.4232,
-      "global_high": 0.4945,
-      "global_low": 0.3167,
-      "combined_avg": 0.4637,
-      "combined_high": 0.5724,
-      "combined_low": 0.4001
-    },
-    "market_indicators_24h": {
-      "change24h": -0.098,
-      "vol": 0.223,
-      "fearGreed": 44,
-      "momentum": -1.0,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-09-25T19:53:41.785523+00:00"
   }
 }
