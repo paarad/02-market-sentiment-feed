@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-25T01:53:41.025262+00:00",
+  "updated_at": "2025-09-25T04:29:06.134293+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.105,
+    "change24h": -0.021,
+    "vol": 0.109,
     "fearGreed": 44,
-    "momentum": -0.403,
-    "regime": "sideways",
+    "momentum": -0.365,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6019,
-    "global_sentiment": 0.4508,
-    "combined_sentiment": 0.5724,
-    "confidence": 0.7609,
+    "crypto_sentiment": 0.5816,
+    "global_sentiment": 0.4813,
+    "combined_sentiment": 0.5596,
+    "confidence": 0.7414,
     "counts": {
       "crypto": 59,
-      "global": 35
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 112629,
-      "btc_change_24h": 0.15,
-      "eth_price": 4093.16,
-      "eth_change_24h": -2.36,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 111888,
+      "btc_change_24h": -0.2,
+      "eth_price": 4033.89,
+      "eth_change_24h": -2.57,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 232861257805,
-        "high_activity_coins": 3
+        "volume_24h": 228631744953,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.65,
+        "btc_dominance": 56.75,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-11T12:49:18.534721+00:00",
-      "crypto": 0.5151,
-      "global": 0.4818,
-      "combined": 0.5098,
-      "counts": {
-        "crypto": 73,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-11T16:29:57.469994+00:00",
       "crypto": 0.5099,
@@ -1008,71 +998,76 @@
         "crypto": 59,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-09-25T04:29:06.134293+00:00",
+      "crypto": 0.5816,
+      "global": 0.4813,
+      "combined": 0.5596,
+      "counts": {
+        "crypto": 59,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Fonterra Expects NZ Dairy Farmers to Spend After Record Payout",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-25/fonterra-expects-nz-dairy-farmers-to-spend-after-record-payout",
+        "source": "Bloomberg Markets",
+        "weight": 0.6382,
+        "score": 1.0
+      },
+      {
         "title": "Crypto Millionaires Surge 40%, Led by Bitcoin's Rise, as Market Hits $3.3 Trillion",
         "url": "https://www.coindesk.com/business/2025/09/24/crypto-millionaires-surge-40-led-by-bitcoin-s-rise-as-market-hits-usd3-3-trillion",
         "source": "CoinDesk",
-        "weight": 0.6199,
+        "weight": 0.4596,
         "score": 0.8667
       },
       {
-        "title": "EU Commissioner Jozef Sikela on Global Competitiveness",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-25/eu-commissioner-jozef-sikela-on-global-competitiveness-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6877,
-        "score": 0.5833
-      },
-      {
-        "title": "OpenAI's Lane Dilg on global AI and Tech",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-25/openai-s-lane-dilg-on-global-ai-and-tech-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6551,
-        "score": 0.5833
+        "title": "Asian stock rally pauses for breath, yen struggles against crosses",
+        "url": "https://sg.finance.yahoo.com/news/asian-stock-rally-pauses-breath-023225983.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.639,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "First Brands Prepares for Chapter 11 Filing as Soon as Next Week",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-25/first-brands-prepares-for-ch-11-filing-as-soon-as-next-week",
+        "source": "Bloomberg Markets",
+        "weight": 0.5852,
+        "score": -0.9667
+      },
+      {
         "title": "Here's why Jim Cramer is more cautious on speculative stocks",
         "url": "https://www.cnbc.com/2025/09/24/heres-why-jim-cramer-is-more-cautious-on-speculative-stocks.html",
         "source": "CNBC Markets",
-        "weight": 0.5593,
+        "weight": 0.4147,
         "score": -0.6333
       },
       {
-        "title": "Tech Shares Drop While Alibaba Ups AI Spending | The Close 9/24/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-24/the-close-9-24-2025-video",
+        "title": "BP Kicks Off Pension Risk-Transfer in £1.6 Billion Deal With L&amp;G",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-25/bp-kicks-off-pension-risk-transfer-in-1-6-billion-deal-with-l-g",
         "source": "Bloomberg Markets",
-        "weight": 0.5421,
-        "score": -0.6333
-      },
-      {
-        "title": "1 ICE detainee dead, 2 wounded in Dallas shooting; gunman identified",
-        "url": "https://www.cnbc.com/2025/09/24/ice-shooting-dallas-noem.html",
-        "source": "CNBC Markets",
-        "weight": 0.4567,
-        "score": -0.6333
+        "weight": 0.7564,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "ASTER",
-          "volume_mcap_ratio": 0.6321318648518865,
-          "price_change_24h": 10.88228
-        },
-        {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6068763396009776,
-          "price_change_24h": 0.01223
+          "volume_mcap_ratio": 0.6394310387735044,
+          "price_change_24h": -1.10998
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5781163989872807,
-          "price_change_24h": -0.00098
+          "volume_mcap_ratio": 0.5815096954635238,
+          "price_change_24h": -0.02063
         }
       ],
       "momentum_shifts": []
