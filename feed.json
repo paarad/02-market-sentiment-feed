@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-25T08:32:55.623946+00:00",
+  "updated_at": "2025-09-25T12:52:52.876134+00:00",
   "indicators": {
-    "change24h": -0.044,
-    "vol": 0.145,
+    "change24h": -0.066,
+    "vol": 0.177,
     "fearGreed": 44,
-    "momentum": -0.766,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4069,
-    "global_sentiment": 0.4209,
-    "combined_sentiment": 0.4236,
-    "confidence": 0.739,
+    "crypto_sentiment": 0.3872,
+    "global_sentiment": 0.3167,
+    "combined_sentiment": 0.4001,
+    "confidence": 0.7502,
     "counts": {
-      "crypto": 57,
-      "global": 34
+      "crypto": 51,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 111987,
-      "btc_change_24h": -0.49,
-      "eth_price": 4030.33,
-      "eth_change_24h": -3.47,
+      "btc_price": 111299,
+      "btc_change_24h": -1.6,
+      "eth_price": 3995.46,
+      "eth_change_24h": -4.54,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 251296150604,
+        "volume_24h": 284024846658,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.81,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-11T19:53:47.458561+00:00",
-      "crypto": 0.5612,
-      "global": 0.598,
-      "combined": 0.5541,
-      "counts": {
-        "crypto": 64,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-09-11T20:22:21.070962+00:00",
       "crypto": 0.5529,
@@ -1008,52 +998,62 @@
         "crypto": 57,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-09-25T12:52:52.876134+00:00",
+      "crypto": 0.3872,
+      "global": 0.3167,
+      "combined": 0.4001,
+      "counts": {
+        "crypto": 51,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global investors, blindsided by stunning US comeback, jump back in",
-        "url": "https://finance.yahoo.com/news/analysis-global-investors-blindsided-stunning-063509317.html?.tsrc=rss",
+        "title": "These 2 Stocks Could Be Prime Takeover Targets, According to Analysts",
+        "url": "https://finance.yahoo.com/news/2-stocks-could-prime-takeover-101526132.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6377,
+        "weight": 0.5908,
         "score": 1.0
       },
       {
-        "title": "Asian stock rally pauses for breath, yen struggles against crosses",
-        "url": "https://uk.finance.yahoo.com/news/asian-stock-rally-pauses-breath-023225983.html?.tsrc=rss",
+        "title": "S&P 500, Nasdaq futures down as caution builds ahead of inflation data",
+        "url": "https://ca.finance.yahoo.com/news/wall-street-futures-flat-caution-100923335.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3996,
-        "score": 0.8667
+        "weight": 0.5839,
+        "score": 1.0
       },
       {
-        "title": "Chinese Tech Stocks Advance, Set for Record Winning Streak",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-25/chinese-tech-stocks-extend-rally-set-for-record-winning-streak",
+        "title": "Modi Hails Strong Ties with Russia Despite Trump Pressure",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-25/modi-backs-time-tested-ties-with-russia-despite-trump-pressure",
         "source": "Bloomberg Markets",
-        "weight": 0.5424,
-        "score": 0.5333
+        "weight": 0.4988,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "BBVA’s Improved Sabadell Bid Approved by Spanish Regulator CNMV",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-25/bbva-s-improved-sabadell-bid-approved-by-spanish-regulator-cnmv",
-        "source": "Bloomberg Markets",
-        "weight": 0.6779,
+        "title": "Bitcoin, Ether Struggle With Options Expiry Imminent: Crypto Daybook Americas",
+        "url": "https://www.coindesk.com/daybook-us/2025/09/25/bitcoin-ether-struggle-with-options-expiry-imminent-crypto-daybook-americas",
+        "source": "CoinDesk",
+        "weight": 0.8282,
+        "score": -0.9333
+      },
+      {
+        "title": "US Undiscovered Gems To Explore In September 2025",
+        "url": "https://finance.yahoo.com/news/us-undiscovered-gems-explore-september-113304827.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.686,
         "score": -0.9667
       },
       {
-        "title": "Ether Whale Books $45M Loss as ETH Falls Below $4K",
-        "url": "https://www.coindesk.com/markets/2025/09/25/ether-whale-books-usd45m-loss-as-eth-falls-below-usd4k",
-        "source": "CoinDesk",
-        "weight": 0.9648,
-        "score": -0.6667
-      },
-      {
-        "title": "Europe Risks Falling Behind US on Stablecoins, Villeroy Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-25/europe-risks-falling-behind-us-on-stablecoins-villeroy-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.5959,
+        "title": "Ethereum dips below $4,000 sparking $183 million losses for traders",
+        "url": "https://cryptoslate.com/ethereum-briefly-dips-below-4000-sparking-183-million-losses-for-traders/",
+        "source": "CryptoSlate",
+        "weight": 0.6068,
         "score": -1.0
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.723373069121322,
-          "price_change_24h": -9.96639
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6679837737660071,
-          "price_change_24h": 0.01816
+          "volume_mcap_ratio": 0.7284012586571194,
+          "price_change_24h": -14.14769
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6254340326166256,
-          "price_change_24h": 0.00834
+          "volume_mcap_ratio": 0.6840932075131737,
+          "price_change_24h": 0.01522
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.6757948416296483,
+          "price_change_24h": 0.21051
         }
       ],
       "momentum_shifts": []
