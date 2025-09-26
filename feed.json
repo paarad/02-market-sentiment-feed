@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-26T08:33:26.512402+00:00",
+  "updated_at": "2025-09-26T12:51:22.916333+00:00",
   "indicators": {
-    "change24h": -0.041,
-    "vol": 0.122,
+    "change24h": -0.029,
+    "vol": 0.158,
     "fearGreed": 28,
-    "momentum": -0.72,
+    "momentum": -0.508,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.414,
-    "global_sentiment": 0.3534,
-    "combined_sentiment": 0.4233,
-    "confidence": 0.735,
+    "crypto_sentiment": 0.4051,
+    "global_sentiment": 0.2483,
+    "combined_sentiment": 0.4078,
+    "confidence": 0.7474,
     "counts": {
-      "crypto": 58,
-      "global": 31
+      "crypto": 55,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 109622,
-      "btc_change_24h": -2.06,
-      "eth_price": 3943.32,
-      "eth_change_24h": -2.07,
+      "btc_price": 109499,
+      "btc_change_24h": -1.62,
+      "eth_price": 3940.73,
+      "eth_change_24h": -1.38,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 361546687448,
-        "high_activity_coins": 3
+        "volume_24h": 362208961885,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 56.77,
+        "btc_dominance": 56.76,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-12T19:53:21.997846+00:00",
-      "crypto": 0.6115,
-      "global": 0.592,
-      "combined": 0.5913,
-      "counts": {
-        "crypto": 62,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-09-12T20:25:17.423603+00:00",
       "crypto": 0.6449,
@@ -1008,71 +998,81 @@
         "crypto": 58,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-09-26T12:51:22.916333+00:00",
+      "crypto": 0.4051,
+      "global": 0.2483,
+      "combined": 0.4078,
+      "counts": {
+        "crypto": 55,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Noba Bank’s Shares Jump on Debut in Latest Win for Stockholm",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-26/noba-bank-s-shares-jump-on-debut-in-latest-win-for-stockholm",
-        "source": "Bloomberg Markets",
-        "weight": 0.6779,
-        "score": 1.0
+        "title": "UK Finance pilots tokenized sterling deposits with six major banks",
+        "url": "https://cointelegraph.com/news/uk-finance-tokenized-sterling-deposits-barclays-hsbc-quant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6516,
+        "score": 0.5833
       },
       {
-        "title": "Rate Cuts, Options Expiry Put Bitcoin at a Crossroads",
-        "url": "https://decrypt.co/341511/rate-cuts-options-expiry-bitcoin-crossroads",
-        "source": "Decrypt",
-        "weight": 0.4679,
-        "score": 0.5333
+        "title": "BlackRock exec says crypto ETF institutional adoption still early, XRP and SOL ETFs unconfirmed",
+        "url": "https://cryptoslate.com/blackrock-exec-says-crypto-etf-institutional-adoption-still-early-xrp-and-sol-etfs-unconfirmed/",
+        "source": "CryptoSlate",
+        "weight": 0.5501,
+        "score": 0.6667
       },
       {
-        "title": "China Inaugurates Digital Yuan Operation Centre to Push CBDC Integration: Report",
-        "url": "https://www.coindesk.com/policy/2025/09/26/china-inaugurates-digital-yuan-operation-centre-to-push-cbdc-integration-report",
-        "source": "CoinDesk",
-        "weight": 0.7252,
-        "score": 0.3333
+        "title": "Global Growth Companies With High Insider Ownership To Watch",
+        "url": "https://finance.yahoo.com/news/global-growth-companies-high-insider-093540275.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5488,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Elon Musk's xAI Sues OpenAI Again, This Time Over Alleged Trade Secret Theft",
-        "url": "https://decrypt.co/341517/elon-musks-xai-sues-openai-again-this-time-over-alleged-trade-secret-theft",
-        "source": "Decrypt",
-        "weight": 0.7579,
+        "title": "Braskem Debt Tumbles After Advisers Hired to Boost Finances",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-26/brazil-s-braskem-hires-advisers-to-optimize-capital-structure",
+        "source": "Bloomberg Markets",
+        "weight": 0.7568,
+        "score": -0.9667
+      },
+      {
+        "title": "Tiktok $14B US Spin-off App, Trump Plans 100% Tariffs on Patented Drugs | The Opening Trade 9/26",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-26/the-opening-trade-9-26-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6649,
         "score": -1.0
       },
       {
-        "title": "Trump’s Tariff Threat Spotlights Drugmakers’ US Factory Progress",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-26/trump-s-tariff-threat-spotlights-drugmakers-us-factory-progress",
-        "source": "Bloomberg Markets",
-        "weight": 0.6795,
-        "score": -0.9333
-      },
-      {
-        "title": "Booming Black Market for Tobacco Prompts Crackdown in Australia",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-26/australia-plans-crackdown-on-explosion-in-tobacco-black-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.5733,
-        "score": -0.9667
+        "title": "Crypto needs dual wallet management, AI monitoring of North Korean hackers",
+        "url": "https://cointelegraph.com/news/crypto-dual-wallet-ai-monitoring-for-north-korean-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.633,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8971279034502506,
-          "price_change_24h": 0.05172
+          "volume_mcap_ratio": 0.8902117189191137,
+          "price_change_24h": 0.02288
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.7621852680594036,
-          "price_change_24h": -11.12083
+          "volume_mcap_ratio": 0.713727785685942,
+          "price_change_24h": -5.06841
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5505580904545442,
-          "price_change_24h": 0.06276
+          "volume_mcap_ratio": 0.558791685593645,
+          "price_change_24h": 0.00358
         }
       ],
       "momentum_shifts": []
