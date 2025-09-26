@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-26T12:51:22.916333+00:00",
+  "updated_at": "2025-09-26T16:30:49.903929+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.158,
+    "change24h": -0.008,
+    "vol": 0.156,
     "fearGreed": 28,
-    "momentum": -0.508,
-    "regime": "bear",
+    "momentum": -0.133,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4051,
-    "global_sentiment": 0.2483,
-    "combined_sentiment": 0.4078,
-    "confidence": 0.7474,
+    "crypto_sentiment": 0.5135,
+    "global_sentiment": 0.549,
+    "combined_sentiment": 0.5142,
+    "confidence": 0.7712,
     "counts": {
-      "crypto": 55,
-      "global": 38
+      "crypto": 57,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 109499,
-      "btc_change_24h": -1.62,
-      "eth_price": 3940.73,
-      "eth_change_24h": -1.38,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 109561,
+      "btc_change_24h": -1.53,
+      "eth_price": 3981.36,
+      "eth_change_24h": 0.24,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 362208961885,
-        "high_activity_coins": 4
+        "volume_24h": 338688812172,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.76,
+        "btc_dominance": 56.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-12T20:25:17.423603+00:00",
-      "crypto": 0.6449,
-      "global": 0.5101,
-      "combined": 0.6095,
-      "counts": {
-        "crypto": 64,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-13T01:44:30.358722+00:00",
       "crypto": 0.6704,
@@ -1008,71 +998,81 @@
         "crypto": 55,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-09-26T16:30:49.903929+00:00",
+      "crypto": 0.5135,
+      "global": 0.549,
+      "combined": 0.5142,
+      "counts": {
+        "crypto": 57,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "UK Finance pilots tokenized sterling deposits with six major banks",
-        "url": "https://cointelegraph.com/news/uk-finance-tokenized-sterling-deposits-barclays-hsbc-quant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6516,
-        "score": 0.5833
+        "title": "Argentina Debt Has Best Week Since 2022 on ‘Circuit Breaker’ Aid",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-26/argentina-debt-has-best-week-since-2022-on-circuit-breaker-aid",
+        "source": "Bloomberg Markets",
+        "weight": 0.719,
+        "score": 1.0
       },
       {
-        "title": "BlackRock exec says crypto ETF institutional adoption still early, XRP and SOL ETFs unconfirmed",
-        "url": "https://cryptoslate.com/blackrock-exec-says-crypto-etf-institutional-adoption-still-early-xrp-and-sol-etfs-unconfirmed/",
-        "source": "CryptoSlate",
-        "weight": 0.5501,
-        "score": 0.6667
-      },
-      {
-        "title": "Global Growth Companies With High Insider Ownership To Watch",
-        "url": "https://finance.yahoo.com/news/global-growth-companies-high-insider-093540275.html?.tsrc=rss",
+        "title": "Youxin Technology Ltd Receives Nasdaq Delisting Determination, Plans to Appeal, and Announces 1-for-80 Share Consolidation",
+        "url": "https://finance.yahoo.com/news/youxin-technology-ltd-receives-nasdaq-154500904.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5488,
+        "weight": 0.7324,
+        "score": 0.9667
+      },
+      {
+        "title": "Stock Market Today: Dow Climbs, Led By Boeing; Palantir Extends Losses (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/cbdc7a8a-132d-3ef8-8df9-711d5909e751/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7653,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Iraq’s Long-Awaited Oil Pipeline Restart Is Greeted With a Shrug",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-26/iraq-s-long-awaited-oil-pipeline-restart-is-greeted-with-a-shrug",
+        "source": "Bloomberg Markets",
+        "weight": 0.6617,
+        "score": -0.9333
+      },
+      {
+        "title": "Russian Diesel Exports Rise Though Wider Fuel-Supply Woes Linger",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-26/russian-diesel-exports-rise-though-wider-fuel-supply-woes-linger",
+        "source": "Bloomberg Markets",
+        "weight": 0.6252,
+        "score": -0.9333
+      },
+      {
         "title": "Braskem Debt Tumbles After Advisers Hired to Boost Finances",
         "url": "https://www.bloomberg.com/news/articles/2025-09-26/brazil-s-braskem-hires-advisers-to-optimize-capital-structure",
         "source": "Bloomberg Markets",
-        "weight": 0.7568,
+        "weight": 0.496,
         "score": -0.9667
-      },
-      {
-        "title": "Tiktok $14B US Spin-off App, Trump Plans 100% Tariffs on Patented Drugs | The Opening Trade 9/26",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-26/the-opening-trade-9-26-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6649,
-        "score": -1.0
-      },
-      {
-        "title": "Crypto needs dual wallet management, AI monitoring of North Korean hackers",
-        "url": "https://cointelegraph.com/news/crypto-dual-wallet-ai-monitoring-for-north-korean-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.633,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8902117189191137,
-          "price_change_24h": 0.02288
+          "volume_mcap_ratio": 0.8497492472635862,
+          "price_change_24h": 0.00034
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.713727785685942,
-          "price_change_24h": -5.06841
+          "volume_mcap_ratio": 0.6078005670829555,
+          "price_change_24h": 1.96237
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.558791685593645,
-          "price_change_24h": 0.00358
+          "volume_mcap_ratio": 0.5490624566167244,
+          "price_change_24h": -0.10814
         }
       ],
       "momentum_shifts": []
