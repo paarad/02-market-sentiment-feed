@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-25T20:27:06.014840+00:00",
+  "updated_at": "2025-09-26T01:52:50.239074+00:00",
   "indicators": {
-    "change24h": -0.102,
-    "vol": 0.229,
-    "fearGreed": 44,
+    "change24h": -0.069,
+    "vol": 0.182,
+    "fearGreed": 28,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3838,
-    "global_sentiment": 0.485,
-    "combined_sentiment": 0.4116,
-    "confidence": 0.7923,
+    "crypto_sentiment": 0.3529,
+    "global_sentiment": 0.3944,
+    "combined_sentiment": 0.3809,
+    "confidence": 0.764,
     "counts": {
-      "crypto": 55,
-      "global": 39
+      "crypto": 57,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 109345,
-      "btc_change_24h": -3.76,
-      "eth_price": 3907.39,
-      "eth_change_24h": -6.16,
+      "btc_price": 109693,
+      "btc_change_24h": -2.65,
+      "eth_price": 3941.97,
+      "eth_change_24h": -3.75,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 44,
+        "value": 28,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 365907222160,
+        "volume_24h": 379434227803,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.78,
+        "btc_dominance": 56.77,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-12T08:31:28.274973+00:00",
-      "crypto": 0.6009,
-      "global": 0.4735,
-      "combined": 0.5734,
-      "counts": {
-        "crypto": 66,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-09-12T12:48:25.859389+00:00",
       "crypto": 0.5226,
@@ -1008,71 +998,81 @@
         "crypto": 55,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-26T01:52:50.239074+00:00",
+      "crypto": 0.3529,
+      "global": 0.3944,
+      "combined": 0.3809,
+      "counts": {
+        "crypto": 57,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nscale Raises $1 Billion, Data Center Frenzy Continues",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-25/nscale-raises-1-billion-data-center-frenzy-continues-video",
+        "title": "Intel Investors Snap Up Bullish Options to Chase Furious Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-25/intel-investors-snap-up-bullish-options-to-chase-furious-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.783,
-        "score": 0.5833
+        "weight": 0.4509,
+        "score": 1.0
       },
       {
-        "title": "Plasma Debuts XPL at Massive Multiple of ICO Price—And Hands Out Millions in Free Tokens",
-        "url": "https://decrypt.co/341345/plasma-debuts-xpl-at-massive-multiple-of-ico-price-and-hands-out-millions-in-free-tokens",
-        "source": "Decrypt",
-        "weight": 0.4677,
-        "score": 0.9667
+        "title": "‘Supercycle’ May Prolong $100 Billion Rally in Korean Chipmakers",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-26/-supercycle-may-prolong-100-billion-rally-in-korean-chipmakers",
+        "source": "Bloomberg Markets",
+        "weight": 0.6438,
+        "score": 0.5333
       },
       {
-        "title": "The biggest wealth drivers, factors amid the market rally",
-        "url": "https://finance.yahoo.com/video/biggest-wealth-drivers-factors-amid-191500299.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6963,
+        "title": "Asian Shares Decline, Trump Tariffs Spook Pharma: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-25/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.5496,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Amazon Reaches $2.5 Billion Settlement With the FTC Over Prime Case",
-        "url": "https://finance.yahoo.com/m/533997ea-9219-3f99-8a2d-202815e093c7/amazon-reaches-%242.5-billion.html?.tsrc=rss",
+        "title": "Stocks struggle as Trump slaps new tariffs, Fed cut bets unwind",
+        "url": "https://finance.yahoo.com/news/stocks-struggle-trump-slaps-tariffs-012609728.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6004,
+        "weight": 0.7599,
+        "score": -0.9333
+      },
+      {
+        "title": "New Book on AI Says 'Everyone Dies,' Leading Chatbots Disagree",
+        "url": "https://decrypt.co/341501/new-book-on-ai-says-everyone-dies-ai-chatbots-disagree",
+        "source": "Decrypt",
+        "weight": 0.6943,
         "score": -1.0
       },
       {
-        "title": "Crypto Liquidations Top $1B as Bitcoin, Ether, Solana Selloffs Worsen",
-        "url": "https://www.coindesk.com/markets/2025/09/25/crypto-liquidations-top-usd1b-as-bitcoin-ether-solana-selloffs-worsen",
-        "source": "CoinDesk",
-        "weight": 0.8134,
-        "score": -0.6667
-      },
-      {
-        "title": "Bitcoin Falls Below $111K, Crypto Stocks Plunge as GDP Revision Dampens Rate Cut Odds",
-        "url": "https://www.coindesk.com/markets/2025/09/25/bitcoin-falls-below-usd111k-crypto-stocks-plunge-as-gdp-revision-dampens-rate-cut-odds",
-        "source": "CoinDesk",
-        "weight": 0.5348,
-        "score": -0.9667
+        "title": "U.S. to impose 100% tariff on branded, patented drugs unless firms build plants locally, Trump says",
+        "url": "https://www.cnbc.com/2025/09/26/us-to-impose-100percent-tariff-on-branded-patented-drugs-unless-firms-build-plants-locally-trump-says.html",
+        "source": "CNBC Markets",
+        "weight": 0.6829,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9074712859400457,
-          "price_change_24h": 0.00505
+          "volume_mcap_ratio": 0.9427839174233417,
+          "price_change_24h": 0.02561
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.8056879541634048,
-          "price_change_24h": -13.85094
+          "volume_mcap_ratio": 0.9080744891290085,
+          "price_change_24h": -22.89892
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6662332224959887,
-          "price_change_24h": -0.02272
+          "volume_mcap_ratio": 0.6085377451843904,
+          "price_change_24h": -0.06693
         }
       ],
       "momentum_shifts": []
