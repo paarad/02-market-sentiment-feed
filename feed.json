@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-27T04:27:37.505532+00:00",
+  "updated_at": "2025-09-27T08:27:48.294490+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.067,
+    "change24h": 0.024,
+    "vol": 0.071,
     "fearGreed": 33,
-    "momentum": 0.496,
+    "momentum": 0.423,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3873,
-    "global_sentiment": 0.4924,
-    "combined_sentiment": 0.4148,
-    "confidence": 0.7201,
+    "crypto_sentiment": 0.3652,
+    "global_sentiment": 0.4036,
+    "combined_sentiment": 0.3908,
+    "confidence": 0.7037,
     "counts": {
-      "crypto": 64,
-      "global": 31
+      "crypto": 67,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 109638,
-      "btc_change_24h": 0.16,
-      "eth_price": 4021.98,
-      "eth_change_24h": 1.37,
+      "btc_price": 109362,
+      "btc_change_24h": -0.15,
+      "eth_price": 3997.59,
+      "eth_change_24h": 1.54,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 260470565957,
+        "volume_24h": 222313477244,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.34,
+        "btc_dominance": 56.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-13T16:25:27.514847+00:00",
-      "crypto": 0.4739,
-      "global": 0.5848,
-      "combined": 0.4875,
-      "counts": {
-        "crypto": 63,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-09-13T19:53:52.032358+00:00",
       "crypto": 0.4858,
@@ -1008,71 +998,81 @@
         "crypto": 64,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-09-27T08:27:48.294490+00:00",
+      "crypto": 0.3652,
+      "global": 0.4036,
+      "combined": 0.3908,
+      "counts": {
+        "crypto": 67,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Several Solana staking ETFs may win US approval within two weeks: Analyst",
+        "url": "https://cointelegraph.com/news/solana-staking-etfs-us-approval-prediction-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.574,
+        "score": 0.5833
+      },
+      {
         "title": "Chinese Industrial Profits Jump in August, Reversing Drop",
         "url": "https://www.bloomberg.com/news/articles/2025-09-27/chinese-industrial-profits-jump-in-august-reversing-declines",
         "source": "Bloomberg Markets",
-        "weight": 0.628,
+        "weight": 0.3955,
         "score": 0.5333
       },
       {
-        "title": "Bitcoin’s 2025 cycle dip mirrors 2017 – could $200k be next?",
-        "url": "https://cryptoslate.com/bitcoins-2025-cycle-mirrors-2017-could-200k-be-next/",
-        "source": "CryptoSlate",
-        "weight": 0.5183,
-        "score": 0.5333
-      },
-      {
-        "title": "Kraken in Strategic Investor Talks at $20 Billion Valuation",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-26/kraken-in-talks-with-strategic-investor-at-20-billion-valuation",
-        "source": "Bloomberg Markets",
-        "weight": 0.2794,
-        "score": 0.9667
+        "title": "Startup founders share how they bounced back from failure: ‘I lost a lot of my identity’",
+        "url": "https://www.cnbc.com/2025/09/27/startup-founders-share-how-they-bounced-back-from-failure.html",
+        "source": "CNBC Markets",
+        "weight": 0.6156,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Vitalik slams EU’s Chat Control: ‘We all deserve privacy and security’",
+        "url": "https://cointelegraph.com/news/vitalik-buterin-slams-eu-chat-control-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7011,
+        "score": -0.9667
+      },
+      {
+        "title": "Singapore May be Shielded from US Pharma Tariffs, Gan Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-27/singapore-may-be-shielded-from-us-pharma-tariffs-gan-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6765,
+        "score": -0.9333
+      },
       {
         "title": "Fear & Greed 33 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "XRP faces another 10% dip: When will bulls step in?",
-        "url": "https://cointelegraph.com/news/xrp-faces-another-10percent-dip-when-will-bulls-step-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5394,
-        "score": -0.5333
-      },
-      {
-        "title": "US to Impose 50% Tariff on Kitchen Cabinets, Bathroom Vanities",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-26/us-to-impose-50-tariff-on-cabinets-vanities-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3919,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6348577918270654,
-          "price_change_24h": 0.0092
+          "volume_mcap_ratio": 0.5565133350061394,
+          "price_change_24h": -0.02453
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.5026992103743527,
-          "price_change_24h": 7.73691
+          "volume_mcap_ratio": 0.4839585871735816,
+          "price_change_24h": 6.39924
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4652868528228472,
-          "price_change_24h": 0.03918
+          "volume_mcap_ratio": 0.3868780416200778,
+          "price_change_24h": 0.0256
         }
       ],
       "momentum_shifts": []
