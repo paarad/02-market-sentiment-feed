@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-26T20:25:55.889166+00:00",
+  "updated_at": "2025-09-27T01:48:20.333719+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.136,
-    "fearGreed": 28,
-    "momentum": 0.528,
+    "change24h": 0.027,
+    "vol": 0.099,
+    "fearGreed": 33,
+    "momentum": 0.47,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4239,
-    "global_sentiment": 0.4182,
-    "combined_sentiment": 0.4361,
-    "confidence": 0.7963,
+    "crypto_sentiment": 0.3912,
+    "global_sentiment": 0.4417,
+    "combined_sentiment": 0.4136,
+    "confidence": 0.7649,
     "counts": {
-      "crypto": 60,
-      "global": 40
+      "crypto": 64,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 109155,
-      "btc_change_24h": -0.25,
-      "eth_price": 4018.58,
-      "eth_change_24h": 2.89,
+      "btc_price": 109393,
+      "btc_change_24h": -0.34,
+      "eth_price": 4016.53,
+      "eth_change_24h": 1.81,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 28,
+        "value": 33,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 304696022456,
+        "volume_24h": 270107242744,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.32,
+        "btc_dominance": 56.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-13T08:27:49.276568+00:00",
-      "crypto": 0.6882,
-      "global": 0.459,
-      "combined": 0.6377,
-      "counts": {
-        "crypto": 60,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-13T12:42:57.697680+00:00",
       "crypto": 0.5355,
@@ -1008,71 +998,81 @@
         "crypto": 60,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-09-27T01:48:20.333719+00:00",
+      "crypto": 0.3912,
+      "global": 0.4417,
+      "combined": 0.4136,
+      "counts": {
+        "crypto": 64,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin’s 2025 cycle dip mirrors 2017 – could $200k be next?",
+        "url": "https://cryptoslate.com/bitcoins-2025-cycle-mirrors-2017-could-200k-be-next/",
+        "source": "CryptoSlate",
+        "weight": 0.7043,
+        "score": 0.5333
+      },
+      {
         "title": "Kraken in Strategic Investor Talks at $20 Billion Valuation",
         "url": "https://www.bloomberg.com/news/articles/2025-09-26/kraken-in-talks-with-strategic-investor-at-20-billion-valuation",
         "source": "Bloomberg Markets",
-        "weight": 0.7064,
+        "weight": 0.3797,
         "score": 0.9667
       },
       {
-        "title": "Ether supercycle debate, Circle reversibility plan and Aster’s surge: Finance Redefined",
-        "url": "https://cointelegraph.com/news/ether-supercycle-circle-reversibility-plan-aster-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.604,
-        "score": 0.8667
-      },
-      {
-        "title": "Stock Market Today: Dow Leads Afternoon Rally; Video Game Maker Soars On Deal News (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/cbdc7a8a-132d-3ef8-8df9-711d5909e751/stock-market-today%3A-dow-leads.html?.tsrc=rss",
+        "title": "Wall Street indexes end higher as investors weigh inflation data",
+        "url": "https://finance.yahoo.com/video/wall-street-indexes-end-higher-222922042.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7452,
+        "weight": 0.5454,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Drugs Made In America Acquisition II Corp. Announces Closing of $500,000,000 Initial Public Offering",
-        "url": "https://finance.yahoo.com/news/drugs-made-america-acquisition-ii-200500595.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7684,
-        "score": -0.9333
+        "title": "Fear & Greed 33 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Tricolor Crisis Managers Locked Out After Bankruptcy",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-26/tricolor-crisis-managers-locked-out-after-bankruptcy-video",
+        "title": "XRP faces another 10% dip: When will bulls step in?",
+        "url": "https://cointelegraph.com/news/xrp-faces-another-10percent-dip-when-will-bulls-step-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.733,
+        "score": -0.5333
+      },
+      {
+        "title": "US to Impose 50% Tariff on Kitchen Cabinets, Bathroom Vanities",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-26/us-to-impose-50-tariff-on-cabinets-vanities-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6728,
-        "score": -0.9667
-      },
-      {
-        "title": "UK’s New Digital ID Scheme ‘Target for Hackers’",
-        "url": "https://decrypt.co/341631/uks-new-digital-id-scheme-target-for-hackers",
-        "source": "Decrypt",
-        "weight": 0.62,
-        "score": -0.9667
+        "weight": 0.5325,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7402728250301192,
-          "price_change_24h": 0.02113
+          "volume_mcap_ratio": 0.6596116751312123,
+          "price_change_24h": -0.00088
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.5587116343697193,
-          "price_change_24h": 2.45662
+          "volume_mcap_ratio": 0.5184555933663434,
+          "price_change_24h": 13.15531
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5117787121791054,
-          "price_change_24h": 0.00039
+          "volume_mcap_ratio": 0.4544373727545081,
+          "price_change_24h": -0.01364
         }
       ],
       "momentum_shifts": []
