@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-27T08:27:48.294490+00:00",
+  "updated_at": "2025-09-27T12:44:38.523073+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.071,
+    "change24h": 0.027,
+    "vol": 0.075,
     "fearGreed": 33,
-    "momentum": 0.423,
+    "momentum": 0.48,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3652,
-    "global_sentiment": 0.4036,
-    "combined_sentiment": 0.3908,
-    "confidence": 0.7037,
+    "crypto_sentiment": 0.3559,
+    "global_sentiment": 0.5029,
+    "combined_sentiment": 0.3922,
+    "confidence": 0.625,
     "counts": {
-      "crypto": 67,
-      "global": 33
+      "crypto": 66,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 109362,
-      "btc_change_24h": -0.15,
-      "eth_price": 3997.59,
-      "eth_change_24h": 1.54,
+      "btc_price": 109451,
+      "btc_change_24h": 0.04,
+      "eth_price": 4008.95,
+      "eth_change_24h": 1.67,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 222313477244,
+        "volume_24h": 191766925304,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.39,
+        "btc_dominance": 56.37,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-13T19:53:52.032358+00:00",
-      "crypto": 0.4858,
-      "global": 0.6748,
-      "combined": 0.5039,
-      "counts": {
-        "crypto": 63,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-09-13T20:22:27.599746+00:00",
       "crypto": 0.4858,
@@ -1008,71 +998,81 @@
         "crypto": 67,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-09-27T12:44:38.523073+00:00",
+      "crypto": 0.3559,
+      "global": 0.5029,
+      "combined": 0.3922,
+      "counts": {
+        "crypto": 66,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Several Solana staking ETFs may win US approval within two weeks: Analyst",
-        "url": "https://cointelegraph.com/news/solana-staking-etfs-us-approval-prediction-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.574,
-        "score": 0.5833
-      },
-      {
-        "title": "Chinese Industrial Profits Jump in August, Reversing Drop",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-27/chinese-industrial-profits-jump-in-august-reversing-declines",
-        "source": "Bloomberg Markets",
-        "weight": 0.3955,
+        "title": "From PepsiCo to Taco Bell, dirty soda is taking over",
+        "url": "https://www.cnbc.com/2025/09/27/dirty-soda-swig-taco-bell-pepsico.html",
+        "source": "CNBC Markets",
+        "weight": 0.7341,
         "score": 0.5333
       },
       {
-        "title": "Startup founders share how they bounced back from failure: ‘I lost a lot of my identity’",
-        "url": "https://www.cnbc.com/2025/09/27/startup-founders-share-how-they-bounced-back-from-failure.html",
-        "source": "CNBC Markets",
-        "weight": 0.6156,
+        "title": "Resilience for the North American Auto Industry and for the City of New Orleans",
+        "url": "https://www.bloomberg.com/news/newsletters/2025-09-27/resilience-for-the-north-american-auto-industry-and-for-the-city-of-new-orleans",
+        "source": "Bloomberg Markets",
+        "weight": 0.7344,
         "score": 0.3333
+      },
+      {
+        "title": "Several Solana staking ETFs may win US approval within two weeks: Analyst",
+        "url": "https://cointelegraph.com/news/solana-staking-etfs-us-approval-prediction-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3501,
+        "score": 0.5833
       }
     ],
     "negative": [
-      {
-        "title": "Vitalik slams EU’s Chat Control: ‘We all deserve privacy and security’",
-        "url": "https://cointelegraph.com/news/vitalik-buterin-slams-eu-chat-control-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7011,
-        "score": -0.9667
-      },
-      {
-        "title": "Singapore May be Shielded from US Pharma Tariffs, Gan Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-27/singapore-may-be-shielded-from-us-pharma-tariffs-gan-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6765,
-        "score": -0.9333
-      },
       {
         "title": "Fear & Greed 33 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Vitalik slams EU’s Chat Control: ‘We all deserve privacy and security’",
+        "url": "https://cointelegraph.com/news/vitalik-buterin-slams-eu-chat-control-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4276,
+        "score": -0.9667
+      },
+      {
+        "title": "Singapore May be Shielded from US Pharma Tariffs, Gan Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-27/singapore-may-be-shielded-from-us-pharma-tariffs-gan-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.4126,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5565133350061394,
-          "price_change_24h": -0.02453
+          "volume_mcap_ratio": 0.48687245188674333,
+          "price_change_24h": -0.01194
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.4839585871735816,
-          "price_change_24h": 6.39924
+          "volume_mcap_ratio": 0.44810404674153015,
+          "price_change_24h": 9.09049
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3868780416200778,
-          "price_change_24h": 0.0256
+          "volume_mcap_ratio": 0.4190530656218903,
+          "price_change_24h": -0.00513
         }
       ],
       "momentum_shifts": []
