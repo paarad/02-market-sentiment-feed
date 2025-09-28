@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-28T12:45:21.209500+00:00",
+  "updated_at": "2025-09-28T16:26:04.418076+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.056,
+    "change24h": 0.003,
+    "vol": 0.062,
     "fearGreed": 37,
-    "momentum": -0.332,
-    "regime": "bear",
+    "momentum": 0.05,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5031,
-    "global_sentiment": 0.5085,
-    "combined_sentiment": 0.503,
-    "confidence": 0.4781,
+    "crypto_sentiment": 0.526,
+    "global_sentiment": 0.5288,
+    "combined_sentiment": 0.5219,
+    "confidence": 0.5916,
     "counts": {
       "crypto": 59,
-      "global": 41
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 109331,
-      "btc_change_24h": -0.1,
-      "eth_price": 3978.08,
-      "eth_change_24h": -0.89,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.05,
+      "btc_price": 110202,
+      "btc_change_24h": 0.7,
+      "eth_price": 4037.38,
+      "eth_change_24h": 0.53,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 37,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109168175786.0,
-        "high_activity_coins": 0
+        "volume_24h": 119002715083.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-14T20:23:15.914178+00:00",
-      "crypto": 0.5306,
-      "global": 0.5082,
-      "combined": 0.5236,
-      "counts": {
-        "crypto": 57,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-15T01:59:48.727968+00:00",
       "crypto": 0.37,
@@ -1008,33 +998,50 @@
         "crypto": 59,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-09-28T16:26:04.418076+00:00",
+      "crypto": 0.526,
+      "global": 0.5288,
+      "combined": 0.5219,
+      "counts": {
+        "crypto": 59,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Singapore, UAE are the ‘most crypto-obsessed’ countries: Report",
-        "url": "https://cointelegraph.com/news/singapore-uae-top-global-crypto-obsession-rankings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Will the XRP price rally restart in October?",
+        "url": "https://cointelegraph.com/news/will-xrp-price-rally-restart-in-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7697,
+        "weight": 0.7707,
+        "score": 1.0
+      },
+      {
+        "title": "Web3 launchpads are funding ideas, not products",
+        "url": "https://cointelegraph.com/news/launchpads-funding-ideas-not-products?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.57,
         "score": 0.6667
       },
       {
-        "title": "5 takeaways from CNBC’s investigation into 'nudify' apps and sites",
-        "url": "https://www.cnbc.com/2025/09/28/5-takeaways-from-cnbcs-investigation-into-nudify-apps-and-sites.html",
-        "source": "CNBC Markets",
-        "weight": 0.7331,
-        "score": 0.3333
-      },
-      {
-        "title": "Trump is wielding the power of the state to back critical mineral companies. These are the possible next targets",
-        "url": "https://www.cnbc.com/2025/09/28/mp-materials-lithium-americas-lac-rare-earth-trump-stake.html",
-        "source": "CNBC Markets",
-        "weight": 0.7134,
-        "score": 0.3333
+        "title": "Singapore, UAE are the ‘most crypto-obsessed’ countries: Report",
+        "url": "https://cointelegraph.com/news/singapore-uae-top-global-crypto-obsession-rankings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5033,
+        "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "Ross Ulbricht sets the record straight as Kamala Harris’s critique misses the mark",
+        "url": "https://cryptoslate.com/ross-ulbricht-sets-the-record-straight-as-kamala-harriss-critique-misses-the-mark/",
+        "source": "CryptoSlate",
+        "weight": 0.7143,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 37 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,22 +1050,26 @@
         "score": -0.5333
       },
       {
-        "title": "Trump's H-1B visa fee could have one big winner: The Middle East",
-        "url": "https://www.cnbc.com/2025/09/28/trumps-h-1b-visa-fee-could-have-one-big-winner-the-middle-east.html",
-        "source": "CNBC Markets",
-        "weight": 0.3724,
-        "score": -0.6333
-      },
-      {
-        "title": "Why Reddit Stock Sank This Week",
-        "url": "https://www.fool.com/investing/2025/09/28/why-reddit-stock-sank-this-week/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6153,
+        "title": "The Biggest Games Releasing in October 2025",
+        "url": "https://decrypt.co/341504/biggest-games-releasing-october-2025",
+        "source": "Decrypt",
+        "weight": 0.7216,
         "score": -0.3333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.34493679372410674,
+          "price_change_24h": 0.00443
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3003957403731787,
+          "price_change_24h": -0.02224
+        }
+      ],
       "momentum_shifts": []
     }
   },
