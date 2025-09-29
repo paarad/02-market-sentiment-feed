@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-29T16:25:39.732081+00:00",
+  "updated_at": "2025-09-29T19:53:32.470257+00:00",
   "indicators": {
-    "change24h": 0.055,
-    "vol": 0.123,
+    "change24h": 0.054,
+    "vol": 0.118,
     "fearGreed": 50,
-    "momentum": 0.958,
+    "momentum": 0.937,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5945,
-    "global_sentiment": 0.5283,
-    "combined_sentiment": 0.5732,
-    "confidence": 0.7967,
+    "crypto_sentiment": 0.5615,
+    "global_sentiment": 0.4308,
+    "combined_sentiment": 0.5403,
+    "confidence": 0.8257,
     "counts": {
-      "crypto": 53,
-      "global": 40
+      "crypto": 59,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 113915,
-      "btc_change_24h": 3.38,
-      "eth_price": 4163.5,
-      "eth_change_24h": 3.23,
+      "btc_price": 114309,
+      "btc_change_24h": 3.59,
+      "eth_price": 4190.33,
+      "eth_change_24h": 3.76,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 1.0,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 236738160177,
-        "high_activity_coins": 2
+        "volume_24h": 260470422073,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.67,
+        "btc_dominance": 56.7,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-16T01:50:34.476505+00:00",
-      "crypto": 0.4698,
-      "global": 0.56,
-      "combined": 0.4823,
-      "counts": {
-        "crypto": 59,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-16T04:27:56.131443+00:00",
       "crypto": 0.4504,
@@ -1008,66 +998,81 @@
         "crypto": 53,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-09-29T19:53:32.470257+00:00",
+      "crypto": 0.5615,
+      "global": 0.4308,
+      "combined": 0.5403,
+      "counts": {
+        "crypto": 59,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XLM Surges 3.7% as Final-Hour Breakout Drives Fresh Momentum",
+        "url": "https://www.coindesk.com/markets/2025/09/29/xlm-surges-3-7-as-final-hour-breakout-drives-fresh-momentum",
+        "source": "CoinDesk",
+        "weight": 0.6677,
+        "score": 1.0
+      },
+      {
         "title": "Washington could still derail XRP’s $173B comeback in its breakout year",
         "url": "https://cryptoslate.com/how-a-us-government-shutdown-will-impact-xrp/",
         "source": "CryptoSlate",
-        "weight": 0.8473,
+        "weight": 0.5678,
         "score": 1.0
       },
       {
         "title": "XRP price: Record quarterly close may trigger rally toward $15",
         "url": "https://cointelegraph.com/news/xrp-price-record-quarterly-close-may-trigger-price-rally-15-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7249,
+        "weight": 0.4858,
         "score": 1.0
-      },
-      {
-        "title": "Bitcoin Surges Above $114K as Traders Look Ahead to 'Uptober'",
-        "url": "https://www.coindesk.com/markets/2025/09/29/bitcoin-above-usd114k-amid-shutdown-uncertainty-october-could-offer-relief",
-        "source": "CoinDesk",
-        "weight": 0.8685,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "GSK Will Replace CEO Walmsley With a Company Insider. The Stock Is Up.",
-        "url": "https://finance.yahoo.com/m/c52b7c19-1170-30e8-b338-ada209d44558/gsk-will-replace-ceo-walmsley.html?.tsrc=rss",
+        "title": "SEC Tells Issuers to Pull 19b-4s; ETFs Could Be Approved ‘Absurdly Fast’",
+        "url": "https://www.coindesk.com/markets/2025/09/29/sec-tells-issuers-to-pull-19b-4s-etfs-could-be-approved-absurdly-fast",
+        "source": "CoinDesk",
+        "weight": 0.7189,
+        "score": -0.9667
+      },
+      {
+        "title": "S&P 500, Nasdaq climb as investors brush off shutdown woes, hawkish talk",
+        "url": "https://finance.yahoo.com/news/p-500-nasdaq-climb-investors-190829010.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7023,
-        "score": -0.9333
+        "weight": 0.7335,
+        "score": -0.9
       },
       {
-        "title": "Is ‘Uptober’ back? Market fear craters as Bitcoin reclaims $114k",
-        "url": "https://cryptoslate.com/is-uptober-back-fear-greed-risks-craters-as-btc-reclaims-112k/",
-        "source": "CryptoSlate",
-        "weight": 0.6367,
-        "score": -1.0
-      },
-      {
-        "title": "TotalEnergies CEO Says Mozambique LNG Project ‘Ready’ to Restart",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-29/totalenergies-ceo-says-mozambique-lng-project-ready-to-restart",
+        "title": "Peloton to Reveal AI-Infused Hardware Lineup",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-29/peloton-to-reveal-ai-infused-hardware-lineup-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6481,
-        "score": -0.6333
+        "weight": 0.6755,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6140287654438685,
-          "price_change_24h": 0.02229
+          "volume_mcap_ratio": 0.6556174766786614,
+          "price_change_24h": 0.03096
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.36728818576580674,
-          "price_change_24h": -0.1338
+          "volume_mcap_ratio": 0.3467320754784423,
+          "price_change_24h": 0.05625
+        },
+        {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.3351328659376824,
+          "price_change_24h": -1.19736
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-09-29",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5679,
+      "crypto_high": 0.6256,
+      "crypto_low": 0.5043,
+      "global_avg": 0.4778,
+      "global_high": 0.565,
+      "global_low": 0.4095,
+      "combined_avg": 0.549,
+      "combined_high": 0.59,
+      "combined_low": 0.4957
+    },
+    "market_indicators_24h": {
+      "change24h": 0.054,
+      "vol": 0.118,
+      "fearGreed": 50,
+      "momentum": 0.937,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-09-29T19:53:32.470257+00:00"
   }
 }
