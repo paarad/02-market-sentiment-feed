@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-29T04:29:38.511008+00:00",
+  "updated_at": "2025-09-29T08:35:45.549890+00:00",
   "indicators": {
-    "change24h": 0.052,
-    "vol": 0.117,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 50,
-    "momentum": 0.904,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.5692,
-    "global_sentiment": 0.565,
-    "combined_sentiment": 0.5573,
-    "confidence": 0.6326,
+    "crypto_sentiment": 0.5043,
+    "global_sentiment": 0.4095,
+    "combined_sentiment": 0.4957,
+    "confidence": 0.6357,
     "counts": {
       "crypto": 54,
-      "global": 43
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 111833,
-      "btc_change_24h": 2.19,
-      "eth_price": 4115.57,
-      "eth_change_24h": 2.92,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "btc_price": 112166,
+      "btc_change_24h": 2.38,
+      "eth_price": 4121.77,
+      "eth_change_24h": 2.95,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161395518229.0,
+        "volume_24h": 184910238164.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.36,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-15T16:31:03.642118+00:00",
-      "crypto": 0.4961,
-      "global": 0.4726,
-      "combined": 0.4948,
-      "counts": {
-        "crypto": 62,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-15T19:53:32.758750+00:00",
       "crypto": 0.5537,
@@ -1008,71 +998,81 @@
         "crypto": 54,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-09-29T08:35:45.549890+00:00",
+      "crypto": 0.5043,
+      "global": 0.4095,
+      "combined": 0.4957,
+      "counts": {
+        "crypto": 54,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.3% — rally",
+        "title": "Martin Wiggen: BRICS Coming Closer Helping Gold",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-29/martin-wiggen-brics-coming-closer-helping-gold-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7782,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 2.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Tata Capital IPO Seeks $1.7 Billion in India’s Biggest Listing in 2025",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-29/tata-capital-ipo-seeks-1-7-billion-in-india-s-biggest-listing-in-2025",
+        "title": "Sony Financial Soars in Spinoff Listing in Tokyo Trade Debut",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-28/sony-financial-to-debut-on-tokyo-stock-exchange-after-spinoff",
         "source": "Bloomberg Markets",
-        "weight": 0.6517,
-        "score": 0.6333
-      },
-      {
-        "title": "Nidec Shares Slide After Widening Accounting Scandal Hurts Trust",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-29/nidec-shares-slide-after-widening-accounting-scandal-hurts-trust",
-        "source": "Bloomberg Markets",
-        "weight": 0.6465,
-        "score": 0.6333
+        "weight": 0.2352,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "BYD Brings Price War to Japan in Bid to Win Over Customers",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-28/byd-brings-price-war-to-japan-in-bid-to-win-over-customers",
+        "title": "Turkey Takes Control of Park Holding Conglomerate in Fraud Probe",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-29/turkey-takes-control-of-park-holding-conglomerate-in-fraud-probe",
         "source": "Bloomberg Markets",
-        "weight": 0.3778,
-        "score": -0.9333
+        "weight": 0.7381,
+        "score": -0.9667
       },
       {
-        "title": "Genmab Nears Deal to Buy Cancer Drugmaker Merus",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-28/genmab-is-said-in-talks-to-buy-cancer-drugmaker-merus",
-        "source": "Bloomberg Markets",
-        "weight": 0.3709,
-        "score": -0.9333
+        "title": "Telegram Founder Alleges French Role in Moldova Vote Censorship",
+        "url": "https://decrypt.co/341799/telegram-founder-alleges-french-role-moldova-vote-censorship",
+        "source": "Decrypt",
+        "weight": 0.6965,
+        "score": -0.8333
       },
       {
-        "title": "New York’s pro-crypto mayor Eric Adams drops reelection bid",
-        "url": "https://cointelegraph.com/news/new-york-crypto-hub-ambition-eric-adams-drops-out-mayoral-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7272,
-        "score": -0.3333
+        "title": "AstraZeneca Upgrades US Listing As it Turns Away From UK",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-29/astrazeneca-to-list-shares-in-us-but-retain-uk-base",
+        "source": "Bloomberg Markets",
+        "weight": 0.6138,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4084442383969744,
-          "price_change_24h": -0.01945
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.36802676844707133,
-          "price_change_24h": -0.04862
+          "volume_mcap_ratio": 0.4653298820172663,
+          "price_change_24h": -0.03432
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.34032350442787423,
-          "price_change_24h": 1.60099
+          "volume_mcap_ratio": 0.31131308469817787,
+          "price_change_24h": 12.04265
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.30259915512284224,
+          "price_change_24h": 0.0087
         }
       ],
       "momentum_shifts": []
