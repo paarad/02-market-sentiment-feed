@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-28T20:24:23.347332+00:00",
+  "updated_at": "2025-09-29T01:56:07.013304+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.05,
-    "fearGreed": 37,
-    "momentum": 0.299,
+    "change24h": 0.047,
+    "vol": 0.1,
+    "fearGreed": 50,
+    "momentum": 0.825,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5335,
-    "global_sentiment": 0.4934,
-    "combined_sentiment": 0.5246,
-    "confidence": 0.6495,
+    "crypto_sentiment": 0.6256,
+    "global_sentiment": 0.45,
+    "combined_sentiment": 0.59,
+    "confidence": 0.5991,
     "counts": {
-      "crypto": 58,
-      "global": 36
+      "crypto": 56,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 110616,
-      "btc_change_24h": 1.11,
-      "eth_price": 4048.07,
-      "eth_change_24h": 1.1,
+      "btc_price": 111831,
+      "btc_change_24h": 2.23,
+      "eth_price": 4119.17,
+      "eth_change_24h": 3.01,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 37,
-        "classification": "Fear",
-        "trend": "declining"
+        "value": 50,
+        "classification": "Neutral",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 120873959838.0,
+        "volume_24h": 151521796051.0,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-15T08:32:35.203356+00:00",
-      "crypto": 0.4107,
-      "global": 0.458,
-      "combined": 0.4295,
-      "counts": {
-        "crypto": 59,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-15T12:52:11.125085+00:00",
       "crypto": 0.4296,
@@ -1008,66 +998,76 @@
         "crypto": 58,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-09-29T01:56:07.013304+00:00",
+      "crypto": 0.6256,
+      "global": 0.45,
+      "combined": 0.59,
+      "counts": {
+        "crypto": 56,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Will the XRP price rally restart in October?",
-        "url": "https://cointelegraph.com/news/will-xrp-price-rally-restart-in-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4871,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 1.0% — rally",
+        "title": "Global crypto market cap up 2.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "From SPACs to Cash-Flow Buys: How DATs Are Plotting the Next Growth Phase",
-        "url": "https://www.coindesk.com/markets/2025/09/28/from-spacs-to-cash-flow-buys-how-dats-are-plotting-the-next-growth-phase",
-        "source": "CoinDesk",
-        "weight": 0.7573,
-        "score": 0.3333
+        "title": "China’s Markets Shed ‘Uninvestable’ Tag as Global Funds Return",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-28/china-sheds-uninvestable-tag-as-2-7-trillion-gain-draws-inflows",
+        "source": "Bloomberg Markets",
+        "weight": 0.5699,
+        "score": 0.5333
+      },
+      {
+        "title": "Will the XRP price rally restart in October?",
+        "url": "https://cointelegraph.com/news/will-xrp-price-rally-restart-in-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.2572,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Ross Ulbricht sets the record straight as Kamala Harris’s critique misses the mark",
-        "url": "https://cryptoslate.com/ross-ulbricht-sets-the-record-straight-as-kamala-harriss-critique-misses-the-mark/",
-        "source": "CryptoSlate",
-        "weight": 0.4515,
-        "score": -1.0
+        "title": "BYD Brings Price War to Japan in Bid to Win Over Customers",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-28/byd-brings-price-war-to-japan-in-bid-to-win-over-customers",
+        "source": "Bloomberg Markets",
+        "weight": 0.5078,
+        "score": -0.9333
       },
       {
-        "title": "Fear & Greed 37 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Genmab Nears Deal to Buy Cancer Drugmaker Merus",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-28/genmab-is-said-in-talks-to-buy-cancer-drugmaker-merus",
+        "source": "Bloomberg Markets",
+        "weight": 0.4984,
+        "score": -0.9333
       },
       {
-        "title": "What Is Aster? The Decentralized Exchange on BNB Chain That’s Taking on Hyperliquid",
-        "url": "https://decrypt.co/resources/what-aster-decentralized-exchange-bnb-chain-hyperliquid",
-        "source": "Decrypt",
-        "weight": 0.9571,
+        "title": "Beijing’s Plan to Cut Oil Refining Capacity Stumbles in Regions",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-29/beijing-s-plan-to-cut-oil-refining-capacity-stumbles-in-regions",
+        "source": "Bloomberg Markets",
+        "weight": 0.7328,
         "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3137110863559813,
-          "price_change_24h": 0.00858
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3832857313375123,
+          "price_change_24h": -0.0187
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.30961841797995376,
-          "price_change_24h": -0.03495
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.335286243352779,
+          "price_change_24h": -0.01343
         }
       ],
       "momentum_shifts": []
