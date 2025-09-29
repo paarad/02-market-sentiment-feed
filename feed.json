@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-29T12:53:42.647667+00:00",
+  "updated_at": "2025-09-29T16:25:39.732081+00:00",
   "indicators": {
-    "change24h": 0.052,
-    "vol": 0.127,
+    "change24h": 0.055,
+    "vol": 0.123,
     "fearGreed": 50,
-    "momentum": 0.914,
+    "momentum": 0.958,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5523,
-    "global_sentiment": 0.4831,
-    "combined_sentiment": 0.5378,
-    "confidence": 0.7432,
+    "crypto_sentiment": 0.5945,
+    "global_sentiment": 0.5283,
+    "combined_sentiment": 0.5732,
+    "confidence": 0.7967,
     "counts": {
-      "crypto": 52,
-      "global": 34
+      "crypto": 53,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 112041,
-      "btc_change_24h": 2.47,
-      "eth_price": 4102.7,
-      "eth_change_24h": 3.05,
+      "btc_price": 113915,
+      "btc_change_24h": 3.38,
+      "eth_price": 4163.5,
+      "eth_change_24h": 3.23,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 202586070863,
+        "volume_24h": 236738160177,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.56,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-15T20:25:51.509360+00:00",
-      "crypto": 0.5233,
-      "global": 0.4927,
-      "combined": 0.5169,
-      "counts": {
-        "crypto": 59,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-16T01:50:34.476505+00:00",
       "crypto": 0.4698,
@@ -1008,66 +998,76 @@
         "crypto": 52,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-09-29T16:25:39.732081+00:00",
+      "crypto": 0.5945,
+      "global": 0.5283,
+      "combined": 0.5732,
+      "counts": {
+        "crypto": 53,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold Climbs to Record High Above $3,800 on Weaker Dollar",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-29/gold-climbs-to-record-high-above-3-800-on-weaker-dollar-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6682,
+        "title": "Washington could still derail XRP’s $173B comeback in its breakout year",
+        "url": "https://cryptoslate.com/how-a-us-government-shutdown-will-impact-xrp/",
+        "source": "CryptoSlate",
+        "weight": 0.8473,
         "score": 1.0
       },
       {
-        "title": "USDT and USDC dominate $46B in quarterly stablecoin inflows",
-        "url": "https://cointelegraph.com/news/stablecoins-45b-net-inflows-q3-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "XRP price: Record quarterly close may trigger rally toward $15",
+        "url": "https://cointelegraph.com/news/xrp-price-record-quarterly-close-may-trigger-price-rally-15-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5602,
+        "weight": 0.7249,
         "score": 1.0
       },
       {
-        "title": "Looming Government Shutdown; Trump, Netanyahu to Meet at White House | Bloomberg Brief 9/29/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-29/bloomberg-brief-9-29-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6566,
-        "score": 0.6667
+        "title": "Bitcoin Surges Above $114K as Traders Look Ahead to 'Uptober'",
+        "url": "https://www.coindesk.com/markets/2025/09/29/bitcoin-above-usd114k-amid-shutdown-uncertainty-october-could-offer-relief",
+        "source": "CoinDesk",
+        "weight": 0.8685,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Wall Street Futures Higher Despite Washington Shutdown View; Asia, Europe Up",
-        "url": "https://finance.yahoo.com/news/wall-street-futures-higher-despite-111530224.html?.tsrc=rss",
+        "title": "GSK Will Replace CEO Walmsley With a Company Insider. The Stock Is Up.",
+        "url": "https://finance.yahoo.com/m/c52b7c19-1170-30e8-b338-ada209d44558/gsk-will-replace-ceo-walmsley.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6622,
-        "score": -1.0
-      },
-      {
-        "title": "GSK Taps Miels as CEO With Walmsley Stepping Down",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-29/gsk-taps-miels-as-ceo-with-walmsley-stepping-down-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5912,
+        "weight": 0.7023,
         "score": -0.9333
       },
       {
-        "title": "ECB’s Lane Says Inflation Outlook Is ‘Reasonably Benign’",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-29/ecb-s-lane-says-inflation-outlook-is-reasonably-benign",
+        "title": "Is ‘Uptober’ back? Market fear craters as Bitcoin reclaims $114k",
+        "url": "https://cryptoslate.com/is-uptober-back-fear-greed-risks-craters-as-btc-reclaims-112k/",
+        "source": "CryptoSlate",
+        "weight": 0.6367,
+        "score": -1.0
+      },
+      {
+        "title": "TotalEnergies CEO Says Mozambique LNG Project ‘Ready’ to Restart",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-29/totalenergies-ceo-says-mozambique-lng-project-ready-to-restart",
         "source": "Bloomberg Markets",
-        "weight": 0.7664,
-        "score": -0.6667
+        "weight": 0.6481,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.511435312370175,
-          "price_change_24h": -0.00568
+          "volume_mcap_ratio": 0.6140287654438685,
+          "price_change_24h": 0.02229
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3528355265996126,
-          "price_change_24h": -0.1633
+          "volume_mcap_ratio": 0.36728818576580674,
+          "price_change_24h": -0.1338
         }
       ],
       "momentum_shifts": []
