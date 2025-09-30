@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-30T04:29:05.292495+00:00",
+  "updated_at": "2025-09-30T08:34:47.087541+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.144,
+    "change24h": 0.007,
+    "vol": 0.142,
     "fearGreed": 50,
-    "momentum": 0.317,
+    "momentum": 0.117,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4999,
-    "global_sentiment": 0.475,
-    "combined_sentiment": 0.4978,
-    "confidence": 0.7731,
+    "crypto_sentiment": 0.4683,
+    "global_sentiment": 0.3516,
+    "combined_sentiment": 0.4639,
+    "confidence": 0.7262,
     "counts": {
-      "crypto": 64,
-      "global": 33
+      "crypto": 62,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 114266,
-      "btc_change_24h": 2.18,
-      "eth_price": 4199.04,
-      "eth_change_24h": 2.0,
+      "btc_price": 113501,
+      "btc_change_24h": 1.22,
+      "eth_price": 4174.14,
+      "eth_change_24h": 1.34,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 250292691777,
+        "volume_24h": 258689826756,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.69,
+        "btc_dominance": 56.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-16T16:30:29.406706+00:00",
-      "crypto": 0.598,
-      "global": 0.5075,
-      "combined": 0.5741,
-      "counts": {
-        "crypto": 52,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-09-16T19:53:27.576445+00:00",
       "crypto": 0.5889,
@@ -1008,52 +998,62 @@
         "crypto": 64,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-09-30T08:34:47.087541+00:00",
+      "crypto": 0.4683,
+      "global": 0.3516,
+      "combined": 0.4639,
+      "counts": {
+        "crypto": 62,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China National Team-Favored ETF Logs Fifth Monthly Outflow",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-30/china-national-team-favored-etf-logs-fifth-monthly-outflow",
-        "source": "Bloomberg Markets",
-        "weight": 0.6265,
-        "score": 0.8667
-      },
-      {
-        "title": "Italy at Cusp of EU’s Deficit Cap Awaits Last Push by Meloni",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-30/italy-at-cusp-of-eu-s-deficit-cap-awaits-last-push-by-meloni",
-        "source": "Bloomberg Markets",
-        "weight": 0.7564,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "DOGE Holds Above 200DMA, Breakout Needs Daily Close Through $0.24",
+        "url": "https://www.coindesk.com/markets/2025/09/30/doge-holds-above-200dma-breakout-needs-daily-close-through-usd0-24",
+        "source": "CoinDesk",
+        "weight": 0.9164,
         "score": 0.5333
+      },
+      {
+        "title": "3 E Network Technology Group Limited Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency",
+        "url": "https://finance.yahoo.com/news/3-e-network-technology-group-015300438.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3691,
+        "score": 0.6333
+      },
+      {
+        "title": "SOL price recovers, but new highs depend on multiple factors",
+        "url": "https://cointelegraph.com/news/sol-price-recovers-but-new-highs-depend-on-multiple-factors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3775,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Iron Ore at Risk of Declines as Mills’ Margins Weaken, CBA Warns",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-30/iron-ore-at-risk-of-declines-as-mills-margins-weaken-cba-warns",
+        "title": "French Inflation Quickens But Remains Well Short of ECB Goal",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-30/french-inflation-quickens-but-remains-well-short-of-2-ecb-goal",
         "source": "Bloomberg Markets",
-        "weight": 0.7798,
+        "weight": 0.6476,
         "score": -1.0
       },
       {
-        "title": "SEC Willing to Engage with Tokenized Asset Issuers, SEC’s Hester Peirce Says",
-        "url": "https://www.coindesk.com/markets/2025/09/30/sec-willing-to-engage-with-tokenized-asset-issuers-sec-s-hester-peirce-says",
-        "source": "CoinDesk",
-        "weight": 0.7968,
+        "title": "SEC trading halt of crypto treasury firm QMMM is a TradFi issue",
+        "url": "https://cointelegraph.com/news/sec-pauses-trading-crypto-treasury-firm-qmmm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5658,
         "score": -0.9667
       },
       {
-        "title": "SOL traders smash buy ahead of SEC Solana ETF decision: Is $250 back on the table?",
-        "url": "https://cointelegraph.com/news/sol-traders-buy-ahead-of-sec-solana-etf-decision-is-250-back-on-the-table?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5254,
+        "title": "SEC Willing to Engage With Tokenized Asset Issuers, SEC’s Hester Peirce Says",
+        "url": "https://www.coindesk.com/markets/2025/09/30/sec-willing-to-engage-with-tokenized-asset-issuers-sec-s-hester-peirce-says",
+        "source": "CoinDesk",
+        "weight": 0.4964,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6414894083174739,
-          "price_change_24h": 0.01716
+          "volume_mcap_ratio": 0.6512126662395171,
+          "price_change_24h": 0.01802
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.34660807299371704,
-          "price_change_24h": 0.10882
+          "volume_mcap_ratio": 0.36731794709091564,
+          "price_change_24h": -0.01102
         }
       ],
       "momentum_shifts": []
