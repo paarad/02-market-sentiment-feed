@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-30T12:53:52.051939+00:00",
+  "updated_at": "2025-09-30T16:30:56.438476+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.11,
+    "change24h": -0.037,
+    "vol": 0.117,
     "fearGreed": 50,
-    "momentum": 0.242,
-    "regime": "sideways",
+    "momentum": -0.656,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5566,
-    "global_sentiment": 0.4854,
-    "combined_sentiment": 0.5412,
-    "confidence": 0.7335,
+    "crypto_sentiment": 0.6035,
+    "global_sentiment": 0.4447,
+    "combined_sentiment": 0.573,
+    "confidence": 0.7891,
     "counts": {
-      "crypto": 57,
+      "crypto": 49,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 113198,
-      "btc_change_24h": 0.93,
-      "eth_price": 4165.77,
-      "eth_change_24h": 1.51,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "btc_price": 113094,
+      "btc_change_24h": -0.74,
+      "eth_price": 4118.1,
+      "eth_change_24h": -1.06,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 259429438614,
+        "volume_24h": 232126391566,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.65,
+        "btc_dominance": 56.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-16T20:26:32.128662+00:00",
-      "crypto": 0.5907,
-      "global": 0.4418,
-      "combined": 0.5632,
-      "counts": {
-        "crypto": 53,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-17T01:50:13.182699+00:00",
       "crypto": 0.567,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-09-30T16:30:56.438476+00:00",
+      "crypto": 0.6035,
+      "global": 0.4447,
+      "combined": 0.573,
+      "counts": {
+        "crypto": 49,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Can Aster price rise again in October?",
-        "url": "https://cointelegraph.com/news/can-aster-price-rise-in-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.784,
+        "title": "Bakkt Share Price Spikes 17% After Analyst Triples Price Target to $40",
+        "url": "https://decrypt.co/342179/bakkt-share-price-spikes-after-analyst-triples-price-target",
+        "source": "Decrypt",
+        "weight": 0.8455,
+        "score": 0.8667
+      },
+      {
+        "title": "Oklo Strikes Deal on Advanced Reactors",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-30/oklo-strikes-deal-on-advanced-reactors-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6292,
         "score": 1.0
       },
       {
-        "title": "Israeli Stocks Rise to Record After Trump Unveils Gaza Plan",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-30/israeli-stocks-rise-to-record-after-trump-unveils-gaza-plan",
-        "source": "Bloomberg Markets",
-        "weight": 0.5591,
-        "score": 1.0
-      },
-      {
-        "title": "Treasuries Set for Third Quarter of Gains as Shutdown Looms",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-30/treasuries-poised-for-third-quarter-of-gains-as-shutdown-looms",
-        "source": "Bloomberg Markets",
-        "weight": 0.537,
-        "score": 1.0
+        "title": "Stablecoin Market Surges on U.S. Regulation, With Circle's USDC Gaining Ground: JPMorgan",
+        "url": "https://www.coindesk.com/markets/2025/09/30/stablecoin-market-surges-on-u-s-regulation-with-circle-s-usdc-gaining-ground-jpmorgan",
+        "source": "CoinDesk",
+        "weight": 0.7095,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "YouTube agrees to pay Trump $24.5 million to settle lawsuit over suspended account",
-        "url": "https://www.cnbc.com/2025/09/29/youtube-to-pay-trump-24point5-million-to-settle-lawsuit-over-suspension.html",
+        "title": "Watch: Trump, Pfizer announce agreement to lower Medicaid drug prices",
+        "url": "https://www.cnbc.com/2025/09/30/trump-pfizer-drug-price-agreement.html",
         "source": "CNBC Markets",
-        "weight": 0.6538,
-        "score": -1.0
+        "weight": 0.7938,
+        "score": -0.9333
       },
       {
-        "title": "Exclusive: Hertz will let customers do almost entire car buying process online",
-        "url": "https://www.cnbc.com/2025/09/30/hertz-used-cars-online.html",
-        "source": "CNBC Markets",
-        "weight": 0.7894,
-        "score": -0.6333
+        "title": "BTC LEADS, GOVERNMENT SHUT DOWN FEARS, L1 ETFS MAY COME SOON",
+        "url": "https://decrypt.co/videos/interviews/S4Fkkq1m/btc-leads-government-shut-down-fears-l1-etfs-may-come-soon",
+        "source": "Decrypt",
+        "weight": 0.9149,
+        "score": -0.8
       },
       {
-        "title": "SEC trading halt of crypto treasury firm QMMM is a TradFi issue",
-        "url": "https://cointelegraph.com/news/sec-pauses-trading-crypto-treasury-firm-qmmm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3435,
-        "score": -0.9667
+        "title": "Stocks Tick Lower. Wall Street Is Shrugging Off Shutdown Fears.",
+        "url": "https://finance.yahoo.com/m/7b7845a2-c9e3-3003-bcef-af901b8c8238/stocks-tick-lower.-wall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6622,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6541144630085729,
-          "price_change_24h": -0.01496
+          "volume_mcap_ratio": 0.5988137248003561,
+          "price_change_24h": -0.04998
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.362822512994272,
-          "price_change_24h": 0.14644
+          "volume_mcap_ratio": 0.3392153468362422,
+          "price_change_24h": 0.00481
         }
       ],
       "momentum_shifts": []
