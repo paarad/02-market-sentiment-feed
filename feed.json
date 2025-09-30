@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-30T08:34:47.087541+00:00",
+  "updated_at": "2025-09-30T12:53:52.051939+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.142,
+    "change24h": 0.014,
+    "vol": 0.11,
     "fearGreed": 50,
-    "momentum": 0.117,
+    "momentum": 0.242,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4683,
-    "global_sentiment": 0.3516,
-    "combined_sentiment": 0.4639,
-    "confidence": 0.7262,
+    "crypto_sentiment": 0.5566,
+    "global_sentiment": 0.4854,
+    "combined_sentiment": 0.5412,
+    "confidence": 0.7335,
     "counts": {
-      "crypto": 62,
-      "global": 29
+      "crypto": 57,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 113501,
-      "btc_change_24h": 1.22,
-      "eth_price": 4174.14,
-      "eth_change_24h": 1.34,
+      "btc_price": 113198,
+      "btc_change_24h": 0.93,
+      "eth_price": 4165.77,
+      "eth_change_24h": 1.51,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 258689826756,
+        "volume_24h": 259429438614,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-16T19:53:27.576445+00:00",
-      "crypto": 0.5889,
-      "global": 0.4651,
-      "combined": 0.5638,
-      "counts": {
-        "crypto": 54,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-16T20:26:32.128662+00:00",
       "crypto": 0.5907,
@@ -1008,52 +998,62 @@
         "crypto": 62,
         "global": 29
       }
+    },
+    {
+      "ts": "2025-09-30T12:53:52.051939+00:00",
+      "crypto": 0.5566,
+      "global": 0.4854,
+      "combined": 0.5412,
+      "counts": {
+        "crypto": 57,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "DOGE Holds Above 200DMA, Breakout Needs Daily Close Through $0.24",
-        "url": "https://www.coindesk.com/markets/2025/09/30/doge-holds-above-200dma-breakout-needs-daily-close-through-usd0-24",
-        "source": "CoinDesk",
-        "weight": 0.9164,
-        "score": 0.5333
-      },
-      {
-        "title": "3 E Network Technology Group Limited Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency",
-        "url": "https://finance.yahoo.com/news/3-e-network-technology-group-015300438.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3691,
-        "score": 0.6333
-      },
-      {
-        "title": "SOL price recovers, but new highs depend on multiple factors",
-        "url": "https://cointelegraph.com/news/sol-price-recovers-but-new-highs-depend-on-multiple-factors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Can Aster price rise again in October?",
+        "url": "https://cointelegraph.com/news/can-aster-price-rise-in-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3775,
-        "score": 0.5833
+        "weight": 0.784,
+        "score": 1.0
+      },
+      {
+        "title": "Israeli Stocks Rise to Record After Trump Unveils Gaza Plan",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-30/israeli-stocks-rise-to-record-after-trump-unveils-gaza-plan",
+        "source": "Bloomberg Markets",
+        "weight": 0.5591,
+        "score": 1.0
+      },
+      {
+        "title": "Treasuries Set for Third Quarter of Gains as Shutdown Looms",
+        "url": "https://www.bloomberg.com/news/articles/2025-09-30/treasuries-poised-for-third-quarter-of-gains-as-shutdown-looms",
+        "source": "Bloomberg Markets",
+        "weight": 0.537,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "French Inflation Quickens But Remains Well Short of ECB Goal",
-        "url": "https://www.bloomberg.com/news/articles/2025-09-30/french-inflation-quickens-but-remains-well-short-of-2-ecb-goal",
-        "source": "Bloomberg Markets",
-        "weight": 0.6476,
+        "title": "YouTube agrees to pay Trump $24.5 million to settle lawsuit over suspended account",
+        "url": "https://www.cnbc.com/2025/09/29/youtube-to-pay-trump-24point5-million-to-settle-lawsuit-over-suspension.html",
+        "source": "CNBC Markets",
+        "weight": 0.6538,
         "score": -1.0
+      },
+      {
+        "title": "Exclusive: Hertz will let customers do almost entire car buying process online",
+        "url": "https://www.cnbc.com/2025/09/30/hertz-used-cars-online.html",
+        "source": "CNBC Markets",
+        "weight": 0.7894,
+        "score": -0.6333
       },
       {
         "title": "SEC trading halt of crypto treasury firm QMMM is a TradFi issue",
         "url": "https://cointelegraph.com/news/sec-pauses-trading-crypto-treasury-firm-qmmm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5658,
-        "score": -0.9667
-      },
-      {
-        "title": "SEC Willing to Engage With Tokenized Asset Issuers, SEC’s Hester Peirce Says",
-        "url": "https://www.coindesk.com/markets/2025/09/30/sec-willing-to-engage-with-tokenized-asset-issuers-sec-s-hester-peirce-says",
-        "source": "CoinDesk",
-        "weight": 0.4964,
+        "weight": 0.3435,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6512126662395171,
-          "price_change_24h": 0.01802
+          "volume_mcap_ratio": 0.6541144630085729,
+          "price_change_24h": -0.01496
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.36731794709091564,
-          "price_change_24h": -0.01102
+          "volume_mcap_ratio": 0.362822512994272,
+          "price_change_24h": 0.14644
         }
       ],
       "momentum_shifts": []
