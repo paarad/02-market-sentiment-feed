@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-29T20:24:02.758511+00:00",
+  "updated_at": "2025-09-30T01:51:35.836772+00:00",
   "indicators": {
-    "change24h": 0.053,
-    "vol": 0.116,
+    "change24h": 0.019,
+    "vol": 0.14,
     "fearGreed": 50,
-    "momentum": 0.934,
+    "momentum": 0.341,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5663,
-    "global_sentiment": 0.4674,
-    "combined_sentiment": 0.547,
-    "confidence": 0.8187,
+    "crypto_sentiment": 0.4979,
+    "global_sentiment": 0.5228,
+    "combined_sentiment": 0.5003,
+    "confidence": 0.7795,
     "counts": {
-      "crypto": 60,
-      "global": 36
+      "crypto": 62,
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 114301,
-      "btc_change_24h": 3.34,
-      "eth_price": 4191.56,
-      "eth_change_24h": 3.53,
+      "btc_price": 114475,
+      "btc_change_24h": 2.29,
+      "eth_price": 4203.45,
+      "eth_change_24h": 2.0,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 257977506113,
+        "volume_24h": 251884267619,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.64,
+        "btc_dominance": 56.74,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-16T08:33:17.259008+00:00",
-      "crypto": 0.5408,
-      "global": 0.4319,
-      "combined": 0.5249,
-      "counts": {
-        "crypto": 55,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-16T12:51:37.602834+00:00",
       "crypto": 0.5511,
@@ -1008,71 +998,81 @@
         "crypto": 60,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-09-30T01:51:35.836772+00:00",
+      "crypto": 0.4979,
+      "global": 0.5228,
+      "combined": 0.5003,
+      "counts": {
+        "crypto": 62,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XLM Surges 3.7% as Final-Hour Breakout Drives Fresh Momentum",
-        "url": "https://www.coindesk.com/markets/2025/09/29/xlm-surges-3-7-as-final-hour-breakout-drives-fresh-momentum",
-        "source": "CoinDesk",
-        "weight": 0.6296,
-        "score": 1.0
+        "title": "SOL price recovers, but new highs depend on multiple factors",
+        "url": "https://cointelegraph.com/news/sol-price-recovers-but-new-highs-depend-on-multiple-factors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8204,
+        "score": 0.5833
       },
       {
-        "title": "Washington could still derail XRP’s $173B comeback in its breakout year",
-        "url": "https://cryptoslate.com/how-a-us-government-shutdown-will-impact-xrp/",
-        "source": "CryptoSlate",
-        "weight": 0.5355,
-        "score": 1.0
+        "title": "Kazakhstan debuts state-backed crypto fund with BNB",
+        "url": "https://cointelegraph.com/news/kazakhstan-state-backed-crypto-fund-bnb-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5118,
+        "score": 0.9167
       },
       {
-        "title": "Carnival Boosts Profit Forecast, Sees 'Record Demand'",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-29/carnival-boosts-profit-forecast-sees-record-demand-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7582,
-        "score": 0.6667
+        "title": "Global crypto market cap up 1.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Sector Update: Energy Stocks Fall Late Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-afternoon-195559187.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7579,
-        "score": -1.0
-      },
-      {
-        "title": "SEC Tells Issuers to Pull 19b-4s; ETFs Could Be Approved ‘Absurdly Fast’",
-        "url": "https://www.coindesk.com/markets/2025/09/29/sec-tells-issuers-to-pull-19b-4s-etfs-could-be-approved-absurdly-fast",
-        "source": "CoinDesk",
-        "weight": 0.6779,
+        "title": "SOL traders smash buy ahead of SEC Solana ETF decision: Is $250 back on the table?",
+        "url": "https://cointelegraph.com/news/sol-traders-buy-ahead-of-sec-solana-etf-decision-is-250-back-on-the-table?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7115,
         "score": -0.9667
       },
       {
-        "title": "Peloton to Reveal AI-Infused Hardware Lineup",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-29/peloton-to-reveal-ai-infused-hardware-lineup-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6369,
-        "score": -0.9333
+        "title": "YouTube agrees to pay Trump $24.5 Million to settle lawsuit over suspended account",
+        "url": "https://www.cnbc.com/2025/09/29/youtube-to-pay-trump-24point5-million-to-settle-lawsuit-over-suspension.html",
+        "source": "CNBC Markets",
+        "weight": 0.5461,
+        "score": -1.0
+      },
+      {
+        "title": "Fed governor says stablecoins are key to America’s payment future",
+        "url": "https://cryptoslate.com/fed-governor-says-stablecoins-are-key-to-americas-payment-future/",
+        "source": "CryptoSlate",
+        "weight": 0.5295,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.663955928837748,
-          "price_change_24h": 0.02954
+          "volume_mcap_ratio": 0.6496381578262248,
+          "price_change_24h": 0.02856
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38299043098419866,
-          "price_change_24h": 0.01251
+          "volume_mcap_ratio": 0.3545689860592692,
+          "price_change_24h": 0.02827
         },
         {
           "symbol": "ASTER",
-          "volume_mcap_ratio": 0.3309491979188839,
-          "price_change_24h": -1.216
+          "volume_mcap_ratio": 0.31082025925894996,
+          "price_change_24h": 6.28578
         }
       ],
       "momentum_shifts": []
