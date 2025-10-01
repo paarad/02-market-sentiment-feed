@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-09-30T20:26:49.025070+00:00",
+  "updated_at": "2025-10-01T02:03:41.030927+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.081,
-    "fearGreed": 50,
-    "momentum": -0.397,
-    "regime": "bear",
+    "change24h": -0.003,
+    "vol": 0.053,
+    "fearGreed": 49,
+    "momentum": -0.053,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.433,
-    "global_sentiment": 0.4711,
-    "combined_sentiment": 0.4473,
-    "confidence": 0.7929,
+    "crypto_sentiment": 0.3919,
+    "global_sentiment": 0.3645,
+    "combined_sentiment": 0.4076,
+    "confidence": 0.7757,
     "counts": {
-      "crypto": 48,
-      "global": 41
+      "crypto": 53,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 114446,
-      "btc_change_24h": 0.1,
-      "eth_price": 4168.33,
-      "eth_change_24h": -0.54,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 114478,
+      "btc_change_24h": -0.04,
+      "eth_price": 4165.95,
+      "eth_change_24h": -0.99,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
-        "value": 50,
+        "value": 49,
         "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 237650689153,
+        "volume_24h": 230806014638,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.88,
+        "btc_dominance": 56.83,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-17T08:31:58.824948+00:00",
-      "crypto": 0.5349,
-      "global": 0.4532,
-      "combined": 0.5222,
-      "counts": {
-        "crypto": 56,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-17T12:51:50.706238+00:00",
       "crypto": 0.5929,
@@ -1008,66 +998,76 @@
         "crypto": 48,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-10-01T02:03:41.030927+00:00",
+      "crypto": 0.3919,
+      "global": 0.3645,
+      "combined": 0.4076,
+      "counts": {
+        "crypto": 53,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nike beats on earnings as sneaker giant posts surprise sales growth",
+        "title": "Will institutions follow Bitcoin onto other chains?",
+        "url": "https://cryptoslate.com/will-institutions-follow-bitcoin-onto-other-chains/",
+        "source": "CryptoSlate",
+        "weight": 0.6643,
+        "score": 1.0
+      },
+      {
+        "title": "Gold Holds Ground Near Record as Traders Weigh Risk of Shutdown",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-01/gold-holds-ground-near-record-as-traders-weigh-risk-of-shutdown",
+        "source": "Bloomberg Markets",
+        "weight": 0.653,
+        "score": 0.8667
+      },
+      {
+        "title": "Nike posts surprise sales growth, but warns of sluggish holiday season and bigger than expected tariff hit",
         "url": "https://www.cnbc.com/2025/09/30/nike-nke-q1-2026-earnings.html",
         "source": "CNBC Markets",
-        "weight": 0.7834,
+        "weight": 0.5421,
         "score": 0.6667
-      },
-      {
-        "title": "FTC sues Zillow and Redfin, alleging antitrust violation in online rental listings",
-        "url": "https://www.cnbc.com/2025/09/30/ftc-sues-zillow-redfin-alleging-antitrust-violation-in-online-rentals.html",
-        "source": "CNBC Markets",
-        "weight": 0.7818,
-        "score": 0.6333
-      },
-      {
-        "title": "Bitcoin’s rare September gains defy history: Data predicts 50% Q4 rally to $170K",
-        "url": "https://cointelegraph.com/news/bitcoin-s-monthly-gain-defies-history-is-a-50percent-q4-rally-to-dollar170k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5446,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "EU watchdog pushes for stablecoin ban: Report",
-        "url": "https://cointelegraph.com/news/european-union-stablecoin-ban-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7896,
+        "title": "Ripple and Coinbase to qualify as crypto custodians under new SEC staff guidance",
+        "url": "https://cryptoslate.com/ripple-and-coinbase-to-qualify-as-crypto-custodians-under-new-sec-staff-guidance/",
+        "source": "CryptoSlate",
+        "weight": 0.7038,
         "score": -1.0
       },
       {
-        "title": "Kentucky State Senator Sued Over Bitcoin Mining Business",
-        "url": "https://decrypt.co/342230/kentucky-state-senator-sued-crypto-mining-business",
-        "source": "Decrypt",
-        "weight": 0.765,
-        "score": -1.0
-      },
-      {
-        "title": "Trump, Pfizer agree to lower U.S. drug prices, exempt company from pharma tariffs",
-        "url": "https://www.cnbc.com/2025/09/30/trump-pfizer-drug-price-agreement.html",
-        "source": "CNBC Markets",
-        "weight": 0.6557,
+        "title": "Review & Preview: The Shutdown Showdown",
+        "url": "https://finance.yahoo.com/m/0055a5bd-5454-3c89-826c-53ef6db4c018/review-%26-preview%3A-the.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5997,
         "score": -0.9333
+      },
+      {
+        "title": "Energy Sec. Wright on Power Grid, Lithium Americas Stake",
+        "url": "https://www.bloomberg.com/news/videos/2025-09-30/energy-sec-wright-on-power-grid-lithium-americas-stake-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4959,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6106411880211933,
-          "price_change_24h": -0.04225
+          "volume_mcap_ratio": 0.5970172833677346,
+          "price_change_24h": -0.04785
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38277744908542993,
-          "price_change_24h": 0.0955
+          "volume_mcap_ratio": 0.36355072863115845,
+          "price_change_24h": -0.00802
         }
       ],
       "momentum_shifts": []
