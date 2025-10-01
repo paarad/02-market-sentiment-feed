@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-01T04:29:22.578254+00:00",
+  "updated_at": "2025-10-01T08:33:00.540713+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.052,
+    "change24h": 0.009,
+    "vol": 0.061,
     "fearGreed": 49,
-    "momentum": -0.189,
-    "regime": "bear",
+    "momentum": 0.15,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3523,
-    "global_sentiment": 0.4019,
-    "combined_sentiment": 0.3811,
-    "confidence": 0.7547,
+    "crypto_sentiment": 0.3715,
+    "global_sentiment": 0.4497,
+    "combined_sentiment": 0.3994,
+    "confidence": 0.7791,
     "counts": {
-      "crypto": 54,
-      "global": 33
+      "crypto": 53,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 114470,
-      "btc_change_24h": 0.15,
-      "eth_price": 4146.1,
-      "eth_change_24h": -1.24,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 115166,
+      "btc_change_24h": 1.41,
+      "eth_price": 4181.93,
+      "eth_change_24h": 0.12,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 239859249883,
+        "volume_24h": 234349972916,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-17T16:30:29.008910+00:00",
-      "crypto": 0.5308,
-      "global": 0.3769,
-      "combined": 0.5129,
-      "counts": {
-        "crypto": 63,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-17T19:53:55.961848+00:00",
       "crypto": 0.5045,
@@ -1008,66 +998,76 @@
         "crypto": 54,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-10-01T08:33:00.540713+00:00",
+      "crypto": 0.3715,
+      "global": 0.4497,
+      "combined": 0.3994,
+      "counts": {
+        "crypto": 53,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Will institutions follow Bitcoin onto other chains?",
-        "url": "https://cryptoslate.com/will-institutions-follow-bitcoin-onto-other-chains/",
-        "source": "CryptoSlate",
-        "weight": 0.5018,
-        "score": 1.0
+        "title": "Traders Eye September Jobs Report for Cues on Bitcoin Breakout Above $120K",
+        "url": "https://www.coindesk.com/markets/2025/10/01/traders-eye-september-jobs-report-for-cues-on-bitcoin-breakout-above-usd120k",
+        "source": "CoinDesk",
+        "weight": 0.8774,
+        "score": 0.5333
       },
       {
-        "title": "Gold Rallies to Fresh Record on US Government Shutdown Jitters",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-01/gold-holds-ground-near-record-as-traders-weigh-risk-of-shutdown",
+        "title": "ALEC CEO: Well-Placed to Capitalize on Data Center Demand",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-01/alec-ceo-well-placed-to-gain-from-data-center-demand-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4933,
-        "score": 0.8667
+        "weight": 0.6701,
+        "score": 0.6333
       },
       {
-        "title": "Nike posts surprise sales growth, but warns of sluggish holiday season and bigger than expected tariff hit",
-        "url": "https://www.cnbc.com/2025/09/30/nike-nke-q1-2026-earnings.html",
-        "source": "CNBC Markets",
-        "weight": 0.4095,
-        "score": 0.6667
+        "title": "India’s RBI Raises IPO Loan Limits in Boost for New Listings",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-01/india-s-rbi-raises-ipo-loan-limits-in-boost-for-new-listings",
+        "source": "Bloomberg Markets",
+        "weight": 0.655,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Airbus’ Budget Customers Feel Buyer’s Remorse Over New XLR Jet",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-01/airbus-budget-customers-feel-buyer-s-remorse-over-new-xlr-jet",
-        "source": "Bloomberg Markets",
-        "weight": 0.756,
-        "score": -0.9333
-      },
-      {
-        "title": "Ethical hackers save crypto billions, SEAL’s Safe Harbor makes it possible",
-        "url": "https://cointelegraph.com/news/white-hat-hackers-saved-billions-crypto-seal-safe-harbor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "BNB Chain’s official X account hacked, CZ warns of phishing links",
+        "url": "https://cointelegraph.com/news/bnb-chain-x-account-hacked-inferno-links?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.756,
-        "score": -0.7333
+        "weight": 0.8903,
+        "score": -1.0
       },
       {
-        "title": "Ripple and Coinbase to qualify as crypto custodians under new SEC staff guidance",
-        "url": "https://cryptoslate.com/ripple-and-coinbase-to-qualify-as-crypto-custodians-under-new-sec-staff-guidance/",
-        "source": "CryptoSlate",
-        "weight": 0.5316,
+        "title": "Bug Bounties Hit Limits as AI Puts Crypto Hackers on Equal Footing",
+        "url": "https://decrypt.co/342378/bug-bounties-hit-limits-as-ai-puts-crypto-hackers-on-equal-footing",
+        "source": "Decrypt",
+        "weight": 0.7871,
         "score": -1.0
+      },
+      {
+        "title": "Hedge Fund Davidson Kempner Said to Buy Bad Debt from UAE Bank",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-01/hedge-fund-davidson-kempner-said-to-buy-bad-debt-from-uae-bank",
+        "source": "Bloomberg Markets",
+        "weight": 0.676,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6022512114204067,
-          "price_change_24h": -0.02844
+          "volume_mcap_ratio": 0.6007099834883477,
+          "price_change_24h": -0.03293
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3678834707875552,
-          "price_change_24h": 0.08198
+          "volume_mcap_ratio": 0.3867668837308446,
+          "price_change_24h": -0.31736
         }
       ],
       "momentum_shifts": []
