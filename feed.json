@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-01T02:03:41.030927+00:00",
+  "updated_at": "2025-10-01T04:29:22.578254+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.053,
+    "change24h": -0.011,
+    "vol": 0.052,
     "fearGreed": 49,
-    "momentum": -0.053,
-    "regime": "sideways",
+    "momentum": -0.189,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3919,
-    "global_sentiment": 0.3645,
-    "combined_sentiment": 0.4076,
-    "confidence": 0.7757,
+    "crypto_sentiment": 0.3523,
+    "global_sentiment": 0.4019,
+    "combined_sentiment": 0.3811,
+    "confidence": 0.7547,
     "counts": {
-      "crypto": 53,
-      "global": 38
+      "crypto": 54,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 114478,
-      "btc_change_24h": -0.04,
-      "eth_price": 4165.95,
-      "eth_change_24h": -0.99,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 114470,
+      "btc_change_24h": 0.15,
+      "eth_price": 4146.1,
+      "eth_change_24h": -1.24,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 230806014638,
+        "volume_24h": 239859249883,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.83,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-17T12:51:50.706238+00:00",
-      "crypto": 0.5929,
-      "global": 0.5118,
-      "combined": 0.5707,
-      "counts": {
-        "crypto": 53,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-09-17T16:30:29.008910+00:00",
       "crypto": 0.5308,
@@ -1008,6 +998,16 @@
         "crypto": 53,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-01T04:29:22.578254+00:00",
+      "crypto": 0.3523,
+      "global": 0.4019,
+      "combined": 0.3811,
+      "counts": {
+        "crypto": 54,
+        "global": 33
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Will institutions follow Bitcoin onto other chains?",
         "url": "https://cryptoslate.com/will-institutions-follow-bitcoin-onto-other-chains/",
         "source": "CryptoSlate",
-        "weight": 0.6643,
+        "weight": 0.5018,
         "score": 1.0
       },
       {
-        "title": "Gold Holds Ground Near Record as Traders Weigh Risk of Shutdown",
+        "title": "Gold Rallies to Fresh Record on US Government Shutdown Jitters",
         "url": "https://www.bloomberg.com/news/articles/2025-10-01/gold-holds-ground-near-record-as-traders-weigh-risk-of-shutdown",
         "source": "Bloomberg Markets",
-        "weight": 0.653,
+        "weight": 0.4933,
         "score": 0.8667
       },
       {
         "title": "Nike posts surprise sales growth, but warns of sluggish holiday season and bigger than expected tariff hit",
         "url": "https://www.cnbc.com/2025/09/30/nike-nke-q1-2026-earnings.html",
         "source": "CNBC Markets",
-        "weight": 0.5421,
+        "weight": 0.4095,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Ripple and Coinbase to qualify as crypto custodians under new SEC staff guidance",
-        "url": "https://cryptoslate.com/ripple-and-coinbase-to-qualify-as-crypto-custodians-under-new-sec-staff-guidance/",
-        "source": "CryptoSlate",
-        "weight": 0.7038,
-        "score": -1.0
-      },
-      {
-        "title": "Review & Preview: The Shutdown Showdown",
-        "url": "https://finance.yahoo.com/m/0055a5bd-5454-3c89-826c-53ef6db4c018/review-%26-preview%3A-the.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5997,
+        "title": "Airbus’ Budget Customers Feel Buyer’s Remorse Over New XLR Jet",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-01/airbus-budget-customers-feel-buyer-s-remorse-over-new-xlr-jet",
+        "source": "Bloomberg Markets",
+        "weight": 0.756,
         "score": -0.9333
       },
       {
-        "title": "Energy Sec. Wright on Power Grid, Lithium Americas Stake",
-        "url": "https://www.bloomberg.com/news/videos/2025-09-30/energy-sec-wright-on-power-grid-lithium-americas-stake-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4959,
+        "title": "Ethical hackers save crypto billions, SEAL’s Safe Harbor makes it possible",
+        "url": "https://cointelegraph.com/news/white-hat-hackers-saved-billions-crypto-seal-safe-harbor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.756,
+        "score": -0.7333
+      },
+      {
+        "title": "Ripple and Coinbase to qualify as crypto custodians under new SEC staff guidance",
+        "url": "https://cryptoslate.com/ripple-and-coinbase-to-qualify-as-crypto-custodians-under-new-sec-staff-guidance/",
+        "source": "CryptoSlate",
+        "weight": 0.5316,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5970172833677346,
-          "price_change_24h": -0.04785
+          "volume_mcap_ratio": 0.6022512114204067,
+          "price_change_24h": -0.02844
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.36355072863115845,
-          "price_change_24h": -0.00802
+          "volume_mcap_ratio": 0.3678834707875552,
+          "price_change_24h": 0.08198
         }
       ],
       "momentum_shifts": []
