@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-03T04:27:37.097943+00:00",
+  "updated_at": "2025-10-03T08:31:10.856828+00:00",
   "indicators": {
-    "change24h": 0.039,
-    "vol": 0.12,
+    "change24h": 0.016,
+    "vol": 0.09,
     "fearGreed": 63,
-    "momentum": 0.687,
+    "momentum": 0.285,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.7031,
-    "global_sentiment": 0.5174,
-    "combined_sentiment": 0.6537,
-    "confidence": 0.7288,
+    "crypto_sentiment": 0.7222,
+    "global_sentiment": 0.4869,
+    "combined_sentiment": 0.6656,
+    "confidence": 0.7019,
     "counts": {
-      "crypto": 64,
+      "crypto": 63,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 120297,
-      "btc_change_24h": 1.43,
-      "eth_price": 4509.56,
-      "eth_change_24h": 3.16,
+      "btc_price": 119713,
+      "btc_change_24h": 0.95,
+      "eth_price": 4451.94,
+      "eth_change_24h": 1.49,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 63,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 289228513443,
-        "high_activity_coins": 3
+        "volume_24h": 288523030080,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.51,
+        "btc_dominance": 56.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-19T16:29:37.374575+00:00",
-      "crypto": 0.5327,
-      "global": 0.543,
-      "combined": 0.5281,
-      "counts": {
-        "crypto": 57,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-19T19:53:45.178925+00:00",
       "crypto": 0.5469,
@@ -1008,23 +998,26 @@
         "crypto": 64,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-03T08:31:10.856828+00:00",
+      "crypto": 0.7222,
+      "global": 0.4869,
+      "combined": 0.6656,
+      "counts": {
+        "crypto": 63,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures Rise; AI Stocks In Buy Areas As Tesla Sells The News",
-        "url": "https://finance.yahoo.com/m/54c4c7c3-f23e-3581-bc79-2fc833824698/dow-jones-futures-rise%3B-ai.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6848,
-        "score": 0.8667
-      },
-      {
-        "title": "Copper Rally Gathers Steam on Supply Concerns and Weaker Dollar",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/copper-rally-gathers-steam-on-supply-concerns-and-weaker-dollar",
-        "source": "Bloomberg Markets",
-        "weight": 0.7041,
-        "score": 0.6667
+        "title": "BNB Breakout Over $1.1K Leaves Bitcoin, Dogecoin Behind, With Ecosystem Tokens in Focus",
+        "url": "https://www.coindesk.com/markets/2025/10/03/bnb-breakout-over-usd1-1k-leaves-bitcoin-dogecoin-behind-with-ecosystem-tokens-in-focus",
+        "source": "CoinDesk",
+        "weight": 0.9018,
+        "score": 0.5333
       },
       {
         "title": "Fear & Greed 63 (Greed) — bullish",
@@ -1032,47 +1025,49 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Budget Chinese Carrier Spring Airlines Is Said to Mull Hong Kong Listing",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-03/budget-chinese-carrier-spring-airlines-is-said-to-mull-hong-kong-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.6543,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Arata Corp. Cancels ¥5 Billion Bond Sale for Issuer Reasons",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/arata-corp-cancels-5-billion-bond-sale-for-issuer-reasons",
+        "title": "French Industrial Production Unexpectedly Declined in August",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-03/french-industrial-production-unexpectedly-declined-in-august",
         "source": "Bloomberg Markets",
-        "weight": 0.4988,
+        "weight": 0.6809,
         "score": -0.9667
       },
       {
-        "title": "Typhoon Matmo Strengthens as It Hits Philippines, on Track to China",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/typhoon-strengthens-as-it-hits-philippines-on-track-to-china",
+        "title": "India Looks for First US LPG Cargoes as Trade War Diverts Flows",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-03/india-looks-for-first-us-lpg-cargoes-as-trade-war-diverts-flows",
         "source": "Bloomberg Markets",
-        "weight": 0.7015,
-        "score": -0.6667
+        "weight": 0.669,
+        "score": -0.6333
       },
       {
-        "title": "GIC Sees ‘Hype Bubble’ in AI Ventures, Risk of Bond Selloffs",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/gic-sees-hype-bubble-in-ai-ventures-risk-of-bond-selloffs",
-        "source": "Bloomberg Markets",
-        "weight": 0.637,
-        "score": -0.6333
+        "title": "FTSE 100 LIVE: Stocks rise as oil remains on track for biggest weekly fall since June",
+        "url": "https://uk.finance.yahoo.com/news/ftse-100-live-stocks-rise-oil-on-track-biggest-weekly-fall-since-june-082827897.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7958,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7157979726968289,
-          "price_change_24h": 0.02077
+          "volume_mcap_ratio": 0.7166310440274699,
+          "price_change_24h": 0.00992
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.41051881450732497,
-          "price_change_24h": 0.06506
-        },
-        {
-          "symbol": "APT",
-          "volume_mcap_ratio": 0.30226393313818545,
-          "price_change_24h": 5.63328
+          "volume_mcap_ratio": 0.39974385138116164,
+          "price_change_24h": -0.01793
         }
       ],
       "momentum_shifts": []
