@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-03T16:29:30.374748+00:00",
+  "updated_at": "2025-10-03T19:53:39.044953+00:00",
   "indicators": {
-    "change24h": 0.047,
-    "vol": 0.123,
+    "change24h": 0.006,
+    "vol": 0.144,
     "fearGreed": 63,
-    "momentum": 0.821,
+    "momentum": 0.111,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5834,
-    "global_sentiment": 0.5861,
-    "combined_sentiment": 0.5697,
-    "confidence": 0.8053,
+    "crypto_sentiment": 0.5641,
+    "global_sentiment": 0.5181,
+    "combined_sentiment": 0.5496,
+    "confidence": 0.8121,
     "counts": {
-      "crypto": 62,
-      "global": 39
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 123712,
-      "btc_change_24h": 3.07,
-      "eth_price": 4550.78,
-      "eth_change_24h": 2.31,
+      "btc_price": 122734,
+      "btc_change_24h": 1.72,
+      "eth_price": 4521.19,
+      "eth_change_24h": 0.6,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 63,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 313428051627,
+        "volume_24h": 340307152910,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-20T01:48:33.665297+00:00",
-      "crypto": 0.5611,
-      "global": 0.358,
-      "combined": 0.534,
-      "counts": {
-        "crypto": 58,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-09-20T04:27:55.737697+00:00",
       "crypto": 0.5443,
@@ -1008,66 +998,76 @@
         "crypto": 62,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-03T19:53:39.044953+00:00",
+      "crypto": 0.5641,
+      "global": 0.5181,
+      "combined": 0.5496,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin Surges Above $123K, Nearing New Record as Bullish Q4 Sentiment Fuels Weeklong Rally",
+        "url": "https://www.coindesk.com/markets/2025/10/03/bitcoin-surges-above-usd123k-nearing-new-record-as-bullish-q4-sentiment-fuels-weeklong-rally",
+        "source": "CoinDesk",
+        "weight": 0.6544,
+        "score": 1.0
+      },
+      {
         "title": "Stablecoins break $300B market cap, post 47% growth year-to-date",
         "url": "https://cointelegraph.com/news/stablecoins-300-billion-market-cap-47-growth-ytd?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6478,
+        "weight": 0.4372,
         "score": 1.0
       },
       {
-        "title": "Youxin Technology Ltd Regains Compliance with Nasdaq Stockholders’ Equity Rule",
-        "url": "https://finance.yahoo.com/news/youxin-technology-ltd-regains-compliance-133000554.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5662,
-        "score": 1.0
-      },
-      {
-        "title": "Bridgewater's Flagship Fund Is Up 26% So Far This Year",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-03/bridgewater-s-flagship-fund-is-up-26-so-far-this-year-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7253,
-        "score": 0.6667
+        "title": "Fear & Greed 63 (Greed) — bullish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Tokenization Could Revitalize Chile’s Struggling Pension System",
-        "url": "https://www.coindesk.com/opinion/2025/10/02/tokenization-could-revitalize-chile-s-struggling-pension-system",
+        "title": "HBAR Faces Sharp Selloff as Technical Breakdown Deepens Bearish Trend",
+        "url": "https://www.coindesk.com/markets/2025/10/03/hbar-faces-sharp-selloff-as-technical-breakdown-deepens-bearish-trend",
         "source": "CoinDesk",
-        "weight": 0.6681,
-        "score": -0.9333
+        "weight": 0.6613,
+        "score": -0.8667
       },
       {
-        "title": "UK renews Apple iCloud backdoor push, threatening crypto wallet security",
-        "url": "https://cointelegraph.com/news/uk-apple-icloud-backdoor-crypto-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5314,
-        "score": -1.0
+        "title": "This trader turned $68,700 into $9.4 million by betting on BNB Chain’s viral ‘4’ memecoin",
+        "url": "https://cryptoslate.com/this-trader-turned-68700-into-9-4-million-by-betting-on-bnb-chains-viral-4-memecoin/",
+        "source": "CryptoSlate",
+        "weight": 0.7454,
+        "score": -0.7333
       },
       {
-        "title": "ECB’s Schnabel Says Financial Markets May Be Getting Complacent",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/ecb-s-schnabel-says-financial-markets-may-be-getting-complacent",
+        "title": "Tricolor Records Show Same Cars Tied to Thousands of Loans",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-03/tricolor-records-show-same-cars-tied-to-thousands-of-loans",
         "source": "Bloomberg Markets",
-        "weight": 0.7376,
-        "score": -0.6667
+        "weight": 0.7466,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7666926655832488,
-          "price_change_24h": -0.00514
+          "volume_mcap_ratio": 0.8406124846576145,
+          "price_change_24h": -0.00483
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.42882983483874726,
-          "price_change_24h": 0.05537
+          "volume_mcap_ratio": 0.415824282898788,
+          "price_change_24h": -0.11811
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-03",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.6402,
+      "crypto_high": 0.7222,
+      "crypto_low": 0.5641,
+      "global_avg": 0.5205,
+      "global_high": 0.5861,
+      "global_low": 0.4632,
+      "combined_avg": 0.6068,
+      "combined_high": 0.6656,
+      "combined_low": 0.5496
+    },
+    "market_indicators_24h": {
+      "change24h": 0.006,
+      "vol": 0.144,
+      "fearGreed": 63,
+      "momentum": 0.111,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-03T19:53:39.044953+00:00"
   }
 }
