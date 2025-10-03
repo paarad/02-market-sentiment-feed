@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-03T08:31:10.856828+00:00",
+  "updated_at": "2025-10-03T12:49:44.644828+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.09,
+    "change24h": 0.015,
+    "vol": 0.086,
     "fearGreed": 63,
-    "momentum": 0.285,
+    "momentum": 0.271,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.7222,
-    "global_sentiment": 0.4869,
-    "combined_sentiment": 0.6656,
-    "confidence": 0.7019,
+    "crypto_sentiment": 0.5743,
+    "global_sentiment": 0.5512,
+    "combined_sentiment": 0.56,
+    "confidence": 0.764,
     "counts": {
-      "crypto": 63,
-      "global": 38
+      "crypto": 62,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 119713,
-      "btc_change_24h": 0.95,
-      "eth_price": 4451.94,
-      "eth_change_24h": 1.49,
+      "btc_price": 120343,
+      "btc_change_24h": 0.86,
+      "eth_price": 4484.07,
+      "eth_change_24h": 2.05,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 63,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 288523030080,
+        "volume_24h": 299182281843,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.58,
+        "btc_dominance": 56.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-19T19:53:45.178925+00:00",
-      "crypto": 0.5469,
-      "global": 0.4777,
-      "combined": 0.5333,
-      "counts": {
-        "crypto": 57,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-09-19T20:25:43.404230+00:00",
       "crypto": 0.5879,
@@ -1008,66 +998,76 @@
         "crypto": 63,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-03T12:49:44.644828+00:00",
+      "crypto": 0.5743,
+      "global": 0.5512,
+      "combined": 0.56,
+      "counts": {
+        "crypto": 62,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BNB Breakout Over $1.1K Leaves Bitcoin, Dogecoin Behind, With Ecosystem Tokens in Focus",
-        "url": "https://www.coindesk.com/markets/2025/10/03/bnb-breakout-over-usd1-1k-leaves-bitcoin-dogecoin-behind-with-ecosystem-tokens-in-focus",
-        "source": "CoinDesk",
-        "weight": 0.9018,
-        "score": 0.5333
-      },
-      {
-        "title": "Fear & Greed 63 (Greed) — bullish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Budget Chinese Carrier Spring Airlines Is Said to Mull Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/budget-chinese-carrier-spring-airlines-is-said-to-mull-hong-kong-listing",
+        "title": "BBVA & Sabadell Clash as Bid Enters Final Days, European Stocks Record High | The Opening Trade 10/3",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-03/the-opening-trade-10-3-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6543,
-        "score": 0.6333
+        "weight": 0.7025,
+        "score": 0.95
+      },
+      {
+        "title": "Stocks Rally with More AI Optimism; Government Shutdown Enters Day Three | Bloomberg Brief 10/3/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-03/bloomberg-brief-10-3-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.648,
+        "score": 0.9167
+      },
+      {
+        "title": "The wealth of the top 1% reaches a record $52 trillion",
+        "url": "https://www.cnbc.com/2025/10/03/the-wealth-of-the-top-1percent-reaches-a-record-52-trillion.html",
+        "source": "CNBC Markets",
+        "weight": 0.7702,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "French Industrial Production Unexpectedly Declined in August",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/french-industrial-production-unexpectedly-declined-in-august",
-        "source": "Bloomberg Markets",
-        "weight": 0.6809,
+        "title": "Crypto hack losses fall 37% in Q3 as tactics shift to wallets",
+        "url": "https://cointelegraph.com/news/q3-2025-crypto-hacks-losses-drop-37-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5617,
+        "score": -1.0
+      },
+      {
+        "title": "Quantum computers could bring lost Bitcoin back to life: Here’s how",
+        "url": "https://cointelegraph.com/explained/quantum-computers-could-bring-lost-bitcoin-back-to-life-heres-how?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5378,
         "score": -0.9667
       },
       {
-        "title": "India Looks for First US LPG Cargoes as Trade War Diverts Flows",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-03/india-looks-for-first-us-lpg-cargoes-as-trade-war-diverts-flows",
-        "source": "Bloomberg Markets",
-        "weight": 0.669,
-        "score": -0.6333
-      },
-      {
-        "title": "FTSE 100 LIVE: Stocks rise as oil remains on track for biggest weekly fall since June",
-        "url": "https://uk.finance.yahoo.com/news/ftse-100-live-stocks-rise-oil-on-track-biggest-weekly-fall-since-june-082827897.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7958,
-        "score": -0.3333
+        "title": "Bitcoin Could Reach $135,000 Soon: Standard Chartered",
+        "url": "https://decrypt.co/342805/bitcoin-could-reach-135000-soon-standard-chartered",
+        "source": "Decrypt",
+        "weight": 0.7617,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7166310440274699,
-          "price_change_24h": 0.00992
+          "volume_mcap_ratio": 0.7428049602082746,
+          "price_change_24h": 0.01794
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.39974385138116164,
-          "price_change_24h": -0.01793
+          "volume_mcap_ratio": 0.41513807502000044,
+          "price_change_24h": 0.04352
         }
       ],
       "momentum_shifts": []
