@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-03T12:49:44.644828+00:00",
+  "updated_at": "2025-10-03T16:29:30.374748+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.086,
+    "change24h": 0.047,
+    "vol": 0.123,
     "fearGreed": 63,
-    "momentum": 0.271,
+    "momentum": 0.821,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5743,
-    "global_sentiment": 0.5512,
-    "combined_sentiment": 0.56,
-    "confidence": 0.764,
+    "crypto_sentiment": 0.5834,
+    "global_sentiment": 0.5861,
+    "combined_sentiment": 0.5697,
+    "confidence": 0.8053,
     "counts": {
       "crypto": 62,
-      "global": 46
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 120343,
-      "btc_change_24h": 0.86,
-      "eth_price": 4484.07,
-      "eth_change_24h": 2.05,
+      "btc_price": 123712,
+      "btc_change_24h": 3.07,
+      "eth_price": 4550.78,
+      "eth_change_24h": 2.31,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 63,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 299182281843,
+        "volume_24h": 313428051627,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.62,
+        "btc_dominance": 56.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-19T20:25:43.404230+00:00",
-      "crypto": 0.5879,
-      "global": 0.459,
-      "combined": 0.5625,
-      "counts": {
-        "crypto": 59,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-20T01:48:33.665297+00:00",
       "crypto": 0.5611,
@@ -1008,52 +998,62 @@
         "crypto": 62,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-10-03T16:29:30.374748+00:00",
+      "crypto": 0.5834,
+      "global": 0.5861,
+      "combined": 0.5697,
+      "counts": {
+        "crypto": 62,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BBVA & Sabadell Clash as Bid Enters Final Days, European Stocks Record High | The Opening Trade 10/3",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-03/the-opening-trade-10-3-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7025,
-        "score": 0.95
+        "title": "Stablecoins break $300B market cap, post 47% growth year-to-date",
+        "url": "https://cointelegraph.com/news/stablecoins-300-billion-market-cap-47-growth-ytd?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6478,
+        "score": 1.0
       },
       {
-        "title": "Stocks Rally with More AI Optimism; Government Shutdown Enters Day Three | Bloomberg Brief 10/3/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-03/bloomberg-brief-10-3-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.648,
-        "score": 0.9167
+        "title": "Youxin Technology Ltd Regains Compliance with Nasdaq Stockholders’ Equity Rule",
+        "url": "https://finance.yahoo.com/news/youxin-technology-ltd-regains-compliance-133000554.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5662,
+        "score": 1.0
       },
       {
-        "title": "The wealth of the top 1% reaches a record $52 trillion",
-        "url": "https://www.cnbc.com/2025/10/03/the-wealth-of-the-top-1percent-reaches-a-record-52-trillion.html",
-        "source": "CNBC Markets",
-        "weight": 0.7702,
+        "title": "Bridgewater's Flagship Fund Is Up 26% So Far This Year",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-03/bridgewater-s-flagship-fund-is-up-26-so-far-this-year-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7253,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Crypto hack losses fall 37% in Q3 as tactics shift to wallets",
-        "url": "https://cointelegraph.com/news/q3-2025-crypto-hacks-losses-drop-37-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Tokenization Could Revitalize Chile’s Struggling Pension System",
+        "url": "https://www.coindesk.com/opinion/2025/10/02/tokenization-could-revitalize-chile-s-struggling-pension-system",
+        "source": "CoinDesk",
+        "weight": 0.6681,
+        "score": -0.9333
+      },
+      {
+        "title": "UK renews Apple iCloud backdoor push, threatening crypto wallet security",
+        "url": "https://cointelegraph.com/news/uk-apple-icloud-backdoor-crypto-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5617,
+        "weight": 0.5314,
         "score": -1.0
       },
       {
-        "title": "Quantum computers could bring lost Bitcoin back to life: Here’s how",
-        "url": "https://cointelegraph.com/explained/quantum-computers-could-bring-lost-bitcoin-back-to-life-heres-how?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5378,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin Could Reach $135,000 Soon: Standard Chartered",
-        "url": "https://decrypt.co/342805/bitcoin-could-reach-135000-soon-standard-chartered",
-        "source": "Decrypt",
-        "weight": 0.7617,
+        "title": "ECB’s Schnabel Says Financial Markets May Be Getting Complacent",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-03/ecb-s-schnabel-says-financial-markets-may-be-getting-complacent",
+        "source": "Bloomberg Markets",
+        "weight": 0.7376,
         "score": -0.6667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7428049602082746,
-          "price_change_24h": 0.01794
+          "volume_mcap_ratio": 0.7666926655832488,
+          "price_change_24h": -0.00514
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.41513807502000044,
-          "price_change_24h": 0.04352
+          "volume_mcap_ratio": 0.42882983483874726,
+          "price_change_24h": 0.05537
         }
       ],
       "momentum_shifts": []
