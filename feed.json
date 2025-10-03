@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-02T20:26:49.905491+00:00",
+  "updated_at": "2025-10-03T01:50:35.969522+00:00",
   "indicators": {
-    "change24h": 0.064,
-    "vol": 0.134,
-    "fearGreed": 64,
-    "momentum": 1.0,
+    "change24h": 0.029,
+    "vol": 0.11,
+    "fearGreed": 63,
+    "momentum": 0.503,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.7633,
-    "global_sentiment": 0.4455,
-    "combined_sentiment": 0.6929,
-    "confidence": 0.8338,
+    "crypto_sentiment": 0.694,
+    "global_sentiment": 0.4632,
+    "combined_sentiment": 0.6424,
+    "confidence": 0.771,
     "counts": {
-      "crypto": 73,
-      "global": 58
+      "crypto": 67,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 120666,
-      "btc_change_24h": 2.87,
-      "eth_price": 4486.31,
-      "eth_change_24h": 3.7,
+      "btc_price": 120110,
+      "btc_change_24h": 1.02,
+      "eth_price": 4476.68,
+      "eth_change_24h": 2.36,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 64,
+        "value": 63,
         "classification": "Greed",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 308550605240,
+        "volume_24h": 289734215403,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.64,
+        "btc_dominance": 56.6,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-19T08:31:43.295680+00:00",
-      "crypto": 0.6644,
-      "global": 0.501,
-      "combined": 0.6234,
-      "counts": {
-        "crypto": 60,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-19T12:50:46.393949+00:00",
       "crypto": 0.6411,
@@ -1008,71 +998,81 @@
         "crypto": 73,
         "global": 58
       }
+    },
+    {
+      "ts": "2025-10-03T01:50:35.969522+00:00",
+      "crypto": 0.694,
+      "global": 0.4632,
+      "combined": 0.6424,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Dow Jones Futures Rise After Hot Stocks Rally; Tesla Sells The News",
+        "url": "https://finance.yahoo.com/m/54c4c7c3-f23e-3581-bc79-2fc833824698/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7941,
+        "score": 0.8667
+      },
+      {
+        "title": "Upwork CFO on Monthly Hiring Report Findings",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-02/upwork-cfo-on-monthly-hiring-report-findings-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6278,
+        "score": 0.8667
+      },
+      {
         "title": "ETH surge to $4.5K proves the bottom is in: Data predicts a 100% rally next",
         "url": "https://cointelegraph.com/news/eth-surge-to-dollar4-5k-proves-the-bottom-is-in-data-predicts-a-100percent-rally-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9142,
+        "weight": 0.4901,
         "score": 1.0
-      },
-      {
-        "title": "XRP Reclaims Crucial Price Support: Can Bulls Hold the Line?",
-        "url": "https://decrypt.co/342732/xrp-price-support-can-bulls-hold-line",
-        "source": "Decrypt",
-        "weight": 0.9796,
-        "score": 0.8667
-      },
-      {
-        "title": "Filecoin Rises More Than 4% Amid Wider Crypto Market Rally",
-        "url": "https://www.coindesk.com/markets/2025/10/02/filecoin-rises-more-than-4-amid-wider-crypto-market-rally",
-        "source": "CoinDesk",
-        "weight": 0.7637,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Dow, S&P 500, Nasdaq notch records on AI buzz even as government shutdown drags on",
-        "url": "https://finance.yahoo.com/news/live/dow-sp-500-nasdaq-notch-records-on-ai-buzz-even-as-government-shutdown-drags-on-200207403.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7628,
-        "score": -1.0
-      },
-      {
-        "title": "Trump Eyeing Federal Jobs Cuts | Bloomberg Businessweek Daily 10/2/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-02/bloomberg-businessweek-daily-10-2-2025-video",
+        "title": "Arata Corp. Cancels ¥5 Billion Bond Sale for Issuer Reasons",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-03/arata-corp-cancels-5-billion-bond-sale-for-issuer-reasons",
         "source": "Bloomberg Markets",
-        "weight": 0.7652,
+        "weight": 0.6749,
         "score": -0.9667
       },
       {
-        "title": "DraftKings Stock Could Struggle Near-Term, But Long-Term Opportunities Remain, Analysts Say",
-        "url": "https://finance.yahoo.com/m/5d6a2405-9dae-3057-9705-ef9d0eebc8d9/draftkings-stock-could.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.578,
-        "score": -1.0
+        "title": "Brazil and China Team Up to Create New Investment Fund",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-02/brazil-and-china-team-up-to-create-new-investment-fund",
+        "source": "Bloomberg Markets",
+        "weight": 0.5192,
+        "score": -0.9667
+      },
+      {
+        "title": "Crypto Biz: From banks to biotechs, real-world assets move onchain",
+        "url": "https://cointelegraph.com/news/crypto-biz-tradfi-tether-raise-sec-onchain-stocks-jpmorgan-kinexys-depin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4315,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7548637219318259,
-          "price_change_24h": 0.01314
+          "volume_mcap_ratio": 0.7208854467200463,
+          "price_change_24h": 0.02222
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38288865400351485,
-          "price_change_24h": 0.0522
+          "volume_mcap_ratio": 0.3812200783315711,
+          "price_change_24h": -0.0119
         },
         {
           "symbol": "APT",
-          "volume_mcap_ratio": 0.32341463750486726,
-          "price_change_24h": 8.76521
+          "volume_mcap_ratio": 0.3105806358021917,
+          "price_change_24h": 5.0751
         }
       ],
       "momentum_shifts": []
