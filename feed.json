@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-04T16:27:04.151450+00:00",
+  "updated_at": "2025-10-04T19:53:50.159644+00:00",
   "indicators": {
-    "change24h": -0.052,
-    "vol": 0.127,
+    "change24h": -0.032,
+    "vol": 0.116,
     "fearGreed": 71,
-    "momentum": -0.906,
+    "momentum": -0.553,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5575,
-    "global_sentiment": 0.3329,
-    "combined_sentiment": 0.5292,
-    "confidence": 0.7075,
+    "crypto_sentiment": 0.539,
+    "global_sentiment": 0.3904,
+    "combined_sentiment": 0.5201,
+    "confidence": 0.6608,
     "counts": {
-      "crypto": 74,
+      "crypto": 72,
       "global": 26
     },
     "market_indicators": {
-      "btc_price": 121687,
-      "btc_change_24h": -1.66,
-      "eth_price": 4445.77,
-      "eth_change_24h": -2.38,
+      "btc_price": 121923,
+      "btc_change_24h": -0.67,
+      "eth_price": 4467.31,
+      "eth_change_24h": -1.24,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 233289973748,
+        "volume_24h": 169364793643,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.09,
+        "btc_dominance": 57.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-21T02:01:33.673319+00:00",
-      "crypto": 0.6225,
-      "global": 0.368,
-      "combined": 0.5809,
-      "counts": {
-        "crypto": 56,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-21T04:27:59.443163+00:00",
       "crypto": 0.5509,
@@ -1008,30 +998,40 @@
         "crypto": 74,
         "global": 26
       }
+    },
+    {
+      "ts": "2025-10-04T19:53:50.159644+00:00",
+      "crypto": 0.539,
+      "global": 0.3904,
+      "combined": 0.5201,
+      "counts": {
+        "crypto": 72,
+        "global": 26
+      }
     }
   ],
   "drivers": {
     "positive": [
-      {
-        "title": "Stablecoin market boom to $300B is ‘rocket fuel’ for crypto rally",
-        "url": "https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5516,
-        "score": 1.0
-      },
-      {
-        "title": "Floki Soars 23% as Valour Launches Europe’s First FLOKI ETP",
-        "url": "https://www.coindesk.com/markets/2025/10/04/floki-soars-23-as-valour-launches-europe-s-1st-floki-etp",
-        "source": "CoinDesk",
-        "weight": 0.6842,
-        "score": 0.6667
-      },
       {
         "title": "Fear & Greed 71 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Stablecoin market boom to $300B is ‘rocket fuel’ for crypto rally",
+        "url": "https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3705,
+        "score": 1.0
+      },
+      {
+        "title": "Floki Soars 23% as Valour Launches Europe’s First FLOKI ETP",
+        "url": "https://www.coindesk.com/markets/2025/10/04/floki-soars-23-as-valour-launches-europe-s-1st-floki-etp",
+        "source": "CoinDesk",
+        "weight": 0.4595,
+        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Maduro’s Drug War Push Fails to Relieve Trump’s Maximum Pressure",
         "url": "https://www.bloomberg.com/news/articles/2025-10-04/venezuela-boat-strikes-maduro-s-drug-war-push-fails-to-relieve-trump-pressure",
         "source": "Bloomberg Markets",
-        "weight": 0.5689,
+        "weight": 0.3821,
         "score": -0.9333
       },
       {
         "title": "XRP slides below $3: How low can the price go next?",
         "url": "https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7687,
+        "weight": 0.5162,
         "score": -0.6667
       },
       {
         "title": "Tech stocks roll on and Pfizer soars after Trump deal",
         "url": "https://www.freep.com/story/money/business/2025/10/04/tech-stocks-pfizer-trump-deal/86498101007/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4279,
+        "weight": 0.2874,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5708675198452212,
-          "price_change_24h": -0.02131
+          "volume_mcap_ratio": 0.4220716084082142,
+          "price_change_24h": -0.01122
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38372444367786007,
-          "price_change_24h": -0.16163
+          "volume_mcap_ratio": 0.3909881440901994,
+          "price_change_24h": 0.03414
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-04",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.565,
+      "crypto_high": 0.602,
+      "crypto_low": 0.539,
+      "global_avg": 0.4448,
+      "global_high": 0.5176,
+      "global_low": 0.3329,
+      "combined_avg": 0.5442,
+      "combined_high": 0.5769,
+      "combined_low": 0.5201
+    },
+    "market_indicators_24h": {
+      "change24h": -0.032,
+      "vol": 0.116,
+      "fearGreed": 71,
+      "momentum": -0.553,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-04T19:53:50.159644+00:00"
   }
 }
