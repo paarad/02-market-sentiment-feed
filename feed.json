@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-04T01:46:53.728473+00:00",
+  "updated_at": "2025-10-04T04:26:54.202309+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.111,
+    "change24h": -0.006,
+    "vol": 0.12,
     "fearGreed": 71,
-    "momentum": 0.133,
-    "regime": "sideways",
+    "momentum": -0.105,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.549,
-    "global_sentiment": 0.5176,
-    "combined_sentiment": 0.5382,
-    "confidence": 0.7775,
+    "crypto_sentiment": 0.5499,
+    "global_sentiment": 0.4618,
+    "combined_sentiment": 0.5342,
+    "confidence": 0.7407,
     "counts": {
       "crypto": 71,
       "global": 26
     },
     "market_indicators": {
-      "btc_price": 121956,
-      "btc_change_24h": 1.48,
-      "eth_price": 4487.0,
-      "eth_change_24h": 0.19,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 122433,
+      "btc_change_24h": 1.77,
+      "eth_price": 4487.48,
+      "eth_change_24h": -0.49,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 325555215725,
-        "high_activity_coins": 2
+        "volume_24h": 320575208552,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.79,
+        "btc_dominance": 56.91,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-20T12:46:11.569702+00:00",
-      "crypto": 0.5967,
-      "global": 0.3274,
-      "combined": 0.5581,
-      "counts": {
-        "crypto": 56,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-20T16:26:09.065811+00:00",
       "crypto": 0.6025,
@@ -1008,6 +998,16 @@
         "crypto": 71,
         "global": 26
       }
+    },
+    {
+      "ts": "2025-10-04T04:26:54.202309+00:00",
+      "crypto": 0.5499,
+      "global": 0.4618,
+      "combined": 0.5342,
+      "counts": {
+        "crypto": 71,
+        "global": 26
+      }
     }
   ],
   "drivers": {
@@ -1020,7 +1020,7 @@
         "score": 0.5333
       },
       {
-        "title": "Global crypto market cap up 1.4% — rally",
+        "title": "Global crypto market cap up 1.3% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1030,44 +1030,49 @@
         "title": "Bitcoin Surges Above $123K, Nearing New Record as Bullish Q4 Sentiment Fuels Weeklong Rally",
         "url": "https://www.coindesk.com/markets/2025/10/03/bitcoin-surges-above-usd123k-nearing-new-record-as-bullish-q4-sentiment-fuels-weeklong-rally",
         "source": "CoinDesk",
-        "weight": 0.3315,
+        "weight": 0.2436,
         "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Indian Regulator Denies Reports on Family Offices Oversight",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-04/indian-regulator-denies-reports-on-family-offices-oversight",
+        "source": "Bloomberg Markets",
+        "weight": 0.7317,
+        "score": -0.6333
+      },
+      {
         "title": "Judge tosses lawsuit against Yuga Labs over failure to satisfy Howey test",
         "url": "https://cointelegraph.com/news/judge-tosses-lawsuit-yuga-labs-fail-satisfy-howey-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5047,
+        "weight": 0.3709,
         "score": -1.0
       },
       {
         "title": "Can a Unity Android bug drain your wallet? Here’s how to check",
         "url": "https://cryptoslate.com/can-a-unity-android-bug-drain-your-wallet-heres-how-to-check/",
         "source": "CryptoSlate",
-        "weight": 0.4077,
+        "weight": 0.2996,
         "score": -0.9667
-      },
-      {
-        "title": "Vanguard Rivals Finally Get Hands On Its Tax-Busting Fund Design",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-03/vanguard-rivals-finally-get-hands-on-tax-busting-design-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5209,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.806341772272383,
-          "price_change_24h": -0.00206
+          "volume_mcap_ratio": 0.7898107318968289,
+          "price_change_24h": -0.00328
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3315676200742947,
-          "price_change_24h": -0.03645
+          "volume_mcap_ratio": 0.368890116485526,
+          "price_change_24h": -0.02529
+        },
+        {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.32141955806722866,
+          "price_change_24h": 11.85977
         }
       ],
       "momentum_shifts": []
