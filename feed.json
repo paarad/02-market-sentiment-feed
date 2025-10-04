@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-04T12:44:25.599499+00:00",
+  "updated_at": "2025-10-04T16:27:04.151450+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.085,
+    "change24h": -0.052,
+    "vol": 0.127,
     "fearGreed": 71,
-    "momentum": -0.069,
-    "regime": "sideways",
+    "momentum": -0.906,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5927,
-    "global_sentiment": 0.4622,
-    "combined_sentiment": 0.5664,
-    "confidence": 0.6759,
+    "crypto_sentiment": 0.5575,
+    "global_sentiment": 0.3329,
+    "combined_sentiment": 0.5292,
+    "confidence": 0.7075,
     "counts": {
-      "crypto": 73,
+      "crypto": 74,
       "global": 26
     },
     "market_indicators": {
-      "btc_price": 122096,
-      "btc_change_24h": 1.49,
-      "eth_price": 4488.77,
-      "eth_change_24h": 0.07,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 121687,
+      "btc_change_24h": -1.66,
+      "eth_price": 4445.77,
+      "eth_change_24h": -2.38,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 282316578299,
+        "volume_24h": 233289973748,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.95,
+        "btc_dominance": 57.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-20T20:22:42.590470+00:00",
-      "crypto": 0.575,
-      "global": 0.4134,
-      "combined": 0.549,
-      "counts": {
-        "crypto": 58,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-21T02:01:33.673319+00:00",
       "crypto": 0.6225,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 26
       }
+    },
+    {
+      "ts": "2025-10-04T16:27:04.151450+00:00",
+      "crypto": 0.5575,
+      "global": 0.3329,
+      "combined": 0.5292,
+      "counts": {
+        "crypto": 74,
+        "global": 26
+      }
     }
   ],
   "drivers": {
     "positive": [
+      {
+        "title": "Stablecoin market boom to $300B is ‘rocket fuel’ for crypto rally",
+        "url": "https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5516,
+        "score": 1.0
+      },
+      {
+        "title": "Floki Soars 23% as Valour Launches Europe’s First FLOKI ETP",
+        "url": "https://www.coindesk.com/markets/2025/10/04/floki-soars-23-as-valour-launches-europe-s-1st-floki-etp",
+        "source": "CoinDesk",
+        "weight": 0.6842,
+        "score": 0.6667
+      },
       {
         "title": "Fear & Greed 71 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Crypto VCs are ‘a lot more careful’ and not chasing narratives: Exec",
-        "url": "https://cointelegraph.com/news/crypto-venture-capital-bullish-capital-investment-slowing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4419,
-        "score": 0.8667
-      },
-      {
-        "title": "How Ethereum’s Fusaka Upgrade Could Be a Game-Changer, Asset Manager VanEck Explains",
-        "url": "https://www.coindesk.com/tech/2025/10/04/how-ethereum-s-fusaka-upgrade-could-be-a-game-changer-asset-manager-vaneck-explains",
-        "source": "CoinDesk",
-        "weight": 0.7495,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Tech stocks roll on and Pfizer soars after Trump deal",
-        "url": "https://www.freep.com/story/money/business/2025/10/04/tech-stocks-pfizer-trump-deal/86498101007/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6569,
+        "title": "Maduro’s Drug War Push Fails to Relieve Trump’s Maximum Pressure",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-04/venezuela-boat-strikes-maduro-s-drug-war-push-fails-to-relieve-trump-pressure",
+        "source": "Bloomberg Markets",
+        "weight": 0.5689,
         "score": -0.9333
       },
       {
-        "title": "Bankman-Fried says his biggest mistake was handing FTX to new CEO before bankruptcy",
-        "url": "https://cointelegraph.com/news/sbf-biggest-mistake-handing-ftx-ray-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "XRP slides below $3: How low can the price go next?",
+        "url": "https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7311,
-        "score": -0.3333
+        "weight": 0.7687,
+        "score": -0.6667
       },
       {
-        "title": "Indian Regulator Denies Reports on Family Offices Oversight",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-04/indian-regulator-denies-reports-on-family-offices-oversight",
-        "source": "Bloomberg Markets",
-        "weight": 0.2807,
-        "score": -0.6333
+        "title": "Tech stocks roll on and Pfizer soars after Trump deal",
+        "url": "https://www.freep.com/story/money/business/2025/10/04/tech-stocks-pfizer-trump-deal/86498101007/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4279,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6986506456797122,
-          "price_change_24h": -0.018
+          "volume_mcap_ratio": 0.5708675198452212,
+          "price_change_24h": -0.02131
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3598115214139906,
-          "price_change_24h": -0.01718
+          "volume_mcap_ratio": 0.38372444367786007,
+          "price_change_24h": -0.16163
         }
       ],
       "momentum_shifts": []
