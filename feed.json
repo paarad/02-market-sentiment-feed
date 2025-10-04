@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-03T20:26:17.748825+00:00",
+  "updated_at": "2025-10-04T01:46:53.728473+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.135,
-    "fearGreed": 63,
-    "momentum": 0.129,
+    "change24h": 0.008,
+    "vol": 0.111,
+    "fearGreed": 71,
+    "momentum": 0.133,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5727,
-    "global_sentiment": 0.4625,
-    "combined_sentiment": 0.5514,
-    "confidence": 0.812,
+    "crypto_sentiment": 0.549,
+    "global_sentiment": 0.5176,
+    "combined_sentiment": 0.5382,
+    "confidence": 0.7775,
     "counts": {
-      "crypto": 67,
-      "global": 38
+      "crypto": 71,
+      "global": 26
     },
     "market_indicators": {
-      "btc_price": 122252,
-      "btc_change_24h": 1.24,
-      "eth_price": 4519.36,
-      "eth_change_24h": 0.68,
+      "btc_price": 121956,
+      "btc_change_24h": 1.48,
+      "eth_price": 4487.0,
+      "eth_change_24h": 0.19,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.6,
       "fear_greed": {
-        "value": 63,
+        "value": 71,
         "classification": "Greed",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 338071823290,
+        "volume_24h": 325555215725,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.74,
+        "btc_dominance": 56.79,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-20T08:28:56.602558+00:00",
-      "crypto": 0.6357,
-      "global": 0.3767,
-      "combined": 0.5915,
-      "counts": {
-        "crypto": 56,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-20T12:46:11.569702+00:00",
       "crypto": 0.5967,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-04T01:46:53.728473+00:00",
+      "crypto": 0.549,
+      "global": 0.5176,
+      "combined": 0.5382,
+      "counts": {
+        "crypto": 71,
+        "global": 26
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin Surges Above $123K, Nearing New Record as Bullish Q4 Sentiment Fuels Weeklong Rally",
-        "url": "https://www.coindesk.com/markets/2025/10/03/bitcoin-surges-above-usd123k-nearing-new-record-as-bullish-q4-sentiment-fuels-weeklong-rally",
-        "source": "CoinDesk",
-        "weight": 0.6145,
-        "score": 1.0
-      },
-      {
-        "title": "Fear & Greed 63 (Greed) — bullish",
+        "title": "Fear & Greed 71 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 1.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Bitcoin Surges Above $123K, Nearing New Record as Bullish Q4 Sentiment Fuels Weeklong Rally",
+        "url": "https://www.coindesk.com/markets/2025/10/03/bitcoin-surges-above-usd123k-nearing-new-record-as-bullish-q4-sentiment-fuels-weeklong-rally",
+        "source": "CoinDesk",
+        "weight": 0.3315,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "HBAR Faces Sharp Selloff as Technical Breakdown Deepens Bearish Trend",
-        "url": "https://www.coindesk.com/markets/2025/10/03/hbar-faces-sharp-selloff-as-technical-breakdown-deepens-bearish-trend",
-        "source": "CoinDesk",
-        "weight": 0.621,
-        "score": -0.8667
+        "title": "Judge tosses lawsuit against Yuga Labs over failure to satisfy Howey test",
+        "url": "https://cointelegraph.com/news/judge-tosses-lawsuit-yuga-labs-fail-satisfy-howey-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5047,
+        "score": -1.0
       },
       {
-        "title": "This trader turned $68,700 into $9.4 million by betting on BNB Chain’s viral ‘4’ memecoin",
-        "url": "https://cryptoslate.com/this-trader-turned-68700-into-9-4-million-by-betting-on-bnb-chains-viral-4-memecoin/",
+        "title": "Can a Unity Android bug drain your wallet? Here’s how to check",
+        "url": "https://cryptoslate.com/can-a-unity-android-bug-drain-your-wallet-heres-how-to-check/",
         "source": "CryptoSlate",
-        "weight": 0.7,
-        "score": -0.7333
+        "weight": 0.4077,
+        "score": -0.9667
       },
       {
-        "title": "We've Been Trading Duopoly For Too Long: Jeb Hensarling",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-03/we-ve-been-trading-duopoly-for-too-long-jeb-hensarling-video",
+        "title": "Vanguard Rivals Finally Get Hands On Its Tax-Busting Fund Design",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-03/vanguard-rivals-finally-get-hands-on-tax-busting-design-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7679,
+        "weight": 0.5209,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.836447577103839,
-          "price_change_24h": -0.00245
+          "volume_mcap_ratio": 0.806341772272383,
+          "price_change_24h": -0.00206
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.42507046900861734,
-          "price_change_24h": -0.16441
+          "volume_mcap_ratio": 0.3315676200742947,
+          "price_change_24h": -0.03645
         }
       ],
       "momentum_shifts": []
