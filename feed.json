@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-04T08:27:58.369499+00:00",
+  "updated_at": "2025-10-04T12:44:25.599499+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.123,
+    "change24h": -0.004,
+    "vol": 0.085,
     "fearGreed": 71,
-    "momentum": 0.217,
+    "momentum": -0.069,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.602,
-    "global_sentiment": 0.504,
-    "combined_sentiment": 0.5769,
-    "confidence": 0.6903,
+    "crypto_sentiment": 0.5927,
+    "global_sentiment": 0.4622,
+    "combined_sentiment": 0.5664,
+    "confidence": 0.6759,
     "counts": {
-      "crypto": 72,
+      "crypto": 73,
       "global": 26
     },
     "market_indicators": {
-      "btc_price": 122517,
-      "btc_change_24h": 2.32,
-      "eth_price": 4497.86,
-      "eth_change_24h": 1.02,
+      "btc_price": 122096,
+      "btc_change_24h": 1.49,
+      "eth_price": 4488.77,
+      "eth_change_24h": 0.07,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.5,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 311638469892,
+        "volume_24h": 282316578299,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.92,
+        "btc_dominance": 56.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-20T19:53:51.791141+00:00",
-      "crypto": 0.525,
-      "global": 0.4053,
-      "combined": 0.5109,
-      "counts": {
-        "crypto": 58,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-20T20:22:42.590470+00:00",
       "crypto": 0.575,
@@ -1008,17 +998,20 @@
         "crypto": 72,
         "global": 26
       }
+    },
+    {
+      "ts": "2025-10-04T12:44:25.599499+00:00",
+      "crypto": 0.5927,
+      "global": 0.4622,
+      "combined": 0.5664,
+      "counts": {
+        "crypto": 73,
+        "global": 26
+      }
     }
   ],
   "drivers": {
     "positive": [
-      {
-        "title": "Crypto VCs are ‘a lot more careful’ and not chasing narratives: Exec",
-        "url": "https://cointelegraph.com/news/crypto-venture-capital-bullish-capital-investment-slowing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7241,
-        "score": 0.8667
-      },
       {
         "title": "Fear & Greed 71 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1027,47 +1020,54 @@
         "score": 0.5333
       },
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Crypto VCs are ‘a lot more careful’ and not chasing narratives: Exec",
+        "url": "https://cointelegraph.com/news/crypto-venture-capital-bullish-capital-investment-slowing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4419,
+        "score": 0.8667
+      },
+      {
+        "title": "How Ethereum’s Fusaka Upgrade Could Be a Game-Changer, Asset Manager VanEck Explains",
+        "url": "https://www.coindesk.com/tech/2025/10/04/how-ethereum-s-fusaka-upgrade-could-be-a-game-changer-asset-manager-vaneck-explains",
+        "source": "CoinDesk",
+        "weight": 0.7495,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Tech stocks roll on and Pfizer soars after Trump deal",
+        "url": "https://www.freep.com/story/money/business/2025/10/04/tech-stocks-pfizer-trump-deal/86498101007/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6569,
+        "score": -0.9333
+      },
+      {
+        "title": "Bankman-Fried says his biggest mistake was handing FTX to new CEO before bankruptcy",
+        "url": "https://cointelegraph.com/news/sbf-biggest-mistake-handing-ftx-ray-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7311,
+        "score": -0.3333
+      },
+      {
         "title": "Indian Regulator Denies Reports on Family Offices Oversight",
         "url": "https://www.bloomberg.com/news/articles/2025-10-04/indian-regulator-denies-reports-on-family-offices-oversight",
         "source": "Bloomberg Markets",
-        "weight": 0.46,
+        "weight": 0.2807,
         "score": -0.6333
-      },
-      {
-        "title": "Judge tosses lawsuit against Yuga Labs over failure to satisfy Howey test",
-        "url": "https://cointelegraph.com/news/judge-tosses-lawsuit-yuga-labs-fail-satisfy-howey-test?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2332,
-        "score": -1.0
-      },
-      {
-        "title": "These Retailers Wring Profits From Every Cent. 2 Stocks to Buy.",
-        "url": "https://finance.yahoo.com/m/475fc65b-8c68-350a-a2c1-ffe0d41398c6/these-retailers-wring-profits.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6753,
-        "score": -0.3
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7515549393099513,
-          "price_change_24h": -0.00232
+          "volume_mcap_ratio": 0.6986506456797122,
+          "price_change_24h": -0.018
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.34920952202290545,
-          "price_change_24h": 0.00594
+          "volume_mcap_ratio": 0.3598115214139906,
+          "price_change_24h": -0.01718
         }
       ],
       "momentum_shifts": []
