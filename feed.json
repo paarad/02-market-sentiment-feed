@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-04T20:24:00.505884+00:00",
+  "updated_at": "2025-10-05T02:01:32.143397+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.107,
-    "fearGreed": 71,
-    "momentum": -0.424,
-    "regime": "bear",
+    "change24h": -0.011,
+    "vol": 0.081,
+    "fearGreed": 74,
+    "momentum": -0.192,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5661,
-    "global_sentiment": 0.3904,
-    "combined_sentiment": 0.5405,
-    "confidence": 0.634,
+    "crypto_sentiment": 0.5001,
+    "global_sentiment": 0.5176,
+    "combined_sentiment": 0.5015,
+    "confidence": 0.5886,
     "counts": {
       "crypto": 71,
-      "global": 26
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 122047,
-      "btc_change_24h": -0.18,
-      "eth_price": 4481.12,
-      "eth_change_24h": -0.84,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 122409,
+      "btc_change_24h": 0.37,
+      "eth_price": 4488.62,
+      "eth_change_24h": 0.15,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
-        "value": 71,
+        "value": 74,
         "classification": "Greed",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166287944514,
+        "volume_24h": 151706028088,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.01,
+        "btc_dominance": 57.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-21T08:27:16.744475+00:00",
-      "crypto": 0.6352,
-      "global": 0.3424,
-      "combined": 0.5883,
-      "counts": {
-        "crypto": 56,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-21T12:45:19.166173+00:00",
       "crypto": 0.7071,
@@ -1008,52 +998,62 @@
         "crypto": 71,
         "global": 26
       }
+    },
+    {
+      "ts": "2025-10-05T02:01:32.143397+00:00",
+      "crypto": 0.5001,
+      "global": 0.5176,
+      "combined": 0.5015,
+      "counts": {
+        "crypto": 71,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Fear & Greed 71 (Greed) — bullish",
+        "title": "Indian IPO Market Set for Record Month With $5 Billion in Deals",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-05/indian-ipo-market-set-for-record-month-with-5-billion-in-deals",
+        "source": "Bloomberg Markets",
+        "weight": 0.6331,
+        "score": 0.9667
+      },
+      {
+        "title": "Fear & Greed 74 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Stablecoin market boom to $300B is ‘rocket fuel’ for crypto rally",
-        "url": "https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3495,
-        "score": 1.0
-      },
-      {
-        "title": "Floki Soars 23% as Valour Launches Europe’s First FLOKI ETP",
-        "url": "https://www.coindesk.com/markets/2025/10/04/floki-soars-23-as-valour-launches-europe-s-1st-floki-etp",
-        "source": "CoinDesk",
-        "weight": 0.4336,
-        "score": 0.6667
+        "title": "Takaichi Win to Support Japanese Stocks, Weigh on Yen, Bonds",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-05/takaichi-win-to-support-japanese-stocks-weigh-on-yen-bonds",
+        "source": "Bloomberg Markets",
+        "weight": 0.7427,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks",
+        "url": "https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks",
+        "source": "Decrypt",
+        "weight": 0.4775,
+        "score": -0.6333
+      },
+      {
+        "title": "Global week ahead: Bull markets, bubbles and 'Swiftonomics'",
+        "url": "https://www.cnbc.com/2025/10/05/global-week-ahead-bull-markets-bubbles-and-swiftonomics.html",
+        "source": "CNBC Markets",
+        "weight": 0.7361,
+        "score": -0.3333
+      },
+      {
         "title": "Maduro’s Drug War Push Fails to Relieve Trump’s Maximum Pressure",
         "url": "https://www.bloomberg.com/news/articles/2025-10-04/venezuela-boat-strikes-maduro-s-drug-war-push-fails-to-relieve-trump-pressure",
         "source": "Bloomberg Markets",
-        "weight": 0.3605,
-        "score": -0.9333
-      },
-      {
-        "title": "XRP slides below $3: How low can the price go next?",
-        "url": "https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4871,
-        "score": -0.6667
-      },
-      {
-        "title": "Tech stocks roll on and Pfizer soars after Trump deal",
-        "url": "https://www.freep.com/story/money/business/2025/10/04/tech-stocks-pfizer-trump-deal/86498101007/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2711,
+        "weight": 0.1882,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41371181551148517,
-          "price_change_24h": -0.01356
+          "volume_mcap_ratio": 0.3675457300179543,
+          "price_change_24h": -0.02607
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38073618927545083,
-          "price_change_24h": -0.03973
+          "volume_mcap_ratio": 0.3521925332709218,
+          "price_change_24h": -0.05153
         }
       ],
       "momentum_shifts": []
