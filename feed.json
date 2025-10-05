@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-05T04:26:58.057599+00:00",
+  "updated_at": "2025-10-05T08:27:39.721125+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.075,
+    "change24h": 0.045,
+    "vol": 0.1,
     "fearGreed": 74,
-    "momentum": 0.271,
+    "momentum": 0.78,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5141,
-    "global_sentiment": 0.5482,
-    "combined_sentiment": 0.5146,
-    "confidence": 0.5461,
+    "crypto_sentiment": 0.6203,
+    "global_sentiment": 0.3486,
+    "combined_sentiment": 0.5776,
+    "confidence": 0.5995,
     "counts": {
       "crypto": 70,
-      "global": 28
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 124031,
-      "btc_change_24h": 1.31,
-      "eth_price": 4544.05,
-      "eth_change_24h": 1.27,
+      "btc_price": 124808,
+      "btc_change_24h": 1.88,
+      "eth_price": 4607.17,
+      "eth_change_24h": 2.47,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 74,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178391003000,
+        "volume_24h": 232015019619,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.06,
+        "btc_dominance": 56.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-21T16:26:59.573186+00:00",
-      "crypto": 0.7942,
-      "global": 0.5578,
-      "combined": 0.7254,
-      "counts": {
-        "crypto": 55,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-21T19:53:25.880148+00:00",
       "crypto": 0.7442,
@@ -1008,16 +998,33 @@
         "crypto": 70,
         "global": 28
       }
+    },
+    {
+      "ts": "2025-10-05T08:27:39.721125+00:00",
+      "crypto": 0.6203,
+      "global": 0.3486,
+      "combined": 0.5776,
+      "counts": {
+        "crypto": 70,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Indian IPO Market Set for Record Month With $5 Billion in Deals",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-05/indian-ipo-market-set-for-record-month-with-5-billion-in-deals",
-        "source": "Bloomberg Markets",
-        "weight": 0.4785,
-        "score": 0.9667
+        "title": "Bitcoin Surges to Record High Above $125K After $3.2B in Spot BTC Inflows",
+        "url": "https://www.coindesk.com/markets/2025/10/05/bitcoin-pops-over-usd124k-nearing-historic-peak-after-usd3-2b-in-spot-btc-inflows",
+        "source": "CoinDesk",
+        "weight": 0.6926,
+        "score": 0.8667
+      },
+      {
+        "title": "XRP Surges Above $3, Traders Eye Move to $4, on Fresh Bitcoin Highs",
+        "url": "https://www.coindesk.com/markets/2025/10/05/xrp-surges-above-usd3-traders-eye-move-to-usd4-on-fresh-bitcoin-highs",
+        "source": "CoinDesk",
+        "weight": 0.841,
+        "score": 0.5333
       },
       {
         "title": "Fear & Greed 74 (Greed) — bullish",
@@ -1025,49 +1032,42 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Malaysians Held by Israel During Gaza Aid Mission Are Released",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-05/malaysians-held-by-israel-during-gaza-aid-mission-are-released",
-        "source": "Bloomberg Markets",
-        "weight": 0.5981,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks",
-        "url": "https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks",
-        "source": "Decrypt",
-        "weight": 0.3609,
-        "score": -0.6333
-      },
-      {
-        "title": "Global week ahead: Bull markets, bubbles and 'Swiftonomics'",
-        "url": "https://www.cnbc.com/2025/10/05/global-week-ahead-bull-markets-bubbles-and-swiftonomics.html",
-        "source": "CNBC Markets",
-        "weight": 0.6043,
-        "score": -0.3333
-      },
-      {
-        "title": "Maduro’s Drug War Push Fails to Relieve Trump’s Maximum Pressure",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-04/venezuela-boat-strikes-maduro-s-drug-war-push-fails-to-relieve-trump-pressure",
+        "title": "UK to Introduce Limits on Protests After Synagogue Attack",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-05/uk-to-introduce-limits-on-protests-after-synagogue-attack",
         "source": "Bloomberg Markets",
-        "weight": 0.1422,
-        "score": -0.9333
+        "weight": 0.7222,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin powers to $125K peak as balance on exchanges falls to six-year low",
+        "url": "https://cointelegraph.com/news/bitcoin-on-exchanges-falls-to-six-year-low-as-btc-returns-to-124k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5305,
+        "score": -0.9667
+      },
+      {
+        "title": "FactSet Was Last Quarter’s Worst S&P 500 Stock. Its Chief Legal Officer Bought Shares.",
+        "url": "https://finance.yahoo.com/m/f1bed3ce-e97f-3be2-b6ee-d9ff3d6515b4/factset-was-last-quarter%E2%80%99s.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6378,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4408755747210221,
-          "price_change_24h": -0.02533
+          "volume_mcap_ratio": 0.571334396621164,
+          "price_change_24h": -0.03634
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3749169116229329,
-          "price_change_24h": -0.01911
+          "volume_mcap_ratio": 0.3817513560430494,
+          "price_change_24h": 0.01824
         }
       ],
       "momentum_shifts": []
