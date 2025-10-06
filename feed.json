@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-05T20:24:13.592752+00:00",
+  "updated_at": "2025-10-06T01:54:17.272516+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.06,
-    "fearGreed": 74,
-    "momentum": -0.033,
+    "change24h": 0.011,
+    "vol": 0.065,
+    "fearGreed": 71,
+    "momentum": 0.184,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5438,
-    "global_sentiment": 0.5969,
-    "combined_sentiment": 0.5409,
-    "confidence": 0.5962,
+    "crypto_sentiment": 0.5257,
+    "global_sentiment": 0.5012,
+    "combined_sentiment": 0.5194,
+    "confidence": 0.5998,
     "counts": {
       "crypto": 67,
-      "global": 31
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 122738,
-      "btc_change_24h": 0.55,
-      "eth_price": 4496.74,
-      "eth_change_24h": 0.27,
+      "btc_price": 124047,
+      "btc_change_24h": 1.34,
+      "eth_price": 4529.72,
+      "eth_change_24h": 0.9,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 74,
+        "value": 71,
         "classification": "Greed",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 274334380040,
+        "volume_24h": 301394468827,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.12,
+        "btc_dominance": 57.17,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-22T08:34:23.126760+00:00",
-      "crypto": 0.5859,
-      "global": 0.4605,
-      "combined": 0.5612,
-      "counts": {
-        "crypto": 57,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-22T12:52:22.953772+00:00",
       "crypto": 0.4709,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-10-06T01:54:17.272516+00:00",
+      "crypto": 0.5257,
+      "global": 0.5012,
+      "combined": 0.5194,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Yen Falls After Takaichi Win, Japan Stocks May Get Boost",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-05/yen-falls-after-takaichi-win-japan-stocks-may-get-boost",
+        "title": "FTSE Decision Looms for Vietnam After Record-Setting Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-05/ftse-decision-looms-for-vietnam-after-record-setting-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.6894,
-        "score": 0.6667
+        "weight": 0.5719,
+        "score": 1.0
       },
       {
-        "title": "Bond Traders Dare to Go Longer Before 4% Yield Disappears",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-05/bond-traders-dare-to-go-longer-before-4-yield-disappears",
-        "source": "Bloomberg Markets",
-        "weight": 0.6802,
-        "score": 0.6667
-      },
-      {
-        "title": "Fear & Greed 74 (Greed) — bullish",
+        "title": "Fear & Greed 71 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "FactSet Was Last Quarter’s Worst S&P 500 Stock. Its Chief Legal Officer Bought Shares.",
-        "url": "https://finance.yahoo.com/m/f1bed3ce-e97f-3be2-b6ee-d9ff3d6515b4/factset-was-last-quarter%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4115,
+        "title": "Hong Kong SFC Chief Leung Said to Get Another Three-Year Term",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/hong-kong-sfc-chief-leung-said-to-get-another-three-year-term",
+        "source": "Bloomberg Markets",
+        "weight": 0.7701,
         "score": -0.6333
       },
       {
-        "title": "Traders Pay Steeper Price to Hedge Risk From Stocks to Gold",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-05/traders-pay-steeper-price-to-hedge-risk-from-stocks-to-gold",
-        "source": "Bloomberg Markets",
-        "weight": 0.3818,
+        "title": "GENIUS Act could mark the end of the banking rip-off: Multicoin exec",
+        "url": "https://cointelegraph.com/news/genius-act-end-banks-ripping-off-customers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7001,
         "score": -0.6667
       },
       {
-        "title": "Investors aren't the market's biggest loser if Trump, SEC end quarterly reporting",
-        "url": "https://www.cnbc.com/2025/10/05/trump-sec-quarterly-earnings-reports-accounting-firms.html",
-        "source": "CNBC Markets",
-        "weight": 0.3444,
-        "score": -0.6333
+        "title": "Ferrari-Loving Trader Burned Wall Street With Bond Bet Leveraged 11,000-to-1",
+        "url": "https://www.bloomberg.com/news/features/2025-10-05/citigroup-goldman-mufg-among-banks-burned-in-2-6-billion-trade",
+        "source": "Bloomberg Markets",
+        "weight": 0.4541,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6882428141295095,
-          "price_change_24h": -0.02348
+          "volume_mcap_ratio": 0.7499441041247364,
+          "price_change_24h": -0.00455
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38865308412833566,
-          "price_change_24h": 0.03408
+          "volume_mcap_ratio": 0.39615169972607156,
+          "price_change_24h": 0.02643
         }
       ],
       "momentum_shifts": []
