@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-06T04:28:41.132387+00:00",
+  "updated_at": "2025-10-06T08:33:00.979257+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.065,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 71,
-    "momentum": -0.164,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.5231,
-    "global_sentiment": 0.5027,
-    "combined_sentiment": 0.5176,
-    "confidence": 0.6219,
+    "crypto_sentiment": 0.6423,
+    "global_sentiment": 0.4503,
+    "combined_sentiment": 0.6026,
+    "confidence": 0.6799,
     "counts": {
       "crypto": 67,
-      "global": 43
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 124001,
-      "btc_change_24h": -0.03,
-      "eth_price": 4540.57,
-      "eth_change_24h": 0.12,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 123823,
+      "btc_change_24h": -0.71,
+      "eth_price": 4557.93,
+      "eth_change_24h": -0.74,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 278472319097,
+        "volume_24h": 239224943513,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.13,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-22T16:31:46.653440+00:00",
-      "crypto": 0.4038,
-      "global": 0.5098,
-      "combined": 0.4287,
-      "counts": {
-        "crypto": 57,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-09-22T19:53:24.497520+00:00",
       "crypto": 0.4131,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-10-06T08:33:00.979257+00:00",
+      "crypto": 0.6423,
+      "global": 0.4503,
+      "combined": 0.6026,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XRP, DOGE, SOL See Profit-Taking, Bitcoin’s New High (Maybe) Could Still Rise Higher",
+        "url": "https://www.coindesk.com/markets/2025/10/06/xrp-doge-sol-see-profit-taking-but-bitcoin-s-new-lifetime-high-maybe-isn-t-the-top",
+        "source": "CoinDesk",
+        "weight": 0.9022,
+        "score": 0.6667
+      },
+      {
+        "title": "Bitcoin Hits Record High Against Yen as Japan's New PM Sanae Plans to Revive 'Abenomics'",
+        "url": "https://www.coindesk.com/markets/2025/10/06/bitcoin-hits-record-high-against-yen-as-japan-s-new-pm-sanae-plans-to-revive-abenomics",
+        "source": "CoinDesk",
+        "weight": 0.7473,
+        "score": 0.6667
+      },
+      {
         "title": "Bitcoin will ‘blast through’ to its next leg at $150K: Analysts",
         "url": "https://cointelegraph.com/news/bitcoin-eyes-big-weeks-ahead-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7732,
+        "weight": 0.4831,
         "score": 1.0
-      },
-      {
-        "title": "Thailand to Ease IPO, Foreign Listing Rules in Market Revamp",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/thailand-to-ease-ipo-foreign-listing-rules-in-market-revamp",
-        "source": "Bloomberg Markets",
-        "weight": 0.6819,
-        "score": 0.6333
-      },
-      {
-        "title": "Fear & Greed 71 (Greed) — bullish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Leader in Robot Mine-Clearing May Expand on Rheinmetall Backing",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/leader-in-robot-mine-clearing-may-expand-on-rheinmetall-backing",
+        "title": "Astra Says Breast Cancer Patients Lived Longer on Datroway",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/astra-daiichi-say-drug-extends-lives-of-breast-cancer-patients",
         "source": "Bloomberg Markets",
-        "weight": 0.757,
-        "score": -0.6333
+        "weight": 0.664,
+        "score": -0.9333
       },
       {
-        "title": "Philippine Graft Scandal May Worsen Stocks Rout, Says Bourse CEO",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/philippine-bourse-ceo-says-graft-scandal-may-drag-stocks-further",
-        "source": "Bloomberg Markets",
-        "weight": 0.6062,
-        "score": -0.6667
+        "title": "Unity patches Android mobile bug, says no evidence of exploit",
+        "url": "https://cointelegraph.com/news/unity-patches-gaming-bug-potentially-targeting-mobile-crypto-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.576,
+        "score": -0.8333
       },
       {
-        "title": "Hong Kong Top Regulator Leung Said to Get Another Term",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/hong-kong-sfc-chief-leung-said-to-get-another-three-year-term",
+        "title": "Aston Martin Falls After Outlook Cut on Tariffs, Lower Sales",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/aston-martin-cuts-outlook-again-on-us-tariffs-sees-lower-sales",
         "source": "Bloomberg Markets",
-        "weight": 0.5721,
+        "weight": 0.6301,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6810734453469165,
-          "price_change_24h": 0.00153
+          "volume_mcap_ratio": 0.5796749905697498,
+          "price_change_24h": 0.01835
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.372030273861727,
-          "price_change_24h": 0.02732
+          "volume_mcap_ratio": 0.40503283424030057,
+          "price_change_24h": 0.00562
         }
       ],
       "momentum_shifts": []
