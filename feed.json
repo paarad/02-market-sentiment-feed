@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-06T16:30:44.124225+00:00",
+  "updated_at": "2025-10-06T19:53:24.997248+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.092,
+    "change24h": 0.07,
+    "vol": 0.132,
     "fearGreed": 71,
-    "momentum": 0.597,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6083,
-    "global_sentiment": 0.5651,
-    "combined_sentiment": 0.5867,
-    "confidence": 0.8284,
+    "crypto_sentiment": 0.6203,
+    "global_sentiment": 0.5101,
+    "combined_sentiment": 0.591,
+    "confidence": 0.8305,
     "counts": {
       "crypto": 71,
-      "global": 43
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 124924,
-      "btc_change_24h": 1.58,
-      "eth_price": 4663.76,
-      "eth_change_24h": 2.88,
+      "btc_price": 125425,
+      "btc_change_24h": 2.3,
+      "eth_price": 4703.52,
+      "eth_change_24h": 4.76,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 1.0,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 260053712623,
+        "volume_24h": 280042883587,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-23T01:51:16.239641+00:00",
-      "crypto": 0.3721,
-      "global": 0.518,
-      "combined": 0.4056,
-      "counts": {
-        "crypto": 63,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-23T04:29:04.260067+00:00",
       "crypto": 0.3684,
@@ -1008,52 +998,62 @@
         "crypto": 71,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-10-06T19:53:24.997248+00:00",
+      "crypto": 0.6203,
+      "global": 0.5101,
+      "combined": 0.591,
+      "counts": {
+        "crypto": 71,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AI/HPC Bitcoin Miners Rally as AMD Soars 30% on OpenAI Deal",
-        "url": "https://www.coindesk.com/markets/2025/10/06/ai-hpc-bitcoin-miners-rally-as-amd-soars-30-on-openai-deal",
-        "source": "CoinDesk",
-        "weight": 0.7472,
+        "title": "AMD Helps Lift S&P 500, Nasdaq Intraday as Shutdown Enters Sixth Day",
+        "url": "https://finance.yahoo.com/news/amd-helps-lift-p-500-175203347.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6333,
         "score": 0.8667
       },
       {
-        "title": "Here’s Why ClearBridge Large Cap Growth Strategy Exited Its Position in Workday (WDAY)",
-        "url": "https://finance.yahoo.com/news/why-clearbridge-large-cap-growth-140739629.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6074,
-        "score": 1.0
+        "title": "IBIT approaches $100B in AUM as BlackRock’s most profitable ETF",
+        "url": "https://cryptoslate.com/ibit-approaches-100b-in-aum-as-blackrocks-most-profitable-etf/",
+        "source": "CryptoSlate",
+        "weight": 0.7438,
+        "score": 0.6667
       },
       {
-        "title": "What Makes Datadog (DDOG) a Lucrative Investment?",
-        "url": "https://finance.yahoo.com/news/makes-datadog-ddog-lucrative-investment-140524650.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6047,
-        "score": 1.0
+        "title": "AI/HPC Bitcoin Miners Rally as AMD Soars 30% on OpenAI Deal",
+        "url": "https://www.coindesk.com/markets/2025/10/06/ai-hpc-bitcoin-miners-rally-as-amd-soars-30-on-openai-deal",
+        "source": "CoinDesk",
+        "weight": 0.5058,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Firefly Aerospace surges 7% after buying defense tech firm for $855 million",
+        "title": "Are healthcare stocks staging a comeback? A look at the sector",
+        "url": "https://finance.yahoo.com/video/healthcare-stocks-staging-comeback-look-184500795.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7013,
+        "score": -0.9667
+      },
+      {
+        "title": "Evercore's Schlosstein on Shutdown; OpenAI, AMD Partnership | Bloomberg Markets 10/6/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-06/bloomberg-markets-10-6-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7535,
+        "score": -0.6667
+      },
+      {
+        "title": "Firefly Aerospace gains 5% after buying defense tech firm for $855 million",
         "url": "https://www.cnbc.com/2025/10/06/firefly-aerospace-fly-stock-scitec.html",
         "source": "CNBC Markets",
-        "weight": 0.7825,
-        "score": -0.6333
-      },
-      {
-        "title": "Shell-led LNG Canada Set to Load Second Unit’s First Cargo",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/shell-led-lng-canada-set-to-load-second-unit-s-first-cargo",
-        "source": "Bloomberg Markets",
-        "weight": 0.7564,
-        "score": -0.6333
-      },
-      {
-        "title": "Vale to Buy Back Up to $3 Billion in Perpetual, Obscure Bonds",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/vale-to-buy-back-up-to-3-billion-in-perpetual-obscure-bonds",
-        "source": "Bloomberg Markets",
-        "weight": 0.6288,
+        "weight": 0.7766,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6397718369783615,
-          "price_change_24h": 0.02913
+          "volume_mcap_ratio": 0.6945185407910957,
+          "price_change_24h": 0.02742
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.44812593080525764,
-          "price_change_24h": 0.1002
+          "volume_mcap_ratio": 0.4731313500099408,
+          "price_change_24h": 0.16677
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-06",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5831,
+      "crypto_high": 0.6423,
+      "crypto_low": 0.5231,
+      "global_avg": 0.5029,
+      "global_high": 0.5651,
+      "global_low": 0.4503,
+      "combined_avg": 0.5626,
+      "combined_high": 0.6026,
+      "combined_low": 0.5176
+    },
+    "market_indicators_24h": {
+      "change24h": 0.07,
+      "vol": 0.132,
+      "fearGreed": 71,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-06T19:53:24.997248+00:00"
   }
 }
