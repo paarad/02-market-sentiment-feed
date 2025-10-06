@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-06T19:53:24.997248+00:00",
+  "updated_at": "2025-10-06T20:26:40.976022+00:00",
   "indicators": {
-    "change24h": 0.07,
-    "vol": 0.132,
+    "change24h": 0.068,
+    "vol": 0.139,
     "fearGreed": 71,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6203,
-    "global_sentiment": 0.5101,
-    "combined_sentiment": 0.591,
-    "confidence": 0.8305,
+    "crypto_sentiment": 0.607,
+    "global_sentiment": 0.4672,
+    "combined_sentiment": 0.5775,
+    "confidence": 0.8334,
     "counts": {
-      "crypto": 71,
-      "global": 48
+      "crypto": 72,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 125425,
-      "btc_change_24h": 2.3,
-      "eth_price": 4703.52,
-      "eth_change_24h": 4.76,
+      "btc_price": 125188,
+      "btc_change_24h": 2.04,
+      "eth_price": 4700.78,
+      "eth_change_24h": 4.58,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 280042883587,
-        "high_activity_coins": 2
+        "volume_24h": 287357940870,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.77,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-23T04:29:04.260067+00:00",
-      "crypto": 0.3684,
-      "global": 0.5738,
-      "combined": 0.4074,
-      "counts": {
-        "crypto": 62,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-09-23T08:32:26.850968+00:00",
       "crypto": 0.4294,
@@ -1008,66 +998,81 @@
         "crypto": 71,
         "global": 48
       }
+    },
+    {
+      "ts": "2025-10-06T20:26:40.976022+00:00",
+      "crypto": 0.607,
+      "global": 0.4672,
+      "combined": 0.5775,
+      "counts": {
+        "crypto": 72,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AMD Helps Lift S&P 500, Nasdaq Intraday as Shutdown Enters Sixth Day",
-        "url": "https://finance.yahoo.com/news/amd-helps-lift-p-500-175203347.html?.tsrc=rss",
+        "title": "Hongli Group Inc. Announces Compliance with Nasdaq Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/news/hongli-group-inc-announces-compliance-201500038.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6333,
-        "score": 0.8667
+        "weight": 0.7822,
+        "score": 0.9667
       },
       {
-        "title": "IBIT approaches $100B in AUM as BlackRock’s most profitable ETF",
-        "url": "https://cryptoslate.com/ibit-approaches-100b-in-aum-as-blackrocks-most-profitable-etf/",
-        "source": "CryptoSlate",
-        "weight": 0.7438,
+        "title": "S&P 500, Nasdaq secure record highs, buoyed by AMD-OpenAI deal",
+        "url": "https://finance.yahoo.com/video/p-500-nasdaq-secure-record-200841607.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7727,
+        "score": 0.9167
+      },
+      {
+        "title": "How major US stock indexes fared Monday, 10/6/2025",
+        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-201919465.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7887,
         "score": 0.6667
-      },
-      {
-        "title": "AI/HPC Bitcoin Miners Rally as AMD Soars 30% on OpenAI Deal",
-        "url": "https://www.coindesk.com/markets/2025/10/06/ai-hpc-bitcoin-miners-rally-as-amd-soars-30-on-openai-deal",
-        "source": "CoinDesk",
-        "weight": 0.5058,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Are healthcare stocks staging a comeback? A look at the sector",
-        "url": "https://finance.yahoo.com/video/healthcare-stocks-staging-comeback-look-184500795.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7013,
+        "title": "Citadel Securities Doing for Trading What 'Amazon Did for E-Commerce,' Says CEO",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-06/citadel-securities-in-stark-contrast-to-big-banks-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7914,
         "score": -0.9667
       },
       {
-        "title": "Evercore's Schlosstein on Shutdown; OpenAI, AMD Partnership | Bloomberg Markets 10/6/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-06/bloomberg-markets-10-6-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7535,
-        "score": -0.6667
+        "title": "Prosecutor resists Trump pressure to criminally charge New York AG James: MSNBC",
+        "url": "https://www.cnbc.com/2025/10/06/trump-letitia-james-new-york-prosecutor-comey.html",
+        "source": "CNBC Markets",
+        "weight": 0.7544,
+        "score": -1.0
       },
       {
-        "title": "Firefly Aerospace gains 5% after buying defense tech firm for $855 million",
-        "url": "https://www.cnbc.com/2025/10/06/firefly-aerospace-fly-stock-scitec.html",
-        "source": "CNBC Markets",
-        "weight": 0.7766,
-        "score": -0.6333
+        "title": "Are healthcare stocks staging a comeback? A look at the sector",
+        "url": "https://finance.yahoo.com/video/healthcare-stocks-staging-comeback-look-184500795.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6578,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6945185407910957,
-          "price_change_24h": 0.02742
+          "volume_mcap_ratio": 0.702008419442745,
+          "price_change_24h": 0.02012
+        },
+        {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.6136075993526383,
+          "price_change_24h": 15.70952
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4731313500099408,
-          "price_change_24h": 0.16677
+          "volume_mcap_ratio": 0.4572674580201565,
+          "price_change_24h": 0.02879
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-06",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5831,
-      "crypto_high": 0.6423,
-      "crypto_low": 0.5231,
-      "global_avg": 0.5029,
-      "global_high": 0.5651,
-      "global_low": 0.4503,
-      "combined_avg": 0.5626,
-      "combined_high": 0.6026,
-      "combined_low": 0.5176
-    },
-    "market_indicators_24h": {
-      "change24h": 0.07,
-      "vol": 0.132,
-      "fearGreed": 71,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-06T19:53:24.997248+00:00"
   }
 }
