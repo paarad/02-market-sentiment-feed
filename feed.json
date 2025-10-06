@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-06T08:33:00.979257+00:00",
+  "updated_at": "2025-10-06T12:52:54.838290+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.016,
+    "vol": 0.089,
     "fearGreed": 71,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.272,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6423,
-    "global_sentiment": 0.4503,
-    "combined_sentiment": 0.6026,
-    "confidence": 0.6799,
+    "crypto_sentiment": 0.5791,
+    "global_sentiment": 0.4881,
+    "combined_sentiment": 0.5584,
+    "confidence": 0.7894,
     "counts": {
-      "crypto": 67,
-      "global": 40
+      "crypto": 68,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 123823,
-      "btc_change_24h": -0.71,
-      "eth_price": 4557.93,
-      "eth_change_24h": -0.74,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 124566,
+      "btc_change_24h": 1.09,
+      "eth_price": 4580.49,
+      "eth_change_24h": 0.87,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 71,
         "classification": "Greed",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 239224943513,
-        "high_activity_coins": 2
+        "volume_24h": 219575721982,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.95,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-22T19:53:24.497520+00:00",
-      "crypto": 0.4131,
-      "global": 0.4762,
-      "combined": 0.4329,
-      "counts": {
-        "crypto": 60,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-09-22T20:26:38.085663+00:00",
       "crypto": 0.4023,
@@ -1008,66 +998,81 @@
         "crypto": 67,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-06T12:52:54.838290+00:00",
+      "crypto": 0.5791,
+      "global": 0.4881,
+      "combined": 0.5584,
+      "counts": {
+        "crypto": 68,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP, DOGE, SOL See Profit-Taking, Bitcoin’s New High (Maybe) Could Still Rise Higher",
-        "url": "https://www.coindesk.com/markets/2025/10/06/xrp-doge-sol-see-profit-taking-but-bitcoin-s-new-lifetime-high-maybe-isn-t-the-top",
-        "source": "CoinDesk",
-        "weight": 0.9022,
-        "score": 0.6667
+        "title": "French PM Lecornu Resigns, The LDP's Victory Buoys Japanese Equity Markets | The Opening Trade 10/6",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-06/the-opening-trade-10-6-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7243,
+        "score": 0.8667
       },
       {
-        "title": "Bitcoin Hits Record High Against Yen as Japan's New PM Sanae Plans to Revive 'Abenomics'",
-        "url": "https://www.coindesk.com/markets/2025/10/06/bitcoin-hits-record-high-against-yen-as-japan-s-new-pm-sanae-plans-to-revive-abenomics",
-        "source": "CoinDesk",
-        "weight": 0.7473,
-        "score": 0.6667
+        "title": "London’s IPO Drought Breaks With Test From Trio of British Firms",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/trio-of-british-firms-test-london-s-ipo-market-after-drought",
+        "source": "Bloomberg Markets",
+        "weight": 0.7678,
+        "score": 0.6333
       },
       {
-        "title": "Bitcoin will ‘blast through’ to its next leg at $150K: Analysts",
-        "url": "https://cointelegraph.com/news/bitcoin-eyes-big-weeks-ahead-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4831,
-        "score": 1.0
+        "title": "Global Oil at Sea Climbs to a Record as Production Surges",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/global-oil-at-sea-climbs-to-a-record-as-production-surges",
+        "source": "Bloomberg Markets",
+        "weight": 0.6875,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Astra Says Breast Cancer Patients Lived Longer on Datroway",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/astra-daiichi-say-drug-extends-lives-of-breast-cancer-patients",
+        "title": "Boutique Investment Bank Bets on Brazil Debt-Advisory Business",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/boutique-investment-bank-bets-on-brazil-debt-advisory-business",
         "source": "Bloomberg Markets",
-        "weight": 0.664,
+        "weight": 0.682,
+        "score": -1.0
+      },
+      {
+        "title": "French Prime Minister Resigns; Japan Elects New Leader | Bloomberg Brief 10/6/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-06/bloomberg-brief-10-6-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6317,
+        "score": -0.9667
+      },
+      {
+        "title": "Eli Lilly to Invest $1 Billion in India Contract Manufacturing",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-06/eli-lilly-to-invest-1-billion-in-india-contract-manufacturing",
+        "source": "Bloomberg Markets",
+        "weight": 0.6338,
         "score": -0.9333
-      },
-      {
-        "title": "Unity patches Android mobile bug, says no evidence of exploit",
-        "url": "https://cointelegraph.com/news/unity-patches-gaming-bug-potentially-targeting-mobile-crypto-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.576,
-        "score": -0.8333
-      },
-      {
-        "title": "Aston Martin Falls After Outlook Cut on Tariffs, Lower Sales",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-06/aston-martin-cuts-outlook-again-on-us-tariffs-sees-lower-sales",
-        "source": "Bloomberg Markets",
-        "weight": 0.6301,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5796749905697498,
-          "price_change_24h": 0.01835
+          "volume_mcap_ratio": 0.5460972819215647,
+          "price_change_24h": 0.00337
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.40503283424030057,
-          "price_change_24h": 0.00562
+          "volume_mcap_ratio": 0.4322017778089958,
+          "price_change_24h": -0.00188
+        },
+        {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.371862405762669,
+          "price_change_24h": 17.44672
         }
       ],
       "momentum_shifts": []
