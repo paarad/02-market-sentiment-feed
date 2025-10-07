@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-07T08:32:53.037510+00:00",
+  "updated_at": "2025-10-07T12:52:24.915840+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.106,
+    "change24h": 0.02,
+    "vol": 0.134,
     "fearGreed": 70,
-    "momentum": 0.156,
+    "momentum": 0.354,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6951,
-    "global_sentiment": 0.5279,
-    "combined_sentiment": 0.6487,
-    "confidence": 0.776,
+    "crypto_sentiment": 0.7382,
+    "global_sentiment": 0.5782,
+    "combined_sentiment": 0.6852,
+    "confidence": 0.8092,
     "counts": {
-      "crypto": 71,
-      "global": 39
+      "crypto": 69,
+      "global": 54
     },
     "market_indicators": {
-      "btc_price": 123653,
-      "btc_change_24h": -0.16,
-      "eth_price": 4650.72,
-      "eth_change_24h": 1.87,
+      "btc_price": 124936,
+      "btc_change_24h": 0.33,
+      "eth_price": 4722.72,
+      "eth_change_24h": 3.12,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 70,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 293754127383,
+        "volume_24h": 292411905370,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.76,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-23T19:53:56.422066+00:00",
-      "crypto": 0.5372,
-      "global": 0.4712,
-      "combined": 0.5255,
-      "counts": {
-        "crypto": 69,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-09-23T20:27:10.570373+00:00",
       "crypto": 0.5478,
@@ -1008,66 +998,76 @@
         "crypto": 71,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-07T12:52:24.915840+00:00",
+      "crypto": 0.7382,
+      "global": 0.5782,
+      "combined": 0.6852,
+      "counts": {
+        "crypto": 69,
+        "global": 54
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP Traders Eye Bullish Breakout Toward $3.10. Here's Why",
-        "url": "https://www.coindesk.com/markets/2025/10/07/xrp-traders-eye-bullish-breakout-toward-usd3-10-here-s-why",
-        "source": "CoinDesk",
-        "weight": 0.7908,
-        "score": 1.0
+        "title": "SharpLink Ether holdings near $1B in unrealized gains as ETH surges",
+        "url": "https://cointelegraph.com/news/sharplink-eth-treasury-nears-1b-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9166,
+        "score": 0.8667
       },
       {
-        "title": "DOGE Surges 6% as Traders Eye Breakout to 35-Cents",
-        "url": "https://www.coindesk.com/markets/2025/10/07/doge-surges-6-as-traders-eye-breakout-to-35-cents",
+        "title": "BNB Hits Record High Above $1,280 as Blockchain Activity Surges",
+        "url": "https://www.coindesk.com/markets/2025/10/07/bnb-hits-record-high-above-usd1-280-as-blockchain-activity-surges",
         "source": "CoinDesk",
-        "weight": 0.7767,
-        "score": 1.0
+        "weight": 0.9082,
+        "score": 0.8667
       },
       {
-        "title": "S&P 500 Falling From Record High as Investors Take a Breath Following AI Rally",
-        "url": "https://finance.yahoo.com/m/6d55ab14-19ea-390c-a6d9-05951433ea58/s%26p-500-falling-from-record.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7379,
-        "score": 1.0
+        "title": "‘Bitcoin should reach half of gold’s market cap’ – VanEck projects $644k BTC",
+        "url": "https://cryptoslate.com/bitcoin-should-reach-half-of-golds-market-cap-vaneck-projects-path-to-644k-btc/",
+        "source": "CryptoSlate",
+        "weight": 0.7369,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Sabadell Wants Investors Backing BBVA Bid to Reveal Stake",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-07/sabadell-demands-extra-disclosures-from-investors-backing-bbva",
+        "title": "Arabica Coffee Drops as Rain Forecast Eases Brazil Crop Worries",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-07/arabica-coffee-drops-as-rain-forecast-eases-brazil-crop-worries",
         "source": "Bloomberg Markets",
-        "weight": 0.596,
+        "weight": 0.7207,
+        "score": -1.0
+      },
+      {
+        "title": "North Korean Hackers Have Stolen Over $2 Billion This Year: Elliptic",
+        "url": "https://www.coindesk.com/business/2025/10/06/north-korean-hackers-have-stolen-over-usd2-billion-in-2025-elliptic",
+        "source": "CoinDesk",
+        "weight": 0.904,
+        "score": -0.7333
+      },
+      {
+        "title": "Charlie Javice Duped JPMorgan Out of $175 Million. The Bank is Picking Up Her Legal Tab",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-07/jpmorgan-was-billed-115-million-for-fraud-founders-legal-defense",
+        "source": "Bloomberg Markets",
+        "weight": 0.6443,
         "score": -0.9667
-      },
-      {
-        "title": "UBS Plans SRT Transaction Tied to $1 Billion of Corporate Loans",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-07/ubs-plans-srt-transaction-tied-to-1-billion-of-corporate-loans",
-        "source": "Bloomberg Markets",
-        "weight": 0.7778,
-        "score": -0.6667
-      },
-      {
-        "title": "Infinex bets on passkeys to access 100 crypto DApps — but is it safe?",
-        "url": "https://cointelegraph.com/news/infinex-passkeys-login-crypto-dapps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7676,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7197067457221032,
-          "price_change_24h": 0.02869
+          "volume_mcap_ratio": 0.7198261580784895,
+          "price_change_24h": 0.04254
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4475798012244289,
-          "price_change_24h": -0.03841
+          "volume_mcap_ratio": 0.462728208002651,
+          "price_change_24h": 0.18424
         }
       ],
       "momentum_shifts": []
