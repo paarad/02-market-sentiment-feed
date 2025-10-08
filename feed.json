@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-08T08:33:27.379109+00:00",
+  "updated_at": "2025-10-08T12:52:53.172706+00:00",
   "indicators": {
-    "change24h": -0.038,
-    "vol": 0.164,
+    "change24h": -0.057,
+    "vol": 0.131,
     "fearGreed": 60,
-    "momentum": -0.667,
+    "momentum": -0.994,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4651,
-    "global_sentiment": 0.5139,
-    "combined_sentiment": 0.475,
-    "confidence": 0.7878,
+    "crypto_sentiment": 0.5015,
+    "global_sentiment": 0.5132,
+    "combined_sentiment": 0.5022,
+    "confidence": 0.8078,
     "counts": {
-      "crypto": 76,
-      "global": 42
+      "crypto": 80,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 122004,
-      "btc_change_24h": -1.37,
-      "eth_price": 4473.96,
-      "eth_change_24h": -3.84,
+      "btc_price": 122679,
+      "btc_change_24h": -1.94,
+      "eth_price": 4478.92,
+      "eth_change_24h": -5.2,
       "market_regime": "bear",
-      "regime_strength": 0.4,
+      "regime_strength": 0.6,
       "market_breadth": 0.1,
       "fear_greed": {
         "value": 60,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 355718502162,
+        "volume_24h": 353509305261,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.87,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-24T19:53:56.327969+00:00",
-      "crypto": 0.5247,
-      "global": 0.4267,
-      "combined": 0.5124,
-      "counts": {
-        "crypto": 62,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-09-24T20:27:38.011781+00:00",
       "crypto": 0.5263,
@@ -1008,66 +998,76 @@
         "crypto": 76,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-10-08T12:52:53.172706+00:00",
+      "crypto": 0.5015,
+      "global": 0.5132,
+      "combined": 0.5022,
+      "counts": {
+        "crypto": 80,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Verisure CEO: Strong International Investors’ Support",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-08/verisure-ceo-strong-international-investors-support",
-        "source": "Bloomberg Markets",
-        "weight": 0.7263,
+        "title": "Morning Minute: Polymarket Raises $2B at $9B Valuation from NYSE Parent",
+        "url": "https://decrypt.co/343372/morning-minute-polymarket-raises-2b-at-9b-valuation-from-nyse-parent",
+        "source": "Decrypt",
+        "weight": 0.8192,
         "score": 1.0
       },
       {
-        "title": "FTSE 100 Rises as Gold Miners Rally",
-        "url": "https://www.bloomberg.com/news/live-blog/2025-10-08/ftse-100-live-gold-prices-pound-bonds-dollar-trump-tariffs-what-s-moving-uk-markets-right-now-markets-today",
-        "source": "Bloomberg Markets",
-        "weight": 0.5821,
-        "score": 0.8667
+        "title": "Gold or AI—Which Rally Do You Trust?",
+        "url": "https://finance.yahoo.com/m/f80b707d-6885-3848-91fd-8903612a989d/gold-or-ai%E2%80%94which-rally-do-you.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6588,
+        "score": 1.0
       },
       {
-        "title": "A ‘spooky’ Ethereum correlation suggests an imminent breakout",
-        "url": "https://cointelegraph.com/news/this-spooky-ethereum-correlation-suggests-breakout-is-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5667,
-        "score": 0.8667
+        "title": "Crypto Markets Today: Gold Surges Past $4K as Bitcoin Rebounds; BNB Chain Defies Market Cool-Off",
+        "url": "https://www.coindesk.com/markets/2025/10/08/crypto-markets-today-gold-surges-past-usd4k-as-bitcoin-rebounds-bnb-chain-defies-market-cool-off",
+        "source": "CoinDesk",
+        "weight": 1.0859,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin risks plunge to $114K as &#039;predatory&#039; traders squeeze BTC longs",
+        "title": "From TerraUSD to YU: Why stablecoins fail to hold $1 and the risks investors can’t ignore",
+        "url": "https://cointelegraph.com/news/from-terrausd-to-yu-why-stablecoins-fail-to-hold-1-and-the-risks-investors-can-t-ignore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6116,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin risks plunge to $114K as 'predatory' traders squeeze BTC longs",
         "url": "https://cointelegraph.com/news/bitcoin-risks-new-114k-plunge-predatory-traders-squeeze-btc-longs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9028,
+        "weight": 0.5478,
         "score": -1.0
       },
       {
-        "title": "MiFID U-Turn Sets Up Game of Chicken Over Charging for Research",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-08/mifid-u-turn-sets-up-game-of-chicken-over-charging-for-research",
-        "source": "Bloomberg Markets",
-        "weight": 0.6683,
-        "score": -0.9333
-      },
-      {
-        "title": "China’s Car Dealers Face Existential Threat From EV Transition",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-08/china-s-car-dealers-face-existential-threat-from-ev-transition",
-        "source": "Bloomberg Markets",
-        "weight": 0.6255,
-        "score": -0.9333
+        "title": "Over $489M in Crypto Longs Liquidated as Bitcoin, Ethereum Extend Losses",
+        "url": "https://decrypt.co/343371/over-489m-in-crypto-longs-liquidated-as-bitcoin-ethereum-extend-losses",
+        "source": "Decrypt",
+        "weight": 0.7978,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8817216388687835,
-          "price_change_24h": -0.02346
+          "volume_mcap_ratio": 0.882794218475343,
+          "price_change_24h": -0.03882
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4990490911097249,
-          "price_change_24h": 0.15994
+          "volume_mcap_ratio": 0.49364580376982503,
+          "price_change_24h": -0.19205
         }
       ],
       "momentum_shifts": []
