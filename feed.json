@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-08T01:51:35.521946+00:00",
+  "updated_at": "2025-10-08T04:28:49.395773+00:00",
   "indicators": {
-    "change24h": -0.053,
-    "vol": 0.212,
+    "change24h": -0.065,
+    "vol": 0.195,
     "fearGreed": 60,
-    "momentum": -0.923,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6085,
-    "global_sentiment": 0.4854,
-    "combined_sentiment": 0.5802,
-    "confidence": 0.7936,
+    "crypto_sentiment": 0.601,
+    "global_sentiment": 0.5148,
+    "combined_sentiment": 0.577,
+    "confidence": 0.7717,
     "counts": {
       "crypto": 70,
-      "global": 33
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 121948,
-      "btc_change_24h": -2.17,
-      "eth_price": 4487.09,
-      "eth_change_24h": -4.04,
+      "btc_price": 121420,
+      "btc_change_24h": -2.44,
+      "eth_price": 4444.7,
+      "eth_change_24h": -5.35,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 60,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 356177935780,
-        "high_activity_coins": 3
+        "volume_24h": 357383413821,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.81,
+        "btc_dominance": 56.92,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-24T12:51:48.531570+00:00",
-      "crypto": 0.5418,
-      "global": 0.4202,
-      "combined": 0.5247,
-      "counts": {
-        "crypto": 62,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-24T16:32:06.288171+00:00",
       "crypto": 0.5704,
@@ -1008,30 +998,40 @@
         "crypto": 70,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-10-08T04:28:49.395773+00:00",
+      "crypto": 0.601,
+      "global": 0.5148,
+      "combined": 0.577,
+      "counts": {
+        "crypto": 70,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
-      {
-        "title": "BNB hits new all-time high amid rising memecoin activities; surpasses XRP in market value",
-        "url": "https://cryptoslate.com/bnb-hits-new-all-time-high-amid-rising-memecoin-activities-surpasses-xrp-in-market-value/",
-        "source": "CryptoSlate",
-        "weight": 0.7135,
-        "score": 0.6667
-      },
-      {
-        "title": "Bitcoin sells off, but BTC derivatives data points to $150K by year’s end",
-        "url": "https://cointelegraph.com/news/bitcoin-sells-off-but-btc-derivatives-data-points-to-150k-by-year-s-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5223,
-        "score": 0.8667
-      },
       {
         "title": "Fear & Greed 60 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Why Altcoins Are Dragging Their Feet as Bitcoin, Ethereum Soar",
+        "url": "https://decrypt.co/343356/why-altcoins-are-dragging-their-feet-as-bitcoin-ethereum-soar",
+        "source": "Decrypt",
+        "weight": 0.7854,
+        "score": 0.5333
+      },
+      {
+        "title": "Copper Declines as Fed Officials Urge Caution on Rate Cuts",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-08/copper-declines-as-fed-officials-urge-caution-on-rate-cuts",
+        "source": "Bloomberg Markets",
+        "weight": 0.6254,
+        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,40 +1039,35 @@
         "title": "Trump Memecoin Issuer Zanker Is Planning Digital Asset Treasury Company",
         "url": "https://www.bloomberg.com/news/articles/2025-10-08/trump-memecoin-issuer-zanker-is-planning-digital-asset-treasury-company",
         "source": "Bloomberg Markets",
-        "weight": 0.7311,
+        "weight": 0.5402,
         "score": -1.0
       },
       {
         "title": "Wall Street retreats from record closing highs on economic concerns",
         "url": "https://finance.yahoo.com/video/wall-street-retreats-record-closing-223646244.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5498,
+        "weight": 0.4062,
         "score": -1.0
       },
       {
-        "title": "Crypto Leverage Trading in Focus: How Leverage.Trading Data Tracks Retail Stress From Liquidations to Early Warnings",
-        "url": "https://cryptoslate.com/crypto-leverage-trading-in-focus-how-leverage-trading-data-tracks-retail-stress-from-liquidations-to-early-warnings/",
-        "source": "CryptoSlate",
-        "weight": 0.4406,
-        "score": -1.0
+        "title": "Kiwi Slide May Wane as RBNZ Dovishness in Doubt, Strategists Say",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-08/new-zealand-dollar-slumps-after-rbnz-surprises-with-outsized-cut",
+        "source": "Bloomberg Markets",
+        "weight": 0.5802,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8622054437710017,
-          "price_change_24h": 0.00838
+          "volume_mcap_ratio": 0.8847395148306415,
+          "price_change_24h": 0.00104
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.48737186504431135,
-          "price_change_24h": -0.02557
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.3111280311835915,
-          "price_change_24h": 0.00069
+          "volume_mcap_ratio": 0.487473672089054,
+          "price_change_24h": -0.09266
         }
       ],
       "momentum_shifts": []
