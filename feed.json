@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-08T19:53:39.304078+00:00",
+  "updated_at": "2025-10-08T20:26:35.404271+00:00",
   "indicators": {
-    "change24h": 0.029,
-    "vol": 0.073,
+    "change24h": 0.024,
+    "vol": 0.069,
     "fearGreed": 60,
-    "momentum": 0.506,
+    "momentum": 0.424,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5929,
-    "global_sentiment": 0.552,
-    "combined_sentiment": 0.574,
-    "confidence": 0.8281,
+    "crypto_sentiment": 0.5872,
+    "global_sentiment": 0.5019,
+    "combined_sentiment": 0.5655,
+    "confidence": 0.815,
     "counts": {
       "crypto": 70,
-      "global": 53
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 123553,
-      "btc_change_24h": 1.46,
-      "eth_price": 4517.79,
-      "eth_change_24h": 0.77,
+      "btc_price": 123661,
+      "btc_change_24h": 1.24,
+      "eth_price": 4522.77,
+      "eth_change_24h": 0.18,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 60,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 284505240826,
+        "volume_24h": 287661429726,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.87,
+        "btc_dominance": 56.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-25T04:29:06.134293+00:00",
-      "crypto": 0.5816,
-      "global": 0.4813,
-      "combined": 0.5596,
-      "counts": {
-        "crypto": 59,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-25T08:32:55.623946+00:00",
       "crypto": 0.4069,
@@ -1008,66 +998,76 @@
         "crypto": 70,
         "global": 53
       }
+    },
+    {
+      "ts": "2025-10-08T20:26:35.404271+00:00",
+      "crypto": 0.5872,
+      "global": 0.5019,
+      "combined": 0.5655,
+      "counts": {
+        "crypto": 70,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold Just Hit $4,000. Mining Stocks Look Like the Best Way to Play It.",
-        "url": "https://finance.yahoo.com/m/07a46465-8580-3d9e-8457-fb8aec4abbda/gold-just-hit-%244%2C000.-mining.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6197,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin’s On-Chain Profitability Has Surged With 97% of Supply Now in Profit: Glassnode",
-        "url": "https://www.coindesk.com/markets/2025/10/08/bitcoin-s-on-chain-profitability-has-surged-with-97-of-supply-now-in-profit-glassnode",
-        "source": "CoinDesk",
-        "weight": 0.6222,
-        "score": 0.8667
+        "title": "North Dakota, Fiserv announce plan for state-backed ‘Roughrider’ stablecoin",
+        "url": "https://cointelegraph.com/news/north-dakota-fiserv-state-roughrider-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.759,
+        "score": 0.9167
       },
       {
         "title": "IRS furloughs nearly half of its workforce due to government shutdown",
         "url": "https://www.cnbc.com/2025/10/08/irs-furloughs-workers-government-shutdown.html",
         "source": "CNBC Markets",
-        "weight": 0.7944,
+        "weight": 0.7608,
         "score": 0.6667
+      },
+      {
+        "title": "Bitcoin’s On-Chain Profitability Has Surged With 97% of Supply Now in Profit: Glassnode",
+        "url": "https://www.coindesk.com/markets/2025/10/08/bitcoin-s-on-chain-profitability-has-surged-with-97-of-supply-now-in-profit-glassnode",
+        "source": "CoinDesk",
+        "weight": 0.584,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "US Senate confirms Treasury official as government shutdown continues",
+        "url": "https://cointelegraph.com/news/us-senate-treasury-confirmation-government-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7974,
+        "score": -0.9667
+      },
+      {
+        "title": "Rubrik Wants Cyber Resilience from 'Inevitable' Attacks",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-08/rubrik-wants-cyber-resilience-from-inevitable-attacks-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7604,
+        "score": -0.9667
+      },
+      {
         "title": "'National Security' Possible Next Target for Activists",
         "url": "https://www.bloomberg.com/news/videos/2025-10-08/-national-security-possible-next-target-for-activists-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7665,
+        "weight": 0.7194,
         "score": -0.9667
-      },
-      {
-        "title": "Sector Update: Energy",
-        "url": "https://finance.yahoo.com/news/sector-energy-192953406.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7642,
-        "score": -0.9667
-      },
-      {
-        "title": "The State of DeFi Exploit Risk",
-        "url": "https://www.coindesk.com/coindesk-indices/2025/10/08/the-state-of-defi-exploit-risk",
-        "source": "CoinDesk",
-        "weight": 0.6869,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7179696876648811,
-          "price_change_24h": -0.01958
+          "volume_mcap_ratio": 0.7100669598114406,
+          "price_change_24h": -0.01987
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5011472632739857,
-          "price_change_24h": -0.13842
+          "volume_mcap_ratio": 0.4992538186301295,
+          "price_change_24h": -0.09182
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-08",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5632,
-      "crypto_high": 0.6103,
-      "crypto_low": 0.4651,
-      "global_avg": 0.5142,
-      "global_high": 0.552,
-      "global_low": 0.4854,
-      "combined_avg": 0.5486,
-      "combined_high": 0.5832,
-      "combined_low": 0.475
-    },
-    "market_indicators_24h": {
-      "change24h": 0.029,
-      "vol": 0.073,
-      "fearGreed": 60,
-      "momentum": 0.506,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-08T19:53:39.304078+00:00"
   }
 }
