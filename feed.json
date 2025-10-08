@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-08T12:52:53.172706+00:00",
+  "updated_at": "2025-10-08T16:30:59.191187+00:00",
   "indicators": {
-    "change24h": -0.057,
-    "vol": 0.131,
+    "change24h": 0.003,
+    "vol": 0.055,
     "fearGreed": 60,
-    "momentum": -0.994,
-    "regime": "bear",
+    "momentum": 0.052,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5015,
-    "global_sentiment": 0.5132,
-    "combined_sentiment": 0.5022,
-    "confidence": 0.8078,
+    "crypto_sentiment": 0.6103,
+    "global_sentiment": 0.5057,
+    "combined_sentiment": 0.5832,
+    "confidence": 0.8223,
     "counts": {
-      "crypto": 80,
-      "global": 37
+      "crypto": 68,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 122679,
-      "btc_change_24h": -1.94,
-      "eth_price": 4478.92,
-      "eth_change_24h": -5.2,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "btc_price": 122694,
+      "btc_change_24h": 1.2,
+      "eth_price": 4462.91,
+      "eth_change_24h": -0.53,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 60,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 353509305261,
+        "volume_24h": 290268695724,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.96,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-24T20:27:38.011781+00:00",
-      "crypto": 0.5263,
-      "global": 0.3995,
-      "combined": 0.5113,
-      "counts": {
-        "crypto": 60,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-09-25T01:53:41.025262+00:00",
       "crypto": 0.6019,
@@ -1008,52 +998,62 @@
         "crypto": 80,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-08T16:30:59.191187+00:00",
+      "crypto": 0.6103,
+      "global": 0.5057,
+      "combined": 0.5832,
+      "counts": {
+        "crypto": 68,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Morning Minute: Polymarket Raises $2B at $9B Valuation from NYSE Parent",
-        "url": "https://decrypt.co/343372/morning-minute-polymarket-raises-2b-at-9b-valuation-from-nyse-parent",
-        "source": "Decrypt",
-        "weight": 0.8192,
-        "score": 1.0
-      },
-      {
-        "title": "Gold or AI—Which Rally Do You Trust?",
-        "url": "https://finance.yahoo.com/m/f80b707d-6885-3848-91fd-8903612a989d/gold-or-ai%E2%80%94which-rally-do-you.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6588,
-        "score": 1.0
-      },
-      {
-        "title": "Crypto Markets Today: Gold Surges Past $4K as Bitcoin Rebounds; BNB Chain Defies Market Cool-Off",
-        "url": "https://www.coindesk.com/markets/2025/10/08/crypto-markets-today-gold-surges-past-usd4k-as-bitcoin-rebounds-bnb-chain-defies-market-cool-off",
+        "title": "Bitcoin’s On-Chain Profitability Has Surged With 97% of Supply Now in Profit: Glassnode",
+        "url": "https://www.coindesk.com/markets/2025/10/08/bitcoin-s-on-chain-profitability-has-surged-with-97-of-supply-now-in-profit-glassnode",
         "source": "CoinDesk",
-        "weight": 1.0859,
-        "score": 0.5333
+        "weight": 0.9192,
+        "score": 0.8667
+      },
+      {
+        "title": "Should you buy Netflix stock? Wolfe Research, WarrenAI weigh in",
+        "url": "https://finance.yahoo.com/news/buy-netflix-stock-wolfe-research-144311580.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.65,
+        "score": 1.0
+      },
+      {
+        "title": "DOGE price gained 445% the last time this indicator flashed green",
+        "url": "https://cointelegraph.com/news/doge-price-gained-445-percent-last-time-this-indicator-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7318,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "From TerraUSD to YU: Why stablecoins fail to hold $1 and the risks investors can’t ignore",
-        "url": "https://cointelegraph.com/news/from-terrausd-to-yu-why-stablecoins-fail-to-hold-1-and-the-risks-investors-can-t-ignore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6116,
+        "title": "Blackstone Close to Biggest European Office Financing Since 2022",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-08/blackstone-close-to-biggest-european-office-financing-since-2022",
+        "source": "Bloomberg Markets",
+        "weight": 0.7298,
         "score": -0.9667
       },
       {
-        "title": "Bitcoin risks plunge to $114K as 'predatory' traders squeeze BTC longs",
-        "url": "https://cointelegraph.com/news/bitcoin-risks-new-114k-plunge-predatory-traders-squeeze-btc-longs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5478,
+        "title": "North Dakota to Become Second State to Issue Stablecoin With ‘Roughrider’ Token",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-08/north-dakota-to-become-second-state-to-issue-stablecoin-with-roughrider-token",
+        "source": "Bloomberg Markets",
+        "weight": 0.6523,
         "score": -1.0
       },
       {
-        "title": "Over $489M in Crypto Longs Liquidated as Bitcoin, Ethereum Extend Losses",
-        "url": "https://decrypt.co/343371/over-489m-in-crypto-longs-liquidated-as-bitcoin-ethereum-extend-losses",
-        "source": "Decrypt",
-        "weight": 0.7978,
+        "title": "Cantor Seeks New Deal on UBS Hedge Fund Unit Over First Brands Exposure",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-08/cantor-seeks-new-ubs-o-connor-deal-on-first-brands-exposure",
+        "source": "Bloomberg Markets",
+        "weight": 0.6861,
         "score": -0.6667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.882794218475343,
-          "price_change_24h": -0.03882
+          "volume_mcap_ratio": 0.7338318221693806,
+          "price_change_24h": -0.02202
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.49364580376982503,
-          "price_change_24h": -0.19205
+          "volume_mcap_ratio": 0.48461315174577274,
+          "price_change_24h": -0.25661
         }
       ],
       "momentum_shifts": []
