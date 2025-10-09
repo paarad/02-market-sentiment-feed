@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-09T08:32:54.712001+00:00",
+  "updated_at": "2025-10-09T12:52:44.608537+00:00",
   "indicators": {
-    "change24h": -0.026,
-    "vol": 0.091,
+    "change24h": -0.013,
+    "vol": 0.079,
     "fearGreed": 70,
-    "momentum": -0.462,
-    "regime": "bear",
+    "momentum": -0.225,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6124,
-    "global_sentiment": 0.5466,
-    "combined_sentiment": 0.5882,
-    "confidence": 0.8047,
+    "crypto_sentiment": 0.5611,
+    "global_sentiment": 0.5913,
+    "combined_sentiment": 0.5535,
+    "confidence": 0.8258,
     "counts": {
       "crypto": 72,
-      "global": 47
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 121404,
-      "btc_change_24h": -0.44,
-      "eth_price": 4351.24,
-      "eth_change_24h": -2.71,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 123409,
+      "btc_change_24h": 0.59,
+      "eth_price": 4399.26,
+      "eth_change_24h": -1.84,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 70,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 259713326132,
+        "volume_24h": 270467839403,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.12,
+        "btc_dominance": 57.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-25T19:53:41.785523+00:00",
-      "crypto": 0.3744,
-      "global": 0.4945,
-      "combined": 0.4054,
-      "counts": {
-        "crypto": 55,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-25T20:27:06.014840+00:00",
       "crypto": 0.3838,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-10-09T12:52:44.608537+00:00",
+      "crypto": 0.5611,
+      "global": 0.5913,
+      "combined": 0.5535,
+      "counts": {
+        "crypto": 72,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Markets Rise Amid Hope for Middle East Peace. Oil Fluctuates.",
-        "url": "https://finance.yahoo.com/m/32d5b8fe-53b2-3c0f-b4af-6f8460f4d1ae/markets-rise-amid-hope-for.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7563,
-        "score": 0.8667
-      },
-      {
-        "title": "Why Bitcoin's Rally Has Room to Run This Month",
-        "url": "https://decrypt.co/343501/why-bitcoins-rally-has-room-to-run-this-month",
-        "source": "Decrypt",
-        "weight": 0.6451,
-        "score": 0.8667
-      },
-      {
-        "title": "SOL’s next stop could be $300: 3 forces shaping Solana’s next major rally",
-        "url": "https://cointelegraph.com/news/sol-next-stop-could-be-300-3-forces-shaping-solana-next-major-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "XRP’s ‘most bullish pattern’ targets $6 despite latest correction",
+        "url": "https://cointelegraph.com/news/xrp-most-bullish-pattern-targets-6-dollars-despite-correction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4664,
+        "weight": 0.8658,
         "score": 1.0
+      },
+      {
+        "title": "Israel, Hamas Reach Deal to Free Hostages; China Widens Rare Earth Curbs | Bloomberg Brief 10/9/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-09/bloomberg-brief-10-9-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.652,
+        "score": 1.0
+      },
+      {
+        "title": "Goldman Sachs Sees More Gains for South African Bonds, Equities",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-09/goldman-sachs-sees-more-gains-for-south-african-bonds-equities",
+        "source": "Bloomberg Markets",
+        "weight": 0.7179,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "German Exports Unexpectedly Drop as Shipments to the US Sink",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-09/german-exports-unexpectedly-drop-as-shipments-to-the-us-sink",
+        "title": "Bank of France wants EU crypto regulation under Paris-based ESMA",
+        "url": "https://cointelegraph.com/news/bank-france-esma-mica-stablecoin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7175,
+        "score": -0.9667
+      },
+      {
+        "title": "SEC filing reveals ETH and SOL ETFs may include staking rewards",
+        "url": "https://cryptoslate.com/sec-filing-reveals-eth-and-sol-etfs-may-include-staking-rewards/",
+        "source": "CryptoSlate",
+        "weight": 0.7036,
+        "score": -0.9667
+      },
+      {
+        "title": "Lagging Homebuilder Stocks Face New Worry From Bill Pulte’s Ire",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-09/lagging-homebuilder-stocks-xhb-face-new-worry-from-bill-pulte-s-ire",
         "source": "Bloomberg Markets",
-        "weight": 0.6216,
+        "weight": 0.6439,
         "score": -1.0
-      },
-      {
-        "title": "US Approves Some Nvidia Chip Sales to UAE",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-09/us-approves-some-nvidia-chip-sales-to-uae-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5506,
-        "score": -0.9667
-      },
-      {
-        "title": "Abu Dhabi’s ADQ Nears $4 Billion Loan, Taps Greater China Banks",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-09/abu-dhabi-s-adq-nears-4-billion-loan-taps-greater-china-banks",
-        "source": "Bloomberg Markets",
-        "weight": 0.5295,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6455918926488272,
-          "price_change_24h": -0.01678
+          "volume_mcap_ratio": 0.6741582390133272,
+          "price_change_24h": 0.01948
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5543625286727587,
-          "price_change_24h": -1.12143
+          "volume_mcap_ratio": 0.5759041631331022,
+          "price_change_24h": 0.00103
         }
       ],
       "momentum_shifts": []
