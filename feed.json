@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-09T01:52:49.317692+00:00",
+  "updated_at": "2025-10-09T04:28:53.099696+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.053,
+    "change24h": 0.014,
+    "vol": 0.062,
     "fearGreed": 70,
-    "momentum": 0.09,
+    "momentum": 0.247,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6172,
-    "global_sentiment": 0.6071,
-    "combined_sentiment": 0.5968,
-    "confidence": 0.7746,
+    "crypto_sentiment": 0.6739,
+    "global_sentiment": 0.597,
+    "combined_sentiment": 0.6385,
+    "confidence": 0.7878,
     "counts": {
-      "crypto": 66,
-      "global": 42
+      "crypto": 69,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 122405,
-      "btc_change_24h": 0.34,
-      "eth_price": 4471.31,
-      "eth_change_24h": -0.35,
+      "btc_price": 122260,
+      "btc_change_24h": 0.7,
+      "eth_price": 4457.0,
+      "eth_change_24h": 0.28,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 70,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 273857187054,
+        "volume_24h": 260647751853,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.88,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-25T12:52:52.876134+00:00",
-      "crypto": 0.3872,
-      "global": 0.3167,
-      "combined": 0.4001,
-      "counts": {
-        "crypto": 51,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-25T16:31:29.105092+00:00",
       "crypto": 0.4088,
@@ -1008,52 +998,62 @@
         "crypto": 66,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-10-09T04:28:53.099696+00:00",
+      "crypto": 0.6739,
+      "global": 0.597,
+      "combined": 0.6385,
+      "counts": {
+        "crypto": 69,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin Rebounds Above $123K as Miners Rally; VanEck Sees $644K BTC Amid Gold Gains",
-        "url": "https://www.coindesk.com/markets/2025/10/08/bitcoin-rebounds-above-usd123k-as-miners-rally-vaneck-sees-usd644k-btc-amid-gold-gains",
-        "source": "CoinDesk",
-        "weight": 0.6391,
-        "score": 0.8667
-      },
-      {
-        "title": "Why is Bitcoin recovering? Everything that happened in crypto today",
-        "url": "https://cryptoslate.com/why-is-bitcoin-recovering-everything-that-happened-in-crypto-today/",
-        "source": "CryptoSlate",
-        "weight": 0.5412,
+        "title": "SOL’s next stop could be $300: 3 forces shaping Solana’s next major rally",
+        "url": "https://cointelegraph.com/news/sol-next-stop-could-be-300-3-forces-shaping-solana-next-major-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7461,
         "score": 1.0
       },
       {
-        "title": "Podcast: U.S. Stocks Rebound and Gold Furthers Its Record-Setting Rally",
-        "url": "https://finance.yahoo.com/m/19a912fa-25a9-3e86-9a6e-30243c0c69ea/podcast%3A-u.s.-stocks-rebound.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.512,
+        "title": "BNB mindshare spikes 251% in a week, as markets eye low-cost  chains",
+        "url": "https://cointelegraph.com/news/bnb-ecosystem-growth-2025-driving-investor-interest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8592,
+        "score": 0.8667
+      },
+      {
+        "title": "Copper Gains as Fed Minutes Show Broad Support for Rate Cuts",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-09/copper-gains-as-fed-minutes-show-broad-support-for-rate-cuts",
+        "source": "Bloomberg Markets",
+        "weight": 0.666,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Portfolio managers on regulatory changes driving returns",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-09/portfolio-managers-on-regulatory-changes-driving-returns-video",
+        "title": "Ex-Trader Investigating Jane Street Ends Term at India Regulator",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-09/ex-trader-investigating-jane-street-ends-term-at-india-regulator",
         "source": "Bloomberg Markets",
-        "weight": 0.7323,
-        "score": -0.6333
-      },
-      {
-        "title": "US Senate confirms Treasury official as government shutdown continues",
-        "url": "https://cointelegraph.com/news/us-senate-treasury-confirmation-government-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4255,
+        "weight": 0.6006,
         "score": -0.9667
       },
       {
-        "title": "Stocks Near Record as Gold Tops $4,000 for First Time | The Close 10/8/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-08/the-close-10-8-2025-video",
+        "title": "Citigroup Flags Oil Market’s Bearish Consensus as Surplus Looms",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-09/citigroup-flags-oil-market-s-bearish-consensus-as-surplus-looms",
         "source": "Bloomberg Markets",
-        "weight": 0.5888,
+        "weight": 0.6731,
+        "score": -0.5333
+      },
+      {
+        "title": "Portfolio managers on regulatory changes driving returns",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-09/portfolio-managers-on-regulatory-changes-driving-returns-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5423,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6679137326136306,
-          "price_change_24h": -0.02852
+          "volume_mcap_ratio": 0.6641103049804248,
+          "price_change_24h": -0.02749
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.46142093878742385,
-          "price_change_24h": -0.059
+          "volume_mcap_ratio": 0.4647207125569174,
+          "price_change_24h": 0.01494
         }
       ],
       "momentum_shifts": []
