@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-09T19:53:46.590925+00:00",
+  "updated_at": "2025-10-09T20:27:15.245150+00:00",
   "indicators": {
-    "change24h": -0.061,
-    "vol": 0.111,
+    "change24h": -0.062,
+    "vol": 0.114,
     "fearGreed": 70,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5598,
-    "global_sentiment": 0.468,
-    "combined_sentiment": 0.5422,
-    "confidence": 0.8375,
+    "crypto_sentiment": 0.5643,
+    "global_sentiment": 0.4794,
+    "combined_sentiment": 0.5465,
+    "confidence": 0.8349,
     "counts": {
-      "crypto": 69,
+      "crypto": 70,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 120987,
-      "btc_change_24h": -2.07,
-      "eth_price": 4331.98,
-      "eth_change_24h": -4.09,
+      "btc_price": 121014,
+      "btc_change_24h": -2.1,
+      "eth_price": 4332.19,
+      "eth_change_24h": -4.18,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 70,
         "classification": "Greed",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 303306617397,
+        "volume_24h": 297855185407,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-26T04:28:58.749287+00:00",
-      "crypto": 0.4132,
-      "global": 0.4513,
-      "combined": 0.4308,
-      "counts": {
-        "crypto": 58,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-26T08:33:26.512402+00:00",
       "crypto": 0.414,
@@ -1008,52 +998,62 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-09T20:27:15.245150+00:00",
+      "crypto": 0.5643,
+      "global": 0.4794,
+      "combined": 0.5465,
+      "counts": {
+        "crypto": 70,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Seeing Early Signs of Silver Outperforming Gold: Citi's Layton",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-09/seeing-early-signs-of-silver-outperforming-gold-layton-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7618,
+        "score": 1.0
+      },
+      {
         "title": "ETH sells off alongside Bitcoin, but Ether adoption pace still supports rally to $10K",
         "url": "https://cointelegraph.com/news/eth-sells-off-alongside-bitcoin-but-ether-adoption-pace-still-supports-rally-to-dollar10k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8723,
+        "weight": 0.8179,
         "score": 0.8667
       },
       {
         "title": "Markets Move Beyond Big Tech | Open Interest 10/9/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-10-09/open-interest-10-9-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6943,
-        "score": 0.8667
-      },
-      {
-        "title": "Precious metals trade 'overheated,' investors to rotate into BTC: Analyst",
-        "url": "https://cointelegraph.com/news/precious-metals-trade-overheated-investors-rotate-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6777,
+        "weight": 0.651,
         "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 30, 2025",
+        "url": "https://finance.yahoo.com/news/nasdaq-announces-end-month-open-200500584.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7664,
+        "score": -0.9667
+      },
+      {
         "title": "Sector Update: Energy Stocks Slide Late Afternoon",
         "url": "https://finance.yahoo.com/news/sector-energy-stocks-slide-afternoon-194830998.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7919,
+        "weight": 0.7425,
         "score": -0.9667
       },
       {
         "title": "Bitcoin drops under $120K as bearish data sparks 10% BTC price dip warning",
         "url": "https://cointelegraph.com/news/bitcoin-drops-under-120k-bearish-data-sparks-10-btc-price-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7113,
-        "score": -1.0
-      },
-      {
-        "title": "Sector Update: Energy Stocks Slide in Afternoon Trading",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-slide-afternoon-174807631.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6281,
+        "weight": 0.6669,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.729741822318996,
-          "price_change_24h": 0.04403
+          "volume_mcap_ratio": 0.7310599329760856,
+          "price_change_24h": 0.05455
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5362050439948353,
-          "price_change_24h": 0.01528
+          "volume_mcap_ratio": 0.5595756097857754,
+          "price_change_24h": 0.064
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-09",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.5984,
-      "crypto_high": 0.6739,
-      "crypto_low": 0.5598,
-      "global_avg": 0.5579,
-      "global_high": 0.6071,
-      "global_low": 0.468,
-      "combined_avg": 0.5787,
-      "combined_high": 0.6385,
-      "combined_low": 0.5422
-    },
-    "market_indicators_24h": {
-      "change24h": -0.061,
-      "vol": 0.111,
-      "fearGreed": 70,
-      "momentum": -1.0,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-09T19:53:46.590925+00:00"
   }
 }
