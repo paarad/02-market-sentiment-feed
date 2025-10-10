@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-10T16:30:20.060668+00:00",
+  "updated_at": "2025-10-10T19:53:42.626712+00:00",
   "indicators": {
-    "change24h": -0.031,
-    "vol": 0.108,
+    "change24h": -0.07,
+    "vol": 0.19,
     "fearGreed": 64,
-    "momentum": -0.542,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.455,
-    "global_sentiment": 0.4374,
-    "combined_sentiment": 0.4611,
-    "confidence": 0.8077,
+    "crypto_sentiment": 0.3993,
+    "global_sentiment": 0.3908,
+    "combined_sentiment": 0.4154,
+    "confidence": 0.8244,
     "counts": {
-      "crypto": 67,
-      "global": 34
+      "crypto": 71,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 119224,
-      "btc_change_24h": -1.58,
-      "eth_price": 4126.58,
-      "eth_change_24h": -3.96,
+      "btc_price": 116924,
+      "btc_change_24h": -3.42,
+      "eth_price": 4021.13,
+      "eth_change_24h": -7.14,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 64,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 313584917058,
+        "volume_24h": 340965293456,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.44,
+        "btc_dominance": 57.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-27T01:48:20.333719+00:00",
-      "crypto": 0.3912,
-      "global": 0.4417,
-      "combined": 0.4136,
-      "counts": {
-        "crypto": 64,
-        "global": 30
-      }
-    },
     {
       "ts": "2025-09-27T04:27:37.505532+00:00",
       "crypto": 0.3873,
@@ -1008,71 +998,81 @@
         "crypto": 67,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-10-10T19:53:42.626712+00:00",
+      "crypto": 0.3993,
+      "global": 0.3908,
+      "combined": 0.4154,
+      "counts": {
+        "crypto": 71,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Trump's China tariff threat sinks stocks, Applied Digital surges",
+        "url": "https://finance.yahoo.com/video/trumps-china-tariff-threat-sinks-182115264.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6695,
+        "score": 0.8667
+      },
+      {
         "title": "‘Distribution Is the Key’: BNB’s 129% Rally Mirrors Solana’s 2024 Surge",
         "url": "https://www.coindesk.com/markets/2025/10/10/distribution-is-the-key-bnb-s-129-rally-mirrors-solana-s-2024-surge",
         "source": "CoinDesk",
-        "weight": 0.6894,
+        "weight": 0.4661,
         "score": 1.0
       },
       {
-        "title": "CoinDesk 20 Performance Update: Litecoin (LTC) Surges 11.9% as All Constituents Rise",
-        "url": "https://www.coindesk.com/coindesk-indices/2025/10/10/coindesk-20-performance-update-litecoin-ltc-surges-11-9-as-all-constituents-rise",
-        "source": "CoinDesk",
-        "weight": 0.6807,
-        "score": 0.8667
-      },
-      {
-        "title": "The Bull Market Celebrates Third Anniversary. It Has Everything, Except Trust.",
-        "url": "https://finance.yahoo.com/m/667b2713-08a2-3ed4-9c0d-6322a2290be9/the-bull-market-celebrates.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6736,
-        "score": 0.8667
+        "title": "Fear & Greed 64 (Greed) — bullish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "AI bubble? Bitcoin's high correlation to Nvidia sparks 80% crash warning",
-        "url": "https://cointelegraph.com/news/ai-bubble-bitcoin-high-correlation-nvidia-80-percent-btc-crash-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6438,
+        "title": "Ether's 7% Plunge Leads Crypto Liquidations in $600M Carnage",
+        "url": "https://www.coindesk.com/markets/2025/10/10/ether-s-7-plunge-leads-crypto-liquidations-in-usd600m-carnage",
+        "source": "CoinDesk",
+        "weight": 0.8873,
         "score": -0.9667
       },
       {
-        "title": "Stocks Hold Gains, Shrugging Off Sentiment Data",
-        "url": "https://finance.yahoo.com/m/34b9c110-35a7-3b99-b850-0ddc5e9e1110/stocks-hold-gains%2C-shrugging.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.66,
-        "score": -0.9333
+        "title": "Brazil Judge Grants Pimco-Backed Unigel Bankruptcy Protection",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/brazil-judge-grants-pimco-backed-unigel-bankruptcy-protection",
+        "source": "Bloomberg Markets",
+        "weight": 0.7734,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin Price Bounce Meets Bearish MA Configuration, Risk-Off Hints From Key ETFs",
-        "url": "https://www.coindesk.com/markets/2025/10/10/bitcoin-bounce-meets-bearish-ma-signals-risk-off-hints-from-key-etfs",
-        "source": "CoinDesk",
-        "weight": 0.6929,
-        "score": -0.8667
+        "title": "Auto Stocks in a Spin as First Brands, Tricolor Worry Investors",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/auto-stocks-in-a-spin-as-first-brands-tricolor-worry-investors",
+        "source": "Bloomberg Markets",
+        "weight": 0.6923,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.755758189464459,
-          "price_change_24h": 0.00183
+          "volume_mcap_ratio": 0.8285002583505936,
+          "price_change_24h": -0.03198
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5050766985832618,
-          "price_change_24h": 0.02581
+          "volume_mcap_ratio": 0.5408754439887097,
+          "price_change_24h": -0.03022
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.4203283252840351,
-          "price_change_24h": 25.82481
+          "volume_mcap_ratio": 0.3944725769025852,
+          "price_change_24h": 12.59136
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-10",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5086,
+      "crypto_high": 0.587,
+      "crypto_low": 0.3993,
+      "global_avg": 0.4829,
+      "global_high": 0.5691,
+      "global_low": 0.3908,
+      "combined_avg": 0.505,
+      "combined_high": 0.5699,
+      "combined_low": 0.4154
+    },
+    "market_indicators_24h": {
+      "change24h": -0.07,
+      "vol": 0.19,
+      "fearGreed": 64,
+      "momentum": -1.0,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-10T19:53:42.626712+00:00"
   }
 }
