@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-09T20:27:15.245150+00:00",
+  "updated_at": "2025-10-10T01:53:13.620699+00:00",
   "indicators": {
-    "change24h": -0.062,
-    "vol": 0.114,
-    "fearGreed": 70,
-    "momentum": -1.0,
+    "change24h": -0.026,
+    "vol": 0.08,
+    "fearGreed": 64,
+    "momentum": -0.463,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5643,
-    "global_sentiment": 0.4794,
-    "combined_sentiment": 0.5465,
-    "confidence": 0.8349,
+    "crypto_sentiment": 0.5541,
+    "global_sentiment": 0.5691,
+    "combined_sentiment": 0.5463,
+    "confidence": 0.7977,
     "counts": {
       "crypto": 70,
-      "global": 39
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 121014,
-      "btc_change_24h": -2.1,
-      "eth_price": 4332.19,
-      "eth_change_24h": -4.18,
+      "btc_price": 121636,
+      "btc_change_24h": -0.63,
+      "eth_price": 4377.85,
+      "eth_change_24h": -2.16,
       "market_regime": "bear",
-      "regime_strength": 0.6,
+      "regime_strength": 0.4,
       "market_breadth": 0.15,
       "fear_greed": {
-        "value": 70,
+        "value": 64,
         "classification": "Greed",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 297855185407,
-        "high_activity_coins": 2
+        "volume_24h": 299883909838,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.21,
+        "btc_dominance": 57.15,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-26T08:33:26.512402+00:00",
-      "crypto": 0.414,
-      "global": 0.3534,
-      "combined": 0.4233,
-      "counts": {
-        "crypto": 58,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-09-26T12:51:22.916333+00:00",
       "crypto": 0.4051,
@@ -1008,66 +998,81 @@
         "crypto": 70,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-10T01:53:13.620699+00:00",
+      "crypto": 0.5541,
+      "global": 0.5691,
+      "combined": 0.5463,
+      "counts": {
+        "crypto": 70,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Seeing Early Signs of Silver Outperforming Gold: Citi's Layton",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-09/seeing-early-signs-of-silver-outperforming-gold-layton-video",
+        "title": "Fast Retailing Gains on Strong Uniqlo Growth Despite US Tariffs",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/fast-retailing-gains-on-strong-uniqlo-growth-despite-us-tariffs",
         "source": "Bloomberg Markets",
-        "weight": 0.7618,
+        "weight": 0.6806,
         "score": 1.0
       },
       {
-        "title": "ETH sells off alongside Bitcoin, but Ether adoption pace still supports rally to $10K",
-        "url": "https://cointelegraph.com/news/eth-sells-off-alongside-bitcoin-but-ether-adoption-pace-still-supports-rally-to-dollar10k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8179,
+        "title": "Dow Jones Futures Rise After Bullish Market Pause; Palantir, Netflix, Oracle Right At Buy Points",
+        "url": "https://finance.yahoo.com/m/07ae7026-7db3-382d-bb9d-bd9090261e35/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7645,
         "score": 0.8667
       },
       {
-        "title": "Markets Move Beyond Big Tech | Open Interest 10/9/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-09/open-interest-10-9-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.651,
-        "score": 0.8667
+        "title": "Fear & Greed 64 (Greed) — bullish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 30, 2025",
-        "url": "https://finance.yahoo.com/news/nasdaq-announces-end-month-open-200500584.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7664,
-        "score": -0.9667
-      },
-      {
-        "title": "Sector Update: Energy Stocks Slide Late Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-slide-afternoon-194830998.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7425,
+        "title": "First Brands’ Official Creditor Committee Includes Raistone",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-09/first-brands-official-creditor-committee-includes-raistone",
+        "source": "Bloomberg Markets",
+        "weight": 0.5258,
         "score": -0.9667
       },
       {
         "title": "Bitcoin drops under $120K as bearish data sparks 10% BTC price dip warning",
         "url": "https://cointelegraph.com/news/bitcoin-drops-under-120k-bearish-data-sparks-10-btc-price-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6669,
+        "weight": 0.356,
         "score": -1.0
+      },
+      {
+        "title": "S&P Slips as Silver Tops 1980 High | The Close 10/9/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-09/the-close-10-9-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.562,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7310599329760856,
-          "price_change_24h": 0.05455
+          "volume_mcap_ratio": 0.7356104516058316,
+          "price_change_24h": 0.0338
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5595756097857754,
-          "price_change_24h": 0.064
+          "volume_mcap_ratio": 0.5675802938037326,
+          "price_change_24h": -0.2171
+        },
+        {
+          "symbol": "ZEC",
+          "volume_mcap_ratio": 0.30512144838954613,
+          "price_change_24h": 31.60589
         }
       ],
       "momentum_shifts": []
