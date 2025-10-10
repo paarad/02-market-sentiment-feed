@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-10T08:32:24.773658+00:00",
+  "updated_at": "2025-10-10T12:51:23.670361+00:00",
   "indicators": {
-    "change24h": 0.007,
+    "change24h": -0.009,
     "vol": 0.076,
     "fearGreed": 64,
-    "momentum": 0.12,
+    "momentum": -0.159,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5499,
-    "global_sentiment": 0.4419,
-    "combined_sentiment": 0.5326,
-    "confidence": 0.7571,
+    "crypto_sentiment": 0.5064,
+    "global_sentiment": 0.5026,
+    "combined_sentiment": 0.505,
+    "confidence": 0.7873,
     "counts": {
       "crypto": 68,
-      "global": 37
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 121345,
-      "btc_change_24h": 0.09,
-      "eth_price": 4337.19,
-      "eth_change_24h": -0.37,
+      "btc_price": 121506,
+      "btc_change_24h": -1.64,
+      "eth_price": 4342.11,
+      "eth_change_24h": -1.45,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 64,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 296453044631,
+        "volume_24h": 280299649868,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.13,
+        "btc_dominance": 57.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-26T19:53:43.937972+00:00",
-      "crypto": 0.4519,
-      "global": 0.4571,
-      "combined": 0.4604,
-      "counts": {
-        "crypto": 58,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-09-26T20:25:55.889166+00:00",
       "crypto": 0.4239,
@@ -1008,71 +998,81 @@
         "crypto": 68,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-10T12:51:23.670361+00:00",
+      "crypto": 0.5064,
+      "global": 0.5026,
+      "combined": 0.505,
+      "counts": {
+        "crypto": 68,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Monero Releases Privacy Boost Against Sneaky Network Nodes",
-        "url": "https://www.coindesk.com/tech/2025/10/10/monero-releases-privacy-boost-against-sneaky-network-nodes",
+        "title": "‘Distribution Is the Key’: BNB’s 129% Rally Mirrors Solana’s 2024 Surge",
+        "url": "https://www.coindesk.com/markets/2025/10/10/distribution-is-the-key-bnb-s-129-rally-mirrors-solana-s-2024-surge",
         "source": "CoinDesk",
-        "weight": 0.7347,
+        "weight": 1.0509,
         "score": 1.0
       },
       {
-        "title": "Fear & Greed 64 (Greed) — bullish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Gold Boom Swells Indian Household Stock to Almost $3.8 Trillion",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/gold-boom-swells-indian-household-stock-to-almost-3-8-trillion",
+        "source": "Bloomberg Markets",
+        "weight": 0.6862,
+        "score": 1.0
       },
       {
-        "title": "Dow Jones Futures Rise After Bullish Market Pause; Palantir, Netflix, Oracle Right At Buy Points",
-        "url": "https://finance.yahoo.com/m/07ae7026-7db3-382d-bb9d-bd9090261e35/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Futures Rise; Applied Digital Soars, Lifts AI Data Center Plays (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/6b741b1b-d782-3b2f-873f-a8520a326ba0/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4222,
+        "weight": 0.7833,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "XRP Struggles to Reclaim $3 as Spot Demand Thins",
-        "url": "https://www.coindesk.com/markets/2025/10/10/xrp-struggles-to-reclaim-usd3-as-spot-demand-thins",
-        "source": "CoinDesk",
-        "weight": 0.9249,
+        "title": "XRP whales dump $50M per day: Will it crash the price?",
+        "url": "https://cointelegraph.com/news/xrp-whales-dump-50m-per-day-will-it-crash-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6922,
+        "score": -1.0
+      },
+      {
+        "title": "French Construction Giants Find Relief Beyond Troubled France",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/french-construction-giants-find-relief-beyond-troubled-france",
+        "source": "Bloomberg Markets",
+        "weight": 0.6276,
         "score": -0.9333
       },
       {
-        "title": "Goldman Analysts Cut Euro Banks to Underweight on Lofty Prices",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-10/goldman-analysts-cut-euro-banks-to-underweight-on-lofty-prices",
+        "title": "Stellantis Union Fears for French Interests During Painful Revamp",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/stellantis-union-fears-for-french-interests-during-painful-revamp",
         "source": "Bloomberg Markets",
-        "weight": 0.7135,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin 'OG' Whale Raises Bearish BTC Bet Worth Over $400M",
-        "url": "https://www.coindesk.com/markets/2025/10/10/bitcoin-og-raises-bearish-btc-bet-worth-over-usd400m",
-        "source": "CoinDesk",
-        "weight": 0.9452,
-        "score": -0.5333
+        "weight": 0.6155,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7289832944176012,
-          "price_change_24h": 0.01507
+          "volume_mcap_ratio": 0.6699683870946976,
+          "price_change_24h": -0.00694
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5176795481463806,
-          "price_change_24h": 1.00922
+          "volume_mcap_ratio": 0.4904785986808204,
+          "price_change_24h": -0.04627
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3900225406823645,
-          "price_change_24h": 34.54696
+          "volume_mcap_ratio": 0.38103655402123304,
+          "price_change_24h": 20.36108
         }
       ],
       "momentum_shifts": []
