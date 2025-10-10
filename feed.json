@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-10T04:28:40.742910+00:00",
+  "updated_at": "2025-10-10T08:32:24.773658+00:00",
   "indicators": {
-    "change24h": -0.017,
-    "vol": 0.07,
+    "change24h": 0.007,
+    "vol": 0.076,
     "fearGreed": 64,
-    "momentum": -0.293,
-    "regime": "bear",
+    "momentum": 0.12,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.587,
-    "global_sentiment": 0.5553,
-    "combined_sentiment": 0.5699,
-    "confidence": 0.7633,
+    "crypto_sentiment": 0.5499,
+    "global_sentiment": 0.4419,
+    "combined_sentiment": 0.5326,
+    "confidence": 0.7571,
     "counts": {
-      "crypto": 67,
-      "global": 39
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 121296,
-      "btc_change_24h": -0.75,
-      "eth_price": 4349.64,
-      "eth_change_24h": -2.37,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 121345,
+      "btc_change_24h": 0.09,
+      "eth_price": 4337.19,
+      "eth_change_24h": -0.37,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 64,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 296713906159,
+        "volume_24h": 296453044631,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.06,
+        "btc_dominance": 57.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-26T16:30:49.903929+00:00",
-      "crypto": 0.5135,
-      "global": 0.549,
-      "combined": 0.5142,
-      "counts": {
-        "crypto": 57,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-26T19:53:43.937972+00:00",
       "crypto": 0.4519,
@@ -1008,22 +998,25 @@
         "crypto": 67,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-10T08:32:24.773658+00:00",
+      "crypto": 0.5499,
+      "global": 0.4419,
+      "combined": 0.5326,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures Rise After Bullish Market Pause; Palantir, Netflix, Oracle Right At Buy Points",
-        "url": "https://finance.yahoo.com/m/07ae7026-7db3-382d-bb9d-bd9090261e35/dow-jones-futures-rise-after.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.675,
-        "score": 0.8667
-      },
-      {
-        "title": "Fast Retailing Gains on Strong Uniqlo Growth Despite US Tariffs",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-10/fast-retailing-gains-on-strong-uniqlo-growth-despite-us-tariffs",
-        "source": "Bloomberg Markets",
-        "weight": 0.5045,
+        "title": "Monero Releases Privacy Boost Against Sneaky Network Nodes",
+        "url": "https://www.coindesk.com/tech/2025/10/10/monero-releases-privacy-boost-against-sneaky-network-nodes",
+        "source": "CoinDesk",
+        "weight": 0.7347,
         "score": 1.0
       },
       {
@@ -1032,47 +1025,54 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Dow Jones Futures Rise After Bullish Market Pause; Palantir, Netflix, Oracle Right At Buy Points",
+        "url": "https://finance.yahoo.com/m/07ae7026-7db3-382d-bb9d-bd9090261e35/dow-jones-futures-rise-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4222,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "SARB Governor Kganyago on Bond Yield, Rand, Gold Prices",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-10/sarb-governor-kganyago-on-bond-yield-rand-gold-prices",
-        "source": "Bloomberg Markets",
-        "weight": 0.7604,
-        "score": -0.6667
+        "title": "XRP Struggles to Reclaim $3 as Spot Demand Thins",
+        "url": "https://www.coindesk.com/markets/2025/10/10/xrp-struggles-to-reclaim-usd3-as-spot-demand-thins",
+        "source": "CoinDesk",
+        "weight": 0.9249,
+        "score": -0.9333
       },
       {
-        "title": "China blacklists major chip research firm TechInsights following report on Huawei",
-        "url": "https://www.cnbc.com/2025/10/10/china-blacklists-major-chip-ai-research-firm-techinsights-analyzed-report-huawei.html",
-        "source": "CNBC Markets",
-        "weight": 0.7967,
-        "score": -0.3333
+        "title": "Goldman Analysts Cut Euro Banks to Underweight on Lofty Prices",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-10/goldman-analysts-cut-euro-banks-to-underweight-on-lofty-prices",
+        "source": "Bloomberg Markets",
+        "weight": 0.7135,
+        "score": -0.9667
       },
       {
-        "title": "NBA Games Return to China For First Time in Six Years",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-10/nba-games-return-to-china-for-first-time-in-six-years-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7947,
-        "score": -0.3333
+        "title": "Bitcoin 'OG' Whale Raises Bearish BTC Bet Worth Over $400M",
+        "url": "https://www.coindesk.com/markets/2025/10/10/bitcoin-og-raises-bearish-btc-bet-worth-over-usd400m",
+        "source": "CoinDesk",
+        "weight": 0.9452,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7289036125326225,
-          "price_change_24h": 0.01791
+          "volume_mcap_ratio": 0.7289832944176012,
+          "price_change_24h": 0.01507
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.518230257215298,
-          "price_change_24h": -0.03391
+          "volume_mcap_ratio": 0.5176795481463806,
+          "price_change_24h": 1.00922
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3142410448564419,
-          "price_change_24h": 35.79896
+          "volume_mcap_ratio": 0.3900225406823645,
+          "price_change_24h": 34.54696
         }
       ],
       "momentum_shifts": []
