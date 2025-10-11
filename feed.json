@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-11T12:44:22.265499+00:00",
+  "updated_at": "2025-10-11T16:26:34.564961+00:00",
   "indicators": {
-    "change24h": -0.208,
-    "vol": 0.453,
+    "change24h": -0.15,
+    "vol": 0.363,
     "fearGreed": 27,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2786,
-    "global_sentiment": 0.3499,
-    "combined_sentiment": 0.3214,
-    "confidence": 0.7132,
+    "crypto_sentiment": 0.2495,
+    "global_sentiment": 0.4796,
+    "combined_sentiment": 0.3104,
+    "confidence": 0.7035,
     "counts": {
-      "crypto": 76,
-      "global": 36
+      "crypto": 77,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 112387,
-      "btc_change_24h": -7.5,
-      "eth_price": 3827.65,
-      "eth_change_24h": -11.82,
+      "btc_price": 112038,
+      "btc_change_24h": -5.71,
+      "eth_price": 3845.81,
+      "eth_change_24h": -6.43,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "high",
-        "volume_24h": 858628851110,
-        "high_activity_coins": 16
+        "volume_24h": 782944552775,
+        "high_activity_coins": 15
       },
       "dominance": {
-        "btc_dominance": 58.03,
+        "btc_dominance": 57.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-27T20:24:07.389829+00:00",
-      "crypto": 0.3422,
-      "global": 0.4172,
-      "combined": 0.3748,
-      "counts": {
-        "crypto": 63,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-09-28T02:02:17.657918+00:00",
       "crypto": 0.3224,
@@ -1008,71 +998,81 @@
         "crypto": 76,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-10-11T16:26:34.564961+00:00",
+      "crypto": 0.2495,
+      "global": 0.4796,
+      "combined": 0.3104,
+      "counts": {
+        "crypto": 77,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold-Backed Tokens Hold Firm in $19B Crypto Rout, But Rally May Be Near Exhaustion",
-        "url": "https://www.coindesk.com/markets/2025/10/11/gold-backed-tokens-hold-firm-in-usd19b-crypto-rout-but-rally-may-be-near-exhaustion",
-        "source": "CoinDesk",
-        "weight": 0.8768,
+        "title": "Tariffs and AI Spending in Focus as Traders Brace For Earnings",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-11/tariffs-and-ai-spending-in-focus-as-traders-brace-for-earnings",
+        "source": "Bloomberg Markets",
+        "weight": 0.5375,
+        "score": 0.8667
+      },
+      {
+        "title": "Corporate Debt Is Benefiting as US Looks More Like an Emerging Market: Credit Weekly",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-11/us-looks-more-like-an-emerging-market-and-credit-can-benefit",
+        "source": "Bloomberg Markets",
+        "weight": 0.6807,
         "score": 0.5333
       },
       {
-        "title": "Rachel Reeves Looks to Boost Fiscal Buffer at Crunch UK Budget",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-11/rachel-reeves-looks-to-boost-fiscal-buffer-at-crunch-uk-budget",
-        "source": "Bloomberg Markets",
-        "weight": 0.5764,
-        "score": 0.3333
-      },
-      {
-        "title": "Can Bitcoin really reach $150K, what would it take?",
-        "url": "https://cryptoslate.com/can-bitcoin-really-reach-150k-what-would-it-take/",
-        "source": "CryptoSlate",
-        "weight": 0.1114,
-        "score": 1.0
+        "title": "Gold-Backed Tokens Hold Firm in $19B Crypto Rout, but Rally May Be Near Exhaustion",
+        "url": "https://www.coindesk.com/markets/2025/10/11/gold-backed-tokens-hold-firm-in-usd19b-crypto-rout-but-rally-may-be-near-exhaustion",
+        "source": "CoinDesk",
+        "weight": 0.5716,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "$9.4B in liquidations over 24 Hours triggers ‘2021 type situation for altcoins’",
-        "url": "https://cryptoslate.com/9-4b-in-liquidations-over-24-hours-triggers-2021-type-situation-for-altcoins/",
-        "source": "CryptoSlate",
-        "weight": 0.7319,
+        "title": "Three Bitcoin charts to watch after BTC price’s flash crash to $103K",
+        "url": "https://cointelegraph.com/news/three-bitcoin-charts-to-watch-after-btc-price-s-flash-crash-to-103k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6264,
         "score": -0.9667
       },
       {
-        "title": "XRP Crashes 40%, Before Recovering, in Biggest One-Day Drop",
-        "url": "https://www.coindesk.com/markets/2025/10/11/xrp-crashes-40-before-recovering-in-biggest-one-day-drop",
+        "title": "DOGE Suffers 50% Flash Crash Before Stabilizing Near $0.19",
+        "url": "https://www.coindesk.com/markets/2025/10/11/doge-suffers-50-flash-crash-before-stabilizing-near-usd0-19",
         "source": "CoinDesk",
-        "weight": 0.5226,
-        "score": -0.9667
+        "weight": 0.8343,
+        "score": -0.6333
       },
       {
-        "title": "Fear & Greed 27 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Crypto.com CEO calls for probe into exchanges after $20B liquidations",
+        "url": "https://cointelegraph.com/news/crypto-com-ceo-regulatory-probe-exchanges-20b-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.545,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 2.0759400782078843,
-          "price_change_24h": 0.08354
-        },
-        {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.6845709334035952,
-          "price_change_24h": -23.55394
+          "volume_mcap_ratio": 1.9423010840844963,
+          "price_change_24h": 0.10381
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6629724197658452,
-          "price_change_24h": 0.03448
+          "volume_mcap_ratio": 0.6687512774844125,
+          "price_change_24h": -0.0386
+        },
+        {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.6571903287347084,
+          "price_change_24h": -19.2713
         }
       ],
       "momentum_shifts": []
