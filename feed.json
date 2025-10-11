@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-11T04:27:25.643888+00:00",
+  "updated_at": "2025-10-11T08:28:20.661621+00:00",
   "indicators": {
-    "change24h": -0.213,
-    "vol": 0.459,
+    "change24h": -0.202,
+    "vol": 0.416,
     "fearGreed": 27,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3175,
-    "global_sentiment": 0.3519,
-    "combined_sentiment": 0.3508,
-    "confidence": 0.7694,
+    "crypto_sentiment": 0.2654,
+    "global_sentiment": 0.353,
+    "combined_sentiment": 0.3118,
+    "confidence": 0.7403,
     "counts": {
-      "crypto": 73,
-      "global": 37
+      "crypto": 74,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 112341,
-      "btc_change_24h": -7.38,
-      "eth_price": 3807.61,
-      "eth_change_24h": -12.47,
+      "btc_price": 111048,
+      "btc_change_24h": -8.47,
+      "eth_price": 3807.98,
+      "eth_change_24h": -12.14,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "high",
-        "volume_24h": 777863896891,
-        "high_activity_coins": 13
+        "volume_24h": 819717899997,
+        "high_activity_coins": 16
       },
       "dominance": {
-        "btc_dominance": 58.13,
+        "btc_dominance": 57.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-27T16:26:59.711584+00:00",
-      "crypto": 0.3696,
-      "global": 0.5177,
-      "combined": 0.4037,
-      "counts": {
-        "crypto": 66,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-27T19:53:47.151614+00:00",
       "crypto": 0.3513,
@@ -1008,6 +998,16 @@
         "crypto": 73,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-11T08:28:20.661621+00:00",
+      "crypto": 0.2654,
+      "global": 0.353,
+      "combined": 0.3118,
+      "counts": {
+        "crypto": 74,
+        "global": 35
+      }
     }
   ],
   "drivers": {
@@ -1016,63 +1016,63 @@
         "title": "Can Bitcoin really reach $150K, what would it take?",
         "url": "https://cryptoslate.com/can-bitcoin-really-reach-150k-what-would-it-take/",
         "source": "CryptoSlate",
-        "weight": 0.29,
+        "weight": 0.1824,
         "score": 1.0
       },
       {
         "title": "Abnormal Polymarket bets on potential Nobel Prize winner cause Norway to launch probe",
         "url": "https://cryptoslate.com/abnormal-polymarket-bets-on-potential-nobel-prize-winner-cause-norway-to-launch-probe/",
         "source": "CryptoSlate",
-        "weight": 0.328,
+        "weight": 0.2063,
         "score": 0.8
       },
       {
         "title": "Travel Software Firm Navan, Holders Seek $960 Million in US IPO",
         "url": "https://www.bloomberg.com/news/articles/2025-10-10/travel-software-firm-navan-holders-seek-960-million-in-us-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.3437,
+        "weight": 0.2161,
         "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "If the debasement trade would catapult Bitcoin, why is the market down?",
-        "url": "https://cryptoslate.com/if-the-debasement-trade-would-catapult-bitcoin-why-is-the-market-down/",
-        "source": "CryptoSlate",
-        "weight": 0.5183,
-        "score": -0.9333
-      },
-      {
-        "title": "Bitcoin’s Flash Crash Sees $7B Crypto Liquidation as Trump Ramps Up China Trade War",
-        "url": "https://www.coindesk.com/markets/2025/10/10/bitcoin-crashes-below-usd110k-cryptos-in-freefall-on-further-trump-tariff-on-china",
+        "title": "XRP Crashes 40%, Before Recovering, in Biggest One-Day Drop",
+        "url": "https://www.coindesk.com/markets/2025/10/11/xrp-crashes-40-before-recovering-in-biggest-one-day-drop",
         "source": "CoinDesk",
-        "weight": 0.4666,
+        "weight": 0.8555,
         "score": -0.9667
       },
       {
-        "title": "First Brands’ Elusive CEO Weighs Stepping Down as Pain Grows",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-11/first-brands-elusive-ceo-weighs-stepping-down-as-fallout-builds",
-        "source": "Bloomberg Markets",
-        "weight": 0.6423,
-        "score": -0.6667
+        "title": "Crypto sentiment flips to ‘Fear’ as Bitcoin plunges after Trump’s tariffs",
+        "url": "https://cointelegraph.com/news/crypto-fear-greed-index-plunges-bitcoin-price-decline-trump-tariffs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.563,
+        "score": -0.9667
+      },
+      {
+        "title": "Fear & Greed 27 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.8334424287009619,
-          "price_change_24h": 0.12002
+          "volume_mcap_ratio": 1.962041532711203,
+          "price_change_24h": 0.09749
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.6495398892809765,
-          "price_change_24h": 0.0139
+          "volume_mcap_ratio": 0.656613369059879,
+          "price_change_24h": 0.00394
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6473690295760541,
-          "price_change_24h": 0.04389
+          "volume_mcap_ratio": 0.6507040532108928,
+          "price_change_24h": 0.13498
         }
       ],
       "momentum_shifts": []
