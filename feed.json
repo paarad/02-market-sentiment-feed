@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-12T04:27:31.865938+00:00",
+  "updated_at": "2025-10-12T08:28:42.636855+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.097,
+    "change24h": -0.012,
+    "vol": 0.148,
     "fearGreed": 24,
-    "momentum": -0.393,
+    "momentum": -0.213,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2228,
-    "global_sentiment": 0.269,
-    "combined_sentiment": 0.2729,
-    "confidence": 0.6282,
+    "crypto_sentiment": 0.216,
+    "global_sentiment": 0.2667,
+    "combined_sentiment": 0.2676,
+    "confidence": 0.5834,
     "counts": {
       "crypto": 76,
-      "global": 30
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 111263,
-      "btc_change_24h": -0.98,
-      "eth_price": 3819.66,
-      "eth_change_24h": 0.31,
+      "btc_price": 111853,
+      "btc_change_24h": 0.77,
+      "eth_price": 3845.17,
+      "eth_change_24h": 1.17,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 384055443225,
-        "high_activity_coins": 4
+        "volume_24h": 325577596273,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.04,
+        "btc_dominance": 57.92,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-28T16:26:04.418076+00:00",
-      "crypto": 0.526,
-      "global": 0.5288,
-      "combined": 0.5219,
-      "counts": {
-        "crypto": 59,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-09-28T19:53:28.376265+00:00",
       "crypto": 0.501,
@@ -1008,6 +998,16 @@
         "crypto": 76,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-10-12T08:28:42.636855+00:00",
+      "crypto": 0.216,
+      "global": 0.2667,
+      "combined": 0.2676,
+      "counts": {
+        "crypto": 76,
+        "global": 29
+      }
     }
   ],
   "drivers": {
@@ -1016,32 +1016,25 @@
         "title": "Tariffs and AI Spending in Focus as Traders Brace for Earnings",
         "url": "https://www.bloomberg.com/news/articles/2025-10-11/tariffs-and-ai-spending-in-focus-as-traders-brace-for-earnings",
         "source": "Bloomberg Markets",
-        "weight": 0.1341,
+        "weight": 0.0843,
         "score": 0.8667
       },
       {
         "title": "Corporate Debt Is Benefiting as US Looks More Like an Emerging Market: Credit Weekly",
         "url": "https://www.bloomberg.com/news/articles/2025-10-11/us-looks-more-like-an-emerging-market-and-credit-can-benefit",
         "source": "Bloomberg Markets",
-        "weight": 0.1699,
+        "weight": 0.1068,
         "score": 0.5333
       },
       {
         "title": "Bitcoin’s On-Chain Strength Sets Stage for Fourth-Quarter Gains, Says Cathie Wood's ARK Invest",
         "url": "https://www.coindesk.com/markets/2025/10/11/bitcoin-s-on-chain-strength-sets-stage-for-fourth-quarter-gains-says-cathie-wood-s-ark-invest",
         "source": "CoinDesk",
-        "weight": 0.2312,
+        "weight": 0.1453,
         "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Weekly Market Wrap: Pepsi, Tilray and Nvidia",
-        "url": "https://www.thestreet.com/markets/weekly-market-wrap-pepsi-tilray-and-nvidia?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5066,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 24 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,29 +1043,36 @@
         "score": -0.5333
       },
       {
-        "title": "Market crash 'does not have long-term fundamental implications' — Analyst",
-        "url": "https://cointelegraph.com/news/market-crash-no-long-term-fundamental-implications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "'Very high chance' this is the start of the crypto bull market: Trader",
+        "url": "https://cointelegraph.com/news/crypto-market-bull-run-start-trader-forecasts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.37,
-        "score": -0.9667
+        "weight": 0.5588,
+        "score": -0.6333
+      },
+      {
+        "title": "Weekly Market Wrap: Pepsi, Tilray and Nvidia",
+        "url": "https://www.thestreet.com/markets/weekly-market-wrap-pepsi-tilray-and-nvidia?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3184,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9274393195151746,
-          "price_change_24h": -0.01693
+          "volume_mcap_ratio": 0.7909623394088763,
+          "price_change_24h": 0.00587
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.45531715087969027,
-          "price_change_24h": -0.14196
+          "volume_mcap_ratio": 0.5236891276752198,
+          "price_change_24h": 0.13866
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3545626587071327,
-          "price_change_24h": 22.69595
+          "volume_mcap_ratio": 0.31666061936841206,
+          "price_change_24h": 6.16038
         }
       ],
       "momentum_shifts": []
