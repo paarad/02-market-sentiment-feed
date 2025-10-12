@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-11T20:23:23.307769+00:00",
+  "updated_at": "2025-10-12T01:57:01.464935+00:00",
   "indicators": {
-    "change24h": -0.161,
-    "vol": 0.411,
-    "fearGreed": 27,
-    "momentum": -1.0,
+    "change24h": -0.017,
+    "vol": 0.113,
+    "fearGreed": 24,
+    "momentum": -0.305,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2541,
-    "global_sentiment": 0.338,
-    "combined_sentiment": 0.3021,
-    "confidence": 0.7373,
+    "crypto_sentiment": 0.2139,
+    "global_sentiment": 0.2582,
+    "combined_sentiment": 0.2653,
+    "confidence": 0.6519,
     "counts": {
-      "crypto": 78,
-      "global": 29
+      "crypto": 75,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 110859,
-      "btc_change_24h": -5.29,
-      "eth_price": 3737.91,
-      "eth_change_24h": -7.0,
+      "btc_price": 110215,
+      "btc_change_24h": -1.06,
+      "eth_price": 3726.32,
+      "eth_change_24h": -0.58,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 27,
-        "classification": "Fear",
+        "value": 24,
+        "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
-        "level": "high",
-        "volume_24h": 735308512642.0,
-        "high_activity_coins": 14
+        "level": "low",
+        "volume_24h": 416033061732.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 58.16,
+        "btc_dominance": 58.2,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-28T08:27:49.531526+00:00",
-      "crypto": 0.3765,
-      "global": 0.4729,
-      "combined": 0.4051,
-      "counts": {
-        "crypto": 59,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-28T12:45:21.209500+00:00",
       "crypto": 0.5031,
@@ -1008,6 +998,16 @@
         "crypto": 78,
         "global": 29
       }
+    },
+    {
+      "ts": "2025-10-12T01:57:01.464935+00:00",
+      "crypto": 0.2139,
+      "global": 0.2582,
+      "combined": 0.2653,
+      "counts": {
+        "crypto": 75,
+        "global": 30
+      }
     }
   ],
   "drivers": {
@@ -1016,63 +1016,63 @@
         "title": "Tariffs and AI Spending in Focus as Traders Brace for Earnings",
         "url": "https://www.bloomberg.com/news/articles/2025-10-11/tariffs-and-ai-spending-in-focus-as-traders-brace-for-earnings",
         "source": "Bloomberg Markets",
-        "weight": 0.3407,
+        "weight": 0.1792,
         "score": 0.8667
       },
       {
         "title": "Corporate Debt Is Benefiting as US Looks More Like an Emerging Market: Credit Weekly",
         "url": "https://www.bloomberg.com/news/articles/2025-10-11/us-looks-more-like-an-emerging-market-and-credit-can-benefit",
         "source": "Bloomberg Markets",
-        "weight": 0.4314,
+        "weight": 0.227,
         "score": 0.5333
       },
       {
         "title": "Bitcoin’s On-Chain Strength Sets Stage for Fourth-Quarter Gains, Says Cathie Wood's ARK Invest",
         "url": "https://www.coindesk.com/markets/2025/10/11/bitcoin-s-on-chain-strength-sets-stage-for-fourth-quarter-gains-says-cathie-wood-s-ark-invest",
         "source": "CoinDesk",
-        "weight": 0.5873,
+        "weight": 0.3089,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Weekly Market Wrap: Pepsi, Tilray and Nvidia",
+        "url": "https://www.thestreet.com/markets/weekly-market-wrap-pepsi-tilray-and-nvidia?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6768,
+        "score": -1.0
+      },
+      {
+        "title": "Market crash 'does not have long-term fundamental implications' — Analyst",
+        "url": "https://cointelegraph.com/news/market-crash-no-long-term-fundamental-implications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4944,
+        "score": -0.9667
+      },
+      {
         "title": "ETH down 6.7% after crypto ‘Black Monday,’ showing more resilience than alts",
         "url": "https://cointelegraph.com/news/eth-down-6-after-crypto-black-monday-resilience-alts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8909,
+        "weight": 0.4686,
         "score": -0.9667
-      },
-      {
-        "title": "Stock Bubble Dread Grips Central Bankers in Washington",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-11/stock-bubble-dread-grips-central-bankers-in-washington",
-        "source": "Bloomberg Markets",
-        "weight": 0.7648,
-        "score": -0.9667
-      },
-      {
-        "title": "XRP Rebounds Sharply After 41% Flash Crash, Reclaims $2.47 Support",
-        "url": "https://www.coindesk.com/markets/2025/10/11/xrp-rebounds-sharply-after-41-flash-crash-reclaims-usd2-47-support",
-        "source": "CoinDesk",
-        "weight": 0.8043,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.8151330361691882,
-          "price_change_24h": 0.1261
+          "volume_mcap_ratio": 1.0203462272294155,
+          "price_change_24h": -0.05399
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6742006707750973,
-          "price_change_24h": 0.06449
+          "volume_mcap_ratio": 0.5296854584888918,
+          "price_change_24h": -0.19006
         },
         {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.6332273463187614,
-          "price_change_24h": -21.45228
+          "symbol": "ZEC",
+          "volume_mcap_ratio": 0.35866694301195745,
+          "price_change_24h": 24.67756
         }
       ],
       "momentum_shifts": []
