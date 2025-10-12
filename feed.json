@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-12T08:28:42.636855+00:00",
+  "updated_at": "2025-10-12T12:45:26.060569+00:00",
   "indicators": {
-    "change24h": -0.012,
-    "vol": 0.148,
+    "change24h": -0.005,
+    "vol": 0.194,
     "fearGreed": 24,
-    "momentum": -0.213,
+    "momentum": -0.085,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.216,
-    "global_sentiment": 0.2667,
-    "combined_sentiment": 0.2676,
-    "confidence": 0.5834,
+    "crypto_sentiment": 0.3351,
+    "global_sentiment": 0.2904,
+    "combined_sentiment": 0.3588,
+    "confidence": 0.5747,
     "counts": {
-      "crypto": 76,
-      "global": 29
+      "crypto": 73,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 111853,
-      "btc_change_24h": 0.77,
-      "eth_price": 3845.17,
-      "eth_change_24h": 1.17,
+      "btc_price": 111825,
+      "btc_change_24h": -0.46,
+      "eth_price": 3835.22,
+      "eth_change_24h": 0.21,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 325577596273,
-        "high_activity_coins": 3
+        "volume_24h": 302801059910,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.92,
+        "btc_dominance": 57.73,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-28T19:53:28.376265+00:00",
-      "crypto": 0.501,
-      "global": 0.5229,
-      "combined": 0.5027,
-      "counts": {
-        "crypto": 59,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-09-28T20:24:23.347332+00:00",
       "crypto": 0.5335,
@@ -1008,33 +998,50 @@
         "crypto": 76,
         "global": 29
       }
+    },
+    {
+      "ts": "2025-10-12T12:45:26.060569+00:00",
+      "crypto": 0.3351,
+      "global": 0.2904,
+      "combined": 0.3588,
+      "counts": {
+        "crypto": 73,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tariffs and AI Spending in Focus as Traders Brace for Earnings",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-11/tariffs-and-ai-spending-in-focus-as-traders-brace-for-earnings",
-        "source": "Bloomberg Markets",
-        "weight": 0.0843,
-        "score": 0.8667
+        "title": "Bitcoin retests golden cross, a break above could trigger major rally: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-retests-golden-cross-major-rally-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6325,
+        "score": 1.0
       },
       {
-        "title": "Corporate Debt Is Benefiting as US Looks More Like an Emerging Market: Credit Weekly",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-11/us-looks-more-like-an-emerging-market-and-credit-can-benefit",
+        "title": "China’s Markets Under Threat From Risk of Renewed US Trade War",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-12/china-s-markets-under-threat-from-risk-of-renewed-us-trade-war",
         "source": "Bloomberg Markets",
-        "weight": 0.1068,
+        "weight": 0.4787,
         "score": 0.5333
       },
       {
-        "title": "Bitcoin’s On-Chain Strength Sets Stage for Fourth-Quarter Gains, Says Cathie Wood's ARK Invest",
-        "url": "https://www.coindesk.com/markets/2025/10/11/bitcoin-s-on-chain-strength-sets-stage-for-fourth-quarter-gains-says-cathie-wood-s-ark-invest",
-        "source": "CoinDesk",
-        "weight": 0.1453,
-        "score": 0.3333
+        "title": "Tariffs and AI Spending in Focus as Traders Brace for Earnings",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-11/tariffs-and-ai-spending-in-focus-as-traders-brace-for-earnings",
+        "source": "Bloomberg Markets",
+        "weight": 0.0514,
+        "score": 0.8667
       }
     ],
     "negative": [
+      {
+        "title": "Stocks dip as government shutdown continues, rare earths rally: What to watch this week",
+        "url": "https://finance.yahoo.com/news/stocks-dip-as-government-shutdown-continues-rare-earths-rally-what-to-watch-this-week-114600627.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7142,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 24 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,36 +1050,24 @@
         "score": -0.5333
       },
       {
-        "title": "'Very high chance' this is the start of the crypto bull market: Trader",
-        "url": "https://cointelegraph.com/news/crypto-market-bull-run-start-trader-forecasts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5588,
-        "score": -0.6333
-      },
-      {
-        "title": "Weekly Market Wrap: Pepsi, Tilray and Nvidia",
-        "url": "https://www.thestreet.com/markets/weekly-market-wrap-pepsi-tilray-and-nvidia?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3184,
-        "score": -1.0
+        "title": "China defends rare earth export curbs as ‘legitimate,’ hits back at U.S. tariffs as Trump-Xi meeting hangs in balance",
+        "url": "https://www.cnbc.com/2025/10/12/china-defends-rare-earth-export-curbs-as-legitimate-hits-back-at-us-tariffs-ahead-of-possible-trump-xi-meeting.html",
+        "source": "CNBC Markets",
+        "weight": 0.799,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7909623394088763,
-          "price_change_24h": 0.00587
+          "volume_mcap_ratio": 0.7284575237674796,
+          "price_change_24h": -0.05468
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5236891276752198,
-          "price_change_24h": 0.13866
-        },
-        {
-          "symbol": "ZEC",
-          "volume_mcap_ratio": 0.31666061936841206,
-          "price_change_24h": 6.16038
+          "volume_mcap_ratio": 0.5541525492259688,
+          "price_change_24h": -0.07073
         }
       ],
       "momentum_shifts": []
