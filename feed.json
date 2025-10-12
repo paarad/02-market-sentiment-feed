@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-12T12:45:26.060569+00:00",
+  "updated_at": "2025-10-12T16:27:24.662845+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.194,
+    "change24h": 0.072,
+    "vol": 0.229,
     "fearGreed": 24,
-    "momentum": -0.085,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3351,
-    "global_sentiment": 0.2904,
-    "combined_sentiment": 0.3588,
-    "confidence": 0.5747,
+    "crypto_sentiment": 0.4212,
+    "global_sentiment": 0.5629,
+    "combined_sentiment": 0.4462,
+    "confidence": 0.6576,
     "counts": {
       "crypto": 73,
-      "global": 31
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 111825,
-      "btc_change_24h": -0.46,
-      "eth_price": 3835.22,
-      "eth_change_24h": 0.21,
+      "btc_price": 113763,
+      "btc_change_24h": 1.54,
+      "eth_price": 4073.94,
+      "eth_change_24h": 5.94,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 302801059910,
-        "high_activity_coins": 2
+        "volume_24h": 378246182942,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.73,
+        "btc_dominance": 57.19,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-28T20:24:23.347332+00:00",
-      "crypto": 0.5335,
-      "global": 0.4934,
-      "combined": 0.5246,
-      "counts": {
-        "crypto": 58,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-09-29T01:56:07.013304+00:00",
       "crypto": 0.6256,
@@ -1008,38 +998,55 @@
         "crypto": 73,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-10-12T16:27:24.662845+00:00",
+      "crypto": 0.4212,
+      "global": 0.5629,
+      "combined": 0.4462,
+      "counts": {
+        "crypto": 73,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin retests golden cross, a break above could trigger major rally: Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-retests-golden-cross-major-rally-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6325,
-        "score": 1.0
+        "title": "Copper Bulls’ LME Week Party Clouded by Trump’s China Threats",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-12/copper-bulls-lme-week-party-clouded-by-trump-s-china-threats",
+        "source": "Bloomberg Markets",
+        "weight": 0.6593,
+        "score": 0.8667
       },
       {
-        "title": "China’s Markets Under Threat From Risk of Renewed US Trade War",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-12/china-s-markets-under-threat-from-risk-of-renewed-us-trade-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.4787,
+        "title": "Global crypto market cap up 2.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Tariffs and AI Spending in Focus as Traders Brace for Earnings",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-11/tariffs-and-ai-spending-in-focus-as-traders-brace-for-earnings",
-        "source": "Bloomberg Markets",
-        "weight": 0.0514,
-        "score": 0.8667
+        "title": "Bitcoin retests golden cross, a break above could trigger major rally: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-retests-golden-cross-major-rally-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4125,
+        "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Bitmine acquires 128,718 ETH after the crash as institutions buy the dip",
+        "url": "https://cryptoslate.com/bitmine-acquires-128718-eth-after-the-crash-as-institutions-buy-the-dip/",
+        "source": "CryptoSlate",
+        "weight": 0.7616,
+        "score": -0.6333
+      },
+      {
         "title": "Stocks dip as government shutdown continues, rare earths rally: What to watch this week",
         "url": "https://finance.yahoo.com/news/stocks-dip-as-government-shutdown-continues-rare-earths-rally-what-to-watch-this-week-114600627.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7142,
+        "weight": 0.4658,
         "score": -0.9667
       },
       {
@@ -1048,26 +1055,24 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "China defends rare earth export curbs as ‘legitimate,’ hits back at U.S. tariffs as Trump-Xi meeting hangs in balance",
-        "url": "https://www.cnbc.com/2025/10/12/china-defends-rare-earth-export-curbs-as-legitimate-hits-back-at-us-tariffs-ahead-of-possible-trump-xi-meeting.html",
-        "source": "CNBC Markets",
-        "weight": 0.799,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7284575237674796,
-          "price_change_24h": -0.05468
+          "volume_mcap_ratio": 0.8926601235756202,
+          "price_change_24h": -0.0584
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5541525492259688,
-          "price_change_24h": -0.07073
+          "volume_mcap_ratio": 0.6116761559605202,
+          "price_change_24h": -0.20716
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.3211066158432758,
+          "price_change_24h": -0.00993
         }
       ],
       "momentum_shifts": []
