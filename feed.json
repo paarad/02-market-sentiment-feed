@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-12T16:27:24.662845+00:00",
+  "updated_at": "2025-10-12T19:53:38.237635+00:00",
   "indicators": {
-    "change24h": 0.072,
-    "vol": 0.229,
+    "change24h": 0.136,
+    "vol": 0.341,
     "fearGreed": 24,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4212,
-    "global_sentiment": 0.5629,
-    "combined_sentiment": 0.4462,
-    "confidence": 0.6576,
+    "crypto_sentiment": 0.3419,
+    "global_sentiment": 0.6002,
+    "combined_sentiment": 0.3898,
+    "confidence": 0.671,
     "counts": {
-      "crypto": 73,
+      "crypto": 72,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 113763,
-      "btc_change_24h": 1.54,
-      "eth_price": 4073.94,
-      "eth_change_24h": 5.94,
+      "btc_price": 114330,
+      "btc_change_24h": 2.91,
+      "eth_price": 4137.1,
+      "eth_change_24h": 10.39,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.8,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 378246182942,
-        "high_activity_coins": 3
+        "volume_24h": 402505618637,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.19,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-29T01:56:07.013304+00:00",
-      "crypto": 0.6256,
-      "global": 0.45,
-      "combined": 0.59,
-      "counts": {
-        "crypto": 56,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-09-29T04:29:38.511008+00:00",
       "crypto": 0.5692,
@@ -1008,46 +998,56 @@
         "crypto": 73,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-10-12T19:53:38.237635+00:00",
+      "crypto": 0.3419,
+      "global": 0.6002,
+      "combined": 0.3898,
+      "counts": {
+        "crypto": 72,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Copper Bulls’ LME Week Party Clouded by Trump’s China Threats",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-12/copper-bulls-lme-week-party-clouded-by-trump-s-china-threats",
-        "source": "Bloomberg Markets",
-        "weight": 0.6593,
-        "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 2.9% — rally",
+        "title": "Global crypto market cap up 4.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
+        "title": "Copper Bulls’ LME Week Party Clouded by Trump’s China Threats",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-12/copper-bulls-lme-week-party-clouded-by-trump-s-china-threats",
+        "source": "Bloomberg Markets",
+        "weight": 0.4432,
+        "score": 0.8667
+      },
+      {
         "title": "Bitcoin retests golden cross, a break above could trigger major rally: Analyst",
         "url": "https://cointelegraph.com/news/bitcoin-retests-golden-cross-major-rally-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4125,
+        "weight": 0.2773,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Bitmine acquires 128,718 ETH after the crash as institutions buy the dip",
-        "url": "https://cryptoslate.com/bitmine-acquires-128718-eth-after-the-crash-as-institutions-buy-the-dip/",
-        "source": "CryptoSlate",
-        "weight": 0.7616,
+        "title": "Altcoins Cratered in Oct. 10 Crypto Flash Crash as Bitcoin Held Up, Wiston Capital Says",
+        "url": "https://www.coindesk.com/markets/2025/10/12/altcoins-cratered-in-oct-10-crypto-flash-crash-as-bitcoin-held-up-wiston-capital-says",
+        "source": "CoinDesk",
+        "weight": 0.7652,
         "score": -0.6333
       },
       {
-        "title": "Stocks dip as government shutdown continues, rare earths rally: What to watch this week",
-        "url": "https://finance.yahoo.com/news/stocks-dip-as-government-shutdown-continues-rare-earths-rally-what-to-watch-this-week-114600627.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4658,
-        "score": -0.9667
+        "title": "Binance to Compensate Users Affected by Crash in wBETH, BNSOL, and Ethena’s USDe",
+        "url": "https://www.coindesk.com/markets/2025/10/12/binance-to-compensate-users-affected-by-crash-in-wbeth-bnsol-and-ethena-s-usde",
+        "source": "CoinDesk",
+        "weight": 0.7338,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 24 (Fear) — bearish",
@@ -1061,18 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8926601235756202,
-          "price_change_24h": -0.0584
+          "volume_mcap_ratio": 0.9586638441350276,
+          "price_change_24h": -0.07447
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.6116761559605202,
-          "price_change_24h": -0.20716
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.3211066158432758,
-          "price_change_24h": -0.00993
+          "volume_mcap_ratio": 0.5776465944756758,
+          "price_change_24h": -0.11097
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-12",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.2918,
+      "crypto_high": 0.4212,
+      "crypto_low": 0.2139,
+      "global_avg": 0.3746,
+      "global_high": 0.6002,
+      "global_low": 0.2582,
+      "combined_avg": 0.3334,
+      "combined_high": 0.4462,
+      "combined_low": 0.2653
+    },
+    "market_indicators_24h": {
+      "change24h": 0.136,
+      "vol": 0.341,
+      "fearGreed": 24,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-12T19:53:38.237635+00:00"
   }
 }
