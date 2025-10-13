@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-13T19:53:46.385142+00:00",
+  "updated_at": "2025-10-13T20:27:00.751026+00:00",
   "indicators": {
-    "change24h": 0.044,
-    "vol": 0.133,
+    "change24h": 0.041,
+    "vol": 0.128,
     "fearGreed": 38,
-    "momentum": 0.773,
+    "momentum": 0.715,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3813,
-    "global_sentiment": 0.5321,
-    "combined_sentiment": 0.4137,
-    "confidence": 0.8062,
+    "crypto_sentiment": 0.335,
+    "global_sentiment": 0.4231,
+    "combined_sentiment": 0.3698,
+    "confidence": 0.7971,
     "counts": {
-      "crypto": 70,
-      "global": 46
+      "crypto": 69,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 115916,
-      "btc_change_24h": 1.32,
-      "eth_price": 4270.42,
-      "eth_change_24h": 3.16,
+      "btc_price": 115747,
+      "btc_change_24h": 0.73,
+      "eth_price": 4254.97,
+      "eth_change_24h": 2.79,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 379407209052,
-        "high_activity_coins": 2
+        "volume_24h": 385960914323,
+        "high_activity_coins": 3
       },
       "dominance": {
         "btc_dominance": 56.82,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-30T04:29:05.292495+00:00",
-      "crypto": 0.4999,
-      "global": 0.475,
-      "combined": 0.4978,
-      "counts": {
-        "crypto": 64,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-09-30T08:34:47.087541+00:00",
       "crypto": 0.4683,
@@ -1008,66 +998,81 @@
         "crypto": 70,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-10-13T20:27:00.751026+00:00",
+      "crypto": 0.335,
+      "global": 0.4231,
+      "combined": 0.3698,
+      "counts": {
+        "crypto": 69,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Powers Nearly 600 Points; Silver, Gold Names Glimmer (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/b8ad10b1-3b85-3798-81c0-499610e8c927/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "MP Materials Stock Soars. How Trump and China Are Driving Rare Earth Shares Higher.",
+        "url": "https://finance.yahoo.com/m/13487421-ed13-33b5-9a47-362954a96ff8/mp-materials-stock-soars.-how.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7931,
-        "score": 0.8667
+        "weight": 0.6937,
+        "score": 1.0
       },
       {
         "title": "Gold Could Hit $5,000, Strategist Says. Why Others Are Worried About a Crash.",
         "url": "https://finance.yahoo.com/m/a384eda4-1252-3141-8962-f6f009618d5f/gold-could-hit-%245%2C000%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6704,
+        "weight": 0.6714,
         "score": 1.0
       },
       {
-        "title": "Why BJ's (BJRI) Stock Is Up Today",
-        "url": "https://finance.yahoo.com/news/why-bjs-bjri-stock-today-180553671.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Powers Nearly 600 Points; Silver, Gold Names Glimmer (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/b8ad10b1-3b85-3798-81c0-499610e8c927/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6499,
+        "weight": 0.7439,
         "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Binance airdrops $45M in BNB to memecoin traders hit by market crash",
+        "url": "https://cointelegraph.com/news/binance-45m-reload-airdrop-memecoin-traders-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9239,
+        "score": -0.9667
+      },
+      {
+        "title": "Fastenal Falls as Soft Pricing Overshadows Results",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-13/fastenal-falls-as-soft-pricing-overshadows-results-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7898,
+        "score": -0.9667
+      },
+      {
         "title": "Trump Aims to Seize Momentum on Gaza Peace at Leaders Summit",
         "url": "https://www.bloomberg.com/news/videos/2025-10-13/trump-aims-to-seize-momentum-on-gaza-peace-at-summit-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6637,
+        "weight": 0.6225,
         "score": -0.9667
-      },
-      {
-        "title": "Goldman Sachs and BofA Lead €1.215 Billion Verisure Loan After IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-13/goldman-sachs-bofa-lead-1-215-billion-verisure-loan-after-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.6521,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin’s Fragile Rebound Follows $20 Billion Leverage Wipeout",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-13/bitcoin-s-fragile-rebound-follows-20-billion-leverage-wipeout",
-        "source": "Bloomberg Markets",
-        "weight": 0.7104,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9284339802562287,
-          "price_change_24h": 0.01924
+          "volume_mcap_ratio": 0.9226520980653576,
+          "price_change_24h": 0.00914
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5780817995412961,
-          "price_change_24h": 0.06134
+          "volume_mcap_ratio": 0.5460663493357409,
+          "price_change_24h": 0.07489
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.342669699034114,
+          "price_change_24h": 0.00674
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-13",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3342,
-      "crypto_high": 0.4229,
-      "crypto_low": 0.2363,
-      "global_avg": 0.4764,
-      "global_high": 0.5321,
-      "global_low": 0.408,
-      "combined_avg": 0.3737,
-      "combined_high": 0.4413,
-      "combined_low": 0.3003
-    },
-    "market_indicators_24h": {
-      "change24h": 0.044,
-      "vol": 0.133,
-      "fearGreed": 38,
-      "momentum": 0.773,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-13T19:53:46.385142+00:00"
   }
 }
