@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-14T19:53:34.005572+00:00",
+  "updated_at": "2025-10-14T20:27:13.105159+00:00",
   "indicators": {
-    "change24h": -0.07,
-    "vol": 0.155,
+    "change24h": -0.059,
+    "vol": 0.135,
     "fearGreed": 38,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3554,
-    "global_sentiment": 0.4167,
-    "combined_sentiment": 0.3846,
-    "confidence": 0.8328,
+    "crypto_sentiment": 0.3462,
+    "global_sentiment": 0.4431,
+    "combined_sentiment": 0.3799,
+    "confidence": 0.8345,
     "counts": {
-      "crypto": 68,
-      "global": 41
+      "crypto": 69,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 112658,
-      "btc_change_24h": -2.83,
-      "eth_price": 4101.63,
-      "eth_change_24h": -3.84,
+      "btc_price": 112880,
+      "btc_change_24h": -2.36,
+      "eth_price": 4110.73,
+      "eth_change_24h": -3.33,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.1,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 407302730253,
-        "high_activity_coins": 2
+        "volume_24h": 419269243924,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.02,
+        "btc_dominance": 56.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-01T04:29:22.578254+00:00",
-      "crypto": 0.3523,
-      "global": 0.4019,
-      "combined": 0.3811,
-      "counts": {
-        "crypto": 54,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-10-01T08:33:00.540713+00:00",
       "crypto": 0.3715,
@@ -1008,29 +998,39 @@
         "crypto": 68,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-10-14T20:27:13.105159+00:00",
+      "crypto": 0.3462,
+      "global": 0.4431,
+      "combined": 0.3799,
+      "counts": {
+        "crypto": 69,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Walmart (WMT) Stock Is Up, What You Need To Know",
-        "url": "https://finance.yahoo.com/news/walmart-wmt-stock-know-170542601.html?.tsrc=rss",
+        "title": "WORK Medical Technology Group LTD Announces Receipt of Delisting Determination Letter from Nasdaq",
+        "url": "https://finance.yahoo.com/news/medical-technology-group-ltd-announces-201000974.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5791,
-        "score": 0.9167
+        "weight": 0.7739,
+        "score": 0.6333
       },
       {
-        "title": "Ontario Targets GOP With Anti-Tariff Ad Using Old Reagan Speech",
+        "title": "Ontario Targets GOP With Anti-Tariff Ad Using Reagan Speech",
         "url": "https://www.bloomberg.com/news/articles/2025-10-14/ontario-targets-gop-with-anti-tariff-ad-using-old-reagan-speech",
         "source": "Bloomberg Markets",
-        "weight": 0.7287,
+        "weight": 0.683,
         "score": 0.6667
       },
       {
         "title": "BlackRock sees record quarter for iShares ETFs as Bitcoin, Ether demand surges",
         "url": "https://cointelegraph.com/news/blackrock-etfs-record-inflows-institutional-bitcoin-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5533,
+        "weight": 0.5186,
         "score": 0.8667
       }
     ],
@@ -1039,35 +1039,40 @@
         "title": "Tether settles Celsius claims for $300M, raising stablecoin liability concerns",
         "url": "https://cointelegraph.com/news/tether-celsius-299m-settlement-stablecoin-liability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7348,
+        "weight": 0.6887,
         "score": -1.0
       },
       {
         "title": "Binance Increases Compensation for Customers Liquidated in Crypto Selloff",
         "url": "https://www.bloomberg.com/news/articles/2025-10-14/binance-increases-compensation-for-customers-liquidated-in-crypto-selloff",
         "source": "Bloomberg Markets",
-        "weight": 0.6786,
+        "weight": 0.636,
         "score": -0.9667
       },
       {
-        "title": "Jamie Dimon says auto company bankruptcies reveal 'early signs' of excess in corporate lending",
-        "url": "https://www.cnbc.com/2025/10/14/jamie-dimon-auto-bankruptcies-lending-excess.html",
-        "source": "CNBC Markets",
-        "weight": 0.4848,
-        "score": -1.0
+        "title": "Celsius Wind-down Secures $300M From Tether, Say GXD Labs, VanEck",
+        "url": "https://www.coindesk.com/policy/2025/10/14/celsius-wind-down-secures-usd300m-from-tether-say-gxd-labs-vaneck",
+        "source": "CoinDesk",
+        "weight": 0.8548,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9785632989288335,
-          "price_change_24h": -0.04304
+          "volume_mcap_ratio": 0.9842341507866222,
+          "price_change_24h": -0.04674
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.542792911670192,
-          "price_change_24h": 0.09782
+          "volume_mcap_ratio": 0.4782831125014204,
+          "price_change_24h": -0.04951
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.3634014294393661,
+          "price_change_24h": 0.00045
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-14",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3746,
-      "crypto_high": 0.4169,
-      "crypto_low": 0.3526,
-      "global_avg": 0.4755,
-      "global_high": 0.588,
-      "global_low": 0.4167,
-      "combined_avg": 0.4039,
-      "combined_high": 0.4341,
-      "combined_low": 0.3846
-    },
-    "market_indicators_24h": {
-      "change24h": -0.07,
-      "vol": 0.155,
-      "fearGreed": 38,
-      "momentum": -1.0,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-14T19:53:34.005572+00:00"
   }
 }
