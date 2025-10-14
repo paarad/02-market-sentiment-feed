@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-14T12:54:46.303412+00:00",
+  "updated_at": "2025-10-14T16:31:25.913829+00:00",
   "indicators": {
-    "change24h": -0.068,
-    "vol": 0.188,
+    "change24h": -0.02,
+    "vol": 0.114,
     "fearGreed": 38,
-    "momentum": -1.0,
+    "momentum": -0.356,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3825,
-    "global_sentiment": 0.588,
-    "combined_sentiment": 0.4192,
-    "confidence": 0.8183,
+    "crypto_sentiment": 0.3871,
+    "global_sentiment": 0.4228,
+    "combined_sentiment": 0.4089,
+    "confidence": 0.8218,
     "counts": {
-      "crypto": 66,
-      "global": 35
+      "crypto": 65,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 111086,
-      "btc_change_24h": -3.01,
-      "eth_price": 3953.63,
-      "eth_change_24h": -3.66,
+      "btc_price": 112845,
+      "btc_change_24h": -1.65,
+      "eth_price": 4135.92,
+      "eth_change_24h": -0.61,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 38,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 362429016467,
-        "high_activity_coins": 3
+        "volume_24h": 385690840735,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.34,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-30T20:26:49.025070+00:00",
-      "crypto": 0.433,
-      "global": 0.4711,
-      "combined": 0.4473,
-      "counts": {
-        "crypto": 48,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-10-01T02:03:41.030927+00:00",
       "crypto": 0.3919,
@@ -1008,71 +998,76 @@
         "crypto": 66,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-10-14T16:31:25.913829+00:00",
+      "crypto": 0.3871,
+      "global": 0.4228,
+      "combined": 0.4089,
+      "counts": {
+        "crypto": 65,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ECD Automotive Design Announces Satisfaction of Nasdaq Bid Price Condition",
-        "url": "https://finance.yahoo.com/news/ecd-automotive-design-announces-satisfaction-120500539.html?.tsrc=rss",
+        "title": "SCWorx Granted 180-Day Extension to Meet Nasdaq Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/news/scworx-granted-180-day-extension-141500639.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7269,
+        "weight": 0.6152,
         "score": 0.9667
       },
       {
-        "title": "Bahoshy: Mideast Venture Appetite Returning",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-14/bahoshy-mideast-venture-appetite-returning-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7018,
-        "score": 1.0
+        "title": "The AI boom is lifting the stock market, but it may be masking a weaker economy",
+        "url": "https://www.cnbc.com/2025/10/14/ai-infrastructure-boom-masks-potential-us-recession-analyst-warns.html",
+        "source": "CNBC Markets",
+        "weight": 0.6553,
+        "score": 0.6667
       },
       {
-        "title": "Discovering Undiscovered Gems Viemed Healthcare And 2 Other US Small Caps",
-        "url": "https://finance.yahoo.com/news/discovering-undiscovered-gems-viemed-healthcare-113304597.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6835,
-        "score": 1.0
+        "title": "BlackRock Developing Tokenization Tech Amid Bitcoin, Ethereum ETF Success",
+        "url": "https://decrypt.co/344223/blackrock-developing-tokenization-tech-bitcoin-ethereum-etf-success",
+        "source": "Decrypt",
+        "weight": 0.7561,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Crypto Markets Slide as Key Bitcoin Support Weakens and ETF Flows Reverse",
-        "url": "https://decrypt.co/344173/crypto-markets-slide-as-key-bitcoin-support-weakens-and-etf-flows-reverse",
-        "source": "Decrypt",
-        "weight": 0.6864,
+        "title": "Jamie Dimon says auto company bankruptcies reveal 'early signs' of excess in corporate lending",
+        "url": "https://www.cnbc.com/2025/10/14/jamie-dimon-auto-bankruptcies-lending-excess.html",
+        "source": "CNBC Markets",
+        "weight": 0.7154,
         "score": -1.0
       },
       {
-        "title": "Bitcoin falters again causing $200B wipeout: Will BTC hold $110k or break to $104k?",
-        "url": "https://cryptoslate.com/bitcoin-falters-again-causing-200b-wipeout-will-btc-hold-110k-or-break-to-104k/",
-        "source": "CryptoSlate",
-        "weight": 0.6801,
+        "title": "J&amp;J CFO on Orthopedics Spinoff, Earnings, Drug Pricing",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-14/j-j-cfo-on-orthopedics-spinoff-earnings-drug-pricing-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7136,
         "score": -0.9333
       },
       {
-        "title": "AI Stocks Are in a Bubble, BofA Fund Manager Survey Finds",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-14/ai-stocks-are-in-a-bubble-bofa-survey-finds-video",
+        "title": "Citi Warns of ‘Frothy and Overvalued’ Sectors in Equity Markets",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-14/citigroup-s-mason-sees-signs-of-frothiness-in-ai-valuations",
         "source": "Bloomberg Markets",
-        "weight": 0.6437,
-        "score": -0.8
+        "weight": 0.5739,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8484057830989362,
-          "price_change_24h": 0.00673
+          "volume_mcap_ratio": 0.9199537171965764,
+          "price_change_24h": -0.03192
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5326526336452926,
-          "price_change_24h": 0.18676
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.3072514805003661,
-          "price_change_24h": 0.00408
+          "volume_mcap_ratio": 0.5446205161299839,
+          "price_change_24h": -0.63372
         }
       ],
       "momentum_shifts": []
