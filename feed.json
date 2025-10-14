@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-14T08:31:35.922050+00:00",
+  "updated_at": "2025-10-14T12:54:46.303412+00:00",
   "indicators": {
-    "change24h": -0.077,
-    "vol": 0.2,
+    "change24h": -0.068,
+    "vol": 0.188,
     "fearGreed": 38,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4169,
-    "global_sentiment": 0.4577,
-    "combined_sentiment": 0.4341,
-    "confidence": 0.7614,
+    "crypto_sentiment": 0.3825,
+    "global_sentiment": 0.588,
+    "combined_sentiment": 0.4192,
+    "confidence": 0.8183,
     "counts": {
-      "crypto": 67,
-      "global": 31
+      "crypto": 66,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 112133,
-      "btc_change_24h": -2.82,
-      "eth_price": 4000.6,
-      "eth_change_24h": -4.5,
+      "btc_price": 111086,
+      "btc_change_24h": -3.01,
+      "eth_price": 3953.63,
+      "eth_change_24h": -3.66,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 38,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 366228104566,
+        "volume_24h": 362429016467,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.26,
+        "btc_dominance": 57.34,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-09-30T19:53:31.427614+00:00",
-      "crypto": 0.4514,
-      "global": 0.4866,
-      "combined": 0.4624,
-      "counts": {
-        "crypto": 47,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-09-30T20:26:49.025070+00:00",
       "crypto": 0.433,
@@ -1008,71 +998,81 @@
         "crypto": 67,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-10-14T12:54:46.303412+00:00",
+      "crypto": 0.3825,
+      "global": 0.588,
+      "combined": 0.4192,
+      "counts": {
+        "crypto": 66,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "DOGE Faces Rejection at $0.22 as Dogecoin Treasury Firm Eyes Public Listing",
-        "url": "https://www.coindesk.com/markets/2025/10/14/doge-faces-rejection-at-usd0-22-as-dogecoin-treasury-firm-eyes-public-listing",
-        "source": "CoinDesk",
-        "weight": 0.7924,
-        "score": 0.6333
-      },
-      {
-        "title": "Societe Generale-FORGE and Bitpanda Expand Partnership to Bring Regulated Stablecoins to DeFi",
-        "url": "https://www.coindesk.com/business/2025/10/14/societe-generale-forge-and-bitpanda-expand-partnership-to-bring-regulated-stablecoins-to-defi",
-        "source": "CoinDesk",
-        "weight": 0.8401,
-        "score": 0.5833
-      },
-      {
-        "title": "Heard on the Street Monday Recap: Silver Bullet",
-        "url": "https://finance.yahoo.com/m/d5a9b688-5f26-3266-b9db-48abf81efa2f/heard-on-the-street-monday.html?.tsrc=rss",
+        "title": "ECD Automotive Design Announces Satisfaction of Nasdaq Bid Price Condition",
+        "url": "https://finance.yahoo.com/news/ecd-automotive-design-announces-satisfaction-120500539.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6904,
-        "score": 0.6667
+        "weight": 0.7269,
+        "score": 0.9667
+      },
+      {
+        "title": "Bahoshy: Mideast Venture Appetite Returning",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-14/bahoshy-mideast-venture-appetite-returning-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7018,
+        "score": 1.0
+      },
+      {
+        "title": "Discovering Undiscovered Gems Viemed Healthcare And 2 Other US Small Caps",
+        "url": "https://finance.yahoo.com/news/discovering-undiscovered-gems-viemed-healthcare-113304597.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6835,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "SEB Probed Over Alleged Insider Trading on EQT Share Sales",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-14/sweden-probes-possible-front-running-in-eqt-shares-via-bank-seb",
+        "title": "Crypto Markets Slide as Key Bitcoin Support Weakens and ETF Flows Reverse",
+        "url": "https://decrypt.co/344173/crypto-markets-slide-as-key-bitcoin-support-weakens-and-etf-flows-reverse",
+        "source": "Decrypt",
+        "weight": 0.6864,
+        "score": -1.0
+      },
+      {
+        "title": "Bitcoin falters again causing $200B wipeout: Will BTC hold $110k or break to $104k?",
+        "url": "https://cryptoslate.com/bitcoin-falters-again-causing-200b-wipeout-will-btc-hold-110k-or-break-to-104k/",
+        "source": "CryptoSlate",
+        "weight": 0.6801,
+        "score": -0.9333
+      },
+      {
+        "title": "AI Stocks Are in a Bubble, BofA Fund Manager Survey Finds",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-14/ai-stocks-are-in-a-bubble-bofa-survey-finds-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6643,
-        "score": -0.9667
-      },
-      {
-        "title": "Pi Network’s mystery: Why the hype won’t die despite endless doubts",
-        "url": "https://cointelegraph.com/explained/pi-networks-mystery-why-the-hype-wont-die-despite-endless-doubts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7419,
-        "score": -0.6667
-      },
-      {
-        "title": "US spot Bitcoin, Ether ETFs shed $755M after crypto market crash",
-        "url": "https://cointelegraph.com/news/bitcoin-ether-etfs-see-750m-outflows-after-market-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.747,
-        "score": -0.6333
+        "weight": 0.6437,
+        "score": -0.8
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8583226402713625,
-          "price_change_24h": 0.02698
+          "volume_mcap_ratio": 0.8484057830989362,
+          "price_change_24h": 0.00673
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.5593698557926012,
-          "price_change_24h": 0.1453
+          "volume_mcap_ratio": 0.5326526336452926,
+          "price_change_24h": 0.18676
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.30710481841735127,
-          "price_change_24h": 0.01626
+          "volume_mcap_ratio": 0.3072514805003661,
+          "price_change_24h": 0.00408
         }
       ],
       "momentum_shifts": []
