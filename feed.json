@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-14T20:27:13.105159+00:00",
+  "updated_at": "2025-10-15T01:56:36.539644+00:00",
   "indicators": {
-    "change24h": -0.059,
-    "vol": 0.135,
-    "fearGreed": 38,
-    "momentum": -1.0,
+    "change24h": -0.046,
+    "vol": 0.105,
+    "fearGreed": 34,
+    "momentum": -0.811,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3462,
-    "global_sentiment": 0.4431,
-    "combined_sentiment": 0.3799,
-    "confidence": 0.8345,
+    "crypto_sentiment": 0.3527,
+    "global_sentiment": 0.3899,
+    "combined_sentiment": 0.3804,
+    "confidence": 0.7873,
     "counts": {
-      "crypto": 69,
-      "global": 43
+      "crypto": 70,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 112880,
-      "btc_change_24h": -2.36,
-      "eth_price": 4110.73,
-      "eth_change_24h": -3.33,
+      "btc_price": 112715,
+      "btc_change_24h": -1.39,
+      "eth_price": 4118.04,
+      "eth_change_24h": -2.19,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.0,
       "fear_greed": {
-        "value": 38,
+        "value": 34,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 419269243924,
-        "high_activity_coins": 3
+        "volume_24h": 411308623811,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.99,
+        "btc_dominance": 56.91,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-01T08:33:00.540713+00:00",
-      "crypto": 0.3715,
-      "global": 0.4497,
-      "combined": 0.3994,
-      "counts": {
-        "crypto": 53,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-10-01T12:53:47.190381+00:00",
       "crypto": 0.5582,
@@ -1008,52 +998,62 @@
         "crypto": 69,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-10-15T01:56:36.539644+00:00",
+      "crypto": 0.3527,
+      "global": 0.3899,
+      "combined": 0.3804,
+      "counts": {
+        "crypto": 70,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "WORK Medical Technology Group LTD Announces Receipt of Delisting Determination Letter from Nasdaq",
-        "url": "https://finance.yahoo.com/news/medical-technology-group-ltd-announces-201000974.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7739,
-        "score": 0.6333
+        "title": "Data shows 76% of retail traders are long SOL: Will a rebound to $200 hold?",
+        "url": "https://cointelegraph.com/news/data-shows-76percent-of-retail-traders-are-long-sol-will-a-rebound-to-dollar200-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5582,
+        "score": 0.8667
       },
       {
-        "title": "Ontario Targets GOP With Anti-Tariff Ad Using Reagan Speech",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-14/ontario-targets-gop-with-anti-tariff-ad-using-old-reagan-speech",
+        "title": "Gold Rises to Record on Fed Rate-Cut Signal, US-China Tensions",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-14/gold-xauusd-trades-near-record-on-fed-rate-cut-sign-us-china-tensions",
         "source": "Bloomberg Markets",
-        "weight": 0.683,
+        "weight": 0.6193,
         "score": 0.6667
       },
       {
-        "title": "BlackRock sees record quarter for iShares ETFs as Bitcoin, Ether demand surges",
-        "url": "https://cointelegraph.com/news/blackrock-etfs-record-inflows-institutional-bitcoin-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5186,
-        "score": 0.8667
+        "title": "Stock Buyers Drive Biggest S&P 500 Rally Since May",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-14/stock-buyers-drive-biggest-s-p-500-rally-since-may-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5562,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Tether settles Celsius claims for $300M, raising stablecoin liability concerns",
-        "url": "https://cointelegraph.com/news/tether-celsius-299m-settlement-stablecoin-liability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Iraq pledges to end $4 billion gas imports from Iran by 2028 as it races to diversify beyond oil",
+        "url": "https://www.cnbc.com/2025/10/15/iraq-end-iran-gas-imports-2028-diversifies-oil-tehran-opec-flaring.html",
+        "source": "CNBC Markets",
+        "weight": 0.7982,
+        "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 34 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Exclusively obtained orderbook data reveals details about USDE crash",
+        "url": "https://cointelegraph.com/news/exclusively-obtained-orderbook-data-reveals-details-about-usde-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6887,
-        "score": -1.0
-      },
-      {
-        "title": "Binance Increases Compensation for Customers Liquidated in Crypto Selloff",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-14/binance-increases-compensation-for-customers-liquidated-in-crypto-selloff",
-        "source": "Bloomberg Markets",
-        "weight": 0.636,
-        "score": -0.9667
-      },
-      {
-        "title": "Celsius Wind-down Secures $300M From Tether, Say GXD Labs, VanEck",
-        "url": "https://www.coindesk.com/policy/2025/10/14/celsius-wind-down-secures-usd300m-from-tether-say-gxd-labs-vaneck",
-        "source": "CoinDesk",
-        "weight": 0.8548,
+        "weight": 0.6081,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9842341507866222,
-          "price_change_24h": -0.04674
+          "volume_mcap_ratio": 0.9818731884735094,
+          "price_change_24h": -0.04134
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4782831125014204,
-          "price_change_24h": -0.04951
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.3634014294393661,
-          "price_change_24h": 0.00045
+          "volume_mcap_ratio": 0.48874277567969204,
+          "price_change_24h": 0.03553
         }
       ],
       "momentum_shifts": []
