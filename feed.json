@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-15T12:54:20.724390+00:00",
+  "updated_at": "2025-10-15T16:28:32.270800+00:00",
   "indicators": {
-    "change24h": 0.047,
-    "vol": 0.115,
+    "change24h": -0.048,
+    "vol": 0.096,
     "fearGreed": 34,
-    "momentum": 0.821,
-    "regime": "sideways",
+    "momentum": -0.831,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3808,
-    "global_sentiment": 0.4317,
-    "combined_sentiment": 0.4049,
-    "confidence": 0.8159,
+    "crypto_sentiment": 0.3445,
+    "global_sentiment": 0.3716,
+    "combined_sentiment": 0.3726,
+    "confidence": 0.8236,
     "counts": {
-      "crypto": 74,
-      "global": 39
+      "crypto": 68,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 111785,
-      "btc_change_24h": 0.68,
-      "eth_price": 4092.48,
-      "eth_change_24h": 3.86,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "btc_price": 111018,
+      "btc_change_24h": -1.52,
+      "eth_price": 3997.2,
+      "eth_change_24h": -3.23,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 354282742204,
+        "volume_24h": 334885437149,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.79,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-01T20:27:15.744507+00:00",
-      "crypto": 0.6212,
-      "global": 0.3938,
-      "combined": 0.5821,
-      "counts": {
-        "crypto": 73,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-10-02T01:51:07.233522+00:00",
       "crypto": 0.6632,
@@ -1008,66 +998,76 @@
         "crypto": 74,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-15T16:28:32.270800+00:00",
+      "crypto": 0.3445,
+      "global": 0.3716,
+      "combined": 0.3726,
+      "counts": {
+        "crypto": 68,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Chrysler Parent Stellantis Plans $13 Billion Investment in U.S. The Stock Is Up.",
+        "url": "https://finance.yahoo.com/m/7bca96fa-c28b-3754-a864-1acad274f5a8/chrysler-parent-stellantis.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.638,
+        "score": 0.8667
+      },
+      {
         "title": "XRP price shows promise at $2.50: Is 57% rally still possible?",
-        "url": "https://cointelegraph.com/news/xrp-price-shows-promise-2-50-is-57-percent-rally-possible?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "url": "https://cointelegraph.com/news/xrp-price-shows-promise-2-50-is-57-percent-rally-possible?utm_source=rss_feed&utm_medium=rss%3FREFRESH1635332728839&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.737,
+        "weight": 0.488,
         "score": 1.0
       },
       {
-        "title": "IREN and WULF Shares Jump as Companies Launch Billion Dollar Debt Deals",
-        "url": "https://www.coindesk.com/markets/2025/10/15/iren-and-wulf-shares-jump-as-companies-and-launch-billion-dollar-debt-deals",
-        "source": "CoinDesk",
-        "weight": 0.8277,
+        "title": "Kendra Scott expands into Western wear with new boot collection",
+        "url": "https://www.cnbc.com/2025/10/15/kendra-scott-jewelry-western-wear-boots.html",
+        "source": "CNBC Markets",
+        "weight": 0.6747,
         "score": 0.6667
-      },
-      {
-        "title": "Synthetix Price Is Up 190% in a Month—Here’s Why",
-        "url": "https://decrypt.co/344348/synthetix-price-is-up-190-in-a-month-heres-why",
-        "source": "Decrypt",
-        "weight": 0.595,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "BNB price analysis: ‘Double top’ setup warns of 30% drop ahead",
-        "url": "https://cointelegraph.com/news/bnb-price-analysis-double-top-warns-30-percent-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9034,
-        "score": -1.0
-      },
-      {
-        "title": "Blue Owl Chief Looks to Bank Loans for Dimon Cockroaches",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-15/blue-owl-chief-looks-to-bank-loans-for-dimon-cockroaches-video",
+        "title": "JPMorgan Stands Out on Credit Concern as Rivals Chop Provisions",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-15/jpmorgan-stands-out-on-credit-concern-as-rivals-chop-provisions",
         "source": "Bloomberg Markets",
-        "weight": 0.728,
+        "weight": 0.6814,
         "score": -1.0
       },
       {
-        "title": "Bitcoin metric shows ‘euphoria’ as $112.5K BTC price squeezes new buyers",
-        "url": "https://cointelegraph.com/news/bitcoin-euphoria-112-5k-btc-price-squeezes-new-buyers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bessent Says China Tariff Truce Could Be Extended",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-15/bessent-says-china-tariff-truce-could-be-extended",
+        "source": "Bloomberg Markets",
+        "weight": 0.6613,
+        "score": -0.9667
+      },
+      {
+        "title": "BNB price analysis: ‘Double top’ setup warns of 30% drop ahead",
+        "url": "https://cointelegraph.com/news/bnb-price-analysis-double-top-warns-30-percent-drop?utm_source=rss_feed&utm_medium=rss%3FREFRESH1635332728839&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7064,
-        "score": -0.9333
+        "weight": 0.5981,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8491158945917935,
-          "price_change_24h": -0.03673
+          "volume_mcap_ratio": 0.7897675770296851,
+          "price_change_24h": 0.00087
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4460350809366648,
-          "price_change_24h": -0.00709
+          "volume_mcap_ratio": 0.4337621894578119,
+          "price_change_24h": 0.10606
         }
       ],
       "momentum_shifts": []
