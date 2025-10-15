@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-15T01:56:36.539644+00:00",
+  "updated_at": "2025-10-15T04:29:02.887431+00:00",
   "indicators": {
-    "change24h": -0.046,
-    "vol": 0.105,
+    "change24h": -0.028,
+    "vol": 0.08,
     "fearGreed": 34,
-    "momentum": -0.811,
+    "momentum": -0.49,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3527,
-    "global_sentiment": 0.3899,
-    "combined_sentiment": 0.3804,
-    "confidence": 0.7873,
+    "crypto_sentiment": 0.4095,
+    "global_sentiment": 0.3342,
+    "combined_sentiment": 0.4183,
+    "confidence": 0.7594,
     "counts": {
-      "crypto": 70,
-      "global": 31
+      "crypto": 69,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 112715,
-      "btc_change_24h": -1.39,
-      "eth_price": 4118.04,
-      "eth_change_24h": -2.19,
+      "btc_price": 112271,
+      "btc_change_24h": -1.16,
+      "eth_price": 4106.13,
+      "eth_change_24h": -1.21,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.0,
+      "regime_strength": 0.4,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 411308623811,
+        "volume_24h": 409414184003,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.91,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-01T12:53:47.190381+00:00",
-      "crypto": 0.5582,
-      "global": 0.4537,
-      "combined": 0.5398,
-      "counts": {
-        "crypto": 64,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-10-01T16:31:13.335248+00:00",
       "crypto": 0.6139,
@@ -1008,39 +998,56 @@
         "crypto": 70,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-10-15T04:29:02.887431+00:00",
+      "crypto": 0.4095,
+      "global": 0.3342,
+      "combined": 0.4183,
+      "counts": {
+        "crypto": 69,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Data shows 76% of retail traders are long SOL: Will a rebound to $200 hold?",
-        "url": "https://cointelegraph.com/news/data-shows-76percent-of-retail-traders-are-long-sol-will-a-rebound-to-dollar200-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Sorare CEO still bullish on Ethereum despite ‘upgrade’ to Solana",
+        "url": "https://cointelegraph.com/news/sorare-hypes-ethereum-despite-migrating-to-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5582,
+        "weight": 0.7851,
         "score": 0.8667
       },
       {
-        "title": "Gold Rises to Record on Fed Rate-Cut Signal, US-China Tensions",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-14/gold-xauusd-trades-near-record-on-fed-rate-cut-sign-us-china-tensions",
-        "source": "Bloomberg Markets",
-        "weight": 0.6193,
+        "title": "Corporate Bitcoin Holdings Jump to $117B as Firms Double Down on Crypto Treasuries",
+        "url": "https://decrypt.co/344335/corporate-bitcoin-holdings-firms-double-down-crypto-treasuries",
+        "source": "Decrypt",
+        "weight": 0.7358,
         "score": 0.6667
       },
       {
-        "title": "Stock Buyers Drive Biggest S&P 500 Rally Since May",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-14/stock-buyers-drive-biggest-s-p-500-rally-since-may-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5562,
-        "score": 0.5333
+        "title": "Data shows 76% of retail traders are long SOL: Will a rebound to $200 hold?",
+        "url": "https://cointelegraph.com/news/data-shows-76percent-of-retail-traders-are-long-sol-will-a-rebound-to-dollar200-hold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4162,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Iraq pledges to end $4 billion gas imports from Iran by 2028 as it races to diversify beyond oil",
-        "url": "https://www.cnbc.com/2025/10/15/iraq-end-iran-gas-imports-2028-diversifies-oil-tehran-opec-flaring.html",
+        "title": "ECB’s Makhlouf Says Inflation Above 2% Is Bigger Risk Than Below That Threshold",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-15/ecb-s-makhlouf-says-inflation-above-2-is-bigger-risk-than-below-that-threshold",
+        "source": "Bloomberg Markets",
+        "weight": 0.7565,
+        "score": -1.0
+      },
+      {
+        "title": "China consumer prices drop more than expected in September, staying in deflationary territory",
+        "url": "https://www.cnbc.com/2025/10/15/china-cpi-ppi-deflation-september-trade-worries.html",
         "source": "CNBC Markets",
-        "weight": 0.7982,
-        "score": -0.6333
+        "weight": 0.777,
+        "score": -0.9333
       },
       {
         "title": "Fear & Greed 34 (Fear) — bearish",
@@ -1048,26 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Exclusively obtained orderbook data reveals details about USDE crash",
-        "url": "https://cointelegraph.com/news/exclusively-obtained-orderbook-data-reveals-details-about-usde-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6081,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9818731884735094,
-          "price_change_24h": -0.04134
+          "volume_mcap_ratio": 0.972122106876537,
+          "price_change_24h": -0.02359
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.48874277567969204,
-          "price_change_24h": 0.03553
+          "volume_mcap_ratio": 0.43269061087808514,
+          "price_change_24h": -0.00985
         }
       ],
       "momentum_shifts": []
