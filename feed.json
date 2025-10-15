@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-15T19:53:47.053624+00:00",
+  "updated_at": "2025-10-15T20:28:24.943259+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.101,
+    "change24h": -0.037,
+    "vol": 0.109,
     "fearGreed": 34,
-    "momentum": -0.619,
+    "momentum": -0.64,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3213,
-    "global_sentiment": 0.4386,
-    "combined_sentiment": 0.3609,
-    "confidence": 0.8107,
+    "crypto_sentiment": 0.3455,
+    "global_sentiment": 0.4015,
+    "combined_sentiment": 0.3759,
+    "confidence": 0.8116,
     "counts": {
-      "crypto": 64,
-      "global": 51
+      "crypto": 63,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 111213,
-      "btc_change_24h": -1.26,
-      "eth_price": 3984.55,
-      "eth_change_24h": -2.99,
+      "btc_price": 111434,
+      "btc_change_24h": -1.23,
+      "eth_price": 3983.82,
+      "eth_change_24h": -3.01,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 302112682953,
+        "volume_24h": 300427226116,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.16,
+        "btc_dominance": 57.18,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-02T04:27:58.296985+00:00",
-      "crypto": 0.6904,
-      "global": 0.5486,
-      "combined": 0.6469,
-      "counts": {
-        "crypto": 74,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-02T08:32:33.814091+00:00",
       "crypto": 0.6628,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 51
       }
+    },
+    {
+      "ts": "2025-10-15T20:28:24.943259+00:00",
+      "crypto": 0.3455,
+      "global": 0.4015,
+      "combined": 0.3759,
+      "counts": {
+        "crypto": 63,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Stocks fade despite hopes for more rate cuts",
-        "url": "https://www.thestreet.com/investing/stocks/stocks-shoot-higher-on-rate-cut-hopes?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5786,
+        "title": "Anyone can now create Hyperliquid perp contracts with $20M: Is DeFi about to break?",
+        "url": "https://cryptoslate.com/anyone-can-now-create-hyperliquid-perp-contracts-with-20m-is-defi-about-to-break/",
+        "source": "CryptoSlate",
+        "weight": 0.7105,
         "score": 1.0
       },
       {
         "title": "Stock Market Today: Dow Whipsaws As Trade War Sees New Plays; Solar Stock Shines (Live Coverage)",
         "url": "https://finance.yahoo.com/m/c9492c07-4277-319e-8e31-e61d246756e9/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7567,
+        "weight": 0.7079,
         "score": 0.6667
       },
       {
         "title": "The Abu Dhabi investor that's funding AI while trying to save TikTok — with help from Trump",
         "url": "https://www.cnbc.com/2025/10/15/abu-dhabis-mgx-investments-in-trump-crypto-tiktok-openai-.html",
         "source": "CNBC Markets",
-        "weight": 0.7289,
+        "weight": 0.6818,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Xiaomi Driver Death Adds to Scrutiny of EV Door Design",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-15/xiaomi-driver-death-adds-to-scrutiny-of-ev-door-design-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7741,
+        "score": -0.9667
+      },
+      {
         "title": "Treasury’s Bill Issuance Surge Prods Fed to Shrink Balance Sheet",
         "url": "https://www.bloomberg.com/news/articles/2025-10-15/treasury-s-bill-issuance-surge-prods-fed-to-shrink-balance-sheet",
         "source": "Bloomberg Markets",
-        "weight": 0.7427,
+        "weight": 0.6948,
         "score": -0.9667
       },
       {
         "title": "Printing Money: Paxos Mints, Then Burns $300 Trillion in PayPal Stablecoins",
         "url": "https://decrypt.co/344463/printing-money-paxos-mints-burns-300-trillion-paypal-stablecoins",
         "source": "Decrypt",
-        "weight": 0.8401,
+        "weight": 0.7859,
         "score": -0.7333
-      },
-      {
-        "title": "MEV bot exploit heads to US court, testing crypto’s legal gray zones",
-        "url": "https://cointelegraph.com/news/mev-bot-exploit-trial-industry-impact?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7158,
-        "score": -0.8333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7195750661389659,
-          "price_change_24h": -0.00105
+          "volume_mcap_ratio": 0.7110249034467224,
+          "price_change_24h": 0.00574
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4241530208020252,
-          "price_change_24h": -0.15324
+          "volume_mcap_ratio": 0.3994857896874671,
+          "price_change_24h": 0.00739
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-15",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3775,
-      "crypto_high": 0.4562,
-      "crypto_low": 0.3213,
-      "global_avg": 0.3989,
-      "global_high": 0.4386,
-      "global_low": 0.3342,
-      "combined_avg": 0.3997,
-      "combined_high": 0.4611,
-      "combined_low": 0.3609
-    },
-    "market_indicators_24h": {
-      "change24h": -0.035,
-      "vol": 0.101,
-      "fearGreed": 34,
-      "momentum": -0.619,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-15T19:53:47.053624+00:00"
   }
 }
