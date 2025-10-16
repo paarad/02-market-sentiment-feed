@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-16T12:54:09.602769+00:00",
+  "updated_at": "2025-10-16T16:32:20.493266+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.08,
+    "change24h": -0.048,
+    "vol": 0.142,
     "fearGreed": 28,
-    "momentum": -0.12,
+    "momentum": -0.833,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4366,
-    "global_sentiment": 0.4391,
-    "combined_sentiment": 0.4474,
-    "confidence": 0.7842,
+    "crypto_sentiment": 0.4665,
+    "global_sentiment": 0.463,
+    "combined_sentiment": 0.4718,
+    "confidence": 0.8265,
     "counts": {
-      "crypto": 57,
-      "global": 43
+      "crypto": 63,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 111597,
-      "btc_change_24h": -0.09,
-      "eth_price": 4058.53,
-      "eth_change_24h": -0.73,
+      "btc_price": 107851,
+      "btc_change_24h": -2.86,
+      "eth_price": 3866.94,
+      "eth_change_24h": -3.26,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 292342968480,
+        "volume_24h": 311693348800,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 57.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-02T20:26:49.905491+00:00",
-      "crypto": 0.7633,
-      "global": 0.4455,
-      "combined": 0.6929,
-      "counts": {
-        "crypto": 73,
-        "global": 58
-      }
-    },
     {
       "ts": "2025-10-03T01:50:35.969522+00:00",
       "crypto": 0.694,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-10-16T16:32:20.493266+00:00",
+      "crypto": 0.4665,
+      "global": 0.463,
+      "combined": 0.4718,
+      "counts": {
+        "crypto": 63,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock Market Today: Nasdaq Up, Snowflake Tests Entry; NuScale Leads Nukes (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/147eca5e-d0e0-35ec-a318-3a394a87675e/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7286,
+        "score": 1.0
+      },
+      {
         "title": "BNB is Now Down 11% From Its Record High Despite Coinbase Roadmap Listing",
         "url": "https://www.coindesk.com/markets/2025/10/16/bnb-is-now-down-11-from-its-record-high-despite-coinbase-roadmap-listing",
         "source": "CoinDesk",
-        "weight": 1.0899,
+        "weight": 0.7161,
         "score": 0.9667
       },
       {
-        "title": "Europe’s Biggest Firms Soar on Earnings, Setting Tone for Season",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-16/europe-s-biggest-firms-soar-on-earnings-setting-tone-for-season",
-        "source": "Bloomberg Markets",
-        "weight": 0.6688,
-        "score": 0.8667
-      },
-      {
-        "title": "China’s Appetite for Canadian Oil Is Headed for All-Time High",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-16/china-s-appetite-for-canadian-oil-is-headed-for-all-time-high",
-        "source": "Bloomberg Markets",
-        "weight": 0.6422,
+        "title": "Stablecoins Surge to Record $314B Market Cap as Institutional Race Heats Up: Canaccord",
+        "url": "https://www.coindesk.com/markets/2025/10/16/stablecoins-surge-to-record-usd314b-market-cap-as-institutional-race-heats-up-canaccord",
+        "source": "CoinDesk",
+        "weight": 0.7273,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "BlackRock wants a piece of booming stablecoin market with redesigned fund",
+        "title": "Zions, Western Alliance Disclose Bad Loans Tied to Alleged Fraud",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-16/zions-western-alliance-disclose-bad-loans-tied-to-alleged-fraud",
+        "source": "Bloomberg Markets",
+        "weight": 0.7056,
+        "score": -1.0
+      },
+      {
+        "title": "Student loan forgiveness lawsuit on hold during government shutdown — what borrowers need to know",
+        "url": "https://www.cnbc.com/2025/10/16/government-shutdown-delays-student-loan-forgiveness-lawsuit.html",
+        "source": "CNBC Markets",
+        "weight": 0.7054,
+        "score": -0.7333
+      },
+      {
+        "title": "BlackRock takes a piece of booming stablecoin market with redesigned fund",
         "url": "https://cointelegraph.com/news/blackrock-stablecoin-market-new-reserve-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7975,
+        "weight": 0.5239,
         "score": -0.9667
-      },
-      {
-        "title": "170-year-old bank now holds OKX institutional clients’ crypto in Europe",
-        "url": "https://cointelegraph.com/news/standard-chartered-custody-crypto-okx-institutional-eea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6916,
-        "score": -0.9667
-      },
-      {
-        "title": "AstraZeneca Gets Rare Sell as Deutsche Bank Has Pipeline Worries",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-16/astrazeneca-gets-rare-sell-as-deutsche-bank-has-pipeline-worries",
-        "source": "Bloomberg Markets",
-        "weight": 0.663,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7073412441684792,
-          "price_change_24h": -0.03126
+          "volume_mcap_ratio": 0.7305196382452663,
+          "price_change_24h": -0.01722
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3929085545018266,
-          "price_change_24h": 0.04454
+          "volume_mcap_ratio": 0.41701545299934417,
+          "price_change_24h": 0.11569
         }
       ],
       "momentum_shifts": []
