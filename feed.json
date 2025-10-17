@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-17T12:52:31.831826+00:00",
+  "updated_at": "2025-10-17T16:30:25.370341+00:00",
   "indicators": {
-    "change24h": -0.12,
-    "vol": 0.24,
+    "change24h": -0.038,
+    "vol": 0.11,
     "fearGreed": 22,
-    "momentum": -1.0,
+    "momentum": -0.662,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3493,
-    "global_sentiment": 0.2707,
-    "combined_sentiment": 0.3679,
-    "confidence": 0.8255,
+    "crypto_sentiment": 0.3619,
+    "global_sentiment": 0.4342,
+    "combined_sentiment": 0.3909,
+    "confidence": 0.8118,
     "counts": {
-      "crypto": 70,
-      "global": 58
+      "crypto": 67,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 105457,
-      "btc_change_24h": -5.51,
-      "eth_price": 3783.66,
-      "eth_change_24h": -6.76,
+      "btc_price": 106774,
+      "btc_change_24h": -1.25,
+      "eth_price": 3812.02,
+      "eth_change_24h": -1.66,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 416389886454,
+        "volume_24h": 410074100271,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.1,
+        "btc_dominance": 57.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-03T20:26:17.748825+00:00",
-      "crypto": 0.5727,
-      "global": 0.4625,
-      "combined": 0.5514,
-      "counts": {
-        "crypto": 67,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-04T01:46:53.728473+00:00",
       "crypto": 0.549,
@@ -1008,66 +998,76 @@
         "crypto": 70,
         "global": 58
       }
+    },
+    {
+      "ts": "2025-10-17T16:30:25.370341+00:00",
+      "crypto": 0.3619,
+      "global": 0.4342,
+      "combined": 0.3909,
+      "counts": {
+        "crypto": 67,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Citizens Sees Ether Primed for $10K as Supply Tightens and Institutional Demand Surges",
-        "url": "https://www.coindesk.com/markets/2025/10/17/citizens-sees-ether-primed-for-usd10k-as-supply-tightens-and-institutional-demand-surges",
-        "source": "CoinDesk",
-        "weight": 0.8088,
-        "score": 0.5333
+        "title": "Chad Renews Partnership With Buffett-Backed African Parks",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-17/chad-renews-partnership-with-buffett-backed-african-parks",
+        "source": "Bloomberg Markets",
+        "weight": 0.6879,
+        "score": 0.9167
       },
       {
-        "title": "Metals Traders Are Enjoying Their Most Profitable Year on Record",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-17/metals-traders-are-enjoying-their-most-profitable-year-on-record",
-        "source": "Bloomberg Markets",
-        "weight": 0.6208,
+        "title": "Why Oracle (ORCL) Stock Is Down Today",
+        "url": "https://finance.yahoo.com/news/why-oracle-orcl-stock-down-160051750.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7557,
         "score": 0.6667
       },
       {
-        "title": "Gold Tests Key Resistance Level That Could Signal the Next Bullish Phase",
-        "url": "https://www.coindesk.com/markets/2025/10/17/gold-tests-key-resistance-level-that-could-signal-the-next-bullish-phase",
-        "source": "CoinDesk",
-        "weight": 0.7622,
-        "score": 0.5333
+        "title": "Gold's record run leads to latest market-moving tweak to the classic 60/40 investing portfolio",
+        "url": "https://www.cnbc.com/2025/10/17/gold-record-run-sell-traditional-60-40-stock-bond-market-portfolio.html",
+        "source": "CNBC Markets",
+        "weight": 0.7466,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Small businesses are being crushed by Trump's tariffs and economists say it's a warning for the economy",
+        "title": "Small businesses are being crushed by Trump's tariffs, and economists say it's a warning for the economy",
         "url": "https://www.cnbc.com/2025/10/17/how-much-trump-tariffs-are-costing-small-businesses.html",
         "source": "CNBC Markets",
-        "weight": 0.7697,
+        "weight": 0.7973,
         "score": -1.0
       },
       {
-        "title": "Regional Bank Issues May Lead to Consolidation: Sonders",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-17/regional-bank-issues-may-lead-to-consolidation-sonders-video",
+        "title": "Credit Markets Wobble as Loan Losses Revive Bank Crisis Fears",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-17/credit-markets-wobble-as-loan-losses-revive-bank-crisis-fears",
         "source": "Bloomberg Markets",
-        "weight": 0.763,
-        "score": -0.9667
+        "weight": 0.7354,
+        "score": -1.0
       },
       {
-        "title": "How low will Bitcoin go? Regional US ‘bank stress’ pushes BTC toward $100K",
-        "url": "https://cointelegraph.com/news/how-low-will-bitcoin-go-regional-us-bank-stress-btc-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin 'bull run is over,' traders say, with 50% BTC price crash warning",
+        "url": "https://cointelegraph.com/news/bitcoin-bull-run-over-traders-50-percent-btc-price-crash-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6769,
-        "score": -0.9667
+        "weight": 0.7138,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9956484910178234,
-          "price_change_24h": -0.0187
+          "volume_mcap_ratio": 0.9850476405238866,
+          "price_change_24h": -0.01557
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38694069304472983,
-          "price_change_24h": 0.00754
+          "volume_mcap_ratio": 0.44261110238700085,
+          "price_change_24h": -0.00696
         }
       ],
       "momentum_shifts": []
