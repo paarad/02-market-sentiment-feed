@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-17T01:54:15.345936+00:00",
+  "updated_at": "2025-10-17T04:29:34.379079+00:00",
   "indicators": {
-    "change24h": -0.042,
-    "vol": 0.103,
+    "change24h": -0.045,
+    "vol": 0.105,
     "fearGreed": 22,
-    "momentum": -0.743,
+    "momentum": -0.779,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4765,
-    "global_sentiment": 0.3684,
-    "combined_sentiment": 0.4714,
-    "confidence": 0.7741,
+    "crypto_sentiment": 0.5318,
+    "global_sentiment": 0.3616,
+    "combined_sentiment": 0.5123,
+    "confidence": 0.7608,
     "counts": {
-      "crypto": 67,
+      "crypto": 68,
       "global": 36
     },
     "market_indicators": {
-      "btc_price": 108742,
-      "btc_change_24h": -2.27,
-      "eth_price": 3915.56,
-      "eth_change_24h": -2.34,
+      "btc_price": 108986,
+      "btc_change_24h": -2.36,
+      "eth_price": 3920.86,
+      "eth_change_24h": -2.69,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.05,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 330288548929,
+        "volume_24h": 334094911129,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.1,
+        "btc_dominance": 57.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-03T12:49:44.644828+00:00",
-      "crypto": 0.5743,
-      "global": 0.5512,
-      "combined": 0.56,
-      "counts": {
-        "crypto": 62,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-10-03T16:29:30.374748+00:00",
       "crypto": 0.5834,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-10-17T04:29:34.379079+00:00",
+      "crypto": 0.5318,
+      "global": 0.3616,
+      "combined": 0.5123,
+      "counts": {
+        "crypto": 68,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin Bears Battle Critical Support Zone as BTC, Stock, and Gold Volatility Indices Surge",
-        "url": "https://www.coindesk.com/markets/2025/10/17/bitcoin-bears-battle-critical-support-zone-as-btc-stock-and-gold-volatility-indices-surge",
-        "source": "CoinDesk",
-        "weight": 1.0025,
-        "score": 0.5333
-      },
-      {
-        "title": "What Gold's Rise (Really) Means for the World",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-16/what-the-new-gold-rush-reveals-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.454,
-        "score": 1.0
-      },
-      {
-        "title": "BNB heads to Coinbase listings following community debate over exchange rules",
-        "url": "https://cointelegraph.com/news/coinbase-binance-bnb-listing-debate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Tough year for blockchain gaming, but there’s a ‘shimmer of hope’",
+        "url": "https://cointelegraph.com/news/blockchain-gaming-q3-2025-investment-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6249,
-        "score": 0.6333
+        "weight": 0.7888,
+        "score": 0.6667
+      },
+      {
+        "title": "Gold market cap soars to $30T, dwarfing Bitcoin and tech giants",
+        "url": "https://cointelegraph.com/news/gold-market-cap-soars-30-trillion-dwarfing-bitcoin-and-tech-giants?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7369,
+        "score": 0.6667
+      },
+      {
+        "title": "TSMC profit surges 39% to beat estimates and hit yet another record on AI chip demand",
+        "url": "https://www.cnbc.com/2025/10/16/tsmc-hits-yet-another-record-as-profit-surges-39percent-beating-estimates-on-ai-chip-demand-surge.html",
+        "source": "CNBC Markets",
+        "weight": 0.6329,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Treasury Five-Year Yield Falls to Lowest Since October 2024",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-17/treasury-five-year-yield-falls-to-lowest-since-october-2024",
+        "source": "Bloomberg Markets",
+        "weight": 0.7393,
+        "score": -1.0
+      },
+      {
+        "title": "Hong Kong's Paul Chan on The City's Business Environment",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-17/hong-kong-s-paul-chan-on-the-city-s-business-environment",
+        "source": "Bloomberg Markets",
+        "weight": 0.6567,
+        "score": -1.0
+      },
+      {
         "title": "Stocks Drop as Regional Banks Tumble | The Close 10/16/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-10-16/the-close-10-16-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6031,
+        "weight": 0.4472,
         "score": -0.9667
-      },
-      {
-        "title": "UBS, HSBC Hire Aggressively in $8 Trillion Taiwan Wealth Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-16/ubs-hsbc-hire-aggressively-in-8-trillion-taiwan-wealth-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.572,
-        "score": -0.9667
-      },
-      {
-        "title": "Asian Shares Dip After Credit Woes Hit Wall Street: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-16/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.5338,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7921554056309255,
-          "price_change_24h": -0.02398
+          "volume_mcap_ratio": 0.7846336609533394,
+          "price_change_24h": -0.02601
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.40871492482965655,
-          "price_change_24h": -0.09716
+          "volume_mcap_ratio": 0.37773809073898545,
+          "price_change_24h": -0.03527
         }
       ],
       "momentum_shifts": []
