@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-18T04:27:29.415271+00:00",
+  "updated_at": "2025-10-18T08:29:48.017875+00:00",
   "indicators": {
-    "change24h": -0.043,
-    "vol": 0.112,
+    "change24h": 0.07,
+    "vol": 0.195,
     "fearGreed": 23,
-    "momentum": -0.749,
-    "regime": "bear",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3402,
-    "global_sentiment": 0.3301,
-    "combined_sentiment": 0.366,
-    "confidence": 0.708,
+    "crypto_sentiment": 0.452,
+    "global_sentiment": 0.3547,
+    "combined_sentiment": 0.4519,
+    "confidence": 0.6914,
     "counts": {
-      "crypto": 68,
+      "crypto": 70,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 106738,
-      "btc_change_24h": -2.08,
-      "eth_price": 3856.46,
-      "eth_change_24h": -1.69,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "btc_price": 106784,
+      "btc_change_24h": 1.47,
+      "eth_price": 3890.08,
+      "eth_change_24h": 4.21,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 379596562373,
+        "volume_24h": 311764202664.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.07,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-04T16:27:04.151450+00:00",
-      "crypto": 0.5575,
-      "global": 0.3329,
-      "combined": 0.5292,
-      "counts": {
-        "crypto": 74,
-        "global": 26
-      }
-    },
     {
       "ts": "2025-10-04T19:53:50.159644+00:00",
       "crypto": 0.539,
@@ -1008,40 +998,43 @@
         "crypto": 68,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-18T08:29:48.017875+00:00",
+      "crypto": 0.452,
+      "global": 0.3547,
+      "combined": 0.4519,
+      "counts": {
+        "crypto": 70,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Public companies hold $110B BTC, but which are profiting from the Bitcoin standard?",
-        "url": "https://cointelegraph.com/news/public-companies-hold-dollar110b-btc-but-which-are-profiting-from-the-bitcoin-standard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "XRP Stabilizes After Early Dip, Traders Eye $2.40 Breakout",
+        "url": "https://www.coindesk.com/markets/2025/10/18/xrp-stabilizes-after-early-dip-traders-eye-usd2-40-breakout",
+        "source": "CoinDesk",
+        "weight": 0.9338,
+        "score": 0.5333
+      },
+      {
+        "title": "Global crypto market cap up 2.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin ETFs shed $1.2B in red week, but Schwab remains bullish",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-1-2b-in-red-week-but-schwab-remains-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3828,
-        "score": 0.6667
-      },
-      {
-        "title": "Meloni Wins Italy’s Best Rating Since 2018 With DBRS Upgrade",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-17/meloni-wins-italy-s-highest-rating-since-2018-with-dbrs-upgrade",
-        "source": "Bloomberg Markets",
-        "weight": 0.31,
-        "score": 0.6667
-      },
-      {
-        "title": "James Fishback’s ETFs Are Being Liquidated Against His Will",
-        "url": "https://www.bloomberg.com/news/newsletters/2025-10-17/why-james-fishback-s-etfs-spxm-tslv-are-being-liquidated-against-his-will",
-        "source": "Bloomberg Markets",
-        "weight": 0.345,
-        "score": 0.5833
+        "weight": 0.5628,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Stocks Rise as Trump Touts China Talks | The Close 10/17/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-17/the-close-10-17-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4406,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,10 +1043,17 @@
         "score": -0.5333
       },
       {
-        "title": "Novo, Lilly Fall as Trump Touts ‘Much Lower’ Ozempic Price",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-17/novo-lilly-fall-as-trump-touts-lower-ozempic-cost-video",
+        "title": "DOGE Finds Support After Tariff-Led Selloff, Market Awaits Next Catalyst",
+        "url": "https://www.coindesk.com/markets/2025/10/18/doge-finds-support-after-tariff-led-selloff-market-awaits-next-catalyst",
+        "source": "CoinDesk",
+        "weight": 0.9568,
+        "score": -0.3333
+      },
+      {
+        "title": "Stocks Rise as Trump Touts China Talks | The Close 10/17/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-17/the-close-10-17-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3956,
+        "weight": 0.2763,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8873407419304451,
-          "price_change_24h": 0.02169
+          "volume_mcap_ratio": 0.747286428036202,
+          "price_change_24h": 0.01739
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.40208991182913467,
-          "price_change_24h": 0.08771
+          "volume_mcap_ratio": 0.4114400594925088,
+          "price_change_24h": -0.18467
         }
       ],
       "momentum_shifts": []
