@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-18T08:29:48.017875+00:00",
+  "updated_at": "2025-10-18T12:46:35.663802+00:00",
   "indicators": {
-    "change24h": 0.07,
-    "vol": 0.195,
+    "change24h": 0.034,
+    "vol": 0.121,
     "fearGreed": 23,
-    "momentum": 1.0,
+    "momentum": 0.601,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.452,
-    "global_sentiment": 0.3547,
-    "combined_sentiment": 0.4519,
-    "confidence": 0.6914,
+    "crypto_sentiment": 0.474,
+    "global_sentiment": 0.3461,
+    "combined_sentiment": 0.4677,
+    "confidence": 0.6612,
     "counts": {
-      "crypto": 70,
+      "crypto": 68,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 106784,
-      "btc_change_24h": 1.47,
-      "eth_price": 3890.08,
-      "eth_change_24h": 4.21,
+      "btc_price": 107073,
+      "btc_change_24h": 1.37,
+      "eth_price": 3881.88,
+      "eth_change_24h": 2.47,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 311764202664.0,
+        "volume_24h": 241062031053.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.86,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-04T19:53:50.159644+00:00",
-      "crypto": 0.539,
-      "global": 0.3904,
-      "combined": 0.5201,
-      "counts": {
-        "crypto": 72,
-        "global": 26
-      }
-    },
     {
       "ts": "2025-10-04T20:24:00.505884+00:00",
       "crypto": 0.5661,
@@ -1008,33 +998,50 @@
         "crypto": 70,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-18T12:46:35.663802+00:00",
+      "crypto": 0.474,
+      "global": 0.3461,
+      "combined": 0.4677,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP Stabilizes After Early Dip, Traders Eye $2.40 Breakout",
-        "url": "https://www.coindesk.com/markets/2025/10/18/xrp-stabilizes-after-early-dip-traders-eye-usd2-40-breakout",
-        "source": "CoinDesk",
-        "weight": 0.9338,
-        "score": 0.5333
-      },
-      {
-        "title": "Global crypto market cap up 2.9% — rally",
+        "title": "Global crypto market cap up 1.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Bitcoin ETFs shed $1.2B in red week, but Schwab remains bullish",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-1-2b-in-red-week-but-schwab-remains-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5628,
+        "title": "Warren Buffett's master class on the problem with gold",
+        "url": "https://www.cnbc.com/2025/10/17/buffetts-master-class-on-the-problem-with-gold.html",
+        "source": "CNBC Markets",
+        "weight": 0.7783,
+        "score": 0.5333
+      },
+      {
+        "title": "XRP Stabilizes After Early Dip, Traders Eye $2.40 Breakout",
+        "url": "https://www.coindesk.com/markets/2025/10/18/xrp-stabilizes-after-early-dip-traders-eye-usd2-40-breakout",
+        "source": "CoinDesk",
+        "weight": 0.5695,
         "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Trump's Plan to Rescue Argentina Is 'Unconventional,' Larry Summers Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-18/larry-summers-dissects-the-us-bet-on-argentina-s-peso-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7391,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,31 +1050,24 @@
         "score": -0.5333
       },
       {
-        "title": "DOGE Finds Support After Tariff-Led Selloff, Market Awaits Next Catalyst",
-        "url": "https://www.coindesk.com/markets/2025/10/18/doge-finds-support-after-tariff-led-selloff-market-awaits-next-catalyst",
-        "source": "CoinDesk",
-        "weight": 0.9568,
-        "score": -0.3333
-      },
-      {
-        "title": "Stocks Rise as Trump Touts China Talks | The Close 10/17/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-17/the-close-10-17-2025-video",
+        "title": "ICICI Bank Beats Profit Forecast, Margins Under Pressure",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-18/icici-bank-s-profit-beats-estimates-on-strong-loan-growth",
         "source": "Bloomberg Markets",
-        "weight": 0.2763,
-        "score": -1.0
+        "weight": 0.5819,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.747286428036202,
-          "price_change_24h": 0.01739
+          "volume_mcap_ratio": 0.5679243603934462,
+          "price_change_24h": 0.01686
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4114400594925088,
-          "price_change_24h": -0.18467
+          "volume_mcap_ratio": 0.39517264572878574,
+          "price_change_24h": 0.05268
         }
       ],
       "momentum_shifts": []
