@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-17T20:27:23.142671+00:00",
+  "updated_at": "2025-10-18T01:49:04.741466+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.13,
-    "fearGreed": 22,
-    "momentum": -0.412,
+    "change24h": -0.034,
+    "vol": 0.094,
+    "fearGreed": 23,
+    "momentum": -0.595,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.316,
-    "global_sentiment": 0.3897,
-    "combined_sentiment": 0.3528,
-    "confidence": 0.8164,
+    "crypto_sentiment": 0.3461,
+    "global_sentiment": 0.3301,
+    "combined_sentiment": 0.3704,
+    "confidence": 0.7446,
     "counts": {
-      "crypto": 69,
-      "global": 45
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 106972,
-      "btc_change_24h": -0.97,
-      "eth_price": 3859.7,
-      "eth_change_24h": -0.12,
+      "btc_price": 107120,
+      "btc_change_24h": -1.48,
+      "eth_price": 3864.42,
+      "eth_change_24h": -1.4,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 22,
+        "value": 23,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 379970280396.0,
+        "volume_24h": 374255962580.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.19,
+        "btc_dominance": 57.12,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-04T08:27:58.369499+00:00",
-      "crypto": 0.602,
-      "global": 0.504,
-      "combined": 0.5769,
-      "counts": {
-        "crypto": 72,
-        "global": 26
-      }
-    },
     {
       "ts": "2025-10-04T12:44:25.599499+00:00",
       "crypto": 0.5927,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-10-18T01:49:04.741466+00:00",
+      "crypto": 0.3461,
+      "global": 0.3301,
+      "combined": 0.3704,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "GIBO Holdings Limited Announces Transfer to Nasdaq Capital Market",
-        "url": "https://finance.yahoo.com/news/gibo-holdings-limited-announces-transfer-200000615.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7589,
-        "score": 1.0
-      },
-      {
-        "title": "Meloni Wins Italy’s Highest Rating Since 2018 With DBRS Upgrade",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-17/meloni-wins-italy-s-highest-rating-since-2018-with-dbrs-upgrade",
-        "source": "Bloomberg Markets",
-        "weight": 0.7813,
+        "title": "Public companies hold $110B BTC, but which are profiting from the Bitcoin standard?",
+        "url": "https://cointelegraph.com/news/public-companies-hold-dollar110b-btc-but-which-are-profiting-from-the-bitcoin-standard?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5193,
         "score": 0.6667
       },
       {
-        "title": "MP Materials Stock Dips Again. How to Navigate the Chaos.",
-        "url": "https://finance.yahoo.com/m/e2ef74ab-48f4-3586-a6a5-ee8ca7b8ec52/mp-materials-stock-dips.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7796,
-        "score": 0.5333
+        "title": "Meloni Wins Italy’s Best Rating Since 2018 With DBRS Upgrade",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-17/meloni-wins-italy-s-highest-rating-since-2018-with-dbrs-upgrade",
+        "source": "Bloomberg Markets",
+        "weight": 0.4206,
+        "score": 0.6667
+      },
+      {
+        "title": "James Fishback’s ETFs Are Being Liquidated Against His Will",
+        "url": "https://www.bloomberg.com/news/newsletters/2025-10-17/why-james-fishback-s-etfs-spxm-tslv-are-being-liquidated-against-his-will",
+        "source": "Bloomberg Markets",
+        "weight": 0.4681,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Credit Issues Isolated to A Few Events: Barclays' Graper",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-17/credit-issues-isolated-to-a-few-events-barclays-graper-video",
+        "title": "Stocks Rise as Trump Touts China Talks | The Close 10/17/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-17/the-close-10-17-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6652,
+        "weight": 0.5977,
         "score": -1.0
       },
       {
-        "title": "New debt-fueled era for Bitcoin miners marked by 1 zetahash milestone – Report",
-        "url": "https://cryptoslate.com/the-1-zetahash-milestone-marks-new-debt-fueled-era-for-struggling-bitcoin-miners-report/",
-        "source": "CryptoSlate",
-        "weight": 0.6342,
+        "title": "Novo, Lilly Fall as Trump Touts ‘Much Lower’ Ozempic Price",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-17/novo-lilly-fall-as-trump-touts-lower-ozempic-cost-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5366,
         "score": -1.0
       },
       {
-        "title": "Chainlink's LINK Plunges 9% as Intense Selling Overpowers Caliber's $2M Accumulation",
-        "url": "https://www.coindesk.com/markets/2025/10/17/chainlink-s-link-plunges-9-as-intense-selling-overpowers-caliber-s-usd2m-accumulation",
-        "source": "CoinDesk",
-        "weight": 0.8978,
-        "score": -0.6333
+        "title": "France Gets Debt Warning as S&amp;P Downgrades in Unscheduled Move",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-17/france-s-gets-debt-warning-as-s-p-downgrades-in-unscheduled-move",
+        "source": "Bloomberg Markets",
+        "weight": 0.5426,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.914616440062123,
-          "price_change_24h": -0.01989
+          "volume_mcap_ratio": 0.8873359678254594,
+          "price_change_24h": 0.02361
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4177171552610601,
-          "price_change_24h": 0.00782
+          "volume_mcap_ratio": 0.39545755070161315,
+          "price_change_24h": 0.04332
         }
       ],
       "momentum_shifts": []
