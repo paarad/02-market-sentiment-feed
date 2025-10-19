@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-19T08:28:17.194597+00:00",
+  "updated_at": "2025-10-19T12:46:42.207011+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.057,
+    "change24h": 0.017,
+    "vol": 0.077,
     "fearGreed": 29,
-    "momentum": -0.118,
+    "momentum": 0.295,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4459,
-    "global_sentiment": 0.4031,
-    "combined_sentiment": 0.4514,
-    "confidence": 0.62,
+    "crypto_sentiment": 0.4109,
+    "global_sentiment": 0.492,
+    "combined_sentiment": 0.4325,
+    "confidence": 0.5688,
     "counts": {
       "crypto": 63,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 106633,
-      "btc_change_24h": -0.07,
-      "eth_price": 3868.17,
-      "eth_change_24h": -0.56,
+      "btc_price": 107512,
+      "btc_change_24h": 0.44,
+      "eth_price": 3915.09,
+      "eth_change_24h": 0.96,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 123016631729.0,
-        "high_activity_coins": 1
+        "volume_24h": 151289960529.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.95,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-05T19:53:08.768973+00:00",
-      "crypto": 0.5415,
-      "global": 0.5969,
-      "combined": 0.5392,
-      "counts": {
-        "crypto": 67,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-10-05T20:24:13.592752+00:00",
       "crypto": 0.5438,
@@ -1008,30 +998,40 @@
         "crypto": 63,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-19T12:46:42.207011+00:00",
+      "crypto": 0.4109,
+      "global": 0.492,
+      "combined": 0.4325,
+      "counts": {
+        "crypto": 63,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP, SOL Break Ahead with Bullish Reset in Sentiment as Bitcoin and Ether Stay Stuck in the Gloom",
+        "title": "Gold’s Historic Rally Comes With a Bonus for Emerging Markets",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-19/gold-s-historic-rally-comes-with-a-bonus-for-emerging-markets",
+        "source": "Bloomberg Markets",
+        "weight": 0.7747,
+        "score": 0.5333
+      },
+      {
+        "title": "XRP, SOL Break Ahead With Bullish Reset in Sentiment as Bitcoin and Ether Stay Stuck in the Gloom",
         "url": "https://www.coindesk.com/markets/2025/10/19/xrp-breaks-ahead-with-bullish-reset-in-sentiment-as-bitcoin-and-ether-stay-stuck-in-the-gloom",
         "source": "CoinDesk",
-        "weight": 1.0741,
+        "weight": 0.6531,
         "score": 0.5333
       },
       {
         "title": "There Are Three Major Tailwinds for Crypto’s Next Rally, Says Galaxy Digital’s Alex Thorn",
         "url": "https://www.coindesk.com/markets/2025/10/19/three-major-tailwinds-for-crypto-s-next-rally-says-galaxy-digital-s-alex-thorn",
         "source": "CoinDesk",
-        "weight": 0.3907,
+        "weight": 0.2375,
         "score": 0.5333
-      },
-      {
-        "title": "Singapore Law Firm to Sue Switzerland Over Asia Losses on AT1s",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-19/singapore-law-firm-to-sue-switzerland-over-asia-losses-on-at1s",
-        "source": "Bloomberg Markets",
-        "weight": 0.6231,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,26 +1043,31 @@
         "score": -0.5333
       },
       {
+        "title": "Chinese tech giants halt Hong Kong stablecoin plans amid Beijing concerns: FT",
+        "url": "https://cointelegraph.com/news/china-tech-giants-halt-hong-kong-stablecoin-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6401,
+        "score": -0.3333
+      },
+      {
         "title": "Weekly Stock Market Update: Apple, Taiwan Semiconductor and Novo Nordisk",
         "url": "https://www.thestreet.com/investing/stocks/weekly-stock-market-update-apple-taiwan-semiconductor-and-novo-nordisk?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4072,
+        "weight": 0.2476,
         "score": -0.6667
-      },
-      {
-        "title": "Japan’s FSA weighs allowing banks to hold Bitcoin, other cryptos: Report",
-        "url": "https://cointelegraph.com/news/japan-fsa-may-let-banks-hold-bitcoin-crypto-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7366,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.39147588449346044,
-          "price_change_24h": -0.02009
+          "volume_mcap_ratio": 0.3653383284127815,
+          "price_change_24h": -0.00806
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3570218006239785,
+          "price_change_24h": -0.00369
         }
       ],
       "momentum_shifts": []
