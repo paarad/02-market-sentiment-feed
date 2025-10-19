@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-19T16:28:16.101508+00:00",
+  "updated_at": "2025-10-19T19:53:46.402215+00:00",
   "indicators": {
-    "change24h": 0.05,
-    "vol": 0.116,
+    "change24h": 0.037,
+    "vol": 0.092,
     "fearGreed": 29,
-    "momentum": 0.876,
+    "momentum": 0.647,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5116,
-    "global_sentiment": 0.4142,
-    "combined_sentiment": 0.5016,
-    "confidence": 0.6651,
+    "crypto_sentiment": 0.5282,
+    "global_sentiment": 0.4348,
+    "combined_sentiment": 0.5157,
+    "confidence": 0.6611,
     "counts": {
       "crypto": 68,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 108372,
-      "btc_change_24h": 1.41,
-      "eth_price": 3972.63,
-      "eth_change_24h": 2.7,
+      "btc_price": 108946,
+      "btc_change_24h": 1.74,
+      "eth_price": 3987.55,
+      "eth_change_24h": 2.4,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 167414215287.0,
+        "volume_24h": 181729107554.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.85,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-06T01:54:17.272516+00:00",
-      "crypto": 0.5257,
-      "global": 0.5012,
-      "combined": 0.5194,
-      "counts": {
-        "crypto": 67,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-06T04:28:41.132387+00:00",
       "crypto": 0.5231,
@@ -1008,45 +998,48 @@
         "crypto": 68,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-19T19:53:46.402215+00:00",
+      "crypto": 0.5282,
+      "global": 0.4348,
+      "combined": 0.5157,
+      "counts": {
+        "crypto": 68,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "DOGE Holds $0.19 Base as 'Smart Money' Accumulates Ahead of Breakout Attempt",
-        "url": "https://www.coindesk.com/markets/2025/10/19/doge-holds-usd0-19-base-as-smart-money-accumulates-ahead-of-breakout-attempt",
-        "source": "CoinDesk",
-        "weight": 0.8573,
-        "score": 0.5333
-      },
-      {
-        "title": "Global crypto market cap up 1.9% — rally",
+        "title": "Global crypto market cap up 1.7% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Bitcoin’s Bullish October Is Headed to Be its Worst in 10 Years",
-        "url": "https://www.coindesk.com/markets/2025/10/19/bitcoin-s-bullish-october-is-headed-to-become-its-worst-in-10-years",
+        "title": "‘Ether Caught Fire’: ETH Surged as Capital Fled Bitcoin in Q3, CoinGecko Report Finds",
+        "url": "https://www.coindesk.com/markets/2025/10/19/ether-caught-fire-eth-surged-as-capital-fled-bitcoin-in-q3-coingecko-report-finds",
         "source": "CoinDesk",
-        "weight": 0.7034,
+        "weight": 0.7651,
+        "score": 0.5333
+      },
+      {
+        "title": "Crypto markets surge as Trump confirms October 31 summit with Xi Jinping",
+        "url": "https://cointelegraph.com/news/trump-confirms-meeting-xi-jinping-oct-31-market-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6316,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Inside the Pentagon’s AI Revolution",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-19/inside-the-pentagon-s-ai-revolution-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6079,
-        "score": -0.9667
-      },
-      {
-        "title": "ECB’s Lagarde Says Common Approach to Russian Assets Is Vital",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-19/ecb-s-lagarde-says-common-approach-to-russian-assets-is-vital",
-        "source": "Bloomberg Markets",
-        "weight": 0.7678,
+        "title": "The SEC’s new crypto rules are a win for free markets — and for America",
+        "url": "https://cryptoslate.com/the-secs-new-crypto-rules-are-a-win-for-free-markets-and-for-america/",
+        "source": "CryptoSlate",
+        "weight": 0.7397,
         "score": -0.6333
       },
       {
@@ -1055,19 +1048,26 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Inside the Pentagon’s AI Revolution",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-19/inside-the-pentagon-s-ai-revolution-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4093,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40026260244562195,
-          "price_change_24h": 0.00023
+          "volume_mcap_ratio": 0.4339667392996026,
+          "price_change_24h": 0.00116
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.36739291162481136,
-          "price_change_24h": 0.02814
+          "volume_mcap_ratio": 0.37733576447415856,
+          "price_change_24h": 0.02651
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-19",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4347,
+      "crypto_high": 0.5282,
+      "crypto_low": 0.3528,
+      "global_avg": 0.4149,
+      "global_high": 0.492,
+      "global_low": 0.3478,
+      "combined_avg": 0.444,
+      "combined_high": 0.5157,
+      "combined_low": 0.377
+    },
+    "market_indicators_24h": {
+      "change24h": 0.037,
+      "vol": 0.092,
+      "fearGreed": 29,
+      "momentum": 0.647,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-19T19:53:46.402215+00:00"
   }
 }
