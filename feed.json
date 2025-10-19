@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-19T12:46:42.207011+00:00",
+  "updated_at": "2025-10-19T16:28:16.101508+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.077,
+    "change24h": 0.05,
+    "vol": 0.116,
     "fearGreed": 29,
-    "momentum": 0.295,
+    "momentum": 0.876,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4109,
-    "global_sentiment": 0.492,
-    "combined_sentiment": 0.4325,
-    "confidence": 0.5688,
+    "crypto_sentiment": 0.5116,
+    "global_sentiment": 0.4142,
+    "combined_sentiment": 0.5016,
+    "confidence": 0.6651,
     "counts": {
-      "crypto": 63,
-      "global": 37
+      "crypto": 68,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 107512,
-      "btc_change_24h": 0.44,
-      "eth_price": 3915.09,
-      "eth_change_24h": 0.96,
+      "btc_price": 108372,
+      "btc_change_24h": 1.41,
+      "eth_price": 3972.63,
+      "eth_change_24h": 2.7,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 151289960529.0,
+        "volume_24h": 167414215287.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 56.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-05T20:24:13.592752+00:00",
-      "crypto": 0.5438,
-      "global": 0.5969,
-      "combined": 0.5409,
-      "counts": {
-        "crypto": 67,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-10-06T01:54:17.272516+00:00",
       "crypto": 0.5257,
@@ -1008,66 +998,76 @@
         "crypto": 63,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-19T16:28:16.101508+00:00",
+      "crypto": 0.5116,
+      "global": 0.4142,
+      "combined": 0.5016,
+      "counts": {
+        "crypto": 68,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold’s Historic Rally Comes With a Bonus for Emerging Markets",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-19/gold-s-historic-rally-comes-with-a-bonus-for-emerging-markets",
-        "source": "Bloomberg Markets",
-        "weight": 0.7747,
+        "title": "DOGE Holds $0.19 Base as 'Smart Money' Accumulates Ahead of Breakout Attempt",
+        "url": "https://www.coindesk.com/markets/2025/10/19/doge-holds-usd0-19-base-as-smart-money-accumulates-ahead-of-breakout-attempt",
+        "source": "CoinDesk",
+        "weight": 0.8573,
         "score": 0.5333
       },
       {
-        "title": "XRP, SOL Break Ahead With Bullish Reset in Sentiment as Bitcoin and Ether Stay Stuck in the Gloom",
-        "url": "https://www.coindesk.com/markets/2025/10/19/xrp-breaks-ahead-with-bullish-reset-in-sentiment-as-bitcoin-and-ether-stay-stuck-in-the-gloom",
-        "source": "CoinDesk",
-        "weight": 0.6531,
+        "title": "Global crypto market cap up 1.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "There Are Three Major Tailwinds for Crypto’s Next Rally, Says Galaxy Digital’s Alex Thorn",
-        "url": "https://www.coindesk.com/markets/2025/10/19/three-major-tailwinds-for-crypto-s-next-rally-says-galaxy-digital-s-alex-thorn",
+        "title": "Bitcoin’s Bullish October Is Headed to Be its Worst in 10 Years",
+        "url": "https://www.coindesk.com/markets/2025/10/19/bitcoin-s-bullish-october-is-headed-to-become-its-worst-in-10-years",
         "source": "CoinDesk",
-        "weight": 0.2375,
+        "weight": 0.7034,
         "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Inside the Pentagon’s AI Revolution",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-19/inside-the-pentagon-s-ai-revolution-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6079,
+        "score": -0.9667
+      },
+      {
+        "title": "ECB’s Lagarde Says Common Approach to Russian Assets Is Vital",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-19/ecb-s-lagarde-says-common-approach-to-russian-assets-is-vital",
+        "source": "Bloomberg Markets",
+        "weight": 0.7678,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Chinese tech giants halt Hong Kong stablecoin plans amid Beijing concerns: FT",
-        "url": "https://cointelegraph.com/news/china-tech-giants-halt-hong-kong-stablecoin-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6401,
-        "score": -0.3333
-      },
-      {
-        "title": "Weekly Stock Market Update: Apple, Taiwan Semiconductor and Novo Nordisk",
-        "url": "https://www.thestreet.com/investing/stocks/weekly-stock-market-update-apple-taiwan-semiconductor-and-novo-nordisk?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2476,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3653383284127815,
-          "price_change_24h": -0.00806
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.40026260244562195,
+          "price_change_24h": 0.00023
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3570218006239785,
-          "price_change_24h": -0.00369
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.36739291162481136,
+          "price_change_24h": 0.02814
         }
       ],
       "momentum_shifts": []
