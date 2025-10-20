@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-20T12:53:34.271564+00:00",
+  "updated_at": "2025-10-20T16:31:42.958019+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.021,
+    "vol": 0.131,
     "fearGreed": 29,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.375,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4575,
-    "global_sentiment": 0.445,
-    "combined_sentiment": 0.4635,
-    "confidence": 0.7307,
+    "crypto_sentiment": 0.4836,
+    "global_sentiment": 0.5534,
+    "combined_sentiment": 0.4921,
+    "confidence": 0.7957,
     "counts": {
-      "crypto": 68,
-      "global": 41
+      "crypto": 71,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 110893,
-      "btc_change_24h": 3.08,
-      "eth_price": 4031.12,
-      "eth_change_24h": 2.8,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 110955,
+      "btc_change_24h": 2.39,
+      "eth_price": 3960.08,
+      "eth_change_24h": -0.21,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 225801697298.0,
+        "volume_24h": 236984368728,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.41,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-06T20:26:40.976022+00:00",
-      "crypto": 0.607,
-      "global": 0.4672,
-      "combined": 0.5775,
-      "counts": {
-        "crypto": 72,
-        "global": 50
-      }
-    },
     {
       "ts": "2025-10-07T01:51:31.841265+00:00",
       "crypto": 0.6248,
@@ -1008,52 +998,62 @@
         "crypto": 68,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-10-20T16:31:42.958019+00:00",
+      "crypto": 0.4836,
+      "global": 0.5534,
+      "combined": 0.4921,
+      "counts": {
+        "crypto": 71,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin surges above $110k, Ethereum rises over $4k amid renewed ‘buy the dip’ fervor",
-        "url": "https://cryptoslate.com/bitcoin-surges-above-110k-ethereum-rises-over-4k-amid-renewed-buy-the-dip-fervor/",
-        "source": "CryptoSlate",
-        "weight": 0.5486,
-        "score": 1.0
-      },
-      {
-        "title": "Sweden’s Sandvik Hits Record as Gold Rally Drives Orders",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-20/sweden-s-sandvik-hits-record-as-gold-rally-drives-orders",
+        "title": "Canada’s Stocks May See Another Profit Record, Scotiabank Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-20/canada-s-stocks-may-see-another-profit-record-scotiabank-says",
         "source": "Bloomberg Markets",
-        "weight": 0.6219,
+        "weight": 0.7671,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin Jumps Past $111K, XRP, SOL, ETH Rally as Japanese Shares Hit Record High",
-        "url": "https://www.coindesk.com/markets/2025/10/20/bitcoin-retakes-usd110k-xrp-sol-eth-rally-as-japanese-shares-hit-record-high",
+        "title": "CoinDesk 20 Performance Update: Chainlink (LINK) Surges 16.6%, Leading Index Higher",
+        "url": "https://www.coindesk.com/coindesk-indices/2025/10/20/coindesk-20-performance-update-chainlink-link-surges-16-6-leading-index-higher",
         "source": "CoinDesk",
-        "weight": 0.5332,
-        "score": 1.0
+        "weight": 0.8211,
+        "score": 0.5333
+      },
+      {
+        "title": "Apple Rallies on Fresh Buy Rating",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-20/apple-rallies-on-fresh-buy-rating-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6567,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Crypto funds’ two-week inflow streak ends: Here’s what went wrong",
-        "url": "https://cointelegraph.com/news/crypto-funds-513-million-outflows-bitcoin-etp-bleed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7473,
+        "title": "Trump’s 100% movie tariff threat risks dealing a heavy blow to Britain’s already struggling film industry",
+        "url": "https://www.cnbc.com/2025/10/20/trumps-100percent-movie-tariff-threat-could-hit-britain-particularly-hard.html",
+        "source": "CNBC Markets",
+        "weight": 0.6324,
         "score": -1.0
       },
       {
-        "title": "Amazon AWS outage knocks Coinbase mobile app offline, Robinhood disrupted",
-        "url": "https://cointelegraph.com/news/amazon-aws-outage-coinbase-app-robinhood?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6801,
-        "score": -1.0
-      },
-      {
-        "title": "Soybeans Climb to Month High on Trump-Xi Meeting Speculation",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-20/soybeans-climb-to-month-high-on-trump-xi-meeting-speculation",
+        "title": "'Gradually Climbing the Foothills' of Credit Risk: Polus Capital",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-20/-climbing-the-foothills-of-credit-risk-polus-capital-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7617,
+        "weight": 0.5968,
+        "score": -1.0
+      },
+      {
+        "title": "Bitcoin, Ethereum Funds Lost $513 Million Last Week",
+        "url": "https://decrypt.co/344984/bitcoinethereum-funds-lost-513-million-last-week",
+        "source": "Decrypt",
+        "weight": 0.8024,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5481607553854593,
-          "price_change_24h": -0.00619
+          "volume_mcap_ratio": 0.5739447215787905,
+          "price_change_24h": -0.00704
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38725261514283105,
-          "price_change_24h": -0.14816
+          "volume_mcap_ratio": 0.3858048824076565,
+          "price_change_24h": -0.02189
         }
       ],
       "momentum_shifts": []
