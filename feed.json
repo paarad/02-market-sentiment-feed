@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-19T20:25:48.960421+00:00",
+  "updated_at": "2025-10-20T02:03:57.724656+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.082,
+    "change24h": 0.024,
+    "vol": 0.057,
     "fearGreed": 29,
-    "momentum": 0.601,
+    "momentum": 0.414,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5076,
-    "global_sentiment": 0.4557,
-    "combined_sentiment": 0.502,
-    "confidence": 0.6642,
+    "crypto_sentiment": 0.4887,
+    "global_sentiment": 0.452,
+    "combined_sentiment": 0.4875,
+    "confidence": 0.6145,
     "counts": {
-      "crypto": 68,
-      "global": 39
+      "crypto": 69,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 108947,
-      "btc_change_24h": 1.67,
-      "eth_price": 3981.73,
-      "eth_change_24h": 2.14,
+      "btc_price": 107997,
+      "btc_change_24h": 0.95,
+      "eth_price": 3936.01,
+      "eth_change_24h": 1.6,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
-        "trend": "declining"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 183756988743.0,
+        "volume_24h": 204014034116.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.96,
+        "btc_dominance": 57.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-06T08:33:00.979257+00:00",
-      "crypto": 0.6423,
-      "global": 0.4503,
-      "combined": 0.6026,
-      "counts": {
-        "crypto": 67,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-06T12:52:54.838290+00:00",
       "crypto": 0.5791,
@@ -1008,39 +998,56 @@
         "crypto": 68,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-20T02:03:57.724656+00:00",
+      "crypto": 0.4887,
+      "global": 0.452,
+      "combined": 0.4875,
+      "counts": {
+        "crypto": 69,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.8% — rally",
+        "title": "Global crypto market cap up 1.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "‘Ether Caught Fire’: ETH Surged as Capital Fled Bitcoin in Q3, CoinGecko Report Finds",
-        "url": "https://www.coindesk.com/markets/2025/10/19/ether-caught-fire-eth-surged-as-capital-fled-bitcoin-in-q3-coingecko-report-finds",
-        "source": "CoinDesk",
-        "weight": 0.7193,
-        "score": 0.5333
+        "title": "Retail Mania Drives World-Beating Growth in Korea’s New Exchange",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-19/retail-mania-drives-world-beating-growth-in-korea-s-new-exchange",
+        "source": "Bloomberg Markets",
+        "weight": 0.6131,
+        "score": 0.6667
       },
       {
-        "title": "Crypto markets surge as Trump confirms October 31 summit with Xi Jinping",
-        "url": "https://cointelegraph.com/news/trump-confirms-meeting-xi-jinping-oct-31-market-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5938,
-        "score": 0.5333
+        "title": "Sany Heavy Industry Seeks Up to $1.6 Billion in HK Listing",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-19/sany-heavy-industry-seeks-up-to-1-6-billion-in-hk-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.5145,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "The SEC’s new crypto rules are a win for free markets — and for America",
-        "url": "https://cryptoslate.com/the-secs-new-crypto-rules-are-a-win-for-free-markets-and-for-america/",
-        "source": "CryptoSlate",
-        "weight": 0.6955,
-        "score": -0.6333
+        "title": "Global Banks Bet Billions on India Deals Amid US Credit Jitters",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-20/global-banks-bet-billions-on-india-deals-amid-us-credit-jitters",
+        "source": "Bloomberg Markets",
+        "weight": 0.7246,
+        "score": -1.0
+      },
+      {
+        "title": "Asian Stocks Extend Gains as Trade Tensions Cool: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-19/us-stock-futures-rise-as-china-trade-tensions-cool-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.5146,
+        "score": -0.9667
       },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
@@ -1048,26 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Inside the Pentagon’s AI Revolution",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-19/inside-the-pentagon-s-ai-revolution-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3848,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43742116171826223,
-          "price_change_24h": 0.01084
+          "volume_mcap_ratio": 0.48370272145065396,
+          "price_change_24h": 0.00112
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3734964614932818,
-          "price_change_24h": 0.07407
+          "volume_mcap_ratio": 0.35812536415074386,
+          "price_change_24h": 0.09091
         }
       ],
       "momentum_shifts": []
