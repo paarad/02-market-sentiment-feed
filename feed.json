@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-20T02:03:57.724656+00:00",
+  "updated_at": "2025-10-20T04:30:53.175837+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.057,
+    "change24h": 0.055,
+    "vol": 0.106,
     "fearGreed": 29,
-    "momentum": 0.414,
+    "momentum": 0.962,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4887,
-    "global_sentiment": 0.452,
-    "combined_sentiment": 0.4875,
-    "confidence": 0.6145,
+    "crypto_sentiment": 0.4275,
+    "global_sentiment": 0.4975,
+    "combined_sentiment": 0.4454,
+    "confidence": 0.626,
     "counts": {
       "crypto": 69,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 107997,
-      "btc_change_24h": 0.95,
-      "eth_price": 3936.01,
-      "eth_change_24h": 1.6,
+      "btc_price": 110085,
+      "btc_change_24h": 2.79,
+      "eth_price": 4032.15,
+      "eth_change_24h": 3.28,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.85,
       "fear_greed": {
         "value": 29,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 204014034116.0,
+        "volume_24h": 217518344310.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.01,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-06T12:52:54.838290+00:00",
-      "crypto": 0.5791,
-      "global": 0.4881,
-      "combined": 0.5584,
-      "counts": {
-        "crypto": 68,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-10-06T16:30:44.124225+00:00",
       "crypto": 0.6083,
@@ -1008,30 +998,40 @@
         "crypto": 69,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-20T04:30:53.175837+00:00",
+      "crypto": 0.4275,
+      "global": 0.4975,
+      "combined": 0.4454,
+      "counts": {
+        "crypto": 69,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.1% — rally",
+        "title": "CVC-Backed FineToday Cancels Tokyo IPO Citing Market Conditions",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-20/cvc-backed-finetoday-cancels-tokyo-ipo-citing-market-conditions",
+        "source": "Bloomberg Markets",
+        "weight": 0.6995,
+        "score": 0.6333
+      },
+      {
+        "title": "Global crypto market cap up 2.7% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Retail Mania Drives World-Beating Growth in Korea’s New Exchange",
+        "title": "12-Hour Stock Trading Drives Explosive Activity in Korea's $2.4 Trillion Market",
         "url": "https://www.bloomberg.com/news/articles/2025-10-19/retail-mania-drives-world-beating-growth-in-korea-s-new-exchange",
         "source": "Bloomberg Markets",
-        "weight": 0.6131,
+        "weight": 0.4621,
         "score": 0.6667
-      },
-      {
-        "title": "Sany Heavy Industry Seeks Up to $1.6 Billion in HK Listing",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-19/sany-heavy-industry-seeks-up-to-1-6-billion-in-hk-listing",
-        "source": "Bloomberg Markets",
-        "weight": 0.5145,
-        "score": 0.6333
       }
     ],
     "negative": [
@@ -1039,15 +1039,8 @@
         "title": "Global Banks Bet Billions on India Deals Amid US Credit Jitters",
         "url": "https://www.bloomberg.com/news/articles/2025-10-20/global-banks-bet-billions-on-india-deals-amid-us-credit-jitters",
         "source": "Bloomberg Markets",
-        "weight": 0.7246,
+        "weight": 0.546,
         "score": -1.0
-      },
-      {
-        "title": "Asian Stocks Extend Gains as Trade Tensions Cool: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-19/us-stock-futures-rise-as-china-trade-tensions-cool-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.5146,
-        "score": -0.9667
       },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
@@ -1055,19 +1048,26 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "No Digital ID, no food: coming soon to a Western society near you",
+        "url": "https://cryptoslate.com/no-digital-id-no-food-coming-soon-to-a-western-society-near-you/",
+        "source": "CryptoSlate",
+        "weight": 0.6306,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.48370272145065396,
-          "price_change_24h": 0.00112
+          "volume_mcap_ratio": 0.5241974855328868,
+          "price_change_24h": -0.02369
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.35812536415074386,
-          "price_change_24h": 0.09091
+          "volume_mcap_ratio": 0.3503178783163745,
+          "price_change_24h": -0.09738
         }
       ],
       "momentum_shifts": []
