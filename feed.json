@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-20T04:30:53.175837+00:00",
+  "updated_at": "2025-10-20T08:33:51.753501+00:00",
   "indicators": {
-    "change24h": 0.055,
-    "vol": 0.106,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 29,
-    "momentum": 0.962,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4275,
-    "global_sentiment": 0.4975,
-    "combined_sentiment": 0.4454,
-    "confidence": 0.626,
+    "crypto_sentiment": 0.4977,
+    "global_sentiment": 0.3034,
+    "combined_sentiment": 0.4819,
+    "confidence": 0.7073,
     "counts": {
-      "crypto": 69,
-      "global": 38
+      "crypto": 71,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 110085,
-      "btc_change_24h": 2.79,
-      "eth_price": 4032.15,
-      "eth_change_24h": 3.28,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "btc_price": 111323,
+      "btc_change_24h": 4.32,
+      "eth_price": 4058.1,
+      "eth_change_24h": 4.95,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 217518344310.0,
+        "volume_24h": 241367895435.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.0,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-06T16:30:44.124225+00:00",
-      "crypto": 0.6083,
-      "global": 0.5651,
-      "combined": 0.5867,
-      "counts": {
-        "crypto": 71,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-10-06T19:53:24.997248+00:00",
       "crypto": 0.6203,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-20T08:33:51.753501+00:00",
+      "crypto": 0.4977,
+      "global": 0.3034,
+      "combined": 0.4819,
+      "counts": {
+        "crypto": 71,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "CVC-Backed FineToday Cancels Tokyo IPO Citing Market Conditions",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-20/cvc-backed-finetoday-cancels-tokyo-ipo-citing-market-conditions",
-        "source": "Bloomberg Markets",
-        "weight": 0.6995,
-        "score": 0.6333
+        "title": "Bitcoin Jumps Past $111K, XRP, SOL, ETH Rally as Japanese Shares Hit Record High",
+        "url": "https://www.coindesk.com/markets/2025/10/20/bitcoin-retakes-usd110k-xrp-sol-eth-rally-as-japanese-shares-hit-record-high",
+        "source": "CoinDesk",
+        "weight": 0.8792,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 2.7% — rally",
+        "title": "Bitcoin’s next rally will start once OGs finish selling: Analysts",
+        "url": "https://cointelegraph.com/news/bitcoin-ogs-selling-tradfi-remains-resistance-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5938,
+        "score": 1.0
+      },
+      {
+        "title": "Global crypto market cap up 4.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "12-Hour Stock Trading Drives Explosive Activity in Korea's $2.4 Trillion Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-19/retail-mania-drives-world-beating-growth-in-korea-s-new-exchange",
-        "source": "Bloomberg Markets",
-        "weight": 0.4621,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Global Banks Bet Billions on India Deals Amid US Credit Jitters",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-20/global-banks-bet-billions-on-india-deals-amid-us-credit-jitters",
-        "source": "Bloomberg Markets",
-        "weight": 0.546,
+        "title": "Insider Testifies MIT Brothers Allegedly Planned $25M Crypto Heist for Months",
+        "url": "https://decrypt.co/344933/insider-testifies-mit-brothers-allegedly-planned-25m-crypto-heist",
+        "source": "Decrypt",
+        "weight": 0.7351,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 29 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Trump’s 100% movie tariff threat risks dealing a heavy blow to Britain’s already struggling film industry",
+        "url": "https://www.cnbc.com/2025/10/20/trumps-100percent-movie-tariff-threat-could-hit-britain-particularly-hard.html",
+        "source": "CNBC Markets",
+        "weight": 0.5643,
+        "score": -1.0
       },
       {
-        "title": "No Digital ID, no food: coming soon to a Western society near you",
-        "url": "https://cryptoslate.com/no-digital-id-no-food-coming-soon-to-a-western-society-near-you/",
-        "source": "CryptoSlate",
-        "weight": 0.6306,
-        "score": -0.6333
+        "title": "What to Expect From US-China Trade Talks This Week",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-20/what-to-expect-from-us-china-trade-talks-this-week",
+        "source": "Bloomberg Markets",
+        "weight": 0.5771,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5241974855328868,
-          "price_change_24h": -0.02369
+          "volume_mcap_ratio": 0.5788430347513297,
+          "price_change_24h": -0.01993
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3503178783163745,
-          "price_change_24h": -0.09738
+          "volume_mcap_ratio": 0.3786000406672174,
+          "price_change_24h": 0.21741
         }
       ],
       "momentum_shifts": []
