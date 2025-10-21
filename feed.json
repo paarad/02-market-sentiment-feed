@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-21T16:32:16.797311+00:00",
+  "updated_at": "2025-10-21T19:53:49.744371+00:00",
   "indicators": {
-    "change24h": 0.041,
-    "vol": 0.109,
+    "change24h": 0.001,
+    "vol": 0.091,
     "fearGreed": 34,
-    "momentum": 0.71,
+    "momentum": 0.014,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4075,
-    "global_sentiment": 0.5687,
-    "combined_sentiment": 0.4364,
-    "confidence": 0.8288,
+    "crypto_sentiment": 0.4446,
+    "global_sentiment": 0.4703,
+    "combined_sentiment": 0.456,
+    "confidence": 0.8373,
     "counts": {
-      "crypto": 66,
-      "global": 40
+      "crypto": 72,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 113729,
-      "btc_change_24h": 2.62,
-      "eth_price": 4103.46,
-      "eth_change_24h": 3.79,
+      "btc_price": 112031,
+      "btc_change_24h": 1.05,
+      "eth_price": 4011.11,
+      "eth_change_24h": 0.66,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 292030294580,
+        "volume_24h": 337069126159,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-08T01:51:35.521946+00:00",
-      "crypto": 0.6085,
-      "global": 0.4854,
-      "combined": 0.5802,
-      "counts": {
-        "crypto": 70,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-10-08T04:28:49.395773+00:00",
       "crypto": 0.601,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-21T19:53:49.744371+00:00",
+      "crypto": 0.4446,
+      "global": 0.4703,
+      "combined": 0.456,
+      "counts": {
+        "crypto": 72,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "One-time penny stock Beyond Meat soars after addition to meme ETF, jumps 60% on Tuesday",
-        "url": "https://www.cnbc.com/2025/10/21/one-time-penny-stock-beyond-meat-soars-after-addition-to-meme-etf-jumps-47percent-on-tuesday.html",
-        "source": "CNBC Markets",
-        "weight": 0.7864,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market Today: Dow Rises As Tesla Earnings Loom; Gold Stocks Retreat (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/f1f4fb8a-228b-3264-9bd2-5ad6f6d549b8/stock-market-today%3A-dow-rises.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Higher As Gold Stocks Crater; HBO Parent Seeks Buyers (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/f1f4fb8a-228b-3264-9bd2-5ad6f6d549b8/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7731,
+        "weight": 0.7629,
         "score": 0.8667
       },
       {
-        "title": "Cargill’s Profit Surges 86% With Boost From Trump Tax Bill",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/cargill-s-profit-surges-86-with-boost-from-trump-tax-bill",
-        "source": "Bloomberg Markets",
-        "weight": 0.7419,
+        "title": "Galaxy Digital reports $505M Q3 profit on trading surge, institutional demand",
+        "url": "https://cointelegraph.com/news/galaxy-digital-505m-q3-profit-trading-institutional-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7007,
         "score": 0.8667
+      },
+      {
+        "title": "XRP Spikes 3% as Gold Slips and Bitcoin Extends Gains",
+        "url": "https://www.coindesk.com/markets/2025/10/21/xrp-spikes-3-as-gold-slips-and-bitcoin-extends-gains",
+        "source": "CoinDesk",
+        "weight": 0.9039,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Canadian Stocks Drop as Gold Plunges, Inflation Accelerates",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/canadian-stocks-drop-as-gold-plunges-inflation-accelerates",
+        "title": "Bank Charters Give Crypto Cos. Power: Brian Brooks",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-21/bank-charters-give-crypto-cos-power-brian-brooks-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7551,
+        "weight": 0.7614,
         "score": -0.9667
       },
       {
-        "title": "Gold's Rally Comes to an End With Huge Plunge",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-21/why-gold-volatility-is-exposing-weird-market-forces-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6347,
-        "score": -1.0
+        "title": "Danaher gives investors reasons to stick around, sending beaten-up shares flying",
+        "url": "https://www.cnbc.com/2025/10/21/danaher-gives-investors-reasons-to-stick-around-sending-beaten-up-shares-flying.html",
+        "source": "CNBC Markets",
+        "weight": 0.7293,
+        "score": -0.9333
       },
       {
-        "title": "Bitcoin crash to $104K was ‘flush,’ not crypto cycle ‘failure’",
-        "url": "https://cointelegraph.com/news/bitcoin-crash-104k-flush-not-crypto-cycle-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4684,
-        "score": -0.9667
+        "title": "Healthy Returns: A key step forward for Novo Nordisk's GLP-1 pill",
+        "url": "https://www.cnbc.com/2025/10/21/healthy-returns-a-key-step-forward-for-novo-nordisks-glp-1-pill.html",
+        "source": "CNBC Markets",
+        "weight": 0.7598,
+        "score": -0.85
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7021915987430644,
-          "price_change_24h": 0.00099
+          "volume_mcap_ratio": 0.8015793896058905,
+          "price_change_24h": 0.01466
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3319699524374618,
-          "price_change_24h": 0.09104
+          "volume_mcap_ratio": 0.3168804571669147,
+          "price_change_24h": -0.00285
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-21",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4458,
+      "crypto_high": 0.5277,
+      "crypto_low": 0.3307,
+      "global_avg": 0.5314,
+      "global_high": 0.5764,
+      "global_low": 0.4703,
+      "combined_avg": 0.462,
+      "combined_high": 0.5272,
+      "combined_low": 0.3768
+    },
+    "market_indicators_24h": {
+      "change24h": 0.001,
+      "vol": 0.091,
+      "fearGreed": 34,
+      "momentum": 0.014,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-21T19:53:49.744371+00:00"
   }
 }
