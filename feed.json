@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-21T19:53:49.744371+00:00",
+  "updated_at": "2025-10-21T20:29:03.034686+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.091,
+    "change24h": -0.015,
+    "vol": 0.11,
     "fearGreed": 34,
-    "momentum": 0.014,
-    "regime": "sideways",
+    "momentum": -0.256,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4446,
-    "global_sentiment": 0.4703,
-    "combined_sentiment": 0.456,
-    "confidence": 0.8373,
+    "crypto_sentiment": 0.4505,
+    "global_sentiment": 0.4813,
+    "combined_sentiment": 0.4613,
+    "confidence": 0.839,
     "counts": {
-      "crypto": 72,
-      "global": 44
+      "crypto": 73,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 112031,
-      "btc_change_24h": 1.05,
-      "eth_price": 4011.11,
-      "eth_change_24h": 0.66,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "btc_price": 110875,
+      "btc_change_24h": -0.17,
+      "eth_price": 3952.48,
+      "eth_change_24h": -1.04,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 337069126159,
+        "volume_24h": 329956441659,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.44,
+        "btc_dominance": 57.41,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-08T04:28:49.395773+00:00",
-      "crypto": 0.601,
-      "global": 0.5148,
-      "combined": 0.577,
-      "counts": {
-        "crypto": 70,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-08T08:33:27.379109+00:00",
       "crypto": 0.4651,
@@ -1008,6 +998,16 @@
         "crypto": 72,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-10-21T20:29:03.034686+00:00",
+      "crypto": 0.4505,
+      "global": 0.4813,
+      "combined": 0.4613,
+      "counts": {
+        "crypto": 73,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Stock Market Today: Dow Higher As Gold Stocks Crater; HBO Parent Seeks Buyers (Live Coverage)",
         "url": "https://finance.yahoo.com/m/f1f4fb8a-228b-3264-9bd2-5ad6f6d549b8/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7629,
+        "weight": 0.7129,
         "score": 0.8667
       },
       {
         "title": "Galaxy Digital reports $505M Q3 profit on trading surge, institutional demand",
         "url": "https://cointelegraph.com/news/galaxy-digital-505m-q3-profit-trading-institutional-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7007,
+        "weight": 0.6548,
         "score": 0.8667
       },
       {
         "title": "XRP Spikes 3% as Gold Slips and Bitcoin Extends Gains",
         "url": "https://www.coindesk.com/markets/2025/10/21/xrp-spikes-3-as-gold-slips-and-bitcoin-extends-gains",
         "source": "CoinDesk",
-        "weight": 0.9039,
+        "weight": 0.8446,
         "score": 0.6667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Bank Charters Give Crypto Cos. Power: Brian Brooks",
         "url": "https://www.bloomberg.com/news/videos/2025-10-21/bank-charters-give-crypto-cos-power-brian-brooks-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7614,
+        "weight": 0.7115,
         "score": -0.9667
       },
       {
         "title": "Danaher gives investors reasons to stick around, sending beaten-up shares flying",
         "url": "https://www.cnbc.com/2025/10/21/danaher-gives-investors-reasons-to-stick-around-sending-beaten-up-shares-flying.html",
         "source": "CNBC Markets",
-        "weight": 0.7293,
+        "weight": 0.6815,
         "score": -0.9333
       },
       {
         "title": "Healthy Returns: A key step forward for Novo Nordisk's GLP-1 pill",
         "url": "https://www.cnbc.com/2025/10/21/healthy-returns-a-key-step-forward-for-novo-nordisks-glp-1-pill.html",
         "source": "CNBC Markets",
-        "weight": 0.7598,
+        "weight": 0.71,
         "score": -0.85
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8015793896058905,
-          "price_change_24h": 0.01466
+          "volume_mcap_ratio": 0.8086504402614559,
+          "price_change_24h": 0.00874
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3168804571669147,
-          "price_change_24h": -0.00285
+          "volume_mcap_ratio": 0.35789933208526875,
+          "price_change_24h": 0.0057
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-21",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4458,
-      "crypto_high": 0.5277,
-      "crypto_low": 0.3307,
-      "global_avg": 0.5314,
-      "global_high": 0.5764,
-      "global_low": 0.4703,
-      "combined_avg": 0.462,
-      "combined_high": 0.5272,
-      "combined_low": 0.3768
-    },
-    "market_indicators_24h": {
-      "change24h": 0.001,
-      "vol": 0.091,
-      "fearGreed": 34,
-      "momentum": 0.014,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-21T19:53:49.744371+00:00"
   }
 }
