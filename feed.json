@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-21T04:29:34.286334+00:00",
+  "updated_at": "2025-10-21T08:35:41.944158+00:00",
   "indicators": {
-    "change24h": -0.038,
-    "vol": 0.138,
+    "change24h": -0.065,
+    "vol": 0.163,
     "fearGreed": 34,
-    "momentum": -0.671,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.474,
-    "global_sentiment": 0.5304,
-    "combined_sentiment": 0.483,
-    "confidence": 0.7499,
+    "crypto_sentiment": 0.4905,
+    "global_sentiment": 0.4973,
+    "combined_sentiment": 0.4926,
+    "confidence": 0.7389,
     "counts": {
       "crypto": 66,
-      "global": 37
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 108201,
-      "btc_change_24h": -1.71,
-      "eth_price": 3872.45,
-      "eth_change_24h": -3.96,
+      "btc_price": 107775,
+      "btc_change_24h": -3.23,
+      "eth_price": 3873.3,
+      "eth_change_24h": -4.59,
       "market_regime": "bear",
-      "regime_strength": 0.4,
+      "regime_strength": 0.6,
       "market_breadth": 0.15,
       "fear_greed": {
         "value": 34,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 238921642777,
-        "high_activity_coins": 2
+        "volume_24h": 232544214166,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.22,
+        "btc_dominance": 57.2,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-07T16:30:40.560398+00:00",
-      "crypto": 0.6871,
-      "global": 0.5082,
-      "combined": 0.641,
-      "counts": {
-        "crypto": 68,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-10-07T19:53:48.787232+00:00",
       "crypto": 0.6869,
@@ -1008,39 +998,56 @@
         "crypto": 66,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-21T08:35:41.944158+00:00",
+      "crypto": 0.4905,
+      "global": 0.4973,
+      "combined": 0.4926,
+      "counts": {
+        "crypto": 66,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "DOGE Consolidates Near Lows, but Watch $0.194 for Breakdown or Short-Cover Rally",
+        "url": "https://www.coindesk.com/markets/2025/10/21/doge-consolidates-near-lows-but-watch-usd0-194-for-breakdown-or-short-cover-rally",
+        "source": "CoinDesk",
+        "weight": 0.9986,
+        "score": 0.5333
+      },
+      {
+        "title": "BlackRock Executes Inaugural Saudi Riyal Bond Deals on Tradeweb",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/blackrock-executes-inaugural-saudi-riyal-bond-deals-on-tradeweb",
+        "source": "Bloomberg Markets",
+        "weight": 0.6014,
+        "score": 0.6667
+      },
+      {
         "title": "Shares of Australian critical metal companies surge on $8.5 billion U.S. minerals deal",
         "url": "https://www.cnbc.com/2025/10/21/shares-of-australian-rare-earth-miners-surge-8-5-billion-us-critical-minerals-deal-lynas-alcoa-pilbara.html",
         "source": "CNBC Markets",
-        "weight": 0.5973,
-        "score": 0.8667
-      },
-      {
-        "title": "Bitcoin Bounce Stalls as XRP, Zcash Lead Gains; Arca Says Rally Not a Dead-Cat Bounce",
-        "url": "https://www.coindesk.com/markets/2025/10/20/bitcoin-bounce-stalls-as-xrp-zcash-lead-gains-arca-says-rally-not-a-dead-cat-bounce",
-        "source": "CoinDesk",
-        "weight": 0.5104,
-        "score": 0.8667
-      },
-      {
-        "title": "Stock Rally Powers On as Asian Shares Hit Record: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-20/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.4026,
+        "weight": 0.3719,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Techcom Rises in Debut as Vietnam Market Rebounds After Selloff",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/techcom-securities-rises-in-vietnam-trading-debut",
+        "title": "Pop Mart’s Shares Slide Ahead of Third-Quarter Business Update",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/pop-mart-s-shares-sink-ahead-of-third-quarter-business-update",
         "source": "Bloomberg Markets",
-        "weight": 0.6402,
-        "score": -0.8
+        "weight": 0.6916,
+        "score": -0.9667
+      },
+      {
+        "title": "Thai 2050 Bond Auction Draws Weak Demand on Rate View, Valuation",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/thai-2050-bond-auction-draws-weak-demand-on-rate-view-valuation",
+        "source": "Bloomberg Markets",
+        "weight": 0.74,
+        "score": -0.6667
       },
       {
         "title": "Fear & Greed 34 (Fear) — bearish",
@@ -1048,26 +1055,14 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "CRYPTO BOUNCES BACK, ALTCOINS BELOW FTX LEVELS, CPI THIS WEEK",
-        "url": "https://decrypt.co/videos/interviews/lY5ApB8F/crypto-bounces-back-altcoins-below-ftx-levels-cpi-this-week",
-        "source": "Decrypt",
-        "weight": 0.8325,
-        "score": -0.4333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5713104809758335,
-          "price_change_24h": 0.0037
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3390720271194833,
-          "price_change_24h": -0.05859
+          "volume_mcap_ratio": 0.5643579244480212,
+          "price_change_24h": 0.02031
         }
       ],
       "momentum_shifts": []
