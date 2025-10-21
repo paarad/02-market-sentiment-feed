@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-21T12:55:09.686178+00:00",
+  "updated_at": "2025-10-21T16:32:16.797311+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.117,
+    "change24h": 0.041,
+    "vol": 0.109,
     "fearGreed": 34,
-    "momentum": -0.701,
-    "regime": "bear",
+    "momentum": 0.71,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3307,
-    "global_sentiment": 0.5454,
-    "combined_sentiment": 0.3768,
-    "confidence": 0.8069,
+    "crypto_sentiment": 0.4075,
+    "global_sentiment": 0.5687,
+    "combined_sentiment": 0.4364,
+    "confidence": 0.8288,
     "counts": {
-      "crypto": 68,
+      "crypto": 66,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 108998,
-      "btc_change_24h": -1.75,
-      "eth_price": 3894.55,
-      "eth_change_24h": -3.4,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "btc_price": 113729,
+      "btc_change_24h": 2.62,
+      "eth_price": 4103.46,
+      "eth_change_24h": 3.79,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 242808939753,
+        "volume_24h": 292030294580,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.3,
+        "btc_dominance": 57.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-07T20:26:24.968303+00:00",
-      "crypto": 0.6862,
-      "global": 0.3831,
-      "combined": 0.6299,
-      "counts": {
-        "crypto": 65,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-10-08T01:51:35.521946+00:00",
       "crypto": 0.6085,
@@ -1008,66 +998,76 @@
         "crypto": 68,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-21T16:32:16.797311+00:00",
+      "crypto": 0.4075,
+      "global": 0.5687,
+      "combined": 0.4364,
+      "counts": {
+        "crypto": 66,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Inches Up Near Record; GM Stock Surges On Earnings (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/f1f4fb8a-228b-3264-9bd2-5ad6f6d549b8/stock-market-today%3A-dow.html?.tsrc=rss",
+        "title": "One-time penny stock Beyond Meat soars after addition to meme ETF, jumps 60% on Tuesday",
+        "url": "https://www.cnbc.com/2025/10/21/one-time-penny-stock-beyond-meat-soars-after-addition-to-meme-etf-jumps-47percent-on-tuesday.html",
+        "source": "CNBC Markets",
+        "weight": 0.7864,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today: Dow Rises As Tesla Earnings Loom; Gold Stocks Retreat (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/f1f4fb8a-228b-3264-9bd2-5ad6f6d549b8/stock-market-today%3A-dow-rises.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7363,
+        "weight": 0.7731,
         "score": 0.8667
       },
       {
-        "title": "Eos Shares Surge 23% on Deal to Power Pennsylvania Data Centers",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/new-battery-factory-to-boost-power-for-pennsylvania-data-centers",
+        "title": "Cargill’s Profit Surges 86% With Boost From Trump Tax Bill",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/cargill-s-profit-surges-86-with-boost-from-trump-tax-bill",
         "source": "Bloomberg Markets",
-        "weight": 0.7351,
-        "score": 0.6667
-      },
-      {
-        "title": "America Inc. Provides Upbeat Picture in Absence of Economic Data",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/everything-is-just-fine-earnings-counter-economic-pessimism",
-        "source": "Bloomberg Markets",
-        "weight": 0.6926,
-        "score": 0.5333
+        "weight": 0.7419,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Novaland Shares Plunge as Probe Threat Adds to Debt Struggles",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/novaland-shares-plunge-as-probe-threat-adds-to-debt-struggles",
+        "title": "Canadian Stocks Drop as Gold Plunges, Inflation Accelerates",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/canadian-stocks-drop-as-gold-plunges-inflation-accelerates",
         "source": "Bloomberg Markets",
-        "weight": 0.7018,
+        "weight": 0.7551,
+        "score": -0.9667
+      },
+      {
+        "title": "Gold's Rally Comes to an End With Huge Plunge",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-21/why-gold-volatility-is-exposing-weird-market-forces-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6347,
         "score": -1.0
       },
       {
         "title": "Bitcoin crash to $104K was ‘flush,’ not crypto cycle ‘failure’",
         "url": "https://cointelegraph.com/news/bitcoin-crash-104k-flush-not-crypto-cycle-failure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7116,
+        "weight": 0.4684,
         "score": -0.9667
-      },
-      {
-        "title": "Argo’s creditor grabs 87.5% stake in struggling miner in bold takeover move",
-        "url": "https://cointelegraph.com/news/argo-growler-mining-takeover-restructuring?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.63,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5718954077670283,
-          "price_change_24h": 0.01155
+          "volume_mcap_ratio": 0.7021915987430644,
+          "price_change_24h": 0.00099
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3098674402636593,
-          "price_change_24h": -0.08199
+          "volume_mcap_ratio": 0.3319699524374618,
+          "price_change_24h": 0.09104
         }
       ],
       "momentum_shifts": []
