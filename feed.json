@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-21T20:29:03.034686+00:00",
+  "updated_at": "2025-10-22T02:00:37.551360+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.11,
-    "fearGreed": 34,
-    "momentum": -0.256,
+    "change24h": -0.025,
+    "vol": 0.109,
+    "fearGreed": 25,
+    "momentum": -0.444,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4505,
-    "global_sentiment": 0.4813,
-    "combined_sentiment": 0.4613,
-    "confidence": 0.839,
+    "crypto_sentiment": 0.4655,
+    "global_sentiment": 0.4388,
+    "combined_sentiment": 0.469,
+    "confidence": 0.7909,
     "counts": {
-      "crypto": 73,
-      "global": 47
+      "crypto": 74,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 110875,
-      "btc_change_24h": -0.17,
-      "eth_price": 3952.48,
-      "eth_change_24h": -1.04,
+      "btc_price": 108398,
+      "btc_change_24h": -1.37,
+      "eth_price": 3870.56,
+      "eth_change_24h": -1.93,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.25,
       "fear_greed": {
-        "value": 34,
-        "classification": "Fear",
+        "value": 25,
+        "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 329956441659,
+        "volume_24h": 376753446455,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.41,
+        "btc_dominance": 57.29,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-08T08:33:27.379109+00:00",
-      "crypto": 0.4651,
-      "global": 0.5139,
-      "combined": 0.475,
-      "counts": {
-        "crypto": 76,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-10-08T12:52:53.172706+00:00",
       "crypto": 0.5015,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-10-22T02:00:37.551360+00:00",
+      "crypto": 0.4655,
+      "global": 0.4388,
+      "combined": 0.469,
+      "counts": {
+        "crypto": 74,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Higher As Gold Stocks Crater; HBO Parent Seeks Buyers (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/f1f4fb8a-228b-3264-9bd2-5ad6f6d549b8/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7129,
+        "title": "LG Chem Shares Jump as Palliser Discloses Stake, Urges Changes",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-22/lg-chem-shares-jump-as-palliser-discloses-stake-urges-changes-mh1a1bg9",
+        "source": "Bloomberg Markets",
+        "weight": 0.699,
+        "score": 0.5333
+      },
+      {
+        "title": "Capital One Announces $16 Billion Buyback as Profit Soars",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/capital-one-profit-tops-estimates-announces-16-billion-buyback",
+        "source": "Bloomberg Markets",
+        "weight": 0.4197,
         "score": 0.8667
       },
       {
         "title": "Galaxy Digital reports $505M Q3 profit on trading surge, institutional demand",
         "url": "https://cointelegraph.com/news/galaxy-digital-505m-q3-profit-trading-institutional-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6548,
+        "weight": 0.3458,
         "score": 0.8667
-      },
-      {
-        "title": "XRP Spikes 3% as Gold Slips and Bitcoin Extends Gains",
-        "url": "https://www.coindesk.com/markets/2025/10/21/xrp-spikes-3-as-gold-slips-and-bitcoin-extends-gains",
-        "source": "CoinDesk",
-        "weight": 0.8446,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bank Charters Give Crypto Cos. Power: Brian Brooks",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-21/bank-charters-give-crypto-cos-power-brian-brooks-video",
+        "title": "Australian Lithium Producer PLS Says Global Outlook Is Positive",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-22/australian-lithium-producer-pls-says-global-outlook-is-positive",
         "source": "Bloomberg Markets",
-        "weight": 0.7115,
+        "weight": 0.6797,
         "score": -0.9667
       },
       {
-        "title": "Danaher gives investors reasons to stick around, sending beaten-up shares flying",
-        "url": "https://www.cnbc.com/2025/10/21/danaher-gives-investors-reasons-to-stick-around-sending-beaten-up-shares-flying.html",
-        "source": "CNBC Markets",
-        "weight": 0.6815,
-        "score": -0.9333
+        "title": "OpenAI Looks to Replace the Drudgery of Junior Bankers’ Workload",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-21/openai-looks-to-replace-drudgery-of-jr-bankers-workload-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.528,
+        "score": -0.9667
       },
       {
-        "title": "Healthy Returns: A key step forward for Novo Nordisk's GLP-1 pill",
-        "url": "https://www.cnbc.com/2025/10/21/healthy-returns-a-key-step-forward-for-novo-nordisks-glp-1-pill.html",
-        "source": "CNBC Markets",
-        "weight": 0.71,
-        "score": -0.85
+        "title": "Fear & Greed 25 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8086504402614559,
-          "price_change_24h": 0.00874
+          "volume_mcap_ratio": 0.9195627405854437,
+          "price_change_24h": 0.01429
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.35789933208526875,
-          "price_change_24h": 0.0057
+          "volume_mcap_ratio": 0.31752796321441445,
+          "price_change_24h": 0.03372
         }
       ],
       "momentum_shifts": []
