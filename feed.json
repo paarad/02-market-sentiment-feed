@@ -1,64 +1,54 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-22T04:29:36.320370+00:00",
+  "updated_at": "2025-10-22T08:35:58.698217+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.057,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 25,
-    "momentum": 0.052,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4772,
-    "global_sentiment": 0.4713,
-    "combined_sentiment": 0.4805,
-    "confidence": 0.7584,
+    "crypto_sentiment": 0.5796,
+    "global_sentiment": 0.4286,
+    "combined_sentiment": 0.5538,
+    "confidence": 0.7511,
     "counts": {
       "crypto": 73,
-      "global": 36
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 108430,
-      "btc_change_24h": 0.18,
-      "eth_price": 3866.19,
-      "eth_change_24h": -0.25,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 0,
+      "btc_change_24h": 0,
+      "eth_price": 0,
+      "eth_change_24h": 0,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "low",
-        "volume_24h": 369621560987,
-        "high_activity_coins": 2
+        "level": "unknown",
+        "volume_24h": 0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.28,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
-        "sources": 2,
-        "coins_analyzed": 100
+        "sources": 1,
+        "coins_analyzed": 0
       }
     }
   },
   "history": [
-    {
-      "ts": "2025-10-08T16:30:59.191187+00:00",
-      "crypto": 0.6103,
-      "global": 0.5057,
-      "combined": 0.5832,
-      "counts": {
-        "crypto": 68,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-10-08T19:53:39.304078+00:00",
       "crypto": 0.5929,
@@ -1008,46 +998,49 @@
         "crypto": 73,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-10-22T08:35:58.698217+00:00",
+      "crypto": 0.5796,
+      "global": 0.4286,
+      "combined": 0.5538,
+      "counts": {
+        "crypto": 73,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Goldman Sachs Sees 30% Upside for China Stocks Through 2027",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-22/goldman-sachs-sees-30-upside-for-chinese-stocks-through-2027-mh1crpgw",
-        "source": "Bloomberg Markets",
-        "weight": 0.608,
-        "score": 0.6667
-      },
-      {
-        "title": "Oil Gains on Report US-India Deal Near That May Cut Russia Flows",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/latest-oil-market-news-and-analysis-for-oct-22",
-        "source": "Bloomberg Markets",
-        "weight": 0.4582,
-        "score": 0.6667
-      },
-      {
-        "title": "LG Chem Shares Jump as Palliser Discloses Stake, Urges Changes",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-22/lg-chem-shares-jump-as-palliser-discloses-stake-urges-changes-mh1a1bg9",
-        "source": "Bloomberg Markets",
-        "weight": 0.5247,
+        "title": "XRP Edges Higher to $2.43 as Volume Surges Above Weekly Average",
+        "url": "https://www.coindesk.com/markets/2025/10/22/xrp-edges-higher-to-usd2-43-as-volume-surges-above-weekly-average",
+        "source": "CoinDesk",
+        "weight": 0.8102,
         "score": 0.5333
+      },
+      {
+        "title": "Odd Lots: Olli Rehn on the Big Challenge Facing Europe (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2025-10-22/finland-s-olli-rehn-on-the-big-challenge-facing-europe",
+        "source": "Bloomberg Markets",
+        "weight": 0.7465,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin chart is echoing the 1970s soybean bubble: Peter Brandt",
+        "url": "https://cointelegraph.com/news/bitcoin-price-soybean-market-skeptical-crypto-analysts-peter-brandt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5736,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Innovent Shares Jump After $11.4 Billion Drug Deal With Takeda",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-22/takeda-inks-deal-with-china-s-innovent-to-develop-cancer-drugs",
+        "title": "'Big Concerns' About Defensive Stocks, State Street Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-22/-big-concerns-about-defensive-stocks-state-street-says-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5753,
-        "score": -0.9333
-      },
-      {
-        "title": "China Bonds Get a Boost as Trade Angst Spurs Bets on PBOC Easing",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-22/china-bonds-get-a-boost-as-trade-angst-spurs-bets-on-pboc-easing",
-        "source": "Bloomberg Markets",
-        "weight": 0.7666,
-        "score": -0.6667
+        "weight": 0.7475,
+        "score": -1.0
       },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
@@ -1055,21 +1048,17 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Trump sees successful Xi meeting&mdash;if it happens | The China Show 10/22/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-22/the-china-show-10-22-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6094,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.90680298447587,
-          "price_change_24h": 0.00858
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3332847232181213,
-          "price_change_24h": 0.01038
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
