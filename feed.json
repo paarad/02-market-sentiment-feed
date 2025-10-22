@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-22T02:00:37.551360+00:00",
+  "updated_at": "2025-10-22T04:29:36.320370+00:00",
   "indicators": {
-    "change24h": -0.025,
-    "vol": 0.109,
+    "change24h": 0.003,
+    "vol": 0.057,
     "fearGreed": 25,
-    "momentum": -0.444,
-    "regime": "bear",
+    "momentum": 0.052,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4655,
-    "global_sentiment": 0.4388,
-    "combined_sentiment": 0.469,
-    "confidence": 0.7909,
+    "crypto_sentiment": 0.4772,
+    "global_sentiment": 0.4713,
+    "combined_sentiment": 0.4805,
+    "confidence": 0.7584,
     "counts": {
-      "crypto": 74,
-      "global": 37
+      "crypto": 73,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 108398,
-      "btc_change_24h": -1.37,
-      "eth_price": 3870.56,
-      "eth_change_24h": -1.93,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 108430,
+      "btc_change_24h": 0.18,
+      "eth_price": 3866.19,
+      "eth_change_24h": -0.25,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 376753446455,
+        "volume_24h": 369621560987,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.29,
+        "btc_dominance": 57.28,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-08T12:52:53.172706+00:00",
-      "crypto": 0.5015,
-      "global": 0.5132,
-      "combined": 0.5022,
-      "counts": {
-        "crypto": 80,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-08T16:30:59.191187+00:00",
       "crypto": 0.6103,
@@ -1008,46 +998,56 @@
         "crypto": 74,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-10-22T04:29:36.320370+00:00",
+      "crypto": 0.4772,
+      "global": 0.4713,
+      "combined": 0.4805,
+      "counts": {
+        "crypto": 73,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Goldman Sachs Sees 30% Upside for China Stocks Through 2027",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-22/goldman-sachs-sees-30-upside-for-chinese-stocks-through-2027-mh1crpgw",
+        "source": "Bloomberg Markets",
+        "weight": 0.608,
+        "score": 0.6667
+      },
+      {
+        "title": "Oil Gains on Report US-India Deal Near That May Cut Russia Flows",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-21/latest-oil-market-news-and-analysis-for-oct-22",
+        "source": "Bloomberg Markets",
+        "weight": 0.4582,
+        "score": 0.6667
+      },
+      {
         "title": "LG Chem Shares Jump as Palliser Discloses Stake, Urges Changes",
         "url": "https://www.bloomberg.com/news/articles/2025-10-22/lg-chem-shares-jump-as-palliser-discloses-stake-urges-changes-mh1a1bg9",
         "source": "Bloomberg Markets",
-        "weight": 0.699,
+        "weight": 0.5247,
         "score": 0.5333
-      },
-      {
-        "title": "Capital One Announces $16 Billion Buyback as Profit Soars",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-21/capital-one-profit-tops-estimates-announces-16-billion-buyback",
-        "source": "Bloomberg Markets",
-        "weight": 0.4197,
-        "score": 0.8667
-      },
-      {
-        "title": "Galaxy Digital reports $505M Q3 profit on trading surge, institutional demand",
-        "url": "https://cointelegraph.com/news/galaxy-digital-505m-q3-profit-trading-institutional-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3458,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Australian Lithium Producer PLS Says Global Outlook Is Positive",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-22/australian-lithium-producer-pls-says-global-outlook-is-positive",
+        "title": "Innovent Shares Jump After $11.4 Billion Drug Deal With Takeda",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-22/takeda-inks-deal-with-china-s-innovent-to-develop-cancer-drugs",
         "source": "Bloomberg Markets",
-        "weight": 0.6797,
-        "score": -0.9667
+        "weight": 0.5753,
+        "score": -0.9333
       },
       {
-        "title": "OpenAI Looks to Replace the Drudgery of Junior Bankers’ Workload",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-21/openai-looks-to-replace-drudgery-of-jr-bankers-workload-video",
+        "title": "China Bonds Get a Boost as Trade Angst Spurs Bets on PBOC Easing",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-22/china-bonds-get-a-boost-as-trade-angst-spurs-bets-on-pboc-easing",
         "source": "Bloomberg Markets",
-        "weight": 0.528,
-        "score": -0.9667
+        "weight": 0.7666,
+        "score": -0.6667
       },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9195627405854437,
-          "price_change_24h": 0.01429
+          "volume_mcap_ratio": 0.90680298447587,
+          "price_change_24h": 0.00858
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.31752796321441445,
-          "price_change_24h": 0.03372
+          "volume_mcap_ratio": 0.3332847232181213,
+          "price_change_24h": 0.01038
         }
       ],
       "momentum_shifts": []
