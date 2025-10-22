@@ -1,64 +1,54 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-22T08:35:58.698217+00:00",
+  "updated_at": "2025-10-22T12:56:06.225249+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.02,
+    "vol": 0.081,
     "fearGreed": 25,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.353,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5796,
-    "global_sentiment": 0.4286,
-    "combined_sentiment": 0.5538,
-    "confidence": 0.7511,
+    "crypto_sentiment": 0.5744,
+    "global_sentiment": 0.4422,
+    "combined_sentiment": 0.551,
+    "confidence": 0.8023,
     "counts": {
-      "crypto": 73,
-      "global": 34
+      "crypto": 71,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 0,
-      "btc_change_24h": 0,
-      "eth_price": 0,
-      "eth_change_24h": 0,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 108091,
+      "btc_change_24h": -0.9,
+      "eth_price": 3850.1,
+      "eth_change_24h": -1.07,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "unknown",
-        "volume_24h": 0,
-        "high_activity_coins": 0
+        "level": "low",
+        "volume_24h": 377033659117,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.29,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
-        "sources": 1,
-        "coins_analyzed": 0
+        "sources": 2,
+        "coins_analyzed": 100
       }
     }
   },
   "history": [
-    {
-      "ts": "2025-10-08T19:53:39.304078+00:00",
-      "crypto": 0.5929,
-      "global": 0.552,
-      "combined": 0.574,
-      "counts": {
-        "crypto": 70,
-        "global": 53
-      }
-    },
     {
       "ts": "2025-10-08T20:26:35.404271+00:00",
       "crypto": 0.5872,
@@ -1008,57 +998,78 @@
         "crypto": 73,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-10-22T12:56:06.225249+00:00",
+      "crypto": 0.5744,
+      "global": 0.4422,
+      "combined": 0.551,
+      "counts": {
+        "crypto": 71,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP Edges Higher to $2.43 as Volume Surges Above Weekly Average",
-        "url": "https://www.coindesk.com/markets/2025/10/22/xrp-edges-higher-to-usd2-43-as-volume-surges-above-weekly-average",
+        "title": "Incannex Granted 180-Day Extension by Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/news/incannex-granted-180-day-extension-120000248.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7181,
+        "score": 0.9667
+      },
+      {
+        "title": "Why Bitcoin Volatility Remains Sticky While S&P 500's VIX Reverses October 10 Surge",
+        "url": "https://www.coindesk.com/markets/2025/10/22/bitcoin-volatility-remains-sticky-while-vix-reverses-oct-10-surge",
         "source": "CoinDesk",
-        "weight": 0.8102,
+        "weight": 0.9262,
         "score": 0.5333
       },
       {
-        "title": "Odd Lots: Olli Rehn on the Big Challenge Facing Europe (Podcast)",
-        "url": "https://www.bloomberg.com/news/audio/2025-10-22/finland-s-olli-rehn-on-the-big-challenge-facing-europe",
-        "source": "Bloomberg Markets",
-        "weight": 0.7465,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin chart is echoing the 1970s soybean bubble: Peter Brandt",
-        "url": "https://cointelegraph.com/news/bitcoin-price-soybean-market-skeptical-crypto-analysts-peter-brandt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5736,
+        "title": "3 Promising Penny Stocks With Market Caps Over $100M",
+        "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-market-120507089.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7252,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "'Big Concerns' About Defensive Stocks, State Street Says",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-22/-big-concerns-about-defensive-stocks-state-street-says-video",
+        "title": "Gold Steadies After Historic Selloff, US Government Shutdown Hits Day 22 | The Opening Trade 10/22",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-22/the-opening-trade-10-22-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7475,
+        "weight": 0.7526,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 25 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "AI is already taking white-collar jobs. Economists warn there's 'much more in the tank'",
+        "url": "https://www.cnbc.com/2025/10/22/ai-taking-white-collar-jobs-economists-warn-much-more-in-the-tank.html",
+        "source": "CNBC Markets",
+        "weight": 0.7011,
+        "score": -1.0
       },
       {
-        "title": "Trump sees successful Xi meeting&mdash;if it happens | The China Show 10/22/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-22/the-china-show-10-22-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6094,
-        "score": -0.6333
+        "title": "S&P Futures Rise, Gold Selloff Continues",
+        "url": "https://finance.yahoo.com/m/e815ee9f-626c-33db-bf87-6141d6199073/s%26p-futures-rise%2C-gold.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6234,
+        "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.9143052995004917,
+          "price_change_24h": 0.00798
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3478221253873967,
+          "price_change_24h": 0.12682
+        }
+      ],
       "momentum_shifts": []
     }
   },
