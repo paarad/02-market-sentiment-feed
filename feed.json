@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-23T08:34:47.900881+00:00",
+  "updated_at": "2025-10-23T12:54:57.219657+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.169,
+    "change24h": 0.012,
+    "vol": 0.151,
     "fearGreed": 27,
-    "momentum": 0.488,
+    "momentum": 0.215,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4886,
-    "global_sentiment": 0.4495,
-    "combined_sentiment": 0.4873,
-    "confidence": 0.7656,
+    "crypto_sentiment": 0.4707,
+    "global_sentiment": 0.5681,
+    "combined_sentiment": 0.4837,
+    "confidence": 0.8171,
     "counts": {
-      "crypto": 66,
-      "global": 36
+      "crypto": 70,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 109756,
-      "btc_change_24h": 1.36,
-      "eth_price": 3900.02,
-      "eth_change_24h": 1.06,
+      "btc_price": 109082,
+      "btc_change_24h": 0.9,
+      "eth_price": 3848.33,
+      "eth_change_24h": 0.08,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 290535214818,
+        "volume_24h": 278504762776,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.4,
+        "btc_dominance": 57.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-09T19:53:46.590925+00:00",
-      "crypto": 0.5598,
-      "global": 0.468,
-      "combined": 0.5422,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-10-09T20:27:15.245150+00:00",
       "crypto": 0.5643,
@@ -1008,52 +998,62 @@
         "crypto": 66,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-10-23T12:54:57.219657+00:00",
+      "crypto": 0.4707,
+      "global": 0.5681,
+      "combined": 0.4837,
+      "counts": {
+        "crypto": 70,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Juggernaut in making? Polymarket’s valuation may jump 10x to $15B with new funding",
-        "url": "https://cointelegraph.com/news/polymarket-valuation-could-jump-to-15b-amid-new-funding-talks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7289,
+        "title": "Hedge Fund Assets Hit $5 Trillion With Most Inflows Since Before Financial Crisis",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-23/hedge-fund-assets-hit-5-trillion-most-inflows-since-before-financial-crisis",
+        "source": "Bloomberg Markets",
+        "weight": 0.6214,
         "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 1.3% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Sweden’s Volvo Cars on track for best trading day ever as profit tops expectations",
+        "url": "https://www.cnbc.com/2025/10/23/volvo-cars-shares-skyrocket-on-profit-beat-on-track-for-best-day-ever.html",
+        "source": "CNBC Markets",
+        "weight": 0.6898,
+        "score": 0.8667
       },
       {
-        "title": "Dogecoin Tests $0.19 Support as Tight Range Signals Breakout Potential",
-        "url": "https://www.coindesk.com/markets/2025/10/23/dogecoin-tests-usd0-19-support-as-tight-range-signals-breakout-potential",
-        "source": "CoinDesk",
-        "weight": 0.663,
-        "score": 0.5333
+        "title": "Oil Jumps as US Sanctions Russia; Tesla Profit Falls Amid Rising Costs | Bloomberg Brief 10/23/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-23/bloomberg-brief-10-23-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6491,
+        "score": 0.9
       }
     ],
     "negative": [
       {
-        "title": "China's property slump is far from bottoming. But Beijing is prioritizing tech growth",
-        "url": "https://www.cnbc.com/2025/10/23/chinas-property-slump-is-far-from-bottoming-but-beijing-is-prioritizing-tech-growth.html",
-        "source": "CNBC Markets",
-        "weight": 0.7523,
+        "title": "Decentralized Exchange Bunni Pulls the Plug Following $8.4M Flash Loan Exploit",
+        "url": "https://decrypt.co/345621/decentralized-exchange-bunni-pulls-the-plug-following-8-4m-flash-loan-exploit",
+        "source": "Decrypt",
+        "weight": 0.5771,
         "score": -1.0
       },
       {
-        "title": "WazirX to Restart Trading on Friday After $230M Hack Caused Year-Long Shutdown",
-        "url": "https://www.coindesk.com/markets/2025/10/23/wazirx-to-restart-trading-on-friday-after-usd230m-hack-caused-year-long-shutdown",
+        "title": "Bunni DEX Shuts Down, Cites Recovery Costs After $8.4M Exploit",
+        "url": "https://www.coindesk.com/business/2025/10/23/bunni-dex-shuts-down-cites-recovery-costs-after-usd8-4m-exploit",
         "source": "CoinDesk",
-        "weight": 0.7564,
-        "score": -0.7333
+        "weight": 0.6699,
+        "score": -0.8333
       },
       {
-        "title": "Is Bitcoin Headed for a Crash Below $100K? ‘Grand Daddy’ Volume Indicator Hits Lowest Since April",
-        "url": "https://www.coindesk.com/markets/2025/10/23/is-bitcoin-btc-headed-for-a-crash-below-usd100k-grand-daddy-volume-indicator-hits-lowest-since-april",
-        "source": "CoinDesk",
-        "weight": 0.7518,
+        "title": "Solana Company Ramps Up Staking Push With Institutional Validators as Shares Tumble",
+        "url": "https://decrypt.co/345583/solana-company-staking-push-institutional-validators-shares-tumble",
+        "source": "Decrypt",
+        "weight": 0.8118,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7030571889354953,
-          "price_change_24h": -0.01166
+          "volume_mcap_ratio": 0.6780234852124163,
+          "price_change_24h": -0.0266
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.38859914532553985,
-          "price_change_24h": -0.0454
+          "volume_mcap_ratio": 0.3886786414688456,
+          "price_change_24h": -0.12212
         }
       ],
       "momentum_shifts": []
