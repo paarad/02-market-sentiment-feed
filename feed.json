@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-23T01:56:10.354833+00:00",
+  "updated_at": "2025-10-23T04:29:17.343969+00:00",
   "indicators": {
-    "change24h": -0.01,
-    "vol": 0.15,
+    "change24h": -0.008,
+    "vol": 0.139,
     "fearGreed": 27,
-    "momentum": -0.168,
+    "momentum": -0.144,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4603,
-    "global_sentiment": 0.3604,
-    "combined_sentiment": 0.4586,
-    "confidence": 0.7748,
+    "crypto_sentiment": 0.4731,
+    "global_sentiment": 0.4691,
+    "combined_sentiment": 0.4773,
+    "confidence": 0.7638,
     "counts": {
       "crypto": 68,
-      "global": 28
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 108183,
-      "btc_change_24h": -0.12,
-      "eth_price": 3822.3,
-      "eth_change_24h": -1.04,
+      "btc_price": 108586,
+      "btc_change_24h": 0.13,
+      "eth_price": 3832.31,
+      "eth_change_24h": -0.92,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 294763668471,
+        "volume_24h": 288762723930,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.45,
+        "btc_dominance": 57.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-09T12:52:44.608537+00:00",
-      "crypto": 0.5611,
-      "global": 0.5913,
-      "combined": 0.5535,
-      "counts": {
-        "crypto": 72,
-        "global": 49
-      }
-    },
     {
       "ts": "2025-10-09T16:33:32.632028+00:00",
       "crypto": 0.5662,
@@ -1008,52 +998,62 @@
         "crypto": 68,
         "global": 28
       }
+    },
+    {
+      "ts": "2025-10-23T04:29:17.343969+00:00",
+      "crypto": 0.4731,
+      "global": 0.4691,
+      "combined": 0.4773,
+      "counts": {
+        "crypto": 68,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Emerging Asia’s Real Yields Surge in Split With Nominal Rates",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-23/emerging-asia-s-real-yields-surge-in-split-with-nominal-rates",
+        "title": "Copper Edges Higher as Goldman Sees No Bears in Near Term",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-23/copper-edges-higher-as-goldman-sees-no-bears-in-near-term",
         "source": "Bloomberg Markets",
-        "weight": 0.6407,
-        "score": 0.5333
+        "weight": 0.7259,
+        "score": 0.8667
       },
       {
-        "title": "Southwest beats earnings estimates, forecasts record revenue for current quarter",
-        "url": "https://www.cnbc.com/2025/10/22/southwest-airlines-luv-earnings-q3-2025.html",
-        "source": "CNBC Markets",
-        "weight": 0.4941,
-        "score": 0.6667
+        "title": "Investors Should Think More Structurally About Chinese Stocks, Goldman Sachs Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-23/think-structurally-about-chinese-stocks-goldman-sachs-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7103,
+        "score": 0.8667
       },
       {
-        "title": "Oil Jumps as Trump Steps Up Pressure on Russia With Sanctions",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-22/latest-oil-market-news-and-analysis-for-oct-23",
-        "source": "Bloomberg Markets",
-        "weight": 0.5107,
-        "score": 0.5333
+        "title": "Hyperliquid Token Defies Bitcoin Slump as Wall Street Fund Moves In",
+        "url": "https://decrypt.co/345580/hyperliquid-token-defies-bitcoin-slump-wall-street-fund-moves-in",
+        "source": "Decrypt",
+        "weight": 0.8043,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Pop Mart Stock Slumps Most Since April on Renewed Growth Concern",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-23/pop-mart-stock-slumps-most-since-april-on-renewed-growth-concern",
+        "source": "Bloomberg Markets",
+        "weight": 0.6373,
+        "score": -0.9667
+      },
+      {
         "title": "Bank of Korea holds rate at 2.5% as tighter property rules kick in",
         "url": "https://www.cnbc.com/2025/10/23/bank-of-korea-policy-interest-rate-tighter-property-rules-household-debt-seoul-bok-borrowing.html",
         "source": "CNBC Markets",
-        "weight": 0.7448,
+        "weight": 0.6323,
         "score": -0.9667
       },
       {
         "title": "New Jersey sues Amazon for allegedly discriminating against thousands of pregnant warehouse workers",
         "url": "https://www.cnbc.com/2025/10/22/new-jersey-accuses-amazon-of-discriminating-against-pregnant-workers.html",
         "source": "CNBC Markets",
-        "weight": 0.5999,
-        "score": -1.0
-      },
-      {
-        "title": "Ex-Crypto Exec Claims DeFi Company Cut Him Out of Lucrative Stablecoin Biz M^0",
-        "url": "https://decrypt.co/345490/crypto-exec-lawsuit-stablecoin-biz-m0",
-        "source": "Decrypt",
-        "weight": 0.5702,
+        "weight": 0.6046,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7210218501701469,
-          "price_change_24h": -0.01972
+          "volume_mcap_ratio": 0.7004624610934342,
+          "price_change_24h": -0.01894
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.337407415233357,
-          "price_change_24h": -0.08292
+          "volume_mcap_ratio": 0.3552215182300646,
+          "price_change_24h": -0.05544
         }
       ],
       "momentum_shifts": []
