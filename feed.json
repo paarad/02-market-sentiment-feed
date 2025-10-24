@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-24T01:52:05.171707+00:00",
+  "updated_at": "2025-10-24T04:28:53.712866+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.131,
+    "change24h": 0.037,
+    "vol": 0.12,
     "fearGreed": 30,
-    "momentum": 0.517,
+    "momentum": 0.641,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5191,
-    "global_sentiment": 0.5847,
-    "combined_sentiment": 0.5214,
-    "confidence": 0.7971,
+    "crypto_sentiment": 0.5157,
+    "global_sentiment": 0.4876,
+    "combined_sentiment": 0.5107,
+    "confidence": 0.8008,
     "counts": {
-      "crypto": 76,
-      "global": 38
+      "crypto": 79,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 110298,
-      "btc_change_24h": 1.95,
-      "eth_price": 3867.65,
-      "eth_change_24h": 1.18,
+      "btc_price": 110969,
+      "btc_change_24h": 2.2,
+      "eth_price": 3917.8,
+      "eth_change_24h": 2.24,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 30,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 234990426563,
+        "volume_24h": 229028551749,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.54,
+        "btc_dominance": 57.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-10T12:51:23.670361+00:00",
-      "crypto": 0.5064,
-      "global": 0.5026,
-      "combined": 0.505,
-      "counts": {
-        "crypto": 68,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-10-10T16:30:20.060668+00:00",
       "crypto": 0.455,
@@ -1008,52 +998,62 @@
         "crypto": 76,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-24T04:28:53.712866+00:00",
+      "crypto": 0.5157,
+      "global": 0.4876,
+      "combined": 0.5107,
+      "counts": {
+        "crypto": 79,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bulls dominate as Bitcoin options open interest soars to $63B",
+        "url": "https://cointelegraph.com/news/bitcoin-options-open-interest-hits-63b-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7356,
+        "score": 1.0
+      },
+      {
         "title": "Dow Jones Futures: Intel, AI Play Jump Late After Tesla Makes Bullish Move",
         "url": "https://finance.yahoo.com/m/e0fa39ff-ea49-367c-8ba7-7f7e18999590/dow-jones-futures%3A-intel%2C-ai.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7867,
+        "weight": 0.6795,
         "score": 0.8667
       },
       {
         "title": "Wall St ends higher amid mixed earnings, Trump-Xi meeting confirmed",
         "url": "https://finance.yahoo.com/video/wall-st-ends-higher-amid-002557157.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6777,
-        "score": 1.0
-      },
-      {
-        "title": "Kraken revenue jumps 114% in Q3 amid expansion and IPO plans",
-        "url": "https://cointelegraph.com/news/kraken-revenue-jumps-q3-expansion-ipo-plans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5157,
+        "weight": 0.5011,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Treasuries Fall, Oil Surges Ahead of CPI | The Close 10/23/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-23/the-close-10-23-2025-video",
+        "title": "HSBC’s Hang Seng Privatization, China Banks See Potential Upside",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-24/hsbc-s-hang-seng-privatization-china-banks-see-potential-upside",
         "source": "Bloomberg Markets",
-        "weight": 0.5466,
+        "weight": 0.6005,
         "score": -0.9667
       },
       {
-        "title": "OpenAI's ChatGPT Atlas Browser Has a Big Problem—How Crypto Users Can Protect Themselves",
-        "url": "https://decrypt.co/345733/openai-chatgpt-atlas-browser-big-problem-how-crypto-users-protect-themselves",
-        "source": "Decrypt",
-        "weight": 0.5038,
-        "score": -0.9667
+        "title": "Asia Morning Briefing: After CZ’s Pardon, Odds Rise for Sam Bankman-Fried’s Second Chance",
+        "url": "https://www.coindesk.com/markets/2025/10/24/asia-morning-briefing-after-cz-s-pardon-odds-rise-for-sam-bankman-fried-s-second-chance",
+        "source": "CoinDesk",
+        "weight": 0.7878,
+        "score": -0.6333
       },
       {
         "title": "NBA coach Chauncey Billups, Miami Heat player Terry Rozier arrested in federal gambling cases",
         "url": "https://www.cnbc.com/2025/10/23/nba-billups-rozier-sports-betting-arrests-gambling.html",
         "source": "CNBC Markets",
-        "weight": 0.7406,
+        "weight": 0.7649,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.561003647163463,
-          "price_change_24h": -0.00196
+          "volume_mcap_ratio": 0.5623625041921608,
+          "price_change_24h": -0.00091
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3810566345774019,
-          "price_change_24h": -0.00403
+          "volume_mcap_ratio": 0.39027613910574505,
+          "price_change_24h": 0.02303
         }
       ],
       "momentum_shifts": []
