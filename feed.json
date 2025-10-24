@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-24T16:31:44.372891+00:00",
+  "updated_at": "2025-10-24T19:54:09.390639+00:00",
   "indicators": {
-    "change24h": -0.0,
-    "vol": 0.088,
+    "change24h": 0.014,
+    "vol": 0.1,
     "fearGreed": 30,
-    "momentum": -0.006,
+    "momentum": 0.248,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5744,
-    "global_sentiment": 0.6263,
-    "combined_sentiment": 0.5663,
-    "confidence": 0.8237,
+    "crypto_sentiment": 0.5538,
+    "global_sentiment": 0.5376,
+    "combined_sentiment": 0.5435,
+    "confidence": 0.8234,
     "counts": {
-      "crypto": 68,
+      "crypto": 73,
       "global": 47
     },
     "market_indicators": {
-      "btc_price": 110324,
-      "btc_change_24h": 0.4,
-      "eth_price": 3885.21,
-      "eth_change_24h": 0.21,
+      "btc_price": 110602,
+      "btc_change_24h": 0.12,
+      "eth_price": 3927.84,
+      "eth_change_24h": 1.61,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 30,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 235942476582,
+        "volume_24h": 220230407456,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.45,
+        "btc_dominance": 57.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-11T01:48:28.390252+00:00",
-      "crypto": 0.3211,
-      "global": 0.375,
-      "combined": 0.3554,
-      "counts": {
-        "crypto": 72,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-10-11T04:27:25.643888+00:00",
       "crypto": 0.3175,
@@ -1008,6 +998,16 @@
         "crypto": 68,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-10-24T19:54:09.390639+00:00",
+      "crypto": 0.5538,
+      "global": 0.5376,
+      "combined": 0.5435,
+      "counts": {
+        "crypto": 73,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "Stellar’s XLM Consolidates After Breakout as Volume Surge Hints at Institutional Activity",
         "url": "https://www.coindesk.com/markets/2025/10/24/stellar-s-xlm-consolidates-after-breakout-as-volume-surge-hints-at-institutional-activity",
         "source": "CoinDesk",
-        "weight": 0.956,
+        "weight": 0.6474,
         "score": 1.0
       },
       {
-        "title": "AMD stock surges to new record, Boston Beer lifts 2025 guidance",
-        "url": "https://finance.yahoo.com/video/amd-stock-surges-record-boston-160959283.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7672,
-        "score": 1.0
-      },
-      {
-        "title": "AMD's stock pops 6% on report IBM can use its chips for quantum computing",
+        "title": "AMD's stock pops 7% on report IBM can use its chips for quantum computing error correction",
         "url": "https://www.cnbc.com/2025/10/24/amd-stock-pops-on-report-ibm-can-use-its-chips-for-quantum-computing.html",
         "source": "CNBC Markets",
-        "weight": 0.7314,
+        "weight": 0.6829,
         "score": 0.9167
+      },
+      {
+        "title": "Tether’s stablecoin business set for another record year of profitability",
+        "url": "https://cointelegraph.com/news/tether-2025-profit-forecast-stablecoin-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5889,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Franchise Group Says Ex-CEO Kahn Controls Part of Business Again",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-24/franchise-group-says-ex-ceo-kahn-controls-part-of-business-again",
+        "title": "Sector Update: Energy Stocks Decline in Afternoon Trading",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-afternoon-175043247.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6308,
+        "score": -0.9667
+      },
+      {
+        "title": "AWS Outage Exposes Cracks in Amazon’s Cloud Lead",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-24/aws-outage-exposes-cracks-in-amazon-s-cloud-lead-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6164,
-        "score": -1.0
+        "weight": 0.7661,
+        "score": -0.6667
       },
       {
-        "title": "Five Plead Guilty Over $7.9M Dark Web Crypto Drug Operation",
-        "url": "https://decrypt.co/345833/five-plead-guilty-over-7-9m-dark-web-crypto-drug-operation",
-        "source": "Decrypt",
-        "weight": 0.5195,
-        "score": -0.9333
-      },
-      {
-        "title": "Social Security Administration announces 2026 COLA benefit increase of 2.8% — what it means for you",
-        "url": "https://www.cnbc.com/2025/10/24/social-security-cola-2026-benefits-increase.html",
-        "source": "CNBC Markets",
-        "weight": 0.7451,
-        "score": -0.6333
+        "title": "Recent Collapses, Maturity Wall Possible Credit Concerns",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-24/recent-collapses-maturity-wall-possible-credit-concerns-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7265,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.56386730879812,
-          "price_change_24h": -0.01067
+          "volume_mcap_ratio": 0.5240593662526243,
+          "price_change_24h": -0.00932
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4007838732353969,
-          "price_change_24h": -0.10571
+          "volume_mcap_ratio": 0.37439159766357316,
+          "price_change_24h": -0.00785
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-24",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5133,
+      "crypto_high": 0.5744,
+      "crypto_low": 0.4387,
+      "global_avg": 0.5434,
+      "global_high": 0.6263,
+      "global_low": 0.4876,
+      "combined_avg": 0.5136,
+      "combined_high": 0.5663,
+      "combined_low": 0.4561
+    },
+    "market_indicators_24h": {
+      "change24h": 0.014,
+      "vol": 0.1,
+      "fearGreed": 30,
+      "momentum": 0.248,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-24T19:54:09.390639+00:00"
   }
 }
