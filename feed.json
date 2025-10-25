@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-24T20:28:10.326737+00:00",
+  "updated_at": "2025-10-25T01:54:01.493769+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.116,
-    "fearGreed": 30,
-    "momentum": 0.415,
+    "change24h": 0.021,
+    "vol": 0.159,
+    "fearGreed": 37,
+    "momentum": 0.375,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5763,
-    "global_sentiment": 0.493,
-    "combined_sentiment": 0.5566,
-    "confidence": 0.8285,
+    "crypto_sentiment": 0.5745,
+    "global_sentiment": 0.4181,
+    "combined_sentiment": 0.5491,
+    "confidence": 0.7658,
     "counts": {
-      "crypto": 75,
-      "global": 46
+      "crypto": 73,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 110763,
-      "btc_change_24h": 0.69,
-      "eth_price": 3938.53,
-      "eth_change_24h": 2.24,
+      "btc_price": 111031,
+      "btc_change_24h": 0.42,
+      "eth_price": 3929.68,
+      "eth_change_24h": 1.3,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.75,
       "fear_greed": {
-        "value": 30,
+        "value": 37,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 212221280077,
+        "volume_24h": 203073560015,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.3,
+        "btc_dominance": 57.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-11T08:28:20.661621+00:00",
-      "crypto": 0.2654,
-      "global": 0.353,
-      "combined": 0.3118,
-      "counts": {
-        "crypto": 74,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-11T12:44:22.265499+00:00",
       "crypto": 0.2786,
@@ -1008,66 +998,76 @@
         "crypto": 75,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-10-25T01:54:01.493769+00:00",
+      "crypto": 0.5745,
+      "global": 0.4181,
+      "combined": 0.5491,
+      "counts": {
+        "crypto": 73,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AMD's stock pops nearly 8% on report IBM can use its chips for quantum computing error correction",
-        "url": "https://www.cnbc.com/2025/10/24/amd-stock-pops-on-report-ibm-can-use-its-chips-for-quantum-computing.html",
-        "source": "CNBC Markets",
-        "weight": 0.7783,
-        "score": 0.9167
-      },
-      {
-        "title": "Stellar’s XLM Consolidates After Breakout as Volume Surge Hints at Institutional Activity",
-        "url": "https://www.coindesk.com/markets/2025/10/24/stellar-s-xlm-consolidates-after-breakout-as-volume-surge-hints-at-institutional-activity",
-        "source": "CoinDesk",
-        "weight": 0.6064,
+        "title": "How major US stock indexes fared Friday, 10/24/2025",
+        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-002134614.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6695,
         "score": 1.0
       },
       {
-        "title": "Tether’s stablecoin business set for another record year of profitability",
-        "url": "https://cointelegraph.com/news/tether-2025-profit-forecast-stablecoin-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Intel Rally Fades After Investors Seek More Evidence of Comeback",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-24/intel-investors-seek-more-comeback-evidence-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5094,
+        "score": 1.0
+      },
+      {
+        "title": "Coinbase stock surges after JPMorgan upgrade on Base, USDC potential",
+        "url": "https://cointelegraph.com/news/jpmorgan-upgrades-coinbase-base-usdc-potential?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5515,
+        "weight": 0.4745,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date October 15, 2025",
-        "url": "https://finance.yahoo.com/news/nasdaq-announces-mid-month-open-200500454.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7651,
-        "score": -0.9667
-      },
-      {
-        "title": "Sector Update: Energy Stocks Decline in Afternoon Trading",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-afternoon-175043247.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5908,
-        "score": -0.9667
-      },
-      {
-        "title": "Navigating Risk and Resilience: A Conversation with Greg Peters",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-24/navigating-risk-and-resilience-pfim-s-greg-peters-video",
+        "title": "China Baijiu Makers Try to Woo Sober Gen Z With Milder Liquor",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-25/china-baijiu-makers-try-to-woo-sober-gen-z-with-milder-liquor",
         "source": "Bloomberg Markets",
-        "weight": 0.7671,
-        "score": -0.6667
+        "weight": 0.6423,
+        "score": -0.9333
+      },
+      {
+        "title": "France Gets Fresh Warning on Finances as Moody’s Turns Negative",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-24/france-gets-fresh-warning-on-finances-as-moody-s-turns-negative",
+        "source": "Bloomberg Markets",
+        "weight": 0.4732,
+        "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 37 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.519647560148907,
-          "price_change_24h": -0.01519
+          "volume_mcap_ratio": 0.504474828954797,
+          "price_change_24h": 0.00093
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.37199242962484647,
-          "price_change_24h": -0.00792
+          "volume_mcap_ratio": 0.33177795220209894,
+          "price_change_24h": -0.00054
         }
       ],
       "momentum_shifts": []
