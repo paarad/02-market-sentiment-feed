@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-25T12:46:26.761075+00:00",
+  "updated_at": "2025-10-25T16:28:19.267840+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.102,
+    "change24h": 0.027,
+    "vol": 0.114,
     "fearGreed": 37,
-    "momentum": -0.02,
+    "momentum": 0.468,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.522,
-    "global_sentiment": 0.4793,
-    "combined_sentiment": 0.5148,
-    "confidence": 0.7145,
+    "crypto_sentiment": 0.595,
+    "global_sentiment": 0.5351,
+    "combined_sentiment": 0.5742,
+    "confidence": 0.7219,
     "counts": {
-      "crypto": 77,
-      "global": 39
+      "crypto": 80,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 111715,
-      "btc_change_24h": 0.28,
-      "eth_price": 3950.66,
-      "eth_change_24h": -0.6,
+      "btc_price": 111260,
+      "btc_change_24h": 0.85,
+      "eth_price": 3932.14,
+      "eth_change_24h": 1.24,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 37,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153883983507,
-        "high_activity_coins": 1
+        "volume_24h": 120499019695,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.53,
+        "btc_dominance": 57.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-11T20:23:23.307769+00:00",
-      "crypto": 0.2541,
-      "global": 0.338,
-      "combined": 0.3021,
-      "counts": {
-        "crypto": 78,
-        "global": 29
-      }
-    },
     {
       "ts": "2025-10-12T01:57:01.464935+00:00",
       "crypto": 0.2139,
@@ -1008,30 +998,40 @@
         "crypto": 77,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-25T16:28:19.267840+00:00",
+      "crypto": 0.595,
+      "global": 0.5351,
+      "combined": 0.5742,
+      "counts": {
+        "crypto": 80,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dogecoin Hits $0.20 as Breakout Volume Triples Average, Confirms Bullish Setup",
-        "url": "https://www.coindesk.com/markets/2025/10/25/dogecoin-hits-usd0-20-as-breakout-volume-triples-average-confirms-bullish-setup",
-        "source": "CoinDesk",
-        "weight": 0.4572,
+        "title": "XRP price eyes rally to $3.45 after Ripple CEO tells investors to ‘lock in’",
+        "url": "https://cointelegraph.com/news/xrp-price-3-45-dollars-ripple-ceo-tells-investors-lock-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8056,
         "score": 1.0
       },
       {
-        "title": "Bitcoin Consolidates Above $111,000 as Breakout Awaits Fresh Catalyst",
-        "url": "https://www.coindesk.com/markets/2025/10/25/bitcoin-consolidates-as-breakout-awaits-fresh-catalyst",
+        "title": "Bitmine’s Tom Lee Sees Crypto Rally Into Year-End, Says S&P 500 Could Climb Another 10%",
+        "url": "https://www.coindesk.com/markets/2025/10/25/bitmine-s-tom-lee-sees-crypto-rally-into-year-end-says-s-and-p-500-could-climb-another-10",
         "source": "CoinDesk",
-        "weight": 0.711,
-        "score": 0.5333
+        "weight": 0.6764,
+        "score": 0.8667
       },
       {
-        "title": "Inverse Head-and-Shoulders Breakout Puts XRP on Track for $2.80 Test",
-        "url": "https://www.coindesk.com/markets/2025/10/25/inverse-head-and-shoulders-breakout-puts-xrp-on-track-for-usd2-80-test",
-        "source": "CoinDesk",
-        "weight": 0.5868,
-        "score": 0.5333
+        "title": "Billionaire Jimmy John’s founder: Work-life balance for entrepreneurs ''is the biggest line of bulls--- that’s ever been created’",
+        "url": "https://www.cnbc.com/2025/10/25/billionaire-jimmy-johns-founder-entrepreneurs-dont-get-work-life-balance.html",
+        "source": "CNBC Markets",
+        "weight": 0.5514,
+        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,32 +1039,26 @@
         "title": "AI spending is boosting the economy, but many businesses are in survival mode",
         "url": "https://www.cnbc.com/2025/10/25/ai-spending-is-boosting-the-economy-many-businesses-in-survival-mode.html",
         "source": "CNBC Markets",
-        "weight": 0.7418,
+        "weight": 0.4839,
         "score": -0.9333
       },
       {
         "title": "North Korea’s AI-Powered Hackers Are Redefining Crypto Crime",
         "url": "https://www.coindesk.com/business/2025/10/25/north-korea-s-ai-powered-hackers-are-redefining-crypto-crime",
         "source": "CoinDesk",
-        "weight": 0.9145,
+        "weight": 0.5965,
         "score": -0.7333
       },
       {
-        "title": "Stablecoin Use for Payments Jumps 70% Since US Regulation",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-25/stablecoin-use-for-payments-jumps-70-since-us-regulation",
-        "source": "Bloomberg Markets",
-        "weight": 0.7751,
-        "score": -0.6333
+        "title": "Fear & Greed 37 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3735011831442805,
-          "price_change_24h": 0.00376
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
