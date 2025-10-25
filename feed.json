@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-25T04:28:08.484751+00:00",
+  "updated_at": "2025-10-25T08:29:00.514613+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.134,
+    "change24h": 0.01,
+    "vol": 0.118,
     "fearGreed": 37,
-    "momentum": 0.303,
+    "momentum": 0.179,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5473,
-    "global_sentiment": 0.4344,
-    "combined_sentiment": 0.53,
-    "confidence": 0.7294,
+    "crypto_sentiment": 0.5891,
+    "global_sentiment": 0.5207,
+    "combined_sentiment": 0.5686,
+    "confidence": 0.722,
     "counts": {
-      "crypto": 73,
-      "global": 38
+      "crypto": 76,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 111376,
-      "btc_change_24h": 0.36,
-      "eth_price": 3932.07,
-      "eth_change_24h": 0.25,
+      "btc_price": 111663,
+      "btc_change_24h": 0.77,
+      "eth_price": 3938.58,
+      "eth_change_24h": -0.0,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 37,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 199061846569,
+        "volume_24h": 177915267943,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.51,
+        "btc_dominance": 57.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-11T16:26:34.564961+00:00",
-      "crypto": 0.2495,
-      "global": 0.4796,
-      "combined": 0.3104,
-      "counts": {
-        "crypto": 77,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-10-11T19:53:43.856186+00:00",
       "crypto": 0.2542,
@@ -1008,39 +998,49 @@
         "crypto": 73,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-25T08:29:00.514613+00:00",
+      "crypto": 0.5891,
+      "global": 0.5207,
+      "combined": 0.5686,
+      "counts": {
+        "crypto": 76,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Friday, 10/24/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-002134614.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4976,
+        "title": "Dogecoin Hits $0.20 as Breakout Volume Triples Average, Confirms Bullish Setup",
+        "url": "https://www.coindesk.com/markets/2025/10/25/dogecoin-hits-usd0-20-as-breakout-volume-triples-average-confirms-bullish-setup",
+        "source": "CoinDesk",
+        "weight": 0.7506,
         "score": 1.0
       },
       {
-        "title": "Intel Rally Fades After Investors Seek More Evidence of Comeback",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-24/intel-investors-seek-more-comeback-evidence-video",
+        "title": "Inverse Head-and-Shoulders Breakout Puts XRP on Track for $2.80 Test",
+        "url": "https://www.coindesk.com/markets/2025/10/25/inverse-head-and-shoulders-breakout-puts-xrp-on-track-for-usd2-80-test",
+        "source": "CoinDesk",
+        "weight": 0.9633,
+        "score": 0.5333
+      },
+      {
+        "title": "The Hidden Supply Chain Making Menus Familiar",
+        "url": "https://www.bloomberg.com/news/audio/2025-10-25/how-sysco-became-the-middleman-shaping-america-s-menus",
         "source": "Bloomberg Markets",
-        "weight": 0.3786,
-        "score": 1.0
-      },
-      {
-        "title": "Coinbase stock surges after JPMorgan upgrade on Base, USDC potential",
-        "url": "https://cointelegraph.com/news/jpmorgan-upgrades-coinbase-base-usdc-potential?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3527,
-        "score": 1.0
+        "weight": 0.7565,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "China Baijiu Makers Try to Woo Sober Gen Z With Milder Liquor",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-25/china-baijiu-makers-try-to-woo-sober-gen-z-with-milder-liquor",
-        "source": "Bloomberg Markets",
-        "weight": 0.4774,
-        "score": -0.9333
+        "title": "Spot Ether ETFs see outflows for second consecutive week amid ‘cooling demand’",
+        "url": "https://cointelegraph.com/news/ethereum-etfs-outflows-bitcoin-inflows-october-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7192,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 37 (Fear) — bearish",
@@ -1053,7 +1053,7 @@
         "title": "Bank of England probes data-mining lending strategies fueling AI bets",
         "url": "https://cointelegraph.com/news/bank-of-england-probes-data-mining-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6124,
+        "weight": 0.3852,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49047197542316046,
-          "price_change_24h": -0.0066
+          "volume_mcap_ratio": 0.4322367422168461,
+          "price_change_24h": -0.00468
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.33882977643983875,
-          "price_change_24h": -0.00189
+          "volume_mcap_ratio": 0.3030286250401303,
+          "price_change_24h": -0.01289
         }
       ],
       "momentum_shifts": []
