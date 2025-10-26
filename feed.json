@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-26T16:29:13.349948+00:00",
+  "updated_at": "2025-10-26T19:53:31.282782+00:00",
   "indicators": {
-    "change24h": 0.161,
+    "change24h": 0.459,
     "vol": 1.0,
     "fearGreed": 40,
     "momentum": 1.0,
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5278,
-    "global_sentiment": 0.3534,
-    "combined_sentiment": 0.5086,
-    "confidence": 0.6849,
+    "crypto_sentiment": 0.4924,
+    "global_sentiment": 0.4286,
+    "combined_sentiment": 0.4883,
+    "confidence": 0.6447,
     "counts": {
       "crypto": 80,
-      "global": 38
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 113440,
-      "btc_change_24h": 1.95,
-      "eth_price": 4055.72,
-      "eth_change_24h": 3.18,
+      "btc_price": 113586,
+      "btc_change_24h": 1.8,
+      "eth_price": 4066.69,
+      "eth_change_24h": 2.8,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 40,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 144956833691.0,
+        "volume_24h": 149487140060.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.31,
+        "btc_dominance": 57.34,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-13T02:00:30.870848+00:00",
-      "crypto": 0.2363,
-      "global": 0.4769,
-      "combined": 0.3003,
-      "counts": {
-        "crypto": 73,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-10-13T04:30:04.134172+00:00",
       "crypto": 0.3198,
@@ -1008,12 +998,29 @@
         "crypto": 80,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-26T19:53:31.282782+00:00",
+      "crypto": 0.4924,
+      "global": 0.4286,
+      "combined": 0.4883,
+      "counts": {
+        "crypto": 80,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.2% — rally",
+        "title": "Investors are like cats with laser pointers right now: Strategist",
+        "url": "https://finance.yahoo.com/video/investors-cats-laser-pointers-now-180019716.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6433,
+        "score": 0.9
+      },
+      {
+        "title": "Global crypto market cap up 2.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,25 +1030,11 @@
         "title": "The next era of crypto belongs to decentralized markets",
         "url": "https://cointelegraph.com/news/crypto-belongs-to-decentralized-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6359,
+        "weight": 0.4291,
         "score": 0.6667
-      },
-      {
-        "title": "Teucrium CEO: 'Enormous Interest' in XRP, 'Extraordinary’ Success for Firm's XRP ETF",
-        "url": "https://www.coindesk.com/markets/2025/10/26/teucrium-ceo-enormous-interest-in-xrp-extraordinary-success-for-firm-s-xrp-etf",
-        "source": "CoinDesk",
-        "weight": 0.8206,
-        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Scott Bessent says he's 'felt this pain' from China because 'I'm actually a soybean farmer'",
-        "url": "https://www.cnbc.com/2025/10/26/trump-treasury-bessent-trade-tariffs-china-soybean-farm.html",
-        "source": "CNBC Markets",
-        "weight": 0.7795,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 40 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,19 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "Iranian bank crisis underscores Bitcoin’s role as financial hedge",
-        "url": "https://cryptoslate.com/iranian-bank-crisis-underscores-bitcoins-role-as-financial-hedge/",
-        "source": "CryptoSlate",
-        "weight": 0.4717,
-        "score": -0.6667
+        "title": "US Treasury chief Bessent says 'substantial' trade framework with China reached",
+        "url": "https://cointelegraph.com/news/bessent-substantial-trade-framework-china?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6053,
+        "score": -0.6333
+      },
+      {
+        "title": "Scott Bessent says he's 'felt this pain' from China because 'I'm actually a soybean farmer'",
+        "url": "https://www.cnbc.com/2025/10/26/trump-treasury-bessent-trade-tariffs-china-soybean-farm.html",
+        "source": "CNBC Markets",
+        "weight": 0.526,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.343027711890685,
-          "price_change_24h": -0.01594
+          "volume_mcap_ratio": 0.35282981197888635,
+          "price_change_24h": -0.00241
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-26",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5213,
+      "crypto_high": 0.5685,
+      "crypto_low": 0.4793,
+      "global_avg": 0.384,
+      "global_high": 0.4286,
+      "global_low": 0.3274,
+      "combined_avg": 0.5063,
+      "combined_high": 0.5432,
+      "combined_low": 0.4755
+    },
+    "market_indicators_24h": {
+      "change24h": 0.459,
+      "vol": 1.0,
+      "fearGreed": 40,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-26T19:53:31.282782+00:00"
   }
 }
