@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-26T02:03:07.831179+00:00",
+  "updated_at": "2025-10-26T04:28:20.328484+00:00",
   "indicators": {
-    "change24h": 0.112,
+    "change24h": 0.105,
     "vol": 1.0,
     "fearGreed": 40,
     "momentum": 1.0,
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5492,
-    "global_sentiment": 0.4006,
-    "combined_sentiment": 0.5286,
-    "confidence": 0.6321,
+    "crypto_sentiment": 0.5685,
+    "global_sentiment": 0.4018,
+    "combined_sentiment": 0.5432,
+    "confidence": 0.6272,
     "counts": {
-      "crypto": 81,
-      "global": 38
+      "crypto": 82,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 111609,
-      "btc_change_24h": 0.45,
-      "eth_price": 3931.81,
-      "eth_change_24h": -0.05,
+      "btc_price": 111394,
+      "btc_change_24h": 0.01,
+      "eth_price": 3936.32,
+      "eth_change_24h": 0.11,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.5,
+      "regime_strength": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 40,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 103044064079,
+        "volume_24h": 104030504931,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.4,
+        "btc_dominance": 57.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-12T12:45:26.060569+00:00",
-      "crypto": 0.3351,
-      "global": 0.2904,
-      "combined": 0.3588,
-      "counts": {
-        "crypto": 73,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-10-12T16:27:24.662845+00:00",
       "crypto": 0.4212,
@@ -1008,30 +998,40 @@
         "crypto": 81,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-26T04:28:20.328484+00:00",
+      "crypto": 0.5685,
+      "global": 0.4018,
+      "combined": 0.5432,
+      "counts": {
+        "crypto": 82,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Coinbase’s x402 transactions explode over 10,000% in a month",
+        "url": "https://cointelegraph.com/news/coinbases-x402-transactions-rise-10000-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7873,
+        "score": 0.3333
+      },
+      {
         "title": "Kyrgyzstan launches stablecoin on BNB Chain, confirms future CBDC rollout",
         "url": "https://cointelegraph.com/news/kyrgyzstan-rolls-out-stablecoin-and-confirms-future-cbdc-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9164,
+        "weight": 0.6929,
         "score": 0.3333
       },
       {
         "title": "XRP price eyes rally to $3.45 after Ripple CEO tells investors to ‘lock in’",
         "url": "https://cointelegraph.com/news/xrp-price-3-45-dollars-ripple-ceo-tells-investors-lock-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.2663,
+        "weight": 0.2014,
         "score": 1.0
-      },
-      {
-        "title": "Mid-tier Bitcoin miners gain ground, reshaping post-halving competition",
-        "url": "https://cointelegraph.com/news/bitcoin-miners-hashrate-debt-ai-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2923,
-        "score": 0.8667
       }
     ],
     "negative": [
@@ -1046,14 +1046,14 @@
         "title": "Weekly Market Wrap: IBM, Grindr, and Ford",
         "url": "https://www.thestreet.com/investing/stocks/weekly-market-wrap-ibm-grindr-and-ford?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6655,
+        "weight": 0.5032,
         "score": -0.6333
       },
       {
         "title": "Trump Names SEC Crypto Task Force Head Selig as Next Nominee to Run U.S. CFTC",
         "url": "https://www.coindesk.com/policy/2025/10/25/frame-trump-names-sec-crypto-task-force-head-selig-as-next-nominee-to-run-u-s-cftc",
         "source": "CoinDesk",
-        "weight": 0.5505,
+        "weight": 0.4162,
         "score": -0.6333
       }
     ],
