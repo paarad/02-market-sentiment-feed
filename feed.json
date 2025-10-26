@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-26T08:29:19.505937+00:00",
+  "updated_at": "2025-10-26T12:48:06.734547+00:00",
   "indicators": {
-    "change24h": 0.118,
+    "change24h": 0.159,
     "vol": 1.0,
     "fearGreed": 40,
     "momentum": 1.0,
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5107,
-    "global_sentiment": 0.3274,
-    "combined_sentiment": 0.4937,
-    "confidence": 0.5888,
+    "crypto_sentiment": 0.4793,
+    "global_sentiment": 0.392,
+    "combined_sentiment": 0.4755,
+    "confidence": 0.6561,
     "counts": {
       "crypto": 83,
-      "global": 39
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 111792,
-      "btc_change_24h": 0.12,
-      "eth_price": 3953.67,
-      "eth_change_24h": 0.41,
+      "btc_price": 113589,
+      "btc_change_24h": 1.57,
+      "eth_price": 4063.45,
+      "eth_change_24h": 2.85,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.7,
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 40,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 97734246782.0,
-        "high_activity_coins": 0
+        "volume_24h": 128254354894.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.35,
+        "btc_dominance": 57.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-12T19:53:38.237635+00:00",
-      "crypto": 0.3419,
-      "global": 0.6002,
-      "combined": 0.3898,
-      "counts": {
-        "crypto": 72,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-10-12T20:25:05.207608+00:00",
       "crypto": 0.3439,
@@ -1008,33 +998,50 @@
         "crypto": 83,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-26T12:48:06.734547+00:00",
+      "crypto": 0.4793,
+      "global": 0.392,
+      "combined": 0.4755,
+      "counts": {
+        "crypto": 83,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Coinbase’s x402 transactions explode over 10,000% in a month",
-        "url": "https://cointelegraph.com/news/coinbases-x402-transactions-rise-10000-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.495,
-        "score": 0.3333
+        "title": "Global crypto market cap up 1.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Kyrgyzstan launches stablecoin on BNB Chain, confirms future CBDC rollout",
-        "url": "https://cointelegraph.com/news/kyrgyzstan-rolls-out-stablecoin-and-confirms-future-cbdc-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4357,
-        "score": 0.3333
+        "title": "Benchmark Boosts Canaan (CAN) PT to $4, Cites a Visible Slate of Shipments",
+        "url": "https://finance.yahoo.com/news/benchmark-boosts-canaan-pt-4-104254482.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6286,
+        "score": 0.6333
       },
       {
-        "title": "XRP price eyes rally to $3.45 after Ripple CEO tells investors to ‘lock in’",
-        "url": "https://cointelegraph.com/news/xrp-price-3-45-dollars-ripple-ceo-tells-investors-lock-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin price starts $112K breakout as Fed rate-cut odds pass 98%",
+        "url": "https://cointelegraph.com/news/bitcoin-price-starts-112k-breakout-fed-rate-cut-odds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.1266,
-        "score": 1.0
+        "weight": 0.5555,
+        "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Iranian bank crisis underscores Bitcoin’s role as financial hedge",
+        "url": "https://cryptoslate.com/iranian-bank-crisis-underscores-bitcoins-role-as-financial-hedge/",
+        "source": "CryptoSlate",
+        "weight": 0.722,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 40 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,22 +1050,21 @@
         "score": -0.5333
       },
       {
-        "title": "Oracle Is Flying High in the AI Age. Top Executives Sold Shares.",
-        "url": "https://finance.yahoo.com/m/c7b2f702-9095-3b32-aa5c-fc9d3a9ec677/oracle-is-flying-high-in-the.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6001,
-        "score": -0.6333
-      },
-      {
-        "title": "How JPMorgan’s Bitcoin collateral plan could unlock $20 billion in liquidity",
-        "url": "https://cryptoslate.com/how-jpmorgans-bitcoin-collateral-plan-could-unlock-20-billion-in-liquidity/",
-        "source": "CryptoSlate",
-        "weight": 0.7092,
-        "score": -0.3333
+        "title": "French Wealth Tax Vote Is Delayed as Government Teeters",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-26/french-wealth-tax-vote-is-delayed-as-government-teeters",
+        "source": "Bloomberg Markets",
+        "weight": 0.6153,
+        "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3002675854722344,
+          "price_change_24h": -0.02418
+        }
+      ],
       "momentum_shifts": []
     }
   },
