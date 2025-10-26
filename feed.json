@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-25T20:26:01.939144+00:00",
+  "updated_at": "2025-10-26T02:03:07.831179+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.158,
-    "fearGreed": 37,
-    "momentum": 0.347,
+    "change24h": 0.112,
+    "vol": 1.0,
+    "fearGreed": 40,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5983,
-    "global_sentiment": 0.4366,
-    "combined_sentiment": 0.5684,
-    "confidence": 0.6976,
+    "crypto_sentiment": 0.5492,
+    "global_sentiment": 0.4006,
+    "combined_sentiment": 0.5286,
+    "confidence": 0.6321,
     "counts": {
-      "crypto": 80,
+      "crypto": 81,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 111537,
-      "btc_change_24h": 0.7,
-      "eth_price": 3953.75,
-      "eth_change_24h": 0.37,
+      "btc_price": 111609,
+      "btc_change_24h": 0.45,
+      "eth_price": 3931.81,
+      "eth_change_24h": -0.05,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 37,
+        "value": 40,
         "classification": "Fear",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 110200659973,
+        "volume_24h": 103044064079,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.49,
+        "btc_dominance": 57.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-12T08:28:42.636855+00:00",
-      "crypto": 0.216,
-      "global": 0.2667,
-      "combined": 0.2676,
-      "counts": {
-        "crypto": 76,
-        "global": 29
-      }
-    },
     {
       "ts": "2025-10-12T12:45:26.060569+00:00",
       "crypto": 0.3351,
@@ -1008,53 +998,63 @@
         "crypto": 80,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-26T02:03:07.831179+00:00",
+      "crypto": 0.5492,
+      "global": 0.4006,
+      "combined": 0.5286,
+      "counts": {
+        "crypto": 81,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Kyrgyzstan launches stablecoin on BNB Chain, confirms future CBDC rollout",
+        "url": "https://cointelegraph.com/news/kyrgyzstan-rolls-out-stablecoin-and-confirms-future-cbdc-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9164,
+        "score": 0.3333
+      },
+      {
         "title": "XRP price eyes rally to $3.45 after Ripple CEO tells investors to ‘lock in’",
         "url": "https://cointelegraph.com/news/xrp-price-3-45-dollars-ripple-ceo-tells-investors-lock-in?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5097,
+        "weight": 0.2663,
         "score": 1.0
       },
       {
         "title": "Mid-tier Bitcoin miners gain ground, reshaping post-halving competition",
         "url": "https://cointelegraph.com/news/bitcoin-miners-hashrate-debt-ai-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5594,
-        "score": 0.8667
-      },
-      {
-        "title": "Bitmine’s Tom Lee Sees Crypto Rally Into Year-End, Says S&P 500 Could Climb Another 10%",
-        "url": "https://www.coindesk.com/markets/2025/10/25/bitmine-s-tom-lee-sees-crypto-rally-into-year-end-says-s-and-p-500-could-climb-another-10",
-        "source": "CoinDesk",
-        "weight": 0.428,
+        "weight": 0.2923,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Weakest Consumers Face More Pain, Bond Data Shows: Credit Weekly",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-25/weakest-consumers-face-more-pain-bond-data-shows-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.6247,
-        "score": -0.9333
-      },
-      {
-        "title": "Timothy Mellon is Trump's $130 million mystery military donor: NYT",
-        "url": "https://www.cnbc.com/2025/10/25/trump-timothy-mellon-military-donor-government-shutdown.html",
-        "source": "CNBC Markets",
-        "weight": 0.7422,
-        "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 37 (Fear) — bearish",
+        "title": "Fear & Greed 40 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Weekly Market Wrap: IBM, Grindr, and Ford",
+        "url": "https://www.thestreet.com/investing/stocks/weekly-market-wrap-ibm-grindr-and-ford?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6655,
+        "score": -0.6333
+      },
+      {
+        "title": "Trump Names SEC Crypto Task Force Head Selig as Next Nominee to Run U.S. CFTC",
+        "url": "https://www.coindesk.com/policy/2025/10/25/frame-trump-names-sec-crypto-task-force-head-selig-as-next-nominee-to-run-u-s-cftc",
+        "source": "CoinDesk",
+        "weight": 0.5505,
+        "score": -0.6333
       }
     ],
     "market_movers": {
