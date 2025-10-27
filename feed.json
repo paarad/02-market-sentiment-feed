@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-27T04:35:11.500933+00:00",
+  "updated_at": "2025-10-27T08:35:03.308649+00:00",
   "indicators": {
-    "change24h": 0.09,
-    "vol": 0.206,
+    "change24h": 0.065,
+    "vol": 0.153,
     "fearGreed": 51,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4068,
-    "global_sentiment": 0.5309,
-    "combined_sentiment": 0.4327,
-    "confidence": 0.705,
+    "crypto_sentiment": 0.3575,
+    "global_sentiment": 0.4265,
+    "combined_sentiment": 0.387,
+    "confidence": 0.7339,
     "counts": {
-      "crypto": 80,
-      "global": 40
+      "crypto": 72,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 115197,
-      "btc_change_24h": 3.39,
-      "eth_price": 4197.63,
-      "eth_change_24h": 6.64,
+      "btc_price": 115377,
+      "btc_change_24h": 3.19,
+      "eth_price": 4170.8,
+      "eth_change_24h": 5.46,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 208723310612.0,
-        "high_activity_coins": 1
+        "volume_24h": 237705287294.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.23,
+        "btc_dominance": 57.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-13T16:31:25.446725+00:00",
-      "crypto": 0.3501,
-      "global": 0.4305,
-      "combined": 0.3818,
-      "counts": {
-        "crypto": 70,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-10-13T19:53:46.385142+00:00",
       "crypto": 0.3813,
@@ -1008,61 +998,76 @@
         "crypto": 80,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-27T08:35:03.308649+00:00",
+      "crypto": 0.3575,
+      "global": 0.4265,
+      "combined": 0.387,
+      "counts": {
+        "crypto": 72,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Japan’s Nikkei Breaks Key 50,000 Level Ahead of Trump Meeting",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-27/japan-s-nikkei-breaks-key-50-000-level-ahead-of-trump-meeting",
-        "source": "Bloomberg Markets",
-        "weight": 0.6896,
-        "score": 0.6667
-      },
-      {
-        "title": "Argentina Investors Poised for Rally After Milei Landslide Win",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-27/argentina-investors-brace-for-rally-after-milei-landslide-win",
-        "source": "Bloomberg Markets",
-        "weight": 0.6134,
-        "score": 0.7333
-      },
-      {
-        "title": "Global crypto market cap up 3.7% — rally",
+        "title": "Global crypto market cap up 3.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "FTSE 100 Lags European Rally, Pound Steadies",
+        "url": "https://www.bloomberg.com/news/live-blog/2025-10-27/what-s-moving-uk-markets-right-now-markets-today-ftse-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.6422,
+        "score": 0.5333
+      },
+      {
+        "title": "Trump says U.S., China close to trade deal ahead of Xi talks, TikTok decision",
+        "url": "https://www.cnbc.com/2025/10/27/trump-says-us-china-close-to-trade-deal-ahead-of-xi-talks-tiktok-decision.html",
+        "source": "CNBC Markets",
+        "weight": 0.7576,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Thailand’s Export Growth Unexpectedly Jumps 19% Despite Tariffs",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-27/thailand-s-export-growth-unexpectedly-jumps-19-despite-tariffs",
+        "title": "Microsoft Sued in Australia Over 365 Price Hikes Tied to AI Copilot Rollout",
+        "url": "https://decrypt.co/346035/microsoft-sued-australia-365-price-hikes-tied-ai-copilot-rollout",
+        "source": "Decrypt",
+        "weight": 0.6984,
+        "score": -1.0
+      },
+      {
+        "title": "Vodafone Idea’s Shares Jump as India’s Top Court Allows Relook at Dues",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/vodafone-idea-s-shares-jump-as-top-court-allows-relook-at-dues",
         "source": "Bloomberg Markets",
-        "weight": 0.7517,
-        "score": -0.9333
+        "weight": 0.6406,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin Surpasses 50-Day Average, but CoinDesk BTC Trend Indicator Remains Bearish",
-        "url": "https://www.coindesk.com/markets/2025/10/27/bitcoin-surpasses-50-day-average-but-coindesk-btc-trend-indicator-remains-bearish",
-        "source": "CoinDesk",
-        "weight": 1.1599,
-        "score": -0.5333
-      },
-      {
-        "title": "Mt. Gox’s security flaws cost millions. Could AI have spotted them?",
-        "url": "https://cointelegraph.com/news/mt-gox-s-security-flaws-cost-millions-could-ai-have-spotted-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7594,
-        "score": -0.6333
+        "title": "WazirX Barred from Redistributing XRP as Indian Court Affirms Crypto as Property",
+        "url": "https://decrypt.co/346030/wazirx-barred-redistributing-xrp-indian-court-affirms-crypto-property",
+        "source": "Decrypt",
+        "weight": 0.7603,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49397455926798334,
-          "price_change_24h": -0.02278
+          "volume_mcap_ratio": 0.589764092671482,
+          "price_change_24h": -0.01349
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.32437033794636044,
+          "price_change_24h": 0.17963
         }
       ],
       "momentum_shifts": []
