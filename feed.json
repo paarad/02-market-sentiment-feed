@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-26T20:26:27.555722+00:00",
+  "updated_at": "2025-10-27T02:07:18.316835+00:00",
   "indicators": {
-    "change24h": 0.465,
-    "vol": 1.0,
-    "fearGreed": 40,
+    "change24h": 0.094,
+    "vol": 0.199,
+    "fearGreed": 51,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4926,
-    "global_sentiment": 0.4274,
-    "combined_sentiment": 0.4884,
-    "confidence": 0.635,
+    "crypto_sentiment": 0.4123,
+    "global_sentiment": 0.5287,
+    "combined_sentiment": 0.4366,
+    "confidence": 0.6313,
     "counts": {
-      "crypto": 79,
-      "global": 35
+      "crypto": 77,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 113419,
-      "btc_change_24h": 1.68,
-      "eth_price": 4062.47,
-      "eth_change_24h": 2.78,
+      "btc_price": 115320,
+      "btc_change_24h": 3.41,
+      "eth_price": 4194.1,
+      "eth_change_24h": 6.78,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 40,
-        "classification": "Fear",
+        "value": 51,
+        "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 146967878521.0,
+        "volume_24h": 196627644212.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.35,
+        "btc_dominance": 57.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-13T08:35:25.062689+00:00",
-      "crypto": 0.2946,
-      "global": 0.408,
-      "combined": 0.3383,
-      "counts": {
-        "crypto": 68,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-10-13T12:52:49.076078+00:00",
       "crypto": 0.4229,
@@ -1008,52 +998,62 @@
         "crypto": 79,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-10-27T02:07:18.316835+00:00",
+      "crypto": 0.4123,
+      "global": 0.5287,
+      "combined": 0.4366,
+      "counts": {
+        "crypto": 77,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Investors are like cats with laser pointers right now: Strategist",
-        "url": "https://finance.yahoo.com/video/investors-cats-laser-pointers-now-180019716.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6038,
-        "score": 0.9
+        "title": "SoftBank-Backed Lenskart IPO to Raise as Much as $828 Million",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/softbank-backed-lenskart-ipo-to-raise-as-much-as-828-million",
+        "source": "Bloomberg Markets",
+        "weight": 0.7538,
+        "score": 0.6333
       },
       {
-        "title": "Global crypto market cap up 2.1% — rally",
+        "title": "Global crypto market cap up 3.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "The next era of crypto belongs to decentralized markets",
-        "url": "https://cointelegraph.com/news/crypto-belongs-to-decentralized-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4027,
-        "score": 0.6667
+        "title": "Huawei EV Partner Seres Seeks $1.7 Billion in HK Listing",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-26/huawei-ev-partner-seres-seeks-1-7-billion-in-hong-kong-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.5787,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 40 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "US Treasury chief Bessent says 'substantial' trade framework with China reached",
-        "url": "https://cointelegraph.com/news/bessent-substantial-trade-framework-china?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "‘The claim that L2s inherit ETH security is erroneous’ — Solana co-founder",
+        "url": "https://cointelegraph.com/news/claim-l2s-inherit-eth-security-erroneous-solana-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5681,
-        "score": -0.6333
+        "weight": 0.5881,
+        "score": -0.9667
       },
       {
-        "title": "Scott Bessent says he's 'felt this pain' from China because 'I'm actually a soybean farmer'",
-        "url": "https://www.cnbc.com/2025/10/26/trump-treasury-bessent-trade-tariffs-china-soybean-farm.html",
+        "title": "Bitcoin retraces nearly half its losses from October crash amid Fed rate-cut expectations",
+        "url": "https://cryptoslate.com/bitcoin-retraces-nearly-half-its-losses-from-october-crash-amid-fed-rate-cut-expectations/",
+        "source": "CryptoSlate",
+        "weight": 0.5685,
+        "score": -1.0
+      },
+      {
+        "title": "HSBC to recognize $1.1 billion provision in third quarter after court ruling in Madoff case",
+        "url": "https://www.cnbc.com/2025/10/27/hsbc-1point1-billion-in-provision-third-quarter-madoff-case.html",
         "source": "CNBC Markets",
-        "weight": 0.4937,
+        "weight": 0.7046,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35509144072744303,
-          "price_change_24h": -0.01065
+          "volume_mcap_ratio": 0.46107009318404857,
+          "price_change_24h": -0.02036
         }
       ],
       "momentum_shifts": []
