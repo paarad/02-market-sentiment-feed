@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-27T12:55:01.512183+00:00",
+  "updated_at": "2025-10-27T16:33:40.650382+00:00",
   "indicators": {
-    "change24h": 0.013,
-    "vol": 0.079,
+    "change24h": 0.031,
+    "vol": 0.09,
     "fearGreed": 51,
-    "momentum": 0.224,
+    "momentum": 0.54,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4734,
-    "global_sentiment": 0.5762,
-    "combined_sentiment": 0.4864,
-    "confidence": 0.7762,
+    "crypto_sentiment": 0.5945,
+    "global_sentiment": 0.5133,
+    "combined_sentiment": 0.572,
+    "confidence": 0.8259,
     "counts": {
       "crypto": 73,
-      "global": 38
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 115088,
-      "btc_change_24h": 1.24,
-      "eth_price": 4146.03,
-      "eth_change_24h": 1.88,
+      "btc_price": 115346,
+      "btc_change_24h": 1.74,
+      "eth_price": 4195.27,
+      "eth_change_24h": 3.5,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 243693198229,
+        "volume_24h": 251713625003,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.42,
+        "btc_dominance": 57.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-13T20:27:00.751026+00:00",
-      "crypto": 0.335,
-      "global": 0.4231,
-      "combined": 0.3698,
-      "counts": {
-        "crypto": 69,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-14T01:53:41.026017+00:00",
       "crypto": 0.3534,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-27T16:33:40.650382+00:00",
+      "crypto": 0.5945,
+      "global": 0.5133,
+      "combined": 0.572,
+      "counts": {
+        "crypto": 73,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin rally smashes past $116k on softer Fed bets: What changes next?",
-        "url": "https://cryptoslate.com/bitcoin-smashes-through-116k-on-softer-fed-bets-what-changes-next/",
+        "title": "New US company completes $1 billion XRP purchase as Ripple celebrates price surge",
+        "url": "https://cryptoslate.com/new-us-company-completes-1-billion-xrp-purchase-as-ripple-celebrates-price-surge/",
         "source": "CryptoSlate",
-        "weight": 0.5556,
+        "weight": 0.8669,
         "score": 1.0
       },
       {
-        "title": "Crypto Markets Today: Bitcoin Surges Past $115K as Markets Eye Fed Rate Cut",
-        "url": "https://www.coindesk.com/markets/2025/10/27/crypto-markets-today-bitcoin-surges-past-usd115k-as-markets-eye-fed-rate-cut",
-        "source": "CoinDesk",
-        "weight": 0.9358,
-        "score": 0.5333
+        "title": "Oil at Sea Soars to Fresh Record in Further Sign of Oversupply",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/oil-at-sea-soars-to-fresh-record-in-further-sign-of-oversupply",
+        "source": "Bloomberg Markets",
+        "weight": 0.6985,
+        "score": 1.0
       },
       {
-        "title": "October 2025's Top Penny Stocks To Watch",
-        "url": "https://finance.yahoo.com/news/october-2025s-top-penny-stocks-121019842.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.734,
-        "score": 0.6667
+        "title": "TZERO Plans Public Listing as Tokenization Push Gains Steam",
+        "url": "https://www.coindesk.com/business/2025/10/27/tzero-plans-public-listing-as-tokenization-push-gains-steam",
+        "source": "CoinDesk",
+        "weight": 0.6852,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "Indian Judge Halts WazirX’s XRP Reallocation Plan Linked to 2024 Hack",
-        "url": "https://www.coindesk.com/markets/2025/10/27/indian-judge-halts-wazirx-s-xrp-reallocation-plan-linked-to-2024-hack",
+        "title": "PEPE Drops Nearly 2% as Memecoins Struggle, Late-Session Bounce Hints at Buyer Support",
+        "url": "https://www.coindesk.com/markets/2025/10/27/pepe-drops-nearly-2-as-memecoins-struggle-late-session-bounce-hints-at-buyer-support",
         "source": "CoinDesk",
-        "weight": 0.7552,
-        "score": -0.7333
-      },
-      {
-        "title": "Tesla Stock Is Up. This Is Helping.",
-        "url": "https://finance.yahoo.com/m/80ac2dae-4156-3a0c-b92c-506ad7576601/tesla-stock-is-up.-this-is.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6779,
-        "score": -0.6333
-      },
-      {
-        "title": "Microsoft Sued in Australia Over 365 Price Hikes Tied to AI Copilot Rollout",
-        "url": "https://decrypt.co/346035/microsoft-sued-australia-365-price-hikes-tied-ai-copilot-rollout",
-        "source": "Decrypt",
-        "weight": 0.4233,
+        "weight": 0.7916,
         "score": -1.0
+      },
+      {
+        "title": "Senators Warren, Schiff Push Resolution Denouncing Trump Pardon of Binance Founder",
+        "url": "https://decrypt.co/346089/senators-warren-schiff-resolution-denouncing-trump-pardon-binance-founder",
+        "source": "Decrypt",
+        "weight": 0.8355,
+        "score": -0.6667
+      },
+      {
+        "title": "Fed Expected to Deliver Second Straight Rate Cut",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-27/fed-expected-to-deliver-second-straight-rate-cut",
+        "source": "Bloomberg Markets",
+        "weight": 0.7899,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.585791195862575,
-          "price_change_24h": -0.00629
+          "volume_mcap_ratio": 0.6150439893408279,
+          "price_change_24h": -0.00145
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.33638769207801905,
-          "price_change_24h": 0.05735
+          "volume_mcap_ratio": 0.3156224105202157,
+          "price_change_24h": -0.03617
         }
       ],
       "momentum_shifts": []
