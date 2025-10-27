@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-27T02:07:18.316835+00:00",
+  "updated_at": "2025-10-27T04:35:11.500933+00:00",
   "indicators": {
-    "change24h": 0.094,
-    "vol": 0.199,
+    "change24h": 0.09,
+    "vol": 0.206,
     "fearGreed": 51,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4123,
-    "global_sentiment": 0.5287,
-    "combined_sentiment": 0.4366,
-    "confidence": 0.6313,
+    "crypto_sentiment": 0.4068,
+    "global_sentiment": 0.5309,
+    "combined_sentiment": 0.4327,
+    "confidence": 0.705,
     "counts": {
-      "crypto": 77,
-      "global": 33
+      "crypto": 80,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 115320,
-      "btc_change_24h": 3.41,
-      "eth_price": 4194.1,
-      "eth_change_24h": 6.78,
+      "btc_price": 115197,
+      "btc_change_24h": 3.39,
+      "eth_price": 4197.63,
+      "eth_change_24h": 6.64,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196627644212.0,
+        "volume_24h": 208723310612.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.21,
+        "btc_dominance": 57.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-13T12:52:49.076078+00:00",
-      "crypto": 0.4229,
-      "global": 0.4902,
-      "combined": 0.4413,
-      "counts": {
-        "crypto": 69,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-10-13T16:31:25.446725+00:00",
       "crypto": 0.3501,
@@ -1008,52 +998,62 @@
         "crypto": 77,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-10-27T04:35:11.500933+00:00",
+      "crypto": 0.4068,
+      "global": 0.5309,
+      "combined": 0.4327,
+      "counts": {
+        "crypto": 80,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SoftBank-Backed Lenskart IPO to Raise as Much as $828 Million",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-27/softbank-backed-lenskart-ipo-to-raise-as-much-as-828-million",
+        "title": "Japan’s Nikkei Breaks Key 50,000 Level Ahead of Trump Meeting",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/japan-s-nikkei-breaks-key-50-000-level-ahead-of-trump-meeting",
         "source": "Bloomberg Markets",
-        "weight": 0.7538,
-        "score": 0.6333
+        "weight": 0.6896,
+        "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 3.8% — rally",
+        "title": "Argentina Investors Poised for Rally After Milei Landslide Win",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/argentina-investors-brace-for-rally-after-milei-landslide-win",
+        "source": "Bloomberg Markets",
+        "weight": 0.6134,
+        "score": 0.7333
+      },
+      {
+        "title": "Global crypto market cap up 3.7% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Huawei EV Partner Seres Seeks $1.7 Billion in HK Listing",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-26/huawei-ev-partner-seres-seeks-1-7-billion-in-hong-kong-listing",
-        "source": "Bloomberg Markets",
-        "weight": 0.5787,
-        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "‘The claim that L2s inherit ETH security is erroneous’ — Solana co-founder",
-        "url": "https://cointelegraph.com/news/claim-l2s-inherit-eth-security-erroneous-solana-founder?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Thailand’s Export Growth Unexpectedly Jumps 19% Despite Tariffs",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/thailand-s-export-growth-unexpectedly-jumps-19-despite-tariffs",
+        "source": "Bloomberg Markets",
+        "weight": 0.7517,
+        "score": -0.9333
+      },
+      {
+        "title": "Bitcoin Surpasses 50-Day Average, but CoinDesk BTC Trend Indicator Remains Bearish",
+        "url": "https://www.coindesk.com/markets/2025/10/27/bitcoin-surpasses-50-day-average-but-coindesk-btc-trend-indicator-remains-bearish",
+        "source": "CoinDesk",
+        "weight": 1.1599,
+        "score": -0.5333
+      },
+      {
+        "title": "Mt. Gox’s security flaws cost millions. Could AI have spotted them?",
+        "url": "https://cointelegraph.com/news/mt-gox-s-security-flaws-cost-millions-could-ai-have-spotted-them?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5881,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin retraces nearly half its losses from October crash amid Fed rate-cut expectations",
-        "url": "https://cryptoslate.com/bitcoin-retraces-nearly-half-its-losses-from-october-crash-amid-fed-rate-cut-expectations/",
-        "source": "CryptoSlate",
-        "weight": 0.5685,
-        "score": -1.0
-      },
-      {
-        "title": "HSBC to recognize $1.1 billion provision in third quarter after court ruling in Madoff case",
-        "url": "https://www.cnbc.com/2025/10/27/hsbc-1point1-billion-in-provision-third-quarter-madoff-case.html",
-        "source": "CNBC Markets",
-        "weight": 0.7046,
+        "weight": 0.7594,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46107009318404857,
-          "price_change_24h": -0.02036
+          "volume_mcap_ratio": 0.49397455926798334,
+          "price_change_24h": -0.02278
         }
       ],
       "momentum_shifts": []
