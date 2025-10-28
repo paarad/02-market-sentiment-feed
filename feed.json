@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-27T20:26:12.157831+00:00",
+  "updated_at": "2025-10-28T01:56:35.272887+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.064,
-    "fearGreed": 51,
-    "momentum": 0.385,
-    "regime": "sideways",
+    "change24h": -0.024,
+    "vol": 0.079,
+    "fearGreed": 50,
+    "momentum": -0.428,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5932,
-    "global_sentiment": 0.4769,
-    "combined_sentiment": 0.568,
-    "confidence": 0.8267,
+    "crypto_sentiment": 0.5916,
+    "global_sentiment": 0.4362,
+    "combined_sentiment": 0.5634,
+    "confidence": 0.7427,
     "counts": {
-      "crypto": 74,
-      "global": 49
+      "crypto": 69,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 114772,
-      "btc_change_24h": 1.2,
-      "eth_price": 4152.55,
-      "eth_change_24h": 2.23,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "btc_price": 114452,
+      "btc_change_24h": -0.74,
+      "eth_price": 4137.15,
+      "eth_change_24h": -1.29,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 51,
+        "value": 50,
         "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 274582734227,
+        "volume_24h": 251808138325,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.34,
+        "btc_dominance": 57.3,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-14T08:31:35.922050+00:00",
-      "crypto": 0.4169,
-      "global": 0.4577,
-      "combined": 0.4341,
-      "counts": {
-        "crypto": 67,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-10-14T12:54:46.303412+00:00",
       "crypto": 0.3825,
@@ -1008,66 +998,76 @@
         "crypto": 74,
         "global": 49
       }
+    },
+    {
+      "ts": "2025-10-28T01:56:35.272887+00:00",
+      "crypto": 0.5916,
+      "global": 0.4362,
+      "combined": 0.5634,
+      "counts": {
+        "crypto": 69,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How high can XRP price go in November?",
-        "url": "https://cointelegraph.com/news/how-high-can-xrp-price-go-in-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Japanese Stocks Slip From Record High as Takaichi Meets Trump",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-27/japan-s-stock-investors-to-keep-eye-on-takaichi-trump-meeting",
+        "source": "Bloomberg Markets",
+        "weight": 0.568,
+        "score": 0.8667
+      },
+      {
+        "title": "Solana, Litecoin, Hedera ETFs to launch Tuesday: Analyst",
+        "url": "https://cointelegraph.com/news/crypto-solana-litecoin-hedera-etfs-launch?utm_source=rss_feed&utm_medium=rss%3Fnc%3D1761616253428%26timestamp%3D1761616253428%26noCache%3Dtrue%26_t%3D1761616253428&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8132,
-        "score": 1.0
+        "weight": 0.4797,
+        "score": 0.9667
       },
       {
-        "title": "New Finance Models Driving Growth Across Asean",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-27/new-finance-models-driving-growth-across-asean-video",
+        "title": "Domino’s Pizza Enterprises Soars on Report Bain Eyeing Takeover",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-28/domino-s-pizza-enterprises-soars-on-report-bain-eyeing-takeover",
         "source": "Bloomberg Markets",
-        "weight": 0.663,
-        "score": 1.0
-      },
-      {
-        "title": "Canada, Asean Discuss Strategies for Trade Growth",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-27/canada-asean-discuss-strategies-for-trade-growth-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6659,
-        "score": 0.9167
+        "weight": 0.6863,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "China Maintains Scrutiny of Crypto While Asia Embraces Stablecoins",
-        "url": "https://decrypt.co/346157/china-crypto-scrutiny-asia-stablecoin-embrace",
-        "source": "Decrypt",
-        "weight": 0.7329,
-        "score": -1.0
+        "title": "Stocks Rally, Cross 6,800 Mark Ahead of US-China Trade Deal | The Close 10/27/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-27/the-close-10-27-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6022,
+        "score": -0.9667
       },
       {
-        "title": "Indian court steps in over WazirX XRP distribution tied to 2024 hack",
-        "url": "https://cointelegraph.com/news/india-court-wazirx-xrp-distribution-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9122,
-        "score": -0.7333
+        "title": "Review & Preview: Earnings Roll On",
+        "url": "https://finance.yahoo.com/m/7a2a5072-b064-3051-a2b1-3e2eb14d9f08/review-%26-preview%3A-earnings.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5749,
+        "score": -0.8
       },
       {
-        "title": "NBA reviewing prop bets, injury reporting, AI to track wagers after gambling indictment",
-        "url": "https://www.cnbc.com/2025/10/27/nba-prop-bets-ai-rozier-billups-gambling.html",
+        "title": "Trump Treasury Sec. Bessent says he's felt 'pain' from China because he's a 'soybean farmer'",
+        "url": "https://www.cnbc.com/2025/10/26/trump-treasury-bessent-trade-tariffs-china-soybean-farm.html",
         "source": "CNBC Markets",
-        "weight": 0.7245,
-        "score": -0.8333
+        "weight": 0.6689,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6472938690295615,
-          "price_change_24h": -0.00278
+          "volume_mcap_ratio": 0.596879233199933,
+          "price_change_24h": -0.0039
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3135542721755375,
-          "price_change_24h": 0.00639
+          "volume_mcap_ratio": 0.3017276897263868,
+          "price_change_24h": -0.00181
         }
       ],
       "momentum_shifts": []
