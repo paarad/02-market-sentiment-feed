@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-28T12:53:33.305941+00:00",
+  "updated_at": "2025-10-28T16:34:43.945921+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.571,
+    "change24h": -0.0,
+    "vol": 0.255,
     "fearGreed": 50,
-    "momentum": 0.618,
-    "regime": "sideways",
+    "momentum": -0.006,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5623,
-    "global_sentiment": 0.5729,
-    "combined_sentiment": 0.5528,
-    "confidence": 0.8121,
+    "crypto_sentiment": 0.5571,
+    "global_sentiment": 0.6112,
+    "combined_sentiment": 0.5521,
+    "confidence": 0.8399,
     "counts": {
-      "crypto": 71,
-      "global": 40
+      "crypto": 73,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 114424,
-      "btc_change_24h": -0.55,
-      "eth_price": 4120.92,
-      "eth_change_24h": -0.67,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 115205,
+      "btc_change_24h": -0.21,
+      "eth_price": 4123.88,
+      "eth_change_24h": -1.91,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 203539204880,
-        "high_activity_coins": 1
+        "volume_24h": 216867146417,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.25,
+        "btc_dominance": 57.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-14T20:27:13.105159+00:00",
-      "crypto": 0.3462,
-      "global": 0.4431,
-      "combined": 0.3799,
-      "counts": {
-        "crypto": 69,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-10-15T01:56:36.539644+00:00",
       "crypto": 0.3527,
@@ -1008,29 +998,39 @@
         "crypto": 71,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-28T16:34:43.945921+00:00",
+      "crypto": 0.5571,
+      "global": 0.6112,
+      "combined": 0.5521,
+      "counts": {
+        "crypto": 73,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How high can SOL’s price go as the first Solana ETF goes live?",
-        "url": "https://cointelegraph.com/news/how-high-can-sol-price-go-first-solana-etf-live?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8107,
-        "score": 0.8667
+        "title": "Hedera Jumps 25.7% Breaking Key Resistance as Spot ETF Launches",
+        "url": "https://www.coindesk.com/markets/2025/10/28/hbar-surged-25-7-breaking-key-resistance-as-spot-etf-launches",
+        "source": "CoinDesk",
+        "weight": 0.9539,
+        "score": 0.6667
       },
       {
-        "title": "Solana ETFs may attract $6B in first year as SOL joins ‘big league’",
-        "url": "https://cointelegraph.com/news/solana-etf-attract-6b-capital-sol-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6007,
-        "score": 0.9167
-      },
-      {
-        "title": "As Argentina Surges Back, Peso Shows Limit to Milei Euphoria",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/as-argentina-surges-back-peso-shows-limit-to-milei-euphoria",
+        "title": "UPS Surges; UnitedHealth Gains; Amazon Cuts 14,000 Jobs",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-28/ups-surges-unitedhealth-gains-amazon-cuts-14-000-jobs-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7766,
+        "weight": 0.6297,
+        "score": 1.0
+      },
+      {
+        "title": "UPS Stuns Wall Street With Strong Profit and 34K Job Cuts",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-28/ups-stuns-wall-street-with-strong-profit-34k-job-cuts-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7948,
         "score": 0.6667
       }
     ],
@@ -1039,30 +1039,35 @@
         "title": "Bank of Korea Warns on Stablecoin Depeg Risks, Says Banks Should Lead",
         "url": "https://decrypt.co/346345/bank-of-korea-warns-on-stablecoin-depeg-risks-says-banks-should-lead",
         "source": "Decrypt",
-        "weight": 0.7566,
+        "weight": 0.4942,
         "score": -1.0
       },
       {
-        "title": "Private sector created nearly 15,000 jobs a week over the past month, preliminary ADP data shows",
-        "url": "https://www.cnbc.com/2025/10/28/private-sector-created-nearly-15000-jobs-a-week-over-the-past-month-preliminary-adp-data-shows.html",
-        "source": "CNBC Markets",
-        "weight": 0.7707,
-        "score": -0.6333
+        "title": "AT1 Boom Hits Kazakhstan as ForteBank Gets $1 Billion of Bids",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-28/at1-boom-hits-kazakhstan-as-fortebank-gets-1-billion-of-bids",
+        "source": "Bloomberg Markets",
+        "weight": 0.7328,
+        "score": -0.6667
       },
       {
-        "title": "BNP Paribas Hit by Souring Debt, Solomon Sees 'Systemic Risk' in Credit | The Opening Trade 10/28",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-28/the-opening-trade-10-28-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7319,
-        "score": -0.6667
+        "title": "OpenAI restructures as public benefit corporation, Microsoft secures 27% stake",
+        "url": "https://cointelegraph.com/news/openai-public-benefit-corporation-microsoft-stake-135b-azure-deal?utm_source=rss_feed&utm_medium=rss%3F_q%3D1761669230697%26cb%3D0fd3ru&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6833,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4865675060216411,
-          "price_change_24h": 0.0011
+          "volume_mcap_ratio": 0.5000925713515041,
+          "price_change_24h": -0.00334
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.30922822337251304,
+          "price_change_24h": -0.00728
         }
       ],
       "momentum_shifts": []
