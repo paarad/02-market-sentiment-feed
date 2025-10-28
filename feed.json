@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-28T08:34:50.535049+00:00",
+  "updated_at": "2025-10-28T12:53:33.305941+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.574,
+    "change24h": 0.035,
+    "vol": 0.571,
     "fearGreed": 50,
-    "momentum": 0.534,
+    "momentum": 0.618,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.545,
-    "global_sentiment": 0.4103,
-    "combined_sentiment": 0.5263,
-    "confidence": 0.7211,
+    "crypto_sentiment": 0.5623,
+    "global_sentiment": 0.5729,
+    "combined_sentiment": 0.5528,
+    "confidence": 0.8121,
     "counts": {
-      "crypto": 65,
-      "global": 38
+      "crypto": 71,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 114423,
-      "btc_change_24h": -0.84,
-      "eth_price": 4129.95,
-      "eth_change_24h": -1.06,
+      "btc_price": 114424,
+      "btc_change_24h": -0.55,
+      "eth_price": 4120.92,
+      "eth_change_24h": -0.67,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 226493480036,
+        "volume_24h": 203539204880,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.23,
+        "btc_dominance": 57.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-14T19:53:34.005572+00:00",
-      "crypto": 0.3554,
-      "global": 0.4167,
-      "combined": 0.3846,
-      "counts": {
-        "crypto": 68,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-10-14T20:27:13.105159+00:00",
       "crypto": 0.3462,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-28T12:53:33.305941+00:00",
+      "crypto": 0.5623,
+      "global": 0.5729,
+      "combined": 0.5528,
+      "counts": {
+        "crypto": 71,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Daily market wrap: top stocks - Qualcomm, Keurig Dr Pepper, and Albemarle",
-        "url": "https://www.thestreet.com/investing/stocks/daily-market-wrap-top-stocks-qualcomm-keurig-dr-pepper-and-albemarle?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5362,
-        "score": 1.0
+        "title": "How high can SOL’s price go as the first Solana ETF goes live?",
+        "url": "https://cointelegraph.com/news/how-high-can-sol-price-go-first-solana-etf-live?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8107,
+        "score": 0.8667
       },
       {
-        "title": "XRP Edges Higher to $2.63 as Volume Surges Signal Growing Trader Interest",
-        "url": "https://www.coindesk.com/markets/2025/10/28/xrp-edges-higher-to-usd2-63-as-volume-surges-signal-growing-trader-interest",
-        "source": "CoinDesk",
-        "weight": 0.833,
-        "score": 0.5333
+        "title": "Solana ETFs may attract $6B in first year as SOL joins ‘big league’",
+        "url": "https://cointelegraph.com/news/solana-etf-attract-6b-capital-sol-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6007,
+        "score": 0.9167
       },
       {
-        "title": "FTSE 100 Rises, Driven by HSBC Share Gains",
-        "url": "https://www.bloomberg.com/news/live-blog/2025-10-28/ftse-100-hsbc-stocks-rachel-reeves-budget-trump-trade-what-s-moving-uk-markets-right-now-markets-today-mha778zi",
+        "title": "As Argentina Surges Back, Peso Shows Limit to Milei Euphoria",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-28/as-argentina-surges-back-peso-shows-limit-to-milei-euphoria",
         "source": "Bloomberg Markets",
-        "weight": 0.6427,
+        "weight": 0.7766,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "HDFC Bank Puts Bankers on Leave Amid Credit Suisse Bond Probe",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/hdfc-bank-puts-bankers-on-leave-amid-credit-suisse-bond-probe",
-        "source": "Bloomberg Markets",
-        "weight": 0.7123,
-        "score": -0.9667
+        "title": "Bank of Korea Warns on Stablecoin Depeg Risks, Says Banks Should Lead",
+        "url": "https://decrypt.co/346345/bank-of-korea-warns-on-stablecoin-depeg-risks-says-banks-should-lead",
+        "source": "Decrypt",
+        "weight": 0.7566,
+        "score": -1.0
       },
       {
-        "title": "Goldman CEO Solomon Sees No ‘Systemic Crisis’ in Credit Markets",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/goldman-ceo-solomon-sees-no-systemic-crisis-in-credit-markets",
-        "source": "Bloomberg Markets",
-        "weight": 0.5969,
-        "score": -0.6667
-      },
-      {
-        "title": "HSBC Warns of Pressure in Hong Kong Office Property Amid Defaults",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/hsbc-warns-of-pressure-in-hk-office-property-amid-defaults",
-        "source": "Bloomberg Markets",
-        "weight": 0.6258,
+        "title": "Private sector created nearly 15,000 jobs a week over the past month, preliminary ADP data shows",
+        "url": "https://www.cnbc.com/2025/10/28/private-sector-created-nearly-15000-jobs-a-week-over-the-past-month-preliminary-adp-data-shows.html",
+        "source": "CNBC Markets",
+        "weight": 0.7707,
         "score": -0.6333
+      },
+      {
+        "title": "BNP Paribas Hit by Souring Debt, Solomon Sees 'Systemic Risk' in Credit | The Opening Trade 10/28",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-28/the-opening-trade-10-28-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7319,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5355876030119464,
-          "price_change_24h": -0.01632
+          "volume_mcap_ratio": 0.4865675060216411,
+          "price_change_24h": 0.0011
         }
       ],
       "momentum_shifts": []
