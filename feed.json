@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-29T04:32:18.799429+00:00",
+  "updated_at": "2025-10-29T08:35:16.826246+00:00",
   "indicators": {
-    "change24h": -0.041,
-    "vol": 0.166,
+    "change24h": -0.061,
+    "vol": 0.339,
     "fearGreed": 51,
-    "momentum": -0.715,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5037,
-    "global_sentiment": 0.3782,
-    "combined_sentiment": 0.4926,
-    "confidence": 0.7701,
+    "crypto_sentiment": 0.4636,
+    "global_sentiment": 0.5873,
+    "combined_sentiment": 0.48,
+    "confidence": 0.7394,
     "counts": {
-      "crypto": 75,
-      "global": 31
+      "crypto": 72,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 112725,
-      "btc_change_24h": -1.03,
-      "eth_price": 4012.12,
-      "eth_change_24h": -2.14,
+      "btc_price": 113271,
+      "btc_change_24h": -0.98,
+      "eth_price": 4019.26,
+      "eth_change_24h": -2.66,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.15,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 248494598185,
+        "volume_24h": 248913691594,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.46,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-15T16:28:32.270800+00:00",
-      "crypto": 0.3445,
-      "global": 0.3716,
-      "combined": 0.3726,
-      "counts": {
-        "crypto": 68,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-10-15T19:53:47.053624+00:00",
       "crypto": 0.3213,
@@ -1008,66 +998,76 @@
         "crypto": 75,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-10-29T08:35:16.826246+00:00",
+      "crypto": 0.4636,
+      "global": 0.5873,
+      "combined": 0.48,
+      "counts": {
+        "crypto": 72,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Philippine Peso Poised for Rebound as Holiday Remittances Set to Arrive",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/php-usd-philippine-peso-set-for-year-end-rebound-on-holiday-remittances-boost",
+        "title": "Nikkei’s Rally Seen Vulnerable With Few Stocks Driving Gains",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/nikkei-s-rally-seen-vulnerable-with-few-stocks-driving-gains",
         "source": "Bloomberg Markets",
-        "weight": 0.727,
+        "weight": 0.6523,
+        "score": 1.0
+      },
+      {
+        "title": "Spanish Growth Stays Strong as Homegrown Demand Offsets Trade",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/spanish-growth-stays-strong-as-homegrown-demand-offsets-trade",
+        "source": "Bloomberg Markets",
+        "weight": 0.7475,
         "score": 0.6667
       },
       {
-        "title": "SK Hynix, a critical Nvidia supplier, is already sold out for 2026 as AI demand booms",
-        "url": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7396,
-        "score": 0.5
-      },
-      {
-        "title": "Ethereum’s Fusaka Upgrade Completes Final Hoodi Test Ahead of Mainnet Launch",
-        "url": "https://www.coindesk.com/tech/2025/10/28/ethereum-s-fusaka-upgrade-completes-final-hoodi-test-ahead-of-mainnet-launch",
-        "source": "CoinDesk",
-        "weight": 0.3418,
-        "score": 1.0
+        "title": "Next Lifts Guidance Again as Shoppers Defy UK Economic Woes",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/next-lifts-guidance-again-as-shoppers-defy-uk-economic-woes",
+        "source": "Bloomberg Markets",
+        "weight": 0.691,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Australian regulator gives long-awaited crypto guidance, but concerns remain",
+        "url": "https://cointelegraph.com/news/asic-crypto-guidance-australia-structural-bottlenecks?utm_source=rss_feed&utm_medium=rss%3F_dc%3D1761726713283%26_refresh%3D25eucd%26r%3D25eucd%26ttl%3D0&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.612,
+        "score": -0.9667
+      },
+      {
         "title": "Recent Bitcoin Crash Has Put $1B in sUSDe Loop Trades at Risk, Research Firm Says",
         "url": "https://www.coindesk.com/markets/2025/10/29/recent-bitcoin-crash-has-put-usd1b-in-susde-loop-trades-at-risk-research-firm-says",
         "source": "CoinDesk",
-        "weight": 0.9489,
+        "weight": 0.5943,
         "score": -0.9667
       },
       {
-        "title": "Australia’s inflation tops forecasts at 3.2%, highest in over a year",
-        "url": "https://www.cnbc.com/2025/10/29/australia-inflation-tops-forecasts-highest-over-year-third-quarter-rba-cpi-michelle-bullock.html",
-        "source": "CNBC Markets",
-        "weight": 0.7255,
-        "score": -0.9667
-      },
-      {
-        "title": "Hanwha Aerospace Global CSO on China Sanctions, Rare Earths",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-29/hanwha-aerospace-cso-on-china-sanctions-rare-earths-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5979,
-        "score": -1.0
+        "title": "Trump-linked World Liberty to airdrop $1.2M of WLFI tokens to early USD1 users",
+        "url": "https://cointelegraph.com/news/trump-world-liberty-wlfi-airdrop-usd1-stablecoin?utm_source=rss_feed&utm_medium=rss%3F_dc%3D1761726713283%26_refresh%3D25eucd%26r%3D25eucd%26ttl%3D0&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7011,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.540124912135009,
-          "price_change_24h": 0.01474
+          "volume_mcap_ratio": 0.5366281914571611,
+          "price_change_24h": 0.02683
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3125491994175399,
-          "price_change_24h": 0.08829
+          "volume_mcap_ratio": 0.3368916867570143,
+          "price_change_24h": 0.02463
         }
       ],
       "momentum_shifts": []
