@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-29T02:03:41.051518+00:00",
+  "updated_at": "2025-10-29T04:32:18.799429+00:00",
   "indicators": {
-    "change24h": -0.038,
-    "vol": 0.137,
+    "change24h": -0.041,
+    "vol": 0.166,
     "fearGreed": 51,
-    "momentum": -0.672,
+    "momentum": -0.715,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5655,
-    "global_sentiment": 0.4424,
-    "combined_sentiment": 0.5443,
-    "confidence": 0.7876,
+    "crypto_sentiment": 0.5037,
+    "global_sentiment": 0.3782,
+    "combined_sentiment": 0.4926,
+    "confidence": 0.7701,
     "counts": {
-      "crypto": 74,
-      "global": 34
+      "crypto": 75,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 112483,
-      "btc_change_24h": -1.72,
-      "eth_price": 3984.08,
-      "eth_change_24h": -3.76,
+      "btc_price": 112725,
+      "btc_change_24h": -1.03,
+      "eth_price": 4012.12,
+      "eth_change_24h": -2.14,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 255606570092,
+        "volume_24h": 248494598185,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.48,
+        "btc_dominance": 57.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-15T12:54:20.724390+00:00",
-      "crypto": 0.3808,
-      "global": 0.4317,
-      "combined": 0.4049,
-      "counts": {
-        "crypto": 74,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-10-15T16:28:32.270800+00:00",
       "crypto": 0.3445,
@@ -1008,66 +998,76 @@
         "crypto": 74,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-10-29T04:32:18.799429+00:00",
+      "crypto": 0.5037,
+      "global": 0.3782,
+      "combined": 0.4926,
+      "counts": {
+        "crypto": 75,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Philippine Peso Poised for Rebound as Holiday Remittances Set to Arrive",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/php-usd-philippine-peso-set-for-year-end-rebound-on-holiday-remittances-boost",
+        "source": "Bloomberg Markets",
+        "weight": 0.727,
+        "score": 0.6667
+      },
+      {
+        "title": "SK Hynix, a critical Nvidia supplier, is already sold out for 2026 as AI demand booms",
+        "url": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7396,
+        "score": 0.5
+      },
+      {
         "title": "Ethereum’s Fusaka Upgrade Completes Final Hoodi Test Ahead of Mainnet Launch",
         "url": "https://www.coindesk.com/tech/2025/10/28/ethereum-s-fusaka-upgrade-completes-final-hoodi-test-ahead-of-mainnet-launch",
         "source": "CoinDesk",
-        "weight": 0.455,
+        "weight": 0.3418,
         "score": 1.0
-      },
-      {
-        "title": "Dow Jones, S&P 500 Hit Highs; Why Microsoft, Google, Meta Earnings Are So Important",
-        "url": "https://finance.yahoo.com/m/fdbfb033-5e61-3cb9-b4a1-574dfc801580/dow-jones%2C-s%26p-500-hit-highs%3B.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7922,
-        "score": 0.5333
-      },
-      {
-        "title": "SK Hynix record third-quarter profit sends shares higher, boosting stock rally to 210% this year",
-        "url": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7825,
-        "score": 0.5
       }
     ],
     "negative": [
       {
+        "title": "Recent Bitcoin Crash Has Put $1B in sUSDe Loop Trades at Risk, Research Firm Says",
+        "url": "https://www.coindesk.com/markets/2025/10/29/recent-bitcoin-crash-has-put-usd1b-in-susde-loop-trades-at-risk-research-firm-says",
+        "source": "CoinDesk",
+        "weight": 0.9489,
+        "score": -0.9667
+      },
+      {
         "title": "Australia’s inflation tops forecasts at 3.2%, highest in over a year",
         "url": "https://www.cnbc.com/2025/10/29/australia-inflation-tops-forecasts-highest-over-year-third-quarter-rba-cpi-michelle-bullock.html",
         "source": "CNBC Markets",
-        "weight": 0.7729,
+        "weight": 0.7255,
         "score": -0.9667
       },
       {
-        "title": "Liquid Credit’s Wobbles Are Good for Private Lenders, Ares Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/liquid-credit-s-wobbles-are-good-for-private-lenders-ares-says",
+        "title": "Hanwha Aerospace Global CSO on China Sanctions, Rare Earths",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-29/hanwha-aerospace-cso-on-china-sanctions-rare-earths-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5704,
+        "weight": 0.5979,
         "score": -1.0
-      },
-      {
-        "title": "Fed Should Resist Market Pressure for More Cuts: Duke",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-28/fed-should-resist-market-pressure-for-more-cuts-duke-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5539,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5536775219339904,
-          "price_change_24h": 0.01236
+          "volume_mcap_ratio": 0.540124912135009,
+          "price_change_24h": 0.01474
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.33320422643588987,
-          "price_change_24h": -0.03597
+          "volume_mcap_ratio": 0.3125491994175399,
+          "price_change_24h": 0.08829
         }
       ],
       "momentum_shifts": []
