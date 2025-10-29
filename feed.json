@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-29T19:53:48.050523+00:00",
+  "updated_at": "2025-10-29T20:29:03.324238+00:00",
   "indicators": {
-    "change24h": -0.027,
-    "vol": 0.108,
+    "change24h": 0.002,
+    "vol": 0.112,
     "fearGreed": 51,
-    "momentum": -0.48,
-    "regime": "bear",
+    "momentum": 0.043,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4648,
-    "global_sentiment": 0.3956,
-    "combined_sentiment": 0.4649,
-    "confidence": 0.8088,
+    "crypto_sentiment": 0.4449,
+    "global_sentiment": 0.4337,
+    "combined_sentiment": 0.4531,
+    "confidence": 0.7107,
     "counts": {
-      "crypto": 62,
-      "global": 40
+      "crypto": 61,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 110719,
-      "btc_change_24h": -2.56,
-      "eth_price": 3918.38,
-      "eth_change_24h": -3.02,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 111273,
+      "btc_change_24h": -1.21,
+      "eth_price": 3935.0,
+      "eth_change_24h": -0.99,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 277532998278,
+        "volume_24h": 274553421486,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.23,
+        "btc_dominance": 57.24,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-16T04:28:54.410212+00:00",
-      "crypto": 0.3785,
-      "global": 0.4847,
-      "combined": 0.4076,
-      "counts": {
-        "crypto": 62,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-16T08:34:51.398165+00:00",
       "crypto": 0.4097,
@@ -1008,6 +998,16 @@
         "crypto": 62,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-10-29T20:29:03.324238+00:00",
+      "crypto": 0.4449,
+      "global": 0.4337,
+      "combined": 0.4531,
+      "counts": {
+        "crypto": 61,
+        "global": 39
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "The Protocol: ETH’s Fusaka Upgrade Goes Live on Hoodi, Mainnet Next",
         "url": "https://www.coindesk.com/tech/2025/10/29/the-protocol-eth-s-fusaka-upgrade-goes-live-on-hoodi-mainnet-next",
         "source": "CoinDesk",
-        "weight": 0.6736,
+        "weight": 0.6294,
         "score": 0.9667
+      },
+      {
+        "title": "Carvana Expects to Beat Guidance as Used-Car Sales Pass Record",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/carvana-expects-to-beat-guidance-as-used-car-sales-pass-record",
+        "source": "Bloomberg Markets",
+        "weight": 0.7746,
+        "score": 0.6667
       },
       {
         "title": "Crypto ETFs Using New Listing Standards: Pantera's Paglia",
         "url": "https://www.bloomberg.com/news/videos/2025-10-29/crypto-etfs-using-new-listing-standards-katrina-paglia-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6995,
+        "weight": 0.6536,
         "score": 0.6333
-      },
-      {
-        "title": "HBAR Consolidates at $0.2010 as Volume Surge Signals Distribution",
-        "url": "https://www.coindesk.com/markets/2025/10/29/hbar-consolidates-at-usd0-2010-as-volume-surge-signals-distribution",
-        "source": "CoinDesk",
-        "weight": 0.7074,
-        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Character.AI to Ban Minors From Talking to Its Chatbots",
         "url": "https://www.bloomberg.com/news/videos/2025-10-29/character-ai-to-ban-minors-from-talking-to-its-chatbots",
         "source": "Bloomberg Markets",
-        "weight": 0.7941,
+        "weight": 0.742,
         "score": -1.0
       },
       {
         "title": "New CLO Fund Comes to Blockchain: Securitize CEO",
         "url": "https://www.bloomberg.com/news/videos/2025-10-29/new-clo-fund-comes-to-blockchain-securitize-ceo-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7762,
+        "weight": 0.7253,
         "score": -0.9667
       },
       {
         "title": "FDA to speed up approvals of generic biologic medicines as Trump targets high drug costs",
         "url": "https://www.cnbc.com/2025/10/29/fda-to-speed-up-generic-drug-approvals-as-trump-targets-drug-costs.html",
         "source": "CNBC Markets",
-        "weight": 0.7168,
+        "weight": 0.6698,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6411531168331752,
-          "price_change_24h": 0.02094
+          "volume_mcap_ratio": 0.624705429811732,
+          "price_change_24h": 0.0216
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.35771695736668646,
-          "price_change_24h": 0.02665
+          "volume_mcap_ratio": 0.37675552536795776,
+          "price_change_24h": 0.1688
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-10-29",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4966,
-      "crypto_high": 0.5655,
-      "crypto_low": 0.4636,
-      "global_avg": 0.501,
-      "global_high": 0.6205,
-      "global_low": 0.3782,
-      "combined_avg": 0.4975,
-      "combined_high": 0.5443,
-      "combined_low": 0.4649
-    },
-    "market_indicators_24h": {
-      "change24h": -0.027,
-      "vol": 0.108,
-      "fearGreed": 51,
-      "momentum": -0.48,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-10-29T19:53:48.050523+00:00"
   }
 }
