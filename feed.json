@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-29T08:35:16.826246+00:00",
+  "updated_at": "2025-10-29T12:55:18.750462+00:00",
   "indicators": {
-    "change24h": -0.061,
-    "vol": 0.339,
+    "change24h": -0.051,
+    "vol": 0.342,
     "fearGreed": 51,
-    "momentum": -1.0,
+    "momentum": -0.889,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4636,
-    "global_sentiment": 0.5873,
-    "combined_sentiment": 0.48,
-    "confidence": 0.7394,
+    "crypto_sentiment": 0.4798,
+    "global_sentiment": 0.5817,
+    "combined_sentiment": 0.4916,
+    "confidence": 0.7965,
     "counts": {
-      "crypto": 72,
-      "global": 30
+      "crypto": 71,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 113271,
-      "btc_change_24h": -0.98,
-      "eth_price": 4019.26,
-      "eth_change_24h": -2.66,
+      "btc_price": 113213,
+      "btc_change_24h": -1.1,
+      "eth_price": 4016.13,
+      "eth_change_24h": -2.62,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 51,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 248913691594,
+        "volume_24h": 249471727323,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.52,
+        "btc_dominance": 57.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-15T19:53:47.053624+00:00",
-      "crypto": 0.3213,
-      "global": 0.4386,
-      "combined": 0.3609,
-      "counts": {
-        "crypto": 64,
-        "global": 51
-      }
-    },
     {
       "ts": "2025-10-15T20:28:24.943259+00:00",
       "crypto": 0.3455,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-10-29T12:55:18.750462+00:00",
+      "crypto": 0.4798,
+      "global": 0.5817,
+      "combined": 0.4916,
+      "counts": {
+        "crypto": 71,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nikkei’s Rally Seen Vulnerable With Few Stocks Driving Gains",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/nikkei-s-rally-seen-vulnerable-with-few-stocks-driving-gains",
-        "source": "Bloomberg Markets",
-        "weight": 0.6523,
-        "score": 1.0
+        "title": "Ironlight Wins FINRA Approval for First U.S. Regulated ATS With Onchain Atomic Settlement",
+        "url": "https://www.coindesk.com/policy/2025/10/29/ironlight-wins-finra-approval-for-first-u-s-regulated-ats-with-onchain-atomic-settlement",
+        "source": "CoinDesk",
+        "weight": 0.899,
+        "score": 0.9167
       },
       {
-        "title": "Spanish Growth Stays Strong as Homegrown Demand Offsets Trade",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/spanish-growth-stays-strong-as-homegrown-demand-offsets-trade",
-        "source": "Bloomberg Markets",
-        "weight": 0.7475,
-        "score": 0.6667
+        "title": "NextPlat Granted 180-Day Extension by Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/news/nextplat-granted-180-day-extension-120100241.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7206,
+        "score": 0.9667
       },
       {
-        "title": "Next Lifts Guidance Again as Shoppers Defy UK Economic Woes",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/next-lifts-guidance-again-as-shoppers-defy-uk-economic-woes",
-        "source": "Bloomberg Markets",
-        "weight": 0.691,
-        "score": 0.6667
+        "title": "These four XRP price charts predict a rally toward $3",
+        "url": "https://cointelegraph.com/news/these-four-xrp-price-charts-predict-rally-toward-3-dollars?utm_source=rss_feed&utm_medium=rss%3Fttt%3D1761742242025%26_rnd%3D72t7d5%26_dc%3D1761742242025%26sid%3D1dd9cf15818b497a&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8867,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Australian regulator gives long-awaited crypto guidance, but concerns remain",
-        "url": "https://cointelegraph.com/news/asic-crypto-guidance-australia-structural-bottlenecks?utm_source=rss_feed&utm_medium=rss%3F_dc%3D1761726713283%26_refresh%3D25eucd%26r%3D25eucd%26ttl%3D0&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.612,
-        "score": -0.9667
+        "title": "SDNY Judge Denies OpenAI Bid To Strike Authors' Book-Download Claim",
+        "url": "https://decrypt.co/346567/sdny-judge-denies-openai-bid-to-strike-authors-book-download-claim",
+        "source": "Decrypt",
+        "weight": 0.7766,
+        "score": -1.0
       },
       {
-        "title": "Recent Bitcoin Crash Has Put $1B in sUSDe Loop Trades at Risk, Research Firm Says",
-        "url": "https://www.coindesk.com/markets/2025/10/29/recent-bitcoin-crash-has-put-usd1b-in-susde-loop-trades-at-risk-research-firm-says",
+        "title": "Trump's Campaign to Blow Up Boats in Drug War Gets a Caribbean Ally",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-29/trump-s-campaign-to-blow-up-boats-in-drug-war-gets-a-caribbean-ally",
+        "source": "Bloomberg Markets",
+        "weight": 0.7208,
+        "score": -0.9333
+      },
+      {
+        "title": "Memecoin Tied to CZ Statue Crashes 99% After Binance Founder Disowns It",
+        "url": "https://www.coindesk.com/business/2025/10/29/memecoin-tied-to-cz-statue-crashes-99-after-binance-founder-disowns-it-amid-usd1-2b-volume",
         "source": "CoinDesk",
-        "weight": 0.5943,
-        "score": -0.9667
-      },
-      {
-        "title": "Trump-linked World Liberty to airdrop $1.2M of WLFI tokens to early USD1 users",
-        "url": "https://cointelegraph.com/news/trump-world-liberty-wlfi-airdrop-usd1-stablecoin?utm_source=rss_feed&utm_medium=rss%3F_dc%3D1761726713283%26_refresh%3D25eucd%26r%3D25eucd%26ttl%3D0&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7011,
-        "score": -0.6667
+        "weight": 0.8817,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5366281914571611,
-          "price_change_24h": 0.02683
+          "volume_mcap_ratio": 0.5463570157307834,
+          "price_change_24h": 0.02921
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3368916867570143,
-          "price_change_24h": 0.02463
+          "volume_mcap_ratio": 0.351267147038221,
+          "price_change_24h": 0.11089
         }
       ],
       "momentum_shifts": []
