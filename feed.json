@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-28T20:29:29.740414+00:00",
+  "updated_at": "2025-10-29T02:03:41.051518+00:00",
   "indicators": {
-    "change24h": -0.044,
-    "vol": 0.136,
-    "fearGreed": 50,
-    "momentum": -0.763,
+    "change24h": -0.038,
+    "vol": 0.137,
+    "fearGreed": 51,
+    "momentum": -0.672,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5548,
-    "global_sentiment": 0.6077,
-    "combined_sentiment": 0.5501,
-    "confidence": 0.8341,
+    "crypto_sentiment": 0.5655,
+    "global_sentiment": 0.4424,
+    "combined_sentiment": 0.5443,
+    "confidence": 0.7876,
     "counts": {
-      "crypto": 73,
-      "global": 43
+      "crypto": 74,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 112534,
-      "btc_change_24h": -1.94,
-      "eth_price": 3979.12,
-      "eth_change_24h": -4.13,
+      "btc_price": 112483,
+      "btc_change_24h": -1.72,
+      "eth_price": 3984.08,
+      "eth_change_24h": -3.76,
       "market_regime": "bear",
-      "regime_strength": 0.6,
+      "regime_strength": 0.4,
       "market_breadth": 0.2,
       "fear_greed": {
-        "value": 50,
+        "value": 51,
         "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 242760772469,
+        "volume_24h": 255606570092,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.52,
+        "btc_dominance": 57.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-15T08:35:16.042648+00:00",
-      "crypto": 0.4562,
-      "global": 0.4274,
-      "combined": 0.4611,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-15T12:54:20.724390+00:00",
       "crypto": 0.3808,
@@ -1008,6 +998,16 @@
         "crypto": 73,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-10-29T02:03:41.051518+00:00",
+      "crypto": 0.5655,
+      "global": 0.4424,
+      "combined": 0.5443,
+      "counts": {
+        "crypto": 74,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "Ethereum’s Fusaka Upgrade Completes Final Hoodi Test Ahead of Mainnet Launch",
         "url": "https://www.coindesk.com/tech/2025/10/28/ethereum-s-fusaka-upgrade-completes-final-hoodi-test-ahead-of-mainnet-launch",
         "source": "CoinDesk",
-        "weight": 0.866,
+        "weight": 0.455,
         "score": 1.0
       },
       {
-        "title": "Dow Jones Leader IBM, AI Giant Broadcom Break Out Past New Buy Points",
-        "url": "https://finance.yahoo.com/m/1db7dcf8-82b6-3509-ad5d-bd32d04cb18f/dow-jones-leader-ibm%2C-ai.html?.tsrc=rss",
+        "title": "Dow Jones, S&P 500 Hit Highs; Why Microsoft, Google, Meta Earnings Are So Important",
+        "url": "https://finance.yahoo.com/m/fdbfb033-5e61-3cb9-b4a1-574dfc801580/dow-jones%2C-s%26p-500-hit-highs%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.69,
-        "score": 0.8667
+        "weight": 0.7922,
+        "score": 0.5333
       },
       {
-        "title": "Cameco Shares Add $9 Billion to Market Value in a Day on US Pact",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/cameco-shares-add-9-billion-to-market-value-in-a-day-on-us-pact",
-        "source": "Bloomberg Markets",
-        "weight": 0.7756,
-        "score": 0.6667
+        "title": "SK Hynix record third-quarter profit sends shares higher, boosting stock rally to 210% this year",
+        "url": "https://www.cnbc.com/2025/10/29/sk-hynix-q3-profit-revenue-record-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7825,
+        "score": 0.5
       }
     ],
     "negative": [
       {
-        "title": "BASF Brings Share Buyback Program Forward to Bolster Stock Price",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-28/basf-brings-share-buyback-program-forward-to-bolster-stock-price",
+        "title": "Australia’s inflation tops forecasts at 3.2%, highest in over a year",
+        "url": "https://www.cnbc.com/2025/10/29/australia-inflation-tops-forecasts-highest-over-year-third-quarter-rba-cpi-michelle-bullock.html",
+        "source": "CNBC Markets",
+        "weight": 0.7729,
+        "score": -0.9667
+      },
+      {
+        "title": "Liquid Credit’s Wobbles Are Good for Private Lenders, Ares Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-28/liquid-credit-s-wobbles-are-good-for-private-lenders-ares-says",
         "source": "Bloomberg Markets",
-        "weight": 0.7053,
-        "score": -0.9333
+        "weight": 0.5704,
+        "score": -1.0
       },
       {
-        "title": "Bitwise SOL staking ETF debuts with $223M, signaling strong institutional demand",
-        "url": "https://cointelegraph.com/news/bitwise-solana-staking-etf-223m-launch-inflows?utm_source=rss_feed&utm_medium=rss%3F_%3D1761683342694%26_dc%3D1761683342694&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8957,
-        "score": -0.6333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Retreat Late Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-retreat-afternoon-195743431.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7525,
-        "score": -0.6333
+        "title": "Fed Should Resist Market Pressure for More Cuts: Duke",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-28/fed-should-resist-market-pressure-for-more-cuts-duke-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5539,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5302950513135053,
-          "price_change_24h": 0.0038
+          "volume_mcap_ratio": 0.5536775219339904,
+          "price_change_24h": 0.01236
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3234825450625783,
-          "price_change_24h": 0.10095
+          "volume_mcap_ratio": 0.33320422643588987,
+          "price_change_24h": -0.03597
         }
       ],
       "momentum_shifts": []
