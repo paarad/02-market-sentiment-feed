@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-30T08:33:37.988015+00:00",
+  "updated_at": "2025-10-30T12:53:46.872065+00:00",
   "indicators": {
-    "change24h": -0.016,
-    "vol": 0.118,
+    "change24h": -0.082,
+    "vol": 0.129,
     "fearGreed": 34,
-    "momentum": -0.276,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4598,
-    "global_sentiment": 0.4823,
-    "combined_sentiment": 0.4684,
-    "confidence": 0.7984,
+    "crypto_sentiment": 0.3435,
+    "global_sentiment": 0.4527,
+    "combined_sentiment": 0.3787,
+    "confidence": 0.7822,
     "counts": {
-      "crypto": 72,
-      "global": 44
+      "crypto": 65,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 110776,
-      "btc_change_24h": -2.23,
-      "eth_price": 3927.16,
-      "eth_change_24h": -2.15,
+      "btc_price": 108408,
+      "btc_change_24h": -4.24,
+      "eth_price": 3806.25,
+      "eth_change_24h": -5.21,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "regime_strength": 0.6,
+      "market_breadth": 0.0,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 292049450962,
+        "volume_24h": 306537810987,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.22,
+        "btc_dominance": 57.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-16T19:53:49.386689+00:00",
-      "crypto": 0.4341,
-      "global": 0.4392,
-      "combined": 0.4455,
-      "counts": {
-        "crypto": 63,
-        "global": 51
-      }
-    },
     {
       "ts": "2025-10-16T20:27:16.527236+00:00",
       "crypto": 0.4332,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-10-30T12:53:46.872065+00:00",
+      "crypto": 0.3435,
+      "global": 0.4527,
+      "combined": 0.3787,
+      "counts": {
+        "crypto": 65,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Solana ETFs finally launched: So why isn’t SOL trading far above $200?",
-        "url": "https://cointelegraph.com/news/solana-etfs-finally-launched-so-why-isn-t-sol-trading-far-above-dollar200?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6839,
-        "score": 0.9167
-      },
-      {
-        "title": "South Korean auto, shipbuilding shares climb after trade deal finalized",
-        "url": "https://www.cnbc.com/2025/10/30/south-korean-auto-shipbuilding-shares-climb-after-trade-deal-finalized-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7874,
-        "score": 0.6667
-      },
-      {
-        "title": "Daily market wrap: Fiserv, CoreWeave, and Palantir lead",
-        "url": "https://www.thestreet.com/investing/stocks/daily-market-wrap-fiserv-coreweave-and-palantir-lead?.tsrc=rss",
+        "title": "Australian Oilseeds Receives Approval to Transfer Listing to The Nasdaq Capital Market and Regains Compliance with Nasdaq Listing Requirements",
+        "url": "https://finance.yahoo.com/news/australian-oilseeds-receives-approval-transfer-120000096.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5072,
+        "weight": 0.7213,
         "score": 1.0
+      },
+      {
+        "title": "Discover DoorDash And 2 Stocks That May Be Trading Below Their Estimated Value",
+        "url": "https://finance.yahoo.com/news/discover-doordash-2-stocks-may-113805350.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6915,
+        "score": 1.0
+      },
+      {
+        "title": "Wellchange Holdings Company Receives 180-Day Extension from Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/news/wellchange-holdings-company-receives-180-110000493.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6426,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "US Treasuries Hold Losses After Powell Reiterates Fed’s Caution",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-30/us-treasuries-hold-losses-after-powell-reiterates-fed-s-caution",
-        "source": "Bloomberg Markets",
-        "weight": 0.7514,
+        "title": "Character.AI Halts Teen Chats After Tragedies: 'It's the Right Thing to Do'",
+        "url": "https://decrypt.co/346770/character-ai-halts-teen-chats-after-tragedies-its-the-right-thing-to-do",
+        "source": "Decrypt",
+        "weight": 0.8399,
+        "score": -1.0
+      },
+      {
+        "title": "Stock Market Today: Dow Falls On Trump-Xi Talks; Meta Plunges On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/feaa48e6-1655-3345-8855-6400897140af/stock-market-today%3A-dow-falls.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7816,
         "score": -0.9667
       },
       {
-        "title": "TRUMP memecoin issuer in talks to acquire investment platform Republic’s US operations",
-        "url": "https://cointelegraph.com/news/trump-memecoin-issuer-in-talks-to-acquire-investment-platform-republic-s-us-operations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Why can’t Ethereum hold $4K? ETH recovery in doubt as data leans bearish",
+        "url": "https://cointelegraph.com/news/ethereum-cant-hold-4k-eth-price-recovery-in-doubt-data-bearish?utm_source=rss_feed&utm_medium=rss%3F__%3D1761828588437%26r%3Dg3dgrl%26cb%3Dg3dgrl%26cachebust%3Dtrue&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7129,
-        "score": -0.9667
-      },
-      {
-        "title": "Insider trading is an SEC country club looking for a scapegoat",
-        "url": "https://cointelegraph.com/news/insider-trading-sec-country-club-looking-for-a-scapegoat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7944,
-        "score": -0.6333
+        "weight": 0.8598,
+        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.690784156234749,
-          "price_change_24h": -0.01255
+          "volume_mcap_ratio": 0.7134181146322942,
+          "price_change_24h": -0.0204
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3706622969969011,
-          "price_change_24h": 0.00921
+          "volume_mcap_ratio": 0.39332137615416096,
+          "price_change_24h": -0.14658
         }
       ],
       "momentum_shifts": []
