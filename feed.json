@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-30T02:02:51.273098+00:00",
+  "updated_at": "2025-10-30T04:29:15.961456+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.072,
+    "change24h": -0.044,
+    "vol": 0.09,
     "fearGreed": 34,
-    "momentum": -0.224,
-    "regime": "sideways",
+    "momentum": -0.763,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4239,
-    "global_sentiment": 0.4312,
-    "combined_sentiment": 0.4372,
-    "confidence": 0.783,
+    "crypto_sentiment": 0.4767,
+    "global_sentiment": 0.4814,
+    "combined_sentiment": 0.481,
+    "confidence": 0.7647,
     "counts": {
-      "crypto": 67,
-      "global": 38
+      "crypto": 68,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 110425,
-      "btc_change_24h": -1.83,
-      "eth_price": 3927.45,
-      "eth_change_24h": -1.41,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 108703,
+      "btc_change_24h": -3.61,
+      "eth_price": 3854.73,
+      "eth_change_24h": -3.99,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 253910782625,
+        "volume_24h": 260267953464,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.16,
+        "btc_dominance": 57.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-16T12:54:09.602769+00:00",
-      "crypto": 0.4366,
-      "global": 0.4391,
-      "combined": 0.4474,
-      "counts": {
-        "crypto": 57,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-10-16T16:32:20.493266+00:00",
       "crypto": 0.4665,
@@ -1008,29 +998,39 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-10-30T04:29:15.961456+00:00",
+      "crypto": 0.4767,
+      "global": 0.4814,
+      "combined": 0.481,
+      "counts": {
+        "crypto": 68,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "South Korean auto, shipbuilding shares climb after trade deal finalized",
-        "url": "https://www.cnbc.com/2025/10/30/south-korean-auto-shipbuilding-shares-climb-after-trade-deal-finalized-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7824,
+        "title": "Ethereum courts Wall Street with new ‘institutions’ website",
+        "url": "https://cointelegraph.com/news/ethereum-foundation-launches-website-to-bring-more-businesses-into-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7736,
         "score": 0.6667
       },
       {
-        "title": "Prudential Posts Record Quarterly Profit, Boosted by Investments",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/prudential-posts-record-quarterly-profit-boosted-by-investments",
-        "source": "Bloomberg Markets",
-        "weight": 0.4652,
-        "score": 1.0
+        "title": "South Korean auto, shipbuilding shares climb after trade deal finalized",
+        "url": "https://www.cnbc.com/2025/10/30/south-korean-auto-shipbuilding-shares-climb-after-trade-deal-finalized-.html",
+        "source": "CNBC Markets",
+        "weight": 0.5902,
+        "score": 0.6667
       },
       {
         "title": "How Solana’s ETF success will propel SOL price to new heights above $500",
         "url": "https://cryptoslate.com/how-solanas-etf-success-will-propel-sol-price-to-new-heights-above-500/",
         "source": "CryptoSlate",
-        "weight": 0.3764,
+        "weight": 0.284,
         "score": 1.0
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Mexico Banks Push New Illicit Finance Rules in Wake of US Orders",
         "url": "https://www.bloomberg.com/news/articles/2025-10-30/mexico-banks-push-new-illicit-finance-rules-in-wake-of-us-orders",
         "source": "Bloomberg Markets",
-        "weight": 0.6827,
+        "weight": 0.515,
         "score": -1.0
       },
       {
-        "title": "Stocks Rise Ahead of Trump-Xi Meeting, Gold Gains: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.5412,
-        "score": -0.9333
+        "title": "Fear & Greed 34 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "Barclays' Rajadhyaksha on Fed Policy, Tech",
         "url": "https://www.bloomberg.com/news/videos/2025-10-30/barclays-rajadhyaksha-on-fed-policy-tech-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7757,
+        "weight": 0.5851,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6036975038842207,
-          "price_change_24h": 0.0012
+          "volume_mcap_ratio": 0.6250312572560592,
+          "price_change_24h": 0.02101
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3394227927972386,
-          "price_change_24h": -0.00592
+          "volume_mcap_ratio": 0.37507313646344353,
+          "price_change_24h": -0.07038
         }
       ],
       "momentum_shifts": []
