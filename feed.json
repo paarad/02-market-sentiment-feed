@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-29T20:29:03.324238+00:00",
+  "updated_at": "2025-10-30T02:02:51.273098+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.112,
-    "fearGreed": 51,
-    "momentum": 0.043,
+    "change24h": -0.013,
+    "vol": 0.072,
+    "fearGreed": 34,
+    "momentum": -0.224,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4449,
-    "global_sentiment": 0.4337,
-    "combined_sentiment": 0.4531,
-    "confidence": 0.7107,
+    "crypto_sentiment": 0.4239,
+    "global_sentiment": 0.4312,
+    "combined_sentiment": 0.4372,
+    "confidence": 0.783,
     "counts": {
-      "crypto": 61,
-      "global": 39
+      "crypto": 67,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 111273,
-      "btc_change_24h": -1.21,
-      "eth_price": 3935.0,
-      "eth_change_24h": -0.99,
+      "btc_price": 110425,
+      "btc_change_24h": -1.83,
+      "eth_price": 3927.45,
+      "eth_change_24h": -1.41,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 51,
-        "classification": "Neutral",
+        "value": 34,
+        "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 274553421486,
+        "volume_24h": 253910782625,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.24,
+        "btc_dominance": 57.16,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-16T08:34:51.398165+00:00",
-      "crypto": 0.4097,
-      "global": 0.4791,
-      "combined": 0.4305,
-      "counts": {
-        "crypto": 59,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-16T12:54:09.602769+00:00",
       "crypto": 0.4366,
@@ -1008,66 +998,76 @@
         "crypto": 61,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-10-30T02:02:51.273098+00:00",
+      "crypto": 0.4239,
+      "global": 0.4312,
+      "combined": 0.4372,
+      "counts": {
+        "crypto": 67,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "The Protocol: ETH’s Fusaka Upgrade Goes Live on Hoodi, Mainnet Next",
-        "url": "https://www.coindesk.com/tech/2025/10/29/the-protocol-eth-s-fusaka-upgrade-goes-live-on-hoodi-mainnet-next",
-        "source": "CoinDesk",
-        "weight": 0.6294,
-        "score": 0.9667
-      },
-      {
-        "title": "Carvana Expects to Beat Guidance as Used-Car Sales Pass Record",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-29/carvana-expects-to-beat-guidance-as-used-car-sales-pass-record",
-        "source": "Bloomberg Markets",
-        "weight": 0.7746,
+        "title": "South Korean auto, shipbuilding shares climb after trade deal finalized",
+        "url": "https://www.cnbc.com/2025/10/30/south-korean-auto-shipbuilding-shares-climb-after-trade-deal-finalized-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7824,
         "score": 0.6667
       },
       {
-        "title": "Crypto ETFs Using New Listing Standards: Pantera's Paglia",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-29/crypto-etfs-using-new-listing-standards-katrina-paglia-video",
+        "title": "Prudential Posts Record Quarterly Profit, Boosted by Investments",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/prudential-posts-record-quarterly-profit-boosted-by-investments",
         "source": "Bloomberg Markets",
-        "weight": 0.6536,
-        "score": 0.6333
+        "weight": 0.4652,
+        "score": 1.0
+      },
+      {
+        "title": "How Solana’s ETF success will propel SOL price to new heights above $500",
+        "url": "https://cryptoslate.com/how-solanas-etf-success-will-propel-sol-price-to-new-heights-above-500/",
+        "source": "CryptoSlate",
+        "weight": 0.3764,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Character.AI to Ban Minors From Talking to Its Chatbots",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-29/character-ai-to-ban-minors-from-talking-to-its-chatbots",
+        "title": "Mexico Banks Push New Illicit Finance Rules in Wake of US Orders",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-30/mexico-banks-push-new-illicit-finance-rules-in-wake-of-us-orders",
         "source": "Bloomberg Markets",
-        "weight": 0.742,
+        "weight": 0.6827,
         "score": -1.0
       },
       {
-        "title": "New CLO Fund Comes to Blockchain: Securitize CEO",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-29/new-clo-fund-comes-to-blockchain-securitize-ceo-video",
+        "title": "Stocks Rise Ahead of Trump-Xi Meeting, Gold Gains: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-29/stock-market-today-dow-s-p-live-updates",
         "source": "Bloomberg Markets",
-        "weight": 0.7253,
-        "score": -0.9667
+        "weight": 0.5412,
+        "score": -0.9333
       },
       {
-        "title": "FDA to speed up approvals of generic biologic medicines as Trump targets high drug costs",
-        "url": "https://www.cnbc.com/2025/10/29/fda-to-speed-up-generic-drug-approvals-as-trump-targets-drug-costs.html",
-        "source": "CNBC Markets",
-        "weight": 0.6698,
-        "score": -0.9333
+        "title": "Barclays' Rajadhyaksha on Fed Policy, Tech",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-30/barclays-rajadhyaksha-on-fed-policy-tech-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7757,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.624705429811732,
-          "price_change_24h": 0.0216
+          "volume_mcap_ratio": 0.6036975038842207,
+          "price_change_24h": 0.0012
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.37675552536795776,
-          "price_change_24h": 0.1688
+          "volume_mcap_ratio": 0.3394227927972386,
+          "price_change_24h": -0.00592
         }
       ],
       "momentum_shifts": []
