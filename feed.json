@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-31T04:31:00.431408+00:00",
+  "updated_at": "2025-10-31T08:33:25.214759+00:00",
   "indicators": {
-    "change24h": -0.012,
-    "vol": 0.089,
+    "change24h": -0.056,
+    "vol": 0.161,
     "fearGreed": 29,
-    "momentum": -0.218,
-    "regime": "sideways",
+    "momentum": -0.971,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4109,
-    "global_sentiment": 0.3839,
-    "combined_sentiment": 0.4235,
-    "confidence": 0.7622,
+    "crypto_sentiment": 0.3849,
+    "global_sentiment": 0.3806,
+    "combined_sentiment": 0.4037,
+    "confidence": 0.7477,
     "counts": {
-      "crypto": 68,
-      "global": 28
+      "crypto": 66,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 109772,
-      "btc_change_24h": 1.45,
-      "eth_price": 3861.47,
-      "eth_change_24h": -0.14,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 109724,
+      "btc_change_24h": -0.91,
+      "eth_price": 3836.41,
+      "eth_change_24h": -2.3,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 282464826887,
+        "volume_24h": 268259676619,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.66,
+        "btc_dominance": 57.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-17T16:30:25.370341+00:00",
-      "crypto": 0.3619,
-      "global": 0.4342,
-      "combined": 0.3909,
-      "counts": {
-        "crypto": 67,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-10-17T19:53:49.125329+00:00",
       "crypto": 0.3174,
@@ -1008,66 +998,76 @@
         "crypto": 68,
         "global": 28
       }
+    },
+    {
+      "ts": "2025-10-31T08:33:25.214759+00:00",
+      "crypto": 0.3849,
+      "global": 0.3806,
+      "combined": 0.4037,
+      "counts": {
+        "crypto": 66,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Ultra-Orthodox Israelis Rally Against Draft",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-31/ultra-orthodox-israelis-rally-against-draft-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6891,
+        "score": 0.8667
+      },
+      {
+        "title": "Google to offer Gemini AI for free to over 500 million Jio users as global firms double down on India",
+        "url": "https://www.cnbc.com/2025/10/31/google-gemini-ai-free-500-million-jio-relince-users-india-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7543,
+        "score": 0.3333
+      },
+      {
         "title": "Saylor’s Strategy boosts after hours as firm posts $2.8B Q3 income",
-        "url": "https://cointelegraph.com/news/saylor-strategy-boosts-after-hours-q3-income?utm_source=rss_feed&utm_medium=rss%3Ftimestamp%3D1761884785614%26_dc%3D1761884785614&utm_campaign=rss_partner_inbound",
+        "url": "https://cointelegraph.com/news/saylor-strategy-boosts-after-hours-q3-income?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dpgz2eg%26_ts%3D1761899289115&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.57,
-        "score": 0.6667
-      },
-      {
-        "title": "Asia markets mostly up on heels of Apple, Amazon earnings",
-        "url": "https://finance.yahoo.com/news/asia-markets-mostly-heels-apple-030446159.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6776,
-        "score": 0.5333
-      },
-      {
-        "title": "Coinbase adds $300M Bitcoin as it pushes ‘Everything Exchange’ vision",
-        "url": "https://cointelegraph.com/news/coinbase-btc-holdings-rise-q3-earnings?utm_source=rss_feed&utm_medium=rss%3Ftimestamp%3D1761884785614%26_dc%3D1761884785614&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4506,
+        "weight": 0.3574,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "China Stocks Set to Snap Five-Month Bull Run as Caution Returns",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-31/china-stocks-set-to-snap-five-month-bull-run-as-caution-returns",
+        "title": "China, Canada Leaders Meet First Time Since 2017 to Reset Ties",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-31/china-canada-leaders-meet-first-time-since-2017-to-reset-ties",
         "source": "Bloomberg Markets",
-        "weight": 0.5464,
-        "score": -0.9
+        "weight": 0.7462,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 29 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Palantir Sues Ex-Engineers Over Plans to Launch 'Copycat' AI Startup",
+        "url": "https://decrypt.co/346921/palantir-sues-ex-engineers-over-plans-launch-copycat-ai-startup",
+        "source": "Decrypt",
+        "weight": 0.5573,
+        "score": -1.0
       },
       {
-        "title": "Toyota, Honda Brace for Weaker Profits in Wake of Nissan’s $1.8 Billion Warning",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-31/toyota-honda-brace-for-weaker-profits-in-wake-of-nissan-s-1-8-billion-warning",
-        "source": "Bloomberg Markets",
-        "weight": 0.5873,
-        "score": -0.6667
+        "title": "Boeing’s Road to Redemption—and a Higher Stock Price",
+        "url": "https://finance.yahoo.com/m/5b5eb247-7f77-3e52-90e2-772afb222023/boeing%E2%80%99s-road-to.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5304,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.680331748615145,
-          "price_change_24h": -0.02481
+          "volume_mcap_ratio": 0.6409307570992688,
+          "price_change_24h": -0.02579
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3693306896213923,
-          "price_change_24h": 0.0625
+          "volume_mcap_ratio": 0.3526800927653431,
+          "price_change_24h": -0.01792
         }
       ],
       "momentum_shifts": []
