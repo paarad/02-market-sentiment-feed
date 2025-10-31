@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-31T16:32:15.443234+00:00",
+  "updated_at": "2025-10-31T19:53:49.249052+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.105,
+    "change24h": 0.075,
+    "vol": 0.124,
     "fearGreed": 29,
-    "momentum": 0.475,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5377,
-    "global_sentiment": 0.5469,
-    "combined_sentiment": 0.5321,
-    "confidence": 0.8054,
+    "crypto_sentiment": 0.4961,
+    "global_sentiment": 0.5293,
+    "combined_sentiment": 0.4995,
+    "confidence": 0.8211,
     "counts": {
-      "crypto": 68,
+      "crypto": 66,
       "global": 36
     },
     "market_indicators": {
-      "btc_price": 110070,
-      "btc_change_24h": 1.84,
-      "eth_price": 3860.33,
-      "eth_change_24h": 1.75,
+      "btc_price": 109981,
+      "btc_change_24h": 3.14,
+      "eth_price": 3892.25,
+      "eth_change_24h": 5.08,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 269155524714,
+        "volume_24h": 256910657821,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.57,
+        "btc_dominance": 57.42,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-18T01:49:04.741466+00:00",
-      "crypto": 0.3461,
-      "global": 0.3301,
-      "combined": 0.3704,
-      "counts": {
-        "crypto": 68,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-18T04:27:29.415271+00:00",
       "crypto": 0.3402,
@@ -1008,29 +998,39 @@
         "crypto": 68,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-10-31T19:53:49.249052+00:00",
+      "crypto": 0.4961,
+      "global": 0.5293,
+      "combined": 0.4995,
+      "counts": {
+        "crypto": 66,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Amazon Rally Keeps Nasdaq Composite in Green",
+        "url": "https://finance.yahoo.com/news/amazon-rally-keeps-nasdaq-composite-172033861.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5956,
+        "score": 0.8667
+      },
+      {
+        "title": "Reddit Stock Soars on Earnings Beat",
+        "url": "https://finance.yahoo.com/m/cd3aaee5-7ea6-322a-8230-abaa9894d649/reddit-stock-soars-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5051,
+        "score": 1.0
+      },
+      {
         "title": "Top Stock Movers Now: Amazon, Reddit, Newell Brands, and More",
         "url": "https://www.investopedia.com/top-stock-movers-now-amazon-reddit-newell-brands-and-more-11841080?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7815,
-        "score": 0.8667
-      },
-      {
-        "title": "Consumer Discretionary Lifts US Equity Indexes in Midday Trading",
-        "url": "https://finance.yahoo.com/news/consumer-discretionary-lifts-us-equity-160802389.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7635,
-        "score": 0.8667
-      },
-      {
-        "title": "H.C. Wainwright Turns Bullish on Coinbase, Double Upgrades to Buy With $425 Target",
-        "url": "https://www.coindesk.com/markets/2025/10/31/h-c-wainwright-turns-bullish-on-coinbase-double-upgrades-to-buy-with-usd425-target",
-        "source": "CoinDesk",
-        "weight": 0.6167,
+        "weight": 0.5302,
         "score": 0.8667
       }
     ],
@@ -1039,35 +1039,35 @@
         "title": "Republican who oversaw student debt launches class action effort against Trump administration",
         "url": "https://www.cnbc.com/2025/10/31/student-loan-class-action-lawsuit.html",
         "source": "CNBC Markets",
-        "weight": 0.6885,
+        "weight": 0.6266,
         "score": -1.0
       },
       {
-        "title": "Brazil’s OranjeBTC Joins Wave of Struggling Crypto Treasury Firms Turning to Buybacks",
-        "url": "https://www.coindesk.com/business/2025/10/31/brazil-s-oranjebtc-joins-wave-of-struggling-crypto-treasury-firms-turning-to-buybacks",
+        "title": "Crypto Bank Custodia Suffers Another Court Rejection in Fed Master Account Pursuit",
+        "url": "https://www.coindesk.com/policy/2025/10/31/crypto-bank-custodia-suffers-another-court-rejection-in-fed-master-account-pursuit",
         "source": "CoinDesk",
-        "weight": 0.7329,
-        "score": -0.9333
+        "weight": 0.8302,
+        "score": -0.6667
       },
       {
-        "title": "Dollar Has Second Best Month of 2025 on Data Void, Hawkish Fed",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-31/dollar-has-second-best-month-of-2025-on-data-void-hawkish-fed",
+        "title": "Group of Banks Said Hiring FTI for Braskem Debt Talks",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-31/group-of-banks-said-hiring-fti-for-braskem-debt-talks",
         "source": "Bloomberg Markets",
-        "weight": 0.7681,
-        "score": -0.6333
+        "weight": 0.7531,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.629238570165914,
-          "price_change_24h": -0.0361
+          "volume_mcap_ratio": 0.6166564297161153,
+          "price_change_24h": -0.03673
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3335244075094617,
-          "price_change_24h": -0.0467
+          "volume_mcap_ratio": 0.3244275497456087,
+          "price_change_24h": -0.15734
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-10-31",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4515,
+      "crypto_high": 0.5377,
+      "crypto_low": 0.3788,
+      "global_avg": 0.4786,
+      "global_high": 0.588,
+      "global_low": 0.3806,
+      "combined_avg": 0.4618,
+      "combined_high": 0.5321,
+      "combined_low": 0.4037
+    },
+    "market_indicators_24h": {
+      "change24h": 0.075,
+      "vol": 0.124,
+      "fearGreed": 29,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-10-31T19:53:49.249052+00:00"
   }
 }
