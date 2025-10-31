@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-30T20:27:52.658590+00:00",
+  "updated_at": "2025-10-31T01:59:39.387020+00:00",
   "indicators": {
-    "change24h": -0.108,
-    "vol": 0.204,
-    "fearGreed": 34,
-    "momentum": -1.0,
+    "change24h": -0.05,
+    "vol": 0.115,
+    "fearGreed": 29,
+    "momentum": -0.879,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.317,
-    "global_sentiment": 0.4043,
-    "combined_sentiment": 0.3548,
-    "confidence": 0.8338,
+    "crypto_sentiment": 0.3788,
+    "global_sentiment": 0.4427,
+    "combined_sentiment": 0.4043,
+    "confidence": 0.7863,
     "counts": {
       "crypto": 69,
-      "global": 46
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 107068,
-      "btc_change_24h": -3.71,
-      "eth_price": 3712.5,
-      "eth_change_24h": -5.66,
+      "btc_price": 109551,
+      "btc_change_24h": -1.01,
+      "eth_price": 3844.42,
+      "eth_change_24h": -2.2,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.0,
       "fear_greed": {
-        "value": 34,
+        "value": 29,
         "classification": "Fear",
-        "trend": "improving"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 286652610506,
+        "volume_24h": 292792074755,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.72,
+        "btc_dominance": 57.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-17T08:33:27.429475+00:00",
-      "crypto": 0.4256,
-      "global": 0.2644,
-      "combined": 0.4246,
-      "counts": {
-        "crypto": 64,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-17T12:52:31.831826+00:00",
       "crypto": 0.3493,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-10-31T01:59:39.387020+00:00",
+      "crypto": 0.3788,
+      "global": 0.4427,
+      "combined": 0.4043,
+      "counts": {
+        "crypto": 69,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "The Dow Lost Steam. It's Hovering Near Breakeven.",
-        "url": "https://finance.yahoo.com/m/a793ee70-6dd8-372e-8130-74e744d1ba34/the-dow-lost-steam.-it%27s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6856,
-        "score": 0.8667
+        "title": "Stocks Regain Momentum as Amazon, Apple Lift Mood: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-30/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.5334,
+        "score": 1.0
       },
       {
-        "title": "Traders Go All In on Fed Funds Spread as Liquidity Concerns Build",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-30/traders-chalk-up-record-wagers-on-key-fed-funds-futures-spread",
-        "source": "Bloomberg Markets",
-        "weight": 0.7331,
+        "title": "Saylor’s Strategy boosts after hours as firm posts $2.8B Q3 income",
+        "url": "https://cointelegraph.com/news/saylor-strategy-boosts-after-hours-q3-income?utm_source=rss_feed&utm_medium=rss%3FnoCache%3Dtrue%26cb%3Dtkijsq%26_nocache%3D1761875887249&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7628,
         "score": 0.6667
       },
       {
-        "title": "INLIF LIMITED Receives Nasdaq Notification Regarding Minimum Bid Price Deficiency",
-        "url": "https://finance.yahoo.com/news/inlif-limited-receives-nasdaq-notification-200500284.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7655,
-        "score": 0.6333
+        "title": "Coinbase adds $300M Bitcoin as it pushes ‘Everything Exchange’ vision",
+        "url": "https://cointelegraph.com/news/coinbase-btc-holdings-rise-q3-earnings?utm_source=rss_feed&utm_medium=rss%3FnoCache%3Dtrue%26cb%3Dtkijsq%26_nocache%3D1761875887249&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.603,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Roblox stock slips 15% as company expects more spending on safety and infrastructure",
-        "url": "https://www.cnbc.com/2025/10/30/roblox-stock-earnings-safety.html",
-        "source": "CNBC Markets",
-        "weight": 0.7731,
-        "score": -1.0
+        "title": "China Stocks Set to Snap Five-Month Bull Run as Caution Returns",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-31/china-stocks-set-to-snap-five-month-bull-run-as-caution-returns",
+        "source": "Bloomberg Markets",
+        "weight": 0.7313,
+        "score": -0.9
       },
       {
-        "title": "Stocks mostly fall as investors digest Trump-Xi talks, earnings",
-        "url": "https://finance.yahoo.com/news/asia-stocks-muted-eyes-trump-031413431.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7929,
-        "score": -0.9667
+        "title": "ETH Selloff Meets Late Bounce as Volume Climbs; Range Tightens as Risk Appetite Plunges",
+        "url": "https://www.coindesk.com/markets/2025/10/30/eth-selloff-meets-late-bounce-as-volume-climbs-range-tightens-as-risk-appetite-plunges",
+        "source": "CoinDesk",
+        "weight": 0.6533,
+        "score": -0.8
       },
       {
-        "title": "Eli Lilly blows past estimates, hikes guidance as Zepbound and Mounjaro sales soar",
-        "url": "https://www.cnbc.com/2025/10/30/eli-lilly-lly-earnings-q3-2025.html",
-        "source": "CNBC Markets",
-        "weight": 0.7703,
-        "score": -0.9333
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6679701166165306,
-          "price_change_24h": -0.03355
+          "volume_mcap_ratio": 0.6933266601245669,
+          "price_change_24h": -0.00865
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.37150753968279265,
-          "price_change_24h": -0.04312
+          "volume_mcap_ratio": 0.3917524949143997,
+          "price_change_24h": 0.04307
         }
       ],
       "momentum_shifts": []
