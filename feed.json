@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-31T08:33:25.214759+00:00",
+  "updated_at": "2025-10-31T12:53:17.309618+00:00",
   "indicators": {
-    "change24h": -0.056,
-    "vol": 0.161,
+    "change24h": 0.003,
+    "vol": 0.116,
     "fearGreed": 29,
-    "momentum": -0.971,
-    "regime": "bear",
+    "momentum": 0.051,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3849,
-    "global_sentiment": 0.3806,
-    "combined_sentiment": 0.4037,
-    "confidence": 0.7477,
+    "crypto_sentiment": 0.5003,
+    "global_sentiment": 0.588,
+    "combined_sentiment": 0.5076,
+    "confidence": 0.7683,
     "counts": {
-      "crypto": 66,
-      "global": 31
+      "crypto": 64,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 109724,
-      "btc_change_24h": -0.91,
-      "eth_price": 3836.41,
-      "eth_change_24h": -2.3,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "btc_price": 109726,
+      "btc_change_24h": 1.15,
+      "eth_price": 3841.63,
+      "eth_change_24h": 0.91,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 268259676619,
+        "volume_24h": 264623829711,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.72,
+        "btc_dominance": 57.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-17T19:53:49.125329+00:00",
-      "crypto": 0.3174,
-      "global": 0.2615,
-      "combined": 0.3432,
-      "counts": {
-        "crypto": 69,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-10-17T20:27:23.142671+00:00",
       "crypto": 0.316,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-10-31T12:53:17.309618+00:00",
+      "crypto": 0.5003,
+      "global": 0.588,
+      "combined": 0.5076,
+      "counts": {
+        "crypto": 64,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ultra-Orthodox Israelis Rally Against Draft",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-31/ultra-orthodox-israelis-rally-against-draft-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6891,
+        "title": "High Growth Tech Stocks In The US Market With Promising Potential",
+        "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-us-113817538.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6924,
+        "score": 1.0
+      },
+      {
+        "title": "Riot Platforms Shares Jump Pre-Market After Posting Unexpected Profit on Record Revenue",
+        "url": "https://www.coindesk.com/markets/2025/10/31/riot-platforms-shares-jump-pre-market-after-posting-unexpected-profit-on-record-revenue",
+        "source": "CoinDesk",
+        "weight": 0.6411,
+        "score": 1.0
+      },
+      {
+        "title": "Here is why Bitcoin registered its first red October in 7 years",
+        "url": "https://cryptoslate.com/here-is-why-bitcoin-registered-its-first-red-october-in-7-years/",
+        "source": "CryptoSlate",
+        "weight": 0.5361,
         "score": 0.8667
-      },
-      {
-        "title": "Google to offer Gemini AI for free to over 500 million Jio users as global firms double down on India",
-        "url": "https://www.cnbc.com/2025/10/31/google-gemini-ai-free-500-million-jio-relince-users-india-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7543,
-        "score": 0.3333
-      },
-      {
-        "title": "Saylor’s Strategy boosts after hours as firm posts $2.8B Q3 income",
-        "url": "https://cointelegraph.com/news/saylor-strategy-boosts-after-hours-q3-income?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dpgz2eg%26_ts%3D1761899289115&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3574,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "China, Canada Leaders Meet First Time Since 2017 to Reset Ties",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-31/china-canada-leaders-meet-first-time-since-2017-to-reset-ties",
+        "title": "ECB’s Position on Rates Is Good But Not Fixed, Villeroy Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-31/ecb-s-position-on-rates-is-good-but-not-fixed-villeroy-says",
         "source": "Bloomberg Markets",
-        "weight": 0.7462,
-        "score": -0.9667
+        "weight": 0.7768,
+        "score": -0.6667
       },
       {
-        "title": "Palantir Sues Ex-Engineers Over Plans to Launch 'Copycat' AI Startup",
-        "url": "https://decrypt.co/346921/palantir-sues-ex-engineers-over-plans-launch-copycat-ai-startup",
-        "source": "Decrypt",
-        "weight": 0.5573,
-        "score": -1.0
+        "title": "Here's the maximum Social Security full retirement benefit for 2026, after the 2.8% cost-of-living adjustment",
+        "url": "https://www.cnbc.com/2025/10/31/maximum-social-security-benefit-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.7082,
+        "score": -0.6333
       },
       {
-        "title": "Boeing’s Road to Redemption—and a Higher Stock Price",
-        "url": "https://finance.yahoo.com/m/5b5eb247-7f77-3e52-90e2-772afb222023/boeing%E2%80%99s-road-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5304,
-        "score": -1.0
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.7999,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6409307570992688,
-          "price_change_24h": -0.02579
+          "volume_mcap_ratio": 0.6338534185937136,
+          "price_change_24h": -0.02578
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3526800927653431,
-          "price_change_24h": -0.01792
+          "volume_mcap_ratio": 0.3176521494223764,
+          "price_change_24h": 0.01569
         }
       ],
       "momentum_shifts": []
