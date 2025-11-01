@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-01T08:29:53.952138+00:00",
+  "updated_at": "2025-11-01T12:47:14.715797+00:00",
   "indicators": {
-    "change24h": 0.353,
+    "change24h": 0.354,
     "vol": 1.0,
     "fearGreed": 33,
     "momentum": 1.0,
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4722,
-    "global_sentiment": 0.5861,
-    "combined_sentiment": 0.4863,
-    "confidence": 0.6776,
+    "crypto_sentiment": 0.3976,
+    "global_sentiment": 0.5742,
+    "combined_sentiment": 0.4294,
+    "confidence": 0.6455,
     "counts": {
-      "crypto": 66,
+      "crypto": 67,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 110118,
-      "btc_change_24h": 0.36,
-      "eth_price": 3865.08,
-      "eth_change_24h": 0.72,
+      "btc_price": 110036,
+      "btc_change_24h": 0.3,
+      "eth_price": 3875.45,
+      "eth_change_24h": 0.86,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.75,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 199391607221,
+        "volume_24h": 178808188990,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.53,
+        "btc_dominance": 57.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-18T19:53:20.574802+00:00",
-      "crypto": 0.4003,
-      "global": 0.3552,
-      "combined": 0.4131,
-      "counts": {
-        "crypto": 64,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-10-18T20:24:45.500966+00:00",
       "crypto": 0.3893,
@@ -1008,61 +998,71 @@
         "crypto": 66,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-01T12:47:14.715797+00:00",
+      "crypto": 0.3976,
+      "global": 0.5742,
+      "combined": 0.4294,
+      "counts": {
+        "crypto": 67,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin ends October in red, but now enters its biggest month for gains",
-        "url": "https://cointelegraph.com/news/bitcoin-closed-october-red-now-entering-november?utm_source=rss_feed&utm_medium=rss%3F_q%3D1761985618612%26rand%3Dxkurz_1761985618612%26timestamp%3D1761985618612%26cb%3Db51ip1&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5975,
-        "score": 0.6667
-      },
-      {
-        "title": "Wall Street stocks end higher on Amazon boost",
-        "url": "https://finance.yahoo.com/video/wall-street-stocks-end-higher-215127033.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.234,
+        "title": "Buffett’s Berkshire Hathaway Cash Pile Soars to $382 Billion",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-01/buffett-s-berkshire-hathaway-cash-pile-soars-to-381-7-billion",
+        "source": "Bloomberg Markets",
+        "weight": 0.7459,
         "score": 1.0
       },
       {
-        "title": "DOJ Probes Trading in Herbal Medicine Firm That Surged 46,000%",
-        "url": "https://www.bloomberg.com/news/articles/2025-10-31/doj-probes-trading-in-herbal-medicine-firm-that-surged-46-000",
-        "source": "Bloomberg Markets",
-        "weight": 0.2636,
+        "title": "Berkshire's operating earnings jump 34%, Buffett buys back no stock and raises cash hoard to $381 billion",
+        "url": "https://www.cnbc.com/2025/11/01/berkshire-hathaway-brk-earnings-q3-2025.html",
+        "source": "CNBC Markets",
+        "weight": 0.7832,
+        "score": 0.6667
+      },
+      {
+        "title": "Investing.com’s stocks of the week",
+        "url": "https://finance.yahoo.com/news/investing-com-stocks-week-083014040.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4877,
         "score": 0.8667
       }
     ],
     "negative": [
+      {
+        "title": "Wall Street Week | Larry Summers on the Fed, Argentina Elections, Hinton on AI, Trump’s H-1B Fee",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-01/wall-street-week-powell-s-pause-milei-s-win-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7529,
+        "score": -0.9667
+      },
+      {
+        "title": "Larry Summers on the Fed’s Cut and Tariff Truce With China",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-01/larry-summers-on-the-fed-s-cut-and-china-trade-truce-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7384,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 33 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "How the Ethereum vs Solana war ended quietly not with a bang but a whimper",
-        "url": "https://cryptoslate.com/the-ethereum-vs-solana-war-ended-quietly-not-with-a-bang-but-a-whimper/",
-        "source": "CryptoSlate",
-        "weight": 0.7082,
-        "score": -0.3333
-      },
-      {
-        "title": "Oil Steadies as Traders Weigh US Moves on Venezuela, Oversupply",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-31/oil-steadies-as-traders-weigh-venezuela-oversupply-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.2314,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4825701622275499,
-          "price_change_24h": -0.0371
+          "volume_mcap_ratio": 0.4352840484760013,
+          "price_change_24h": -0.02273
         }
       ],
       "momentum_shifts": []
