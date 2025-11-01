@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-10-31T20:28:07.590095+00:00",
+  "updated_at": "2025-11-01T02:03:15.547298+00:00",
   "indicators": {
-    "change24h": 0.267,
+    "change24h": 0.34,
     "vol": 1.0,
-    "fearGreed": 29,
+    "fearGreed": 33,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4719,
-    "global_sentiment": 0.5317,
-    "combined_sentiment": 0.4816,
-    "confidence": 0.8236,
+    "crypto_sentiment": 0.475,
+    "global_sentiment": 0.5877,
+    "combined_sentiment": 0.4885,
+    "confidence": 0.7678,
     "counts": {
-      "crypto": 67,
-      "global": 38
+      "crypto": 66,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 109619,
-      "btc_change_24h": 2.46,
-      "eth_price": 3884.53,
-      "eth_change_24h": 4.59,
+      "btc_price": 109668,
+      "btc_change_24h": 0.21,
+      "eth_price": 3842.75,
+      "eth_change_24h": 0.02,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 29,
+        "value": 33,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 250227217339,
+        "volume_24h": 224609493522,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.39,
+        "btc_dominance": 57.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-18T08:29:48.017875+00:00",
-      "crypto": 0.452,
-      "global": 0.3547,
-      "combined": 0.4519,
-      "counts": {
-        "crypto": 70,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-18T12:46:35.663802+00:00",
       "crypto": 0.474,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-01T02:03:15.547298+00:00",
+      "crypto": 0.475,
+      "global": 0.5877,
+      "combined": 0.4885,
+      "counts": {
+        "crypto": 66,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Steven Oh and William Smith on Meta’s Record-Breaking Bond Sale",
-        "url": "https://www.bloomberg.com/news/videos/2025-10-31/steven-oh-and-william-smith-on-meta-s-record-breaking-bond-sale",
+        "title": "Wall Street stocks end higher on Amazon boost",
+        "url": "https://finance.yahoo.com/video/wall-street-stocks-end-higher-215127033.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4926,
+        "score": 1.0
+      },
+      {
+        "title": "DOJ Probes Trading in Herbal Medicine Firm That Surged 46,000%",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-31/doj-probes-trading-in-herbal-medicine-firm-that-surged-46-000",
         "source": "Bloomberg Markets",
-        "weight": 0.7639,
-        "score": 0.6667
-      },
-      {
-        "title": "Global Engine Group Holding Limited Receives Nasdaq Minimum Bid Price Deficiency Notice",
-        "url": "https://finance.yahoo.com/news/global-engine-group-holding-limited-202000048.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7876,
-        "score": 0.6333
-      },
-      {
-        "title": "Amazon Rally Keeps Nasdaq Composite in Green",
-        "url": "https://finance.yahoo.com/news/amazon-rally-keeps-nasdaq-composite-172033861.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5575,
+        "weight": 0.555,
         "score": 0.8667
+      },
+      {
+        "title": "Heard on the Street Recap: Market Streak",
+        "url": "https://finance.yahoo.com/m/c56c6928-c549-3d23-81f5-aeac70568e0a/heard-on-the-street-recap%3A.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4628,
+        "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Oil Steadies as Traders Weigh US Moves on Venezuela, Oversupply",
+        "url": "https://www.bloomberg.com/news/videos/2025-10-31/oil-steadies-as-traders-weigh-venezuela-oversupply-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4871,
+        "score": -0.9333
+      },
+      {
         "title": "Republican who oversaw student debt launches class action effort against Trump administration",
         "url": "https://www.cnbc.com/2025/10/31/student-loan-class-action-lawsuit.html",
         "source": "CNBC Markets",
-        "weight": 0.5866,
+        "weight": 0.4359,
         "score": -1.0
       },
       {
-        "title": "Crypto Bank Custodia Suffers Another Court Rejection in Fed Master Account Pursuit",
-        "url": "https://www.coindesk.com/policy/2025/10/31/crypto-bank-custodia-suffers-another-court-rejection-in-fed-master-account-pursuit",
-        "source": "CoinDesk",
-        "weight": 0.7771,
-        "score": -0.6667
-      },
-      {
-        "title": "Quantum threat to Bitcoin still years away, says Borderless Capital partner",
-        "url": "https://cointelegraph.com/news/quantum-still-infancy-pose-any-threat-to-bitcoin-near-term-vc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7963,
-        "score": -0.6333
+        "title": "Fear & Greed 33 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6051253616990154,
-          "price_change_24h": -0.03916
+          "volume_mcap_ratio": 0.5449099156649821,
+          "price_change_24h": -0.04804
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.35526424499497017,
-          "price_change_24h": -0.05489
+          "volume_mcap_ratio": 0.3211071862260119,
+          "price_change_24h": -0.07525
         }
       ],
       "momentum_shifts": []
