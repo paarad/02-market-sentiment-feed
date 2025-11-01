@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-01T04:27:38.597403+00:00",
+  "updated_at": "2025-11-01T08:29:53.952138+00:00",
   "indicators": {
-    "change24h": 0.343,
+    "change24h": 0.353,
     "vol": 1.0,
     "fearGreed": 33,
     "momentum": 1.0,
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.45,
-    "global_sentiment": 0.5877,
-    "combined_sentiment": 0.4698,
-    "confidence": 0.716,
+    "crypto_sentiment": 0.4722,
+    "global_sentiment": 0.5861,
+    "combined_sentiment": 0.4863,
+    "confidence": 0.6776,
     "counts": {
-      "crypto": 65,
-      "global": 39
+      "crypto": 66,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 110264,
-      "btc_change_24h": 0.46,
-      "eth_price": 3861.86,
-      "eth_change_24h": -0.14,
+      "btc_price": 110118,
+      "btc_change_24h": 0.36,
+      "eth_price": 3865.08,
+      "eth_change_24h": 0.72,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.5,
+      "regime_strength": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 220017545596,
+        "volume_24h": 199391607221,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.55,
+        "btc_dominance": 57.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-18T16:27:41.333261+00:00",
-      "crypto": 0.4066,
-      "global": 0.3215,
-      "combined": 0.4151,
-      "counts": {
-        "crypto": 66,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-18T19:53:20.574802+00:00",
       "crypto": 0.4003,
@@ -1008,30 +998,40 @@
         "crypto": 65,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-01T08:29:53.952138+00:00",
+      "crypto": 0.4722,
+      "global": 0.5861,
+      "combined": 0.4863,
+      "counts": {
+        "crypto": 66,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin ends October in red, but now enters its biggest month for gains",
+        "url": "https://cointelegraph.com/news/bitcoin-closed-october-red-now-entering-november?utm_source=rss_feed&utm_medium=rss%3F_q%3D1761985618612%26rand%3Dxkurz_1761985618612%26timestamp%3D1761985618612%26cb%3Db51ip1&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5975,
+        "score": 0.6667
+      },
+      {
         "title": "Wall Street stocks end higher on Amazon boost",
         "url": "https://finance.yahoo.com/video/wall-street-stocks-end-higher-215127033.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3731,
+        "weight": 0.234,
         "score": 1.0
       },
       {
         "title": "DOJ Probes Trading in Herbal Medicine Firm That Surged 46,000%",
         "url": "https://www.bloomberg.com/news/articles/2025-10-31/doj-probes-trading-in-herbal-medicine-firm-that-surged-46-000",
         "source": "Bloomberg Markets",
-        "weight": 0.4203,
+        "weight": 0.2636,
         "score": 0.8667
-      },
-      {
-        "title": "Heard on the Street Recap: Market Streak",
-        "url": "https://finance.yahoo.com/m/c56c6928-c549-3d23-81f5-aeac70568e0a/heard-on-the-street-recap%3A.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3505,
-        "score": 1.0
       }
     ],
     "negative": [
@@ -1043,26 +1043,26 @@
         "score": -0.5333
       },
       {
+        "title": "How the Ethereum vs Solana war ended quietly not with a bang but a whimper",
+        "url": "https://cryptoslate.com/the-ethereum-vs-solana-war-ended-quietly-not-with-a-bang-but-a-whimper/",
+        "source": "CryptoSlate",
+        "weight": 0.7082,
+        "score": -0.3333
+      },
+      {
         "title": "Oil Steadies as Traders Weigh US Moves on Venezuela, Oversupply",
         "url": "https://www.bloomberg.com/news/videos/2025-10-31/oil-steadies-as-traders-weigh-venezuela-oversupply-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3688,
+        "weight": 0.2314,
         "score": -0.9333
-      },
-      {
-        "title": "Republican who oversaw student debt launches class action effort against Trump administration",
-        "url": "https://www.cnbc.com/2025/10/31/student-loan-class-action-lawsuit.html",
-        "source": "CNBC Markets",
-        "weight": 0.3301,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5240294531694111,
-          "price_change_24h": -0.03995
+          "volume_mcap_ratio": 0.4825701622275499,
+          "price_change_24h": -0.0371
         }
       ],
       "momentum_shifts": []
