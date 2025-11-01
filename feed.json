@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-01T16:27:43.660454+00:00",
+  "updated_at": "2025-11-01T19:53:46.508420+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.033,
+    "change24h": -0.006,
+    "vol": 0.051,
     "fearGreed": 33,
-    "momentum": 0.124,
+    "momentum": -0.097,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5661,
-    "global_sentiment": 0.6265,
-    "combined_sentiment": 0.5601,
-    "confidence": 0.7273,
+    "crypto_sentiment": 0.5203,
+    "global_sentiment": 0.6258,
+    "combined_sentiment": 0.5257,
+    "confidence": 0.6785,
     "counts": {
-      "crypto": 71,
-      "global": 35
+      "crypto": 68,
+      "global": 34
     },
     "market_indicators": {
       "btc_price": 110248,
-      "btc_change_24h": 0.26,
-      "eth_price": 3889.57,
-      "eth_change_24h": 0.89,
+      "btc_change_24h": 0.28,
+      "eth_price": 3876.97,
+      "eth_change_24h": -0.29,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 143716099794,
-        "high_activity_coins": 1
+        "volume_24h": 118963844958,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.49,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-19T02:07:18.802653+00:00",
-      "crypto": 0.3589,
-      "global": 0.3978,
-      "combined": 0.3856,
-      "counts": {
-        "crypto": 62,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-19T04:29:26.307962+00:00",
       "crypto": 0.3528,
@@ -1008,6 +998,16 @@
         "crypto": 71,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-01T19:53:46.508420+00:00",
+      "crypto": 0.5203,
+      "global": 0.6258,
+      "combined": 0.5257,
+      "counts": {
+        "crypto": 68,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,32 +1016,25 @@
         "title": "ARK Invest’s Crypto Exposure Tops $2.15B as Bullish Holdings Rise Across 3 Funds",
         "url": "https://www.coindesk.com/business/2025/11/01/ark-invest-s-crypto-exposure-tops-usd2-15b-as-bullish-holdings-rise-across-3-funds",
         "source": "CoinDesk",
-        "weight": 0.8424,
+        "weight": 0.5665,
         "score": 0.8667
       },
       {
         "title": "Bitcoin’s ‘Red October’: What Happened to the Widely Anticipated Uptober Crypto Rally?",
         "url": "https://www.coindesk.com/markets/2025/11/01/bitcoin-s-red-october-what-happened-to-the-widely-anticipated-uptober-crypto-rally",
         "source": "CoinDesk",
-        "weight": 0.9937,
+        "weight": 0.6683,
         "score": 0.5333
       },
       {
-        "title": "Dow 116,200? It isn't as crazy as it sounds",
-        "url": "https://www.thestreet.com/investing/dow-116200-it-isnt-as-crazy-as-it-sounds?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7643,
-        "score": 0.6667
+        "title": "The Ranks of Corporate Zombies Are Growing: Credit Weekly",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-01/the-ranks-of-corporate-zombies-are-growing-credit-weekly",
+        "source": "Bloomberg Markets",
+        "weight": 0.6427,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Wall Street Week | Larry Summers on the Fed, Argentina Elections, Hinton on AI, Trump’s H-1B Fee",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-01/wall-street-week-powell-s-pause-milei-s-win-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4925,
-        "score": -0.9667
-      },
       {
         "title": "Fear & Greed 33 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,25 +1043,52 @@
         "score": -0.5333
       },
       {
-        "title": "Crypto’s changing demographics demand a new approach to crypto security",
-        "url": "https://cointelegraph.com/news/crypto-demographics-ch-to-crypto-tech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5682,
+        "title": "Washington does a 180 as Treasury Secretary Scott Bessent dubs Bitcoin ‘more resilient than ever’",
+        "url": "https://cryptoslate.com/washington-does-a-180-as-treasury-secretary-scott-bessent-dubs-bitcoin-more-resilient-than-ever/",
+        "source": "CryptoSlate",
+        "weight": 0.5371,
         "score": -0.6333
+      },
+      {
+        "title": "Wall Street Week | Larry Summers on the Fed, Argentina Elections, Hinton on AI, Trump’s H-1B Fee",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-01/wall-street-week-powell-s-pause-milei-s-win-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3312,
+        "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.34962930326824804,
-          "price_change_24h": 0.01322
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-01",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4802,
+      "crypto_high": 0.5661,
+      "crypto_low": 0.3976,
+      "global_avg": 0.598,
+      "global_high": 0.6265,
+      "global_low": 0.5742,
+      "combined_avg": 0.4933,
+      "combined_high": 0.5601,
+      "combined_low": 0.4294
+    },
+    "market_indicators_24h": {
+      "change24h": -0.006,
+      "vol": 0.051,
+      "fearGreed": 33,
+      "momentum": -0.097,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-01T19:53:46.508420+00:00"
   }
 }
