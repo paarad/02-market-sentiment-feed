@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-01T12:47:14.715797+00:00",
+  "updated_at": "2025-11-01T16:27:43.660454+00:00",
   "indicators": {
-    "change24h": 0.354,
-    "vol": 1.0,
+    "change24h": 0.007,
+    "vol": 0.033,
     "fearGreed": 33,
-    "momentum": 1.0,
+    "momentum": 0.124,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3976,
-    "global_sentiment": 0.5742,
-    "combined_sentiment": 0.4294,
-    "confidence": 0.6455,
+    "crypto_sentiment": 0.5661,
+    "global_sentiment": 0.6265,
+    "combined_sentiment": 0.5601,
+    "confidence": 0.7273,
     "counts": {
-      "crypto": 67,
-      "global": 38
+      "crypto": 71,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 110036,
-      "btc_change_24h": 0.3,
-      "eth_price": 3875.45,
-      "eth_change_24h": 0.86,
+      "btc_price": 110248,
+      "btc_change_24h": 0.26,
+      "eth_price": 3889.57,
+      "eth_change_24h": 0.89,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178808188990,
+        "volume_24h": 143716099794,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.47,
+        "btc_dominance": 57.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-18T20:24:45.500966+00:00",
-      "crypto": 0.3893,
-      "global": 0.3576,
-      "combined": 0.4051,
-      "counts": {
-        "crypto": 63,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-19T02:07:18.802653+00:00",
       "crypto": 0.3589,
@@ -1008,30 +998,40 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-01T16:27:43.660454+00:00",
+      "crypto": 0.5661,
+      "global": 0.6265,
+      "combined": 0.5601,
+      "counts": {
+        "crypto": 71,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Buffett’s Berkshire Hathaway Cash Pile Soars to $382 Billion",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-01/buffett-s-berkshire-hathaway-cash-pile-soars-to-381-7-billion",
-        "source": "Bloomberg Markets",
-        "weight": 0.7459,
-        "score": 1.0
-      },
-      {
-        "title": "Berkshire's operating earnings jump 34%, Buffett buys back no stock and raises cash hoard to $381 billion",
-        "url": "https://www.cnbc.com/2025/11/01/berkshire-hathaway-brk-earnings-q3-2025.html",
-        "source": "CNBC Markets",
-        "weight": 0.7832,
-        "score": 0.6667
-      },
-      {
-        "title": "Investing.com’s stocks of the week",
-        "url": "https://finance.yahoo.com/news/investing-com-stocks-week-083014040.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4877,
+        "title": "ARK Invest’s Crypto Exposure Tops $2.15B as Bullish Holdings Rise Across 3 Funds",
+        "url": "https://www.coindesk.com/business/2025/11/01/ark-invest-s-crypto-exposure-tops-usd2-15b-as-bullish-holdings-rise-across-3-funds",
+        "source": "CoinDesk",
+        "weight": 0.8424,
         "score": 0.8667
+      },
+      {
+        "title": "Bitcoin’s ‘Red October’: What Happened to the Widely Anticipated Uptober Crypto Rally?",
+        "url": "https://www.coindesk.com/markets/2025/11/01/bitcoin-s-red-october-what-happened-to-the-widely-anticipated-uptober-crypto-rally",
+        "source": "CoinDesk",
+        "weight": 0.9937,
+        "score": 0.5333
+      },
+      {
+        "title": "Dow 116,200? It isn't as crazy as it sounds",
+        "url": "https://www.thestreet.com/investing/dow-116200-it-isnt-as-crazy-as-it-sounds?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7643,
+        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,15 +1039,8 @@
         "title": "Wall Street Week | Larry Summers on the Fed, Argentina Elections, Hinton on AI, Trump’s H-1B Fee",
         "url": "https://www.bloomberg.com/news/videos/2025-11-01/wall-street-week-powell-s-pause-milei-s-win-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7529,
+        "weight": 0.4925,
         "score": -0.9667
-      },
-      {
-        "title": "Larry Summers on the Fed’s Cut and Tariff Truce With China",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-01/larry-summers-on-the-fed-s-cut-and-china-trade-truce-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7384,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 33 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Crypto’s changing demographics demand a new approach to crypto security",
+        "url": "https://cointelegraph.com/news/crypto-demographics-ch-to-crypto-tech?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5682,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4352840484760013,
-          "price_change_24h": -0.02273
+          "volume_mcap_ratio": 0.34962930326824804,
+          "price_change_24h": 0.01322
         }
       ],
       "momentum_shifts": []
