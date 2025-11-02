@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-01T20:24:17.418070+00:00",
+  "updated_at": "2025-11-02T02:05:51.400804+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.05,
-    "fearGreed": 33,
-    "momentum": 0.024,
+    "change24h": 0.004,
+    "vol": 0.057,
+    "fearGreed": 37,
+    "momentum": 0.063,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4678,
-    "global_sentiment": 0.6258,
-    "combined_sentiment": 0.4863,
-    "confidence": 0.6818,
+    "crypto_sentiment": 0.454,
+    "global_sentiment": 0.5618,
+    "combined_sentiment": 0.4707,
+    "confidence": 0.6366,
     "counts": {
-      "crypto": 68,
-      "global": 34
+      "crypto": 69,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 110387,
-      "btc_change_24h": 0.69,
-      "eth_price": 3884.59,
-      "eth_change_24h": -0.04,
+      "btc_price": 109891,
+      "btc_change_24h": 0.2,
+      "eth_price": 3870.22,
+      "eth_change_24h": 0.71,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
-        "value": 33,
+        "value": 37,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 116523255551,
+        "volume_24h": 108289765793,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-19T08:28:17.194597+00:00",
-      "crypto": 0.4459,
-      "global": 0.4031,
-      "combined": 0.4514,
-      "counts": {
-        "crypto": 63,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-19T12:46:42.207011+00:00",
       "crypto": 0.4109,
@@ -1008,53 +998,63 @@
         "crypto": 68,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-11-02T02:05:51.400804+00:00",
+      "crypto": 0.454,
+      "global": 0.5618,
+      "combined": 0.4707,
+      "counts": {
+        "crypto": 69,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin showing signs of being in the midst of initial coin offering, analyst says",
+        "url": "https://cointelegraph.com/news/bitcoin-unofficial-ipo-phase-jordi-visser-analysis?utm_source=rss_feed&utm_medium=rss%3Fttt%3D1762048832104%26__%3D1762048832104%26_ts%3D1762048832104&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7201,
+        "score": 0.5833
+      },
+      {
         "title": "ARK Invest’s Crypto Exposure Tops $2.15B as Bullish Holdings Rise Across 3 Funds",
         "url": "https://www.coindesk.com/business/2025/11/01/ark-invest-s-crypto-exposure-tops-usd2-15b-as-bullish-holdings-rise-across-3-funds",
         "source": "CoinDesk",
-        "weight": 0.5342,
+        "weight": 0.2768,
         "score": 0.8667
       },
       {
         "title": "Bitcoin’s ‘Red October’: What Happened to the Widely Anticipated Uptober Crypto Rally?",
         "url": "https://www.coindesk.com/markets/2025/11/01/bitcoin-s-red-october-what-happened-to-the-widely-anticipated-uptober-crypto-rally",
         "source": "CoinDesk",
-        "weight": 0.6301,
-        "score": 0.5333
-      },
-      {
-        "title": "The Ranks of Corporate Zombies Are Growing: Credit Weekly",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-01/the-ranks-of-corporate-zombies-are-growing-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.606,
+        "weight": 0.3265,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "SEC just gave crypto lawyers a new way to win in court",
-        "url": "https://cryptoslate.com/sec-just-gave-crypto-lawyers-a-new-way-to-win-in-court/",
-        "source": "CryptoSlate",
-        "weight": 0.7163,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 33 (Fear) — bearish",
+        "title": "Fear & Greed 37 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "Washington does a 180 as Treasury Secretary Scott Bessent dubs Bitcoin ‘more resilient than ever’",
-        "url": "https://cryptoslate.com/washington-does-a-180-as-treasury-secretary-scott-bessent-dubs-bitcoin-more-resilient-than-ever/",
+        "title": "SEC just gave crypto lawyers a new way to win in court",
+        "url": "https://cryptoslate.com/sec-just-gave-crypto-lawyers-a-new-way-to-win-in-court/",
         "source": "CryptoSlate",
-        "weight": 0.5065,
-        "score": -0.6333
+        "weight": 0.3711,
+        "score": -1.0
+      },
+      {
+        "title": "Billions stolen, dozens arrested: is crypto crime peaking or adapting?",
+        "url": "https://cryptoslate.com/billions-stolen-dozens-arrested-is-crypto-crime-peaking-or-adapting/",
+        "source": "CryptoSlate",
+        "weight": 0.5248,
+        "score": -0.4
       }
     ],
     "market_movers": {
