@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-02T08:28:08.863031+00:00",
+  "updated_at": "2025-11-02T12:46:29.330802+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.063,
+    "change24h": -0.008,
+    "vol": 0.089,
     "fearGreed": 37,
-    "momentum": 0.118,
+    "momentum": -0.136,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4087,
-    "global_sentiment": 0.5235,
-    "combined_sentiment": 0.4334,
-    "confidence": 0.5725,
+    "crypto_sentiment": 0.3315,
+    "global_sentiment": 0.5801,
+    "combined_sentiment": 0.3803,
+    "confidence": 0.5559,
     "counts": {
-      "crypto": 71,
-      "global": 37
+      "crypto": 69,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 110791,
-      "btc_change_24h": 0.61,
-      "eth_price": 3898.85,
-      "eth_change_24h": 0.87,
+      "btc_price": 110786,
+      "btc_change_24h": 0.63,
+      "eth_price": 3875.1,
+      "eth_change_24h": -0.04,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 37,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 114039897542,
-        "high_activity_coins": 0
+        "volume_24h": 127236607069,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.63,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-19T19:53:46.402215+00:00",
-      "crypto": 0.5282,
-      "global": 0.4348,
-      "combined": 0.5157,
-      "counts": {
-        "crypto": 68,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-19T20:25:48.960421+00:00",
       "crypto": 0.5076,
@@ -1008,33 +998,50 @@
         "crypto": 71,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-11-02T12:46:29.330802+00:00",
+      "crypto": 0.3315,
+      "global": 0.5801,
+      "combined": 0.3803,
+      "counts": {
+        "crypto": 69,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Dow Jones Futures Loom For Tricky Market; Palantir, Robinhood Lead Earnings",
+        "url": "https://finance.yahoo.com/m/62d37222-a461-31e5-bd64-dd1c3cd6bdd9/dow-jones-futures-loom-for.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7754,
+        "score": 0.3333
+      },
+      {
+        "title": "AI Spending Crisis: Meta and Microsoft Stock Dives as Big Tech Faces a Shifting Future",
+        "url": "https://finance.yahoo.com/news/ai-spending-crisis-meta-microsoft-114044715.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7049,
+        "score": 0.3333
+      },
+      {
         "title": "Bitcoin showing signs of being in the midst of initial product offering, analyst says",
-        "url": "https://cointelegraph.com/news/bitcoin-unofficial-ipo-phase-jordi-visser-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "url": "https://cointelegraph.com/news/bitcoin-unofficial-ipo-phase-jordi-visser-analysis?utm_source=rss_feed&utm_medium=rss%3F_dc%3D1762087357361%26vfff%3D1762087357%26sid%3D838130a35dad4bf4&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3449,
+        "weight": 0.2098,
         "score": 0.5833
-      },
-      {
-        "title": "Saudi Chemical Giant Misses on Profit as Downturn Persists",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-02/saudi-chemical-giant-reports-profit-to-break-streak-of-losses",
-        "source": "Bloomberg Markets",
-        "weight": 0.5596,
-        "score": 0.3333
-      },
-      {
-        "title": "In crypto’s casino, Bitcoin stands alone as the ultimate prize",
-        "url": "https://cryptoslate.com/in-cryptos-casino-bitcoin-stands-alone-as-the-ultimate-prize/",
-        "source": "CryptoSlate",
-        "weight": 0.4478,
-        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "US-China trade deal marks the biggest de-escalation yet for global markets",
+        "url": "https://cryptoslate.com/us-china-trade-deal-marks-the-biggest-de-escalation-yet-for-global-markets/",
+        "source": "CryptoSlate",
+        "weight": 0.7434,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 37 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1044,21 +1051,20 @@
       },
       {
         "title": "Crypto market sentiment stays in 'Fear' following Trump's deal with China",
-        "url": "https://cointelegraph.com/news/crypto-market-sentiment-fear-donald-trump-trade-deal-bitcoin-ether?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "url": "https://cointelegraph.com/news/crypto-market-sentiment-fear-donald-trump-trade-deal-bitcoin-ether?utm_source=rss_feed&utm_medium=rss%3F_dc%3D1762087357361%26vfff%3D1762087357%26sid%3D838130a35dad4bf4&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6581,
+        "weight": 0.4002,
         "score": -0.6333
-      },
-      {
-        "title": "Nexperia China Says It Has Enough Stock Despite Supply Halt",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-02/nexperia-china-says-it-has-enough-stock-despite-supply-halt",
-        "source": "Bloomberg Markets",
-        "weight": 0.7482,
-        "score": -0.3333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.314048904172458,
+          "price_change_24h": 0.02926
+        }
+      ],
       "momentum_shifts": []
     }
   },
