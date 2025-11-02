@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-02T19:53:26.119385+00:00",
+  "updated_at": "2025-11-02T20:24:53.047647+00:00",
   "indicators": {
-    "change24h": -0.025,
-    "vol": 0.083,
+    "change24h": -0.027,
+    "vol": 0.086,
     "fearGreed": 37,
-    "momentum": -0.437,
+    "momentum": -0.465,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2691,
-    "global_sentiment": 0.4243,
-    "combined_sentiment": 0.3205,
-    "confidence": 0.6075,
+    "crypto_sentiment": 0.2683,
+    "global_sentiment": 0.4325,
+    "combined_sentiment": 0.3206,
+    "confidence": 0.5979,
     "counts": {
       "crypto": 69,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 110029,
-      "btc_change_24h": -0.2,
-      "eth_price": 3846.05,
-      "eth_change_24h": -0.82,
+      "btc_price": 109982,
+      "btc_change_24h": -0.35,
+      "eth_price": 3852.36,
+      "eth_change_24h": -0.83,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 37,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 129953797377,
+        "volume_24h": 130683560159,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.69,
+        "btc_dominance": 57.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-20T04:30:53.175837+00:00",
-      "crypto": 0.4275,
-      "global": 0.4975,
-      "combined": 0.4454,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-20T08:33:51.753501+00:00",
       "crypto": 0.4977,
@@ -1008,29 +998,39 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-02T20:24:53.047647+00:00",
+      "crypto": 0.2683,
+      "global": 0.4325,
+      "combined": 0.3206,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin 'money vessel' amasses $8B but recovery lacks ETF inflows",
-        "url": "https://cointelegraph.com/news/bitcoin-money-vessel-8b-recovery-lacks-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6369,
+        "title": "Dow Jones Futures Loom; Palantir, Robinhood Earnings Ahead",
+        "url": "https://finance.yahoo.com/m/62d37222-a461-31e5-bd64-dd1c3cd6bdd9/dow-jones-futures-loom%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7747,
         "score": 0.3333
       },
       {
-        "title": "Dow Jones Futures Loom; Palantir, Robinhood Lead Earnings",
-        "url": "https://finance.yahoo.com/m/62d37222-a461-31e5-bd64-dd1c3cd6bdd9/dow-jones-futures-loom%3B.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6322,
+        "title": "Bitcoin 'money vessel' amasses $8B but recovery lacks ETF inflows",
+        "url": "https://cointelegraph.com/news/bitcoin-money-vessel-8b-recovery-lacks-etf?utm_source=rss_feed&utm_medium=rss%3Fttt%3D1762114971368%26ttl%3D0&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5995,
         "score": 0.3333
       },
       {
         "title": "Microsoft AI chief says only biological beings can be conscious",
         "url": "https://www.cnbc.com/2025/11/02/microsoft-ai-chief-mustafa-suleyman-only-biological-beings-can-be-conscious.html",
         "source": "CNBC Markets",
-        "weight": 0.4998,
+        "weight": 0.4704,
         "score": 0.3333
       }
     ],
@@ -1039,15 +1039,8 @@
         "title": "Can blockchain tame AI’s IP problem?",
         "url": "https://cryptoslate.com/can-blockchain-tame-ais-ip-problem/",
         "source": "CryptoSlate",
-        "weight": 0.6776,
+        "weight": 0.6378,
         "score": -1.0
-      },
-      {
-        "title": "November Could Be the New October for U.S. Crypto ETFs After Shutdown Delays SEC Decisions",
-        "url": "https://www.coindesk.com/news-analysis/2025/11/02/november-could-be-the-new-october-for-u-s-crypto-etfs-after-shutdown-delays-sec-decisions",
-        "source": "CoinDesk",
-        "weight": 0.4511,
-        "score": -0.9667
       },
       {
         "title": "Fear & Greed 37 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "November Could Be the New October for U.S. Crypto ETFs After Shutdown Delays SEC Decisions",
+        "url": "https://www.coindesk.com/news-analysis/2025/11/02/november-could-be-the-new-october-for-u-s-crypto-etfs-after-shutdown-delays-sec-decisions",
+        "source": "CoinDesk",
+        "weight": 0.4246,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3253996937528667,
-          "price_change_24h": 0.01022
+          "volume_mcap_ratio": 0.32611557259234775,
+          "price_change_24h": 0.01194
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-02",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3676,
-      "crypto_high": 0.4734,
-      "crypto_low": 0.2689,
-      "global_avg": 0.5202,
-      "global_high": 0.5968,
-      "global_low": 0.4243,
-      "combined_avg": 0.4024,
-      "combined_high": 0.4881,
-      "combined_low": 0.3205
-    },
-    "market_indicators_24h": {
-      "change24h": -0.025,
-      "vol": 0.083,
-      "fearGreed": 37,
-      "momentum": -0.437,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-02T19:53:26.119385+00:00"
   }
 }
