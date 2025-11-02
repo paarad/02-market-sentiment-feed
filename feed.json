@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-02T16:28:23.460778+00:00",
+  "updated_at": "2025-11-02T19:53:26.119385+00:00",
   "indicators": {
-    "change24h": -0.026,
+    "change24h": -0.025,
     "vol": 0.083,
     "fearGreed": 37,
-    "momentum": -0.449,
+    "momentum": -0.437,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2689,
-    "global_sentiment": 0.4345,
-    "combined_sentiment": 0.3212,
-    "confidence": 0.6266,
+    "crypto_sentiment": 0.2691,
+    "global_sentiment": 0.4243,
+    "combined_sentiment": 0.3205,
+    "confidence": 0.6075,
     "counts": {
-      "crypto": 70,
+      "crypto": 69,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 110018,
+      "btc_price": 110029,
       "btc_change_24h": -0.2,
-      "eth_price": 3858.82,
-      "eth_change_24h": -0.76,
+      "eth_price": 3846.05,
+      "eth_change_24h": -0.82,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.05,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 37,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133910507389,
+        "volume_24h": 129953797377,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.66,
+        "btc_dominance": 57.69,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-20T02:03:57.724656+00:00",
-      "crypto": 0.4887,
-      "global": 0.452,
-      "combined": 0.4875,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-20T04:30:53.175837+00:00",
       "crypto": 0.4275,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-02T19:53:26.119385+00:00",
+      "crypto": 0.2691,
+      "global": 0.4243,
+      "combined": 0.3205,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin 'money vessel' amasses $8B but recovery lacks ETF inflows",
+        "url": "https://cointelegraph.com/news/bitcoin-money-vessel-8b-recovery-lacks-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6369,
+        "score": 0.3333
+      },
+      {
         "title": "Dow Jones Futures Loom; Palantir, Robinhood Lead Earnings",
         "url": "https://finance.yahoo.com/m/62d37222-a461-31e5-bd64-dd1c3cd6bdd9/dow-jones-futures-loom%3B.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7843,
+        "weight": 0.6322,
         "score": 0.3333
       },
       {
         "title": "Microsoft AI chief says only biological beings can be conscious",
         "url": "https://www.cnbc.com/2025/11/02/microsoft-ai-chief-mustafa-suleyman-only-biological-beings-can-be-conscious.html",
         "source": "CNBC Markets",
-        "weight": 0.7417,
-        "score": 0.3333
-      },
-      {
-        "title": "Australia’s Sovereign Wealth Fund Returns 13.7%, Aided by Stocks",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-02/australia-s-sovereign-wealth-fund-returns-13-7-aided-by-stocks",
-        "source": "Bloomberg Markets",
-        "weight": 0.5366,
+        "weight": 0.4998,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Can blockchain tame AI’s IP problem?",
+        "url": "https://cryptoslate.com/can-blockchain-tame-ais-ip-problem/",
+        "source": "CryptoSlate",
+        "weight": 0.6776,
+        "score": -1.0
+      },
+      {
         "title": "November Could Be the New October for U.S. Crypto ETFs After Shutdown Delays SEC Decisions",
         "url": "https://www.coindesk.com/news-analysis/2025/11/02/november-could-be-the-new-october-for-u-s-crypto-etfs-after-shutdown-delays-sec-decisions",
         "source": "CoinDesk",
-        "weight": 0.6695,
+        "weight": 0.4511,
         "score": -0.9667
       },
       {
-        "title": "Where the blockbuster weight loss drug market stands today — and what’s coming next",
-        "url": "https://www.cnbc.com/2025/11/02/whats-next-for-the-weight-loss-drug-market-pills-rivals-insurance.html",
-        "source": "CNBC Markets",
-        "weight": 0.5356,
-        "score": -0.9333
-      },
-      {
-        "title": "Treasury Secretary Bessent says SNAP food benefits could restart by Wednesday",
-        "url": "https://www.cnbc.com/2025/11/02/bessent-trump-snap-food-stamps-shutdown.html",
-        "source": "CNBC Markets",
-        "weight": 0.7468,
-        "score": -0.6333
+        "title": "Fear & Greed 37 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3246344735877585,
-          "price_change_24h": 0.01096
+          "volume_mcap_ratio": 0.3253996937528667,
+          "price_change_24h": 0.01022
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-02",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3676,
+      "crypto_high": 0.4734,
+      "crypto_low": 0.2689,
+      "global_avg": 0.5202,
+      "global_high": 0.5968,
+      "global_low": 0.4243,
+      "combined_avg": 0.4024,
+      "combined_high": 0.4881,
+      "combined_low": 0.3205
+    },
+    "market_indicators_24h": {
+      "change24h": -0.025,
+      "vol": 0.083,
+      "fearGreed": 37,
+      "momentum": -0.437,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-02T19:53:26.119385+00:00"
   }
 }
