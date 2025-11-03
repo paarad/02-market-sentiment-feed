@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-03T12:54:28.064690+00:00",
+  "updated_at": "2025-11-03T16:31:14.310195+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.093,
+    "vol": 0.194,
     "fearGreed": 42,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3254,
-    "global_sentiment": 0.5827,
-    "combined_sentiment": 0.3759,
-    "confidence": 0.7688,
+    "crypto_sentiment": 0.4731,
+    "global_sentiment": 0.545,
+    "combined_sentiment": 0.4835,
+    "confidence": 0.8264,
     "counts": {
       "crypto": 70,
-      "global": 45
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 107906,
-      "btc_change_24h": -2.59,
-      "eth_price": 3715.85,
-      "eth_change_24h": -4.09,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 106290,
+      "btc_change_24h": -3.41,
+      "eth_price": 3611.13,
+      "eth_change_24h": -6.41,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 42,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 208487509154,
+        "volume_24h": 269263553190.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.07,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-20T20:29:05.096943+00:00",
-      "crypto": 0.5584,
-      "global": 0.4661,
-      "combined": 0.541,
-      "counts": {
-        "crypto": 70,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-10-21T01:57:26.146365+00:00",
       "crypto": 0.5277,
@@ -1008,52 +998,62 @@
         "crypto": 70,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-11-03T16:31:14.310195+00:00",
+      "crypto": 0.4731,
+      "global": 0.545,
+      "combined": 0.4835,
+      "counts": {
+        "crypto": 70,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Undiscovered Gems in the US Market for November 2025",
-        "url": "https://finance.yahoo.com/news/undiscovered-gems-us-market-november-113308490.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.684,
+        "title": "How high can Dash price go if it copies Zcash in November?",
+        "url": "https://cointelegraph.com/news/how-high-can-dash-go-if-it-copies-zcash-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7861,
         "score": 1.0
       },
       {
-        "title": "BioNTech Raises Sales Outlook on Boost from Bristol Payments",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-03/biontech-raises-sales-outlook-on-boost-from-bristol-payments",
+        "title": "Buffett's Berkshire Cash Pile Hits Record $382 Billion",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-03/berkshire-cash-pile-hits-record-382-billion-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6998,
-        "score": 0.9167
+        "weight": 0.6964,
+        "score": 0.8667
       },
       {
-        "title": "Oil Rises as OPEC+ Pauses Output Hikes, BP's Partial US Divestment | The Opening Trade 11/3",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-03/the-opening-trade-11-3-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6387,
+        "title": "IREN Stock Soars. Microsoft’s Capacity Problem Might Just Be Solved.",
+        "url": "https://finance.yahoo.com/m/2783e04e-1365-343a-bcee-d0c80da35d93/iren-stock-soars.-microsoft%E2%80%99s.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6685,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Kimberly-Clark to Buy Kenvue for $40 Billion",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-03/kimberly-clark-to-buy-tylenol-owner-kenvue-in-40-billion-deal",
-        "source": "Bloomberg Markets",
-        "weight": 0.7071,
-        "score": -0.9333
+        "title": "How this millionaire crypto hacker continues to freely cash out a year later",
+        "url": "https://cryptoslate.com/multimillion-crypto-hacker-continues-to-freely-cash-out-the-route-tells-a-bigger-story/",
+        "source": "CryptoSlate",
+        "weight": 0.7351,
+        "score": -1.0
       },
       {
-        "title": "Berachain Halts Network to Contain Balancer-Linked Exploit, Conduct ‘Emergency Hard Fork’",
-        "url": "https://www.coindesk.com/markets/2025/11/03/berachain-halts-network-to-contain-balancer-linked-exploit-to-conduct-emergency-hard-fork",
+        "title": "Bitcoin Slides Below $106K as Cryptos Tumble, Nearing October Crash Lows",
+        "url": "https://www.coindesk.com/markets/2025/11/03/bitcoin-slides-below-usd106k-as-cryptos-tumble-nearing-october-crash-lows",
         "source": "CoinDesk",
-        "weight": 0.7815,
-        "score": -0.8333
+        "weight": 0.9337,
+        "score": -0.6333
       },
       {
-        "title": "Bitcoin Drop May Be Warning for Stocks: Crypto Daybook Americas",
-        "url": "https://www.coindesk.com/daybook-us/2025/11/03/bitcoin-drop-may-be-warning-for-stocks-crypto-daybook-americas",
-        "source": "CoinDesk",
-        "weight": 0.9268,
+        "title": "Bitcoin, Ethereum and Dogecoin Plunge as Crypto Liquidations Top $1.1 Billion",
+        "url": "https://decrypt.co/347154/bitcoin-ethereum-dogecoin-plunge-crypto-liquidations-topping-1-1-billion",
+        "source": "Decrypt",
+        "weight": 0.8211,
         "score": -0.6667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5173754977908681,
-          "price_change_24h": 0.02121
+          "volume_mcap_ratio": 0.6435489775544856,
+          "price_change_24h": 0.00047
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3520661545235211,
-          "price_change_24h": 0.00397
+          "volume_mcap_ratio": 0.39423962164039456,
+          "price_change_24h": 0.04517
         }
       ],
       "momentum_shifts": []
