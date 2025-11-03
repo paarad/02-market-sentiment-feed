@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-03T02:04:56.359377+00:00",
+  "updated_at": "2025-11-03T04:34:38.615360+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.06,
+    "change24h": -0.069,
+    "vol": 0.132,
     "fearGreed": 42,
-    "momentum": -0.27,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3135,
-    "global_sentiment": 0.5122,
-    "combined_sentiment": 0.3611,
-    "confidence": 0.5758,
+    "crypto_sentiment": 0.3171,
+    "global_sentiment": 0.4967,
+    "combined_sentiment": 0.3626,
+    "confidence": 0.6828,
     "counts": {
-      "crypto": 68,
-      "global": 43
+      "crypto": 70,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 109564,
-      "btc_change_24h": -0.3,
-      "eth_price": 3834.59,
-      "eth_change_24h": -0.87,
+      "btc_price": 107831,
+      "btc_change_24h": -2.05,
+      "eth_price": 3736.89,
+      "eth_change_24h": -3.77,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 42,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149687935651,
-        "high_activity_coins": 1
+        "volume_24h": 178339325902,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.57,
+        "btc_dominance": 57.75,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-20T12:53:34.271564+00:00",
-      "crypto": 0.4575,
-      "global": 0.445,
-      "combined": 0.4635,
-      "counts": {
-        "crypto": 68,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-10-20T16:31:42.958019+00:00",
       "crypto": 0.4836,
@@ -1008,61 +998,76 @@
         "crypto": 68,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-03T04:34:38.615360+00:00",
+      "crypto": 0.3171,
+      "global": 0.4967,
+      "combined": 0.3626,
+      "counts": {
+        "crypto": 70,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XRP Chart Turns Neutral, Repeated $2.55 Rejections Define Next Breakout Zone",
+        "url": "https://www.coindesk.com/markets/2025/11/03/xrp-chart-turns-neutral-repeated-usd2-55-rejections-define-next-breakout-zone",
+        "source": "CoinDesk",
+        "weight": 1.1247,
+        "score": 0.5333
+      },
+      {
+        "title": "Korea’s Kospi Extends Rally as AI Momentum Rises on Nvidia Ties",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-03/korea-s-kospi-extends-rally-as-ai-momentum-rises-on-nvidia-ties",
+        "source": "Bloomberg Markets",
+        "weight": 0.735,
+        "score": 0.5333
+      },
+      {
         "title": "New Zealand Quarterly Dwelling Approvals Near Three-Year High",
         "url": "https://www.bloomberg.com/news/articles/2025-11-03/new-zealand-quarterly-dwelling-approvals-near-three-year-high",
         "source": "Bloomberg Markets",
-        "weight": 0.7652,
+        "weight": 0.5736,
         "score": 0.5833
-      },
-      {
-        "title": "Stock Futures Drift Higher to Start a New Month",
-        "url": "https://finance.yahoo.com/m/58e469de-b7ba-3780-b152-677f86e76c86/stock-futures-drift-higher-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5937,
-        "score": 0.6667
-      },
-      {
-        "title": "History Says the Nasdaq Will Surge in 2026. 1 Stock-Split Stock to Buy Before It Does.",
-        "url": "https://www.fool.com/investing/2025/11/02/history-nasdaq-surge-in-2026-1-stock-split/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5625,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Asia Morning Briefing: Cautious Calm Returns to BTC Markets as Traders Rebuild Risk",
-        "url": "https://www.coindesk.com/markets/2025/11/03/asia-morning-briefing-cautious-calm-returns-to-btc-markets-as-traders-rebuild-risk",
-        "source": "CoinDesk",
-        "weight": 1.1316,
-        "score": -0.3333
-      },
-      {
-        "title": "Can blockchain tame AI’s IP problem?",
-        "url": "https://cryptoslate.com/can-blockchain-tame-ais-ip-problem/",
-        "source": "CryptoSlate",
-        "weight": 0.3314,
-        "score": -1.0
-      },
-      {
-        "title": "Treasuries Rally Is Proving Trump’s ‘Sell America’ Critics Wrong",
-        "url": "https://www.bloomberg.com/news/features/2025-11-02/us-treasury-rally-stuns-wall-street-with-best-return-since-2020",
+        "title": "Copper Declines for Third Day on Concerns Over China’s Economy",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-03/copper-declines-for-third-day-on-concerns-over-china-s-economy",
         "source": "Bloomberg Markets",
-        "weight": 0.4993,
-        "score": -0.6333
+        "weight": 0.7729,
+        "score": -0.9667
+      },
+      {
+        "title": "South Australia Rounds Up Another 55 Suspects After High Court Backs Encrypted-App Sting",
+        "url": "https://decrypt.co/347136/south-australia-55-suspects-high-court-backs-encrypted-app",
+        "source": "Decrypt",
+        "weight": 0.6401,
+        "score": -0.9333
+      },
+      {
+        "title": "Vanke Bonds Plunge as Biggest Backer Tightens Loan Terms",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-03/vanke-bonds-plunge-as-biggest-backer-tightens-rescue-loan-terms",
+        "source": "Bloomberg Markets",
+        "weight": 0.608,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37150708598072263,
-          "price_change_24h": 0.02546
+          "volume_mcap_ratio": 0.44072593558203244,
+          "price_change_24h": 0.02111
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3090201086664658,
+          "price_change_24h": 0.02258
         }
       ],
       "momentum_shifts": []
