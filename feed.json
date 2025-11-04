@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-04T04:29:47.344543+00:00",
+  "updated_at": "2025-11-04T08:35:12.358337+00:00",
   "indicators": {
-    "change24h": -0.045,
-    "vol": 0.115,
+    "change24h": -0.092,
+    "vol": 0.182,
     "fearGreed": 21,
-    "momentum": -0.794,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3769,
-    "global_sentiment": 0.4816,
-    "combined_sentiment": 0.4062,
-    "confidence": 0.7798,
+    "crypto_sentiment": 0.4064,
+    "global_sentiment": 0.5579,
+    "combined_sentiment": 0.4346,
+    "confidence": 0.7734,
     "counts": {
-      "crypto": 69,
-      "global": 40
+      "crypto": 70,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 106927,
-      "btc_change_24h": -0.74,
-      "eth_price": 3637.6,
-      "eth_change_24h": -2.67,
+      "btc_price": 104443,
+      "btc_change_24h": -2.62,
+      "eth_price": 3506.3,
+      "eth_change_24h": -5.27,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 306753747861.0,
-        "high_activity_coins": 1
+        "volume_24h": 352218187260.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.16,
+        "btc_dominance": 58.27,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-21T16:32:16.797311+00:00",
-      "crypto": 0.4075,
-      "global": 0.5687,
-      "combined": 0.4364,
-      "counts": {
-        "crypto": 66,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-21T19:53:49.744371+00:00",
       "crypto": 0.4446,
@@ -1008,61 +998,76 @@
         "crypto": 69,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-04T08:35:12.358337+00:00",
+      "crypto": 0.4064,
+      "global": 0.5579,
+      "combined": 0.4346,
+      "counts": {
+        "crypto": 70,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ripple buys Palisade as it tips corporations to drive crypto adoption",
-        "url": "https://cointelegraph.com/news/ripple-acquires-palisade-widen-institutional-offering?utm_source=rss_feed&utm_medium=rss%3F__%3D1762230327925%26_rnd%3Dwiklwu&utm_campaign=rss_partner_inbound",
+        "title": "Cathie Wood’s ARK Invest adds $12M in Bullish shares as options trading surges",
+        "url": "https://cointelegraph.com/news/cathie-wood-ark-buys-12m-bullish-crypto-options-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6318,
-        "score": 0.6667
+        "weight": 0.6908,
+        "score": 1.0
       },
       {
-        "title": "Bitcoin Price Outlook: What's Next After Red October?",
-        "url": "https://decrypt.co/347231/bitcoin-price-outlook-whats-next-after-red-october",
-        "source": "Decrypt",
-        "weight": 0.7706,
-        "score": 0.5333
+        "title": "Palantir shares drop in Europe despite earnings beat",
+        "url": "https://finance.yahoo.com/news/palantir-shares-drop-europe-despite-071618120.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6872,
+        "score": 1.0
       },
       {
-        "title": "SK Hynix’s 240% Rally Prompts Korea Exchange to Warn Investors",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-04/sk-hynix-s-240-rally-prompts-korea-exchange-to-warn-investors",
-        "source": "Bloomberg Markets",
-        "weight": 0.7621,
+        "title": "Bitcoin’s Last Support Before $100K Breaks as 'Mag 7' Skew Flips, Oracle CDS Surges",
+        "url": "https://www.coindesk.com/markets/2025/11/04/bitcoin-s-last-support-before-usd100k-breaks-as-mag-7-skew-flips-oracle-cds-surges",
+        "source": "CoinDesk",
+        "weight": 0.7485,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Dogecoin Plunges 8% as Price Action Points to Brief Technical Bounces",
-        "url": "https://www.coindesk.com/markets/2025/11/04/dogecoin-plunges-8-as-price-action-points-to-brief-technical-bounces",
-        "source": "CoinDesk",
-        "weight": 0.7774,
-        "score": -0.6333
-      },
-      {
-        "title": "Wintermute boss denies plans to sue Binance over the Oct. 10 crash",
-        "url": "https://cointelegraph.com/news/wintermute-boss-denies-plans-to-sue-binance-over-the-oct-10-crash?utm_source=rss_feed&utm_medium=rss%3F__%3D1762230327925%26_rnd%3Dwiklwu&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7552,
-        "score": -0.6333
-      },
-      {
-        "title": "RBA Keeps Key Rate Unchanged Over Renewed Inflation Worries",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-04/australia-keeps-key-rate-unchanged-on-renewed-inflation-worries",
+        "title": "Global Financiers Fret Over US Insurers, Immigration Curbs",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-04/global-financiers-fret-over-us-insurers-immigration-curbs",
         "source": "Bloomberg Markets",
-        "weight": 0.7168,
-        "score": -0.6667
+        "weight": 0.7584,
+        "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 21 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "World's Top Bankers, Fund Managers Gather in Hong Kong | The China Show 11/4/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-04/the-china-show-11-04-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5743,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7453974868108931,
-          "price_change_24h": -0.01195
+          "volume_mcap_ratio": 0.8360199257275128,
+          "price_change_24h": -0.02602
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3796654949953979,
+          "price_change_24h": 0.06327
         }
       ],
       "momentum_shifts": []
