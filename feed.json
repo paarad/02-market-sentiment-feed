@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-04T16:31:39.132757+00:00",
+  "updated_at": "2025-11-04T19:53:17.214817+00:00",
   "indicators": {
-    "change24h": -0.059,
-    "vol": 0.104,
+    "change24h": -0.11,
+    "vol": 0.266,
     "fearGreed": 21,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3539,
-    "global_sentiment": 0.4519,
-    "combined_sentiment": 0.3864,
-    "confidence": 0.8285,
+    "crypto_sentiment": 0.3456,
+    "global_sentiment": 0.5176,
+    "combined_sentiment": 0.3857,
+    "confidence": 0.8593,
     "counts": {
-      "crypto": 73,
-      "global": 47
+      "crypto": 79,
+      "global": 54
     },
     "market_indicators": {
-      "btc_price": 102739,
-      "btc_change_24h": -3.43,
-      "eth_price": 3475.53,
-      "eth_change_24h": -3.79,
+      "btc_price": 100639,
+      "btc_change_24h": -6.07,
+      "eth_price": 3253.26,
+      "eth_change_24h": -10.51,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.05,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 345171184604,
-        "high_activity_coins": 4
+        "volume_24h": 395811105634,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.98,
+        "btc_dominance": 58.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-22T02:00:37.551360+00:00",
-      "crypto": 0.4655,
-      "global": 0.4388,
-      "combined": 0.469,
-      "counts": {
-        "crypto": 74,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-22T04:29:36.320370+00:00",
       "crypto": 0.4772,
@@ -1008,71 +998,81 @@
         "crypto": 73,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-11-04T19:53:17.214817+00:00",
+      "crypto": 0.3456,
+      "global": 0.5176,
+      "combined": 0.3857,
+      "counts": {
+        "crypto": 79,
+        "global": 54
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Shopify Stock Falls on Earnings. Why Investors Aren’t Satisfied.",
-        "url": "https://finance.yahoo.com/m/5134ffd2-4311-3027-9aff-de6554960b12/shopify-stock-falls-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.649,
-        "score": 0.8667
+        "title": "Chainlink's LINK Tumbles 6% as Technical Breakdown Trumps UBS, FTSE Partnership",
+        "url": "https://www.coindesk.com/markets/2025/11/04/chainlink-s-link-tumbles-6-as-technical-breakdown-trumps-ubs-ftse-partnership",
+        "source": "CoinDesk",
+        "weight": 1.039,
+        "score": 0.5833
       },
       {
-        "title": "Captivision, Inc. Announces Additional Extension Granted by Nasdaq to Regain Compliance with Periodic Filing Requirement",
-        "url": "https://finance.yahoo.com/news/captivision-inc-announces-additional-extension-130000096.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5322,
-        "score": 0.9667
+        "title": "Amazon-backed eVTOL company Beta Technologies debuts at $34 on NYSE",
+        "url": "https://www.cnbc.com/2025/11/04/amazon-backed-evtol-beta-opens-on-new-york-stock-exchange-after-ipo.html",
+        "source": "CNBC Markets",
+        "weight": 0.7593,
+        "score": 0.5833
       },
       {
-        "title": "Privacy Coins Post Double-Digit Gains, Defying Market Slump",
-        "url": "https://decrypt.co/347253/privacy-coins-post-double-digit-gains-defying-market-slump",
-        "source": "Decrypt",
-        "weight": 0.5269,
-        "score": 0.8667
+        "title": "Xponential Fitness and Adtalem Stocks Trade Down, What You Need To Know",
+        "url": "https://finance.yahoo.com/news/xponential-fitness-adtalem-stocks-trade-191049011.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7372,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Dow Cuts Loss; 'Big Short' Burry Bets Against Nvidia, Palantir (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/c4e227a8-307b-3706-b7e3-bc7a5f1eccf3/stock-market-today%3A-dow-cuts.html?.tsrc=rss",
+        "title": "Wall Street and Bitcoin plunge over AI bubble fears",
+        "url": "https://uk.finance.yahoo.com/news/wall-street-bitcoin-plunge-over-190243336.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7788,
-        "score": -0.9667
-      },
-      {
-        "title": "SUI Slides as $116M DeFi Exploit Rattles Crypto Markets",
-        "url": "https://www.coindesk.com/markets/2025/11/04/sui-slides-as-usd116m-defi-exploit-rattles-crypto-markets",
-        "source": "CoinDesk",
-        "weight": 0.8688,
-        "score": -0.8333
-      },
-      {
-        "title": "Metsera says Novo Nordisk’s new up to $10 billion bid for obesity drugmaker is ‘superior’ to revised Pfizer offer",
-        "url": "https://www.cnbc.com/2025/11/04/novo-nordisk-pfizer-metsera-acquisition.html",
-        "source": "CNBC Markets",
-        "weight": 0.6924,
+        "weight": 0.7258,
         "score": -1.0
+      },
+      {
+        "title": "Where is Crypto going! Crypto enters Extreme Fear! ZEC keeps going UP!",
+        "url": "https://decrypt.co/videos/interviews/0kRfhCSl/where-is-crypto-going-crypto-enters-extreme-fear-zec-keeps-going-up",
+        "source": "Decrypt",
+        "weight": 0.706,
+        "score": -1.0
+      },
+      {
+        "title": "Sector Update: Energy Stocks Decline in Afternoon Trading",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-decline-afternoon-190117009.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7238,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8267621951470202,
-          "price_change_24h": -0.03028
+          "volume_mcap_ratio": 0.9306929116573033,
+          "price_change_24h": -0.03911
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4042504129043036,
-          "price_change_24h": -0.02495
+          "volume_mcap_ratio": 0.3893184089402622,
+          "price_change_24h": -0.00759
         },
         {
-          "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3360952914853028,
-          "price_change_24h": -4.44618
+          "symbol": "ICP",
+          "volume_mcap_ratio": 0.3530956095235906,
+          "price_change_24h": 51.7339
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-04",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3688,
+      "crypto_high": 0.4064,
+      "crypto_low": 0.3351,
+      "global_avg": 0.5086,
+      "global_high": 0.5765,
+      "global_low": 0.4519,
+      "combined_avg": 0.4023,
+      "combined_high": 0.4346,
+      "combined_low": 0.3827
+    },
+    "market_indicators_24h": {
+      "change24h": -0.11,
+      "vol": 0.266,
+      "fearGreed": 21,
+      "momentum": -1.0,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-04T19:53:17.214817+00:00"
   }
 }
