@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-03T20:28:38.288864+00:00",
+  "updated_at": "2025-11-04T02:00:06.489208+00:00",
   "indicators": {
-    "change24h": -0.105,
-    "vol": 0.213,
-    "fearGreed": 42,
+    "change24h": -0.092,
+    "vol": 0.194,
+    "fearGreed": 21,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4535,
-    "global_sentiment": 0.4887,
-    "combined_sentiment": 0.4642,
-    "confidence": 0.8216,
+    "crypto_sentiment": 0.395,
+    "global_sentiment": 0.4664,
+    "combined_sentiment": 0.4184,
+    "confidence": 0.7638,
     "counts": {
-      "crypto": 69,
-      "global": 45
+      "crypto": 67,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 106633,
-      "btc_change_24h": -3.0,
-      "eth_price": 3598.8,
-      "eth_change_24h": -6.59,
+      "btc_price": 107041,
+      "btc_change_24h": -2.37,
+      "eth_price": 3643.5,
+      "eth_change_24h": -5.05,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.0,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 42,
-        "classification": "Fear",
+        "value": 21,
+        "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 308811669705.0,
+        "volume_24h": 328820333378.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.29,
+        "btc_dominance": 58.19,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-21T08:35:41.944158+00:00",
-      "crypto": 0.4905,
-      "global": 0.4973,
-      "combined": 0.4926,
-      "counts": {
-        "crypto": 66,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-21T12:55:09.686178+00:00",
       "crypto": 0.3307,
@@ -1008,6 +998,16 @@
         "crypto": 69,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-11-04T02:00:06.489208+00:00",
+      "crypto": 0.395,
+      "global": 0.4664,
+      "combined": 0.4184,
+      "counts": {
+        "crypto": 67,
+        "global": 36
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "Nasdaq Reprimands TON Treasury for $558 Million Stock Sale, Crypto Buy",
         "url": "https://decrypt.co/347165/nasdaq-reprimands-ton-treasury-558-million-stock-sale-crypto-buy",
         "source": "Decrypt",
-        "weight": 0.7703,
+        "weight": 0.4069,
         "score": 1.0
       },
       {
-        "title": "AI Stock Rally Boosts S&P 500 On Otherwise Mixed Day",
-        "url": "https://finance.yahoo.com/m/fac6d03b-ed1b-3c3c-a63b-21248b50ccc9/ai-stock-rally-boosts-s%26p-500.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7239,
-        "score": 0.8667
+        "title": "Onetime meme stock Beyond Meat falls 16% after company delays financial results due to impairment charge",
+        "url": "https://www.cnbc.com/2025/11/03/beyond-meat-falls-8percent-after-delaying-financial-results.html",
+        "source": "CNBC Markets",
+        "weight": 0.4843,
+        "score": 0.6667
       },
       {
-        "title": "How high can Dash price go if it copies Zcash in November?",
-        "url": "https://cointelegraph.com/news/how-high-can-dash-go-if-it-copies-zcash-november?utm_source=rss_feed&utm_medium=rss%3Fnc%3D1762201662942%26_dc%3D1762201662942%26noCache%3Dtrue%26rand%3Dx2ota_1762201662942&utm_campaign=rss_partner_inbound",
+        "title": "FTSE Russell partners with Chainlink to publish stock indexes onchain",
+        "url": "https://cointelegraph.com/news/ftse-russell-chainlink-stock-indexes-onchain?utm_source=rss_feed&utm_medium=rss%3F_nocache%3D1762221432421%26_q%3D1762221432421&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4977,
-        "score": 1.0
+        "weight": 0.487,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Coin Center files brief in Ethereum MEV trial, disputes ‘honest validation’ theory",
-        "url": "https://cointelegraph.com/news/coin-center-amicus-brief-mev-bot-trial?utm_source=rss_feed&utm_medium=rss%3Fnc%3D1762201662942%26_dc%3D1762201662942%26noCache%3Dtrue%26rand%3Dx2ota_1762201662942&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7582,
-        "score": -1.0
-      },
-      {
-        "title": "Pfizer files second lawsuit against Novo Nordisk, Metsera in bidding war over obesity biotech",
-        "url": "https://www.cnbc.com/2025/11/03/pfizer-files-second-lawsuit-against-novo-nordisk-metsera.html",
-        "source": "CNBC Markets",
-        "weight": 0.5664,
-        "score": -1.0
-      },
-      {
-        "title": "The Human Cost of Xiaomi’s Rapid Pivot to EVs",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-03/the-human-cost-of-xiaomi-s-rapid-pivot-to-evs-video",
+        "title": "S&P, Nasdaq Surge on Amazon-OpenAI Deal, Nvidia Higher | The Close 11/3/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-04/the-close-11-3-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7847,
+        "weight": 0.6489,
+        "score": -0.9667
+      },
+      {
+        "title": "Crypto whale who nailed the October crash opens $55M BTC and ETH longs",
+        "url": "https://cointelegraph.com/news/hyperunit-whale-opens-bitcoin-and-ether-longs?utm_source=rss_feed&utm_medium=rss%3F_nocache%3D1762221432421%26_q%3D1762221432421&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8062,
         "score": -0.6333
+      },
+      {
+        "title": "Balancer audits under scrutiny after $100M+ exploit",
+        "url": "https://cointelegraph.com/news/balancer-finance-audits-exploit-security?utm_source=rss_feed&utm_medium=rss%3F_nocache%3D1762221432421%26_q%3D1762221432421&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4598,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7376446363463774,
-          "price_change_24h": -0.00807
+          "volume_mcap_ratio": 0.7886902676372922,
+          "price_change_24h": -0.01367
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.43045642073983703,
-          "price_change_24h": -0.03606
+          "volume_mcap_ratio": 0.3339568127935175,
+          "price_change_24h": -0.03889
         }
       ],
       "momentum_shifts": []
