@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-05T08:35:05.197935+00:00",
+  "updated_at": "2025-11-05T12:54:25.940969+00:00",
   "indicators": {
-    "change24h": -0.032,
+    "change24h": -0.014,
     "vol": 0.212,
     "fearGreed": 23,
-    "momentum": -0.557,
-    "regime": "bear",
+    "momentum": -0.237,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3269,
-    "global_sentiment": 0.3386,
-    "combined_sentiment": 0.3567,
+    "crypto_sentiment": 0.3444,
+    "global_sentiment": 0.3898,
+    "combined_sentiment": 0.3741,
     "confidence": 0.7859,
     "counts": {
-      "crypto": 77,
-      "global": 43
+      "crypto": 74,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 101573,
-      "btc_change_24h": -2.74,
-      "eth_price": 3303.83,
-      "eth_change_24h": -5.76,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 102560,
+      "btc_change_24h": -1.33,
+      "eth_price": 3336.41,
+      "eth_change_24h": -4.88,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 459119382325.0,
+        "volume_24h": 462334298866.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.16,
+        "btc_dominance": 58.18,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-22T19:53:41.328754+00:00",
-      "crypto": 0.4736,
-      "global": 0.3506,
-      "combined": 0.4678,
-      "counts": {
-        "crypto": 69,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-10-22T20:29:03.192995+00:00",
       "crypto": 0.4825,
@@ -1008,71 +998,81 @@
         "crypto": 77,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-05T12:54:25.940969+00:00",
+      "crypto": 0.3444,
+      "global": 0.3898,
+      "combined": 0.3741,
+      "counts": {
+        "crypto": 74,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gemini Moves Toward Prediction Markets in Bid to Broaden Its Business: Report",
-        "url": "https://decrypt.co/347353/gemini-prediction-markets-broaden-business",
+        "title": "Arthur Hayes, Bitwise exec still bullish as Bitcoin falls under $100K",
+        "url": "https://cointelegraph.com/news/bitcoin-below-100k-analysts-bullish-outlook?utm_source=rss_feed&utm_medium=rss%3F_%3D1762347173379%26nc%3D1762347173379%26_dc%3D1762347173379%26_rnd%3Dbl7ank&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5921,
+        "score": 0.7333
+      },
+      {
+        "title": "Monero Bucks Market Downturn as Privacy Narrative Strengthens",
+        "url": "https://decrypt.co/347368/monero-bucks-market-downturn-as-privacy-narrative-strengthens",
         "source": "Decrypt",
-        "weight": 0.4754,
-        "score": 1.0
+        "weight": 0.6889,
+        "score": 0.5333
       },
       {
-        "title": "Hong Kong Exchange Profit Jumps 56% on Trading, IPO Boom",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-05/hong-kong-exchange-profit-jumps-56-on-surge-in-trading-ipos",
+        "title": "South African Mobile Operator Cell C Plans $413 Million IPO",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-05/south-african-mobile-operator-cell-c-plans-413-million-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.4917,
-        "score": 0.6667
-      },
-      {
-        "title": "Al Kaabi: Oil Demand to Remain Above 100M by 2040",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-05/al-kaabi-oil-demand-to-remain-above-100m-by-2040-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7451,
-        "score": 0.3333
+        "weight": 0.6369,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Novo Cuts Outlook Citing Lower Wegovy, Ozempic Sales",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-05/novo-cuts-outlook-citing-lower-wegovy-ozempic-sales-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6748,
-        "score": -0.9333
-      },
-      {
-        "title": "Singapore’s Central Bank Joins Chorus of Tech Stock Warnings",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-05/singapore-s-central-bank-joins-chorus-of-tech-stock-warnings",
-        "source": "Bloomberg Markets",
-        "weight": 0.5289,
-        "score": -1.0
-      },
-      {
-        "title": "Why Mastercard’s $2B move into crypto could end banking hours as we know them",
-        "url": "https://cointelegraph.com/news/mastercard-s-2b-move-into-crypto?utm_source=rss_feed&utm_medium=rss%3Fr%3Dn67ljy%26ttt%3D1762331567130%26cb%3Dn67ljy%26sid%3De68da9eb2cff552e&utm_campaign=rss_partner_inbound",
+        "title": "MEV is a choice blockchains must confront",
+        "url": "https://cointelegraph.com/news/mev-is-a-choice-blockchains?utm_source=rss_feed&utm_medium=rss%3F_%3D1762347173379%26nc%3D1762347173379%26_dc%3D1762347173379%26_rnd%3Dbl7ank&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7269,
-        "score": -0.6667
+        "weight": 0.7632,
+        "score": -0.8333
+      },
+      {
+        "title": "High Growth Tech Opportunities in the US Market",
+        "url": "https://finance.yahoo.com/news/high-growth-tech-opportunities-us-113814382.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6908,
+        "score": -0.9
+      },
+      {
+        "title": "What’s happening to DeFi? $231M was just drained but $19M clawed back",
+        "url": "https://cryptoslate.com/whats-happening-to-defi-231m-was-just-drained-but-19m-clawed-back/",
+        "source": "CryptoSlate",
+        "weight": 0.4819,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.1121233105647512,
-          "price_change_24h": 0.02294
+          "volume_mcap_ratio": 1.0786224071704964,
+          "price_change_24h": 0.0269
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3809966503550793,
-          "price_change_24h": -0.11524
+          "volume_mcap_ratio": 0.39464311237050625,
+          "price_change_24h": -0.02915
         },
         {
-          "symbol": "SUI",
-          "volume_mcap_ratio": 0.3004696325857072,
-          "price_change_24h": -1.67155
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.39028981946233177,
+          "price_change_24h": 0.00515
         }
       ],
       "momentum_shifts": []
