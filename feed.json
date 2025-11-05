@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-05T16:34:29.444634+00:00",
+  "updated_at": "2025-11-05T19:53:54.126671+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.151,
+    "change24h": 0.086,
+    "vol": 0.184,
     "fearGreed": 23,
-    "momentum": 0.135,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3793,
-    "global_sentiment": 0.4456,
-    "combined_sentiment": 0.4049,
-    "confidence": 0.8211,
+    "crypto_sentiment": 0.4366,
+    "global_sentiment": 0.5048,
+    "combined_sentiment": 0.4528,
+    "confidence": 0.8332,
     "counts": {
       "crypto": 72,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 103542,
-      "btc_change_24h": 0.89,
-      "eth_price": 3391.99,
-      "eth_change_24h": -2.36,
+      "btc_price": 104093,
+      "btc_change_24h": 3.39,
+      "eth_price": 3451.76,
+      "eth_change_24h": 6.0,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 446916937498.0,
-        "high_activity_coins": 3
+        "volume_24h": 385430155098,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.2,
+        "btc_dominance": 58.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-23T01:56:10.354833+00:00",
-      "crypto": 0.4603,
-      "global": 0.3604,
-      "combined": 0.4586,
-      "counts": {
-        "crypto": 68,
-        "global": 28
-      }
-    },
     {
       "ts": "2025-10-23T04:29:17.343969+00:00",
       "crypto": 0.4731,
@@ -1008,71 +998,76 @@
         "crypto": 72,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-05T19:53:54.126671+00:00",
+      "crypto": 0.4366,
+      "global": 0.5048,
+      "combined": 0.4528,
+      "counts": {
+        "crypto": 72,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Gains On Surprise Jobs Data; AMD Tumbles On Earnings (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/14ce2639-74b7-368a-ac1b-cec93813e2a3/stock-market-today%3A-dow-gains.html?.tsrc=rss",
+        "title": "HBAR Eyes $0.18 as Volume Surge Signals Possible Breakout",
+        "url": "https://www.coindesk.com/markets/2025/11/05/hbar-eyes-usd0-18-as-volume-surge-signals-possible-breakout",
+        "source": "CoinDesk",
+        "weight": 0.7277,
+        "score": 1.0
+      },
+      {
+        "title": "Here’s How Markets Are Moving After the Supreme Court Heard Tariff Arguments",
+        "url": "https://finance.yahoo.com/m/284aecd1-a646-31bd-896f-75cdbbf51f8f/here%E2%80%99s-how-markets-are-moving.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7293,
-        "score": 0.6667
+        "weight": 0.6981,
+        "score": 0.8667
       },
       {
-        "title": "Wall Street Bonuses Expected to Surge Again",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-05/reporter-blackwell-wall-street-bonuses-surge-again-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.682,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 1.3% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Ripple Teams With Mastercard, Gemini to Use RLUSD to Settle Credit Card Transactions",
+        "url": "https://decrypt.co/347393/ripple-mastercard-gemini-use-rlusd-settle-credit-card-transactions",
+        "source": "Decrypt",
+        "weight": 0.6129,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Ex-Barings Private Credit Boss Accuses Firm of Mismanaging Funds",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-05/barings-accused-of-mismanaging-funds-in-poaching-suit-salvo",
-        "source": "Bloomberg Markets",
-        "weight": 0.6984,
-        "score": -1.0
-      },
-      {
-        "title": "Crypto Markets Today: Altcoins Struggle as Bitcoin Tests Key $100K Support",
-        "url": "https://www.coindesk.com/markets/2025/11/05/crypto-markets-today-altcoins-struggle-as-bitcoin-tests-key-usd100k-support",
-        "source": "CoinDesk",
-        "weight": 0.6617,
-        "score": -0.9333
-      },
-      {
-        "title": "Social Security's 2.8% COLA for 2026 is sparking debate over how the annual increase gets calculated",
-        "url": "https://www.cnbc.com/2025/11/05/social-security-cola-2026-calculation.html",
-        "source": "CNBC Markets",
-        "weight": 0.573,
+        "title": "ETH price drop to $3K sets stage for $7B short squeeze if crypto market recovery holds",
+        "url": "https://cointelegraph.com/news/eth-price-drop-to-dollar3k-sets-stage-for-dollar7b-short-squeeze-if-crypto-market-recovery-holds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9168,
         "score": -0.9667
+      },
+      {
+        "title": "TON Drops to $1.93 as Altcoins Lag Behind Bitcoin in Risk-Off Crypto Market",
+        "url": "https://www.coindesk.com/markets/2025/11/05/ton-drops-to-usd1-93-as-altcoins-lag-behind-bitcoin-in-risk-off-crypto-market",
+        "source": "CoinDesk",
+        "weight": 0.8541,
+        "score": -0.6667
+      },
+      {
+        "title": "AMD Outlook Fails to Impress Investors | Open Interest 11/05/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-05/open-interest-11-05-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6828,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.0474728566611038,
-          "price_change_24h": 0.02751
+          "volume_mcap_ratio": 0.9286587438835274,
+          "price_change_24h": 0.04679
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.41726812452282586,
-          "price_change_24h": -0.07777
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.36291493349108794,
-          "price_change_24h": 0.00269
+          "volume_mcap_ratio": 0.4104161744311416,
+          "price_change_24h": -0.02364
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-05",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3611,
+      "crypto_high": 0.4366,
+      "crypto_low": 0.3242,
+      "global_avg": 0.4009,
+      "global_high": 0.5048,
+      "global_low": 0.3386,
+      "combined_avg": 0.3875,
+      "combined_high": 0.4528,
+      "combined_low": 0.3561
+    },
+    "market_indicators_24h": {
+      "change24h": 0.086,
+      "vol": 0.184,
+      "fearGreed": 23,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-05T19:53:54.126671+00:00"
   }
 }
