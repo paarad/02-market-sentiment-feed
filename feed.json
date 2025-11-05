@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-05T19:53:54.126671+00:00",
+  "updated_at": "2025-11-05T20:29:30.243056+00:00",
   "indicators": {
-    "change24h": 0.086,
-    "vol": 0.184,
+    "change24h": 0.118,
+    "vol": 0.27,
     "fearGreed": 23,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4366,
-    "global_sentiment": 0.5048,
-    "combined_sentiment": 0.4528,
-    "confidence": 0.8332,
+    "crypto_sentiment": 0.4162,
+    "global_sentiment": 0.4931,
+    "combined_sentiment": 0.4366,
+    "confidence": 0.8316,
     "counts": {
-      "crypto": 72,
-      "global": 40
+      "crypto": 71,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 104093,
-      "btc_change_24h": 3.39,
-      "eth_price": 3451.76,
-      "eth_change_24h": 6.0,
+      "btc_price": 104117,
+      "btc_change_24h": 3.6,
+      "eth_price": 3460.98,
+      "eth_change_24h": 8.8,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 385430155098,
-        "high_activity_coins": 2
+        "volume_24h": 376022551688,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.04,
+        "btc_dominance": 58.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-23T04:29:17.343969+00:00",
-      "crypto": 0.4731,
-      "global": 0.4691,
-      "combined": 0.4773,
-      "counts": {
-        "crypto": 68,
-        "global": 30
-      }
-    },
     {
       "ts": "2025-10-23T08:34:47.900881+00:00",
       "crypto": 0.4886,
@@ -1008,6 +998,16 @@
         "crypto": 72,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-05T20:29:30.243056+00:00",
+      "crypto": 0.4162,
+      "global": 0.4931,
+      "combined": 0.4366,
+      "counts": {
+        "crypto": 71,
+        "global": 38
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "HBAR Eyes $0.18 as Volume Surge Signals Possible Breakout",
         "url": "https://www.coindesk.com/markets/2025/11/05/hbar-eyes-usd0-18-as-volume-surge-signals-possible-breakout",
         "source": "CoinDesk",
-        "weight": 0.7277,
+        "weight": 0.6795,
         "score": 1.0
       },
       {
         "title": "Here’s How Markets Are Moving After the Supreme Court Heard Tariff Arguments",
         "url": "https://finance.yahoo.com/m/284aecd1-a646-31bd-896f-75cdbbf51f8f/here%E2%80%99s-how-markets-are-moving.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6981,
+        "weight": 0.6518,
         "score": 0.8667
       },
       {
         "title": "Ripple Teams With Mastercard, Gemini to Use RLUSD to Settle Credit Card Transactions",
         "url": "https://decrypt.co/347393/ripple-mastercard-gemini-use-rlusd-settle-credit-card-transactions",
         "source": "Decrypt",
-        "weight": 0.6129,
+        "weight": 0.5723,
         "score": 0.9167
       }
     ],
@@ -1039,35 +1039,40 @@
         "title": "ETH price drop to $3K sets stage for $7B short squeeze if crypto market recovery holds",
         "url": "https://cointelegraph.com/news/eth-price-drop-to-dollar3k-sets-stage-for-dollar7b-short-squeeze-if-crypto-market-recovery-holds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9168,
+        "weight": 0.8561,
         "score": -0.9667
+      },
+      {
+        "title": "Balancer releases preliminary post-mortem report after $116M hack",
+        "url": "https://cointelegraph.com/news/balancer-post-mortem-report-116m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7479,
+        "score": -1.0
       },
       {
         "title": "TON Drops to $1.93 as Altcoins Lag Behind Bitcoin in Risk-Off Crypto Market",
         "url": "https://www.coindesk.com/markets/2025/11/05/ton-drops-to-usd1-93-as-altcoins-lag-behind-bitcoin-in-risk-off-crypto-market",
         "source": "CoinDesk",
-        "weight": 0.8541,
+        "weight": 0.7975,
         "score": -0.6667
-      },
-      {
-        "title": "AMD Outlook Fails to Impress Investors | Open Interest 11/05/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-05/open-interest-11-05-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6828,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9286587438835274,
-          "price_change_24h": 0.04679
+          "volume_mcap_ratio": 0.8835381397140305,
+          "price_change_24h": 0.05853
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.4104161744311416,
-          "price_change_24h": -0.02364
+          "volume_mcap_ratio": 0.4271016566932372,
+          "price_change_24h": -0.75226
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.3039120383392111,
+          "price_change_24h": 0.00489
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-05",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3611,
-      "crypto_high": 0.4366,
-      "crypto_low": 0.3242,
-      "global_avg": 0.4009,
-      "global_high": 0.5048,
-      "global_low": 0.3386,
-      "combined_avg": 0.3875,
-      "combined_high": 0.4528,
-      "combined_low": 0.3561
-    },
-    "market_indicators_24h": {
-      "change24h": 0.086,
-      "vol": 0.184,
-      "fearGreed": 23,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-05T19:53:54.126671+00:00"
   }
 }
