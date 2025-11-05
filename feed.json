@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-05T02:01:31.532157+00:00",
+  "updated_at": "2025-11-05T04:30:09.268784+00:00",
   "indicators": {
-    "change24h": -0.111,
-    "vol": 0.274,
+    "change24h": -0.081,
+    "vol": 0.226,
     "fearGreed": 23,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3549,
-    "global_sentiment": 0.3715,
-    "combined_sentiment": 0.3805,
-    "confidence": 0.8214,
+    "crypto_sentiment": 0.3242,
+    "global_sentiment": 0.3554,
+    "combined_sentiment": 0.3561,
+    "confidence": 0.8253,
     "counts": {
-      "crypto": 80,
-      "global": 43
+      "crypto": 81,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 100898,
-      "btc_change_24h": -5.73,
-      "eth_price": 3250.11,
-      "eth_change_24h": -10.55,
+      "btc_price": 101579,
+      "btc_change_24h": -5.02,
+      "eth_price": 3315.8,
+      "eth_change_24h": -8.85,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 473911002654.0,
-        "high_activity_coins": 4
+        "volume_24h": 512072580848.0,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 58.35,
+        "btc_dominance": 58.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-22T12:56:06.225249+00:00",
-      "crypto": 0.5744,
-      "global": 0.4422,
-      "combined": 0.551,
-      "counts": {
-        "crypto": 71,
-        "global": 48
-      }
-    },
     {
       "ts": "2025-10-22T16:33:40.844403+00:00",
       "crypto": 0.4955,
@@ -1008,71 +998,81 @@
         "crypto": 80,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-05T04:30:09.268784+00:00",
+      "crypto": 0.3242,
+      "global": 0.3554,
+      "combined": 0.3561,
+      "counts": {
+        "crypto": 81,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Gemini Moves Toward Prediction Markets in Bid to Broaden Its Business: Report",
+        "url": "https://decrypt.co/347353/gemini-prediction-markets-broaden-business",
+        "source": "Decrypt",
+        "weight": 0.7619,
+        "score": 1.0
+      },
+      {
         "title": "MARA and Hut 8 profits surge in Q3 as Bitcoin reserves grow",
         "url": "https://cointelegraph.com/news/mara-hut-8-profits-q3-bitcoin-reserves-grow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4549,
+        "weight": 0.3417,
         "score": 1.0
       },
       {
         "title": "Mori Trust CEO Seeks Foreign Partners for Condo Hotels in Japan",
         "url": "https://www.bloomberg.com/news/articles/2025-11-05/mori-trust-ceo-seeks-foreign-partners-for-condo-hotels-in-japan",
         "source": "Bloomberg Markets",
-        "weight": 0.679,
-        "score": 0.6667
-      },
-      {
-        "title": "Ripple's Stablecoin Hits $1B Milestone; Company President Discusses M&A Strategy to Fuel Growth",
-        "url": "https://www.coindesk.com/markets/2025/11/04/ripple-s-stablecoin-hits-usd1b-milestone-as-president-discusses-m-and-a-strategy-to-fuel-growth",
-        "source": "CoinDesk",
-        "weight": 0.5213,
+        "weight": 0.51,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Ether's 20% Freefall Triggers $1B Liquidation Cascade as Crypto Losses Accelerate",
-        "url": "https://www.coindesk.com/markets/2025/11/04/ether-s-20-freefall-triggers-usd1b-liquidation-cascade-as-crypto-losses-accelerate",
+        "title": "Dogecoin Falls 5% as Lower-Lows Pattern Aids Bearish Outlook",
+        "url": "https://www.coindesk.com/markets/2025/11/05/dogecoin-falls-5-as-lower-lows-pattern-aids-bearish-outlook",
         "source": "CoinDesk",
-        "weight": 0.6977,
-        "score": -1.0
+        "weight": 0.8892,
+        "score": -0.8667
       },
       {
-        "title": "Nidec Secures $3.9 Billion Credit Line, Easing Liquidity Fears",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-04/nidec-shares-may-rise-after-600b-commitment-line-from-banks",
-        "source": "Bloomberg Markets",
-        "weight": 0.615,
-        "score": -1.0
+        "title": "Bitcoin Bounces Near $100K, ETH, SOL, XRP Drop 6-10% as Bulls See $1.6B Liquidations",
+        "url": "https://www.coindesk.com/markets/2025/11/05/bitcoin-bounces-near-usd100k-eth-sol-xrp-drop-6-10-as-bulls-see-usd1-6b-liquidations",
+        "source": "CoinDesk",
+        "weight": 0.9753,
+        "score": -0.6667
       },
       {
-        "title": "Stocks Tumble, Bonds Rise With Yen on Haven Bid: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-04/asian-stocks-look-sluggish-after-wall-street-slump-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.5374,
-        "score": -1.0
+        "title": "XRP Slides 6% as Bearish Bitcoin Sentiment Weighs Down Ripple-Linked Token",
+        "url": "https://www.coindesk.com/markets/2025/11/05/xrp-slides-6-as-bearish-bitcoin-sentiment-weighs-down-ripple-linked-token",
+        "source": "CoinDesk",
+        "weight": 1.0429,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.1529682549850766,
-          "price_change_24h": 0.00227
+          "volume_mcap_ratio": 1.2232280771555992,
+          "price_change_24h": 0.00437
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.37505897910523056,
+          "price_change_24h": -0.00163
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.42907798608426984,
-          "price_change_24h": -0.01905
-        },
-        {
-          "symbol": "ZEC",
-          "volume_mcap_ratio": 0.35887517680111153,
-          "price_change_24h": -1.0673
+          "volume_mcap_ratio": 0.3318389119424228,
+          "price_change_24h": 0.0174
         }
       ],
       "momentum_shifts": []
