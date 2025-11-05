@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-05T12:54:25.940969+00:00",
+  "updated_at": "2025-11-05T16:34:29.444634+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.212,
+    "change24h": 0.008,
+    "vol": 0.151,
     "fearGreed": 23,
-    "momentum": -0.237,
+    "momentum": 0.135,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3444,
-    "global_sentiment": 0.3898,
-    "combined_sentiment": 0.3741,
-    "confidence": 0.7859,
+    "crypto_sentiment": 0.3793,
+    "global_sentiment": 0.4456,
+    "combined_sentiment": 0.4049,
+    "confidence": 0.8211,
     "counts": {
-      "crypto": 74,
-      "global": 48
+      "crypto": 72,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 102560,
-      "btc_change_24h": -1.33,
-      "eth_price": 3336.41,
-      "eth_change_24h": -4.88,
+      "btc_price": 103542,
+      "btc_change_24h": 0.89,
+      "eth_price": 3391.99,
+      "eth_change_24h": -2.36,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 462334298866.0,
+        "volume_24h": 446916937498.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.18,
+        "btc_dominance": 58.2,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-22T20:29:03.192995+00:00",
-      "crypto": 0.4825,
-      "global": 0.3749,
-      "combined": 0.4764,
-      "counts": {
-        "crypto": 70,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-10-23T01:56:10.354833+00:00",
       "crypto": 0.4603,
@@ -1008,71 +998,81 @@
         "crypto": 74,
         "global": 48
       }
+    },
+    {
+      "ts": "2025-11-05T16:34:29.444634+00:00",
+      "crypto": 0.3793,
+      "global": 0.4456,
+      "combined": 0.4049,
+      "counts": {
+        "crypto": 72,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Arthur Hayes, Bitwise exec still bullish as Bitcoin falls under $100K",
-        "url": "https://cointelegraph.com/news/bitcoin-below-100k-analysts-bullish-outlook?utm_source=rss_feed&utm_medium=rss%3F_%3D1762347173379%26nc%3D1762347173379%26_dc%3D1762347173379%26_rnd%3Dbl7ank&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5921,
-        "score": 0.7333
+        "title": "Stock Market Today: Dow Gains On Surprise Jobs Data; AMD Tumbles On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/14ce2639-74b7-368a-ac1b-cec93813e2a3/stock-market-today%3A-dow-gains.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7293,
+        "score": 0.6667
       },
       {
-        "title": "Monero Bucks Market Downturn as Privacy Narrative Strengthens",
-        "url": "https://decrypt.co/347368/monero-bucks-market-downturn-as-privacy-narrative-strengthens",
-        "source": "Decrypt",
-        "weight": 0.6889,
-        "score": 0.5333
-      },
-      {
-        "title": "South African Mobile Operator Cell C Plans $413 Million IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-05/south-african-mobile-operator-cell-c-plans-413-million-ipo",
+        "title": "Wall Street Bonuses Expected to Surge Again",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-05/reporter-blackwell-wall-street-bonuses-surge-again-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6369,
+        "weight": 0.682,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "MEV is a choice blockchains must confront",
-        "url": "https://cointelegraph.com/news/mev-is-a-choice-blockchains?utm_source=rss_feed&utm_medium=rss%3F_%3D1762347173379%26nc%3D1762347173379%26_dc%3D1762347173379%26_rnd%3Dbl7ank&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7632,
-        "score": -0.8333
-      },
-      {
-        "title": "High Growth Tech Opportunities in the US Market",
-        "url": "https://finance.yahoo.com/news/high-growth-tech-opportunities-us-113814382.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6908,
-        "score": -0.9
-      },
-      {
-        "title": "What’s happening to DeFi? $231M was just drained but $19M clawed back",
-        "url": "https://cryptoslate.com/whats-happening-to-defi-231m-was-just-drained-but-19m-clawed-back/",
-        "source": "CryptoSlate",
-        "weight": 0.4819,
+        "title": "Ex-Barings Private Credit Boss Accuses Firm of Mismanaging Funds",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-05/barings-accused-of-mismanaging-funds-in-poaching-suit-salvo",
+        "source": "Bloomberg Markets",
+        "weight": 0.6984,
         "score": -1.0
+      },
+      {
+        "title": "Crypto Markets Today: Altcoins Struggle as Bitcoin Tests Key $100K Support",
+        "url": "https://www.coindesk.com/markets/2025/11/05/crypto-markets-today-altcoins-struggle-as-bitcoin-tests-key-usd100k-support",
+        "source": "CoinDesk",
+        "weight": 0.6617,
+        "score": -0.9333
+      },
+      {
+        "title": "Social Security's 2.8% COLA for 2026 is sparking debate over how the annual increase gets calculated",
+        "url": "https://www.cnbc.com/2025/11/05/social-security-cola-2026-calculation.html",
+        "source": "CNBC Markets",
+        "weight": 0.573,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.0786224071704964,
-          "price_change_24h": 0.0269
+          "volume_mcap_ratio": 1.0474728566611038,
+          "price_change_24h": 0.02751
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.39464311237050625,
-          "price_change_24h": -0.02915
+          "volume_mcap_ratio": 0.41726812452282586,
+          "price_change_24h": -0.07777
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.39028981946233177,
-          "price_change_24h": 0.00515
+          "volume_mcap_ratio": 0.36291493349108794,
+          "price_change_24h": 0.00269
         }
       ],
       "momentum_shifts": []
