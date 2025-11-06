@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-06T04:32:41.920745+00:00",
+  "updated_at": "2025-11-06T08:34:43.010305+00:00",
   "indicators": {
-    "change24h": 0.04,
-    "vol": 0.101,
+    "change24h": 0.026,
+    "vol": 0.093,
     "fearGreed": 27,
-    "momentum": 0.7,
+    "momentum": 0.451,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4618,
-    "global_sentiment": 0.5455,
-    "combined_sentiment": 0.4751,
-    "confidence": 0.7601,
+    "crypto_sentiment": 0.554,
+    "global_sentiment": 0.4351,
+    "combined_sentiment": 0.5351,
+    "confidence": 0.7159,
     "counts": {
-      "crypto": 72,
-      "global": 36
+      "crypto": 68,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 103703,
-      "btc_change_24h": 2.06,
-      "eth_price": 3435.13,
-      "eth_change_24h": 3.44,
+      "btc_price": 103230,
+      "btc_change_24h": 1.77,
+      "eth_price": 3384.11,
+      "eth_change_24h": 2.43,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 258468930004,
+        "volume_24h": 246238737452,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.01,
+        "btc_dominance": 58.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-23T16:32:24.996492+00:00",
-      "crypto": 0.5146,
-      "global": 0.4708,
-      "combined": 0.5085,
-      "counts": {
-        "crypto": 74,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-10-23T19:53:40.563832+00:00",
       "crypto": 0.5101,
@@ -1008,33 +998,50 @@
         "crypto": 72,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-06T08:34:43.010305+00:00",
+      "crypto": 0.554,
+      "global": 0.4351,
+      "combined": 0.5351,
+      "counts": {
+        "crypto": 68,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "WeRide CEO Tony Han on Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-06/weride-ceo-tony-han-on-hong-kong-listing-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6782,
-        "score": 0.9667
+        "title": "DOGE Holds $0.16 Support as Profit-Taking Caps Breakout Attempt",
+        "url": "https://www.coindesk.com/markets/2025/11/06/doge-holds-usd0-16-support-as-profit-taking-caps-breakout-attempt",
+        "source": "CoinDesk",
+        "weight": 0.8336,
+        "score": 0.8667
       },
       {
-        "title": "Robinhood’s Q3 crypto revenue surges 300% as earnings beat forecasts",
-        "url": "https://cointelegraph.com/news/robinhood-q3-crypto-revenue-300-percent-earnings-surpass-expectations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6907,
+        "title": "XRP Gains 5% After RLUSD Mastercard Pilot, Technical Breakout Targets $2.50",
+        "url": "https://www.coindesk.com/markets/2025/11/06/xrp-gains-5-after-rlusd-pilot-technical-breakout-targets-usd2-50",
+        "source": "CoinDesk",
+        "weight": 0.8262,
         "score": 0.8667
       },
       {
         "title": "Asia-Pacific markets rise, tracking Wall Street gains, as AI-linked stocks rebound",
         "url": "https://www.cnbc.com/2025/11/06/asia-pacific-markets-ponyai-debut-hong-kong-weride-ai-stocks.html",
         "source": "CNBC Markets",
-        "weight": 0.7616,
+        "weight": 0.7078,
         "score": 0.6333
       }
     ],
     "negative": [
+      {
+        "title": "Trump Tariffs Face Supreme Court Skepticism | Daybreak Europe 11/06/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-06/daybreak-europe-11-06-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7605,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 27 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,31 +1050,24 @@
         "score": -0.5333
       },
       {
-        "title": "Dimon Sees Less Need for $20 Billion Loan to Argentina: Reuters",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-06/dimon-sees-less-need-for-20-billion-loan-to-argentina-reuters",
+        "title": "China’s Robotaxi Leaders Face Market Reality in HK | The China Show 11/6/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-06/the-china-show-11-06-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5908,
+        "weight": 0.5817,
         "score": -0.6333
-      },
-      {
-        "title": "UK ruling in Getty Images' AI lawsuit leaves key IP questions unanswered",
-        "url": "https://cointelegraph.com/news/uk-ruling-getty-images-ai-lawsuit-ip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3712,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6097519102502031,
-          "price_change_24h": 0.00019
+          "volume_mcap_ratio": 0.5917149949762455,
+          "price_change_24h": -0.0133
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.32749724154481524,
-          "price_change_24h": -0.07117
+          "volume_mcap_ratio": 0.30701547893519326,
+          "price_change_24h": 0.10361
         }
       ],
       "momentum_shifts": []
