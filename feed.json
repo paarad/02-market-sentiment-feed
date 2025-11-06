@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-06T12:54:13.651909+00:00",
+  "updated_at": "2025-11-06T16:34:48.764794+00:00",
   "indicators": {
-    "change24h": -0.008,
-    "vol": 0.075,
+    "change24h": -0.05,
+    "vol": 0.13,
     "fearGreed": 27,
-    "momentum": -0.139,
-    "regime": "sideways",
+    "momentum": -0.878,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4854,
-    "global_sentiment": 0.4944,
-    "combined_sentiment": 0.4886,
-    "confidence": 0.765,
+    "crypto_sentiment": 0.4723,
+    "global_sentiment": 0.3551,
+    "combined_sentiment": 0.4672,
+    "confidence": 0.8116,
     "counts": {
-      "crypto": 67,
-      "global": 43
+      "crypto": 66,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 102566,
-      "btc_change_24h": -0.11,
-      "eth_price": 3354.53,
-      "eth_change_24h": 0.55,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 101493,
+      "btc_change_24h": -1.99,
+      "eth_price": 3292.12,
+      "eth_change_24h": -2.93,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 237749059962,
+        "volume_24h": 244862050226,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.15,
+        "btc_dominance": 58.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-23T20:26:53.239851+00:00",
-      "crypto": 0.5094,
-      "global": 0.5404,
-      "combined": 0.5104,
-      "counts": {
-        "crypto": 73,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-10-24T01:52:05.171707+00:00",
       "crypto": 0.5191,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-06T16:34:48.764794+00:00",
+      "crypto": 0.4723,
+      "global": 0.3551,
+      "combined": 0.4672,
+      "counts": {
+        "crypto": 66,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How to spot bull and bear market traps in crypto before they catch you",
-        "url": "https://cointelegraph.com/news/how-to-spot-bull-and-bear-market-traps-in-crypto-before-they-catch-you?utm_source=rss_feed&utm_medium=rss%3Ftimestamp%3D1762433337933%26_q%3D1762433337933%26r%3Da6kv3g&utm_campaign=rss_partner_inbound",
+        "title": "BTC Holding $102K! ZEC Skyrockets! Ripple raise $500M!",
+        "url": "https://decrypt.co/videos/interviews/2cNvuzMg/btc-holding-102k-zec-skyrockets-ripple-raise-500m",
+        "source": "Decrypt",
+        "weight": 0.9754,
+        "score": 1.0
+      },
+      {
+        "title": "TRUMP memecoin price may increase 70% by end of 2025",
+        "url": "https://cointelegraph.com/news/trump-memecoin-may-surge-70-percent-by-years-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5851,
-        "score": 0.8667
+        "weight": 0.5766,
+        "score": 0.7333
       },
       {
-        "title": "Warning Signs of Euphoria Keep Piling Up in the Stock Market",
-        "url": "https://www.bloomberg.com/news/newsletters/2025-11-06/warning-signs-of-euphoria-keep-piling-up-in-the-stock-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.6908,
-        "score": 0.6667
-      },
-      {
-        "title": "AppLovin Reports Strong Earnings. The Stock Is Up.",
-        "url": "https://finance.yahoo.com/m/7095ea3a-8844-38c5-9b12-5c4f0e8a7d8e/applovin-reports-strong.html?.tsrc=rss",
+        "title": "Warner Bros. Stock Falls After Earnings Report. Why The TV Business Is a Worry.",
+        "url": "https://finance.yahoo.com/m/1f26a572-cf42-32af-b08e-c07110d0bb06/warner-bros.-stock-falls.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6895,
+        "weight": 0.5477,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Analysis-AI stock wobble points to US market reliance on tech",
-        "url": "https://finance.yahoo.com/news/analysis-ai-stock-wobble-points-110127396.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6439,
-        "score": -1.0
+        "title": "India Regulators Discuss Allowing Banks to Trade Commodities",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-06/india-regulators-discuss-allowing-banks-to-trade-commodities-mhnmx1xd",
+        "source": "Bloomberg Markets",
+        "weight": 0.7786,
+        "score": -0.9667
       },
       {
-        "title": "Someone drained your exchange account? Here’s your emergency playbook",
-        "url": "https://cointelegraph.com/explained/someone-drained-your-exchange-account-here-s-your-emergency-playbook?utm_source=rss_feed&utm_medium=rss%3Ftimestamp%3D1762433337933%26_q%3D1762433337933%26r%3Da6kv3g&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7635,
-        "score": -0.6333
+        "title": "Tether's Hadron, Bitfinex Securities to Tokenize Assets With ETF Issuer KraneShares",
+        "url": "https://www.coindesk.com/business/2025/11/06/tether-s-hadron-bitfinex-securities-to-tokenize-assets-with-etf-issuer-kraneshares",
+        "source": "CoinDesk",
+        "weight": 0.6772,
+        "score": -0.9667
       },
       {
-        "title": "How this $100M Bitcoin-backed loan could rewrite the corporate treasury playbook",
-        "url": "https://cryptoslate.com/this-100m-bitcoin-backed-loan-could-rewrite-the-corporate-treasury-playbook/",
-        "source": "CryptoSlate",
-        "weight": 0.4962,
+        "title": "India Watchdogs Mull Letting Banks Trade Commodities",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-06/indian-regulators-discuss-allowing-banks-to-trade-in-commodities",
+        "source": "Bloomberg Markets",
+        "weight": 0.6357,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5742922476664797,
-          "price_change_24h": -0.01926
+          "volume_mcap_ratio": 0.5772944936428225,
+          "price_change_24h": -0.03847
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.30947776620156753,
-          "price_change_24h": -0.05195
+          "volume_mcap_ratio": 0.34216698064649453,
+          "price_change_24h": -0.09503
         }
       ],
       "momentum_shifts": []
