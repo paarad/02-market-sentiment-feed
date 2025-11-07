@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-07T16:29:23.579876+00:00",
+  "updated_at": "2025-11-07T19:53:54.320216+00:00",
   "indicators": {
-    "change24h": 0.072,
-    "vol": 0.456,
+    "change24h": 0.12,
+    "vol": 0.419,
     "fearGreed": 24,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3962,
-    "global_sentiment": 0.4162,
-    "combined_sentiment": 0.4152,
-    "confidence": 0.8337,
+    "crypto_sentiment": 0.4311,
+    "global_sentiment": 0.321,
+    "combined_sentiment": 0.4334,
+    "confidence": 0.8269,
     "counts": {
-      "crypto": 71,
-      "global": 46
+      "crypto": 70,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 101444,
-      "btc_change_24h": -0.19,
-      "eth_price": 3325.02,
-      "eth_change_24h": 1.0,
+      "btc_price": 103137,
+      "btc_change_24h": 1.81,
+      "eth_price": 3437.11,
+      "eth_change_24h": 3.65,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 305499213665,
+        "volume_24h": 322155939481,
         "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.75,
+        "btc_dominance": 57.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-25T01:54:01.493769+00:00",
-      "crypto": 0.5745,
-      "global": 0.4181,
-      "combined": 0.5491,
-      "counts": {
-        "crypto": 73,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-10-25T04:28:08.484751+00:00",
       "crypto": 0.5473,
@@ -1008,71 +998,81 @@
         "crypto": 71,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-11-07T19:53:54.320216+00:00",
+      "crypto": 0.4311,
+      "global": 0.321,
+      "combined": 0.4334,
+      "counts": {
+        "crypto": 70,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Rain Enhancement Technologies Holdco, Inc. Regains Compliance with Nasdaq Listing Requirements",
-        "url": "https://finance.yahoo.com/news/rain-enhancement-technologies-holdco-inc-140000190.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6,
-        "score": 0.9667
+        "title": "ICP Jumps 7.9% to $7.77 as Breakout Rally Extends on Heavy Volume",
+        "url": "https://www.coindesk.com/markets/2025/11/07/icp-jumps-7-9-to-usd7-77-as-breakout-rally-extends-on-heavy-volume",
+        "source": "CoinDesk",
+        "weight": 0.7696,
+        "score": 1.0
       },
       {
-        "title": "Block sinks 10% after weak third quarter results miss Wall Street estimates",
-        "url": "https://www.cnbc.com/2025/11/07/block-stock-xyz-earnings.html",
-        "source": "CNBC Markets",
-        "weight": 0.7973,
-        "score": 0.6667
+        "title": "Incorporating AI Into App Offerings: Grindr CEO",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-07/incorporating-ai-into-app-offerings-grindr-ceo-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7666,
+        "score": 0.9167
       },
       {
-        "title": "Shutdown means another missed jobs report Friday. Here's what it probably would have shown",
-        "url": "https://www.cnbc.com/2025/11/07/shutdown-means-missed-jobs-report-friday-what-it-probably-would-have-shown.html",
-        "source": "CNBC Markets",
-        "weight": 0.7487,
-        "score": 0.6667
+        "title": "SUI Surges 7% to Break Key Resistance as Broader Market Slips",
+        "url": "https://www.coindesk.com/markets/2025/11/07/sui-surges-7-to-break-key-resistance-as-broader-market-slips",
+        "source": "CoinDesk",
+        "weight": 0.8384,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Dow, Nasdaq Extend Losses As Confidence Worsens; Sellers Hit Nvidia, Palantir (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/b5e00635-0044-3f29-a1da-60cae54e51a2/stock-market-today%3A-dow%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7292,
+        "title": "FAA Trims 10% Flight Capacity Across 40 Domestic Airports",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-07/faa-trims-flight-capacity-across-domestic-airports-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7936,
+        "score": -0.9667
+      },
+      {
+        "title": "China Trade Deal ‘Ambiguity’ Leaves US Tractor Makers in Limbo",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-07/china-trade-deal-ambiguity-leaves-us-tractor-makers-in-limbo",
+        "source": "Bloomberg Markets",
+        "weight": 0.7005,
         "score": -1.0
       },
       {
-        "title": "KKR Stock Falls on Hit from Refunding Fees on Weak Asia Fund",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-07/kkr-stock-falls-on-hit-from-refunding-fees-on-weak-asia-fund",
-        "source": "Bloomberg Markets",
-        "weight": 0.694,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin Dips Below $100K in 'Mid-Cycle Shakeout' Amid Bond Market Volatility",
-        "url": "https://decrypt.co/347791/bitcoin-dips-below-100k-in-mid-cycle-shakeout-amid-bond-market-volatility",
-        "source": "Decrypt",
-        "weight": 0.6497,
-        "score": -0.9667
+        "title": "Coinbase, Block, Robinhood highlight dismal week for crypto stocks",
+        "url": "https://cointelegraph.com/news/crypto-stocks-slide-coinbase-block-robinhood-macro-fears?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7917,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.694592647772165,
-          "price_change_24h": -0.01462
+          "volume_mcap_ratio": 0.7318661360698658,
+          "price_change_24h": -0.02857
         },
         {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3614879191921325,
-          "price_change_24h": 0.06686
+          "symbol": "NEAR",
+          "volume_mcap_ratio": 0.43602246217168467,
+          "price_change_24h": 36.96553
         },
         {
-          "symbol": "ICP",
-          "volume_mcap_ratio": 0.3516690276135094,
-          "price_change_24h": 12.62825
+          "symbol": "ZEC",
+          "volume_mcap_ratio": 0.3602293372983204,
+          "price_change_24h": 28.37836
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-07",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4215,
+      "crypto_high": 0.4629,
+      "crypto_low": 0.3875,
+      "global_avg": 0.433,
+      "global_high": 0.5258,
+      "global_low": 0.321,
+      "combined_avg": 0.4356,
+      "combined_high": 0.4655,
+      "combined_low": 0.4152
+    },
+    "market_indicators_24h": {
+      "change24h": 0.12,
+      "vol": 0.419,
+      "fearGreed": 24,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-07T19:53:54.320216+00:00"
   }
 }
