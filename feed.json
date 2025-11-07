@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-07T12:52:52.112017+00:00",
+  "updated_at": "2025-11-07T16:29:23.579876+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.327,
+    "change24h": 0.072,
+    "vol": 0.456,
     "fearGreed": 24,
-    "momentum": -0.491,
-    "regime": "bear",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4073,
-    "global_sentiment": 0.4617,
-    "combined_sentiment": 0.4273,
-    "confidence": 0.7559,
+    "crypto_sentiment": 0.3962,
+    "global_sentiment": 0.4162,
+    "combined_sentiment": 0.4152,
+    "confidence": 0.8337,
     "counts": {
-      "crypto": 61,
-      "global": 31
+      "crypto": 71,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 99438,
-      "btc_change_24h": -2.98,
-      "eth_price": 3208.53,
-      "eth_change_24h": -4.22,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.05,
+      "btc_price": 101444,
+      "btc_change_24h": -0.19,
+      "eth_price": 3325.02,
+      "eth_change_24h": 1.0,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 283286602796,
-        "high_activity_coins": 2
+        "volume_24h": 305499213665,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.93,
+        "btc_dominance": 57.75,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-24T20:28:10.326737+00:00",
-      "crypto": 0.5763,
-      "global": 0.493,
-      "combined": 0.5566,
-      "counts": {
-        "crypto": 75,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-10-25T01:54:01.493769+00:00",
       "crypto": 0.5745,
@@ -1008,66 +998,81 @@
         "crypto": 61,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-11-07T16:29:23.579876+00:00",
+      "crypto": 0.3962,
+      "global": 0.4162,
+      "combined": 0.4152,
+      "counts": {
+        "crypto": 71,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP price slips despite Ripple’s bullish Swell announcements: Is $2 next?",
-        "url": "https://cointelegraph.com/news/xrp-price-slips-despite-ripple-s-bullish-swell-announcements-is-2-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8564,
-        "score": 0.8667
+        "title": "Rain Enhancement Technologies Holdco, Inc. Regains Compliance with Nasdaq Listing Requirements",
+        "url": "https://finance.yahoo.com/news/rain-enhancement-technologies-holdco-inc-140000190.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6,
+        "score": 0.9667
       },
       {
-        "title": "Bitcoin Minder IREN Posts Record First-Quarter Earnings, Looks to Growth in AI",
-        "url": "https://www.coindesk.com/markets/2025/11/07/iren-shares-rise-in-pre-market-trading-on-earnings-report-ai-growth-outlook",
-        "source": "CoinDesk",
-        "weight": 0.7174,
+        "title": "Block sinks 10% after weak third quarter results miss Wall Street estimates",
+        "url": "https://www.cnbc.com/2025/11/07/block-stock-xyz-earnings.html",
+        "source": "CNBC Markets",
+        "weight": 0.7973,
         "score": 0.6667
       },
       {
-        "title": "Europe Power Prices Set for Big Swings on Wind Lull, Warm Spell",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-07/europe-power-prices-set-for-big-swings-on-wind-lull-warm-spell",
-        "source": "Bloomberg Markets",
-        "weight": 0.7571,
-        "score": 0.5333
+        "title": "Shutdown means another missed jobs report Friday. Here's what it probably would have shown",
+        "url": "https://www.cnbc.com/2025/11/07/shutdown-means-missed-jobs-report-friday-what-it-probably-would-have-shown.html",
+        "source": "CNBC Markets",
+        "weight": 0.7487,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Stocks Waver Ahead of UMich. Data; Shutdown Flight Cancellations Begin | Bloomberg Brief 11/07/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-07/bloomberg-brief-11-07-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7437,
-        "score": -0.9333
+        "title": "Stock Market Today: Dow, Nasdaq Extend Losses As Confidence Worsens; Sellers Hit Nvidia, Palantir (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/b5e00635-0044-3f29-a1da-60cae54e51a2/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7292,
+        "score": -1.0
       },
       {
-        "title": "Chinese Markets Defy Global Risk Aversion in Sign of Confidence",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-07/chinese-markets-defy-global-risk-aversion-in-sign-of-confidence",
+        "title": "KKR Stock Falls on Hit from Refunding Fees on Weak Asia Fund",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-07/kkr-stock-falls-on-hit-from-refunding-fees-on-weak-asia-fund",
         "source": "Bloomberg Markets",
-        "weight": 0.5599,
+        "weight": 0.694,
         "score": -0.9667
       },
       {
-        "title": "Bybit hack: ‘Reckoning’ that led SafeWallet to rearchitect its systems",
-        "url": "https://cointelegraph.com/news/bybit-hack-safe-rearchitects-systems?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7249,
-        "score": -0.7333
+        "title": "Bitcoin Dips Below $100K in 'Mid-Cycle Shakeout' Amid Bond Market Volatility",
+        "url": "https://decrypt.co/347791/bitcoin-dips-below-100k-in-mid-cycle-shakeout-amid-bond-market-volatility",
+        "source": "Decrypt",
+        "weight": 0.6497,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.656589556472587,
-          "price_change_24h": -0.04479
+          "volume_mcap_ratio": 0.694592647772165,
+          "price_change_24h": -0.01462
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3614879191921325,
+          "price_change_24h": 0.06686
         },
         {
           "symbol": "ICP",
-          "volume_mcap_ratio": 0.35902365518516427,
-          "price_change_24h": 19.85014
+          "volume_mcap_ratio": 0.3516690276135094,
+          "price_change_24h": 12.62825
         }
       ],
       "momentum_shifts": []
