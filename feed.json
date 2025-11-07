@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-07T04:29:24.343465+00:00",
+  "updated_at": "2025-11-07T08:34:19.095241+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.324,
+    "change24h": 0.017,
+    "vol": 0.326,
     "fearGreed": 24,
-    "momentum": -0.328,
-    "regime": "bear",
+    "momentum": 0.296,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4629,
-    "global_sentiment": 0.4195,
-    "combined_sentiment": 0.4655,
-    "confidence": 0.7635,
+    "crypto_sentiment": 0.3875,
+    "global_sentiment": 0.5258,
+    "combined_sentiment": 0.4178,
+    "confidence": 0.7313,
     "counts": {
-      "crypto": 66,
-      "global": 39
+      "crypto": 61,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 101967,
-      "btc_change_24h": -1.72,
-      "eth_price": 3337.33,
-      "eth_change_24h": -2.9,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 101724,
+      "btc_change_24h": -1.48,
+      "eth_price": 3346.87,
+      "eth_change_24h": -1.26,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 256339378914,
-        "high_activity_coins": 2
+        "volume_24h": 259851013247,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.99,
+        "btc_dominance": 57.81,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-24T16:31:44.372891+00:00",
-      "crypto": 0.5744,
-      "global": 0.6263,
-      "combined": 0.5663,
-      "counts": {
-        "crypto": 68,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-10-24T19:54:09.390639+00:00",
       "crypto": 0.5538,
@@ -1008,52 +998,62 @@
         "crypto": 66,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-07T08:34:19.095241+00:00",
+      "crypto": 0.3875,
+      "global": 0.5258,
+      "combined": 0.4178,
+      "counts": {
+        "crypto": 61,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Recruit Gains Most Since Listing on Robust HR Growth",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-07/recruit-holdings-shares-surge-after-2q-beat-forecast-hike",
+        "title": "Euronext CEO on Pan-European Exchange, Buyback",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-07/euronext-ceo-on-pan-european-exchange-buyback",
         "source": "Bloomberg Markets",
-        "weight": 0.5069,
-        "score": 1.0
-      },
-      {
-        "title": "Block shares tumble after-hours on Q3 earnings miss",
-        "url": "https://cointelegraph.com/news/block-inc-shares-down-q3-earnings-miss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7024,
+        "weight": 0.7882,
         "score": 0.6667
       },
       {
-        "title": "Ethereum traders flip bullish as rest of market remains fearful",
-        "url": "https://cointelegraph.com/news/ethereum-traders-bullish-when-eth-neared-3500?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7589,
+        "title": "Sudan Army Prepares to Fight On",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-07/sudanese-army-prepares-to-fight-on-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6542,
         "score": 0.5333
+      },
+      {
+        "title": "Centum Unit Plans Kenya’s First Dollar-Priced Investment REIT",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-07/centum-unit-plans-kenya-s-first-dollar-priced-investment-reit",
+        "source": "Bloomberg Markets",
+        "weight": 0.5351,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "SoftBank stares at over $50 billion in weekly losses after stock drops 8% as investors sour on AI plays",
+        "title": "SoftBank Group logs almost $50 billion in weekly losses as investors sour on AI plays",
         "url": "https://www.cnbc.com/2025/11/07/softbank-shares-ai-linked-stocks-asia-valuation-concerns.html",
         "source": "CNBC Markets",
-        "weight": 0.6483,
+        "weight": 0.7628,
         "score": -1.0
       },
       {
-        "title": "Iron Ore Falls on Sluggish China Steel Demand and Margin Squeeze",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-07/iron-ore-falls-on-sluggish-china-steel-demand-and-margin-squeeze",
-        "source": "Bloomberg Markets",
-        "weight": 0.7462,
-        "score": -0.6667
+        "title": "Google Threat Report Links AI-powered Malware to DPRK Crypto Theft",
+        "url": "https://decrypt.co/347781/google-threat-report-links-ai-powered-malware-to-dprk-crypto-theft",
+        "source": "Decrypt",
+        "weight": 0.7311,
+        "score": -0.7333
       },
       {
-        "title": "BTC Market Now 'Extremely Bearish,' Says QCP: Asia Morning Briefing",
-        "url": "https://www.coindesk.com/markets/2025/11/07/btc-market-now-extremely-bearish-says-qcp-asia-morning-briefing",
-        "source": "CoinDesk",
-        "weight": 0.9044,
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
         "score": -0.5333
       }
     ],
@@ -1061,13 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6070630207189792,
-          "price_change_24h": -0.04848
+          "volume_mcap_ratio": 0.6026911817457815,
+          "price_change_24h": -0.04221
         },
         {
           "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.35143463853115037,
-          "price_change_24h": -0.13143
+          "volume_mcap_ratio": 0.3496139824441028,
+          "price_change_24h": -0.07236
+        },
+        {
+          "symbol": "ICP",
+          "volume_mcap_ratio": 0.3073357572166724,
+          "price_change_24h": 44.56958
         }
       ],
       "momentum_shifts": []
