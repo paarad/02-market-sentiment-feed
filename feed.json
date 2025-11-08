@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-08T04:28:21.490266+00:00",
+  "updated_at": "2025-11-08T08:30:24.253876+00:00",
   "indicators": {
-    "change24h": 0.077,
-    "vol": 0.192,
+    "change24h": 0.053,
+    "vol": 0.14,
     "fearGreed": 20,
-    "momentum": 1.0,
+    "momentum": 0.925,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3736,
-    "global_sentiment": 0.3448,
-    "combined_sentiment": 0.3923,
-    "confidence": 0.7492,
+    "crypto_sentiment": 0.4439,
+    "global_sentiment": 0.3475,
+    "combined_sentiment": 0.4452,
+    "confidence": 0.7272,
     "counts": {
-      "crypto": 73,
-      "global": 46
+      "crypto": 75,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 102482,
-      "btc_change_24h": 0.57,
-      "eth_price": 3455.81,
-      "eth_change_24h": 3.67,
+      "btc_price": 102429,
+      "btc_change_24h": 0.63,
+      "eth_price": 3452.34,
+      "eth_change_24h": 3.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.95,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 324168083785,
+        "volume_24h": 312338023652,
         "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.28,
+        "btc_dominance": 57.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-25T16:28:19.267840+00:00",
-      "crypto": 0.595,
-      "global": 0.5351,
-      "combined": 0.5742,
-      "counts": {
-        "crypto": 80,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-25T19:53:38.901580+00:00",
       "crypto": 0.5931,
@@ -1008,71 +998,81 @@
         "crypto": 73,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-11-08T08:30:24.253876+00:00",
+      "crypto": 0.4439,
+      "global": 0.3475,
+      "combined": 0.4452,
+      "counts": {
+        "crypto": 75,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.0% — rally",
+        "title": "Global crypto market cap up 1.9% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "ICP Jumps 7.9% to $7.77 as Breakout Rally Extends on Heavy Volume",
-        "url": "https://www.coindesk.com/markets/2025/11/07/icp-jumps-7-9-to-usd7-77-as-breakout-rally-extends-on-heavy-volume",
+        "title": "XRP Outperforms Bitcoin as ETF Filings Enter 20-Day Window, Setting up Breakout Trade to $2.80",
+        "url": "https://www.coindesk.com/markets/2025/11/08/xrp-outperforms-bitcoin-as-etf-filings-gain-steam-setting-up-breakout-trade-to-usd2-80",
         "source": "CoinDesk",
-        "weight": 0.2858,
-        "score": 1.0
+        "weight": 0.7691,
+        "score": 0.5333
       },
       {
-        "title": "Block sinks 7% after weak third quarter results miss Wall Street estimates",
-        "url": "https://www.cnbc.com/2025/11/07/block-stock-xyz-earnings.html",
-        "source": "CNBC Markets",
-        "weight": 0.3417,
-        "score": 0.6667
+        "title": "Cathie Wood’s ARK Invest adds BitMine shares as it offloads $30M in Tesla stock",
+        "url": "https://cointelegraph.com/news/ark-invest-bitmine-tesla-trade-november-2025?utm_source=rss_feed&utm_medium=rss%3Frand%3Dx44of_1762590554686%26_refresh%3Djk83tm%26_rnd%3Djk83tm%26_nocache%3D1762590554686&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7094,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Pfizer Sweetens Its Offer for Metsera in Bidding War Against Novo",
+        "title": "MEV bot trial ends in mistrial after jury deadlock on brothers’ verdict",
+        "url": "https://cointelegraph.com/news/mev-bot-trial-ends-in-mistrial-after-jury-deadlock-on-brothers-verdict?utm_source=rss_feed&utm_medium=rss%3Frand%3Dx44of_1762590554686%26_refresh%3Djk83tm%26_rnd%3Djk83tm%26_nocache%3D1762590554686&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6528,
+        "score": -0.8333
+      },
+      {
+        "title": "Fear & Greed 20 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Pfizer to Buy Metsera for $10 Billion, Capping Bidding War",
         "url": "https://www.bloomberg.com/news/articles/2025-11-08/pfizer-sweetens-its-offer-for-metsera-in-bidding-war-against-novo",
         "source": "Bloomberg Markets",
-        "weight": 0.5009,
+        "weight": 0.3143,
         "score": -1.0
-      },
-      {
-        "title": "Why Americans Are Obsessed With Protein",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-08/why-americans-are-obsessed-with-protein-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4828,
-        "score": -1.0
-      },
-      {
-        "title": "Stocks Slide As Economic Angst Brews | The Close 11/7/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-07/the-close-11-7-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.453,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7188390179861185,
-          "price_change_24h": -0.00538
+          "volume_mcap_ratio": 0.7101254609600399,
+          "price_change_24h": -0.00124
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.4789522052297669,
-          "price_change_24h": 27.70613
+          "volume_mcap_ratio": 0.48812103349585617,
+          "price_change_24h": 16.83315
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.44327536297872283,
-          "price_change_24h": 1.78956
+          "volume_mcap_ratio": 0.48120040892318444,
+          "price_change_24h": -8.83629
         }
       ],
       "momentum_shifts": []
