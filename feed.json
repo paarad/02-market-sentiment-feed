@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-08T12:47:35.911174+00:00",
+  "updated_at": "2025-11-08T16:28:56.223039+00:00",
   "indicators": {
-    "change24h": 0.098,
-    "vol": 0.209,
+    "change24h": 0.014,
+    "vol": 0.087,
     "fearGreed": 20,
-    "momentum": 1.0,
+    "momentum": 0.24,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4728,
-    "global_sentiment": 0.3164,
-    "combined_sentiment": 0.4643,
-    "confidence": 0.6654,
+    "crypto_sentiment": 0.4245,
+    "global_sentiment": 0.3106,
+    "combined_sentiment": 0.4276,
+    "confidence": 0.642,
     "counts": {
-      "crypto": 74,
-      "global": 42
+      "crypto": 71,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 101889,
-      "btc_change_24h": 2.47,
-      "eth_price": 3404.97,
-      "eth_change_24h": 6.12,
+      "btc_price": 101808,
+      "btc_change_24h": 0.34,
+      "eth_price": 3373.62,
+      "eth_change_24h": 1.62,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 278626537250,
+        "volume_24h": 237618777758,
         "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.39,
+        "btc_dominance": 57.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-25T20:26:01.939144+00:00",
-      "crypto": 0.5983,
-      "global": 0.4366,
-      "combined": 0.5684,
-      "counts": {
-        "crypto": 80,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-26T02:03:07.831179+00:00",
       "crypto": 0.5492,
@@ -1008,71 +998,81 @@
         "crypto": 74,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-11-08T16:28:56.223039+00:00",
+      "crypto": 0.4245,
+      "global": 0.3106,
+      "combined": 0.4276,
+      "counts": {
+        "crypto": 71,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 3.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Zcash soars 1,486% in 3 months and reaches highest price since 2018",
+        "url": "https://cryptoslate.com/zcash-soars-1486-in-3-months-and-reaches-highest-price-since-2018/",
+        "source": "CryptoSlate",
+        "weight": 0.5635,
+        "score": 1.0
+      },
+      {
+        "title": "Top 10 trending destinations for U.S. travelers in 2026: 'Americans are discovering their own backyard,' expert says",
+        "url": "https://www.cnbc.com/2025/11/08/best-places-to-visit-in-2026-skyscanner.html",
+        "source": "CNBC Markets",
+        "weight": 0.6741,
+        "score": 0.3333
       },
       {
         "title": "Arthur Hayes says Zcash has become his family office’s second-largest holding after Bitcoin",
-        "url": "https://cointelegraph.com/news/arthur-hayes-zcash-second-largest-holding-maelstrom?utm_source=rss_feed&utm_medium=rss%3F_rnd%3De6kglv%26nc%3D1762605926446%26_refresh%3De6kglv%26_dc%3D1762605926446&utm_campaign=rss_partner_inbound",
+        "url": "https://cointelegraph.com/news/arthur-hayes-zcash-second-largest-holding-maelstrom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7166,
+        "weight": 0.468,
         "score": 0.4
-      },
-      {
-        "title": "XRP Outperforms Bitcoin as ETF Filings Enter 20-Day Window, Setting up Breakout Trade to $2.80",
-        "url": "https://www.coindesk.com/markets/2025/11/08/xrp-outperforms-bitcoin-as-etf-filings-gain-steam-setting-up-breakout-trade-to-usd2-80",
-        "source": "CoinDesk",
-        "weight": 0.4687,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 20 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "MEV bot trial ends in mistrial after jury deadlock on brothers’ verdict",
-        "url": "https://cointelegraph.com/news/mev-bot-trial-ends-in-mistrial-after-jury-deadlock-on-brothers-verdict?utm_source=rss_feed&utm_medium=rss%3F_rnd%3De6kglv%26nc%3D1762605926446%26_refresh%3De6kglv%26_dc%3D1762605926446&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3979,
-        "score": -0.8333
-      },
-      {
-        "title": "Odd Lots: The Viral Milk Fueling the US Protein Boom (Podcast)",
-        "url": "https://www.bloomberg.com/news/audio/2025-11-08/how-fairlife-went-viral-and-sparked-a-protein-boom-ko",
+        "title": "The Vaccine Myth That Just Won’t Die: What It’s Costing Pediatricians",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-08/the-vaccine-myth-that-just-won-t-die-what-it-s-costing-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5161,
-        "score": -0.4
+        "weight": 0.6808,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin OG whales keep ‘cashing out’, threatening BTC price drop to $90K",
+        "url": "https://cointelegraph.com/news/bitcoin-og-whales-keep-cashing-out-threatening-btc-price-drop-90k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8897,
+        "score": -0.6667
+      },
+      {
+        "title": "Wall Street Week | Mamdani’s Win, Tariffs Fight, Pediatrics, Protein Boom",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-08/wall-street-week-mamdani-s-win-tariffs-fight-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5509,
+        "score": -0.9
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6311546420220405,
-          "price_change_24h": 0.03345
+          "volume_mcap_ratio": 0.5298634838319365,
+          "price_change_24h": 0.04579
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.5144636986630959,
-          "price_change_24h": 32.56179
+          "volume_mcap_ratio": 0.4870741749700184,
+          "price_change_24h": 4.57332
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.4441393904418765,
-          "price_change_24h": -12.86308
+          "volume_mcap_ratio": 0.4287885200696259,
+          "price_change_24h": -26.81967
         }
       ],
       "momentum_shifts": []
