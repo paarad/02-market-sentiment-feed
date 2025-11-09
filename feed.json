@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-09T12:47:47.025592+00:00",
+  "updated_at": "2025-11-09T16:28:19.962402+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.185,
+    "change24h": 0.065,
+    "vol": 0.324,
     "fearGreed": 22,
-    "momentum": 0.149,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3254,
-    "global_sentiment": 0.4615,
-    "combined_sentiment": 0.3658,
-    "confidence": 0.5544,
+    "crypto_sentiment": 0.5179,
+    "global_sentiment": 0.5772,
+    "combined_sentiment": 0.5199,
+    "confidence": 0.6827,
     "counts": {
-      "crypto": 71,
+      "crypto": 73,
       "global": 36
     },
     "market_indicators": {
-      "btc_price": 102135,
-      "btc_change_24h": 0.25,
-      "eth_price": 3446.12,
-      "eth_change_24h": 1.21,
+      "btc_price": 103492,
+      "btc_change_24h": 1.65,
+      "eth_price": 3518.91,
+      "eth_change_24h": 4.29,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161820460915,
+        "volume_24h": 176855962688,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.41,
+        "btc_dominance": 57.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-26T20:26:27.555722+00:00",
-      "crypto": 0.4926,
-      "global": 0.4274,
-      "combined": 0.4884,
-      "counts": {
-        "crypto": 79,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-27T02:07:18.316835+00:00",
       "crypto": 0.4123,
@@ -1008,33 +998,50 @@
         "crypto": 71,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-09T16:28:19.962402+00:00",
+      "crypto": 0.5179,
+      "global": 0.5772,
+      "combined": 0.5199,
+      "counts": {
+        "crypto": 73,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global money supply ‘through the roof’, hitting $142 trillion in September",
-        "url": "https://cryptoslate.com/global-money-supply-through-the-roof-hitting-142-trillion-in-september/",
-        "source": "CryptoSlate",
-        "weight": 0.6854,
-        "score": 0.3333
+        "title": "Bitcoin's $100K Question: Here's Why BTC, XRP, SOL May Surge This Week",
+        "url": "https://www.coindesk.com/markets/2025/11/09/bitcoin-s-usd100k-question-here-s-why-btc-may-surge-this-week",
+        "source": "CoinDesk",
+        "weight": 1.0406,
+        "score": 0.5333
       },
       {
-        "title": "The Newest History-Making Moment for the S&P 500 Can Serve as a Dire Warning for Wall Street and Investors",
-        "url": "https://www.fool.com/investing/2025/11/09/new-history-moment-sp-500-dire-warning-wall-street/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.465,
-        "score": 0.3333
+        "title": "Zohran Mamdani Makes Many Promises for New York, Can He Deliver?",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-09/mamdani-makes-many-promises-for-nyc-can-he-deliver-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5414,
+        "score": 0.9167
       },
       {
-        "title": "History Says the Nasdaq Will Soar in 2026: My Top 10 Artificial Intelligence (AI) Growth Stocks to Buy Before It Does",
-        "url": "https://www.fool.com/investing/2025/11/09/nasdaq-will-soar-in-2026-my-top-ai-stocks/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4606,
-        "score": 0.3333
+        "title": "Global crypto market cap up 1.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Why BlackRock remains bullish on Bitcoin despite recent price slowdown",
+        "url": "https://cryptoslate.com/why-blackrock-remains-bullish-on-bitcoin-despite-recent-price-slowdown/",
+        "source": "CryptoSlate",
+        "weight": 0.7112,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 22 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1044,16 +1051,9 @@
       },
       {
         "title": "Robert Kiyosaki says he’s buying, targets $250K Bitcoin and $27K gold",
-        "url": "https://cointelegraph.com/news/robert-kiyosaki-says-hes-buying-targets-250k-bitcoin-27k-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "url": "https://cointelegraph.com/news/robert-kiyosaki-says-hes-buying-targets-250k-bitcoin-27k-gold?utm_source=rss_feed&utm_medium=rss%3Fvfff%3D1762705624%26_%3D1762705624940%26_ts%3D1762705624940&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5469,
-        "score": -0.6333
-      },
-      {
-        "title": "Global week ahead: AI wobble casts shadow over 'Davos for geeks'",
-        "url": "https://www.cnbc.com/2025/11/09/global-week-ahead-ai-wobble-casts-shadow-over-davos-for-geeks.html",
-        "source": "CNBC Markets",
-        "weight": 0.2885,
+        "weight": 0.3576,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34875270370041433,
-          "price_change_24h": 0.03504
+          "volume_mcap_ratio": 0.3815194086527394,
+          "price_change_24h": 0.00461
         },
         {
           "symbol": "ICP",
-          "volume_mcap_ratio": 0.3445289028600328,
-          "price_change_24h": -18.27301
+          "volume_mcap_ratio": 0.3098924059291898,
+          "price_change_24h": -17.4279
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3292226513807795,
-          "price_change_24h": 11.57911
+          "volume_mcap_ratio": 0.3057887389396711,
+          "price_change_24h": 23.3864
         }
       ],
       "momentum_shifts": []
