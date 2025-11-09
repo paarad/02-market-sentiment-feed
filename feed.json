@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-09T19:53:26.761981+00:00",
+  "updated_at": "2025-11-09T20:25:19.935212+00:00",
   "indicators": {
-    "change24h": 0.07,
-    "vol": 0.167,
+    "change24h": 0.069,
+    "vol": 0.178,
     "fearGreed": 22,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5571,
-    "global_sentiment": 0.6832,
-    "combined_sentiment": 0.5581,
-    "confidence": 0.6718,
+    "crypto_sentiment": 0.5565,
+    "global_sentiment": 0.6866,
+    "combined_sentiment": 0.5579,
+    "confidence": 0.6661,
     "counts": {
       "crypto": 75,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 104741,
-      "btc_change_24h": 2.82,
-      "eth_price": 3573.43,
-      "eth_change_24h": 5.58,
+      "btc_price": 104485,
+      "btc_change_24h": 2.44,
+      "eth_price": 3576.07,
+      "eth_change_24h": 5.62,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 182927585790,
-        "high_activity_coins": 1
+        "volume_24h": 187839518548,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.46,
+        "btc_dominance": 57.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-27T04:35:11.500933+00:00",
-      "crypto": 0.4068,
-      "global": 0.5309,
-      "combined": 0.4327,
-      "counts": {
-        "crypto": 80,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-10-27T08:35:03.308649+00:00",
       "crypto": 0.3575,
@@ -1008,6 +998,16 @@
         "crypto": 75,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-09T20:25:19.935212+00:00",
+      "crypto": 0.5565,
+      "global": 0.6866,
+      "combined": 0.5579,
+      "counts": {
+        "crypto": 75,
+        "global": 33
+      }
     }
   ],
   "drivers": {
@@ -1016,11 +1016,11 @@
         "title": "U.S.-Stock Funds Push Year’s Gain to 12%",
         "url": "https://finance.yahoo.com/m/f9fce0f7-29b6-3fba-86ba-76f762e255cb/u.s.-stock-funds-push-year%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4547,
+        "weight": 0.4276,
         "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 2.9% — rally",
+        "title": "Global crypto market cap up 2.6% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1030,7 +1030,7 @@
         "title": "Aussie Primed for Rare Annual Gain on RBA’s Restrictive Policy",
         "url": "https://www.bloomberg.com/news/articles/2025-11-09/aussie-primed-for-rare-annual-gain-on-rba-s-restrictive-policy",
         "source": "Bloomberg Markets",
-        "weight": 0.7218,
+        "weight": 0.6788,
         "score": 0.5333
       }
     ],
@@ -1039,7 +1039,7 @@
         "title": "Why BlackRock remains bullish on Bitcoin despite recent price slowdown",
         "url": "https://cryptoslate.com/why-blackrock-remains-bullish-on-bitcoin-despite-recent-price-slowdown/",
         "source": "CryptoSlate",
-        "weight": 0.4791,
+        "weight": 0.4506,
         "score": -1.0
       },
       {
@@ -1053,7 +1053,7 @@
         "title": "Ex-Central Bank Director Sworn In as Bolivia’s Finance Minister",
         "url": "https://www.bloomberg.com/news/articles/2025-11-09/ex-central-bank-director-sworn-in-as-bolivia-s-finance-minister",
         "source": "Bloomberg Markets",
-        "weight": 0.5389,
+        "weight": 0.5068,
         "score": -0.3333
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3886282416279537,
-          "price_change_24h": 0.01677
+          "volume_mcap_ratio": 0.39724868766717153,
+          "price_change_24h": 0.00908
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3040999905183708,
+          "price_change_24h": -0.09017
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-09",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3827,
-      "crypto_high": 0.5571,
-      "crypto_low": 0.2931,
-      "global_avg": 0.4721,
-      "global_high": 0.6832,
-      "global_low": 0.3447,
-      "combined_avg": 0.4097,
-      "combined_high": 0.5581,
-      "combined_low": 0.3376
-    },
-    "market_indicators_24h": {
-      "change24h": 0.07,
-      "vol": 0.167,
-      "fearGreed": 22,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-09T19:53:26.761981+00:00"
   }
 }
