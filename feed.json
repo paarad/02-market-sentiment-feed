@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-08T20:24:39.198677+00:00",
+  "updated_at": "2025-11-09T02:04:49.350353+00:00",
   "indicators": {
-    "change24h": -0.047,
-    "vol": 0.23,
-    "fearGreed": 20,
-    "momentum": -0.824,
+    "change24h": -0.036,
+    "vol": 0.12,
+    "fearGreed": 22,
+    "momentum": -0.622,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2813,
-    "global_sentiment": 0.4262,
-    "combined_sentiment": 0.3298,
-    "confidence": 0.6609,
+    "crypto_sentiment": 0.3025,
+    "global_sentiment": 0.3447,
+    "combined_sentiment": 0.339,
+    "confidence": 0.6274,
     "counts": {
       "crypto": 71,
-      "global": 36
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 102018,
-      "btc_change_24h": -0.96,
-      "eth_price": 3388.56,
-      "eth_change_24h": -1.25,
+      "btc_price": 101964,
+      "btc_change_24h": -0.88,
+      "eth_price": 3396.79,
+      "eth_change_24h": -1.19,
       "market_regime": "bear",
-      "regime_strength": 0.6,
+      "regime_strength": 0.4,
       "market_breadth": 0.15,
       "fear_greed": {
-        "value": 20,
+        "value": 22,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 197757410456,
+        "volume_24h": 173745540819,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.55,
+        "btc_dominance": 57.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-26T08:29:19.505937+00:00",
-      "crypto": 0.5107,
-      "global": 0.3274,
-      "combined": 0.4937,
-      "counts": {
-        "crypto": 83,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-10-26T12:48:06.734547+00:00",
       "crypto": 0.4793,
@@ -1008,71 +998,81 @@
         "crypto": 71,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-09T02:04:49.350353+00:00",
+      "crypto": 0.3025,
+      "global": 0.3447,
+      "combined": 0.339,
+      "counts": {
+        "crypto": 71,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "CZ says he was surprised by pardon, denies ties to the Trump family",
+        "url": "https://cointelegraph.com/news/cz-says-surprised-pardon-denies-ties-trump-family?utm_source=rss_feed&utm_medium=rss%3F&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.444,
+        "score": 0.6667
+      },
+      {
         "title": "SSE Is Said to Explore Funding Options Including Share Sale",
         "url": "https://www.bloomberg.com/news/articles/2025-11-08/sse-is-said-to-explore-funding-options-including-share-sale",
         "source": "Bloomberg Markets",
-        "weight": 0.7076,
+        "weight": 0.3676,
         "score": 0.6667
       },
       {
         "title": "Zcash soars 1,486% in 3 months and reaches highest price since 2018",
         "url": "https://cryptoslate.com/zcash-soars-1486-in-3-months-and-reaches-highest-price-since-2018/",
         "source": "CryptoSlate",
-        "weight": 0.3579,
+        "weight": 0.1859,
         "score": 1.0
-      },
-      {
-        "title": "Too early to bet against AI trade, State Street suggests",
-        "url": "https://www.cnbc.com/2025/11/08/ai-big-tech-bull-case-despite-nasdaqs-worst-week-since-april-.html",
-        "source": "CNBC Markets",
-        "weight": 0.542,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Altcoin season signals hide in &#039;many weeks&#039; of bearish BTC dominance: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-dominance-bearish-altcoin-season-signals-crypto-analyst?utm_source=rss_feed&utm_medium=rss%3F&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.907,
+        "score": -0.5333
+      },
+      {
+        "title": "Fear & Greed 22 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "The 'Big Short' Guy Just Bet $1.1 Billion Against AI Giants—And Markets Are Still Absorbing It",
         "url": "https://decrypt.co/347888/big-short-guy-bet-1-1-billion-against-ai-giants-markets-still-absorbing",
         "source": "Decrypt",
-        "weight": 0.7236,
+        "weight": 0.3759,
         "score": -0.8667
-      },
-      {
-        "title": "Ethereum faces tough path to $3.9K as sentiment and demand fizzle",
-        "url": "https://cointelegraph.com/news/ethereum-faces-tough-path-to-3-9k-as-sentiment-and-demand-fizzle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5241,
-        "score": -0.9333
-      },
-      {
-        "title": "On-chain moves don’t tell the full story: Why OG Bitcoin whales may not be cashing out",
-        "url": "https://cryptoslate.com/on-chain-moves-dont-tell-the-full-story-why-og-bitcoin-whales-may-not-be-cashing-out/",
-        "source": "CryptoSlate",
-        "weight": 0.7158,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4375282024538117,
-          "price_change_24h": 0.02002
-        },
-        {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.4312583090301852,
-          "price_change_24h": -14.4912
+          "volume_mcap_ratio": 0.3976077695391003,
+          "price_change_24h": -6.90105
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.39791581113836805,
-          "price_change_24h": 2.87286
+          "volume_mcap_ratio": 0.3732328531111569,
+          "price_change_24h": 8.68571
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3715663117559415,
+          "price_change_24h": 0.03313
         }
       ],
       "momentum_shifts": []
