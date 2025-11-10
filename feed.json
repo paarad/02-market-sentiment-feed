@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-09T20:25:19.935212+00:00",
+  "updated_at": "2025-11-10T02:06:12.355673+00:00",
   "indicators": {
-    "change24h": 0.069,
-    "vol": 0.178,
-    "fearGreed": 22,
+    "change24h": 0.079,
+    "vol": 0.197,
+    "fearGreed": 29,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5565,
-    "global_sentiment": 0.6866,
-    "combined_sentiment": 0.5579,
-    "confidence": 0.6661,
+    "crypto_sentiment": 0.4778,
+    "global_sentiment": 0.5132,
+    "combined_sentiment": 0.4845,
+    "confidence": 0.6193,
     "counts": {
       "crypto": 75,
-      "global": 33
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 104485,
-      "btc_change_24h": 2.44,
-      "eth_price": 3576.07,
-      "eth_change_24h": 5.62,
+      "btc_price": 105654,
+      "btc_change_24h": 3.71,
+      "eth_price": 3633.42,
+      "eth_change_24h": 7.01,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.9,
       "fear_greed": {
-        "value": 22,
-        "classification": "Extreme Fear",
-        "trend": "declining"
+        "value": 29,
+        "classification": "Fear",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187839518548,
-        "high_activity_coins": 2
+        "volume_24h": 223620278395,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.39,
+        "btc_dominance": 57.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-27T08:35:03.308649+00:00",
-      "crypto": 0.3575,
-      "global": 0.4265,
-      "combined": 0.387,
-      "counts": {
-        "crypto": 72,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-10-27T12:55:01.512183+00:00",
       "crypto": 0.4734,
@@ -1008,66 +998,71 @@
         "crypto": 75,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-10T02:06:12.355673+00:00",
+      "crypto": 0.4778,
+      "global": 0.5132,
+      "combined": 0.4845,
+      "counts": {
+        "crypto": 75,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "U.S.-Stock Funds Push Year’s Gain to 12%",
-        "url": "https://finance.yahoo.com/m/f9fce0f7-29b6-3fba-86ba-76f762e255cb/u.s.-stock-funds-push-year%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4276,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 2.6% — rally",
+        "title": "Global crypto market cap up 4.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Aussie Primed for Rare Annual Gain on RBA’s Restrictive Policy",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-09/aussie-primed-for-rare-annual-gain-on-rba-s-restrictive-policy",
-        "source": "Bloomberg Markets",
-        "weight": 0.6788,
-        "score": 0.5333
+        "title": "U.S.-Stock Funds Push Year’s Gain to 12%",
+        "url": "https://finance.yahoo.com/m/f9fce0f7-29b6-3fba-86ba-76f762e255cb/u.s.-stock-funds-push-year%E2%80%99s.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.2218,
+        "score": 1.0
+      },
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as hopes grow for end to government shutdown",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-rise-as-hopes-grow-for-end-to-government-shutdown-002422014.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6576,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Why BlackRock remains bullish on Bitcoin despite recent price slowdown",
-        "url": "https://cryptoslate.com/why-blackrock-remains-bullish-on-bitcoin-despite-recent-price-slowdown/",
-        "source": "CryptoSlate",
-        "weight": 0.4506,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 22 (Fear) — bearish",
+        "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "Ex-Central Bank Director Sworn In as Bolivia’s Finance Minister",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-09/ex-central-bank-director-sworn-in-as-bolivia-s-finance-minister",
+        "title": "Gold Advances With Weakening US Economy Aiding Haven Demand",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-10/gold-edges-higher-with-weakening-us-economy-aiding-haven-demand",
         "source": "Bloomberg Markets",
-        "weight": 0.5068,
-        "score": -0.3333
+        "weight": 0.6673,
+        "score": -0.6333
+      },
+      {
+        "title": "Ethereum network gas fees drop to just 0.067 Gwei amid slowdown",
+        "url": "https://cointelegraph.com/news/ethereum-network-fees-drop-0-067-gwei?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4997,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39724868766717153,
-          "price_change_24h": 0.00908
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3040999905183708,
-          "price_change_24h": -0.09017
+          "volume_mcap_ratio": 0.4894388577645014,
+          "price_change_24h": 0.02202
         }
       ],
       "momentum_shifts": []
