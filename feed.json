@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-10T16:34:26.321750+00:00",
+  "updated_at": "2025-11-10T19:53:53.581666+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.19,
+    "change24h": 0.026,
+    "vol": 0.16,
     "fearGreed": 29,
-    "momentum": 0.298,
+    "momentum": 0.453,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5937,
-    "global_sentiment": 0.4788,
-    "combined_sentiment": 0.5685,
-    "confidence": 0.8206,
+    "crypto_sentiment": 0.6645,
+    "global_sentiment": 0.4991,
+    "combined_sentiment": 0.6233,
+    "confidence": 0.8159,
     "counts": {
-      "crypto": 73,
-      "global": 35
+      "crypto": 75,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 105278,
-      "btc_change_24h": 1.78,
-      "eth_price": 3535.6,
-      "eth_change_24h": 0.64,
+      "btc_price": 105942,
+      "btc_change_24h": 1.16,
+      "eth_price": 3572.42,
+      "eth_change_24h": -0.01,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 252676645175,
+        "volume_24h": 266379965384,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.47,
+        "btc_dominance": 57.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-28T01:56:35.272887+00:00",
-      "crypto": 0.5916,
-      "global": 0.4362,
-      "combined": 0.5634,
-      "counts": {
-        "crypto": 69,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-10-28T04:29:30.221357+00:00",
       "crypto": 0.5165,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-10T19:53:53.581666+00:00",
+      "crypto": 0.6645,
+      "global": 0.4991,
+      "combined": 0.6233,
+      "counts": {
+        "crypto": 75,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "WIF Surged 5% to $0.497 Before Retreating as Profit-Taking Emerged",
-        "url": "https://www.coindesk.com/markets/2025/11/10/wif-surged-5-to-usd0-497-before-retreating-as-profit-taking-emerged",
-        "source": "CoinDesk",
-        "weight": 0.9786,
-        "score": 0.8667
-      },
-      {
-        "title": "BONK Rises 1.7% as Breakout Momentum Holds",
-        "url": "https://www.coindesk.com/markets/2025/11/10/bonk-rises-1-7-to-usd0-00001332-as-breakout-momentum-holds",
-        "source": "CoinDesk",
-        "weight": 0.9756,
-        "score": 0.8667
-      },
-      {
-        "title": "UBS sees S&P 500 hitting 7,500 by year-end 2026, fueled by AI and strong corporate profits",
-        "url": "https://finance.yahoo.com/news/ubs-sees-sp-500-hitting-7500-by-year-end-2026-fueled-by-ai-and-strong-corporate-profits-155408599.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7403,
+        "title": "Bitcoin ‘double bottom’ eyes $110K, but CME gap may postpone rally",
+        "url": "https://cointelegraph.com/news/bitcoin-double-bottom-eyes-dollar110k-but-cme-gap-may-postpone-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7811,
         "score": 1.0
+      },
+      {
+        "title": "Crypto Majors Surge! US Gov may re-open soon! BTC back above $106k!",
+        "url": "https://decrypt.co/videos/interviews/VmKoW7Xt/crypto-majors-surge-us-gov-may-re-open-soon-btc-back-above-106k",
+        "source": "Decrypt",
+        "weight": 0.6804,
+        "score": 1.0
+      },
+      {
+        "title": "Bitcoin’s next move could shock traders if BTC price breaks above $112K",
+        "url": "https://cointelegraph.com/news/bitcoin-s-next-move-could-shock-traders-if-btc-price-breaks-above-112k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7784,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Health Insurer Stocks Slip as Hopes of Subsidy Extension Recede",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-10/health-insurer-stocks-slip-as-hopes-of-subsidy-extension-recede",
+        "title": "Syrian Leader Wins More Sanctions Relief After Meeting Trump",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-10/syrian-leader-wins-more-sanctions-relief-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7518,
-        "score": -0.9667
+        "weight": 0.773,
+        "score": -0.6333
       },
       {
-        "title": "BlackRock Faces 100% Loss on Private Loan, Adding to Credit Market Pain",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-10/blackrock-eyes-100-loss-on-private-loan-amid-debate-over-marks",
-        "source": "Bloomberg Markets",
-        "weight": 0.5832,
-        "score": -0.9333
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Fed's Musalem: We Have Limited Room to Cut Rates",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-10/fed-s-musalem-we-have-limited-room-to-cut-rates-video",
+        "title": "Competition for ETF Listings, Taiwan's Soaring ETF Assets | ETF IQ 11/10/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-10/etf-iq-11-10-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7911,
-        "score": -0.6667
+        "weight": 0.7671,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6008758469186626,
-          "price_change_24h": -0.00133
+          "volume_mcap_ratio": 0.6365807433934517,
+          "price_change_24h": -0.00893
         },
         {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3016371760692422,
-          "price_change_24h": -0.01237
+          "symbol": "ZEC",
+          "volume_mcap_ratio": 0.38040026326791315,
+          "price_change_24h": -8.53988
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-10",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5653,
+      "crypto_high": 0.6645,
+      "crypto_low": 0.4778,
+      "global_avg": 0.4969,
+      "global_high": 0.5382,
+      "global_low": 0.4338,
+      "combined_avg": 0.5487,
+      "combined_high": 0.6233,
+      "combined_low": 0.4845
+    },
+    "market_indicators_24h": {
+      "change24h": 0.026,
+      "vol": 0.16,
+      "fearGreed": 29,
+      "momentum": 0.453,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-10T19:53:53.581666+00:00"
   }
 }
