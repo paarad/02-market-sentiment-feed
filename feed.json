@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-10T12:55:23.224097+00:00",
+  "updated_at": "2025-11-10T16:34:26.321750+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.017,
+    "vol": 0.19,
     "fearGreed": 29,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.298,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5445,
-    "global_sentiment": 0.5382,
-    "combined_sentiment": 0.5365,
-    "confidence": 0.7557,
+    "crypto_sentiment": 0.5937,
+    "global_sentiment": 0.4788,
+    "combined_sentiment": 0.5685,
+    "confidence": 0.8206,
     "counts": {
-      "crypto": 67,
+      "crypto": 73,
       "global": 35
     },
     "market_indicators": {
-      "btc_price": 105903,
-      "btc_change_24h": 3.7,
-      "eth_price": 3588.44,
-      "eth_change_24h": 4.2,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 105278,
+      "btc_change_24h": 1.78,
+      "eth_price": 3535.6,
+      "eth_change_24h": 0.64,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 243870348531,
-        "high_activity_coins": 1
+        "volume_24h": 252676645175,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.47,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-27T20:26:12.157831+00:00",
-      "crypto": 0.5932,
-      "global": 0.4769,
-      "combined": 0.568,
-      "counts": {
-        "crypto": 74,
-        "global": 49
-      }
-    },
     {
       "ts": "2025-10-28T01:56:35.272887+00:00",
       "crypto": 0.5916,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-10T16:34:26.321750+00:00",
+      "crypto": 0.5937,
+      "global": 0.4788,
+      "combined": 0.5685,
+      "counts": {
+        "crypto": 73,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Rumble Shares Soar on Tether Partnerships , Planned Northern Data Acquisition",
-        "url": "https://www.coindesk.com/markets/2025/11/10/rumble-shares-soar-on-tether-partnerships-planned-northern-data-acquisition",
+        "title": "WIF Surged 5% to $0.497 Before Retreating as Profit-Taking Emerged",
+        "url": "https://www.coindesk.com/markets/2025/11/10/wif-surged-5-to-usd0-497-before-retreating-as-profit-taking-emerged",
         "source": "CoinDesk",
-        "weight": 0.9528,
-        "score": 0.9167
+        "weight": 0.9786,
+        "score": 0.8667
       },
       {
-        "title": "Barrick Returns More Money to Investors as Gold Prices Soar",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-10/barrick-returns-more-money-to-investors-amid-soaring-gold-price",
-        "source": "Bloomberg Markets",
-        "weight": 0.694,
-        "score": 1.0
+        "title": "BONK Rises 1.7% as Breakout Momentum Holds",
+        "url": "https://www.coindesk.com/markets/2025/11/10/bonk-rises-1-7-to-usd0-00001332-as-breakout-momentum-holds",
+        "source": "CoinDesk",
+        "weight": 0.9756,
+        "score": 0.8667
       },
       {
-        "title": "Global shares jump as investors eye potential end to US shutdown",
-        "url": "https://finance.yahoo.com/video/global-shares-jump-investors-eye-111324523.html?.tsrc=rss",
+        "title": "UBS sees S&P 500 hitting 7,500 by year-end 2026, fueled by AI and strong corporate profits",
+        "url": "https://finance.yahoo.com/news/ubs-sees-sp-500-hitting-7500-by-year-end-2026-fueled-by-ai-and-strong-corporate-profits-155408599.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6574,
+        "weight": 0.7403,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Nomura's Murakami Says Japan M&A Still 'Favorable'",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-10/nomura-s-murakami-says-japan-m-a-still-favorable-video",
+        "title": "Health Insurer Stocks Slip as Hopes of Subsidy Extension Recede",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-10/health-insurer-stocks-slip-as-hopes-of-subsidy-extension-recede",
         "source": "Bloomberg Markets",
-        "weight": 0.688,
+        "weight": 0.7518,
         "score": -0.9667
       },
       {
-        "title": "Mol Rises After Hungary Wins US Exemption on Russian Sanctions",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-10/mol-rises-after-hungary-wins-us-exemption-on-russian-sanctions",
+        "title": "BlackRock Faces 100% Loss on Private Loan, Adding to Credit Market Pain",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-10/blackrock-eyes-100-loss-on-private-loan-amid-debate-over-marks",
         "source": "Bloomberg Markets",
-        "weight": 0.6544,
-        "score": -0.9667
+        "weight": 0.5832,
+        "score": -0.9333
       },
       {
-        "title": "James Wynn goes ‘all-in’ on shorting Bitcoin after 12 liquidations in 12 hours",
-        "url": "https://cointelegraph.com/news/james-wynn-liquidated-crypto-snaps-higher-bitcoin-shorts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7185,
+        "title": "Fed's Musalem: We Have Limited Room to Cut Rates",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-10/fed-s-musalem-we-have-limited-room-to-cut-rates-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7911,
         "score": -0.6667
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5587472600809207,
-          "price_change_24h": -0.00876
+          "volume_mcap_ratio": 0.6008758469186626,
+          "price_change_24h": -0.00133
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3016371760692422,
+          "price_change_24h": -0.01237
         }
       ],
       "momentum_shifts": []
