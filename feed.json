@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-10T20:30:18.146772+00:00",
+  "updated_at": "2025-11-11T02:02:13.021936+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.153,
-    "fearGreed": 29,
-    "momentum": 0.439,
+    "change24h": 0.013,
+    "vol": 0.129,
+    "fearGreed": 26,
+    "momentum": 0.223,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6949,
-    "global_sentiment": 0.4847,
-    "combined_sentiment": 0.6449,
-    "confidence": 0.8258,
+    "crypto_sentiment": 0.6066,
+    "global_sentiment": 0.5636,
+    "combined_sentiment": 0.5852,
+    "confidence": 0.7869,
     "counts": {
-      "crypto": 76,
+      "crypto": 74,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 106057,
-      "btc_change_24h": 1.51,
-      "eth_price": 3567.66,
-      "eth_change_24h": -0.18,
+      "btc_price": 106095,
+      "btc_change_24h": 0.4,
+      "eth_price": 3579.8,
+      "eth_change_24h": -1.49,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 29,
+        "value": 26,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 264508459032,
-        "high_activity_coins": 3
+        "volume_24h": 259395981091,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.48,
+        "btc_dominance": 57.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-28T08:34:50.535049+00:00",
-      "crypto": 0.545,
-      "global": 0.4103,
-      "combined": 0.5263,
-      "counts": {
-        "crypto": 65,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-10-28T12:53:33.305941+00:00",
       "crypto": 0.5623,
@@ -1008,52 +998,62 @@
         "crypto": 76,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-11-11T02:02:13.021936+00:00",
+      "crypto": 0.6066,
+      "global": 0.5636,
+      "combined": 0.5852,
+      "counts": {
+        "crypto": 74,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Gold Steady After US Rate-Cut Hopes Spur Biggest Surge Since May",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-11/gold-steady-after-us-rate-cut-hopes-spur-biggest-surge-since-may",
+        "source": "Bloomberg Markets",
+        "weight": 0.6757,
+        "score": 1.0
+      },
+      {
         "title": "XRP jumps as 5 spot ETFs close in on debut: What changes when they actually launch?",
         "url": "https://cryptoslate.com/xrp-jumps-as-dtcc-lists-5-spot-etfs-what-changes-when-they-actually-launch/",
         "source": "CryptoSlate",
-        "weight": 0.8501,
+        "weight": 0.4487,
         "score": 1.0
       },
       {
-        "title": "Bitcoin ‘double bottom’ eyes $110K, but CME gap may postpone rally",
-        "url": "https://cointelegraph.com/news/bitcoin-double-bottom-eyes-dollar110k-but-cme-gap-may-postpone-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7282,
-        "score": 1.0
-      },
-      {
-        "title": "Crypto Majors Surge! US Gov may re-open soon! BTC back above $106k!",
-        "url": "https://decrypt.co/videos/interviews/VmKoW7Xt/crypto-majors-surge-us-gov-may-re-open-soon-btc-back-above-106k",
-        "source": "Decrypt",
-        "weight": 0.6343,
-        "score": 1.0
+        "title": "Sony Shares Seen Gaining as Blockbuster Anime Boosts Profit",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-11/sony-shares-seen-gaining-as-blockbuster-anime-boosts-profit",
+        "source": "Bloomberg Markets",
+        "weight": 0.6323,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Trump Instructing FTC to be 'Concierge' for AI Giants, Says Fmr. FTC Official",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-10/trump-ftc-concierge-for-ai-giants-fmr-ftc-official-video",
+        "title": "Stocks Rise on Shutdown Deal Hopes; Health-Care Shares Lag | The Close 11/10/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-10/the-close-11-10-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7653,
-        "score": -0.9333
+        "weight": 0.6088,
+        "score": -1.0
       },
       {
-        "title": "Nuclear power will get the most Energy Department loans, Chris Wright says",
-        "url": "https://www.cnbc.com/2025/11/10/nuclear-power-energy-department-chris-wright-loan-westinghouse-ai-data-center.html",
-        "source": "CNBC Markets",
-        "weight": 0.7802,
-        "score": -0.6333
+        "title": "Fear & Greed 26 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Brian Kahn Charged in Collapse of Prophecy Hedge Fund, US Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-10/brian-kahn-charged-in-collapse-of-prophecy-hedge-fund-us-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.7741,
+        "title": "Bitdeer Stock Tumbles as Bitcoin Miner Posts Third Quarter Net Loss",
+        "url": "https://decrypt.co/348031/bitdeer-tumbles-bitcoin-miner-third-quarter-net-loss",
+        "source": "Decrypt",
+        "weight": 0.6683,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6301427157303476,
-          "price_change_24h": 0.01208
+          "volume_mcap_ratio": 0.6394848857656231,
+          "price_change_24h": -0.03685
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.37715672087432867,
-          "price_change_24h": -8.33631
+          "volume_mcap_ratio": 0.5054510059854471,
+          "price_change_24h": -11.19946
         },
         {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3337739854935416,
-          "price_change_24h": 0.03082
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.43636721402979933,
+          "price_change_24h": 44.55907
         }
       ],
       "momentum_shifts": []
