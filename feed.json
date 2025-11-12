@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-11T20:28:22.418779+00:00",
+  "updated_at": "2025-11-12T02:01:20.167493+00:00",
   "indicators": {
-    "change24h": -0.05,
-    "vol": 0.142,
-    "fearGreed": 26,
-    "momentum": -0.87,
+    "change24h": -0.062,
+    "vol": 0.158,
+    "fearGreed": 24,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4562,
-    "global_sentiment": 0.4337,
-    "combined_sentiment": 0.4616,
-    "confidence": 0.8313,
+    "crypto_sentiment": 0.4758,
+    "global_sentiment": 0.5398,
+    "combined_sentiment": 0.4852,
+    "confidence": 0.7714,
     "counts": {
-      "crypto": 72,
+      "crypto": 71,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 103080,
-      "btc_change_24h": -2.76,
-      "eth_price": 3453.91,
-      "eth_change_24h": -3.09,
+      "btc_price": 103210,
+      "btc_change_24h": -3.01,
+      "eth_price": 3446.0,
+      "eth_change_24h": -4.22,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 26,
-        "classification": "Fear",
+        "value": 24,
+        "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 263547247343,
-        "high_activity_coins": 3
+        "volume_24h": 252657987581,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-29T08:35:16.826246+00:00",
-      "crypto": 0.4636,
-      "global": 0.5873,
-      "combined": 0.48,
-      "counts": {
-        "crypto": 72,
-        "global": 30
-      }
-    },
     {
       "ts": "2025-10-29T12:55:18.750462+00:00",
       "crypto": 0.4798,
@@ -1008,71 +998,81 @@
         "crypto": 72,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-12T02:01:20.167493+00:00",
+      "crypto": 0.4758,
+      "global": 0.5398,
+      "combined": 0.4852,
+      "counts": {
+        "crypto": 71,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ClearToken Wins UK Regulator Approval for Digital Asset Settlement Service",
-        "url": "https://www.coindesk.com/policy/2025/11/11/cleartoken-wins-uk-regulator-approval-for-digital-asset-settlement-service",
-        "source": "CoinDesk",
-        "weight": 0.6315,
-        "score": 0.9167
-      },
-      {
-        "title": "Here’s the real XRP ETF launch timeline as DTCC is misread again",
-        "url": "https://cryptoslate.com/heres-the-real-xrp-etf-launch-timeline-as-dtcc-is-misread-again/",
-        "source": "CryptoSlate",
-        "weight": 0.6441,
-        "score": 0.85
-      },
-      {
-        "title": "The Dow Is Heading for a Record as the Nasdaq Lags Behind",
-        "url": "https://finance.yahoo.com/m/cc94009a-beb0-3bf2-b973-bfa7dac61264/the-dow-is-heading-for-a.html?.tsrc=rss",
+        "title": "Review & Preview: The Dow Shines",
+        "url": "https://finance.yahoo.com/m/13de1a71-1e37-31ae-b32b-a7eca547010b/review-%26-preview%3A-the-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7409,
-        "score": 0.6667
+        "weight": 0.7041,
+        "score": 0.8667
+      },
+      {
+        "title": "Red Flags Emerge in World’s Best Stock Index as Volatility Soars",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-11/red-flags-emerge-in-world-s-best-stock-index-as-volatility-soars",
+        "source": "Bloomberg Markets",
+        "weight": 0.5027,
+        "score": 0.7333
+      },
+      {
+        "title": "User Revolt Erupts on X as Character AI Quit Posts Go Viral",
+        "url": "https://decrypt.co/348249/user-revolt-erupts-character-ai-quit-posts-go-viral",
+        "source": "Decrypt",
+        "weight": 0.636,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Driven By Liquidity Within US: Bitget CEO",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-11/bitcoin-driven-by-liquidity-within-us-bitget-ceo-video",
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Dow Rises, S&P Closes Higher as Nasdaq Slips on Nvidia Decline | The Close 11/11/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-12/the-close-11-11-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.763,
-        "score": -1.0
+        "weight": 0.6454,
+        "score": -0.6333
       },
       {
-        "title": "Bitcoin Miner CleanSpark Extends Stock Slump After Upsizing Notes Offering to $1.15 Billion",
-        "url": "https://decrypt.co/348182/bitcoin-miner-cleanspark-stock-slump-upsizing-notes-offering-1-15-billion",
-        "source": "Decrypt",
-        "weight": 0.6477,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin Miner CleanSpark Extends Stock Slump After Upsizing Notes Offering to $1.15 Billion",
-        "url": "https://decrypt.co/348182/bitcoin-miner-cleanspark-stock-slump-upsizing-notes-offering-1-15-billion?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6096,
-        "score": -0.9667
+        "title": "The Next Phase of Corporate Carbon Investment",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-11/the-next-phase-of-corporate-carbon-investment",
+        "source": "Bloomberg Markets",
+        "weight": 0.5957,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "UNI",
-          "volume_mcap_ratio": 0.7882304416804387,
-          "price_change_24h": 18.3608
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6203984495344521,
-          "price_change_24h": 0.02865
+          "volume_mcap_ratio": 0.5873594758410026,
+          "price_change_24h": -0.0178
         },
         {
-          "symbol": "ZEC",
-          "volume_mcap_ratio": 0.40404761788622756,
-          "price_change_24h": -18.77018
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.5393047190727546,
+          "price_change_24h": -12.15582
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.34166672179822,
+          "price_change_24h": 0.0045
         }
       ],
       "momentum_shifts": []
