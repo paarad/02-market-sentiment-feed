@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-13T16:32:38.032863+00:00",
+  "updated_at": "2025-11-13T19:53:47.271666+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.076,
+    "change24h": -0.056,
+    "vol": 0.164,
     "fearGreed": 15,
-    "momentum": -0.009,
-    "regime": "sideways",
+    "momentum": -0.986,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.435,
-    "global_sentiment": 0.503,
-    "combined_sentiment": 0.4515,
-    "confidence": 0.8189,
+    "crypto_sentiment": 0.392,
+    "global_sentiment": 0.4893,
+    "combined_sentiment": 0.4181,
+    "confidence": 0.8451,
     "counts": {
-      "crypto": 65,
-      "global": 38
+      "crypto": 71,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 101045,
-      "btc_change_24h": -0.94,
-      "eth_price": 3366.33,
-      "eth_change_24h": -1.41,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 98684,
+      "btc_change_24h": -2.5,
+      "eth_price": 3200.19,
+      "eth_change_24h": -5.97,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 268424391522,
+        "volume_24h": 306196028814,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.32,
+        "btc_dominance": 57.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-31T01:59:39.387020+00:00",
-      "crypto": 0.3788,
-      "global": 0.4427,
-      "combined": 0.4043,
-      "counts": {
-        "crypto": 69,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-10-31T04:31:00.431408+00:00",
       "crypto": 0.4109,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-13T19:53:47.271666+00:00",
+      "crypto": 0.392,
+      "global": 0.4893,
+      "combined": 0.4181,
+      "counts": {
+        "crypto": 71,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "CoinDesk 20 Performance Update: Ripple (XRP) Gains 5.1% As Nearly All Assets Rise",
-        "url": "https://www.coindesk.com/coindesk-indices/2025/11/13/coindesk-20-performance-update-ripple-xrp-gains-5-1-as-nearly-all-assets-rise",
-        "source": "CoinDesk",
-        "weight": 0.9458,
+        "title": "The Graph Delivers Production-Ready Data Infrastructure for TRON Enterprise Applications",
+        "url": "https://cryptoslate.com/the-graph-delivers-production-ready-data-infrastructure-for-tron-enterprise-applications/",
+        "source": "CryptoSlate",
+        "weight": 0.6027,
+        "score": 1.0
+      },
+      {
+        "title": "Cornell Prepares Record $1 Billion Bond Sale After Trump Deal",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-13/cornell-prepares-record-1-billion-bond-sale-after-trump-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.753,
         "score": 0.6667
       },
       {
-        "title": "Dow Jones Futures Fall As Government Shutdown Ends; Cisco Jumps On Earnings",
-        "url": "https://finance.yahoo.com/m/616f9a1c-4148-3730-a4dc-e7304687a8a9/dow-jones-futures-fall-as.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5447,
+        "title": "Desmarais Family’s Power Corp. Looks for More Deals as Cash Piles Up",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-13/desmarais-family-s-power-corp-looks-for-more-deals-as-cash-piles-up",
+        "source": "Bloomberg Markets",
+        "weight": 0.5609,
         "score": 0.8667
-      },
-      {
-        "title": "Nasdaq Up 10x More Than Bitcoin This Year — But Wintermute Calls BTC the Real Bullish Play",
-        "url": "https://cryptonews.com/news/nasdaq-up-10x-more-than-bitcoin-this-year-but-wintermute-calls-btc-the-real-bullish-play/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.8235,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Chainlink says it finally solved crypto’s $3.4 trillion problem: The privacy fix Wall Street has been waiting for",
-        "url": "https://cryptoslate.com/chainlink-thinks-it-finally-cracked-the-privacy-problem-keeping-wall-street-out-of-crypto/",
-        "source": "CryptoSlate",
-        "weight": 0.4984,
-        "score": -1.0
+        "title": "Chainlink Breaks Below $14.50 Amid Broader Selloff; Reserve Adds 74K LINK Despite Losses",
+        "url": "https://www.coindesk.com/markets/2025/11/13/chainlink-breaks-below-usd14-50-amid-broader-selloff-reserve-adds-74k-link-despite-losses",
+        "source": "CoinDesk",
+        "weight": 1.0717,
+        "score": -0.6667
       },
       {
-        "title": "'Big Short' Investor Michael Burry Deregisters Scion Fund With SEC",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-13/investor-michael-burry-ends-scion-registration-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7237,
+        "title": "Strategy Plunges to Weakest in 13 Months, but Still Trades at Premium to Bitcoin Holdings",
+        "url": "https://www.coindesk.com/markets/2025/11/13/strategy-plunges-to-weakest-in-13-months-but-still-trades-at-premium-to-bitcoin-holdings",
+        "source": "CoinDesk",
+        "weight": 0.9629,
         "score": -0.6333
       },
       {
-        "title": "Fed Has Room for More Rate Cuts, Pimco's Wilding Says",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-13/fed-has-room-for-more-rate-cuts-pimco-s-wilding-says-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.666,
-        "score": -0.6667
+        "title": "Cramer says 'I don't want to fight Disney anymore' — here is what's next for the stock",
+        "url": "https://www.cnbc.com/2025/11/13/cramer-says-i-dont-want-to-fight-disney-anymore-here-is-whats-next-for-the-stock.html",
+        "source": "CNBC Markets",
+        "weight": 0.7836,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5856070094933102,
-          "price_change_24h": 0.00602
+          "volume_mcap_ratio": 0.6883080118667457,
+          "price_change_24h": -0.01923
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-13",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4467,
+      "crypto_high": 0.505,
+      "crypto_low": 0.392,
+      "global_avg": 0.5225,
+      "global_high": 0.6412,
+      "global_low": 0.4793,
+      "combined_avg": 0.4619,
+      "combined_high": 0.5058,
+      "combined_low": 0.4181
+    },
+    "market_indicators_24h": {
+      "change24h": -0.056,
+      "vol": 0.164,
+      "fearGreed": 15,
+      "momentum": -0.986,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-13T19:53:47.271666+00:00"
   }
 }
