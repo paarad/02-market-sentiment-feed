@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-13T02:03:27.322280+00:00",
+  "updated_at": "2025-11-13T04:31:26.659563+00:00",
   "indicators": {
-    "change24h": -0.012,
-    "vol": 0.053,
+    "change24h": 0.014,
+    "vol": 0.102,
     "fearGreed": 15,
-    "momentum": -0.212,
-    "regime": "bear",
+    "momentum": 0.247,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4791,
-    "global_sentiment": 0.4793,
-    "combined_sentiment": 0.4826,
-    "confidence": 0.8094,
+    "crypto_sentiment": 0.4742,
+    "global_sentiment": 0.4981,
+    "combined_sentiment": 0.4805,
+    "confidence": 0.7971,
     "counts": {
-      "crypto": 70,
-      "global": 34
+      "crypto": 71,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 101982,
-      "btc_change_24h": -1.22,
-      "eth_price": 3426.72,
-      "eth_change_24h": -0.58,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 102151,
+      "btc_change_24h": -0.98,
+      "eth_price": 3468.92,
+      "eth_change_24h": 1.05,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 244909872319,
+        "volume_24h": 255092194053,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.42,
+        "btc_dominance": 57.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-30T12:53:46.872065+00:00",
-      "crypto": 0.3435,
-      "global": 0.4527,
-      "combined": 0.3787,
-      "counts": {
-        "crypto": 65,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-10-30T16:33:32.641515+00:00",
       "crypto": 0.3218,
@@ -1008,6 +998,16 @@
         "crypto": 70,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-11-13T04:31:26.659563+00:00",
+      "crypto": 0.4742,
+      "global": 0.4981,
+      "combined": 0.4805,
+      "counts": {
+        "crypto": 71,
+        "global": 38
+      }
     }
   ],
   "drivers": {
@@ -1016,31 +1016,31 @@
         "title": "Review & Preview: Open for Business",
         "url": "https://finance.yahoo.com/m/4e24ce4f-3e1c-34e9-bd8c-af3be55a9fac/review-%26-preview%3A-open-for.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6683,
+        "weight": 0.5026,
         "score": 1.0
+      },
+      {
+        "title": "Sour crypto mood could fuel an unexpected rally this month: Santiment",
+        "url": "https://cointelegraph.com/news/crypto-fear-sentiment-bitcoin-ethereum-xrp?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6347,
+        "score": 0.5333
       },
       {
         "title": "Funding bill set to reopen US government heads to Trump’s desk",
         "url": "https://cointelegraph.com/news/house-reps-vote-end-government-shutdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7396,
+        "weight": 0.5563,
         "score": 0.5833
-      },
-      {
-        "title": "Bitwise’s exec says 2026 will be crypto’s real bull year, here’s why",
-        "url": "https://cointelegraph.com/news/crypto-markets-set-for-2026-rally-bitwise-matt-hougan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7218,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "3 reasons Bitcoin struggles to overcome each new overhead resistance level",
-        "url": "https://cointelegraph.com/news/3-reasons-why-bitcoin-struggles-to-overcome-each-new-overhead-resistance-level?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5383,
-        "score": -1.0
+        "title": "SK Innovation Raises $3.4 Billion in Major Financing With Meritz",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-13/sk-innovation-raises-3-4-billion-in-major-financing-with-meritz",
+        "source": "Bloomberg Markets",
+        "weight": 0.7454,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 15 (Fear) — bearish",
@@ -1050,10 +1050,10 @@
         "score": -0.5333
       },
       {
-        "title": "Prosecutors request February or March retrial for MEV bot brothers",
-        "url": "https://cointelegraph.com/news/prosecutors-retrial-mev-bot-exploit-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "3 reasons Bitcoin struggles to overcome each new overhead resistance level",
+        "url": "https://cointelegraph.com/news/3-reasons-why-bitcoin-struggles-to-overcome-each-new-overhead-resistance-level?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3935,
+        "weight": 0.4049,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5479893174221668,
-          "price_change_24h": 0.04329
+          "volume_mcap_ratio": 0.5731081046192366,
+          "price_change_24h": 0.04525
         }
       ],
       "momentum_shifts": []
