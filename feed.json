@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-13T12:55:52.547735+00:00",
+  "updated_at": "2025-11-13T16:32:38.032863+00:00",
   "indicators": {
-    "change24h": -0.021,
-    "vol": 0.067,
+    "change24h": -0.001,
+    "vol": 0.076,
     "fearGreed": 15,
-    "momentum": -0.374,
-    "regime": "bear",
+    "momentum": -0.009,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3947,
-    "global_sentiment": 0.6412,
-    "combined_sentiment": 0.4328,
-    "confidence": 0.7853,
+    "crypto_sentiment": 0.435,
+    "global_sentiment": 0.503,
+    "combined_sentiment": 0.4515,
+    "confidence": 0.8189,
     "counts": {
-      "crypto": 71,
-      "global": 44
+      "crypto": 65,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 103120,
-      "btc_change_24h": -1.8,
-      "eth_price": 3500.76,
-      "eth_change_24h": -1.43,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 101045,
+      "btc_change_24h": -0.94,
+      "eth_price": 3366.33,
+      "eth_change_24h": -1.41,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 259795326457,
+        "volume_24h": 268424391522,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.3,
+        "btc_dominance": 57.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-30T20:27:52.658590+00:00",
-      "crypto": 0.317,
-      "global": 0.4043,
-      "combined": 0.3548,
-      "counts": {
-        "crypto": 69,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-10-31T01:59:39.387020+00:00",
       "crypto": 0.3788,
@@ -1008,61 +998,71 @@
         "crypto": 71,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-11-13T16:32:38.032863+00:00",
+      "crypto": 0.435,
+      "global": 0.503,
+      "combined": 0.4515,
+      "counts": {
+        "crypto": 65,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "CoinDesk 20 Performance Update: Ripple (XRP) Gains 5.1% As Nearly All Assets Rise",
+        "url": "https://www.coindesk.com/coindesk-indices/2025/11/13/coindesk-20-performance-update-ripple-xrp-gains-5-1-as-nearly-all-assets-rise",
+        "source": "CoinDesk",
+        "weight": 0.9458,
+        "score": 0.6667
+      },
+      {
         "title": "Dow Jones Futures Fall As Government Shutdown Ends; Cisco Jumps On Earnings",
         "url": "https://finance.yahoo.com/m/616f9a1c-4148-3730-a4dc-e7304687a8a9/dow-jones-futures-fall-as.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7754,
+        "weight": 0.5447,
         "score": 0.8667
       },
       {
-        "title": "Can Korea's Digital Comics Giant Finally Win Over America?",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-13/can-korea-s-digital-comics-giant-finally-win-over-america",
-        "source": "Bloomberg Markets",
-        "weight": 0.7199,
-        "score": 0.9167
-      },
-      {
-        "title": "Morgan Stanley’s Latest Conviction Calls: 2 Stocks to Watch Closely",
-        "url": "https://finance.yahoo.com/news/morgan-stanley-latest-conviction-calls-111013714.html?.tsrc=rss",
+        "title": "Nasdaq Up 10x More Than Bitcoin This Year — But Wintermute Calls BTC the Real Bullish Play",
+        "url": "https://cryptonews.com/news/nasdaq-up-10x-more-than-bitcoin-this-year-but-wintermute-calls-btc-the-real-bullish-play/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6527,
-        "score": 1.0
+        "weight": 0.8235,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin’s second-largest whale accumulation fails to push BTC past $106K",
-        "url": "https://cointelegraph.com/news/bitcoin-second-largest-whale-accumulation-cant-push-btc-past-106k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.915,
-        "score": -0.6333
-      },
-      {
-        "title": "Bitcoin flash-crashed to $100k — then roared back. Here’s what really happened behind the $610M liquidations",
-        "url": "https://cryptoslate.com/bitcoin-plunges-to-100k-then-recovers-as-dollar-firms-610m-wiped-from-market/",
+        "title": "Chainlink says it finally solved crypto’s $3.4 trillion problem: The privacy fix Wall Street has been waiting for",
+        "url": "https://cryptoslate.com/chainlink-thinks-it-finally-cracked-the-privacy-problem-keeping-wall-street-out-of-crypto/",
         "source": "CryptoSlate",
-        "weight": 0.5739,
+        "weight": 0.4984,
         "score": -1.0
       },
       {
-        "title": "Institutions must stake Ether on decentralized infrastructure",
-        "url": "https://cointelegraph.com/news/institutions-stake-ether-decentralized-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7611,
+        "title": "'Big Short' Investor Michael Burry Deregisters Scion Fund With SEC",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-13/investor-michael-burry-ends-scion-registration-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7237,
         "score": -0.6333
+      },
+      {
+        "title": "Fed Has Room for More Rate Cuts, Pimco's Wilding Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-13/fed-has-room-for-more-rate-cuts-pimco-s-wilding-says-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.666,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5826887609496405,
-          "price_change_24h": 0.00099
+          "volume_mcap_ratio": 0.5856070094933102,
+          "price_change_24h": 0.00602
         }
       ],
       "momentum_shifts": []
