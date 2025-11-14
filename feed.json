@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-14T04:30:01.627263+00:00",
+  "updated_at": "2025-11-14T08:33:53.715103+00:00",
   "indicators": {
-    "change24h": -0.085,
-    "vol": 0.207,
+    "change24h": -0.118,
+    "vol": 0.255,
     "fearGreed": 16,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4007,
-    "global_sentiment": 0.3902,
-    "combined_sentiment": 0.4164,
-    "confidence": 0.8017,
+    "crypto_sentiment": 0.4234,
+    "global_sentiment": 0.3602,
+    "combined_sentiment": 0.4309,
+    "confidence": 0.7899,
     "counts": {
-      "crypto": 72,
-      "global": 37
+      "crypto": 73,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 98880,
-      "btc_change_24h": -3.21,
-      "eth_price": 3211.5,
-      "eth_change_24h": -7.42,
+      "btc_price": 96858,
+      "btc_change_24h": -6.53,
+      "eth_price": 3189.62,
+      "eth_change_24h": -9.93,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 338147698693,
-        "high_activity_coins": 1
+        "volume_24h": 382577284917,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.65,
+        "btc_dominance": 57.24,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-31T16:32:15.443234+00:00",
-      "crypto": 0.5377,
-      "global": 0.5469,
-      "combined": 0.5321,
-      "counts": {
-        "crypto": 68,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-10-31T19:53:49.249052+00:00",
       "crypto": 0.4961,
@@ -1008,61 +998,76 @@
         "crypto": 72,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-11-14T08:33:53.715103+00:00",
+      "crypto": 0.4234,
+      "global": 0.3602,
+      "combined": 0.4309,
+      "counts": {
+        "crypto": 73,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Pakistan Bond Gains to Extend With Global Reentry, Investors Say",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/pakistan-bond-gains-to-extend-with-global-reentry-investors-say",
+        "title": "Central Pattana’s Profit Surges to Record on Big One-Off Boosts",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-14/central-pattana-s-profit-surges-to-record-on-big-one-off-boosts",
         "source": "Bloomberg Markets",
-        "weight": 0.6665,
-        "score": 0.8667
+        "weight": 0.5058,
+        "score": 1.0
       },
       {
-        "title": "Blue Origin Marks First Ocean Landing of New Glenn Booster After Second Attempt",
-        "url": "https://decrypt.co/348630/blue-origin-marks-first-ocean-landing-of-new-glenn-booster-after-second-attempt",
-        "source": "Decrypt",
-        "weight": 0.555,
-        "score": 0.6667
-      },
-      {
-        "title": "Review & Preview: Post-Shutdown Selloff",
-        "url": "https://finance.yahoo.com/m/254a4d97-1508-3969-8e7a-8bd80f0f82bb/review-%26-preview%3A.html?.tsrc=rss",
+        "title": "Yimutian Inc. Announces Receipt of Nasdaq Notification Regarding Minimum Market Value of Publicly Held Shares",
+        "url": "https://finance.yahoo.com/news/yimutian-inc-announces-receipt-nasdaq-081900904.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5288,
-        "score": 0.6667
+        "weight": 0.7774,
+        "score": 0.6333
+      },
+      {
+        "title": "Aave to offer zero-fee stablecoin ramps in Europe after MiCA approval",
+        "url": "https://cointelegraph.com/news/aave-mica-zero-fee-stablecoin-ramps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7569,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "SoftBank shares plunge over 8%, extending selloff into third day",
+        "title": "XRP ETF Fails to Bump Bulls as Ripple-Linked Token Plunges 7.3% Amid BTC Selloff",
+        "url": "https://www.coindesk.com/markets/2025/11/14/xrp-etf-fails-to-bump-bulls-as-ripple-linked-token-plunges-7-3-amid-btc-selloff",
+        "source": "CoinDesk",
+        "weight": 0.8042,
+        "score": -0.9667
+      },
+      {
+        "title": "SoftBank shares plunge nearly 9%, extending selloff into third day",
         "url": "https://www.cnbc.com/2025/11/14/softbank-shares-plunge-extending-selloff-nvidia-ai-semiconductor-ai-artificial-intelligence.html",
         "source": "CNBC Markets",
-        "weight": 0.6065,
+        "weight": 0.7594,
         "score": -1.0
       },
       {
-        "title": "Malaysia Enters Mediation With Baer on $112 Million 1MDB Suit",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/malaysia-enters-mediation-with-baer-on-112-million-1mdb-suit",
+        "title": "Can Reeves Plug UK Fiscal Hole Without Raising Taxes?",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-14/can-reeves-plug-uk-fiscal-hole-without-raising-taxes-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6616,
-        "score": -0.9
-      },
-      {
-        "title": "Citi's Fraser on US Economy, China Presence",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-14/citi-s-fraser-on-us-economy-china-presence-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7136,
-        "score": -0.6333
+        "weight": 0.7519,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7665819191643963,
-          "price_change_24h": -0.0257
+          "volume_mcap_ratio": 0.8485426629811198,
+          "price_change_24h": 0.00022
+        },
+        {
+          "symbol": "SUI",
+          "volume_mcap_ratio": 0.37796696906118465,
+          "price_change_24h": -10.31774
         }
       ],
       "momentum_shifts": []
