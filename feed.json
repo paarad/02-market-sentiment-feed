@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-14T16:33:30.293041+00:00",
+  "updated_at": "2025-11-14T19:53:50.362012+00:00",
   "indicators": {
-    "change24h": -0.045,
-    "vol": 0.302,
+    "change24h": 0.01,
+    "vol": 0.247,
     "fearGreed": 16,
-    "momentum": -0.783,
-    "regime": "bear",
+    "momentum": 0.183,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3998,
-    "global_sentiment": 0.3545,
-    "combined_sentiment": 0.4127,
-    "confidence": 0.8116,
+    "crypto_sentiment": 0.3792,
+    "global_sentiment": 0.3851,
+    "combined_sentiment": 0.3998,
+    "confidence": 0.8121,
     "counts": {
-      "crypto": 75,
-      "global": 45
+      "crypto": 77,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 96909,
-      "btc_change_24h": -4.31,
-      "eth_price": 3233.59,
-      "eth_change_24h": -3.99,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "btc_price": 95689,
+      "btc_change_24h": -2.88,
+      "eth_price": 3209.59,
+      "eth_change_24h": 0.73,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 421010499057,
-        "high_activity_coins": 2
+        "volume_24h": 387657507452,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.09,
+        "btc_dominance": 56.83,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-01T02:03:15.547298+00:00",
-      "crypto": 0.475,
-      "global": 0.5877,
-      "combined": 0.4885,
-      "counts": {
-        "crypto": 66,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-01T04:27:38.597403+00:00",
       "crypto": 0.45,
@@ -1008,66 +998,71 @@
         "crypto": 75,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-11-14T19:53:50.362012+00:00",
+      "crypto": 0.3792,
+      "global": 0.3851,
+      "combined": 0.3998,
+      "counts": {
+        "crypto": 77,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock Market Rises Amid Wild Swings As Government Shutdown Ends: Weekly Review",
+        "url": "https://finance.yahoo.com/m/c1924867-7f53-31e0-89dc-1b0650fd61cb/stock-market-rises-amid-wild.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6358,
+        "score": 0.6667
+      },
+      {
+        "title": "AI-Fueled Apple Partner Engineers New Buy Point. Then This Happens.",
+        "url": "https://finance.yahoo.com/m/0911a7e0-9862-3b90-b352-6fa718d55903/ai-fueled-apple-partner.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7036,
+        "score": 0.5333
+      },
+      {
         "title": "XRP ETF debut outshines all 2025 launches with $250M inflows, record volume",
         "url": "https://cointelegraph.com/news/canary-xrp-etf-record-launch-250m-in-kind-redemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5494,
+        "weight": 0.3736,
         "score": 1.0
-      },
-      {
-        "title": "Hot tech stock ETFs, from AI to quantum computing, have made investors lots of money. Is it time to sell?",
-        "url": "https://www.cnbc.com/2025/11/14/tech-stock-etfs-investors-market-gains-buy-sell.html",
-        "source": "CNBC Markets",
-        "weight": 0.7932,
-        "score": 0.5333
-      },
-      {
-        "title": "Colombia Peso Stumbles as Wave of Dollar Sales Seen Near End",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/colombian-peso-stumbles-as-wave-of-dollar-sales-seen-near-an-end",
-        "source": "Bloomberg Markets",
-        "weight": 0.7144,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "New Jersey Insurer Agrees to Pay $100 Million in Settlement",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/new-jersey-insurer-horizon-agrees-to-pay-100-million-in-settlement",
+        "title": "‘We are buying’: Michael Saylor denies reports of Strategy dumping BTC",
+        "url": "https://cointelegraph.com/news/michael-saylor-strategy-dumping-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7957,
+        "score": -0.9667
+      },
+      {
+        "title": "Merck to Buy Cidara in $9.2B Deal as Patent Deadline Looms",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-14/merck-to-buy-cidara-for-9-2b-as-patent-deadline-looms-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7405,
+        "weight": 0.6078,
         "score": -1.0
       },
       {
-        "title": "Canary Likely to Hit Pause on ETF Filings With XRP, Eyes SEC Shift for What’s Next",
-        "url": "https://www.coindesk.com/markets/2025/11/14/canary-likely-to-hit-pause-on-etf-filings-with-xrp-eyes-sec-shift-for-what-s-next",
-        "source": "CoinDesk",
-        "weight": 1.1512,
-        "score": -0.6333
-      },
-      {
-        "title": "Bitcoin Heads Deeper Into Bear Market as Token Drops Below $95,000",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-14/bitcoin-heads-deeper-into-bear-market-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6826,
-        "score": -1.0
+        "title": "Bitcoin falls to 6-month low as ETF demand collapses: Finance Redefined",
+        "url": "https://cointelegraph.com/news/bitcoin-falls-6-month-low-etf-demand-collapses-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7212,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.9629634787435568,
-          "price_change_24h": -0.06538
-        },
-        {
-          "symbol": "SUI",
-          "volume_mcap_ratio": 0.30820849221291,
-          "price_change_24h": -8.53463
+          "volume_mcap_ratio": 0.8613624766237766,
+          "price_change_24h": -0.03879
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-14",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3921,
+      "crypto_high": 0.4234,
+      "crypto_low": 0.3721,
+      "global_avg": 0.3682,
+      "global_high": 0.3902,
+      "global_low": 0.3445,
+      "combined_avg": 0.4081,
+      "combined_high": 0.4309,
+      "combined_low": 0.3911
+    },
+    "market_indicators_24h": {
+      "change24h": 0.01,
+      "vol": 0.247,
+      "fearGreed": 16,
+      "momentum": 0.183,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-14T19:53:50.362012+00:00"
   }
 }
