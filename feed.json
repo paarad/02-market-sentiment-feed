@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-14T08:33:53.715103+00:00",
+  "updated_at": "2025-11-14T12:53:27.489460+00:00",
   "indicators": {
-    "change24h": -0.118,
-    "vol": 0.255,
+    "change24h": -0.141,
+    "vol": 0.295,
     "fearGreed": 16,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4234,
-    "global_sentiment": 0.3602,
-    "combined_sentiment": 0.4309,
-    "confidence": 0.7899,
+    "crypto_sentiment": 0.3775,
+    "global_sentiment": 0.3745,
+    "combined_sentiment": 0.3977,
+    "confidence": 0.7918,
     "counts": {
-      "crypto": 73,
-      "global": 44
+      "crypto": 75,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 96858,
-      "btc_change_24h": -6.53,
-      "eth_price": 3189.62,
-      "eth_change_24h": -9.93,
+      "btc_price": 95271,
+      "btc_change_24h": -7.59,
+      "eth_price": 3109.62,
+      "eth_change_24h": -11.19,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 382577284917,
+        "volume_24h": 400157114595,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.24,
+        "btc_dominance": 57.27,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-10-31T19:53:49.249052+00:00",
-      "crypto": 0.4961,
-      "global": 0.5293,
-      "combined": 0.4995,
-      "counts": {
-        "crypto": 66,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-10-31T20:28:07.590095+00:00",
       "crypto": 0.4719,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-11-14T12:53:27.489460+00:00",
+      "crypto": 0.3775,
+      "global": 0.3745,
+      "combined": 0.3977,
+      "counts": {
+        "crypto": 75,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Central Pattana’s Profit Surges to Record on Big One-Off Boosts",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/central-pattana-s-profit-surges-to-record-on-big-one-off-boosts",
-        "source": "Bloomberg Markets",
-        "weight": 0.5058,
+        "title": "XRP ETF debut outshines all 2025 launches with $250M inflows, record volume",
+        "url": "https://cointelegraph.com/news/canary-xrp-etf-record-launch-250m-in-kind-redemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8392,
         "score": 1.0
+      },
+      {
+        "title": "Burry’s Depreciation Gripe Shines Spotlight on Big Tech Profits",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-14/burry-s-depreciation-gripe-shines-spotlight-on-big-tech-profits",
+        "source": "Bloomberg Markets",
+        "weight": 0.6237,
+        "score": 0.6667
       },
       {
         "title": "Yimutian Inc. Announces Receipt of Nasdaq Notification Regarding Minimum Market Value of Publicly Held Shares",
         "url": "https://finance.yahoo.com/news/yimutian-inc-announces-receipt-nasdaq-081900904.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7774,
+        "weight": 0.4716,
         "score": 0.6333
-      },
-      {
-        "title": "Aave to offer zero-fee stablecoin ramps in Europe after MiCA approval",
-        "url": "https://cointelegraph.com/news/aave-mica-zero-fee-stablecoin-ramps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7569,
-        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "XRP ETF Fails to Bump Bulls as Ripple-Linked Token Plunges 7.3% Amid BTC Selloff",
-        "url": "https://www.coindesk.com/markets/2025/11/14/xrp-etf-fails-to-bump-bulls-as-ripple-linked-token-plunges-7-3-amid-btc-selloff",
-        "source": "CoinDesk",
-        "weight": 0.8042,
-        "score": -0.9667
-      },
-      {
-        "title": "SoftBank shares plunge nearly 9%, extending selloff into third day",
-        "url": "https://www.cnbc.com/2025/11/14/softbank-shares-plunge-extending-selloff-nvidia-ai-semiconductor-ai-artificial-intelligence.html",
-        "source": "CNBC Markets",
-        "weight": 0.7594,
-        "score": -1.0
-      },
-      {
-        "title": "Can Reeves Plug UK Fiscal Hole Without Raising Taxes?",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-14/can-reeves-plug-uk-fiscal-hole-without-raising-taxes-video",
+        "title": "Merck to Buy Cidara in $9.2 Billion Deal as Sales Drop Looms",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-14/merck-to-acquire-cidara-therapeutics-in-9-2-billion-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.7519,
+        "weight": 0.7293,
         "score": -1.0
+      },
+      {
+        "title": "Bitcoin tests the $95k HODL wall after cascade knocks out $655M from bulls",
+        "url": "https://cryptoslate.com/bitcoin-tests-the-95k-hodl-wall-after-cascade-knocks-out-655m-from-bulls/",
+        "source": "CryptoSlate",
+        "weight": 0.6577,
+        "score": -1.0
+      },
+      {
+        "title": "Trump To Cut Tariffs in Affordability Push; Reeves U-Turn Fuels Jitters | Bloomberg Brief 11/14/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-14/bloomberg-brief-11-14-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7489,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8485426629811198,
-          "price_change_24h": 0.00022
+          "volume_mcap_ratio": 0.9046883217752046,
+          "price_change_24h": -0.01556
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.37796696906118465,
-          "price_change_24h": -10.31774
+          "volume_mcap_ratio": 0.42663693780724943,
+          "price_change_24h": -12.64989
         }
       ],
       "momentum_shifts": []
