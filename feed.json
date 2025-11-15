@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-15T12:48:18.860434+00:00",
+  "updated_at": "2025-11-15T16:28:25.298309+00:00",
   "indicators": {
-    "change24h": 0.053,
-    "vol": 0.3,
+    "change24h": 0.002,
+    "vol": 0.224,
     "fearGreed": 10,
-    "momentum": 0.925,
-    "regime": "sideways",
+    "momentum": 0.042,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3264,
-    "global_sentiment": 0.5755,
-    "combined_sentiment": 0.3761,
-    "confidence": 0.6334,
+    "crypto_sentiment": 0.267,
+    "global_sentiment": 0.532,
+    "combined_sentiment": 0.3279,
+    "confidence": 0.6462,
     "counts": {
       "crypto": 81,
-      "global": 35
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 95627,
-      "btc_change_24h": 0.35,
-      "eth_price": 3153.95,
-      "eth_change_24h": 2.36,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "btc_price": 95787,
+      "btc_change_24h": -1.06,
+      "eth_price": 3172.42,
+      "eth_change_24h": -1.56,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 275809955937,
-        "high_activity_coins": 2
+        "volume_24h": 211152784818,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 57.04,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-01T20:24:17.418070+00:00",
-      "crypto": 0.4678,
-      "global": 0.6258,
-      "combined": 0.4863,
-      "counts": {
-        "crypto": 68,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-11-02T02:05:51.400804+00:00",
       "crypto": 0.454,
@@ -1008,66 +998,71 @@
         "crypto": 81,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-15T16:28:25.298309+00:00",
+      "crypto": 0.267,
+      "global": 0.532,
+      "combined": 0.3279,
+      "counts": {
+        "crypto": 81,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Walmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals",
+        "url": "https://www.cnbc.com/2025/11/14/walmart-doug-mcmillon-stock-performance-target-amazon-costco.html",
+        "source": "CNBC Markets",
+        "weight": 0.7111,
+        "score": 0.6667
+      },
+      {
+        "title": "Assessing Stewards (OTCPK:SWRD) Valuation Following Name, Ticker Change and Nasdaq Uplisting Plans",
+        "url": "https://finance.yahoo.com/news/assessing-stewards-otcpk-swrd-valuation-131448355.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.551,
+        "score": 0.6667
+      },
+      {
         "title": "ARK Invest resumes crypto buying spree, adds BitMine and Bullish shares",
         "url": "https://cointelegraph.com/news/ark-invest-bitmine-bullish-share-buys-crypto-stock-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4191,
+        "weight": 0.2743,
         "score": 0.8667
-      },
-      {
-        "title": "Berkshire Hathaway's surprising new tech stake",
-        "url": "https://www.cnbc.com/2025/11/15/berkshire-hathaways-surprising-new-tech-stake.html",
-        "source": "CNBC Markets",
-        "weight": 0.7481,
-        "score": 0.3333
-      },
-      {
-        "title": "Dow Jones Futures: Nvidia Looms For Market After Wild Week. 5 Stocks Near Buy Points.",
-        "url": "https://finance.yahoo.com/m/1d5abba9-7641-3419-b997-74e0521d083f/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7465,
-        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Crypto Liquidity Still Hollow After October Crash, Risking Sharp Price Swings",
+        "url": "https://www.coindesk.com/markets/2025/11/15/crypto-liquidity-still-hollow-after-october-crash-risking-sharp-price-swings",
+        "source": "CoinDesk",
+        "weight": 0.8435,
+        "score": -0.9667
+      },
+      {
+        "title": "Beyond AI: Inside the Global Quantum Computer Race",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-15/beyond-ai-inside-the-global-quantum-computer-race-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6816,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Aster says tokenomics unchanged amid community confusion after CMC update",
-        "url": "https://cointelegraph.com/news/aster-says-tokenomics-unchanged-amid-community-confusion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7847,
-        "score": -0.3333
-      },
-      {
-        "title": "BItcoin hits 6-month low as AI fears add to risk-off mood: How are pro traders positioned?",
-        "url": "https://cointelegraph.com/news/bitcoin-hits-6-month-low-as-ai-fears-add-to-risk-off-mood-how-are-pro-traders-positioned?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.172,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6087906293488301,
-          "price_change_24h": -0.00389
-        },
-        {
-          "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3263649921909633,
-          "price_change_24h": 20.59418
+          "volume_mcap_ratio": 0.4629753647787142,
+          "price_change_24h": 0.03168
         }
       ],
       "momentum_shifts": []
