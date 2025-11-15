@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-15T08:30:11.754396+00:00",
+  "updated_at": "2025-11-15T12:48:18.860434+00:00",
   "indicators": {
-    "change24h": 0.023,
-    "vol": 0.499,
+    "change24h": 0.053,
+    "vol": 0.3,
     "fearGreed": 10,
-    "momentum": 0.409,
-    "regime": "bear",
+    "momentum": 0.925,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3405,
-    "global_sentiment": 0.4418,
-    "combined_sentiment": 0.3755,
-    "confidence": 0.7033,
+    "crypto_sentiment": 0.3264,
+    "global_sentiment": 0.5755,
+    "combined_sentiment": 0.3761,
+    "confidence": 0.6334,
     "counts": {
-      "crypto": 83,
-      "global": 37
+      "crypto": 81,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 95833,
-      "btc_change_24h": -1.04,
-      "eth_price": 3152.45,
-      "eth_change_24h": -1.2,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 95627,
+      "btc_change_24h": 0.35,
+      "eth_price": 3153.95,
+      "eth_change_24h": 2.36,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 308748023102,
-        "high_activity_coins": 1
+        "volume_24h": 275809955937,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-01T19:53:46.508420+00:00",
-      "crypto": 0.5203,
-      "global": 0.6258,
-      "combined": 0.5257,
-      "counts": {
-        "crypto": 68,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-11-01T20:24:17.418070+00:00",
       "crypto": 0.4678,
@@ -1008,6 +998,16 @@
         "crypto": 83,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-11-15T12:48:18.860434+00:00",
+      "crypto": 0.3264,
+      "global": 0.5755,
+      "combined": 0.3761,
+      "counts": {
+        "crypto": 81,
+        "global": 35
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "ARK Invest resumes crypto buying spree, adds BitMine and Bullish shares",
         "url": "https://cointelegraph.com/news/ark-invest-bitmine-bullish-share-buys-crypto-stock-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6889,
+        "weight": 0.4191,
         "score": 0.8667
       },
       {
-        "title": "S&P 500 Gains and Losses Today: DoorDash Drives Higher on a New Partnership; Bristol-Myers Squibb Stock Falls",
-        "url": "https://www.investopedia.com/s-and-p-500-gains-and-losses-today-doordash-drives-higher-on-a-new-partnership-bristol-myers-squibb-stock-falls-11850082?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2268,
-        "score": 1.0
+        "title": "Berkshire Hathaway's surprising new tech stake",
+        "url": "https://www.cnbc.com/2025/11/15/berkshire-hathaways-surprising-new-tech-stake.html",
+        "source": "CNBC Markets",
+        "weight": 0.7481,
+        "score": 0.3333
       },
       {
-        "title": "Paradise Island in Mozambique Is Getting a $102 Million Upgrade",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-15/paradise-island-in-mozambique-is-getting-a-102-million-upgrade",
-        "source": "Bloomberg Markets",
-        "weight": 0.6347,
+        "title": "Dow Jones Futures: Nvidia Looms For Market After Wild Week. 5 Stocks Near Buy Points.",
+        "url": "https://finance.yahoo.com/m/1d5abba9-7641-3419-b997-74e0521d083f/dow-jones-futures%3A-nvidia.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7465,
         "score": 0.3333
       }
     ],
@@ -1043,26 +1043,31 @@
         "score": -0.5333
       },
       {
+        "title": "Aster says tokenomics unchanged amid community confusion after CMC update",
+        "url": "https://cointelegraph.com/news/aster-says-tokenomics-unchanged-amid-community-confusion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7847,
+        "score": -0.3333
+      },
+      {
         "title": "BItcoin hits 6-month low as AI fears add to risk-off mood: How are pro traders positioned?",
         "url": "https://cointelegraph.com/news/bitcoin-hits-6-month-low-as-ai-fears-add-to-risk-off-mood-how-are-pro-traders-positioned?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.2827,
+        "weight": 0.172,
         "score": -0.9667
-      },
-      {
-        "title": "Anchorage Raises a Rare Fund With Just One Bet on Argentine Suit",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/anchorage-raises-a-rare-fund-with-just-one-bet-on-argentine-suit",
-        "source": "Bloomberg Markets",
-        "weight": 0.269,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6919404186471048,
-          "price_change_24h": -0.06228
+          "volume_mcap_ratio": 0.6087906293488301,
+          "price_change_24h": -0.00389
+        },
+        {
+          "symbol": "ZEC",
+          "volume_mcap_ratio": 0.3263649921909633,
+          "price_change_24h": 20.59418
         }
       ],
       "momentum_shifts": []
