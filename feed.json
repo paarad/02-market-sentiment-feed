@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-14T20:29:06.647698+00:00",
+  "updated_at": "2025-11-15T01:57:42.425243+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.221,
-    "fearGreed": 16,
-    "momentum": 0.153,
-    "regime": "sideways",
+    "change24h": 0.002,
+    "vol": 0.432,
+    "fearGreed": 10,
+    "momentum": 0.036,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3397,
-    "global_sentiment": 0.4104,
-    "combined_sentiment": 0.3723,
-    "confidence": 0.8203,
+    "crypto_sentiment": 0.2989,
+    "global_sentiment": 0.4375,
+    "combined_sentiment": 0.344,
+    "confidence": 0.7932,
     "counts": {
-      "crypto": 80,
-      "global": 43
+      "crypto": 82,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 94998,
-      "btc_change_24h": -3.55,
-      "eth_price": 3172.96,
-      "eth_change_24h": -0.16,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 95568,
+      "btc_change_24h": -3.71,
+      "eth_price": 3169.88,
+      "eth_change_24h": -1.06,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 16,
+        "value": 10,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 376993417303,
+        "volume_24h": 367026197256,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.81,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-01T08:29:53.952138+00:00",
-      "crypto": 0.4722,
-      "global": 0.5861,
-      "combined": 0.4863,
-      "counts": {
-        "crypto": 66,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-01T12:47:14.715797+00:00",
       "crypto": 0.3976,
@@ -1008,52 +998,62 @@
         "crypto": 80,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-15T01:57:42.425243+00:00",
+      "crypto": 0.2989,
+      "global": 0.4375,
+      "combined": 0.344,
+      "counts": {
+        "crypto": 82,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nasdaq Is ‘Staffing Up’ as Cboe Trims Back Its Funds Business",
-        "url": "https://www.bloomberg.com/news/newsletters/2025-11-14/nasdaq-is-staffing-up-as-cboe-trims-back-its-funds-business",
+        "title": "S&P 500 Gains and Losses Today: DoorDash Drives Higher on a New Partnership; Bristol-Myers Squibb Stock Falls",
+        "url": "https://www.investopedia.com/s-and-p-500-gains-and-losses-today-doordash-drives-higher-on-a-new-partnership-bristol-myers-squibb-stock-falls-11850082?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4828,
+        "score": 1.0
+      },
+      {
+        "title": "Cursor Triples Its Value to $29.3 Billion",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-14/cursor-triples-its-value-to-29-3-billion-video",
         "source": "Bloomberg Markets",
-        "weight": 0.765,
-        "score": 0.6333
+        "weight": 0.4782,
+        "score": 1.0
       },
       {
-        "title": "Stock Market Rises Amid Wild Swings As Government Shutdown Ends: Weekly Review",
-        "url": "https://finance.yahoo.com/m/c1924867-7f53-31e0-89dc-1b0650fd61cb/stock-market-rises-amid-wild.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.594,
-        "score": 0.6667
-      },
-      {
-        "title": "AI-Fueled Apple Partner Engineers New Buy Point. Then This Happens.",
-        "url": "https://finance.yahoo.com/m/0911a7e0-9862-3b90-b352-6fa718d55903/ai-fueled-apple-partner.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6574,
+        "title": "US debt hits 368M BTC: American debt machine adds a century worth of new Bitcoin supply this year alone",
+        "url": "https://cryptoslate.com/americas-debt-machine-just-hit-368m-btc-this-years-surge-equals-100-years-of-new-bitcoin-supply/",
+        "source": "CryptoSlate",
+        "weight": 0.6519,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Strategy’s NAV falls under 1, critics raise alarm after $5.7B Bitcoin wallet move",
-        "url": "https://cointelegraph.com/news/strategy-s-nav-falls-under-1-critics-raise-alarm-after-dollar5-7b-bitcoin-wallet-move?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "BItcoin hits 6-month low as AI fears add to risk-off mood: How are pro traders positioned?",
+        "url": "https://cointelegraph.com/news/bitcoin-hits-6-month-low-as-ai-fears-add-to-risk-off-mood-how-are-pro-traders-positioned?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7852,
-        "score": -1.0
-      },
-      {
-        "title": "‘We are buying’: Michael Saylor denies reports of Strategy dumping BTC",
-        "url": "https://cointelegraph.com/news/michael-saylor-strategy-dumping-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7434,
+        "weight": 0.602,
         "score": -0.9667
       },
       {
-        "title": "Merck to Buy Cidara in $9.2B Deal as Patent Deadline Looms",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-14/merck-to-buy-cidara-for-9-2b-as-patent-deadline-looms-video",
+        "title": "Anchorage Raises a Rare Fund With Just One Bet on Argentine Suit",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-14/anchorage-raises-a-rare-fund-with-just-one-bet-on-argentine-suit",
         "source": "Bloomberg Markets",
-        "weight": 0.5679,
+        "weight": 0.5727,
+        "score": -1.0
+      },
+      {
+        "title": "Stocks struggle on US rates, tech rally fears",
+        "url": "https://finance.yahoo.com/news/stocks-struggle-us-rates-tech-171709245.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5569,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8431230920180526,
-          "price_change_24h": 0.02837
+          "volume_mcap_ratio": 0.8112600276295902,
+          "price_change_24h": -0.02455
         }
       ],
       "momentum_shifts": []
