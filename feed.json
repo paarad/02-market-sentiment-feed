@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-15T19:53:34.843855+00:00",
+  "updated_at": "2025-11-15T20:25:25.877765+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.222,
+    "change24h": 0.017,
+    "vol": 0.19,
     "fearGreed": 10,
-    "momentum": 0.269,
+    "momentum": 0.292,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2568,
+    "crypto_sentiment": 0.2963,
     "global_sentiment": 0.4975,
-    "combined_sentiment": 0.3174,
-    "confidence": 0.5545,
+    "combined_sentiment": 0.347,
+    "confidence": 0.644,
     "counts": {
-      "crypto": 63,
+      "crypto": 75,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 95921,
-      "btc_change_24h": 0.49,
-      "eth_price": 3194.26,
-      "eth_change_24h": -0.12,
+      "btc_price": 95635,
+      "btc_change_24h": 0.63,
+      "eth_price": 3186.74,
+      "eth_change_24h": 0.35,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 193318608957,
+        "volume_24h": 189151712284,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.96,
+        "btc_dominance": 56.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-02T04:28:57.828197+00:00",
-      "crypto": 0.4734,
-      "global": 0.5968,
-      "combined": 0.4881,
-      "counts": {
-        "crypto": 70,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-02T08:28:08.863031+00:00",
       "crypto": 0.4087,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-15T20:25:25.877765+00:00",
+      "crypto": 0.2963,
+      "global": 0.4975,
+      "combined": 0.347,
+      "counts": {
+        "crypto": 75,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "Walmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals",
         "url": "https://www.cnbc.com/2025/11/14/walmart-doug-mcmillon-stock-performance-target-amazon-costco.html",
         "source": "CNBC Markets",
-        "weight": 0.4791,
+        "weight": 0.4506,
         "score": 0.6667
       },
       {
         "title": "Assessing Stewards (OTCPK:SWRD) Valuation Following Name, Ticker Change and Nasdaq Uplisting Plans",
         "url": "https://finance.yahoo.com/news/assessing-stewards-otcpk-swrd-valuation-131448355.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3712,
+        "weight": 0.3491,
         "score": 0.6667
-      },
-      {
-        "title": "AI Debt Explosion Has Traders Searching for Cover: Credit Weekly",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-15/ai-debt-explosion-has-traders-searching-for-cover-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.6385,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Crypto Liquidity Still Hollow After October Crash, Risking Sharp Price Swings",
+        "url": "https://www.coindesk.com/markets/2025/11/15/crypto-liquidity-still-hollow-after-october-crash-risking-sharp-price-swings",
+        "source": "CoinDesk",
+        "weight": 0.5344,
+        "score": -0.9667
+      },
+      {
+        "title": "Former SEC aide and Uniswap founder clash over decentralization’s true role",
+        "url": "https://cryptoslate.com/former-sec-aide-and-uniswap-founder-clash-over-decentralizations-true-role/",
+        "source": "CryptoSlate",
+        "weight": 0.7143,
+        "score": -0.6333
+      },
+      {
         "title": "Beyond AI: Inside the Global Quantum Computer Race",
         "url": "https://www.bloomberg.com/news/videos/2025-11-15/beyond-ai-inside-the-global-quantum-computer-race-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4591,
+        "weight": 0.4318,
         "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 10 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Nebraska joins the digital asset race (but Wyoming laid the tracks)",
-        "url": "https://cryptoslate.com/nebraska-joins-the-digital-asset-race-but-wyoming-laid-the-tracks/",
-        "source": "CryptoSlate",
-        "weight": 0.6036,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4237202028142714,
-          "price_change_24h": 0.02897
+          "volume_mcap_ratio": 0.41754458350479445,
+          "price_change_24h": 0.02122
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-15",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.2972,
-      "crypto_high": 0.3405,
-      "crypto_low": 0.2568,
-      "global_avg": 0.4834,
-      "global_high": 0.5755,
-      "global_low": 0.4161,
-      "combined_avg": 0.3465,
-      "combined_high": 0.3761,
-      "combined_low": 0.3174
-    },
-    "market_indicators_24h": {
-      "change24h": 0.015,
-      "vol": 0.222,
-      "fearGreed": 10,
-      "momentum": 0.269,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-15T19:53:34.843855+00:00"
   }
 }
