@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-15T04:29:06.186351+00:00",
+  "updated_at": "2025-11-15T08:30:11.754396+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.608,
+    "change24h": 0.023,
+    "vol": 0.499,
     "fearGreed": 10,
-    "momentum": 0.487,
+    "momentum": 0.409,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2935,
-    "global_sentiment": 0.4161,
-    "combined_sentiment": 0.3382,
-    "confidence": 0.7416,
+    "crypto_sentiment": 0.3405,
+    "global_sentiment": 0.4418,
+    "combined_sentiment": 0.3755,
+    "confidence": 0.7033,
     "counts": {
-      "crypto": 80,
+      "crypto": 83,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 96139,
-      "btc_change_24h": -2.74,
-      "eth_price": 3173.04,
-      "eth_change_24h": -1.18,
+      "btc_price": 95833,
+      "btc_change_24h": -1.04,
+      "eth_price": 3152.45,
+      "eth_change_24h": -1.2,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 358239590747,
+        "volume_24h": 308748023102,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.03,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-01T16:27:43.660454+00:00",
-      "crypto": 0.5661,
-      "global": 0.6265,
-      "combined": 0.5601,
-      "counts": {
-        "crypto": 71,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-01T19:53:46.508420+00:00",
       "crypto": 0.5203,
@@ -1008,61 +998,71 @@
         "crypto": 80,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-11-15T08:30:11.754396+00:00",
+      "crypto": 0.3405,
+      "global": 0.4418,
+      "combined": 0.3755,
+      "counts": {
+        "crypto": 83,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "ARK Invest resumes crypto buying spree, adds BitMine and Bullish shares",
+        "url": "https://cointelegraph.com/news/ark-invest-bitmine-bullish-share-buys-crypto-stock-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6889,
+        "score": 0.8667
+      },
+      {
         "title": "S&P 500 Gains and Losses Today: DoorDash Drives Higher on a New Partnership; Bristol-Myers Squibb Stock Falls",
         "url": "https://www.investopedia.com/s-and-p-500-gains-and-losses-today-doordash-drives-higher-on-a-new-partnership-bristol-myers-squibb-stock-falls-11850082?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3607,
+        "weight": 0.2268,
         "score": 1.0
       },
       {
-        "title": "US debt hits 368M BTC: American debt machine adds a century worth of new Bitcoin supply this year alone",
-        "url": "https://cryptoslate.com/americas-debt-machine-just-hit-368m-btc-this-years-surge-equals-100-years-of-new-bitcoin-supply/",
-        "source": "CryptoSlate",
-        "weight": 0.4871,
-        "score": 0.5333
-      },
-      {
-        "title": "Walmart shares are up 312% during outgoing CEO Doug McMillon's tenure. Here's how that compares to its rivals",
-        "url": "https://www.cnbc.com/2025/11/14/walmart-doug-mcmillon-stock-performance-target-amazon-costco.html",
-        "source": "CNBC Markets",
-        "weight": 0.3318,
-        "score": 0.6667
+        "title": "Paradise Island in Mozambique Is Getting a $102 Million Upgrade",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-15/paradise-island-in-mozambique-is-getting-a-102-million-upgrade",
+        "source": "Bloomberg Markets",
+        "weight": 0.6347,
+        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "BItcoin hits 6-month low as AI fears add to risk-off mood: How are pro traders positioned?",
-        "url": "https://cointelegraph.com/news/bitcoin-hits-6-month-low-as-ai-fears-add-to-risk-off-mood-how-are-pro-traders-positioned?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4498,
-        "score": -0.9667
-      },
-      {
-        "title": "Anchorage Raises a Rare Fund With Just One Bet on Argentine Suit",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-14/anchorage-raises-a-rare-fund-with-just-one-bet-on-argentine-suit",
-        "source": "Bloomberg Markets",
-        "weight": 0.4279,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "BItcoin hits 6-month low as AI fears add to risk-off mood: How are pro traders positioned?",
+        "url": "https://cointelegraph.com/news/bitcoin-hits-6-month-low-as-ai-fears-add-to-risk-off-mood-how-are-pro-traders-positioned?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.2827,
+        "score": -0.9667
+      },
+      {
+        "title": "Anchorage Raises a Rare Fund With Just One Bet on Argentine Suit",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-14/anchorage-raises-a-rare-fund-with-just-one-bet-on-argentine-suit",
+        "source": "Bloomberg Markets",
+        "weight": 0.269,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8115026259729284,
-          "price_change_24h": -0.00911
+          "volume_mcap_ratio": 0.6919404186471048,
+          "price_change_24h": -0.06228
         }
       ],
       "momentum_shifts": []
