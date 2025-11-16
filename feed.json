@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-16T16:28:54.721162+00:00",
+  "updated_at": "2025-11-16T19:53:38.348837+00:00",
   "indicators": {
-    "change24h": -0.03,
-    "vol": 0.22,
+    "change24h": -0.044,
+    "vol": 0.11,
     "fearGreed": 10,
-    "momentum": -0.521,
+    "momentum": -0.772,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3886,
-    "global_sentiment": 0.487,
-    "combined_sentiment": 0.4154,
-    "confidence": 0.5257,
+    "crypto_sentiment": 0.3035,
+    "global_sentiment": 0.4112,
+    "combined_sentiment": 0.3453,
+    "confidence": 0.5708,
     "counts": {
-      "crypto": 71,
-      "global": 39
+      "crypto": 68,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 94157,
-      "btc_change_24h": -1.66,
-      "eth_price": 3076.45,
-      "eth_change_24h": -2.9,
+      "btc_price": 94172,
+      "btc_change_24h": -1.81,
+      "eth_price": 3096.92,
+      "eth_change_24h": -3.02,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.05,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176425350454,
-        "high_activity_coins": 1
+        "volume_24h": 211992674632,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.1,
+        "btc_dominance": 57.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-03T02:04:56.359377+00:00",
-      "crypto": 0.3135,
-      "global": 0.5122,
-      "combined": 0.3611,
-      "counts": {
-        "crypto": 68,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-03T04:34:38.615360+00:00",
       "crypto": 0.3171,
@@ -1008,6 +998,16 @@
         "crypto": 71,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-16T19:53:38.348837+00:00",
+      "crypto": 0.3035,
+      "global": 0.4112,
+      "combined": 0.3453,
+      "counts": {
+        "crypto": 68,
+        "global": 36
+      }
     }
   ],
   "drivers": {
@@ -1016,31 +1016,38 @@
         "title": "Will Stewards’ (SWRD) Nasdaq Ambitions Reinforce Its Public-Market Growth Narrative?",
         "url": "https://finance.yahoo.com/news/stewards-swrd-nasdaq-ambitions-reinforce-151148835.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6896,
+        "weight": 0.465,
         "score": 1.0
       },
       {
         "title": "Popular Zero-Day Options Strategies Keep a Lid on Stock Rallies",
         "url": "https://www.bloomberg.com/news/articles/2025-11-16/popular-zero-day-options-strategies-keep-a-lid-on-stock-rallies",
         "source": "Bloomberg Markets",
-        "weight": 0.6006,
+        "weight": 0.4049,
         "score": 0.8667
       },
       {
         "title": "How much is $10k invested in BlackRock’s Bitcoin ETF at launch worth today?",
         "url": "https://cryptoslate.com/how-much-is-10k-invested-in-blackrocks-bitcoin-etf-at-launch-worth-today/",
         "source": "CryptoSlate",
-        "weight": 0.4807,
+        "weight": 0.3241,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Can the World Afford to Retire? How One Country is Addressing the Crisis",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-16/one-country-s-answer-to-the-pension-crisis-video",
+        "title": "DKSH Said to Bid for Swiss Drug Distributor Swixx Biopharma",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-16/dksh-said-to-bid-for-swiss-drug-distributor-swixx-biopharma",
         "source": "Bloomberg Markets",
-        "weight": 0.5413,
-        "score": -0.9667
+        "weight": 0.6716,
+        "score": -0.9333
+      },
+      {
+        "title": "Judge Should Not Acquit Tornado Cash Dev Roman Storm, Prosecutors Argue",
+        "url": "https://www.coindesk.com/policy/2025/11/16/judge-should-not-acquit-tornado-cash-dev-roman-storm-prosecutors-argue",
+        "source": "CoinDesk",
+        "weight": 0.9019,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
@@ -1048,21 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Crowded Emerging-Market Trades Draw Warnings From Money Managers",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-16/crowded-emerging-market-trades-draw-warnings-from-money-managers",
-        "source": "Bloomberg Markets",
-        "weight": 0.5351,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39604453074039897,
-          "price_change_24h": -0.00339
+          "volume_mcap_ratio": 0.4760590258833067,
+          "price_change_24h": 0.02102
+        },
+        {
+          "symbol": "ZEC",
+          "volume_mcap_ratio": 0.33183607506162255,
+          "price_change_24h": 1.0307
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-16",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3041,
+      "crypto_high": 0.4828,
+      "crypto_low": 0.2125,
+      "global_avg": 0.441,
+      "global_high": 0.487,
+      "global_low": 0.3808,
+      "combined_avg": 0.3482,
+      "combined_high": 0.4772,
+      "combined_low": 0.2802
+    },
+    "market_indicators_24h": {
+      "change24h": -0.044,
+      "vol": 0.11,
+      "fearGreed": 10,
+      "momentum": -0.772,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-16T19:53:38.348837+00:00"
   }
 }
