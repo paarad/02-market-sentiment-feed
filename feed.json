@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-16T12:48:16.675626+00:00",
+  "updated_at": "2025-11-16T16:28:54.721162+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.159,
+    "change24h": -0.03,
+    "vol": 0.22,
     "fearGreed": 10,
-    "momentum": 0.13,
-    "regime": "sideways",
+    "momentum": -0.521,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4828,
-    "global_sentiment": 0.3808,
-    "combined_sentiment": 0.4772,
-    "confidence": 0.4835,
+    "crypto_sentiment": 0.3886,
+    "global_sentiment": 0.487,
+    "combined_sentiment": 0.4154,
+    "confidence": 0.5257,
     "counts": {
-      "crypto": 70,
+      "crypto": 71,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 95711,
-      "btc_change_24h": 0.09,
-      "eth_price": 3172.83,
-      "eth_change_24h": 0.59,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 94157,
+      "btc_change_24h": -1.66,
+      "eth_price": 3076.45,
+      "eth_change_24h": -2.9,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165809517186,
+        "volume_24h": 176425350454,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.06,
+        "btc_dominance": 57.1,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-02T20:24:53.047647+00:00",
-      "crypto": 0.2683,
-      "global": 0.4325,
-      "combined": 0.3206,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-03T02:04:56.359377+00:00",
       "crypto": 0.3135,
@@ -1008,33 +998,50 @@
         "crypto": 70,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-16T16:28:54.721162+00:00",
+      "crypto": 0.3886,
+      "global": 0.487,
+      "combined": 0.4154,
+      "counts": {
+        "crypto": 71,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Will Stewards’ (SWRD) Nasdaq Ambitions Reinforce Its Public-Market Growth Narrative?",
+        "url": "https://finance.yahoo.com/news/stewards-swrd-nasdaq-ambitions-reinforce-151148835.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6896,
+        "score": 1.0
+      },
+      {
+        "title": "Popular Zero-Day Options Strategies Keep a Lid on Stock Rallies",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-16/popular-zero-day-options-strategies-keep-a-lid-on-stock-rallies",
+        "source": "Bloomberg Markets",
+        "weight": 0.6006,
+        "score": 0.8667
+      },
+      {
         "title": "How much is $10k invested in BlackRock’s Bitcoin ETF at launch worth today?",
         "url": "https://cryptoslate.com/how-much-is-10k-invested-in-blackrocks-bitcoin-etf-at-launch-worth-today/",
         "source": "CryptoSlate",
-        "weight": 0.7351,
+        "weight": 0.4807,
         "score": 0.6667
-      },
-      {
-        "title": "Upbit operator Dunamu posts $165M in profit in Q3, up over 300% YoY",
-        "url": "https://cointelegraph.com/news/dunamu-upbit-q3-profit-300-percent-surge-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5859,
-        "score": 0.3333
-      },
-      {
-        "title": "Nvidia Helped Spark the AI Rally. Its Earnings Could Revive It.",
-        "url": "https://finance.yahoo.com/m/99a526f8-64c8-3182-ba6c-1a31e1022da2/nvidia-helped-spark-the-ai.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4335,
-        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Can the World Afford to Retire? How One Country is Addressing the Crisis",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-16/one-country-s-answer-to-the-pension-crisis-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5413,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,26 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "Israel’s Economy Rebounded Strongly Ahead of Gaza Ceasefire",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-16/israel-s-economy-rebounded-strongly-ahead-of-gaza-ceasefire",
+        "title": "Crowded Emerging-Market Trades Draw Warnings From Money Managers",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-16/crowded-emerging-market-trades-draw-warnings-from-money-managers",
         "source": "Bloomberg Markets",
-        "weight": 0.6535,
-        "score": -0.6333
-      },
-      {
-        "title": "South Africa Moves Ahead With Nuclear Power Expansion Plans",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-16/south-africa-moves-ahead-with-nuclear-power-expansion-plans",
-        "source": "Bloomberg Markets",
-        "weight": 0.6396,
-        "score": -0.6333
+        "weight": 0.5351,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36551307063703337,
-          "price_change_24h": 0.0054
+          "volume_mcap_ratio": 0.39604453074039897,
+          "price_change_24h": -0.00339
         }
       ],
       "momentum_shifts": []
