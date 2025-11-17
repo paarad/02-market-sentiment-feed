@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-16T20:26:49.782810+00:00",
+  "updated_at": "2025-11-17T02:03:17.200161+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.122,
-    "fearGreed": 10,
-    "momentum": -0.619,
+    "change24h": -0.01,
+    "vol": 0.081,
+    "fearGreed": 14,
+    "momentum": -0.179,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3021,
-    "global_sentiment": 0.4168,
-    "combined_sentiment": 0.3447,
-    "confidence": 0.5685,
+    "crypto_sentiment": 0.3885,
+    "global_sentiment": 0.3791,
+    "combined_sentiment": 0.4063,
+    "confidence": 0.6475,
     "counts": {
       "crypto": 68,
-      "global": 38
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 94423,
-      "btc_change_24h": -1.25,
-      "eth_price": 3102.87,
-      "eth_change_24h": -2.65,
+      "btc_price": 94721,
+      "btc_change_24h": -0.51,
+      "eth_price": 3113.75,
+      "eth_change_24h": -1.01,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 10,
+        "value": 14,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 213518362670,
+        "volume_24h": 255579814417,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-03T08:35:45.353715+00:00",
-      "crypto": 0.2656,
-      "global": 0.5704,
-      "combined": 0.3301,
-      "counts": {
-        "crypto": 71,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-03T12:54:28.064690+00:00",
       "crypto": 0.3254,
@@ -1008,66 +998,76 @@
         "crypto": 68,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-17T02:03:17.200161+00:00",
+      "crypto": 0.3885,
+      "global": 0.3791,
+      "combined": 0.4063,
+      "counts": {
+        "crypto": 68,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Harvard University triples stake in BlackRock’s Bitcoin ETF, filing shows",
+        "url": "https://cointelegraph.com/news/harvard-university-triples-stake-blackrock-bitcoin-etf-filing-shows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7849,
+        "score": 0.3333
+      },
+      {
         "title": "Will Stewards’ (SWRD) Nasdaq Ambitions Reinforce Its Public-Market Growth Narrative?",
         "url": "https://finance.yahoo.com/news/stewards-swrd-nasdaq-ambitions-reinforce-151148835.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4362,
+        "weight": 0.2282,
         "score": 1.0
       },
       {
-        "title": "Popular Zero-Day Options Strategies Keep a Lid on Stock Rallies",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-16/popular-zero-day-options-strategies-keep-a-lid-on-stock-rallies",
+        "title": "Japan Retail, Tourism Shares Slump After China Travel Warning",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-17/japan-s-tourism-shares-drop-after-china-warning-on-travel-study",
         "source": "Bloomberg Markets",
-        "weight": 0.3799,
-        "score": 0.8667
-      },
-      {
-        "title": "Bond Traders Eye Make-or-Break Data to Chart the Fed’s Next Move",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-16/bond-traders-eye-make-or-break-data-to-chart-the-fed-s-next-move",
-        "source": "Bloomberg Markets",
-        "weight": 0.7597,
+        "weight": 0.6522,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "DKSH Said to Bid for Swiss Drug Distributor Swixx Biopharma",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-16/dksh-said-to-bid-for-swiss-drug-distributor-swixx-biopharma",
-        "source": "Bloomberg Markets",
-        "weight": 0.63,
-        "score": -0.9333
-      },
-      {
-        "title": "Judge Should Not Acquit Tornado Cash Dev Roman Storm, Prosecutors Argue",
-        "url": "https://www.coindesk.com/policy/2025/11/16/judge-should-not-acquit-tornado-cash-dev-roman-storm-prosecutors-argue",
-        "source": "CoinDesk",
-        "weight": 0.846,
-        "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 10 (Fear) — bearish",
+        "title": "Fear & Greed 14 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Oil Falls on Signs Russia’s Novorossiysk Port Resumes Operations",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-16/latest-oil-market-news-and-analysis-for-nov-17",
+        "source": "Bloomberg Markets",
+        "weight": 0.5937,
+        "score": -0.6667
+      },
+      {
+        "title": "Billions Spent, But Mumbai Still Drowns Every Monsoon",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-16/lions-spent-but-mumbai-still-drowns-every-monsoon-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5259,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47945662496900743,
-          "price_change_24h": -0.0205
+          "volume_mcap_ratio": 0.5723006738649954,
+          "price_change_24h": -0.00719
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.33584794981443206,
-          "price_change_24h": 3.50972
+          "volume_mcap_ratio": 0.38100888831181257,
+          "price_change_24h": 3.05472
         }
       ],
       "momentum_shifts": []
