@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-17T19:53:47.485142+00:00",
+  "updated_at": "2025-11-17T20:29:14.263939+00:00",
   "indicators": {
     "change24h": -0.046,
-    "vol": 0.163,
+    "vol": 0.143,
     "fearGreed": 14,
-    "momentum": -0.797,
+    "momentum": -0.798,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3533,
-    "global_sentiment": 0.365,
-    "combined_sentiment": 0.3787,
-    "confidence": 0.8065,
+    "crypto_sentiment": 0.3526,
+    "global_sentiment": 0.4061,
+    "combined_sentiment": 0.3816,
+    "confidence": 0.7988,
     "counts": {
-      "crypto": 58,
-      "global": 46
+      "crypto": 57,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 91744,
-      "btc_change_24h": -2.36,
-      "eth_price": 2983.74,
-      "eth_change_24h": -3.43,
+      "btc_price": 91795,
+      "btc_change_24h": -2.87,
+      "eth_price": 2990.46,
+      "eth_change_24h": -3.7,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 309174111747,
+        "volume_24h": 318298530910,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.04,
+        "btc_dominance": 57.03,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-04T04:29:47.344543+00:00",
-      "crypto": 0.3769,
-      "global": 0.4816,
-      "combined": 0.4062,
-      "counts": {
-        "crypto": 69,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-04T08:35:12.358337+00:00",
       "crypto": 0.4064,
@@ -1008,29 +998,39 @@
         "crypto": 58,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-11-17T20:29:14.263939+00:00",
+      "crypto": 0.3526,
+      "global": 0.4061,
+      "combined": 0.3816,
+      "counts": {
+        "crypto": 57,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Dips As Nvidia Lags; Netflix Drops From $1,100 To $111 — Here's Why (Live Coverage)",
+        "title": "Stock Market Today: Dow Dips As Biotech Eyes Entry; Why Netflix Went From $1,100 To $111 (Live Coverage)",
         "url": "https://finance.yahoo.com/m/468e8130-f32a-3760-8e5b-926e48c14dd5/stock-market-today%3A-dow-dips.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6825,
+        "weight": 0.7595,
         "score": 0.8667
       },
       {
         "title": "ZEC Bounced over $700! Crypto still in Extreme Fear! Harvard buys $350M Bitcoin!",
         "url": "https://decrypt.co/videos/interviews/1sEmGlV4/zec-bounced-over-700-crypto-still-in-extreme-fear-harvard-buys-350m-bitcoin",
         "source": "Decrypt",
-        "weight": 0.5551,
+        "weight": 0.5185,
         "score": 1.0
       },
       {
-        "title": "Rare Bitcoin futures signal could catch traders off-guard: Is a bottom forming?",
-        "url": "https://cointelegraph.com/news/rare-bitcoin-futures-signal-could-catch-traders-off-guard-is-a-bottom-forming?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6065,
+        "title": "Alphabet rallies after Berkshire reveals stake. Why Buffett’s firm likely bought it",
+        "url": "https://www.cnbc.com/2025/11/17/alphabet-rallies-after-berkshire-reveals-stake-why-buffetts-firm-likely-bought-it.html",
+        "source": "CNBC Markets",
+        "weight": 0.7962,
         "score": 0.5333
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Kindly MD Delays Earnings Report Filing as Merger Losses Mount; Shares Drop",
         "url": "https://www.coindesk.com/markets/2025/11/17/kindly-md-delays-earnings-report-filing-as-merger-losses-mount-shares-drop",
         "source": "CoinDesk",
-        "weight": 0.8327,
+        "weight": 0.7778,
         "score": -1.0
       },
       {
         "title": "Jeep eyes U.S. comeback following yearslong sales troubles",
         "url": "https://www.cnbc.com/2025/11/17/jeep-recon-wrangler-grand-wagoneer.html",
         "source": "CNBC Markets",
-        "weight": 0.6845,
+        "weight": 0.6393,
         "score": -0.9667
       },
       {
         "title": "Young Bitcoin holders panic sell 148K BTC as analysts call for sub-$90K BTC bottom",
         "url": "https://cointelegraph.com/news/young-bitcoin-holders-panic-sell-148k-btc-as-analysts-call-for-sub-dollar90k-btc-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6219,
+        "weight": 0.5808,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7127576794089601,
-          "price_change_24h": -0.05859
+          "volume_mcap_ratio": 0.7381313239235423,
+          "price_change_24h": -0.06427
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-17",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3794,
-      "crypto_high": 0.4308,
-      "crypto_low": 0.3515,
-      "global_avg": 0.3905,
-      "global_high": 0.4319,
-      "global_low": 0.3415,
-      "combined_avg": 0.4004,
-      "combined_high": 0.4398,
-      "combined_low": 0.3787
-    },
-    "market_indicators_24h": {
-      "change24h": -0.046,
-      "vol": 0.163,
-      "fearGreed": 14,
-      "momentum": -0.797,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-17T19:53:47.485142+00:00"
   }
 }
