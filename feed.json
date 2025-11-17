@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-17T12:54:51.670542+00:00",
+  "updated_at": "2025-11-17T16:35:33.127416+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.009,
+    "vol": 0.134,
     "fearGreed": 14,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.155,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3623,
-    "global_sentiment": 0.3415,
-    "combined_sentiment": 0.3835,
-    "confidence": 0.6762,
+    "crypto_sentiment": 0.3515,
+    "global_sentiment": 0.4319,
+    "combined_sentiment": 0.3829,
+    "confidence": 0.7678,
     "counts": {
-      "crypto": 55,
-      "global": 44
+      "crypto": 59,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 95258,
-      "btc_change_24h": -0.53,
-      "eth_price": 3181.05,
-      "eth_change_24h": 0.26,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 93561,
+      "btc_change_24h": -0.59,
+      "eth_price": 3089.88,
+      "eth_change_24h": 0.55,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 266878277551,
-        "high_activity_coins": 2
+        "volume_24h": 297738018290,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.94,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-03T20:28:38.288864+00:00",
-      "crypto": 0.4535,
-      "global": 0.4887,
-      "combined": 0.4642,
-      "counts": {
-        "crypto": 69,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-11-04T02:00:06.489208+00:00",
       "crypto": 0.395,
@@ -1008,66 +998,71 @@
         "crypto": 55,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-11-17T16:35:33.127416+00:00",
+      "crypto": 0.3515,
+      "global": 0.4319,
+      "combined": 0.3829,
+      "counts": {
+        "crypto": 59,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How did a pro-Bitcoin government end up overseeing this $1 trillion market implosion?",
-        "url": "https://cryptoslate.com/how-did-a-pro-bitcoin-government-end-up-overseeing-a-market-implosion/",
-        "source": "CryptoSlate",
-        "weight": 0.6639,
+        "title": "ZEC Bounced over $700! Crypto still in Extreme Fear! Harvard buys $350M Bitcoin!",
+        "url": "https://decrypt.co/videos/interviews/1sEmGlV4/zec-bounced-over-700-crypto-still-in-extreme-fear-harvard-buys-350m-bitcoin",
+        "source": "Decrypt",
+        "weight": 0.8132,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today: Dow Dips As These Lithium Stocks Soar; Google Up On Warren Buffett Move (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/468e8130-f32a-3760-8e5b-926e48c14dd5/stock-market-today%3A-dow-dips.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.749,
+        "score": 0.8667
+      },
+      {
+        "title": "Alphabet rallies after Berkshire reveals stake. Why Buffett’s firm likely bought it",
+        "url": "https://www.cnbc.com/2025/11/17/alphabet-rallies-after-berkshire-reveals-stake-why-buffetts-firm-likely-bought-it.html",
+        "source": "CNBC Markets",
+        "weight": 0.7839,
         "score": 0.5333
-      },
-      {
-        "title": "BTC price bull market lost? 5 things to know in Bitcoin this week",
-        "url": "https://cointelegraph.com/news/btc-price-bull-market-lost-5-things-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8317,
-        "score": 0.3333
-      },
-      {
-        "title": "South African Yields Fall to Record Low After S&amp;P Rating Upgrade",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-17/south-african-yields-fall-to-record-low-after-s-p-rating-upgrade",
-        "source": "Bloomberg Markets",
-        "weight": 0.7815,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Young Bitcoin holders panic sell 148K BTC as analysts call for sub-$90K BTC bottom",
+        "url": "https://cointelegraph.com/news/young-bitcoin-holders-panic-sell-148k-btc-as-analysts-call-for-sub-dollar90k-btc-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9109,
+        "score": -1.0
+      },
+      {
+        "title": "Deutsche Bank Joins Barclays, Apollo Targeting Energy Transition Deals",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-17/deutsche-bank-joins-barclays-apollo-targeting-transition-deals",
+        "source": "Bloomberg Markets",
+        "weight": 0.7633,
+        "score": -0.9667
+      },
+      {
         "title": "Jeep eyes U.S. comeback following yearslong sales troubles",
         "url": "https://www.cnbc.com/2025/11/17/jeep-recon-wrangler-grand-wagoneer.html",
         "source": "CNBC Markets",
-        "weight": 0.7198,
+        "weight": 0.7069,
         "score": -0.9667
-      },
-      {
-        "title": "Wall Street Rebounds: Nasdaq Gains as Tech Stocks Recover From Sharp Sell-Off",
-        "url": "https://finance.yahoo.com/news/wall-street-rebounds-nasdaq-gains-094951225.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5603,
-        "score": -0.9667
-      },
-      {
-        "title": "How Anthropic stopped AI agents working for Chinese state-sponsored spy campaign",
-        "url": "https://cryptoslate.com/how-anthropic-stopped-ai-agents-working-for-chinese-state-sponsored-spy-campaign/",
-        "source": "CryptoSlate",
-        "weight": 0.5264,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.604018500070824,
-          "price_change_24h": -0.01972
-        },
-        {
-          "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3059625159441964,
-          "price_change_24h": -3.43021
+          "volume_mcap_ratio": 0.6881898898523965,
+          "price_change_24h": -0.01182
         }
       ],
       "momentum_shifts": []
