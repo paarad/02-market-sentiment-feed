@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-17T16:35:33.127416+00:00",
+  "updated_at": "2025-11-17T19:53:47.485142+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.134,
+    "change24h": -0.046,
+    "vol": 0.163,
     "fearGreed": 14,
-    "momentum": -0.155,
-    "regime": "sideways",
+    "momentum": -0.797,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3515,
-    "global_sentiment": 0.4319,
-    "combined_sentiment": 0.3829,
-    "confidence": 0.7678,
+    "crypto_sentiment": 0.3533,
+    "global_sentiment": 0.365,
+    "combined_sentiment": 0.3787,
+    "confidence": 0.8065,
     "counts": {
-      "crypto": 59,
+      "crypto": 58,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 93561,
-      "btc_change_24h": -0.59,
-      "eth_price": 3089.88,
-      "eth_change_24h": 0.55,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 91744,
+      "btc_change_24h": -2.36,
+      "eth_price": 2983.74,
+      "eth_change_24h": -3.43,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 297738018290,
+        "volume_24h": 309174111747,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.94,
+        "btc_dominance": 57.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-04T02:00:06.489208+00:00",
-      "crypto": 0.395,
-      "global": 0.4664,
-      "combined": 0.4184,
-      "counts": {
-        "crypto": 67,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-04T04:29:47.344543+00:00",
       "crypto": 0.3769,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-11-17T19:53:47.485142+00:00",
+      "crypto": 0.3533,
+      "global": 0.365,
+      "combined": 0.3787,
+      "counts": {
+        "crypto": 58,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ZEC Bounced over $700! Crypto still in Extreme Fear! Harvard buys $350M Bitcoin!",
-        "url": "https://decrypt.co/videos/interviews/1sEmGlV4/zec-bounced-over-700-crypto-still-in-extreme-fear-harvard-buys-350m-bitcoin",
-        "source": "Decrypt",
-        "weight": 0.8132,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market Today: Dow Dips As These Lithium Stocks Soar; Google Up On Warren Buffett Move (Live Coverage)",
+        "title": "Stock Market Today: Dow Dips As Nvidia Lags; Netflix Drops From $1,100 To $111 — Here's Why (Live Coverage)",
         "url": "https://finance.yahoo.com/m/468e8130-f32a-3760-8e5b-926e48c14dd5/stock-market-today%3A-dow-dips.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.749,
+        "weight": 0.6825,
         "score": 0.8667
       },
       {
-        "title": "Alphabet rallies after Berkshire reveals stake. Why Buffett’s firm likely bought it",
-        "url": "https://www.cnbc.com/2025/11/17/alphabet-rallies-after-berkshire-reveals-stake-why-buffetts-firm-likely-bought-it.html",
-        "source": "CNBC Markets",
-        "weight": 0.7839,
+        "title": "ZEC Bounced over $700! Crypto still in Extreme Fear! Harvard buys $350M Bitcoin!",
+        "url": "https://decrypt.co/videos/interviews/1sEmGlV4/zec-bounced-over-700-crypto-still-in-extreme-fear-harvard-buys-350m-bitcoin",
+        "source": "Decrypt",
+        "weight": 0.5551,
+        "score": 1.0
+      },
+      {
+        "title": "Rare Bitcoin futures signal could catch traders off-guard: Is a bottom forming?",
+        "url": "https://cointelegraph.com/news/rare-bitcoin-futures-signal-could-catch-traders-off-guard-is-a-bottom-forming?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6065,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Young Bitcoin holders panic sell 148K BTC as analysts call for sub-$90K BTC bottom",
-        "url": "https://cointelegraph.com/news/young-bitcoin-holders-panic-sell-148k-btc-as-analysts-call-for-sub-dollar90k-btc-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9109,
+        "title": "Kindly MD Delays Earnings Report Filing as Merger Losses Mount; Shares Drop",
+        "url": "https://www.coindesk.com/markets/2025/11/17/kindly-md-delays-earnings-report-filing-as-merger-losses-mount-shares-drop",
+        "source": "CoinDesk",
+        "weight": 0.8327,
         "score": -1.0
-      },
-      {
-        "title": "Deutsche Bank Joins Barclays, Apollo Targeting Energy Transition Deals",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-17/deutsche-bank-joins-barclays-apollo-targeting-transition-deals",
-        "source": "Bloomberg Markets",
-        "weight": 0.7633,
-        "score": -0.9667
       },
       {
         "title": "Jeep eyes U.S. comeback following yearslong sales troubles",
         "url": "https://www.cnbc.com/2025/11/17/jeep-recon-wrangler-grand-wagoneer.html",
         "source": "CNBC Markets",
-        "weight": 0.7069,
+        "weight": 0.6845,
         "score": -0.9667
+      },
+      {
+        "title": "Young Bitcoin holders panic sell 148K BTC as analysts call for sub-$90K BTC bottom",
+        "url": "https://cointelegraph.com/news/young-bitcoin-holders-panic-sell-148k-btc-as-analysts-call-for-sub-dollar90k-btc-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6219,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6881898898523965,
-          "price_change_24h": -0.01182
+          "volume_mcap_ratio": 0.7127576794089601,
+          "price_change_24h": -0.05859
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-17",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3794,
+      "crypto_high": 0.4308,
+      "crypto_low": 0.3515,
+      "global_avg": 0.3905,
+      "global_high": 0.4319,
+      "global_low": 0.3415,
+      "combined_avg": 0.4004,
+      "combined_high": 0.4398,
+      "combined_low": 0.3787
+    },
+    "market_indicators_24h": {
+      "change24h": -0.046,
+      "vol": 0.163,
+      "fearGreed": 14,
+      "momentum": -0.797,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-17T19:53:47.485142+00:00"
   }
 }
