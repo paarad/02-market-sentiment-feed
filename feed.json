@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-18T02:01:07.115121+00:00",
+  "updated_at": "2025-11-18T04:31:17.415955+00:00",
   "indicators": {
-    "change24h": -0.057,
-    "vol": 0.207,
+    "change24h": -0.08,
+    "vol": 0.222,
     "fearGreed": 11,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3695,
-    "global_sentiment": 0.3753,
-    "combined_sentiment": 0.3917,
-    "confidence": 0.7846,
+    "crypto_sentiment": 0.3789,
+    "global_sentiment": 0.4613,
+    "combined_sentiment": 0.4059,
+    "confidence": 0.7751,
     "counts": {
       "crypto": 61,
-      "global": 43
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 91606,
-      "btc_change_24h": -3.31,
-      "eth_price": 3014.54,
-      "eth_change_24h": -3.23,
+      "btc_price": 89859,
+      "btc_change_24h": -5.77,
+      "eth_price": 2976.61,
+      "eth_change_24h": -6.45,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.1,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 326275947499,
+        "volume_24h": 360016747194,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-04T12:57:07.201382+00:00",
-      "crypto": 0.3351,
-      "global": 0.5765,
-      "combined": 0.3827,
-      "counts": {
-        "crypto": 70,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-11-04T16:31:39.132757+00:00",
       "crypto": 0.3539,
@@ -1008,52 +998,62 @@
         "crypto": 61,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-18T04:31:17.415955+00:00",
+      "crypto": 0.3789,
+      "global": 0.4613,
+      "combined": 0.4059,
+      "counts": {
+        "crypto": 61,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "India’s goods trade deficit in October shatters records, beating estimates, as gold imports surge 200%",
+        "url": "https://www.cnbc.com/2025/11/18/indias-goods-trade-deficit-october-record-high-tariffs-gold-imports-.html",
+        "source": "CNBC Markets",
+        "weight": 0.6548,
+        "score": 1.0
+      },
+      {
+        "title": "Atlantic LNG Freight Rates Surge to Highest Since Early 2024",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-18/atlantic-lng-freight-rates-surge-to-highest-since-early-2024",
+        "source": "Bloomberg Markets",
+        "weight": 0.6709,
+        "score": 0.8667
+      },
+      {
         "title": "XRP traders hope fresh wave of ETF launches will restore the bull trend",
         "url": "https://cointelegraph.com/news/xrp-traders-hope-fresh-wave-of-etf-launches-will-restore-the-bull-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5173,
+        "weight": 0.3874,
         "score": 1.0
-      },
-      {
-        "title": "ZEC Bounced over $700! Crypto still in Extreme Fear! Harvard buys $350M Bitcoin!",
-        "url": "https://decrypt.co/videos/interviews/1sEmGlV4/zec-bounced-over-700-crypto-still-in-extreme-fear-harvard-buys-350m-bitcoin",
-        "source": "Decrypt",
-        "weight": 0.2737,
-        "score": 1.0
-      },
-      {
-        "title": "Jeffrey Epstein files: Larry Summers steps back from public commitments over email fallout",
-        "url": "https://www.cnbc.com/2025/11/17/larry-summers-jeffrey-epstein-harvard.html",
-        "source": "CNBC Markets",
-        "weight": 0.7962,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin Crashes Under $90K as Death Cross Creates 'Extreme Fear' Sentiment",
+        "url": "https://www.coindesk.com/markets/2025/11/18/bitcoin-crashes-under-usd90k-as-death-cross-creates-extreme-fear-sentiment",
+        "source": "CoinDesk",
+        "weight": 0.9134,
+        "score": -0.6333
+      },
+      {
+        "title": "Crypto bank AMINA gets Hong Kong license to launch institutional trading",
+        "url": "https://cointelegraph.com/news/crypto-bank-amina-gets-hong-kong-license-to-launch-institutional-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7536,
+        "score": -0.6333
+      },
+      {
         "title": "Survey of AI Founders Predicts Perplexity is the AI Giant Most Likely to Fail",
         "url": "https://decrypt.co/348999/survey-ai-founders-perplexity-ai-giant-most-likely-to-fail",
         "source": "Decrypt",
-        "weight": 0.5966,
-        "score": -1.0
-      },
-      {
-        "title": "Stock Selloff Deepens Ahead of Nvidia, Jobs Data: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-17/asian-stocks-set-for-declines-as-selloff-deepens-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.5359,
-        "score": -1.0
-      },
-      {
-        "title": "New Fortress Energy in Forbearance Talks as Debt Deadline Looms",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-17/new-fortress-energy-in-forbearance-talks-as-debt-deadline-looms",
-        "source": "Bloomberg Markets",
-        "weight": 0.5307,
+        "weight": 0.4468,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7467557967789434,
-          "price_change_24h": -0.04425
+          "volume_mcap_ratio": 0.8180920262660871,
+          "price_change_24h": -0.02628
         },
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.3064560720715508,
-          "price_change_24h": 2.20668
+          "volume_mcap_ratio": 0.3230331506345035,
+          "price_change_24h": -0.43302
         }
       ],
       "momentum_shifts": []
