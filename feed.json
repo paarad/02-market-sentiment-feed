@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-17T20:29:14.263939+00:00",
+  "updated_at": "2025-11-18T02:01:07.115121+00:00",
   "indicators": {
-    "change24h": -0.046,
-    "vol": 0.143,
-    "fearGreed": 14,
-    "momentum": -0.798,
+    "change24h": -0.057,
+    "vol": 0.207,
+    "fearGreed": 11,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3526,
-    "global_sentiment": 0.4061,
-    "combined_sentiment": 0.3816,
-    "confidence": 0.7988,
+    "crypto_sentiment": 0.3695,
+    "global_sentiment": 0.3753,
+    "combined_sentiment": 0.3917,
+    "confidence": 0.7846,
     "counts": {
-      "crypto": 57,
-      "global": 47
+      "crypto": 61,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 91795,
-      "btc_change_24h": -2.87,
-      "eth_price": 2990.46,
-      "eth_change_24h": -3.7,
+      "btc_price": 91606,
+      "btc_change_24h": -3.31,
+      "eth_price": 3014.54,
+      "eth_change_24h": -3.23,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 14,
+        "value": 11,
         "classification": "Extreme Fear",
-        "trend": "declining"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 318298530910,
-        "high_activity_coins": 1
+        "volume_24h": 326275947499,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.03,
+        "btc_dominance": 56.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-04T08:35:12.358337+00:00",
-      "crypto": 0.4064,
-      "global": 0.5579,
-      "combined": 0.4346,
-      "counts": {
-        "crypto": 70,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-11-04T12:57:07.201382+00:00",
       "crypto": 0.3351,
@@ -1008,52 +998,62 @@
         "crypto": 57,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-11-18T02:01:07.115121+00:00",
+      "crypto": 0.3695,
+      "global": 0.3753,
+      "combined": 0.3917,
+      "counts": {
+        "crypto": 61,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Dips As Biotech Eyes Entry; Why Netflix Went From $1,100 To $111 (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/468e8130-f32a-3760-8e5b-926e48c14dd5/stock-market-today%3A-dow-dips.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7595,
-        "score": 0.8667
+        "title": "XRP traders hope fresh wave of ETF launches will restore the bull trend",
+        "url": "https://cointelegraph.com/news/xrp-traders-hope-fresh-wave-of-etf-launches-will-restore-the-bull-trend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5173,
+        "score": 1.0
       },
       {
         "title": "ZEC Bounced over $700! Crypto still in Extreme Fear! Harvard buys $350M Bitcoin!",
         "url": "https://decrypt.co/videos/interviews/1sEmGlV4/zec-bounced-over-700-crypto-still-in-extreme-fear-harvard-buys-350m-bitcoin",
         "source": "Decrypt",
-        "weight": 0.5185,
+        "weight": 0.2737,
         "score": 1.0
       },
       {
-        "title": "Alphabet rallies after Berkshire reveals stake. Why Buffett’s firm likely bought it",
-        "url": "https://www.cnbc.com/2025/11/17/alphabet-rallies-after-berkshire-reveals-stake-why-buffetts-firm-likely-bought-it.html",
+        "title": "Jeffrey Epstein files: Larry Summers steps back from public commitments over email fallout",
+        "url": "https://www.cnbc.com/2025/11/17/larry-summers-jeffrey-epstein-harvard.html",
         "source": "CNBC Markets",
         "weight": 0.7962,
-        "score": 0.5333
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Kindly MD Delays Earnings Report Filing as Merger Losses Mount; Shares Drop",
-        "url": "https://www.coindesk.com/markets/2025/11/17/kindly-md-delays-earnings-report-filing-as-merger-losses-mount-shares-drop",
-        "source": "CoinDesk",
-        "weight": 0.7778,
+        "title": "Survey of AI Founders Predicts Perplexity is the AI Giant Most Likely to Fail",
+        "url": "https://decrypt.co/348999/survey-ai-founders-perplexity-ai-giant-most-likely-to-fail",
+        "source": "Decrypt",
+        "weight": 0.5966,
         "score": -1.0
       },
       {
-        "title": "Jeep eyes U.S. comeback following yearslong sales troubles",
-        "url": "https://www.cnbc.com/2025/11/17/jeep-recon-wrangler-grand-wagoneer.html",
-        "source": "CNBC Markets",
-        "weight": 0.6393,
-        "score": -0.9667
+        "title": "Stock Selloff Deepens Ahead of Nvidia, Jobs Data: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-17/asian-stocks-set-for-declines-as-selloff-deepens-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.5359,
+        "score": -1.0
       },
       {
-        "title": "Young Bitcoin holders panic sell 148K BTC as analysts call for sub-$90K BTC bottom",
-        "url": "https://cointelegraph.com/news/young-bitcoin-holders-panic-sell-148k-btc-as-analysts-call-for-sub-dollar90k-btc-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5808,
+        "title": "New Fortress Energy in Forbearance Talks as Debt Deadline Looms",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-17/new-fortress-energy-in-forbearance-talks-as-debt-deadline-looms",
+        "source": "Bloomberg Markets",
+        "weight": 0.5307,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7381313239235423,
-          "price_change_24h": -0.06427
+          "volume_mcap_ratio": 0.7467557967789434,
+          "price_change_24h": -0.04425
+        },
+        {
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.3064560720715508,
+          "price_change_24h": 2.20668
         }
       ],
       "momentum_shifts": []
