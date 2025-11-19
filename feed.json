@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-18T19:53:51.422467+00:00",
+  "updated_at": "2025-11-19T02:01:05.544294+00:00",
   "indicators": {
-    "change24h": 0.091,
-    "vol": 0.299,
-    "fearGreed": 11,
+    "change24h": 0.057,
+    "vol": 0.294,
+    "fearGreed": 15,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4563,
-    "global_sentiment": 0.3595,
-    "combined_sentiment": 0.4555,
-    "confidence": 0.8326,
+    "crypto_sentiment": 0.5007,
+    "global_sentiment": 0.4229,
+    "combined_sentiment": 0.4941,
+    "confidence": 0.7855,
     "counts": {
-      "crypto": 67,
-      "global": 45
+      "crypto": 68,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 93058,
-      "btc_change_24h": 1.55,
-      "eth_price": 3143.33,
-      "eth_change_24h": 5.47,
+      "btc_price": 92316,
+      "btc_change_24h": 0.82,
+      "eth_price": 3100.29,
+      "eth_change_24h": 2.94,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 11,
+        "value": 15,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 372073095734,
+        "volume_24h": 319019454520,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-05T04:30:09.268784+00:00",
-      "crypto": 0.3242,
-      "global": 0.3554,
-      "combined": 0.3561,
-      "counts": {
-        "crypto": 81,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-11-05T08:35:05.197935+00:00",
       "crypto": 0.3269,
@@ -1008,61 +998,71 @@
         "crypto": 67,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-11-19T02:01:05.544294+00:00",
+      "crypto": 0.5007,
+      "global": 0.4229,
+      "combined": 0.4941,
+      "counts": {
+        "crypto": 68,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Prediction Market Myriad Partners With Walrus Decentralized Data Storage Layer",
-        "url": "https://decrypt.co/349036/prediction-market-myriad-partners-with-walrus-decentralized-data-storage-layer",
-        "source": "Decrypt",
-        "weight": 0.6094,
+        "title": "reAlpha ($AIRE) Granted 180-Day Extension by Nasdaq to Regain Compliance with Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/news/realpha-aire-granted-180-day-213000149.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5696,
+        "score": 0.9667
+      },
+      {
+        "title": "New Toku–PDAX partnership lets Filipino workers receive pay in stablecoins",
+        "url": "https://cointelegraph.com/news/new-toku-pdax-partnership-filipino-workers-receive-pay-in-stablecoins-instant-local-cashout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4764,
         "score": 0.9167
       },
       {
-        "title": "Maria Sharapova On Knowing When to Walk Away",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-18/maria-sharapova-on-knowing-when-to-walk-away-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7483,
-        "score": 0.6667
-      },
-      {
-        "title": "Retail vs. whales: Who actually drives the Santa rally?",
-        "url": "https://cointelegraph.com/news/retail-vs-whales-who-actually-drives-the-santa-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4705,
-        "score": 1.0
+        "title": "Global crypto market cap up 2.0% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "New Social Security scam uses 'high pressure' scare tactics. What to watch for",
-        "url": "https://www.cnbc.com/2025/11/18/new-social-security-scam.html",
+        "title": "Asia-Pacific markets trade mixed after Wall Street declines on tech-led sell-off",
+        "url": "https://www.cnbc.com/2025/11/19/asia-pacific-markets-ai-nikkei-225-hang-seng-index-csi-300.html",
         "source": "CNBC Markets",
-        "weight": 0.7759,
+        "weight": 0.7852,
+        "score": -0.6667
+      },
+      {
+        "title": "ArrowMark Financial Corp. Releases Month End Estimated Net Asset Value as of October 2025",
+        "url": "https://finance.yahoo.com/news/arrowmark-financial-corp-releases-month-223000985.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5328,
         "score": -0.9667
       },
       {
-        "title": "Drug Giant Merck Breaks Out Past New Buy Point; CME, Marathon Eye Entries",
-        "url": "https://finance.yahoo.com/m/4c386f44-f75e-36cf-a426-e3e74c0eae5e/drug-giant-merck-breaks-out.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7837,
-        "score": -0.9333
-      },
-      {
-        "title": "Financial Stocks Send Warning, Threaten to Tumble Below Support",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-18/financial-stocks-send-warning-threaten-to-tumble-below-support",
-        "source": "Bloomberg Markets",
-        "weight": 0.6979,
-        "score": -1.0
+        "title": "Kraken Scores $800M Raise Backed by $200M Citadel Securities Investment",
+        "url": "https://www.coindesk.com/markets/2025/11/18/kraken-scores-usd800m-raise-backed-by-usd200m-citadel-investment",
+        "source": "CoinDesk",
+        "weight": 0.7035,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8251356297773186,
-          "price_change_24h": 0.03782
+          "volume_mcap_ratio": 0.7114228718103958,
+          "price_change_24h": 0.03711
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-18",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.403,
-      "crypto_high": 0.4688,
-      "crypto_low": 0.3695,
-      "global_avg": 0.4148,
-      "global_high": 0.5085,
-      "global_low": 0.3409,
-      "combined_avg": 0.4201,
-      "combined_high": 0.4773,
-      "combined_low": 0.3915
-    },
-    "market_indicators_24h": {
-      "change24h": 0.091,
-      "vol": 0.299,
-      "fearGreed": 11,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-18T19:53:51.422467+00:00"
   }
 }
