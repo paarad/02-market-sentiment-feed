@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-19T04:31:28.397357+00:00",
+  "updated_at": "2025-11-19T08:34:35.759741+00:00",
   "indicators": {
-    "change24h": 0.047,
-    "vol": 0.316,
+    "change24h": 0.036,
+    "vol": 0.294,
     "fearGreed": 15,
-    "momentum": 0.825,
+    "momentum": 0.622,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5467,
-    "global_sentiment": 0.3815,
-    "combined_sentiment": 0.5251,
-    "confidence": 0.7598,
+    "crypto_sentiment": 0.4912,
+    "global_sentiment": 0.3764,
+    "combined_sentiment": 0.4831,
+    "confidence": 0.7332,
     "counts": {
-      "crypto": 68,
-      "global": 40
+      "crypto": 69,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 91623,
-      "btc_change_24h": 1.93,
-      "eth_price": 3066.73,
-      "eth_change_24h": 3.02,
+      "btc_price": 91786,
+      "btc_change_24h": 1.09,
+      "eth_price": 3095.16,
+      "eth_change_24h": 2.05,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
+      "regime_strength": 1.0,
       "market_breadth": 0.85,
       "fear_greed": {
         "value": 15,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 284777315401,
+        "volume_24h": 261168021057,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.47,
+        "btc_dominance": 56.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-05T12:54:25.940969+00:00",
-      "crypto": 0.3444,
-      "global": 0.3898,
-      "combined": 0.3741,
-      "counts": {
-        "crypto": 74,
-        "global": 48
-      }
-    },
     {
       "ts": "2025-11-05T16:34:29.444634+00:00",
       "crypto": 0.3793,
@@ -1008,61 +998,71 @@
         "crypto": 68,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-19T08:34:35.759741+00:00",
+      "crypto": 0.4912,
+      "global": 0.3764,
+      "combined": 0.4831,
+      "counts": {
+        "crypto": 69,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Invisible Technologies on Future of AI Adoption",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-19/invisible-technologies-on-future-of-ai-adoption-video",
+        "title": "Hyperliquid Unveils HIP-3 Growth Mode, Slashing Fees by 90% to Boost New Markets",
+        "url": "https://www.coindesk.com/markets/2025/11/19/hyperliquid-unveils-hip-3-growth-mode-slashing-fees-by-90-to-boost-new-markets",
+        "source": "CoinDesk",
+        "weight": 0.9434,
+        "score": 0.6667
+      },
+      {
+        "title": "Rising Rents Lift Values for British Land’s UK Offices, Stores",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-19/rising-rents-lift-values-for-british-land-s-uk-offices-stores",
         "source": "Bloomberg Markets",
-        "weight": 0.6286,
-        "score": 1.0
+        "weight": 0.7265,
+        "score": 0.6667
       },
       {
         "title": "Canaan stock surges as Q3 revenue doubles on Bitcoin miner demand",
         "url": "https://cointelegraph.com/news/canaan-q3-revenue-doubles-demand-bitcoin-mining-hardware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6247,
+        "weight": 0.3912,
         "score": 0.8667
-      },
-      {
-        "title": "Kraken bags $800M for expansion plans at $20B valuation",
-        "url": "https://cointelegraph.com/news/kraken-raises-800-million-valuation-20-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6474,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Vietnam Police Open Criminal Probe of 2nd Germany-Based Activist",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-19/vietnam-police-open-criminal-probe-of-2nd-germany-based-activist",
-        "source": "Bloomberg Markets",
-        "weight": 0.6908,
-        "score": -0.9667
-      },
-      {
-        "title": "Market Movers: Tech stocks drop as Cloudflare outage disrupts millions",
-        "url": "https://www.thestreet.com/investing/stocks/market-movers-tech-stocks-drop-as-cloudflare-outage-disrupts-millions?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6177,
+        "title": "Saylor shrugs off suggestion Wall Street ‘hurt’ Bitcoin amid latest crash",
+        "url": "https://cointelegraph.com/news/strategy-michael-saylor-bitcoin-price-crash-wall-street?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.57,
         "score": -1.0
       },
       {
-        "title": "Asia-Pacific markets track Wall Street declines as tech-led sell-off deepens",
+        "title": "Asia-Pacific markets close mostly lower after Wall Street declines on tech-led sell-off",
         "url": "https://www.cnbc.com/2025/11/19/asia-pacific-markets-ai-nikkei-225-hang-seng-index-csi-300.html",
         "source": "CNBC Markets",
-        "weight": 0.7495,
+        "weight": 0.7464,
         "score": -0.6667
+      },
+      {
+        "title": "Cloudflare blames database error for outage that took down 20% of the internet",
+        "url": "https://cointelegraph.com/news/cloudflare-fault-in-bot-system-led-to-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5021,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6232377877068696,
-          "price_change_24h": 0.02679
+          "volume_mcap_ratio": 0.5828014570331116,
+          "price_change_24h": 0.06274
         }
       ],
       "momentum_shifts": []
