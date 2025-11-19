@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-19T08:34:35.759741+00:00",
+  "updated_at": "2025-11-19T12:54:48.221121+00:00",
   "indicators": {
-    "change24h": 0.036,
-    "vol": 0.294,
+    "change24h": 0.028,
+    "vol": 0.323,
     "fearGreed": 15,
-    "momentum": 0.622,
+    "momentum": 0.49,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4912,
-    "global_sentiment": 0.3764,
-    "combined_sentiment": 0.4831,
-    "confidence": 0.7332,
+    "crypto_sentiment": 0.4779,
+    "global_sentiment": 0.3941,
+    "combined_sentiment": 0.4746,
+    "confidence": 0.7597,
     "counts": {
-      "crypto": 69,
-      "global": 46
+      "crypto": 70,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 91786,
-      "btc_change_24h": 1.09,
-      "eth_price": 3095.16,
-      "eth_change_24h": 2.05,
+      "btc_price": 91620,
+      "btc_change_24h": 0.12,
+      "eth_price": 3097.02,
+      "eth_change_24h": 1.45,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 261168021057,
+        "volume_24h": 250565352258,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.46,
+        "btc_dominance": 56.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-05T16:34:29.444634+00:00",
-      "crypto": 0.3793,
-      "global": 0.4456,
-      "combined": 0.4049,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-05T19:53:54.126671+00:00",
       "crypto": 0.4366,
@@ -1008,52 +998,62 @@
         "crypto": 69,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-11-19T12:54:48.221121+00:00",
+      "crypto": 0.4779,
+      "global": 0.3941,
+      "combined": 0.4746,
+      "counts": {
+        "crypto": 70,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Hyperliquid Unveils HIP-3 Growth Mode, Slashing Fees by 90% to Boost New Markets",
-        "url": "https://www.coindesk.com/markets/2025/11/19/hyperliquid-unveils-hip-3-growth-mode-slashing-fees-by-90-to-boost-new-markets",
-        "source": "CoinDesk",
-        "weight": 0.9434,
-        "score": 0.6667
+        "title": "Top strategist explains how the AI trade & dot-com bubble differ",
+        "url": "https://finance.yahoo.com/video/top-strategist-explains-ai-trade-124557731.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7865,
+        "score": 1.0
       },
       {
-        "title": "Rising Rents Lift Values for British Land’s UK Offices, Stores",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-19/rising-rents-lift-values-for-british-land-s-uk-offices-stores",
-        "source": "Bloomberg Markets",
-        "weight": 0.7265,
-        "score": 0.6667
-      },
-      {
-        "title": "Canaan stock surges as Q3 revenue doubles on Bitcoin miner demand",
-        "url": "https://cointelegraph.com/news/canaan-q3-revenue-doubles-demand-bitcoin-mining-hardware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Ondo wins Liechtenstein approval to offer tokenized stocks in Europe",
+        "url": "https://cointelegraph.com/news/ondo-liechtenstein-approval-tokenized-stocks-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3912,
-        "score": 0.8667
+        "weight": 0.579,
+        "score": 0.9167
+      },
+      {
+        "title": "Kenya’s new crypto law faces stress test as Bitcoin ATMs appear in malls",
+        "url": "https://cointelegraph.com/news/kenya-bitcoin-atms-vasp-law-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7819,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Saylor shrugs off suggestion Wall Street ‘hurt’ Bitcoin amid latest crash",
-        "url": "https://cointelegraph.com/news/strategy-michael-saylor-bitcoin-price-crash-wall-street?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.57,
+        "title": "US Mortgage Activity Declines as Borrowing Costs Edge Higher",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-19/us-mortgage-activity-declines-as-borrowing-costs-edge-higher",
+        "source": "Bloomberg Markets",
+        "weight": 0.7199,
         "score": -1.0
       },
       {
-        "title": "Asia-Pacific markets close mostly lower after Wall Street declines on tech-led sell-off",
-        "url": "https://www.cnbc.com/2025/11/19/asia-pacific-markets-ai-nikkei-225-hang-seng-index-csi-300.html",
-        "source": "CNBC Markets",
-        "weight": 0.7464,
-        "score": -0.6667
+        "title": "3 Stocks Estimated To Be Trading Below Their Valuations In November 2025",
+        "url": "https://finance.yahoo.com/news/3-stocks-estimated-trading-below-113800653.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.69,
+        "score": -0.9667
       },
       {
-        "title": "Cloudflare blames database error for outage that took down 20% of the internet",
-        "url": "https://cointelegraph.com/news/cloudflare-fault-in-bot-system-led-to-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5021,
+        "title": "Financing Africa’s Next Chapter",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-19/financing-africa-s-next-chapter",
+        "source": "Bloomberg Markets",
+        "weight": 0.6479,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5828014570331116,
-          "price_change_24h": 0.06274
+          "volume_mcap_ratio": 0.5458664624483639,
+          "price_change_24h": 0.05834
         }
       ],
       "momentum_shifts": []
