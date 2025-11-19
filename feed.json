@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-19T12:54:48.221121+00:00",
+  "updated_at": "2025-11-19T16:35:03.211387+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.323,
+    "change24h": -0.08,
+    "vol": 0.157,
     "fearGreed": 15,
-    "momentum": 0.49,
-    "regime": "sideways",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4779,
-    "global_sentiment": 0.3941,
-    "combined_sentiment": 0.4746,
-    "confidence": 0.7597,
+    "crypto_sentiment": 0.4054,
+    "global_sentiment": 0.5091,
+    "combined_sentiment": 0.4298,
+    "confidence": 0.7845,
     "counts": {
-      "crypto": 70,
-      "global": 41
+      "crypto": 65,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 91620,
-      "btc_change_24h": 0.12,
-      "eth_price": 3097.02,
-      "eth_change_24h": 1.45,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 89686,
+      "btc_change_24h": -4.18,
+      "eth_price": 2956.42,
+      "eth_change_24h": -6.37,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 250565352258,
+        "volume_24h": 236625399696,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.44,
+        "btc_dominance": 56.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-05T19:53:54.126671+00:00",
-      "crypto": 0.4366,
-      "global": 0.5048,
-      "combined": 0.4528,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-05T20:29:30.243056+00:00",
       "crypto": 0.4162,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-11-19T16:35:03.211387+00:00",
+      "crypto": 0.4054,
+      "global": 0.5091,
+      "combined": 0.4298,
+      "counts": {
+        "crypto": 65,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Top strategist explains how the AI trade & dot-com bubble differ",
-        "url": "https://finance.yahoo.com/video/top-strategist-explains-ai-trade-124557731.html?.tsrc=rss",
+        "title": "Bullish Swings to Profit in Third Quarter After Adding Options, U.S. Spot Trading",
+        "url": "https://www.coindesk.com/business/2025/11/19/bullish-swings-to-profit-in-third-quarter-after-adding-options-u-s-spot-trading",
+        "source": "CoinDesk",
+        "weight": 0.6662,
+        "score": 0.8667
+      },
+      {
+        "title": "Alphabet Shares Soar on ‘Rave Reviews’ for New Gemini AI Model",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-19/alphabet-shares-soar-on-rave-reviews-for-new-gemini-ai-model",
+        "source": "Bloomberg Markets",
+        "weight": 0.7697,
+        "score": 0.6667
+      },
+      {
+        "title": "Dream Chasers Calls for Calm in the Wake of Carver Announcement to Delist from the NASDAQ and De-register with the SEC",
+        "url": "https://finance.yahoo.com/news/dream-chasers-calls-calm-wake-160000694.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7865,
-        "score": 1.0
-      },
-      {
-        "title": "Ondo wins Liechtenstein approval to offer tokenized stocks in Europe",
-        "url": "https://cointelegraph.com/news/ondo-liechtenstein-approval-tokenized-stocks-europe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.579,
-        "score": 0.9167
-      },
-      {
-        "title": "Kenya’s new crypto law faces stress test as Bitcoin ATMs appear in malls",
-        "url": "https://cointelegraph.com/news/kenya-bitcoin-atms-vasp-law-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7819,
-        "score": 0.5833
+        "weight": 0.7478,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "US Mortgage Activity Declines as Borrowing Costs Edge Higher",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-19/us-mortgage-activity-declines-as-borrowing-costs-edge-higher",
-        "source": "Bloomberg Markets",
-        "weight": 0.7199,
-        "score": -1.0
+        "title": "Crypto ETFs Enter Maturity Phase as IRS and SEC Actions Drive Rapid Expansion of Products",
+        "url": "https://www.coindesk.com/markets/2025/11/18/crypto-etfs-enter-maturity-phase-as-irs-and-sec-actions-drive-rapid-expansion-of-products",
+        "source": "CoinDesk",
+        "weight": 0.8166,
+        "score": -0.6333
       },
       {
-        "title": "3 Stocks Estimated To Be Trading Below Their Valuations In November 2025",
-        "url": "https://finance.yahoo.com/news/3-stocks-estimated-trading-below-113800653.html?.tsrc=rss",
+        "title": "Stock Market News for Nov 19, 2025",
+        "url": "https://finance.yahoo.com/news/stock-market-news-nov-19-143100915.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.69,
-        "score": -0.9667
+        "weight": 0.63,
+        "score": -0.8
       },
       {
-        "title": "Financing Africa’s Next Chapter",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-19/financing-africa-s-next-chapter",
-        "source": "Bloomberg Markets",
-        "weight": 0.6479,
-        "score": -0.9667
+        "title": "How euro stablecoins could address EU’s dollar concerns",
+        "url": "https://cointelegraph.com/news/how-euro-stablecoins-could-address-eu-s-dollar-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7243,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5458664624483639,
-          "price_change_24h": 0.05834
+          "volume_mcap_ratio": 0.5320501961100571,
+          "price_change_24h": 0.01384
         }
       ],
       "momentum_shifts": []
