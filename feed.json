@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-20T08:35:52.623515+00:00",
+  "updated_at": "2025-11-20T12:53:50.407144+00:00",
   "indicators": {
     "change24h": 0.005,
-    "vol": 0.196,
+    "vol": 0.18,
     "fearGreed": 11,
-    "momentum": 0.092,
+    "momentum": 0.089,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4,
-    "global_sentiment": 0.4989,
-    "combined_sentiment": 0.4249,
-    "confidence": 0.7559,
+    "crypto_sentiment": 0.405,
+    "global_sentiment": 0.5433,
+    "combined_sentiment": 0.4323,
+    "confidence": 0.7644,
     "counts": {
-      "crypto": 64,
-      "global": 36
+      "crypto": 65,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 92206,
-      "btc_change_24h": 0.45,
-      "eth_price": 3031.82,
-      "eth_change_24h": -2.06,
+      "btc_price": 91778,
+      "btc_change_24h": 0.27,
+      "eth_price": 3025.48,
+      "eth_change_24h": -2.23,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.4,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 282282921288,
+        "volume_24h": 291499848934,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.76,
+        "btc_dominance": 56.73,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-06T16:34:48.764794+00:00",
-      "crypto": 0.4723,
-      "global": 0.3551,
-      "combined": 0.4672,
-      "counts": {
-        "crypto": 66,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-06T19:53:50.095966+00:00",
       "crypto": 0.5274,
@@ -1008,46 +998,49 @@
         "crypto": 64,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-20T12:53:50.407144+00:00",
+      "crypto": 0.405,
+      "global": 0.5433,
+      "combined": 0.4323,
+      "counts": {
+        "crypto": 65,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Machin Bullish on AI Adoption",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-20/machin-bullish-on-ai-adoption-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.637,
-        "score": 0.8667
+        "title": "Walmart raises profit expectations as more Americans hunt deals in sluggish economy",
+        "url": "https://finance.yahoo.com/news/walmart-raises-profit-expectations-more-120225257.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7246,
+        "score": 1.0
       },
       {
-        "title": "Indian Stocks Hit Record as Earnings, Inflows Boost Sentiment",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-20/indian-stocks-hit-record-as-earnings-inflows-boost-sentiment",
-        "source": "Bloomberg Markets",
-        "weight": 0.7739,
-        "score": 0.6667
-      },
-      {
-        "title": "Dogecoin Hits Multi-Month Lows as Exchange Flows Turn Bullish for First Time in 6 Months",
-        "url": "https://www.coindesk.com/markets/2025/11/20/dogecoin-hits-multi-month-lows-as-exchange-flows-turn-bullish-for-first-time-in-6-months",
+        "title": "AI and HPC Bitcoin Miners Surge Pre Market Following Stellar NVIDIA Earnings",
+        "url": "https://www.coindesk.com/markets/2025/11/20/ai-and-hpc-bitcoin-miners-surge-pre-market-following-stellar-nvidia-earnings",
         "source": "CoinDesk",
-        "weight": 0.753,
+        "weight": 0.9253,
         "score": 0.5333
+      },
+      {
+        "title": "World shares and US futures surge as Nvidia's strong earnings restore confidence in AI",
+        "url": "https://finance.yahoo.com/news/asian-shares-surge-nvidias-strong-044158645.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3103,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "China Weighs Fresh Property Stimulus Package",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-20/china-weighs-fresh-property-stimulus-package-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5685,
-        "score": -1.0
-      },
-      {
-        "title": "XRP Slumps as $2.15 Level Collapses, Bearish Structure Deepens",
-        "url": "https://www.coindesk.com/markets/2025/11/20/xrp-slumps-as-usd2-15-level-collapses-bearish-structure-deepens",
-        "source": "CoinDesk",
-        "weight": 0.8912,
-        "score": -0.5333
+        "title": "BitMine sits on $3.7B loss as DAT ‘Hotel California’ meets BlackRock’s staked ETH ETF",
+        "url": "https://cointelegraph.com/news/bitmine-3-7b-ether-loss-dat-hotel-california-blackrock-staked-eth-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7974,
+        "score": -0.6667
       },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Ukraine under pressure amid reports Russia and U.S. have devised a secret peace plan",
+        "url": "https://www.cnbc.com/2025/11/20/tensions-in-ukraine-amid-reports-that-russia-and-us-have-peace-plan.html",
+        "source": "CNBC Markets",
+        "weight": 0.5884,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6596638290064484,
-          "price_change_24h": -0.03257
+          "volume_mcap_ratio": 0.6630793448614772,
+          "price_change_24h": -0.03475
         }
       ],
       "momentum_shifts": []
