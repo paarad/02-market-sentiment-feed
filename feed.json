@@ -1,64 +1,54 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-19T20:25:50.737361+00:00",
+  "updated_at": "2025-11-20T02:00:14.279608+00:00",
   "indicators": {
-    "change24h": -0.099,
-    "vol": 0.221,
-    "fearGreed": 15,
-    "momentum": -1.0,
-    "regime": "bear",
+    "change24h": 0.0,
+    "vol": 0.5,
+    "fearGreed": 11,
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.388,
-    "global_sentiment": 0.5661,
-    "combined_sentiment": 0.4215,
+    "crypto_sentiment": 0.3947,
+    "global_sentiment": 0.4751,
+    "combined_sentiment": 0.4189,
     "confidence": 0.808,
     "counts": {
       "crypto": 67,
-      "global": 34
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 88994,
-      "btc_change_24h": -4.33,
-      "eth_price": 2898.13,
-      "eth_change_24h": -7.79,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.0,
+      "btc_price": 0,
+      "btc_change_24h": 0,
+      "eth_price": 0,
+      "eth_change_24h": 0,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
-        "value": 15,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "low",
-        "volume_24h": 263831852713,
-        "high_activity_coins": 1
+        "level": "unknown",
+        "volume_24h": 0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.73,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
-        "sources": 2,
-        "coins_analyzed": 100
+        "sources": 1,
+        "coins_analyzed": 0
       }
     }
   },
   "history": [
-    {
-      "ts": "2025-11-06T04:32:41.920745+00:00",
-      "crypto": 0.4618,
-      "global": 0.5455,
-      "combined": 0.4751,
-      "counts": {
-        "crypto": 72,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-06T08:34:43.010305+00:00",
       "crypto": 0.554,
@@ -1008,63 +998,67 @@
         "crypto": 67,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-11-20T02:00:14.279608+00:00",
+      "crypto": 0.3947,
+      "global": 0.4751,
+      "combined": 0.4189,
+      "counts": {
+        "crypto": 67,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Block Expects Profit Growth to Accelerate Over Next Three Years",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-19/block-expects-profit-growth-to-accelerate-over-next-three-years",
-        "source": "Bloomberg Markets",
-        "weight": 0.769,
-        "score": 1.0
+        "title": "Anchorage–Mezo partnership opens institutional access to BTC-backed loans",
+        "url": "https://cointelegraph.com/news/anchorage-mezo-partnership-opens-institutional-access-to-low-cost-btc-backed-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5576,
+        "score": 0.95
       },
       {
-        "title": "Block says gross profit in 2028 will approach $16 billion as company unveils 3-year outlook",
-        "url": "https://www.cnbc.com/2025/11/19/block-unveils-3-year-outlook-sees-gross-profit-in-2028-of-15point8b.html",
-        "source": "CNBC Markets",
-        "weight": 0.7727,
-        "score": 0.6667
+        "title": "Hong Kong Stock Rally Meets $25 Billion Lockup Challenge Ahead",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-19/hong-kong-stock-rally-meets-25-billion-lockup-challenge-ahead",
+        "source": "Bloomberg Markets",
+        "weight": 0.599,
+        "score": 0.8667
       },
       {
-        "title": "Dollar Climbs Most in Three Weeks as Bets on Fed Rate Hold Rise",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-19/dollar-climbs-most-in-three-weeks-as-bets-on-fed-rate-hold-rise",
-        "source": "Bloomberg Markets",
-        "weight": 0.7257,
+        "title": "Crypto, tech stocks climb on Nvidia’s blowout Q3 earnings",
+        "url": "https://cointelegraph.com/news/crypto-tech-stocks-climb-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7492,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fed Rate Cut Odds Plunge Further on Jobs Data Delays",
-        "url": "https://www.coindesk.com/markets/2025/11/19/fed-rate-cut-odds-drop-as-missing-jobs-data-clouds-december-outlook",
-        "source": "CoinDesk",
-        "weight": 0.9595,
-        "score": -0.9667
+        "title": "Taiwan’s E.Sun Vows $540 Million Capital Boost to Revive Insurer",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-20/taiwan-s-e-sun-vows-540-million-capital-boost-to-revive-insurer",
+        "source": "Bloomberg Markets",
+        "weight": 0.7184,
+        "score": -1.0
       },
       {
-        "title": "'Modern-Day Pablo Escobar': Treasury Sanctions Ex-Olympian Over Alleged Crypto-Fueled Crime Empire",
-        "url": "https://decrypt.co/349242/modern-day-pablo-escobar-treasury-sanctions-ex-olympian-crypto-crime-empire",
-        "source": "Decrypt",
-        "weight": 0.7694,
-        "score": -0.9333
+        "title": "Gold Advances Despite Wider Market Showing Appetite for Risk",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-19/gold-claws-back-losses-despite-wider-market-appetite-for-risk",
+        "source": "Bloomberg Markets",
+        "weight": 0.6297,
+        "score": -1.0
       },
       {
-        "title": "Price predictions 11/19: BTC, ETH, XRP, BNB, SOL, DOGE, ADA, HYPE, BCH, ZEC",
-        "url": "https://cointelegraph.com/news/price-predictions-11-19-btc-eth-xrp-bnb-sol-doge-ada-hype-bch-zcash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Odds of December Fed rate cut plunge to 33% as BTC falls below $89K",
+        "url": "https://cointelegraph.com/news/december-rate-cut-odds-plunge-33-btc-below-89k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7681,
-        "score": -0.9333
+        "weight": 0.5943,
+        "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.5980267641745962,
-          "price_change_24h": -0.05958
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
