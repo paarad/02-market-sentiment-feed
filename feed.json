@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-20T16:34:31.125437+00:00",
+  "updated_at": "2025-11-20T19:53:50.605057+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.244,
+    "change24h": -0.009,
+    "vol": 0.176,
     "fearGreed": 11,
-    "momentum": -0.098,
-    "regime": "bear",
+    "momentum": -0.161,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5054,
-    "global_sentiment": 0.5203,
-    "combined_sentiment": 0.5058,
-    "confidence": 0.8348,
+    "crypto_sentiment": 0.4426,
+    "global_sentiment": 0.5247,
+    "combined_sentiment": 0.459,
+    "confidence": 0.849,
     "counts": {
-      "crypto": 72,
-      "global": 44
+      "crypto": 75,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 88547,
-      "btc_change_24h": -1.28,
-      "eth_price": 2883.89,
-      "eth_change_24h": -2.51,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 86492,
+      "btc_change_24h": -2.76,
+      "eth_price": 2833.44,
+      "eth_change_24h": -1.82,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 297093256674,
+        "volume_24h": 329485427482,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.65,
+        "btc_dominance": 56.34,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-06T20:28:47.327524+00:00",
-      "crypto": 0.5258,
-      "global": 0.4365,
-      "combined": 0.5141,
-      "counts": {
-        "crypto": 66,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-11-07T02:00:15.786802+00:00",
       "crypto": 0.4441,
@@ -1008,61 +998,71 @@
         "crypto": 72,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-11-20T19:53:50.605057+00:00",
+      "crypto": 0.4426,
+      "global": 0.5247,
+      "combined": 0.459,
+      "counts": {
+        "crypto": 75,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Huge $100 billion crypto listing stampede started by Kraken’s stealth IPO filing",
-        "url": "https://cryptoslate.com/a-100-billion-crypto-listing-stampede-started-by-krakens-stealth-ipo-filing/",
-        "source": "CryptoSlate",
-        "weight": 0.7364,
-        "score": 1.0
-      },
-      {
-        "title": "Today's Market: S&P 500 Surges 1.5%, Nasdaq Jumps 2% After Nvidia Earnings Beat",
-        "url": "https://finance.yahoo.com/news/todays-market-p-500-surges-161840770.html?.tsrc=rss",
+        "title": "The Stock Market Is on Track for Its Biggest Blown Gain Since April",
+        "url": "https://finance.yahoo.com/m/a11688db-9a44-3c54-88f2-807fef1e9487/the-stock-market-is-on-track.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.776,
+        "weight": 0.7306,
         "score": 0.8667
       },
       {
-        "title": "Aztec launches decentralized and private Ethereum L2 on mainnet, almost",
-        "url": "https://cointelegraph.com/news/aztec-launches-actually-decentralized-and-private-eth-l2-mainnet-almost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6498,
-        "score": 0.9667
+        "title": "US Equity Indexes Rally Evaporates Amid Spike in Volatility, Slump in Treasury Yields",
+        "url": "https://finance.yahoo.com/news/us-equity-indexes-rally-evaporates-182544086.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6752,
+        "score": 0.8667
+      },
+      {
+        "title": "Top Stock Movers Now: Walmart, Nvidia, Exact Sciences, Bath and Body Works, and More",
+        "url": "https://www.investopedia.com/top-stock-movers-now-walmart-nvidia-exact-sciences-bath-and-body-works-and-more-wmt-nvda-exas-11853728?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.645,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "What Tech Selloff? S&P 500, Nasdaq Turn Positive for the Week",
-        "url": "https://finance.yahoo.com/m/96b82052-4925-39be-8745-964d6b12bffd/what-tech-selloff%3F-s%26p-500%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7112,
+        "title": "NVDA Earnings Call Pumps Crypto briefly! BTC then dumps to $87,000!",
+        "url": "https://decrypt.co/videos/interviews/TQrKiQgE/nvda-earnings-call-pumps-crypto-briefly-btc-then-dumps-to-87-000",
+        "source": "Decrypt",
+        "weight": 0.7592,
+        "score": -0.8
+      },
+      {
+        "title": "SEC enforcement actions dropped 30% under Paul Atkins: Report",
+        "url": "https://cointelegraph.com/news/sec-enforcement-actions-dropped-paul-atkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5572,
         "score": -1.0
       },
       {
-        "title": "Solana ETFs Post Second-Biggest November Inflows as Demand Grows During Downturn",
-        "url": "https://www.coindesk.com/markets/2025/11/20/solana-etfs-post-second-biggest-november-inflows-as-demand-grows-during-downturn",
-        "source": "CoinDesk",
-        "weight": 0.8873,
-        "score": -0.6333
-      },
-      {
-        "title": "Securitize Leverages Plume to Expand Global Real-World Asset Reach",
-        "url": "https://www.coindesk.com/markets/2025/11/20/securitize-leverages-plume-to-expand-global-real-world-asset-reach",
-        "source": "CoinDesk",
-        "weight": 0.835,
-        "score": -0.6333
+        "title": "Bitcoin downtrend accelerates, but traders eye short liquidity at $100K",
+        "url": "https://cointelegraph.com/news/bitcoin-downtrend-accelerates-but-traders-eye-short-liquidity-at-dollar100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5677,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6873683618524304,
-          "price_change_24h": -0.02307
+          "volume_mcap_ratio": 0.7662566098595964,
+          "price_change_24h": 0.00753
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-20",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4183,
+      "crypto_high": 0.5054,
+      "crypto_low": 0.3623,
+      "global_avg": 0.5002,
+      "global_high": 0.5433,
+      "global_low": 0.439,
+      "combined_avg": 0.4387,
+      "combined_high": 0.5058,
+      "combined_low": 0.3916
+    },
+    "market_indicators_24h": {
+      "change24h": -0.009,
+      "vol": 0.176,
+      "fearGreed": 11,
+      "momentum": -0.161,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-20T19:53:50.605057+00:00"
   }
 }
