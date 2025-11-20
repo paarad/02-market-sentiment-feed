@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-20T12:53:50.407144+00:00",
+  "updated_at": "2025-11-20T16:34:31.125437+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.18,
+    "change24h": -0.006,
+    "vol": 0.244,
     "fearGreed": 11,
-    "momentum": 0.089,
-    "regime": "sideways",
+    "momentum": -0.098,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.405,
-    "global_sentiment": 0.5433,
-    "combined_sentiment": 0.4323,
-    "confidence": 0.7644,
+    "crypto_sentiment": 0.5054,
+    "global_sentiment": 0.5203,
+    "combined_sentiment": 0.5058,
+    "confidence": 0.8348,
     "counts": {
-      "crypto": 65,
-      "global": 37
+      "crypto": 72,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 91778,
-      "btc_change_24h": 0.27,
-      "eth_price": 3025.48,
-      "eth_change_24h": -2.23,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 88547,
+      "btc_change_24h": -1.28,
+      "eth_price": 2883.89,
+      "eth_change_24h": -2.51,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 291499848934,
+        "volume_24h": 297093256674,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.73,
+        "btc_dominance": 56.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-06T19:53:50.095966+00:00",
-      "crypto": 0.5274,
-      "global": 0.4132,
-      "combined": 0.5133,
-      "counts": {
-        "crypto": 66,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-06T20:28:47.327524+00:00",
       "crypto": 0.5258,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-11-20T16:34:31.125437+00:00",
+      "crypto": 0.5054,
+      "global": 0.5203,
+      "combined": 0.5058,
+      "counts": {
+        "crypto": 72,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Walmart raises profit expectations as more Americans hunt deals in sluggish economy",
-        "url": "https://finance.yahoo.com/news/walmart-raises-profit-expectations-more-120225257.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7246,
+        "title": "Huge $100 billion crypto listing stampede started by Kraken’s stealth IPO filing",
+        "url": "https://cryptoslate.com/a-100-billion-crypto-listing-stampede-started-by-krakens-stealth-ipo-filing/",
+        "source": "CryptoSlate",
+        "weight": 0.7364,
         "score": 1.0
       },
       {
-        "title": "AI and HPC Bitcoin Miners Surge Pre Market Following Stellar NVIDIA Earnings",
-        "url": "https://www.coindesk.com/markets/2025/11/20/ai-and-hpc-bitcoin-miners-surge-pre-market-following-stellar-nvidia-earnings",
-        "source": "CoinDesk",
-        "weight": 0.9253,
-        "score": 0.5333
+        "title": "Today's Market: S&P 500 Surges 1.5%, Nasdaq Jumps 2% After Nvidia Earnings Beat",
+        "url": "https://finance.yahoo.com/news/todays-market-p-500-surges-161840770.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.776,
+        "score": 0.8667
       },
       {
-        "title": "World shares and US futures surge as Nvidia's strong earnings restore confidence in AI",
-        "url": "https://finance.yahoo.com/news/asian-shares-surge-nvidias-strong-044158645.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3103,
-        "score": 0.8667
+        "title": "Aztec launches decentralized and private Ethereum L2 on mainnet, almost",
+        "url": "https://cointelegraph.com/news/aztec-launches-actually-decentralized-and-private-eth-l2-mainnet-almost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6498,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "BitMine sits on $3.7B loss as DAT ‘Hotel California’ meets BlackRock’s staked ETH ETF",
-        "url": "https://cointelegraph.com/news/bitmine-3-7b-ether-loss-dat-hotel-california-blackrock-staked-eth-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7974,
-        "score": -0.6667
+        "title": "What Tech Selloff? S&P 500, Nasdaq Turn Positive for the Week",
+        "url": "https://finance.yahoo.com/m/96b82052-4925-39be-8745-964d6b12bffd/what-tech-selloff%3F-s%26p-500%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7112,
+        "score": -1.0
       },
       {
-        "title": "Fear & Greed 11 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Solana ETFs Post Second-Biggest November Inflows as Demand Grows During Downturn",
+        "url": "https://www.coindesk.com/markets/2025/11/20/solana-etfs-post-second-biggest-november-inflows-as-demand-grows-during-downturn",
+        "source": "CoinDesk",
+        "weight": 0.8873,
+        "score": -0.6333
       },
       {
-        "title": "Ukraine under pressure amid reports Russia and U.S. have devised a secret peace plan",
-        "url": "https://www.cnbc.com/2025/11/20/tensions-in-ukraine-amid-reports-that-russia-and-us-have-peace-plan.html",
-        "source": "CNBC Markets",
-        "weight": 0.5884,
+        "title": "Securitize Leverages Plume to Expand Global Real-World Asset Reach",
+        "url": "https://www.coindesk.com/markets/2025/11/20/securitize-leverages-plume-to-expand-global-real-world-asset-reach",
+        "source": "CoinDesk",
+        "weight": 0.835,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6630793448614772,
-          "price_change_24h": -0.03475
+          "volume_mcap_ratio": 0.6873683618524304,
+          "price_change_24h": -0.02307
         }
       ],
       "momentum_shifts": []
