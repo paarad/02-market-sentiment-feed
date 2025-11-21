@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-21T04:30:38.941697+00:00",
+  "updated_at": "2025-11-21T08:36:08.146139+00:00",
   "indicators": {
-    "change24h": -0.101,
-    "vol": 0.191,
+    "change24h": -0.134,
+    "vol": 0.293,
     "fearGreed": 14,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4285,
-    "global_sentiment": 0.4236,
-    "combined_sentiment": 0.44,
-    "confidence": 0.8007,
+    "crypto_sentiment": 0.4339,
+    "global_sentiment": 0.4741,
+    "combined_sentiment": 0.4483,
+    "confidence": 0.774,
     "counts": {
       "crypto": 76,
-      "global": 42
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 85778,
-      "btc_change_24h": -7.02,
-      "eth_price": 2806.77,
-      "eth_change_24h": -7.02,
+      "btc_price": 84022,
+      "btc_change_24h": -8.89,
+      "eth_price": 2731.0,
+      "eth_change_24h": -9.94,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.0,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 338351678006,
+        "volume_24h": 389349291431,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.28,
+        "btc_dominance": 56.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-07T12:52:52.112017+00:00",
-      "crypto": 0.4073,
-      "global": 0.4617,
-      "combined": 0.4273,
-      "counts": {
-        "crypto": 61,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-11-07T16:29:23.579876+00:00",
       "crypto": 0.3962,
@@ -1008,61 +998,71 @@
         "crypto": 76,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-11-21T08:36:08.146139+00:00",
+      "crypto": 0.4339,
+      "global": 0.4741,
+      "combined": 0.4483,
+      "counts": {
+        "crypto": 76,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "TCS’s Ramachandran on TPG Investment",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-21/tcs-s-ramachandran-on-tpg-investment-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6172,
+        "score": 0.9167
+      },
+      {
+        "title": "CK Hutchison Is Said to Weigh Listing for Retailer Watson",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-21/ck-hutchison-is-said-to-weigh-listing-for-health-retailer-watson",
+        "source": "Bloomberg Markets",
+        "weight": 0.6732,
+        "score": 0.6333
+      },
+      {
         "title": "Nvidia fever, trumped by crypto cracks, sends stocks reeling",
         "url": "https://www.thestreet.com/markets/nvidia-fever-trumped-by-crypto-cracks-sends-stocks-reeling?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7082,
+        "weight": 0.4414,
         "score": 0.8667
-      },
-      {
-        "title": "Asia Morning Briefing: ZEC's Rally Outpaces What Transparent Onchain Data Can Explain",
-        "url": "https://www.coindesk.com/markets/2025/11/21/asia-morning-briefing-zec-s-rally-outpaces-what-transparent-onchain-data-can-explain",
-        "source": "CoinDesk",
-        "weight": 0.8129,
-        "score": 0.5333
-      },
-      {
-        "title": "Cathie Wood’s ARK Buys Nvidia Shares for First Time Since August",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-21/cathie-wood-s-ark-buys-nvidia-shares-for-first-time-since-august",
-        "source": "Bloomberg Markets",
-        "weight": 0.7169,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Joby lawsuit accuses air taxi rival Archer of using stolen information to 'one-up' deal",
-        "url": "https://www.cnbc.com/2025/11/20/joby-archer-air-taxi-lawsuit.html",
-        "source": "CNBC Markets",
-        "weight": 0.7074,
-        "score": -0.7333
-      },
-      {
-        "title": "Japan Says Yen Intervention an Option in Ramped-Up Warning",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-20/japan-says-fx-intervention-an-option-if-excessive-yen-moves",
+        "title": "French Business Activity Stabilizes on Service-Sector Growth",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-21/french-business-activity-stabilizes-on-service-sector-growth",
         "source": "Bloomberg Markets",
-        "weight": 0.4748,
-        "score": -1.0
-      },
-      {
-        "title": "UN US Rep Waltz at Bloomberg New Economy Forum",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-21/un-us-rep-waltz-at-bloomberg-new-economy-forum-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7316,
+        "weight": 0.7681,
         "score": -0.6333
+      },
+      {
+        "title": "European Stocks Slide as Wall Street Selloff Hits Global Assets",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-21/european-stocks-set-to-drop-following-wall-street-reversal",
+        "source": "Bloomberg Markets",
+        "weight": 0.6846,
+        "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 14 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7711937547709238,
-          "price_change_24h": -0.04057
+          "volume_mcap_ratio": 0.9001909757386372,
+          "price_change_24h": -0.00367
         }
       ],
       "momentum_shifts": []
