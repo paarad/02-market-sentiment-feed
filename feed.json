@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-22T19:53:28.575033+00:00",
+  "updated_at": "2025-11-22T20:27:09.785220+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.154,
+    "change24h": 0.02,
+    "vol": 0.169,
     "fearGreed": 11,
-    "momentum": 0.135,
+    "momentum": 0.353,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3666,
-    "global_sentiment": 0.4646,
-    "combined_sentiment": 0.397,
-    "confidence": 0.6279,
+    "crypto_sentiment": 0.3654,
+    "global_sentiment": 0.3757,
+    "combined_sentiment": 0.3887,
+    "confidence": 0.6196,
     "counts": {
-      "crypto": 69,
+      "crypto": 68,
       "global": 32
     },
     "market_indicators": {
-      "btc_price": 84636,
-      "btc_change_24h": 0.46,
-      "eth_price": 2750.98,
-      "eth_change_24h": -0.02,
+      "btc_price": 84661,
+      "btc_change_24h": 1.14,
+      "eth_price": 2750.87,
+      "eth_change_24h": 1.07,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173915451350,
+        "volume_24h": 164489796290,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-09T02:04:49.350353+00:00",
-      "crypto": 0.3025,
-      "global": 0.3447,
-      "combined": 0.339,
-      "counts": {
-        "crypto": 71,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-09T04:28:59.873918+00:00",
       "crypto": 0.3001,
@@ -1008,6 +998,16 @@
         "crypto": 69,
         "global": 32
       }
+    },
+    {
+      "ts": "2025-11-22T20:27:09.785220+00:00",
+      "crypto": 0.3654,
+      "global": 0.3757,
+      "combined": 0.3887,
+      "counts": {
+        "crypto": 68,
+        "global": 32
+      }
     }
   ],
   "drivers": {
@@ -1016,30 +1016,37 @@
         "title": "Is AI eating crypto’s liquidity? Inside the $300B Oracle hit and Bitcoin miner pivots",
         "url": "https://cryptoslate.com/is-ai-eating-cryptos-liquidity-inside-the-300b-oracle-hit-and-bitcoin-miner-pivots/",
         "source": "CryptoSlate",
-        "weight": 0.6398,
+        "weight": 0.5996,
         "score": 0.3333
       },
       {
         "title": "Can MicroStrategy survive reclassification as a Bitcoin investment vehicle?",
         "url": "https://cryptoslate.com/can-microstrategy-survive-reclassification-as-a-bitcoin-investment-vehicle/",
         "source": "CryptoSlate",
-        "weight": 0.5371,
+        "weight": 0.5033,
         "score": 0.3333
       },
       {
         "title": "History Says the Nasdaq Will Surge in 2026. 2 Stock-Split Stocks to Buy Before It Does.",
         "url": "https://www.fool.com/investing/2025/11/22/history-says-the-nasdaq-will-surge-in-2026-2-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2033,
+        "weight": 0.1905,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "PE Firms Flood Junk Debt Market to Pay Themselves",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-22/pe-firms-flood-junk-debt-market-to-pay-themselves-credit-weekly",
+        "source": "Bloomberg Markets",
+        "weight": 0.7592,
+        "score": -0.9333
+      },
+      {
         "title": "UK Crime Network, Worth Billions, Used Crypto to Funnel Drug Cash to Russia, NCA Says",
         "url": "https://www.coindesk.com/business/2025/11/22/uk-crime-network-worth-billions-used-crypto-to-funnel-drug-cash-to-russia-nca-says",
         "source": "CoinDesk",
-        "weight": 0.6045,
+        "weight": 0.5665,
         "score": -0.9333
       },
       {
@@ -1048,26 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "XRP Drops With Market as Bitcoin Weakness Pulls Altcoins Into Oversold Territory",
-        "url": "https://www.coindesk.com/markets/2025/11/23/xrp-drops-with-market-as-bitcoin-weakness-pulls-altcoins-into-oversold-territory",
-        "source": "CoinDesk",
-        "weight": 1.1395,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3918371519688172,
-          "price_change_24h": 0.04263
+          "volume_mcap_ratio": 0.38300634106532216,
+          "price_change_24h": 0.03468
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.30688241107808617,
-          "price_change_24h": -15.09981
+          "volume_mcap_ratio": 0.30148191143722003,
+          "price_change_24h": -13.55228
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-22",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3811,
-      "crypto_high": 0.4296,
-      "crypto_low": 0.3283,
-      "global_avg": 0.4817,
-      "global_high": 0.5145,
-      "global_low": 0.4594,
-      "combined_avg": 0.4093,
-      "combined_high": 0.4477,
-      "combined_low": 0.3693
-    },
-    "market_indicators_24h": {
-      "change24h": 0.008,
-      "vol": 0.154,
-      "fearGreed": 11,
-      "momentum": 0.135,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-22T19:53:28.575033+00:00"
   }
 }
