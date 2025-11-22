@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-22T12:47:08.032692+00:00",
+  "updated_at": "2025-11-22T16:30:00.975628+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.277,
+    "change24h": 0.033,
+    "vol": 0.166,
     "fearGreed": 11,
-    "momentum": 0.253,
+    "momentum": 0.577,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4296,
-    "global_sentiment": 0.5061,
-    "combined_sentiment": 0.4477,
-    "confidence": 0.6222,
+    "crypto_sentiment": 0.3283,
+    "global_sentiment": 0.4769,
+    "combined_sentiment": 0.3693,
+    "confidence": 0.5992,
     "counts": {
-      "crypto": 74,
-      "global": 36
+      "crypto": 69,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 83695,
-      "btc_change_24h": 0.63,
-      "eth_price": 2715.08,
-      "eth_change_24h": -0.66,
+      "btc_price": 84516,
+      "btc_change_24h": 1.81,
+      "eth_price": 2748.38,
+      "eth_change_24h": 1.39,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 275295863761,
+        "volume_24h": 210052472466,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.44,
+        "btc_dominance": 56.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-08T19:53:38.529094+00:00",
-      "crypto": 0.2998,
-      "global": 0.4262,
-      "combined": 0.3437,
-      "counts": {
-        "crypto": 71,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-08T20:24:39.198677+00:00",
       "crypto": 0.2813,
@@ -1008,6 +998,16 @@
         "crypto": 74,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-22T16:30:00.975628+00:00",
+      "crypto": 0.3283,
+      "global": 0.4769,
+      "combined": 0.3693,
+      "counts": {
+        "crypto": 69,
+        "global": 33
+      }
     }
   ],
   "drivers": {
@@ -1016,25 +1016,32 @@
         "title": "History Says the Nasdaq Will Surge in 2026. 2 Stock-Split Stocks to Buy Before It Does.",
         "url": "https://www.fool.com/investing/2025/11/22/history-says-the-nasdaq-will-surge-in-2026-2-stock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.462,
+        "weight": 0.3008,
         "score": 0.6667
+      },
+      {
+        "title": "Stock Market Week Ahead: A Trillion-Dollar Shopping Season",
+        "url": "https://finance.yahoo.com/m/a97c721b-144e-3701-a6a2-c614b7187dfc/stock-market-week-ahead%3A-a.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5679,
+        "score": 0.3333
       },
       {
         "title": "ARK Invest wraps up week with Bitcoin ETF, Bullish, Circle, BitMine buys",
         "url": "https://cointelegraph.com/news/ark-invest-boosts-bullish-bitmine-circle-btc-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4357,
+        "weight": 0.2837,
         "score": 0.5333
-      },
-      {
-        "title": "We’ve had 2 months without a single new company buying Bitcoin – Why is it so quiet?",
-        "url": "https://cryptoslate.com/no-new-corporate-btc-treasuries-since-sep-18-buyers-vanish-as-miners-sell/",
-        "source": "CryptoSlate",
-        "weight": 0.577,
-        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "UK Crime Network, Worth Billions, Used Crypto to Funnel Drug Cash to Russia, NCA Says",
+        "url": "https://www.coindesk.com/business/2025/11/22/uk-crime-network-worth-billions-used-crypto-to-funnel-drug-cash-to-russia-nca-says",
+        "source": "CoinDesk",
+        "weight": 0.8944,
+        "score": -0.9333
+      },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1046,28 +1053,21 @@
         "title": "Figure AI sued by whistleblower who warned that startup's robots could 'fracture a human skull'",
         "url": "https://www.cnbc.com/2025/11/21/figure-ai-sued.html",
         "source": "CNBC Markets",
-        "weight": 0.3774,
+        "weight": 0.2457,
         "score": -0.9
-      },
-      {
-        "title": "Crypto’s Brutal Month Triggers a Stress Test for Wall Street",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-22/crypto-s-brutal-month-triggers-a-stress-test-for-wall-street",
-        "source": "Bloomberg Markets",
-        "weight": 0.774,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6388693907648514,
-          "price_change_24h": 0.08093
+          "volume_mcap_ratio": 0.48316438309266896,
+          "price_change_24h": 0.04265
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.3351350217507674,
-          "price_change_24h": -19.45986
+          "volume_mcap_ratio": 0.3214772948869768,
+          "price_change_24h": -13.4858
         }
       ],
       "momentum_shifts": []
