@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-23T08:31:53.775750+00:00",
+  "updated_at": "2025-11-23T12:46:49.695107+00:00",
   "indicators": {
-    "change24h": 0.05,
-    "vol": 0.191,
+    "change24h": 0.064,
+    "vol": 0.213,
     "fearGreed": 13,
-    "momentum": 0.877,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4038,
-    "global_sentiment": 0.4774,
-    "combined_sentiment": 0.426,
-    "confidence": 0.5414,
+    "crypto_sentiment": 0.3196,
+    "global_sentiment": 0.4278,
+    "combined_sentiment": 0.3587,
+    "confidence": 0.5846,
     "counts": {
-      "crypto": 65,
+      "crypto": 64,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 85966,
-      "btc_change_24h": 2.14,
-      "eth_price": 2805.88,
-      "eth_change_24h": 2.85,
+      "btc_price": 86546,
+      "btc_change_24h": 3.49,
+      "eth_price": 2834.92,
+      "eth_change_24h": 4.53,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.8,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156214467350,
+        "volume_24h": 153788826708,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.49,
+        "btc_dominance": 56.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-09T16:28:19.962402+00:00",
-      "crypto": 0.5179,
-      "global": 0.5772,
-      "combined": 0.5199,
-      "counts": {
-        "crypto": 73,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-09T19:53:26.761981+00:00",
       "crypto": 0.5571,
@@ -1008,12 +998,22 @@
         "crypto": 65,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-23T12:46:49.695107+00:00",
+      "crypto": 0.3196,
+      "global": 0.4278,
+      "combined": 0.3587,
+      "counts": {
+        "crypto": 64,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.4% — rally",
+        "title": "Global crypto market cap up 3.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,18 +1023,25 @@
         "title": "Carlyle Group Targeting $300 Million for India Side Fund",
         "url": "https://www.bloomberg.com/news/articles/2025-11-23/carlyle-group-targeting-300-million-for-india-side-fund",
         "source": "Bloomberg Markets",
-        "weight": 0.5268,
+        "weight": 0.3225,
         "score": 0.3333
       },
       {
         "title": "Billionaire Warren Buffett Owns 6 Dow Jones Stocks. Here's My Top Buy for 2026.",
         "url": "https://www.fool.com/investing/2025/11/22/billionaire-warren-buffett-buy-dow-stocks-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2686,
+        "weight": 0.1644,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Cardano Temporarily Splits Into Two Chains After Attacker Uses AI-Generated Script to Exploit a Known Bug",
+        "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug",
+        "source": "CoinDesk",
+        "weight": 0.9681,
+        "score": -0.8333
+      },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,26 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "The internet blackout playbook: How Bitcoin stays alive when banks and card networks go down",
-        "url": "https://cryptoslate.com/the-internet-blackout-playbook-how-bitcoin-stays-alive-when-banks-and-card-networks-go-down/",
-        "source": "CryptoSlate",
-        "weight": 0.6293,
+        "title": "VanEck CEO Concerned About Bitcoin's Encryption and Privacy, Says Firm Could Walk Away",
+        "url": "https://www.coindesk.com/markets/2025/11/23/vaneck-ceo-concerned-about-bitcoin-s-encryption-and-privacy-says-firm-could-walk-away",
+        "source": "CoinDesk",
+        "weight": 0.8433,
         "score": -0.3333
-      },
-      {
-        "title": "PE Firms Flood Junk Debt Market to Pay Themselves",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-22/pe-firms-flood-junk-debt-market-to-pay-themselves-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.1881,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36374261920246986,
-          "price_change_24h": -0.00093
+          "volume_mcap_ratio": 0.35557438994466023,
+          "price_change_24h": 0.00328
         }
       ],
       "momentum_shifts": []
