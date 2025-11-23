@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-23T16:29:44.042475+00:00",
+  "updated_at": "2025-11-23T19:53:29.336076+00:00",
   "indicators": {
-    "change24h": 0.05,
-    "vol": 0.184,
+    "change24h": 0.061,
+    "vol": 0.304,
     "fearGreed": 13,
-    "momentum": 0.882,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.422,
-    "global_sentiment": 0.4002,
-    "combined_sentiment": 0.4332,
-    "confidence": 0.6602,
+    "crypto_sentiment": 0.4623,
+    "global_sentiment": 0.3522,
+    "combined_sentiment": 0.4594,
+    "confidence": 0.6544,
     "counts": {
       "crypto": 65,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 87013,
-      "btc_change_24h": 2.96,
-      "eth_price": 2820.51,
-      "eth_change_24h": 2.58,
+      "btc_price": 87541,
+      "btc_change_24h": 3.51,
+      "eth_price": 2827.08,
+      "eth_change_24h": 2.78,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161057585795,
+        "volume_24h": 177991052354,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.63,
+        "btc_dominance": 56.69,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-09T20:25:19.935212+00:00",
-      "crypto": 0.5565,
-      "global": 0.6866,
-      "combined": 0.5579,
-      "counts": {
-        "crypto": 75,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-11-10T02:06:12.355673+00:00",
       "crypto": 0.4778,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-23T19:53:29.336076+00:00",
+      "crypto": 0.4623,
+      "global": 0.3522,
+      "combined": 0.4594,
+      "counts": {
+        "crypto": 65,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin Rebounds From 'Extreme Oversold' Levels; XRP Jumps 7%, ZEC Surges 14%",
-        "url": "https://www.coindesk.com/markets/2025/11/23/bitcoin-rebounds-from-extreme-oversold-levels-xrp-jumps-7-zec-surges-14",
-        "source": "CoinDesk",
-        "weight": 0.9286,
+        "title": "Bitcoin volatility surge may signal return to options-driven prices: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-volatility-surge-options-driven-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.691,
         "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 2.5% — rally",
+        "title": "Bitcoin Rebounds From 'Extreme Oversold' Levels; XRP Jumps 7%, ZEC Surges 14%",
+        "url": "https://www.coindesk.com/markets/2025/11/23/bitcoin-rebounds-from-extreme-oversold-levels-xrp-jumps-7-zec-surges-14",
+        "source": "CoinDesk",
+        "weight": 0.6273,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 3.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Options Market Signals Growing Anxiety After Week of Wild Swings",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-23/options-market-signals-growing-anxiety-after-week-of-wild-swings",
-        "source": "Bloomberg Markets",
-        "weight": 0.6731,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Security warning: Top-ranked Chrome ‘wallet’ that steals your seedphrase",
-        "url": "https://cryptoslate.com/security-reality-check-top-ranked-chrome-wallet-that-steals-your-seedphrase/",
-        "source": "CryptoSlate",
-        "weight": 0.5623,
+        "title": "Bessent believes there won't be a recession in 2026 but says some sectors are challenged",
+        "url": "https://www.cnbc.com/2025/11/23/bessent-economy-no-recession-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.6568,
         "score": -0.9667
       },
       {
-        "title": "Cardano Temporarily Splits Into Two Chains After Attacker Uses AI-Generated Script to Exploit a Known Bug",
-        "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug",
-        "source": "CoinDesk",
-        "weight": 0.6303,
-        "score": -0.8333
+        "title": "Fear & Greed 13 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Where Do Experts Think Tech Stocks Are Headed in 2026?",
-        "url": "https://finance.yahoo.com/news/where-experts-think-tech-stocks-155504449.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7483,
-        "score": -0.6333
+        "title": "Security warning: Top-ranked Chrome ‘wallet’ that steals your seedphrase",
+        "url": "https://cryptoslate.com/security-reality-check-top-ranked-chrome-wallet-that-steals-your-seedphrase/",
+        "source": "CryptoSlate",
+        "weight": 0.3798,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3715495523971198,
-          "price_change_24h": 0.00793
+          "volume_mcap_ratio": 0.3994100900242051,
+          "price_change_24h": 0.00849
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-23",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4025,
+      "crypto_high": 0.4623,
+      "crypto_low": 0.3196,
+      "global_avg": 0.4232,
+      "global_high": 0.4774,
+      "global_low": 0.3522,
+      "combined_avg": 0.4205,
+      "combined_high": 0.4594,
+      "combined_low": 0.3587
+    },
+    "market_indicators_24h": {
+      "change24h": 0.061,
+      "vol": 0.304,
+      "fearGreed": 13,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-23T19:53:29.336076+00:00"
   }
 }
