@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-23T12:46:49.695107+00:00",
+  "updated_at": "2025-11-23T16:29:44.042475+00:00",
   "indicators": {
-    "change24h": 0.064,
-    "vol": 0.213,
+    "change24h": 0.05,
+    "vol": 0.184,
     "fearGreed": 13,
-    "momentum": 1.0,
+    "momentum": 0.882,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3196,
-    "global_sentiment": 0.4278,
-    "combined_sentiment": 0.3587,
-    "confidence": 0.5846,
+    "crypto_sentiment": 0.422,
+    "global_sentiment": 0.4002,
+    "combined_sentiment": 0.4332,
+    "confidence": 0.6602,
     "counts": {
-      "crypto": 64,
+      "crypto": 65,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 86546,
-      "btc_change_24h": 3.49,
-      "eth_price": 2834.92,
-      "eth_change_24h": 4.53,
+      "btc_price": 87013,
+      "btc_change_24h": 2.96,
+      "eth_price": 2820.51,
+      "eth_change_24h": 2.58,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153788826708,
+        "volume_24h": 161057585795,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.63,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-09T19:53:26.761981+00:00",
-      "crypto": 0.5571,
-      "global": 0.6832,
-      "combined": 0.5581,
-      "counts": {
-        "crypto": 75,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-11-09T20:25:19.935212+00:00",
       "crypto": 0.5565,
@@ -1008,61 +998,71 @@
         "crypto": 64,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-23T16:29:44.042475+00:00",
+      "crypto": 0.422,
+      "global": 0.4002,
+      "combined": 0.4332,
+      "counts": {
+        "crypto": 65,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 3.2% — rally",
+        "title": "Bitcoin Rebounds From 'Extreme Oversold' Levels; XRP Jumps 7%, ZEC Surges 14%",
+        "url": "https://www.coindesk.com/markets/2025/11/23/bitcoin-rebounds-from-extreme-oversold-levels-xrp-jumps-7-zec-surges-14",
+        "source": "CoinDesk",
+        "weight": 0.9286,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 2.5% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Carlyle Group Targeting $300 Million for India Side Fund",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-23/carlyle-group-targeting-300-million-for-india-side-fund",
+        "title": "Options Market Signals Growing Anxiety After Week of Wild Swings",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-23/options-market-signals-growing-anxiety-after-week-of-wild-swings",
         "source": "Bloomberg Markets",
-        "weight": 0.3225,
-        "score": 0.3333
-      },
-      {
-        "title": "Billionaire Warren Buffett Owns 6 Dow Jones Stocks. Here's My Top Buy for 2026.",
-        "url": "https://www.fool.com/investing/2025/11/22/billionaire-warren-buffett-buy-dow-stocks-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1644,
-        "score": 0.3333
+        "weight": 0.6731,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Security warning: Top-ranked Chrome ‘wallet’ that steals your seedphrase",
+        "url": "https://cryptoslate.com/security-reality-check-top-ranked-chrome-wallet-that-steals-your-seedphrase/",
+        "source": "CryptoSlate",
+        "weight": 0.5623,
+        "score": -0.9667
+      },
+      {
         "title": "Cardano Temporarily Splits Into Two Chains After Attacker Uses AI-Generated Script to Exploit a Known Bug",
         "url": "https://www.coindesk.com/markets/2025/11/23/cardano-temporarily-splits-into-two-chains-after-attacker-uses-ai-generated-script-to-exploit-a-known-bug",
         "source": "CoinDesk",
-        "weight": 0.9681,
+        "weight": 0.6303,
         "score": -0.8333
       },
       {
-        "title": "Fear & Greed 13 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "VanEck CEO Concerned About Bitcoin's Encryption and Privacy, Says Firm Could Walk Away",
-        "url": "https://www.coindesk.com/markets/2025/11/23/vaneck-ceo-concerned-about-bitcoin-s-encryption-and-privacy-says-firm-could-walk-away",
-        "source": "CoinDesk",
-        "weight": 0.8433,
-        "score": -0.3333
+        "title": "Where Do Experts Think Tech Stocks Are Headed in 2026?",
+        "url": "https://finance.yahoo.com/news/where-experts-think-tech-stocks-155504449.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7483,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35557438994466023,
-          "price_change_24h": 0.00328
+          "volume_mcap_ratio": 0.3715495523971198,
+          "price_change_24h": 0.00793
         }
       ],
       "momentum_shifts": []
