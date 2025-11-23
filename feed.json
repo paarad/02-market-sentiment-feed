@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-23T02:21:22.229690+00:00",
+  "updated_at": "2025-11-23T04:36:40.307564+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.125,
+    "change24h": 0.062,
+    "vol": 0.242,
     "fearGreed": 13,
-    "momentum": 0.455,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3998,
-    "global_sentiment": 0.4447,
-    "combined_sentiment": 0.4202,
-    "confidence": 0.6034,
+    "crypto_sentiment": 0.4074,
+    "global_sentiment": 0.437,
+    "combined_sentiment": 0.4253,
+    "confidence": 0.5681,
     "counts": {
       "crypto": 66,
       "global": 35
     },
     "market_indicators": {
-      "btc_price": 85750,
-      "btc_change_24h": 1.37,
-      "eth_price": 2809.03,
-      "eth_change_24h": 2.03,
+      "btc_price": 86539,
+      "btc_change_24h": 3.02,
+      "eth_price": 2829.35,
+      "eth_change_24h": 3.62,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 151684699049,
+        "volume_24h": 153972504094,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.48,
+        "btc_dominance": 56.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-09T08:29:09.557963+00:00",
-      "crypto": 0.2931,
-      "global": 0.4158,
-      "combined": 0.3378,
-      "counts": {
-        "crypto": 71,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-09T12:47:47.025592+00:00",
       "crypto": 0.3254,
@@ -1008,12 +998,22 @@
         "crypto": 66,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-23T04:36:40.307564+00:00",
+      "crypto": 0.4074,
+      "global": 0.437,
+      "combined": 0.4253,
+      "counts": {
+        "crypto": 66,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.4% — rally",
+        "title": "Global crypto market cap up 2.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,14 +1023,14 @@
         "title": "Billionaire Warren Buffett Owns 6 Dow Jones Stocks. Here's My Top Buy for 2026.",
         "url": "https://www.fool.com/investing/2025/11/22/billionaire-warren-buffett-buy-dow-stocks-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5481,
+        "weight": 0.4224,
         "score": 0.3333
       },
       {
         "title": "UK to Extend EV Subsidies to Blunt Tax Increase in Budget",
         "url": "https://www.bloomberg.com/news/articles/2025-11-22/uk-to-extend-ev-subsidies-to-blunt-tax-increase-in-budget",
         "source": "Bloomberg Markets",
-        "weight": 0.4837,
+        "weight": 0.3727,
         "score": 0.3333
       }
     ],
@@ -1046,14 +1046,14 @@
         "title": "PE Firms Flood Junk Debt Market to Pay Themselves",
         "url": "https://www.bloomberg.com/news/articles/2025-11-22/pe-firms-flood-junk-debt-market-to-pay-themselves-credit-weekly",
         "source": "Bloomberg Markets",
-        "weight": 0.3839,
+        "weight": 0.2958,
         "score": -0.9333
       },
       {
         "title": "Bitcoin's Plunge Brings Strategy's Holdings to Near Breakeven, but Key Test Lies 18 Months Ahead",
         "url": "https://www.coindesk.com/markets/2025/11/21/bitcoin-s-plunge-brings-strategy-s-holdings-to-near-breakeven-but-key-test-lies-18-months-ahead",
         "source": "CoinDesk",
-        "weight": 0.5386,
+        "weight": 0.4151,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34531283973149945,
-          "price_change_24h": 0.01372
+          "volume_mcap_ratio": 0.35665371698993387,
+          "price_change_24h": -0.00038
         }
       ],
       "momentum_shifts": []
