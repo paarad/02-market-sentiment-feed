@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-24T02:09:23.525894+00:00",
+  "updated_at": "2025-11-24T04:38:21.644159+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.08,
+    "change24h": -0.001,
+    "vol": 0.032,
     "fearGreed": 19,
-    "momentum": 0.433,
+    "momentum": -0.014,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.41,
-    "global_sentiment": 0.448,
-    "combined_sentiment": 0.4282,
-    "confidence": 0.5944,
+    "crypto_sentiment": 0.4637,
+    "global_sentiment": 0.4282,
+    "combined_sentiment": 0.4668,
+    "confidence": 0.6264,
     "counts": {
-      "crypto": 64,
-      "global": 36
+      "crypto": 67,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 87754,
-      "btc_change_24h": 2.43,
-      "eth_price": 2846.1,
-      "eth_change_24h": 1.46,
+      "btc_price": 86731,
+      "btc_change_24h": 0.25,
+      "eth_price": 2820.55,
+      "eth_change_24h": -0.31,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 19,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 191560822318,
+        "volume_24h": 196653906753,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.64,
+        "btc_dominance": 56.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-10T08:35:44.480469+00:00",
-      "crypto": 0.6281,
-      "global": 0.4338,
-      "combined": 0.5906,
-      "counts": {
-        "crypto": 70,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-11-10T12:55:23.224097+00:00",
       "crypto": 0.5445,
@@ -1008,61 +998,71 @@
         "crypto": 64,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-24T04:38:21.644159+00:00",
+      "crypto": 0.4637,
+      "global": 0.4282,
+      "combined": 0.4668,
+      "counts": {
+        "crypto": 67,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "NYSE approves Grayscale DOGE and XRP ETFs, clearing launch for Monday",
+        "url": "https://cointelegraph.com/news/nyse-approves-grayscale-doge-xrp-etfs-clearing-launch-monday?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7882,
+        "score": 0.3333
+      },
+      {
         "title": "Why Micron Stock Plummeted This Week",
         "url": "https://www.fool.com/investing/2025/11/23/why-micron-stock-plummeted-this-week/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6519,
+        "weight": 0.4894,
         "score": 0.5333
       },
       {
         "title": "Bond Rally of 2025 Faces New Data Vacuum as Waiting Game Begins",
         "url": "https://www.bloomberg.com/news/articles/2025-11-23/treasury-rally-of-2025-enters-waiting-game-phase",
         "source": "Bloomberg Markets",
-        "weight": 0.3928,
+        "weight": 0.2949,
         "score": 0.8667
-      },
-      {
-        "title": "Stock Futures Rise Ahead of Holiday-Shortened Week",
-        "url": "https://finance.yahoo.com/m/7d761776-f41f-304a-a888-fd0d9c28f7c6/stock-futures-rise-ahead-of.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5807,
-        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "China’s Grip on Copper Sets Scene for Make-or-Break Supply Talks",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-23/china-s-grip-on-copper-sets-scene-for-make-or-break-supply-talks",
-        "source": "Bloomberg Markets",
-        "weight": 0.5555,
-        "score": -0.9333
-      },
-      {
-        "title": "Banned Chinese Bond Tactic That Turns 8% Yields Into 16% Is Roaring Back",
-        "url": "https://www.bloomberg.com/graphics/2025-china-hk-bond-stunning-return/",
-        "source": "Bloomberg Markets",
-        "weight": 0.4955,
-        "score": -0.9667
-      },
       {
         "title": "Fear & Greed 19 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "China’s Grip on Copper Sets Scene for Make-or-Break Supply Talks",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-23/china-s-grip-on-copper-sets-scene-for-make-or-break-supply-talks",
+        "source": "Bloomberg Markets",
+        "weight": 0.417,
+        "score": -0.9333
+      },
+      {
+        "title": "Banned Chinese Bond Tactic That Turns 8% Yields Into 16% Is Roaring Back",
+        "url": "https://www.bloomberg.com/graphics/2025-china-hk-bond-stunning-return/",
+        "source": "Bloomberg Markets",
+        "weight": 0.3719,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4358845766017378,
-          "price_change_24h": 0.01166
+          "volume_mcap_ratio": 0.44101553069806076,
+          "price_change_24h": 0.01132
         }
       ],
       "momentum_shifts": []
