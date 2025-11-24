@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-24T16:30:24.214010+00:00",
+  "updated_at": "2025-11-24T19:53:40.148926+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.054,
+    "change24h": 0.042,
+    "vol": 0.184,
     "fearGreed": 19,
-    "momentum": 0.164,
+    "momentum": 0.738,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4261,
-    "global_sentiment": 0.4215,
-    "combined_sentiment": 0.438,
-    "confidence": 0.7686,
+    "crypto_sentiment": 0.5032,
+    "global_sentiment": 0.4236,
+    "combined_sentiment": 0.496,
+    "confidence": 0.8196,
     "counts": {
-      "crypto": 65,
-      "global": 36
+      "crypto": 69,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 87174,
-      "btc_change_24h": 0.22,
-      "eth_price": 2850.84,
-      "eth_change_24h": 1.15,
+      "btc_price": 88364,
+      "btc_change_24h": 0.98,
+      "eth_price": 2962.27,
+      "eth_change_24h": 4.84,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 19,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 229722000711,
+        "volume_24h": 247335031749,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.54,
+        "btc_dominance": 56.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-10T20:30:18.146772+00:00",
-      "crypto": 0.6949,
-      "global": 0.4847,
-      "combined": 0.6449,
-      "counts": {
-        "crypto": 76,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-11T02:02:13.021936+00:00",
       "crypto": 0.6066,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-24T19:53:40.148926+00:00",
+      "crypto": 0.5032,
+      "global": 0.4236,
+      "combined": 0.496,
+      "counts": {
+        "crypto": 69,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nasdaq 100: Who's In And Who's Out Of QQQ. Walmart, Strategy, Lululemon?",
-        "url": "https://finance.yahoo.com/m/20274508-22b6-39d3-8ec8-f65bac33c240/nasdaq-100%3A-who%27s-in-and.html?.tsrc=rss",
+        "title": "US Equity Indexes Surge as Rising Fed Rate Cut Odds Underpin Big Tech",
+        "url": "https://finance.yahoo.com/news/us-equity-indexes-surge-rising-184828912.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7289,
-        "score": 0.9667
+        "weight": 0.7056,
+        "score": 0.8667
       },
       {
-        "title": "Morgan Stanley's Wilson Bullish on Stocks for 2026",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-24/morgan-stanley-s-wilson-bullish-on-stocks-for-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6462,
+        "title": "US Market's Hidden Treasures 3 Undiscovered Gems to Explore",
+        "url": "https://finance.yahoo.com/news/us-markets-hidden-treasures-3-173320673.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6106,
         "score": 1.0
       },
       {
-        "title": "Inspire Medical Stock Is Down 41% This Year. Why It’s Surging Today.",
-        "url": "https://finance.yahoo.com/m/422fb68f-4072-3463-beb4-1b34f685e08c/inspire-medical-stock-is-down.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6594,
-        "score": 0.7
+        "title": "Celestia’s TIA Token Rises as ‘Matcha’ Upgrade Preps Network for Cross-Chain Future",
+        "url": "https://www.coindesk.com/tech/2025/11/24/celestia-s-tia-token-rises-as-matcha-upgrade-preps-network-for-cross-chain-future",
+        "source": "CoinDesk",
+        "weight": 0.8931,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Novo Nordisk’s Alzheimer’s Trials Were a Long Shot. Their Failure Is Still Hitting the Stock.",
-        "url": "https://finance.yahoo.com/m/ddb0bac5-bbae-34e2-b8bd-93abfbe71273/novo-nordisk%E2%80%99s-alzheimer%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.726,
+        "title": "AI Fixated Fed Not Ready to Make a Greenspan-Size Bet",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-24/ai-focused-fed-not-ready-to-make-a-greenspan-size-bet-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7851,
+        "score": -1.0
+      },
+      {
+        "title": "5 Reasons Why Bitcoin Crashed—And Why It Could Fall Further: Deutsche Bank",
+        "url": "https://decrypt.co/349874/5-things-bitcoin-crash-deutsche-bank",
+        "source": "Decrypt",
+        "weight": 0.7662,
         "score": -1.0
       },
       {
         "title": "Kohl's names Michael Bender as permanent CEO after a turbulent year and sales declines",
         "url": "https://www.cnbc.com/2025/11/24/kohls-picks-new-ceo-after-a-turbulent-year-and-sales-declines.html",
         "source": "CNBC Markets",
-        "weight": 0.6714,
-        "score": -0.9333
-      },
-      {
-        "title": "Blockchain is struggling to hold on to its original purpose: Aztec CEO",
-        "url": "https://cointelegraph.com/news/blockchain-struggling-original-purpose-aztec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5652,
+        "weight": 0.737,
         "score": -0.9333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4942560271133431,
-          "price_change_24h": 0.01661
+          "volume_mcap_ratio": 0.5538269858872136,
+          "price_change_24h": 0.01028
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-24",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4627,
+      "crypto_high": 0.5032,
+      "crypto_low": 0.41,
+      "global_avg": 0.4428,
+      "global_high": 0.5297,
+      "global_low": 0.4061,
+      "combined_avg": 0.4673,
+      "combined_high": 0.4984,
+      "combined_low": 0.4282
+    },
+    "market_indicators_24h": {
+      "change24h": 0.042,
+      "vol": 0.184,
+      "fearGreed": 19,
+      "momentum": 0.738,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-24T19:53:40.148926+00:00"
   }
 }
