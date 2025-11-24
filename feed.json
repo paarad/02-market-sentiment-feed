@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-24T04:38:21.644159+00:00",
+  "updated_at": "2025-11-24T08:37:15.228970+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.032,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 19,
-    "momentum": -0.014,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4637,
-    "global_sentiment": 0.4282,
-    "combined_sentiment": 0.4668,
-    "confidence": 0.6264,
+    "crypto_sentiment": 0.4945,
+    "global_sentiment": 0.5297,
+    "combined_sentiment": 0.4984,
+    "confidence": 0.6746,
     "counts": {
       "crypto": 67,
-      "global": 35
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 86731,
-      "btc_change_24h": 0.25,
-      "eth_price": 2820.55,
-      "eth_change_24h": -0.31,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 86732,
+      "btc_change_24h": 0.95,
+      "eth_price": 2823.15,
+      "eth_change_24h": 0.65,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 19,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196653906753,
+        "volume_24h": 202645674704,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.59,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-10T12:55:23.224097+00:00",
-      "crypto": 0.5445,
-      "global": 0.5382,
-      "combined": 0.5365,
-      "counts": {
-        "crypto": 67,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-10T16:34:26.321750+00:00",
       "crypto": 0.5937,
@@ -1008,61 +998,71 @@
         "crypto": 67,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-24T08:37:15.228970+00:00",
+      "crypto": 0.4945,
+      "global": 0.5297,
+      "combined": 0.4984,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "NYSE approves Grayscale DOGE and XRP ETFs, clearing launch for Monday",
-        "url": "https://cointelegraph.com/news/nyse-approves-grayscale-doge-xrp-etfs-clearing-launch-monday?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7882,
-        "score": 0.3333
-      },
-      {
-        "title": "Why Micron Stock Plummeted This Week",
-        "url": "https://www.fool.com/investing/2025/11/23/why-micron-stock-plummeted-this-week/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4894,
-        "score": 0.5333
-      },
-      {
-        "title": "Bond Rally of 2025 Faces New Data Vacuum as Waiting Game Begins",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-23/treasury-rally-of-2025-enters-waiting-game-phase",
+        "title": "LNG Freight Rates Extend Rally on Strong North American Exports",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-24/lng-freight-rates-extend-rally-on-strong-north-american-exports",
         "source": "Bloomberg Markets",
-        "weight": 0.2949,
+        "weight": 0.7444,
         "score": 0.8667
+      },
+      {
+        "title": "FTSE 100 Notches Third Day of Gains in Broad Rally",
+        "url": "https://www.bloomberg.com/news/live-blog/2025-11-24/ftse-100-uk-stocks-reeves-budget-bhp-anglo-bitcoin-what-s-moving-uk-markets-right-now-markets-today",
+        "source": "Bloomberg Markets",
+        "weight": 0.642,
+        "score": 0.8667
+      },
+      {
+        "title": "HK IPO Momentum Shows No Signs of Fading, UBS Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-24/hk-ipo-momentum-shows-no-signs-of-fading-ubs-says-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5585,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 19 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Europe Gas Slips Below €30 as Imports Surge and Cold Spell Eases",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-24/european-gas-drops-below-30-for-the-first-time-since-may-2024",
+        "source": "Bloomberg Markets",
+        "weight": 0.6676,
+        "score": -0.8667
       },
       {
-        "title": "China’s Grip on Copper Sets Scene for Make-or-Break Supply Talks",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-23/china-s-grip-on-copper-sets-scene-for-make-or-break-supply-talks",
-        "source": "Bloomberg Markets",
-        "weight": 0.417,
-        "score": -0.9333
+        "title": "European defense stocks slide as U.S., Ukraine make progress on peace plan",
+        "url": "https://www.cnbc.com/2025/11/24/europe-defense-stocks-fall-as-us-ukraine-make-progress-on-peace-plan.html",
+        "source": "CNBC Markets",
+        "weight": 0.7977,
+        "score": -0.6333
       },
       {
-        "title": "Banned Chinese Bond Tactic That Turns 8% Yields Into 16% Is Roaring Back",
-        "url": "https://www.bloomberg.com/graphics/2025-china-hk-bond-stunning-return/",
+        "title": "Corn Hits Two-Month High in China as Rain Damage Feeds Concerns",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-24/corn-hits-two-month-high-in-china-as-rain-damage-feeds-concerns",
         "source": "Bloomberg Markets",
-        "weight": 0.3719,
-        "score": -0.9667
+        "weight": 0.7815,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44101553069806076,
-          "price_change_24h": 0.01132
+          "volume_mcap_ratio": 0.4526333714078176,
+          "price_change_24h": 0.00659
         }
       ],
       "momentum_shifts": []
