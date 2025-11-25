@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-25T16:35:55.617783+00:00",
+  "updated_at": "2025-11-25T19:53:38.390218+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.139,
+    "change24h": -0.03,
+    "vol": 0.103,
     "fearGreed": 20,
-    "momentum": 0.287,
-    "regime": "sideways",
+    "momentum": -0.529,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4047,
-    "global_sentiment": 0.4123,
-    "combined_sentiment": 0.4212,
-    "confidence": 0.7906,
+    "crypto_sentiment": 0.5057,
+    "global_sentiment": 0.4473,
+    "combined_sentiment": 0.4998,
+    "confidence": 0.8277,
     "counts": {
-      "crypto": 63,
-      "global": 42
+      "crypto": 69,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 87082,
-      "btc_change_24h": -0.01,
-      "eth_price": 2925.9,
-      "eth_change_24h": 2.59,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 86709,
+      "btc_change_24h": -1.72,
+      "eth_price": 2911.0,
+      "eth_change_24h": -1.64,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 227144776899,
+        "volume_24h": 207327177110,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-11T20:28:22.418779+00:00",
-      "crypto": 0.4562,
-      "global": 0.4337,
-      "combined": 0.4616,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-12T02:01:20.167493+00:00",
       "crypto": 0.4758,
@@ -1008,52 +998,62 @@
         "crypto": 63,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-11-25T19:53:38.390218+00:00",
+      "crypto": 0.5057,
+      "global": 0.4473,
+      "combined": 0.4998,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP price ‘looking very bullish’ after 25% weekly gain: How high can it go?",
-        "url": "https://cointelegraph.com/news/xrp-looking-very-bullish-25-percent-gains-how-high-can-it-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Polymarket wins regulatory approval to operate US trading platform",
+        "url": "https://cointelegraph.com/news/us-cftc-regulatory-approval-polymarket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6076,
+        "weight": 0.7144,
+        "score": 0.9167
+      },
+      {
+        "title": "AI's Power Shift | Open Interest 11/25/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-25/open-interest-11-25-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6591,
         "score": 0.8667
       },
       {
-        "title": "Why Bitcoin Is Underperforming Equities Despite Bullish Catalysts",
-        "url": "https://www.coindesk.com/markets/2025/11/20/why-bitcoin-is-underperforming-equities-despite-bullish-catalysts",
-        "source": "CoinDesk",
-        "weight": 0.9662,
-        "score": 0.5333
-      },
-      {
-        "title": "Couche-Tard Surges After Earnings Beat as CEO Signals Deal Hunt",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-25/couche-tard-surges-after-earnings-beat-as-ceo-signals-deal-hunt",
-        "source": "Bloomberg Markets",
-        "weight": 0.7179,
-        "score": 0.6667
+        "title": "Top Stock Movers Now: Nvidia, Coinbase, Kohl's, and More",
+        "url": "https://www.investopedia.com/top-stock-movers-now-nvidia-coinbase-kohls-and-more-nvda-coin-kss-11856526?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6175,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "VanEck quietly backpedals on BNB ETF staking in latest SEC filing",
-        "url": "https://cointelegraph.com/news/vaneck-backpedals-on-bnb-staking-in-latest-etf-filing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6542,
+        "title": "Sector Update: Energy Stocks Retreat in Afternoon Trading",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-retreat-afternoon-185229196.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7111,
         "score": -0.9667
       },
       {
-        "title": "The Stock Market Is Struggling. Blame Nvidia, Crypto Stocks.",
-        "url": "https://finance.yahoo.com/m/13793656-704a-3276-8ea4-e01470dccb20/the-stock-market-is.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6653,
-        "score": -0.9333
+        "title": "Ex-Commodities Trader Gets 3 Years in Prison for Hiding Losses",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-25/ex-commodities-trader-gets-3-years-in-prison-for-hiding-losses",
+        "source": "Bloomberg Markets",
+        "weight": 0.6306,
+        "score": -0.9667
       },
       {
-        "title": "MoonPay Secures New York Trust Charter, Expands Institutional Crypto Services",
-        "url": "https://www.coindesk.com/business/2025/11/25/moonpay-secures-new-york-trust-charter-expands-institutional-crypto-services",
-        "source": "CoinDesk",
-        "weight": 0.9208,
+        "title": "US Equity Indexes Rise as Falling Consumer Confidence, Retail Sales Keep Rate-Cut Bets Elevated",
+        "url": "https://finance.yahoo.com/news/us-equity-indexes-rise-falling-184953275.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7076,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5136674246168877,
-          "price_change_24h": -0.00949
+          "volume_mcap_ratio": 0.472137914261433,
+          "price_change_24h": -0.01427
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-25",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4879,
+      "crypto_high": 0.5243,
+      "crypto_low": 0.4047,
+      "global_avg": 0.4731,
+      "global_high": 0.5581,
+      "global_low": 0.404,
+      "combined_avg": 0.4887,
+      "combined_high": 0.5102,
+      "combined_low": 0.4212
+    },
+    "market_indicators_24h": {
+      "change24h": -0.03,
+      "vol": 0.103,
+      "fearGreed": 20,
+      "momentum": -0.529,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-25T19:53:38.390218+00:00"
   }
 }
