@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-25T19:53:38.390218+00:00",
+  "updated_at": "2025-11-25T20:30:01.136298+00:00",
   "indicators": {
-    "change24h": -0.03,
-    "vol": 0.103,
+    "change24h": -0.031,
+    "vol": 0.108,
     "fearGreed": 20,
-    "momentum": -0.529,
+    "momentum": -0.537,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5057,
-    "global_sentiment": 0.4473,
-    "combined_sentiment": 0.4998,
-    "confidence": 0.8277,
+    "crypto_sentiment": 0.5172,
+    "global_sentiment": 0.4243,
+    "combined_sentiment": 0.5066,
+    "confidence": 0.8335,
     "counts": {
       "crypto": 69,
-      "global": 39
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 86709,
-      "btc_change_24h": -1.72,
-      "eth_price": 2911.0,
-      "eth_change_24h": -1.64,
+      "btc_price": 87021,
+      "btc_change_24h": -2.0,
+      "eth_price": 2933.08,
+      "eth_change_24h": -1.44,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.1,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 207327177110,
+        "volume_24h": 210351941222,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.09,
+        "btc_dominance": 56.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-12T02:01:20.167493+00:00",
-      "crypto": 0.4758,
-      "global": 0.5398,
-      "combined": 0.4852,
-      "counts": {
-        "crypto": 71,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-12T04:31:04.066480+00:00",
       "crypto": 0.4297,
@@ -1008,61 +998,71 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-25T20:30:01.136298+00:00",
+      "crypto": 0.5172,
+      "global": 0.4243,
+      "combined": 0.5066,
+      "counts": {
+        "crypto": 69,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "MoonPay Granted New York Trust Charter, Joining Coinbase and Ripple",
+        "url": "https://decrypt.co/350004/moonpay-wins-new-york-trust-charter-joining-coinbase-ripple",
+        "source": "Decrypt",
+        "weight": 0.8437,
+        "score": 0.9167
+      },
+      {
         "title": "Polymarket wins regulatory approval to operate US trading platform",
         "url": "https://cointelegraph.com/news/us-cftc-regulatory-approval-polymarket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7144,
+        "weight": 0.6661,
         "score": 0.9167
       },
       {
         "title": "AI's Power Shift | Open Interest 11/25/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-11-25/open-interest-11-25-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6591,
-        "score": 0.8667
-      },
-      {
-        "title": "Top Stock Movers Now: Nvidia, Coinbase, Kohl's, and More",
-        "url": "https://www.investopedia.com/top-stock-movers-now-nvidia-coinbase-kohls-and-more-nvda-coin-kss-11856526?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6175,
+        "weight": 0.6145,
         "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "US' Ukraine Policy Whiplash Benefits Moscow",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-25/us-ukraine-policy-whiplash-benefits-moscow-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7423,
+        "score": -0.9667
+      },
+      {
         "title": "Sector Update: Energy Stocks Retreat in Afternoon Trading",
         "url": "https://finance.yahoo.com/news/sector-energy-stocks-retreat-afternoon-185229196.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7111,
+        "weight": 0.663,
         "score": -0.9667
       },
       {
-        "title": "Ex-Commodities Trader Gets 3 Years in Prison for Hiding Losses",
+        "title": "Commodities Trader Gets 3 Years in Prison for Hiding Losses",
         "url": "https://www.bloomberg.com/news/articles/2025-11-25/ex-commodities-trader-gets-3-years-in-prison-for-hiding-losses",
         "source": "Bloomberg Markets",
-        "weight": 0.6306,
+        "weight": 0.588,
         "score": -0.9667
-      },
-      {
-        "title": "US Equity Indexes Rise as Falling Consumer Confidence, Retail Sales Keep Rate-Cut Bets Elevated",
-        "url": "https://finance.yahoo.com/news/us-equity-indexes-rise-falling-184953275.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7076,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.472137914261433,
-          "price_change_24h": -0.01427
+          "volume_mcap_ratio": 0.4655442787005771,
+          "price_change_24h": -0.00839
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-25",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4879,
-      "crypto_high": 0.5243,
-      "crypto_low": 0.4047,
-      "global_avg": 0.4731,
-      "global_high": 0.5581,
-      "global_low": 0.404,
-      "combined_avg": 0.4887,
-      "combined_high": 0.5102,
-      "combined_low": 0.4212
-    },
-    "market_indicators_24h": {
-      "change24h": -0.03,
-      "vol": 0.103,
-      "fearGreed": 20,
-      "momentum": -0.529,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-25T19:53:38.390218+00:00"
   }
 }
