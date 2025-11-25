@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-25T04:32:19.359856+00:00",
+  "updated_at": "2025-11-25T08:36:17.359915+00:00",
   "indicators": {
-    "change24h": 0.049,
-    "vol": 0.165,
+    "change24h": 0.028,
+    "vol": 0.148,
     "fearGreed": 20,
-    "momentum": 0.853,
+    "momentum": 0.495,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5114,
-    "global_sentiment": 0.4775,
-    "combined_sentiment": 0.5067,
-    "confidence": 0.7765,
+    "crypto_sentiment": 0.4982,
+    "global_sentiment": 0.5397,
+    "combined_sentiment": 0.5019,
+    "confidence": 0.7777,
     "counts": {
-      "crypto": 69,
-      "global": 34
+      "crypto": 71,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 88090,
-      "btc_change_24h": 1.69,
-      "eth_price": 2928.88,
-      "eth_change_24h": 4.11,
+      "btc_price": 87463,
+      "btc_change_24h": 0.8,
+      "eth_price": 2900.77,
+      "eth_change_24h": 2.64,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
+      "regime_strength": 1.0,
       "market_breadth": 0.8,
       "fear_greed": {
         "value": 20,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 242204563975,
+        "volume_24h": 226474373387,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-11T12:54:19.741030+00:00",
-      "crypto": 0.5024,
-      "global": 0.5509,
-      "combined": 0.506,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-11T16:33:22.505883+00:00",
       "crypto": 0.4449,
@@ -1008,52 +998,62 @@
         "crypto": 69,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-11-25T08:36:17.359915+00:00",
+      "crypto": 0.4982,
+      "global": 0.5397,
+      "combined": 0.5019,
+      "counts": {
+        "crypto": 71,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US stocks rise again on AI rebound, revived Fed rate-cut hopes",
-        "url": "https://finance.yahoo.com/news/asian-stocks-rise-us-rate-030527575.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.698,
+        "title": "XRP Surges 7% in Strongest Breakout in Weeks as Ripple Linked ETFs Go Live",
+        "url": "https://www.coindesk.com/markets/2025/11/25/xrp-surges-7-in-strongest-breakout-in-weeks-as-ripple-linked-etfs-go-live",
+        "source": "CoinDesk",
+        "weight": 0.9347,
         "score": 1.0
       },
       {
-        "title": "BitMine, Strategy, SharpLink stocks outpace crypto market recovery",
-        "url": "https://cointelegraph.com/news/bitmine-strategy-sharplink-are-outpacing-crypto-market-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7621,
+        "title": "Pound Volatility Soars as Traders Hedge for UK Budget Turbulence",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-25/pound-volatility-soars-as-traders-hedge-for-uk-budget-turbulence",
+        "source": "Bloomberg Markets",
+        "weight": 0.7632,
         "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 2.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "The $1.7B Bitcoin Bet on Rally Above $100K, But Not Reaching New Record Highs",
+        "url": "https://www.coindesk.com/markets/2025/11/25/the-usd1-7b-bitcoin-bet-on-rally-above-usd100k-but-not-reaching-new-record-highs",
+        "source": "CoinDesk",
+        "weight": 0.7552,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Rebounds Above $88K—Will It Last?",
-        "url": "https://decrypt.co/349926/bitcoin-rebounds-above-88k-will-it-last",
+        "title": "Developer Vanke’s Yuan Bonds Plunge as Debt Concerns Grow",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-25/developer-vanke-s-yuan-bonds-plunge-as-debt-concerns-grow",
+        "source": "Bloomberg Markets",
+        "weight": 0.6941,
+        "score": -0.9667
+      },
+      {
+        "title": "Japan's FSA to Require Crypto Exchanges Hold Liability Reserves for Losses Relating to Hacks",
+        "url": "https://decrypt.co/349929/japans-fsa-crypto-exchanges-hold-liability-reserves-hacks",
         "source": "Decrypt",
-        "weight": 0.7929,
+        "weight": 0.5609,
         "score": -1.0
       },
       {
-        "title": "SEC issues ‘rare’ no-action letter for Solana DePIN project token FUSE",
-        "url": "https://cointelegraph.com/news/sec-no-action-letter-fuse-depin-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7242,
-        "score": -0.6333
-      },
-      {
-        "title": "Private Equity Firm Gaw Secures Last-Minute Loan Extension",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-25/private-equity-firm-gaw-secures-last-minute-loan-extension",
-        "source": "Bloomberg Markets",
-        "weight": 0.7001,
+        "title": "Japan’s FSA to Mandate Liability Reserves for Crypto Exchanges to Enhance Security: Report",
+        "url": "https://www.coindesk.com/markets/2025/11/25/japan-s-fsa-to-mandate-liability-reserves-for-crypto-exchanges-to-enhance-security",
+        "source": "CoinDesk",
+        "weight": 0.8828,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5185400574901241,
-          "price_change_24h": 0.01459
+          "volume_mcap_ratio": 0.5024040876871696,
+          "price_change_24h": 0.01473
         }
       ],
       "momentum_shifts": []
