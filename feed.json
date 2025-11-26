@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-26T19:53:49.541558+00:00",
+  "updated_at": "2025-11-26T20:27:49.224674+00:00",
   "indicators": {
-    "change24h": 0.066,
-    "vol": 0.168,
+    "change24h": 0.055,
+    "vol": 0.154,
     "fearGreed": 15,
-    "momentum": 1.0,
+    "momentum": 0.955,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4276,
-    "global_sentiment": 0.4974,
-    "combined_sentiment": 0.4455,
-    "confidence": 0.8397,
+    "crypto_sentiment": 0.4092,
+    "global_sentiment": 0.4596,
+    "combined_sentiment": 0.4285,
+    "confidence": 0.8364,
     "counts": {
-      "crypto": 77,
-      "global": 49
+      "crypto": 76,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 89946,
-      "btc_change_24h": 3.78,
-      "eth_price": 3035.22,
-      "eth_change_24h": 4.34,
+      "btc_price": 90063,
+      "btc_change_24h": 3.64,
+      "eth_price": 3022.05,
+      "eth_change_24h": 3.2,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 205802439294,
+        "volume_24h": 215983388264,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.2,
+        "btc_dominance": 56.28,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-13T02:03:27.322280+00:00",
-      "crypto": 0.4791,
-      "global": 0.4793,
-      "combined": 0.4826,
-      "counts": {
-        "crypto": 70,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-11-13T04:31:26.659563+00:00",
       "crypto": 0.4742,
@@ -1008,6 +998,16 @@
         "crypto": 77,
         "global": 49
       }
+    },
+    {
+      "ts": "2025-11-26T20:27:49.224674+00:00",
+      "crypto": 0.4092,
+      "global": 0.4596,
+      "combined": 0.4285,
+      "counts": {
+        "crypto": 76,
+        "global": 43
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "Stock Market Today: Dow Tops 400-Point Gain, Gold Stocks Lead But Zscaler Slammed (Live Coverage)",
         "url": "https://finance.yahoo.com/m/eeca48ec-b45c-309b-904d-8400ea32ac2e/stock-market-today%3A-dow-tops.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7104,
+        "weight": 0.6654,
         "score": 0.8667
       },
       {
         "title": "Stocks Rise as Traders Bet on Fed Cuts and 2026 S&P 8,000 Target",
         "url": "https://finance.yahoo.com/news/stocks-rise-traders-bet-fed-181522856.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6618,
+        "weight": 0.6199,
         "score": 0.8667
       },
       {
         "title": "Deere Miss Signals Severe Ag Downturn | Open Interest 11/26/2025",
         "url": "https://www.bloomberg.com/news/videos/2025-11-26/open-interest-11-26-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6242,
+        "weight": 0.5847,
         "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Struggling to sleep? You’re not alone – How Bitcoin’s recent price crash is affecting other traders IRL",
+        "url": "https://cryptoslate.com/bitcoins-recent-decline-fuels-sleep-nights-among-traders/",
+        "source": "CryptoSlate",
+        "weight": 0.7217,
+        "score": -1.0
+      },
+      {
         "title": "Bitcoin rises above $90,000 as cryptocurrency attempts recovery amid stock market gains",
         "url": "https://finance.yahoo.com/news/bitcoin-rises-above-90000-as-cryptocurrency-attempts-recovery-amid-stock-market-gains-193405385.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7702,
+        "weight": 0.7214,
         "score": -0.9333
       },
       {
-        "title": "Altice International’s Junior Creditors Tap Jefferies, Milbank",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-26/altice-international-s-junior-creditors-tap-jefferies-milbank",
+        "title": "Avoiding Holiday Shopping Scams",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-26/avoiding-holiday-shopping-scams-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6113,
-        "score": -0.9667
-      },
-      {
-        "title": "S&P Downgrades Tether's USDT, Citing Falling Bitcoin Prices as Risk",
-        "url": "https://www.coindesk.com/policy/2025/11/26/s-and-p-downgrades-tether-s-usdt-citing-falling-bitcoin-prices-as-risk",
-        "source": "CoinDesk",
-        "weight": 0.74,
-        "score": -0.6667
+        "weight": 0.7873,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4642329619257575,
-          "price_change_24h": 0.02776
+          "volume_mcap_ratio": 0.46664306966625474,
+          "price_change_24h": 0.01564
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-26",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4861,
-      "crypto_high": 0.5281,
-      "crypto_low": 0.4276,
-      "global_avg": 0.4399,
-      "global_high": 0.5185,
-      "global_low": 0.328,
-      "combined_avg": 0.4846,
-      "combined_high": 0.5139,
-      "combined_low": 0.4455
-    },
-    "market_indicators_24h": {
-      "change24h": 0.066,
-      "vol": 0.168,
-      "fearGreed": 15,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-26T19:53:49.541558+00:00"
   }
 }
