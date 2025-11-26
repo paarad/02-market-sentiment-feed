@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-26T12:56:58.176350+00:00",
+  "updated_at": "2025-11-26T16:34:14.436820+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.077,
+    "change24h": 0.014,
+    "vol": 0.098,
     "fearGreed": 15,
-    "momentum": -0.124,
+    "momentum": 0.251,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5,
-    "global_sentiment": 0.5185,
-    "combined_sentiment": 0.5016,
-    "confidence": 0.7649,
+    "crypto_sentiment": 0.4456,
+    "global_sentiment": 0.4936,
+    "combined_sentiment": 0.4587,
+    "confidence": 0.8339,
     "counts": {
-      "crypto": 76,
-      "global": 35
+      "crypto": 74,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 86610,
-      "btc_change_24h": -1.01,
-      "eth_price": 2901.44,
-      "eth_change_24h": -0.86,
+      "btc_price": 87671,
+      "btc_change_24h": 0.6,
+      "eth_price": 2949.6,
+      "eth_change_24h": 0.75,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 199830584706,
+        "volume_24h": 187360129448,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.09,
+        "btc_dominance": 56.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-12T19:53:32.535830+00:00",
-      "crypto": 0.4607,
-      "global": 0.3821,
-      "combined": 0.4607,
-      "counts": {
-        "crypto": 70,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-12T20:29:01.787278+00:00",
       "crypto": 0.4577,
@@ -1008,61 +998,71 @@
         "crypto": 76,
         "global": 35
       }
+    },
+    {
+      "ts": "2025-11-26T16:34:14.436820+00:00",
+      "crypto": 0.4456,
+      "global": 0.4936,
+      "combined": 0.4587,
+      "counts": {
+        "crypto": 74,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock Market Today: Dow Climbs; Cathie Wood Loads Up On This Buffett Tech Stock (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/eeca48ec-b45c-309b-904d-8400ea32ac2e/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6939,
+        "score": 0.8667
+      },
+      {
         "title": "Crypto Markets Today: Altcoins Remain Subdued, MON Surges on Upbit Listing",
         "url": "https://www.coindesk.com/markets/2025/11/26/crypto-markets-today-altcoins-remain-subdued-mon-surges-on-upbit-listing",
         "source": "CoinDesk",
-        "weight": 0.8509,
+        "weight": 0.56,
         "score": 1.0
       },
       {
-        "title": "3 Promising Penny Stocks With Over $900M Market Cap",
-        "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-over-120510640.html?.tsrc=rss",
+        "title": "BP Surges Ahead of Peers: What's Driving the Momentum?",
+        "url": "https://finance.yahoo.com/news/bp-surges-ahead-peers-whats-142800018.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7241,
-        "score": 1.0
-      },
-      {
-        "title": "Nasdaq 100: Who's In And Who's Out Of QQQ. Walmart, Strategy, Lululemon?",
-        "url": "https://finance.yahoo.com/m/20274508-22b6-39d3-8ec8-f65bac33c240/nasdaq-100%3A-who%27s-in-and.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5947,
-        "score": 0.9667
+        "weight": 0.6274,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Health-Care Earnings Top S&amp;P 500 on Strong Drug, Hospital Demand",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-26/health-care-earnings-top-s-p-500-on-strong-drug-hospital-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.6767,
+        "title": "Don’t Expect Salesforce’s Earnings to Dispel Fear That AI Could Hurt It",
+        "url": "https://finance.yahoo.com/m/7abd6d2e-ebb1-3cba-953a-7f8b430dd678/don%E2%80%99t-expect-salesforce%E2%80%99s.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6508,
+        "score": -1.0
+      },
+      {
+        "title": "Strategy unveils new credit gauge to calm debt fears after Bitcoin crash",
+        "url": "https://cointelegraph.com/news/strategy-btc-rating-debt-safe-bitcoin-slumps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5566,
+        "score": -1.0
+      },
+      {
+        "title": "Polygon co-founder mulls resurrecting MATIC a year after POL rebrand",
+        "url": "https://cointelegraph.com/news/polygon-founder-matic-poll-revert-debate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5617,
         "score": -0.9333
-      },
-      {
-        "title": "3x damages threat from a 284-page Binance terror-financing case puts exchanges on notice",
-        "url": "https://cryptoslate.com/binance-terror-financing-lawsuit-triple-damages-exchanges-jasta-ata/",
-        "source": "CryptoSlate",
-        "weight": 0.6723,
-        "score": -0.7333
-      },
-      {
-        "title": "Fear & Greed 15 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43177721367702954,
-          "price_change_24h": 0.00529
+          "volume_mcap_ratio": 0.41551573962103344,
+          "price_change_24h": 0.00521
         }
       ],
       "momentum_shifts": []
