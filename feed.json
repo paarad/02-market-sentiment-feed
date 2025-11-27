@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-27T04:31:57.303127+00:00",
+  "updated_at": "2025-11-27T08:36:06.815839+00:00",
   "indicators": {
-    "change24h": 0.055,
-    "vol": 0.1,
+    "change24h": 0.046,
+    "vol": 0.094,
     "fearGreed": 22,
-    "momentum": 0.97,
+    "momentum": 0.807,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4254,
-    "global_sentiment": 0.4889,
-    "combined_sentiment": 0.4432,
-    "confidence": 0.7822,
+    "crypto_sentiment": 0.462,
+    "global_sentiment": 0.4603,
+    "combined_sentiment": 0.4682,
+    "confidence": 0.7518,
     "counts": {
-      "crypto": 79,
-      "global": 40
+      "crypto": 77,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 91090,
-      "btc_change_24h": 4.47,
-      "eth_price": 3037.7,
-      "eth_change_24h": 3.56,
+      "btc_price": 91330,
+      "btc_change_24h": 4.37,
+      "eth_price": 3020.33,
+      "eth_change_24h": 3.36,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 1.0,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 227378530142,
+        "volume_24h": 222507676186,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.56,
+        "btc_dominance": 56.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-13T12:55:52.547735+00:00",
-      "crypto": 0.3947,
-      "global": 0.6412,
-      "combined": 0.4328,
-      "counts": {
-        "crypto": 71,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-11-13T16:32:38.032863+00:00",
       "crypto": 0.435,
@@ -1008,61 +998,71 @@
         "crypto": 79,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-27T08:36:06.815839+00:00",
+      "crypto": 0.462,
+      "global": 0.4603,
+      "combined": 0.4682,
+      "counts": {
+        "crypto": 77,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XRP ETFs absorb 80M tokens: Is a new bull trend starting for the altcoin?",
+        "url": "https://cointelegraph.com/news/xrp-etfs-absorb-80m-tokens-is-this-the-start-of-a-bull-trend-for-the-altcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6582,
+        "score": 0.8667
+      },
+      {
         "title": "Pop Mart Leads China Consumer Rally After Beijing’s Growth Push",
         "url": "https://www.bloomberg.com/news/articles/2025-11-27/pop-mart-leads-china-consumer-rally-after-beijing-s-growth-push",
         "source": "Bloomberg Markets",
-        "weight": 0.7528,
+        "weight": 0.4705,
         "score": 1.0
       },
       {
-        "title": "Spot Platinum Jumps as New Futures Contract in China Aids Demand",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-26/gold-holds-gains-as-traders-weigh-rising-us-rate-cut-prospects",
-        "source": "Bloomberg Markets",
-        "weight": 0.4508,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 3.7% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "DOGE Builds Bullish Structure With Higher Lows as ETFs Fail to Wow",
+        "url": "https://www.coindesk.com/markets/2025/11/27/doge-builds-bullish-structure-with-higher-lows-as-etfs-fail-to-wow",
+        "source": "CoinDesk",
+        "weight": 0.8451,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "SEC tokenized stock exemptions should be targeted, stock exchanges argue",
-        "url": "https://cointelegraph.com/news/sec-tokenized-stock-exemptions-targeted-stock-exchanges-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7207,
-        "score": -0.9667
-      },
-      {
-        "title": "Fear & Greed 22 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Australian Capex Jumps Most Since 2021 on Data Centers, Aircraft",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-27/australian-capex-jumps-most-since-2021-on-data-centers-aircraft",
+        "title": "Vanke’s Loan Request Rejected by at Least Two Chinese Banks",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-27/vanke-s-loan-request-rejected-by-at-least-two-chinese-banks",
         "source": "Bloomberg Markets",
-        "weight": 0.6636,
-        "score": -0.6
+        "weight": 0.7465,
+        "score": -1.0
+      },
+      {
+        "title": "Munro: Uncertainty in the UK Having a Knock-On Effect",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-27/munro-uncertainty-in-the-uk-having-a-knock-on-effect-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7604,
+        "score": -0.9333
+      },
+      {
+        "title": "Zaman: Markets Are Pricing in More Fed Rate Cuts",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-27/zaman-markets-are-pricing-in-more-fed-rate-cuts-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7626,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5010707676526858,
-          "price_change_24h": 0.0236
+          "volume_mcap_ratio": 0.5053211579567961,
+          "price_change_24h": 0.02151
         }
       ],
       "momentum_shifts": []
