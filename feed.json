@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-26T20:27:49.224674+00:00",
+  "updated_at": "2025-11-27T02:00:21.810698+00:00",
   "indicators": {
-    "change24h": 0.055,
-    "vol": 0.154,
-    "fearGreed": 15,
-    "momentum": 0.955,
+    "change24h": 0.044,
+    "vol": 0.096,
+    "fearGreed": 22,
+    "momentum": 0.776,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4092,
-    "global_sentiment": 0.4596,
-    "combined_sentiment": 0.4285,
-    "confidence": 0.8364,
+    "crypto_sentiment": 0.4247,
+    "global_sentiment": 0.4603,
+    "combined_sentiment": 0.4402,
+    "confidence": 0.797,
     "counts": {
-      "crypto": 76,
-      "global": 43
+      "crypto": 79,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 90063,
-      "btc_change_24h": 3.64,
-      "eth_price": 3022.05,
-      "eth_change_24h": 3.2,
+      "btc_price": 90929,
+      "btc_change_24h": 3.47,
+      "eth_price": 3050.82,
+      "eth_change_24h": 2.79,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 1.0,
       "fear_greed": {
-        "value": 15,
+        "value": 22,
         "classification": "Extreme Fear",
-        "trend": "improving"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 215983388264,
+        "volume_24h": 210302958028,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.28,
+        "btc_dominance": 56.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-13T04:31:26.659563+00:00",
-      "crypto": 0.4742,
-      "global": 0.4981,
-      "combined": 0.4805,
-      "counts": {
-        "crypto": 71,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-13T08:34:46.102698+00:00",
       "crypto": 0.505,
@@ -1008,52 +998,62 @@
         "crypto": 76,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-27T02:00:21.810698+00:00",
+      "crypto": 0.4247,
+      "global": 0.4603,
+      "combined": 0.4402,
+      "counts": {
+        "crypto": 79,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Tops 400-Point Gain, Gold Stocks Lead But Zscaler Slammed (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/eeca48ec-b45c-309b-904d-8400ea32ac2e/stock-market-today%3A-dow-tops.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6654,
-        "score": 0.8667
+        "title": "Global crypto market cap up 2.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Stocks Rise as Traders Bet on Fed Cuts and 2026 S&P 8,000 Target",
-        "url": "https://finance.yahoo.com/news/stocks-rise-traders-bet-fed-181522856.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6199,
-        "score": 0.8667
+        "title": "Asia-Pacific markets track Wall Street gains as tech extends rebound",
+        "url": "https://www.cnbc.com/2025/11/27/asia-pacific-markets-today-thursday-nikkei-225-hang-seng-index-csi-300-kospi.html",
+        "source": "CNBC Markets",
+        "weight": 0.7987,
+        "score": 0.5333
       },
       {
-        "title": "Deere Miss Signals Severe Ag Downturn | Open Interest 11/26/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-26/open-interest-11-26-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5847,
-        "score": 0.8667
+        "title": "Tom Lee cools on $250K Bitcoin call, year-end ATH now just a ‘maybe’",
+        "url": "https://cointelegraph.com/news/bitmine-tom-lee-bitcoin-prediction-pullback-year-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7228,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Struggling to sleep? You’re not alone – How Bitcoin’s recent price crash is affecting other traders IRL",
-        "url": "https://cryptoslate.com/bitcoins-recent-decline-fuels-sleep-nights-among-traders/",
-        "source": "CryptoSlate",
-        "weight": 0.7217,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin rises above $90,000 as cryptocurrency attempts recovery amid stock market gains",
-        "url": "https://finance.yahoo.com/news/bitcoin-rises-above-90000-as-cryptocurrency-attempts-recovery-amid-stock-market-gains-193405385.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7214,
+        "title": "Why Is Bitcoin Down? Blame Trump, Says Economist Paul Krugman",
+        "url": "https://decrypt.co/350175/why-bitcoin-down-blame-trump-says-economist-paul-krugman",
+        "source": "Decrypt",
+        "weight": 0.5349,
         "score": -0.9333
       },
       {
-        "title": "Avoiding Holiday Shopping Scams",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-26/avoiding-holiday-shopping-scams-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7873,
+        "title": "Global Exchanges Urge SEC to Curb Broad Crypto Exemptions, Warn on Tokenized Stock Risks",
+        "url": "https://decrypt.co/350189/global-exchanges-urge-sec-curb-broad-crypto-exemptions",
+        "source": "Decrypt",
+        "weight": 0.7696,
+        "score": -0.6333
+      },
+      {
+        "title": "Global Exchanges Urge SEC to Curb Broad Crypto Exemptions, Warn on Tokenized Stock Risks",
+        "url": "https://decrypt.co/350189/global-exchanges-urge-sec-curb-broad-crypto-exemptions?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7243,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46664306966625474,
-          "price_change_24h": 0.01564
+          "volume_mcap_ratio": 0.4745714816659814,
+          "price_change_24h": 0.01756
         }
       ],
       "momentum_shifts": []
