@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-27T16:32:48.390503+00:00",
+  "updated_at": "2025-11-27T19:53:40.924803+00:00",
   "indicators": {
-    "change24h": 0.043,
-    "vol": 0.091,
+    "change24h": 0.006,
+    "vol": 0.079,
     "fearGreed": 22,
-    "momentum": 0.744,
+    "momentum": 0.107,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5703,
-    "global_sentiment": 0.3488,
-    "combined_sentiment": 0.5402,
-    "confidence": 0.7881,
+    "crypto_sentiment": 0.5402,
+    "global_sentiment": 0.3333,
+    "combined_sentiment": 0.5163,
+    "confidence": 0.7824,
     "counts": {
-      "crypto": 80,
-      "global": 31
+      "crypto": 78,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 91204,
-      "btc_change_24h": 3.93,
-      "eth_price": 3017.93,
-      "eth_change_24h": 2.16,
+      "btc_price": 91567,
+      "btc_change_24h": 1.77,
+      "eth_price": 3028.9,
+      "eth_change_24h": -0.18,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 210252392356,
+        "volume_24h": 181656415161,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.66,
+        "btc_dominance": 56.7,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-13T20:29:13.186861+00:00",
-      "crypto": 0.3721,
-      "global": 0.4168,
-      "combined": 0.3972,
-      "counts": {
-        "crypto": 72,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-11-14T02:02:01.283118+00:00",
       "crypto": 0.3721,
@@ -1008,61 +998,71 @@
         "crypto": 80,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-11-27T19:53:40.924803+00:00",
+      "crypto": 0.5402,
+      "global": 0.3333,
+      "combined": 0.5163,
+      "counts": {
+        "crypto": 78,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin has a 75% chance of short-term rally, says trader Alessio Rastani",
+        "url": "https://cointelegraph.com/news/bitcoin-short-term-rally-trader-alessio-rastani-video?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5878,
+        "score": 1.0
+      },
+      {
         "title": "What’s behind the surge in privacy tokens as the rest of the market weakens?",
         "url": "https://cointelegraph.com/news/what-s-behind-the-surge-in-privacy-tokens-as-the-rest-of-the-market-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7557,
+        "weight": 0.5133,
         "score": 1.0
       },
       {
         "title": "Bitcoin sees ‘significant step forward’ as $97K BTC price targets return",
         "url": "https://cointelegraph.com/news/bitcoin-significant-step-forward-97k-btc-price-targets-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.865,
+        "weight": 0.5876,
         "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 3.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Hedge Fund Bond Market Bets Risk Yield Spikes, BIS Chief Warns",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-27/hedge-fund-bond-market-bets-risk-yield-spikes-bis-chief-warns",
+        "source": "Bloomberg Markets",
+        "weight": 0.681,
+        "score": -1.0
+      },
+      {
         "title": "Solana analysis: SOL price unlikely to break $150 for now",
         "url": "https://cointelegraph.com/news/solana-analysis-sol-price-unlikely-break-150-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9416,
+        "weight": 0.6396,
         "score": -0.9333
       },
       {
-        "title": "Nigeria’s NNPC, Heirs Restore Gas Facility, Doubling Output",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-27/nigeria-s-nnpc-heirs-restore-gas-facility-doubling-output",
-        "source": "Bloomberg Markets",
-        "weight": 0.5107,
-        "score": -0.9333
-      },
-      {
-        "title": "88-year-old Morgan Freeman shares the secrets to his long life and 60-year career: 'Keep getting up in the morning, keep moving'",
-        "url": "https://www.cnbc.com/2025/11/27/morgan-freemans-secret-to-longevity-as-an-88-year-old-actor.html",
-        "source": "CNBC Markets",
-        "weight": 0.7511,
-        "score": -0.6333
+        "title": "Global Stocks Hold Steady After Four-Day Rally: Markets Wrap",
+        "url": "https://finance.yahoo.com/news/stocks-near-erasing-november-losses-065543367.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7452,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47931346941487374,
-          "price_change_24h": 0.01112
+          "volume_mcap_ratio": 0.4111872487603137,
+          "price_change_24h": 0.00511
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-27",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.489,
+      "crypto_high": 0.5703,
+      "crypto_low": 0.4247,
+      "global_avg": 0.4282,
+      "global_high": 0.4889,
+      "global_low": 0.3333,
+      "combined_avg": 0.4858,
+      "combined_high": 0.5402,
+      "combined_low": 0.4402
+    },
+    "market_indicators_24h": {
+      "change24h": 0.006,
+      "vol": 0.079,
+      "fearGreed": 22,
+      "momentum": 0.107,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-27T19:53:40.924803+00:00"
   }
 }
