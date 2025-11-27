@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-27T19:53:40.924803+00:00",
+  "updated_at": "2025-11-27T20:26:26.389696+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.079,
+    "change24h": 0.013,
+    "vol": 0.075,
     "fearGreed": 22,
-    "momentum": 0.107,
+    "momentum": 0.22,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5402,
-    "global_sentiment": 0.3333,
-    "combined_sentiment": 0.5163,
-    "confidence": 0.7824,
+    "crypto_sentiment": 0.5477,
+    "global_sentiment": 0.3565,
+    "combined_sentiment": 0.5238,
+    "confidence": 0.7991,
     "counts": {
-      "crypto": 78,
+      "crypto": 79,
       "global": 36
     },
     "market_indicators": {
-      "btc_price": 91567,
-      "btc_change_24h": 1.77,
-      "eth_price": 3028.9,
-      "eth_change_24h": -0.18,
+      "btc_price": 91411,
+      "btc_change_24h": 1.53,
+      "eth_price": 3036.45,
+      "eth_change_24h": 0.49,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181656415161,
+        "volume_24h": 162237698534,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.7,
+        "btc_dominance": 56.61,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-14T02:02:01.283118+00:00",
-      "crypto": 0.3721,
-      "global": 0.3445,
-      "combined": 0.3911,
-      "counts": {
-        "crypto": 72,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-14T04:30:01.627263+00:00",
       "crypto": 0.4007,
@@ -1008,30 +998,40 @@
         "crypto": 78,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-27T20:26:26.389696+00:00",
+      "crypto": 0.5477,
+      "global": 0.3565,
+      "combined": 0.5238,
+      "counts": {
+        "crypto": 79,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "ETH traders ramp up positioning, setting a price target at $3.4K",
+        "url": "https://cointelegraph.com/news/eth-traders-ramp-up-positioning-setting-a-price-target-at-dollar3-4k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9207,
+        "score": 1.0
+      },
+      {
         "title": "Bitcoin has a 75% chance of short-term rally, says trader Alessio Rastani",
         "url": "https://cointelegraph.com/news/bitcoin-short-term-rally-trader-alessio-rastani-video?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5878,
+        "weight": 0.5519,
         "score": 1.0
       },
       {
         "title": "What’s behind the surge in privacy tokens as the rest of the market weakens?",
         "url": "https://cointelegraph.com/news/what-s-behind-the-surge-in-privacy-tokens-as-the-rest-of-the-market-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5133,
+        "weight": 0.4819,
         "score": 1.0
-      },
-      {
-        "title": "Bitcoin sees ‘significant step forward’ as $97K BTC price targets return",
-        "url": "https://cointelegraph.com/news/bitcoin-significant-step-forward-97k-btc-price-targets-return?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5876,
-        "score": 0.8667
       }
     ],
     "negative": [
@@ -1039,30 +1039,30 @@
         "title": "Hedge Fund Bond Market Bets Risk Yield Spikes, BIS Chief Warns",
         "url": "https://www.bloomberg.com/news/articles/2025-11-27/hedge-fund-bond-market-bets-risk-yield-spikes-bis-chief-warns",
         "source": "Bloomberg Markets",
-        "weight": 0.681,
+        "weight": 0.6393,
         "score": -1.0
       },
       {
         "title": "Solana analysis: SOL price unlikely to break $150 for now",
         "url": "https://cointelegraph.com/news/solana-analysis-sol-price-unlikely-break-150-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6396,
+        "weight": 0.6005,
         "score": -0.9333
       },
       {
-        "title": "Global Stocks Hold Steady After Four-Day Rally: Markets Wrap",
-        "url": "https://finance.yahoo.com/news/stocks-near-erasing-november-losses-065543367.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7452,
-        "score": -0.6667
+        "title": "Malware Chrome Extension Secretly Siphoned Fees From Solana Traders for Months",
+        "url": "https://decrypt.co/350240/malware-chrome-extension-secretly-siphoned-fees-from-solana-traders-for-months",
+        "source": "Decrypt",
+        "weight": 0.8094,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4111872487603137,
-          "price_change_24h": 0.00511
+          "volume_mcap_ratio": 0.40464270649463463,
+          "price_change_24h": 0.01538
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-27",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.489,
-      "crypto_high": 0.5703,
-      "crypto_low": 0.4247,
-      "global_avg": 0.4282,
-      "global_high": 0.4889,
-      "global_low": 0.3333,
-      "combined_avg": 0.4858,
-      "combined_high": 0.5402,
-      "combined_low": 0.4402
-    },
-    "market_indicators_24h": {
-      "change24h": 0.006,
-      "vol": 0.079,
-      "fearGreed": 22,
-      "momentum": 0.107,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-27T19:53:40.924803+00:00"
   }
 }
