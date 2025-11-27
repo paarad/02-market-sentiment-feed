@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-27T02:00:21.810698+00:00",
+  "updated_at": "2025-11-27T04:31:57.303127+00:00",
   "indicators": {
-    "change24h": 0.044,
-    "vol": 0.096,
+    "change24h": 0.055,
+    "vol": 0.1,
     "fearGreed": 22,
-    "momentum": 0.776,
+    "momentum": 0.97,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4247,
-    "global_sentiment": 0.4603,
-    "combined_sentiment": 0.4402,
-    "confidence": 0.797,
+    "crypto_sentiment": 0.4254,
+    "global_sentiment": 0.4889,
+    "combined_sentiment": 0.4432,
+    "confidence": 0.7822,
     "counts": {
       "crypto": 79,
-      "global": 39
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 90929,
-      "btc_change_24h": 3.47,
-      "eth_price": 3050.82,
-      "eth_change_24h": 2.79,
+      "btc_price": 91090,
+      "btc_change_24h": 4.47,
+      "eth_price": 3037.7,
+      "eth_change_24h": 3.56,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 210302958028,
+        "volume_24h": 227378530142,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.45,
+        "btc_dominance": 56.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-13T08:34:46.102698+00:00",
-      "crypto": 0.505,
-      "global": 0.5244,
-      "combined": 0.5058,
-      "counts": {
-        "crypto": 70,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-11-13T12:55:52.547735+00:00",
       "crypto": 0.3947,
@@ -1008,61 +998,71 @@
         "crypto": 79,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-11-27T04:31:57.303127+00:00",
+      "crypto": 0.4254,
+      "global": 0.4889,
+      "combined": 0.4432,
+      "counts": {
+        "crypto": 79,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.5% — rally",
+        "title": "Pop Mart Leads China Consumer Rally After Beijing’s Growth Push",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-27/pop-mart-leads-china-consumer-rally-after-beijing-s-growth-push",
+        "source": "Bloomberg Markets",
+        "weight": 0.7528,
+        "score": 1.0
+      },
+      {
+        "title": "Spot Platinum Jumps as New Futures Contract in China Aids Demand",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-26/gold-holds-gains-as-traders-weigh-rising-us-rate-cut-prospects",
+        "source": "Bloomberg Markets",
+        "weight": 0.4508,
+        "score": 1.0
+      },
+      {
+        "title": "Global crypto market cap up 3.7% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Asia-Pacific markets track Wall Street gains as tech extends rebound",
-        "url": "https://www.cnbc.com/2025/11/27/asia-pacific-markets-today-thursday-nikkei-225-hang-seng-index-csi-300-kospi.html",
-        "source": "CNBC Markets",
-        "weight": 0.7987,
-        "score": 0.5333
-      },
-      {
-        "title": "Tom Lee cools on $250K Bitcoin call, year-end ATH now just a ‘maybe’",
-        "url": "https://cointelegraph.com/news/bitmine-tom-lee-bitcoin-prediction-pullback-year-end?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7228,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Why Is Bitcoin Down? Blame Trump, Says Economist Paul Krugman",
-        "url": "https://decrypt.co/350175/why-bitcoin-down-blame-trump-says-economist-paul-krugman",
-        "source": "Decrypt",
-        "weight": 0.5349,
-        "score": -0.9333
+        "title": "SEC tokenized stock exemptions should be targeted, stock exchanges argue",
+        "url": "https://cointelegraph.com/news/sec-tokenized-stock-exemptions-targeted-stock-exchanges-say?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7207,
+        "score": -0.9667
       },
       {
-        "title": "Global Exchanges Urge SEC to Curb Broad Crypto Exemptions, Warn on Tokenized Stock Risks",
-        "url": "https://decrypt.co/350189/global-exchanges-urge-sec-curb-broad-crypto-exemptions",
-        "source": "Decrypt",
-        "weight": 0.7696,
-        "score": -0.6333
+        "title": "Fear & Greed 22 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Global Exchanges Urge SEC to Curb Broad Crypto Exemptions, Warn on Tokenized Stock Risks",
-        "url": "https://decrypt.co/350189/global-exchanges-urge-sec-curb-broad-crypto-exemptions?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7243,
-        "score": -0.6333
+        "title": "Australian Capex Jumps Most Since 2021 on Data Centers, Aircraft",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-27/australian-capex-jumps-most-since-2021-on-data-centers-aircraft",
+        "source": "Bloomberg Markets",
+        "weight": 0.6636,
+        "score": -0.6
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4745714816659814,
-          "price_change_24h": 0.01756
+          "volume_mcap_ratio": 0.5010707676526858,
+          "price_change_24h": 0.0236
         }
       ],
       "momentum_shifts": []
