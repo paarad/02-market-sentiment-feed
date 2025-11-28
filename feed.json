@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-28T12:54:08.315917+00:00",
+  "updated_at": "2025-11-28T16:32:18.974090+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.069,
+    "change24h": -0.006,
+    "vol": 0.057,
     "fearGreed": 25,
-    "momentum": 0.153,
+    "momentum": -0.098,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3295,
-    "global_sentiment": 0.3927,
-    "combined_sentiment": 0.3632,
-    "confidence": 0.7645,
+    "crypto_sentiment": 0.4344,
+    "global_sentiment": 0.4246,
+    "combined_sentiment": 0.4445,
+    "confidence": 0.787,
     "counts": {
-      "crypto": 77,
-      "global": 38
+      "crypto": 73,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 91493,
-      "btc_change_24h": 0.56,
-      "eth_price": 3037.94,
-      "eth_change_24h": 1.48,
+      "btc_price": 91200,
+      "btc_change_24h": -0.06,
+      "eth_price": 3029.91,
+      "eth_change_24h": 0.47,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 155795386085,
+        "volume_24h": 176320840484,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.74,
+        "btc_dominance": 56.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-14T19:53:50.362012+00:00",
-      "crypto": 0.3792,
-      "global": 0.3851,
-      "combined": 0.3998,
-      "counts": {
-        "crypto": 77,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-14T20:29:06.647698+00:00",
       "crypto": 0.3397,
@@ -1008,61 +998,71 @@
         "crypto": 77,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-28T16:32:18.974090+00:00",
+      "crypto": 0.4344,
+      "global": 0.4246,
+      "combined": 0.4445,
+      "counts": {
+        "crypto": 73,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Fed’s ‘Unfinished Business’ to Boost Stocks, SocGen Says",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-28/fed-s-unfinished-business-to-boost-stocks-socgen-says-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5902,
-        "score": 0.8667
+        "title": "Beyond Meats (BYND) Climbs 19% After Falling Below Minimum Bid Price",
+        "url": "https://finance.yahoo.com/news/beyond-meats-bynd-climbs-19-151134304.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6848,
+        "score": 1.0
       },
       {
-        "title": "3 Stocks Possibly Trading Below Estimated Value",
-        "url": "https://finance.yahoo.com/news/3-stocks-possibly-trading-below-113751470.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6907,
+        "title": "Eskom Profit Surges 36% as South African Power Utility Steadies",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-28/eskom-profit-surges-36-as-south-african-power-utility-steadies",
+        "source": "Bloomberg Markets",
+        "weight": 0.7217,
         "score": 0.6667
       },
       {
-        "title": "Wemade rallies partners for KRW stablecoin push after years of setbacks",
-        "url": "https://cointelegraph.com/news/wemade-krw-stablecoin-alliance-gaks-stablenet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Crypto bull market signal: ERC-20 stablecoin supply preserves $185B record",
+        "url": "https://cointelegraph.com/news/crypto-bull-market-signal-ethereum-erc-20-stablecoin-supply-185b-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6335,
-        "score": 0.6333
+        "weight": 0.5471,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Tether confirms Uruguay Bitcoin mining exit amid high energy prices",
-        "url": "https://cointelegraph.com/news/tether-confirms-bitcoin-mining-halt-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7893,
-        "score": -0.9333
-      },
-      {
-        "title": "Upbit Reveals 5.9B-Won Corporate Loss in Latest Hack, Fully Reimburses Users",
-        "url": "https://www.coindesk.com/markets/2025/11/28/upbit-reveals-5-9b-won-corporate-loss-in-latest-hack-fully-reimburses-users",
-        "source": "CoinDesk",
-        "weight": 0.7168,
+        "title": "Chicago Mercantile Exchange Restarts After Data Center Disruption",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-28/cme-group-dips-after-outage-tilray-down-on-stock-split-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7051,
         "score": -1.0
       },
       {
-        "title": "IMF warns tokenized markets may deepen flash crashes, says governments will step in",
-        "url": "https://cointelegraph.com/news/imf-warns-tokenized-markets-amplify-flash-crashes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Dow Inches Up in Black Friday Trading",
+        "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-11-27-2025-3eae00a5?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6494,
+        "score": -0.9333
+      },
+      {
+        "title": "Tether confirms Uruguay Bitcoin mining exit amid high energy prices",
+        "url": "https://cointelegraph.com/news/tether-confirms-bitcoin-mining-halt-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5914,
-        "score": -0.9667
+        "weight": 0.5186,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34557253438635355,
-          "price_change_24h": 0.003
+          "volume_mcap_ratio": 0.3850092742908782,
+          "price_change_24h": 0.02579
         }
       ],
       "momentum_shifts": []
