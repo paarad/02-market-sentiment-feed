@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-28T16:32:18.974090+00:00",
+  "updated_at": "2025-11-28T19:53:19.097297+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.057,
+    "change24h": -0.011,
+    "vol": 0.109,
     "fearGreed": 25,
-    "momentum": -0.098,
+    "momentum": -0.201,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4344,
-    "global_sentiment": 0.4246,
-    "combined_sentiment": 0.4445,
-    "confidence": 0.787,
+    "crypto_sentiment": 0.4495,
+    "global_sentiment": 0.456,
+    "combined_sentiment": 0.4585,
+    "confidence": 0.7701,
     "counts": {
       "crypto": 73,
-      "global": 45
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 91200,
-      "btc_change_24h": -0.06,
-      "eth_price": 3029.91,
-      "eth_change_24h": 0.47,
+      "btc_price": 91087,
+      "btc_change_24h": -0.49,
+      "eth_price": 3049.32,
+      "eth_change_24h": 0.6,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176320840484,
+        "volume_24h": 188368440501,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.71,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-14T20:29:06.647698+00:00",
-      "crypto": 0.3397,
-      "global": 0.4104,
-      "combined": 0.3723,
-      "counts": {
-        "crypto": 80,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-15T01:57:42.425243+00:00",
       "crypto": 0.2989,
@@ -1008,61 +998,71 @@
         "crypto": 73,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-11-28T19:53:19.097297+00:00",
+      "crypto": 0.4495,
+      "global": 0.456,
+      "combined": 0.4585,
+      "counts": {
+        "crypto": 73,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Beyond Meats (BYND) Climbs 19% After Falling Below Minimum Bid Price",
-        "url": "https://finance.yahoo.com/news/beyond-meats-bynd-climbs-19-151134304.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6848,
-        "score": 1.0
-      },
-      {
-        "title": "Eskom Profit Surges 36% as South African Power Utility Steadies",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-28/eskom-profit-surges-36-as-south-african-power-utility-steadies",
-        "source": "Bloomberg Markets",
-        "weight": 0.7217,
+        "title": "BitMine and Bitcoin Miners' Stocks Surge as BTC, Ethereum Recover",
+        "url": "https://decrypt.co/350363/bitmine-bitcoin-miners-stock-surges-btc-ethereum-recover",
+        "source": "Decrypt",
+        "weight": 0.8654,
         "score": 0.6667
       },
       {
-        "title": "Crypto bull market signal: ERC-20 stablecoin supply preserves $185B record",
-        "url": "https://cointelegraph.com/news/crypto-bull-market-signal-ethereum-erc-20-stablecoin-supply-185b-record?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5471,
-        "score": 0.8667
+        "title": "HBAR Rises 2.5% as Crypto Market Experiences Post-Thanksgiving Boost",
+        "url": "https://www.coindesk.com/markets/2025/11/28/hbar-rises-2-5-as-crypto-market-experiences-post-thanksgiving-boost",
+        "source": "CoinDesk",
+        "weight": 0.7512,
+        "score": 0.6667
+      },
+      {
+        "title": "Stocks Jump as Dow, S&P 500 Post November Gains With Late Rally",
+        "url": "https://finance.yahoo.com/m/7dc5bfe9-c7f2-3876-9f12-79ed3ba071b0/stocks-jump-as-dow%2C-s%26p-500.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6501,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Chicago Mercantile Exchange Restarts After Data Center Disruption",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-28/cme-group-dips-after-outage-tilray-down-on-stock-split-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7051,
+        "title": "Stablecoin Giant Tether to Shutter Uruguay Bitcoin Mining Operation",
+        "url": "https://decrypt.co/350360/stablecoin-giant-tether-shutter-uruguay-bitcoin-mining-operation",
+        "source": "Decrypt",
+        "weight": 0.7783,
         "score": -1.0
       },
       {
-        "title": "Dow Inches Up in Black Friday Trading",
+        "title": "Dow Rises in Shortened Black Friday Trading",
         "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-11-27-2025-3eae00a5?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6494,
+        "weight": 0.6827,
         "score": -0.9333
       },
       {
-        "title": "Tether confirms Uruguay Bitcoin mining exit amid high energy prices",
-        "url": "https://cointelegraph.com/news/tether-confirms-bitcoin-mining-halt-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5186,
-        "score": -0.9333
+        "title": "Chicago Mercantile Exchange Restarts After Data Center Disruption",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-28/cme-group-dips-after-outage-tilray-down-on-stock-split-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4788,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3850092742908782,
-          "price_change_24h": 0.02579
+          "volume_mcap_ratio": 0.42040312979285865,
+          "price_change_24h": 0.03222
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-28",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4147,
+      "crypto_high": 0.4815,
+      "crypto_low": 0.3295,
+      "global_avg": 0.4402,
+      "global_high": 0.4793,
+      "global_low": 0.3927,
+      "combined_avg": 0.431,
+      "combined_high": 0.4812,
+      "combined_low": 0.3632
+    },
+    "market_indicators_24h": {
+      "change24h": -0.011,
+      "vol": 0.109,
+      "fearGreed": 25,
+      "momentum": -0.201,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-28T19:53:19.097297+00:00"
   }
 }
