@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-28T19:53:19.097297+00:00",
+  "updated_at": "2025-11-28T20:28:24.566568+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.109,
+    "change24h": -0.014,
+    "vol": 0.107,
     "fearGreed": 25,
-    "momentum": -0.201,
+    "momentum": -0.25,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4495,
-    "global_sentiment": 0.456,
-    "combined_sentiment": 0.4585,
-    "confidence": 0.7701,
+    "crypto_sentiment": 0.4485,
+    "global_sentiment": 0.4199,
+    "combined_sentiment": 0.4547,
+    "confidence": 0.7607,
     "counts": {
       "crypto": 73,
-      "global": 43
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 91087,
-      "btc_change_24h": -0.49,
-      "eth_price": 3049.32,
-      "eth_change_24h": 0.6,
+      "btc_price": 91163,
+      "btc_change_24h": -0.27,
+      "eth_price": 3053.44,
+      "eth_change_24h": 0.57,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.4,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188368440501,
+        "volume_24h": 190645557871,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.67,
+        "btc_dominance": 56.69,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-15T01:57:42.425243+00:00",
-      "crypto": 0.2989,
-      "global": 0.4375,
-      "combined": 0.344,
-      "counts": {
-        "crypto": 82,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-15T04:29:06.186351+00:00",
       "crypto": 0.2935,
@@ -1008,6 +998,16 @@
         "crypto": 73,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-11-28T20:28:24.566568+00:00",
+      "crypto": 0.4485,
+      "global": 0.4199,
+      "combined": 0.4547,
+      "counts": {
+        "crypto": 73,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "BitMine and Bitcoin Miners' Stocks Surge as BTC, Ethereum Recover",
         "url": "https://decrypt.co/350363/bitmine-bitcoin-miners-stock-surges-btc-ethereum-recover",
         "source": "Decrypt",
-        "weight": 0.8654,
+        "weight": 0.8089,
         "score": 0.6667
       },
       {
         "title": "HBAR Rises 2.5% as Crypto Market Experiences Post-Thanksgiving Boost",
         "url": "https://www.coindesk.com/markets/2025/11/28/hbar-rises-2-5-as-crypto-market-experiences-post-thanksgiving-boost",
         "source": "CoinDesk",
-        "weight": 0.7512,
+        "weight": 0.7021,
         "score": 0.6667
       },
       {
         "title": "Stocks Jump as Dow, S&P 500 Post November Gains With Late Rally",
         "url": "https://finance.yahoo.com/m/7dc5bfe9-c7f2-3876-9f12-79ed3ba071b0/stocks-jump-as-dow%2C-s%26p-500.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6501,
+        "weight": 0.6076,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "CME Trading Is Restored to Wrap Up Week After Hours-Long Outage",
+        "url": "https://finance.yahoo.com/news/cme-partially-restores-operations-forex-124838075.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.762,
+        "score": -0.9667
+      },
+      {
         "title": "Stablecoin Giant Tether to Shutter Uruguay Bitcoin Mining Operation",
         "url": "https://decrypt.co/350360/stablecoin-giant-tether-shutter-uruguay-bitcoin-mining-operation",
         "source": "Decrypt",
-        "weight": 0.7783,
+        "weight": 0.7275,
         "score": -1.0
       },
       {
         "title": "Dow Rises in Shortened Black Friday Trading",
         "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-11-27-2025-3eae00a5?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6827,
+        "weight": 0.6381,
         "score": -0.9333
-      },
-      {
-        "title": "Chicago Mercantile Exchange Restarts After Data Center Disruption",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-28/cme-group-dips-after-outage-tilray-down-on-stock-split-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4788,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42040312979285865,
-          "price_change_24h": 0.03222
+          "volume_mcap_ratio": 0.4210645253566023,
+          "price_change_24h": 0.03006
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-11-28",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4147,
-      "crypto_high": 0.4815,
-      "crypto_low": 0.3295,
-      "global_avg": 0.4402,
-      "global_high": 0.4793,
-      "global_low": 0.3927,
-      "combined_avg": 0.431,
-      "combined_high": 0.4812,
-      "combined_low": 0.3632
-    },
-    "market_indicators_24h": {
-      "change24h": -0.011,
-      "vol": 0.109,
-      "fearGreed": 25,
-      "momentum": -0.201,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-11-28T19:53:19.097297+00:00"
   }
 }
