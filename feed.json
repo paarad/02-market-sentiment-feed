@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-27T20:26:26.389696+00:00",
+  "updated_at": "2025-11-28T01:59:59.807440+00:00",
   "indicators": {
-    "change24h": 0.013,
-    "vol": 0.075,
-    "fearGreed": 22,
-    "momentum": 0.22,
-    "regime": "sideways",
+    "change24h": -0.025,
+    "vol": 0.109,
+    "fearGreed": 25,
+    "momentum": -0.438,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5477,
-    "global_sentiment": 0.3565,
-    "combined_sentiment": 0.5238,
-    "confidence": 0.7991,
+    "crypto_sentiment": 0.4815,
+    "global_sentiment": 0.4413,
+    "combined_sentiment": 0.4812,
+    "confidence": 0.7181,
     "counts": {
-      "crypto": 79,
-      "global": 36
+      "crypto": 77,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 91411,
-      "btc_change_24h": 1.53,
-      "eth_price": 3036.45,
-      "eth_change_24h": 0.49,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 90827,
+      "btc_change_24h": -0.3,
+      "eth_price": 2998.64,
+      "eth_change_24h": -1.65,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 22,
+        "value": 25,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 162237698534,
+        "volume_24h": 148024474811,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.61,
+        "btc_dominance": 56.76,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-14T04:30:01.627263+00:00",
-      "crypto": 0.4007,
-      "global": 0.3902,
-      "combined": 0.4164,
-      "counts": {
-        "crypto": 72,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-14T08:33:53.715103+00:00",
       "crypto": 0.4234,
@@ -1008,6 +998,16 @@
         "crypto": 79,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-28T01:59:59.807440+00:00",
+      "crypto": 0.4815,
+      "global": 0.4413,
+      "combined": 0.4812,
+      "counts": {
+        "crypto": 77,
+        "global": 40
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "ETH traders ramp up positioning, setting a price target at $3.4K",
         "url": "https://cointelegraph.com/news/eth-traders-ramp-up-positioning-setting-a-price-target-at-dollar3-4k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9207,
+        "weight": 0.4844,
         "score": 1.0
       },
       {
         "title": "Bitcoin has a 75% chance of short-term rally, says trader Alessio Rastani",
         "url": "https://cointelegraph.com/news/bitcoin-short-term-rally-trader-alessio-rastani-video?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5519,
+        "weight": 0.2903,
         "score": 1.0
       },
       {
-        "title": "What’s behind the surge in privacy tokens as the rest of the market weakens?",
-        "url": "https://cointelegraph.com/news/what-s-behind-the-surge-in-privacy-tokens-as-the-rest-of-the-market-weakens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4819,
-        "score": 1.0
+        "title": "Is Philip Morris International Stock Outperforming the S&P 500?",
+        "url": "https://www.barchart.com/story/news/36346564/is-philip-morris-international-stock-outperforming-the-s-p-500?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3091,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Hedge Fund Bond Market Bets Risk Yield Spikes, BIS Chief Warns",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-27/hedge-fund-bond-market-bets-risk-yield-spikes-bis-chief-warns",
-        "source": "Bloomberg Markets",
-        "weight": 0.6393,
-        "score": -1.0
+        "title": "Balancer DAO Starts Discussing $8M Recovery Plan After $110M Exploit Cut TVL by Two-Thirds",
+        "url": "https://www.coindesk.com/web3/2025/11/27/balancer-dao-starts-discussing-usd8m-recovery-plan-after-usd110m-exploit-cut-tvl-by-two-thirds",
+        "source": "CoinDesk",
+        "weight": 0.6053,
+        "score": -0.8333
       },
       {
-        "title": "Solana analysis: SOL price unlikely to break $150 for now",
-        "url": "https://cointelegraph.com/news/solana-analysis-sol-price-unlikely-break-150-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6005,
-        "score": -0.9333
-      },
-      {
-        "title": "Malware Chrome Extension Secretly Siphoned Fees From Solana Traders for Months",
-        "url": "https://decrypt.co/350240/malware-chrome-extension-secretly-siphoned-fees-from-solana-traders-for-months",
-        "source": "Decrypt",
-        "weight": 0.8094,
+        "title": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected",
+        "url": "https://www.cnbc.com/2025/11/28/asia-markets-live.html",
+        "source": "CNBC Markets",
+        "weight": 0.7771,
         "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 25 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40464270649463463,
-          "price_change_24h": 0.01538
+          "volume_mcap_ratio": 0.3670698800130271,
+          "price_change_24h": -0.00539
         }
       ],
       "momentum_shifts": []
