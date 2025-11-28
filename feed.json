@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-28T01:59:59.807440+00:00",
+  "updated_at": "2025-11-28T04:31:49.365174+00:00",
   "indicators": {
-    "change24h": -0.025,
-    "vol": 0.109,
+    "change24h": -0.01,
+    "vol": 0.061,
     "fearGreed": 25,
-    "momentum": -0.438,
-    "regime": "bear",
+    "momentum": -0.17,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4815,
-    "global_sentiment": 0.4413,
-    "combined_sentiment": 0.4812,
-    "confidence": 0.7181,
+    "crypto_sentiment": 0.4154,
+    "global_sentiment": 0.4472,
+    "combined_sentiment": 0.4321,
+    "confidence": 0.7453,
     "counts": {
-      "crypto": 77,
-      "global": 40
+      "crypto": 78,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 90827,
-      "btc_change_24h": -0.3,
-      "eth_price": 2998.64,
-      "eth_change_24h": -1.65,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 91346,
+      "btc_change_24h": 0.24,
+      "eth_price": 3013.46,
+      "eth_change_24h": -0.81,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 148024474811,
+        "volume_24h": 151100976712,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.76,
+        "btc_dominance": 56.79,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-14T08:33:53.715103+00:00",
-      "crypto": 0.4234,
-      "global": 0.3602,
-      "combined": 0.4309,
-      "counts": {
-        "crypto": 73,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-11-14T12:53:27.489460+00:00",
       "crypto": 0.3775,
@@ -1008,61 +998,71 @@
         "crypto": 77,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-11-28T04:31:49.365174+00:00",
+      "crypto": 0.4154,
+      "global": 0.4472,
+      "combined": 0.4321,
+      "counts": {
+        "crypto": 78,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Decentralized exchange volumes soar on memecoin trading rush: CoinGecko",
+        "url": "https://cointelegraph.com/news/dex-trading-volumes-onchain-growth-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6396,
+        "score": 0.6667
+      },
+      {
         "title": "ETH traders ramp up positioning, setting a price target at $3.4K",
         "url": "https://cointelegraph.com/news/eth-traders-ramp-up-positioning-setting-a-price-target-at-dollar3-4k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4844,
+        "weight": 0.3616,
         "score": 1.0
       },
       {
-        "title": "Bitcoin has a 75% chance of short-term rally, says trader Alessio Rastani",
-        "url": "https://cointelegraph.com/news/bitcoin-short-term-rally-trader-alessio-rastani-video?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2903,
-        "score": 1.0
-      },
-      {
-        "title": "Is Philip Morris International Stock Outperforming the S&P 500?",
-        "url": "https://www.barchart.com/story/news/36346564/is-philip-morris-international-stock-outperforming-the-s-p-500?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3091,
-        "score": 0.8667
+        "title": "Korea’s Small-Cap Kosdaq Index Surges on Report of Tax Breaks",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-28/korea-s-small-cap-kosdaq-index-surges-on-report-of-tax-breaks",
+        "source": "Bloomberg Markets",
+        "weight": 0.6626,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Balancer DAO Starts Discussing $8M Recovery Plan After $110M Exploit Cut TVL by Two-Thirds",
-        "url": "https://www.coindesk.com/web3/2025/11/27/balancer-dao-starts-discussing-usd8m-recovery-plan-after-usd110m-exploit-cut-tvl-by-two-thirds",
+        "title": "DOGE Underperforms Majors as Support Failure Confirms Bearish Shift",
+        "url": "https://www.coindesk.com/markets/2025/11/28/doge-underperforms-majors-as-support-failure-confirms-bearish-shift",
         "source": "CoinDesk",
-        "weight": 0.6053,
-        "score": -0.8333
+        "weight": 1.184,
+        "score": -0.8667
+      },
+      {
+        "title": "North Korea Suspected of $30 Million Crypto Hack, Yonhap Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-28/north-korea-suspected-behind-30-million-crypto-exploit-yonhap",
+        "source": "Bloomberg Markets",
+        "weight": 0.6878,
+        "score": -1.0
       },
       {
         "title": "Asia-Pacific stocks trade mixed as Tokyo inflation runs hotter than expected",
         "url": "https://www.cnbc.com/2025/11/28/asia-markets-live.html",
         "source": "CNBC Markets",
-        "weight": 0.7771,
+        "weight": 0.7845,
         "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 25 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3670698800130271,
-          "price_change_24h": -0.00539
+          "volume_mcap_ratio": 0.33552149596328507,
+          "price_change_24h": 0.00158
         }
       ],
       "momentum_shifts": []
