@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-28T08:35:54.577557+00:00",
+  "updated_at": "2025-11-28T12:54:08.315917+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.057,
+    "change24h": 0.009,
+    "vol": 0.069,
     "fearGreed": 25,
-    "momentum": -0.11,
+    "momentum": 0.153,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3778,
-    "global_sentiment": 0.4793,
-    "combined_sentiment": 0.4066,
-    "confidence": 0.7289,
+    "crypto_sentiment": 0.3295,
+    "global_sentiment": 0.3927,
+    "combined_sentiment": 0.3632,
+    "confidence": 0.7645,
     "counts": {
-      "crypto": 78,
-      "global": 42
+      "crypto": 77,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 91079,
-      "btc_change_24h": -0.34,
-      "eth_price": 3017.35,
-      "eth_change_24h": -0.25,
+      "btc_price": 91493,
+      "btc_change_24h": 0.56,
+      "eth_price": 3037.94,
+      "eth_change_24h": 1.48,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156113483720,
+        "volume_24h": 155795386085,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.7,
+        "btc_dominance": 56.74,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-14T16:33:30.293041+00:00",
-      "crypto": 0.3998,
-      "global": 0.3545,
-      "combined": 0.4127,
-      "counts": {
-        "crypto": 75,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-11-14T19:53:50.362012+00:00",
       "crypto": 0.3792,
@@ -1008,52 +998,62 @@
         "crypto": 78,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-11-28T12:54:08.315917+00:00",
+      "crypto": 0.3295,
+      "global": 0.3927,
+      "combined": 0.3632,
+      "counts": {
+        "crypto": 77,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Reeves Budget Leaves UK on ‘Very Low Growth Path’: CEBR",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-28/reeves-budget-leaves-uk-on-very-low-growth-path-cebr-video",
+        "title": "Fed’s ‘Unfinished Business’ to Boost Stocks, SocGen Says",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-28/fed-s-unfinished-business-to-boost-stocks-socgen-says-video",
         "source": "Bloomberg Markets",
-        "weight": 0.717,
+        "weight": 0.5902,
+        "score": 0.8667
+      },
+      {
+        "title": "3 Stocks Possibly Trading Below Estimated Value",
+        "url": "https://finance.yahoo.com/news/3-stocks-possibly-trading-below-113751470.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6907,
         "score": 0.6667
       },
       {
-        "title": "What Happened to the Bubble? Investor Fears Popped Instead.",
-        "url": "https://finance.yahoo.com/m/9c28b4d0-f0d2-3434-8298-5cae818ea864/what-happened-to-the-bubble%3F.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6278,
-        "score": 0.6667
-      },
-      {
-        "title": "Is McKesson Corporation Stock Outperforming the S&P 500?",
-        "url": "https://www.barchart.com/story/news/36351607/is-mckesson-corporation-stock-outperforming-the-s-p-500?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.542,
-        "score": 0.5333
+        "title": "Wemade rallies partners for KRW stablecoin push after years of setbacks",
+        "url": "https://cointelegraph.com/news/wemade-krw-stablecoin-alliance-gaks-stablenet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6335,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "DOGE Underperforms Majors as Support Failure Confirms Bearish Shift",
-        "url": "https://www.coindesk.com/markets/2025/11/28/doge-underperforms-majors-as-support-failure-confirms-bearish-shift",
+        "title": "Tether confirms Uruguay Bitcoin mining exit amid high energy prices",
+        "url": "https://cointelegraph.com/news/tether-confirms-bitcoin-mining-halt-uruguay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7893,
+        "score": -0.9333
+      },
+      {
+        "title": "Upbit Reveals 5.9B-Won Corporate Loss in Latest Hack, Fully Reimburses Users",
+        "url": "https://www.coindesk.com/markets/2025/11/28/upbit-reveals-5-9b-won-corporate-loss-in-latest-hack-fully-reimburses-users",
         "source": "CoinDesk",
-        "weight": 0.74,
-        "score": -0.8667
+        "weight": 0.7168,
+        "score": -1.0
       },
       {
-        "title": "Balancer Outlines Reimbursement Plan Following $128M Exploit",
-        "url": "https://decrypt.co/350310/balancer-outlines-reimbursement-plan-following-128m-exploit",
-        "source": "Decrypt",
-        "weight": 0.6665,
-        "score": -0.8333
-      },
-      {
-        "title": "Builder China Vanke’s Yuan Bond Gyrations Confound Credit Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-28/builder-china-vanke-s-yuan-bond-gyrations-confound-credit-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.5662,
+        "title": "IMF warns tokenized markets may deepen flash crashes, says governments will step in",
+        "url": "https://cointelegraph.com/news/imf-warns-tokenized-markets-amplify-flash-crashes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5914,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.333453309270512,
-          "price_change_24h": -0.00017
+          "volume_mcap_ratio": 0.34557253438635355,
+          "price_change_24h": 0.003
         }
       ],
       "momentum_shifts": []
