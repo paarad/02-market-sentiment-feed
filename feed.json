@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-29T01:59:48.739043+00:00",
+  "updated_at": "2025-11-29T04:30:52.362697+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.056,
+    "change24h": -0.009,
+    "vol": 0.069,
     "fearGreed": 28,
-    "momentum": 0.066,
+    "momentum": -0.151,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3998,
-    "global_sentiment": 0.3612,
-    "combined_sentiment": 0.4133,
-    "confidence": 0.7014,
+    "crypto_sentiment": 0.449,
+    "global_sentiment": 0.3463,
+    "combined_sentiment": 0.449,
+    "confidence": 0.6757,
     "counts": {
       "crypto": 74,
-      "global": 34
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 90903,
-      "btc_change_24h": 0.06,
-      "eth_price": 3039.09,
-      "eth_change_24h": 1.4,
+      "btc_price": 90693,
+      "btc_change_24h": -0.71,
+      "eth_price": 3028.27,
+      "eth_change_24h": 0.48,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 184089651030,
+        "volume_24h": 178484075761,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.69,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-15T08:30:11.754396+00:00",
-      "crypto": 0.3405,
-      "global": 0.4418,
-      "combined": 0.3755,
-      "counts": {
-        "crypto": 83,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-15T12:48:18.860434+00:00",
       "crypto": 0.3264,
@@ -1008,29 +998,39 @@
         "crypto": 74,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-11-29T04:30:52.362697+00:00",
+      "crypto": 0.449,
+      "global": 0.3463,
+      "combined": 0.449,
+      "counts": {
+        "crypto": 74,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "How a weakening US labor market is putting pressure on Bitcoin and crypto prices",
+        "url": "https://cointelegraph.com/explained/how-a-weakening-us-labor-market-is-putting-pressure-on-bitcoin-and-crypto-prices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7115,
+        "score": 0.3333
+      },
+      {
         "title": "BitMine and Bitcoin Miners' Stocks Surge as BTC, Ethereum Recover",
         "url": "https://decrypt.co/350363/bitmine-bitcoin-miners-stock-surges-btc-ethereum-recover",
         "source": "Decrypt",
-        "weight": 0.4273,
+        "weight": 0.3195,
         "score": 0.6667
       },
       {
-        "title": "HBAR Rises 2.5% as Crypto Market Experiences Post-Thanksgiving Boost",
-        "url": "https://www.coindesk.com/markets/2025/11/28/hbar-rises-2-5-as-crypto-market-experiences-post-thanksgiving-boost",
-        "source": "CoinDesk",
-        "weight": 0.3709,
-        "score": 0.6667
-      },
-      {
-        "title": "Human Made Seeks Growth Beyond China as Tensions With Japan Rise",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-29/human-made-seeks-growth-beyond-china-as-tensions-with-japan-rise",
-        "source": "Bloomberg Markets",
-        "weight": 0.6352,
+        "title": "Ethereum tripling its gas limit is the ‘floor, we can go higher’ — Sassano",
+        "url": "https://cointelegraph.com/news/ethereum-gas-limit-increase-transactions-fees-anthony-sassano?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6377,
         "score": 0.3333
       }
     ],
@@ -1039,14 +1039,7 @@
         "title": "Tether Shuts Down Uruguay Mining Operations Over Energy Tariffs",
         "url": "https://www.coindesk.com/business/2025/11/28/tether-shuts-down-uruguay-mining-operations-over-energy-tariffs",
         "source": "CoinDesk",
-        "weight": 0.6787,
-        "score": -0.9333
-      },
-      {
-        "title": "Forget CVS, Buy This Healthcare Stock Instead",
-        "url": "https://www.fool.com/investing/2025/11/28/forget-cvs-buy-this-healthcare-stock-instead/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5341,
+        "weight": 0.5074,
         "score": -0.9333
       },
       {
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Forget CVS, Buy This Healthcare Stock Instead",
+        "url": "https://www.fool.com/investing/2025/11/28/forget-cvs-buy-this-healthcare-stock-instead/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3993,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4093995655955135,
-          "price_change_24h": 0.04096
+          "volume_mcap_ratio": 0.39668163598321876,
+          "price_change_24h": 0.03135
         }
       ],
       "momentum_shifts": []
