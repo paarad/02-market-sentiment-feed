@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-29T16:30:42.111355+00:00",
+  "updated_at": "2025-11-29T19:53:42.838474+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.067,
+    "change24h": -0.026,
+    "vol": 0.091,
     "fearGreed": 28,
-    "momentum": -0.247,
+    "momentum": -0.458,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4798,
-    "global_sentiment": 0.496,
-    "combined_sentiment": 0.4845,
-    "confidence": 0.6273,
+    "crypto_sentiment": 0.458,
+    "global_sentiment": 0.3981,
+    "combined_sentiment": 0.46,
+    "confidence": 0.6111,
     "counts": {
-      "crypto": 77,
+      "crypto": 76,
       "global": 36
     },
     "market_indicators": {
-      "btc_price": 90904,
-      "btc_change_24h": -0.32,
-      "eth_price": 3000.53,
-      "eth_change_24h": -1.19,
+      "btc_price": 90651,
+      "btc_change_24h": -0.52,
+      "eth_price": 2987.42,
+      "eth_change_24h": -2.06,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.2,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 129762046255,
+        "volume_24h": 114760077495,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.83,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-15T20:25:25.877765+00:00",
-      "crypto": 0.2963,
-      "global": 0.4975,
-      "combined": 0.347,
-      "counts": {
-        "crypto": 75,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-16T02:07:41.399929+00:00",
       "crypto": 0.2201,
@@ -1008,39 +998,56 @@
         "crypto": 77,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-29T19:53:42.838474+00:00",
+      "crypto": 0.458,
+      "global": 0.3981,
+      "combined": 0.46,
+      "counts": {
+        "crypto": 76,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Crypto Payments Firm Truther to Launch Non-Custodial USDT Visa Card in El Salvador",
+        "url": "https://www.coindesk.com/business/2025/11/29/crypto-payments-firm-truther-to-launch-non-custodial-usdt-visa-card-in-el-salvador",
+        "source": "CoinDesk",
+        "weight": 0.6915,
+        "score": 0.3333
+      },
+      {
+        "title": "Marjorie Taylor Greene’s stocks jumped 476% since joining Congress: Here are her 5 biggest investing wins to learn from",
+        "url": "https://finance.yahoo.com/news/marjorie-taylor-greene-stocks-jumped-181500027.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6615,
+        "score": 0.3333
+      },
+      {
         "title": "UK Budget Confirms New Crypto Reporting Rules from January 1",
         "url": "https://decrypt.co/350341/uk-budget-confirms-new-crypto-reporting-rules-from-january-1",
         "source": "Decrypt",
-        "weight": 0.7155,
+        "weight": 0.484,
         "score": 0.3333
-      },
-      {
-        "title": "If You'd Invested $1,000 in the Invesco QQQ Trust (QQQ) 10 Years Ago, Here's How Much You'd Have Today",
-        "url": "https://www.fool.com/investing/2025/11/29/if-youd-invested-1000-in-the-invesco-qqq-trust-qqq/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7049,
-        "score": 0.3333
-      },
-      {
-        "title": "Bitcoin forms short-term bottom, $100K relief rally in sight: Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-short-term-bottom-110k-relief-rally-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3985,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Pricing in 'Most Bearish Global Growth Outlook' Since Covid and FTX Crash: Bitwise Research",
-        "url": "https://www.coindesk.com/markets/2025/11/29/bitcoin-pricing-in-most-bearish-global-growth-outlook-since-covid-and-ftx-crash-bitwise-research",
-        "source": "CoinDesk",
-        "weight": 0.603,
-        "score": -0.8333
+        "title": "Italy Followed Rules on Monte Paschi-Mediobanca Deal: Official",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-29/italy-followed-rules-on-monte-paschi-mediobanca-deal-official",
+        "source": "Bloomberg Markets",
+        "weight": 0.6347,
+        "score": -0.9667
+      },
+      {
+        "title": "Taking Social Security at 62 is a hot topic. Experts weigh in.",
+        "url": "https://finance.yahoo.com/news/taking-social-security-at-62-is-a-hot-topic-experts-weigh-in-184651246.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7037,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
@@ -1048,13 +1055,6 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Relief Turns to Anger as UK Hotels, Pubs Feel Budget Pain Again",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-29/relief-turns-to-anger-as-uk-hotels-pubs-feel-budget-pain-again",
-        "source": "Bloomberg Markets",
-        "weight": 0.2907,
-        "score": -0.9333
       }
     ],
     "market_movers": {
@@ -1064,5 +1064,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-29",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4537,
+      "crypto_high": 0.4937,
+      "crypto_low": 0.3998,
+      "global_avg": 0.4198,
+      "global_high": 0.5067,
+      "global_low": 0.3463,
+      "combined_avg": 0.4586,
+      "combined_high": 0.4878,
+      "combined_low": 0.4133
+    },
+    "market_indicators_24h": {
+      "change24h": -0.026,
+      "vol": 0.091,
+      "fearGreed": 28,
+      "momentum": -0.458,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-29T19:53:42.838474+00:00"
   }
 }
