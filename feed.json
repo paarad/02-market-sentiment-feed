@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-29T04:30:52.362697+00:00",
+  "updated_at": "2025-11-29T08:33:01.464391+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.069,
+    "change24h": -0.01,
+    "vol": 0.081,
     "fearGreed": 28,
-    "momentum": -0.151,
-    "regime": "sideways",
+    "momentum": -0.178,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.449,
-    "global_sentiment": 0.3463,
-    "combined_sentiment": 0.449,
-    "confidence": 0.6757,
+    "crypto_sentiment": 0.4937,
+    "global_sentiment": 0.4105,
+    "combined_sentiment": 0.4878,
+    "confidence": 0.6796,
     "counts": {
-      "crypto": 74,
-      "global": 33
+      "crypto": 77,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 90693,
-      "btc_change_24h": -0.71,
-      "eth_price": 3028.27,
-      "eth_change_24h": 0.48,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 90617,
+      "btc_change_24h": -0.51,
+      "eth_price": 3005.4,
+      "eth_change_24h": -0.4,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178484075761,
+        "volume_24h": 173358262389,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.67,
+        "btc_dominance": 56.73,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-15T12:48:18.860434+00:00",
-      "crypto": 0.3264,
-      "global": 0.5755,
-      "combined": 0.3761,
-      "counts": {
-        "crypto": 81,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-15T16:28:25.298309+00:00",
       "crypto": 0.267,
@@ -1008,40 +998,43 @@
         "crypto": 74,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-29T08:33:01.464391+00:00",
+      "crypto": 0.4937,
+      "global": 0.4105,
+      "combined": 0.4878,
+      "counts": {
+        "crypto": 77,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How a weakening US labor market is putting pressure on Bitcoin and crypto prices",
-        "url": "https://cointelegraph.com/explained/how-a-weakening-us-labor-market-is-putting-pressure-on-bitcoin-and-crypto-prices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7115,
-        "score": 0.3333
+        "title": "Has XRP Finally Bottomed? Key Support Holds as Wave-5 Breakout Trigger Nears",
+        "url": "https://www.coindesk.com/markets/2025/11/29/has-xrp-finally-bottomed-key-support-holds-as-wave-5-breakout-trigger-nears",
+        "source": "CoinDesk",
+        "weight": 0.9769,
+        "score": 0.5333
       },
       {
-        "title": "BitMine and Bitcoin Miners' Stocks Surge as BTC, Ethereum Recover",
-        "url": "https://decrypt.co/350363/bitmine-bitcoin-miners-stock-surges-btc-ethereum-recover",
-        "source": "Decrypt",
-        "weight": 0.3195,
-        "score": 0.6667
+        "title": "Why China’s Bitcoin mining activity is surging again after a 4-year crackdown",
+        "url": "https://cointelegraph.com/explained/why-china-s-bitcoin-mining-activity-is-surging-again-after-a-4-year-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7086,
+        "score": 0.5333
       },
       {
-        "title": "Ethereum tripling its gas limit is the ‘floor, we can go higher’ — Sassano",
-        "url": "https://cointelegraph.com/news/ethereum-gas-limit-increase-transactions-fees-anthony-sassano?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Crypto sentiment moves up from ‘extreme fear’ after 18-day stretch",
+        "url": "https://cointelegraph.com/news/crypto-sentiment-index-extreme-fear-stretch-flips-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6377,
-        "score": 0.3333
+        "weight": 0.5507,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Tether Shuts Down Uruguay Mining Operations Over Energy Tariffs",
-        "url": "https://www.coindesk.com/business/2025/11/28/tether-shuts-down-uruguay-mining-operations-over-energy-tariffs",
-        "source": "CoinDesk",
-        "weight": 0.5074,
-        "score": -0.9333
-      },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,10 +1043,17 @@
         "score": -0.5333
       },
       {
-        "title": "Forget CVS, Buy This Healthcare Stock Instead",
-        "url": "https://www.fool.com/investing/2025/11/28/forget-cvs-buy-this-healthcare-stock-instead/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3993,
+        "title": "Arthur Hayes warns Monad could crash 99%, calls it high-risk ‘VC coin’",
+        "url": "https://cointelegraph.com/news/arthur-hayes-monad-crash-99-high-risk-vc-coin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6609,
+        "score": -0.6
+      },
+      {
+        "title": "Tether Shuts Down Uruguay Mining Operations Over Energy Tariffs",
+        "url": "https://www.coindesk.com/business/2025/11/28/tether-shuts-down-uruguay-mining-operations-over-energy-tariffs",
+        "source": "CoinDesk",
+        "weight": 0.3183,
         "score": -0.9333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39668163598321876,
-          "price_change_24h": 0.03135
+          "volume_mcap_ratio": 0.3797342143526051,
+          "price_change_24h": 0.0309
         }
       ],
       "momentum_shifts": []
