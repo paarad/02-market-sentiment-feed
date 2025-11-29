@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-29T12:50:40.030118+00:00",
+  "updated_at": "2025-11-29T16:30:42.111355+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.071,
+    "change24h": -0.014,
+    "vol": 0.067,
     "fearGreed": 28,
-    "momentum": -0.225,
-    "regime": "sideways",
+    "momentum": -0.247,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4419,
-    "global_sentiment": 0.5067,
-    "combined_sentiment": 0.457,
-    "confidence": 0.6526,
+    "crypto_sentiment": 0.4798,
+    "global_sentiment": 0.496,
+    "combined_sentiment": 0.4845,
+    "confidence": 0.6273,
     "counts": {
       "crypto": 77,
-      "global": 33
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 90682,
-      "btc_change_24h": -0.83,
-      "eth_price": 2999.32,
-      "eth_change_24h": -1.21,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 90904,
+      "btc_change_24h": -0.32,
+      "eth_price": 3000.53,
+      "eth_change_24h": -1.19,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 159071997052,
-        "high_activity_coins": 1
+        "volume_24h": 129762046255,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.71,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-15T19:53:34.843855+00:00",
-      "crypto": 0.2568,
-      "global": 0.4975,
-      "combined": 0.3174,
-      "counts": {
-        "crypto": 63,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-15T20:25:25.877765+00:00",
       "crypto": 0.2963,
@@ -1008,29 +998,39 @@
         "crypto": 77,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-11-29T16:30:42.111355+00:00",
+      "crypto": 0.4798,
+      "global": 0.496,
+      "combined": 0.4845,
+      "counts": {
+        "crypto": 77,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "UK Budget Confirms New Crypto Reporting Rules from January 1",
+        "url": "https://decrypt.co/350341/uk-budget-confirms-new-crypto-reporting-rules-from-january-1",
+        "source": "Decrypt",
+        "weight": 0.7155,
+        "score": 0.3333
+      },
+      {
+        "title": "If You'd Invested $1,000 in the Invesco QQQ Trust (QQQ) 10 Years Ago, Here's How Much You'd Have Today",
+        "url": "https://www.fool.com/investing/2025/11/29/if-youd-invested-1000-in-the-invesco-qqq-trust-qqq/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7049,
+        "score": 0.3333
+      },
+      {
         "title": "Bitcoin forms short-term bottom, $100K relief rally in sight: Analyst",
         "url": "https://cointelegraph.com/news/bitcoin-short-term-bottom-110k-relief-rally-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6087,
-        "score": 0.5333
-      },
-      {
-        "title": "Has XRP Finally Bottomed? Key Support Holds as Wave-5 Breakout Trigger Nears",
-        "url": "https://www.coindesk.com/markets/2025/11/29/has-xrp-finally-bottomed-key-support-holds-as-wave-5-breakout-trigger-nears",
-        "source": "CoinDesk",
-        "weight": 0.5948,
-        "score": 0.5333
-      },
-      {
-        "title": "South Africa’s ‘Everything Rally’ Hinges on Economic Promises",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-29/south-africa-s-everything-rally-hinges-on-economic-promises",
-        "source": "Bloomberg Markets",
-        "weight": 0.5131,
+        "weight": 0.3985,
         "score": 0.5333
       }
     ],
@@ -1039,7 +1039,7 @@
         "title": "Bitcoin Pricing in 'Most Bearish Global Growth Outlook' Since Covid and FTX Crash: Bitwise Research",
         "url": "https://www.coindesk.com/markets/2025/11/29/bitcoin-pricing-in-most-bearish-global-growth-outlook-since-covid-and-ftx-crash-bitwise-research",
         "source": "CoinDesk",
-        "weight": 0.9211,
+        "weight": 0.603,
         "score": -0.8333
       },
       {
@@ -1050,21 +1050,15 @@
         "score": -0.5333
       },
       {
-        "title": "Global crypto market cap down -1.8% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
+        "title": "Relief Turns to Anger as UK Hotels, Pubs Feel Budget Pain Again",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-29/relief-turns-to-anger-as-uk-hotels-pubs-feel-budget-pain-again",
+        "source": "Bloomberg Markets",
+        "weight": 0.2907,
+        "score": -0.9333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.34509488313455755,
-          "price_change_24h": 0.0337
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
