@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-28T20:28:24.566568+00:00",
+  "updated_at": "2025-11-29T01:59:48.739043+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.107,
-    "fearGreed": 25,
-    "momentum": -0.25,
+    "change24h": 0.004,
+    "vol": 0.056,
+    "fearGreed": 28,
+    "momentum": 0.066,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4485,
-    "global_sentiment": 0.4199,
-    "combined_sentiment": 0.4547,
-    "confidence": 0.7607,
+    "crypto_sentiment": 0.3998,
+    "global_sentiment": 0.3612,
+    "combined_sentiment": 0.4133,
+    "confidence": 0.7014,
     "counts": {
-      "crypto": 73,
-      "global": 44
+      "crypto": 74,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 91163,
-      "btc_change_24h": -0.27,
-      "eth_price": 3053.44,
-      "eth_change_24h": 0.57,
+      "btc_price": 90903,
+      "btc_change_24h": 0.06,
+      "eth_price": 3039.09,
+      "eth_change_24h": 1.4,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 25,
-        "classification": "Extreme Fear",
-        "trend": "stable"
+        "value": 28,
+        "classification": "Fear",
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190645557871,
+        "volume_24h": 184089651030,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-15T04:29:06.186351+00:00",
-      "crypto": 0.2935,
-      "global": 0.4161,
-      "combined": 0.3382,
-      "counts": {
-        "crypto": 80,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-15T08:30:11.754396+00:00",
       "crypto": 0.3405,
@@ -1008,6 +998,16 @@
         "crypto": 73,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-11-29T01:59:48.739043+00:00",
+      "crypto": 0.3998,
+      "global": 0.3612,
+      "combined": 0.4133,
+      "counts": {
+        "crypto": 74,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "BitMine and Bitcoin Miners' Stocks Surge as BTC, Ethereum Recover",
         "url": "https://decrypt.co/350363/bitmine-bitcoin-miners-stock-surges-btc-ethereum-recover",
         "source": "Decrypt",
-        "weight": 0.8089,
+        "weight": 0.4273,
         "score": 0.6667
       },
       {
         "title": "HBAR Rises 2.5% as Crypto Market Experiences Post-Thanksgiving Boost",
         "url": "https://www.coindesk.com/markets/2025/11/28/hbar-rises-2-5-as-crypto-market-experiences-post-thanksgiving-boost",
         "source": "CoinDesk",
-        "weight": 0.7021,
+        "weight": 0.3709,
         "score": 0.6667
       },
       {
-        "title": "Stocks Jump as Dow, S&P 500 Post November Gains With Late Rally",
-        "url": "https://finance.yahoo.com/m/7dc5bfe9-c7f2-3876-9f12-79ed3ba071b0/stocks-jump-as-dow%2C-s%26p-500.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6076,
-        "score": 0.6667
+        "title": "Human Made Seeks Growth Beyond China as Tensions With Japan Rise",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-29/human-made-seeks-growth-beyond-china-as-tensions-with-japan-rise",
+        "source": "Bloomberg Markets",
+        "weight": 0.6352,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "CME Trading Is Restored to Wrap Up Week After Hours-Long Outage",
-        "url": "https://finance.yahoo.com/news/cme-partially-restores-operations-forex-124838075.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.762,
-        "score": -0.9667
-      },
-      {
-        "title": "Stablecoin Giant Tether to Shutter Uruguay Bitcoin Mining Operation",
-        "url": "https://decrypt.co/350360/stablecoin-giant-tether-shutter-uruguay-bitcoin-mining-operation",
-        "source": "Decrypt",
-        "weight": 0.7275,
-        "score": -1.0
-      },
-      {
-        "title": "Dow Rises in Shortened Black Friday Trading",
-        "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-11-27-2025-3eae00a5?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6381,
+        "title": "Tether Shuts Down Uruguay Mining Operations Over Energy Tariffs",
+        "url": "https://www.coindesk.com/business/2025/11/28/tether-shuts-down-uruguay-mining-operations-over-energy-tariffs",
+        "source": "CoinDesk",
+        "weight": 0.6787,
         "score": -0.9333
+      },
+      {
+        "title": "Forget CVS, Buy This Healthcare Stock Instead",
+        "url": "https://www.fool.com/investing/2025/11/28/forget-cvs-buy-this-healthcare-stock-instead/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5341,
+        "score": -0.9333
+      },
+      {
+        "title": "Fear & Greed 28 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4210645253566023,
-          "price_change_24h": 0.03006
+          "volume_mcap_ratio": 0.4093995655955135,
+          "price_change_24h": 0.04096
         }
       ],
       "momentum_shifts": []
