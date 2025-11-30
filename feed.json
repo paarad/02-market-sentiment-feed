@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-30T08:31:07.061362+00:00",
+  "updated_at": "2025-11-30T12:50:09.977545+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.08,
+    "change24h": 0.008,
+    "vol": 0.06,
     "fearGreed": 28,
-    "momentum": -0.088,
+    "momentum": 0.145,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3684,
-    "global_sentiment": 0.4474,
-    "combined_sentiment": 0.3969,
-    "confidence": 0.473,
+    "crypto_sentiment": 0.4678,
+    "global_sentiment": 0.4862,
+    "combined_sentiment": 0.4747,
+    "confidence": 0.5316,
     "counts": {
-      "crypto": 73,
-      "global": 38
+      "crypto": 75,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 91173,
-      "btc_change_24h": 0.5,
-      "eth_price": 3010.43,
-      "eth_change_24h": 0.01,
+      "btc_price": 91441,
+      "btc_change_24h": 0.84,
+      "eth_price": 3026.64,
+      "eth_change_24h": 0.93,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 106783111987,
+        "volume_24h": 109707176528,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.86,
+        "btc_dominance": 56.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-16T16:28:54.721162+00:00",
-      "crypto": 0.3886,
-      "global": 0.487,
-      "combined": 0.4154,
-      "counts": {
-        "crypto": 71,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-16T19:53:38.348837+00:00",
       "crypto": 0.3035,
@@ -1008,53 +998,63 @@
         "crypto": 73,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-11-30T12:50:09.977545+00:00",
+      "crypto": 0.4678,
+      "global": 0.4862,
+      "combined": 0.4747,
+      "counts": {
+        "crypto": 75,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Highlights From the Bloomberg Africa Business Summit",
-        "url": "https://www.bloomberg.com/news/videos/2025-11-30/highlights-from-the-bloomberg-africa-business-summit-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6789,
-        "score": 0.5833
-      },
-      {
-        "title": "Global week ahead: The start of a Santa Rally or more 'bah humbug'?",
-        "url": "https://www.cnbc.com/2025/11/30/global-week-ahead-december-santa-rally-or-more-bah-humbug.html",
-        "source": "CNBC Markets",
-        "weight": 0.5442,
+        "title": "'I don't know if we'll get that Santa rally': Why Wall Street says December may break from its usual strength",
+        "url": "https://finance.yahoo.com/news/i-dont-know-if-well-get-that-santa-rally-why-wall-street-says-december-may-break-from-its-usual-strength-120608504.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.735,
         "score": 0.5333
       },
       {
-        "title": "The Best Stocks to Buy With $5,000 Before 2026 (Hint: Not Palantir)",
-        "url": "https://www.fool.com/investing/2025/11/30/best-stocks-to-buy-5000-before-2026-not-palantir/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6003,
-        "score": 0.3333
+        "title": "Fed rate-cut bets surge: Can Bitcoin finally break $91K to go higher?",
+        "url": "https://cointelegraph.com/news/fed-rate-cut-bets-surge-can-bitcoin-finally-break-91k-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7223,
+        "score": 0.5333
+      },
+      {
+        "title": "Highlights From the Bloomberg Africa Business Summit",
+        "url": "https://www.bloomberg.com/news/videos/2025-11-30/highlights-from-the-bloomberg-africa-business-summit-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4123,
+        "score": 0.5833
       }
     ],
     "negative": [
-      {
-        "title": "Strategy Insiders Kept Buying Preferred Stock as Bitcoin Price Slid",
-        "url": "https://finance.yahoo.com/m/9c964c8c-7fa1-3421-95a5-d30c00f598fb/strategy-insiders-kept-buying.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7112,
-        "score": -0.9667
-      },
-      {
-        "title": "Global Stock Leaderboards Are Ruled by Europe in Rare Dominance",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-30/global-stock-leaderboards-are-ruled-by-europe-in-rare-dominance",
-        "source": "Bloomberg Markets",
-        "weight": 0.7535,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Strategy Insiders Kept Buying Preferred Stock as Bitcoin Price Slid",
+        "url": "https://finance.yahoo.com/m/9c964c8c-7fa1-3421-95a5-d30c00f598fb/strategy-insiders-kept-buying.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4319,
+        "score": -0.9667
+      },
+      {
+        "title": "Global Stock Leaderboards Are Ruled by Europe in Rare Dominance",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-30/global-stock-leaderboards-are-ruled-by-europe-in-rare-dominance",
+        "source": "Bloomberg Markets",
+        "weight": 0.4576,
+        "score": -0.6333
       }
     ],
     "market_movers": {
