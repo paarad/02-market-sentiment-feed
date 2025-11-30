@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-30T16:30:46.473344+00:00",
+  "updated_at": "2025-11-30T19:53:39.780208+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.098,
+    "change24h": 0.023,
+    "vol": 0.109,
     "fearGreed": 28,
-    "momentum": 0.378,
+    "momentum": 0.41,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4979,
-    "global_sentiment": 0.4645,
-    "combined_sentiment": 0.4954,
-    "confidence": 0.5807,
+    "crypto_sentiment": 0.4749,
+    "global_sentiment": 0.4641,
+    "combined_sentiment": 0.4782,
+    "confidence": 0.5269,
     "counts": {
-      "crypto": 73,
-      "global": 36
+      "crypto": 69,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 91748,
-      "btc_change_24h": 0.92,
-      "eth_price": 3045.02,
-      "eth_change_24h": 1.48,
+      "btc_price": 91430,
+      "btc_change_24h": 0.83,
+      "eth_price": 3032.4,
+      "eth_change_24h": 1.43,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 117904328390,
+        "volume_24h": 108987050203,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-16T20:26:49.782810+00:00",
-      "crypto": 0.3021,
-      "global": 0.4168,
-      "combined": 0.3447,
-      "counts": {
-        "crypto": 68,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-17T02:03:17.200161+00:00",
       "crypto": 0.3885,
@@ -1008,33 +998,50 @@
         "crypto": 73,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-30T19:53:39.780208+00:00",
+      "crypto": 0.4749,
+      "global": 0.4641,
+      "combined": 0.4782,
+      "counts": {
+        "crypto": 69,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Italy’s Borromeo Family Lists Islands in Bid to Rival Lake Como",
+        "title": "Italy’s Borromeo Family Lists Islands to Rival Lake Como",
         "url": "https://www.bloomberg.com/news/articles/2025-11-30/italy-s-borromeo-family-lists-islands-in-bid-to-rival-lake-como",
         "source": "Bloomberg Markets",
-        "weight": 0.6535,
+        "weight": 0.4422,
         "score": 0.6333
+      },
+      {
+        "title": "Cathie Wood buys $56 million of megacap tech stock",
+        "url": "https://www.thestreet.com/investing/cathie-wood-buys-56-million-of-megacap-tech-stock?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6641,
+        "score": 0.3333
       },
       {
         "title": "Michael Saylor Sunday Change-Up Suggests New Announcement Coming Monday",
         "url": "https://www.coindesk.com/markets/2025/11/30/michael-saylor-sunday-change-up-suggests-new-announcement-coming-monday",
         "source": "CoinDesk",
-        "weight": 0.9554,
+        "weight": 0.6465,
         "score": 0.3333
-      },
-      {
-        "title": "'I don't know if we'll get that Santa rally': Why Wall Street says December may break from its usual strength",
-        "url": "https://finance.yahoo.com/news/i-dont-know-if-well-get-that-santa-rally-why-wall-street-says-december-may-break-from-its-usual-strength-120608504.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4806,
-        "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "‘Rich Dad Poor Dad’ author drops stark warning on stock market",
+        "url": "https://www.thestreet.com/investing/stocks/rich-dad-poor-dad-author-drops-stark-warning-on-stock-market?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7036,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1046,15 +1053,8 @@
         "title": "The 10 fastest-growing jobs of the next decade, according to BLS report—many can pay 6 figures",
         "url": "https://www.cnbc.com/2025/11/30/the-10-fastest-growing-jobs-of-the-next-decade-according-to-blsmany-can-pay-6-figures.html",
         "source": "CNBC Markets",
-        "weight": 0.634,
+        "weight": 0.429,
         "score": -0.6333
-      },
-      {
-        "title": "Strategy Insiders Kept Buying Preferred Stock as Bitcoin Price Slid",
-        "url": "https://finance.yahoo.com/m/9c964c8c-7fa1-3421-95a5-d30c00f598fb/strategy-insiders-kept-buying.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2824,
-        "score": -0.9667
       }
     ],
     "market_movers": {
@@ -1064,5 +1064,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-11-30",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4344,
+      "crypto_high": 0.4979,
+      "crypto_low": 0.3684,
+      "global_avg": 0.453,
+      "global_high": 0.4862,
+      "global_low": 0.428,
+      "combined_avg": 0.4469,
+      "combined_high": 0.4954,
+      "combined_low": 0.3969
+    },
+    "market_indicators_24h": {
+      "change24h": 0.023,
+      "vol": 0.109,
+      "fearGreed": 28,
+      "momentum": 0.41,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-11-30T19:53:39.780208+00:00"
   }
 }
