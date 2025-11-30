@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-11-29T20:27:49.576718+00:00",
+  "updated_at": "2025-11-30T02:20:09.278227+00:00",
   "indicators": {
-    "change24h": -0.025,
-    "vol": 0.09,
+    "change24h": -0.012,
+    "vol": 0.046,
     "fearGreed": 28,
-    "momentum": -0.429,
+    "momentum": -0.204,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4555,
-    "global_sentiment": 0.3981,
-    "combined_sentiment": 0.4582,
-    "confidence": 0.6001,
+    "crypto_sentiment": 0.4044,
+    "global_sentiment": 0.428,
+    "combined_sentiment": 0.4223,
+    "confidence": 0.5549,
     "counts": {
-      "crypto": 76,
-      "global": 36
+      "crypto": 75,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 90619,
-      "btc_change_24h": -0.6,
-      "eth_price": 2991.33,
-      "eth_change_24h": -2.07,
+      "btc_price": 90941,
+      "btc_change_24h": 0.03,
+      "eth_price": 3007.23,
+      "eth_change_24h": -1.04,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113336179514,
+        "volume_24h": 111055337727,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-16T04:31:34.082006+00:00",
-      "crypto": 0.2174,
-      "global": 0.4583,
-      "combined": 0.2845,
-      "counts": {
-        "crypto": 72,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-16T08:31:30.401421+00:00",
       "crypto": 0.2125,
@@ -1008,39 +998,49 @@
         "crypto": 76,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-11-30T02:20:09.278227+00:00",
+      "crypto": 0.4044,
+      "global": 0.428,
+      "combined": 0.4223,
+      "counts": {
+        "crypto": 75,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Mali Frees Detained Barrick Staff After Deal to End Mine Dispute",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-29/mali-frees-detained-barrick-staff-after-deal-to-end-mine-dispute",
+        "source": "Bloomberg Markets",
+        "weight": 0.5869,
+        "score": 0.3333
+      },
+      {
+        "title": "BTC mining difficulty forecast to rise in Dec, as hashprice sits near record lows",
+        "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-increase-hashprice-record-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5671,
+        "score": 0.3333
+      },
+      {
         "title": "Crypto Payments Firm Truther to Launch Non-Custodial USDT Visa Card in El Salvador",
         "url": "https://www.coindesk.com/business/2025/11/29/crypto-payments-firm-truther-to-launch-non-custodial-usdt-visa-card-in-el-salvador",
         "source": "CoinDesk",
-        "weight": 0.6475,
-        "score": 0.3333
-      },
-      {
-        "title": "Marjorie Taylor Greene’s stocks jumped 476% since joining Congress: Here are her 5 biggest investing wins to learn from",
-        "url": "https://finance.yahoo.com/news/marjorie-taylor-greene-stocks-jumped-181500027.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6195,
-        "score": 0.3333
-      },
-      {
-        "title": "UK Budget Confirms New Crypto Reporting Rules from January 1",
-        "url": "https://decrypt.co/350341/uk-budget-confirms-new-crypto-reporting-rules-from-january-1",
-        "source": "Decrypt",
-        "weight": 0.4532,
+        "weight": 0.3286,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Italy Followed Rules on Monte Paschi-Mediobanca Deal: Official",
-        "url": "https://www.bloomberg.com/news/articles/2025-11-29/italy-followed-rules-on-monte-paschi-mediobanca-deal-official",
-        "source": "Bloomberg Markets",
-        "weight": 0.5944,
-        "score": -0.9667
+        "title": "Nasdaq crypto chief pledges to ‘move as fast as we can’ on tokenized stocks",
+        "url": "https://cointelegraph.com/news/nasdaq-stock-exchange-tokenization-plans-sec-approval-priority?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7605,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
@@ -1050,11 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Taking Social Security at 62 is a hot topic. Experts weigh in.",
-        "url": "https://finance.yahoo.com/news/taking-social-security-at-62-is-a-hot-topic-experts-weigh-in-184651246.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.659,
-        "score": -0.6333
+        "title": "Italy Followed Rules on Monte Paschi-Mediobanca Deal: Official",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-29/italy-followed-rules-on-monte-paschi-mediobanca-deal-official",
+        "source": "Bloomberg Markets",
+        "weight": 0.3016,
+        "score": -0.9667
       }
     ],
     "market_movers": {
