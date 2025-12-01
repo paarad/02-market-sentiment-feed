@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-01T12:57:13.796859+00:00",
+  "updated_at": "2025-12-01T16:37:23.422187+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.122,
+    "vol": 0.317,
     "fearGreed": 24,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4051,
-    "global_sentiment": 0.431,
-    "combined_sentiment": 0.4231,
-    "confidence": 0.7818,
+    "crypto_sentiment": 0.3916,
+    "global_sentiment": 0.4224,
+    "combined_sentiment": 0.4122,
+    "confidence": 0.8308,
     "counts": {
-      "crypto": 72,
-      "global": 43
+      "crypto": 73,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 85308,
-      "btc_change_24h": -6.7,
-      "eth_price": 2818.56,
-      "eth_change_24h": -6.87,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 84768,
+      "btc_change_24h": -7.57,
+      "eth_price": 2735.73,
+      "eth_change_24h": -10.22,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 219847712527,
+        "volume_24h": 254908257043,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.68,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-17T19:53:47.485142+00:00",
-      "crypto": 0.3533,
-      "global": 0.365,
-      "combined": 0.3787,
-      "counts": {
-        "crypto": 58,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-11-17T20:29:14.263939+00:00",
       "crypto": 0.3526,
@@ -1008,61 +998,71 @@
         "crypto": 72,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-01T16:37:23.422187+00:00",
+      "crypto": 0.3916,
+      "global": 0.4224,
+      "combined": 0.4122,
+      "counts": {
+        "crypto": 73,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AI Stocks Face 'Show Me' Moment: Can Apple Rebound In 2026 With Siri?",
-        "url": "https://finance.yahoo.com/m/684c930d-1475-3adc-b013-ae604c056ebc/ai-stocks-face-%27show-me%27.html?.tsrc=rss",
+        "title": "REGN Gains 21.5% in a Month: Time to Buy, Sell or Hold the Stock?",
+        "url": "https://finance.yahoo.com/news/regn-gains-21-5-month-144800616.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7599,
-        "score": 0.6667
+        "weight": 0.6481,
+        "score": 1.0
       },
       {
-        "title": "Saudis Tout ‘Vibrant’ IPO Pipeline Ahead of More Market Reforms",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-01/saudis-tout-vibrant-ipo-pipeline-ahead-of-more-market-reforms",
-        "source": "Bloomberg Markets",
-        "weight": 0.6743,
-        "score": 0.5833
+        "title": "Take the Zacks Approach to Beat the Markets: MBX Biosciences, Garrett Motion & Monster Beverage in Focus",
+        "url": "https://finance.yahoo.com/news/zacks-approach-beat-markets-mbx-142000606.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6141,
+        "score": 0.8667
       },
       {
-        "title": "Crypto ETPs snap 4-week slide with $1B inflows as XRP posts its best week",
-        "url": "https://cointelegraph.com/news/crypto-etps-inflows-return-xrp-record-bitcoin-ether?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7255,
-        "score": 0.5
+        "title": "S&P 500 Opens Lower as Market Rediscovers Gravity",
+        "url": "https://finance.yahoo.com/m/b7bea8c9-f49c-3deb-a876-3e36d6d0200a/s%26p-500-opens-lower-as-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6396,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin, Ethereum, and XRP Crash Triggering $637M in Liquidations",
-        "url": "https://decrypt.co/350430/bitcoin-ethereum-and-xrp-crash-triggering-637m-in-liquidations",
-        "source": "Decrypt",
-        "weight": 0.7161,
+        "title": "Polkadot Plunges 11% Breaking Below $2.05 Support Level Amid Broader Selloff",
+        "url": "https://www.coindesk.com/markets/2025/12/01/polkadot-plunges-11-breaking-below-usd2-05-support-level-amid-broader-selloff",
+        "source": "CoinDesk",
+        "weight": 0.7068,
         "score": -0.9667
       },
       {
-        "title": "Hacked Down: Crypto Daybook Americas",
-        "url": "https://www.coindesk.com/daybook-us/2025/11/30/hacked-down-crypto-daybook-americas",
-        "source": "CoinDesk",
-        "weight": 0.9228,
-        "score": -0.7333
+        "title": "If Bitmain gets hit, what breaks first in the US mining machine?",
+        "url": "https://cryptoslate.com/if-bitmain-gets-hit-what-breaks-first-in-the-us-mining-machine/",
+        "source": "CryptoSlate",
+        "weight": 0.698,
+        "score": -0.9667
       },
       {
-        "title": "Chile Investors Start to Query What Happens After Kast Wins",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-01/chile-investors-start-to-query-what-happens-after-kast-wins",
+        "title": "Lilly Cuts Prices for Cash Buyers of Weight-Loss Drug Zepbound",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-01/lilly-cuts-prices-for-cash-buyers-of-zepbound-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6384,
-        "score": -1.0
+        "weight": 0.6768,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49428912516946,
-          "price_change_24h": -0.03388
+          "volume_mcap_ratio": 0.5767997726970071,
+          "price_change_24h": -0.01419
         }
       ],
       "momentum_shifts": []
