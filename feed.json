@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-01T19:53:48.843832+00:00",
+  "updated_at": "2025-12-01T20:27:23.368376+00:00",
   "indicators": {
-    "change24h": -0.117,
-    "vol": 0.302,
+    "change24h": -0.108,
+    "vol": 0.286,
     "fearGreed": 24,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3942,
-    "global_sentiment": 0.3894,
-    "combined_sentiment": 0.4114,
-    "confidence": 0.8366,
+    "crypto_sentiment": 0.3858,
+    "global_sentiment": 0.4109,
+    "combined_sentiment": 0.4069,
+    "confidence": 0.8382,
     "counts": {
       "crypto": 75,
-      "global": 47
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 84933,
-      "btc_change_24h": -7.12,
-      "eth_price": 2736.14,
-      "eth_change_24h": -9.76,
+      "btc_price": 85375,
+      "btc_change_24h": -6.57,
+      "eth_price": 2755.67,
+      "eth_change_24h": -9.05,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 271160614153,
+        "volume_24h": 277625704501,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.74,
+        "btc_dominance": 56.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-18T02:01:07.115121+00:00",
-      "crypto": 0.3695,
-      "global": 0.3753,
-      "combined": 0.3917,
-      "counts": {
-        "crypto": 61,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-18T04:31:17.415955+00:00",
       "crypto": 0.3789,
@@ -1008,61 +998,71 @@
         "crypto": 75,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-12-01T20:27:23.368376+00:00",
+      "crypto": 0.3858,
+      "global": 0.4109,
+      "combined": 0.4069,
+      "counts": {
+        "crypto": 75,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "RBC sets 12-month S&P 500 target at 7,750 as more Wall Street firms turn bullish on stocks",
-        "url": "https://finance.yahoo.com/news/rbc-sets-12-month-sp-500-target-at-7750-as-more-wall-street-firms-turn-bullish-on-stocks-180100024.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6438,
-        "score": 0.8667
-      },
-      {
         "title": "Nvidia Buys $2B of Synopsys Stock, DeepSeek Debuts New AI Models",
         "url": "https://www.bloomberg.com/news/videos/2025-12-01/nvidia-buys-2b-of-synopsys-deepseek-debuts-new-ai-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7864,
+        "weight": 0.7372,
+        "score": 0.5833
+      },
+      {
+        "title": "Nvidia Stock Rises After Synopsys Deal. Here’s the Good—and the Bad.",
+        "url": "https://finance.yahoo.com/m/a8ea2d60-d0d5-3d2c-a07a-071d13166b59/nvidia-stock-rises-after.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7122,
         "score": 0.5833
       },
       {
         "title": "Termites Not Eroding Foundation of Private Credit: Poli",
         "url": "https://www.bloomberg.com/news/videos/2025-12-01/termites-not-eroding-foundation-of-private-credit-poli-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6052,
+        "weight": 0.5673,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Coinbase C-Suite, Marc Andreessen Sued for Billions Over Alleged Insider Trading Scheme",
+        "url": "https://decrypt.co/350490/coinbase-c-suite-andreessen-sued-billions-alleged-insider-trading",
+        "source": "Decrypt",
+        "weight": 0.8122,
+        "score": -1.0
+      },
+      {
+        "title": "Moderna Falls As FDA Vows To Impose New Vaccine Rules",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-01/moderna-falls-as-fda-vows-to-impose-new-vaccine-rules-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7518,
+        "score": -1.0
+      },
+      {
         "title": "Boat Strike Reported by Washington Post 'Looks Like A War Crime,' Says Retired General",
         "url": "https://www.bloomberg.com/news/videos/2025-12-01/strike-reported-by-post-looks-like-a-war-crime-clark-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7643,
+        "weight": 0.7164,
         "score": -0.9333
-      },
-      {
-        "title": "Tiny Vermont Work College Will Stop Teaching as Enrollment Dips",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-01/sterling-college-in-vermont-to-stop-teaching-amid-enrollment-strains",
-        "source": "Bloomberg Markets",
-        "weight": 0.7132,
-        "score": -0.9333
-      },
-      {
-        "title": "Strategic Implications of Trump–Saudi Crown Prince Relationship",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-01/strategic-implications-of-trump-saudi-crown-prince-union-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5807,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.618569924406051,
-          "price_change_24h": -0.00631
+          "volume_mcap_ratio": 0.6291875588136536,
+          "price_change_24h": 0.00561
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-01",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3716,
-      "crypto_high": 0.4051,
-      "crypto_low": 0.2977,
-      "global_avg": 0.4104,
-      "global_high": 0.431,
-      "global_low": 0.3847,
-      "combined_avg": 0.3962,
-      "combined_high": 0.4231,
-      "combined_low": 0.3387
-    },
-    "market_indicators_24h": {
-      "change24h": -0.117,
-      "vol": 0.302,
-      "fearGreed": 24,
-      "momentum": -1.0,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-01T19:53:48.843832+00:00"
   }
 }
