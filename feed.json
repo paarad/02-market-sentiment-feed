@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-02T16:37:54.200082+00:00",
+  "updated_at": "2025-12-02T19:53:42.805809+00:00",
   "indicators": {
-    "change24h": 0.127,
-    "vol": 0.293,
+    "change24h": 0.161,
+    "vol": 0.318,
     "fearGreed": 23,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4716,
-    "global_sentiment": 0.5238,
-    "combined_sentiment": 0.4807,
-    "confidence": 0.8276,
+    "crypto_sentiment": 0.4706,
+    "global_sentiment": 0.4437,
+    "combined_sentiment": 0.4732,
+    "confidence": 0.8445,
     "counts": {
-      "crypto": 66,
-      "global": 38
+      "crypto": 71,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 90728,
-      "btc_change_24h": 7.03,
-      "eth_price": 2996.28,
-      "eth_change_24h": 9.47,
+      "btc_price": 92054,
+      "btc_change_24h": 8.3,
+      "eth_price": 3018.48,
+      "eth_change_24h": 10.16,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 236705251180,
+        "volume_24h": 247890620816,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.82,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-19T02:01:05.544294+00:00",
-      "crypto": 0.5007,
-      "global": 0.4229,
-      "combined": 0.4941,
-      "counts": {
-        "crypto": 68,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-19T04:31:28.397357+00:00",
       "crypto": 0.5467,
@@ -1008,61 +998,71 @@
         "crypto": 66,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-02T19:53:42.805809+00:00",
+      "crypto": 0.4706,
+      "global": 0.4437,
+      "combined": 0.4732,
+      "counts": {
+        "crypto": 71,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Today's Market: S&P 500 Gains 0.5%, Nasdaq Jumps 1% on Tech Stock Rebound",
-        "url": "https://finance.yahoo.com/news/todays-market-p-500-gains-161148707.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7608,
+        "title": "Bitcoin, Ethereum, XRP Spike a Day After Mass Sell-off",
+        "url": "https://decrypt.co/350651/bitcoin-ethereum-xrp-spike-day-mass-sell-off",
+        "source": "Decrypt",
+        "weight": 0.7064,
         "score": 1.0
       },
       {
-        "title": "Toncoin Climbs to $1.50 as Cocoon Debut Sparks Surge in Trading Volume",
-        "url": "https://www.coindesk.com/markets/2025/12/02/toncoin-climbs-to-usd1-50-as-cocoon-debut-sparks-surge-in-trading-volume",
-        "source": "CoinDesk",
-        "weight": 0.6566,
+        "title": "Amplify Junior Silver Miners ETF (SILJ) Surpasses $3 Billion in Assets",
+        "url": "https://finance.yahoo.com/news/amplify-junior-silver-miners-etf-173000897.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6066,
         "score": 0.8667
       },
       {
-        "title": "Dow Rises 130 Points as Wall Street Looks to Climb out of Early-December Hole",
-        "url": "https://finance.yahoo.com/m/e299aeb1-5f80-3389-ba0b-4da92f4c28f2/dow-rises-130-points-as-wall.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6274,
-        "score": 0.8667
+        "title": "Global crypto market cap up 7.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Ethereum price analysis: Will ETH continue to decline in December?",
-        "url": "https://cointelegraph.com/news/ehtereum-price-analysis-will-eth-continue-decline-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8263,
+        "title": "US Regulators Surely Looking at CME Outage, Gensler Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-02/us-regulators-surely-looking-at-cme-outage-gensler-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.7742,
+        "score": -0.9667
+      },
+      {
+        "title": "The BIG Crypto Fake-Out! Saylor & Tether FUD! Vanguard Crypto ETFs!",
+        "url": "https://decrypt.co/videos/interviews/KenRTGb5/the-big-crypto-fake-out-saylor-tether-fud-vanguard-crypto-etfs",
+        "source": "Decrypt",
+        "weight": 0.6927,
         "score": -1.0
       },
       {
-        "title": "American Bitcoin stock tumbles 50% as BTC proxy trade unravels",
-        "url": "https://cointelegraph.com/news/american-bitcoin-abtc-stock-crash-crypto-rout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9469,
-        "score": -0.6333
-      },
-      {
-        "title": "Former cyber spy raises $60 million to fight AI threats",
-        "url": "https://www.cnbc.com/2025/12/02/cybersecurity-israel-tehran-starup-raise.html",
-        "source": "CNBC Markets",
-        "weight": 0.7764,
-        "score": -0.6333
+        "title": "Brazil Sentences 14 for Using Crypto, Shell Firms in $95M Drug Money Laundering Case",
+        "url": "https://www.coindesk.com/business/2025/12/02/brazil-sentences-14-for-using-crypto-shell-firms-in-usd95m-drug-money-laundering-case",
+        "source": "CoinDesk",
+        "weight": 0.7341,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5294060494124158,
-          "price_change_24h": 0.0152
+          "volume_mcap_ratio": 0.5545284055101841,
+          "price_change_24h": 0.02354
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-02",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4234,
+      "crypto_high": 0.4716,
+      "crypto_low": 0.3636,
+      "global_avg": 0.3983,
+      "global_high": 0.5238,
+      "global_low": 0.3176,
+      "combined_avg": 0.4341,
+      "combined_high": 0.4807,
+      "combined_low": 0.3825
+    },
+    "market_indicators_24h": {
+      "change24h": 0.161,
+      "vol": 0.318,
+      "fearGreed": 23,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-02T19:53:42.805809+00:00"
   }
 }
