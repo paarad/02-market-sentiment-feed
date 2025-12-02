@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-02T12:58:19.091952+00:00",
+  "updated_at": "2025-12-02T16:37:54.200082+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.097,
+    "change24h": 0.127,
+    "vol": 0.293,
     "fearGreed": 23,
-    "momentum": 0.343,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3984,
-    "global_sentiment": 0.3831,
-    "combined_sentiment": 0.414,
-    "confidence": 0.7952,
+    "crypto_sentiment": 0.4716,
+    "global_sentiment": 0.5238,
+    "combined_sentiment": 0.4807,
+    "confidence": 0.8276,
     "counts": {
-      "crypto": 64,
-      "global": 46
+      "crypto": 66,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 87277,
-      "btc_change_24h": 2.31,
-      "eth_price": 2825.69,
-      "eth_change_24h": 0.25,
+      "btc_price": 90728,
+      "btc_change_24h": 7.03,
+      "eth_price": 2996.28,
+      "eth_change_24h": 9.47,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 220566017309,
+        "volume_24h": 236705251180,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.9,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-18T19:53:51.422467+00:00",
-      "crypto": 0.4563,
-      "global": 0.3595,
-      "combined": 0.4555,
-      "counts": {
-        "crypto": 67,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-11-19T02:01:05.544294+00:00",
       "crypto": 0.5007,
@@ -1008,61 +998,71 @@
         "crypto": 64,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-12-02T16:37:54.200082+00:00",
+      "crypto": 0.4716,
+      "global": 0.5238,
+      "combined": 0.4807,
+      "counts": {
+        "crypto": 66,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin valuation metric projects 96% chance of BTC price recovery in 2026",
-        "url": "https://cointelegraph.com/news/bitcoin-valuation-metric-projects-96-chance-btc-price-recovery-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8099,
-        "score": 0.5333
+        "title": "Today's Market: S&P 500 Gains 0.5%, Nasdaq Jumps 1% on Tech Stock Rebound",
+        "url": "https://finance.yahoo.com/news/todays-market-p-500-gains-161148707.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7608,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "APT Rises 2.3%, Outperforms Wider Crypto Market",
-        "url": "https://www.coindesk.com/markets/2025/12/02/apt-rises-2-3-outperforms-wider-crypto-market",
+        "title": "Toncoin Climbs to $1.50 as Cocoon Debut Sparks Surge in Trading Volume",
+        "url": "https://www.coindesk.com/markets/2025/12/02/toncoin-climbs-to-usd1-50-as-cocoon-debut-sparks-surge-in-trading-volume",
         "source": "CoinDesk",
-        "weight": 0.9426,
-        "score": 0.3333
+        "weight": 0.6566,
+        "score": 0.8667
+      },
+      {
+        "title": "Dow Rises 130 Points as Wall Street Looks to Climb out of Early-December Hole",
+        "url": "https://finance.yahoo.com/m/e299aeb1-5f80-3389-ba0b-4da92f4c28f2/dow-rises-130-points-as-wall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6274,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Anthropic study says AI agents developed $4.6M in smart contract bugs",
-        "url": "https://cointelegraph.com/news/ai-models-autonomously-generate-4-6m-in-real-world-smart-contract-exploits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Ethereum price analysis: Will ETH continue to decline in December?",
+        "url": "https://cointelegraph.com/news/ehtereum-price-analysis-will-eth-continue-decline-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7478,
+        "weight": 0.8263,
         "score": -1.0
       },
       {
-        "title": "US Envoy Heads to Russia; Netflix Offers Mostly Cash for Warner  Bros. | Bloomberg Brief 12/2/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-02/bloomberg-brief-12-2-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6902,
-        "score": -0.9667
+        "title": "American Bitcoin stock tumbles 50% as BTC proxy trade unravels",
+        "url": "https://cointelegraph.com/news/american-bitcoin-abtc-stock-crash-crypto-rout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9469,
+        "score": -0.6333
       },
       {
-        "title": "Crypto Markets Today: Risk-Off Mood Persists as Altcoins Extend Losses",
-        "url": "https://www.coindesk.com/markets/2025/12/02/crypto-markets-today-risk-off-mood-persists-as-altcoins-extend-losses",
-        "source": "CoinDesk",
-        "weight": 0.8723,
-        "score": -0.6667
+        "title": "Former cyber spy raises $60 million to fight AI threats",
+        "url": "https://www.cnbc.com/2025/12/02/cybersecurity-israel-tehran-starup-raise.html",
+        "source": "CNBC Markets",
+        "weight": 0.7764,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4852409646328841,
-          "price_change_24h": 0.02101
+          "volume_mcap_ratio": 0.5294060494124158,
+          "price_change_24h": 0.0152
         }
       ],
       "momentum_shifts": []
