@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-02T08:38:21.348242+00:00",
+  "updated_at": "2025-12-02T12:58:19.091952+00:00",
   "indicators": {
-    "change24h": -0.008,
-    "vol": 0.087,
+    "change24h": 0.02,
+    "vol": 0.097,
     "fearGreed": 23,
-    "momentum": -0.137,
+    "momentum": 0.343,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3636,
-    "global_sentiment": 0.3176,
-    "combined_sentiment": 0.3825,
-    "confidence": 0.7437,
+    "crypto_sentiment": 0.3984,
+    "global_sentiment": 0.3831,
+    "combined_sentiment": 0.414,
+    "confidence": 0.7952,
     "counts": {
-      "crypto": 62,
-      "global": 43
+      "crypto": 64,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 86547,
-      "btc_change_24h": -0.11,
-      "eth_price": 2790.64,
-      "eth_change_24h": -1.75,
+      "btc_price": 87277,
+      "btc_change_24h": 2.31,
+      "eth_price": 2825.69,
+      "eth_change_24h": 0.25,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 230434323694,
+        "volume_24h": 220566017309,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 56.9,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-18T16:36:19.161578+00:00",
-      "crypto": 0.4688,
-      "global": 0.5085,
-      "combined": 0.4773,
-      "counts": {
-        "crypto": 66,
-        "global": 48
-      }
-    },
     {
       "ts": "2025-11-18T19:53:51.422467+00:00",
       "crypto": 0.4563,
@@ -1008,61 +998,71 @@
         "crypto": 62,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-02T12:58:19.091952+00:00",
+      "crypto": 0.3984,
+      "global": 0.3831,
+      "combined": 0.414,
+      "counts": {
+        "crypto": 64,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Asian shares advance after a retreat on Wall Street",
-        "url": "https://finance.yahoo.com/news/asian-shares-advance-retreat-wall-044441253.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5101,
-        "score": 1.0
-      },
-      {
-        "title": "Stock market news: Dow, S&P, Nasdaq slip; US big pharma deal with UK, and Bitcoin falters",
-        "url": "https://www.thestreet.com/investing/stocks/stock-market-news-dow-sp-nasdaq-slip-us-big-pharma-deal-with-uk-and-bitcoin-falters?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4708,
-        "score": 0.8667
-      },
-      {
-        "title": "Here's Where Analysts Say Bitcoin Could Be Headed Next For the Rest of 2025",
-        "url": "https://decrypt.co/350580/analysts-bitcoin-could-be-headed-next-rest-of-2025",
-        "source": "Decrypt",
-        "weight": 0.5559,
+        "title": "Bitcoin valuation metric projects 96% chance of BTC price recovery in 2026",
+        "url": "https://cointelegraph.com/news/bitcoin-valuation-metric-projects-96-chance-btc-price-recovery-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8099,
         "score": 0.5333
+      },
+      {
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "APT Rises 2.3%, Outperforms Wider Crypto Market",
+        "url": "https://www.coindesk.com/markets/2025/12/02/apt-rises-2-3-outperforms-wider-crypto-market",
+        "source": "CoinDesk",
+        "weight": 0.9426,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "BOE Cuts Bank Capital Buffers After Stress Tests Show Resilience",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-02/boe-cuts-banks-benchmark-capital-requirements-ahead-of-review",
+        "title": "Anthropic study says AI agents developed $4.6M in smart contract bugs",
+        "url": "https://cointelegraph.com/news/ai-models-autonomously-generate-4-6m-in-real-world-smart-contract-exploits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7478,
+        "score": -1.0
+      },
+      {
+        "title": "US Envoy Heads to Russia; Netflix Offers Mostly Cash for Warner  Bros. | Bloomberg Brief 12/2/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-02/bloomberg-brief-12-2-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.693,
+        "weight": 0.6902,
         "score": -0.9667
       },
       {
-        "title": "China Vanke Seeks One Year Delay to Pay Bond",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-02/china-vanke-seeks-one-year-delay-to-pay-bond-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5869,
-        "score": -0.9667
-      },
-      {
-        "title": "Ethereum Devs Push ZK ‘Secret Santa’ System Toward Deployment",
-        "url": "https://www.coindesk.com/tech/2025/12/02/ethereum-devs-push-zk-secret-santa-system-toward-deployment",
+        "title": "Crypto Markets Today: Risk-Off Mood Persists as Altcoins Extend Losses",
+        "url": "https://www.coindesk.com/markets/2025/12/02/crypto-markets-today-risk-off-mood-persists-as-altcoins-extend-losses",
         "source": "CoinDesk",
-        "weight": 0.8759,
-        "score": -0.6333
+        "weight": 0.8723,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5116711407459533,
-          "price_change_24h": -0.0006
+          "volume_mcap_ratio": 0.4852409646328841,
+          "price_change_24h": 0.02101
         }
       ],
       "momentum_shifts": []
