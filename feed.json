@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-02T02:05:01.977651+00:00",
+  "updated_at": "2025-12-02T04:36:18.449920+00:00",
   "indicators": {
-    "change24h": -0.017,
-    "vol": 0.091,
+    "change24h": 0.009,
+    "vol": 0.08,
     "fearGreed": 23,
-    "momentum": -0.298,
-    "regime": "bear",
+    "momentum": 0.16,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.421,
-    "global_sentiment": 0.3246,
-    "combined_sentiment": 0.4261,
-    "confidence": 0.779,
+    "crypto_sentiment": 0.4153,
+    "global_sentiment": 0.3971,
+    "combined_sentiment": 0.4279,
+    "confidence": 0.7488,
     "counts": {
-      "crypto": 69,
-      "global": 39
+      "crypto": 64,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 86448,
-      "btc_change_24h": -1.07,
-      "eth_price": 2794.21,
-      "eth_change_24h": -2.68,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 86968,
+      "btc_change_24h": 1.24,
+      "eth_price": 2804.75,
+      "eth_change_24h": -0.35,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 270201055680,
+        "volume_24h": 242079886720,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-18T08:34:54.112245+00:00",
-      "crypto": 0.373,
-      "global": 0.3409,
-      "combined": 0.3915,
-      "counts": {
-        "crypto": 63,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-18T12:54:51.912123+00:00",
       "crypto": 0.3713,
@@ -1008,61 +998,71 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-12-02T04:36:18.449920+00:00",
+      "crypto": 0.4153,
+      "global": 0.3971,
+      "combined": 0.4279,
+      "counts": {
+        "crypto": 64,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock market news: Dow, S&P, Nasdaq slip; US big pharma deal with UK, and Bitcoin falters",
+        "url": "https://www.thestreet.com/investing/stocks/stock-market-news-dow-sp-nasdaq-slip-us-big-pharma-deal-with-uk-and-bitcoin-falters?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7503,
+        "score": 0.8667
+      },
+      {
         "title": "Silver Retreats From Record High on Concerns of Overheating",
         "url": "https://www.bloomberg.com/news/articles/2025-12-01/silver-near-record-high-as-speculators-bet-on-supply-tightness",
         "source": "Bloomberg Markets",
-        "weight": 0.5866,
+        "weight": 0.4384,
         "score": 0.8667
       },
       {
         "title": "Veteran analyst unveils December stocks forecast",
         "url": "https://www.thestreet.com/investing/veteran-analyst-unveils-december-stocks-forecast?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6302,
+        "weight": 0.471,
         "score": 0.6667
-      },
-      {
-        "title": "RLUSD supply hit $1.26B, and 82% of it now sits on Ethereum, not XRPL",
-        "url": "https://cryptoslate.com/rlusd-supply-hit-1-26b-and-82-of-it-now-sits-on-ethereum-not-xrpl/",
-        "source": "CryptoSlate",
-        "weight": 0.4425,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Wall Street ends lower, crypto stocks drop",
-        "url": "https://finance.yahoo.com/video/wall-street-ends-lower-crypto-234227157.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6079,
-        "score": -1.0
-      },
-      {
-        "title": "Asian Stocks Rebound, Japan Bond Auction in Focus: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-01/stock-market-today-dow-s-p-live-updates",
+        "title": "Carlyle Said to Eye Stake in Indian Housing Finance Firm",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-02/carlyle-said-to-eye-stake-in-indian-housing-finance-firm",
         "source": "Bloomberg Markets",
-        "weight": 0.5393,
-        "score": -1.0
+        "weight": 0.7849,
+        "score": -0.6333
       },
       {
-        "title": "Bitcoin falls to $84K: Is Japan’s bond market the culprit, or is more at play?",
-        "url": "https://cointelegraph.com/news/bitcoin-drop-to-dollar84k-not-due-to-japan-bond-market-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Ethereum devs work on ‘Secret Santa’ protocol to power privacy",
+        "url": "https://cointelegraph.com/news/ethereum-protocol-allows-onchain-secret-santa-with-zk-proofs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5003,
-        "score": -1.0
+        "weight": 0.7741,
+        "score": -0.6333
+      },
+      {
+        "title": "South Korea auto stocks rise after U.S. Commerce Secretary confirms tariffs lowered to 15%",
+        "url": "https://www.cnbc.com/2025/12/02/asia-pacific-markets-today-tuesday-crypto-bitcoin-nikkei-225-hang-seng-index.html",
+        "source": "CNBC Markets",
+        "weight": 0.7548,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5921072647019484,
-          "price_change_24h": -0.01636
+          "volume_mcap_ratio": 0.5482123737495822,
+          "price_change_24h": -0.00893
         }
       ],
       "momentum_shifts": []
