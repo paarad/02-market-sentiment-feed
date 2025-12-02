@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-02T19:53:42.805809+00:00",
+  "updated_at": "2025-12-02T20:32:23.458756+00:00",
   "indicators": {
-    "change24h": 0.161,
-    "vol": 0.318,
+    "change24h": 0.129,
+    "vol": 0.299,
     "fearGreed": 23,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4706,
-    "global_sentiment": 0.4437,
-    "combined_sentiment": 0.4732,
-    "confidence": 0.8445,
+    "crypto_sentiment": 0.4585,
+    "global_sentiment": 0.4719,
+    "combined_sentiment": 0.4666,
+    "confidence": 0.8456,
     "counts": {
-      "crypto": 71,
+      "crypto": 73,
       "global": 47
     },
     "market_indicators": {
-      "btc_price": 92054,
-      "btc_change_24h": 8.3,
-      "eth_price": 3018.48,
-      "eth_change_24h": 10.16,
+      "btc_price": 91061,
+      "btc_change_24h": 6.75,
+      "eth_price": 2989.76,
+      "eth_change_24h": 8.91,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 1.0,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 247890620816,
+        "volume_24h": 247682202186,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-19T04:31:28.397357+00:00",
-      "crypto": 0.5467,
-      "global": 0.3815,
-      "combined": 0.5251,
-      "counts": {
-        "crypto": 68,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-19T08:34:35.759741+00:00",
       "crypto": 0.4912,
@@ -1008,61 +998,71 @@
         "crypto": 71,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-12-02T20:32:23.458756+00:00",
+      "crypto": 0.4585,
+      "global": 0.4719,
+      "combined": 0.4666,
+      "counts": {
+        "crypto": 73,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin, Ethereum, XRP Spike a Day After Mass Sell-off",
-        "url": "https://decrypt.co/350651/bitcoin-ethereum-xrp-spike-day-mass-sell-off",
-        "source": "Decrypt",
-        "weight": 0.7064,
+        "title": "Stock Market Today: Stocks Improve As Nasdaq Leads; Bitcoin Rally Lifts Coinbase, IREN Tumbles (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/ba9ce895-11f3-3558-9f1b-e72825746087/stock-market-today%3A-stocks.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7817,
         "score": 1.0
       },
       {
-        "title": "Amplify Junior Silver Miners ETF (SILJ) Surpasses $3 Billion in Assets",
-        "url": "https://finance.yahoo.com/news/amplify-junior-silver-miners-etf-173000897.html?.tsrc=rss",
+        "title": "Can a New CMO Reinvent Stewards' (SWRD) Investor Story as It Pursues a Nasdaq Uplisting?",
+        "url": "https://finance.yahoo.com/news/cmo-reinvent-stewards-swrd-investor-201040967.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6066,
-        "score": 0.8667
+        "weight": 0.7672,
+        "score": 0.9667
       },
       {
-        "title": "Global crypto market cap up 7.7% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Bitcoin, Ethereum, XRP Spike a Day After Mass Sell-off",
+        "url": "https://decrypt.co/350651/bitcoin-ethereum-xrp-spike-day-mass-sell-off",
+        "source": "Decrypt",
+        "weight": 0.6557,
+        "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Why The Market Crashed On October 10, And Why It’s Struggling to Bounce",
+        "url": "https://www.coindesk.com/opinion/2025/12/02/why-the-market-crashed-on-october-10-and-why-it-s-struggling-to-bounce",
+        "source": "CoinDesk",
+        "weight": 0.9357,
+        "score": -1.0
+      },
+      {
         "title": "US Regulators Surely Looking at CME Outage, Gensler Says",
         "url": "https://www.bloomberg.com/news/articles/2025-12-02/us-regulators-surely-looking-at-cme-outage-gensler-says",
         "source": "Bloomberg Markets",
-        "weight": 0.7742,
+        "weight": 0.7186,
         "score": -0.9667
       },
       {
         "title": "The BIG Crypto Fake-Out! Saylor & Tether FUD! Vanguard Crypto ETFs!",
         "url": "https://decrypt.co/videos/interviews/KenRTGb5/the-big-crypto-fake-out-saylor-tether-fud-vanguard-crypto-etfs",
         "source": "Decrypt",
-        "weight": 0.6927,
+        "weight": 0.643,
         "score": -1.0
-      },
-      {
-        "title": "Brazil Sentences 14 for Using Crypto, Shell Firms in $95M Drug Money Laundering Case",
-        "url": "https://www.coindesk.com/business/2025/12/02/brazil-sentences-14-for-using-crypto-shell-firms-in-usd95m-drug-money-laundering-case",
-        "source": "CoinDesk",
-        "weight": 0.7341,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5545284055101841,
-          "price_change_24h": 0.02354
+          "volume_mcap_ratio": 0.5559258651750807,
+          "price_change_24h": 0.01562
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-02",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4234,
-      "crypto_high": 0.4716,
-      "crypto_low": 0.3636,
-      "global_avg": 0.3983,
-      "global_high": 0.5238,
-      "global_low": 0.3176,
-      "combined_avg": 0.4341,
-      "combined_high": 0.4807,
-      "combined_low": 0.3825
-    },
-    "market_indicators_24h": {
-      "change24h": 0.161,
-      "vol": 0.318,
-      "fearGreed": 23,
-      "momentum": 1.0,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-02T19:53:42.805809+00:00"
   }
 }
