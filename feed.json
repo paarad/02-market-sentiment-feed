@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-04T02:05:23.071704+00:00",
+  "updated_at": "2025-12-04T04:36:21.209504+00:00",
   "indicators": {
-    "change24h": 0.059,
-    "vol": 0.164,
+    "change24h": 0.044,
+    "vol": 0.126,
     "fearGreed": 26,
-    "momentum": 1.0,
+    "momentum": 0.776,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5569,
-    "global_sentiment": 0.4215,
-    "combined_sentiment": 0.5361,
-    "confidence": 0.8083,
+    "crypto_sentiment": 0.5219,
+    "global_sentiment": 0.4832,
+    "combined_sentiment": 0.515,
+    "confidence": 0.7933,
     "counts": {
       "crypto": 78,
-      "global": 33
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 93268,
-      "btc_change_24h": 0.41,
-      "eth_price": 3207.27,
-      "eth_change_24h": 5.45,
+      "btc_price": 93472,
+      "btc_change_24h": 0.46,
+      "eth_price": 3206.91,
+      "eth_change_24h": 5.26,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 252689415665,
+        "volume_24h": 245445912450,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.61,
+        "btc_dominance": 56.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-20T12:53:50.407144+00:00",
-      "crypto": 0.405,
-      "global": 0.5433,
-      "combined": 0.4323,
-      "counts": {
-        "crypto": 65,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-20T16:34:31.125437+00:00",
       "crypto": 0.5054,
@@ -1008,61 +998,71 @@
         "crypto": 78,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-12-04T04:36:21.209504+00:00",
+      "crypto": 0.5219,
+      "global": 0.4832,
+      "combined": 0.515,
+      "counts": {
+        "crypto": 78,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.9% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Dogecoin Reclaims Bullish Structure as Whale Activity Hits 2-Month Low",
+        "url": "https://www.coindesk.com/markets/2025/12/04/dogecoin-reclaims-bullish-structure-as-whale-activity-hits-2-month-low",
+        "source": "CoinDesk",
+        "weight": 0.9807,
+        "score": 0.5333
+      },
+      {
+        "title": "Goldman Says Copper’s ‘Breakout’ Above $11,000 Won’t Last",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-04/goldman-says-copper-s-breakout-above-11-000-won-t-last",
+        "source": "Bloomberg Markets",
+        "weight": 0.6941,
         "score": 0.5333
       },
       {
         "title": "Crypto M&A deals hit an all-time high in 2025, blowing past $8.6B",
         "url": "https://cointelegraph.com/news/crypto-merger-acquisition-deals-8-6b-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4701,
+        "weight": 0.3516,
         "score": 0.8667
-      },
-      {
-        "title": "Was the Bitcoin Jump a 'Fake Breakout'?",
-        "url": "https://decrypt.co/350787/was-bitcoin-jump-fake-breakout",
-        "source": "Decrypt",
-        "weight": 0.3922,
-        "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin Short Positions Build Ahead of Potential Fed Rate Cut",
+        "url": "https://decrypt.co/350881/bitcoin-short-positions-build-potential-fed-rate-cut",
+        "source": "Decrypt",
+        "weight": 0.7937,
+        "score": -0.6667
+      },
+      {
         "title": "High-Leveraged Crypto ETF Applications on Hold After SEC Warnings",
         "url": "https://decrypt.co/350860/high-leveraged-crypto-etfs-hold-sec-warnings",
         "source": "Decrypt",
-        "weight": 0.626,
+        "weight": 0.4681,
         "score": -1.0
       },
       {
         "title": "SEC Punts Controversial Short-Sale Disclosure Deadline Again",
         "url": "https://www.bloomberg.com/news/articles/2025-12-04/sec-punts-controversial-short-sale-disclosure-deadline-again",
         "source": "Bloomberg Markets",
-        "weight": 0.6385,
+        "weight": 0.4775,
         "score": -0.9667
-      },
-      {
-        "title": "Review & Preview: Gaming Out the Fed",
-        "url": "https://finance.yahoo.com/m/ff8428ff-db90-36a1-8fb7-a98ea48b50e5/review-%26-preview%3A-gaming-out.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6986,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5617674668513549,
-          "price_change_24h": -0.0032
+          "volume_mcap_ratio": 0.546085297726172,
+          "price_change_24h": -0.00335
         }
       ],
       "momentum_shifts": []
