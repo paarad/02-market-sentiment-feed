@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-03T20:32:15.846399+00:00",
+  "updated_at": "2025-12-04T02:05:23.071704+00:00",
   "indicators": {
-    "change24h": 0.052,
-    "vol": 0.176,
-    "fearGreed": 28,
-    "momentum": 0.915,
+    "change24h": 0.059,
+    "vol": 0.164,
+    "fearGreed": 26,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5933,
-    "global_sentiment": 0.4913,
-    "combined_sentiment": 0.5692,
-    "confidence": 0.8466,
+    "crypto_sentiment": 0.5569,
+    "global_sentiment": 0.4215,
+    "combined_sentiment": 0.5361,
+    "confidence": 0.8083,
     "counts": {
-      "crypto": 73,
-      "global": 41
+      "crypto": 78,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 93011,
-      "btc_change_24h": 2.19,
-      "eth_price": 3126.33,
-      "eth_change_24h": 4.59,
+      "btc_price": 93268,
+      "btc_change_24h": 0.41,
+      "eth_price": 3207.27,
+      "eth_change_24h": 5.45,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 28,
+        "value": 26,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 240834840510,
+        "volume_24h": 252689415665,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.89,
+        "btc_dominance": 56.61,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-20T08:35:52.623515+00:00",
-      "crypto": 0.4,
-      "global": 0.4989,
-      "combined": 0.4249,
-      "counts": {
-        "crypto": 64,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-20T12:53:50.407144+00:00",
       "crypto": 0.405,
@@ -1008,61 +998,71 @@
         "crypto": 73,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-04T02:05:23.071704+00:00",
+      "crypto": 0.5569,
+      "global": 0.4215,
+      "combined": 0.5361,
+      "counts": {
+        "crypto": 78,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Crypto M&A deals hit an all-time high in 2025, blowing past $8.6B",
+        "url": "https://cointelegraph.com/news/crypto-merger-acquisition-deals-8-6b-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4701,
+        "score": 0.8667
+      },
+      {
         "title": "Was the Bitcoin Jump a 'Fake Breakout'?",
         "url": "https://decrypt.co/350787/was-bitcoin-jump-fake-breakout",
         "source": "Decrypt",
-        "weight": 0.7448,
+        "weight": 0.3922,
         "score": 1.0
-      },
-      {
-        "title": "Crypto UP 7-10%, Bank of America recommends crypto, Kalshi raise $11B",
-        "url": "https://decrypt.co/videos/interviews/kLKB13oZ/crypto-up-7-10-bank-of-america-recommends-crypto-kalshi-raise-11b",
-        "source": "Decrypt",
-        "weight": 0.6753,
-        "score": 1.0
-      },
-      {
-        "title": "Filecoin Gains 2% Alongside Crypto Rally",
-        "url": "https://www.coindesk.com/markets/2025/12/03/filecoin-gains-2-alongside-crypto-rally",
-        "source": "CoinDesk",
-        "weight": 0.7162,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "SEC sends warning letters to ETF issuers targeting untamed leverage",
-        "url": "https://cointelegraph.com/news/sec-warning-letters-etf-untamed-leverage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6429,
+        "title": "High-Leveraged Crypto ETF Applications on Hold After SEC Warnings",
+        "url": "https://decrypt.co/350860/high-leveraged-crypto-etfs-hold-sec-warnings",
+        "source": "Decrypt",
+        "weight": 0.626,
         "score": -1.0
       },
       {
-        "title": "Medicare prescription drug costs may change in 2026 — what beneficiaries need to know",
-        "url": "https://www.cnbc.com/2025/12/03/medicare-prescription-drug-cost-changes.html",
-        "source": "CNBC Markets",
-        "weight": 0.6326,
-        "score": -0.9333
+        "title": "SEC Punts Controversial Short-Sale Disclosure Deadline Again",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-04/sec-punts-controversial-short-sale-disclosure-deadline-again",
+        "source": "Bloomberg Markets",
+        "weight": 0.6385,
+        "score": -0.9667
       },
       {
-        "title": "Anthropic AI agents can now shatter smart contract security for just $1.22, exposing a terrifying economic reality",
-        "url": "https://cryptoslate.com/anthropic-ai-smart-contract-exploits/",
-        "source": "CryptoSlate",
-        "weight": 0.5881,
-        "score": -1.0
+        "title": "Review & Preview: Gaming Out the Fed",
+        "url": "https://finance.yahoo.com/m/ff8428ff-db90-36a1-8fb7-a98ea48b50e5/review-%26-preview%3A-gaming-out.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6986,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5386376493761256,
-          "price_change_24h": -0.00303
+          "volume_mcap_ratio": 0.5617674668513549,
+          "price_change_24h": -0.0032
         }
       ],
       "momentum_shifts": []
