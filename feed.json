@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-04T08:37:37.153542+00:00",
+  "updated_at": "2025-12-04T12:58:50.248210+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.117,
+    "change24h": 0.015,
+    "vol": 0.102,
     "fearGreed": 26,
-    "momentum": 0.457,
+    "momentum": 0.258,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5447,
-    "global_sentiment": 0.5039,
-    "combined_sentiment": 0.5339,
-    "confidence": 0.7598,
+    "crypto_sentiment": 0.583,
+    "global_sentiment": 0.4916,
+    "combined_sentiment": 0.5615,
+    "confidence": 0.7664,
     "counts": {
-      "crypto": 77,
-      "global": 44
+      "crypto": 70,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 93254,
-      "btc_change_24h": 0.43,
-      "eth_price": 3184.04,
-      "eth_change_24h": 4.44,
+      "btc_price": 93044,
+      "btc_change_24h": 0.1,
+      "eth_price": 3177.91,
+      "eth_change_24h": 3.12,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 237764305295,
+        "volume_24h": 236996653860,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-20T19:53:50.605057+00:00",
-      "crypto": 0.4426,
-      "global": 0.5247,
-      "combined": 0.459,
-      "counts": {
-        "crypto": 75,
-        "global": 50
-      }
-    },
     {
       "ts": "2025-11-20T20:30:09.976761+00:00",
       "crypto": 0.4599,
@@ -1008,61 +998,71 @@
         "crypto": 77,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-12-04T12:58:50.248210+00:00",
+      "crypto": 0.583,
+      "global": 0.4916,
+      "combined": 0.5615,
+      "counts": {
+        "crypto": 70,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ADA, ETH, XRP Climb as Bitcoin Zooms Above $93K, But Traders Warn of ‘Fakeout Rally’",
-        "url": "https://www.coindesk.com/markets/2025/12/04/ada-eth-xrp-climb-as-bitcoin-zooms-above-usd93k-but-traders-warn-of-fakeout-rally",
+        "title": "XRP's price beginning to show promise above $2.15: Here’s why",
+        "url": "https://cointelegraph.com/news/xrp-price-shows-promise-2-15-dollars-heres-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8579,
+        "score": 1.0
+      },
+      {
+        "title": "Alphabet’s AI Chips Are a Potential $900 Billion ‘Secret Sauce’",
+        "url": "https://finance.yahoo.com/news/alphabet-ai-chips-potential-900-104818985.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6222,
+        "score": 1.0
+      },
+      {
+        "title": "Bitcoin-Focused Firm Twenty One Sees Public NYSE Listing on Dec. 9",
+        "url": "https://www.coindesk.com/business/2025/12/04/bitcoin-focused-firm-twenty-one-sees-public-nyse-listing-on-dec-9",
         "source": "CoinDesk",
-        "weight": 0.9082,
-        "score": 0.8667
-      },
-      {
-        "title": "South African Stocks Set to Ride Broad EM Rally, Momentum Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-04/south-african-stocks-set-to-ride-broad-em-rally-momentum-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.5906,
-        "score": 0.8667
-      },
-      {
-        "title": "Europe’s Biotech Standout Faces Crucial Year After 1,300% Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-04/europe-s-biotech-standout-faces-crucial-year-after-1-300-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.5262,
-        "score": 0.8667
+        "weight": 0.8238,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "India Court Allows Dr. Reddy’s to Export Generics of Novo Nordisk’s Semaglutide Drug",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-04/india-court-allows-dr-reddy-s-to-export-generics-of-novo-nordisk-s-semaglutide",
-        "source": "Bloomberg Markets",
-        "weight": 0.7383,
+        "title": "Mereo BioPharma Group And 2 Undervalued Penny Stocks To Watch",
+        "url": "https://finance.yahoo.com/news/mereo-biopharma-group-2-undervalued-120530416.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7219,
         "score": -0.9333
       },
       {
-        "title": "Franklin Templeton Sees 6% UK Yields, Warns of Budget Reckoning",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-04/franklin-templeton-sees-6-uk-yields-warns-of-budget-reckoning",
+        "title": "Indian Sugar Exporters Seek Stronger World Prices to Spur Sales",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-04/indian-sugar-exporters-seek-stronger-world-prices-to-spur-sales",
         "source": "Bloomberg Markets",
-        "weight": 0.6629,
-        "score": -0.9333
+        "weight": 0.6517,
+        "score": -1.0
       },
       {
-        "title": "Fear & Greed 26 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "US Stock Market Today: S&P 500 Futures Dip Amid Cooling Jobs, Resilient Services Signals",
+        "url": "https://finance.yahoo.com/news/us-stock-market-today-p-101111520.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5793,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5236859635940998,
-          "price_change_24h": 0.00166
+          "volume_mcap_ratio": 0.5098364683816499,
+          "price_change_24h": -0.02763
         }
       ],
       "momentum_shifts": []
