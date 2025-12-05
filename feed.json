@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-05T02:05:44.188169+00:00",
+  "updated_at": "2025-12-05T04:35:53.289550+00:00",
   "indicators": {
-    "change24h": -0.032,
+    "change24h": -0.034,
     "vol": 0.112,
     "fearGreed": 28,
-    "momentum": -0.557,
+    "momentum": -0.594,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5022,
-    "global_sentiment": 0.4599,
-    "combined_sentiment": 0.4983,
-    "confidence": 0.7576,
+    "crypto_sentiment": 0.4737,
+    "global_sentiment": 0.5664,
+    "combined_sentiment": 0.4858,
+    "confidence": 0.7544,
     "counts": {
-      "crypto": 64,
-      "global": 31
+      "crypto": 66,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 92313,
-      "btc_change_24h": -0.95,
-      "eth_price": 3159.37,
-      "eth_change_24h": -1.38,
+      "btc_price": 92041,
+      "btc_change_24h": -1.52,
+      "eth_price": 3162.38,
+      "eth_change_24h": -1.39,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.05,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 197884925609,
+        "volume_24h": 178848247942,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.72,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-21T12:53:04.429283+00:00",
-      "crypto": 0.3071,
-      "global": 0.4052,
-      "combined": 0.3474,
-      "counts": {
-        "crypto": 78,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-11-21T16:31:49.479508+00:00",
       "crypto": 0.3134,
@@ -1008,46 +998,56 @@
         "crypto": 64,
         "global": 31
       }
+    },
+    {
+      "ts": "2025-12-05T04:35:53.289550+00:00",
+      "crypto": 0.4737,
+      "global": 0.5664,
+      "combined": 0.4858,
+      "counts": {
+        "crypto": 66,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Silver Extends Retreat from Record High as Traders Book Profits",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-04/silver-steady-after-profit-taking-brings-end-to-eight-day-rally",
+        "title": "'China's Nvidia' Moore Threads surges over 400% on trading debut after $1.1 billion listing",
+        "url": "https://www.cnbc.com/2025/12/05/china-nvidia-moore-threads-trading-debut-1-billion-listing-ipo-shanghai-gpu-enflame-biren.html",
+        "source": "CNBC Markets",
+        "weight": 0.7288,
+        "score": 0.9667
+      },
+      {
+        "title": "Copper Rises to Record on Bullish Citi Outlook, Supply Concerns",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-05/copper-rises-to-record-on-bullish-citi-outlook-supply-concerns",
         "source": "Bloomberg Markets",
-        "weight": 0.611,
+        "weight": 0.7037,
         "score": 0.8667
       },
       {
-        "title": "Costco adds Biden Commerce Sec. Gina Raimondo to board on heels of Trump tariff lawsuit",
-        "url": "https://www.cnbc.com/2025/12/04/costco-board-gina-raimondo-biden-commerce-trump-tariffs.html",
-        "source": "CNBC Markets",
-        "weight": 0.5576,
-        "score": 0.5333
-      },
-      {
-        "title": "Ether outpaces Bitcoin’s trend change: Is ETH on track for a 20% rally?",
-        "url": "https://cointelegraph.com/news/ether-outpaces-btc-is-a-20percent-eth-rally-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5369,
-        "score": 0.5333
+        "title": "China’s $1.3 Trillion Stock Rally Risks Underperforming US Peers",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-05/china-s-1-3-trillion-stock-rally-risks-underperforming-us-peers",
+        "source": "Bloomberg Markets",
+        "weight": 0.5956,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Why Methode Electronics Stock Plunged Today",
-        "url": "https://www.fool.com/investing/2025/12/04/why-methode-electronics-stock-plunged-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5523,
-        "score": -0.9667
+        "title": "Philippines Eyes Easing IPO Float Rules to Lure Firms Like GCash",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-05/philippines-eyes-easing-ipo-float-rules-to-lure-firms-like-gcash",
+        "source": "Bloomberg Markets",
+        "weight": 0.6958,
+        "score": -0.6333
       },
       {
-        "title": "CNBC's Inside India newsletter: How a government app in India triggered a backlash over internet freedom",
-        "url": "https://www.cnbc.com/2025/12/04/cnbc-inside-india-newsletter-how-a-state-run-app-sparked-a-fresh-fight-over-digital-overreach.html",
-        "source": "CNBC Markets",
-        "weight": 0.795,
-        "score": -0.6333
+        "title": "SOL price capped at $140 as altcoin ETF rivals reshape crypto demand",
+        "url": "https://cointelegraph.com/news/sol-price-capped-at-140-as-altcoin-etf-rivals-reshape-crypto-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7307,
+        "score": -0.6
       },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4330086303388213,
-          "price_change_24h": -0.00181
+          "volume_mcap_ratio": 0.4267071501488348,
+          "price_change_24h": 0.00045
         }
       ],
       "momentum_shifts": []
