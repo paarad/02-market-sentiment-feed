@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-05T16:35:11.903240+00:00",
+  "updated_at": "2025-12-05T19:57:31.907249+00:00",
   "indicators": {
-    "change24h": -0.061,
-    "vol": 0.188,
+    "change24h": -0.041,
+    "vol": 0.157,
     "fearGreed": 28,
-    "momentum": -1.0,
+    "momentum": -0.718,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3171,
-    "global_sentiment": 0.395,
-    "combined_sentiment": 0.3541,
-    "confidence": 0.8295,
+    "crypto_sentiment": 0.3126,
+    "global_sentiment": 0.4535,
+    "combined_sentiment": 0.3556,
+    "confidence": 0.8128,
     "counts": {
       "crypto": 74,
-      "global": 41
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 88893,
-      "btc_change_24h": -4.22,
-      "eth_price": 3051.77,
-      "eth_change_24h": -4.55,
+      "btc_price": 89707,
+      "btc_change_24h": -2.51,
+      "eth_price": 3037.71,
+      "eth_change_24h": -2.76,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.3,
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 183819199341,
+        "volume_24h": 189765440676,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.4,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-22T01:56:28.792256+00:00",
-      "crypto": 0.3677,
-      "global": 0.4594,
-      "combined": 0.3974,
-      "counts": {
-        "crypto": 75,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-22T04:28:59.405873+00:00",
       "crypto": 0.3804,
@@ -1008,61 +998,71 @@
         "crypto": 74,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-05T19:57:31.907249+00:00",
+      "crypto": 0.3126,
+      "global": 0.4535,
+      "combined": 0.3556,
+      "counts": {
+        "crypto": 74,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "HPE Stock Drops. Earnings Show AI Isn’t Paying Off Yet.",
-        "url": "https://finance.yahoo.com/m/44b3e61a-6cea-367f-972b-ecf0dc678767/hpe-stock-drops.-earnings.html?.tsrc=rss",
+        "title": "David Ellison's hunt for WBD made David Zaslav richer — and it may not be over",
+        "url": "https://www.cnbc.com/2025/12/05/paramount-david-ellison-wbd-bidding-war-hostile-bid.html",
+        "source": "CNBC Markets",
+        "weight": 0.7593,
+        "score": 0.9167
+      },
+      {
+        "title": "This Beauty Retailer's Stock Is Leading the S&P 500 Higher Friday. Here's Why",
+        "url": "https://www.investopedia.com/ulta-beauty-new-strategy-space-nk-acquisition-drive-strong-results-11862758?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7548,
+        "weight": 0.5982,
+        "score": 0.8667
+      },
+      {
+        "title": "Smith & Wesson stock skyrockets, Stitch Fix gives upbeat outlook",
+        "url": "https://finance.yahoo.com/video/smith-wesson-stock-skyrockets-stitch-192135430.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7465,
         "score": 0.6667
-      },
-      {
-        "title": "3 Financials Stocks Worth Your Attention",
-        "url": "https://finance.yahoo.com/news/3-financials-stocks-worth-attention-152312578.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6964,
-        "score": 0.5
-      },
-      {
-        "title": "Bitcoin accumulation trends strengthen as realized losses near $5.8B",
-        "url": "https://cointelegraph.com/news/bitcoin-accumulation-trends-strengthen-realized-losses-5-7b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5796,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "2-4% Crypto Dip! Sovereign Wealth Funds Buying BTC! CTFC approves U.S. Spot Crypto!",
-        "url": "https://decrypt.co/videos/interviews/tUN6hCk7/2-4-crypto-dip-sovereign-wealth-funds-buying-btc-ctfc-approves-us-spot-crypto",
-        "source": "Decrypt",
-        "weight": 0.9448,
-        "score": -0.9667
+        "title": "Polymarket Is Struggling With a $59 Million Bet About Itself",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-05/polymarket-is-struggling-with-a-59-million-bet-about-itself",
+        "source": "Bloomberg Markets",
+        "weight": 0.6838,
+        "score": -0.9333
       },
       {
-        "title": "Polish lawmakers fail to revive controversial crypto bill after presidential veto",
-        "url": "https://cointelegraph.com/news/polish-lawmakers-fail-crypto-bill-presidential-veto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7893,
-        "score": -0.9667
-      },
-      {
-        "title": "US prosecutors request 12 years in prison for Terraform’s Do Kwon",
-        "url": "https://cointelegraph.com/news/terraform-do-kwon-sentencing-recommendation-twelve-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7241,
+        "title": "PCE Report Says Inflation Isn’t a Problem. The Bond Market Disagrees.",
+        "url": "https://finance.yahoo.com/m/a23bda70-1403-3ddf-be11-e2b5c7e51027/pce-report-says-inflation.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6319,
         "score": -1.0
+      },
+      {
+        "title": "Santander Settles French Laundering Case for €22.5 Million",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-05/santander-settles-french-money-laundering-case-for-22-5-million",
+        "source": "Bloomberg Markets",
+        "weight": 0.653,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4417542071293079,
-          "price_change_24h": 0.01066
+          "volume_mcap_ratio": 0.450005669215778,
+          "price_change_24h": 0.00767
         }
       ],
       "momentum_shifts": []
