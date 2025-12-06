@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-06T16:30:48.179779+00:00",
+  "updated_at": "2025-12-06T19:53:42.575326+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.06,
+    "change24h": 0.003,
+    "vol": 0.069,
     "fearGreed": 23,
-    "momentum": 0.029,
+    "momentum": 0.045,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5409,
-    "global_sentiment": 0.4568,
-    "combined_sentiment": 0.5271,
-    "confidence": 0.7026,
+    "crypto_sentiment": 0.4526,
+    "global_sentiment": 0.5036,
+    "combined_sentiment": 0.4648,
+    "confidence": 0.6967,
     "counts": {
-      "crypto": 71,
-      "global": 41
+      "crypto": 73,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 89894,
-      "btc_change_24h": 0.84,
-      "eth_price": 3053.72,
-      "eth_change_24h": -0.45,
+      "btc_price": 89451,
+      "btc_change_24h": -0.02,
+      "eth_price": 3030.0,
+      "eth_change_24h": -0.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 132406323637,
-        "high_activity_coins": 1
+        "volume_24h": 104487706430,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.65,
+        "btc_dominance": 56.63,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-23T02:21:22.229690+00:00",
-      "crypto": 0.3998,
-      "global": 0.4447,
-      "combined": 0.4202,
-      "counts": {
-        "crypto": 66,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-23T04:36:40.307564+00:00",
       "crypto": 0.4074,
@@ -1008,67 +998,97 @@
         "crypto": 71,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-06T19:53:42.575326+00:00",
+      "crypto": 0.4526,
+      "global": 0.5036,
+      "combined": 0.4648,
+      "counts": {
+        "crypto": 73,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Dow Jones Futures: Market Rally Nears Highs As AI Giants, Fed Loom; Tesla In Buy Area",
+        "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7206,
+        "score": 0.5333
+      },
+      {
         "title": "Why CFTC-approved spot Bitcoin, Ethereum trading is a 'massively huge deal'",
         "url": "https://cointelegraph.com/news/why-cftc-approved-spot-crypto-trading-is-big-deal-for-bitcoin-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7009,
+        "weight": 0.4743,
         "score": 0.5833
       },
       {
-        "title": "LUNC Surges Over 160% in a Week as Do Kwon Sentencing and Token Burns Draw Traders",
-        "url": "https://www.coindesk.com/markets/2025/12/06/lunc-surges-over-160-in-a-week-as-do-kwon-sentencing-and-token-burns-draw-traders",
-        "source": "CoinDesk",
-        "weight": 0.6665,
-        "score": 0.5333
-      },
-      {
-        "title": "Dow Jones Futures: Market Rally Ideal For ABC Investing; AI Giants, Fed Loom With Tesla In Buy Zone",
-        "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "title": "Salesforce Is One of the Dogs of the Dow. Should You Buy the Dip in CRM Stock Now?",
+        "url": "https://www.barchart.com/story/news/36491397/salesforce-is-one-of-the-dogs-of-the-dow-should-you-buy-the-dip-in-crm-stock-now?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6063,
-        "score": 0.5333
+        "weight": 0.4049,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Zcash and privacy protocols face a “do-or-die” SEC meeting that determines if developers are personally liable for code",
-        "url": "https://cryptoslate.com/sec-drops-dec-15-roundtable-on-crypto-privacy-why-the-timing-matters/",
-        "source": "CryptoSlate",
-        "weight": 0.589,
+        "title": "‘European SEC’ proposal sparks licensing concerns, institutional ambitions",
+        "url": "https://cointelegraph.com/news/european-sec-proposal-licensing-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.62,
         "score": -0.9667
       },
       {
-        "title": "AI Plays Lead Five Stocks To Watch Near Buy Points",
-        "url": "https://finance.yahoo.com/m/aff09fbd-89f3-3cfb-a886-11e6a51ccc41/ai-plays-lead-five-stocks-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5334,
-        "score": -1.0
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Miami's Housing Shortage Hits Affordability: Codina",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-06/miami-s-housing-shortage-hits-affordability-codina-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7424,
-        "score": -0.6667
+        "title": "Citadel pushes SEC to classify open-source developers as unregistered stockbrokers – Uniswap fires back",
+        "url": "https://cryptoslate.com/citadel-pushes-sec-to-classify-open-source-developers-as-unregistered-stockbrokers-uniswap-fires-back/",
+        "source": "CryptoSlate",
+        "weight": 0.6384,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.31883085196616523,
-          "price_change_24h": -0.01891
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-06",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4023,
+      "crypto_high": 0.5409,
+      "crypto_low": 0.3286,
+      "global_avg": 0.4482,
+      "global_high": 0.5036,
+      "global_low": 0.3743,
+      "combined_avg": 0.4224,
+      "combined_high": 0.5271,
+      "combined_low": 0.3682
+    },
+    "market_indicators_24h": {
+      "change24h": 0.003,
+      "vol": 0.069,
+      "fearGreed": 23,
+      "momentum": 0.045,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-06T19:53:42.575326+00:00"
   }
 }
