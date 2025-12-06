@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-06T12:51:02.860129+00:00",
+  "updated_at": "2025-12-06T16:30:48.179779+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.107,
+    "change24h": 0.002,
+    "vol": 0.06,
     "fearGreed": 23,
-    "momentum": -0.491,
-    "regime": "bear",
+    "momentum": 0.029,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4091,
-    "global_sentiment": 0.4837,
-    "combined_sentiment": 0.4304,
-    "confidence": 0.6508,
+    "crypto_sentiment": 0.5409,
+    "global_sentiment": 0.4568,
+    "combined_sentiment": 0.5271,
+    "confidence": 0.7026,
     "counts": {
-      "crypto": 70,
-      "global": 40
+      "crypto": 71,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 89620,
-      "btc_change_24h": -1.76,
-      "eth_price": 3032.09,
-      "eth_change_24h": -3.12,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 89894,
+      "btc_change_24h": 0.84,
+      "eth_price": 3053.72,
+      "eth_change_24h": -0.45,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165579045604,
+        "volume_24h": 132406323637,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.66,
+        "btc_dominance": 56.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-22T20:27:09.785220+00:00",
-      "crypto": 0.3654,
-      "global": 0.3757,
-      "combined": 0.3887,
-      "counts": {
-        "crypto": 68,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-11-23T02:21:22.229690+00:00",
       "crypto": 0.3998,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-06T16:30:48.179779+00:00",
+      "crypto": 0.5409,
+      "global": 0.4568,
+      "combined": 0.5271,
+      "counts": {
+        "crypto": 71,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Is Base’s Solana bridge a ‘vampire attack’ on SOL liquidity or multichain pragmatism?",
-        "url": "https://cryptoslate.com/is-bases-solana-bridge-a-vampire-attack-on-sol-liquidity-or-multichain-pragmatism/",
-        "source": "CryptoSlate",
-        "weight": 0.6857,
-        "score": 0.6667
-      },
-      {
-        "title": "Brokerage behind major crypto treasury deals eyes $10–12B public listing: FT",
-        "url": "https://cointelegraph.com/news/clear-street-prepares-10b-ipo-as-crypto-treasury-boom-falters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Why CFTC-approved spot Bitcoin, Ethereum trading is a 'massively huge deal'",
+        "url": "https://cointelegraph.com/news/why-cftc-approved-spot-crypto-trading-is-big-deal-for-bitcoin-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5485,
-        "score": 0.6333
+        "weight": 0.7009,
+        "score": 0.5833
       },
       {
-        "title": "Qatar Says AI Demand, Underinvestment May Drive LNG Shortage",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-06/qatar-says-ai-demand-underinvestment-may-drive-lng-shortage",
-        "source": "Bloomberg Markets",
-        "weight": 0.6258,
+        "title": "LUNC Surges Over 160% in a Week as Do Kwon Sentencing and Token Burns Draw Traders",
+        "url": "https://www.coindesk.com/markets/2025/12/06/lunc-surges-over-160-in-a-week-as-do-kwon-sentencing-and-token-burns-draw-traders",
+        "source": "CoinDesk",
+        "weight": 0.6665,
+        "score": 0.5333
+      },
+      {
+        "title": "Dow Jones Futures: Market Rally Ideal For ABC Investing; AI Giants, Fed Loom With Tesla In Buy Zone",
+        "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6063,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Zcash and privacy protocols face a “do-or-die” SEC meeting that determines if developers are personally liable for code",
+        "url": "https://cryptoslate.com/sec-drops-dec-15-roundtable-on-crypto-privacy-why-the-timing-matters/",
+        "source": "CryptoSlate",
+        "weight": 0.589,
+        "score": -0.9667
       },
       {
-        "title": "ECB’s Rehn Tells Milano Finanza Inflation Is More Likely to Ease",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-06/ecb-s-rehn-tells-milano-finanza-inflation-is-more-likely-to-ease",
+        "title": "AI Plays Lead Five Stocks To Watch Near Buy Points",
+        "url": "https://finance.yahoo.com/m/aff09fbd-89f3-3cfb-a886-11e6a51ccc41/ai-plays-lead-five-stocks-to.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5334,
+        "score": -1.0
+      },
+      {
+        "title": "Miami's Housing Shortage Hits Affordability: Codina",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-06/miami-s-housing-shortage-hits-affordability-codina-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5372,
+        "weight": 0.7424,
         "score": -0.6667
-      },
-      {
-        "title": "Global crypto market cap down -1.7% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3973274785933835,
-          "price_change_24h": 0.01232
+          "volume_mcap_ratio": 0.31883085196616523,
+          "price_change_24h": -0.01891
         }
       ],
       "momentum_shifts": []
