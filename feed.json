@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-05T20:31:00.899595+00:00",
+  "updated_at": "2025-12-06T01:58:51.381786+00:00",
   "indicators": {
-    "change24h": -0.039,
-    "vol": 0.153,
-    "fearGreed": 28,
-    "momentum": -0.687,
+    "change24h": -0.053,
+    "vol": 0.151,
+    "fearGreed": 23,
+    "momentum": -0.923,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3116,
-    "global_sentiment": 0.5036,
-    "combined_sentiment": 0.359,
-    "confidence": 0.8112,
+    "crypto_sentiment": 0.3448,
+    "global_sentiment": 0.3743,
+    "combined_sentiment": 0.3731,
+    "confidence": 0.756,
     "counts": {
-      "crypto": 75,
-      "global": 39
+      "crypto": 73,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 89565,
-      "btc_change_24h": -2.68,
-      "eth_price": 3042.12,
-      "eth_change_24h": -2.55,
+      "btc_price": 89291,
+      "btc_change_24h": -3.34,
+      "eth_price": 3026.76,
+      "eth_change_24h": -4.37,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 28,
-        "classification": "Fear",
+        "value": 23,
+        "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190064858802,
+        "volume_24h": 192746611219,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.65,
+        "btc_dominance": 56.6,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-22T08:31:36.436420+00:00",
-      "crypto": 0.4141,
-      "global": 0.5145,
-      "combined": 0.4368,
-      "counts": {
-        "crypto": 75,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-22T12:47:08.032692+00:00",
       "crypto": 0.4296,
@@ -1008,61 +998,71 @@
         "crypto": 75,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-12-06T01:58:51.381786+00:00",
+      "crypto": 0.3448,
+      "global": 0.3743,
+      "combined": 0.3731,
+      "counts": {
+        "crypto": 73,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Millennium, Jane Street Show HK’s Lure for Key IPO Investors",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-06/millennium-jane-street-show-hk-s-lure-for-key-ipo-investors",
+        "source": "Bloomberg Markets",
+        "weight": 0.6364,
+        "score": 0.6333
+      },
+      {
         "title": "David Ellison's hunt for WBD made David Zaslav richer — and it may not be over",
         "url": "https://www.cnbc.com/2025/12/05/paramount-david-ellison-wbd-bidding-war-hostile-bid.html",
         "source": "CNBC Markets",
-        "weight": 0.7119,
+        "weight": 0.3787,
         "score": 0.9167
       },
       {
-        "title": "This Beauty Retailer's Stock Is Leading the S&P 500 Higher Friday. Here's Why",
-        "url": "https://www.investopedia.com/ulta-beauty-new-strategy-space-nk-acquisition-drive-strong-results-11862758?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5609,
-        "score": 0.8667
-      },
-      {
-        "title": "Smith & Wesson stock skyrockets, Stitch Fix gives upbeat outlook",
-        "url": "https://finance.yahoo.com/video/smith-wesson-stock-skyrockets-stitch-192135430.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6999,
+        "title": "Crypto Biz: Mining weakness tests Bitcoin’s market cycle",
+        "url": "https://cointelegraph.com/news/crypto-biz-mining-weakness-tests-bitcoin-s-current-market-cycle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.45,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Polymarket Is Struggling With a $59 Million Bet About Itself",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-05/polymarket-is-struggling-with-a-59-million-bet-about-itself",
+        "title": "Private Market FOMO Over AI Will Lead to Mistakes, Bravo Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-06/private-market-fomo-over-ai-will-lead-to-mistakes-bravo-says",
         "source": "Bloomberg Markets",
-        "weight": 0.6411,
-        "score": -0.9333
-      },
-      {
-        "title": "PCE Report Says Inflation Isn’t a Problem. The Bond Market Disagrees.",
-        "url": "https://finance.yahoo.com/m/a23bda70-1403-3ddf-be11-e2b5c7e51027/pce-report-says-inflation.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5924,
+        "weight": 0.7441,
         "score": -1.0
       },
       {
-        "title": "Santander Settles French Laundering Case for €22.5 Million",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-05/santander-settles-french-money-laundering-case-for-22-5-million",
+        "title": "Why New Fortress Energy Soared 12.1% Today",
+        "url": "https://www.fool.com/investing/2025/12/05/why-new-fortress-energy-soared-121-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.754,
+        "score": -0.6333
+      },
+      {
+        "title": "Netflix Buys Warner Bros, 2026 Year of Banks, World Cup Draw | Bloomberg Markets 12/5/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-05/bloomberg-markets-12-5-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6122,
-        "score": -0.9667
+        "weight": 0.471,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.450466639690749,
-          "price_change_24h": 0.00765
+          "volume_mcap_ratio": 0.45288464696576,
+          "price_change_24h": -0.00043
         }
       ],
       "momentum_shifts": []
