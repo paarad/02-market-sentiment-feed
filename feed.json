@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-06T04:30:02.004736+00:00",
+  "updated_at": "2025-12-06T08:32:48.537557+00:00",
   "indicators": {
-    "change24h": -0.049,
-    "vol": 0.149,
+    "change24h": -0.052,
+    "vol": 0.146,
     "fearGreed": 23,
-    "momentum": -0.852,
+    "momentum": -0.912,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3381,
-    "global_sentiment": 0.4096,
-    "combined_sentiment": 0.371,
-    "confidence": 0.7142,
+    "crypto_sentiment": 0.3286,
+    "global_sentiment": 0.4614,
+    "combined_sentiment": 0.3682,
+    "confidence": 0.6454,
     "counts": {
-      "crypto": 71,
-      "global": 37
+      "crypto": 69,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 89643,
-      "btc_change_24h": -2.82,
-      "eth_price": 3034.36,
-      "eth_change_24h": -4.31,
+      "btc_price": 89324,
+      "btc_change_24h": -2.98,
+      "eth_price": 3016.78,
+      "eth_change_24h": -4.51,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.2,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 193721703633,
+        "volume_24h": 179943225925,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.66,
+        "btc_dominance": 56.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-22T16:30:00.975628+00:00",
-      "crypto": 0.3283,
-      "global": 0.4769,
-      "combined": 0.3693,
-      "counts": {
-        "crypto": 69,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-11-22T19:53:28.575033+00:00",
       "crypto": 0.3666,
@@ -1008,40 +998,43 @@
         "crypto": 71,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-06T08:32:48.537557+00:00",
+      "crypto": 0.3286,
+      "global": 0.4614,
+      "combined": 0.3682,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Indian Finance Minister Sees Continued Economic Growth Momentum",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-06/indian-finance-minister-sees-continued-economic-growth-momentum",
+        "source": "Bloomberg Markets",
+        "weight": 0.7111,
+        "score": 0.3333
+      },
+      {
+        "title": "Jim Cramer on Loews Corporation: “Good Opportunity Here”",
+        "url": "https://finance.yahoo.com/news/jim-cramer-loews-corporation-good-053421129.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5674,
+        "score": 0.3333
+      },
+      {
         "title": "Millennium, Jane Street Show HK’s Lure for Key IPO Investors",
         "url": "https://www.bloomberg.com/news/articles/2025-12-06/millennium-jane-street-show-hk-s-lure-for-key-ipo-investors",
         "source": "Bloomberg Markets",
-        "weight": 0.4757,
+        "weight": 0.298,
         "score": 0.6333
-      },
-      {
-        "title": "David Ellison's hunt for WBD made David Zaslav richer — and it may not be over",
-        "url": "https://www.cnbc.com/2025/12/05/paramount-david-ellison-wbd-bidding-war-hostile-bid.html",
-        "source": "CNBC Markets",
-        "weight": 0.283,
-        "score": 0.9167
-      },
-      {
-        "title": "Japan’s Bear-Related Casualties Hit Record on Escalating Attacks",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-06/japan-s-bear-related-casualties-hit-record-on-escalating-attacks",
-        "source": "Bloomberg Markets",
-        "weight": 0.6902,
-        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Private Market FOMO Over AI Will Lead to Mistakes, Bravo Says",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-06/private-market-fomo-over-ai-will-lead-to-mistakes-bravo-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.5562,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,19 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "Why New Fortress Energy Soared 12.1% Today",
-        "url": "https://www.fool.com/investing/2025/12/05/why-new-fortress-energy-soared-121-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5636,
-        "score": -0.6333
+        "title": "Private Market FOMO Over AI Will Lead to Mistakes, Bravo Says",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-06/private-market-fomo-over-ai-will-lead-to-mistakes-bravo-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.3485,
+        "score": -1.0
+      },
+      {
+        "title": "Global crypto market cap down -2.9% — selloff",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4469749777866973,
-          "price_change_24h": -0.00118
+          "volume_mcap_ratio": 0.4302672543373366,
+          "price_change_24h": 4e-05
         }
       ],
       "momentum_shifts": []
