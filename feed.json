@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-06T19:53:42.575326+00:00",
+  "updated_at": "2025-12-06T20:27:59.183714+00:00",
   "indicators": {
-    "change24h": 0.003,
+    "change24h": 0.004,
     "vol": 0.069,
     "fearGreed": 23,
-    "momentum": 0.045,
+    "momentum": 0.072,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4526,
-    "global_sentiment": 0.5036,
-    "combined_sentiment": 0.4648,
-    "confidence": 0.6967,
+    "crypto_sentiment": 0.438,
+    "global_sentiment": 0.5515,
+    "combined_sentiment": 0.4578,
+    "confidence": 0.7019,
     "counts": {
-      "crypto": 73,
-      "global": 43
+      "crypto": 74,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 89451,
-      "btc_change_24h": -0.02,
-      "eth_price": 3030.0,
-      "eth_change_24h": -0.06,
+      "btc_price": 89448,
+      "btc_change_24h": -0.18,
+      "eth_price": 3038.84,
+      "eth_change_24h": -0.22,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 104487706430,
+        "volume_24h": 100838595855,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.63,
+        "btc_dominance": 56.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-23T04:36:40.307564+00:00",
-      "crypto": 0.4074,
-      "global": 0.437,
-      "combined": 0.4253,
-      "counts": {
-        "crypto": 66,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-23T08:31:53.775750+00:00",
       "crypto": 0.4038,
@@ -1008,30 +998,40 @@
         "crypto": 73,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-06T20:27:59.183714+00:00",
+      "crypto": 0.438,
+      "global": 0.5515,
+      "combined": 0.4578,
+      "counts": {
+        "crypto": 74,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Carvana (CVNA): Assessing Valuation After S&P 500 Inclusion and Record Earnings Turnaround",
+        "url": "https://finance.yahoo.com/news/carvana-cvna-assessing-valuation-p-200828783.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7705,
+        "score": 1.0
+      },
+      {
         "title": "Dow Jones Futures: Market Rally Nears Highs As AI Giants, Fed Loom; Tesla In Buy Area",
         "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7206,
+        "weight": 0.6746,
         "score": 0.5333
       },
       {
         "title": "Why CFTC-approved spot Bitcoin, Ethereum trading is a 'massively huge deal'",
         "url": "https://cointelegraph.com/news/why-cftc-approved-spot-crypto-trading-is-big-deal-for-bitcoin-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4743,
+        "weight": 0.444,
         "score": 0.5833
-      },
-      {
-        "title": "Salesforce Is One of the Dogs of the Dow. Should You Buy the Dip in CRM Stock Now?",
-        "url": "https://www.barchart.com/story/news/36491397/salesforce-is-one-of-the-dogs-of-the-dow-should-you-buy-the-dip-in-crm-stock-now?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4049,
-        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,7 +1039,7 @@
         "title": "‘European SEC’ proposal sparks licensing concerns, institutional ambitions",
         "url": "https://cointelegraph.com/news/european-sec-proposal-licensing-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.62,
+        "weight": 0.5804,
         "score": -0.9667
       },
       {
@@ -1053,7 +1053,7 @@
         "title": "Citadel pushes SEC to classify open-source developers as unregistered stockbrokers – Uniswap fires back",
         "url": "https://cryptoslate.com/citadel-pushes-sec-to-classify-open-source-developers-as-unregistered-stockbrokers-uniswap-fires-back/",
         "source": "CryptoSlate",
-        "weight": 0.6384,
+        "weight": 0.5976,
         "score": -0.6333
       }
     ],
@@ -1064,31 +1064,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-06",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4023,
-      "crypto_high": 0.5409,
-      "crypto_low": 0.3286,
-      "global_avg": 0.4482,
-      "global_high": 0.5036,
-      "global_low": 0.3743,
-      "combined_avg": 0.4224,
-      "combined_high": 0.5271,
-      "combined_low": 0.3682
-    },
-    "market_indicators_24h": {
-      "change24h": 0.003,
-      "vol": 0.069,
-      "fearGreed": 23,
-      "momentum": 0.045,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-06T19:53:42.575326+00:00"
   }
 }
