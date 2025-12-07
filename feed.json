@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-07T04:36:19.726208+00:00",
+  "updated_at": "2025-12-07T08:31:47.462710+00:00",
   "indicators": {
     "change24h": 0.009,
-    "vol": 0.052,
+    "vol": 0.062,
     "fearGreed": 20,
-    "momentum": 0.154,
+    "momentum": 0.15,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4347,
-    "global_sentiment": 0.5366,
-    "combined_sentiment": 0.4541,
-    "confidence": 0.5925,
+    "crypto_sentiment": 0.3263,
+    "global_sentiment": 0.5287,
+    "combined_sentiment": 0.3721,
+    "confidence": 0.5982,
     "counts": {
       "crypto": 74,
       "global": 43
     },
     "market_indicators": {
-      "btc_price": 89573,
-      "btc_change_24h": -0.09,
-      "eth_price": 3048.33,
-      "eth_change_24h": 0.44,
+      "btc_price": 89360,
+      "btc_change_24h": -0.0,
+      "eth_price": 3035.04,
+      "eth_change_24h": 0.54,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.6,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 88595800918,
+        "volume_24h": 85787474274,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-23T16:29:44.042475+00:00",
-      "crypto": 0.422,
-      "global": 0.4002,
-      "combined": 0.4332,
-      "counts": {
-        "crypto": 65,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-11-23T19:53:29.336076+00:00",
       "crypto": 0.4623,
@@ -1008,6 +998,16 @@
         "crypto": 74,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-07T08:31:47.462710+00:00",
+      "crypto": 0.3263,
+      "global": 0.5287,
+      "combined": 0.3721,
+      "counts": {
+        "crypto": 74,
+        "global": 43
+      }
     }
   ],
   "drivers": {
@@ -1016,30 +1016,37 @@
         "title": "David Ellison's hunt for WBD made David Zaslav richer — and it may not be over",
         "url": "https://www.cnbc.com/2025/12/05/paramount-david-ellison-wbd-bidding-war-hostile-bid.html",
         "source": "CNBC Markets",
-        "weight": 0.7306,
+        "weight": 0.4643,
         "score": 0.9167
+      },
+      {
+        "title": "Qatar Airways Names New CEO as Al Meer Exits After Two Years",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-07/qatar-airways-names-new-ceo-as-al-meer-departs-after-two-years",
+        "source": "Bloomberg Markets",
+        "weight": 0.7192,
+        "score": 0.3333
       },
       {
         "title": "Carvana (CVNA): Assessing Valuation After S&P 500 Inclusion and Record Earnings Turnaround",
         "url": "https://finance.yahoo.com/news/carvana-cvna-assessing-valuation-p-200828783.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3009,
+        "weight": 0.1912,
         "score": 1.0
-      },
-      {
-        "title": "Bitcoin buries the tulip myth after 17 years of proven resilience: Balchunas",
-        "url": "https://cointelegraph.com/news/bitcoin-buries-the-tulip-myth-after-17-years-of-proven-resilience-balchunas?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7821,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "South Korea to impose bank-level liability on crypto exchanges after Upbit hack: Report",
+        "url": "https://cointelegraph.com/news/south-korea-upbit-hack-crypto-exchanges-bank-liability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6799,
+        "score": -1.0
+      },
+      {
         "title": "Eli Lilly, Pfizer Land on China’s First Private Insurance List",
         "url": "https://www.bloomberg.com/news/articles/2025-12-07/eli-lilly-pfizer-land-on-china-s-first-private-insurance-list",
         "source": "Bloomberg Markets",
-        "weight": 0.7519,
+        "weight": 0.4778,
         "score": -1.0
       },
       {
@@ -1048,13 +1055,6 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Hegseth Speaks at Reagan National Defense Forum",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-06/hegseth-speaks-at-reagan-national-defense-forum-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3625,
-        "score": -0.6333
       }
     ],
     "market_movers": {
