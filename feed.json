@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-07T08:31:47.462710+00:00",
+  "updated_at": "2025-12-07T12:49:50.428932+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.062,
+    "change24h": 0.002,
+    "vol": 0.052,
     "fearGreed": 20,
-    "momentum": 0.15,
+    "momentum": 0.027,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3263,
-    "global_sentiment": 0.5287,
-    "combined_sentiment": 0.3721,
-    "confidence": 0.5982,
+    "crypto_sentiment": 0.4084,
+    "global_sentiment": 0.6149,
+    "combined_sentiment": 0.4409,
+    "confidence": 0.5553,
     "counts": {
-      "crypto": 74,
-      "global": 43
+      "crypto": 72,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 89360,
-      "btc_change_24h": -0.0,
-      "eth_price": 3035.04,
-      "eth_change_24h": 0.54,
+      "btc_price": 89574,
+      "btc_change_24h": -0.04,
+      "eth_price": 3049.62,
+      "eth_change_24h": 0.51,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.6,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 85787474274,
+        "volume_24h": 83885433718,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.59,
+        "btc_dominance": 56.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-23T19:53:29.336076+00:00",
-      "crypto": 0.4623,
-      "global": 0.3522,
-      "combined": 0.4594,
-      "counts": {
-        "crypto": 65,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-11-23T20:28:19.344001+00:00",
       "crypto": 0.4628,
@@ -1008,53 +998,63 @@
         "crypto": 74,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-07T12:49:50.428932+00:00",
+      "crypto": 0.4084,
+      "global": 0.6149,
+      "combined": 0.4409,
+      "counts": {
+        "crypto": 72,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin Cash gains nearly 40% to become ‘best performing’ L1 of the year",
+        "url": "https://cointelegraph.com/news/bitcoin-cash-40-to-become-best-performing-l1?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7131,
+        "score": 0.6667
+      },
+      {
         "title": "David Ellison's hunt for WBD made David Zaslav richer — and it may not be over",
         "url": "https://www.cnbc.com/2025/12/05/paramount-david-ellison-wbd-bidding-war-hostile-bid.html",
         "source": "CNBC Markets",
-        "weight": 0.4643,
+        "weight": 0.2825,
         "score": 0.9167
       },
       {
-        "title": "Qatar Airways Names New CEO as Al Meer Exits After Two Years",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-07/qatar-airways-names-new-ceo-as-al-meer-departs-after-two-years",
+        "title": "Macron Warns EU May Hit China With Tariffs Over Trade Surplus",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-07/macron-warns-eu-may-hit-china-with-tariffs-over-trade-surplus",
         "source": "Bloomberg Markets",
-        "weight": 0.7192,
+        "weight": 0.7649,
         "score": 0.3333
-      },
-      {
-        "title": "Carvana (CVNA): Assessing Valuation After S&P 500 Inclusion and Record Earnings Turnaround",
-        "url": "https://finance.yahoo.com/news/carvana-cvna-assessing-valuation-p-200828783.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1912,
-        "score": 1.0
       }
     ],
     "negative": [
-      {
-        "title": "South Korea to impose bank-level liability on crypto exchanges after Upbit hack: Report",
-        "url": "https://cointelegraph.com/news/south-korea-upbit-hack-crypto-exchanges-bank-liability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6799,
-        "score": -1.0
-      },
-      {
-        "title": "Eli Lilly, Pfizer Land on China’s First Private Insurance List",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-07/eli-lilly-pfizer-land-on-china-s-first-private-insurance-list",
-        "source": "Bloomberg Markets",
-        "weight": 0.4778,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "South Korea to impose bank-level liability on crypto exchanges after Upbit hack: Report",
+        "url": "https://cointelegraph.com/news/south-korea-upbit-hack-crypto-exchanges-bank-liability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4137,
+        "score": -1.0
+      },
+      {
+        "title": "Eli Lilly, Pfizer Land on China’s First Private Insurance List",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-07/eli-lilly-pfizer-land-on-china-s-first-private-insurance-list",
+        "source": "Bloomberg Markets",
+        "weight": 0.2907,
+        "score": -1.0
       }
     ],
     "market_movers": {
