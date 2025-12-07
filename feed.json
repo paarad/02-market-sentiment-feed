@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-07T19:53:39.901145+00:00",
+  "updated_at": "2025-12-07T20:28:01.835588+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.093,
+    "change24h": 0.036,
+    "vol": 0.095,
     "fearGreed": 20,
-    "momentum": 0.664,
+    "momentum": 0.626,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4769,
-    "global_sentiment": 0.5618,
-    "combined_sentiment": 0.4878,
-    "confidence": 0.6329,
+    "crypto_sentiment": 0.4772,
+    "global_sentiment": 0.5142,
+    "combined_sentiment": 0.4841,
+    "confidence": 0.6253,
     "counts": {
-      "crypto": 73,
-      "global": 38
+      "crypto": 72,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 91355,
-      "btc_change_24h": 2.16,
-      "eth_price": 3135.83,
-      "eth_change_24h": 3.51,
+      "btc_price": 91442,
+      "btc_change_24h": 2.2,
+      "eth_price": 3144.88,
+      "eth_change_24h": 3.5,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 124878571547,
+        "volume_24h": 124966444564,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.68,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-24T04:38:21.644159+00:00",
-      "crypto": 0.4637,
-      "global": 0.4282,
-      "combined": 0.4668,
-      "counts": {
-        "crypto": 67,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-11-24T08:37:15.228970+00:00",
       "crypto": 0.4945,
@@ -1008,12 +998,22 @@
         "crypto": 73,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-07T20:28:01.835588+00:00",
+      "crypto": 0.4772,
+      "global": 0.5142,
+      "combined": 0.4841,
+      "counts": {
+        "crypto": 72,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.0% — rally",
+        "title": "Global crypto market cap up 1.9% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,23 +1023,30 @@
         "title": "Dow Jones Futures: Market Rally Nears Highs As AI Giants, Fed Loom; Tesla In Buy Area",
         "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7073,
+        "weight": 0.662,
         "score": 0.5333
       },
       {
         "title": "A sudden $13.5 billion Fed liquidity injection exposes a crack in the dollar that Bitcoin was built for",
         "url": "https://cryptoslate.com/bitcoin-watches-the-feds-13-5b-repo-jump-what-does-fresh-liquidity-mean-now/",
         "source": "CryptoSlate",
-        "weight": 0.5422,
+        "weight": 0.5075,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Bessent says U.S. will finish the year with 3% GDP growth, sees 'very strong' holiday season",
+        "url": "https://www.cnbc.com/2025/12/07/bessent-gdp-growth.html",
+        "source": "CNBC Markets",
+        "weight": 0.7918,
+        "score": -0.6333
+      },
+      {
         "title": "Constructing your 2026 portfolio: 5 investing checklist to-do's",
         "url": "https://finance.yahoo.com/video/constructing-2026-portfolio-5-investing-190023369.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.722,
+        "weight": 0.6758,
         "score": -0.6333
       },
       {
@@ -1048,13 +1055,6 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Trump's National Security Strategy Ignores Bitcoin And Blockchain",
-        "url": "https://www.coindesk.com/opinion/2025/12/07/trump-s-national-security-strategy-ignores-bitcoin-and-blockchain",
-        "source": "CoinDesk",
-        "weight": 0.5737,
-        "score": -0.6333
       }
     ],
     "market_movers": {
@@ -1064,31 +1064,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-07",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3903,
-      "crypto_high": 0.4769,
-      "crypto_low": 0.2972,
-      "global_avg": 0.5614,
-      "global_high": 0.6149,
-      "global_low": 0.5287,
-      "combined_avg": 0.4228,
-      "combined_high": 0.4878,
-      "combined_low": 0.3533
-    },
-    "market_indicators_24h": {
-      "change24h": 0.038,
-      "vol": 0.093,
-      "fearGreed": 20,
-      "momentum": 0.664,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-07T19:53:39.901145+00:00"
   }
 }
