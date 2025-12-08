@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-08T12:56:31.715419+00:00",
+  "updated_at": "2025-12-08T16:36:33.327314+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.035,
+    "vol": 0.106,
     "fearGreed": 20,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.605,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5314,
-    "global_sentiment": 0.502,
-    "combined_sentiment": 0.5237,
-    "confidence": 0.779,
+    "crypto_sentiment": 0.4979,
+    "global_sentiment": 0.4016,
+    "combined_sentiment": 0.4903,
+    "confidence": 0.8327,
     "counts": {
-      "crypto": 72,
-      "global": 36
+      "crypto": 74,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 91774,
-      "btc_change_24h": 2.57,
-      "eth_price": 3130.97,
-      "eth_change_24h": 2.71,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 90217,
+      "btc_change_24h": 0.94,
+      "eth_price": 3122.86,
+      "eth_change_24h": 3.6,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 182085557229,
+        "volume_24h": 189595814703,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.4,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-24T20:29:25.507149+00:00",
-      "crypto": 0.5287,
-      "global": 0.4832,
-      "combined": 0.5201,
-      "counts": {
-        "crypto": 70,
-        "global": 48
-      }
-    },
     {
       "ts": "2025-11-25T02:02:39.724353+00:00",
       "crypto": 0.5243,
@@ -1008,30 +998,40 @@
         "crypto": 72,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-12-08T16:36:33.327314+00:00",
+      "crypto": 0.4979,
+      "global": 0.4016,
+      "combined": 0.4903,
+      "counts": {
+        "crypto": 74,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Research Veteran Yardeni Ends 15-Year Tech Bet With Underweight Mag 7 Call",
-        "url": "https://finance.yahoo.com/news/research-veteran-yardeni-ends-15-063124432.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5475,
+        "title": "XRP bulls grow louder: What will spark the breakout toward $2.65?",
+        "url": "https://cointelegraph.com/news/xrp-bulls-grow-louder-what-will-spark-breakout-2-65?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7584,
         "score": 1.0
       },
       {
-        "title": "Circle and Bybit deepen USDC partnership as stablecoin nears $80B",
-        "url": "https://cointelegraph.com/news/bybit-partners-circle-usdc-supply-nears-80-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5451,
-        "score": 0.9167
+        "title": "What Has NUE Stock Done For Investors?",
+        "url": "https://www.fool.com/investing/2025/12/08/what-has-nue-stock-done-for-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7754,
+        "score": 0.8667
       },
       {
-        "title": "3 Growth Companies With High Insider Ownership And Earnings Up To 105%",
-        "url": "https://finance.yahoo.com/news/3-growth-companies-high-insider-113553703.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6849,
-        "score": 0.6667
+        "title": "Home sellers are giving up at 'unusually high rate,' says new Realtor report",
+        "url": "https://www.cnbc.com/2025/12/08/home-sellers-delisting-high-rate-realtor.html",
+        "source": "CNBC Markets",
+        "weight": 0.7544,
+        "score": 0.6333
       }
     ],
     "negative": [
@@ -1039,30 +1039,30 @@
         "title": "Berkshire Hathaway's Todd Combs, investment lieutenant to Buffett and Geico CEO, is leaving for JPMorgan",
         "url": "https://www.cnbc.com/2025/12/08/berkshire-hathaways-todd-combs-investment-lieutenant-to-buffett-and-geico-ceo-is-leaving-for-jpmorgan.html",
         "source": "CNBC Markets",
-        "weight": 0.7745,
+        "weight": 0.798,
         "score": -0.9667
       },
       {
-        "title": "Can panic wallets stop a wrench? Why crypto’s next security debate is physical",
-        "url": "https://cointelegraph.com/news/panic-wallets-crypto-physical-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6564,
-        "score": -1.0
-      },
-      {
-        "title": "China Carmakers Miss End-of-Year Rush With Sales Drop",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-08/china-carmakers-miss-end-of-year-rush-with-rare-drop-in-sales",
+        "title": "Buffett Deputy Todd Combs Joins JPMorgan",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-08/buffett-deputy-todd-combs-joins-jpmorgan-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5722,
+        "weight": 0.7455,
         "score": -0.9667
+      },
+      {
+        "title": "Netflix Faces a Bidding War for Warner—and the Stock Market Hates the Idea",
+        "url": "https://finance.yahoo.com/m/a483ccbc-8cc5-3440-b266-9cad5a286887/netflix-faces-a-bidding-war.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7314,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42910072532787236,
-          "price_change_24h": -0.01217
+          "volume_mcap_ratio": 0.4389112844823699,
+          "price_change_24h": -0.01482
         }
       ],
       "momentum_shifts": []
