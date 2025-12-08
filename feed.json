@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-08T02:06:39.711097+00:00",
+  "updated_at": "2025-12-08T04:38:18.075415+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.058,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 20,
-    "momentum": 0.344,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4657,
-    "global_sentiment": 0.5586,
-    "combined_sentiment": 0.4792,
-    "confidence": 0.5889,
+    "crypto_sentiment": 0.4868,
+    "global_sentiment": 0.6083,
+    "combined_sentiment": 0.4992,
+    "confidence": 0.6495,
     "counts": {
-      "crypto": 71,
-      "global": 37
+      "crypto": 72,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 90895,
-      "btc_change_24h": 1.68,
-      "eth_price": 3100.57,
-      "eth_change_24h": 1.84,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "btc_price": 91304,
+      "btc_change_24h": 2.0,
+      "eth_price": 3129.23,
+      "eth_change_24h": 2.79,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152759507070,
+        "volume_24h": 161499863837,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.72,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-24T12:56:23.816843+00:00",
-      "crypto": 0.479,
-      "global": 0.4061,
-      "combined": 0.4764,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-24T16:30:24.214010+00:00",
       "crypto": 0.4261,
@@ -1008,33 +998,50 @@
         "crypto": 71,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-08T04:38:18.075415+00:00",
+      "crypto": 0.4868,
+      "global": 0.6083,
+      "combined": 0.4992,
+      "counts": {
+        "crypto": 72,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.1% — rally",
+        "title": "Vitalik Buterin floats gas futures on Ethereum to hedge fee spikes",
+        "url": "https://cointelegraph.com/news/vitalik-buterin-floats-futures-market-allowing-users-prepay-gas-fees?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6569,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 1.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Dow Jones Futures: Market Rally Nears Highs As AI Giants, Fed Loom; Tesla In Buy Area",
-        "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7824,
-        "score": 0.5333
-      },
-      {
-        "title": "Better Artificial Intelligence Stock: Palantir Technologies vs. Nvidia",
-        "url": "https://www.fool.com/investing/2025/12/07/better-artificial-intelligence-stock-palantir-tech/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4192,
-        "score": 0.6667
+        "title": "Silver Wavers Near Record as ETF Investment Reinforces Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-07/silver-rises-toward-record-as-etf-investors-add-fuel-to-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.4571,
+        "score": 0.8667
       }
     ],
     "negative": [
+      {
+        "title": "US-China Tensions Fuel Decoupling in Tech Research",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-08/us-china-tensions-fuel-decoupling-in-tech-research-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7343,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,26 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "Trump Warns Netflix-Warner Deal May Pose Antitrust ‘Problem’",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-07/trump-says-netflix-warner-bros-deal-will-need-review",
-        "source": "Bloomberg Markets",
-        "weight": 0.602,
-        "score": -0.6667
-      },
-      {
-        "title": "Asian Stocks Inch Higher at the Start of Fed Week: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-07/asia-eye-cautious-start-heading-into-fed-week-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.5185,
-        "score": -0.6667
+        "title": "Trump’s national security strategy is silent on crypto, blockchain",
+        "url": "https://cointelegraph.com/news/trump-national-security-strategy-silent-crypto-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6722,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35265054711503435,
-          "price_change_24h": -0.0094
+          "volume_mcap_ratio": 0.36771015899466364,
+          "price_change_24h": -0.00945
         }
       ],
       "momentum_shifts": []
