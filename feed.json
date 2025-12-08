@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-07T20:28:01.835588+00:00",
+  "updated_at": "2025-12-08T02:06:39.711097+00:00",
   "indicators": {
-    "change24h": 0.036,
-    "vol": 0.095,
+    "change24h": 0.02,
+    "vol": 0.058,
     "fearGreed": 20,
-    "momentum": 0.626,
+    "momentum": 0.344,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4772,
-    "global_sentiment": 0.5142,
-    "combined_sentiment": 0.4841,
-    "confidence": 0.6253,
+    "crypto_sentiment": 0.4657,
+    "global_sentiment": 0.5586,
+    "combined_sentiment": 0.4792,
+    "confidence": 0.5889,
     "counts": {
-      "crypto": 72,
+      "crypto": 71,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 91442,
-      "btc_change_24h": 2.2,
-      "eth_price": 3144.88,
-      "eth_change_24h": 3.5,
+      "btc_price": 90895,
+      "btc_change_24h": 1.68,
+      "eth_price": 3100.57,
+      "eth_change_24h": 1.84,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.8,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 124966444564,
-        "high_activity_coins": 0
+        "volume_24h": 152759507070,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.67,
+        "btc_dominance": 56.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-24T08:37:15.228970+00:00",
-      "crypto": 0.4945,
-      "global": 0.5297,
-      "combined": 0.4984,
-      "counts": {
-        "crypto": 67,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-24T12:56:23.816843+00:00",
       "crypto": 0.479,
@@ -1008,12 +998,22 @@
         "crypto": 72,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-08T02:06:39.711097+00:00",
+      "crypto": 0.4657,
+      "global": 0.5586,
+      "combined": 0.4792,
+      "counts": {
+        "crypto": 71,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.9% — rally",
+        "title": "Global crypto market cap up 1.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,42 +1023,48 @@
         "title": "Dow Jones Futures: Market Rally Nears Highs As AI Giants, Fed Loom; Tesla In Buy Area",
         "url": "https://finance.yahoo.com/m/23257c5e-c487-35e2-8a1f-3fbf3ae06be7/dow-jones-futures%3A-market.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.662,
+        "weight": 0.7824,
         "score": 0.5333
       },
       {
-        "title": "A sudden $13.5 billion Fed liquidity injection exposes a crack in the dollar that Bitcoin was built for",
-        "url": "https://cryptoslate.com/bitcoin-watches-the-feds-13-5b-repo-jump-what-does-fresh-liquidity-mean-now/",
-        "source": "CryptoSlate",
-        "weight": 0.5075,
+        "title": "Better Artificial Intelligence Stock: Palantir Technologies vs. Nvidia",
+        "url": "https://www.fool.com/investing/2025/12/07/better-artificial-intelligence-stock-palantir-tech/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4192,
         "score": 0.6667
       }
     ],
     "negative": [
-      {
-        "title": "Bessent says U.S. will finish the year with 3% GDP growth, sees 'very strong' holiday season",
-        "url": "https://www.cnbc.com/2025/12/07/bessent-gdp-growth.html",
-        "source": "CNBC Markets",
-        "weight": 0.7918,
-        "score": -0.6333
-      },
-      {
-        "title": "Constructing your 2026 portfolio: 5 investing checklist to-do's",
-        "url": "https://finance.yahoo.com/video/constructing-2026-portfolio-5-investing-190023369.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6758,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Trump Warns Netflix-Warner Deal May Pose Antitrust ‘Problem’",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-07/trump-says-netflix-warner-bros-deal-will-need-review",
+        "source": "Bloomberg Markets",
+        "weight": 0.602,
+        "score": -0.6667
+      },
+      {
+        "title": "Asian Stocks Inch Higher at the Start of Fed Week: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-07/asia-eye-cautious-start-heading-into-fed-week-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.5185,
+        "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.35265054711503435,
+          "price_change_24h": -0.0094
+        }
+      ],
       "momentum_shifts": []
     }
   },
