@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-09T02:05:13.554782+00:00",
+  "updated_at": "2025-12-09T04:35:04.698753+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.083,
+    "change24h": -0.013,
+    "vol": 0.079,
     "fearGreed": 22,
-    "momentum": -0.118,
-    "regime": "sideways",
+    "momentum": -0.23,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.436,
-    "global_sentiment": 0.4222,
-    "combined_sentiment": 0.4455,
-    "confidence": 0.7804,
+    "crypto_sentiment": 0.4918,
+    "global_sentiment": 0.4115,
+    "combined_sentiment": 0.4864,
+    "confidence": 0.758,
     "counts": {
-      "crypto": 70,
+      "crypto": 68,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 90133,
-      "btc_change_24h": -0.81,
-      "eth_price": 3112.86,
-      "eth_change_24h": 0.52,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 90200,
+      "btc_change_24h": -1.28,
+      "eth_price": 3115.38,
+      "eth_change_24h": -0.29,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 167000363609,
+        "volume_24h": 168983200726,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.49,
+        "btc_dominance": 56.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-25T12:55:38.139482+00:00",
-      "crypto": 0.4831,
-      "global": 0.5581,
-      "combined": 0.4922,
-      "counts": {
-        "crypto": 71,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-25T16:35:55.617783+00:00",
       "crypto": 0.4047,
@@ -1008,52 +998,62 @@
         "crypto": 70,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-09T04:35:04.698753+00:00",
+      "crypto": 0.4918,
+      "global": 0.4115,
+      "combined": 0.4864,
+      "counts": {
+        "crypto": 68,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XRP Traders Eyes Breakout Above $2.11 as U.S. ETFs Cross $1B Milestone",
+        "url": "https://www.coindesk.com/markets/2025/12/09/xrp-traders-eyes-breakout-above-usd2-11-as-u-s-etfs-cross-usd1b-milestone",
+        "source": "CoinDesk",
+        "weight": 1.1757,
+        "score": 0.8667
+      },
+      {
         "title": "Gold Frenzy Puts Thai Trading House on Record Trajectory",
         "url": "https://www.bloomberg.com/news/articles/2025-12-08/gold-buying-frenzy-puts-thai-trading-house-on-record-trajectory",
         "source": "Bloomberg Markets",
-        "weight": 0.56,
+        "weight": 0.4197,
         "score": 0.8667
       },
       {
         "title": "Famed Bear Michael Burry Says He’s Bullish on Fannie and Freddie",
         "url": "https://www.bloomberg.com/news/articles/2025-12-09/famed-bear-michael-burry-says-he-s-bullish-on-fannie-and-freddie",
         "source": "Bloomberg Markets",
-        "weight": 0.7086,
+        "weight": 0.531,
         "score": 0.6333
-      },
-      {
-        "title": "Bitcoin catches a bid, but data shows pro traders skeptical of rally above $92K",
-        "url": "https://cointelegraph.com/news/bitcoin-bulls-bid-range-lows-but-dollar92k-remains-resistance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5779,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 22 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Tata, Intel deepen India semiconductor push with pact on chip supply chain and AI PCs",
+        "url": "https://www.cnbc.com/2025/12/09/tata-electronics-deal-intel-building-india-chip-supply-chain-semiconductor-mission.html",
+        "source": "CNBC Markets",
+        "weight": 0.6674,
+        "score": -0.6333
+      },
+      {
         "title": "Fitch Ratings flags risk for US banks with high crypto exposure",
         "url": "https://cointelegraph.com/news/fitch-ratings-warns-reassess-banks-with-high-crypto-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7602,
-        "score": -0.6667
-      },
-      {
-        "title": "SK Hynix Shares Draw Second Exchange Caution on Blistering Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-08/sk-hynix-shares-draw-second-exchange-caution-on-blistering-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.6159,
-        "score": -0.8
-      },
-      {
-        "title": "Bank Group Urges Caution on Faster Trade Settlements in Asia",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-09/bank-group-urges-caution-on-faster-trade-settlements-in-asia",
-        "source": "Bloomberg Markets",
-        "weight": 0.7056,
+        "weight": 0.5697,
         "score": -0.6667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3944808371487679,
-          "price_change_24h": -0.00435
+          "volume_mcap_ratio": 0.40055102765095046,
+          "price_change_24h": -0.00722
         }
       ],
       "momentum_shifts": []
