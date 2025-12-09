@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-09T12:58:51.761121+00:00",
+  "updated_at": "2025-12-09T16:35:33.035432+00:00",
   "indicators": {
-    "change24h": -0.01,
-    "vol": 0.09,
+    "change24h": 0.064,
+    "vol": 0.179,
     "fearGreed": 22,
-    "momentum": -0.169,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4515,
-    "global_sentiment": 0.5906,
-    "combined_sentiment": 0.4712,
-    "confidence": 0.7905,
+    "crypto_sentiment": 0.4288,
+    "global_sentiment": 0.5115,
+    "combined_sentiment": 0.4476,
+    "confidence": 0.8151,
     "counts": {
-      "crypto": 71,
-      "global": 45
+      "crypto": 67,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 90615,
-      "btc_change_24h": -1.26,
-      "eth_price": 3137.7,
-      "eth_change_24h": 0.19,
+      "btc_price": 93649,
+      "btc_change_24h": 3.72,
+      "eth_price": 3319.1,
+      "eth_change_24h": 6.14,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165237178203,
+        "volume_24h": 188411610013,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.52,
+        "btc_dominance": 56.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-25T20:30:01.136298+00:00",
-      "crypto": 0.5172,
-      "global": 0.4243,
-      "combined": 0.5066,
-      "counts": {
-        "crypto": 69,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-26T02:02:54.731581+00:00",
       "crypto": 0.4953,
@@ -1008,61 +998,71 @@
         "crypto": 71,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-12-09T16:35:33.035432+00:00",
+      "crypto": 0.4288,
+      "global": 0.5115,
+      "combined": 0.4476,
+      "counts": {
+        "crypto": 67,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "LVS Advisory’s Discussion on its Growth Portfolio’s investment: Golar LNG (GLNG)",
-        "url": "https://finance.yahoo.com/news/lvs-advisory-discussion-growth-portfolio-123929502.html?.tsrc=rss",
+        "title": "FullPAC Announces Qualification of Regulation A+ Offering",
+        "url": "https://finance.yahoo.com/news/fullpac-announces-qualification-regulation-offering-152700681.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7707,
-        "score": 1.0
+        "weight": 0.7011,
+        "score": 0.6667
       },
       {
-        "title": "ILLR Secures Nasdaq Listing Extension with Clear Path to Full Compliance",
-        "url": "https://finance.yahoo.com/news/illr-secures-nasdaq-listing-extension-120000614.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7143,
-        "score": 0.9667
+        "title": "Global crypto market cap up 3.6% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Europe’s Defense Rally Is Just Beginning, Says Morgan Stanley",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-09/europe-s-defense-rally-is-just-beginning-says-morgan-stanley",
-        "source": "Bloomberg Markets",
-        "weight": 0.6443,
-        "score": 0.8667
+        "title": "Nearing Retirement? 3 Steps To Take After The Stock Market’s Recent Rally",
+        "url": "https://247wallst.com/investing/2025/05/13/nearing-retirement-3-steps-to-take-after-the-stock-markets-recent-rally/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7674,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Mastercard Sponsor Spotlight",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-09/mastercard-sponsor-spotlight",
+        "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill",
+        "url": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
+        "source": "CNBC Markets",
+        "weight": 0.7683,
+        "score": -0.9333
+      },
+      {
+        "title": "Crypto’s Liquidity Engine Breaks Down With $5 Billion ETF Exodus",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-09/crypto-s-liquidity-engine-breaks-down-with-5-billion-etf-exodus",
         "source": "Bloomberg Markets",
         "weight": 0.6808,
-        "score": -0.9667
+        "score": -0.9333
       },
       {
-        "title": "ASIC Expands Digital Asset Relief For Stablecoin Intermediaries",
-        "url": "https://decrypt.co/351586/asic-expands-digital-asset-relief-for-stablecoin-intermediaries",
-        "source": "Decrypt",
-        "weight": 0.6542,
-        "score": -0.9667
-      },
-      {
-        "title": "Plume Secures ADGM Commercial License, Eyes Middle East RWA Expansion",
-        "url": "https://www.coindesk.com/markets/2025/12/09/plume-secures-adgm-commercial-license-eyes-middle-east-rwa-expansion",
-        "source": "CoinDesk",
-        "weight": 0.7954,
-        "score": -0.6333
+        "title": "Has Congress quietly forced the Department of War to use Bitcoin to bankrupt Chinese hackers?",
+        "url": "https://cryptoslate.com/has-congress-quietly-forced-the-department-of-war-to-use-bitcoin-to-bankrupt-chinese-hackers/",
+        "source": "CryptoSlate",
+        "weight": 0.5778,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3895554980154289,
-          "price_change_24h": -0.00766
+          "volume_mcap_ratio": 0.426133393519017,
+          "price_change_24h": 0.02482
         }
       ],
       "momentum_shifts": []
