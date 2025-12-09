@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-09T08:38:31.507877+00:00",
+  "updated_at": "2025-12-09T12:58:51.761121+00:00",
   "indicators": {
-    "change24h": -0.02,
-    "vol": 0.075,
+    "change24h": -0.01,
+    "vol": 0.09,
     "fearGreed": 22,
-    "momentum": -0.345,
-    "regime": "bear",
+    "momentum": -0.169,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5006,
-    "global_sentiment": 0.3667,
-    "combined_sentiment": 0.4894,
-    "confidence": 0.7437,
+    "crypto_sentiment": 0.4515,
+    "global_sentiment": 0.5906,
+    "combined_sentiment": 0.4712,
+    "confidence": 0.7905,
     "counts": {
-      "crypto": 68,
-      "global": 33
+      "crypto": 71,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 90463,
-      "btc_change_24h": -1.3,
-      "eth_price": 3118.57,
-      "eth_change_24h": -0.38,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 90615,
+      "btc_change_24h": -1.26,
+      "eth_price": 3137.7,
+      "eth_change_24h": 0.19,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173840945496,
+        "volume_24h": 165237178203,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.59,
+        "btc_dominance": 56.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-25T19:53:38.390218+00:00",
-      "crypto": 0.5057,
-      "global": 0.4473,
-      "combined": 0.4998,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-25T20:30:01.136298+00:00",
       "crypto": 0.5172,
@@ -1008,61 +998,71 @@
         "crypto": 68,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-12-09T12:58:51.761121+00:00",
+      "crypto": 0.4515,
+      "global": 0.5906,
+      "combined": 0.4712,
+      "counts": {
+        "crypto": 71,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP Traders Eyes Breakout Above $2.11 as U.S. ETFs Cross $1B Milestone",
-        "url": "https://www.coindesk.com/markets/2025/12/09/xrp-traders-eyes-breakout-above-usd2-11-as-u-s-etfs-cross-usd1b-milestone",
-        "source": "CoinDesk",
-        "weight": 0.7357,
-        "score": 0.8667
+        "title": "LVS Advisory’s Discussion on its Growth Portfolio’s investment: Golar LNG (GLNG)",
+        "url": "https://finance.yahoo.com/news/lvs-advisory-discussion-growth-portfolio-123929502.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7707,
+        "score": 1.0
       },
       {
-        "title": "Indian Property Developer RMZ Said to Weigh $1 Billion IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-09/indian-property-developer-rmz-corp-said-to-weigh-1-billion-ipo",
+        "title": "ILLR Secures Nasdaq Listing Extension with Clear Path to Full Compliance",
+        "url": "https://finance.yahoo.com/news/illr-secures-nasdaq-listing-extension-120000614.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7143,
+        "score": 0.9667
+      },
+      {
+        "title": "Europe’s Defense Rally Is Just Beginning, Says Morgan Stanley",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-09/europe-s-defense-rally-is-just-beginning-says-morgan-stanley",
         "source": "Bloomberg Markets",
-        "weight": 0.704,
-        "score": 0.6333
-      },
-      {
-        "title": "Circle Wins ADGM License, Taps Former Visa Executive to Lead Middle East Push",
-        "url": "https://decrypt.co/351578/circle-wins-adgm-license-taps-former-visa-executive",
-        "source": "Decrypt",
-        "weight": 0.6132,
-        "score": 0.5833
+        "weight": 0.6443,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "USDC Issuer Circle Secures Abu Dhabi's ADGM License in Middle East Expansion",
-        "url": "https://www.coindesk.com/business/2025/12/09/usdc-issuer-circle-secures-abu-dhabi-s-adgm-license-in-middle-east-expansion",
-        "source": "CoinDesk",
-        "weight": 0.6956,
+        "title": "Mastercard Sponsor Spotlight",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-09/mastercard-sponsor-spotlight",
+        "source": "Bloomberg Markets",
+        "weight": 0.6808,
         "score": -0.9667
       },
       {
-        "title": "Fear & Greed 22 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "ASIC Expands Digital Asset Relief For Stablecoin Intermediaries",
+        "url": "https://decrypt.co/351586/asic-expands-digital-asset-relief-for-stablecoin-intermediaries",
+        "source": "Decrypt",
+        "weight": 0.6542,
+        "score": -0.9667
       },
       {
-        "title": "Bonds Hold Declines After Selloff, Stocks Steady",
-        "url": "https://www.bloomberg.com/news/live-blog/2025-12-09/ftse-100-live-pound-bonds-oil-prices-gilts-what-s-moving-uk-markets-right-now-markets-today",
-        "source": "Bloomberg Markets",
-        "weight": 0.6356,
-        "score": -0.6667
+        "title": "Plume Secures ADGM Commercial License, Eyes Middle East RWA Expansion",
+        "url": "https://www.coindesk.com/markets/2025/12/09/plume-secures-adgm-commercial-license-eyes-middle-east-rwa-expansion",
+        "source": "CoinDesk",
+        "weight": 0.7954,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.402698104212375,
-          "price_change_24h": -0.0034
+          "volume_mcap_ratio": 0.3895554980154289,
+          "price_change_24h": -0.00766
         }
       ],
       "momentum_shifts": []
