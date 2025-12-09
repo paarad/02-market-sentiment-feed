@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-09T16:35:33.035432+00:00",
+  "updated_at": "2025-12-09T19:53:50.096271+00:00",
   "indicators": {
-    "change24h": 0.064,
-    "vol": 0.179,
+    "change24h": 0.083,
+    "vol": 0.218,
     "fearGreed": 22,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4288,
-    "global_sentiment": 0.5115,
-    "combined_sentiment": 0.4476,
-    "confidence": 0.8151,
+    "crypto_sentiment": 0.5065,
+    "global_sentiment": 0.4541,
+    "combined_sentiment": 0.5011,
+    "confidence": 0.835,
     "counts": {
-      "crypto": 67,
-      "global": 43
+      "crypto": 71,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 93649,
-      "btc_change_24h": 3.72,
-      "eth_price": 3319.1,
-      "eth_change_24h": 6.14,
+      "btc_price": 93879,
+      "btc_change_24h": 4.03,
+      "eth_price": 3363.8,
+      "eth_change_24h": 7.72,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188411610013,
+        "volume_24h": 209551676735,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-26T02:02:54.731581+00:00",
-      "crypto": 0.4953,
-      "global": 0.3882,
-      "combined": 0.4871,
-      "counts": {
-        "crypto": 70,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-26T04:32:52.620743+00:00",
       "crypto": 0.5202,
@@ -1008,61 +998,71 @@
         "crypto": 67,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-09T19:53:50.096271+00:00",
+      "crypto": 0.5065,
+      "global": 0.4541,
+      "combined": 0.5011,
+      "counts": {
+        "crypto": 71,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "FullPAC Announces Qualification of Regulation A+ Offering",
-        "url": "https://finance.yahoo.com/news/fullpac-announces-qualification-regulation-offering-152700681.html?.tsrc=rss",
+        "title": "Dogecoin Surges as Ether Zooms 8%, Sparking Bullish Reversal For Memecoins",
+        "url": "https://www.coindesk.com/markets/2025/12/10/dogecoin-surges-as-ether-zooms-8-sparking-bullish-reversal-for-memecoins",
+        "source": "CoinDesk",
+        "weight": 0.9511,
+        "score": 1.0
+      },
+      {
+        "title": "Ether Surges 8%, Outpacing Bitcoin Gains Amid Staking ETF, Tokenization Optimism",
+        "url": "https://www.coindesk.com/markets/2025/12/09/ether-surges-8-outpacing-bitcoin-gains-amid-staking-etf-tokenization-optimism",
+        "source": "CoinDesk",
+        "weight": 0.8802,
+        "score": 0.8667
+      },
+      {
+        "title": "This Growth Stock Continues to Crush the Market",
+        "url": "https://www.fool.com/investing/2025/12/09/this-growth-stock-continues-to-crush-the-market/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7011,
+        "weight": 0.7495,
         "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 3.6% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Nearing Retirement? 3 Steps To Take After The Stock Market’s Recent Rally",
-        "url": "https://247wallst.com/investing/2025/05/13/nearing-retirement-3-steps-to-take-after-the-stock-markets-recent-rally/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7674,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "California Hospital With $193 Million Muni Debt Files Bankruptcy",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-09/california-hospital-with-193-million-muni-debt-files-bankruptcy",
+        "source": "Bloomberg Markets",
+        "weight": 0.6811,
+        "score": -0.9667
+      },
+      {
+        "title": "China’s $71 billion Treasury dump exposes a critical gap between Bitcoin’s narrative and central bank reality",
+        "url": "https://cryptoslate.com/chinas-71-billion-treasury-dump-exposes-a-critical-gap-between-bitcoins-narrative-and-central-bank-reality/",
+        "source": "CryptoSlate",
+        "weight": 0.6263,
+        "score": -1.0
+      },
+      {
         "title": "Pfizer adds to obesity bet with up to $2.1 billion deal to develop Chinese company's pill",
         "url": "https://www.cnbc.com/2025/12/09/pfizer-deal-yaopharma-obesity-pill.html",
         "source": "CNBC Markets",
-        "weight": 0.7683,
+        "weight": 0.596,
         "score": -0.9333
-      },
-      {
-        "title": "Crypto’s Liquidity Engine Breaks Down With $5 Billion ETF Exodus",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-09/crypto-s-liquidity-engine-breaks-down-with-5-billion-etf-exodus",
-        "source": "Bloomberg Markets",
-        "weight": 0.6808,
-        "score": -0.9333
-      },
-      {
-        "title": "Has Congress quietly forced the Department of War to use Bitcoin to bankrupt Chinese hackers?",
-        "url": "https://cryptoslate.com/has-congress-quietly-forced-the-department-of-war-to-use-bitcoin-to-bankrupt-chinese-hackers/",
-        "source": "CryptoSlate",
-        "weight": 0.5778,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.426133393519017,
-          "price_change_24h": 0.02482
+          "volume_mcap_ratio": 0.48905662974889125,
+          "price_change_24h": -0.00287
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-09",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4692,
+      "crypto_high": 0.5065,
+      "crypto_low": 0.4288,
+      "global_avg": 0.4594,
+      "global_high": 0.5906,
+      "global_low": 0.3667,
+      "combined_avg": 0.4735,
+      "combined_high": 0.5011,
+      "combined_low": 0.4455
+    },
+    "market_indicators_24h": {
+      "change24h": 0.083,
+      "vol": 0.218,
+      "fearGreed": 22,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-09T19:53:50.096271+00:00"
   }
 }
