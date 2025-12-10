@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-10T12:58:57.129287+00:00",
+  "updated_at": "2025-12-10T16:35:39.486950+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.163,
+    "change24h": -0.024,
+    "vol": 0.128,
     "fearGreed": 26,
-    "momentum": 0.674,
+    "momentum": -0.428,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4862,
-    "global_sentiment": 0.5074,
-    "combined_sentiment": 0.4903,
-    "confidence": 0.7533,
+    "crypto_sentiment": 0.4447,
+    "global_sentiment": 0.584,
+    "combined_sentiment": 0.4655,
+    "confidence": 0.7996,
     "counts": {
-      "crypto": 75,
-      "global": 41
+      "crypto": 73,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 92018,
-      "btc_change_24h": 1.62,
-      "eth_price": 3324.27,
-      "eth_change_24h": 5.95,
+      "btc_price": 92289,
+      "btc_change_24h": -1.62,
+      "eth_price": 3347.95,
+      "eth_change_24h": 0.62,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 233112387728,
+        "volume_24h": 198908374922,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.34,
+        "btc_dominance": 56.35,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-26T20:27:49.224674+00:00",
-      "crypto": 0.4092,
-      "global": 0.4596,
-      "combined": 0.4285,
-      "counts": {
-        "crypto": 76,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-11-27T02:00:21.810698+00:00",
       "crypto": 0.4247,
@@ -1008,61 +998,71 @@
         "crypto": 75,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-10T16:35:39.486950+00:00",
+      "crypto": 0.4447,
+      "global": 0.584,
+      "combined": 0.4655,
+      "counts": {
+        "crypto": 73,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Metaplanet Stock Jumps 12% as mNAV Climbs to 1.17, Highest Level Since Crypto Crisis",
-        "url": "https://www.coindesk.com/markets/2025/12/10/metaplanet-stock-jumps-12-as-mnav-climbs-to-1-17-highest-level-since-crypto-crisis",
+        "title": "Nextdoor Surges After Investor Behind Opendoor Meme Rally Takes Bullish Stance",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-10/opendoor-investor-sparks-near-50-meme-rally-in-nextdoor-stock",
+        "source": "Bloomberg Markets",
+        "weight": 0.6696,
+        "score": 1.0
+      },
+      {
+        "title": "Ethereum rising to $3.3K proves bottom is in: Is 100% ETH rally next?",
+        "url": "https://cointelegraph.com/news/ethereum-rising-3-3k-proves-bottom-is-in-is-eth-price-rally-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6712,
+        "score": 0.8667
+      },
+      {
+        "title": "BNB Lags Wider Market Despite Volume Surge Resistance Levels Hold",
+        "url": "https://www.coindesk.com/markets/2025/12/10/bnb-lags-wider-market-despite-volume-surge-resistance-levels-hold",
         "source": "CoinDesk",
-        "weight": 0.8609,
-        "score": 0.6667
-      },
-      {
-        "title": "Polymarket faces major credibility crisis after whales forced a “YES” UFO vote without evidence",
-        "url": "https://cryptoslate.com/polymarket-faces-major-credibility-crisis-after-whales-forced-a-yes-ufo-vote-without-evidence/",
-        "source": "CryptoSlate",
-        "weight": 0.7122,
-        "score": 0.6667
-      },
-      {
-        "title": "‘Hawkish’ Rate Cut Is What Wall Street Expects. It’s a Challenge to Equities Through Year-End.",
-        "url": "https://finance.yahoo.com/m/c950de70-8318-3415-b697-74b47c5f3b25/%E2%80%98hawkish%E2%80%99-rate-cut-is-what.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7019,
-        "score": 0.6667
+        "weight": 0.9499,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "The Fed decision is expected to feature a rate cut and a lot more. Here's what to expect",
-        "url": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
-        "source": "CNBC Markets",
-        "weight": 0.7951,
-        "score": -0.6667
-      },
-      {
-        "title": "Binance co-CEO Yi He hit by WeChat hack amid growing Web2 risks for crypto execs",
-        "url": "https://cointelegraph.com/news/yi-he-wechat-hack-raises-web2-security-risks-for-crypto-leaders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Teachers union claims risks to retirement funds in crypto market structure",
+        "url": "https://cointelegraph.com/news/us-teachers-union-senate-withdraw-market-structure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5085,
+        "weight": 0.781,
         "score": -1.0
       },
       {
-        "title": "Vitalik Buterin says Ethereum can handle temporary loss of finality",
-        "url": "https://cointelegraph.com/news/vitalik-ethereum-finality-bug-experts-bridges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6944,
+        "title": "The Fed meeting is likely to feature a rate cut and a lot more. Here's what to expect",
+        "url": "https://www.cnbc.com/2025/12/09/the-fed-decision-is-expected-to-feature-a-rate-cut-and-a-lot-more-heres-what-to-expect.html",
+        "source": "CNBC Markets",
+        "weight": 0.687,
         "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 26 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5288681933692592,
-          "price_change_24h": 0.00177
+          "volume_mcap_ratio": 0.45692054332978066,
+          "price_change_24h": -0.02658
         }
       ],
       "momentum_shifts": []
