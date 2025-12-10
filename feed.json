@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-09T20:27:38.827867+00:00",
+  "updated_at": "2025-12-10T02:07:31.126615+00:00",
   "indicators": {
-    "change24h": 0.063,
-    "vol": 0.184,
-    "fearGreed": 22,
-    "momentum": 1.0,
+    "change24h": 0.05,
+    "vol": 0.173,
+    "fearGreed": 26,
+    "momentum": 0.87,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.487,
-    "global_sentiment": 0.4675,
-    "combined_sentiment": 0.4875,
-    "confidence": 0.8316,
+    "crypto_sentiment": 0.4347,
+    "global_sentiment": 0.4498,
+    "combined_sentiment": 0.4468,
+    "confidence": 0.8027,
     "counts": {
-      "crypto": 71,
-      "global": 46
+      "crypto": 76,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 92916,
-      "btc_change_24h": 2.73,
-      "eth_price": 3315.86,
-      "eth_change_24h": 5.93,
+      "btc_price": 92122,
+      "btc_change_24h": 2.09,
+      "eth_price": 3295.84,
+      "eth_change_24h": 5.83,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 22,
-        "classification": "Extreme Fear",
-        "trend": "declining"
+        "value": 26,
+        "classification": "Fear",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 207926723609,
+        "volume_24h": 219038555425,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.42,
+        "btc_dominance": 56.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-26T08:35:40.140620+00:00",
-      "crypto": 0.5281,
-      "global": 0.4138,
-      "combined": 0.5139,
-      "counts": {
-        "crypto": 73,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-26T12:56:58.176350+00:00",
       "crypto": 0.5,
@@ -1008,61 +998,71 @@
         "crypto": 71,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-12-10T02:07:31.126615+00:00",
+      "crypto": 0.4347,
+      "global": 0.4498,
+      "combined": 0.4468,
+      "counts": {
+        "crypto": 76,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bankers Readying US IPOs at ‘Overwhelming’ Going Into 2026",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-09/bankers-ready-us-ipos-at-overwhelming-pace-into-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5923,
+        "score": 1.0
+      },
+      {
         "title": "Dogecoin Surges as Ether Zooms 8%, Sparking Bullish Reversal For Memecoins",
         "url": "https://www.coindesk.com/markets/2025/12/10/dogecoin-surges-as-ether-zooms-8-sparking-bullish-reversal-for-memecoins",
         "source": "CoinDesk",
-        "weight": 0.8911,
+        "weight": 0.4632,
         "score": 1.0
       },
       {
-        "title": "Dow Jones Stock Caterpillar In Buy Zone After Recent Breakout Move",
-        "url": "https://finance.yahoo.com/m/4822395c-eecf-3777-b0ad-3b56c8909afc/dow-jones-stock-caterpillar.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7548,
-        "score": 1.0
-      },
-      {
-        "title": "Ether Surges 8%, Outpacing Bitcoin Gains Amid Staking ETF, Tokenization Optimism",
-        "url": "https://www.coindesk.com/markets/2025/12/09/ether-surges-8-outpacing-bitcoin-gains-amid-staking-etf-tokenization-optimism",
-        "source": "CoinDesk",
-        "weight": 0.8247,
-        "score": 0.8667
+        "title": "Bankers Readying US IPOs Ahead of 2026",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-09/bankers-readying-us-ipos-ahead-of-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4768,
+        "score": 0.9
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin liquidity has vanished into a “shadow” system where corporate debt cycles now dictate the crash risk",
-        "url": "https://cryptoslate.com/bitcoin-liquidity-has-vanished-into-a-shadow-system-where-corporate-debt-cycles-now-dictate-the-crash-risk/",
-        "source": "CryptoSlate",
-        "weight": 0.7326,
-        "score": -0.9667
-      },
-      {
-        "title": "California Hospital With $193 Million Muni Debt Files Bankruptcy",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-09/california-hospital-with-193-million-muni-debt-files-bankruptcy",
-        "source": "Bloomberg Markets",
-        "weight": 0.6382,
-        "score": -0.9667
-      },
-      {
-        "title": "China’s $71 billion Treasury dump exposes a critical gap between Bitcoin’s narrative and central bank reality",
-        "url": "https://cryptoslate.com/chinas-71-billion-treasury-dump-exposes-a-critical-gap-between-bitcoins-narrative-and-central-bank-reality/",
-        "source": "CryptoSlate",
-        "weight": 0.5868,
+        "title": "Teachers Union Urges Senate to Scrap Crypto Market Structure Bill",
+        "url": "https://decrypt.co/351738/teachers-union-urges-senate-scrap-crypto-market-structure-bill",
+        "source": "Decrypt",
+        "weight": 0.8251,
         "score": -1.0
+      },
+      {
+        "title": "Schwab’s SCHD ETF Is Mostly Solid, But 1 Top Holding Is Concerning",
+        "url": "https://247wallst.com/investing/2025/12/09/schwabs-schd-etf-is-mostly-solid-but-1-top-holding-is-concerning/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6176,
+        "score": -0.9667
+      },
+      {
+        "title": "China consumer inflation hits near two-year high despite deeper-than-expected producer deflation",
+        "url": "https://www.cnbc.com/2025/12/10/chinas-cpi-ppi-deflation-november-consumer-prices.html",
+        "source": "CNBC Markets",
+        "weight": 0.7986,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49310197376008247,
-          "price_change_24h": -0.00383
+          "volume_mcap_ratio": 0.5179221749376612,
+          "price_change_24h": 0.00306
         }
       ],
       "momentum_shifts": []
