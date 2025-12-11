@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-11T02:09:23.797767+00:00",
+  "updated_at": "2025-12-11T04:39:41.146391+00:00",
   "indicators": {
-    "change24h": -0.039,
-    "vol": 0.103,
+    "change24h": -0.058,
+    "vol": 0.144,
     "fearGreed": 29,
-    "momentum": -0.679,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4132,
-    "global_sentiment": 0.5127,
-    "combined_sentiment": 0.4359,
-    "confidence": 0.7936,
+    "crypto_sentiment": 0.4453,
+    "global_sentiment": 0.4728,
+    "combined_sentiment": 0.4567,
+    "confidence": 0.7676,
     "counts": {
-      "crypto": 70,
+      "crypto": 69,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 90419,
-      "btc_change_24h": -1.77,
-      "eth_price": 3243.93,
-      "eth_change_24h": -1.52,
+      "btc_price": 90104,
+      "btc_change_24h": -2.59,
+      "eth_price": 3190.44,
+      "eth_change_24h": -3.78,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 224417051862,
+        "volume_24h": 237211084488,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.35,
+        "btc_dominance": 56.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-27T12:55:46.471408+00:00",
-      "crypto": 0.5115,
-      "global": 0.4774,
-      "combined": 0.5068,
-      "counts": {
-        "crypto": 77,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-27T16:32:48.390503+00:00",
       "crypto": 0.5703,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-11T04:39:41.146391+00:00",
+      "crypto": 0.4453,
+      "global": 0.4728,
+      "combined": 0.4567,
+      "counts": {
+        "crypto": 69,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin Traders Bet on 2026 Boom, Not a Santa Rally, Following Fed Rate Cut",
+        "url": "https://decrypt.co/351926/bitcoin-traders-bet-2026-boom-not-santa-rally-following-fed-rate-cut",
+        "source": "Decrypt",
+        "weight": 0.8014,
+        "score": 0.5333
+      },
+      {
+        "title": "Dow Jones Futures Fall; Oracle Dives On AI Spending After Fed Rally",
+        "url": "https://finance.yahoo.com/m/932fb9b7-9b2b-3f29-831f-b970e231b81c/dow-jones-futures-fall%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7457,
+        "score": 0.5333
+      },
+      {
         "title": "This Growth Stock Continues to Crush the Market",
         "url": "https://www.fool.com/investing/2025/12/10/this-growth-stock-continues-to-crush-the-market/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7345,
+        "weight": 0.5499,
         "score": 0.6667
-      },
-      {
-        "title": "Analyst revamps S&P 500 target through 2026",
-        "url": "https://www.thestreet.com/investing/analyst-revamps-sp-500-target-through-2026?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5631,
-        "score": 0.8667
-      },
-      {
-        "title": "Dow Jones Futures: Oracle Dives, 'Neutrality' Weighs On Nvidia After Fed Rally",
-        "url": "https://finance.yahoo.com/m/932fb9b7-9b2b-3f29-831f-b970e231b81c/dow-jones-futures%3A-oracle.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7724,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "VPBank Securities Falls in Trading Debut as Market Retreats",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-11/vpbank-securities-falls-in-trading-debut-as-market-retreats",
+        "source": "Bloomberg Markets",
+        "weight": 0.6963,
+        "score": -1.0
+      },
+      {
         "title": "Crypto among sectors ‘debanked’ by 9 major banks: US regulator",
         "url": "https://cointelegraph.com/news/crypto-among-sectors-debanked-major-banks-occ?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7118,
+        "weight": 0.533,
         "score": -0.9667
       },
       {
-        "title": "Bloomberg Surveillance: The Fed Decides 12/10/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-10/bloomberg-surveillance-the-fed-decides-12-10-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5788,
-        "score": -0.9667
-      },
-      {
-        "title": "E.Sun Shares Gain on Growing Confidence in Mercuries Life Deal",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-11/e-sun-shares-gain-on-growing-confidence-in-mercuries-life-deal",
-        "source": "Bloomberg Markets",
-        "weight": 0.6801,
-        "score": -0.6667
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5055489326014186,
-          "price_change_24h": 0.01053
+          "volume_mcap_ratio": 0.540377907711702,
+          "price_change_24h": 0.00965
         }
       ],
       "momentum_shifts": []
