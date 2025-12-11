@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-10T20:32:49.235238+00:00",
+  "updated_at": "2025-12-11T02:09:23.797767+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.099,
-    "fearGreed": 26,
-    "momentum": 0.209,
-    "regime": "sideways",
+    "change24h": -0.039,
+    "vol": 0.103,
+    "fearGreed": 29,
+    "momentum": -0.679,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.479,
-    "global_sentiment": 0.5065,
-    "combined_sentiment": 0.4848,
-    "confidence": 0.7897,
+    "crypto_sentiment": 0.4132,
+    "global_sentiment": 0.5127,
+    "combined_sentiment": 0.4359,
+    "confidence": 0.7936,
     "counts": {
-      "crypto": 69,
-      "global": 37
+      "crypto": 70,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 93687,
-      "btc_change_24h": 0.84,
-      "eth_price": 3400.92,
-      "eth_change_24h": 2.59,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 90419,
+      "btc_change_24h": -1.77,
+      "eth_price": 3243.93,
+      "eth_change_24h": -1.52,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 26,
+        "value": 29,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 212593486355,
+        "volume_24h": 224417051862,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.37,
+        "btc_dominance": 56.35,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-27T08:36:06.815839+00:00",
-      "crypto": 0.462,
-      "global": 0.4603,
-      "combined": 0.4682,
-      "counts": {
-        "crypto": 77,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-11-27T12:55:46.471408+00:00",
       "crypto": 0.5115,
@@ -1008,61 +998,71 @@
         "crypto": 69,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-11T02:09:23.797767+00:00",
+      "crypto": 0.4132,
+      "global": 0.5127,
+      "combined": 0.4359,
+      "counts": {
+        "crypto": 70,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Investors Await Fed Decision | Open Interest 12/10/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-10/open-interest-12-10-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6605,
-        "score": 1.0
-      },
-      {
-        "title": "Hedera Rises 1.8% to $0.1372 as Government Adoption Momentum Builds",
-        "url": "https://www.coindesk.com/markets/2025/12/10/hedera-rises-1-8-to-usd0-1372-as-government-adoption-momentum-builds",
-        "source": "CoinDesk",
-        "weight": 0.6708,
-        "score": 0.6667
-      },
-      {
-        "title": "Carvana Stock Is on a Winning Streak Like None It’s Ever Seen. It’s Up 50% in 12 Days.",
-        "url": "https://finance.yahoo.com/m/bf839c6e-613f-3ccf-b556-92e2ef68654b/carvana-stock-is-on-a-winning.html?.tsrc=rss",
+        "title": "This Growth Stock Continues to Crush the Market",
+        "url": "https://www.fool.com/investing/2025/12/10/this-growth-stock-continues-to-crush-the-market/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6352,
+        "weight": 0.7345,
         "score": 0.6667
+      },
+      {
+        "title": "Analyst revamps S&P 500 target through 2026",
+        "url": "https://www.thestreet.com/investing/analyst-revamps-sp-500-target-through-2026?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5631,
+        "score": 0.8667
+      },
+      {
+        "title": "Dow Jones Futures: Oracle Dives, 'Neutrality' Weighs On Nvidia After Fed Rally",
+        "url": "https://finance.yahoo.com/m/932fb9b7-9b2b-3f29-831f-b970e231b81c/dow-jones-futures%3A-oracle.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7724,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Fed's Powell Says Treasury Purchases May Remain Elevated",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-10/fed-s-powell-says-treasury-purchases-may-remain-elevated",
-        "source": "Bloomberg Markets",
-        "weight": 0.7562,
+        "title": "Crypto among sectors ‘debanked’ by 9 major banks: US regulator",
+        "url": "https://cointelegraph.com/news/crypto-among-sectors-debanked-major-banks-occ?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7118,
         "score": -0.9667
       },
       {
-        "title": "Cracker Barrel Cuts Outlook Following Logo Backlash",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-10/cracker-barrel-cuts-outlook-following-logo-backlash-video",
+        "title": "Bloomberg Surveillance: The Fed Decides 12/10/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-10/bloomberg-surveillance-the-fed-decides-12-10-2025-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5927,
-        "score": -1.0
+        "weight": 0.5788,
+        "score": -0.9667
       },
       {
-        "title": "Teachers union claims risks to retirement funds in crypto market structure",
-        "url": "https://cointelegraph.com/news/us-teachers-union-senate-withdraw-market-structure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4947,
-        "score": -1.0
+        "title": "E.Sun Shares Gain on Growing Confidence in Mercuries Life Deal",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-11/e-sun-shares-gain-on-growing-confidence-in-mercuries-life-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.6801,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47922588112809883,
-          "price_change_24h": 0.00227
+          "volume_mcap_ratio": 0.5055489326014186,
+          "price_change_24h": 0.01053
         }
       ],
       "momentum_shifts": []
