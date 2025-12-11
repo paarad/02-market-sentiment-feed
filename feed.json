@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-11T16:39:20.973220+00:00",
+  "updated_at": "2025-12-11T19:53:52.939528+00:00",
   "indicators": {
-    "change24h": -0.07,
-    "vol": 0.183,
+    "change24h": -0.054,
+    "vol": 0.169,
     "fearGreed": 29,
-    "momentum": -1.0,
+    "momentum": -0.952,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4374,
-    "global_sentiment": 0.4302,
-    "combined_sentiment": 0.4472,
-    "confidence": 0.8138,
+    "crypto_sentiment": 0.4765,
+    "global_sentiment": 0.535,
+    "combined_sentiment": 0.4853,
+    "confidence": 0.7898,
     "counts": {
-      "crypto": 69,
-      "global": 41
+      "crypto": 63,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 89758,
-      "btc_change_24h": -2.84,
-      "eth_price": 3176.15,
-      "eth_change_24h": -5.1,
+      "btc_price": 91300,
+      "btc_change_24h": -1.48,
+      "eth_price": 3215.7,
+      "eth_change_24h": -4.79,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.15,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 239655301776,
+        "volume_24h": 222386643276,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.45,
+        "btc_dominance": 56.6,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-28T01:59:59.807440+00:00",
-      "crypto": 0.4815,
-      "global": 0.4413,
-      "combined": 0.4812,
-      "counts": {
-        "crypto": 77,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-11-28T04:31:49.365174+00:00",
       "crypto": 0.4154,
@@ -1008,61 +998,71 @@
         "crypto": 69,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-11T19:53:52.939528+00:00",
+      "crypto": 0.4765,
+      "global": 0.535,
+      "combined": 0.4853,
+      "counts": {
+        "crypto": 63,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Adobe Earnings Show ‘Rapid Adoption’ of AI Tools. The Stock Rises—But Not by Much.",
-        "url": "https://finance.yahoo.com/m/d6c6d9f2-ed4f-3363-94be-bd8da51779e6/adobe-earnings-show-%E2%80%98rapid.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6749,
+        "title": "Bitcoin rallies fail at $94K despite Fed policy shift: Here’s why",
+        "url": "https://cointelegraph.com/news/bitcoin-rallies-fail-at-dollar94k-despite-fed-policy-shift-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6908,
         "score": 1.0
       },
       {
-        "title": "Is MP Stock a Buy, Hold or Sell After Its 98.9% Six-Month Rally?",
-        "url": "https://finance.yahoo.com/news/mp-stock-buy-hold-sell-150500228.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6671,
-        "score": 1.0
+        "title": "Bitcoin Isn’t Buying What the Fed Is Selling: Here’s What the Charts Suggest Happens Next",
+        "url": "https://decrypt.co/352016/bitcoin-ethereum-price-fed-cut-charts-analysis",
+        "source": "Decrypt",
+        "weight": 0.7155,
+        "score": 0.8667
       },
       {
-        "title": "Visa Stock Upgraded To Buy On Upside Potential, Stablecoin Prospects",
-        "url": "https://finance.yahoo.com/m/7822bb86-dde9-391f-935a-a2f3d605abb7/visa-stock-upgraded-to-buy-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7778,
-        "score": 0.6667
+        "title": "Texas grid is heating up again, this time from AI, not Bitcoin miners",
+        "url": "https://cointelegraph.com/news/texas-ai-power-demand-ercot-load-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5892,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "ICP Extends Decline as Breakdown Below $3.40 Reinforces Bearish Structure",
-        "url": "https://www.coindesk.com/markets/2025/12/11/icp-extends-decline-as-breakdown-below-usd3-40-reinforces-bearish-structure",
-        "source": "CoinDesk",
-        "weight": 0.9944,
-        "score": -0.8667
+        "title": "Lilly’s Experimental Shot Cuts Body Weight by 23% in Study",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-11/new-lilly-shot-cuts-body-weight-by-23-in-study-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6702,
+        "score": -1.0
       },
       {
         "title": "Eli Lilly's next-generation obesity drug delivers strong weight loss, reduces knee pain in late-stage trial",
         "url": "https://www.cnbc.com/2025/12/11/eli-lillys-weight-loss-drug-retatrutide-clears-first-late-stage-study.html",
         "source": "CNBC Markets",
-        "weight": 0.7941,
+        "weight": 0.6393,
         "score": -1.0
       },
       {
-        "title": "New Lilly Shot Reduces Body Weight by 23% in Study",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-11/new-eli-lilly-shot-reduces-body-weight-by-23-in-study-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6363,
-        "score": -1.0
+        "title": "ICP Extends Decline as Breakdown Below $3.40 Reinforces Bearish Structure",
+        "url": "https://www.coindesk.com/markets/2025/12/11/icp-extends-decline-as-breakdown-below-usd3-40-reinforces-bearish-structure",
+        "source": "CoinDesk",
+        "weight": 0.6837,
+        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5369374791057151,
-          "price_change_24h": 0.00831
+          "volume_mcap_ratio": 0.5003786352326312,
+          "price_change_24h": 0.00519
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-11",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.468,
+      "crypto_high": 0.5275,
+      "crypto_low": 0.4132,
+      "global_avg": 0.4687,
+      "global_high": 0.535,
+      "global_low": 0.4269,
+      "combined_avg": 0.4734,
+      "combined_high": 0.5151,
+      "combined_low": 0.4359
+    },
+    "market_indicators_24h": {
+      "change24h": -0.054,
+      "vol": 0.169,
+      "fearGreed": 29,
+      "momentum": -0.952,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-11T19:53:52.939528+00:00"
   }
 }
