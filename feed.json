@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-11T20:30:44.798390+00:00",
+  "updated_at": "2025-12-12T02:09:07.038343+00:00",
   "indicators": {
-    "change24h": -0.076,
-    "vol": 0.187,
+    "change24h": 0.01,
+    "vol": 0.097,
     "fearGreed": 29,
-    "momentum": -1.0,
-    "regime": "bear",
+    "momentum": 0.179,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4539,
-    "global_sentiment": 0.5597,
-    "combined_sentiment": 0.4704,
-    "confidence": 0.7894,
+    "crypto_sentiment": 0.546,
+    "global_sentiment": 0.6372,
+    "combined_sentiment": 0.5459,
+    "confidence": 0.7693,
     "counts": {
-      "crypto": 63,
-      "global": 37
+      "crypto": 65,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 91059,
-      "btc_change_24h": -2.81,
-      "eth_price": 3202.83,
-      "eth_change_24h": -5.89,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "btc_price": 92037,
+      "btc_change_24h": 1.91,
+      "eth_price": 3232.88,
+      "eth_change_24h": -0.16,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 208074682161,
+        "volume_24h": 201925771938,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.59,
+        "btc_dominance": 56.66,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-28T08:35:54.577557+00:00",
-      "crypto": 0.3778,
-      "global": 0.4793,
-      "combined": 0.4066,
-      "counts": {
-        "crypto": 78,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-11-28T12:54:08.315917+00:00",
       "crypto": 0.3295,
@@ -1008,52 +998,62 @@
         "crypto": 63,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-12T02:09:07.038343+00:00",
+      "crypto": 0.546,
+      "global": 0.6372,
+      "combined": 0.5459,
+      "counts": {
+        "crypto": 65,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin rallies fail at $94K despite Fed policy shift: Here’s why",
-        "url": "https://cointelegraph.com/news/bitcoin-rallies-fail-at-dollar94k-despite-fed-policy-shift-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6435,
+        "title": "Baidu’s Chip Momentum May Drive Alphabet-Style AI Turnaround",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-12/baidu-s-chip-momentum-may-drive-alphabet-style-ai-turnaround",
+        "source": "Bloomberg Markets",
+        "weight": 0.6239,
         "score": 1.0
       },
       {
-        "title": "Bitcoin Isn’t Buying What the Fed Is Selling: Here’s What the Charts Suggest Happens Next",
-        "url": "https://decrypt.co/352016/bitcoin-ethereum-price-fed-cut-charts-analysis",
-        "source": "Decrypt",
-        "weight": 0.6665,
-        "score": 0.8667
+        "title": "Asian Stocks Rise After Global Gauge Hits New Peak: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-11/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.5389,
+        "score": 1.0
       },
       {
-        "title": "Texas grid is heating up again, this time from AI, not Bitcoin miners",
-        "url": "https://cointelegraph.com/news/texas-ai-power-demand-ercot-load-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin miners could boost corporate adoption as crypto treasury buys slow",
+        "url": "https://cointelegraph.com/news/bitcoin-miners-corporate-adoption-treasury-buying-slowdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5488,
-        "score": 1.0
+        "weight": 0.7594,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Lilly’s Experimental Shot Cuts Body Weight by 23% in Study",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-11/new-lilly-shot-cuts-body-weight-by-23-in-study-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6243,
-        "score": -1.0
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Eli Lilly's next-generation obesity drug delivers strong weight loss, reduces knee pain in late-stage trial",
-        "url": "https://www.cnbc.com/2025/12/11/eli-lillys-weight-loss-drug-retatrutide-clears-first-late-stage-study.html",
-        "source": "CNBC Markets",
-        "weight": 0.5955,
-        "score": -1.0
+        "title": "Bitcoin, blockchain should form Pakistan’s new financial rail, minister says",
+        "url": "https://cointelegraph.com/news/bitcoin-blockchain-pakistan-new-financial-rail-minister-mena-conference?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4838,
+        "score": -0.6333
       },
       {
         "title": "ICP Extends Decline as Breakdown Below $3.40 Reinforces Bearish Structure",
         "url": "https://www.coindesk.com/markets/2025/12/11/icp-extends-decline-as-breakdown-below-usd3-40-reinforces-bearish-structure",
         "source": "CoinDesk",
-        "weight": 0.6369,
+        "weight": 0.332,
         "score": -0.8667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4701617910916914,
-          "price_change_24h": -0.0029
+          "volume_mcap_ratio": 0.457794793044783,
+          "price_change_24h": -0.00282
         }
       ],
       "momentum_shifts": []
