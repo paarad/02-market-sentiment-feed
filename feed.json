@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-12T16:34:26.480891+00:00",
+  "updated_at": "2025-12-12T19:53:37.681783+00:00",
   "indicators": {
-    "change24h": -0.01,
-    "vol": 0.119,
+    "change24h": -0.036,
+    "vol": 0.124,
     "fearGreed": 29,
-    "momentum": -0.18,
-    "regime": "sideways",
+    "momentum": -0.625,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4351,
-    "global_sentiment": 0.5163,
-    "combined_sentiment": 0.4527,
-    "confidence": 0.8009,
+    "crypto_sentiment": 0.3961,
+    "global_sentiment": 0.473,
+    "combined_sentiment": 0.4198,
+    "confidence": 0.7974,
     "counts": {
       "crypto": 65,
-      "global": 40
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 90009,
-      "btc_change_24h": 0.45,
-      "eth_price": 3068.28,
-      "eth_change_24h": -3.09,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 90214,
+      "btc_change_24h": -0.88,
+      "eth_price": 3070.42,
+      "eth_change_24h": -4.61,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 212030213196,
+        "volume_24h": 218930305827,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-29T01:59:48.739043+00:00",
-      "crypto": 0.3998,
-      "global": 0.3612,
-      "combined": 0.4133,
-      "counts": {
-        "crypto": 74,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-11-29T04:30:52.362697+00:00",
       "crypto": 0.449,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-12T19:53:37.681783+00:00",
+      "crypto": 0.3961,
+      "global": 0.473,
+      "combined": 0.4198,
+      "counts": {
+        "crypto": 65,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin wobbles at $92K as trader eyes end to ‘manipulative’ BTC price dip",
-        "url": "https://cointelegraph.com/news/bitcoin-wobbles-92k-trader-eyes-end-manipulative-btc-price-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8672,
-        "score": 0.5333
+        "title": "Broadcom Hit Hard as AI Backlog Squeezes Margins | Open Interest 12/12/2025",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-12/open-interest-12-12-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6507,
+        "score": 1.0
       },
       {
-        "title": "Nasdaq Seeks to Tighten Rules as Many Small IPOs Run Into Trouble",
-        "url": "https://finance.yahoo.com/m/732ad040-9fef-3fe3-923f-fcc8af6614dc/nasdaq-seeks-to-tighten-rules.html?.tsrc=rss",
+        "title": "Alphabet Stock Can Keep Winning. Analysts Are Excited About Search Again.",
+        "url": "https://finance.yahoo.com/m/4f3a418b-1b25-329a-a46c-e0233722adcf/alphabet-stock-can-keep.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6631,
-        "score": 0.6333
+        "weight": 0.6943,
+        "score": 0.6667
       },
       {
-        "title": "Crypto speculation at 2024 lows as TradFi leveraged ETFs hit record $239B",
-        "url": "https://cointelegraph.com/news/crypto-speculation-2024-lows-leveraged-etfs-record-239b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5975,
+        "title": "Wall Street's AI Bet: Why Goldman Sees the S&P 500 Charging Toward 7,600",
+        "url": "https://finance.yahoo.com/news/wall-streets-ai-bet-why-182457406.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6744,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fed’s Paulson Sees More Risks to Labor Than Inflation",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-12/fed-s-paulson-sees-more-risks-to-labor-than-inflation-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6019,
-        "score": -1.0
+        "title": "Figure Technology files ‘second IPO’ to bring native equity issuance to Solana",
+        "url": "https://cointelegraph.com/news/figure-technology-solana-onchain-equity-second-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5699,
+        "score": -0.9667
       },
       {
-        "title": "Bitcoin Plunges Below $90K as AI Worries Drag Nasdaq, Crypto Stocks Down",
-        "url": "https://www.coindesk.com/markets/2025/12/12/bitcoin-plunges-below-usd90k-as-ai-worries-drag-nasdaq-crypto-stocks-down",
-        "source": "CoinDesk",
-        "weight": 0.9439,
+        "title": "Disney's 'Zootopia 2' to hit $1 billion box office, only the second Hollywood film to do so this year",
+        "url": "https://www.cnbc.com/2025/12/12/disney-zootopia-2-1-billion-global-box-office.html",
+        "source": "CNBC Markets",
+        "weight": 0.7708,
         "score": -0.6333
       },
       {
-        "title": "Dutch Tilt Bond Sales Toward Shorter Debt Amid Pension Shift",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-12/dutch-tilt-bond-sales-toward-shorter-debt-amid-pension-shift",
-        "source": "Bloomberg Markets",
-        "weight": 0.7067,
+        "title": "Stock Market Today: Nasdaq Lags As Broadcom Slumps; Cannabis Stocks Rocket (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/d47724df-cef1-316a-90ff-29627f1cafc9/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7457,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.444667399168503,
-          "price_change_24h": -0.00637
+          "volume_mcap_ratio": 0.45341569087728906,
+          "price_change_24h": 0.00362
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-12",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4877,
+      "crypto_high": 0.5545,
+      "crypto_low": 0.3961,
+      "global_avg": 0.5373,
+      "global_high": 0.6372,
+      "global_low": 0.473,
+      "combined_avg": 0.4939,
+      "combined_high": 0.5459,
+      "combined_low": 0.4198
+    },
+    "market_indicators_24h": {
+      "change24h": -0.036,
+      "vol": 0.124,
+      "fearGreed": 29,
+      "momentum": -0.625,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-12T19:53:37.681783+00:00"
   }
 }
