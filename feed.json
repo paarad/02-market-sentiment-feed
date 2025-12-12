@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-12T02:09:07.038343+00:00",
+  "updated_at": "2025-12-12T04:38:27.206312+00:00",
   "indicators": {
-    "change24h": 0.01,
-    "vol": 0.097,
+    "change24h": 0.029,
+    "vol": 0.105,
     "fearGreed": 29,
-    "momentum": 0.179,
+    "momentum": 0.5,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.546,
-    "global_sentiment": 0.6372,
-    "combined_sentiment": 0.5459,
-    "confidence": 0.7693,
+    "crypto_sentiment": 0.5438,
+    "global_sentiment": 0.5082,
+    "combined_sentiment": 0.5335,
+    "confidence": 0.7465,
     "counts": {
-      "crypto": 65,
-      "global": 32
+      "crypto": 64,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 92037,
-      "btc_change_24h": 1.91,
-      "eth_price": 3232.88,
-      "eth_change_24h": -0.16,
+      "btc_price": 92234,
+      "btc_change_24h": 2.33,
+      "eth_price": 3242.67,
+      "eth_change_24h": 1.62,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 201925771938,
+        "volume_24h": 186803467863,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.66,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-28T12:54:08.315917+00:00",
-      "crypto": 0.3295,
-      "global": 0.3927,
-      "combined": 0.3632,
-      "counts": {
-        "crypto": 77,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-28T16:32:18.974090+00:00",
       "crypto": 0.4344,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 32
       }
+    },
+    {
+      "ts": "2025-12-12T04:38:27.206312+00:00",
+      "crypto": 0.5438,
+      "global": 0.5082,
+      "combined": 0.5335,
+      "counts": {
+        "crypto": 64,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Baidu’s Chip Momentum May Drive Alphabet-Style AI Turnaround",
+        "title": "Chip Momentum at Baidu May Help Drive Google-Style AI Turnaround",
         "url": "https://www.bloomberg.com/news/articles/2025-12-12/baidu-s-chip-momentum-may-drive-alphabet-style-ai-turnaround",
         "source": "Bloomberg Markets",
-        "weight": 0.6239,
+        "weight": 0.468,
         "score": 1.0
       },
       {
-        "title": "Asian Stocks Rise After Global Gauge Hits New Peak: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-11/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.5389,
-        "score": 1.0
+        "title": "Global crypto market cap up 1.6% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Bitcoin miners could boost corporate adoption as crypto treasury buys slow",
-        "url": "https://cointelegraph.com/news/bitcoin-miners-corporate-adoption-treasury-buying-slowdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7594,
+        "title": "Asia Market Open: Bitcoin Ticks Up As Asian Markets Gain After S&P 500 Record",
+        "url": "https://cryptonews.com/news/bitcoin-price-markets-gain-sp500-record-asia-market-open/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6146,
         "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "China Vanke Seeks a One-Year Extension on a Second Local Bond",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-12/china-vanke-seeks-a-one-year-extension-on-a-second-local-bond",
+        "source": "Bloomberg Markets",
+        "weight": 0.692,
+        "score": -0.9667
+      },
+      {
+        "title": "Trump scared Europe with his national security strategy. That's no bad thing, ex-CIA chief says",
+        "url": "https://www.cnbc.com/2025/12/12/good-that-trumps-security-strategy-scared-europe-david-petraeus-says.html",
+        "source": "CNBC Markets",
+        "weight": 0.6813,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Bitcoin, blockchain should form Pakistan’s new financial rail, minister says",
-        "url": "https://cointelegraph.com/news/bitcoin-blockchain-pakistan-new-financial-rail-minister-mena-conference?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4838,
-        "score": -0.6333
-      },
-      {
-        "title": "ICP Extends Decline as Breakdown Below $3.40 Reinforces Bearish Structure",
-        "url": "https://www.coindesk.com/markets/2025/12/11/icp-extends-decline-as-breakdown-below-usd3-40-reinforces-bearish-structure",
-        "source": "CoinDesk",
-        "weight": 0.332,
-        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.457794793044783,
-          "price_change_24h": -0.00282
+          "volume_mcap_ratio": 0.4220987503939298,
+          "price_change_24h": -0.00686
         }
       ],
       "momentum_shifts": []
