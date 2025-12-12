@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-12T12:57:25.186460+00:00",
+  "updated_at": "2025-12-12T16:34:26.480891+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.108,
+    "change24h": -0.01,
+    "vol": 0.119,
     "fearGreed": 29,
-    "momentum": 0.616,
+    "momentum": -0.18,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4508,
-    "global_sentiment": 0.5733,
-    "combined_sentiment": 0.4692,
-    "confidence": 0.7497,
+    "crypto_sentiment": 0.4351,
+    "global_sentiment": 0.5163,
+    "combined_sentiment": 0.4527,
+    "confidence": 0.8009,
     "counts": {
-      "crypto": 66,
-      "global": 37
+      "crypto": 65,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 92361,
-      "btc_change_24h": 2.5,
-      "eth_price": 3246.83,
-      "eth_change_24h": 1.46,
+      "btc_price": 90009,
+      "btc_change_24h": 0.45,
+      "eth_price": 3068.28,
+      "eth_change_24h": -3.09,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 189443815096,
+        "volume_24h": 212030213196,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.64,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-28T20:28:24.566568+00:00",
-      "crypto": 0.4485,
-      "global": 0.4199,
-      "combined": 0.4547,
-      "counts": {
-        "crypto": 73,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-11-29T01:59:48.739043+00:00",
       "crypto": 0.3998,
@@ -1008,61 +998,71 @@
         "crypto": 66,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-12T16:34:26.480891+00:00",
+      "crypto": 0.4351,
+      "global": 0.5163,
+      "combined": 0.4527,
+      "counts": {
+        "crypto": 65,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Stocks Estimated To Be Trading Below Intrinsic Value By At Least 41.3%",
-        "url": "https://finance.yahoo.com/news/3-stocks-estimated-trading-below-113751209.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6864,
-        "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 2.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Bitcoin wobbles at $92K as trader eyes end to ‘manipulative’ BTC price dip",
+        "url": "https://cointelegraph.com/news/bitcoin-wobbles-92k-trader-eyes-end-manipulative-btc-price-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8672,
         "score": 0.5333
       },
       {
-        "title": "Goldman’s Snider Sees AI, Strong Macro Driving 12% Earnings Jump",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-12/goldman-s-snider-sees-ai-strong-macro-driving-12-earnings-jump",
-        "source": "Bloomberg Markets",
-        "weight": 0.6219,
+        "title": "Nasdaq Seeks to Tighten Rules as Many Small IPOs Run Into Trouble",
+        "url": "https://finance.yahoo.com/m/732ad040-9fef-3fe3-923f-fcc8af6614dc/nasdaq-seeks-to-tighten-rules.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6631,
+        "score": 0.6333
+      },
+      {
+        "title": "Crypto speculation at 2024 lows as TradFi leveraged ETFs hit record $239B",
+        "url": "https://cointelegraph.com/news/crypto-speculation-2024-lows-leveraged-etfs-record-239b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5975,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Broadcom Falls on AI Market Sales; US Willing To Aid Ukraine's Security | Bloomberg Brief 12/12/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-12/bloomberg-brief-12-12-2025-video",
+        "title": "Fed’s Paulson Sees More Risks to Labor Than Inflation",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-12/fed-s-paulson-sees-more-risks-to-labor-than-inflation-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7513,
-        "score": -0.8
+        "weight": 0.6019,
+        "score": -1.0
       },
       {
-        "title": "U.S. SEC Gives Implicit Nod for Tokenized Stocks",
-        "url": "https://www.coindesk.com/policy/2025/12/12/u-s-sec-gives-implicit-nod-for-tokenized-stocks",
+        "title": "Bitcoin Plunges Below $90K as AI Worries Drag Nasdaq, Crypto Stocks Down",
+        "url": "https://www.coindesk.com/markets/2025/12/12/bitcoin-plunges-below-usd90k-as-ai-worries-drag-nasdaq-crypto-stocks-down",
         "source": "CoinDesk",
-        "weight": 0.9252,
+        "weight": 0.9439,
         "score": -0.6333
       },
       {
-        "title": "Upbit hack puts Binance’s emergency freeze policy under scrutiny",
-        "url": "https://cointelegraph.com/news/binance-upbit-hack-funds-freeze-kbs-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5686,
-        "score": -1.0
+        "title": "Dutch Tilt Bond Sales Toward Shorter Debt Amid Pension Shift",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-12/dutch-tilt-bond-sales-toward-shorter-debt-amid-pension-shift",
+        "source": "Bloomberg Markets",
+        "weight": 0.7067,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4096803211572946,
-          "price_change_24h": 0.00383
+          "volume_mcap_ratio": 0.444667399168503,
+          "price_change_24h": -0.00637
         }
       ],
       "momentum_shifts": []
