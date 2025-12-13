@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-13T02:02:10.706865+00:00",
+  "updated_at": "2025-12-13T04:32:20.896333+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.121,
+    "change24h": -0.041,
+    "vol": 0.123,
     "fearGreed": 23,
-    "momentum": -0.706,
+    "momentum": -0.712,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4282,
-    "global_sentiment": 0.407,
-    "combined_sentiment": 0.4384,
-    "confidence": 0.7453,
+    "crypto_sentiment": 0.4206,
+    "global_sentiment": 0.4441,
+    "combined_sentiment": 0.4358,
+    "confidence": 0.707,
     "counts": {
       "crypto": 64,
-      "global": 30
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 90230,
-      "btc_change_24h": -1.94,
-      "eth_price": 3084.97,
-      "eth_change_24h": -4.55,
+      "btc_price": 90300,
+      "btc_change_24h": -2.07,
+      "eth_price": 3088.0,
+      "eth_change_24h": -4.79,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 192436492709,
+        "volume_24h": 189814549846,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.72,
+        "btc_dominance": 56.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-29T12:50:40.030118+00:00",
-      "crypto": 0.4419,
-      "global": 0.5067,
-      "combined": 0.457,
-      "counts": {
-        "crypto": 77,
-        "global": 33
-      }
-    },
     {
       "ts": "2025-11-29T16:30:42.111355+00:00",
       "crypto": 0.4798,
@@ -1008,30 +998,40 @@
         "crypto": 64,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-12-13T04:32:20.896333+00:00",
+      "crypto": 0.4206,
+      "global": 0.4441,
+      "combined": 0.4358,
+      "counts": {
+        "crypto": 64,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Review & Preview: Banks Take Center Stage",
+        "url": "https://finance.yahoo.com/m/c61d0e97-bb27-35ea-8dfa-a56361f923f6/review-%26-preview%3A-banks-take.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5264,
+        "score": 0.6667
+      },
+      {
         "title": "Bitnomial gains CFTC approval to launch prediction markets in the US",
         "url": "https://cointelegraph.com/news/bitnomial-cftc-approval-launch-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4673,
+        "weight": 0.3499,
         "score": 1.0
       },
       {
         "title": "Coinbase Preps Prediction Market, Tokenized Equities Launch for December 17: Report",
         "url": "https://decrypt.co/352224/coinbase-prediction-market-tokenized-equities-launch-december-17",
         "source": "Decrypt",
-        "weight": 0.4518,
+        "weight": 0.3384,
         "score": 0.8667
-      },
-      {
-        "title": "Bitcoin miners turn to renewable energy amid profit margin squeeze",
-        "url": "https://cointelegraph.com/news/bitcoin-miners-renewable-energy-profit-squeeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4523,
-        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,7 +1039,7 @@
         "title": "SOL struggles as Solana TVL slides and memecoin demand fades",
         "url": "https://cointelegraph.com/news/sol-struggles-as-solana-tvl-slides-memecoin-demand-fades?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6159,
+        "weight": 0.4613,
         "score": -1.0
       },
       {
@@ -1053,7 +1053,7 @@
         "title": "Citadel Securities and DeFi Waging War of Words Through SEC Correspondence",
         "url": "https://www.coindesk.com/policy/2025/12/12/citadel-securities-and-defi-waging-war-of-words-through-sec-correspondence",
         "source": "CoinDesk",
-        "weight": 0.6523,
+        "weight": 0.4885,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37684839927621727,
-          "price_change_24h": 0.00136
+          "volume_mcap_ratio": 0.3624719625096667,
+          "price_change_24h": 0.00046
         }
       ],
       "momentum_shifts": []
