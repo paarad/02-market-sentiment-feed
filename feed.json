@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-13T08:33:04.750793+00:00",
+  "updated_at": "2025-12-13T12:51:50.947248+00:00",
   "indicators": {
-    "change24h": -0.032,
-    "vol": 0.1,
+    "change24h": -0.04,
+    "vol": 0.113,
     "fearGreed": 23,
-    "momentum": -0.558,
-    "regime": "sideways",
+    "momentum": -0.698,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3579,
-    "global_sentiment": 0.4193,
-    "combined_sentiment": 0.3867,
-    "confidence": 0.67,
+    "crypto_sentiment": 0.3686,
+    "global_sentiment": 0.398,
+    "combined_sentiment": 0.3929,
+    "confidence": 0.6325,
     "counts": {
       "crypto": 64,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 90461,
-      "btc_change_24h": -1.93,
-      "eth_price": 3123.57,
-      "eth_change_24h": -3.56,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 90318,
+      "btc_change_24h": -2.07,
+      "eth_price": 3111.94,
+      "eth_change_24h": -3.92,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 184113518983,
+        "volume_24h": 165585267069,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.6,
+        "btc_dominance": 56.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-29T19:53:42.838474+00:00",
-      "crypto": 0.458,
-      "global": 0.3981,
-      "combined": 0.46,
-      "counts": {
-        "crypto": 76,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-29T20:27:49.576718+00:00",
       "crypto": 0.4555,
@@ -1008,40 +998,43 @@
         "crypto": 64,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-13T12:51:50.947248+00:00",
+      "crypto": 0.3686,
+      "global": 0.398,
+      "combined": 0.3929,
+      "counts": {
+        "crypto": 64,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Review & Preview: Banks Take Center Stage",
-        "url": "https://finance.yahoo.com/m/c61d0e97-bb27-35ea-8dfa-a56361f923f6/review-%26-preview%3A-banks-take.html?.tsrc=rss",
+        "title": "Crypto for kids: Binance Junior looks safe, but the app creates a psychological imprint that parental controls can’t fix",
+        "url": "https://cryptoslate.com/crypto-for-kids-binance-junior-looks-safe-but-its-interface-creates-a-psychological-imprint-that-no-parental-control-can-fix/",
+        "source": "CryptoSlate",
+        "weight": 0.5641,
+        "score": 0.3333
+      },
+      {
+        "title": "My Top 10 Stocks to Buy for 2026",
+        "url": "https://www.fool.com/investing/2025/12/13/my-top-10-stocks-to-buy-for-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3312,
-        "score": 0.6667
+        "weight": 0.5424,
+        "score": 0.3333
       },
       {
-        "title": "Bitnomial gains CFTC approval to launch prediction markets in the US",
-        "url": "https://cointelegraph.com/news/bitnomial-cftc-approval-launch-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2201,
-        "score": 1.0
-      },
-      {
-        "title": "Coinbase Preps Prediction Market, Tokenized Equities Launch for December 17: Report",
-        "url": "https://decrypt.co/352224/coinbase-prediction-market-tokenized-equities-launch-december-17",
-        "source": "Decrypt",
-        "weight": 0.2129,
-        "score": 0.8667
+        "title": "2 Magnificent Stocks to Buy Before They Soar 95% and 215% in 2026, According to Wall Street Analysts",
+        "url": "https://www.fool.com/investing/2025/12/13/2-stocks-buy-before-soar-215-in-2026-wall-street/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5119,
+        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Brazil’s largest private bank advises investors to allocate 3% to Bitcoin in 2026",
-        "url": "https://cointelegraph.com/news/itau-asset-recommends-3-percent-bitcoin-allocation-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7088,
-        "score": -0.6667
-      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,19 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "Crypto groups slam Citadel for urging tighter DeFi tokenization rules",
-        "url": "https://cointelegraph.com/news/crypto-slams-citadel-call-tighter-defi-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5704,
+        "title": "Green Stocks Are Big Winners as Tech Boom Drives Energy Demand",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-13/green-stocks-are-big-winners-as-tech-boom-drives-energy-demand",
+        "source": "Bloomberg Markets",
+        "weight": 0.4832,
         "score": -0.6333
+      },
+      {
+        "title": "Brazil’s largest private bank advises investors to allocate 3% to Bitcoin in 2026",
+        "url": "https://cointelegraph.com/news/itau-asset-recommends-3-percent-bitcoin-allocation-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4307,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3443639625995817,
-          "price_change_24h": 0.00157
+          "volume_mcap_ratio": 0.3371154694522384,
+          "price_change_24h": -0.00659
         }
       ],
       "momentum_shifts": []
