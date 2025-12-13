@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-13T19:53:15.658580+00:00",
+  "updated_at": "2025-12-13T20:28:13.492584+00:00",
   "indicators": {
-    "change24h": 0.013,
+    "change24h": 0.011,
     "vol": 0.057,
     "fearGreed": 23,
-    "momentum": 0.236,
+    "momentum": 0.196,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4811,
-    "global_sentiment": 0.4988,
-    "combined_sentiment": 0.4857,
-    "confidence": 0.5882,
+    "crypto_sentiment": 0.436,
+    "global_sentiment": 0.5115,
+    "combined_sentiment": 0.453,
+    "confidence": 0.6261,
     "counts": {
-      "crypto": 62,
-      "global": 41
+      "crypto": 64,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 90186,
-      "btc_change_24h": -0.05,
-      "eth_price": 3107.38,
-      "eth_change_24h": 1.09,
+      "btc_price": 90153,
+      "btc_change_24h": 0.11,
+      "eth_price": 3108.33,
+      "eth_change_24h": 1.14,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 103030858442,
+        "volume_24h": 82417806228,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.54,
+        "btc_dominance": 56.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-30T04:38:01.715829+00:00",
-      "crypto": 0.3931,
-      "global": 0.428,
-      "combined": 0.4138,
-      "counts": {
-        "crypto": 75,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-11-30T08:31:07.061362+00:00",
       "crypto": 0.3684,
@@ -1008,33 +998,50 @@
         "crypto": 62,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-13T20:28:13.492584+00:00",
+      "crypto": 0.436,
+      "global": 0.5115,
+      "combined": 0.453,
+      "counts": {
+        "crypto": 64,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "The stock market’s ‘Santa Claus rally’ hasn’t come to town yet — despite what you’re hearing",
+        "url": "https://www.marketwatch.com/story/the-stock-markets-santa-claus-rally-hasnt-come-to-town-so-ignore-the-caroling-c76d847e?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7333,
+        "score": 0.5333
+      },
+      {
         "title": "Solana ETFs record 7-day inflow streak despite price slump",
         "url": "https://cointelegraph.com/news/solana-etf-7-day-inflow-streak-price-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6242,
+        "weight": 0.5836,
         "score": 0.6667
       },
       {
-        "title": "Can Block Shares Keep Running and Reach $100 in 2026?",
-        "url": "https://247wallst.com/investing/2025/12/13/can-block-shares-keep-running-and-reach-100-in-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7534,
-        "score": 0.3333
-      },
-      {
-        "title": "End of 'The Berkshire Way'? Combs' departure isn't only big change as Buffett transition nears",
-        "url": "https://www.cnbc.com/2025/12/13/end-of-the-berkshire-way-combs-departure-isnt-only-big-change-as-buffett-transition-nears-.html",
-        "source": "CNBC Markets",
-        "weight": 0.6745,
+        "title": "US banks just unlocked a loophole to profit from your crypto trades without holding the bag",
+        "url": "https://cryptoslate.com/us-banks-just-unlocked-a-loophole-to-profit-from-your-crypto-trades-without-holding-the-bag/",
+        "source": "CryptoSlate",
+        "weight": 0.7105,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "The Securities and Exchange Commission publishes crypto custody guide",
+        "url": "https://cointelegraph.com/news/securities-exchange-commission-crypto-custody-guide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7502,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1046,15 +1053,8 @@
         "title": "Eli Lilly Leads Five Stocks Near Buy Points In Divided Market",
         "url": "https://finance.yahoo.com/m/6d391d7f-73d0-3b01-a677-9756042f1a1c/eli-lilly-leads-five-stocks.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3612,
+        "weight": 0.3377,
         "score": -1.0
-      },
-      {
-        "title": "1 Magnificent S&P 500 Dividend Stock Down 27% to Buy and Hold Forever",
-        "url": "https://www.fool.com/investing/2025/12/13/1-magnificent-sp-500-dividend-stock-down-x-to-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4013,
-        "score": -0.6333
       }
     ],
     "market_movers": {
@@ -1064,31 +1064,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-13",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4154,
-      "crypto_high": 0.4811,
-      "crypto_low": 0.3579,
-      "global_avg": 0.439,
-      "global_high": 0.4988,
-      "global_low": 0.398,
-      "combined_avg": 0.4315,
-      "combined_high": 0.4857,
-      "combined_low": 0.3867
-    },
-    "market_indicators_24h": {
-      "change24h": 0.013,
-      "vol": 0.057,
-      "fearGreed": 23,
-      "momentum": 0.236,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-13T19:53:15.658580+00:00"
   }
 }
