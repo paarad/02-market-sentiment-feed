@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-12T20:30:43.350758+00:00",
+  "updated_at": "2025-12-13T02:02:10.706865+00:00",
   "indicators": {
-    "change24h": -0.031,
-    "vol": 0.127,
-    "fearGreed": 29,
-    "momentum": -0.536,
+    "change24h": -0.04,
+    "vol": 0.121,
+    "fearGreed": 23,
+    "momentum": -0.706,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4025,
-    "global_sentiment": 0.4942,
-    "combined_sentiment": 0.4264,
-    "confidence": 0.7988,
+    "crypto_sentiment": 0.4282,
+    "global_sentiment": 0.407,
+    "combined_sentiment": 0.4384,
+    "confidence": 0.7453,
     "counts": {
-      "crypto": 65,
-      "global": 43
+      "crypto": 64,
+      "global": 30
     },
     "market_indicators": {
-      "btc_price": 90082,
-      "btc_change_24h": -1.03,
-      "eth_price": 3073.06,
-      "eth_change_24h": -4.05,
+      "btc_price": 90230,
+      "btc_change_24h": -1.94,
+      "eth_price": 3084.97,
+      "eth_change_24h": -4.55,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 29,
-        "classification": "Fear",
-        "trend": "improving"
+        "value": 23,
+        "classification": "Extreme Fear",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 218489909825,
+        "volume_24h": 192436492709,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.76,
+        "btc_dominance": 56.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-29T08:33:01.464391+00:00",
-      "crypto": 0.4937,
-      "global": 0.4105,
-      "combined": 0.4878,
-      "counts": {
-        "crypto": 77,
-        "global": 32
-      }
-    },
     {
       "ts": "2025-11-29T12:50:40.030118+00:00",
       "crypto": 0.4419,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-13T02:02:10.706865+00:00",
+      "crypto": 0.4282,
+      "global": 0.407,
+      "combined": 0.4384,
+      "counts": {
+        "crypto": 64,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Broadcom Hit Hard as AI Backlog Squeezes Margins | Open Interest 12/12/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-12/open-interest-12-12-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6058,
+        "title": "Bitnomial gains CFTC approval to launch prediction markets in the US",
+        "url": "https://cointelegraph.com/news/bitnomial-cftc-approval-launch-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4673,
         "score": 1.0
       },
       {
-        "title": "Alphabet Stock Can Keep Winning. Analysts Are Excited About Search Again.",
-        "url": "https://finance.yahoo.com/m/4f3a418b-1b25-329a-a46c-e0233722adcf/alphabet-stock-can-keep.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6464,
-        "score": 0.6667
+        "title": "Coinbase Preps Prediction Market, Tokenized Equities Launch for December 17: Report",
+        "url": "https://decrypt.co/352224/coinbase-prediction-market-tokenized-equities-launch-december-17",
+        "source": "Decrypt",
+        "weight": 0.4518,
+        "score": 0.8667
       },
       {
-        "title": "Wall Street's AI Bet: Why Goldman Sees the S&P 500 Charging Toward 7,600",
-        "url": "https://finance.yahoo.com/news/wall-streets-ai-bet-why-182457406.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6279,
+        "title": "Bitcoin miners turn to renewable energy amid profit margin squeeze",
+        "url": "https://cointelegraph.com/news/bitcoin-miners-renewable-energy-profit-squeeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4523,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Figure Technology files ‘second IPO’ to bring native equity issuance to Solana",
-        "url": "https://cointelegraph.com/news/figure-technology-solana-onchain-equity-second-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "SOL struggles as Solana TVL slides and memecoin demand fades",
+        "url": "https://cointelegraph.com/news/sol-struggles-as-solana-tvl-slides-memecoin-demand-fades?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5306,
-        "score": -0.9667
+        "weight": 0.6159,
+        "score": -1.0
       },
       {
-        "title": "US Seeks to Block Noem Contempt Hearings on Venezuelan Removals",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-12/us-seeks-to-block-noem-contempt-hearings-on-venezuelan-removals",
-        "source": "Bloomberg Markets",
-        "weight": 0.7602,
-        "score": -0.6333
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Disney's 'Zootopia 2' to hit $1 billion box office, only the second Hollywood film to do so this year",
-        "url": "https://www.cnbc.com/2025/12/12/disney-zootopia-2-1-billion-global-box-office.html",
-        "source": "CNBC Markets",
-        "weight": 0.7176,
+        "title": "Citadel Securities and DeFi Waging War of Words Through SEC Correspondence",
+        "url": "https://www.coindesk.com/policy/2025/12/12/citadel-securities-and-defi-waging-war-of-words-through-sec-correspondence",
+        "source": "CoinDesk",
+        "weight": 0.6523,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44932161016402655,
-          "price_change_24h": 0.00715
+          "volume_mcap_ratio": 0.37684839927621727,
+          "price_change_24h": 0.00136
         }
       ],
       "momentum_shifts": []
