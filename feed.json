@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-13T12:51:50.947248+00:00",
+  "updated_at": "2025-12-13T16:31:44.915185+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.113,
+    "change24h": 0.014,
+    "vol": 0.067,
     "fearGreed": 23,
-    "momentum": -0.698,
-    "regime": "bear",
+    "momentum": 0.247,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3686,
-    "global_sentiment": 0.398,
-    "combined_sentiment": 0.3929,
-    "confidence": 0.6325,
+    "crypto_sentiment": 0.4362,
+    "global_sentiment": 0.4666,
+    "combined_sentiment": 0.4493,
+    "confidence": 0.6271,
     "counts": {
-      "crypto": 64,
-      "global": 38
+      "crypto": 62,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 90318,
-      "btc_change_24h": -2.07,
-      "eth_price": 3111.94,
-      "eth_change_24h": -3.92,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 90061,
+      "btc_change_24h": -0.1,
+      "eth_price": 3103.64,
+      "eth_change_24h": 0.87,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165585267069,
-        "high_activity_coins": 1
+        "volume_24h": 127072123458,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.59,
+        "btc_dominance": 56.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-29T20:27:49.576718+00:00",
-      "crypto": 0.4555,
-      "global": 0.3981,
-      "combined": 0.4582,
-      "counts": {
-        "crypto": 76,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-30T02:20:09.278227+00:00",
       "crypto": 0.4044,
@@ -1008,33 +998,50 @@
         "crypto": 64,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-13T16:31:44.915185+00:00",
+      "crypto": 0.4362,
+      "global": 0.4666,
+      "combined": 0.4493,
+      "counts": {
+        "crypto": 62,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto for kids: Binance Junior looks safe, but the app creates a psychological imprint that parental controls can’t fix",
-        "url": "https://cryptoslate.com/crypto-for-kids-binance-junior-looks-safe-but-its-interface-creates-a-psychological-imprint-that-no-parental-control-can-fix/",
-        "source": "CryptoSlate",
-        "weight": 0.5641,
+        "title": "'Stranger Things' ushered in a new era for Netflix",
+        "url": "https://www.cnbc.com/2025/12/13/stranger-things-netflix.html",
+        "source": "CNBC Markets",
+        "weight": 0.5322,
+        "score": 0.5833
+      },
+      {
+        "title": "Brazil’s Largest Asset Manager Recommends Investors Put Up to 3% of their Money in Bitcoin to Hedge Against FX, Market Shocks",
+        "url": "https://www.coindesk.com/business/2025/12/13/brazil-s-largest-asset-manager-recommends-investors-put-up-to-3-of-their-money-in-bitcoin-to-hedge-against-fx-market-shocks",
+        "source": "CoinDesk",
+        "weight": 0.9094,
         "score": 0.3333
       },
       {
-        "title": "My Top 10 Stocks to Buy for 2026",
-        "url": "https://www.fool.com/investing/2025/12/13/my-top-10-stocks-to-buy-for-2026/?.tsrc=rss",
+        "title": "Jim Cramer on Viking Holdings: “That Is My Favorite”",
+        "url": "https://finance.yahoo.com/news/jim-cramer-viking-holdings-favorite-153431354.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5424,
-        "score": 0.3333
-      },
-      {
-        "title": "2 Magnificent Stocks to Buy Before They Soar 95% and 215% in 2026, According to Wall Street Analysts",
-        "url": "https://www.fool.com/investing/2025/12/13/2-stocks-buy-before-soar-215-in-2026-wall-street/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5119,
+        "weight": 0.7165,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Eli Lilly Leads Five Stocks Near Buy Points In Divided Market",
+        "url": "https://finance.yahoo.com/m/6d391d7f-73d0-3b01-a677-9756042f1a1c/eli-lilly-leads-five-stocks.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5324,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,28 +1050,15 @@
         "score": -0.5333
       },
       {
-        "title": "Green Stocks Are Big Winners as Tech Boom Drives Energy Demand",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-13/green-stocks-are-big-winners-as-tech-boom-drives-energy-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.4832,
+        "title": "1 Magnificent S&P 500 Dividend Stock Down 27% to Buy and Hold Forever",
+        "url": "https://www.fool.com/investing/2025/12/13/1-magnificent-sp-500-dividend-stock-down-x-to-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5916,
         "score": -0.6333
-      },
-      {
-        "title": "Brazil’s largest private bank advises investors to allocate 3% to Bitcoin in 2026",
-        "url": "https://cointelegraph.com/news/itau-asset-recommends-3-percent-bitcoin-allocation-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4307,
-        "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3371154694522384,
-          "price_change_24h": -0.00659
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
