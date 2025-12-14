@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-13T20:28:13.492584+00:00",
+  "updated_at": "2025-12-14T02:21:24.934555+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.057,
-    "fearGreed": 23,
-    "momentum": 0.196,
+    "change24h": 0.004,
+    "vol": 0.063,
+    "fearGreed": 21,
+    "momentum": 0.078,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.436,
-    "global_sentiment": 0.5115,
-    "combined_sentiment": 0.453,
-    "confidence": 0.6261,
+    "crypto_sentiment": 0.4657,
+    "global_sentiment": 0.5079,
+    "combined_sentiment": 0.475,
+    "confidence": 0.5471,
     "counts": {
       "crypto": 64,
-      "global": 42
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 90153,
-      "btc_change_24h": 0.11,
-      "eth_price": 3108.33,
-      "eth_change_24h": 1.14,
+      "btc_price": 90329,
+      "btc_change_24h": 0.05,
+      "eth_price": 3123.63,
+      "eth_change_24h": 1.13,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.7,
       "fear_greed": {
-        "value": 23,
+        "value": 21,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 82417806228,
+        "volume_24h": 99650594349,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-30T08:31:07.061362+00:00",
-      "crypto": 0.3684,
-      "global": 0.4474,
-      "combined": 0.3969,
-      "counts": {
-        "crypto": 73,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-11-30T12:50:09.977545+00:00",
       "crypto": 0.4678,
@@ -1008,53 +998,63 @@
         "crypto": 64,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-12-14T02:21:24.934555+00:00",
+      "crypto": 0.4657,
+      "global": 0.5079,
+      "combined": 0.475,
+      "counts": {
+        "crypto": 64,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "BTC OGs selling covered calls is the main culprit suppressing price: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-ogs-covered-calls-suppressing-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5972,
+        "score": 0.5333
+      },
+      {
         "title": "The stock market’s ‘Santa Claus rally’ hasn’t come to town yet — despite what you’re hearing",
         "url": "https://www.marketwatch.com/story/the-stock-markets-santa-claus-rally-hasnt-come-to-town-so-ignore-the-caroling-c76d847e?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7333,
+        "weight": 0.3715,
         "score": 0.5333
       },
       {
         "title": "Solana ETFs record 7-day inflow streak despite price slump",
         "url": "https://cointelegraph.com/news/solana-etf-7-day-inflow-streak-price-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5836,
+        "weight": 0.2957,
         "score": 0.6667
-      },
-      {
-        "title": "US banks just unlocked a loophole to profit from your crypto trades without holding the bag",
-        "url": "https://cryptoslate.com/us-banks-just-unlocked-a-loophole-to-profit-from-your-crypto-trades-without-holding-the-bag/",
-        "source": "CryptoSlate",
-        "weight": 0.7105,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "The Securities and Exchange Commission publishes crypto custody guide",
-        "url": "https://cointelegraph.com/news/securities-exchange-commission-crypto-custody-guide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7502,
-        "score": -0.9667
-      },
-      {
-        "title": "Fear & Greed 23 (Fear) — bearish",
+        "title": "Fear & Greed 21 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "Eli Lilly Leads Five Stocks Near Buy Points In Divided Market",
-        "url": "https://finance.yahoo.com/m/6d391d7f-73d0-3b01-a677-9756042f1a1c/eli-lilly-leads-five-stocks.html?.tsrc=rss",
+        "title": "VOOG vs. MGK: Tech Exposure is Key",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/13/voog-vs-mgk-tech-exposure-is-key/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3377,
-        "score": -1.0
+        "weight": 0.5882,
+        "score": -0.6333
+      },
+      {
+        "title": "The Securities and Exchange Commission publishes crypto custody guide",
+        "url": "https://cointelegraph.com/news/securities-exchange-commission-crypto-custody-guide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.38,
+        "score": -0.9667
       }
     ],
     "market_movers": {
