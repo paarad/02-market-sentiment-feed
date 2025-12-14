@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-14T04:40:21.907172+00:00",
+  "updated_at": "2025-12-14T08:33:37.935653+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.06,
+    "change24h": -0.007,
+    "vol": 0.056,
     "fearGreed": 21,
-    "momentum": 0.042,
-    "regime": "sideways",
+    "momentum": -0.116,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4497,
-    "global_sentiment": 0.5301,
-    "combined_sentiment": 0.4648,
-    "confidence": 0.5072,
+    "crypto_sentiment": 0.431,
+    "global_sentiment": 0.5202,
+    "combined_sentiment": 0.4499,
+    "confidence": 0.5258,
     "counts": {
-      "crypto": 64,
+      "crypto": 62,
       "global": 41
     },
     "market_indicators": {
-      "btc_price": 90309,
-      "btc_change_24h": -0.09,
-      "eth_price": 3117.36,
-      "eth_change_24h": 0.84,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "btc_price": 90191,
+      "btc_change_24h": -0.27,
+      "eth_price": 3118.58,
+      "eth_change_24h": -0.16,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 112640750238,
+        "volume_24h": 111392831083,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.54,
+        "btc_dominance": 56.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-30T16:30:46.473344+00:00",
-      "crypto": 0.4979,
-      "global": 0.4645,
-      "combined": 0.4954,
-      "counts": {
-        "crypto": 73,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-11-30T19:53:39.780208+00:00",
       "crypto": 0.4749,
@@ -1008,33 +998,50 @@
         "crypto": 64,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-14T08:33:37.935653+00:00",
+      "crypto": 0.431,
+      "global": 0.5202,
+      "combined": 0.4499,
+      "counts": {
+        "crypto": 62,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Standard Chartered, Coinbase deepen alliance to build institutional crypto infrastructure",
+        "url": "https://cointelegraph.com/news/standard-chartered-coinbase-expand-institutional-crypto-partnership?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.667,
+        "score": 0.5833
+      },
+      {
+        "title": "India Tightens Pollution Curbs in New Delhi, Halts Construction",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-14/india-tightens-pollution-curbs-in-new-delhi-halts-construction",
+        "source": "Bloomberg Markets",
+        "weight": 0.6118,
+        "score": 0.3333
+      },
+      {
         "title": "BTC OGs selling covered calls is the main culprit suppressing price: Analyst",
         "url": "https://cointelegraph.com/news/bitcoin-ogs-covered-calls-suppressing-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.457,
-        "score": 0.5333
-      },
-      {
-        "title": "Tony Robbins Says Warren Buffett Told Him The Portfolio He'd Choose To Protect His Family's Wealth — He 'Grabbed My Arm' And Said, 'It's So Simple'",
-        "url": "https://finance.yahoo.com/news/tony-robbins-says-warren-buffett-190113071.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2623,
-        "score": 0.6667
-      },
-      {
-        "title": "The stock market’s ‘Santa Claus rally’ hasn’t come to town yet — despite what you’re hearing",
-        "url": "https://www.marketwatch.com/story/the-stock-markets-santa-claus-rally-hasnt-come-to-town-so-ignore-the-caroling-c76d847e?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2843,
+        "weight": 0.2917,
         "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Why Michael Saylor wants nations to build Bitcoin banks",
+        "url": "https://cointelegraph.com/explained/why-michael-saylor-wants-nations-to-build-bitcoin-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7292,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 21 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "VOOG vs. MGK: Tech Exposure is Key",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/13/voog-vs-mgk-tech-exposure-is-key/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4501,
-        "score": -0.6333
-      },
-      {
-        "title": "The Securities and Exchange Commission publishes crypto custody guide",
-        "url": "https://cointelegraph.com/news/securities-exchange-commission-crypto-custody-guide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2908,
-        "score": -0.9667
+        "title": "Thai Premier’s Support Declines as Election Looms, Survey Shows",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-14/thai-premier-s-support-declines-as-election-looms-survey-shows",
+        "source": "Bloomberg Markets",
+        "weight": 0.555,
+        "score": -0.3333
       }
     ],
     "market_movers": {
