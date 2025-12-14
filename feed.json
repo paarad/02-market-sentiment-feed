@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-14T08:33:37.935653+00:00",
+  "updated_at": "2025-12-14T12:51:47.954439+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.056,
+    "change24h": -0.012,
+    "vol": 0.059,
     "fearGreed": 21,
-    "momentum": -0.116,
-    "regime": "bear",
+    "momentum": -0.209,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.431,
-    "global_sentiment": 0.5202,
-    "combined_sentiment": 0.4499,
-    "confidence": 0.5258,
+    "crypto_sentiment": 0.4528,
+    "global_sentiment": 0.6198,
+    "combined_sentiment": 0.4746,
+    "confidence": 0.5616,
     "counts": {
-      "crypto": 62,
-      "global": 41
+      "crypto": 60,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 90191,
-      "btc_change_24h": -0.27,
-      "eth_price": 3118.58,
-      "eth_change_24h": -0.16,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 89542,
+      "btc_change_24h": -0.84,
+      "eth_price": 3102.38,
+      "eth_change_24h": -0.31,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 111392831083,
+        "volume_24h": 102617284678,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-11-30T19:53:39.780208+00:00",
-      "crypto": 0.4749,
-      "global": 0.4641,
-      "combined": 0.4782,
-      "counts": {
-        "crypto": 69,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-11-30T20:28:28.928458+00:00",
       "crypto": 0.4394,
@@ -1008,39 +998,49 @@
         "crypto": 62,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-14T12:51:47.954439+00:00",
+      "crypto": 0.4528,
+      "global": 0.6198,
+      "combined": 0.4746,
+      "counts": {
+        "crypto": 60,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Trump's Fed pick comes into focus, economic data backlog clears: What to watch this week",
+        "url": "https://finance.yahoo.com/news/trumps-fed-pick-comes-into-focus-economic-data-backlog-clears-what-to-watch-this-week-123145770.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7697,
+        "score": 0.5333
+      },
+      {
+        "title": "Twenty One’s first-day slide highlights investor caution toward BTC-backed stocks",
+        "url": "https://cointelegraph.com/news/twenty-one-s-first-day-slide-highlights-investor-caution-toward-btc-backed-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6263,
+        "score": 0.6333
+      },
+      {
         "title": "Standard Chartered, Coinbase deepen alliance to build institutional crypto infrastructure",
         "url": "https://cointelegraph.com/news/standard-chartered-coinbase-expand-institutional-crypto-partnership?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.667,
+        "weight": 0.4058,
         "score": 0.5833
-      },
-      {
-        "title": "India Tightens Pollution Curbs in New Delhi, Halts Construction",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-14/india-tightens-pollution-curbs-in-new-delhi-halts-construction",
-        "source": "Bloomberg Markets",
-        "weight": 0.6118,
-        "score": 0.3333
-      },
-      {
-        "title": "BTC OGs selling covered calls is the main culprit suppressing price: Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-ogs-covered-calls-suppressing-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2917,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Why Michael Saylor wants nations to build Bitcoin banks",
-        "url": "https://cointelegraph.com/explained/why-michael-saylor-wants-nations-to-build-bitcoin-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin will ‘dump below $70K’ thanks to hawkish Japan: Macro analysts",
+        "url": "https://cointelegraph.com/news/bitcoin-dump-below-70k-hawkish-japan-macro-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7292,
-        "score": -0.6667
+        "weight": 0.6081,
+        "score": -1.0
       },
       {
         "title": "Fear & Greed 21 (Fear) — bearish",
@@ -1050,11 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Thai Premier’s Support Declines as Election Looms, Survey Shows",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-14/thai-premier-s-support-declines-as-election-looms-survey-shows",
-        "source": "Bloomberg Markets",
-        "weight": 0.555,
-        "score": -0.3333
+        "title": "Why Michael Saylor wants nations to build Bitcoin banks",
+        "url": "https://cointelegraph.com/explained/why-michael-saylor-wants-nations-to-build-bitcoin-banks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4436,
+        "score": -0.6667
       }
     ],
     "market_movers": {
