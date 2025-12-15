@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-15T04:47:09.366375+00:00",
+  "updated_at": "2025-12-15T08:40:45.545152+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.059,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 16,
-    "momentum": -0.098,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4355,
-    "global_sentiment": 0.3924,
-    "combined_sentiment": 0.4427,
-    "confidence": 0.4837,
+    "crypto_sentiment": 0.4217,
+    "global_sentiment": 0.4473,
+    "combined_sentiment": 0.4369,
+    "confidence": 0.5923,
     "counts": {
-      "crypto": 60,
-      "global": 46
+      "crypto": 63,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 89659,
-      "btc_change_24h": -0.58,
-      "eth_price": 3120.74,
-      "eth_change_24h": 0.33,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 89826,
+      "btc_change_24h": -0.4,
+      "eth_price": 3139.05,
+      "eth_change_24h": 0.63,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 134046688978,
+        "volume_24h": 140308557836,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.45,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-01T16:37:23.422187+00:00",
-      "crypto": 0.3916,
-      "global": 0.4224,
-      "combined": 0.4122,
-      "counts": {
-        "crypto": 73,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-01T19:53:48.843832+00:00",
       "crypto": 0.3942,
@@ -1008,61 +998,71 @@
         "crypto": 60,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-12-15T08:40:45.545152+00:00",
+      "crypto": 0.4217,
+      "global": 0.4473,
+      "combined": 0.4369,
+      "counts": {
+        "crypto": 63,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Morgan Stanley's Xing on China Data",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-15/morgan-stanley-s-xing-on-china-data-video",
+        "title": "Hong Kong’s Big Year for IPOs to Close With Final Rush of Deals",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-15/hong-kong-s-big-year-for-ipos-to-close-with-final-rush-of-deals",
         "source": "Bloomberg Markets",
-        "weight": 0.6713,
-        "score": 0.6667
+        "weight": 0.6697,
+        "score": 0.6333
       },
       {
-        "title": "Korea Zinc Shares Jump on Report of $6.8 Billion US Smelter",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-15/korea-zinc-shares-jump-on-report-of-6-8-billion-us-smelter",
+        "title": "Weak US Job Data Could Lift Stocks, Says Morgan Stanley’s Wilson",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-15/morgan-stanley-s-wilson-says-weak-us-job-data-could-lift-stocks",
         "source": "Bloomberg Markets",
-        "weight": 0.6804,
+        "weight": 0.7289,
         "score": 0.5333
       },
       {
-        "title": "Thai Baht Climbs to Four-Year High Ahead of BOT Rate Decision",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-15/usd-thb-thai-baht-surges-to-four-year-high-ahead-of-bot-rate-decision",
-        "source": "Bloomberg Markets",
-        "weight": 0.6147,
-        "score": 0.5333
+        "title": "ETH, SOL, ADA Slide as Bitcoin Sees Year End Profit-Taking",
+        "url": "https://www.coindesk.com/markets/2025/12/15/eth-sol-ada-slide-as-bitcoin-sees-year-end-profit-taking",
+        "source": "CoinDesk",
+        "weight": 0.8659,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "China Shadow Bank’s Missed Payments Show Growing Property Stress",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-15/china-shadow-bank-s-missed-payments-show-growing-property-stress",
-        "source": "Bloomberg Markets",
-        "weight": 0.5643,
-        "score": -1.0
-      },
-      {
-        "title": "China’s Weakest Retail Sales Outside Covid Add to Economic Risks",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-15/china-s-retail-sales-weaken-to-worst-since-covid-as-growth-slows",
-        "source": "Bloomberg Markets",
-        "weight": 0.58,
-        "score": -0.9667
-      },
-      {
-        "title": "Asia Market Open: Bitcoin Edges Lower As Stocks Retreat On Clouded Tech Outlook",
-        "url": "https://cryptonews.com/news/bitcoin-price-stocks-retreat-clouded-tech-outlook-asia-market-open/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.737,
+        "title": "Doha Bank Issues $150M Digital Bond Using Euroclear’s DLT Platform",
+        "url": "https://www.coindesk.com/markets/2025/12/15/doha-bank-issues-usd150m-digital-bond-using-euroclear-s-dlt-platform",
+        "source": "CoinDesk",
+        "weight": 0.8205,
         "score": -0.6667
+      },
+      {
+        "title": "Hong Kong court finds pro-democracy activist Jimmy Lai guilty of sedition and collusion with foreign forces",
+        "url": "https://www.cnbc.com/2025/12/15/hong-kong-court-finds-pro-democracy-activist-jimmy-lai-guilty-of-collusion-with-foreign-forces.html",
+        "source": "CNBC Markets",
+        "weight": 0.7394,
+        "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 16 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3006936221781489,
-          "price_change_24h": -0.0088
+          "volume_mcap_ratio": 0.31685394398469147,
+          "price_change_24h": -2e-05
         }
       ],
       "momentum_shifts": []
