@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-15T13:00:58.841723+00:00",
+  "updated_at": "2025-12-15T16:40:20.513817+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.051,
+    "vol": 0.135,
     "fearGreed": 16,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.891,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3564,
-    "global_sentiment": 0.4006,
-    "combined_sentiment": 0.3841,
-    "confidence": 0.6849,
+    "crypto_sentiment": 0.3462,
+    "global_sentiment": 0.4666,
+    "combined_sentiment": 0.3818,
+    "confidence": 0.7641,
     "counts": {
       "crypto": 64,
-      "global": 50
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 89699,
-      "btc_change_24h": 0.2,
-      "eth_price": 3157.08,
-      "eth_change_24h": 1.78,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 86398,
+      "btc_change_24h": -2.88,
+      "eth_price": 2985.87,
+      "eth_change_24h": -3.39,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 132746372356,
+        "volume_24h": 176177264236,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.35,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-01T20:27:23.368376+00:00",
-      "crypto": 0.3858,
-      "global": 0.4109,
-      "combined": 0.4069,
-      "counts": {
-        "crypto": 75,
-        "global": 48
-      }
-    },
     {
       "ts": "2025-12-02T02:05:01.977651+00:00",
       "crypto": 0.421,
@@ -1008,61 +998,71 @@
         "crypto": 64,
         "global": 50
       }
+    },
+    {
+      "ts": "2025-12-15T16:40:20.513817+00:00",
+      "crypto": 0.3462,
+      "global": 0.4666,
+      "combined": 0.3818,
+      "counts": {
+        "crypto": 64,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin's Recovery Rally Built on Shaky Ground as BTC Slips Under $90K",
-        "url": "https://decrypt.co/352308/bitcoins-recovery-rally-built-on-shaky-ground-as-btc-slips-under-90k",
-        "source": "Decrypt",
-        "weight": 0.8092,
+        "title": "Nov. jobs data, 2026 outlook, YF's Company of the Year: 3 Things",
+        "url": "https://finance.yahoo.com/video/nov-jobs-data-2026-outlook-140707528.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5956,
+        "score": 0.9
+      },
+      {
+        "title": "ICP Slips Back Toward Recent Lows as Rally Attempt Fades",
+        "url": "https://www.coindesk.com/markets/2025/12/15/icp-slips-back-toward-recent-lows-as-rally-attempt-fades",
+        "source": "CoinDesk",
+        "weight": 0.9109,
         "score": 0.5333
       },
       {
-        "title": "Armored Cars to Combat Thieves See $660 Million Boom in Brazil",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-15/armored-cars-to-combat-thieves-see-660-million-boom-in-brazil",
+        "title": "Medical Supplier Medline Guides IPO to Upper Half of Price Range",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-15/medical-supplier-medline-guides-ipo-to-upper-half-of-price-range",
         "source": "Bloomberg Markets",
-        "weight": 0.6341,
-        "score": 0.6667
-      },
-      {
-        "title": "'Stranger Things' ushered in a new era for Netflix",
-        "url": "https://www.cnbc.com/2025/12/13/stranger-things-netflix.html",
-        "source": "CNBC Markets",
-        "weight": 0.6506,
-        "score": 0.5833
+        "weight": 0.7637,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "BOE Faces End of Easing Cycle, Ukraine & US to Resume Peace-Plan Talks | The Opening Trade 12/15",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-15/the-opening-trade-12-15-video",
+        "title": "Expect Next Fed Cut in 2H 2026: Kochugovindan",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-15/expect-next-fed-cut-in-2h-2026-kochugovindan-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7225,
+        "weight": 0.7746,
         "score": -0.9667
       },
       {
-        "title": "Stock Futures Rebound Following Brutal Tech Selloff",
-        "url": "https://finance.yahoo.com/m/640f77b4-8318-3773-8340-352c64a026a9/stock-futures-rebound.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.675,
-        "score": -1.0
+        "title": "Bitcoin is \"Digital Labubu”! Crypto Plummets! SEC & OCC usher in Crypto Era!",
+        "url": "https://decrypt.co/videos/interviews/VURuwyDF/bitcoin-is-digital-labubu-crypto-plummets-sec-occ-usher-in-crypto-era",
+        "source": "Decrypt",
+        "weight": 0.8029,
+        "score": -0.9
       },
       {
-        "title": "Stocks Rise at Start of Data, Rate Decision Week; Sydney Mass Shooting | Bloomberg Brief 12/15/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-15/bloomberg-brief-12-15-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7142,
-        "score": -0.9
+        "title": "Stock Market News for Dec 15, 2025",
+        "url": "https://finance.yahoo.com/news/stock-market-news-dec-15-143100541.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6236,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3103585187002774,
-          "price_change_24h": 7e-05
+          "volume_mcap_ratio": 0.3969653519657394,
+          "price_change_24h": -0.00928
         }
       ],
       "momentum_shifts": []
