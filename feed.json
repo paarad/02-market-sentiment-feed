@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-15T20:32:14.922239+00:00",
+  "updated_at": "2025-12-16T02:09:39.334972+00:00",
   "indicators": {
-    "change24h": -0.065,
-    "vol": 0.166,
-    "fearGreed": 16,
+    "change24h": -0.071,
+    "vol": 0.174,
+    "fearGreed": 11,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2913,
-    "global_sentiment": 0.3337,
-    "combined_sentiment": 0.3296,
-    "confidence": 0.8206,
+    "crypto_sentiment": 0.2971,
+    "global_sentiment": 0.3984,
+    "combined_sentiment": 0.3394,
+    "confidence": 0.7934,
     "counts": {
-      "crypto": 71,
-      "global": 46
+      "crypto": 74,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 85760,
-      "btc_change_24h": -3.31,
-      "eth_price": 2924.82,
-      "eth_change_24h": -5.45,
+      "btc_price": 85912,
+      "btc_change_24h": -4.13,
+      "eth_price": 2942.4,
+      "eth_change_24h": -5.82,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.05,
       "fear_greed": {
-        "value": 16,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 198816917756,
-        "high_activity_coins": 1
+        "volume_24h": 199660931183,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.4,
+        "btc_dominance": 56.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-02T08:38:21.348242+00:00",
-      "crypto": 0.3636,
-      "global": 0.3176,
-      "combined": 0.3825,
-      "counts": {
-        "crypto": 62,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-12-02T12:58:19.091952+00:00",
       "crypto": 0.3984,
@@ -1008,61 +998,76 @@
         "crypto": 71,
         "global": 46
       }
+    },
+    {
+      "ts": "2025-12-16T02:09:39.334972+00:00",
+      "crypto": 0.2971,
+      "global": 0.3984,
+      "combined": 0.3394,
+      "counts": {
+        "crypto": 74,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "This S&P 500 Stock Has Wall Street Wagging Its Tail",
-        "url": "https://finance.yahoo.com/m/2e165f24-b7b2-3bbd-b675-ce3c7ecbbc4b/this-s%26p-500-stock-has-wall.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5885,
+        "title": "Trump says he's 'strongly' considering reclassifying pot via executive order",
+        "url": "https://www.cnbc.com/2025/12/15/trump-pot-executive-order-reclassification.html",
+        "source": "CNBC Markets",
+        "weight": 0.482,
         "score": 0.6667
       },
       {
-        "title": "ICP Slips Back Toward Recent Lows as Rally Attempt Fades",
-        "url": "https://www.coindesk.com/markets/2025/12/15/icp-slips-back-toward-recent-lows-as-rally-attempt-fades",
+        "title": "SBI, Startale to launch regulated yen stablecoin for global settlement",
+        "url": "https://www.coindesk.com/business/2025/12/15/sbi-startale-to-launch-regulated-yen-stablecoin-for-global-settlement",
         "source": "CoinDesk",
-        "weight": 0.5829,
-        "score": 0.5333
+        "weight": 0.8745,
+        "score": 0.3333
       },
       {
-        "title": "Tech Mega-Deals and Wall Street’s 2026 Shake-Up| Open Interest 12/15/2025",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-15/open-interest-12-15-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.613,
-        "score": 0.4
+        "title": "How surprise year-end income could derail your tax strategy — and how to plan for it",
+        "url": "https://www.cnbc.com/2025/12/15/capital-gains-bracket.html",
+        "source": "CNBC Markets",
+        "weight": 0.4258,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Warner Bros. Discovery Sale Opens Antitrust Eyes",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-15/warner-bros-discovery-sale-opens-antitrust-eyes-video",
+        "title": "Elham Teams With Daiwa-Backed Bank to Tap Japan Private Credit",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-16/elham-teams-with-daiwa-backed-bank-to-tap-japan-private-credit",
         "source": "Bloomberg Markets",
-        "weight": 0.7475,
+        "weight": 0.6996,
+        "score": -0.9667
+      },
+      {
+        "title": "New York AG sues UPS for allegedly shorting Christmas season workers' wages",
+        "url": "https://www.cnbc.com/2025/12/15/new-york-lawsuit-ups-christmas-wage-steal-seasonal-workers.html",
+        "source": "CNBC Markets",
+        "weight": 0.5643,
         "score": -1.0
       },
       {
-        "title": "Strategy’s STRD credit spread has tightened over past month even as bitcoin struggles",
-        "url": "https://www.coindesk.com/markets/2025/12/14/strategy-s-strd-draws-scrutiny-after-advocate-questions-whether-its-yield-is-mispriced",
-        "source": "CoinDesk",
-        "weight": 0.7515,
-        "score": -0.9333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Monday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-monday-190852753.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6813,
-        "score": -0.9667
+        "title": "Trump sues BBC for $5 billion, claims defamation from Panorama documentary",
+        "url": "https://www.cnbc.com/2025/12/16/trump-bbc-panorama-election-defamation-lawsuit.html",
+        "source": "CNBC Markets",
+        "weight": 0.7401,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44948107195208103,
-          "price_change_24h": -0.01613
+          "volume_mcap_ratio": 0.44703954014156705,
+          "price_change_24h": -0.01129
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3167169349029852,
+          "price_change_24h": -0.02614
         }
       ],
       "momentum_shifts": []
