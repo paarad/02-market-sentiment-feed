@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-16T19:53:46.168867+00:00",
+  "updated_at": "2025-12-16T20:32:02.758477+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.07,
+    "change24h": 0.028,
+    "vol": 0.077,
     "fearGreed": 11,
-    "momentum": 0.358,
+    "momentum": 0.491,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4016,
-    "global_sentiment": 0.4754,
-    "combined_sentiment": 0.4241,
-    "confidence": 0.8147,
+    "crypto_sentiment": 0.4132,
+    "global_sentiment": 0.3495,
+    "combined_sentiment": 0.4224,
+    "confidence": 0.811,
     "counts": {
-      "crypto": 65,
-      "global": 37
+      "crypto": 64,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 87736,
-      "btc_change_24h": 1.8,
-      "eth_price": 2954.81,
-      "eth_change_24h": 0.51,
+      "btc_price": 87580,
+      "btc_change_24h": 2.12,
+      "eth_price": 2952.49,
+      "eth_change_24h": 0.94,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 191685800732,
+        "volume_24h": 187508649337,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.7,
+        "btc_dominance": 56.66,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-03T04:35:01.023907+00:00",
-      "crypto": 0.5424,
-      "global": 0.4888,
-      "combined": 0.5308,
-      "counts": {
-        "crypto": 74,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-12-03T08:38:32.190953+00:00",
       "crypto": 0.5478,
@@ -1008,6 +998,16 @@
         "crypto": 65,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-16T20:32:02.758477+00:00",
+      "crypto": 0.4132,
+      "global": 0.3495,
+      "combined": 0.4224,
+      "counts": {
+        "crypto": 64,
+        "global": 39
+      }
     }
   ],
   "drivers": {
@@ -1016,18 +1016,18 @@
         "title": "Startup backed by Altman, JPMorgan announces capital lending partnership with Amazon",
         "url": "https://www.cnbc.com/2025/12/16/slope-sam-altman-jpmorgan-amazon.html",
         "source": "CNBC Markets",
-        "weight": 0.7313,
+        "weight": 0.6793,
         "score": 0.9167
       },
       {
         "title": "BNB tops $870, outperforming crypto majors as volume surges",
         "url": "https://www.coindesk.com/markets/2025/12/16/bnb-tops-usd870-outperforming-crypto-majors-as-volume-surges",
         "source": "CoinDesk",
-        "weight": 0.9209,
+        "weight": 0.8555,
         "score": 0.5333
       },
       {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 1.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1036,33 +1036,33 @@
     ],
     "negative": [
       {
-        "title": "Crypto Lending Protocol Aave Says SEC Has Ended 4-Year Investigation: 'DeFi Will Win'",
-        "url": "https://decrypt.co/352584/crypto-lending-protocol-aave-says-sec-ended-4-year-investigation",
-        "source": "Decrypt",
-        "weight": 0.7949,
-        "score": -0.9667
-      },
-      {
-        "title": "First Brands Founder James Says Lenders to Blame for Bankruptcy",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-16/first-brands-founder-james-says-lenders-to-blame-for-bankruptcy",
-        "source": "Bloomberg Markets",
-        "weight": 0.7629,
+        "title": "Bitcoin Market Decline a 'Healthy Retracement,' Says MARA's Thiel",
+        "url": "https://finance.yahoo.com/video/bitcoin-market-decline-healthy-retracement-200321778.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.757,
         "score": -1.0
       },
       {
-        "title": "These 3 Dividend ETFs Outperformed Every Market Crash Since 2000",
-        "url": "https://247wallst.com/investing/2025/12/16/these-3-dividend-etfs-outperformed-every-market-crash-since-2000/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6961,
+        "title": "What Trump's reclassification of pot and CBD could mean for seniors, research and stocks",
+        "url": "https://www.cnbc.com/2025/12/16/trump-medicare-pot-seniors-marijuana-reclassification.html",
+        "source": "CNBC Markets",
+        "weight": 0.7875,
         "score": -0.9333
+      },
+      {
+        "title": "Crypto Lending Protocol Aave Says SEC Has Ended 4-Year Investigation: 'DeFi Will Win'",
+        "url": "https://decrypt.co/352584/crypto-lending-protocol-aave-says-sec-ended-4-year-investigation",
+        "source": "Decrypt",
+        "weight": 0.7384,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4279703174753498,
-          "price_change_24h": -0.01929
+          "volume_mcap_ratio": 0.42170628256359916,
+          "price_change_24h": -0.01947
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-16",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3563,
-      "crypto_high": 0.4016,
-      "crypto_low": 0.2971,
-      "global_avg": 0.4384,
-      "global_high": 0.4754,
-      "global_low": 0.3984,
-      "combined_avg": 0.3871,
-      "combined_high": 0.4241,
-      "combined_low": 0.3394
-    },
-    "market_indicators_24h": {
-      "change24h": 0.02,
-      "vol": 0.07,
-      "fearGreed": 11,
-      "momentum": 0.358,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-16T19:53:46.168867+00:00"
   }
 }
