@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-17T08:38:59.757713+00:00",
+  "updated_at": "2025-12-17T12:59:11.545095+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.052,
+    "change24h": -0.012,
+    "vol": 0.043,
     "fearGreed": 16,
-    "momentum": 0.101,
-    "regime": "sideways",
+    "momentum": -0.207,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3731,
-    "global_sentiment": 0.3969,
-    "combined_sentiment": 0.3963,
-    "confidence": 0.7373,
+    "crypto_sentiment": 0.3354,
+    "global_sentiment": 0.3741,
+    "combined_sentiment": 0.3661,
+    "confidence": 0.764,
     "counts": {
-      "crypto": 63,
-      "global": 43
+      "crypto": 66,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 86435,
-      "btc_change_24h": 0.35,
-      "eth_price": 2924.02,
-      "eth_change_24h": -0.13,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 86985,
+      "btc_change_24h": -0.28,
+      "eth_price": 2924.63,
+      "eth_change_24h": -0.85,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 163641719452,
+        "volume_24h": 158404844985,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.51,
+        "btc_dominance": 56.66,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-03T19:53:41.316913+00:00",
-      "crypto": 0.6049,
-      "global": 0.4662,
-      "combined": 0.5758,
-      "counts": {
-        "crypto": 74,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-03T20:32:15.846399+00:00",
       "crypto": 0.5933,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-17T12:59:11.545095+00:00",
+      "crypto": 0.3354,
+      "global": 0.3741,
+      "combined": 0.3661,
+      "counts": {
+        "crypto": 66,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Meesho Is India’s Top-Performing Big IPO of 2025 After 95% Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-17/meesho-is-india-s-top-performing-big-ipo-of-2025-after-95-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.6777,
-        "score": 1.0
+        "title": "The December Rally Has Yet to Materialize. Time Is Running Out for Santa Claus.",
+        "url": "https://finance.yahoo.com/m/a2d63627-f9fb-33f2-be55-0469f4a1edf4/the-december-rally-has-yet-to.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7277,
+        "score": 0.6
       },
       {
-        "title": "Lightning Network hits record capacity on crypto exchange adoption",
-        "url": "https://cointelegraph.com/news/lightning-network-capacity-hits-all-time-high-as-major-exchanges-add-more-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5482,
-        "score": 0.6667
-      },
-      {
-        "title": "Japan's exports record fastest growth in nine months, sharply beating expectations",
-        "url": "https://www.cnbc.com/2025/12/17/japans-exports-imports-trade-data-november.html",
+        "title": "WBD tells shareholders Netflix deal is superior to Paramount offer: 'It was not a hard choice,' chairman tells CNBC",
+        "url": "https://www.cnbc.com/2025/12/17/wbd-board-paramount-skydance-reject-value.html",
         "source": "CNBC Markets",
-        "weight": 0.446,
-        "score": 0.6667
+        "weight": 0.7938,
+        "score": 0.3333
+      },
+      {
+        "title": "CAR’s crypto push fueled ‘state capture’ by elites, criminal networks: Report",
+        "url": "https://cointelegraph.com/news/central-african-republic-crypto-state-capture-criminal-networks-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7388,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Former Theta Executives Accuse Crypto Firm's CEO of Fraud, Retaliation",
-        "url": "https://decrypt.co/352671/former-theta-executives-accuse-crypto-firms-ceo-fraud-retaliation",
-        "source": "Decrypt",
-        "weight": 0.5524,
+        "title": "German Energy Demand Seen Sliding to Historic Low This Year",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-17/german-energy-demand-seen-sliding-to-historic-low-this-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.7361,
         "score": -1.0
       },
       {
-        "title": "UK Inflation Drop Clears Way for BOE Rate Cut",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-17/uk-inflation-drop-clears-way-for-boe-rate-cut-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7398,
-        "score": -0.6667
+        "title": "Securitize to offer first fully onchain trading for real public stocks in early 2026",
+        "url": "https://www.coindesk.com/business/2025/12/17/securitize-to-offer-first-fully-onchain-trading-for-real-public-stocks-in-early-2026",
+        "source": "CoinDesk",
+        "weight": 0.987,
+        "score": -0.6333
       },
       {
-        "title": "Billionaire Castel’s Beer Empire Is Rocked by Family, CEO Split",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-17/billionaire-castel-s-beer-empire-is-roiled-by-family-ceo-split",
+        "title": "Ex-Greensill Executives Charged in Germany Over Bankruptcy",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-17/ex-greensill-executives-charged-in-germany-over-2021-bankruptcy",
         "source": "Bloomberg Markets",
-        "weight": 0.7473,
-        "score": -0.6333
+        "weight": 0.6149,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36753629853609426,
-          "price_change_24h": -0.0184
+          "volume_mcap_ratio": 0.35604259593001386,
+          "price_change_24h": -0.02419
         }
       ],
       "momentum_shifts": []
