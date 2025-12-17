@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-17T02:04:39.415720+00:00",
+  "updated_at": "2025-12-17T04:38:11.129536+00:00",
   "indicators": {
     "change24h": 0.017,
-    "vol": 0.06,
+    "vol": 0.059,
     "fearGreed": 16,
-    "momentum": 0.303,
+    "momentum": 0.299,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3812,
-    "global_sentiment": 0.4051,
-    "combined_sentiment": 0.403,
-    "confidence": 0.7739,
+    "crypto_sentiment": 0.3619,
+    "global_sentiment": 0.4389,
+    "combined_sentiment": 0.3913,
+    "confidence": 0.7799,
     "counts": {
-      "crypto": 64,
-      "global": 36
+      "crypto": 65,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 87548,
-      "btc_change_24h": 1.93,
-      "eth_price": 2951.82,
-      "eth_change_24h": 0.19,
+      "btc_price": 86909,
+      "btc_change_24h": 1.56,
+      "eth_price": 2929.62,
+      "eth_change_24h": 0.64,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 171788841209,
+        "volume_24h": 169907013815,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.65,
+        "btc_dominance": 56.61,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-03T12:58:40.942667+00:00",
-      "crypto": 0.5908,
-      "global": 0.5181,
-      "combined": 0.5696,
-      "counts": {
-        "crypto": 64,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-03T16:37:38.730726+00:00",
       "crypto": 0.6568,
@@ -1008,30 +998,40 @@
         "crypto": 64,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-12-17T04:38:11.129536+00:00",
+      "crypto": 0.3619,
+      "global": 0.4389,
+      "combined": 0.3913,
+      "counts": {
+        "crypto": 65,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin Treasury KindlyMD Faces Nasdaq Delisting With Stock Down 99%",
-        "url": "https://decrypt.co/352614/bitcoin-treasury-kindlymd-faces-nasdaq-delisting-stock-down-99-percent",
-        "source": "Decrypt",
-        "weight": 0.5529,
-        "score": 0.9667
-      },
-      {
         "title": "Japan's exports record fastest growth in nine months, sharply beating expectations",
         "url": "https://www.cnbc.com/2025/12/17/japans-exports-imports-trade-data-november.html",
         "source": "CNBC Markets",
-        "weight": 0.6528,
+        "weight": 0.7092,
         "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Cboe Australia Unfazed by Sale Process, Sees More Mining IPOs",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-17/cboe-australia-unfazed-by-sale-process-sees-more-mining-ipos",
+        "source": "Bloomberg Markets",
+        "weight": 0.7201,
+        "score": 0.6333
+      },
+      {
+        "title": "Gold Edges Toward Record as Traders Watch US Data and Venezuela",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-16/gold-steadies-as-tepid-us-jobs-data-fail-to-spur-rate-cut-bets",
+        "source": "Bloomberg Markets",
+        "weight": 0.4394,
+        "score": 1.0
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Healthy Returns: 2026 will be the year of obesity pills from Novo Nordisk, Eli Lilly",
         "url": "https://www.cnbc.com/2025/12/16/healthy-returns-obesity-pills-from-novo-nordisk-eli-lilly-are-coming.html",
         "source": "CNBC Markets",
-        "weight": 0.7608,
+        "weight": 0.5661,
         "score": -1.0
+      },
+      {
+        "title": "SAFE Crypto Act will have scammers shaking in their boots: Crypto lawyer",
+        "url": "https://cointelegraph.com/news/safe-crypto-act-could-scare-crypto-fraudsters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.789,
+        "score": -0.6333
       },
       {
         "title": "Nvidia's Depreciation Time Bomb: Jim Chanos Warns Of 'Massive Financial Risk' For CoreWeave, Oracle",
         "url": "https://finance.yahoo.com/news/nvidias-depreciation-time-bomb-jim-003106193.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6681,
-        "score": -1.0
-      },
-      {
-        "title": "FTC Compels Nomad Operator to Repay Users After $186M Crypto Bridge Hack in 2022",
-        "url": "https://decrypt.co/352621/ftc-nomad-operator-repay-users-186m-crypto-bridge-hack-2022",
-        "source": "Decrypt",
-        "weight": 0.5695,
+        "weight": 0.4971,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39153711902000277,
-          "price_change_24h": -0.00228
+          "volume_mcap_ratio": 0.3776536761510276,
+          "price_change_24h": -0.01044
         }
       ],
       "momentum_shifts": []
