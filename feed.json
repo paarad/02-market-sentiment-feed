@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-17T04:38:11.129536+00:00",
+  "updated_at": "2025-12-17T08:38:59.757713+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.059,
+    "change24h": 0.006,
+    "vol": 0.052,
     "fearGreed": 16,
-    "momentum": 0.299,
+    "momentum": 0.101,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3619,
-    "global_sentiment": 0.4389,
-    "combined_sentiment": 0.3913,
-    "confidence": 0.7799,
+    "crypto_sentiment": 0.3731,
+    "global_sentiment": 0.3969,
+    "combined_sentiment": 0.3963,
+    "confidence": 0.7373,
     "counts": {
-      "crypto": 65,
-      "global": 40
+      "crypto": 63,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 86909,
-      "btc_change_24h": 1.56,
-      "eth_price": 2929.62,
-      "eth_change_24h": 0.64,
+      "btc_price": 86435,
+      "btc_change_24h": 0.35,
+      "eth_price": 2924.02,
+      "eth_change_24h": -0.13,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 169907013815,
+        "volume_24h": 163641719452,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.61,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-03T16:37:38.730726+00:00",
-      "crypto": 0.6568,
-      "global": 0.4412,
-      "combined": 0.6127,
-      "counts": {
-        "crypto": 64,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-12-03T19:53:41.316913+00:00",
       "crypto": 0.6049,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-17T08:38:59.757713+00:00",
+      "crypto": 0.3731,
+      "global": 0.3969,
+      "combined": 0.3963,
+      "counts": {
+        "crypto": 63,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Japan's exports record fastest growth in nine months, sharply beating expectations",
-        "url": "https://www.cnbc.com/2025/12/17/japans-exports-imports-trade-data-november.html",
-        "source": "CNBC Markets",
-        "weight": 0.7092,
+        "title": "Meesho Is India’s Top-Performing Big IPO of 2025 After 95% Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-17/meesho-is-india-s-top-performing-big-ipo-of-2025-after-95-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.6777,
+        "score": 1.0
+      },
+      {
+        "title": "Lightning Network hits record capacity on crypto exchange adoption",
+        "url": "https://cointelegraph.com/news/lightning-network-capacity-hits-all-time-high-as-major-exchanges-add-more-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5482,
         "score": 0.6667
       },
       {
-        "title": "Cboe Australia Unfazed by Sale Process, Sees More Mining IPOs",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-17/cboe-australia-unfazed-by-sale-process-sees-more-mining-ipos",
-        "source": "Bloomberg Markets",
-        "weight": 0.7201,
-        "score": 0.6333
-      },
-      {
-        "title": "Gold Edges Toward Record as Traders Watch US Data and Venezuela",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-16/gold-steadies-as-tepid-us-jobs-data-fail-to-spur-rate-cut-bets",
-        "source": "Bloomberg Markets",
-        "weight": 0.4394,
-        "score": 1.0
+        "title": "Japan's exports record fastest growth in nine months, sharply beating expectations",
+        "url": "https://www.cnbc.com/2025/12/17/japans-exports-imports-trade-data-november.html",
+        "source": "CNBC Markets",
+        "weight": 0.446,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Healthy Returns: 2026 will be the year of obesity pills from Novo Nordisk, Eli Lilly",
-        "url": "https://www.cnbc.com/2025/12/16/healthy-returns-obesity-pills-from-novo-nordisk-eli-lilly-are-coming.html",
-        "source": "CNBC Markets",
-        "weight": 0.5661,
+        "title": "Former Theta Executives Accuse Crypto Firm's CEO of Fraud, Retaliation",
+        "url": "https://decrypt.co/352671/former-theta-executives-accuse-crypto-firms-ceo-fraud-retaliation",
+        "source": "Decrypt",
+        "weight": 0.5524,
         "score": -1.0
       },
       {
-        "title": "SAFE Crypto Act will have scammers shaking in their boots: Crypto lawyer",
-        "url": "https://cointelegraph.com/news/safe-crypto-act-could-scare-crypto-fraudsters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.789,
+        "title": "UK Inflation Drop Clears Way for BOE Rate Cut",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-17/uk-inflation-drop-clears-way-for-boe-rate-cut-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7398,
+        "score": -0.6667
+      },
+      {
+        "title": "Billionaire Castel’s Beer Empire Is Rocked by Family, CEO Split",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-17/billionaire-castel-s-beer-empire-is-roiled-by-family-ceo-split",
+        "source": "Bloomberg Markets",
+        "weight": 0.7473,
         "score": -0.6333
-      },
-      {
-        "title": "Nvidia's Depreciation Time Bomb: Jim Chanos Warns Of 'Massive Financial Risk' For CoreWeave, Oracle",
-        "url": "https://finance.yahoo.com/news/nvidias-depreciation-time-bomb-jim-003106193.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4971,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3776536761510276,
-          "price_change_24h": -0.01044
+          "volume_mcap_ratio": 0.36753629853609426,
+          "price_change_24h": -0.0184
         }
       ],
       "momentum_shifts": []
