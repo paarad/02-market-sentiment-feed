@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-16T20:32:02.758477+00:00",
+  "updated_at": "2025-12-17T02:04:39.415720+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.077,
-    "fearGreed": 11,
-    "momentum": 0.491,
+    "change24h": 0.017,
+    "vol": 0.06,
+    "fearGreed": 16,
+    "momentum": 0.303,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4132,
-    "global_sentiment": 0.3495,
-    "combined_sentiment": 0.4224,
-    "confidence": 0.811,
+    "crypto_sentiment": 0.3812,
+    "global_sentiment": 0.4051,
+    "combined_sentiment": 0.403,
+    "confidence": 0.7739,
     "counts": {
       "crypto": 64,
-      "global": 39
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 87580,
-      "btc_change_24h": 2.12,
-      "eth_price": 2952.49,
-      "eth_change_24h": 0.94,
+      "btc_price": 87548,
+      "btc_change_24h": 1.93,
+      "eth_price": 2951.82,
+      "eth_change_24h": 0.19,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
-        "value": 11,
+        "value": 16,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187508649337,
+        "volume_24h": 171788841209,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.66,
+        "btc_dominance": 56.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-03T08:38:32.190953+00:00",
-      "crypto": 0.5478,
-      "global": 0.4656,
-      "combined": 0.533,
-      "counts": {
-        "crypto": 70,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-03T12:58:40.942667+00:00",
       "crypto": 0.5908,
@@ -1008,23 +998,33 @@
         "crypto": 64,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-12-17T02:04:39.415720+00:00",
+      "crypto": 0.3812,
+      "global": 0.4051,
+      "combined": 0.403,
+      "counts": {
+        "crypto": 64,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Startup backed by Altman, JPMorgan announces capital lending partnership with Amazon",
-        "url": "https://www.cnbc.com/2025/12/16/slope-sam-altman-jpmorgan-amazon.html",
-        "source": "CNBC Markets",
-        "weight": 0.6793,
-        "score": 0.9167
+        "title": "Bitcoin Treasury KindlyMD Faces Nasdaq Delisting With Stock Down 99%",
+        "url": "https://decrypt.co/352614/bitcoin-treasury-kindlymd-faces-nasdaq-delisting-stock-down-99-percent",
+        "source": "Decrypt",
+        "weight": 0.5529,
+        "score": 0.9667
       },
       {
-        "title": "BNB tops $870, outperforming crypto majors as volume surges",
-        "url": "https://www.coindesk.com/markets/2025/12/16/bnb-tops-usd870-outperforming-crypto-majors-as-volume-surges",
-        "source": "CoinDesk",
-        "weight": 0.8555,
-        "score": 0.5333
+        "title": "Japan's exports record fastest growth in nine months, sharply beating expectations",
+        "url": "https://www.cnbc.com/2025/12/17/japans-exports-imports-trade-data-november.html",
+        "source": "CNBC Markets",
+        "weight": 0.6528,
+        "score": 0.6667
       },
       {
         "title": "Global crypto market cap up 1.4% — rally",
@@ -1036,33 +1036,33 @@
     ],
     "negative": [
       {
-        "title": "Bitcoin Market Decline a 'Healthy Retracement,' Says MARA's Thiel",
-        "url": "https://finance.yahoo.com/video/bitcoin-market-decline-healthy-retracement-200321778.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.757,
+        "title": "Healthy Returns: 2026 will be the year of obesity pills from Novo Nordisk, Eli Lilly",
+        "url": "https://www.cnbc.com/2025/12/16/healthy-returns-obesity-pills-from-novo-nordisk-eli-lilly-are-coming.html",
+        "source": "CNBC Markets",
+        "weight": 0.7608,
         "score": -1.0
       },
       {
-        "title": "What Trump's reclassification of pot and CBD could mean for seniors, research and stocks",
-        "url": "https://www.cnbc.com/2025/12/16/trump-medicare-pot-seniors-marijuana-reclassification.html",
-        "source": "CNBC Markets",
-        "weight": 0.7875,
-        "score": -0.9333
+        "title": "Nvidia's Depreciation Time Bomb: Jim Chanos Warns Of 'Massive Financial Risk' For CoreWeave, Oracle",
+        "url": "https://finance.yahoo.com/news/nvidias-depreciation-time-bomb-jim-003106193.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6681,
+        "score": -1.0
       },
       {
-        "title": "Crypto Lending Protocol Aave Says SEC Has Ended 4-Year Investigation: 'DeFi Will Win'",
-        "url": "https://decrypt.co/352584/crypto-lending-protocol-aave-says-sec-ended-4-year-investigation",
+        "title": "FTC Compels Nomad Operator to Repay Users After $186M Crypto Bridge Hack in 2022",
+        "url": "https://decrypt.co/352621/ftc-nomad-operator-repay-users-186m-crypto-bridge-hack-2022",
         "source": "Decrypt",
-        "weight": 0.7384,
-        "score": -0.9667
+        "weight": 0.5695,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42170628256359916,
-          "price_change_24h": -0.01947
+          "volume_mcap_ratio": 0.39153711902000277,
+          "price_change_24h": -0.00228
         }
       ],
       "momentum_shifts": []
