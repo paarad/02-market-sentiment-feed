@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-17T19:53:48.929516+00:00",
+  "updated_at": "2025-12-17T20:32:22.536131+00:00",
   "indicators": {
-    "change24h": -0.049,
-    "vol": 0.141,
+    "change24h": -0.041,
+    "vol": 0.121,
     "fearGreed": 16,
-    "momentum": -0.862,
+    "momentum": -0.718,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3955,
-    "global_sentiment": 0.4034,
-    "combined_sentiment": 0.4136,
-    "confidence": 0.8273,
+    "crypto_sentiment": 0.4069,
+    "global_sentiment": 0.4465,
+    "combined_sentiment": 0.4257,
+    "confidence": 0.8221,
     "counts": {
       "crypto": 71,
-      "global": 50
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 85960,
-      "btc_change_24h": -1.9,
-      "eth_price": 2816.83,
-      "eth_change_24h": -4.5,
+      "btc_price": 86091,
+      "btc_change_24h": -1.7,
+      "eth_price": 2828.38,
+      "eth_change_24h": -4.18,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.15,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188576236082,
+        "volume_24h": 193158240919,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.95,
+        "btc_dominance": 56.9,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-04T04:36:21.209504+00:00",
-      "crypto": 0.5219,
-      "global": 0.4832,
-      "combined": 0.515,
-      "counts": {
-        "crypto": 78,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-12-04T08:37:37.153542+00:00",
       "crypto": 0.5447,
@@ -1008,30 +998,40 @@
         "crypto": 71,
         "global": 50
       }
+    },
+    {
+      "ts": "2025-12-17T20:32:22.536131+00:00",
+      "crypto": 0.4069,
+      "global": 0.4465,
+      "combined": 0.4257,
+      "counts": {
+        "crypto": 71,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "US CLO Sales Reach Fresh Record in 2025 as Demand Stays Strong",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-17/us-clo-sales-reach-fresh-record-in-2025-as-demand-stays-strong",
+        "source": "Bloomberg Markets",
+        "weight": 0.7443,
+        "score": 1.0
+      },
+      {
         "title": "Crypto stocks pare gains as bitcoin retreats from $90,000 rally",
         "url": "https://www.coindesk.com/markets/2025/12/17/crypto-stocks-pare-gains-as-bitcoin-retreats-from-usd90-000-rally",
         "source": "CoinDesk",
-        "weight": 0.7035,
+        "weight": 0.6531,
         "score": 0.8667
       },
       {
         "title": "Gold and Oil Rise as Geopolitical Risks Mount",
         "url": "https://www.bloomberg.com/news/videos/2025-12-17/gold-and-oil-rise-as-geopolitical-risks-mount-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6063,
+        "weight": 0.563,
         "score": 1.0
-      },
-      {
-        "title": "Hut 8 and Coinbase outperform as Crypto stocks jump on bitcoin's sudden rally",
-        "url": "https://www.coindesk.com/markets/2025/12/17/hut-8-and-coinbase-outperform-as-crypto-stocks-jump-on-bitcoin-s-sudden-rally",
-        "source": "CoinDesk",
-        "weight": 0.6096,
-        "score": 0.8667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Tricolor CEO received a $6.25 million bonus weeks before company’s bankruptcy, prosecutors say",
         "url": "https://www.cnbc.com/2025/12/17/tricolor-ceo-bonus-bankruptcy-indictment.html",
         "source": "CNBC Markets",
-        "weight": 0.7075,
+        "weight": 0.6569,
         "score": -1.0
       },
       {
         "title": "Equity Markets Fall Intraday as Tech Sector Slides",
         "url": "https://finance.yahoo.com/news/equity-markets-fall-intraday-tech-190725283.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7316,
+        "weight": 0.6793,
         "score": -0.9667
       },
       {
         "title": "Silvergate Bank lawsuit calls for FTX, Alameda clients to weigh in on $10M settlement",
         "url": "https://cointelegraph.com/news/silvergate-bank-lawsuit-ftx-alameda-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6226,
+        "weight": 0.578,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4212218792345852,
-          "price_change_24h": -0.01965
+          "volume_mcap_ratio": 0.4274582106835985,
+          "price_change_24h": -0.00879
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-17",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3814,
-      "crypto_high": 0.4414,
-      "crypto_low": 0.3354,
-      "global_avg": 0.4148,
-      "global_high": 0.4701,
-      "global_low": 0.3741,
-      "combined_avg": 0.404,
-      "combined_high": 0.4535,
-      "combined_low": 0.3661
-    },
-    "market_indicators_24h": {
-      "change24h": -0.049,
-      "vol": 0.141,
-      "fearGreed": 16,
-      "momentum": -0.862,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-17T19:53:48.929516+00:00"
   }
 }
