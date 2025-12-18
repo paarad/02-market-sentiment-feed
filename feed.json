@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-18T16:38:47.423270+00:00",
+  "updated_at": "2025-12-18T19:53:21.211029+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.118,
+    "change24h": -0.03,
+    "vol": 0.116,
     "fearGreed": 17,
-    "momentum": 0.462,
-    "regime": "sideways",
+    "momentum": -0.52,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4459,
-    "global_sentiment": 0.3961,
-    "combined_sentiment": 0.4508,
-    "confidence": 0.8305,
+    "crypto_sentiment": 0.4153,
+    "global_sentiment": 0.3934,
+    "combined_sentiment": 0.4276,
+    "confidence": 0.8303,
     "counts": {
-      "crypto": 75,
-      "global": 47
+      "crypto": 73,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 88127,
-      "btc_change_24h": 1.98,
-      "eth_price": 2942.05,
-      "eth_change_24h": 3.49,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 84534,
+      "btc_change_24h": -1.77,
+      "eth_price": 2780.78,
+      "eth_change_24h": -1.22,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 194364400317,
+        "volume_24h": 216044091506,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.08,
+        "btc_dominance": 56.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-05T02:05:44.188169+00:00",
-      "crypto": 0.5022,
-      "global": 0.4599,
-      "combined": 0.4983,
-      "counts": {
-        "crypto": 64,
-        "global": 31
-      }
-    },
     {
       "ts": "2025-12-05T04:35:53.289550+00:00",
       "crypto": 0.4737,
@@ -1008,61 +998,71 @@
         "crypto": 75,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-12-18T19:53:21.211029+00:00",
+      "crypto": 0.4153,
+      "global": 0.3934,
+      "combined": 0.4276,
+      "counts": {
+        "crypto": 73,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "The Stock Market’s CPI Rally Has Been a Battle. Why It Matters.",
+        "url": "https://finance.yahoo.com/m/8f52a133-81a5-379e-8518-a01622350bfe/the-stock-market%E2%80%99s-cpi-rally.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6805,
+        "score": 0.8667
+      },
+      {
         "title": "CoinDesk 20 Performance Update: Uniswap Surges 8.4% as All Index Constituents Rise",
         "url": "https://www.coindesk.com/coindesk-indices/2025/12/18/coindesk-20-performance-update-uniswap-surges-8-4-as-all-index-constituents-rise",
         "source": "CoinDesk",
-        "weight": 0.765,
+        "weight": 0.526,
         "score": 0.8667
       },
       {
         "title": "Coinbase shares rise as ‘ambitious expansion’ wins analyst praise",
         "url": "https://www.coindesk.com/markets/2025/12/18/coinbase-shares-rise-as-ambitious-expansion-wins-analyst-praise",
         "source": "CoinDesk",
-        "weight": 0.8461,
-        "score": 0.6667
-      },
-      {
-        "title": "Billionaire investor Ron Baron is betting on a big spending mistake by the market, and it's not related to AI",
-        "url": "https://www.cnbc.com/2025/12/18/billionaire-ron-baron-stock-market-mistakes-investment-portfolio-strategy.html",
-        "source": "CNBC Markets",
-        "weight": 0.7582,
+        "weight": 0.5817,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Private Keys Are the Worst Design in Crypto — And It’s Costing Billions",
-        "url": "https://cryptoslate.com/private-keys-are-the-worst-design-in-crypto-and-its-costing-billions/",
-        "source": "CryptoSlate",
-        "weight": 0.699,
-        "score": -1.0
+        "title": "Sector Update: Energy Stocks Fall Thursday Afternoon",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-thursday-185928110.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7212,
+        "score": -0.9667
       },
       {
-        "title": "Activist investor Elliott builds over $1 billion stake in Lululemon, puts forth CEO candidate",
-        "url": "https://www.cnbc.com/2025/12/18/activist-investor-elliott-lululemon-stake-ceo-candidate.html",
-        "source": "CNBC Markets",
-        "weight": 0.7345,
+        "title": "Best Stock to Buy Right Now: Constellation Brands vs. PepsiCo",
+        "url": "https://www.fool.com/investing/2025/12/18/best-stock-to-buy-right-now-constellation-brands-v/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.715,
         "score": -0.9333
       },
       {
-        "title": "S&amp;P 500 Rises on Easing US Inflation Data, Upbeat Tech Outlook",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-18/s-p-500-rises-on-easing-us-inflation-data-upbeat-tech-outlook",
+        "title": "Chevron Continues Loading Venezuelan Oil Amid Tensions",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-18/chevron-continues-to-load-oil-tankers-in-venezuela-amid-tensions",
         "source": "Bloomberg Markets",
-        "weight": 0.6437,
-        "score": -0.9667
+        "weight": 0.6278,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43407298493322016,
-          "price_change_24h": -0.01669
+          "volume_mcap_ratio": 0.4833903375243853,
+          "price_change_24h": -0.01456
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-18",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4557,
+      "crypto_high": 0.4835,
+      "crypto_low": 0.4153,
+      "global_avg": 0.4384,
+      "global_high": 0.5245,
+      "global_low": 0.3934,
+      "combined_avg": 0.4616,
+      "combined_high": 0.4823,
+      "combined_low": 0.4276
+    },
+    "market_indicators_24h": {
+      "change24h": -0.03,
+      "vol": 0.116,
+      "fearGreed": 17,
+      "momentum": -0.52,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-18T19:53:21.211029+00:00"
   }
 }
