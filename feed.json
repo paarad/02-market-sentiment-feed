@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-18T02:05:23.416160+00:00",
+  "updated_at": "2025-12-18T04:39:15.660010+00:00",
   "indicators": {
-    "change24h": -0.051,
-    "vol": 0.136,
+    "change24h": -0.037,
+    "vol": 0.118,
     "fearGreed": 17,
-    "momentum": -0.899,
+    "momentum": -0.642,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4553,
-    "global_sentiment": 0.4693,
-    "combined_sentiment": 0.4639,
-    "confidence": 0.7757,
+    "crypto_sentiment": 0.4835,
+    "global_sentiment": 0.4368,
+    "combined_sentiment": 0.4823,
+    "confidence": 0.7466,
     "counts": {
-      "crypto": 70,
-      "global": 38
+      "crypto": 69,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 86045,
-      "btc_change_24h": -1.67,
-      "eth_price": 2822.58,
-      "eth_change_24h": -4.35,
+      "btc_price": 86830,
+      "btc_change_24h": -0.12,
+      "eth_price": 2839.5,
+      "eth_change_24h": -3.15,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 195003744267,
+        "volume_24h": 199458549250,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 57.16,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-04T12:58:50.248210+00:00",
-      "crypto": 0.583,
-      "global": 0.4916,
-      "combined": 0.5615,
-      "counts": {
-        "crypto": 70,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-12-04T16:38:32.461300+00:00",
       "crypto": 0.5711,
@@ -1008,6 +998,16 @@
         "crypto": 70,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-18T04:39:15.660010+00:00",
+      "crypto": 0.4835,
+      "global": 0.4368,
+      "combined": 0.4823,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Bill Gates, Ken Fisher Rake In $1.7 Billion From Dow Stock That Trounced Nvidia",
         "url": "https://finance.yahoo.com/news/bill-gates-ken-fisher-rake-003109037.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6672,
+        "weight": 0.4962,
         "score": 0.8667
+      },
+      {
+        "title": "World Liberty proposes using 5% of treasury to boost its stablecoin",
+        "url": "https://cointelegraph.com/news/world-liberty-proposes-using-5-treasury-grow-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5937,
+        "score": 0.6667
       },
       {
         "title": "Medical supply firm Medline jumps more than 40% in debut after biggest IPO of 2025",
         "url": "https://www.cnbc.com/2025/12/17/medline-debuts-nasdaq-biggest-ipo-2025.html",
         "source": "CNBC Markets",
-        "weight": 0.7506,
+        "weight": 0.5582,
         "score": 0.6333
-      },
-      {
-        "title": "Watch live: President Trump addresses the nation from the White House",
-        "url": "https://www.cnbc.com/2025/12/17/watch-trump-white-house-address.html",
-        "source": "CNBC Markets",
-        "weight": 0.7939,
-        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Oil Jumps With Venezuela Blockade and Russian Sanctions in Focus",
+        "title": "Copper Retreats With Base Metals as Wider Risk Appetite Sours",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-18/copper-retreats-with-base-metals-as-wider-risk-appetite-sours",
+        "source": "Bloomberg Markets",
+        "weight": 0.5822,
+        "score": -1.0
+      },
+      {
+        "title": "Oil Rises With Venezuela Blockade and Russian Sanctions in Focus",
         "url": "https://www.bloomberg.com/news/articles/2025-12-17/latest-oil-market-news-and-analysis-for-dec-18",
         "source": "Bloomberg Markets",
-        "weight": 0.6219,
+        "weight": 0.4624,
         "score": -1.0
       },
       {
         "title": "Spirit Airlines Eyes Merger With Frontier Amid Restructuring",
         "url": "https://www.bloomberg.com/news/videos/2025-12-17/spirit-eyes-merger-with-frontier-amid-restructuring-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5861,
-        "score": -1.0
-      },
-      {
-        "title": "Wall Street closes lower as AI funding jitters drag tech stocks",
-        "url": "https://finance.yahoo.com/video/wall-street-closes-lower-ai-231847829.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5805,
+        "weight": 0.4358,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4329006070690598,
-          "price_change_24h": -0.01374
+          "volume_mcap_ratio": 0.44406656115763676,
+          "price_change_24h": -0.02562
         }
       ],
       "momentum_shifts": []
