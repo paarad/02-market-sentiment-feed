@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-18T12:57:15.402684+00:00",
+  "updated_at": "2025-12-18T16:38:47.423270+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.101,
+    "change24h": 0.026,
+    "vol": 0.118,
     "fearGreed": 17,
-    "momentum": -0.507,
-    "regime": "bear",
+    "momentum": 0.462,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4621,
-    "global_sentiment": 0.5245,
-    "combined_sentiment": 0.4736,
-    "confidence": 0.7943,
+    "crypto_sentiment": 0.4459,
+    "global_sentiment": 0.3961,
+    "combined_sentiment": 0.4508,
+    "confidence": 0.8305,
     "counts": {
-      "crypto": 71,
-      "global": 40
+      "crypto": 75,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 87171,
-      "btc_change_24h": 0.17,
-      "eth_price": 2868.6,
-      "eth_change_24h": -1.94,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 88127,
+      "btc_change_24h": 1.98,
+      "eth_price": 2942.05,
+      "eth_change_24h": 3.49,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 198490148639,
+        "volume_24h": 194364400317,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.14,
+        "btc_dominance": 57.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-04T20:31:27.321451+00:00",
-      "crypto": 0.5613,
-      "global": 0.5388,
-      "combined": 0.5492,
-      "counts": {
-        "crypto": 64,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-05T02:05:44.188169+00:00",
       "crypto": 0.5022,
@@ -1008,61 +998,71 @@
         "crypto": 71,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-18T16:38:47.423270+00:00",
+      "crypto": 0.4459,
+      "global": 0.3961,
+      "combined": 0.4508,
+      "counts": {
+        "crypto": 75,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin is facing a hidden “supply wall” at $93,000 that creates a ceiling no rally can break right now",
-        "url": "https://cryptoslate.com/bitcoin-is-facing-a-hidden-supply-wall-at-93000-that-creates-a-ceiling-no-rally-can-break-right-now/",
-        "source": "CryptoSlate",
-        "weight": 0.5672,
-        "score": 1.0
+        "title": "CoinDesk 20 Performance Update: Uniswap Surges 8.4% as All Index Constituents Rise",
+        "url": "https://www.coindesk.com/coindesk-indices/2025/12/18/coindesk-20-performance-update-uniswap-surges-8-4-as-all-index-constituents-rise",
+        "source": "CoinDesk",
+        "weight": 0.765,
+        "score": 0.8667
       },
       {
-        "title": "Cybin to Transfer U.S. Stock Exchange Listing to Nasdaq",
-        "url": "https://finance.yahoo.com/news/cybin-transfer-u-stock-exchange-123000649.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7591,
-        "score": 0.6333
+        "title": "Coinbase shares rise as ‘ambitious expansion’ wins analyst praise",
+        "url": "https://www.coindesk.com/markets/2025/12/18/coinbase-shares-rise-as-ambitious-expansion-wins-analyst-praise",
+        "source": "CoinDesk",
+        "weight": 0.8461,
+        "score": 0.6667
       },
       {
-        "title": "Whitbread Up After Activist Corvex Reveals Stake, Seeks Review",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-18/whitbread-up-after-activist-corvex-reveals-stake-seeks-review",
-        "source": "Bloomberg Markets",
-        "weight": 0.7058,
+        "title": "Billionaire investor Ron Baron is betting on a big spending mistake by the market, and it's not related to AI",
+        "url": "https://www.cnbc.com/2025/12/18/billionaire-ron-baron-stock-market-mistakes-investment-portfolio-strategy.html",
+        "source": "CNBC Markets",
+        "weight": 0.7582,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Health care is 'engine' of the job market — and that's risky for the economy",
-        "url": "https://www.cnbc.com/2025/12/18/health-care-jobs.html",
-        "source": "CNBC Markets",
-        "weight": 0.7665,
-        "score": -0.9667
-      },
-      {
-        "title": "XRP’s ‘bearish’ setup may crash price below $1: Analyst",
-        "url": "https://cointelegraph.com/news/xrp-bearish-setup-crash-price-below-1-dollar-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7163,
+        "title": "Private Keys Are the Worst Design in Crypto — And It’s Costing Billions",
+        "url": "https://cryptoslate.com/private-keys-are-the-worst-design-in-crypto-and-its-costing-billions/",
+        "source": "CryptoSlate",
+        "weight": 0.699,
         "score": -1.0
       },
       {
-        "title": "Insmed Stock Plummets 19%. This Is What Sparked the Selloff.",
-        "url": "https://finance.yahoo.com/m/e7a23c17-c5a0-35e8-b032-04792cbc78a5/insmed-stock-plummets-19%25..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7332,
+        "title": "Activist investor Elliott builds over $1 billion stake in Lululemon, puts forth CEO candidate",
+        "url": "https://www.cnbc.com/2025/12/18/activist-investor-elliott-lululemon-stake-ceo-candidate.html",
+        "source": "CNBC Markets",
+        "weight": 0.7345,
         "score": -0.9333
+      },
+      {
+        "title": "S&amp;P 500 Rises on Easing US Inflation Data, Upbeat Tech Outlook",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-18/s-p-500-rises-on-easing-us-inflation-data-upbeat-tech-outlook",
+        "source": "Bloomberg Markets",
+        "weight": 0.6437,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44039184184918373,
-          "price_change_24h": -0.01837
+          "volume_mcap_ratio": 0.43407298493322016,
+          "price_change_24h": -0.01669
         }
       ],
       "momentum_shifts": []
