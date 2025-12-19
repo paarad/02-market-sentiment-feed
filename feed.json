@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-19T02:08:37.799385+00:00",
+  "updated_at": "2025-12-19T04:38:53.697261+00:00",
   "indicators": {
-    "change24h": -0.021,
-    "vol": 0.126,
+    "change24h": 0.02,
+    "vol": 0.142,
     "fearGreed": 16,
-    "momentum": -0.372,
-    "regime": "bear",
+    "momentum": 0.352,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.441,
-    "global_sentiment": 0.4299,
-    "combined_sentiment": 0.4499,
-    "confidence": 0.7936,
+    "crypto_sentiment": 0.4439,
+    "global_sentiment": 0.4844,
+    "combined_sentiment": 0.4566,
+    "confidence": 0.781,
     "counts": {
       "crypto": 72,
-      "global": 38
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 85208,
-      "btc_change_24h": -1.06,
-      "eth_price": 2815.11,
-      "eth_change_24h": -0.37,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 86989,
+      "btc_change_24h": 0.18,
+      "eth_price": 2920.13,
+      "eth_change_24h": 2.82,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 227514541732,
+        "volume_24h": 247388525312,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.07,
+        "btc_dominance": 57.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-05T12:55:38.837238+00:00",
-      "crypto": 0.4012,
-      "global": 0.5158,
-      "combined": 0.4272,
-      "counts": {
-        "crypto": 68,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-05T16:35:11.903240+00:00",
       "crypto": 0.3171,
@@ -1008,52 +998,62 @@
         "crypto": 72,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-19T04:38:53.697261+00:00",
+      "crypto": 0.4439,
+      "global": 0.4844,
+      "combined": 0.4566,
+      "counts": {
+        "crypto": 72,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ICICI Prudential AMC Set for Debut as Global Investors Pile In",
+        "title": "China A500 ETFs Inflows Surge to Record High Toward Year End",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-19/china-a500-etfs-inflows-surge-to-record-high-toward-year-end",
+        "source": "Bloomberg Markets",
+        "weight": 0.7071,
+        "score": 0.8667
+      },
+      {
+        "title": "Chinese Coking Coal Heads for Biggest Weekly Gain Since August",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-19/chinese-coking-coal-heads-for-biggest-weekly-gain-since-august",
+        "source": "Bloomberg Markets",
+        "weight": 0.6797,
+        "score": 0.8667
+      },
+      {
+        "title": "ICICI Prudential AMC Jumps in Debut After $1.2 Billion India IPO",
         "url": "https://www.bloomberg.com/news/articles/2025-12-19/icici-prudential-amc-set-for-debut-as-global-investors-pile-in",
         "source": "Bloomberg Markets",
-        "weight": 0.7427,
-        "score": 0.6333
-      },
-      {
-        "title": "Stock Market Today, Dec. 18: Micron Technology Surges on Record Results and News It Is 'Sold Out'",
-        "url": "https://www.fool.com/coverage/stock-market-today/2025/12/18/stock-market-today-dec-18-micron-technology-surges-on-record-results-and-news-it-is-sold-out/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5819,
-        "score": 0.6667
-      },
-      {
-        "title": "Synthetix returns to Ethereum mainnet after 3 years: ‘We can run it back’",
-        "url": "https://cointelegraph.com/news/synthetix-ethereum-mainnet-return-kain-warwick-bullish-eth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5894,
-        "score": 0.6333
+        "weight": 0.5561,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "Oil Heads for Second Weekly Decline as Glut Concerns Dominate",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-18/latest-oil-market-news-and-analysis-for-dec-18",
-        "source": "Bloomberg Markets",
-        "weight": 0.5962,
+        "title": "SEC flags Bitcoin miner hosting services as subject to securities laws",
+        "url": "https://cointelegraph.com/news/sec-says-hosted-btc-mining-subject-to-securities-laws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6923,
         "score": -1.0
       },
       {
-        "title": "Altcoins plunge as bitcoin's $85,000 test triggers $550 million in liquidations",
-        "url": "https://www.coindesk.com/markets/2025/12/18/altcoins-plunge-as-bitcoin-s-usd85k-test-triggers-usd550m-in-liquidations",
-        "source": "CoinDesk",
-        "weight": 0.6042,
-        "score": -0.9667
+        "title": "Bank of America revamps forecast for 'bridge-to-grid' AI stock",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-revamps-forecast-for-bridge-to-grid-ai-stock?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7523,
+        "score": -0.6667
       },
       {
-        "title": "Nike Sales Beat Overshadowed by Converse, China Slumps",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-18/nike-sales-beat-overshadowed-by-converse-china-slumps-video",
+        "title": "Oil Heads for Second Weekly Decline as Glut Concerns Dominate",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-18/latest-oil-market-news-and-analysis-for-dec-18",
         "source": "Bloomberg Markets",
-        "weight": 0.5782,
+        "weight": 0.4464,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5114115109071098,
-          "price_change_24h": -0.01945
+          "volume_mcap_ratio": 0.5557693614440138,
+          "price_change_24h": -0.01232
         }
       ],
       "momentum_shifts": []
