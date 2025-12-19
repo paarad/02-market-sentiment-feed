@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-19T16:34:57.036693+00:00",
+  "updated_at": "2025-12-19T19:53:49.069671+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.092,
+    "change24h": 0.093,
+    "vol": 0.238,
     "fearGreed": 16,
-    "momentum": 0.351,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.418,
-    "global_sentiment": 0.4579,
-    "combined_sentiment": 0.435,
-    "confidence": 0.7969,
+    "crypto_sentiment": 0.441,
+    "global_sentiment": 0.4678,
+    "combined_sentiment": 0.4531,
+    "confidence": 0.806,
     "counts": {
-      "crypto": 70,
-      "global": 41
+      "crypto": 71,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 88661,
-      "btc_change_24h": 0.65,
-      "eth_price": 2995.82,
-      "eth_change_24h": 2.04,
+      "btc_price": 87847,
+      "btc_change_24h": 3.76,
+      "eth_price": 2985.08,
+      "eth_change_24h": 7.11,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 255220892524,
+        "volume_24h": 229505410098,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.99,
+        "btc_dominance": 56.74,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-06T01:58:51.381786+00:00",
-      "crypto": 0.3448,
-      "global": 0.3743,
-      "combined": 0.3731,
-      "counts": {
-        "crypto": 73,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-12-06T04:30:02.004736+00:00",
       "crypto": 0.3381,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-19T19:53:49.069671+00:00",
+      "crypto": 0.441,
+      "global": 0.4678,
+      "combined": 0.4531,
+      "counts": {
+        "crypto": 71,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Is Bitcoin Primed for a 2026 Breakout? Analysts Weigh History vs. Fundamentals",
-        "url": "https://decrypt.co/353006/is-bitcoin-primed-for-a-2026-breakout-analysts-weigh-history-vs-fundamentals",
-        "source": "Decrypt",
-        "weight": 0.666,
-        "score": 1.0
-      },
-      {
-        "title": "Tech Stocks, Oracle Lead S&amp;P 500 Higher Amid Mass Options Expiry",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-19/tech-stocks-oracle-lead-s-p-500-higher-amid-mass-options-expiry",
-        "source": "Bloomberg Markets",
-        "weight": 0.6639,
-        "score": 1.0
-      },
-      {
-        "title": "Dow, S&P 500 and Nasdaq Climbs as Traders Brace for Options Expirations",
-        "url": "https://finance.yahoo.com/news/dow-p-500-nasdaq-climbs-162602721.html?.tsrc=rss",
+        "title": "3 Stocks Estimated To Be Undervalued By Up To 48.3%",
+        "url": "https://finance.yahoo.com/news/3-stocks-estimated-undervalued-48-173802765.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7864,
-        "score": 0.6667
+        "weight": 0.616,
+        "score": 1.0
+      },
+      {
+        "title": "OpenAI bailed out? Trump Media stock up 40%! Wallet Connect Interview",
+        "url": "https://decrypt.co/videos/interviews/9X1oVPuq/openai-bailed-out-trump-media-stock-up-40-wallet-connect-interview",
+        "source": "Decrypt",
+        "weight": 0.5821,
+        "score": 1.0
+      },
+      {
+        "title": "Wall Street's Holiday Twist: Oracle Eyes TikTok as $7.1 Trillion Options Frenzy Unfolds",
+        "url": "https://finance.yahoo.com/news/wall-streets-holiday-twist-oracle-174514674.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6246,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Oracle stock jumps 7% as cloud provider joins investor group to run TikTok's U.S. business",
+        "title": "SBF's cohorts at FTX take last SEC hit, Ellison banned from company roles for decade",
+        "url": "https://www.coindesk.com/policy/2025/12/19/sbf-s-cohorts-at-ftx-take-last-sec-hit-ellison-banned-from-company-roles-for-decade",
+        "source": "CoinDesk",
+        "weight": 0.8175,
+        "score": -0.9667
+      },
+      {
+        "title": "Nine of the largest pharma companies ink deals with Trump to lower drug prices",
+        "url": "https://www.cnbc.com/2025/12/19/nine-pharma-companies-ink-deals-with-trump-to-lower-drug-prices.html",
+        "source": "CNBC Markets",
+        "weight": 0.7983,
+        "score": -0.9333
+      },
+      {
+        "title": "Oracle stock jumps 8% as cloud provider joins investor group to run TikTok's U.S. business",
         "url": "https://www.cnbc.com/2025/12/19/oracle-stock-tiktok-us-trump-china.html",
         "source": "CNBC Markets",
-        "weight": 0.6724,
+        "weight": 0.6629,
         "score": -0.9667
-      },
-      {
-        "title": "CRWV Stock Crashes 49% in 3 Months: Buy the Dip or Hold Back for Now?",
-        "url": "https://finance.yahoo.com/news/crwv-stock-crashes-49-3-150100969.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6676,
-        "score": -0.9667
-      },
-      {
-        "title": "Wheat Set for Worst Week Since June on Oversupplied World Market",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-19/wheat-set-for-worst-week-since-june-on-oversupplied-world-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.7405,
-        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5777467105960421,
-          "price_change_24h": -0.00577
+          "volume_mcap_ratio": 0.5214543697761332,
+          "price_change_24h": 0.00108
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-19",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4368,
+      "crypto_high": 0.4526,
+      "crypto_low": 0.418,
+      "global_avg": 0.424,
+      "global_high": 0.4844,
+      "global_low": 0.3267,
+      "combined_avg": 0.4463,
+      "combined_high": 0.4566,
+      "combined_low": 0.4329
+    },
+    "market_indicators_24h": {
+      "change24h": 0.093,
+      "vol": 0.238,
+      "fearGreed": 16,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-19T19:53:49.069671+00:00"
   }
 }
