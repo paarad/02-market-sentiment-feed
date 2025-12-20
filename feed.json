@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-20T04:32:24.377354+00:00",
+  "updated_at": "2025-12-20T08:33:13.305083+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.084,
+    "change24h": 0.029,
+    "vol": 0.078,
     "fearGreed": 20,
-    "momentum": 0.589,
+    "momentum": 0.508,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4032,
-    "global_sentiment": 0.4881,
-    "combined_sentiment": 0.4264,
-    "confidence": 0.7122,
+    "crypto_sentiment": 0.3218,
+    "global_sentiment": 0.4656,
+    "combined_sentiment": 0.3635,
+    "confidence": 0.6489,
     "counts": {
-      "crypto": 69,
-      "global": 39
+      "crypto": 67,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 88201,
-      "btc_change_24h": 1.38,
-      "eth_price": 2985.1,
-      "eth_change_24h": 2.04,
+      "btc_price": 88307,
+      "btc_change_24h": 0.67,
+      "eth_price": 2986.1,
+      "eth_change_24h": 1.34,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 184142000513,
+        "volume_24h": 161152150507,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.87,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-06T16:30:48.179779+00:00",
-      "crypto": 0.5409,
-      "global": 0.4568,
-      "combined": 0.5271,
-      "counts": {
-        "crypto": 71,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-06T19:53:42.575326+00:00",
       "crypto": 0.4526,
@@ -1008,61 +998,71 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-12-20T08:33:13.305083+00:00",
+      "crypto": 0.3218,
+      "global": 0.4656,
+      "combined": 0.3635,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.6% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
         "title": "DOJ Releases First Batch of Epstein Files",
         "url": "https://www.bloomberg.com/news/videos/2025-12-19/doj-releases-first-batch-of-epstein-files-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4039,
+        "weight": 0.2541,
         "score": 1.0
       },
       {
         "title": "Why Applied Digital Stock Soared 16.5% on Friday",
         "url": "https://www.fool.com/investing/2025/12/19/why-applied-digital-stock-soared-165-on-friday/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4645,
+        "weight": 0.2921,
         "score": 0.8667
+      },
+      {
+        "title": "Has Kohl's (KSS) Stock Been Good for Investors?",
+        "url": "https://www.fool.com/investing/2025/12/19/has-kohls-kss-stock-been-good-for-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3521,
+        "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Autumn stress test for the crypto market: A correction or a new market paradigm",
+        "url": "https://cryptoslate.com/autumn-stress-test-for-the-crypto-market-a-correction-or-a-new-market-paradigm/",
+        "source": "CryptoSlate",
+        "weight": 0.5587,
+        "score": -0.9667
+      },
+      {
+        "title": "This ETF Trounced the S&P 500 in 2025. Here's Why It Could Do It Again Next Year",
+        "url": "https://www.fool.com/investing/2025/12/20/this-etf-trounced-the-sp-500-in-2025-heres-why-it/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7361,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "FTX, Alameda Execs Will Be Barred From Wall Street Roles for Up to 10 Years",
-        "url": "https://decrypt.co/353184/ftx-alameda-execs-barred-wall-street-roles-10-years",
-        "source": "Decrypt",
-        "weight": 0.3942,
-        "score": -0.9667
-      },
-      {
-        "title": "Nine of the largest pharma companies ink deals with Trump to lower drug prices",
-        "url": "https://www.cnbc.com/2025/12/19/nine-pharma-companies-ink-deals-with-trump-to-lower-drug-prices.html",
-        "source": "CNBC Markets",
-        "weight": 0.3864,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.424593185361782,
-          "price_change_24h": 0.01708
+          "volume_mcap_ratio": 0.37502029502750645,
+          "price_change_24h": 0.01713
         }
       ],
       "momentum_shifts": []
