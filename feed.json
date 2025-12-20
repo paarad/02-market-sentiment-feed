@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-20T16:31:35.730988+00:00",
+  "updated_at": "2025-12-20T19:53:14.678199+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.056,
+    "change24h": -0.006,
+    "vol": 0.078,
     "fearGreed": 20,
-    "momentum": 0.049,
+    "momentum": -0.103,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4074,
-    "global_sentiment": 0.4639,
-    "combined_sentiment": 0.4276,
-    "confidence": 0.6424,
+    "crypto_sentiment": 0.4711,
+    "global_sentiment": 0.5449,
+    "combined_sentiment": 0.4821,
+    "confidence": 0.676,
     "counts": {
-      "crypto": 64,
-      "global": 40
+      "crypto": 63,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 88136,
-      "btc_change_24h": -0.29,
-      "eth_price": 2974.06,
-      "eth_change_24h": -0.27,
+      "btc_price": 88184,
+      "btc_change_24h": 0.29,
+      "eth_price": 2976.8,
+      "eth_change_24h": -0.38,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109722829132,
+        "volume_24h": 84792068529,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.81,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-07T02:20:48.451414+00:00",
-      "crypto": 0.3981,
-      "global": 0.5614,
-      "combined": 0.4287,
-      "counts": {
-        "crypto": 73,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-07T04:36:19.726208+00:00",
       "crypto": 0.4347,
@@ -1008,45 +998,55 @@
         "crypto": 64,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-20T19:53:14.678199+00:00",
+      "crypto": 0.4711,
+      "global": 0.5449,
+      "combined": 0.4821,
+      "counts": {
+        "crypto": 63,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "If You Invested $1K in Palantir at the Beginning of 2025, Here’s How Much You’d Have Now",
+        "url": "https://finance.yahoo.com/news/invested-1k-palantir-beginning-2025-162531199.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5363,
+        "score": 0.8667
+      },
+      {
         "title": "Brazil’s Gen Z drives crypto boom as stablecoins, income tokens surge",
         "url": "https://www.coindesk.com/business/2025/12/20/brazil-s-gen-z-drives-crypto-boom-as-stablecoins-income-tokens-surge",
         "source": "CoinDesk",
-        "weight": 0.9392,
+        "weight": 0.637,
         "score": 0.5333
       },
       {
         "title": "A Signal Seen Only Once Before: History’s Forecast for the S&P 500’s Next Move",
         "url": "https://247wallst.com/investing/2025/12/20/a-signal-seen-only-once-before-historys-forecast-for-the-sp-500s-next-move/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6957,
+        "weight": 0.4718,
         "score": 0.6667
-      },
-      {
-        "title": "Cocoa Prices Are Plunging. Why Is Chocolate Still So Expensive?",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-20/cocoa-prices-are-plunging-why-is-chocolate-still-so-expensive",
-        "source": "Bloomberg Markets",
-        "weight": 0.3353,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "OpenAI, Microsoft Sued Over ChatGPT's Alleged Role in Connecticut Murder-Suicide",
+        "url": "https://decrypt.co/353227/openai-microsoft-sued-over-chatgpt-connecticut-murder-suicide",
+        "source": "Decrypt",
+        "weight": 0.6848,
+        "score": -1.0
+      },
+      {
         "title": "Better High-Return ETF: SOXL vs. SSO",
         "url": "https://www.fool.com/coverage/etfs/2025/12/20/better-high-return-etf-soxl-vs-sso/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7586,
-        "score": -0.9667
-      },
-      {
-        "title": "Is IVV or QQQ a Better Choice for Investors? How These Popular ETFs Compare on Risk and Returns",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/20/is-ivv-or-qqq-a-better-choice-for-investors-how-these-popular-etfs-compare-on-risk-and-returns/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4929,
+        "weight": 0.5145,
         "score": -0.9667
       },
       {
@@ -1064,5 +1064,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-20",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3817,
+      "crypto_high": 0.4711,
+      "crypto_low": 0.3081,
+      "global_avg": 0.4578,
+      "global_high": 0.5449,
+      "global_low": 0.3053,
+      "combined_avg": 0.4078,
+      "combined_high": 0.4821,
+      "combined_low": 0.3398
+    },
+    "market_indicators_24h": {
+      "change24h": -0.006,
+      "vol": 0.078,
+      "fearGreed": 20,
+      "momentum": -0.103,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-20T19:53:14.678199+00:00"
   }
 }
