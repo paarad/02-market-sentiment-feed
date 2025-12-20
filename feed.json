@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-19T20:30:21.718448+00:00",
+  "updated_at": "2025-12-20T02:01:51.246394+00:00",
   "indicators": {
-    "change24h": 0.089,
-    "vol": 0.229,
-    "fearGreed": 16,
+    "change24h": 0.079,
+    "vol": 0.187,
+    "fearGreed": 20,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4432,
-    "global_sentiment": 0.3522,
-    "combined_sentiment": 0.4451,
-    "confidence": 0.7957,
+    "crypto_sentiment": 0.3784,
+    "global_sentiment": 0.479,
+    "combined_sentiment": 0.4071,
+    "confidence": 0.7455,
     "counts": {
-      "crypto": 70,
-      "global": 34
+      "crypto": 69,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 87957,
-      "btc_change_24h": 3.73,
-      "eth_price": 2986.97,
-      "eth_change_24h": 7.27,
+      "btc_price": 88039,
+      "btc_change_24h": 3.26,
+      "eth_price": 2974.56,
+      "eth_change_24h": 5.72,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 16,
+        "value": 20,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 224966078833,
+        "volume_24h": 208820785172,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.77,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-06T08:32:48.537557+00:00",
-      "crypto": 0.3286,
-      "global": 0.4614,
-      "combined": 0.3682,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-06T12:51:02.860129+00:00",
       "crypto": 0.4091,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-20T02:01:51.246394+00:00",
+      "crypto": 0.3784,
+      "global": 0.479,
+      "combined": 0.4071,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "OpenAI bailed out? Trump Media stock up 40%! Wallet Connect Interview",
-        "url": "https://decrypt.co/videos/interviews/9X1oVPuq/openai-bailed-out-trump-media-stock-up-40-wallet-connect-interview",
-        "source": "Decrypt",
-        "weight": 0.5426,
+        "title": "DOJ Releases First Batch of Epstein Files",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-19/doj-releases-first-batch-of-epstein-files-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5398,
         "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 4.4% — rally",
+        "title": "Why Applied Digital Stock Soared 16.5% on Friday",
+        "url": "https://www.fool.com/investing/2025/12/19/why-applied-digital-stock-soared-165-on-friday/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6206,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 3.6% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Is Bitcoin Primed for a 2026 Breakout? Analysts Weigh History vs. Fundamentals",
-        "url": "https://decrypt.co/353006/is-bitcoin-primed-for-a-2026-breakout-analysts-weigh-history-vs-fundamentals",
-        "source": "Decrypt",
-        "weight": 0.4233,
-        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Petroperu Bonds Slump to Two-Year Low on Restructuring Reports",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-19/petroperu-bonds-slump-to-two-year-low-on-restructuring-reports",
-        "source": "Bloomberg Markets",
-        "weight": 0.758,
-        "score": -1.0
-      },
-      {
-        "title": "SBF's cohorts at FTX take last SEC hit, Ellison banned from company roles for decade",
-        "url": "https://www.coindesk.com/policy/2025/12/19/sbf-s-cohorts-at-ftx-take-last-sec-hit-ellison-banned-from-company-roles-for-decade",
-        "source": "CoinDesk",
-        "weight": 0.7619,
+        "title": "FTX, Alameda Execs Will Be Barred From Wall Street Roles for Up to 10 Years",
+        "url": "https://decrypt.co/353184/ftx-alameda-execs-barred-wall-street-roles-10-years",
+        "source": "Decrypt",
+        "weight": 0.5268,
         "score": -0.9667
       },
       {
         "title": "Nine of the largest pharma companies ink deals with Trump to lower drug prices",
         "url": "https://www.cnbc.com/2025/12/19/nine-pharma-companies-ink-deals-with-trump-to-lower-drug-prices.html",
         "source": "CNBC Markets",
-        "weight": 0.7818,
+        "weight": 0.5163,
         "score": -0.9333
+      },
+      {
+        "title": "SEC confirms years-long director bans for former Alameda, FTX executives",
+        "url": "https://cointelegraph.com/news/sec-confirms-years-long-director-bans-for-former-alameda-ftx-executives?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.474,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5110189021400509,
-          "price_change_24h": -0.00215
+          "volume_mcap_ratio": 0.47830432229560005,
+          "price_change_24h": 0.00589
         }
       ],
       "momentum_shifts": []
