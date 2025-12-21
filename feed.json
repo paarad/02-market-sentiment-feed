@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-21T02:21:24.813188+00:00",
+  "updated_at": "2025-12-21T04:41:01.337868+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.042,
+    "change24h": -0.004,
+    "vol": 0.045,
     "fearGreed": 20,
-    "momentum": -0.08,
-    "regime": "sideways",
+    "momentum": -0.078,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4009,
-    "global_sentiment": 0.626,
-    "combined_sentiment": 0.4362,
-    "confidence": 0.6326,
+    "crypto_sentiment": 0.3931,
+    "global_sentiment": 0.4366,
+    "combined_sentiment": 0.4146,
+    "confidence": 0.5976,
     "counts": {
       "crypto": 64,
-      "global": 42
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 87970,
-      "btc_change_24h": -0.12,
-      "eth_price": 2967.65,
-      "eth_change_24h": -0.36,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 88071,
+      "btc_change_24h": -0.21,
+      "eth_price": 2975.84,
+      "eth_change_24h": -0.29,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 75967023549,
+        "volume_24h": 75496404497,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-07T12:49:50.428932+00:00",
-      "crypto": 0.4084,
-      "global": 0.6149,
-      "combined": 0.4409,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-12-07T16:30:28.259035+00:00",
       "crypto": 0.2972,
@@ -1008,6 +998,16 @@
         "crypto": 64,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-12-21T04:41:01.337868+00:00",
+      "crypto": 0.3931,
+      "global": 0.4366,
+      "combined": 0.4146,
+      "counts": {
+        "crypto": 64,
+        "global": 45
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Is Meta Stock a Buy Headed Into 2026?",
         "url": "https://www.fool.com/investing/2025/12/20/is-meta-stock-a-buy-headed-into-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7149,
+        "weight": 0.5464,
         "score": 0.6667
       },
       {
         "title": "3 Monster Dividend Stocks Yielding As Much As 13.6%",
         "url": "https://www.fool.com/investing/2025/12/20/3-monster-dividend-stocks-yielding-as-much-as-136/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6709,
+        "weight": 0.5128,
         "score": 0.3333
       },
       {
         "title": "If You Invested $1K in Palantir at the Beginning of 2025, Here’s How Much You’d Have Now",
         "url": "https://finance.yahoo.com/news/invested-1k-palantir-beginning-2025-162531199.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.254,
+        "weight": 0.1941,
         "score": 0.8667
       }
     ],
     "negative": [
+      {
+        "title": "VUG Has Delivered Larger Gains, VOO Sports a Higher Dividend Yield and Lower Fees",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/20/vug-has-delivered-larger-gains-voo-sports-a-higher-dividend-yield-and-lower-fees/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6423,
+        "score": -0.9667
+      },
+      {
+        "title": "XLK vs. IYW: Which is the Better Choice for Tech-Focused Investors?",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/20/xlk-vs-iyw-which-is-the-better-choice-for-tech-focused-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6991,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Bitcoin’s inability to reclaim $90,000 exposes a deep structural fracture that could trap investors during the next unwind",
-        "url": "https://cryptoslate.com/bitcoin-struggles-to-reclaim-90000-amid-plummeting-liquidity-and-waning-market-depth/",
-        "source": "CryptoSlate",
-        "weight": 0.3707,
-        "score": -0.9333
-      },
-      {
-        "title": "OpenAI, Microsoft Sued Over ChatGPT's Alleged Role in Connecticut Murder-Suicide",
-        "url": "https://decrypt.co/353227/openai-microsoft-sued-over-chatgpt-connecticut-murder-suicide",
-        "source": "Decrypt",
-        "weight": 0.3243,
-        "score": -1.0
       }
     ],
     "market_movers": {
