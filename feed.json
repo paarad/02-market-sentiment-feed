@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-21T12:52:23.134905+00:00",
+  "updated_at": "2025-12-21T16:31:29.741495+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.057,
+    "change24h": -0.008,
+    "vol": 0.081,
     "fearGreed": 20,
-    "momentum": -0.043,
+    "momentum": -0.137,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4656,
-    "global_sentiment": 0.5168,
-    "combined_sentiment": 0.4756,
-    "confidence": 0.534,
+    "crypto_sentiment": 0.2047,
+    "global_sentiment": 0.5482,
+    "combined_sentiment": 0.2826,
+    "confidence": 0.652,
     "counts": {
-      "crypto": 63,
-      "global": 39
+      "crypto": 65,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 88571,
-      "btc_change_24h": 0.41,
-      "eth_price": 2987.61,
-      "eth_change_24h": -0.0,
+      "btc_price": 88198,
+      "btc_change_24h": 0.07,
+      "eth_price": 2976.77,
+      "eth_change_24h": 0.08,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 81777686873,
+        "volume_24h": 90817711350,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.89,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-07T20:28:01.835588+00:00",
-      "crypto": 0.4772,
-      "global": 0.5142,
-      "combined": 0.4841,
-      "counts": {
-        "crypto": 72,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-08T02:06:39.711097+00:00",
       "crypto": 0.4657,
@@ -1008,53 +998,63 @@
         "crypto": 63,
         "global": 39
       }
+    },
+    {
+      "ts": "2025-12-21T16:31:29.741495+00:00",
+      "crypto": 0.2047,
+      "global": 0.5482,
+      "combined": 0.2826,
+      "counts": {
+        "crypto": 65,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Jim Cramer on Ralph Lauren: “One of My Favorite Apparel Stocks in This Environment”",
+        "url": "https://finance.yahoo.com/news/jim-cramer-ralph-lauren-one-151407937.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6893,
+        "score": 0.5333
+      },
+      {
         "title": "Three top Wall Street analysts stay bullish on Nvidia stock. Here's why",
         "url": "https://www.cnbc.com/2025/12/21/three-top-wall-street-analysts-stay-bullish-on-nvidia-stock-heres-why.html",
         "source": "CNBC Markets",
-        "weight": 0.7943,
+        "weight": 0.5209,
         "score": 0.5333
       },
       {
         "title": "Stocks enter final stretch of 2025 just off record highs: What to watch this week",
         "url": "https://finance.yahoo.com/news/stocks-enter-final-stretch-of-2025-just-off-record-highs-what-to-watch-this-week-124151339.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7839,
+        "weight": 0.5141,
         "score": 0.5333
-      },
-      {
-        "title": "Klarna partners with Coinbase to accept stablecoin funding from institutions",
-        "url": "https://cointelegraph.com/news/klarna-partners-coinbase-usdc-institutional-funding?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7649,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 20 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "VUG Has Delivered Larger Gains, VOO Sports a Higher Dividend Yield and Lower Fees",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/20/vug-has-delivered-larger-gains-voo-sports-a-higher-dividend-yield-and-lower-fees/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2494,
+        "title": "Bitcoin traders split between $70K crash and BTC price rebound within days",
+        "url": "https://cointelegraph.com/news/bitcoin-traders-split-between-70k-crash-btc-price-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.924,
         "score": -0.9667
       },
       {
-        "title": "XLK vs. IYW: Which is the Better Choice for Tech-Focused Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/20/xlk-vs-iyw-which-is-the-better-choice-for-tech-focused-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2714,
-        "score": -0.6333
+        "title": "From Coinbase to Ripple: The Biggest Crypto Cases Dumped by Trump's SEC",
+        "url": "https://decrypt.co/308273/trump-sec-ending-crypto-lawsuits-investigations",
+        "source": "Decrypt",
+        "weight": 0.8247,
+        "score": -1.0
+      },
+      {
+        "title": "Elizabeth Warren is using PancakeSwap to force Trump’s regulators into a conflict trap they can’t escape",
+        "url": "https://cryptoslate.com/pancakeswap-warren-trump-wlfi-crypto-security-risks/",
+        "source": "CryptoSlate",
+        "weight": 0.713,
+        "score": -0.9667
       }
     ],
     "market_movers": {
