@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-21T04:41:01.337868+00:00",
+  "updated_at": "2025-12-21T08:33:53.202588+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.045,
+    "change24h": -0.006,
+    "vol": 0.052,
     "fearGreed": 20,
-    "momentum": -0.078,
-    "regime": "bear",
+    "momentum": -0.1,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3931,
-    "global_sentiment": 0.4366,
-    "combined_sentiment": 0.4146,
-    "confidence": 0.5976,
+    "crypto_sentiment": 0.3758,
+    "global_sentiment": 0.4264,
+    "combined_sentiment": 0.4007,
+    "confidence": 0.5246,
     "counts": {
-      "crypto": 64,
-      "global": 45
+      "crypto": 62,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 88071,
-      "btc_change_24h": -0.21,
-      "eth_price": 2975.84,
-      "eth_change_24h": -0.29,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 88286,
+      "btc_change_24h": -0.03,
+      "eth_price": 2990.49,
+      "eth_change_24h": 0.16,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 75496404497,
+        "volume_24h": 74866928308,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-07T16:30:28.259035+00:00",
-      "crypto": 0.2972,
-      "global": 0.5651,
-      "combined": 0.3533,
-      "counts": {
-        "crypto": 72,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-12-07T19:53:39.901145+00:00",
       "crypto": 0.4769,
@@ -1008,6 +998,16 @@
         "crypto": 64,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-12-21T08:33:53.202588+00:00",
+      "crypto": 0.3758,
+      "global": 0.4264,
+      "combined": 0.4007,
+      "counts": {
+        "crypto": 62,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Is Meta Stock a Buy Headed Into 2026?",
         "url": "https://www.fool.com/investing/2025/12/20/is-meta-stock-a-buy-headed-into-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5464,
+        "weight": 0.349,
         "score": 0.6667
       },
       {
         "title": "3 Monster Dividend Stocks Yielding As Much As 13.6%",
         "url": "https://www.fool.com/investing/2025/12/20/3-monster-dividend-stocks-yielding-as-much-as-136/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5128,
+        "weight": 0.3275,
         "score": 0.3333
       },
       {
         "title": "If You Invested $1K in Palantir at the Beginning of 2025, Here’s How Much You’d Have Now",
         "url": "https://finance.yahoo.com/news/invested-1k-palantir-beginning-2025-162531199.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.1941,
+        "weight": 0.124,
         "score": 0.8667
       }
     ],
     "negative": [
-      {
-        "title": "VUG Has Delivered Larger Gains, VOO Sports a Higher Dividend Yield and Lower Fees",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/20/vug-has-delivered-larger-gains-voo-sports-a-higher-dividend-yield-and-lower-fees/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6423,
-        "score": -0.9667
-      },
-      {
-        "title": "XLK vs. IYW: Which is the Better Choice for Tech-Focused Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/20/xlk-vs-iyw-which-is-the-better-choice-for-tech-focused-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6991,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "VUG Has Delivered Larger Gains, VOO Sports a Higher Dividend Yield and Lower Fees",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/20/vug-has-delivered-larger-gains-voo-sports-a-higher-dividend-yield-and-lower-fees/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4102,
+        "score": -0.9667
+      },
+      {
+        "title": "XLK vs. IYW: Which is the Better Choice for Tech-Focused Investors?",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/20/xlk-vs-iyw-which-is-the-better-choice-for-tech-focused-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4465,
+        "score": -0.6333
       }
     ],
     "market_movers": {
