@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-22T02:20:33.102395+00:00",
+  "updated_at": "2025-12-22T04:46:37.735776+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.058,
+    "change24h": 0.014,
+    "vol": 0.079,
     "fearGreed": 25,
-    "momentum": 0.04,
+    "momentum": 0.241,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2708,
-    "global_sentiment": 0.4656,
-    "combined_sentiment": 0.3252,
-    "confidence": 0.6409,
+    "crypto_sentiment": 0.3212,
+    "global_sentiment": 0.4249,
+    "combined_sentiment": 0.3596,
+    "confidence": 0.6445,
     "counts": {
-      "crypto": 71,
+      "crypto": 70,
       "global": 41
     },
     "market_indicators": {
-      "btc_price": 88242,
-      "btc_change_24h": 0.31,
-      "eth_price": 2997.03,
-      "eth_change_24h": 1.01,
+      "btc_price": 88961,
+      "btc_change_24h": 1.04,
+      "eth_price": 3036.84,
+      "eth_change_24h": 2.12,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113576424442,
+        "volume_24h": 116100447962,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-08T12:56:31.715419+00:00",
-      "crypto": 0.5314,
-      "global": 0.502,
-      "combined": 0.5237,
-      "counts": {
-        "crypto": 72,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-12-08T16:36:33.327314+00:00",
       "crypto": 0.4979,
@@ -1008,53 +998,63 @@
         "crypto": 71,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-22T04:46:37.735776+00:00",
+      "crypto": 0.3212,
+      "global": 0.4249,
+      "combined": 0.3596,
+      "counts": {
+        "crypto": 70,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold Rises to Record High on Rate-Cut Bets, Geopolitical Strife",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-21/silver-hits-record-high-on-rate-cut-bets-and-geopolitical-strife",
+        "title": "AI-linked IPOs in China are exploding. But it's not easy for foreigners to join the party",
+        "url": "https://www.cnbc.com/2025/12/22/metax-moore-threads-ipos-exploded-but-its-not-easy-for-foreigners-to-join-the-party.html",
+        "source": "CNBC Markets",
+        "weight": 0.753,
+        "score": 1.0
+      },
+      {
+        "title": "Copper Charges Toward $12,000 a Ton in 2025’s Record-Setting Run",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-22/copper-charges-toward-12-000-a-ton-in-2025-s-record-setting-run",
         "source": "Bloomberg Markets",
-        "weight": 0.5922,
+        "weight": 0.7285,
         "score": 0.6667
       },
       {
         "title": "Asia Stocks Rally as Gold, Silver Hit Record Highs: Markets Wrap",
         "url": "https://www.bloomberg.com/news/articles/2025-12-21/asian-stocks-look-higher-on-year-end-rally-hopes-markets-wrap",
         "source": "Bloomberg Markets",
-        "weight": 0.5061,
-        "score": 0.6667
-      },
-      {
-        "title": "Are Investors About to See a Santa Claus Rally in the Market?",
-        "url": "https://www.fool.com/investing/2025/12/21/are-investors-see-santa-claus-rally-in-market/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5034,
-        "score": 0.5333
+        "weight": 0.382,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "SOXL vs. SPXL: These Leveraged ETFs Swing Big for Potentially Lucrative Returns -- but Are They Worth the Risk?",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/21/soxl-vs-spxl-these-leveraged-etfs-swing-big-for-potentially-lucrative-returns-but-are-they-worth-the-risk/?.tsrc=rss",
+        "title": "Jacobio Strikes New Cancer Drug Deal with AstraZeneca",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-22/jacobio-strikes-new-cancer-drug-deal-with-astrazeneca-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6952,
+        "score": -0.9333
+      },
+      {
+        "title": "SCHD Offers a Higher Yield While FDVV Grows Faster",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/21/schd-offers-higher-yield-while-fdvv-grows-faster/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7121,
+        "weight": 0.6042,
         "score": -0.9667
       },
       {
-        "title": "Fintechs’ prediction market addons will cost them in churn: Inversion CEO",
-        "url": "https://cointelegraph.com/news/prediction-markets-cost-fintechs-user-churn-inversion-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.772,
-        "score": -0.6667
-      },
-      {
-        "title": "Fear & Greed 25 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "SOXL vs. SPXL: These Leveraged ETFs Swing Big for Potentially Lucrative Returns -- but Are They Worth the Risk?",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/21/soxl-vs-spxl-these-leveraged-etfs-swing-big-for-potentially-lucrative-returns-but-are-they-worth-the-risk/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5375,
+        "score": -0.9667
       }
     ],
     "market_movers": {
