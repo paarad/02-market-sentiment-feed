@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-22T19:53:43.147395+00:00",
+  "updated_at": "2025-12-22T20:30:23.916413+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.045,
+    "change24h": -0.005,
+    "vol": 0.036,
     "fearGreed": 25,
-    "momentum": -0.021,
+    "momentum": -0.085,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5485,
-    "global_sentiment": 0.5424,
-    "combined_sentiment": 0.5399,
-    "confidence": 0.7838,
+    "crypto_sentiment": 0.5471,
+    "global_sentiment": 0.514,
+    "combined_sentiment": 0.5365,
+    "confidence": 0.7742,
     "counts": {
       "crypto": 74,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 88197,
-      "btc_change_24h": -0.36,
-      "eth_price": 2981.03,
-      "eth_change_24h": -0.27,
+      "btc_price": 87999,
+      "btc_change_24h": -0.3,
+      "eth_price": 2971.96,
+      "eth_change_24h": -0.56,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158774647674,
-        "high_activity_coins": 2
+        "volume_24h": 161511707326,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.85,
+        "btc_dominance": 56.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-09T04:35:04.698753+00:00",
-      "crypto": 0.4918,
-      "global": 0.4115,
-      "combined": 0.4864,
-      "counts": {
-        "crypto": 68,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-12-09T08:38:31.507877+00:00",
       "crypto": 0.5006,
@@ -1008,6 +998,16 @@
         "crypto": 74,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-12-22T20:30:23.916413+00:00",
+      "crypto": 0.5471,
+      "global": 0.514,
+      "combined": 0.5365,
+      "counts": {
+        "crypto": 74,
+        "global": 42
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Crypto prices again muted as gold surges to new record, U.S. stocks advance",
         "url": "https://www.coindesk.com/markets/2025/12/22/crypto-prices-again-muted-as-gold-surges-to-new-record-u-s-stocks-advance",
         "source": "CoinDesk",
-        "weight": 0.7812,
+        "weight": 0.728,
         "score": 1.0
+      },
+      {
+        "title": "Stock Market Today: Dow, Nasdaq Hold Gains; Solar Stock Rallies On Google News (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/ea849d8e-7ace-3556-a76d-86cdcfebfe7b/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7353,
+        "score": 0.8667
       },
       {
         "title": "Ether analysts see ‘upward breakout’ as ETH price returns to $3K",
         "url": "https://cointelegraph.com/news/ethereum-upward-breakout-eth-price-returns-3k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5962,
+        "weight": 0.5556,
         "score": 1.0
-      },
-      {
-        "title": "The NBA is pursuing ownership groups for a potential basketball league in Europe",
-        "url": "https://www.cnbc.com/2025/12/22/nba-basketball-league-in-europe.html",
-        "source": "CNBC Markets",
-        "weight": 0.5822,
-        "score": 0.9167
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Trump halts wind projects, including Coastal Virginia Offshore Wind, Dominion stock drops 5%",
         "url": "https://www.cnbc.com/2025/12/22/trump-offshore-wind-cvow-dominion.html",
         "source": "CNBC Markets",
-        "weight": 0.7165,
+        "weight": 0.6677,
         "score": -0.9667
       },
       {
         "title": "Wall Street’s Year-End Buying Drives Stocks Higher: Markets Wrap",
         "url": "https://finance.yahoo.com/news/stocks-climb-commodities-gold-hits-063533147.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.738,
+        "weight": 0.7563,
         "score": -0.6667
       },
       {
         "title": "Sector Update: Energy Stocks Gain Monday Afternoon",
         "url": "https://finance.yahoo.com/news/sector-energy-stocks-gain-monday-190153358.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.724,
+        "weight": 0.6746,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3660147901059846,
-          "price_change_24h": -0.01305
-        },
-        {
-          "symbol": "AAVE",
-          "volume_mcap_ratio": 0.35328792995708586,
-          "price_change_24h": -13.03218
+          "volume_mcap_ratio": 0.3734605401279474,
+          "price_change_24h": -0.01908
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-22",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4435,
-      "crypto_high": 0.563,
-      "crypto_low": 0.2708,
-      "global_avg": 0.5117,
-      "global_high": 0.6702,
-      "global_low": 0.4249,
-      "combined_avg": 0.4586,
-      "combined_high": 0.545,
-      "combined_low": 0.3252
-    },
-    "market_indicators_24h": {
-      "change24h": -0.001,
-      "vol": 0.045,
-      "fearGreed": 25,
-      "momentum": -0.021,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-22T19:53:43.147395+00:00"
   }
 }
