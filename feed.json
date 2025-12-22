@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-21T20:28:42.343901+00:00",
+  "updated_at": "2025-12-22T02:20:33.102395+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.072,
-    "fearGreed": 20,
-    "momentum": -0.048,
+    "change24h": 0.002,
+    "vol": 0.058,
+    "fearGreed": 25,
+    "momentum": 0.04,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2347,
-    "global_sentiment": 0.4451,
-    "combined_sentiment": 0.2965,
-    "confidence": 0.6499,
+    "crypto_sentiment": 0.2708,
+    "global_sentiment": 0.4656,
+    "combined_sentiment": 0.3252,
+    "confidence": 0.6409,
     "counts": {
-      "crypto": 68,
-      "global": 33
+      "crypto": 71,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 88294,
-      "btc_change_24h": 0.07,
-      "eth_price": 2989.08,
-      "eth_change_24h": 0.34,
+      "btc_price": 88242,
+      "btc_change_24h": 0.31,
+      "eth_price": 2997.03,
+      "eth_change_24h": 1.01,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 20,
+        "value": 25,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 94687728415,
+        "volume_24h": 113576424442,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.85,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-08T08:39:14.450662+00:00",
-      "crypto": 0.4718,
-      "global": 0.4926,
-      "combined": 0.4783,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-12-08T12:56:31.715419+00:00",
       "crypto": 0.5314,
@@ -1008,53 +998,63 @@
         "crypto": 68,
         "global": 33
       }
+    },
+    {
+      "ts": "2025-12-22T02:20:33.102395+00:00",
+      "crypto": 0.2708,
+      "global": 0.4656,
+      "combined": 0.3252,
+      "counts": {
+        "crypto": 71,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Jim Cramer on Ralph Lauren: “One of My Favorite Apparel Stocks in This Environment”",
-        "url": "https://finance.yahoo.com/news/jim-cramer-ralph-lauren-one-151407937.html?.tsrc=rss",
+        "title": "Gold Rises to Record High on Rate-Cut Bets, Geopolitical Strife",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-21/silver-hits-record-high-on-rate-cut-bets-and-geopolitical-strife",
+        "source": "Bloomberg Markets",
+        "weight": 0.5922,
+        "score": 0.6667
+      },
+      {
+        "title": "Asia Stocks Rally as Gold, Silver Hit Record Highs: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-21/asian-stocks-look-higher-on-year-end-rally-hopes-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.5061,
+        "score": 0.6667
+      },
+      {
+        "title": "Are Investors About to See a Santa Claus Rally in the Market?",
+        "url": "https://www.fool.com/investing/2025/12/21/are-investors-see-santa-claus-rally-in-market/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4365,
-        "score": 0.5333
-      },
-      {
-        "title": "Why Bitcoin Billionaire Arthur Hayes Expects BTC to Hit $200K by March",
-        "url": "https://decrypt.co/353189/why-bitcoin-billionaire-arthur-hayes-expects-btc-hit-200k-march",
-        "source": "Decrypt",
-        "weight": 0.6705,
-        "score": 0.3333
-      },
-      {
-        "title": "Three top Wall Street analysts stay bullish on Nvidia stock. Here's why",
-        "url": "https://www.cnbc.com/2025/12/21/three-top-wall-street-analysts-stay-bullish-on-nvidia-stock-heres-why.html",
-        "source": "CNBC Markets",
-        "weight": 0.3299,
+        "weight": 0.5034,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "CLARITY Act explicitly leaves DeFi rules blank, risking a total retail protection collapse if negotiations fail",
-        "url": "https://cryptoslate.com/clarity-act-markup-is-just-the-start-of-a-18-month-rulemaking-gauntlet/",
-        "source": "CryptoSlate",
-        "weight": 0.6764,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin traders split between $70K crash and BTC price rebound within days",
-        "url": "https://cointelegraph.com/news/bitcoin-traders-split-between-70k-crash-btc-price-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5852,
+        "title": "SOXL vs. SPXL: These Leveraged ETFs Swing Big for Potentially Lucrative Returns -- but Are They Worth the Risk?",
+        "url": "https://www.fool.com/coverage/etfs/2025/12/21/soxl-vs-spxl-these-leveraged-etfs-swing-big-for-potentially-lucrative-returns-but-are-they-worth-the-risk/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7121,
         "score": -0.9667
       },
       {
-        "title": "From Coinbase to Ripple: The Biggest Crypto Cases Dumped by Trump's SEC",
-        "url": "https://decrypt.co/308273/trump-sec-ending-crypto-lawsuits-investigations",
-        "source": "Decrypt",
-        "weight": 0.5223,
-        "score": -1.0
+        "title": "Fintechs’ prediction market addons will cost them in churn: Inversion CEO",
+        "url": "https://cointelegraph.com/news/prediction-markets-cost-fintechs-user-churn-inversion-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.772,
+        "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 25 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
