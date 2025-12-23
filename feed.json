@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-23T02:09:45.188104+00:00",
+  "updated_at": "2025-12-23T04:41:44.821353+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.048,
+    "change24h": -0.015,
+    "vol": 0.047,
     "fearGreed": 24,
-    "momentum": 0.104,
-    "regime": "sideways",
+    "momentum": -0.264,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4991,
-    "global_sentiment": 0.5954,
-    "combined_sentiment": 0.5073,
-    "confidence": 0.7144,
+    "crypto_sentiment": 0.4632,
+    "global_sentiment": 0.5704,
+    "combined_sentiment": 0.4783,
+    "confidence": 0.7044,
     "counts": {
       "crypto": 69,
-      "global": 36
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 88549,
-      "btc_change_24h": 0.44,
-      "eth_price": 3020.36,
-      "eth_change_24h": 0.81,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "btc_price": 88027,
+      "btc_change_24h": -1.05,
+      "eth_price": 2986.87,
+      "eth_change_24h": -1.6,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158001078464,
-        "high_activity_coins": 1
+        "volume_24h": 157381137163,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.83,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-09T12:58:51.761121+00:00",
-      "crypto": 0.4515,
-      "global": 0.5906,
-      "combined": 0.4712,
-      "counts": {
-        "crypto": 71,
-        "global": 45
-      }
-    },
     {
       "ts": "2025-12-09T16:35:33.035432+00:00",
       "crypto": 0.4288,
@@ -1008,61 +998,76 @@
         "crypto": 69,
         "global": 36
       }
+    },
+    {
+      "ts": "2025-12-23T04:41:44.821353+00:00",
+      "crypto": 0.4632,
+      "global": 0.5704,
+      "combined": 0.4783,
+      "counts": {
+        "crypto": 69,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Review Preview: Festive Vibes",
-        "url": "https://finance.yahoo.com/m/17fee107-3ba6-3b39-9672-cbdd1466eb9f/review-preview%3A-festive-vibes.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6928,
+        "title": "Bitcoin perpetual open interest rises as traders bet on year-end rally",
+        "url": "https://cointelegraph.com/news/perpertuals-oi-rises-as-leverage-longs-position-for-end-of-year-move-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7004,
         "score": 1.0
       },
       {
         "title": "FDA approves first GLP-1 pill for obesity from Wegovy maker Novo Nordisk",
         "url": "https://www.cnbc.com/2025/12/22/fda-approves-first-glp-1-pill-for-obesity-from-novo-nordisk.html",
         "source": "CNBC Markets",
-        "weight": 0.69,
+        "weight": 0.6697,
         "score": 0.9167
       },
       {
-        "title": "Asian Stocks Rise, Extending Record Global Rally: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-22/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.5342,
+        "title": "Review Preview: Festive Vibes",
+        "url": "https://finance.yahoo.com/m/17fee107-3ba6-3b39-9672-cbdd1466eb9f/review-preview%3A-festive-vibes.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.517,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Recent Bitcoin miner capitulation may signal bottom is near: VanEck",
-        "url": "https://cointelegraph.com/news/bitcoin-mining-woes-may-signal-bullish-price-action?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6629,
-        "score": -0.7333
+        "title": "XRP struggles near $1.90 as mixed technical signals emerge",
+        "url": "https://www.coindesk.com/markets/2025/12/23/xrp-struggles-near-usd1-90-as-mixed-technical-signals-emerge",
+        "source": "CoinDesk",
+        "weight": 1.1833,
+        "score": -0.9333
       },
       {
-        "title": "Solana Mobile ended Saga security patches, exposing owners to a critical wallet risk you can’t ignore",
-        "url": "https://cryptoslate.com/solana-mobile-ended-saga-security-patches-exposing-owners-to-a-critical-wallet-risk-you-cant-ignore/",
-        "source": "CryptoSlate",
-        "weight": 0.492,
-        "score": -0.9667
-      },
-      {
-        "title": "Trump Bid to Defund CFPB Is Crippling the Agency, States Say",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-22/cfpb-to-be-crippled-by-trump-funding-freeze-states-suit-says",
+        "title": "HK Office Market: More Activity, But No Bottom Yet?",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-23/hk-office-market-more-activity-but-no-bottom-yet-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4351,
-        "score": -1.0
+        "weight": 0.7479,
+        "score": -0.9333
+      },
+      {
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3603480668354337,
-          "price_change_24h": -0.02956
+          "volume_mcap_ratio": 0.3616080233068601,
+          "price_change_24h": -0.03267
+        },
+        {
+          "symbol": "AAVE",
+          "volume_mcap_ratio": 0.30568119511237984,
+          "price_change_24h": -4.98099
         }
       ],
       "momentum_shifts": []
