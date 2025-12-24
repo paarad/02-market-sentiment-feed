@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-24T08:37:57.070325+00:00",
+  "updated_at": "2025-12-24T12:56:02.845396+00:00",
   "indicators": {
-    "change24h": -0.025,
-    "vol": 0.061,
+    "change24h": -0.015,
+    "vol": 0.041,
     "fearGreed": 24,
-    "momentum": -0.431,
+    "momentum": -0.255,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4709,
-    "global_sentiment": 0.5329,
-    "combined_sentiment": 0.4809,
-    "confidence": 0.6688,
+    "crypto_sentiment": 0.5562,
+    "global_sentiment": 0.6515,
+    "combined_sentiment": 0.5548,
+    "confidence": 0.7349,
     "counts": {
-      "crypto": 67,
-      "global": 45
+      "crypto": 70,
+      "global": 53
     },
     "market_indicators": {
-      "btc_price": 86772,
-      "btc_change_24h": -0.95,
-      "eth_price": 2924.13,
-      "eth_change_24h": -1.51,
+      "btc_price": 87350,
+      "btc_change_24h": -0.39,
+      "eth_price": 2935.59,
+      "eth_change_24h": -0.62,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.15,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149634182192,
+        "volume_24h": 150134234854,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.92,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-10T19:53:43.591236+00:00",
-      "crypto": 0.4641,
-      "global": 0.4864,
-      "combined": 0.472,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-10T20:32:49.235238+00:00",
       "crypto": 0.479,
@@ -1008,33 +998,50 @@
         "crypto": 67,
         "global": 45
       }
+    },
+    {
+      "ts": "2025-12-24T12:56:02.845396+00:00",
+      "crypto": 0.5562,
+      "global": 0.6515,
+      "combined": 0.5548,
+      "counts": {
+        "crypto": 70,
+        "global": 53
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ETH, SOL, ADA slump as bitcoin weakness lingers despite record stocks jump",
-        "url": "https://www.coindesk.com/markets/2025/12/24/eth-sol-ada-slump-as-bitcoin-weakness-lingers-despite-record-stocks-jump",
+        "title": "Sling Money receives approval to offer crypto services in UK as stablecoin payments gain popularity",
+        "url": "https://www.coindesk.com/policy/2025/12/24/sling-money-receives-approval-to-offer-crypto-services-in-uk-as-stablecoin-payments-gain-popularity",
         "source": "CoinDesk",
-        "weight": 0.9051,
-        "score": 0.6667
+        "weight": 0.7944,
+        "score": 0.9167
       },
       {
-        "title": "Rocket Lab analyst rethinks stock target after hitting record high",
-        "url": "https://www.thestreet.com/investing/stocks/rocket-lab-analyst-rethinks-stock-target-after-hitting-record-high?.tsrc=rss",
+        "title": "What Makes Brookfield Corp. (BN) an Interesting Stock?",
+        "url": "https://finance.yahoo.com/news/makes-brookfield-corp-bn-interesting-121201514.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4198,
-        "score": 1.0
+        "weight": 0.735,
+        "score": 0.9167
       },
       {
-        "title": "Dow Jones Futures: S&P 500 Hits Record Close; Nvidia, Google Flash Buy Signals",
-        "url": "https://finance.yahoo.com/m/c9ddbb9d-1d58-3eb6-bce5-f5630f975e57/dow-jones-futures%3A-s%26p-500.html?.tsrc=rss",
+        "title": "Watsco (WSO) Reported Mixed Performance in Q3",
+        "url": "https://finance.yahoo.com/news/watsco-wso-reported-mixed-performance-121012136.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4465,
-        "score": 0.8667
+        "weight": 0.7324,
+        "score": 0.9167
       }
     ],
     "negative": [
+      {
+        "title": "PBOC Signals Steady Support With Focus on Long-Term Growth",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-24/pboc-signals-steady-support-with-focus-on-long-term-growth",
+        "source": "Bloomberg Markets",
+        "weight": 0.7132,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 24 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,31 +1050,24 @@
         "score": -0.5333
       },
       {
-        "title": "Jet Crash in Turkey Kills Libyan Military Chief of Staff",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-24/jet-crash-in-turkey-kills-libyan-military-chief-of-staff-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6588,
+        "title": "Philippines blocks Coinbase, Gemini amid wider crackdown on unlicensed VASPs",
+        "url": "https://cointelegraph.com/news/philippines-blocks-coinbase-gemini-unlicensed-vasps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5755,
         "score": -0.6333
-      },
-      {
-        "title": "Asian markets mixed after US growth data fuels Wall St record",
-        "url": "https://finance.yahoo.com/news/asian-markets-mostly-us-growth-024019502.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6864,
-        "score": -0.6
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5971287881703514,
-          "price_change_24h": 0.21226
+          "volume_mcap_ratio": 0.7216793750193526,
+          "price_change_24h": 0.20813
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3426909909106217,
-          "price_change_24h": -0.00469
+          "volume_mcap_ratio": 0.34172801036066736,
+          "price_change_24h": 0.00729
         }
       ],
       "momentum_shifts": []
