@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-24T02:07:42.397817+00:00",
+  "updated_at": "2025-12-24T04:40:30.341569+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.065,
+    "change24h": -0.024,
+    "vol": 0.063,
     "fearGreed": 24,
-    "momentum": -0.507,
+    "momentum": -0.42,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3535,
-    "global_sentiment": 0.4964,
-    "combined_sentiment": 0.3899,
-    "confidence": 0.7264,
+    "crypto_sentiment": 0.3708,
+    "global_sentiment": 0.5974,
+    "combined_sentiment": 0.4112,
+    "confidence": 0.6937,
     "counts": {
       "crypto": 67,
-      "global": 38
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 87437,
-      "btc_change_24h": -1.08,
-      "eth_price": 2955.8,
-      "eth_change_24h": -2.1,
+      "btc_price": 87240,
+      "btc_change_24h": -0.89,
+      "eth_price": 2943.1,
+      "eth_change_24h": -1.45,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.05,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172405011354,
-        "high_activity_coins": 1
+        "volume_24h": 172581275511,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.92,
+        "btc_dominance": 56.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-10T12:58:57.129287+00:00",
-      "crypto": 0.4862,
-      "global": 0.5074,
-      "combined": 0.4903,
-      "counts": {
-        "crypto": 75,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-10T16:35:39.486950+00:00",
       "crypto": 0.4447,
@@ -1008,30 +998,40 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-24T04:40:30.341569+00:00",
+      "crypto": 0.3708,
+      "global": 0.5974,
+      "combined": 0.4112,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Rocket Lab analyst rethinks stock target after hitting record high",
+        "url": "https://www.thestreet.com/investing/stocks/rocket-lab-analyst-rethinks-stock-target-after-hitting-record-high?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6631,
+        "score": 1.0
+      },
+      {
+        "title": "Asian markets mostly up after US growth fuels Wall St record",
+        "url": "https://finance.yahoo.com/news/asian-markets-mostly-us-growth-024019502.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6347,
+        "score": 1.0
+      },
+      {
         "title": "Dow Jones Futures: S&P 500 Hits Record Close; Nvidia, Google Flash Buy Signals",
         "url": "https://finance.yahoo.com/m/c9ddbb9d-1d58-3eb6-bce5-f5630f975e57/dow-jones-futures%3A-s%26p-500.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6704,
+        "weight": 0.7054,
         "score": 0.8667
-      },
-      {
-        "title": "Brazil's live orchestra to turn Bitcoin price moves into music",
-        "url": "https://cointelegraph.com/news/brazil-live-orchestra-bitcoin-price-into-music?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4277,
-        "score": 0.9167
-      },
-      {
-        "title": "Stock Market Today, Dec. 23: Plug Power's Namibia Launch Fails to Lift Investor Sentiment",
-        "url": "https://www.fool.com/coverage/stock-market-today/2025/12/23/stock-market-today-dec-23-plug-power-s-namibia-launch-fails-to-lift-investor-sentiment/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5817,
-        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,30 +1039,35 @@
         "title": "Tricolor CEO Collected $30 Million in Year Before Alleged Fraud",
         "url": "https://www.bloomberg.com/news/articles/2025-12-23/tricolor-ceo-collected-30-million-in-year-before-alleged-fraud",
         "source": "Bloomberg Markets",
-        "weight": 0.5859,
+        "weight": 0.4366,
         "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "From FTX fallout to fresh capital: Former US chief raises $35M for new exchange",
         "url": "https://cointelegraph.com/news/brett-harrison-raises-35m-institutional-derivatives-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4729,
+        "weight": 0.3524,
         "score": -0.9667
-      },
-      {
-        "title": "Colombia Uses Emergency Powers to Hike Tax on Banks and the Rich",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-24/colombia-uses-emergency-powers-to-hike-tax-on-banks-and-the-rich",
-        "source": "Bloomberg Markets",
-        "weight": 0.7054,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3637087124078498,
+          "price_change_24h": 0.38576
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35084270173118515,
-          "price_change_24h": -0.00467
+          "volume_mcap_ratio": 0.3511820576593187,
+          "price_change_24h": 0.01768
         }
       ],
       "momentum_shifts": []
