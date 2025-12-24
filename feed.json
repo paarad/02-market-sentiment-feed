@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-24T19:53:28.075590+00:00",
+  "updated_at": "2025-12-24T20:29:43.169081+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.044,
+    "change24h": -0.007,
+    "vol": 0.043,
     "fearGreed": 24,
-    "momentum": -0.092,
-    "regime": "sideways",
+    "momentum": -0.12,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4928,
-    "global_sentiment": 0.575,
-    "combined_sentiment": 0.5009,
-    "confidence": 0.735,
+    "crypto_sentiment": 0.5198,
+    "global_sentiment": 0.5729,
+    "combined_sentiment": 0.5209,
+    "confidence": 0.7343,
     "counts": {
       "crypto": 65,
-      "global": 44
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 87495,
-      "btc_change_24h": -0.22,
-      "eth_price": 2944.07,
-      "eth_change_24h": 0.04,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 87561,
+      "btc_change_24h": -0.24,
+      "eth_price": 2944.64,
+      "eth_change_24h": -0.41,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 130357992445,
+        "volume_24h": 128088203226,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.99,
+        "btc_dominance": 56.97,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-11T04:39:41.146391+00:00",
-      "crypto": 0.4453,
-      "global": 0.4728,
-      "combined": 0.4567,
-      "counts": {
-        "crypto": 69,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-12-11T08:38:02.884776+00:00",
       "crypto": 0.5275,
@@ -1008,40 +998,43 @@
         "crypto": 65,
         "global": 44
       }
+    },
+    {
+      "ts": "2025-12-24T20:29:43.169081+00:00",
+      "crypto": 0.5198,
+      "global": 0.5729,
+      "combined": 0.5209,
+      "counts": {
+        "crypto": 65,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin bears currently favored in BTC’s end-of-year $30.3B options expiry",
+        "url": "https://cointelegraph.com/news/bitcoin-bears-currently-favored-in-btc-s-end-of-year-30-3b-options-expiry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9066,
+        "score": 0.5333
+      },
+      {
         "title": "Epstein files: Senators call for audit into DOJ's release",
         "url": "https://www.cnbc.com/2025/12/24/epstein-files-senators-call-for-audit-into-dojs-release.html",
         "source": "CNBC Markets",
-        "weight": 0.7421,
+        "weight": 0.6921,
         "score": 0.6667
       },
       {
         "title": "Nike Climb Boosts Dow, S&P 500",
         "url": "https://finance.yahoo.com/m/76e33278-aa59-39a7-be40-5992fbdea68d/nike-climb-boosts-dow%2C-s%26p-500.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6972,
-        "score": 0.6667
-      },
-      {
-        "title": "How major US stock indexes fared Wednesday, 12/24/2025",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-182410504.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6736,
+        "weight": 0.6502,
         "score": 0.6667
       }
     ],
     "negative": [
-      {
-        "title": "Consumer Staples, Real Estate Push US Equity Indexes Higher",
-        "url": "https://finance.yahoo.com/news/consumer-staples-real-estate-push-183435735.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6873,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 24 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,19 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "Emerging Penny Stocks To Watch In December 2025",
-        "url": "https://finance.yahoo.com/news/emerging-penny-stocks-watch-december-180504152.html?.tsrc=rss",
+        "title": "Consumer Staples, Real Estate Push US Equity Indexes Higher",
+        "url": "https://finance.yahoo.com/news/consumer-staples-real-estate-push-183435735.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6493,
+        "weight": 0.6409,
         "score": -0.6333
+      },
+      {
+        "title": "We're buying the post-earnings slump in a stock alongside Tim Cook. It's not Apple",
+        "url": "https://www.cnbc.com/2025/12/24/were-buying-the-post-earnings-slump-in-a-stock-alongside-tim-cook-its-not-apple.html",
+        "source": "CNBC Markets",
+        "weight": 0.4044,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9266429271867173,
-          "price_change_24h": 0.10353
+          "volume_mcap_ratio": 0.9304623866086125,
+          "price_change_24h": 0.10609
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-24",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4574,
-      "crypto_high": 0.5562,
-      "crypto_low": 0.3535,
-      "global_avg": 0.5779,
-      "global_high": 0.6515,
-      "global_low": 0.4964,
-      "combined_avg": 0.4746,
-      "combined_high": 0.5548,
-      "combined_low": 0.3899
-    },
-    "market_indicators_24h": {
-      "change24h": -0.005,
-      "vol": 0.044,
-      "fearGreed": 24,
-      "momentum": -0.092,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-24T19:53:28.075590+00:00"
   }
 }
