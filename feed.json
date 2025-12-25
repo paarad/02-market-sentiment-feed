@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-25T12:55:37.889246+00:00",
+  "updated_at": "2025-12-25T16:33:49.789981+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.052,
+    "change24h": 0.016,
+    "vol": 0.076,
     "fearGreed": 23,
-    "momentum": -0.093,
+    "momentum": 0.287,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5419,
-    "global_sentiment": 0.6128,
-    "combined_sentiment": 0.5408,
-    "confidence": 0.6139,
+    "crypto_sentiment": 0.5007,
+    "global_sentiment": 0.5926,
+    "combined_sentiment": 0.5083,
+    "confidence": 0.6151,
     "counts": {
-      "crypto": 61,
-      "global": 48
+      "crypto": 59,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 87494,
-      "btc_change_24h": 0.15,
-      "eth_price": 2925.11,
-      "eth_change_24h": -0.37,
+      "btc_price": 88315,
+      "btc_change_24h": 1.55,
+      "eth_price": 2961.14,
+      "eth_change_24h": 1.31,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 97751213252,
+        "volume_24h": 93150291805,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.08,
+        "btc_dominance": 57.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-11T20:30:44.798390+00:00",
-      "crypto": 0.4539,
-      "global": 0.5597,
-      "combined": 0.4704,
-      "counts": {
-        "crypto": 63,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-12T02:09:07.038343+00:00",
       "crypto": 0.546,
@@ -1008,40 +998,43 @@
         "crypto": 61,
         "global": 48
       }
+    },
+    {
+      "ts": "2025-12-25T16:33:49.789981+00:00",
+      "crypto": 0.5007,
+      "global": 0.5926,
+      "combined": 0.5083,
+      "counts": {
+        "crypto": 59,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Strive Asset (ASST) Rallies 7% After Falling Below Minimum Bid Price",
+        "url": "https://finance.yahoo.com/news/strive-asset-asst-rallies-7-153737721.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7179,
+        "score": 0.8667
+      },
+      {
         "title": "3 Stocks Estimated To Be Trading At Discounts Of 21.2% To 35.3% Below Intrinsic Value",
         "url": "https://finance.yahoo.com/news/3-stocks-estimated-trading-discounts-113746291.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6886,
+        "weight": 0.4524,
         "score": 1.0
       },
       {
         "title": "Exploring Omega Flex And 2 Other Undervalued Small Caps With Insider Buying",
         "url": "https://finance.yahoo.com/news/exploring-omega-flex-2-other-113925891.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6908,
-        "score": 0.6667
-      },
-      {
-        "title": "High Growth Companies With Strong Insider Confidence December 2025",
-        "url": "https://finance.yahoo.com/news/high-growth-companies-strong-insider-113540013.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6858,
+        "weight": 0.4538,
         "score": 0.6667
       }
     ],
     "negative": [
-      {
-        "title": "CZ proposes fix to address poisoning after investor loses $50M",
-        "url": "https://cointelegraph.com/news/zhao-fix-address-poisoning-investor-loses-50m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7007,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,10 +1043,17 @@
         "score": -0.5333
       },
       {
+        "title": "CZ proposes fix to address poisoning after investor loses $50M",
+        "url": "https://cointelegraph.com/news/zhao-fix-address-poisoning-investor-loses-50m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4604,
+        "score": -0.6333
+      },
+      {
         "title": "China Silver Fund Plunges After String of Moves to Quell Frenzy",
         "url": "https://www.bloomberg.com/news/articles/2025-12-25/china-silver-fund-plunges-after-string-of-moves-to-quell-frenzy",
         "source": "Bloomberg Markets",
-        "weight": 0.3711,
+        "weight": 0.2438,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4835284906795977,
-          "price_change_24h": 0.02407
+          "volume_mcap_ratio": 0.3324358514619113,
+          "price_change_24h": 0.03099
         }
       ],
       "momentum_shifts": []
