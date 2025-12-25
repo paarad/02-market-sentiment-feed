@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-24T20:29:43.169081+00:00",
+  "updated_at": "2025-12-25T02:09:53.413602+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.043,
-    "fearGreed": 24,
-    "momentum": -0.12,
-    "regime": "bear",
+    "change24h": -0.005,
+    "vol": 0.041,
+    "fearGreed": 23,
+    "momentum": -0.093,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5198,
-    "global_sentiment": 0.5729,
-    "combined_sentiment": 0.5209,
-    "confidence": 0.7343,
+    "crypto_sentiment": 0.5405,
+    "global_sentiment": 0.383,
+    "combined_sentiment": 0.5207,
+    "confidence": 0.6361,
     "counts": {
       "crypto": 65,
-      "global": 42
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 87561,
-      "btc_change_24h": -0.24,
-      "eth_price": 2944.64,
-      "eth_change_24h": -0.41,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 87586,
+      "btc_change_24h": 0.15,
+      "eth_price": 2943.46,
+      "eth_change_24h": -0.42,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
-        "value": 24,
+        "value": 23,
         "classification": "Extreme Fear",
-        "trend": "improving"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128088203226,
+        "volume_24h": 114459969146,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.97,
+        "btc_dominance": 56.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-11T08:38:02.884776+00:00",
-      "crypto": 0.5275,
-      "global": 0.4344,
-      "combined": 0.5151,
-      "counts": {
-        "crypto": 73,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-12-11T13:00:16.969497+00:00",
       "crypto": 0.5083,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-12-25T02:09:53.413602+00:00",
+      "crypto": 0.5405,
+      "global": 0.383,
+      "combined": 0.5207,
+      "counts": {
+        "crypto": 65,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin bears currently favored in BTC’s end-of-year $30.3B options expiry",
-        "url": "https://cointelegraph.com/news/bitcoin-bears-currently-favored-in-btc-s-end-of-year-30-3b-options-expiry?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Binance lists som-pegged stablecoin as Kyrgyzstan deepens crypto push",
+        "url": "https://cointelegraph.com/news/kyrgyzstan-state-stablecoin-launch-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9066,
-        "score": 0.5333
-      },
-      {
-        "title": "Epstein files: Senators call for audit into DOJ's release",
-        "url": "https://www.cnbc.com/2025/12/24/epstein-files-senators-call-for-audit-into-dojs-release.html",
-        "source": "CNBC Markets",
-        "weight": 0.6921,
-        "score": 0.6667
+        "weight": 0.4538,
+        "score": 0.9667
       },
       {
         "title": "Nike Climb Boosts Dow, S&P 500",
         "url": "https://finance.yahoo.com/m/76e33278-aa59-39a7-be40-5992fbdea68d/nike-climb-boosts-dow%2C-s%26p-500.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6502,
+        "weight": 0.6474,
+        "score": 0.6667
+      },
+      {
+        "title": "DOJ says more than 1 million potential Epstein files newly uncovered",
+        "url": "https://www.cnbc.com/2025/12/24/epstein-files-senators-call-for-audit-into-dojs-release.html",
+        "source": "CNBC Markets",
+        "weight": 0.4656,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 24 (Fear) — bearish",
+        "title": "China Vanke Faces Another Bond Test After Dodging Default",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-25/china-vanke-faces-another-bond-test-after-dodging-default",
+        "source": "Bloomberg Markets",
+        "weight": 0.7699,
+        "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "Consumer Staples, Real Estate Push US Equity Indexes Higher",
-        "url": "https://finance.yahoo.com/news/consumer-staples-real-estate-push-183435735.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6409,
-        "score": -0.6333
-      },
-      {
-        "title": "We're buying the post-earnings slump in a stock alongside Tim Cook. It's not Apple",
-        "url": "https://www.cnbc.com/2025/12/24/were-buying-the-post-earnings-slump-in-a-stock-alongside-tim-cook-its-not-apple.html",
-        "source": "CNBC Markets",
-        "weight": 0.4044,
-        "score": -0.9333
+        "title": "400 Capital Sues Over Alleged Fee-Grabbing Tactic in CMBS Loan",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-24/400-capital-sues-over-alleged-fee-grabbing-tactic-in-cmbs-loan",
+        "source": "Bloomberg Markets",
+        "weight": 0.4129,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9304623866086125,
-          "price_change_24h": 0.10609
+          "volume_mcap_ratio": 0.9476806031613718,
+          "price_change_24h": 0.09183
         }
       ],
       "momentum_shifts": []
