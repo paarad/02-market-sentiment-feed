@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-26T12:55:47.495322+00:00",
+  "updated_at": "2025-12-26T16:32:09.089781+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.057,
+    "change24h": -0.022,
+    "vol": 0.081,
     "fearGreed": 20,
-    "momentum": 0.31,
-    "regime": "sideways",
+    "momentum": -0.389,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4415,
-    "global_sentiment": 0.6486,
-    "combined_sentiment": 0.4685,
-    "confidence": 0.6277,
+    "crypto_sentiment": 0.4924,
+    "global_sentiment": 0.6069,
+    "combined_sentiment": 0.5032,
+    "confidence": 0.6627,
     "counts": {
-      "crypto": 62,
-      "global": 47
+      "crypto": 61,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 88649,
-      "btc_change_24h": 1.32,
-      "eth_price": 2970.64,
-      "eth_change_24h": 1.55,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "btc_price": 87218,
+      "btc_change_24h": -1.28,
+      "eth_price": 2921.65,
+      "eth_change_24h": -1.36,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 141164138326,
+        "volume_24h": 165480139440,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.2,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-12T20:30:43.350758+00:00",
-      "crypto": 0.4025,
-      "global": 0.4942,
-      "combined": 0.4264,
-      "counts": {
-        "crypto": 65,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-12-13T02:02:10.706865+00:00",
       "crypto": 0.4282,
@@ -1008,66 +998,76 @@
         "crypto": 62,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-12-26T16:32:09.089781+00:00",
+      "crypto": 0.4924,
+      "global": 0.6069,
+      "combined": 0.5032,
+      "counts": {
+        "crypto": 61,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Three Companies Estimated To Be Trading Below Their Intrinsic Value",
-        "url": "https://finance.yahoo.com/news/three-companies-estimated-trading-below-113745202.html?.tsrc=rss",
+        "title": "Can Carvana Stock Extend Its Strong 2025 Rally Into 2026?",
+        "url": "https://finance.yahoo.com/news/carvana-stock-extend-strong-2025-141600694.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6884,
+        "weight": 0.6155,
         "score": 1.0
       },
       {
-        "title": "Bitcoin eyes $90K, bullish trend breakout as gold, silver hit fresh records",
-        "url": "https://cointelegraph.com/news/bitcoin-90k-bullish-trend-breakout-gold-silver-fresh-records?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Gold, Silver Smash Records as End-Of-Year Rally Continues",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-26/gold-silver-smash-records-in-end-of-year-rally-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5693,
+        "score": 0.8667
+      },
+      {
+        "title": "Price predictions 12/26: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, LINK, HYPE",
+        "url": "https://cointelegraph.com/news/price-predictions-12-26-btc-eth-bnb-xrp-sol-doge-ada-bch-link-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4855,
-        "score": 1.0
-      },
-      {
-        "title": "Exploring High Growth Tech Stocks In The US December 2025",
-        "url": "https://finance.yahoo.com/news/exploring-high-growth-tech-stocks-113812803.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.689,
-        "score": 0.6667
+        "weight": 0.9105,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "AI bubble risks in 2026: What’s the potential impact on Bitcoin price?",
-        "url": "https://cointelegraph.com/news/ai-bubble-risks-in-2026-whats-potential-impact-on-bitcoin-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.587,
+        "title": "Hidden script caught harvesting private keys as Trust Wallet issues emergency warning for Chrome users",
+        "url": "https://cryptoslate.com/trust-wallet-just-issued-an-emergency-warning-for-chrome-users-after-a-hidden-script-was-caught-harvesting-private-keys/",
+        "source": "CryptoSlate",
+        "weight": 0.6347,
         "score": -1.0
       },
       {
-        "title": "Trust Wallet users lose $7 million to hacked Chrome extension",
-        "url": "https://www.coindesk.com/business/2025/12/26/trust-wallet-users-lose-more-than-usd7-million-to-hacked-chrome-extension",
-        "source": "CoinDesk",
-        "weight": 0.7043,
-        "score": -0.7333
+        "title": "8 timeless money lessons from my 79-year-old dad: 'Being cheap and being frugal aren’t the same thing'",
+        "url": "https://www.cnbc.com/2025/12/26/8-money-lessons-from-a-79-year-old-that-stand-the-test-of-time.html",
+        "source": "CNBC Markets",
+        "weight": 0.5986,
+        "score": -0.9333
       },
       {
-        "title": "Trust Wallet will cover $7M lost in Christmas Day hack, CZ says",
-        "url": "https://cointelegraph.com/news/trust-wallet-cover-7m-hack-zhao?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5014,
-        "score": -1.0
+        "title": "Reasonable to be Optimistic About Markets in 2026, Says Rick Gardner",
+        "url": "https://www.bloomberg.com/news/videos/2025-12-26/reasonable-to-be-optimistic-on-markets-in-2026-gardner-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7312,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.35477443303602135,
-          "price_change_24h": -0.07987
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.38720005491154463,
+          "price_change_24h": -0.00815
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3315024660964604,
-          "price_change_24h": -0.02145
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.38485183304281706,
+          "price_change_24h": -0.05333
         }
       ],
       "momentum_shifts": []
