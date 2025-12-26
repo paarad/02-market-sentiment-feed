@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-26T04:39:20.731532+00:00",
+  "updated_at": "2025-12-26T08:36:19.722279+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.112,
+    "change24h": 0.01,
+    "vol": 0.061,
     "fearGreed": 20,
-    "momentum": 0.105,
+    "momentum": 0.182,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4799,
-    "global_sentiment": 0.6941,
-    "combined_sentiment": 0.5011,
-    "confidence": 0.5246,
+    "crypto_sentiment": 0.4447,
+    "global_sentiment": 0.6734,
+    "combined_sentiment": 0.473,
+    "confidence": 0.4676,
     "counts": {
-      "crypto": 59,
-      "global": 47
+      "crypto": 58,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 88746,
-      "btc_change_24h": 1.15,
-      "eth_price": 2960.49,
-      "eth_change_24h": 0.62,
+      "btc_price": 88607,
+      "btc_change_24h": 1.36,
+      "eth_price": 2959.78,
+      "eth_change_24h": 1.19,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 125101359512,
-        "high_activity_coins": 0
+        "volume_24h": 139148713866,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.29,
+        "btc_dominance": 57.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-12T16:34:26.480891+00:00",
-      "crypto": 0.4351,
-      "global": 0.5163,
-      "combined": 0.4527,
-      "counts": {
-        "crypto": 65,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-12-12T19:53:37.681783+00:00",
       "crypto": 0.3961,
@@ -1008,6 +998,16 @@
         "crypto": 59,
         "global": 47
       }
+    },
+    {
+      "ts": "2025-12-26T08:36:19.722279+00:00",
+      "crypto": 0.4447,
+      "global": 0.6734,
+      "combined": 0.473,
+      "counts": {
+        "crypto": 58,
+        "global": 45
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Copper Hits Record in China, Jumps in New York on Supply Concern",
         "url": "https://www.bloomberg.com/news/articles/2025-12-26/copper-hits-record-in-china-jumps-in-new-york-on-supply-concern",
         "source": "Bloomberg Markets",
-        "weight": 0.6473,
+        "weight": 0.4101,
         "score": 1.0
       },
       {
         "title": "Gold and Silver Surge to Records on Geopolitics, Dollar Weakness",
         "url": "https://www.bloomberg.com/news/articles/2025-12-25/silver-rises-to-record-gold-near-all-time-high-as-risks-persist",
         "source": "Bloomberg Markets",
-        "weight": 0.4409,
+        "weight": 0.2793,
         "score": 1.0
       },
       {
         "title": "XRPL flips to quantum-safe signatures; 2,420-byte proofs replace elliptic curves",
         "url": "https://cryptoslate.com/xrpl-flips-to-quantum-safe-signatures-2420-byte-proofs-replace-elliptic-curves/",
         "source": "CryptoSlate",
-        "weight": 0.4137,
+        "weight": 0.2622,
         "score": 1.0
       }
     ],
@@ -1046,19 +1046,25 @@
         "title": "Yen Bearish Voices Build for 2026 on Cautious BOJ Policy Path",
         "url": "https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path",
         "source": "Bloomberg Markets",
-        "weight": 0.3711,
+        "weight": 0.2351,
         "score": -0.8667
       },
       {
         "title": "Afreximbank and Ghana Settle Dispute Over $750 Million Loan",
         "url": "https://www.bloomberg.com/news/articles/2025-12-25/afreximbank-and-ghana-settle-dispute-over-750-million-loan",
         "source": "Bloomberg Markets",
-        "weight": 0.4154,
+        "weight": 0.2632,
         "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.32572517896085224,
+          "price_change_24h": -0.01171
+        }
+      ],
       "momentum_shifts": []
     }
   },
