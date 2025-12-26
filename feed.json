@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-25T20:30:37.601430+00:00",
+  "updated_at": "2025-12-26T02:08:49.521227+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.08,
-    "fearGreed": 23,
-    "momentum": 0.058,
-    "regime": "sideways",
+    "change24h": -0.012,
+    "vol": 0.098,
+    "fearGreed": 20,
+    "momentum": -0.208,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4847,
-    "global_sentiment": 0.6554,
-    "combined_sentiment": 0.5015,
-    "confidence": 0.611,
+    "crypto_sentiment": 0.4993,
+    "global_sentiment": 0.6403,
+    "combined_sentiment": 0.5112,
+    "confidence": 0.5659,
     "counts": {
-      "crypto": 60,
-      "global": 49
+      "crypto": 61,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 87706,
-      "btc_change_24h": 0.15,
-      "eth_price": 2944.28,
-      "eth_change_24h": -0.05,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 87458,
+      "btc_change_24h": -0.15,
+      "eth_price": 2922.54,
+      "eth_change_24h": -0.72,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 23,
+        "value": 20,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 88934113575,
+        "volume_24h": 101607763806,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.09,
+        "btc_dominance": 57.16,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-12T08:38:08.006180+00:00",
-      "crypto": 0.5545,
-      "global": 0.5159,
-      "combined": 0.5422,
-      "counts": {
-        "crypto": 67,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-12T12:57:25.186460+00:00",
       "crypto": 0.4508,
@@ -1008,61 +998,71 @@
         "crypto": 60,
         "global": 49
       }
+    },
+    {
+      "ts": "2025-12-26T02:08:49.521227+00:00",
+      "crypto": 0.4993,
+      "global": 0.6403,
+      "combined": 0.5112,
+      "counts": {
+        "crypto": 61,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "December 2025's Top Insider-Owned Growth Stocks",
-        "url": "https://finance.yahoo.com/news/december-2025s-top-insider-owned-173527571.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.571,
+        "title": "XRPL flips to quantum-safe signatures; 2,420-byte proofs replace elliptic curves",
+        "url": "https://cryptoslate.com/xrpl-flips-to-quantum-safe-signatures-2420-byte-proofs-replace-elliptic-curves/",
+        "source": "CryptoSlate",
+        "weight": 0.5528,
         "score": 1.0
       },
       {
-        "title": "Discover Hongli Group And Two More Promising Penny Stocks",
-        "url": "https://finance.yahoo.com/news/discover-hongli-group-two-more-180450465.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6042,
-        "score": 0.6667
+        "title": "Stocks Edge Up as Gold, Silver Climb to Records: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-25/asian-stocks-set-for-muted-open-in-holiday-trade-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.542,
+        "score": 1.0
       },
       {
-        "title": "Strive Asset (ASST) Rallies 7% After Falling Below Minimum Bid Price",
-        "url": "https://finance.yahoo.com/news/strive-asset-asst-rallies-7-153737721.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4551,
+        "title": "Gold, Silver Jump to Record Highs on Geopolitics, Weak Dollar",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-25/silver-rises-to-record-gold-near-all-time-high-as-risks-persist",
+        "source": "Bloomberg Markets",
+        "weight": 0.5891,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "The memecoin hall of shame: 10 tokens that defined 2025 wildest trades",
-        "url": "https://cryptoslate.com/the-memecoin-hall-of-shame-10-tokens-that-defined-2025-wildest-trades/",
-        "source": "CryptoSlate",
-        "weight": 0.637,
-        "score": -0.9333
+        "title": "Yen Bearish Voices Build for 2026 on Cautious BOJ Policy Path",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-25/yen-bearish-voices-build-for-2026-on-cautious-boj-policy-path",
+        "source": "Bloomberg Markets",
+        "weight": 0.4959,
+        "score": -0.8667
       },
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
+        "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "CZ proposes fix to address poisoning after investor loses $50M",
-        "url": "https://cointelegraph.com/news/zhao-fix-address-poisoning-investor-loses-50m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2918,
-        "score": -0.6333
+        "title": "Afreximbank and Ghana Settle Dispute Over $750 Million Loan",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-25/afreximbank-and-ghana-settle-dispute-over-750-million-loan",
+        "source": "Bloomberg Markets",
+        "weight": 0.555,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3140547920869882,
-          "price_change_24h": 0.07662
+          "volume_mcap_ratio": 0.31277501191297996,
+          "price_change_24h": 0.09416
         }
       ],
       "momentum_shifts": []
