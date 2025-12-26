@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-26T16:32:09.089781+00:00",
+  "updated_at": "2025-12-26T19:53:32.610502+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.081,
+    "change24h": -0.019,
+    "vol": 0.061,
     "fearGreed": 20,
-    "momentum": -0.389,
+    "momentum": -0.331,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4924,
-    "global_sentiment": 0.6069,
-    "combined_sentiment": 0.5032,
-    "confidence": 0.6627,
+    "crypto_sentiment": 0.4082,
+    "global_sentiment": 0.5368,
+    "combined_sentiment": 0.4342,
+    "confidence": 0.6765,
     "counts": {
       "crypto": 61,
-      "global": 37
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 87218,
-      "btc_change_24h": -1.28,
-      "eth_price": 2921.65,
-      "eth_change_24h": -1.36,
+      "btc_price": 87407,
+      "btc_change_24h": -0.74,
+      "eth_price": 2922.92,
+      "eth_change_24h": -1.07,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165480139440,
+        "volume_24h": 172698608595,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-13T02:02:10.706865+00:00",
-      "crypto": 0.4282,
-      "global": 0.407,
-      "combined": 0.4384,
-      "counts": {
-        "crypto": 64,
-        "global": 30
-      }
-    },
     {
       "ts": "2025-12-13T04:32:20.896333+00:00",
       "crypto": 0.4206,
@@ -1008,66 +998,76 @@
         "crypto": 61,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-26T19:53:32.610502+00:00",
+      "crypto": 0.4082,
+      "global": 0.5368,
+      "combined": 0.4342,
+      "counts": {
+        "crypto": 61,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Can Carvana Stock Extend Its Strong 2025 Rally Into 2026?",
-        "url": "https://finance.yahoo.com/news/carvana-stock-extend-strong-2025-141600694.html?.tsrc=rss",
+        "title": "A Stock Market Priced for Perfection Can Still Have a Very Good Year",
+        "url": "https://finance.yahoo.com/m/bf595d08-7ab1-34b3-91ad-ec5c467017c5/a-stock-market-priced-for.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6155,
-        "score": 1.0
+        "weight": 0.6306,
+        "score": 0.8
       },
       {
-        "title": "Gold, Silver Smash Records as End-Of-Year Rally Continues",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-26/gold-silver-smash-records-in-end-of-year-rally-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5693,
-        "score": 0.8667
-      },
-      {
-        "title": "Price predictions 12/26: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, LINK, HYPE",
-        "url": "https://cointelegraph.com/news/price-predictions-12-26-btc-eth-bnb-xrp-sol-doge-ada-bch-link-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "BNB Chain Fermi hard fork scheduled for January activation",
+        "url": "https://cointelegraph.com/news/binance-smart-chain-bnb-fermi-hard-fork-scheduled-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9105,
-        "score": 0.5333
+        "weight": 0.7262,
+        "score": 0.6333
+      },
+      {
+        "title": "Insiders Favor American Resources And Two Other Leading Growth Stocks",
+        "url": "https://finance.yahoo.com/news/insiders-favor-american-resources-two-173545422.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6136,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Hidden script caught harvesting private keys as Trust Wallet issues emergency warning for Chrome users",
-        "url": "https://cryptoslate.com/trust-wallet-just-issued-an-emergency-warning-for-chrome-users-after-a-hidden-script-was-caught-harvesting-private-keys/",
-        "source": "CryptoSlate",
-        "weight": 0.6347,
+        "title": "USX briefly depegs on Solana DEXs before liquidity support restores price",
+        "url": "https://cointelegraph.com/news/usx-stabilizes-after-brief-depeg-secondary-market-sell-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6756,
+        "score": -0.9667
+      },
+      {
+        "title": "Consumer Fear and Tariffs: Why Powell’s Stock Market Valuation Warning is More Dire Now",
+        "url": "https://247wallst.com/investing/2025/12/26/consumer-fear-and-tariffs-why-powells-stock-market-valuation-warning-is-more-dire-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6531,
         "score": -1.0
       },
       {
-        "title": "8 timeless money lessons from my 79-year-old dad: 'Being cheap and being frugal aren’t the same thing'",
-        "url": "https://www.cnbc.com/2025/12/26/8-money-lessons-from-a-79-year-old-that-stand-the-test-of-time.html",
-        "source": "CNBC Markets",
-        "weight": 0.5986,
-        "score": -0.9333
-      },
-      {
-        "title": "Reasonable to be Optimistic About Markets in 2026, Says Rick Gardner",
-        "url": "https://www.bloomberg.com/news/videos/2025-12-26/reasonable-to-be-optimistic-on-markets-in-2026-gardner-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7312,
-        "score": -0.6333
+        "title": "How $150 billion was liquidated from crypto market in 2025 driving Bitcoin crash",
+        "url": "https://cryptoslate.com/how-150-billion-was-liquidated-from-crypto-market-in-2025-driving-bitcoin-crash/",
+        "source": "CryptoSlate",
+        "weight": 0.6326,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.38720005491154463,
-          "price_change_24h": -0.00815
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.40302445872447773,
+          "price_change_24h": -0.05849
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.38485183304281706,
-          "price_change_24h": -0.05333
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.401285856835526,
+          "price_change_24h": -0.01338
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2025-12-26",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.461,
+      "crypto_high": 0.4993,
+      "crypto_low": 0.4082,
+      "global_avg": 0.6333,
+      "global_high": 0.6941,
+      "global_low": 0.5368,
+      "combined_avg": 0.4819,
+      "combined_high": 0.5112,
+      "combined_low": 0.4342
+    },
+    "market_indicators_24h": {
+      "change24h": -0.019,
+      "vol": 0.061,
+      "fearGreed": 20,
+      "momentum": -0.331,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2025-12-26T19:53:32.610502+00:00"
   }
 }
