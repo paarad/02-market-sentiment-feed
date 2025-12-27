@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-27T12:53:12.863800+00:00",
+  "updated_at": "2025-12-27T16:32:33.413398+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.054,
+    "change24h": 0.01,
+    "vol": 0.065,
     "fearGreed": 23,
-    "momentum": -0.253,
-    "regime": "bear",
+    "momentum": 0.182,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3819,
-    "global_sentiment": 0.4171,
-    "combined_sentiment": 0.4045,
-    "confidence": 0.5528,
+    "crypto_sentiment": 0.441,
+    "global_sentiment": 0.5417,
+    "combined_sentiment": 0.4592,
+    "confidence": 0.5298,
     "counts": {
-      "crypto": 64,
-      "global": 34
+      "crypto": 62,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 87427,
-      "btc_change_24h": -1.38,
-      "eth_price": 2930.48,
-      "eth_change_24h": -1.29,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 87463,
+      "btc_change_24h": 0.36,
+      "eth_price": 2921.17,
+      "eth_change_24h": -0.02,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113127206286,
+        "volume_24h": 78547414456,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.99,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-13T20:28:13.492584+00:00",
-      "crypto": 0.436,
-      "global": 0.5115,
-      "combined": 0.453,
-      "counts": {
-        "crypto": 64,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-14T02:21:24.934555+00:00",
       "crypto": 0.4657,
@@ -1008,40 +998,43 @@
         "crypto": 64,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-27T16:32:33.413398+00:00",
+      "crypto": 0.441,
+      "global": 0.5417,
+      "combined": 0.4592,
+      "counts": {
+        "crypto": 62,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Is the Stock Market Going to Crash in 2026? 2 Historically Flawless Indicators Paint a Clear Picture.",
-        "url": "https://www.fool.com/investing/2025/12/27/is-stock-market-crash-in-2026-2-history-flawless/?.tsrc=rss",
+        "title": "From Circle to Bullish: Crypto Wraps Up 'Bellwether Year' for IPOs",
+        "url": "https://decrypt.co/352925/circle-bullish-crypto-bellwether-year-ipos",
+        "source": "Decrypt",
+        "weight": 0.6349,
+        "score": 0.5333
+      },
+      {
+        "title": "Nvidia Investors Just Got Incredible News for 2026",
+        "url": "https://www.fool.com/investing/2025/12/27/nvidia-investors-just-got-incredible-news-for-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5368,
+        "weight": 0.7869,
         "score": 0.3333
       },
       {
-        "title": "XRP may trade sideways in 2026 until bullish catalysts emerge: Analysts",
-        "url": "https://cointelegraph.com/news/xrp-price-sideways-bullish-catalyst-crypto-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3888,
-        "score": 0.4333
-      },
-      {
-        "title": "The Outlook for Chinese Stocks and Economy Hinges on the U.S.",
-        "url": "https://finance.yahoo.com/m/3384697f-7135-38de-a6be-60aa349c82c7/the-outlook-for-chinese.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3825,
-        "score": 0.3333
+        "title": "Europe is at a 'fork in the road' between AI competition and climate, fund managers say",
+        "url": "https://www.cnbc.com/2025/12/27/europe-at-fork-in-the-road-between-ai-competition-and-climate.html",
+        "source": "CNBC Markets",
+        "weight": 0.4271,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "China Revises Foreign Trade Law to Safeguard National Interests",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-27/china-revises-foreign-trade-law-to-safeguard-national-interests",
-        "source": "Bloomberg Markets",
-        "weight": 0.7212,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,10 +1043,17 @@
         "score": -0.5333
       },
       {
+        "title": "China Revises Foreign Trade Law to Safeguard National Interests",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-27/china-revises-foreign-trade-law-to-safeguard-national-interests",
+        "source": "Bloomberg Markets",
+        "weight": 0.4727,
+        "score": -0.6333
+      },
+      {
         "title": "UK Pension Funds Eye Stake in Brookfield’s Center Parcs: Sky",
         "url": "https://www.bloomberg.com/news/articles/2025-12-27/uk-pension-funds-eye-stake-in-brookfield-s-center-parcs-sky",
         "source": "Bloomberg Markets",
-        "weight": 0.5245,
+        "weight": 0.3438,
         "score": -0.6333
       }
     ],
