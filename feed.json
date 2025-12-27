@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-27T08:34:44.690409+00:00",
+  "updated_at": "2025-12-27T12:53:12.863800+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.045,
+    "change24h": -0.014,
+    "vol": 0.054,
     "fearGreed": 23,
-    "momentum": -0.196,
-    "regime": "sideways",
+    "momentum": -0.253,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4452,
-    "global_sentiment": 0.6424,
-    "combined_sentiment": 0.4708,
-    "confidence": 0.5551,
+    "crypto_sentiment": 0.3819,
+    "global_sentiment": 0.4171,
+    "combined_sentiment": 0.4045,
+    "confidence": 0.5528,
     "counts": {
-      "crypto": 63,
+      "crypto": 64,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 87566,
-      "btc_change_24h": -1.13,
-      "eth_price": 2934.22,
-      "eth_change_24h": -0.86,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 87427,
+      "btc_change_24h": -1.38,
+      "eth_price": 2930.48,
+      "eth_change_24h": -1.29,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 115197739851,
-        "high_activity_coins": 1
+        "volume_24h": 113127206286,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.04,
+        "btc_dominance": 56.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-13T19:53:15.658580+00:00",
-      "crypto": 0.4811,
-      "global": 0.4988,
-      "combined": 0.4857,
-      "counts": {
-        "crypto": 62,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-13T20:28:13.492584+00:00",
       "crypto": 0.436,
@@ -1008,39 +998,49 @@
         "crypto": 63,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-27T12:53:12.863800+00:00",
+      "crypto": 0.3819,
+      "global": 0.4171,
+      "combined": 0.4045,
+      "counts": {
+        "crypto": 64,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Europe at 'fork in the road' between AI competition and climate: fund managers",
-        "url": "https://www.cnbc.com/2025/12/27/europe-at-fork-in-the-road-between-ai-competition-and-climate.html",
-        "source": "CNBC Markets",
-        "weight": 0.6794,
-        "score": 0.5333
+        "title": "Is the Stock Market Going to Crash in 2026? 2 Historically Flawless Indicators Paint a Clear Picture.",
+        "url": "https://www.fool.com/investing/2025/12/27/is-stock-market-crash-in-2026-2-history-flawless/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5368,
+        "score": 0.3333
       },
       {
         "title": "XRP may trade sideways in 2026 until bullish catalysts emerge: Analysts",
         "url": "https://cointelegraph.com/news/xrp-price-sideways-bullish-catalyst-crypto-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6395,
+        "weight": 0.3888,
         "score": 0.4333
       },
       {
-        "title": "Wall St ends close to all-time highs in light, post-holiday session",
-        "url": "https://finance.yahoo.com/video/wall-st-ends-close-time-230848384.html?.tsrc=rss",
+        "title": "The Outlook for Chinese Stocks and Economy Hinges on the U.S.",
+        "url": "https://finance.yahoo.com/m/3384697f-7135-38de-a6be-60aa349c82c7/the-outlook-for-chinese.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2691,
-        "score": 1.0
+        "weight": 0.3825,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "JPMorgan freezes accounts of two stablecoin startups over sanctions concerns: Report",
-        "url": "https://cointelegraph.com/news/jpmorgan-freezes-stablecoin-startup-accounts-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6597,
-        "score": -0.6667
+        "title": "China Revises Foreign Trade Law to Safeguard National Interests",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-27/china-revises-foreign-trade-law-to-safeguard-national-interests",
+        "source": "Bloomberg Markets",
+        "weight": 0.7212,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
@@ -1050,21 +1050,15 @@
         "score": -0.5333
       },
       {
-        "title": "USX briefly depegs on Solana DEXs before liquidity support restores price",
-        "url": "https://cointelegraph.com/news/usx-stabilizes-after-brief-depeg-secondary-market-sell-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.156,
-        "score": -0.9667
+        "title": "UK Pension Funds Eye Stake in Brookfield’s Center Parcs: Sky",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-27/uk-pension-funds-eye-stake-in-brookfield-s-center-parcs-sky",
+        "source": "Bloomberg Markets",
+        "weight": 0.5245,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3243764961515827,
-          "price_change_24h": -0.02174
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
