@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-26T20:29:09.506345+00:00",
+  "updated_at": "2025-12-27T02:06:35.573099+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.061,
-    "fearGreed": 20,
-    "momentum": -0.256,
-    "regime": "bear",
+    "change24h": 0.002,
+    "vol": 0.044,
+    "fearGreed": 23,
+    "momentum": 0.041,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4069,
-    "global_sentiment": 0.5206,
-    "combined_sentiment": 0.4319,
-    "confidence": 0.6649,
+    "crypto_sentiment": 0.4968,
+    "global_sentiment": 0.6298,
+    "combined_sentiment": 0.5084,
+    "confidence": 0.6061,
     "counts": {
-      "crypto": 60,
-      "global": 42
+      "crypto": 62,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 87539,
-      "btc_change_24h": -0.16,
-      "eth_price": 2927.13,
-      "eth_change_24h": -0.59,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 87349,
+      "btc_change_24h": -0.1,
+      "eth_price": 2923.13,
+      "eth_change_24h": 0.11,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
-        "value": 20,
+        "value": 23,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172266117067,
+        "volume_24h": 159167004577,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.12,
+        "btc_dominance": 57.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-13T08:33:04.750793+00:00",
-      "crypto": 0.3579,
-      "global": 0.4193,
-      "combined": 0.3867,
-      "counts": {
-        "crypto": 64,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-13T12:51:50.947248+00:00",
       "crypto": 0.3686,
@@ -1008,66 +998,76 @@
         "crypto": 60,
         "global": 42
       }
+    },
+    {
+      "ts": "2025-12-27T02:06:35.573099+00:00",
+      "crypto": 0.4968,
+      "global": 0.6298,
+      "combined": 0.5084,
+      "counts": {
+        "crypto": 62,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "As Dow, S&P 500 Slip From Highs, an Appreciation of a Historic Rally",
-        "url": "https://finance.yahoo.com/m/8be4bb6b-97c6-35d0-b5b9-2b47da459f6c/as-dow%2C-s%26p-500-slip-from.html?.tsrc=rss",
+        "title": "Wall St ends close to all-time highs in light, post-holiday session",
+        "url": "https://finance.yahoo.com/video/wall-st-ends-close-time-230848384.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.635,
+        "weight": 0.5681,
         "score": 1.0
       },
       {
-        "title": "A Stock Market Priced for Perfection Can Still Have a Very Good Year",
-        "url": "https://finance.yahoo.com/m/bf595d08-7ab1-34b3-91ad-ec5c467017c5/a-stock-market-priced-for.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5888,
-        "score": 0.8
+        "title": "Ethereum's TVL could skyrocket '10X' in 2026: Sharplink CEO",
+        "url": "https://cointelegraph.com/news/ethereum-total-value-locked-skyrocket-2026-sharplink-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6108,
+        "score": 0.5333
       },
       {
-        "title": "BNB Chain Fermi hard fork scheduled for January activation",
-        "url": "https://cointelegraph.com/news/binance-smart-chain-bnb-fermi-hard-fork-scheduled-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.678,
-        "score": 0.6333
+        "title": "Brutal Year for Stock Picking Spurs Trillion-Dollar Fund Exodus",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-26/brutal-year-for-stock-picking-spurs-trillion-dollar-fund-exodus",
+        "source": "Bloomberg Markets",
+        "weight": 0.4597,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "USX briefly depegs on Solana DEXs before liquidity support restores price",
         "url": "https://cointelegraph.com/news/usx-stabilizes-after-brief-depeg-secondary-market-sell-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6309,
+        "weight": 0.3294,
         "score": -0.9667
-      },
-      {
-        "title": "Consumer Fear and Tariffs: Why Powell’s Stock Market Valuation Warning is More Dire Now",
-        "url": "https://247wallst.com/investing/2025/12/26/consumer-fear-and-tariffs-why-powells-stock-market-valuation-warning-is-more-dire-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6098,
-        "score": -1.0
       },
       {
         "title": "How $150 billion was liquidated from crypto market in 2025 driving Bitcoin crash",
         "url": "https://cryptoslate.com/how-150-billion-was-liquidated-from-crypto-market-in-2025-driving-bitcoin-crash/",
         "source": "CryptoSlate",
-        "weight": 0.5907,
+        "weight": 0.3085,
         "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4019640360138307,
-          "price_change_24h": -0.01535
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3981864111699079,
+          "price_change_24h": -0.02749
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3957848011259879,
-          "price_change_24h": -0.06391
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3724690783275227,
+          "price_change_24h": -0.00744
         }
       ],
       "momentum_shifts": []
