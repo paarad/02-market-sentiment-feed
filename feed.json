@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-27T02:06:35.573099+00:00",
+  "updated_at": "2025-12-27T04:37:29.145656+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.044,
+    "change24h": -0.014,
+    "vol": 0.047,
     "fearGreed": 23,
-    "momentum": 0.041,
-    "regime": "sideways",
+    "momentum": -0.251,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4968,
-    "global_sentiment": 0.6298,
-    "combined_sentiment": 0.5084,
-    "confidence": 0.6061,
+    "crypto_sentiment": 0.4552,
+    "global_sentiment": 0.5934,
+    "combined_sentiment": 0.4742,
+    "confidence": 0.5885,
     "counts": {
-      "crypto": 62,
+      "crypto": 63,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 87349,
-      "btc_change_24h": -0.1,
-      "eth_price": 2923.13,
-      "eth_change_24h": 0.11,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 87403,
+      "btc_change_24h": -1.55,
+      "eth_price": 2927.07,
+      "eth_change_24h": -1.16,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 159167004577,
+        "volume_24h": 134166729305,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.06,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-13T12:51:50.947248+00:00",
-      "crypto": 0.3686,
-      "global": 0.398,
-      "combined": 0.3929,
-      "counts": {
-        "crypto": 64,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-13T16:31:44.915185+00:00",
       "crypto": 0.4362,
@@ -1008,6 +998,16 @@
         "crypto": 62,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-27T04:37:29.145656+00:00",
+      "crypto": 0.4552,
+      "global": 0.5934,
+      "combined": 0.4742,
+      "counts": {
+        "crypto": 63,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Wall St ends close to all-time highs in light, post-holiday session",
         "url": "https://finance.yahoo.com/video/wall-st-ends-close-time-230848384.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5681,
+        "weight": 0.4249,
         "score": 1.0
       },
       {
         "title": "Ethereum's TVL could skyrocket '10X' in 2026: Sharplink CEO",
         "url": "https://cointelegraph.com/news/ethereum-total-value-locked-skyrocket-2026-sharplink-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6108,
+        "weight": 0.4568,
         "score": 0.5333
       },
       {
         "title": "Brutal Year for Stock Picking Spurs Trillion-Dollar Fund Exodus",
         "url": "https://www.bloomberg.com/news/articles/2025-12-26/brutal-year-for-stock-picking-spurs-trillion-dollar-fund-exodus",
         "source": "Bloomberg Markets",
-        "weight": 0.4597,
+        "weight": 0.3438,
         "score": 0.6667
       }
     ],
@@ -1043,17 +1043,17 @@
         "score": -0.5333
       },
       {
+        "title": "Global crypto market cap down -1.2% — selloff",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": -0.3333
+      },
+      {
         "title": "USX briefly depegs on Solana DEXs before liquidity support restores price",
         "url": "https://cointelegraph.com/news/usx-stabilizes-after-brief-depeg-secondary-market-sell-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3294,
-        "score": -0.9667
-      },
-      {
-        "title": "How $150 billion was liquidated from crypto market in 2025 driving Bitcoin crash",
-        "url": "https://cryptoslate.com/how-150-billion-was-liquidated-from-crypto-market-in-2025-driving-bitcoin-crash/",
-        "source": "CryptoSlate",
-        "weight": 0.3085,
+        "weight": 0.2464,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3981864111699079,
-          "price_change_24h": -0.02749
+          "volume_mcap_ratio": 0.36505212781081864,
+          "price_change_24h": 0.00905
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3724690783275227,
-          "price_change_24h": -0.00744
+          "volume_mcap_ratio": 0.31592032179984725,
+          "price_change_24h": 0.01561
         }
       ],
       "momentum_shifts": []
