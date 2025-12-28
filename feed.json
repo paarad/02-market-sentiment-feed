@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-28T04:49:43.836350+00:00",
+  "updated_at": "2025-12-28T08:34:54.817272+00:00",
   "indicators": {
     "change24h": 0.014,
-    "vol": 0.074,
+    "vol": 0.093,
     "fearGreed": 24,
-    "momentum": 0.251,
+    "momentum": 0.253,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3567,
-    "global_sentiment": 0.3419,
-    "combined_sentiment": 0.3793,
-    "confidence": 0.4359,
+    "crypto_sentiment": 0.4702,
+    "global_sentiment": 0.3739,
+    "combined_sentiment": 0.4671,
+    "confidence": 0.4463,
     "counts": {
-      "crypto": 61,
-      "global": 38
+      "crypto": 59,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 87662,
-      "btc_change_24h": 0.29,
-      "eth_price": 2936.81,
-      "eth_change_24h": 0.3,
+      "btc_price": 87703,
+      "btc_change_24h": 0.18,
+      "eth_price": 2937.04,
+      "eth_change_24h": 0.1,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 68684048690,
+        "volume_24h": 66869289386,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.88,
+        "btc_dominance": 56.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-14T16:31:38.770721+00:00",
-      "crypto": 0.3022,
-      "global": 0.548,
-      "combined": 0.3557,
-      "counts": {
-        "crypto": 61,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-12-14T19:53:46.916847+00:00",
       "crypto": 0.3353,
@@ -1008,30 +998,40 @@
         "crypto": 61,
         "global": 38
       }
+    },
+    {
+      "ts": "2025-12-28T08:34:54.817272+00:00",
+      "crypto": 0.4702,
+      "global": 0.3739,
+      "combined": 0.4671,
+      "counts": {
+        "crypto": 59,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Uniswap executes 100M UNI burn after governance approval",
+        "url": "https://cointelegraph.com/news/uniswap-executes-100m-uni-burn-after-fee-switch-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6641,
+        "score": 0.5833
+      },
+      {
+        "title": "China Signals Sustained Fiscal Support for Growth in 2026 Plan",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-28/china-signals-sustained-fiscal-support-for-growth-in-2026-plan",
+        "source": "Bloomberg Markets",
+        "weight": 0.6542,
+        "score": 0.3333
+      },
+      {
         "title": "Bitcoin Whales Woke Up in 2025 and Moved Billions in BTC—Here's Why",
         "url": "https://decrypt.co/350811/bitcoin-whales-woke-up-2025-moved-billions-why",
         "source": "Decrypt",
-        "weight": 0.2609,
+        "weight": 0.1691,
         "score": 0.5333
-      },
-      {
-        "title": "From Circle to Bullish: Crypto Wraps Up 'Bellwether Year' for IPOs",
-        "url": "https://decrypt.co/352925/circle-bullish-crypto-bellwether-year-ipos",
-        "source": "Decrypt",
-        "weight": 0.1536,
-        "score": 0.5333
-      },
-      {
-        "title": "Nvidia Investors Just Got Incredible News for 2026",
-        "url": "https://www.fool.com/investing/2025/12/27/nvidia-investors-just-got-incredible-news-for-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1903,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,18 +1043,18 @@
         "score": -0.5333
       },
       {
+        "title": "Comcast Is Cheap. Investors Are Too Pessimistic on Broadband, This Analyst Says.",
+        "url": "https://finance.yahoo.com/m/35bec688-8004-3182-9b0c-f4991746fee7/comcast-is-cheap.-investors.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5937,
+        "score": -0.6667
+      },
+      {
         "title": "Forget Redwire Stock: This Space Stock Is a Better Moonshot Bet",
         "url": "https://www.fool.com/investing/2025/12/27/forget-redwire-stock-this-space-stock-is-a-better/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5456,
+        "weight": 0.3537,
         "score": -0.6333
-      },
-      {
-        "title": "Better High-Return ETF: SOXL vs. SPXL",
-        "url": "https://www.fool.com/coverage/etfs/2025/12/27/better-high-return-etf-soxl-vs-spxl/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3027,
-        "score": -0.9667
       }
     ],
     "market_movers": {
