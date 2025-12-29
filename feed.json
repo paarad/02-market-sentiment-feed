@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-29T08:40:23.613740+00:00",
+  "updated_at": "2025-12-29T12:59:18.277301+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.5345,
-    "global_sentiment": 0.6007,
-    "combined_sentiment": 0.5343,
-    "confidence": 0.6214,
+    "crypto_sentiment": 0.4727,
+    "global_sentiment": 0.6455,
+    "combined_sentiment": 0.4917,
+    "confidence": 0.6831,
     "counts": {
-      "crypto": 66,
-      "global": 30
+      "crypto": 63,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 89584,
-      "btc_change_24h": 2.14,
-      "eth_price": 3015.85,
-      "eth_change_24h": 2.67,
+      "btc_price": 87248,
+      "btc_change_24h": -0.63,
+      "eth_price": 2926.78,
+      "eth_change_24h": -0.36,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 138969756066,
+        "volume_24h": 172796061614,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-15T19:53:46.619586+00:00",
-      "crypto": 0.2982,
-      "global": 0.359,
-      "combined": 0.3369,
-      "counts": {
-        "crypto": 71,
-        "global": 51
-      }
-    },
     {
       "ts": "2025-12-15T20:32:14.922239+00:00",
       "crypto": 0.2913,
@@ -1008,61 +998,71 @@
         "crypto": 66,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-12-29T12:59:18.277301+00:00",
+      "crypto": 0.4727,
+      "global": 0.6455,
+      "combined": 0.4917,
+      "counts": {
+        "crypto": 63,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Asian Mining Stocks Jump in Year-End Rally on Record-High Silver",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-29/asian-mining-stocks-jump-in-year-end-rally-on-record-high-silver",
-        "source": "Bloomberg Markets",
-        "weight": 0.4947,
-        "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 1.8% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "FTSE 100 LIVE: London shares flat after Christmas break",
-        "url": "https://uk.finance.yahoo.com/news/ftse-100-live-market-stocks-083639767.html?.tsrc=rss",
+        "title": "DigitalBridge and Coupang rise in premarket; Silver mining stocks fall",
+        "url": "https://finance.yahoo.com/news/digitalbridge-coupang-rise-premarket-silver-122828438.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7943,
-        "score": 0.5333
+        "weight": 0.7539,
+        "score": 1.0
+      },
+      {
+        "title": "2025 market growth: Betting against the US is a 'fool's game'",
+        "url": "https://finance.yahoo.com/video/2025-market-growth-betting-against-110029808.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6364,
+        "score": 1.0
+      },
+      {
+        "title": "3 Stocks Estimated To Be Priced Below Value In December 2025",
+        "url": "https://finance.yahoo.com/news/3-stocks-estimated-priced-below-113811558.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6843,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Aspen Surges Most in 25 Years on $1.6 Billion Asian Asset Sale",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-29/aspen-to-sell-apac-ex-china-assets-to-bgh-for-1-6-billion",
-        "source": "Bloomberg Markets",
-        "weight": 0.5527,
-        "score": -0.9333
+        "title": "Sberbank issues Russia's first crypto-backed loan to bitcoin miner Intelion Data",
+        "url": "https://www.coindesk.com/business/2025/12/29/sberbank-issues-russia-s-first-crypto-backed-loan-to-bitcoin-miner-intelion-data",
+        "source": "CoinDesk",
+        "weight": 0.8783,
+        "score": -0.6667
       },
       {
-        "title": "Fear & Greed 24 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Ubisoft halts Rainbow Six Siege after hackers give each player $13.3M credits",
-        "url": "https://cointelegraph.com/news/ubisoft-halts-rainbow-six-seige-after-hackers-grant-every-player-2-billion-credits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Higher activity, lower fees: Here’s what December’s onchain data shows",
+        "url": "https://cointelegraph.com/news/higher-activity-lower-fees-december-onchain-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3706,
-        "score": -0.7333
+        "weight": 0.5818,
+        "score": -0.9667
+      },
+      {
+        "title": "Zelenskyy asks Trump for 50 years of security guarantees, says meeting with Russia possible",
+        "url": "https://www.cnbc.com/2025/12/29/zelenskyy-asks-trump-for-50-years-of-security-guarantees.html",
+        "source": "CNBC Markets",
+        "weight": 0.7907,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3231498345472328,
-          "price_change_24h": -0.04501
+          "volume_mcap_ratio": 0.40396200456774245,
+          "price_change_24h": -0.04697
         }
       ],
       "momentum_shifts": []
