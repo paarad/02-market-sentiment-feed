@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-29T12:59:18.277301+00:00",
+  "updated_at": "2025-12-29T16:34:50.196303+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.011,
+    "vol": 0.08,
     "fearGreed": 24,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.198,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4727,
-    "global_sentiment": 0.6455,
-    "combined_sentiment": 0.4917,
-    "confidence": 0.6831,
+    "crypto_sentiment": 0.5244,
+    "global_sentiment": 0.5858,
+    "combined_sentiment": 0.5255,
+    "confidence": 0.7513,
     "counts": {
-      "crypto": 63,
-      "global": 41
+      "crypto": 65,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 87248,
-      "btc_change_24h": -0.63,
-      "eth_price": 2926.78,
+      "btc_price": 87544,
+      "btc_change_24h": -0.23,
+      "eth_price": 2931.48,
       "eth_change_24h": -0.36,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172796061614,
+        "volume_24h": 192199199222,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.9,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-15T20:32:14.922239+00:00",
-      "crypto": 0.2913,
-      "global": 0.3337,
-      "combined": 0.3296,
-      "counts": {
-        "crypto": 71,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-12-16T02:09:39.334972+00:00",
       "crypto": 0.2971,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-29T16:34:50.196303+00:00",
+      "crypto": 0.5244,
+      "global": 0.5858,
+      "combined": 0.5255,
+      "counts": {
+        "crypto": 65,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "DigitalBridge and Coupang rise in premarket; Silver mining stocks fall",
-        "url": "https://finance.yahoo.com/news/digitalbridge-coupang-rise-premarket-silver-122828438.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7539,
+        "title": "Zcash price has 'first stop' at $1K: Arthur Hayes",
+        "url": "https://cointelegraph.com/news/zcash-price-first-stop-1k-arthur-hayes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.77,
         "score": 1.0
       },
       {
-        "title": "2025 market growth: Betting against the US is a 'fool's game'",
-        "url": "https://finance.yahoo.com/video/2025-market-growth-betting-against-110029808.html?.tsrc=rss",
+        "title": "Bitcoin Tops $90,000 in Asia as Futures Activity Picks Up",
+        "url": "https://finance.yahoo.com/news/bitcoin-tops-90-000-asia-144825113.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6364,
+        "weight": 0.6518,
         "score": 1.0
       },
       {
-        "title": "3 Stocks Estimated To Be Priced Below Value In December 2025",
-        "url": "https://finance.yahoo.com/news/3-stocks-estimated-priced-below-113811558.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6843,
-        "score": 0.6667
+        "title": "Blackstone’s AirTrunk Explores Singapore REIT IPO",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-29/blackstone-s-airtrunk-is-said-to-explore-singapore-reit-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.6177,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "Sberbank issues Russia's first crypto-backed loan to bitcoin miner Intelion Data",
-        "url": "https://www.coindesk.com/business/2025/12/29/sberbank-issues-russia-s-first-crypto-backed-loan-to-bitcoin-miner-intelion-data",
-        "source": "CoinDesk",
-        "weight": 0.8783,
-        "score": -0.6667
-      },
-      {
-        "title": "Higher activity, lower fees: Here’s what December’s onchain data shows",
-        "url": "https://cointelegraph.com/news/higher-activity-lower-fees-december-onchain-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "North Korea-linked theft and poor key security dominate Web3 losses: Hacken",
+        "url": "https://cointelegraph.com/news/north-korea-theft-poor-key-security-dominate-web3-losses-hacken?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5818,
-        "score": -0.9667
+        "weight": 0.6157,
+        "score": -1.0
       },
       {
-        "title": "Zelenskyy asks Trump for 50 years of security guarantees, says meeting with Russia possible",
-        "url": "https://www.cnbc.com/2025/12/29/zelenskyy-asks-trump-for-50-years-of-security-guarantees.html",
-        "source": "CNBC Markets",
-        "weight": 0.7907,
-        "score": -0.6333
+        "title": "Trust Wallet hack shifts to verification amid surge in false claims",
+        "url": "https://cointelegraph.com/news/trust-wallet-verification-phase-false-claims-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5418,
+        "score": -1.0
+      },
+      {
+        "title": "Why Plug Power (PLUG) Stock Is Down Today",
+        "url": "https://finance.yahoo.com/news/why-plug-power-plug-stock-155541175.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7419,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40396200456774245,
-          "price_change_24h": -0.04697
+          "volume_mcap_ratio": 0.4466560631122045,
+          "price_change_24h": -0.03891
         }
       ],
       "momentum_shifts": []
