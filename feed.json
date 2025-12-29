@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-29T02:25:17.965089+00:00",
+  "updated_at": "2025-12-29T04:54:12.447257+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.074,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 24,
-    "momentum": 0.493,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4013,
-    "global_sentiment": 0.6066,
-    "combined_sentiment": 0.4349,
-    "confidence": 0.6031,
+    "crypto_sentiment": 0.4839,
+    "global_sentiment": 0.6439,
+    "combined_sentiment": 0.4999,
+    "confidence": 0.6224,
     "counts": {
-      "crypto": 61,
-      "global": 28
+      "crypto": 62,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 88858,
-      "btc_change_24h": 1.27,
-      "eth_price": 2999.6,
-      "eth_change_24h": 1.87,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "btc_price": 90107,
+      "btc_change_24h": 2.79,
+      "eth_price": 3037.56,
+      "eth_change_24h": 3.42,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 95432192934.19,
+        "volume_24h": 118765972617,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 55.36,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-15T13:00:58.841723+00:00",
-      "crypto": 0.3564,
-      "global": 0.4006,
-      "combined": 0.3841,
-      "counts": {
-        "crypto": 64,
-        "global": 50
-      }
-    },
     {
       "ts": "2025-12-15T16:40:20.513817+00:00",
       "crypto": 0.3462,
@@ -1008,53 +998,63 @@
         "crypto": 61,
         "global": 28
       }
+    },
+    {
+      "ts": "2025-12-29T04:54:12.447257+00:00",
+      "crypto": 0.4839,
+      "global": 0.6439,
+      "combined": 0.4999,
+      "counts": {
+        "crypto": 62,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Silver Pulls Back After Topping $80 in Historic Year-End Rally",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-28/silver-rises-to-record-above-80-in-historic-end-of-year-rally",
+        "title": "Asian Mining Stocks Jump in Year-End Rally on Record-High Silver",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-29/asian-mining-stocks-jump-in-year-end-rally-on-record-high-silver",
         "source": "Bloomberg Markets",
-        "weight": 0.5433,
-        "score": 1.0
+        "weight": 0.7646,
+        "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 1.7% — rally",
+        "title": "Global crypto market cap up 2.5% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "How 2025 Became the Year of the Indian IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-28/india-s-ipo-market-why-companies-rushed-to-go-public-in-2025",
+        "title": "Stocks Climb in Asia, Silver Whipsaws After Record: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-28/asian-stocks-set-for-muted-start-amid-thin-trading-markets-wrap",
         "source": "Bloomberg Markets",
-        "weight": 0.48,
-        "score": 0.6333
+        "weight": 0.3879,
+        "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Ubisoft halts Rainbow Six Siege after hackers give each player $13.3M credits",
         "url": "https://cointelegraph.com/news/ubisoft-halts-rainbow-six-seige-after-hackers-grant-every-player-2-billion-credits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7631,
+        "weight": 0.5729,
         "score": -0.7333
       },
       {
         "title": "Flow validators urged to halt work after divisive blockchain rollback",
         "url": "https://cointelegraph.com/news/flow-validators-urged-halt-work-after-chain-rollback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6452,
+        "weight": 0.4844,
         "score": -0.8333
-      },
-      {
-        "title": "Beijing’s Point Person for Finance in Hong Kong to Leave Post",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-29/beijing-s-point-person-for-finance-in-hong-kong-to-leave-post",
-        "source": "Bloomberg Markets",
-        "weight": 0.7378,
-        "score": -0.6333
       }
     ],
     "market_movers": {
