@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-28T20:30:19.533287+00:00",
+  "updated_at": "2025-12-29T02:25:17.965089+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.035,
+    "change24h": 0.028,
+    "vol": 0.074,
     "fearGreed": 24,
-    "momentum": 0.076,
+    "momentum": 0.493,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4672,
-    "global_sentiment": 0.4134,
-    "combined_sentiment": 0.4682,
-    "confidence": 0.5805,
+    "crypto_sentiment": 0.4013,
+    "global_sentiment": 0.6066,
+    "combined_sentiment": 0.4349,
+    "confidence": 0.6031,
     "counts": {
       "crypto": 61,
-      "global": 30
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 87502,
-      "btc_change_24h": -0.03,
-      "eth_price": 2932.37,
-      "eth_change_24h": 0.09,
+      "btc_price": 88858,
+      "btc_change_24h": 1.27,
+      "eth_price": 2999.6,
+      "eth_change_24h": 1.87,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 75667367881,
+        "volume_24h": 95432192934.19,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 55.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-15T08:40:45.545152+00:00",
-      "crypto": 0.4217,
-      "global": 0.4473,
-      "combined": 0.4369,
-      "counts": {
-        "crypto": 63,
-        "global": 47
-      }
-    },
     {
       "ts": "2025-12-15T13:00:58.841723+00:00",
       "crypto": 0.3564,
@@ -1008,53 +998,63 @@
         "crypto": 61,
         "global": 30
       }
+    },
+    {
+      "ts": "2025-12-29T02:25:17.965089+00:00",
+      "crypto": 0.4013,
+      "global": 0.6066,
+      "combined": 0.4349,
+      "counts": {
+        "crypto": 61,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BTC mining difficulty records last adjustment in 2025, forecast to rise in Jan",
-        "url": "https://cointelegraph.com/news/btc-mining-difficulty-adjustment-2025-rise-jan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8542,
-        "score": 0.6667
+        "title": "Silver Pulls Back After Topping $80 in Historic Year-End Rally",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-28/silver-rises-to-record-above-80-in-historic-end-of-year-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.5433,
+        "score": 1.0
       },
       {
-        "title": "This Growth Stock Continues to Crush the Market",
-        "url": "https://www.fool.com/investing/2025/12/28/this-growth-stock-continues-to-crush-the-market/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4195,
-        "score": 0.6667
+        "title": "Global crypto market cap up 1.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Dow Jones Futures: Tesla, Nvidia Lead 5 Giants In Buy Areas; Market Strong As 2025 Wanes",
-        "url": "https://finance.yahoo.com/m/a4e2f064-8bac-3727-98f2-40f9aa1abcd0/dow-jones-futures%3A-tesla%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6455,
-        "score": 0.3333
+        "title": "How 2025 Became the Year of the Indian IPO",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-28/india-s-ipo-market-why-companies-rushed-to-go-public-in-2025",
+        "source": "Bloomberg Markets",
+        "weight": 0.48,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "AI Infrastructure Demand Keeps KLA (KLAC) and Semiconductor Sector on Top for 2026",
-        "url": "https://finance.yahoo.com/news/ai-infrastructure-demand-keeps-kla-174645942.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5839,
-        "score": -0.9667
+        "title": "Ubisoft halts Rainbow Six Siege after hackers give each player $13.3M credits",
+        "url": "https://cointelegraph.com/news/ubisoft-halts-rainbow-six-seige-after-hackers-grant-every-player-2-billion-credits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7631,
+        "score": -0.7333
       },
       {
-        "title": "Fear & Greed 24 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Flow validators urged to halt work after divisive blockchain rollback",
+        "url": "https://cointelegraph.com/news/flow-validators-urged-halt-work-after-chain-rollback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6452,
+        "score": -0.8333
       },
       {
-        "title": "'I don't see a bubble': Why Wall Street thinks the stock market can keep climbing even as AI anxiety grows",
-        "url": "https://finance.yahoo.com/news/i-dont-see-a-bubble-why-wall-street-thinks-the-stock-market-can-keep-climbing-even-as-ai-anxiety-grows-140025569.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3776,
-        "score": -0.9333
+        "title": "Beijing’s Point Person for Finance in Hong Kong to Leave Post",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-29/beijing-s-point-person-for-finance-in-hong-kong-to-leave-post",
+        "source": "Bloomberg Markets",
+        "weight": 0.7378,
+        "score": -0.6333
       }
     ],
     "market_movers": {
