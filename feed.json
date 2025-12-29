@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-29T19:53:44.297405+00:00",
+  "updated_at": "2025-12-29T20:31:45.285079+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.097,
+    "change24h": -0.004,
+    "vol": 0.105,
     "fearGreed": 24,
-    "momentum": -0.052,
+    "momentum": -0.073,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4553,
-    "global_sentiment": 0.4421,
-    "combined_sentiment": 0.4616,
-    "confidence": 0.7364,
+    "crypto_sentiment": 0.4538,
+    "global_sentiment": 0.4904,
+    "combined_sentiment": 0.4646,
+    "confidence": 0.7294,
     "counts": {
       "crypto": 64,
-      "global": 34
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 87290,
-      "btc_change_24h": -0.3,
-      "eth_price": 2931.69,
-      "eth_change_24h": -0.04,
+      "btc_price": 87260,
+      "btc_change_24h": -0.28,
+      "eth_price": 2929.76,
+      "eth_change_24h": -0.08,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 200063547898,
+        "volume_24h": 202985629308,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.86,
+        "btc_dominance": 56.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-16T04:40:03.023475+00:00",
-      "crypto": 0.3098,
-      "global": 0.4026,
-      "combined": 0.3492,
-      "counts": {
-        "crypto": 77,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-16T08:39:21.109431+00:00",
       "crypto": 0.3631,
@@ -1008,6 +998,16 @@
         "crypto": 64,
         "global": 34
       }
+    },
+    {
+      "ts": "2025-12-29T20:31:45.285079+00:00",
+      "crypto": 0.4538,
+      "global": 0.4904,
+      "combined": 0.4646,
+      "counts": {
+        "crypto": 64,
+        "global": 39
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Zcash price has 'first stop' at $1K: Former BitMEX CEO Arthur Hayes",
         "url": "https://cointelegraph.com/news/zcash-price-first-stop-1k-arthur-hayes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.525,
+        "weight": 0.488,
         "score": 1.0
       },
       {
         "title": "Chevron Ships Unload Venezuelan Oil in US Ports Amid Blockade",
         "url": "https://www.bloomberg.com/news/articles/2025-12-29/chevron-ships-unload-venezuelan-oil-in-us-ports-amid-blockade",
         "source": "Bloomberg Markets",
-        "weight": 0.7048,
+        "weight": 0.655,
         "score": 0.6667
       },
       {
         "title": "Blackstone’s AirTrunk Explores Singapore REIT IPO",
         "url": "https://www.bloomberg.com/news/articles/2025-12-29/blackstone-s-airtrunk-is-said-to-explore-singapore-reit-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.4212,
+        "weight": 0.3915,
         "score": 0.9667
       }
     ],
@@ -1039,30 +1039,30 @@
         "title": "South Korean lawmaker faces scrutiny over family ties to crypto exchange: Report",
         "url": "https://cointelegraph.com/news/south-korea-scandal-politics-bithumb?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7686,
+        "weight": 0.7143,
         "score": -0.9667
+      },
+      {
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "Sector Update: Energy Stocks Rise Monday Afternoon",
         "url": "https://finance.yahoo.com/news/sector-energy-stocks-rise-monday-185323881.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7122,
+        "weight": 0.662,
         "score": -0.6333
-      },
-      {
-        "title": "Treasuries Volatility Heads for Biggest Annual Slump Since 2009",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-29/treasuries-volatility-heads-for-biggest-annual-slump-since-2009",
-        "source": "Bloomberg Markets",
-        "weight": 0.6542,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4640921926319932,
-          "price_change_24h": -0.03844
+          "volume_mcap_ratio": 0.46878314554506134,
+          "price_change_24h": -0.04913
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-29",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4787,
-      "crypto_high": 0.5345,
-      "crypto_low": 0.4013,
-      "global_avg": 0.5874,
-      "global_high": 0.6455,
-      "global_low": 0.4421,
-      "combined_avg": 0.4913,
-      "combined_high": 0.5343,
-      "combined_low": 0.4349
-    },
-    "market_indicators_24h": {
-      "change24h": -0.003,
-      "vol": 0.097,
-      "fearGreed": 24,
-      "momentum": -0.052,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-29T19:53:44.297405+00:00"
   }
 }
