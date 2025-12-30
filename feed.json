@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-30T02:10:41.645025+00:00",
+  "updated_at": "2025-12-30T04:43:55.134436+00:00",
   "indicators": {
-    "change24h": -0.038,
-    "vol": 0.127,
+    "change24h": -0.042,
+    "vol": 0.132,
     "fearGreed": 23,
-    "momentum": -0.668,
+    "momentum": -0.732,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4559,
-    "global_sentiment": 0.5196,
-    "combined_sentiment": 0.4685,
-    "confidence": 0.7377,
+    "crypto_sentiment": 0.4676,
+    "global_sentiment": 0.5507,
+    "combined_sentiment": 0.4799,
+    "confidence": 0.7091,
     "counts": {
-      "crypto": 70,
+      "crypto": 67,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 87092,
-      "btc_change_24h": -2.16,
-      "eth_price": 2930.74,
-      "eth_change_24h": -2.52,
+      "btc_price": 87323,
+      "btc_change_24h": -3.16,
+      "eth_price": 2952.33,
+      "eth_change_24h": -2.98,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190414309681,
+        "volume_24h": 172944191154,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-16T12:59:29.105912+00:00",
-      "crypto": 0.3673,
-      "global": 0.4357,
-      "combined": 0.3951,
-      "counts": {
-        "crypto": 76,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-12-16T16:38:31.774634+00:00",
       "crypto": 0.3988,
@@ -1008,61 +998,71 @@
         "crypto": 70,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-30T04:43:55.134436+00:00",
+      "crypto": 0.4676,
+      "global": 0.5507,
+      "combined": 0.4799,
+      "counts": {
+        "crypto": 67,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Copper Racks Up Longest Rally Since 2017 With Bulls at the Helm",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-30/copper-racks-up-longest-rally-since-2017-with-bulls-at-the-helm",
+        "source": "Bloomberg Markets",
+        "weight": 0.6894,
+        "score": 0.5333
+      },
+      {
         "title": "Investors Pile Into India’s Short Bonds on RBI Rate Outlook",
         "url": "https://www.bloomberg.com/news/articles/2025-12-30/investors-pile-into-india-s-short-bonds-on-rbi-rate-outlook",
         "source": "Bloomberg Markets",
-        "weight": 0.7397,
+        "weight": 0.5507,
         "score": 0.6667
       },
       {
-        "title": "AI, Defense Boom Fuels Korean Stocks to Best Year Since 1999",
+        "title": "AI, Defense Boom Drives Korean Stocks to Best Year Since 1999",
         "url": "https://www.bloomberg.com/news/articles/2025-12-29/ai-defense-and-chip-stocks-fuel-korea-s-record-breaking-year",
         "source": "Bloomberg Markets",
-        "weight": 0.5542,
+        "weight": 0.4126,
         "score": 0.8667
-      },
-      {
-        "title": "US stocks end down as tech shares drop ahead of New Year's",
-        "url": "https://finance.yahoo.com/video/us-stocks-end-down-tech-230811118.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.563,
-        "score": 0.8
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Chinese Stocks on Track for Best Year Since 2017 as Rally Widens",
         "url": "https://www.bloomberg.com/news/articles/2025-12-29/chinese-stocks-on-track-for-best-year-since-2017-as-rally-widens",
         "source": "Bloomberg Markets",
-        "weight": 0.5871,
+        "weight": 0.4371,
         "score": -0.9333
       },
       {
         "title": "Colombia Hikes Minimum Wage by 23% Stoking Inflation Concerns",
         "url": "https://www.bloomberg.com/news/articles/2025-12-30/colombia-hikes-minimum-wage-by-23-stoking-inflation-concerns",
         "source": "Bloomberg Markets",
-        "weight": 0.7192,
+        "weight": 0.5355,
         "score": -0.6667
-      },
-      {
-        "title": "Bank of America CEO drops unexpected view on economy",
-        "url": "https://www.thestreet.com/economy/bank-of-america-ceo-drops-unexpected-view-on-economy?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4598,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44341495260701597,
-          "price_change_24h": -0.02414
+          "volume_mcap_ratio": 0.4017966425945762,
+          "price_change_24h": -0.02539
         }
       ],
       "momentum_shifts": []
