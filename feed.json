@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-30T08:37:59.045507+00:00",
+  "updated_at": "2025-12-30T12:58:28.156387+00:00",
   "indicators": {
-    "change24h": -0.026,
-    "vol": 0.102,
+    "change24h": 0.01,
+    "vol": 0.076,
     "fearGreed": 23,
-    "momentum": -0.452,
-    "regime": "bear",
+    "momentum": 0.169,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3726,
-    "global_sentiment": 0.5416,
-    "combined_sentiment": 0.4079,
-    "confidence": 0.6764,
+    "crypto_sentiment": 0.457,
+    "global_sentiment": 0.5472,
+    "combined_sentiment": 0.4717,
+    "confidence": 0.6937,
     "counts": {
-      "crypto": 66,
-      "global": 43
+      "crypto": 65,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 87723,
-      "btc_change_24h": -2.05,
-      "eth_price": 2972.84,
-      "eth_change_24h": -1.54,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 87895,
+      "btc_change_24h": 0.7,
+      "eth_price": 2975.39,
+      "eth_change_24h": 1.66,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 164567210061,
-        "high_activity_coins": 1
+        "volume_24h": 139743998212,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.8,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-16T19:53:46.168867+00:00",
-      "crypto": 0.4016,
-      "global": 0.4754,
-      "combined": 0.4241,
-      "counts": {
-        "crypto": 65,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-16T20:32:02.758477+00:00",
       "crypto": 0.4132,
@@ -1008,61 +998,76 @@
         "crypto": 66,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-30T12:58:28.156387+00:00",
+      "crypto": 0.457,
+      "global": 0.5472,
+      "combined": 0.4717,
+      "counts": {
+        "crypto": 65,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "European Bank Stocks Had an Ace Year But Novo and Puma Lost Out",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-30/european-bank-stocks-had-an-ace-year-but-novo-and-puma-lost-out",
-        "source": "Bloomberg Markets",
-        "weight": 0.6075,
-        "score": 0.7
+        "title": "Bitcoin 2026 bull case: Traders see 'strong signals' for 6-figure BTC price",
+        "url": "https://cointelegraph.com/news/bitcoin-2026-bull-case-traders-strong-signals-6-figure-btc-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9349,
+        "score": 1.0
       },
       {
-        "title": "Copper Racks Up Longest Rally Since 2017 With Bulls at the Helm",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-30/copper-racks-up-longest-rally-since-2017-with-bulls-at-the-helm",
-        "source": "Bloomberg Markets",
-        "weight": 0.4393,
+        "title": "Micron Stock Climbs to Record High as AI Drives Memory Chip Demand",
+        "url": "https://finance.yahoo.com/news/micron-stock-climbs-record-high-122526887.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7507,
+        "score": 0.8667
+      },
+      {
+        "title": "The Stock Market Is Flashing a Warning Last Seen Decades Ago, and the Federal Reserve Just Made President Trump's Tariffs Even Riskier. Here Is What History Says Could Happen Next.",
+        "url": "https://www.fool.com/investing/2025/12/30/the-stock-market-is-flashing-a-rare-warning-last-s/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6069,
         "score": 0.5333
-      },
-      {
-        "title": "Investors Pile Into India’s Short Bonds on RBI Rate Outlook",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-30/investors-pile-into-india-s-short-bonds-on-rbi-rate-outlook",
-        "source": "Bloomberg Markets",
-        "weight": 0.3509,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin long-term hodlers finally halt selloff as ETH whales accumulate",
-        "url": "https://cointelegraph.com/news/bitcoin-long-term-holders-halt-selloff-ether-whales-accumula?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6902,
-        "score": -0.8667
+        "title": "Unleash Protocol hit by $3.9 million exploit with funds routed through Tornado Cash",
+        "url": "https://www.coindesk.com/business/2025/12/30/unleash-protocol-hit-by-usd3-9-million-exploit-with-funds-routed-through-tornado-cash",
+        "source": "CoinDesk",
+        "weight": 0.91,
+        "score": -0.8333
       },
       {
-        "title": "Novo Nordisk's 'long game' on weight loss drugs sparks hope in science, but the Street is impatient",
-        "url": "https://www.cnbc.com/2025/12/30/novo-nordisk-beyond-weight-loss-has-investors-wary-scientists-hopeful.html",
-        "source": "CNBC Markets",
-        "weight": 0.6045,
-        "score": -0.9333
+        "title": "This is Wolfe’s most preferred S&P 500 sector for 2026",
+        "url": "https://finance.yahoo.com/news/wolfe-most-preferred-p-500-121222436.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.732,
+        "score": -0.6333
       },
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Alibaba, Abu Dhabi Set to Invest in MiniMax’s $600 Million IPO",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-30/alibaba-abu-dhabi-set-to-invest-in-minimax-s-600-million-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.7053,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3334075783098562,
+          "price_change_24h": -0.04447
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3809081062093154,
-          "price_change_24h": -0.01198
+          "volume_mcap_ratio": 0.32167199891014403,
+          "price_change_24h": -0.00843
         }
       ],
       "momentum_shifts": []
