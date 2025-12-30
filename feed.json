@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-30T19:53:33.933966+00:00",
+  "updated_at": "2025-12-30T20:30:36.591477+00:00",
   "indicators": {
     "change24h": 0.011,
-    "vol": 0.042,
+    "vol": 0.04,
     "fearGreed": 23,
-    "momentum": 0.198,
+    "momentum": 0.191,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5326,
-    "global_sentiment": 0.5413,
-    "combined_sentiment": 0.5279,
-    "confidence": 0.7466,
+    "crypto_sentiment": 0.4901,
+    "global_sentiment": 0.5504,
+    "combined_sentiment": 0.4968,
+    "confidence": 0.7446,
     "counts": {
       "crypto": 67,
-      "global": 43
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 88098,
-      "btc_change_24h": 0.9,
-      "eth_price": 2967.14,
-      "eth_change_24h": 1.26,
+      "btc_price": 87980,
+      "btc_change_24h": 0.81,
+      "eth_price": 2965.4,
+      "eth_change_24h": 1.17,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 151598519397,
+        "volume_24h": 150074641690,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 56.9,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-17T04:38:11.129536+00:00",
-      "crypto": 0.3619,
-      "global": 0.4389,
-      "combined": 0.3913,
-      "counts": {
-        "crypto": 65,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-12-17T08:38:59.757713+00:00",
       "crypto": 0.3731,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 43
       }
+    },
+    {
+      "ts": "2025-12-30T20:30:36.591477+00:00",
+      "crypto": 0.4901,
+      "global": 0.5504,
+      "combined": 0.4968,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Dow Jones AI Giant Nvidia Hits Early Buy Trigger",
+        "url": "https://finance.yahoo.com/m/bdb05ef4-d5e0-3b4d-8dc5-27af05a8cd79/dow-jones-ai-giant-nvidia.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7533,
+        "score": 0.8667
+      },
+      {
         "title": "Grayscale moves toward exchange listing for TAO trust in US",
         "url": "https://cointelegraph.com/news/grayscale-bittensor-etp-filing-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5902,
+        "weight": 0.5496,
         "score": 1.0
       },
       {
         "title": "Bitcoin just lost a hidden $2 trillion liquidity safety net, leaving it exposed to a brutal new pressure wave",
         "url": "https://cryptoslate.com/bitcoin-just-lost-a-hidden-2-trillion-liquidity-safety-net-leaving-the-rally-exposed-to-a-brutal-new-variable/",
         "source": "CryptoSlate",
-        "weight": 0.5752,
+        "weight": 0.5356,
         "score": 0.8667
-      },
-      {
-        "title": "Bitcoin rises above $89,000, showing rare gain in U.S. trading",
-        "url": "https://www.coindesk.com/markets/2025/12/30/bitcoin-rises-above-usd89-000-showing-rare-gain-in-u-s-trading",
-        "source": "CoinDesk",
-        "weight": 0.6504,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "South Korea delays crypto bill over stablecoin concerns: Report",
+        "url": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoins-delay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7434,
+        "score": -1.0
+      },
+      {
         "title": "2026 Crypto Predictions! Tom Lee still buying ETH! Rekt tease WorldStar collab!",
         "url": "https://decrypt.co/videos/interviews/dBDZqp65/2026-crypto-predictions-tom-lee-still-buying-eth-rekt-tease-worldstar-collab",
         "source": "Decrypt",
-        "weight": 0.6882,
+        "weight": 0.6408,
         "score": -1.0
       },
       {
         "title": "Medicare drug price negotiations may save some retirees more than 50% in 2026, AARP finds",
         "url": "https://www.cnbc.com/2025/12/30/medicare-drug-price-negotiations-savings-2026.html",
         "source": "CNBC Markets",
-        "weight": 0.6641,
+        "weight": 0.6184,
         "score": -1.0
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Tuesday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-advance-tuesday-190838693.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7337,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4193930906930012,
-          "price_change_24h": -0.0351
+          "volume_mcap_ratio": 0.42587298286602837,
+          "price_change_24h": -0.03181
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34802325773458664,
-          "price_change_24h": 0.01893
+          "volume_mcap_ratio": 0.34342289250489805,
+          "price_change_24h": 0.02352
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-30",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4733,
-      "crypto_high": 0.5543,
-      "crypto_low": 0.3726,
-      "global_avg": 0.5316,
-      "global_high": 0.5507,
-      "global_low": 0.4892,
-      "combined_avg": 0.4826,
-      "combined_high": 0.5399,
-      "combined_low": 0.4079
-    },
-    "market_indicators_24h": {
-      "change24h": 0.011,
-      "vol": 0.042,
-      "fearGreed": 23,
-      "momentum": 0.198,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-30T19:53:33.933966+00:00"
   }
 }
