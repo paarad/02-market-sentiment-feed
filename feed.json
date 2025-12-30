@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-30T12:58:28.156387+00:00",
+  "updated_at": "2025-12-30T16:35:50.925526+00:00",
   "indicators": {
-    "change24h": 0.01,
-    "vol": 0.076,
+    "change24h": 0.018,
+    "vol": 0.07,
     "fearGreed": 23,
-    "momentum": 0.169,
+    "momentum": 0.311,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.457,
-    "global_sentiment": 0.5472,
-    "combined_sentiment": 0.4717,
-    "confidence": 0.6937,
+    "crypto_sentiment": 0.5543,
+    "global_sentiment": 0.4892,
+    "combined_sentiment": 0.5399,
+    "confidence": 0.7398,
     "counts": {
-      "crypto": 65,
-      "global": 41
+      "crypto": 66,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 87895,
-      "btc_change_24h": 0.7,
-      "eth_price": 2975.39,
-      "eth_change_24h": 1.66,
+      "btc_price": 88917,
+      "btc_change_24h": 1.51,
+      "eth_price": 2982.51,
+      "eth_change_24h": 1.76,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139743998212,
+        "volume_24h": 149050190268,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.86,
+        "btc_dominance": 57.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-16T20:32:02.758477+00:00",
-      "crypto": 0.4132,
-      "global": 0.3495,
-      "combined": 0.4224,
-      "counts": {
-        "crypto": 64,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-17T02:04:39.415720+00:00",
       "crypto": 0.3812,
@@ -1008,66 +998,76 @@
         "crypto": 65,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-30T16:35:50.925526+00:00",
+      "crypto": 0.5543,
+      "global": 0.4892,
+      "combined": 0.5399,
+      "counts": {
+        "crypto": 66,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin rises above $89,000, showing rare gain in U.S. trading",
+        "url": "https://www.coindesk.com/markets/2025/12/30/bitcoin-rises-above-usd89-000-showing-rare-gain-in-u-s-trading",
+        "source": "CoinDesk",
+        "weight": 0.9517,
+        "score": 0.6667
+      },
+      {
         "title": "Bitcoin 2026 bull case: Traders see 'strong signals' for 6-figure BTC price",
         "url": "https://cointelegraph.com/news/bitcoin-2026-bull-case-traders-strong-signals-6-figure-btc-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9349,
+        "weight": 0.6152,
         "score": 1.0
       },
       {
-        "title": "Micron Stock Climbs to Record High as AI Drives Memory Chip Demand",
-        "url": "https://finance.yahoo.com/news/micron-stock-climbs-record-high-122526887.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7507,
+        "title": "Aptos gains as volume surge signals accumulation",
+        "url": "https://www.coindesk.com/markets/2025/12/30/aptos-gains-as-volume-surge-signals-accumulation",
+        "source": "CoinDesk",
+        "weight": 0.6745,
         "score": 0.8667
-      },
-      {
-        "title": "The Stock Market Is Flashing a Warning Last Seen Decades Ago, and the Federal Reserve Just Made President Trump's Tariffs Even Riskier. Here Is What History Says Could Happen Next.",
-        "url": "https://www.fool.com/investing/2025/12/30/the-stock-market-is-flashing-a-rare-warning-last-s/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6069,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Unleash Protocol hit by $3.9 million exploit with funds routed through Tornado Cash",
-        "url": "https://www.coindesk.com/business/2025/12/30/unleash-protocol-hit-by-usd3-9-million-exploit-with-funds-routed-through-tornado-cash",
-        "source": "CoinDesk",
-        "weight": 0.91,
-        "score": -0.8333
+        "title": "Medicare drug price negotiations may save some retirees more than 50% in 2026, AARP finds",
+        "url": "https://www.cnbc.com/2025/12/30/medicare-drug-price-negotiations-savings-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.7492,
+        "score": -1.0
       },
       {
-        "title": "This is Wolfe’s most preferred S&P 500 sector for 2026",
-        "url": "https://finance.yahoo.com/news/wolfe-most-preferred-p-500-121222436.html?.tsrc=rss",
+        "title": "Is This Warren Buffett’s Final Warning About the S&P 500?",
+        "url": "https://247wallst.com/investing/2025/12/30/is-this-warren-buffetts-final-warning-about-the-sp-500/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.732,
-        "score": -0.6333
+        "weight": 0.6783,
+        "score": -1.0
       },
       {
-        "title": "Alibaba, Abu Dhabi Set to Invest in MiniMax’s $600 Million IPO",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-30/alibaba-abu-dhabi-set-to-invest-in-minimax-s-600-million-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.7053,
-        "score": -0.6333
+        "title": "The legendary Warren Buffett steps back this week and Berkshire Hathaway enters a new era",
+        "url": "https://finance.yahoo.com/news/legendary-warren-buffett-stepping-back-150030066.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6658,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3334075783098562,
-          "price_change_24h": -0.04447
+          "volume_mcap_ratio": 0.3977628473940149,
+          "price_change_24h": -0.01865
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.32167199891014403,
-          "price_change_24h": -0.00843
+          "volume_mcap_ratio": 0.34132456958921176,
+          "price_change_24h": -0.00509
         }
       ],
       "momentum_shifts": []
