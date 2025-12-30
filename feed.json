@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-30T04:43:55.134436+00:00",
+  "updated_at": "2025-12-30T08:37:59.045507+00:00",
   "indicators": {
-    "change24h": -0.042,
-    "vol": 0.132,
+    "change24h": -0.026,
+    "vol": 0.102,
     "fearGreed": 23,
-    "momentum": -0.732,
+    "momentum": -0.452,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4676,
-    "global_sentiment": 0.5507,
-    "combined_sentiment": 0.4799,
-    "confidence": 0.7091,
+    "crypto_sentiment": 0.3726,
+    "global_sentiment": 0.5416,
+    "combined_sentiment": 0.4079,
+    "confidence": 0.6764,
     "counts": {
-      "crypto": 67,
-      "global": 37
+      "crypto": 66,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 87323,
-      "btc_change_24h": -3.16,
-      "eth_price": 2952.33,
-      "eth_change_24h": -2.98,
+      "btc_price": 87723,
+      "btc_change_24h": -2.05,
+      "eth_price": 2972.84,
+      "eth_change_24h": -1.54,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172944191154,
+        "volume_24h": 164567210061,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.78,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-16T16:38:31.774634+00:00",
-      "crypto": 0.3988,
-      "global": 0.4751,
-      "combined": 0.422,
-      "counts": {
-        "crypto": 64,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-16T19:53:46.168867+00:00",
       "crypto": 0.4016,
@@ -1008,61 +998,71 @@
         "crypto": 67,
         "global": 37
       }
+    },
+    {
+      "ts": "2025-12-30T08:37:59.045507+00:00",
+      "crypto": 0.3726,
+      "global": 0.5416,
+      "combined": 0.4079,
+      "counts": {
+        "crypto": 66,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "European Bank Stocks Had an Ace Year But Novo and Puma Lost Out",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-30/european-bank-stocks-had-an-ace-year-but-novo-and-puma-lost-out",
+        "source": "Bloomberg Markets",
+        "weight": 0.6075,
+        "score": 0.7
+      },
+      {
         "title": "Copper Racks Up Longest Rally Since 2017 With Bulls at the Helm",
         "url": "https://www.bloomberg.com/news/articles/2025-12-30/copper-racks-up-longest-rally-since-2017-with-bulls-at-the-helm",
         "source": "Bloomberg Markets",
-        "weight": 0.6894,
+        "weight": 0.4393,
         "score": 0.5333
       },
       {
         "title": "Investors Pile Into India’s Short Bonds on RBI Rate Outlook",
         "url": "https://www.bloomberg.com/news/articles/2025-12-30/investors-pile-into-india-s-short-bonds-on-rbi-rate-outlook",
         "source": "Bloomberg Markets",
-        "weight": 0.5507,
+        "weight": 0.3509,
         "score": 0.6667
-      },
-      {
-        "title": "AI, Defense Boom Drives Korean Stocks to Best Year Since 1999",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-29/ai-defense-and-chip-stocks-fuel-korea-s-record-breaking-year",
-        "source": "Bloomberg Markets",
-        "weight": 0.4126,
-        "score": 0.8667
       }
     ],
     "negative": [
+      {
+        "title": "Bitcoin long-term hodlers finally halt selloff as ETH whales accumulate",
+        "url": "https://cointelegraph.com/news/bitcoin-long-term-holders-halt-selloff-ether-whales-accumula?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6902,
+        "score": -0.8667
+      },
+      {
+        "title": "Novo Nordisk's 'long game' on weight loss drugs sparks hope in science, but the Street is impatient",
+        "url": "https://www.cnbc.com/2025/12/30/novo-nordisk-beyond-weight-loss-has-investors-wary-scientists-hopeful.html",
+        "source": "CNBC Markets",
+        "weight": 0.6045,
+        "score": -0.9333
+      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Chinese Stocks on Track for Best Year Since 2017 as Rally Widens",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-29/chinese-stocks-on-track-for-best-year-since-2017-as-rally-widens",
-        "source": "Bloomberg Markets",
-        "weight": 0.4371,
-        "score": -0.9333
-      },
-      {
-        "title": "Colombia Hikes Minimum Wage by 23% Stoking Inflation Concerns",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-30/colombia-hikes-minimum-wage-by-23-stoking-inflation-concerns",
-        "source": "Bloomberg Markets",
-        "weight": 0.5355,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4017966425945762,
-          "price_change_24h": -0.02539
+          "volume_mcap_ratio": 0.3809081062093154,
+          "price_change_24h": -0.01198
         }
       ],
       "momentum_shifts": []
