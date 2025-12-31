@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-31T04:43:01.513597+00:00",
+  "updated_at": "2025-12-31T08:38:04.872822+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.041,
+    "change24h": 0.001,
+    "vol": 0.042,
     "fearGreed": 21,
-    "momentum": 0.118,
+    "momentum": 0.021,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4394,
-    "global_sentiment": 0.5095,
-    "combined_sentiment": 0.4553,
-    "confidence": 0.6602,
+    "crypto_sentiment": 0.5404,
+    "global_sentiment": 0.6055,
+    "combined_sentiment": 0.5391,
+    "confidence": 0.6832,
     "counts": {
-      "crypto": 66,
-      "global": 40
+      "crypto": 64,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 88323,
-      "btc_change_24h": 1.14,
-      "eth_price": 2968.78,
-      "eth_change_24h": 0.55,
+      "btc_price": 88475,
+      "btc_change_24h": 0.78,
+      "eth_price": 2970.51,
+      "eth_change_24h": -0.27,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 147021057366,
-        "high_activity_coins": 2
+        "volume_24h": 137786997159,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.96,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-17T16:37:53.325256+00:00",
-      "crypto": 0.4414,
-      "global": 0.4701,
-      "combined": 0.4535,
-      "counts": {
-        "crypto": 70,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-17T19:53:48.929516+00:00",
       "crypto": 0.3955,
@@ -1008,30 +998,40 @@
         "crypto": 66,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-31T08:38:04.872822+00:00",
+      "crypto": 0.5404,
+      "global": 0.6055,
+      "combined": 0.5391,
+      "counts": {
+        "crypto": 64,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bullish calls of XRP to jump 300% in 2026 do the rounds again, implying $8 target",
+        "url": "https://www.coindesk.com/markets/2025/12/31/bullish-calls-of-xrp-to-jump-300-in-2026-do-the-rounds-again-implying-usd8-target",
+        "source": "CoinDesk",
+        "weight": 0.8478,
+        "score": 1.0
+      },
+      {
+        "title": "High Growth Tech Stocks In Asia For December 2025",
+        "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-asia-043822319.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5042,
+        "score": 1.0
+      },
+      {
         "title": "Chinese AI Firms Drive Hong Kong’s Busiest IPO Month Since 2019",
         "url": "https://www.bloomberg.com/news/articles/2025-12-31/chinese-ai-firms-drive-hong-kong-s-busiest-ipo-month-since-2019",
         "source": "Bloomberg Markets",
-        "weight": 0.6915,
+        "weight": 0.4398,
         "score": 0.6333
-      },
-      {
-        "title": "Silver rebounds 10% from worst day in 4 years as metal's roller-coaster end to a big year continues",
-        "url": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html",
-        "source": "CNBC Markets",
-        "weight": 0.5408,
-        "score": 0.5333
-      },
-      {
-        "title": "Hindsight Makes It Easy to Profit From Trump 2.0",
-        "url": "https://www.bloomberg.com/opinion/newsletters/2025-12-31/hindsight-makes-it-look-easy-to-profit-from-trump-2-0",
-        "source": "Bloomberg Markets",
-        "weight": 0.7366,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,31 +1043,26 @@
         "score": -0.5333
       },
       {
+        "title": "South Korean retail keeps buying ether hoarder BitMine despite 80% drop:  Report",
+        "url": "https://www.coindesk.com/markets/2025/12/31/south-korean-retail-keeps-buying-ether-hoarder-bitmine-despite-80-drop",
+        "source": "CoinDesk",
+        "weight": 0.8206,
+        "score": -0.3333
+      },
+      {
         "title": "Stock Market Today, Dec. 30: Rocket Lab Regains Momentum",
         "url": "https://www.fool.com/coverage/stock-market-today/2025/12/30/stock-market-today-dec-30-rocket-lab-regains-momentum/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4209,
+        "weight": 0.2677,
         "score": -0.9667
-      },
-      {
-        "title": "US prosecutors oppose Defi Education Fund brief ahead of potential MEV case retrial",
-        "url": "https://cointelegraph.com/news/us-government-defi-education-fund-amicus-mev-bot-retria?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3644,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.43926638285180414,
-          "price_change_24h": -0.01686
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3360865855598178,
-          "price_change_24h": -0.00013
+          "volume_mcap_ratio": 0.32087081432334746,
+          "price_change_24h": -0.00043
         }
       ],
       "momentum_shifts": []
