@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-31T08:38:04.872822+00:00",
+  "updated_at": "2025-12-31T12:56:32.144242+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.042,
+    "change24h": 0.005,
+    "vol": 0.041,
     "fearGreed": 21,
-    "momentum": 0.021,
+    "momentum": 0.084,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5404,
-    "global_sentiment": 0.6055,
-    "combined_sentiment": 0.5391,
-    "confidence": 0.6832,
+    "crypto_sentiment": 0.4275,
+    "global_sentiment": 0.5771,
+    "combined_sentiment": 0.4521,
+    "confidence": 0.6878,
     "counts": {
       "crypto": 64,
-      "global": 41
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 88475,
-      "btc_change_24h": 0.78,
-      "eth_price": 2970.51,
-      "eth_change_24h": -0.27,
+      "btc_price": 88654,
+      "btc_change_24h": 0.86,
+      "eth_price": 2981.7,
+      "eth_change_24h": 0.22,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 137786997159,
-        "high_activity_coins": 1
+        "volume_24h": 142845560098,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 57.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-17T19:53:48.929516+00:00",
-      "crypto": 0.3955,
-      "global": 0.4034,
-      "combined": 0.4136,
-      "counts": {
-        "crypto": 71,
-        "global": 50
-      }
-    },
     {
       "ts": "2025-12-17T20:32:22.536131+00:00",
       "crypto": 0.4069,
@@ -1008,6 +998,16 @@
         "crypto": 64,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-31T12:56:32.144242+00:00",
+      "crypto": 0.4275,
+      "global": 0.5771,
+      "combined": 0.4521,
+      "counts": {
+        "crypto": 64,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,58 @@
         "title": "Bullish calls of XRP to jump 300% in 2026 do the rounds again, implying $8 target",
         "url": "https://www.coindesk.com/markets/2025/12/31/bullish-calls-of-xrp-to-jump-300-in-2026-do-the-rounds-again-implying-usd8-target",
         "source": "CoinDesk",
-        "weight": 0.8478,
+        "weight": 0.5154,
         "score": 1.0
       },
       {
-        "title": "High Growth Tech Stocks In Asia For December 2025",
-        "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-asia-043822319.html?.tsrc=rss",
+        "title": "How a Divided Fed Could Define the S&P 500 in 2026",
+        "url": "https://finance.yahoo.com/m/bd1c5abe-bc3f-30b6-ab4a-9cad7d893ad7/how-a-divided-fed-could.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5042,
-        "score": 1.0
+        "weight": 0.7038,
+        "score": 0.6667
       },
       {
-        "title": "Chinese AI Firms Drive Hong Kong’s Busiest IPO Month Since 2019",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-31/chinese-ai-firms-drive-hong-kong-s-busiest-ipo-month-since-2019",
-        "source": "Bloomberg Markets",
-        "weight": 0.4398,
-        "score": 0.6333
+        "title": "‘Small-Caps Set for Upside’: Goldman Sachs Suggests 2 Small-Cap Stocks for 2026",
+        "url": "https://finance.yahoo.com/news/small-caps-set-upside-goldman-104417508.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6202,
+        "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "Bitcoin price in 2026: Predictions vs. charts and reality",
+        "url": "https://cointelegraph.com/news/bitcoin-price-in-2026-predictions-vs-charts-and-reality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6579,
+        "score": -1.0
+      },
+      {
+        "title": "These Stocks Are Moving the Most Today: Nvidia, Tesla, Hecla, Newmont, Vanda, Western Digital, and More",
+        "url": "https://finance.yahoo.com/m/226a68c5-0926-3dfa-a197-899fe6fcf217/these-stocks-are-moving-the.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6542,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 21 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "South Korean retail keeps buying ether hoarder BitMine despite 80% drop:  Report",
-        "url": "https://www.coindesk.com/markets/2025/12/31/south-korean-retail-keeps-buying-ether-hoarder-bitmine-despite-80-drop",
-        "source": "CoinDesk",
-        "weight": 0.8206,
-        "score": -0.3333
-      },
-      {
-        "title": "Stock Market Today, Dec. 30: Rocket Lab Regains Momentum",
-        "url": "https://www.fool.com/coverage/stock-market-today/2025/12/30/stock-market-today-dec-30-rocket-lab-regains-momentum/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2677,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.5738410897087164,
+          "price_change_24h": 0.02041
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.32087081432334746,
-          "price_change_24h": -0.00043
+          "volume_mcap_ratio": 0.3224504545922486,
+          "price_change_24h": -0.00275
         }
       ],
       "momentum_shifts": []
