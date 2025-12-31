@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-30T20:30:36.591477+00:00",
+  "updated_at": "2025-12-31T02:10:49.248037+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.04,
-    "fearGreed": 23,
-    "momentum": 0.191,
+    "change24h": 0.018,
+    "vol": 0.052,
+    "fearGreed": 21,
+    "momentum": 0.316,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4901,
-    "global_sentiment": 0.5504,
-    "combined_sentiment": 0.4968,
-    "confidence": 0.7446,
+    "crypto_sentiment": 0.4731,
+    "global_sentiment": 0.4832,
+    "combined_sentiment": 0.4784,
+    "confidence": 0.6941,
     "counts": {
       "crypto": 67,
       "global": 41
     },
     "market_indicators": {
-      "btc_price": 87980,
-      "btc_change_24h": 0.81,
-      "eth_price": 2965.4,
-      "eth_change_24h": 1.17,
+      "btc_price": 88495,
+      "btc_change_24h": 1.68,
+      "eth_price": 2974.69,
+      "eth_change_24h": 1.58,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 23,
+        "value": 21,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 150074641690,
+        "volume_24h": 151714724311,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.9,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-17T08:38:59.757713+00:00",
-      "crypto": 0.3731,
-      "global": 0.3969,
-      "combined": 0.3963,
-      "counts": {
-        "crypto": 63,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-12-17T12:59:11.545095+00:00",
       "crypto": 0.3354,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-31T02:10:49.248037+00:00",
+      "crypto": 0.4731,
+      "global": 0.4832,
+      "combined": 0.4784,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones AI Giant Nvidia Hits Early Buy Trigger",
-        "url": "https://finance.yahoo.com/m/bdb05ef4-d5e0-3b4d-8dc5-27af05a8cd79/dow-jones-ai-giant-nvidia.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7533,
-        "score": 0.8667
+        "title": "China Factory Activity Grows, Ending Longest Slump on Record",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-31/china-factory-activity-expands-ending-longest-slump-on-record",
+        "source": "Bloomberg Markets",
+        "weight": 0.742,
+        "score": 0.6667
       },
       {
-        "title": "Grayscale moves toward exchange listing for TAO trust in US",
-        "url": "https://cointelegraph.com/news/grayscale-bittensor-etp-filing-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5496,
-        "score": 1.0
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Bitcoin just lost a hidden $2 trillion liquidity safety net, leaving it exposed to a brutal new pressure wave",
-        "url": "https://cryptoslate.com/bitcoin-just-lost-a-hidden-2-trillion-liquidity-safety-net-leaving-the-rally-exposed-to-a-brutal-new-variable/",
-        "source": "CryptoSlate",
-        "weight": 0.5356,
-        "score": 0.8667
+        "title": "Silver rebounds 10% from worst day in 4 years as metal's roller-coaster end to a big year continues",
+        "url": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html",
+        "source": "CNBC Markets",
+        "weight": 0.7249,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "South Korea delays crypto bill over stablecoin concerns: Report",
-        "url": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoins-delay?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Stock Market Today, Dec. 30: Rocket Lab Regains Momentum",
+        "url": "https://www.fool.com/coverage/stock-market-today/2025/12/30/stock-market-today-dec-30-rocket-lab-regains-momentum/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5642,
+        "score": -0.9667
+      },
+      {
+        "title": "US prosecutors oppose Defi Education Fund brief ahead of potential MEV case retrial",
+        "url": "https://cointelegraph.com/news/us-government-defi-education-fund-amicus-mev-bot-retria?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7434,
+        "weight": 0.4884,
         "score": -1.0
       },
       {
-        "title": "2026 Crypto Predictions! Tom Lee still buying ETH! Rekt tease WorldStar collab!",
-        "url": "https://decrypt.co/videos/interviews/dBDZqp65/2026-crypto-predictions-tom-lee-still-buying-eth-rekt-tease-worldstar-collab",
-        "source": "Decrypt",
-        "weight": 0.6408,
-        "score": -1.0
-      },
-      {
-        "title": "Medicare drug price negotiations may save some retirees more than 50% in 2026, AARP finds",
-        "url": "https://www.cnbc.com/2025/12/30/medicare-drug-price-negotiations-savings-2026.html",
-        "source": "CNBC Markets",
-        "weight": 0.6184,
-        "score": -1.0
+        "title": "Fear & Greed 21 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.42587298286602837,
-          "price_change_24h": -0.03181
+          "volume_mcap_ratio": 0.43557915932506747,
+          "price_change_24h": -0.04054
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34342289250489805,
-          "price_change_24h": 0.02352
+          "volume_mcap_ratio": 0.3465605273058551,
+          "price_change_24h": 0.00379
         }
       ],
       "momentum_shifts": []
