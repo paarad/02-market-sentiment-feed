@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-31T19:53:43.500177+00:00",
+  "updated_at": "2025-12-31T20:29:56.306463+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.106,
+    "change24h": -0.016,
+    "vol": 0.112,
     "fearGreed": 21,
-    "momentum": -0.238,
+    "momentum": -0.277,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4331,
-    "global_sentiment": 0.492,
-    "combined_sentiment": 0.4491,
-    "confidence": 0.7307,
+    "crypto_sentiment": 0.4511,
+    "global_sentiment": 0.459,
+    "combined_sentiment": 0.4599,
+    "confidence": 0.7331,
     "counts": {
-      "crypto": 68,
-      "global": 40
+      "crypto": 69,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 87552,
-      "btc_change_24h": -0.64,
-      "eth_price": 2969.06,
-      "eth_change_24h": 0.06,
+      "btc_price": 87346,
+      "btc_change_24h": -0.8,
+      "eth_price": 2965.98,
+      "eth_change_24h": 0.02,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 135926502877,
+        "volume_24h": 137529999817,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.88,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-18T04:39:15.660010+00:00",
-      "crypto": 0.4835,
-      "global": 0.4368,
-      "combined": 0.4823,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-18T08:38:03.513103+00:00",
       "crypto": 0.4722,
@@ -1008,6 +998,16 @@
         "crypto": 68,
         "global": 40
       }
+    },
+    {
+      "ts": "2025-12-31T20:29:56.306463+00:00",
+      "crypto": 0.4511,
+      "global": 0.459,
+      "combined": 0.4599,
+      "counts": {
+        "crypto": 69,
+        "global": 42
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Price predictions 12/31: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, LINK, HYPE",
         "url": "https://cointelegraph.com/news/price-predictions-12-31-btc-eth-bnb-xrp-sol-doge-ada-bch-link-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5622,
+        "weight": 0.5244,
         "score": 1.0
       },
       {
-        "title": "KKR & Co. (KKR) Announces Income from Monetization Activity",
-        "url": "https://finance.yahoo.com/news/kkr-co-kkr-announces-income-165645193.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.569,
-        "score": 0.6667
-      },
-      {
-        "title": "What Santa Claus Rally? All S&P 500 Sectors Fall",
+        "title": "What Santa Claus Rally? All S&P 500 Sectors Are Down",
         "url": "https://finance.yahoo.com/m/2be3575d-c0c7-32ee-989d-4ed891fa6c6f/what-santa-claus-rally%3F-all.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6592,
+        "weight": 0.6148,
         "score": 0.5333
+      },
+      {
+        "title": "KBW upgrades TeraWulf to outperform, sees AI pivot as catalyst for sharp growth",
+        "url": "https://www.coindesk.com/markets/2025/12/31/kbw-upgrades-terawulf-to-outperform-sees-ai-pivot-as-catalyst-for-sharp-growth",
+        "source": "CoinDesk",
+        "weight": 0.4639,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "US Equity Indexes Slip in Final Leg of Trading",
+        "url": "https://finance.yahoo.com/news/us-equity-indexes-slip-final-201612715.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7791,
+        "score": -0.9667
+      },
+      {
         "title": "US Equity Indexes Lower Amid Mixed Macro Data",
         "url": "https://finance.yahoo.com/news/us-equity-indexes-lower-amid-184814630.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7052,
+        "weight": 0.6577,
         "score": -0.9667
       },
       {
         "title": "Fatal Machu Picchu Train Wreck Involves Units of LVMH, Carlyle",
         "url": "https://www.bloomberg.com/news/articles/2025-12-31/fatal-machu-picchu-train-wreck-involves-units-of-lvmh-carlyle",
         "source": "Bloomberg Markets",
-        "weight": 0.7778,
-        "score": -0.6333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Wednesday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-wednesday-191120372.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7373,
+        "weight": 0.7254,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.6237788024656783,
-          "price_change_24h": -0.00287
+          "volume_mcap_ratio": 0.6354375398401597,
+          "price_change_24h": -0.02498
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.30158564736379956,
-          "price_change_24h": -0.04441
+          "volume_mcap_ratio": 0.3074213605350652,
+          "price_change_24h": -0.05707
         }
       ],
       "momentum_shifts": []
@@ -1075,31 +1075,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2025-12-31",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.4605,
-      "crypto_high": 0.5404,
-      "crypto_low": 0.4275,
-      "global_avg": 0.5174,
-      "global_high": 0.6055,
-      "global_low": 0.4372,
-      "combined_avg": 0.4718,
-      "combined_high": 0.5391,
-      "combined_low": 0.4491
-    },
-    "market_indicators_24h": {
-      "change24h": -0.014,
-      "vol": 0.106,
-      "fearGreed": 21,
-      "momentum": -0.238,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2025-12-31T19:53:43.500177+00:00"
   }
 }
