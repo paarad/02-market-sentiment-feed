@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2025-12-31T02:10:49.248037+00:00",
+  "updated_at": "2025-12-31T04:43:01.513597+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.052,
+    "change24h": 0.007,
+    "vol": 0.041,
     "fearGreed": 21,
-    "momentum": 0.316,
+    "momentum": 0.118,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4731,
-    "global_sentiment": 0.4832,
-    "combined_sentiment": 0.4784,
-    "confidence": 0.6941,
+    "crypto_sentiment": 0.4394,
+    "global_sentiment": 0.5095,
+    "combined_sentiment": 0.4553,
+    "confidence": 0.6602,
     "counts": {
-      "crypto": 67,
-      "global": 41
+      "crypto": 66,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 88495,
-      "btc_change_24h": 1.68,
-      "eth_price": 2974.69,
-      "eth_change_24h": 1.58,
+      "btc_price": 88323,
+      "btc_change_24h": 1.14,
+      "eth_price": 2968.78,
+      "eth_change_24h": 0.55,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 151714724311,
+        "volume_24h": 147021057366,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-17T12:59:11.545095+00:00",
-      "crypto": 0.3354,
-      "global": 0.3741,
-      "combined": 0.3661,
-      "counts": {
-        "crypto": 66,
-        "global": 35
-      }
-    },
     {
       "ts": "2025-12-17T16:37:53.325256+00:00",
       "crypto": 0.4414,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 41
       }
+    },
+    {
+      "ts": "2025-12-31T04:43:01.513597+00:00",
+      "crypto": 0.4394,
+      "global": 0.5095,
+      "combined": 0.4553,
+      "counts": {
+        "crypto": 66,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Factory Activity Grows, Ending Longest Slump on Record",
-        "url": "https://www.bloomberg.com/news/articles/2025-12-31/china-factory-activity-expands-ending-longest-slump-on-record",
+        "title": "Chinese AI Firms Drive Hong Kong’s Busiest IPO Month Since 2019",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-31/chinese-ai-firms-drive-hong-kong-s-busiest-ipo-month-since-2019",
         "source": "Bloomberg Markets",
-        "weight": 0.742,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "weight": 0.6915,
+        "score": 0.6333
       },
       {
         "title": "Silver rebounds 10% from worst day in 4 years as metal's roller-coaster end to a big year continues",
         "url": "https://www.cnbc.com/2025/12/30/silver-price-soars-capping-stellar-year-precious-metals.html",
         "source": "CNBC Markets",
-        "weight": 0.7249,
+        "weight": 0.5408,
         "score": 0.5333
+      },
+      {
+        "title": "Hindsight Makes It Easy to Profit From Trump 2.0",
+        "url": "https://www.bloomberg.com/opinion/newsletters/2025-12-31/hindsight-makes-it-look-easy-to-profit-from-trump-2-0",
+        "source": "Bloomberg Markets",
+        "weight": 0.7366,
+        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Stock Market Today, Dec. 30: Rocket Lab Regains Momentum",
-        "url": "https://www.fool.com/coverage/stock-market-today/2025/12/30/stock-market-today-dec-30-rocket-lab-regains-momentum/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5642,
-        "score": -0.9667
-      },
-      {
-        "title": "US prosecutors oppose Defi Education Fund brief ahead of potential MEV case retrial",
-        "url": "https://cointelegraph.com/news/us-government-defi-education-fund-amicus-mev-bot-retria?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4884,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 21 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Stock Market Today, Dec. 30: Rocket Lab Regains Momentum",
+        "url": "https://www.fool.com/coverage/stock-market-today/2025/12/30/stock-market-today-dec-30-rocket-lab-regains-momentum/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4209,
+        "score": -0.9667
+      },
+      {
+        "title": "US prosecutors oppose Defi Education Fund brief ahead of potential MEV case retrial",
+        "url": "https://cointelegraph.com/news/us-government-defi-education-fund-amicus-mev-bot-retria?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3644,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.43557915932506747,
-          "price_change_24h": -0.04054
+          "volume_mcap_ratio": 0.43926638285180414,
+          "price_change_24h": -0.01686
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3465605273058551,
-          "price_change_24h": 0.00379
+          "volume_mcap_ratio": 0.3360865855598178,
+          "price_change_24h": -0.00013
         }
       ],
       "momentum_shifts": []
