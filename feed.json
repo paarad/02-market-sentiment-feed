@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-01T16:35:24.887143+00:00",
+  "updated_at": "2026-01-01T19:53:38.673536+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.065,
+    "change24h": 0.021,
+    "vol": 0.144,
     "fearGreed": 20,
-    "momentum": 0.062,
+    "momentum": 0.362,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3562,
-    "global_sentiment": 0.5034,
-    "combined_sentiment": 0.3924,
-    "confidence": 0.6656,
+    "crypto_sentiment": 0.3053,
+    "global_sentiment": 0.5185,
+    "combined_sentiment": 0.3555,
+    "confidence": 0.6812,
     "counts": {
-      "crypto": 72,
-      "global": 38
+      "crypto": 74,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 87863,
-      "btc_change_24h": 0.28,
-      "eth_price": 2981.26,
-      "eth_change_24h": 0.13,
+      "btc_price": 88285,
+      "btc_change_24h": 0.82,
+      "eth_price": 2991.84,
+      "eth_change_24h": 0.74,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 102219165910,
-        "high_activity_coins": 1
+        "volume_24h": 92375199782,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.83,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-19T02:08:37.799385+00:00",
-      "crypto": 0.441,
-      "global": 0.4299,
-      "combined": 0.4499,
-      "counts": {
-        "crypto": 72,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-19T04:38:53.697261+00:00",
       "crypto": 0.4439,
@@ -1008,67 +998,97 @@
         "crypto": 72,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-01T19:53:38.673536+00:00",
+      "crypto": 0.3053,
+      "global": 0.5185,
+      "combined": 0.3555,
+      "counts": {
+        "crypto": 74,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Tariffs Pushed CPER Up 39%, Doubling S&P 500 Returns",
+        "url": "https://247wallst.com/investing/2026/01/01/tariffs-pushed-cper-up-39-doubling-sp-500-returns/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5322,
+        "score": 0.8667
+      },
+      {
+        "title": "Bitcoin RSI demands breakout as exec says 'RIP' to 4-year BTC price cycle",
+        "url": "https://cointelegraph.com/news/bitcoin-rsi-demands-breakout-exec-says-rip-4-year-btc-price-cycle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8137,
+        "score": 0.5333
+      },
+      {
         "title": "Base’s creator coin experiment meets resistance after Nick Shirley launch",
         "url": "https://cointelegraph.com/news/base-creator-coin-experiment-meets-resistance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6004,
+        "weight": 0.4099,
         "score": 0.6667
-      },
-      {
-        "title": "Discovering US Market's 3 Undiscovered Gem Stocks",
-        "url": "https://finance.yahoo.com/news/discovering-us-markets-3-undiscovered-113254163.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4468,
-        "score": 0.6667
-      },
-      {
-        "title": "Final nail in 4-year cycle? BTC ends year after halving in red",
-        "url": "https://cointelegraph.com/news/is-bitcoin-four-year-cycle-dead-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2993,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Which predictions landed this year? One ignored model actually nailed the 2025 market cycle",
+        "url": "https://cryptoslate.com/which-predictions-landed-this-year-one-ignored-model-actually-nailed-the-2025-market-cycle/",
+        "source": "CryptoSlate",
+        "weight": 0.7111,
+        "score": -0.9667
+      },
+      {
+        "title": "Happy New Year, Mark Cuban: Judge dismisses lawsuit over Voyager Digital",
+        "url": "https://cointelegraph.com/news/voyager-digital-mark-cuban-mavericks-lawsuit-dismissed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5969,
+        "score": -0.9
+      },
+      {
         "title": "The XRP Army got everything except $5 price: Will 2026 deliver?",
         "url": "https://cointelegraph.com/news/xrp-army-got-everything-asked-for-except-5-xrp-will-2026-deliver?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7326,
+        "weight": 0.5001,
         "score": -0.9333
-      },
-      {
-        "title": "Crypto privacy in 2026: Compliance-friendly tools take center stage",
-        "url": "https://cointelegraph.com/news/crypto-privacy-in-2026-compliance-friendly-tools-take-center-stage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5931,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin “died” four times in 2025, but a hidden infrastructure boom proves the skeptics completely wrong",
-        "url": "https://cryptoslate.com/bitcoin-died-four-times-in-2025-but-a-hidden-infrastructure-boom-proves-the-skeptics-completely-wrong/",
-        "source": "CryptoSlate",
-        "weight": 0.6817,
-        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3170550795229423,
-          "price_change_24h": 0.19942
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-01",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3957,
+      "crypto_high": 0.4646,
+      "crypto_low": 0.3053,
+      "global_avg": 0.5302,
+      "global_high": 0.5535,
+      "global_low": 0.5034,
+      "combined_avg": 0.4243,
+      "combined_high": 0.4764,
+      "combined_low": 0.3555
+    },
+    "market_indicators_24h": {
+      "change24h": 0.021,
+      "vol": 0.144,
+      "fearGreed": 20,
+      "momentum": 0.362,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-01T19:53:38.673536+00:00"
   }
 }
