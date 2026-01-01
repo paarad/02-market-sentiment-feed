@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-01T08:37:27.686035+00:00",
+  "updated_at": "2026-01-01T12:56:46.262582+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.074,
+    "change24h": -0.014,
+    "vol": 0.054,
     "fearGreed": 20,
-    "momentum": -0.232,
-    "regime": "sideways",
+    "momentum": -0.238,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4646,
-    "global_sentiment": 0.535,
-    "combined_sentiment": 0.4764,
-    "confidence": 0.6222,
+    "crypto_sentiment": 0.4244,
+    "global_sentiment": 0.5535,
+    "combined_sentiment": 0.4478,
+    "confidence": 0.6273,
     "counts": {
-      "crypto": 71,
-      "global": 35
+      "crypto": 72,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 87625,
-      "btc_change_24h": -0.97,
-      "eth_price": 2977.7,
-      "eth_change_24h": 0.24,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 87847,
+      "btc_change_24h": -0.91,
+      "eth_price": 2981.87,
+      "eth_change_24h": -0.02,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133705689973,
-        "high_activity_coins": 2
+        "volume_24h": 121948332526,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.85,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-18T19:53:21.211029+00:00",
-      "crypto": 0.4153,
-      "global": 0.3934,
-      "combined": 0.4276,
-      "counts": {
-        "crypto": 73,
-        "global": 50
-      }
-    },
     {
       "ts": "2025-12-18T20:27:35.822500+00:00",
       "crypto": 0.4354,
@@ -1008,33 +998,50 @@
         "crypto": 71,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-01-01T12:56:46.262582+00:00",
+      "crypto": 0.4244,
+      "global": 0.5535,
+      "combined": 0.4478,
+      "counts": {
+        "crypto": 72,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Discovering US Market's 3 Undiscovered Gem Stocks",
+        "url": "https://finance.yahoo.com/news/discovering-us-markets-3-undiscovered-113254163.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6807,
+        "score": 0.6667
+      },
+      {
         "title": "Final nail in the 4-year cycle? BTC ends year after halving in the red",
         "url": "https://cointelegraph.com/news/is-bitcoin-four-year-cycle-dead-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7512,
+        "weight": 0.456,
         "score": 0.8667
       },
       {
-        "title": "Novo Nordisk enters 2026 on the defense as it faces a ‘must-win’ battle in the U.S. market",
-        "url": "https://www.cnbc.com/2026/01/01/novo-nordisk-faces-must-win-battle-over-us-wegovy-ozempic-in-2026.html",
-        "source": "CNBC Markets",
-        "weight": 0.5908,
-        "score": 0.5833
-      },
-      {
-        "title": "Mamdani Takes Reins of New York City",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-01/mamdani-takes-reins-of-new-york-city-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.643,
+        "title": "Strategy shares register first six-month losing streak since adoption of bitcoin strategy in 2020",
+        "url": "https://www.coindesk.com/markets/2026/01/01/strategy-shares-register-first-six-month-losing-streak-since-adoption-of-bitcoin-strategy-in-2020",
+        "source": "CoinDesk",
+        "weight": 0.9779,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Top Dividend Stocks To Consider For Your Portfolio",
+        "url": "https://finance.yahoo.com/news/top-dividend-stocks-consider-portfolio-113143336.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6792,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,31 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "4 crypto comebacks from 2025 that could help shape the year ahead",
-        "url": "https://cointelegraph.com/news/4-crypto-comebacks-2025-shaping-the-next-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5885,
-        "score": -0.6333
-      },
-      {
-        "title": "Private messaging faces threats from AI, limited user awareness: Session execs",
-        "url": "https://cointelegraph.com/news/ai-privacy-threats-future-private-messaging-session?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3844,
-        "score": -0.9667
+        "title": "Bitcoin ETF fatigue is real, ignoring noise, these are the 10 days that mattered in 2025",
+        "url": "https://cryptoslate.com/bitcoin-etf-fatigue-is-real-ignoring-noise-these-are-the-10-days-that-mattered-in-2025/",
+        "source": "CryptoSlate",
+        "weight": 0.587,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.565542510510157,
-          "price_change_24h": -0.05378
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3002275684294083,
-          "price_change_24h": -0.0293
+          "volume_mcap_ratio": 0.4382704780912438,
+          "price_change_24h": -0.00866
         }
       ],
       "momentum_shifts": []
