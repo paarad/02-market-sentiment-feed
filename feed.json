@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-01T20:31:13.487508+00:00",
+  "updated_at": "2026-01-02T02:13:27.058369+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.161,
-    "fearGreed": 20,
-    "momentum": 0.417,
+    "change24h": 0.017,
+    "vol": 0.142,
+    "fearGreed": 28,
+    "momentum": 0.292,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3386,
-    "global_sentiment": 0.5715,
-    "combined_sentiment": 0.3849,
-    "confidence": 0.6848,
+    "crypto_sentiment": 0.2848,
+    "global_sentiment": 0.4706,
+    "combined_sentiment": 0.3362,
+    "confidence": 0.6584,
     "counts": {
-      "crypto": 73,
+      "crypto": 75,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 88242,
-      "btc_change_24h": 1.05,
-      "eth_price": 2988.23,
-      "eth_change_24h": 0.71,
+      "btc_price": 88381,
+      "btc_change_24h": 0.58,
+      "eth_price": 2994.48,
+      "eth_change_24h": 0.45,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.8,
       "fear_greed": {
-        "value": 20,
-        "classification": "Extreme Fear",
+        "value": 28,
+        "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 90666861793,
+        "volume_24h": 88632686900,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-19T08:37:53.236564+00:00",
-      "crypto": 0.4526,
-      "global": 0.3267,
-      "combined": 0.45,
-      "counts": {
-        "crypto": 72,
-        "global": 46
-      }
-    },
     {
       "ts": "2025-12-19T12:55:47.289169+00:00",
       "crypto": 0.4242,
@@ -1008,53 +998,63 @@
         "crypto": 73,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-01-02T02:13:27.058369+00:00",
+      "crypto": 0.2848,
+      "global": 0.4706,
+      "combined": 0.3362,
+      "counts": {
+        "crypto": 75,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Singapore economy jumps 5.7% in fourth quarter, beating expectations on strong manufacturing",
+        "url": "https://www.cnbc.com/2026/01/02/singapore-fourth-quarter-gdp-jumps-5point7percent-beats-expectations-on-strong-manufacturing.html",
+        "source": "CNBC Markets",
+        "weight": 0.7297,
+        "score": 0.3333
+      },
+      {
         "title": "Tariffs Pushed CPER Up 39%, Doubling S&P 500 Returns",
         "url": "https://247wallst.com/investing/2026/01/01/tariffs-pushed-cper-up-39-doubling-sp-500-returns/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4951,
+        "weight": 0.2562,
         "score": 0.8667
       },
       {
         "title": "What Does Wall Street Expect the Market to Do in 2026?",
         "url": "https://www.fool.com/investing/2026/01/01/what-does-wall-street-expect-the-market-to-do-in-2/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7829,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin RSI demands breakout as exec says 'RIP' to 4-year BTC price cycle",
-        "url": "https://cointelegraph.com/news/bitcoin-rsi-demands-breakout-exec-says-rip-4-year-btc-price-cycle?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7569,
+        "weight": 0.4051,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Which predictions landed this year? One ignored model actually nailed the 2025 market cycle",
-        "url": "https://cryptoslate.com/which-predictions-landed-this-year-one-ignored-model-actually-nailed-the-2025-market-cycle/",
-        "source": "CryptoSlate",
-        "weight": 0.6614,
-        "score": -0.9667
+        "title": "Losses from crypto hacks down 60% in December: PeckShield",
+        "url": "https://cointelegraph.com/news/losses-crypto-hacks-down-60-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4931,
+        "score": -1.0
       },
       {
-        "title": "Happy New Year, Mark Cuban: Judge dismisses lawsuit over Voyager Digital",
-        "url": "https://cointelegraph.com/news/voyager-digital-mark-cuban-mavericks-lawsuit-dismissed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Flow advances recovery plan, raises exchange concerns after $3.9M exploit",
+        "url": "https://cointelegraph.com/news/flow-recovery-plan-exchange-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5553,
-        "score": -0.9
+        "weight": 0.4715,
+        "score": -1.0
       },
       {
-        "title": "The XRP Army got everything except $5 price: Will 2026 deliver?",
-        "url": "https://cointelegraph.com/news/xrp-army-got-everything-asked-for-except-5-xrp-will-2026-deliver?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4652,
-        "score": -0.9333
+        "title": "Northern Star Shares Fall After Miner Cuts Production Forecast",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-02/northern-star-shares-fall-after-miner-cuts-production-forecast",
+        "source": "Bloomberg Markets",
+        "weight": 0.6598,
+        "score": -0.6667
       }
     ],
     "market_movers": {
