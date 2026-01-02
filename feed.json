@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-02T16:34:27.549644+00:00",
+  "updated_at": "2026-01-02T19:53:45.877123+00:00",
   "indicators": {
-    "change24h": 0.069,
-    "vol": 0.198,
+    "change24h": 0.073,
+    "vol": 0.194,
     "fearGreed": 28,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6172,
-    "global_sentiment": 0.6266,
-    "combined_sentiment": 0.5984,
-    "confidence": 0.6882,
+    "crypto_sentiment": 0.5416,
+    "global_sentiment": 0.5869,
+    "combined_sentiment": 0.5385,
+    "confidence": 0.713,
     "counts": {
       "crypto": 68,
-      "global": 38
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 90348,
-      "btc_change_24h": 2.83,
-      "eth_price": 3120.97,
-      "eth_change_24h": 4.66,
+      "btc_price": 89914,
+      "btc_change_24h": 1.88,
+      "eth_price": 3121.6,
+      "eth_change_24h": 4.34,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165217807332,
-        "high_activity_coins": 2
+        "volume_24h": 193379250522,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.74,
+        "btc_dominance": 56.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-20T02:01:51.246394+00:00",
-      "crypto": 0.3784,
-      "global": 0.479,
-      "combined": 0.4071,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-20T04:32:24.377354+00:00",
       "crypto": 0.4032,
@@ -1008,66 +998,81 @@
         "crypto": 68,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-02T19:53:45.877123+00:00",
+      "crypto": 0.5416,
+      "global": 0.5869,
+      "combined": 0.5385,
+      "counts": {
+        "crypto": 68,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "What's Behind Ingevity's 27% Rally in the Past 6 Months?",
-        "url": "https://finance.yahoo.com/news/whats-behind-ingevitys-27-rally-151300903.html?.tsrc=rss",
+        "title": "Why Is Lattice Semiconductor (LSCC) Stock Soaring Today",
+        "url": "https://finance.yahoo.com/news/why-lattice-semiconductor-lscc-stock-184609575.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6839,
+        "weight": 0.7023,
         "score": 0.8667
       },
       {
-        "title": "Why Are Vertiv (VRT) Shares Soaring Today",
-        "url": "https://finance.yahoo.com/news/why-vertiv-vrt-shares-soaring-160045788.html?.tsrc=rss",
+        "title": "Applied Materials (AMAT) Stock Trades Up, Here Is Why",
+        "url": "https://finance.yahoo.com/news/applied-materials-amat-stock-trades-184552977.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7497,
-        "score": 0.6667
+        "weight": 0.702,
+        "score": 0.8667
       },
       {
-        "title": "PEPE, BONK post double-digit gains: Are memecoins back?",
-        "url": "https://cointelegraph.com/news/pepe-bonk-double-digit-gains-are-memecoins-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5449,
-        "score": 0.8667
+        "title": "Athletic Brewing’s Big 2026 Outlook",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-02/athletic-brewing-s-big-2026-outlook-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6151,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Tesla Electric Vehicle Sales Decline 8.6% in 2025",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-02/tesla-electric-vehicle-sales-decline-8-6-in-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6487,
-        "score": -0.6667
+        "title": "Ilya Lichtenstein, Bitcoin hacker behind massive crypto theft, credits Trump for early prison release",
+        "url": "https://www.cnbc.com/2026/01/02/bitcoin-hacker-ilya-lichtenstein-bitfinex-razzlekhan.html",
+        "source": "CNBC Markets",
+        "weight": 0.7377,
+        "score": -0.7333
       },
       {
-        "title": "Fear & Greed 28 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "'Hundreds' of EVM wallets drained in mysterious attack: ZachXBT",
+        "url": "https://cointelegraph.com/news/hundreds-evm-wallets-drained-mysterious-attack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7334,
+        "score": -0.7333
       },
       {
-        "title": "Controversial trader exploits a New Year glitch on Binance to make $1.5 million in under 24 hours",
-        "url": "https://cryptoslate.com/how-this-trader-turned-binances-new-year-glitch-into-a-1-5-million-windfall/",
-        "source": "CryptoSlate",
-        "weight": 0.2629,
-        "score": -1.0
+        "title": "Sector Update: Energy Stocks Gain Friday Afternoon",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-gain-friday-190508273.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7285,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.7267544860439104,
+          "price_change_24h": 27.16047
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37416397935428036,
-          "price_change_24h": 0.04166
+          "volume_mcap_ratio": 0.4390668293827673,
+          "price_change_24h": 0.07041
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3382988126984214,
-          "price_change_24h": 0.0247
+          "volume_mcap_ratio": 0.3736730474996438,
+          "price_change_24h": 0.10619
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-02",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4906,
+      "crypto_high": 0.6172,
+      "crypto_low": 0.2848,
+      "global_avg": 0.6159,
+      "global_high": 0.7622,
+      "global_low": 0.4706,
+      "combined_avg": 0.5026,
+      "combined_high": 0.5984,
+      "combined_low": 0.3362
+    },
+    "market_indicators_24h": {
+      "change24h": 0.073,
+      "vol": 0.194,
+      "fearGreed": 28,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-02T19:53:45.877123+00:00"
   }
 }
