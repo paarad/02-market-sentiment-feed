@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-02T02:13:27.058369+00:00",
+  "updated_at": "2026-01-02T04:47:47.353055+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.142,
+    "change24h": 0.038,
+    "vol": 0.172,
     "fearGreed": 28,
-    "momentum": 0.292,
+    "momentum": 0.657,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2848,
-    "global_sentiment": 0.4706,
-    "combined_sentiment": 0.3362,
-    "confidence": 0.6584,
+    "crypto_sentiment": 0.4425,
+    "global_sentiment": 0.6293,
+    "combined_sentiment": 0.4676,
+    "confidence": 0.6619,
     "counts": {
-      "crypto": 75,
-      "global": 33
+      "crypto": 73,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 88381,
-      "btc_change_24h": 0.58,
-      "eth_price": 2994.48,
-      "eth_change_24h": 0.45,
+      "btc_price": 88627,
+      "btc_change_24h": 1.37,
+      "eth_price": 3012.28,
+      "eth_change_24h": 1.45,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 88632686900,
+        "volume_24h": 94872551552,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.85,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-19T12:55:47.289169+00:00",
-      "crypto": 0.4242,
-      "global": 0.3773,
-      "combined": 0.4329,
-      "counts": {
-        "crypto": 74,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-19T16:34:57.036693+00:00",
       "crypto": 0.418,
@@ -1008,53 +998,63 @@
         "crypto": 75,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-01-02T04:47:47.353055+00:00",
+      "crypto": 0.4425,
+      "global": 0.6293,
+      "combined": 0.4676,
+      "counts": {
+        "crypto": 73,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Singapore economy jumps 5.7% in fourth quarter, beating expectations on strong manufacturing",
-        "url": "https://www.cnbc.com/2026/01/02/singapore-fourth-quarter-gdp-jumps-5point7percent-beats-expectations-on-strong-manufacturing.html",
-        "source": "CNBC Markets",
-        "weight": 0.7297,
-        "score": 0.3333
+        "title": "Dogecoin surges 7% as a double-bottom break sparks DOGE rally",
+        "url": "https://www.coindesk.com/markets/2026/01/02/dogecoin-surges-7-as-a-double-bottom-break-sparks-doge-rally",
+        "source": "CoinDesk",
+        "weight": 1.017,
+        "score": 1.0
       },
       {
-        "title": "Tariffs Pushed CPER Up 39%, Doubling S&P 500 Returns",
-        "url": "https://247wallst.com/investing/2026/01/01/tariffs-pushed-cper-up-39-doubling-sp-500-returns/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2562,
-        "score": 0.8667
+        "title": "AI Chip Designer Biren’s Shares Double on Debut in Hong Kong",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-02/ai-chip-designer-biren-to-debut-after-717-million-hong-kong-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.4844,
+        "score": 1.0
       },
       {
-        "title": "What Does Wall Street Expect the Market to Do in 2026?",
-        "url": "https://www.fool.com/investing/2026/01/01/what-does-wall-street-expect-the-market-to-do-in-2/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4051,
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 28 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Losses from crypto hacks down 60% in December: PeckShield",
         "url": "https://cointelegraph.com/news/losses-crypto-hacks-down-60-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4931,
+        "weight": 0.3663,
         "score": -1.0
       },
       {
         "title": "Flow advances recovery plan, raises exchange concerns after $3.9M exploit",
         "url": "https://cointelegraph.com/news/flow-recovery-plan-exchange-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4715,
+        "weight": 0.3503,
         "score": -1.0
-      },
-      {
-        "title": "Northern Star Shares Fall After Miner Cuts Production Forecast",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-02/northern-star-shares-fall-after-miner-cuts-production-forecast",
-        "source": "Bloomberg Markets",
-        "weight": 0.6598,
-        "score": -0.6667
       }
     ],
     "market_movers": {
