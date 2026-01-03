@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-03T08:34:38.902326+00:00",
+  "updated_at": "2026-01-03T12:53:38.724029+00:00",
   "indicators": {
-    "change24h": 0.05,
-    "vol": 0.192,
+    "change24h": 0.04,
+    "vol": 0.171,
     "fearGreed": 29,
-    "momentum": 0.883,
+    "momentum": 0.702,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4499,
-    "global_sentiment": 0.4925,
-    "combined_sentiment": 0.4618,
-    "confidence": 0.6635,
+    "crypto_sentiment": 0.4404,
+    "global_sentiment": 0.5014,
+    "combined_sentiment": 0.4554,
+    "confidence": 0.6332,
     "counts": {
-      "crypto": 66,
+      "crypto": 67,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 89651,
-      "btc_change_24h": 0.79,
-      "eth_price": 3098.62,
-      "eth_change_24h": 2.51,
+      "btc_price": 89903,
+      "btc_change_24h": 0.6,
+      "eth_price": 3101.61,
+      "eth_change_24h": 1.73,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 204252329561,
-        "high_activity_coins": 3
+        "volume_24h": 184988096087,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-20T19:53:14.678199+00:00",
-      "crypto": 0.4711,
-      "global": 0.5449,
-      "combined": 0.4821,
-      "counts": {
-        "crypto": 63,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-20T20:27:21.590292+00:00",
       "crypto": 0.4407,
@@ -1008,39 +998,49 @@
         "crypto": 66,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-03T12:53:38.724029+00:00",
+      "crypto": 0.4404,
+      "global": 0.5014,
+      "combined": 0.4554,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.3% — rally",
+        "title": "Global crypto market cap up 1.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
+        "title": "Bitcoin price $90K breakout hangs in balance as US storms Venezuela",
+        "url": "https://cointelegraph.com/news/bitcoin-price-90k-breakout-hangs-in-balance-us-storms-venezuela?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5918,
+        "score": 0.5333
+      },
+      {
         "title": "Venezuela Accuses US of Attack as Explosions Rock Caracas",
         "url": "https://www.bloomberg.com/news/articles/2026-01-03/caracas-residents-report-loud-explosions-aircraft-overflying",
         "source": "Bloomberg Markets",
-        "weight": 0.629,
+        "weight": 0.382,
         "score": 0.6667
-      },
-      {
-        "title": "BitMine stakes $259M more ETH, pushing validator entry queue near 1M Ether",
-        "url": "https://cointelegraph.com/news/bitmine-stakes-259m-eth-validator-queue-nears-1m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9317,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Trump orders Chinese-owned firm to unwind chip asset deal, citing national security risks",
-        "url": "https://www.cnbc.com/2026/01/03/trump-orders-unwind-chinese-chip-acquisition-emcore-hiefo-emcore-velocity-one-navgiation-gyro.html",
-        "source": "CNBC Markets",
-        "weight": 0.7907,
-        "score": -0.6333
+        "title": "Crypto phishing losses fell 83% in 2025, but drainer ecosystem ‘remains active’",
+        "url": "https://cointelegraph.com/news/crypto-phishing-losses-fell-83-percent-2025-wallet-drainers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7378,
+        "score": -0.8
       },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
@@ -1050,29 +1050,24 @@
         "score": -0.5333
       },
       {
-        "title": "XRP jumps 8% above $2 as traders bet on a friendlier SEC",
-        "url": "https://www.coindesk.com/markets/2026/01/03/xrp-jumps-8-above-usd2-as-traders-bet-on-a-friendlier-sec",
-        "source": "CoinDesk",
-        "weight": 0.929,
-        "score": -0.3
+        "title": "Trump orders Chinese-controlled firm to unwind chip asset deal, citing national security risks",
+        "url": "https://www.cnbc.com/2026/01/03/trump-orders-unwind-chinese-chip-acquisition-emcore-hiefo-emcore-velocity-one-navgiation-gyro.html",
+        "source": "CNBC Markets",
+        "weight": 0.5416,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.7226429338591173,
-          "price_change_24h": 15.60632
+          "volume_mcap_ratio": 0.6467855625537098,
+          "price_change_24h": 6.2738
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45607771845374306,
-          "price_change_24h": 0.07074
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.30941201519007316,
-          "price_change_24h": -0.05142
+          "volume_mcap_ratio": 0.41576930021835823,
+          "price_change_24h": 0.04933
         }
       ],
       "momentum_shifts": []
