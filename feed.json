@@ -1,64 +1,54 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-03T02:05:55.021174+00:00",
+  "updated_at": "2026-01-03T04:37:25.991887+00:00",
   "indicators": {
-    "change24h": 0.079,
-    "vol": 0.226,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 29,
-    "momentum": 1.0,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4764,
+    "crypto_sentiment": 0.4236,
     "global_sentiment": 0.504,
-    "combined_sentiment": 0.4826,
-    "confidence": 0.657,
+    "combined_sentiment": 0.443,
+    "confidence": 0.6109,
     "counts": {
       "crypto": 66,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 90122,
-      "btc_change_24h": 1.78,
-      "eth_price": 3123.98,
-      "eth_change_24h": 4.16,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "btc_price": 0,
+      "btc_change_24h": 0,
+      "eth_price": 0,
+      "eth_change_24h": 0,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "low",
-        "volume_24h": 202172361442,
-        "high_activity_coins": 3
+        "level": "unknown",
+        "volume_24h": 0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.47,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
-        "sources": 2,
-        "coins_analyzed": 100
+        "sources": 1,
+        "coins_analyzed": 0
       }
     }
   },
   "history": [
-    {
-      "ts": "2025-12-20T12:51:42.442383+00:00",
-      "crypto": 0.3081,
-      "global": 0.3053,
-      "combined": 0.3398,
-      "counts": {
-        "crypto": 66,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-20T16:31:35.730988+00:00",
       "crypto": 0.4074,
@@ -1008,73 +998,67 @@
         "crypto": 66,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-03T04:37:25.991887+00:00",
+      "crypto": 0.4236,
+      "global": 0.504,
+      "combined": 0.443,
+      "counts": {
+        "crypto": 66,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.6% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
         "title": "Tesla reports 418,227 deliveries for the fourth quarter, down 16%",
         "url": "https://www.cnbc.com/2026/01/02/tesla-tsla-q4-2025-vehicle-deliveries.html",
         "source": "CNBC Markets",
-        "weight": 0.6192,
+        "weight": 0.4625,
         "score": 0.5333
       },
       {
         "title": "Athletic Brewing’s Big 2026 Outlook",
         "url": "https://www.bloomberg.com/news/videos/2026-01-02/athletic-brewing-s-big-2026-outlook-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3004,
+        "weight": 0.2244,
         "score": 0.9167
+      },
+      {
+        "title": "Crypto Crystal Ball 2026: Will Ethereum Finally Start Going Parabolic?",
+        "url": "https://decrypt.co/352221/crypto-crystal-ball-2026-ethereum-finally-start-going-parabolic",
+        "source": "Decrypt",
+        "weight": 0.2224,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Binance delists FLOW/BTC pair, flags token after exploit",
         "url": "https://cointelegraph.com/news/binance-spot-trading-pair-flow-monitoring-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6019,
+        "weight": 0.4496,
         "score": -0.8333
       },
       {
         "title": "BitMine chairman proposes 1,000x increase in company's authorized shares, to 50B",
         "url": "https://cointelegraph.com/news/bitmine-chairman-1-000x-increase-authorized-shares-50b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4939,
+        "weight": 0.3689,
         "score": -0.9667
-      },
-      {
-        "title": "Golden Gate Capital Insurer PHL Veers to Liquidation as Rehab Hopes Fade",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-02/golden-gate-capital-insurer-phl-veers-to-liquidation-as-rehab-hopes-fade",
-        "source": "Bloomberg Markets",
-        "weight": 0.4648,
-        "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.7273797536777504,
-          "price_change_24h": 24.49691
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4527943734788025,
-          "price_change_24h": 0.07301
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3834967052420461,
-          "price_change_24h": 0.0871
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
