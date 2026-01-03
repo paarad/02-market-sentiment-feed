@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-03T16:32:38.008179+00:00",
+  "updated_at": "2026-01-03T19:53:42.943878+00:00",
   "indicators": {
-    "change24h": 0.013,
-    "vol": 0.114,
+    "change24h": 0.005,
+    "vol": 0.078,
     "fearGreed": 29,
-    "momentum": 0.235,
+    "momentum": 0.085,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4243,
-    "global_sentiment": 0.5787,
-    "combined_sentiment": 0.4498,
-    "confidence": 0.5833,
+    "crypto_sentiment": 0.3641,
+    "global_sentiment": 0.4836,
+    "combined_sentiment": 0.3967,
+    "confidence": 0.5876,
     "counts": {
       "crypto": 66,
-      "global": 42
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 90013,
-      "btc_change_24h": -0.22,
-      "eth_price": 3101.58,
-      "eth_change_24h": -0.33,
+      "btc_price": 90070,
+      "btc_change_24h": 0.13,
+      "eth_price": 3111.45,
+      "eth_change_24h": -0.34,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 143454834882,
-        "high_activity_coins": 2
+        "volume_24h": 110988366314,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-21T02:21:24.813188+00:00",
-      "crypto": 0.4009,
-      "global": 0.626,
-      "combined": 0.4362,
-      "counts": {
-        "crypto": 64,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-21T04:41:01.337868+00:00",
       "crypto": 0.3931,
@@ -1008,6 +998,16 @@
         "crypto": 66,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-03T19:53:42.943878+00:00",
+      "crypto": 0.3641,
+      "global": 0.4836,
+      "combined": 0.3967,
+      "counts": {
+        "crypto": 66,
+        "global": 43
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,53 @@
         "title": "US Strikes Venezuela, Maduro Captured and Indicted",
         "url": "https://www.bloomberg.com/news/videos/2026-01-03/us-strikes-venezuela-captures-maduro-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5683,
+        "weight": 0.3859,
         "score": 1.0
       },
       {
         "title": "Roundhill’s AI ETF Rips 45% Higher As The AI Buildout Continues In 2026",
         "url": "https://247wallst.com/investing/2026/01/03/roundhills-ai-etf-rips-45-higher-as-the-ai-buildout-continues-in-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6111,
+        "weight": 0.4149,
         "score": 0.6667
       },
       {
-        "title": "U.S. indictment against Venezuela President Maduro, wife is unsealed",
-        "url": "https://www.cnbc.com/2026/01/03/maduro-indictment-drugs-venezuela.html",
+        "title": "Trump's removal of Maduro prompts questions from Congress",
+        "url": "https://www.cnbc.com/2026/01/03/trumps-maduro-venezuela-congress.html",
         "source": "CNBC Markets",
-        "weight": 0.7654,
+        "weight": 0.7255,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Trump says U.S. oil companies will invest billions of dollars in Venezuela after Maduro’s overthrow",
+        "url": "https://www.cnbc.com/2026/01/03/trump-venezuela-oil.html",
+        "source": "CNBC Markets",
+        "weight": 0.756,
+        "score": -0.6333
+      },
+      {
+        "title": "Exor, Ferrari Family Extend Shareholders Pact Governing Carmaker",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-03/exor-ferrari-family-extend-shareholders-pact-governing-carmaker",
+        "source": "Bloomberg Markets",
+        "weight": 0.6913,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Crypto phishing losses fell 83% in 2025, but drainer ecosystem ‘remains active’",
-        "url": "https://cointelegraph.com/news/crypto-phishing-losses-fell-83-percent-2025-wallet-drainers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.484,
-        "score": -0.8
-      },
-      {
-        "title": "Trump orders Chinese-controlled firm to unwind chip asset deal, citing national security risks",
-        "url": "https://www.cnbc.com/2026/01/03/trump-orders-unwind-chinese-chip-acquisition-emcore-hiefo-emcore-velocity-one-navgiation-gyro.html",
-        "source": "CNBC Markets",
-        "weight": 0.3553,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.5440155053946232,
-          "price_change_24h": 9.50259
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3272199545758222,
-          "price_change_24h": 0.02368
+          "volume_mcap_ratio": 0.4729980977881131,
+          "price_change_24h": 2.7361
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-03",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4298,
+      "crypto_high": 0.4764,
+      "crypto_low": 0.3641,
+      "global_avg": 0.5107,
+      "global_high": 0.5787,
+      "global_low": 0.4836,
+      "combined_avg": 0.4482,
+      "combined_high": 0.4826,
+      "combined_low": 0.3967
+    },
+    "market_indicators_24h": {
+      "change24h": 0.005,
+      "vol": 0.078,
+      "fearGreed": 29,
+      "momentum": 0.085,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-03T19:53:42.943878+00:00"
   }
 }
