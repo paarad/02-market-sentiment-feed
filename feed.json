@@ -1,64 +1,54 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-03T04:37:25.991887+00:00",
+  "updated_at": "2026-01-03T08:34:38.902326+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.05,
+    "vol": 0.192,
     "fearGreed": 29,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.883,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4236,
-    "global_sentiment": 0.504,
-    "combined_sentiment": 0.443,
-    "confidence": 0.6109,
+    "crypto_sentiment": 0.4499,
+    "global_sentiment": 0.4925,
+    "combined_sentiment": 0.4618,
+    "confidence": 0.6635,
     "counts": {
       "crypto": 66,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 0,
-      "btc_change_24h": 0,
-      "eth_price": 0,
-      "eth_change_24h": 0,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 89651,
+      "btc_change_24h": 0.79,
+      "eth_price": 3098.62,
+      "eth_change_24h": 2.51,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "unknown",
-        "volume_24h": 0,
-        "high_activity_coins": 0
+        "level": "low",
+        "volume_24h": 204252329561,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.5,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
-        "sources": 1,
-        "coins_analyzed": 0
+        "sources": 2,
+        "coins_analyzed": 100
       }
     }
   },
   "history": [
-    {
-      "ts": "2025-12-20T16:31:35.730988+00:00",
-      "crypto": 0.4074,
-      "global": 0.4639,
-      "combined": 0.4276,
-      "counts": {
-        "crypto": 64,
-        "global": 40
-      }
-    },
     {
       "ts": "2025-12-20T19:53:14.678199+00:00",
       "crypto": 0.4711,
@@ -1008,33 +998,50 @@
         "crypto": 66,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-03T08:34:38.902326+00:00",
+      "crypto": 0.4499,
+      "global": 0.4925,
+      "combined": 0.4618,
+      "counts": {
+        "crypto": 66,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tesla reports 418,227 deliveries for the fourth quarter, down 16%",
-        "url": "https://www.cnbc.com/2026/01/02/tesla-tsla-q4-2025-vehicle-deliveries.html",
-        "source": "CNBC Markets",
-        "weight": 0.4625,
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Athletic Brewing’s Big 2026 Outlook",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-02/athletic-brewing-s-big-2026-outlook-video",
+        "title": "Venezuela Accuses US of Attack as Explosions Rock Caracas",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-03/caracas-residents-report-loud-explosions-aircraft-overflying",
         "source": "Bloomberg Markets",
-        "weight": 0.2244,
-        "score": 0.9167
+        "weight": 0.629,
+        "score": 0.6667
       },
       {
-        "title": "Crypto Crystal Ball 2026: Will Ethereum Finally Start Going Parabolic?",
-        "url": "https://decrypt.co/352221/crypto-crystal-ball-2026-ethereum-finally-start-going-parabolic",
-        "source": "Decrypt",
-        "weight": 0.2224,
-        "score": 0.8667
+        "title": "BitMine stakes $259M more ETH, pushing validator entry queue near 1M Ether",
+        "url": "https://cointelegraph.com/news/bitmine-stakes-259m-eth-validator-queue-nears-1m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9317,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Trump orders Chinese-owned firm to unwind chip asset deal, citing national security risks",
+        "url": "https://www.cnbc.com/2026/01/03/trump-orders-unwind-chinese-chip-acquisition-emcore-hiefo-emcore-velocity-one-navgiation-gyro.html",
+        "source": "CNBC Markets",
+        "weight": 0.7907,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,22 +1050,31 @@
         "score": -0.5333
       },
       {
-        "title": "Binance delists FLOW/BTC pair, flags token after exploit",
-        "url": "https://cointelegraph.com/news/binance-spot-trading-pair-flow-monitoring-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4496,
-        "score": -0.8333
-      },
-      {
-        "title": "BitMine chairman proposes 1,000x increase in company's authorized shares, to 50B",
-        "url": "https://cointelegraph.com/news/bitmine-chairman-1-000x-increase-authorized-shares-50b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3689,
-        "score": -0.9667
+        "title": "XRP jumps 8% above $2 as traders bet on a friendlier SEC",
+        "url": "https://www.coindesk.com/markets/2026/01/03/xrp-jumps-8-above-usd2-as-traders-bet-on-a-friendlier-sec",
+        "source": "CoinDesk",
+        "weight": 0.929,
+        "score": -0.3
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.7226429338591173,
+          "price_change_24h": 15.60632
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.45607771845374306,
+          "price_change_24h": 0.07074
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.30941201519007316,
+          "price_change_24h": -0.05142
+        }
+      ],
       "momentum_shifts": []
     }
   },
