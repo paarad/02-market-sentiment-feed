@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-04T02:29:24.481566+00:00",
+  "updated_at": "2026-01-04T04:53:05.257938+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.058,
+    "change24h": 0.024,
+    "vol": 0.098,
     "fearGreed": 25,
-    "momentum": 0.252,
+    "momentum": 0.42,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3299,
+    "crypto_sentiment": 0.4672,
     "global_sentiment": 0.553,
-    "combined_sentiment": 0.3769,
-    "confidence": 0.5296,
+    "combined_sentiment": 0.4798,
+    "confidence": 0.5574,
     "counts": {
-      "crypto": 66,
+      "crypto": 67,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 91153,
-      "btc_change_24h": 1.04,
-      "eth_price": 3144.6,
-      "eth_change_24h": 0.63,
+      "btc_price": 91412,
+      "btc_change_24h": 1.45,
+      "eth_price": 3148.59,
+      "eth_change_24h": 1.04,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109237745942,
+        "volume_24h": 112740369851.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.57,
+        "btc_dominance": 56.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-21T12:52:23.134905+00:00",
-      "crypto": 0.4656,
-      "global": 0.5168,
-      "combined": 0.4756,
-      "counts": {
-        "crypto": 63,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-21T16:31:29.741495+00:00",
       "crypto": 0.2047,
@@ -1008,30 +998,40 @@
         "crypto": 66,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-04T04:53:05.257938+00:00",
+      "crypto": 0.4672,
+      "global": 0.553,
+      "combined": 0.4798,
+      "counts": {
+        "crypto": 67,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin and Ether ETFs pull in $646M on first trading day of 2026",
+        "url": "https://cointelegraph.com/news/bitcoin-ethereum-crypto-etfs-inflows-strong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7209,
+        "score": 0.3333
+      },
+      {
         "title": "Modest US Hiring to Cap a Sluggish Year for the Job Market",
         "url": "https://www.bloomberg.com/news/articles/2026-01-03/modest-us-hiring-to-cap-a-sluggish-year-for-the-job-market",
         "source": "Bloomberg Markets",
-        "weight": 0.4243,
+        "weight": 0.3217,
         "score": 0.6667
-      },
-      {
-        "title": "AI Debt Spree Is Fueling a Credit Trading Frenzy: Credit Weekly",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-03/ai-debt-spree-is-fueling-a-credit-trading-frenzy-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.378,
-        "score": 0.6667
-      },
-      {
-        "title": "AI Bubble Fears and Policy Splits Loom Over Asia Stocks in 2026",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-04/ai-bubble-fears-and-policy-splits-loom-over-asia-stocks-in-2026",
-        "source": "Bloomberg Markets",
-        "weight": 0.6,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1046,14 +1046,14 @@
         "title": "Warren Buffett's New Year Financial Advice: 'Do Not Save What Is Left After Spending, But Spend What Is Left After Saving'",
         "url": "https://finance.yahoo.com/news/warren-buffetts-financial-advice-not-203107919.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4013,
+        "weight": 0.3043,
         "score": -0.6333
       },
       {
         "title": "Exor, Ferrari Family Extend Shareholders Pact Governing Carmaker",
         "url": "https://www.bloomberg.com/news/articles/2026-01-03/exor-ferrari-family-extend-shareholders-pact-governing-carmaker",
         "source": "Bloomberg Markets",
-        "weight": 0.3227,
+        "weight": 0.2447,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.42026047059234006,
-          "price_change_24h": 2.82318
+          "volume_mcap_ratio": 0.44022779115797794,
+          "price_change_24h": 4.6748
         }
       ],
       "momentum_shifts": []
