@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-04T16:32:26.334691+00:00",
+  "updated_at": "2026-01-04T19:53:21.580620+00:00",
   "indicators": {
-    "change24h": 0.031,
-    "vol": 0.111,
+    "change24h": 0.022,
+    "vol": 0.092,
     "fearGreed": 25,
-    "momentum": 0.548,
+    "momentum": 0.39,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5314,
-    "global_sentiment": 0.4465,
-    "combined_sentiment": 0.5191,
-    "confidence": 0.5688,
+    "crypto_sentiment": 0.4132,
+    "global_sentiment": 0.4608,
+    "combined_sentiment": 0.4316,
+    "confidence": 0.58,
     "counts": {
-      "crypto": 68,
-      "global": 47
+      "crypto": 69,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 91292,
-      "btc_change_24h": 1.43,
-      "eth_price": 3131.02,
-      "eth_change_24h": 0.94,
+      "btc_price": 91075,
+      "btc_change_24h": 1.12,
+      "eth_price": 3129.82,
+      "eth_change_24h": 0.6,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.9,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 123201941408.0,
+        "volume_24h": 127035907724.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-22T02:20:33.102395+00:00",
-      "crypto": 0.2708,
-      "global": 0.4656,
-      "combined": 0.3252,
-      "counts": {
-        "crypto": 71,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-22T04:46:37.735776+00:00",
       "crypto": 0.3212,
@@ -1008,12 +998,29 @@
         "crypto": 68,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-01-04T19:53:21.580620+00:00",
+      "crypto": 0.4132,
+      "global": 0.4608,
+      "combined": 0.4316,
+      "counts": {
+        "crypto": 69,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.5% — rally",
+        "title": "Elon Musk, Larry Ellison Lead As World's 10 Richest Add More 2025 Wealth Than Netflix, AT&T Combined",
+        "url": "https://finance.yahoo.com/news/elon-musk-larry-ellison-lead-190058412.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7232,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 1.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,31 +1030,17 @@
         "title": "Sinovac Receives Nasdaq Notification Regarding Late Filing of 2025 Half-Year Report",
         "url": "https://finance.yahoo.com/news/sinovac-receives-nasdaq-notification-regarding-150000595.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6696,
+        "weight": 0.4548,
         "score": 0.6333
-      },
-      {
-        "title": "Will the Stock Market Skyrocket in 2026 Under President Donald Trump? A Historically Flawless Correlation Will Be Put to the Test.",
-        "url": "https://www.fool.com/investing/2026/01/04/stock-market-skyrocket-in-2026-under-trump-history/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5919,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Global Retreat From Emerging-Market Bonds May Be Boon for 2026",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-04/global-retreat-from-emerging-market-bonds-may-be-boon-for-2026",
-        "source": "Bloomberg Markets",
-        "weight": 0.5314,
-        "score": -0.9667
-      },
-      {
-        "title": "South Africa Gasoline Price Drops to Four-Year Low on Oil, Rand",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-04/south-africa-gasoline-price-drops-to-four-year-low-on-oil-rand",
-        "source": "Bloomberg Markets",
-        "weight": 0.6736,
-        "score": -0.6667
+        "title": "Washington’s new crypto bill would strip states of power – legally bans oversight that catches front-end manipulation",
+        "url": "https://cryptoslate.com/clarity-act-heads-to-january-markup-heres-what-changes-and-what-stays-unresolved/",
+        "source": "CryptoSlate",
+        "weight": 0.6315,
+        "score": -1.0
       },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Global Retreat From Emerging-Market Bonds May Be Boon for 2026",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-04/global-retreat-from-emerging-market-bonds-may-be-boon-for-2026",
+        "source": "Bloomberg Markets",
+        "weight": 0.3609,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.4802998060536406,
-          "price_change_24h": 13.59976
+          "volume_mcap_ratio": 0.5193789467036373,
+          "price_change_24h": 14.2641
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-04",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4768,
+      "crypto_high": 0.5638,
+      "crypto_low": 0.3299,
+      "global_avg": 0.5236,
+      "global_high": 0.5737,
+      "global_low": 0.4465,
+      "combined_avg": 0.4846,
+      "combined_high": 0.554,
+      "combined_low": 0.3769
+    },
+    "market_indicators_24h": {
+      "change24h": 0.022,
+      "vol": 0.092,
+      "fearGreed": 25,
+      "momentum": 0.39,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-04T19:53:21.580620+00:00"
   }
 }
