@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-05T02:28:53.244951+00:00",
+  "updated_at": "2026-01-05T05:00:25.321783+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.083,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 26,
-    "momentum": 0.479,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4383,
-    "global_sentiment": 0.4903,
-    "combined_sentiment": 0.4529,
-    "confidence": 0.554,
+    "crypto_sentiment": 0.4924,
+    "global_sentiment": 0.5205,
+    "combined_sentiment": 0.496,
+    "confidence": 0.6293,
     "counts": {
-      "crypto": 70,
-      "global": 49
+      "crypto": 71,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 92764,
-      "btc_change_24h": 1.77,
-      "eth_price": 3185.72,
-      "eth_change_24h": 1.29,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "btc_price": 92574,
+      "btc_change_24h": 1.33,
+      "eth_price": 3165.44,
+      "eth_change_24h": 0.6,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 144658128666.0,
+        "volume_24h": 147613654461.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.64,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-22T12:56:44.685519+00:00",
-      "crypto": 0.5288,
-      "global": 0.6702,
-      "combined": 0.5358,
-      "counts": {
-        "crypto": 72,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-22T16:34:53.612778+00:00",
       "crypto": 0.563,
@@ -1008,46 +998,49 @@
         "crypto": 70,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-01-05T05:00:25.321783+00:00",
+      "crypto": 0.4924,
+      "global": 0.5205,
+      "combined": 0.496,
+      "counts": {
+        "crypto": 71,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Markets show mixed reaction after US capture of Venezuelan leader",
+        "url": "https://finance.yahoo.com/news/markets-show-mixed-reaction-us-020252137.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5684,
+        "score": 1.0
+      },
+      {
         "title": "Emerging-Market Stocks Set for Record High on Tech Optimism",
         "url": "https://www.bloomberg.com/news/articles/2026-01-05/emerging-market-stocks-set-for-record-high-on-tech-optimism",
         "source": "Bloomberg Markets",
-        "weight": 0.7459,
+        "weight": 0.5571,
         "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 2.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Stock Rally Builds as Traders Look Past Venezuela: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-04/oil-stocks-bonds-futures-markets-latest-on-venezuela-trump-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.3784,
-        "score": 1.0
+        "title": "Memecoins rip into 2026 with 23% market cap pump",
+        "url": "https://cointelegraph.com/news/memecoins-post-holiday-rally-23-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6109,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Oil Swings as Investors Weigh US Capture of Venezuela’s Maduro",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-04/latest-oil-market-news-and-analysis-for-jan-5-venezuela-trump",
-        "source": "Bloomberg Markets",
-        "weight": 0.5381,
-        "score": -0.9667
-      },
-      {
-        "title": "US Brigadier General Kimmitt on Venezuela",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-05/us-brigadier-general-kimmitt-on-venezuela-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7602,
-        "score": -0.6333
+        "title": "Elon Musk's Starlink offers free internet access in Venezuela following U.S. airstrikes and Maduro’s arrest",
+        "url": "https://www.cnbc.com/2026/01/05/elon-musk-spacex-starlink-free-internet-venezuela-us-raid-maduro.html",
+        "source": "CNBC Markets",
+        "weight": 0.6406,
+        "score": -0.6667
       },
       {
         "title": "Fear & Greed 26 (Fear) — bearish",
@@ -1055,19 +1048,26 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Ethereum ready to solve blockchain trilemma: Vitalik Buterin",
+        "url": "https://cointelegraph.com/news/blockchain-trilemma-solved-zkevms-and-peerdas-vitalik-buterin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6527,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.5437036971924708,
-          "price_change_24h": 10.13205
+          "volume_mcap_ratio": 0.517682434791452,
+          "price_change_24h": 10.74438
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.33572873051728513,
-          "price_change_24h": -0.00987
+          "volume_mcap_ratio": 0.34748691116915537,
+          "price_change_24h": -0.00723
         }
       ],
       "momentum_shifts": []
