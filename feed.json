@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-05T19:53:49.291678+00:00",
+  "updated_at": "2026-01-05T20:33:05.182144+00:00",
   "indicators": {
-    "change24h": 0.049,
-    "vol": 0.139,
+    "change24h": 0.06,
+    "vol": 0.174,
     "fearGreed": 26,
-    "momentum": 0.861,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5115,
-    "global_sentiment": 0.5841,
-    "combined_sentiment": 0.5156,
-    "confidence": 0.8243,
+    "crypto_sentiment": 0.5507,
+    "global_sentiment": 0.5481,
+    "combined_sentiment": 0.5421,
+    "confidence": 0.8252,
     "counts": {
       "crypto": 74,
-      "global": 43
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 94181,
-      "btc_change_24h": 3.4,
-      "eth_price": 3216.93,
-      "eth_change_24h": 2.74,
+      "btc_price": 94561,
+      "btc_change_24h": 3.61,
+      "eth_price": 3250.84,
+      "eth_change_24h": 3.58,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 209204820995,
+        "volume_24h": 221023453484,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.7,
+        "btc_dominance": 56.6,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-23T04:41:44.821353+00:00",
-      "crypto": 0.4632,
-      "global": 0.5704,
-      "combined": 0.4783,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-23T08:38:07.756580+00:00",
       "crypto": 0.422,
@@ -1008,29 +998,39 @@
         "crypto": 74,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-01-05T20:33:05.182144+00:00",
+      "crypto": 0.5507,
+      "global": 0.5481,
+      "combined": 0.5421,
+      "counts": {
+        "crypto": 74,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XRP's 9% surge leads crypto as bitcoin climbs to 6-week high near $95,000",
+        "url": "https://www.coindesk.com/markets/2026/01/05/xrp-s-9-surge-leads-crypto-as-bitcoin-climbs-to-6-week-high-near-usd95-000",
+        "source": "CoinDesk",
+        "weight": 1.171,
+        "score": 0.8667
+      },
+      {
         "title": "5 Things Costco Needs to Do to End Its Stock Slump",
         "url": "https://finance.yahoo.com/m/b2d00410-2178-31ee-b8a0-684208478303/5-things-costco-needs-to-do.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7671,
+        "weight": 0.7112,
         "score": 1.0
       },
       {
         "title": "The Dow Crosses 49,100. Why It’s Beating the S&P 500 and Nasdaq.",
         "url": "https://finance.yahoo.com/m/7f5969e9-255f-3d05-b186-2c3ef5858adc/the-dow-crosses-49%2C100.-why.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7117,
-        "score": 0.8667
-      },
-      {
-        "title": "US Stocks Rise as Traders Unfazed by Maduro Ouster: Markets Wrap",
-        "url": "https://finance.yahoo.com/news/stocks-bonds-set-jittery-start-204423169.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7045,
+        "weight": 0.6599,
         "score": 0.8667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Tesla Stock Could Be Worth Just $80. The Price Is Rising.",
         "url": "https://finance.yahoo.com/m/9a9c8930-342d-3908-8a4c-2a451bf78236/tesla-stock-could-be-worth.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.785,
+        "weight": 0.7279,
         "score": -0.9667
       },
       {
         "title": "A few Republicans have crypto's destiny in their hands at the SEC, CFTC",
         "url": "https://www.coindesk.com/policy/2026/01/05/a-few-republicans-have-crypto-s-destiny-in-their-hands-at-the-sec-cftc",
         "source": "CoinDesk",
-        "weight": 0.9954,
+        "weight": 0.923,
         "score": -0.6333
       },
       {
-        "title": "Sector Update: Energy Stocks Gain Monday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-gain-monday-185813131.html?.tsrc=rss",
+        "title": "Sector Update: Energy",
+        "url": "https://finance.yahoo.com/news/sector-energy-202653630.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7188,
+        "weight": 0.7905,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47582529246894845,
-          "price_change_24h": 0.02208
+          "volume_mcap_ratio": 0.49527710284310295,
+          "price_change_24h": 0.03527
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.430009630389534,
-          "price_change_24h": -1.08569
+          "volume_mcap_ratio": 0.42546292737208935,
+          "price_change_24h": -1.40215
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.38189192673857797,
-          "price_change_24h": -0.00445
+          "volume_mcap_ratio": 0.41879567665023937,
+          "price_change_24h": 0.04553
         }
       ],
       "momentum_shifts": []
@@ -1080,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2026-01-05",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.518,
-      "crypto_high": 0.5677,
-      "crypto_low": 0.4383,
-      "global_avg": 0.5134,
-      "global_high": 0.5841,
-      "global_low": 0.4666,
-      "combined_avg": 0.5146,
-      "combined_high": 0.551,
-      "combined_low": 0.4529
-    },
-    "market_indicators_24h": {
-      "change24h": 0.049,
-      "vol": 0.139,
-      "fearGreed": 26,
-      "momentum": 0.861,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2026-01-05T19:53:49.291678+00:00"
   }
 }
