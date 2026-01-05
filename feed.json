@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-05T08:42:53.554847+00:00",
+  "updated_at": "2026-01-05T13:01:35.551720+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.012,
+    "vol": 0.08,
     "fearGreed": 26,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.204,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5565,
-    "global_sentiment": 0.4666,
-    "combined_sentiment": 0.5396,
-    "confidence": 0.6285,
+    "crypto_sentiment": 0.5414,
+    "global_sentiment": 0.5153,
+    "combined_sentiment": 0.5323,
+    "confidence": 0.7649,
     "counts": {
       "crypto": 68,
-      "global": 45
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 92438,
-      "btc_change_24h": 1.2,
-      "eth_price": 3159.56,
-      "eth_change_24h": 0.73,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 92817,
+      "btc_change_24h": 1.91,
+      "eth_price": 3168.81,
+      "eth_change_24h": 1.12,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149106722155.0,
+        "volume_24h": 151613392044,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.76,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-22T19:53:43.147395+00:00",
-      "crypto": 0.5485,
-      "global": 0.5424,
-      "combined": 0.5399,
-      "counts": {
-        "crypto": 74,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-22T20:30:23.916413+00:00",
       "crypto": 0.5471,
@@ -1008,66 +998,76 @@
         "crypto": 68,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-01-05T13:01:35.551720+00:00",
+      "crypto": 0.5414,
+      "global": 0.5153,
+      "combined": 0.5323,
+      "counts": {
+        "crypto": 68,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "UK Stocks Rally as FTSE 100 Tests New Record",
-        "url": "https://www.bloomberg.com/news/live-blog/2026-01-05/ftse-100-venezuela-trump-oil-dollar-pound-what-s-moving-uk-markets-right-now-markets-today-mk0sxgog",
-        "source": "Bloomberg Markets",
-        "weight": 0.6447,
-        "score": 0.8667
-      },
-      {
-        "title": "5 Things That Could Help Costco Stock Regain its Mojo",
-        "url": "https://finance.yahoo.com/m/b2d00410-2178-31ee-b8a0-684208478303/5-things-that-could-help.html?.tsrc=rss",
+        "title": "Gold, Dollar Rise on Venezuela as AI Fuels Stocks: Markets Wrap",
+        "url": "https://finance.yahoo.com/news/stocks-bonds-set-jittery-start-204423169.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5518,
+        "weight": 0.7472,
         "score": 1.0
       },
       {
-        "title": "Visa crypto card spending soars 525% in 2025",
-        "url": "https://cointelegraph.com/news/net-spend-visa-crypto-cards-increased-by-525-percent-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5775,
-        "score": 0.8667
+        "title": "Beneficient Regains Full Compliance with Nasdaq Listing Requirements",
+        "url": "https://finance.yahoo.com/news/beneficient-regains-full-compliance-nasdaq-120000897.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7105,
+        "score": 0.9667
+      },
+      {
+        "title": "Chevron, Exxon and SLB Stocks Are Surging but Oil Prices Are Hardly Moving. What’s Up.",
+        "url": "https://finance.yahoo.com/m/09e20788-7fd1-3306-8d34-a9f5c98d71f1/chevron%2C-exxon-and-slb-stocks.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7413,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Elon Musk's Starlink offers free internet access in Venezuela following U.S. airstrikes and Maduro’s arrest",
-        "url": "https://www.cnbc.com/2026/01/05/elon-musk-spacex-starlink-free-internet-venezuela-us-raid-maduro.html",
+        "title": "First GLP-1 pill for obesity from Novo Nordisk launches in the U.S.",
+        "url": "https://www.cnbc.com/2026/01/05/first-glp-1-pill-for-obesity-from-novo-nordisk-launches-in-the-us.html",
         "source": "CNBC Markets",
-        "weight": 0.7818,
-        "score": -0.6667
+        "weight": 0.7977,
+        "score": -0.9333
       },
       {
-        "title": "Euro Zone’s Growing Eastern Wing Wants Seat at ECB’s Top Table",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-05/euro-zone-s-growing-eastern-wing-wants-seat-at-ecb-s-top-table",
+        "title": "Gold, Silver and European Defense Stocks Up on Venezuela Risk | The Opening Trade 1/1/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-05/the-opening-trade-1-1-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5361,
-        "score": -0.9667
+        "weight": 0.6953,
+        "score": -1.0
       },
       {
-        "title": "Fear & Greed 26 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "China’s Longi to Replace Silver in Solar Panels to Reduce Costs",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-05/china-s-longi-to-replace-silver-in-solar-panels-to-reduce-costs",
+        "source": "Bloomberg Markets",
+        "weight": 0.6291,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.49948432178778207,
-          "price_change_24h": 0.9856
+          "volume_mcap_ratio": 0.4593469869763079,
+          "price_change_24h": -3.21866
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3454893291589844,
-          "price_change_24h": -0.00886
+          "volume_mcap_ratio": 0.3519442759864975,
+          "price_change_24h": 0.00203
         }
       ],
       "momentum_shifts": []
