@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-04T20:30:33.543199+00:00",
+  "updated_at": "2026-01-05T02:28:53.244951+00:00",
   "indicators": {
-    "change24h": 0.029,
-    "vol": 0.108,
-    "fearGreed": 25,
-    "momentum": 0.506,
+    "change24h": 0.027,
+    "vol": 0.083,
+    "fearGreed": 26,
+    "momentum": 0.479,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4152,
-    "global_sentiment": 0.4145,
-    "combined_sentiment": 0.4293,
-    "confidence": 0.5722,
+    "crypto_sentiment": 0.4383,
+    "global_sentiment": 0.4903,
+    "combined_sentiment": 0.4529,
+    "confidence": 0.554,
     "counts": {
-      "crypto": 69,
+      "crypto": 70,
       "global": 49
     },
     "market_indicators": {
-      "btc_price": 91290,
-      "btc_change_24h": 1.35,
-      "eth_price": 3138.72,
-      "eth_change_24h": 0.96,
+      "btc_price": 92764,
+      "btc_change_24h": 1.77,
+      "eth_price": 3185.72,
+      "eth_change_24h": 1.29,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 25,
-        "classification": "Extreme Fear",
-        "trend": "improving"
+        "value": 26,
+        "classification": "Fear",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128122147385.0,
-        "high_activity_coins": 1
+        "volume_24h": 144658128666.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.49,
+        "btc_dominance": 56.64,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-22T08:38:55.053175+00:00",
-      "crypto": 0.4286,
-      "global": 0.4939,
-      "combined": 0.4459,
-      "counts": {
-        "crypto": 72,
-        "global": 36
-      }
-    },
     {
       "ts": "2025-12-22T12:56:44.685519+00:00",
       "crypto": 0.5288,
@@ -1008,49 +998,59 @@
         "crypto": 69,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-01-05T02:28:53.244951+00:00",
+      "crypto": 0.4383,
+      "global": 0.4903,
+      "combined": 0.4529,
+      "counts": {
+        "crypto": 70,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Elon Musk, Larry Ellison Lead As World's 10 Richest Add More 2025 Wealth Than Netflix, AT&T Combined",
-        "url": "https://finance.yahoo.com/news/elon-musk-larry-ellison-lead-190058412.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6732,
-        "score": 0.6667
+        "title": "Emerging-Market Stocks Set for Record High on Tech Optimism",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-05/emerging-market-stocks-set-for-record-high-on-tech-optimism",
+        "source": "Bloomberg Markets",
+        "weight": 0.7459,
+        "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 2.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Sinovac Receives Nasdaq Notification Regarding Late Filing of 2025 Half-Year Report",
-        "url": "https://finance.yahoo.com/news/sinovac-receives-nasdaq-notification-regarding-150000595.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4233,
-        "score": 0.6333
+        "title": "Stock Rally Builds as Traders Look Past Venezuela: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-04/oil-stocks-bonds-futures-markets-latest-on-venezuela-trump-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.3784,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Trump admin pressed on pardon for ex-Honduras president after Venezuela’s Maduro snatched",
-        "url": "https://www.cnbc.com/2026/01/04/trump-venezuela-maduro-pardon-honduras.html",
-        "source": "CNBC Markets",
-        "weight": 0.7419,
-        "score": -0.9333
+        "title": "Oil Swings as Investors Weigh US Capture of Venezuela’s Maduro",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-04/latest-oil-market-news-and-analysis-for-jan-5-venezuela-trump",
+        "source": "Bloomberg Markets",
+        "weight": 0.5381,
+        "score": -0.9667
       },
       {
-        "title": "Washington’s new crypto bill would strip states of power – legally bans oversight that catches front-end manipulation",
-        "url": "https://cryptoslate.com/clarity-act-heads-to-january-markup-heres-what-changes-and-what-stays-unresolved/",
-        "source": "CryptoSlate",
-        "weight": 0.5878,
-        "score": -1.0
+        "title": "US Brigadier General Kimmitt on Venezuela",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-05/us-brigadier-general-kimmitt-on-venezuela-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7602,
+        "score": -0.6333
       },
       {
-        "title": "Fear & Greed 25 (Fear) — bearish",
+        "title": "Fear & Greed 26 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.5203160105333263,
-          "price_change_24h": 14.76327
+          "volume_mcap_ratio": 0.5437036971924708,
+          "price_change_24h": 10.13205
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.33572873051728513,
+          "price_change_24h": -0.00987
         }
       ],
       "momentum_shifts": []
