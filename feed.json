@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-06T16:38:16.656461+00:00",
+  "updated_at": "2026-01-06T19:53:31.657214+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.126,
+    "change24h": -0.019,
+    "vol": 0.079,
     "fearGreed": 44,
-    "momentum": 0.217,
+    "momentum": -0.331,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5432,
-    "global_sentiment": 0.6528,
-    "combined_sentiment": 0.5451,
-    "confidence": 0.8165,
+    "crypto_sentiment": 0.4737,
+    "global_sentiment": 0.567,
+    "combined_sentiment": 0.4858,
+    "confidence": 0.8344,
     "counts": {
-      "crypto": 69,
-      "global": 44
+      "crypto": 73,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 92742,
-      "btc_change_24h": -1.14,
-      "eth_price": 3249.56,
-      "eth_change_24h": 2.11,
+      "btc_price": 92060,
+      "btc_change_24h": -2.27,
+      "eth_price": 3221.24,
+      "eth_change_24h": 0.1,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 221443516625,
-        "high_activity_coins": 3
+        "volume_24h": 232399169362,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 56.23,
+        "btc_dominance": 56.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-24T02:07:42.397817+00:00",
-      "crypto": 0.3535,
-      "global": 0.4964,
-      "combined": 0.3899,
-      "counts": {
-        "crypto": 67,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-24T04:40:30.341569+00:00",
       "crypto": 0.3708,
@@ -1008,71 +998,81 @@
         "crypto": 69,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-06T19:53:31.657214+00:00",
+      "crypto": 0.4737,
+      "global": 0.567,
+      "combined": 0.4858,
+      "counts": {
+        "crypto": 73,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Nvidia, Palantir, Seagate And More: Louis Navellier Says Forget The 'Junk Rally' And Buy These Quality Stocks In 2026 Instead",
+        "url": "https://finance.yahoo.com/news/nvidia-palantir-seagate-more-louis-193100497.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.766,
+        "score": 1.0
+      },
+      {
+        "title": "Space, AI and Crypto Candidates Lead US IPOs to Watch This Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-06/space-ai-and-crypto-candidates-lead-us-ipos-to-watch-this-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.6966,
+        "score": 0.9667
+      },
+      {
         "title": "XRP price 'starting to respond' to gold's multiyear 180% boom: Analyst",
         "url": "https://cointelegraph.com/news/xrp-price-starting-to-respond-gold-multiyear-180-boom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8863,
-        "score": 1.0
-      },
-      {
-        "title": "Irish Corporate Tax Intake Climbs Despite Trump Reshoring Pledge",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-06/irish-corporate-tax-intake-climbs-despite-trump-reshoring-pledge",
-        "source": "Bloomberg Markets",
-        "weight": 0.7874,
-        "score": 1.0
-      },
-      {
-        "title": "Nickel Spikes More Than 9% as Chinese Buying Fuels Metals Surge",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-06/nickel-spikes-more-than-9-as-chinese-buying-fuels-metals-surge",
-        "source": "Bloomberg Markets",
-        "weight": 0.7426,
+        "weight": 0.6085,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Global Crypto MCap up to $3.22 Trillion! XRP up 12%! Japan Endorse Crypto! Fear & Greed back to Neutral!",
-        "url": "https://decrypt.co/videos/interviews/OS1PGiAq/global-crypto-mcap-up-to-322-trillion-xrp-up-12-japan-endorse-crypto-fear-greed-back-to-neutral",
-        "source": "Decrypt",
-        "weight": 0.9725,
-        "score": -0.8
+        "title": "KBC and Van Lanschot Kempen to Form Equities Joint Venture",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-06/kbc-and-van-lanschot-kempen-to-form-equities-joint-venture",
+        "source": "Bloomberg Markets",
+        "weight": 0.7769,
+        "score": -0.9667
       },
       {
-        "title": "Ethereum isn’t chasing 5.3% yield, Vitalik says – but the outage risk is over 5× bigger than regulation shocks",
-        "url": "https://cryptoslate.com/ethereum-secures-74b-yet-a-single-web2-switch-can-still-cut-your-access-in-minutes/",
-        "source": "CryptoSlate",
-        "weight": 0.7323,
-        "score": -1.0
-      },
-      {
-        "title": "This metric suggests bitcoin's late November plunge was the bottom and major upside lies ahead",
-        "url": "https://www.coindesk.com/markets/2026/01/06/this-metric-suggests-bitcoin-s-late-november-plunge-was-the-bottom-and-major-upside-lies-ahead",
+        "title": "Polkadot's DOT declines in U.S. afternoon selloff",
+        "url": "https://www.coindesk.com/markets/2026/01/06/polkadot-s-dot-declines-in-u-s-afternoon-selloff",
         "source": "CoinDesk",
-        "weight": 0.8491,
-        "score": -0.6333
+        "weight": 0.9962,
+        "score": -0.6667
+      },
+      {
+        "title": "France Seeks Fertilizers Exemption From EU Carbon Border Tax",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-06/france-seeks-fertilizers-exemption-from-eu-carbon-border-tax",
+        "source": "Bloomberg Markets",
+        "weight": 0.651,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.7212378031630572,
-          "price_change_24h": 0.0209
+          "volume_mcap_ratio": 0.8686656065114884,
+          "price_change_24h": -0.04818
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49578460952114034,
-          "price_change_24h": -0.01143
+          "volume_mcap_ratio": 0.5136654455852222,
+          "price_change_24h": -0.02132
         },
         {
-          "symbol": "SUI",
-          "volume_mcap_ratio": 0.31874795179299703,
-          "price_change_24h": 10.7342
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.34424058600981317,
+          "price_change_24h": -4.50041
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-06",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5744,
+      "crypto_high": 0.6721,
+      "crypto_low": 0.4737,
+      "global_avg": 0.5629,
+      "global_high": 0.6528,
+      "global_low": 0.4889,
+      "combined_avg": 0.561,
+      "combined_high": 0.6282,
+      "combined_low": 0.4858
+    },
+    "market_indicators_24h": {
+      "change24h": -0.019,
+      "vol": 0.079,
+      "fearGreed": 44,
+      "momentum": -0.331,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-06T19:53:31.657214+00:00"
   }
 }
