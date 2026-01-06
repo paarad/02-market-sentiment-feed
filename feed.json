@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-06T02:12:26.093142+00:00",
+  "updated_at": "2026-01-06T04:45:14.370293+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.165,
+    "change24h": 0.042,
+    "vol": 0.196,
     "fearGreed": 44,
-    "momentum": 0.432,
+    "momentum": 0.727,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5778,
-    "global_sentiment": 0.5186,
-    "combined_sentiment": 0.5599,
-    "confidence": 0.7724,
+    "crypto_sentiment": 0.6133,
+    "global_sentiment": 0.5791,
+    "combined_sentiment": 0.5915,
+    "confidence": 0.747,
     "counts": {
       "crypto": 74,
-      "global": 38
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 93719,
-      "btc_change_24h": 0.96,
-      "eth_price": 3215.27,
-      "eth_change_24h": 0.78,
+      "btc_price": 93811,
+      "btc_change_24h": 1.53,
+      "eth_price": 3225.43,
+      "eth_change_24h": 1.92,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 212421971724,
+        "volume_24h": 209403635834,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.45,
+        "btc_dominance": 56.42,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-23T12:58:11.152052+00:00",
-      "crypto": 0.447,
-      "global": 0.6542,
-      "combined": 0.4731,
-      "counts": {
-        "crypto": 70,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-23T16:36:18.561468+00:00",
       "crypto": 0.4044,
@@ -1008,30 +998,40 @@
         "crypto": 74,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-06T04:45:14.370293+00:00",
+      "crypto": 0.6133,
+      "global": 0.5791,
+      "combined": 0.5915,
+      "counts": {
+        "crypto": 74,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "'Sentiment is Back' in Chinese Onshore Equities: Hong",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-06/-sentiment-is-back-in-chinese-onshore-equities-hong-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7552,
+        "score": 0.7333
+      },
+      {
         "title": "US crypto stocks soar double-digits as major tokens rally",
         "url": "https://cointelegraph.com/news/crypto-stocks-soar-double-digits-major-tokens-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.797,
+        "weight": 0.5938,
         "score": 0.8667
       },
       {
         "title": "Dow hits record, energy stocks end higher after US strikes Venezuela",
         "url": "https://finance.yahoo.com/video/dow-hits-record-energy-stocks-233442012.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5905,
+        "weight": 0.44,
         "score": 1.0
-      },
-      {
-        "title": "XRP's 9% surge leads crypto as bitcoin climbs to 6-week high near $95,000",
-        "url": "https://www.coindesk.com/markets/2026/01/05/xrp-s-9-surge-leads-crypto-as-bitcoin-climbs-to-6-week-high-near-usd95-000",
-        "source": "CoinDesk",
-        "weight": 0.6092,
-        "score": 0.8667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children",
         "url": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
         "source": "CNBC Markets",
-        "weight": 0.6815,
+        "weight": 0.7433,
         "score": -0.8333
+      },
+      {
+        "title": "Goldman Sees China Steel-Capacity Cuts Going Slower Than Thought",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-06/china-steel-outlook-cut-as-capacity-progress-slows-goldman-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.7316,
+        "score": -0.6333
       },
       {
         "title": "Rapper Drake Faces RICO Lawsuit for Promoting and Using Crypto Casino Stake",
         "url": "https://decrypt.co/353654/rapper-drake-faces-rico-lawsuit-crypto-casino-stake",
         "source": "Decrypt",
-        "weight": 0.5337,
-        "score": -1.0
-      },
-      {
-        "title": "Stablecoin Banking Startup Kontigo to Repay Customers After Hack",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-05/stablecoin-banking-startup-kontigo-to-repay-customers-after-hack",
-        "source": "Bloomberg Markets",
-        "weight": 0.497,
+        "weight": 0.3977,
         "score": -1.0
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4807618854796585,
-          "price_change_24h": 0.03427
+          "volume_mcap_ratio": 0.47071923065253757,
+          "price_change_24h": 0.02911
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3926170813825822,
-          "price_change_24h": 0.0195
+          "volume_mcap_ratio": 0.4323791905011369,
+          "price_change_24h": 0.06443
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.37947017841661984,
-          "price_change_24h": -0.62514
+          "volume_mcap_ratio": 0.3712796231605777,
+          "price_change_24h": 0.05322
         }
       ],
       "momentum_shifts": []
