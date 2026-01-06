@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-05T20:33:05.182144+00:00",
+  "updated_at": "2026-01-06T02:12:26.093142+00:00",
   "indicators": {
-    "change24h": 0.06,
-    "vol": 0.174,
-    "fearGreed": 26,
-    "momentum": 1.0,
+    "change24h": 0.025,
+    "vol": 0.165,
+    "fearGreed": 44,
+    "momentum": 0.432,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5507,
-    "global_sentiment": 0.5481,
-    "combined_sentiment": 0.5421,
-    "confidence": 0.8252,
+    "crypto_sentiment": 0.5778,
+    "global_sentiment": 0.5186,
+    "combined_sentiment": 0.5599,
+    "confidence": 0.7724,
     "counts": {
       "crypto": 74,
-      "global": 46
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 94561,
-      "btc_change_24h": 3.61,
-      "eth_price": 3250.84,
-      "eth_change_24h": 3.58,
+      "btc_price": 93719,
+      "btc_change_24h": 0.96,
+      "eth_price": 3215.27,
+      "eth_change_24h": 0.78,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 26,
+        "value": 44,
         "classification": "Fear",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 221023453484,
+        "volume_24h": 212421971724,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.6,
+        "btc_dominance": 56.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-23T08:38:07.756580+00:00",
-      "crypto": 0.422,
-      "global": 0.5916,
-      "combined": 0.4491,
-      "counts": {
-        "crypto": 70,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-12-23T12:58:11.152052+00:00",
       "crypto": 0.447,
@@ -1008,71 +998,81 @@
         "crypto": 74,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-01-06T02:12:26.093142+00:00",
+      "crypto": 0.5778,
+      "global": 0.5186,
+      "combined": 0.5599,
+      "counts": {
+        "crypto": 74,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP's 9% surge leads crypto as bitcoin climbs to 6-week high near $95,000",
-        "url": "https://www.coindesk.com/markets/2026/01/05/xrp-s-9-surge-leads-crypto-as-bitcoin-climbs-to-6-week-high-near-usd95-000",
-        "source": "CoinDesk",
-        "weight": 1.171,
+        "title": "US crypto stocks soar double-digits as major tokens rally",
+        "url": "https://cointelegraph.com/news/crypto-stocks-soar-double-digits-major-tokens-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.797,
         "score": 0.8667
       },
       {
-        "title": "5 Things Costco Needs to Do to End Its Stock Slump",
-        "url": "https://finance.yahoo.com/m/b2d00410-2178-31ee-b8a0-684208478303/5-things-costco-needs-to-do.html?.tsrc=rss",
+        "title": "Dow hits record, energy stocks end higher after US strikes Venezuela",
+        "url": "https://finance.yahoo.com/video/dow-hits-record-energy-stocks-233442012.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7112,
+        "weight": 0.5905,
         "score": 1.0
       },
       {
-        "title": "The Dow Crosses 49,100. Why It’s Beating the S&P 500 and Nasdaq.",
-        "url": "https://finance.yahoo.com/m/7f5969e9-255f-3d05-b186-2c3ef5858adc/the-dow-crosses-49%2C100.-why.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6599,
+        "title": "XRP's 9% surge leads crypto as bitcoin climbs to 6-week high near $95,000",
+        "url": "https://www.coindesk.com/markets/2026/01/05/xrp-s-9-surge-leads-crypto-as-bitcoin-climbs-to-6-week-high-near-usd95-000",
+        "source": "CoinDesk",
+        "weight": 0.6092,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Tesla Stock Could Be Worth Just $80. The Price Is Rising.",
-        "url": "https://finance.yahoo.com/m/9a9c8930-342d-3908-8a4c-2a451bf78236/tesla-stock-could-be-worth.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7279,
-        "score": -0.9667
+        "title": "Elon Musk's X faces probes in Europe, India, Malaysia after Grok generated explicit images of women and children",
+        "url": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
+        "source": "CNBC Markets",
+        "weight": 0.6815,
+        "score": -0.8333
       },
       {
-        "title": "A few Republicans have crypto's destiny in their hands at the SEC, CFTC",
-        "url": "https://www.coindesk.com/policy/2026/01/05/a-few-republicans-have-crypto-s-destiny-in-their-hands-at-the-sec-cftc",
-        "source": "CoinDesk",
-        "weight": 0.923,
-        "score": -0.6333
+        "title": "Rapper Drake Faces RICO Lawsuit for Promoting and Using Crypto Casino Stake",
+        "url": "https://decrypt.co/353654/rapper-drake-faces-rico-lawsuit-crypto-casino-stake",
+        "source": "Decrypt",
+        "weight": 0.5337,
+        "score": -1.0
       },
       {
-        "title": "Sector Update: Energy",
-        "url": "https://finance.yahoo.com/news/sector-energy-202653630.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7905,
-        "score": -0.6333
+        "title": "Stablecoin Banking Startup Kontigo to Repay Customers After Hack",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-05/stablecoin-banking-startup-kontigo-to-repay-customers-after-hack",
+        "source": "Bloomberg Markets",
+        "weight": 0.497,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49527710284310295,
-          "price_change_24h": 0.03527
-        },
-        {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.42546292737208935,
-          "price_change_24h": -1.40215
+          "volume_mcap_ratio": 0.4807618854796585,
+          "price_change_24h": 0.03427
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.41879567665023937,
-          "price_change_24h": 0.04553
+          "volume_mcap_ratio": 0.3926170813825822,
+          "price_change_24h": 0.0195
+        },
+        {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.37947017841661984,
+          "price_change_24h": -0.62514
         }
       ],
       "momentum_shifts": []
