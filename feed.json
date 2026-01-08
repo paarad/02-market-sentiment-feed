@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-08T08:39:37.494956+00:00",
+  "updated_at": "2026-01-08T13:00:58.186203+00:00",
   "indicators": {
     "change24h": -0.054,
-    "vol": 0.137,
+    "vol": 0.141,
     "fearGreed": 28,
-    "momentum": -0.942,
+    "momentum": -0.941,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4051,
-    "global_sentiment": 0.4197,
-    "combined_sentiment": 0.4221,
-    "confidence": 0.7737,
+    "crypto_sentiment": 0.3857,
+    "global_sentiment": 0.5169,
+    "combined_sentiment": 0.4157,
+    "confidence": 0.778,
     "counts": {
-      "crypto": 75,
-      "global": 44
+      "crypto": 71,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 90327,
-      "btc_change_24h": -2.56,
-      "eth_price": 3122.32,
-      "eth_change_24h": -3.98,
+      "btc_price": 89881,
+      "btc_change_24h": -2.24,
+      "eth_price": 3093.0,
+      "eth_change_24h": -3.7,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 193813967866,
-        "high_activity_coins": 3
+        "volume_24h": 190480932353,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.31,
+        "btc_dominance": 56.41,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-25T19:53:40.144814+00:00",
-      "crypto": 0.4558,
-      "global": 0.6554,
-      "combined": 0.4798,
-      "counts": {
-        "crypto": 59,
-        "global": 49
-      }
-    },
     {
       "ts": "2025-12-25T20:30:37.601430+00:00",
       "crypto": 0.4847,
@@ -1008,52 +998,62 @@
         "crypto": 75,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-08T13:00:58.186203+00:00",
+      "crypto": 0.3857,
+      "global": 0.5169,
+      "combined": 0.4157,
+      "counts": {
+        "crypto": 71,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Equity markets mostly down as traders eye US jobs data",
-        "url": "https://finance.yahoo.com/news/asian-markets-mixed-traders-eye-035404961.html?.tsrc=rss",
+        "title": "Jin Cramer on Intel: “I Am Confident It Is Indeed Headed in the Right Direction”",
+        "url": "https://finance.yahoo.com/news/jin-cramer-intel-am-confident-122027072.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7691,
-        "score": 1.0
+        "weight": 0.74,
+        "score": 0.8667
       },
       {
-        "title": "European defense stocks extend rally amid geopolitical tensions; Leonardo, Renk jump 4%",
-        "url": "https://www.cnbc.com/2026/01/08/european-markets-today-stoxx-600-ftse-dax-cac-greenland-in-focus.html",
-        "source": "CNBC Markets",
-        "weight": 0.7706,
+        "title": "Jim Cramer on Goldman Sachs: “That’s Worth Buying”",
+        "url": "https://finance.yahoo.com/news/jim-cramer-goldman-sachs-worth-124507912.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7759,
         "score": 0.5333
       },
       {
-        "title": "XRP ETFs notch first outflows as nearly $600M exits Bitcoin, Ether funds",
-        "url": "https://cointelegraph.com/news/xrp-etfs-first-outflow-day-crypto-etf-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9472,
-        "score": 0.3333
+        "title": "Jim Cramer Says “You Have to Expect Companies Like KLA to Keep Racking Up Big Orders” At This Point",
+        "url": "https://finance.yahoo.com/news/jim-cramer-says-expect-companies-122026724.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7399,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "FTSE 100 Falls a Second Day as AB Foods, Tesco Drop",
-        "url": "https://www.bloomberg.com/news/live-blog/2026-01-08/ftse-100-tesco-oil-trump-venezuela-latest-pound-what-s-moving-uk-markets-right-now-markets-today",
+        "title": "Emerging Stocks, Currencies Drop as Geopolitical Risks Mount",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-08/emerging-stocks-currencies-drop-as-geopolitical-risks-mount",
         "source": "Bloomberg Markets",
-        "weight": 0.6453,
-        "score": -1.0
+        "weight": 0.7134,
+        "score": -0.9667
       },
       {
-        "title": "Google, Character.AI Agree to Settle US Lawsuit Over Teen’s Suicide",
-        "url": "https://decrypt.co/353927/google-character-ai-settle-us-lawsuit-teens-suicide",
-        "source": "Decrypt",
-        "weight": 0.5337,
-        "score": -1.0
+        "title": "October's crypto crash left market makers stuffed with coins, slowing trading: BitMEX",
+        "url": "https://www.coindesk.com/markets/2026/01/08/october-s-crypto-crash-left-market-makers-stuffed-with-coins-slowing-trading-bitmex",
+        "source": "CoinDesk",
+        "weight": 0.8673,
+        "score": -0.6333
       },
       {
-        "title": "Bassiri Tabrizi: Another Iran-Israel Escalation Likely",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-08/bassiri-tabrizi-another-iran-israel-escalation-likely-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7654,
+        "title": "3 Stocks to Sell in 2026",
+        "url": "https://finance.yahoo.com/news/3-stocks-sell-2026-123120349.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7556,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.6849747149381203,
-          "price_change_24h": 0.07317
+          "volume_mcap_ratio": 0.6305408691580362,
+          "price_change_24h": -0.00527
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4290740108981097,
-          "price_change_24h": -0.04293
-        },
-        {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.30855245053545866,
-          "price_change_24h": -6.96606
+          "volume_mcap_ratio": 0.43195324380236344,
+          "price_change_24h": -0.05242
         }
       ],
       "momentum_shifts": []
