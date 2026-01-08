@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-07T20:33:17.712141+00:00",
+  "updated_at": "2026-01-08T02:12:09.114654+00:00",
   "indicators": {
-    "change24h": -0.036,
-    "vol": 0.102,
-    "fearGreed": 42,
-    "momentum": -0.638,
+    "change24h": -0.022,
+    "vol": 0.098,
+    "fearGreed": 28,
+    "momentum": -0.388,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4268,
-    "global_sentiment": 0.4604,
-    "combined_sentiment": 0.4418,
-    "confidence": 0.7996,
+    "crypto_sentiment": 0.4114,
+    "global_sentiment": 0.4197,
+    "combined_sentiment": 0.4269,
+    "confidence": 0.7862,
     "counts": {
-      "crypto": 71,
-      "global": 49
+      "crypto": 74,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 90840,
-      "btc_change_24h": -1.8,
-      "eth_price": 3132.14,
-      "eth_change_24h": -3.41,
+      "btc_price": 91317,
+      "btc_change_24h": -1.31,
+      "eth_price": 3173.65,
+      "eth_change_24h": -2.27,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 42,
+        "value": 28,
         "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196636745931,
+        "volume_24h": 173761481752,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.3,
+        "btc_dominance": 56.26,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-25T08:36:45.400054+00:00",
-      "crypto": 0.5748,
-      "global": 0.369,
-      "combined": 0.5452,
-      "counts": {
-        "crypto": 63,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-25T12:55:37.889246+00:00",
       "crypto": 0.5419,
@@ -1008,71 +998,81 @@
         "crypto": 71,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-01-08T02:12:09.114654+00:00",
+      "crypto": 0.4114,
+      "global": 0.4197,
+      "combined": 0.4269,
+      "counts": {
+        "crypto": 74,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq diverge as jobs data, Trump's Venezuela oil deal take focus",
-        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-diverge-as-jobs-data-trumps-venezuela-oil-deal-take-focus-002323571.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7946,
+        "title": "Ford enters race to offer eyes-off driving tech, starting with $30,000 EV in 2028",
+        "url": "https://www.cnbc.com/2026/01/07/ford-eyes-off-driving-ev-2028.html",
+        "source": "CNBC Markets",
+        "weight": 0.7758,
         "score": 0.6667
       },
       {
         "title": "XRP spot trading is now live on Hyperliquid with Flare's FXRP listing",
         "url": "https://www.coindesk.com/markets/2026/01/07/xrp-spot-trading-is-now-live-on-hyperliquid-with-flare-s-fxrp-listing",
         "source": "CoinDesk",
-        "weight": 0.8355,
+        "weight": 0.4351,
         "score": 0.6333
       },
       {
-        "title": "Stock Market Today: Dow Slides, Yields Fall As Key Jobs Report Looms; Intel Races Higher (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/5ca6f0c8-6fcc-3a7d-abfd-e4155ac50b6a/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7444,
-        "score": 0.6667
+        "title": "OpenAI’s ChatGPT Health Push Raises Questions About Data Security",
+        "url": "https://decrypt.co/353919/openai-users-medical-data-ai-chatgpt-privacy-concerns",
+        "source": "Decrypt",
+        "weight": 0.8225,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Sector Update: Energy Stocks Fall Wednesday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-fall-wednesday-184726462.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6525,
+        "title": "GENIUS Act changes would be a ‘national security trap’: Crypto execs",
+        "url": "https://cointelegraph.com/news/genius-act-stablecoin-rewards-debate-crypto-industry-executives-banks-senate?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7798,
         "score": -0.9667
       },
       {
-        "title": "This Financial ETF Trounced the S&P 500 Last Year, and Arlington Capital Management Just Opened a 126,000-Share Position",
-        "url": "https://www.fool.com/coverage/filings/2026/01/07/this-financial-etf-trounced-the-s-and-p-500-last-year-and-arlington-capital-management-just-opened-a-126-000-share-position/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7788,
-        "score": -0.6333
+        "title": "Buyout Wave Seen Among Japan Drugmakers After Hisamitsu Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-07/buyout-wave-seen-among-japan-drugmakers-after-hisamitsu-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.4923,
+        "score": -0.9333
       },
       {
-        "title": "Aptos' APT falls amid a decline in wider crypto markets",
-        "url": "https://www.coindesk.com/markets/2026/01/07/aptos-apt-falls-amid-a-decline-in-wider-crypto-markets",
-        "source": "CoinDesk",
-        "weight": 0.6662,
-        "score": -0.6667
+        "title": "Korea Prosecutors Seek Arrest Warrant for PE Billionaire MBK",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-08/korea-prosecutors-seek-arrest-warrant-for-pe-billionaire-mbk",
+        "source": "Bloomberg Markets",
+        "weight": 0.6927,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9947884104935824,
-          "price_change_24h": -0.0684
+          "volume_mcap_ratio": 0.8430653690403729,
+          "price_change_24h": -0.10159
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4368389830190374,
-          "price_change_24h": -0.04723
+          "volume_mcap_ratio": 0.3862001197424159,
+          "price_change_24h": -0.03939
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.3371724963178336,
-          "price_change_24h": 0.80375
+          "volume_mcap_ratio": 0.3261577335424948,
+          "price_change_24h": 0.80217
         }
       ],
       "momentum_shifts": []
