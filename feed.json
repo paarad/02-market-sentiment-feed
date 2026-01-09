@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-09T16:37:28.265116+00:00",
+  "updated_at": "2026-01-09T19:53:49.496489+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.045,
+    "change24h": -0.015,
+    "vol": 0.058,
     "fearGreed": 27,
-    "momentum": 0.249,
-    "regime": "sideways",
+    "momentum": -0.257,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4829,
-    "global_sentiment": 0.4504,
-    "combined_sentiment": 0.4831,
-    "confidence": 0.7677,
+    "crypto_sentiment": 0.5314,
+    "global_sentiment": 0.4944,
+    "combined_sentiment": 0.5231,
+    "confidence": 0.7867,
     "counts": {
-      "crypto": 51,
-      "global": 40
+      "crypto": 69,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 91241,
-      "btc_change_24h": 0.96,
-      "eth_price": 3121.32,
-      "eth_change_24h": 0.88,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "btc_price": 90506,
+      "btc_change_24h": -0.48,
+      "eth_price": 3083.07,
+      "eth_change_24h": -0.93,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172008939200,
+        "volume_24h": 169824194531,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.48,
+        "btc_dominance": 56.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-27T02:06:35.573099+00:00",
-      "crypto": 0.4968,
-      "global": 0.6298,
-      "combined": 0.5084,
-      "counts": {
-        "crypto": 62,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-12-27T04:37:29.145656+00:00",
       "crypto": 0.4552,
@@ -1008,52 +998,62 @@
         "crypto": 51,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-09T19:53:49.496489+00:00",
+      "crypto": 0.5314,
+      "global": 0.4944,
+      "combined": 0.5231,
+      "counts": {
+        "crypto": 69,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Senegal Bonds Surge as Leader Again Rules Out Debt Restructuring",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/senegal-bonds-surge-as-leader-again-rules-out-debt-restructuring",
+        "title": "US Household Worth Climbs to Fresh Record on Stock Market Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-09/us-household-worth-climbs-to-fresh-record-on-stock-market-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.6622,
+        "weight": 0.5981,
         "score": 0.8667
       },
       {
-        "title": "Ripple wins UK regulatory approval from Financial Conduct Authority",
-        "url": "https://www.coindesk.com/policy/2026/01/09/ripple-wins-uk-regulatory-approval-from-financial-conduct-authority",
-        "source": "CoinDesk",
-        "weight": 0.6166,
-        "score": 0.9167
+        "title": "Trading bots gain traction as crypto markets move sideways: HTX 2025 recap",
+        "url": "https://cointelegraph.com/news/trading-bots-gain-traction-crypto-markets-move-sideways-htx-2025-recap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7746,
+        "score": 0.6667
       },
       {
-        "title": "Ripple scores UK regulatory approval via local subsidiary",
-        "url": "https://cointelegraph.com/news/ripple-uk-regulatory-approval-local-subsidiary-fca?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin’s next super rally could depend on this key data point",
+        "url": "https://cointelegraph.com/news/bitcoin-s-next-super-rally-could-depend-on-this-key-data-point?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5511,
-        "score": 0.9167
+        "weight": 0.6808,
+        "score": 0.7333
       }
     ],
     "negative": [
       {
-        "title": "Amazon Pharmacy starts offering Novo Nordisk's Wegovy weight-loss pill",
-        "url": "https://www.cnbc.com/2026/01/09/amazon-pharmacy-starts-offering-novo-nordisks-wegovy-weight-loss-pill.html",
+        "title": "Healthy Returns: What to expect from pharma at the JPM conference",
+        "url": "https://www.cnbc.com/2026/01/09/healthy-returns-what-to-expect-from-pharma-at-the-jpm-conference.html",
         "source": "CNBC Markets",
-        "weight": 0.7764,
+        "weight": 0.6628,
         "score": -0.9333
       },
       {
-        "title": "The Market With Zero Insider Trading",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-09/opinion-the-market-with-zero-insider-trading-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7385,
-        "score": -0.9667
+        "title": "Amazon Pharmacy starts offering Novo Nordisk's Wegovy weight loss pill",
+        "url": "https://www.cnbc.com/2026/01/09/amazon-pharmacy-starts-offering-novo-nordisks-wegovy-weight-loss-pill.html",
+        "source": "CNBC Markets",
+        "weight": 0.5852,
+        "score": -0.9333
       },
       {
-        "title": "Bitcoin ETFs wiped out $1.1 billion in 72 hours as a critical demand metric turned negative",
-        "url": "https://cryptoslate.com/bitcoins-boring-sideways-era-begins-with-over-1b-etf-outflow/",
-        "source": "CryptoSlate",
-        "weight": 0.6404,
+        "title": "The Market Bet With Zero Insider Trading",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-09/opinion-the-market-with-zero-insider-trading-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.506,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38498918370287305,
-          "price_change_24h": 0.00935
+          "volume_mcap_ratio": 0.3844410985048179,
+          "price_change_24h": -0.01686
         }
       ],
       "momentum_shifts": []
@@ -1070,5 +1070,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-09",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4357,
+      "crypto_high": 0.5314,
+      "crypto_low": 0.3645,
+      "global_avg": 0.4487,
+      "global_high": 0.4944,
+      "global_low": 0.3677,
+      "combined_avg": 0.4475,
+      "combined_high": 0.5231,
+      "combined_low": 0.3873
+    },
+    "market_indicators_24h": {
+      "change24h": -0.015,
+      "vol": 0.058,
+      "fearGreed": 27,
+      "momentum": -0.257,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-09T19:53:49.496489+00:00"
   }
 }
