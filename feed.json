@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-09T04:46:23.902231+00:00",
+  "updated_at": "2026-01-09T08:39:38.753398+00:00",
   "indicators": {
-    "change24h": -0.016,
-    "vol": 0.062,
+    "change24h": -0.006,
+    "vol": 0.055,
     "fearGreed": 27,
-    "momentum": -0.272,
-    "regime": "bear",
+    "momentum": -0.111,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3949,
-    "global_sentiment": 0.4663,
-    "combined_sentiment": 0.4184,
-    "confidence": 0.7391,
+    "crypto_sentiment": 0.4115,
+    "global_sentiment": 0.4636,
+    "combined_sentiment": 0.4306,
+    "confidence": 0.7426,
     "counts": {
-      "crypto": 63,
-      "global": 33
+      "crypto": 65,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 90909,
-      "btc_change_24h": -0.06,
-      "eth_price": 3111.64,
-      "eth_change_24h": -1.21,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 90390,
+      "btc_change_24h": 0.11,
+      "eth_price": 3097.3,
+      "eth_change_24h": -0.77,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 186956098798,
-        "high_activity_coins": 2
+        "volume_24h": 172365948500,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.43,
+        "btc_dominance": 56.37,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-26T16:32:09.089781+00:00",
-      "crypto": 0.4924,
-      "global": 0.6069,
-      "combined": 0.5032,
-      "counts": {
-        "crypto": 61,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-26T19:53:32.610502+00:00",
       "crypto": 0.4082,
@@ -1008,66 +998,71 @@
         "crypto": 63,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-01-09T08:39:38.753398+00:00",
+      "crypto": 0.4115,
+      "global": 0.4636,
+      "combined": 0.4306,
+      "counts": {
+        "crypto": 65,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China’s Industrial Buyers Shun Copper After Prices Hit Record",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/china-s-industrial-buyers-shun-copper-after-prices-hit-record",
-        "source": "Bloomberg Markets",
-        "weight": 0.613,
-        "score": 0.8667
-      },
-      {
-        "title": "Japanese Insurer Sompo to Ramp Up Overseas Credit Investments",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/japanese-insurer-sompo-to-ramp-up-overseas-credit-investments",
-        "source": "Bloomberg Markets",
-        "weight": 0.6279,
+        "title": "A Very Costco Christmas Is Good News for the Stock",
+        "url": "https://finance.yahoo.com/m/b84ba16f-602f-3e6b-ad28-f99d46286530/a-very-costco-christmas-is.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6603,
         "score": 0.6667
       },
       {
-        "title": "Bank of America resets Amazon stock forecast",
-        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-amazon-stock-forecast?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7796,
-        "score": 0.3333
+        "title": "Iran is cut off from the internet: Here’s how crypto could still work",
+        "url": "https://cointelegraph.com/news/iran-cut-internet-could-citizens-still-use-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6171,
+        "score": 0.6667
+      },
+      {
+        "title": "Chinese Demand for Copper Vanishes After Prices Hit Record",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-09/china-s-industrial-buyers-shun-copper-after-prices-hit-record",
+        "source": "Bloomberg Markets",
+        "weight": 0.3912,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Lords Report Slams UK Treasury for Apathy to Private Credit Risk",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/lords-report-slams-uk-treasury-for-apathy-to-private-credit-risk",
-        "source": "Bloomberg Markets",
-        "weight": 0.4618,
+        "title": "Truebit token crashes 99.9% after hacker drains $26.6 million in ether",
+        "url": "https://www.coindesk.com/markets/2026/01/09/truebit-token-tru-crashes-99-9-after-usd26-6m-exploit-drains-8-535-eth",
+        "source": "CoinDesk",
+        "weight": 0.6674,
         "score": -1.0
       },
       {
-        "title": "The Stock-Market Rally Isn’t Just About Tech Anymore",
-        "url": "https://finance.yahoo.com/m/de5d9775-386a-34c7-bc61-740deb7a6b4e/the-stock-market-rally-isn%E2%80%99t.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4609,
-        "score": -1.0
-      },
-      {
-        "title": "Defense Stocks Outperform as Tech Softens Ahead of Tariff Ruling | The Close 1/8/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-08/the-close-1-8-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4564,
+        "title": "Crypto market crash last October marked end of ‘easy yield’ era: BitMEX",
+        "url": "https://cointelegraph.com/news/october-crypto-crash-ended-easy-yield-era-bitmex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5921,
         "score": -0.9667
+      },
+      {
+        "title": "India’s Economy at Risk From Higher Tariffs, Says Former Adviser",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-09/india-s-economy-at-risk-from-higher-tariffs-says-former-adviser",
+        "source": "Bloomberg Markets",
+        "weight": 0.7495,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4264321487627596,
-          "price_change_24h": -0.00948
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.30598499200034013,
-          "price_change_24h": 0.00433
+          "volume_mcap_ratio": 0.3886355704536809,
+          "price_change_24h": 0.02262
         }
       ],
       "momentum_shifts": []
