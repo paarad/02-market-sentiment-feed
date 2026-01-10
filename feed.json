@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-09T20:32:26.057618+00:00",
+  "updated_at": "2026-01-10T02:09:15.152039+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.046,
-    "fearGreed": 27,
-    "momentum": -0.085,
+    "change24h": -0.012,
+    "vol": 0.05,
+    "fearGreed": 25,
+    "momentum": -0.214,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5211,
-    "global_sentiment": 0.5032,
-    "combined_sentiment": 0.5161,
-    "confidence": 0.8002,
+    "crypto_sentiment": 0.5289,
+    "global_sentiment": 0.4143,
+    "combined_sentiment": 0.5145,
+    "confidence": 0.7393,
     "counts": {
-      "crypto": 53,
-      "global": 50
+      "crypto": 70,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 90379,
-      "btc_change_24h": -0.19,
-      "eth_price": 3081.5,
-      "eth_change_24h": -0.49,
+      "btc_price": 90599,
+      "btc_change_24h": -0.7,
+      "eth_price": 3087.02,
+      "eth_change_24h": -0.97,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.2,
       "fear_greed": {
-        "value": 27,
-        "classification": "Fear",
-        "trend": "stable"
+        "value": 25,
+        "classification": "Extreme Fear",
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168094186336,
+        "volume_24h": 157827609995,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-27T08:34:44.690409+00:00",
-      "crypto": 0.4452,
-      "global": 0.6424,
-      "combined": 0.4708,
-      "counts": {
-        "crypto": 63,
-        "global": 34
-      }
-    },
     {
       "ts": "2025-12-27T12:53:12.863800+00:00",
       "crypto": 0.3819,
@@ -1008,61 +998,71 @@
         "crypto": 53,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-01-10T02:09:15.152039+00:00",
+      "crypto": 0.5289,
+      "global": 0.4143,
+      "combined": 0.5145,
+      "counts": {
+        "crypto": 70,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin pulls back to $90,000 as early Friday rally attempt fails",
-        "url": "https://www.coindesk.com/markets/2026/01/09/bitcoin-pulls-back-to-usd90-000-as-early-friday-rally-attempt-fails",
-        "source": "CoinDesk",
-        "weight": 0.9418,
+        "title": "Bitcoin tests key support as bulls reset to prepare for futures-led rally to $101.5K",
+        "url": "https://cointelegraph.com/news/bitcoin-tests-key-support-as-bulls-reset-to-prepare-for-futures-led-rally-to-dollar101-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5041,
+        "score": 0.7333
+      },
+      {
+        "title": "Jim Cramer says don’t trade Apple and Nvidia as money rotates into overlooked stocks ahead of earnings season",
+        "url": "https://www.cnbc.com/2026/01/09/jim-cramer-own-apple-and-nvidia-as-broad-rally-expands-before-earnings.html",
+        "source": "CNBC Markets",
+        "weight": 0.6268,
         "score": 0.5333
       },
       {
-        "title": "EquipmentShare, Motive to Weigh Marketing IPOs Next Week",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/equipmentshare-motive-said-to-weigh-marketing-ipos-next-week",
-        "source": "Bloomberg Markets",
-        "weight": 0.7772,
-        "score": 0.6333
-      },
-      {
-        "title": "US Household Worth Climbs to Fresh Record on Stock Market Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/us-household-worth-climbs-to-fresh-record-on-stock-market-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.5553,
-        "score": 0.8667
+        "title": "Bitcoin pulls back to $90,000 as early Friday rally attempt fails",
+        "url": "https://www.coindesk.com/markets/2026/01/09/bitcoin-pulls-back-to-usd90-000-as-early-friday-rally-attempt-fails",
+        "source": "CoinDesk",
+        "weight": 0.4924,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "SEC to Drop Long-Running Fraud Case Against Ex-Rio Tinto CFO over African Coal Assets",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-10/sec-to-drop-long-running-fraud-case-against-ex-rio-tinto-cfo",
+        "source": "Bloomberg Markets",
+        "weight": 0.6482,
+        "score": -1.0
+      },
+      {
+        "title": "Eikon Therapeutics Files for IPO Led By Merck Veterans",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-09/eikon-therapeutics-files-for-ipo-led-by-merck-veterans",
+        "source": "Bloomberg Markets",
+        "weight": 0.533,
+        "score": -0.9333
+      },
+      {
         "title": "Healthy Returns: What to expect from pharma at the JPM conference",
         "url": "https://www.cnbc.com/2026/01/09/healthy-returns-what-to-expect-from-pharma-at-the-jpm-conference.html",
         "source": "CNBC Markets",
-        "weight": 0.6154,
+        "weight": 0.4916,
         "score": -0.9333
-      },
-      {
-        "title": "Amazon Pharmacy starts offering Novo Nordisk's Wegovy weight loss pill",
-        "url": "https://www.cnbc.com/2026/01/09/amazon-pharmacy-starts-offering-novo-nordisks-wegovy-weight-loss-pill.html",
-        "source": "CNBC Markets",
-        "weight": 0.5433,
-        "score": -0.9333
-      },
-      {
-        "title": "Watch: Trump meets with oil executives at the White House on Venezuela investment",
-        "url": "https://www.cnbc.com/2026/01/09/trump-venezuela-oil-executives-white-house-meeting.html",
-        "source": "CNBC Markets",
-        "weight": 0.7981,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38185536351355576,
-          "price_change_24h": -0.01757
+          "volume_mcap_ratio": 0.35710228189891796,
+          "price_change_24h": -0.02791
         }
       ],
       "momentum_shifts": []
