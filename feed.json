@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-10T12:53:43.270132+00:00",
+  "updated_at": "2026-01-10T16:32:32.492118+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.034,
+    "change24h": -0.017,
+    "vol": 0.068,
     "fearGreed": 25,
-    "momentum": 0.094,
-    "regime": "sideways",
+    "momentum": -0.295,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4574,
-    "global_sentiment": 0.3996,
-    "combined_sentiment": 0.4597,
-    "confidence": 0.5892,
+    "crypto_sentiment": 0.3821,
+    "global_sentiment": 0.5546,
+    "combined_sentiment": 0.4161,
+    "confidence": 0.6213,
     "counts": {
       "crypto": 67,
-      "global": 37
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 90592,
-      "btc_change_24h": 0.26,
-      "eth_price": 3093.52,
-      "eth_change_24h": 0.34,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 90523,
+      "btc_change_24h": -0.8,
+      "eth_price": 3090.42,
+      "eth_change_24h": -1.02,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126999689747,
+        "volume_24h": 88278058889,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.52,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-27T20:29:23.228132+00:00",
-      "crypto": 0.4059,
-      "global": 0.5039,
-      "combined": 0.4297,
-      "counts": {
-        "crypto": 63,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-28T02:27:19.876037+00:00",
       "crypto": 0.3725,
@@ -1008,33 +998,50 @@
         "crypto": 67,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-01-10T16:32:32.492118+00:00",
+      "crypto": 0.3821,
+      "global": 0.5546,
+      "combined": 0.4161,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold Investors Stay Bullish After Record Rally in 2025",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-10/gold-investors-stay-bullish-after-record-rally-in-2025",
-        "source": "Bloomberg Markets",
-        "weight": 0.4815,
+        "title": "Behind Anthropic's stunning growth is a sibling team that may hold the key to generative AI",
+        "url": "https://www.cnbc.com/2026/01/10/anthropic-amodei-siblings-generative-ai.html",
+        "source": "CNBC Markets",
+        "weight": 0.6851,
         "score": 0.6667
       },
       {
-        "title": "ACM Research (ACMR) Earnings Preview Tests Confidence In Its China-Focused Chip Equipment Strategy",
-        "url": "https://finance.yahoo.com/news/acm-research-acmr-earnings-preview-051304499.html?.tsrc=rss",
+        "title": "Why are Hedge Funds Keen on StubHub Holdings (STUB)",
+        "url": "https://finance.yahoo.com/news/why-hedge-funds-keen-stubhub-124944450.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3295,
-        "score": 0.3333
+        "weight": 0.5209,
+        "score": 0.5333
       },
       {
-        "title": "Bitcoin tests key support as bulls reset to prepare for futures-led rally to $101.5K",
-        "url": "https://cointelegraph.com/news/bitcoin-tests-key-support-as-bulls-reset-to-prepare-for-futures-led-rally-to-dollar101-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.1457,
-        "score": 0.7333
+        "title": "ISCV vs. IJJ: The Rising Small-Cap ETF That Challenges the Popular Mid-Cap ETF",
+        "url": "https://www.fool.com/coverage/etfs/2026/01/10/iscv-vs-ijj-the-rising-small-cap-etf-that-challenges-the-popular-mid-cap-etf/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6958,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Is Fidelity’s Health Care ETF A Good Buy Right Now?",
+        "url": "https://247wallst.com/investing/2026/01/10/is-fidelitys-health-care-etf-a-good-buy-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5075,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,17 +1050,10 @@
         "score": -0.5333
       },
       {
-        "title": "Stock Stamp Duty May Hand Hong Kong Operating Surplus, RTHK Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-10/stock-stamp-duty-may-hand-hong-kong-operating-surplus-rthk-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.4172,
-        "score": -0.6333
-      },
-      {
-        "title": "The Stock Market Has Done This Only 3 Times in 155 Years -- and History Couldn't Be Any Clearer About What Comes Next",
-        "url": "https://www.fool.com/investing/2026/01/10/stock-market-3-times-155-years-history-what-next/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7159,
+        "title": "Institutions know a “good” exchange is built for failure",
+        "url": "https://www.coindesk.com/opinion/2026/01/10/institutions-know-a-good-exchange-is-built-for-failure",
+        "source": "CoinDesk",
+        "weight": 0.8368,
         "score": -0.3333
       }
     ],
