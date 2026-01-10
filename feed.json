@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-10T04:38:29.441000+00:00",
+  "updated_at": "2026-01-10T08:34:44.823588+00:00",
   "indicators": {
-    "change24h": -0.017,
-    "vol": 0.067,
+    "change24h": -0.008,
+    "vol": 0.062,
     "fearGreed": 25,
-    "momentum": -0.298,
+    "momentum": -0.132,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5254,
-    "global_sentiment": 0.4147,
-    "combined_sentiment": 0.512,
-    "confidence": 0.6943,
+    "crypto_sentiment": 0.5074,
+    "global_sentiment": 0.3789,
+    "combined_sentiment": 0.4955,
+    "confidence": 0.63,
     "counts": {
-      "crypto": 69,
-      "global": 39
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 90393,
-      "btc_change_24h": -0.57,
-      "eth_price": 3079.2,
-      "eth_change_24h": -1.05,
+      "btc_price": 90522,
+      "btc_change_24h": 0.02,
+      "eth_price": 3083.74,
+      "eth_change_24h": -0.64,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 151073408298,
+        "volume_24h": 143106344225,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.52,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-27T16:32:33.413398+00:00",
-      "crypto": 0.441,
-      "global": 0.5417,
-      "combined": 0.4592,
-      "counts": {
-        "crypto": 62,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-27T19:53:45.146687+00:00",
       "crypto": 0.4668,
@@ -1008,39 +998,49 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-01-10T08:34:44.823588+00:00",
+      "crypto": 0.5074,
+      "global": 0.3789,
+      "combined": 0.4955,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "ACM Research (ACMR) Earnings Preview Tests Confidence In Its China-Focused Chip Equipment Strategy",
+        "url": "https://finance.yahoo.com/news/acm-research-acmr-earnings-preview-051304499.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5426,
+        "score": 0.3333
+      },
+      {
         "title": "Bitcoin tests key support as bulls reset to prepare for futures-led rally to $101.5K",
         "url": "https://cointelegraph.com/news/bitcoin-tests-key-support-as-bulls-reset-to-prepare-for-futures-led-rally-to-dollar101-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3782,
+        "weight": 0.24,
         "score": 0.7333
       },
       {
         "title": "Jim Cramer says don’t trade Apple and Nvidia as money rotates into overlooked stocks ahead of earnings season",
         "url": "https://www.cnbc.com/2026/01/09/jim-cramer-own-apple-and-nvidia-as-broad-rally-expands-before-earnings.html",
         "source": "CNBC Markets",
-        "weight": 0.4703,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin pulls back to $90,000 as early Friday rally attempt fails",
-        "url": "https://www.coindesk.com/markets/2026/01/09/bitcoin-pulls-back-to-usd90-000-as-early-friday-rally-attempt-fails",
-        "source": "CoinDesk",
-        "weight": 0.3694,
+        "weight": 0.2984,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "SEC to Drop Long-Running Fraud Case Against Ex-Rio Tinto CFO over African Coal Assets",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-10/sec-to-drop-long-running-fraud-case-against-ex-rio-tinto-cfo",
+        "title": "Stock Stamp Duty May Hand Hong Kong Operating Surplus, RTHK Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-10/stock-stamp-duty-may-hand-hong-kong-operating-surplus-rthk-says",
         "source": "Bloomberg Markets",
-        "weight": 0.4863,
-        "score": -1.0
+        "weight": 0.6869,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
@@ -1050,19 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "Eikon Therapeutics Files for IPO Led By Merck Veterans",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-09/eikon-therapeutics-files-for-ipo-led-by-merck-veterans",
+        "title": "SEC to Drop Long-Running Fraud Case Against Ex-Rio Tinto CFO over African Coal Assets",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-10/sec-to-drop-long-running-fraud-case-against-ex-rio-tinto-cfo",
         "source": "Bloomberg Markets",
-        "weight": 0.3999,
-        "score": -0.9333
+        "weight": 0.3086,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3443080663574855,
-          "price_change_24h": -0.00479
+          "volume_mcap_ratio": 0.32598168338221034,
+          "price_change_24h": -0.01633
         }
       ],
       "momentum_shifts": []
