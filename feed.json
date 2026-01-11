@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-11T04:52:04.749701+00:00",
+  "updated_at": "2026-01-11T08:35:09.869540+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.063,
+    "change24h": 0.004,
+    "vol": 0.068,
     "fearGreed": 29,
-    "momentum": 0.082,
+    "momentum": 0.065,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2233,
-    "global_sentiment": 0.5509,
-    "combined_sentiment": 0.2967,
-    "confidence": 0.5069,
+    "crypto_sentiment": 0.2959,
+    "global_sentiment": 0.581,
+    "combined_sentiment": 0.3537,
+    "confidence": 0.523,
     "counts": {
-      "crypto": 64,
-      "global": 43
+      "crypto": 66,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 90641,
-      "btc_change_24h": 0.32,
-      "eth_price": 3092.05,
-      "eth_change_24h": 0.4,
+      "btc_price": 90631,
+      "btc_change_24h": 0.11,
+      "eth_price": 3093.94,
+      "eth_change_24h": 0.32,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 56850599889,
+        "volume_24h": 56054326046,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.53,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-28T16:32:58.465604+00:00",
-      "crypto": 0.4485,
-      "global": 0.4685,
-      "combined": 0.4588,
-      "counts": {
-        "crypto": 60,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-28T19:53:16.780771+00:00",
       "crypto": 0.5024,
@@ -1008,33 +998,50 @@
         "crypto": 64,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-01-11T08:35:09.869540+00:00",
+      "crypto": 0.2959,
+      "global": 0.581,
+      "combined": 0.3537,
+      "counts": {
+        "crypto": 66,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global AI Race Shows Asia Leading as Stocks Start 2026 With Bang",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-11/global-ai-race-shows-asia-leading-as-stocks-start-2026-with-bang",
-        "source": "Bloomberg Markets",
-        "weight": 0.4559,
+        "title": "Samson Mow tips Elon Musk will 'go hard' into Bitcoin in 2026",
+        "url": "https://cointelegraph.com/news/bitcoin-elon-musk-adoption-jan3-samson-mow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6174,
+        "score": 0.5333
+      },
+      {
+        "title": "AI is helping recruiters find ‘hidden gem’ talent — a senior LinkedIn exec shares top tips to stand out",
+        "url": "https://www.cnbc.com/2026/01/11/ai-dominate-hiring-2026-linkedin-execs-top-tips-stand-out.html",
+        "source": "CNBC Markets",
+        "weight": 0.6666,
         "score": 0.3333
       },
       {
-        "title": "Behind Anthropic's stunning growth is a sibling team that may hold the key to generative AI",
-        "url": "https://www.cnbc.com/2026/01/10/anthropic-amodei-siblings-generative-ai.html",
-        "source": "CNBC Markets",
-        "weight": 0.165,
-        "score": 0.6667
-      },
-      {
-        "title": "1 Under-$10 Stock Set to Surge as Much as 963% in 2026",
-        "url": "https://www.barchart.com/story/news/36982436/1-under-10-stock-set-to-surge-as-much-as-963-in-2026?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2031,
-        "score": 0.5333
+        "title": "Global AI Race Shows Asia Leading as Stocks Start 2026 With Bang",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-11/global-ai-race-shows-asia-leading-as-stocks-start-2026-with-bang",
+        "source": "Bloomberg Markets",
+        "weight": 0.2967,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Tennessee sends cease-and-desist letters to Kalshi, Polymarket, Crypto.com",
+        "url": "https://cointelegraph.com/news/tennessee-orders-kalshi-polymarket-crypto-com-halt-sports-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6706,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1046,15 +1053,8 @@
         "title": "Banks are lobbying to kill crypto rewards to protect a hidden $1,400 “tax” on every household",
         "url": "https://cryptoslate.com/banks-are-lobbying-to-kill-stablecoin-rewards-to-protect-a-hidden-1400-tax-on-every-household/",
         "source": "CryptoSlate",
-        "weight": 0.3173,
+        "weight": 0.2065,
         "score": -1.0
-      },
-      {
-        "title": "SOXX Delivered Larger Gains Than XLK, but With Greater Risk and Volatility",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/10/soxx-delivered-larger-gains-than-xlk-but-with-greater-risk-and-volatility/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2945,
-        "score": -0.9667
       }
     ],
     "market_movers": {
