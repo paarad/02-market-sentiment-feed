@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-10T20:29:48.957931+00:00",
+  "updated_at": "2026-01-11T02:29:07.879950+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.058,
-    "fearGreed": 25,
-    "momentum": 0.091,
+    "change24h": -0.001,
+    "vol": 0.057,
+    "fearGreed": 29,
+    "momentum": -0.01,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2715,
-    "global_sentiment": 0.5788,
-    "combined_sentiment": 0.3352,
-    "confidence": 0.6165,
+    "crypto_sentiment": 0.2271,
+    "global_sentiment": 0.5509,
+    "combined_sentiment": 0.2996,
+    "confidence": 0.5493,
     "counts": {
-      "crypto": 64,
-      "global": 44
+      "crypto": 65,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 90520,
-      "btc_change_24h": 0.17,
-      "eth_price": 3087.37,
-      "eth_change_24h": 0.14,
+      "btc_price": 90561,
+      "btc_change_24h": -0.1,
+      "eth_price": 3091.14,
+      "eth_change_24h": 0.13,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
-        "value": 25,
-        "classification": "Extreme Fear",
+        "value": 29,
+        "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 67289554326,
+        "volume_24h": 61188229807,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-28T08:34:54.817272+00:00",
-      "crypto": 0.4702,
-      "global": 0.3739,
-      "combined": 0.4671,
-      "counts": {
-        "crypto": 59,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-28T12:53:59.944967+00:00",
       "crypto": 0.5165,
@@ -1008,53 +998,63 @@
         "crypto": 64,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-11T02:29:07.879950+00:00",
+      "crypto": 0.2271,
+      "global": 0.5509,
+      "combined": 0.2996,
+      "counts": {
+        "crypto": 65,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global AI Race Shows Asia Leading as Stocks Start 2026 With Bang",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-11/global-ai-race-shows-asia-leading-as-stocks-start-2026-with-bang",
+        "source": "Bloomberg Markets",
+        "weight": 0.6003,
+        "score": 0.3333
+      },
+      {
         "title": "Behind Anthropic's stunning growth is a sibling team that may hold the key to generative AI",
         "url": "https://www.cnbc.com/2026/01/10/anthropic-amodei-siblings-generative-ai.html",
         "source": "CNBC Markets",
-        "weight": 0.4339,
+        "weight": 0.2172,
         "score": 0.6667
       },
       {
         "title": "1 Under-$10 Stock Set to Surge as Much as 963% in 2026",
         "url": "https://www.barchart.com/story/news/36982436/1-under-10-stock-set-to-surge-as-much-as-963-in-2026?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5342,
+        "weight": 0.2674,
         "score": 0.5333
-      },
-      {
-        "title": "GQRE vs. REET: The Rising ETF Against the Largest Global Real Estate ETF",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/10/gqre-vs-reet-the-rising-etf-against-the-largest-global-real-estate-etf/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.785,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Banks are lobbying to kill crypto rewards to protect a hidden $1,400 “tax” on every household",
+        "url": "https://cryptoslate.com/banks-are-lobbying-to-kill-stablecoin-rewards-to-protect-a-hidden-1400-tax-on-every-household/",
+        "source": "CryptoSlate",
+        "weight": 0.4179,
+        "score": -1.0
+      },
+      {
         "title": "SOXX Delivered Larger Gains Than XLK, but With Greater Risk and Volatility",
         "url": "https://www.fool.com/coverage/etfs/2026/01/10/soxx-delivered-larger-gains-than-xlk-but-with-greater-risk-and-volatility/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7745,
+        "weight": 0.3878,
         "score": -0.9667
-      },
-      {
-        "title": "Starknet publishes post-mortem report after temporary network outage",
-        "url": "https://cointelegraph.com/news/starknet-post-mortem-report-outage?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7641,
-        "score": -0.9667
-      },
-      {
-        "title": "Robinhood explains building an Ethereum layer-2: 'We wanted the security from Ethereum'",
-        "url": "https://www.coindesk.com/business/2026/01/10/robinhood-explains-building-an-ethereum-layer-2-we-wanted-the-security-from-ethereum",
-        "source": "CoinDesk",
-        "weight": 0.8412,
-        "score": -0.6333
       }
     ],
     "market_movers": {
