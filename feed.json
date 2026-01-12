@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-12T13:02:07.608628+00:00",
+  "updated_at": "2026-01-12T16:35:46.496590+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.016,
+    "vol": 0.225,
     "fearGreed": 27,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.284,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3719,
-    "global_sentiment": 0.3947,
-    "combined_sentiment": 0.3952,
-    "confidence": 0.7625,
+    "crypto_sentiment": 0.4539,
+    "global_sentiment": 0.4297,
+    "combined_sentiment": 0.4596,
+    "confidence": 0.786,
     "counts": {
-      "crypto": 63,
-      "global": 53
+      "crypto": 64,
+      "global": 51
     },
     "market_indicators": {
-      "btc_price": 90650,
-      "btc_change_24h": -0.2,
-      "eth_price": 3112.88,
-      "eth_change_24h": 0.08,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 92053,
+      "btc_change_24h": 1.21,
+      "eth_price": 3133.35,
+      "eth_change_24h": -0.07,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 146688372723,
+        "volume_24h": 170966808631,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.67,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-29T20:31:45.285079+00:00",
-      "crypto": 0.4538,
-      "global": 0.4904,
-      "combined": 0.4646,
-      "counts": {
-        "crypto": 64,
-        "global": 39
-      }
-    },
     {
       "ts": "2025-12-30T02:10:41.645025+00:00",
       "crypto": 0.4559,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 53
       }
+    },
+    {
+      "ts": "2026-01-12T16:35:46.496590+00:00",
+      "crypto": 0.4539,
+      "global": 0.4297,
+      "combined": 0.4596,
+      "counts": {
+        "crypto": 64,
+        "global": 51
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Prediction: This Vanguard ETF Could Outperform the S&P 500 in 2026",
-        "url": "https://www.fool.com/investing/2026/01/12/prediction-vanguard-etf-could-outperform-sp-500/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7377,
-        "score": 0.6667
-      },
-      {
-        "title": "Stablecoins, sanctions and surveillance: Why 2025 reshaped crypto’s regulatory reality",
-        "url": "https://cointelegraph.com/news/stablecoins-sanctions-and-surveillance-why-2025-reshaped-crypto-s-regulatory-reality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Ethereum set for 95% copycat rally against Bitcoin",
+        "url": "https://cointelegraph.com/news/ethereum-set-for-95-percent-copycat-rally-against-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5161,
-        "score": 0.8667
+        "weight": 0.6974,
+        "score": 1.0
       },
       {
-        "title": "Bahoshy: GCC Seeing a Pickup in VC Deal Activity",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-12/bahoshy-gcc-seeing-a-pickup-in-vc-deal-activity-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6208,
+        "title": "BitMine adds 24,000 ether, but warns accumulation may slow without shareholder approval",
+        "url": "https://www.coindesk.com/business/2026/01/12/bitmine-adds-24-000-ether-but-warns-accumulation-may-slow-without-shareholder-approval",
+        "source": "CoinDesk",
+        "weight": 0.8897,
+        "score": 0.5833
+      },
+      {
+        "title": "Big banks report earnings as Trump's credit card play poses new threat",
+        "url": "https://qz.com/bank-earnings-jpmornga-chase-trump-credit-card-interest-rates?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6237,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Why Oil Prices Are Tuning Out the Turmoil in Iran and Venezuela",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-01-12/why-oil-prices-are-tuning-out-the-political-turmoil-in-iran-and-venezuela",
+        "title": "The Rise of the Ozempic Menu: An Unexpected Restaurant Trend",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-12/the-rise-of-the-ozempic-menu-an-unexpected-restaurant-trend",
         "source": "Bloomberg Markets",
-        "weight": 0.7443,
-        "score": -0.9333
+        "weight": 0.782,
+        "score": -1.0
       },
       {
-        "title": "The potential this strategist sees in small-cap bank stocks",
-        "url": "https://finance.yahoo.com/video/potential-strategist-sees-small-cap-110044679.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Falls On Powell Investigation; Cybersecurity Name Breaks Out (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/29d744ef-20a6-35bb-b848-15caeacc000d/stock-market-today%3A-dow-falls.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6333,
+        "weight": 0.6865,
         "score": -0.9667
       },
       {
-        "title": "This Is Who Companies Call When They Want to Become a Bank",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-12/fintechs-call-klaros-group-when-they-want-bank-charters",
-        "source": "Bloomberg Markets",
-        "weight": 0.6327,
-        "score": -0.9667
+        "title": "Paramount Skydance sues Warner Bros. Discovery in hostile takeover attempt",
+        "url": "https://www.cnbc.com/2026/01/12/paramount-skydance-warner-bros-discovery-suit.html",
+        "source": "CNBC Markets",
+        "weight": 0.7903,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3339860042912652,
-          "price_change_24h": 0.00218
+          "volume_mcap_ratio": 0.3835583631400869,
+          "price_change_24h": 0.04723
         }
       ],
       "momentum_shifts": []
