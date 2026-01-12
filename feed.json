@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-12T04:55:10.878660+00:00",
+  "updated_at": "2026-01-12T08:41:32.961194+00:00",
   "indicators": {
-    "change24h": 0.042,
-    "vol": 0.268,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 27,
-    "momentum": 0.731,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3706,
-    "global_sentiment": 0.5092,
-    "combined_sentiment": 0.4037,
-    "confidence": 0.6754,
+    "crypto_sentiment": 0.3645,
+    "global_sentiment": 0.4132,
+    "combined_sentiment": 0.3912,
+    "confidence": 0.677,
     "counts": {
-      "crypto": 62,
-      "global": 42
+      "crypto": 61,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 92053,
-      "btc_change_24h": 1.56,
-      "eth_price": 3155.95,
-      "eth_change_24h": 2.03,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "btc_price": 90613,
+      "btc_change_24h": 0.01,
+      "eth_price": 3112.06,
+      "eth_change_24h": 0.53,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 121594300421,
-        "high_activity_coins": 0
+        "volume_24h": 136040006809,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.56,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-29T16:34:50.196303+00:00",
-      "crypto": 0.5244,
-      "global": 0.5858,
-      "combined": 0.5255,
-      "counts": {
-        "crypto": 65,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-29T19:53:44.297405+00:00",
       "crypto": 0.4553,
@@ -1008,57 +998,73 @@
         "crypto": 62,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-12T08:41:32.961194+00:00",
+      "crypto": 0.3645,
+      "global": 0.4132,
+      "combined": 0.3912,
+      "counts": {
+        "crypto": 61,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Surging Stock Listings Turbocharge India’s IPO Fees to a Record",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-12/ipo-fees-hit-record-in-india-as-deal-boom-eases-pricing-pressure",
-        "source": "Bloomberg Markets",
-        "weight": 0.6998,
-        "score": 1.0
+        "title": "World's most vital oil chokepoint back in focus amid possible U.S. action against Iran",
+        "url": "https://www.cnbc.com/2026/01/12/strait-of-hormuz-back-in-focus-amid-possible-us-intervention-in-iran.html",
+        "source": "CNBC Markets",
+        "weight": 0.7322,
+        "score": 0.5333
       },
       {
         "title": "Privacy tokens rally as XMR breaks all-time high",
         "url": "https://www.coindesk.com/markets/2026/01/12/privacy-tokens-rally-as-xmr-breaks-all-time-high",
         "source": "CoinDesk",
-        "weight": 0.9552,
+        "weight": 0.6177,
         "score": 0.5333
       },
       {
-        "title": "Wall Street Is Making Bullish Bets on the Economy",
-        "url": "https://finance.yahoo.com/m/dc280bf0-8ecb-3c92-ac9e-671901644c00/wall-street-is-making-bullish.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6409,
-        "score": 0.6667
+        "title": "China's Haisco Eyes Partnerships For Global Growth",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-12/china-s-haisco-eyes-partnerships-for-global-growth-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5143,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Crypto YouTube views sink to 5-year lows, ‘it’s not just X’",
-        "url": "https://cointelegraph.com/news/crypto-youtube-viewership-sinks-2021-lows-as-retail-interest-evaporates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Most US debanking cases stem from government pressure, report says",
+        "url": "https://cointelegraph.com/news/cato-institute-government-pressure-debanking-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7143,
-        "score": -0.9667
-      },
-      {
-        "title": "Fed’s Powell links DOJ probe to his defiance of Trump on rates",
-        "url": "https://cointelegraph.com/news/fed-powell-says-doj-probe-due-defying-trump-interest-rates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6185,
+        "weight": 0.5978,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 27 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "US DOJ Investigating Fed; US Monitoring Iran Protests | Horizons Middle East & Africa 1/12/2025",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-12/horizons-middle-east-africa-1-12-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.741,
+        "score": -0.6667
+      },
+      {
+        "title": "US opens criminal investigation into Fed Chair Jerome Powell",
+        "url": "https://www.euronews.com/business/2026/01/12/us-opens-criminal-investigation-into-fed-chair-jerome-powell?utm_source=yahoo&utm_campaign=feeds_business_articles_2024&utm_medium=referral&.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.681,
+        "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3059625623107828,
+          "price_change_24h": 0.00656
+        }
+      ],
       "momentum_shifts": []
     }
   },
