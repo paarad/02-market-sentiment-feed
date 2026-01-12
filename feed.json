@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-12T02:24:51.214357+00:00",
+  "updated_at": "2026-01-12T04:55:10.878660+00:00",
   "indicators": {
-    "change24h": 0.036,
-    "vol": 0.298,
+    "change24h": 0.042,
+    "vol": 0.268,
     "fearGreed": 27,
-    "momentum": 0.636,
+    "momentum": 0.731,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3541,
-    "global_sentiment": 0.4332,
-    "combined_sentiment": 0.385,
-    "confidence": 0.6306,
+    "crypto_sentiment": 0.3706,
+    "global_sentiment": 0.5092,
+    "combined_sentiment": 0.4037,
+    "confidence": 0.6754,
     "counts": {
-      "crypto": 63,
-      "global": 40
+      "crypto": 62,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 91540,
-      "btc_change_24h": 1.09,
-      "eth_price": 3135.62,
-      "eth_change_24h": 1.44,
+      "btc_price": 92053,
+      "btc_change_24h": 1.56,
+      "eth_price": 3155.95,
+      "eth_change_24h": 2.03,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 104254541131,
+        "volume_24h": 121594300421,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.52,
+        "btc_dominance": 56.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-29T12:59:18.277301+00:00",
-      "crypto": 0.4727,
-      "global": 0.6455,
-      "combined": 0.4917,
-      "counts": {
-        "crypto": 63,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-29T16:34:50.196303+00:00",
       "crypto": 0.5244,
@@ -1008,53 +998,63 @@
         "crypto": 63,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-12T04:55:10.878660+00:00",
+      "crypto": 0.3706,
+      "global": 0.5092,
+      "combined": 0.4037,
+      "counts": {
+        "crypto": 62,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Surging Stock Listings Turbocharge India’s IPO Fees to a Record",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-12/ipo-fees-hit-record-in-india-as-deal-boom-eases-pricing-pressure",
+        "source": "Bloomberg Markets",
+        "weight": 0.6998,
+        "score": 1.0
+      },
+      {
+        "title": "Privacy tokens rally as XMR breaks all-time high",
+        "url": "https://www.coindesk.com/markets/2026/01/12/privacy-tokens-rally-as-xmr-breaks-all-time-high",
+        "source": "CoinDesk",
+        "weight": 0.9552,
         "score": 0.5333
       },
       {
-        "title": "Allegiant to buy rival budget airline Sun Country in $1.5 billion cash and stock deal",
-        "url": "https://www.cnbc.com/2026/01/11/allegiant-sun-country-deal.html",
-        "source": "CNBC Markets",
-        "weight": 0.697,
-        "score": 0.5333
-      },
-      {
-        "title": "Fed Served With DOJ Subpoenas, Powell Vows to Stand Firm",
-        "url": "https://finance.yahoo.com/news/powell-says-justice-department-served-001428935.html?.tsrc=rss",
+        "title": "Wall Street Is Making Bullish Bets on the Economy",
+        "url": "https://finance.yahoo.com/m/dc280bf0-8ecb-3c92-ac9e-671901644c00/wall-street-is-making-bullish.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7665,
-        "score": 0.3333
+        "weight": 0.6409,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Global Rate Paths Splinter as Trump Drives Change at the Fed",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-12/global-rate-paths-splinter-as-trump-drives-change-at-the-fed",
-        "source": "Bloomberg Markets",
-        "weight": 0.6053,
+        "title": "Crypto YouTube views sink to 5-year lows, ‘it’s not just X’",
+        "url": "https://cointelegraph.com/news/crypto-youtube-viewership-sinks-2021-lows-as-retail-interest-evaporates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7143,
         "score": -0.9667
       },
       {
-        "title": "Coinbase could pull CLARITY Act support over stablecoin rewards ban",
-        "url": "https://cointelegraph.com/news/coinbase-could-pull-clarity-act-support-over-stablecoin-rewards-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Fed’s Powell links DOJ probe to his defiance of Trump on rates",
+        "url": "https://cointelegraph.com/news/fed-powell-says-doj-probe-due-defying-trump-interest-rates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7872,
-        "score": -0.6667
+        "weight": 0.6185,
+        "score": -1.0
       },
       {
-        "title": "Dollar Drops Most in Nearly Three Weeks as Fed Gets Subpoenas",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-12/dollar-drops-most-in-nearly-three-weeks-as-fed-gets-subpoenas",
-        "source": "Bloomberg Markets",
-        "weight": 0.7738,
-        "score": -0.6667
+        "title": "Fear & Greed 27 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
