@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-12T19:53:34.386785+00:00",
+  "updated_at": "2026-01-12T20:33:08.765219+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.284,
+    "change24h": 0.021,
+    "vol": 0.235,
     "fearGreed": 27,
-    "momentum": 0.307,
+    "momentum": 0.362,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5688,
-    "global_sentiment": 0.4591,
+    "crypto_sentiment": 0.5695,
+    "global_sentiment": 0.4523,
     "combined_sentiment": 0.5482,
-    "confidence": 0.7931,
+    "confidence": 0.7963,
     "counts": {
       "crypto": 66,
-      "global": 46
+      "global": 51
     },
     "market_indicators": {
-      "btc_price": 91732,
-      "btc_change_24h": 1.25,
-      "eth_price": 3115.72,
-      "eth_change_24h": -0.1,
+      "btc_price": 91553,
+      "btc_change_24h": 1.2,
+      "eth_price": 3104.54,
+      "eth_change_24h": -0.01,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 186079723103,
+        "volume_24h": 184609810508,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.67,
+        "btc_dominance": 56.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-30T04:43:55.134436+00:00",
-      "crypto": 0.4676,
-      "global": 0.5507,
-      "combined": 0.4799,
-      "counts": {
-        "crypto": 67,
-        "global": 37
-      }
-    },
     {
       "ts": "2025-12-30T08:37:59.045507+00:00",
       "crypto": 0.3726,
@@ -1008,61 +998,71 @@
         "crypto": 66,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-01-12T20:33:08.765219+00:00",
+      "crypto": 0.5695,
+      "global": 0.4523,
+      "combined": 0.5482,
+      "counts": {
+        "crypto": 66,
+        "global": 51
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Medline Jumps as Analysts Turn Bullish After 2025’s Biggest IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-12/medline-jumps-as-analysts-turn-bullish-after-2025-s-biggest-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.7771,
+        "score": 0.8667
+      },
+      {
+        "title": "Bakkt stock surges 20% after move on stablecoin payments strategy",
+        "url": "https://cointelegraph.com/news/bakkt-acquire-stablecoin-payments-infrastructure-provider?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7493,
+        "score": 0.8667
+      },
+      {
         "title": "A16z raise $15B! Jerome Powell vs Trump! Crypto remains flat! Special Guest: Dudas!",
         "url": "https://decrypt.co/videos/interviews/0y90noNs/a16z-raise-15b-jerome-powell-vs-trump-crypto-remains-flat-special-guest-dudas",
         "source": "Decrypt",
-        "weight": 0.6273,
-        "score": 1.0
-      },
-      {
-        "title": "NEAR rises 5.7% to $1.73 before giving back gains",
-        "url": "https://www.coindesk.com/markets/2026/01/12/near-rises-5-7-to-usd1-73-before-giving-back-gains",
-        "source": "CoinDesk",
-        "weight": 0.7823,
-        "score": 0.6667
-      },
-      {
-        "title": "Ether set for 95% copycat rally against Bitcoin if bullish reversal confirmed",
-        "url": "https://cointelegraph.com/news/ethereum-set-for-95-percent-copycat-rally-against-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4765,
+        "weight": 0.5813,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Eli Lilly Weight-Loss Pill On Track for US Approval in Second Quarter",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-12/eli-lilly-cfo-on-1-billion-ai-drug-lab-investment",
+        "title": "JPMorgan Backs Altice USA’s Refinancing of TPG, Goldman Debt",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-12/jpmorgan-backs-altice-usa-s-refinancing-of-tpg-goldman-debt",
         "source": "Bloomberg Markets",
-        "weight": 0.5574,
-        "score": -0.9667
+        "weight": 0.761,
+        "score": -1.0
       },
       {
-        "title": "Sector Update: Energy Stocks Retreat Monday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-retreat-monday-190349645.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7269,
-        "score": -0.6333
+        "title": "Pfizer Looking for 'Superior' Results on Weight-Loss Drugs, CEO Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-12/pfizer-ceo-albert-bourla",
+        "source": "Bloomberg Markets",
+        "weight": 0.7537,
+        "score": -1.0
       },
       {
-        "title": "Paramount Launches Warner Bros. Proxy Fight, Files Suit",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-12/paramount-launches-warner-bros-proxy-fight-files-suit-video",
+        "title": "Credit Risk for Big Bank Loans Still Moderate, US Regulators Say",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-12/credit-risk-for-big-bank-loans-still-moderate-us-regulators-say",
         "source": "Bloomberg Markets",
-        "weight": 0.6173,
-        "score": -0.7333
+        "weight": 0.7517,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42012544841580063,
-          "price_change_24h": 0.051
+          "volume_mcap_ratio": 0.41654736237892254,
+          "price_change_24h": 0.05244
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2026-01-12",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.414,
-      "crypto_high": 0.5688,
-      "crypto_low": 0.3541,
-      "global_avg": 0.4399,
-      "global_high": 0.5092,
-      "global_low": 0.3947,
-      "combined_avg": 0.4305,
-      "combined_high": 0.5482,
-      "combined_low": 0.385
-    },
-    "market_indicators_24h": {
-      "change24h": 0.018,
-      "vol": 0.284,
-      "fearGreed": 27,
-      "momentum": 0.307,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2026-01-12T19:53:34.386785+00:00"
   }
 }
