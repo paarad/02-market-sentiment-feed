@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-13T08:40:04.226310+00:00",
+  "updated_at": "2026-01-13T13:02:05.734870+00:00",
   "indicators": {
-    "change24h": 0.023,
-    "vol": 0.24,
+    "change24h": 0.026,
+    "vol": 0.181,
     "fearGreed": 26,
-    "momentum": 0.406,
+    "momentum": 0.449,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4738,
-    "global_sentiment": 0.4048,
-    "combined_sentiment": 0.4724,
-    "confidence": 0.7495,
+    "crypto_sentiment": 0.4193,
+    "global_sentiment": 0.5349,
+    "combined_sentiment": 0.4424,
+    "confidence": 0.7761,
     "counts": {
-      "crypto": 66,
-      "global": 35
+      "crypto": 68,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 92040,
-      "btc_change_24h": 1.57,
-      "eth_price": 3127.48,
-      "eth_change_24h": 0.41,
+      "btc_price": 91973,
+      "btc_change_24h": 1.47,
+      "eth_price": 3131.03,
+      "eth_change_24h": 0.59,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 180592584149,
+        "volume_24h": 182945158793,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.71,
+        "btc_dominance": 56.66,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-30T19:53:33.933966+00:00",
-      "crypto": 0.5326,
-      "global": 0.5413,
-      "combined": 0.5279,
-      "counts": {
-        "crypto": 67,
-        "global": 43
-      }
-    },
     {
       "ts": "2025-12-30T20:30:36.591477+00:00",
       "crypto": 0.4901,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-01-13T13:02:05.734870+00:00",
+      "crypto": 0.4193,
+      "global": 0.5349,
+      "combined": 0.4424,
+      "counts": {
+        "crypto": 68,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Europe’s Gas and Power Hedge Funds Are Set to Cash In",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-01-13/europe-s-gas-and-power-hedge-funds-set-to-cash-in-from-round-the-clock-trading",
+        "source": "Bloomberg Markets",
+        "weight": 0.7838,
+        "score": 0.6667
+      },
+      {
         "title": "XRP rises 1% as traders look for the next breakout catalyst",
         "url": "https://www.coindesk.com/markets/2026/01/13/xrp-rises-1-as-traders-look-for-the-next-breakout-catalyst",
         "source": "CoinDesk",
-        "weight": 0.9763,
+        "weight": 0.5895,
         "score": 0.8667
       },
       {
-        "title": "China’s Stock Rally Loses Momentum After Signs of Overheating",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/china-s-2026-stock-rally-builds-as-turnover-margin-loans-surge",
-        "source": "Bloomberg Markets",
-        "weight": 0.5515,
-        "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 1.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "From $100M to $250M in 3 Months: TappAlpha’s Rapid Growth Continues as It Looks to Define Growth + Income Investing",
+        "url": "https://finance.yahoo.com/news/100m-250m-3-months-tappalpha-123000055.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7521,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Japan's Nikkei 225 jumps over 3% as expectations that ruling party will opt for a snap vote rise",
-        "url": "https://www.cnbc.com/2026/01/13/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-iran-powell.html",
-        "source": "CNBC Markets",
-        "weight": 0.773,
-        "score": -1.0
+        "title": "Truebit exploit exposes smart-contract flaw behind $26M token mint",
+        "url": "https://cointelegraph.com/news/26m-truebit-hack-smart-contract-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.681,
+        "score": -0.8333
       },
       {
-        "title": "Former 'bitcoin mayor' Eric Adams faces $3 million rugpull allegation after issuing NYC Token",
-        "url": "https://www.coindesk.com/markets/2026/01/13/former-bitcoin-mayor-eric-adams-faces-usd3-million-rugpull-allegation-after-issuing-nyc-coin",
-        "source": "CoinDesk",
-        "weight": 0.6902,
-        "score": -1.0
+        "title": "BNB Chain targets ‘around one second’ finality with Fermi hard fork",
+        "url": "https://cointelegraph.com/news/bnb-chain-fermi-upgrade-faster-block-times-finality?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.884,
+        "score": -0.6333
       },
       {
-        "title": "SBI, ICICI Funds Said to Lead Bids in Oversubscribed Biocon Sale",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/sbi-icici-funds-said-to-lead-bids-in-oversubscribed-biocon-sale",
-        "source": "Bloomberg Markets",
-        "weight": 0.5925,
-        "score": -0.9333
+        "title": "Italy’s CONSOB puts ‘finfluencers’ on notice amid ESMA’s crypto risk warnings",
+        "url": "https://cointelegraph.com/news/italy-consob-esma-crypto-finfluencers-advertising-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5564,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.40871500904264413,
-          "price_change_24h": 0.0135
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.432731856987005,
+          "price_change_24h": 0.0451
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.33187869173052825,
-          "price_change_24h": -0.08952
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.4167686520962198,
+          "price_change_24h": 0.01443
         }
       ],
       "momentum_shifts": []
