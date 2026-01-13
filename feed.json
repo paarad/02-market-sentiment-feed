@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-13T02:10:13.703274+00:00",
+  "updated_at": "2026-01-13T04:46:53.016969+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.15,
+    "change24h": -0.012,
+    "vol": 0.226,
     "fearGreed": 26,
-    "momentum": -0.072,
+    "momentum": -0.213,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4737,
-    "global_sentiment": 0.3506,
-    "combined_sentiment": 0.4678,
-    "confidence": 0.7893,
+    "crypto_sentiment": 0.4666,
+    "global_sentiment": 0.4365,
+    "combined_sentiment": 0.4697,
+    "confidence": 0.7609,
     "counts": {
-      "crypto": 70,
-      "global": 36
+      "crypto": 67,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 91194,
-      "btc_change_24h": -0.21,
-      "eth_price": 3099.73,
-      "eth_change_24h": -0.82,
+      "btc_price": 91243,
+      "btc_change_24h": -0.92,
+      "eth_price": 3112.14,
+      "eth_change_24h": -1.46,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.25,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173840364747,
+        "volume_24h": 159628853840,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.64,
+        "btc_dominance": 56.61,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-30T12:58:28.156387+00:00",
-      "crypto": 0.457,
-      "global": 0.5472,
-      "combined": 0.4717,
-      "counts": {
-        "crypto": 65,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-30T16:35:50.925526+00:00",
       "crypto": 0.5543,
@@ -1008,30 +998,40 @@
         "crypto": 70,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-01-13T04:46:53.016969+00:00",
+      "crypto": 0.4666,
+      "global": 0.4365,
+      "combined": 0.4697,
+      "counts": {
+        "crypto": 67,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin stalls below $92,000 as privacy coins rally; crypto miners surge on Meta AI news",
-        "url": "https://www.coindesk.com/markets/2026/01/12/bitcoin-stalls-below-usd92-000-as-privacy-coins-rally-crypto-miners-surge-on-meta-ai-news",
-        "source": "CoinDesk",
-        "weight": 0.6377,
-        "score": 1.0
-      },
-      {
-        "title": "Asian Shares Hit Record on Valuations, Silver Dips: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-12/stock-market-today-dow-s-p-live-updates",
+        "title": "Aluminum Near Record High and Tin Extends Surge on Supply Angst",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-13/aluminum-near-record-high-and-tin-extends-surge-on-supply-angst",
         "source": "Bloomberg Markets",
-        "weight": 0.5316,
+        "weight": 0.7509,
         "score": 1.0
       },
       {
-        "title": "Bakkt stock surges 20% after move on stablecoin payments strategy",
-        "url": "https://cointelegraph.com/news/bakkt-acquire-stablecoin-payments-infrastructure-provider?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Trump wants tech firms to ‘pay their own way’ as power demand soars",
+        "url": "https://cointelegraph.com/news/trump-wants-tech-giants-pay-their-own-way-electricity-demand-soars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3916,
+        "weight": 0.6685,
         "score": 0.8667
+      },
+      {
+        "title": "Review & Preview: Earnings Excitement",
+        "url": "https://finance.yahoo.com/m/0272d28f-a18f-3887-a5bf-c36d130268e7/review-%26-preview%3A-earnings.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5119,
+        "score": 1.0
       }
     ],
     "negative": [
@@ -1039,30 +1039,30 @@
         "title": "Japan's Nikkei 225 jumps over 3% as expectations that ruling party will opt for a snap vote rise",
         "url": "https://www.cnbc.com/2026/01/13/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-iran-powell.html",
         "source": "CNBC Markets",
-        "weight": 0.7653,
+        "weight": 0.7364,
         "score": -1.0
       },
       {
-        "title": "Japan Bonds Slump as Renewed Political Risks Spook Investors",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/japan-bonds-slump-as-renewed-political-risks-spook-investors",
-        "source": "Bloomberg Markets",
-        "weight": 0.6453,
-        "score": -1.0
-      },
-      {
-        "title": "Argentina Used Multilateral Funds to Repay $2.5 Billion US Swap",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-12/argentina-used-multilateral-funds-to-repay-2-5-billion-us-swap",
-        "source": "Bloomberg Markets",
-        "weight": 0.5603,
+        "title": "US Senate Ag punts markup on crypto bill to end of month",
+        "url": "https://cointelegraph.com/news/senate-ag-punts-crypto-bill-markup-end-of-month?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6463,
         "score": -0.9667
+      },
+      {
+        "title": "Vanke Asks to Extend Bond Grace Period Again, Adds Collateral",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-13/vanke-asks-to-extend-bond-grace-period-again-adds-collateral",
+        "source": "Bloomberg Markets",
+        "weight": 0.6214,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39228157880445086,
-          "price_change_24h": 0.02219
+          "volume_mcap_ratio": 0.3643766194705322,
+          "price_change_24h": 0.01998
         }
       ],
       "momentum_shifts": []
