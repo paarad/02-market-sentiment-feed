@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-13T04:46:53.016969+00:00",
+  "updated_at": "2026-01-13T08:40:04.226310+00:00",
   "indicators": {
-    "change24h": -0.012,
-    "vol": 0.226,
+    "change24h": 0.023,
+    "vol": 0.24,
     "fearGreed": 26,
-    "momentum": -0.213,
-    "regime": "bear",
+    "momentum": 0.406,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4666,
-    "global_sentiment": 0.4365,
-    "combined_sentiment": 0.4697,
-    "confidence": 0.7609,
+    "crypto_sentiment": 0.4738,
+    "global_sentiment": 0.4048,
+    "combined_sentiment": 0.4724,
+    "confidence": 0.7495,
     "counts": {
-      "crypto": 67,
-      "global": 43
+      "crypto": 66,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 91243,
-      "btc_change_24h": -0.92,
-      "eth_price": 3112.14,
-      "eth_change_24h": -1.46,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 92040,
+      "btc_change_24h": 1.57,
+      "eth_price": 3127.48,
+      "eth_change_24h": 0.41,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 159628853840,
-        "high_activity_coins": 1
+        "volume_24h": 180592584149,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.61,
+        "btc_dominance": 56.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-30T16:35:50.925526+00:00",
-      "crypto": 0.5543,
-      "global": 0.4892,
-      "combined": 0.5399,
-      "counts": {
-        "crypto": 66,
-        "global": 42
-      }
-    },
     {
       "ts": "2025-12-30T19:53:33.933966+00:00",
       "crypto": 0.5326,
@@ -1008,30 +998,40 @@
         "crypto": 67,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-01-13T08:40:04.226310+00:00",
+      "crypto": 0.4738,
+      "global": 0.4048,
+      "combined": 0.4724,
+      "counts": {
+        "crypto": 66,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Aluminum Near Record High and Tin Extends Surge on Supply Angst",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/aluminum-near-record-high-and-tin-extends-surge-on-supply-angst",
-        "source": "Bloomberg Markets",
-        "weight": 0.7509,
-        "score": 1.0
-      },
-      {
-        "title": "Trump wants tech firms to ‘pay their own way’ as power demand soars",
-        "url": "https://cointelegraph.com/news/trump-wants-tech-giants-pay-their-own-way-electricity-demand-soars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6685,
+        "title": "XRP rises 1% as traders look for the next breakout catalyst",
+        "url": "https://www.coindesk.com/markets/2026/01/13/xrp-rises-1-as-traders-look-for-the-next-breakout-catalyst",
+        "source": "CoinDesk",
+        "weight": 0.9763,
         "score": 0.8667
       },
       {
-        "title": "Review & Preview: Earnings Excitement",
-        "url": "https://finance.yahoo.com/m/0272d28f-a18f-3887-a5bf-c36d130268e7/review-%26-preview%3A-earnings.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5119,
-        "score": 1.0
+        "title": "China’s Stock Rally Loses Momentum After Signs of Overheating",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-13/china-s-2026-stock-rally-builds-as-turnover-margin-loans-surge",
+        "source": "Bloomberg Markets",
+        "weight": 0.5515,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Japan's Nikkei 225 jumps over 3% as expectations that ruling party will opt for a snap vote rise",
         "url": "https://www.cnbc.com/2026/01/13/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-iran-powell.html",
         "source": "CNBC Markets",
-        "weight": 0.7364,
+        "weight": 0.773,
         "score": -1.0
       },
       {
-        "title": "US Senate Ag punts markup on crypto bill to end of month",
-        "url": "https://cointelegraph.com/news/senate-ag-punts-crypto-bill-markup-end-of-month?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6463,
-        "score": -0.9667
+        "title": "Former 'bitcoin mayor' Eric Adams faces $3 million rugpull allegation after issuing NYC Token",
+        "url": "https://www.coindesk.com/markets/2026/01/13/former-bitcoin-mayor-eric-adams-faces-usd3-million-rugpull-allegation-after-issuing-nyc-coin",
+        "source": "CoinDesk",
+        "weight": 0.6902,
+        "score": -1.0
       },
       {
-        "title": "Vanke Asks to Extend Bond Grace Period Again, Adds Collateral",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/vanke-asks-to-extend-bond-grace-period-again-adds-collateral",
+        "title": "SBI, ICICI Funds Said to Lead Bids in Oversubscribed Biocon Sale",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-13/sbi-icici-funds-said-to-lead-bids-in-oversubscribed-biocon-sale",
         "source": "Bloomberg Markets",
-        "weight": 0.6214,
+        "weight": 0.5925,
         "score": -0.9333
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3643766194705322,
-          "price_change_24h": 0.01998
+          "volume_mcap_ratio": 0.40871500904264413,
+          "price_change_24h": 0.0135
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.33187869173052825,
+          "price_change_24h": -0.08952
         }
       ],
       "momentum_shifts": []
