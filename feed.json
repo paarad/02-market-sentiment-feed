@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-14T04:50:51.438669+00:00",
+  "updated_at": "2026-01-14T08:39:41.625398+00:00",
   "indicators": {
-    "change24h": 0.098,
-    "vol": 0.198,
+    "change24h": 0.083,
+    "vol": 0.184,
     "fearGreed": 48,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5637,
-    "global_sentiment": 0.4859,
-    "combined_sentiment": 0.5466,
-    "confidence": 0.7823,
+    "crypto_sentiment": 0.5729,
+    "global_sentiment": 0.5118,
+    "combined_sentiment": 0.5556,
+    "confidence": 0.7885,
     "counts": {
-      "crypto": 73,
-      "global": 38
+      "crypto": 74,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 95259,
-      "btc_change_24h": 4.32,
-      "eth_price": 3337.17,
-      "eth_change_24h": 7.21,
+      "btc_price": 95006,
+      "btc_change_24h": 3.23,
+      "eth_price": 3329.25,
+      "eth_change_24h": 6.54,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 271005187744,
+        "volume_24h": 276126353623,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.55,
+        "btc_dominance": 56.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-31T16:34:09.371123+00:00",
-      "crypto": 0.4494,
-      "global": 0.4372,
-      "combined": 0.4569,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2025-12-31T19:53:43.500177+00:00",
       "crypto": 0.4331,
@@ -1008,71 +998,81 @@
         "crypto": 73,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-14T08:39:41.625398+00:00",
+      "crypto": 0.5729,
+      "global": 0.5118,
+      "combined": 0.5556,
+      "counts": {
+        "crypto": 74,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China’s Steel Exports Surge to Record Despite Global Pushback",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-s-steel-exports-surge-to-record-despite-global-pushback",
-        "source": "Bloomberg Markets",
-        "weight": 0.7633,
-        "score": 0.8667
-      },
-      {
-        "title": "Perfect storm of activity sees record surge in new Ethereum wallets",
-        "url": "https://cointelegraph.com/news/ethereum-new-wallet-growth-hits-new-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5432,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin climbs to two-month high of $96,240 as altcoins surge and shorts get squeezed",
-        "url": "https://www.coindesk.com/markets/2026/01/13/bitcoin-climbs-to-two-month-high-of-usd96-240-as-altcoins-surge-and-shorts-get-squeezed",
+        "title": "Bitcoin surges above $95,000 as ether, solana, cardano jump 8% on investor optimism",
+        "url": "https://www.coindesk.com/markets/2026/01/14/bitcoin-surges-above-usd95-000-eth-sol-ada-up-8-as-risk-appetite-snaps-back",
         "source": "CoinDesk",
-        "weight": 0.5932,
+        "weight": 0.6559,
         "score": 0.8667
+      },
+      {
+        "title": "China's annual trade surplus hits a record $1.2 trillion, even as exports to U.S. decline by 20%",
+        "url": "https://www.cnbc.com/2026/01/14/china-trade-data-surplus-exports-imports-december-tariffs-tensions.html",
+        "source": "CNBC Markets",
+        "weight": 0.7282,
+        "score": 0.6667
+      },
+      {
+        "title": "XRP zooms 6% higher on surge in trading activity",
+        "url": "https://www.coindesk.com/markets/2026/01/14/xrp-zooms-6-higher-on-surge-in-trading-activity",
+        "source": "CoinDesk",
+        "weight": 0.8799,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Senators pitch more than 75 amendments for crypto bill, including on yield, DeFi sections",
-        "url": "https://www.coindesk.com/policy/2026/01/13/senators-pitch-more-than-130-amendments-for-crypto-bill-including-on-yield-defi-sections",
-        "source": "CoinDesk",
-        "weight": 0.7325,
-        "score": -0.6333
-      },
-      {
-        "title": "Stocks Slide on CPI, Traders Boost June Fed Rate-Cut Odds | The Close 1/13/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-close-1-13-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4414,
+        "title": "‘Concerning trend’: Impersonation scams swell 1,400% in 2025",
+        "url": "https://cointelegraph.com/news/crypto-scams-2025-ai-impersonation-fraud-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5591,
         "score": -0.9667
       },
       {
-        "title": "Wall Street falls with financials hit amid credit card rate plan",
-        "url": "https://finance.yahoo.com/video/wall-street-falls-financials-hit-232301310.html?.tsrc=rss",
+        "title": "Stock Market Investors Just Got Alarming News on President Trump's Fight With Fed Chair Jerome Powell",
+        "url": "https://www.fool.com/investing/2026/01/14/stock-market-investors-news-president-trump-powell/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4256,
-        "score": -1.0
+        "weight": 0.7882,
+        "score": -0.6667
+      },
+      {
+        "title": "France’s Bond Sale to Test Demand as Budget Risks ‘Danger Zone’",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-14/france-s-bond-sale-to-test-demand-as-budget-risks-danger-zone",
+        "source": "Bloomberg Markets",
+        "weight": 0.7486,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6183819495909939,
-          "price_change_24h": 0.05492
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.4687264014518575,
-          "price_change_24h": 0.03008
+          "volume_mcap_ratio": 0.624950722849349,
+          "price_change_24h": 0.05858
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.3912217671797785,
-          "price_change_24h": 18.33131
+          "volume_mcap_ratio": 0.4275430224292695,
+          "price_change_24h": 12.96822
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.41833022655911484,
+          "price_change_24h": 0.01565
         }
       ],
       "momentum_shifts": []
