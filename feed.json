@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-14T16:39:54.367391+00:00",
+  "updated_at": "2026-01-14T19:53:33.676262+00:00",
   "indicators": {
-    "change24h": 0.072,
-    "vol": 0.183,
+    "change24h": 0.065,
+    "vol": 0.283,
     "fearGreed": 48,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5049,
-    "global_sentiment": 0.4188,
-    "combined_sentiment": 0.4969,
-    "confidence": 0.8258,
+    "crypto_sentiment": 0.4533,
+    "global_sentiment": 0.365,
+    "combined_sentiment": 0.4537,
+    "confidence": 0.8162,
     "counts": {
-      "crypto": 70,
-      "global": 47
+      "crypto": 69,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 97324,
-      "btc_change_24h": 4.14,
-      "eth_price": 3384.56,
-      "eth_change_24h": 6.26,
+      "btc_price": 97418,
+      "btc_change_24h": 3.49,
+      "eth_price": 3374.56,
+      "eth_change_24h": 5.11,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 293286621934,
+        "volume_24h": 311989209693,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.9,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-01T02:28:22.424378+00:00",
-      "crypto": 0.4153,
-      "global": 0.5354,
-      "combined": 0.4394,
-      "counts": {
-        "crypto": 70,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-01-01T04:52:19.524563+00:00",
       "crypto": 0.4084,
@@ -1008,71 +998,81 @@
         "crypto": 70,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-01-14T19:53:33.676262+00:00",
+      "crypto": 0.4533,
+      "global": 0.365,
+      "combined": 0.4537,
+      "counts": {
+        "crypto": 69,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AppLovin Stock Just Got a New Buy Rating. Its Shares Are Tanking.",
-        "url": "https://finance.yahoo.com/m/36f6b53d-bc44-3f11-9948-b7448d955ec0/applovin-stock-just-got-a-new.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7759,
-        "score": 1.0
-      },
-      {
         "title": "Dash price soars 125% amid privacy coin boom: Is the rally overheating?",
         "url": "https://cointelegraph.com/news/dash-price-soars-privacy-coin-boom-is-rally-overheating?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7735,
+        "weight": 0.5328,
         "score": 1.0
+      },
+      {
+        "title": "'Extremely Solid' Gains for US Economy: Swonk",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-14/-extremely-solid-gains-for-us-economy-swonk-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7839,
+        "score": 0.6667
       },
       {
         "title": "CoinDesk 20 Performance Update: Internet Computer (ICP) Surges 13% as Index Rises",
         "url": "https://www.coindesk.com/coindesk-indices/2026/01/14/coindesk-20-performance-update-internet-computer-icp-surges-13-as-index-rises",
         "source": "CoinDesk",
-        "weight": 0.7988,
+        "weight": 0.5502,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Why US community banks say the GENIUS Act has a stablecoin loophole",
-        "url": "https://cointelegraph.com/news/why-us-community-banks-say-the-genius-act-has-a-stablecoin-loophole?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7532,
-        "score": -1.0
-      },
-      {
-        "title": "A Look at February’s Businessweek Issue",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-14/a-look-at-february-s-businessweek-issue",
-        "source": "Bloomberg Markets",
-        "weight": 0.7451,
+        "title": "Equity Markets Fall Intraday as Big Tech, Major Banks Slide",
+        "url": "https://finance.yahoo.com/news/equity-markets-fall-intraday-big-185950985.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7214,
         "score": -0.9667
       },
       {
-        "title": "Congressional stock trading ban bill to get its first vote Wednesday",
-        "url": "https://www.cnbc.com/2026/01/14/congressional-stock-trading-ban-bill-to-get-its-first-vote-wednesday.html",
-        "source": "CNBC Markets",
-        "weight": 0.756,
-        "score": -0.9333
+        "title": "Nvidia & Broadcom stocks dragged by China's tech bans: Reports",
+        "url": "https://finance.yahoo.com/video/nvidia-broadcom-stocks-dragged-chinas-181524268.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6622,
+        "score": -0.9667
+      },
+      {
+        "title": "Crypto yields expose the exact amount banks are underpaying you, and why they want Congress to ban it",
+        "url": "https://cryptoslate.com/stablecoin-yields-expose-the-exact-amount-banks-are-underpaying-you-and-why-they-want-congress-to-ban-it/",
+        "source": "CryptoSlate",
+        "weight": 0.5747,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.660246789268717,
-          "price_change_24h": 0.04633
+          "volume_mcap_ratio": 0.7044228089463581,
+          "price_change_24h": 0.04045
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.324180973300851,
-          "price_change_24h": -0.0046
+          "volume_mcap_ratio": 0.38448087004647025,
+          "price_change_24h": 0.01345
         },
         {
           "symbol": "USDC",
-          "volume_mcap_ratio": 0.3126184488572878,
-          "price_change_24h": 0.01078
+          "volume_mcap_ratio": 0.32729904112671304,
+          "price_change_24h": 0.01152
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-14",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.5274,
+      "crypto_high": 0.5729,
+      "crypto_low": 0.4533,
+      "global_avg": 0.4395,
+      "global_high": 0.5118,
+      "global_low": 0.365,
+      "combined_avg": 0.5155,
+      "combined_high": 0.5556,
+      "combined_low": 0.4537
+    },
+    "market_indicators_24h": {
+      "change24h": 0.065,
+      "vol": 0.283,
+      "fearGreed": 48,
+      "momentum": 1.0,
+      "regime": "sideways",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-14T19:53:33.676262+00:00"
   }
 }
