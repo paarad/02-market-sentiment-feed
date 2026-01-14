@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-13T20:33:23.066463+00:00",
+  "updated_at": "2026-01-14T02:23:44.463209+00:00",
   "indicators": {
-    "change24h": 0.06,
-    "vol": 0.16,
-    "fearGreed": 26,
+    "change24h": 0.101,
+    "vol": 0.213,
+    "fearGreed": 48,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5367,
-    "global_sentiment": 0.4395,
-    "combined_sentiment": 0.5225,
-    "confidence": 0.798,
+    "crypto_sentiment": 0.5534,
+    "global_sentiment": 0.4001,
+    "combined_sentiment": 0.5318,
+    "confidence": 0.8007,
     "counts": {
-      "crypto": 67,
-      "global": 39
+      "crypto": 72,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 94261,
-      "btc_change_24h": 2.9,
-      "eth_price": 3203.96,
-      "eth_change_24h": 3.16,
+      "btc_price": 95380,
+      "btc_change_24h": 4.61,
+      "eth_price": 3337.21,
+      "eth_change_24h": 7.67,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 26,
-        "classification": "Fear",
-        "trend": "stable"
+        "value": 48,
+        "classification": "Neutral",
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 214585089020,
-        "high_activity_coins": 2
+        "volume_24h": 279903766118,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.78,
+        "btc_dominance": 56.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-31T08:38:04.872822+00:00",
-      "crypto": 0.5404,
-      "global": 0.6055,
-      "combined": 0.5391,
-      "counts": {
-        "crypto": 64,
-        "global": 41
-      }
-    },
     {
       "ts": "2025-12-31T12:56:32.144242+00:00",
       "crypto": 0.4275,
@@ -1008,66 +998,81 @@
         "crypto": 67,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-01-14T02:23:44.463209+00:00",
+      "crypto": 0.5534,
+      "global": 0.4001,
+      "combined": 0.5318,
+      "counts": {
+        "crypto": 72,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Delta Seals Boeing Order as Earnings Support Travel Boom",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-13/delta-seals-boeing-order-as-earnings-support-travel-boom-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5772,
+        "title": "Perfect storm of activity sees record surge in new Ethereum wallets",
+        "url": "https://cointelegraph.com/news/ethereum-new-wallet-growth-hits-new-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7211,
         "score": 1.0
       },
       {
-        "title": "Robot Traders Hike Bullish Oil Bets as Trump’s Iran Comments Jolt Prices",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/robot-traders-hike-bullish-oil-bets-as-trump-s-iran-rhetoric-intensifies",
-        "source": "Bloomberg Markets",
-        "weight": 0.6353,
+        "title": "Bitcoin climbs to two-month high of $96,240 as altcoins surge and shorts get squeezed",
+        "url": "https://www.coindesk.com/markets/2026/01/13/bitcoin-climbs-to-two-month-high-of-usd96-240-as-altcoins-surge-and-shorts-get-squeezed",
+        "source": "CoinDesk",
+        "weight": 0.7875,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin-gold correlation signals at least 50% BTC price gains by March",
-        "url": "https://cointelegraph.com/news/bitcoin-gold-correlation-signals-at-least-50-btc-price-gains-by-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5837,
+        "title": "Asian Shares Post Mild Gains, Yen Weakens Past 159: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-13/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets",
+        "weight": 0.519,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Regeneron's Yancopoulos on Hearing Loss Gene Therapy, Weight Loss Drugs",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-13/regeneron-s-yancopoulos-on-hearing-loss-gene-therapy-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7779,
-        "score": -1.0
+        "title": "Senators pitch more than 130 amendments for crypto bill, including on yield, DeFi sections",
+        "url": "https://www.coindesk.com/policy/2026/01/13/senators-pitch-more-than-130-amendments-for-crypto-bill-including-on-yield-defi-sections",
+        "source": "CoinDesk",
+        "weight": 0.9724,
+        "score": -0.6333
       },
       {
-        "title": "Ariel’s Rogers Sees 2026 Recession, Dow Falling as Much as 20%",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/ariel-s-rogers-sees-2026-recession-dow-falling-as-much-as-20",
+        "title": "Stocks Slide on CPI, Traders Boost June Fed Rate-Cut Odds | The Close 1/13/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-close-1-13-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7626,
-        "score": -1.0
-      },
-      {
-        "title": "Vanguard vs. SPDR: Which Mega-Cap ETF Is a Better Buy, MGK or DIA?",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/13/vanguard-vs-spdr-which-mega-cap-etf-is-a-better-buy-mgk-or-dia/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6198,
+        "weight": 0.5859,
         "score": -0.9667
+      },
+      {
+        "title": "Wall Street falls with financials hit amid credit card rate plan",
+        "url": "https://finance.yahoo.com/video/wall-street-falls-financials-hit-232301310.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5649,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.48673980841798753,
-          "price_change_24h": 0.05306
+          "volume_mcap_ratio": 0.6369520034943397,
+          "price_change_24h": 0.04527
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.46638351586297805,
-          "price_change_24h": 0.02758
+          "volume_mcap_ratio": 0.5160914296705106,
+          "price_change_24h": 0.0048
+        },
+        {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.40359991853643606,
+          "price_change_24h": 16.48509
         }
       ],
       "momentum_shifts": []
