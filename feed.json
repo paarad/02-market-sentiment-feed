@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-14T02:23:44.463209+00:00",
+  "updated_at": "2026-01-14T04:50:51.438669+00:00",
   "indicators": {
-    "change24h": 0.101,
-    "vol": 0.213,
+    "change24h": 0.098,
+    "vol": 0.198,
     "fearGreed": 48,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5534,
-    "global_sentiment": 0.4001,
-    "combined_sentiment": 0.5318,
-    "confidence": 0.8007,
+    "crypto_sentiment": 0.5637,
+    "global_sentiment": 0.4859,
+    "combined_sentiment": 0.5466,
+    "confidence": 0.7823,
     "counts": {
-      "crypto": 72,
-      "global": 34
+      "crypto": 73,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 95380,
-      "btc_change_24h": 4.61,
-      "eth_price": 3337.21,
-      "eth_change_24h": 7.67,
+      "btc_price": 95259,
+      "btc_change_24h": 4.32,
+      "eth_price": 3337.17,
+      "eth_change_24h": 7.21,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 279903766118,
+        "volume_24h": 271005187744,
         "high_activity_coins": 3
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2025-12-31T12:56:32.144242+00:00",
-      "crypto": 0.4275,
-      "global": 0.5771,
-      "combined": 0.4521,
-      "counts": {
-        "crypto": 64,
-        "global": 44
-      }
-    },
     {
       "ts": "2025-12-31T16:34:09.371123+00:00",
       "crypto": 0.4494,
@@ -1008,52 +998,62 @@
         "crypto": 72,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-01-14T04:50:51.438669+00:00",
+      "crypto": 0.5637,
+      "global": 0.4859,
+      "combined": 0.5466,
+      "counts": {
+        "crypto": 73,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "China’s Steel Exports Surge to Record Despite Global Pushback",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-14/china-s-steel-exports-surge-to-record-despite-global-pushback",
+        "source": "Bloomberg Markets",
+        "weight": 0.7633,
+        "score": 0.8667
+      },
+      {
         "title": "Perfect storm of activity sees record surge in new Ethereum wallets",
         "url": "https://cointelegraph.com/news/ethereum-new-wallet-growth-hits-new-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7211,
+        "weight": 0.5432,
         "score": 1.0
       },
       {
         "title": "Bitcoin climbs to two-month high of $96,240 as altcoins surge and shorts get squeezed",
         "url": "https://www.coindesk.com/markets/2026/01/13/bitcoin-climbs-to-two-month-high-of-usd96-240-as-altcoins-surge-and-shorts-get-squeezed",
         "source": "CoinDesk",
-        "weight": 0.7875,
-        "score": 0.8667
-      },
-      {
-        "title": "Asian Shares Post Mild Gains, Yen Weakens Past 159: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-13/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets",
-        "weight": 0.519,
+        "weight": 0.5932,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Senators pitch more than 130 amendments for crypto bill, including on yield, DeFi sections",
+        "title": "Senators pitch more than 75 amendments for crypto bill, including on yield, DeFi sections",
         "url": "https://www.coindesk.com/policy/2026/01/13/senators-pitch-more-than-130-amendments-for-crypto-bill-including-on-yield-defi-sections",
         "source": "CoinDesk",
-        "weight": 0.9724,
+        "weight": 0.7325,
         "score": -0.6333
       },
       {
         "title": "Stocks Slide on CPI, Traders Boost June Fed Rate-Cut Odds | The Close 1/13/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-01-13/the-close-1-13-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5859,
+        "weight": 0.4414,
         "score": -0.9667
       },
       {
         "title": "Wall Street falls with financials hit amid credit card rate plan",
         "url": "https://finance.yahoo.com/video/wall-street-falls-financials-hit-232301310.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5649,
+        "weight": 0.4256,
         "score": -1.0
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6369520034943397,
-          "price_change_24h": 0.04527
+          "volume_mcap_ratio": 0.6183819495909939,
+          "price_change_24h": 0.05492
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5160914296705106,
-          "price_change_24h": 0.0048
+          "volume_mcap_ratio": 0.4687264014518575,
+          "price_change_24h": 0.03008
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.40359991853643606,
-          "price_change_24h": 16.48509
+          "volume_mcap_ratio": 0.3912217671797785,
+          "price_change_24h": 18.33131
         }
       ],
       "momentum_shifts": []
