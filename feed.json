@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-15T08:39:50.080957+00:00",
+  "updated_at": "2026-01-15T13:00:38.503218+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.098,
+    "change24h": 0.022,
+    "vol": 0.088,
     "fearGreed": 61,
-    "momentum": -0.151,
+    "momentum": 0.382,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4994,
-    "global_sentiment": 0.3952,
-    "combined_sentiment": 0.4908,
-    "confidence": 0.7714,
+    "crypto_sentiment": 0.5491,
+    "global_sentiment": 0.4,
+    "combined_sentiment": 0.5285,
+    "confidence": 0.8022,
     "counts": {
-      "crypto": 71,
-      "global": 39
+      "crypto": 74,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 96340,
-      "btc_change_24h": 1.45,
-      "eth_price": 3323.67,
-      "eth_change_24h": -0.2,
+      "btc_price": 96947,
+      "btc_change_24h": 2.02,
+      "eth_price": 3368.57,
+      "eth_change_24h": 2.27,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 61,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 257728598536,
+        "volume_24h": 260561057035,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.03,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-01T19:53:38.673536+00:00",
-      "crypto": 0.3053,
-      "global": 0.5185,
-      "combined": 0.3555,
-      "counts": {
-        "crypto": 74,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-01-01T20:31:13.487508+00:00",
       "crypto": 0.3386,
@@ -1008,23 +998,26 @@
         "crypto": 71,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-01-15T13:00:38.503218+00:00",
+      "crypto": 0.5491,
+      "global": 0.4,
+      "combined": 0.5285,
+      "counts": {
+        "crypto": 74,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ASML Soars Beyond $500 Billion Value After TSMC’s Upbeat Outlook",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/asml-soars-beyond-500-billion-value-after-tsmc-s-upbeat-outlook",
-        "source": "Bloomberg Markets",
-        "weight": 0.7739,
-        "score": 0.6667
-      },
-      {
-        "title": "XRP slips 3% despite Ripple license approvals as bitcoin weighs on market",
-        "url": "https://www.coindesk.com/markets/2026/01/15/xrp-slips-3-despite-ripple-license-approvals-as-bitcoin-weighs-on-market",
-        "source": "CoinDesk",
-        "weight": 0.8419,
-        "score": 0.5833
+        "title": "Analysis-US stocks leadership showing signs of broadening beyond tech",
+        "url": "https://finance.yahoo.com/news/analysis-us-stocks-leadership-showing-110157361.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6366,
+        "score": 0.7
       },
       {
         "title": "Fear & Greed 61 (Greed) — bullish",
@@ -1032,42 +1025,49 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Taylor Wimpey Sees ‘Muted’ Demand For UK Home Selling Season",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/taylor-wimpey-sees-muted-demand-for-uk-home-selling-season",
+        "title": "Mastercard, Visa, Revolut Lose UK Suit Over Cross-Border Fees",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/mastercard-visa-revolut-lose-uk-suit-over-cross-border-fees",
         "source": "Bloomberg Markets",
-        "weight": 0.7299,
+        "weight": 0.7732,
+        "score": -1.0
+      },
+      {
+        "title": "Demand for Mortgages Fell Ahead of Reeves’ Budget, Survey Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/demand-for-mortgages-fell-ahead-of-reeves-budget-survey-shows",
+        "source": "Bloomberg Markets",
+        "weight": 0.6754,
+        "score": -1.0
+      },
+      {
+        "title": "Britain Shows Europe How to Keep Offshore Wind Alive",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/britain-shows-europe-how-to-keep-offshore-wind-alive",
+        "source": "Bloomberg Markets",
+        "weight": 0.72,
         "score": -0.9333
-      },
-      {
-        "title": "UK’s South East Water Faces New Investigation Over Outages",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-s-south-east-water-faces-new-investigation-over-outages",
-        "source": "Bloomberg Markets",
-        "weight": 0.7783,
-        "score": -0.6667
-      },
-      {
-        "title": "Bitcoin at risk of dropping under $96,000 as U.S.-Iran rhetoric pressures risk assets",
-        "url": "https://www.coindesk.com/markets/2026/01/15/bitcoin-at-risk-of-dropping-under-usd96-000-as-u-s-iran-rhetoric-pressures-risk-assets",
-        "source": "CoinDesk",
-        "weight": 0.6653,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5888310370738336,
-          "price_change_24h": 0.02334
+          "volume_mcap_ratio": 0.5941895065060996,
+          "price_change_24h": 0.01072
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.36350353882972036,
-          "price_change_24h": 0.05165
+          "volume_mcap_ratio": 0.35998022389233447,
+          "price_change_24h": -0.02168
         }
       ],
       "momentum_shifts": []
