@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-15T04:48:33.855224+00:00",
+  "updated_at": "2026-01-15T08:39:50.080957+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.106,
+    "change24h": -0.009,
+    "vol": 0.098,
     "fearGreed": 61,
-    "momentum": -0.269,
+    "momentum": -0.151,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5241,
-    "global_sentiment": 0.2636,
-    "combined_sentiment": 0.4984,
-    "confidence": 0.7767,
+    "crypto_sentiment": 0.4994,
+    "global_sentiment": 0.3952,
+    "combined_sentiment": 0.4908,
+    "confidence": 0.7714,
     "counts": {
-      "crypto": 70,
-      "global": 35
+      "crypto": 71,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 96177,
-      "btc_change_24h": 0.99,
-      "eth_price": 3303.16,
-      "eth_change_24h": -0.99,
+      "btc_price": 96340,
+      "btc_change_24h": 1.45,
+      "eth_price": 3323.67,
+      "eth_change_24h": -0.2,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 61,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 265724150746,
+        "volume_24h": 257728598536,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.08,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-01T16:35:24.887143+00:00",
-      "crypto": 0.3562,
-      "global": 0.5034,
-      "combined": 0.3924,
-      "counts": {
-        "crypto": 72,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-01T19:53:38.673536+00:00",
       "crypto": 0.3053,
@@ -1008,66 +998,76 @@
         "crypto": 70,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-01-15T08:39:50.080957+00:00",
+      "crypto": 0.4994,
+      "global": 0.3952,
+      "combined": 0.4908,
+      "counts": {
+        "crypto": 71,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
+      {
+        "title": "ASML Soars Beyond $500 Billion Value After TSMC’s Upbeat Outlook",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/asml-soars-beyond-500-billion-value-after-tsmc-s-upbeat-outlook",
+        "source": "Bloomberg Markets",
+        "weight": 0.7739,
+        "score": 0.6667
+      },
+      {
+        "title": "XRP slips 3% despite Ripple license approvals as bitcoin weighs on market",
+        "url": "https://www.coindesk.com/markets/2026/01/15/xrp-slips-3-despite-ripple-license-approvals-as-bitcoin-weighs-on-market",
+        "source": "CoinDesk",
+        "weight": 0.8419,
+        "score": 0.5833
+      },
       {
         "title": "Fear & Greed 61 (Greed) — bullish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Goldman's Kwon: Bullish on Korea Fundamentals",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-15/goldman-s-kwon-bullish-on-korea-fundamentals-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6926,
-        "score": 0.5333
-      },
-      {
-        "title": "XRP tops $2 as TradFi piles in: Do charts predict new highs in 2026?",
-        "url": "https://cointelegraph.com/news/xrp-tops-dollar2-as-tradfi-piles-in-do-charts-predict-new-highs-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3571,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Korean Won Traders Test Authorities’ Resolve After Bessent Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/korean-won-traders-test-authorities-resolve-after-bessent-rally",
+        "title": "Taylor Wimpey Sees ‘Muted’ Demand For UK Home Selling Season",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/taylor-wimpey-sees-muted-demand-for-uk-home-selling-season",
         "source": "Bloomberg Markets",
-        "weight": 0.7096,
-        "score": -0.9667
-      },
-      {
-        "title": "Treasury Wine Drops Most in a Month on New Risk to US Business",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/treasury-wine-drops-most-in-a-month-on-new-risk-to-us-business",
-        "source": "Bloomberg Markets",
-        "weight": 0.6482,
+        "weight": 0.7299,
         "score": -0.9333
       },
       {
-        "title": "An Ozempic Price War Is Coming",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-15/an-ozempic-price-war-is-coming-video",
+        "title": "UK’s South East Water Faces New Investigation Over Outages",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/uk-s-south-east-water-faces-new-investigation-over-outages",
         "source": "Bloomberg Markets",
-        "weight": 0.5832,
-        "score": -1.0
+        "weight": 0.7783,
+        "score": -0.6667
+      },
+      {
+        "title": "Bitcoin at risk of dropping under $96,000 as U.S.-Iran rhetoric pressures risk assets",
+        "url": "https://www.coindesk.com/markets/2026/01/15/bitcoin-at-risk-of-dropping-under-usd96-000-as-u-s-iran-rhetoric-pressures-risk-assets",
+        "source": "CoinDesk",
+        "weight": 0.6653,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.60423477569189,
-          "price_change_24h": 0.03153
+          "volume_mcap_ratio": 0.5888310370738336,
+          "price_change_24h": 0.02334
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3571327695049686,
-          "price_change_24h": 0.01616
+          "volume_mcap_ratio": 0.36350353882972036,
+          "price_change_24h": 0.05165
         }
       ],
       "momentum_shifts": []
