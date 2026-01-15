@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-15T13:00:38.503218+00:00",
+  "updated_at": "2026-01-15T16:43:29.168159+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.088,
+    "change24h": -0.038,
+    "vol": 0.135,
     "fearGreed": 61,
-    "momentum": 0.382,
-    "regime": "sideways",
+    "momentum": -0.667,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5491,
-    "global_sentiment": 0.4,
-    "combined_sentiment": 0.5285,
-    "confidence": 0.8022,
+    "crypto_sentiment": 0.5187,
+    "global_sentiment": 0.4848,
+    "combined_sentiment": 0.5127,
+    "confidence": 0.8217,
     "counts": {
-      "crypto": 74,
-      "global": 34
+      "crypto": 70,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 96947,
-      "btc_change_24h": 2.02,
-      "eth_price": 3368.57,
-      "eth_change_24h": 2.27,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "btc_price": 96684,
+      "btc_change_24h": -0.83,
+      "eth_price": 3324.9,
+      "eth_change_24h": -1.74,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 61,
         "classification": "Greed",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 260561057035,
+        "volume_24h": 246524322417,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.03,
+        "btc_dominance": 57.2,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-01T20:31:13.487508+00:00",
-      "crypto": 0.3386,
-      "global": 0.5715,
-      "combined": 0.3849,
-      "counts": {
-        "crypto": 73,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-01-02T02:13:27.058369+00:00",
       "crypto": 0.2848,
@@ -1008,66 +998,76 @@
         "crypto": 74,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-01-15T16:43:29.168159+00:00",
+      "crypto": 0.5187,
+      "global": 0.4848,
+      "combined": 0.5127,
+      "counts": {
+        "crypto": 70,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Analysis-US stocks leadership showing signs of broadening beyond tech",
-        "url": "https://finance.yahoo.com/news/analysis-us-stocks-leadership-showing-110157361.html?.tsrc=rss",
+        "title": "These three XRP charts hint at a price rally toward $2.80",
+        "url": "https://cointelegraph.com/news/these-three-xrp-charts-hint-at-a-price-rally-toward-2-80?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8096,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today: Nasdaq 100, Small Caps Lead Morning Gains; Laser Firm Coherent Clears Base (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/b032770a-3d86-3f00-b0ac-a7fc37966331/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6366,
-        "score": 0.7
+        "weight": 0.7708,
+        "score": 0.8667
       },
       {
-        "title": "Fear & Greed 61 (Greed) — bullish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Reasons to Add Fresenius Medical Stock to Your Portfolio Now",
+        "url": "https://finance.yahoo.com/news/reasons-add-fresenius-medical-stock-143600034.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6259,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Mastercard, Visa, Revolut Lose UK Suit Over Cross-Border Fees",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/mastercard-visa-revolut-lose-uk-suit-over-cross-border-fees",
+        "title": "Paramount Loses Bid to Get Warner Bros. Suit on Fast Track",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/paramount-loses-bid-to-get-warner-bros-suit-put-on-fast-track",
         "source": "Bloomberg Markets",
-        "weight": 0.7732,
+        "weight": 0.6571,
         "score": -1.0
       },
       {
-        "title": "Demand for Mortgages Fell Ahead of Reeves’ Budget, Survey Shows",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-15/demand-for-mortgages-fell-ahead-of-reeves-budget-survey-shows",
-        "source": "Bloomberg Markets",
-        "weight": 0.6754,
-        "score": -1.0
+        "title": "Stock Market News for Jan 15, 2026",
+        "url": "https://finance.yahoo.com/news/stock-market-news-jan-15-143400544.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6235,
+        "score": -0.9667
       },
       {
-        "title": "Britain Shows Europe How to Keep Offshore Wind Alive",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-01-15/britain-shows-europe-how-to-keep-offshore-wind-alive",
-        "source": "Bloomberg Markets",
-        "weight": 0.72,
-        "score": -0.9333
+        "title": "Michael Saylor's Strategy still has major upside despite 2025 plunge, says TD Cowen",
+        "url": "https://www.coindesk.com/markets/2026/01/15/td-cowen-cuts-its-price-target-for-strategy-to-usd440-as-bitcoin-yield-outlook-slips",
+        "source": "CoinDesk",
+        "weight": 0.8426,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5941895065060996,
-          "price_change_24h": 0.01072
+          "volume_mcap_ratio": 0.5585237304351645,
+          "price_change_24h": -0.03064
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.35998022389233447,
-          "price_change_24h": -0.02168
+          "volume_mcap_ratio": 0.3660544366087487,
+          "price_change_24h": -0.03877
         }
       ],
       "momentum_shifts": []
