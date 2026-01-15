@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-14T20:29:57.675036+00:00",
+  "updated_at": "2026-01-15T02:11:39.960070+00:00",
   "indicators": {
-    "change24h": 0.056,
-    "vol": 0.258,
-    "fearGreed": 48,
-    "momentum": 0.975,
+    "change24h": -0.005,
+    "vol": 0.139,
+    "fearGreed": 61,
+    "momentum": -0.082,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4973,
-    "global_sentiment": 0.3947,
-    "combined_sentiment": 0.4892,
-    "confidence": 0.8217,
+    "crypto_sentiment": 0.5269,
+    "global_sentiment": 0.2657,
+    "combined_sentiment": 0.5007,
+    "confidence": 0.7827,
     "counts": {
-      "crypto": 70,
-      "global": 40
+      "crypto": 71,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 97349,
-      "btc_change_24h": 3.23,
-      "eth_price": 3364.92,
-      "eth_change_24h": 4.75,
+      "btc_price": 96534,
+      "btc_change_24h": 1.36,
+      "eth_price": 3329.71,
+      "eth_change_24h": -0.25,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 48,
-        "classification": "Neutral",
+        "value": 61,
+        "classification": "Greed",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 308574122884,
-        "high_activity_coins": 3
+        "volume_24h": 263864896562,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.01,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-01T08:37:27.686035+00:00",
-      "crypto": 0.4646,
-      "global": 0.535,
-      "combined": 0.4764,
-      "counts": {
-        "crypto": 71,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-01-01T12:56:46.262582+00:00",
       "crypto": 0.4244,
@@ -1008,71 +998,76 @@
         "crypto": 70,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-15T02:11:39.960070+00:00",
+      "crypto": 0.5269,
+      "global": 0.2657,
+      "combined": 0.5007,
+      "counts": {
+        "crypto": 71,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Fear & Greed 61 (Greed) — bullish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "XRP tops $2 as TradFi piles in: Do charts predict new highs in 2026?",
         "url": "https://cointelegraph.com/news/xrp-tops-dollar2-as-tradfi-piles-in-do-charts-predict-new-highs-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9327,
+        "weight": 0.4831,
         "score": 0.8667
       },
       {
-        "title": "AppLovin Stock Just Got a New Buy Rating. Its Shares Are Tanking.",
-        "url": "https://finance.yahoo.com/m/36f6b53d-bc44-3f11-9948-b7448d955ec0/applovin-stock-just-got-a-new.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7436,
-        "score": 1.0
-      },
-      {
-        "title": "Dash price soars 125% amid privacy coin boom: Is the rally overheating?",
-        "url": "https://cointelegraph.com/news/dash-price-soars-privacy-coin-boom-is-rally-overheating?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4967,
-        "score": 1.0
+        "title": "Strategy, BitMine Rise While Bitcoin Miners Surge—As BTC Inches Towards $100K",
+        "url": "https://decrypt.co/354583/strategy-bitmine-rise-bitcoin-miners-surge-bitcoin-near-100k",
+        "source": "Decrypt",
+        "weight": 0.6006,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Equity Markets Fall Intraday as Big Tech, Major Banks Slide",
-        "url": "https://finance.yahoo.com/news/equity-markets-fall-intraday-big-185950985.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6726,
-        "score": -0.9667
+        "title": "An Ozempic Price War Is Coming",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-15/an-ozempic-price-war-is-coming-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7889,
+        "score": -1.0
       },
       {
-        "title": "Nvidia & Broadcom stocks dragged by China's tech bans: Reports",
-        "url": "https://finance.yahoo.com/video/nvidia-broadcom-stocks-dragged-chinas-181524268.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6174,
-        "score": -0.9667
+        "title": "Senator Lummis says delay likely for market structure bill: Bloomberg",
+        "url": "https://cointelegraph.com/news/crypto-market-structure-bill-hearing-could-be-delayed-after-coinbase-pulls-support-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7181,
+        "score": -1.0
       },
       {
-        "title": "Crypto yields expose the exact amount banks are underpaying you, and why they want Congress to ban it",
-        "url": "https://cryptoslate.com/stablecoin-yields-expose-the-exact-amount-banks-are-underpaying-you-and-why-they-want-congress-to-ban-it/",
-        "source": "CryptoSlate",
-        "weight": 0.5358,
-        "score": -0.9667
+        "title": "Hedge Funds Revive Dispute Over Argentina GDP-Linked Securities",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-15/hedge-funds-revive-dispute-over-argentina-gdp-linked-securities",
+        "source": "Bloomberg Markets",
+        "weight": 0.6851,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7014885753982375,
-          "price_change_24h": 0.01933
+          "volume_mcap_ratio": 0.5999502305169228,
+          "price_change_24h": 0.04887
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.40314953989864016,
-          "price_change_24h": -0.04087
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.3255972168837262,
-          "price_change_24h": -0.00287
+          "volume_mcap_ratio": 0.3624637669336707,
+          "price_change_24h": 0.01099
         }
       ],
       "momentum_shifts": []
