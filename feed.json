@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-15T20:34:07.372227+00:00",
+  "updated_at": "2026-01-16T02:19:56.465526+00:00",
   "indicators": {
-    "change24h": -0.045,
-    "vol": 0.147,
-    "fearGreed": 61,
-    "momentum": -0.796,
+    "change24h": -0.024,
+    "vol": 0.114,
+    "fearGreed": 49,
+    "momentum": -0.422,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4733,
-    "global_sentiment": 0.4673,
-    "combined_sentiment": 0.4772,
-    "confidence": 0.8201,
+    "crypto_sentiment": 0.4489,
+    "global_sentiment": 0.397,
+    "combined_sentiment": 0.4531,
+    "confidence": 0.7705,
     "counts": {
-      "crypto": 73,
-      "global": 44
+      "crypto": 68,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 95157,
-      "btc_change_24h": -2.42,
-      "eth_price": 3286.19,
-      "eth_change_24h": -2.46,
+      "btc_price": 95413,
+      "btc_change_24h": -1.18,
+      "eth_price": 3297.38,
+      "eth_change_24h": -0.85,
       "market_regime": "bear",
-      "regime_strength": 0.6,
+      "regime_strength": 0.4,
       "market_breadth": 0.2,
       "fear_greed": {
-        "value": 61,
-        "classification": "Greed",
+        "value": 49,
+        "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 231730443542,
+        "volume_24h": 213535174677,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.03,
+        "btc_dominance": 57.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-02T08:37:54.995858+00:00",
-      "crypto": 0.4811,
-      "global": 0.6199,
-      "combined": 0.4958,
-      "counts": {
-        "crypto": 72,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-01-02T12:55:51.307178+00:00",
       "crypto": 0.5766,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-16T02:19:56.465526+00:00",
+      "crypto": 0.4489,
+      "global": 0.397,
+      "combined": 0.4531,
+      "counts": {
+        "crypto": 68,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Oriental Rise Holdings Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-        "url": "https://finance.yahoo.com/news/oriental-rise-holdings-limited-regains-202500087.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7861,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market Today: Small Caps Lead, Some Medical Stocks Fall; BlackRock, Talen Build Bases (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/b032770a-3d86-3f00-b0ac-a7fc37966331/stock-market-today%3A-small.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7835,
+        "title": "China National Team ETFs Log Record Outflows Amid Cooling Signal",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-national-team-etfs-log-record-outflows-amid-cooling-signal",
+        "source": "Bloomberg Markets",
+        "weight": 0.7706,
         "score": 0.8667
       },
       {
-        "title": "These three XRP charts hint at a price rally toward $2.80",
-        "url": "https://cointelegraph.com/news/these-three-xrp-charts-hint-at-a-price-rally-toward-2-80?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin rally collapses at $97K as funding rate stalls, retail traders sit out",
+        "url": "https://cointelegraph.com/news/bitcoin-rally-collapses-at-97k-as-funding-rate-stalls-retail-traders-sit-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5193,
-        "score": 1.0
+        "weight": 0.5138,
+        "score": 0.8667
+      },
+      {
+        "title": "ETH’s next stop could be $4.1K, but this must happen first",
+        "url": "https://cointelegraph.com/news/eth-s-next-stop-could-be-dollar4-1k-but-this-must-happen-first?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5498,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "House Democrats slam SEC for dropping crypto cases with  Trump ties",
-        "url": "https://www.coindesk.com/policy/2026/01/15/democrats-slam-sec-for-dropping-crypto-cases-amid-trump-ties",
-        "source": "CoinDesk",
-        "weight": 0.7719,
-        "score": -0.9667
-      },
-      {
-        "title": "Coinbase Pulls Support For Crypto Bill",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-15/coinbase-pulls-support-for-crypto-bill-video",
+        "title": "Fmr. Treasury Secretary Jack Lew on Fed Independence",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-15/fmr-treasury-secretary-jack-lew-on-fed-independence-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7218,
-        "score": -0.9667
+        "weight": 0.5464,
+        "score": -1.0
       },
       {
-        "title": "Robinhood CEO warns Congress delay is hurting Americans",
-        "url": "https://www.thestreet.com/crypto/policy/robinhood-ceo-warns-congress-delay-is-hurting-americans?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6066,
-        "score": -1.0
+        "title": "Venezuela oil fetching 30% higher price, U.S. energy chief says, after first sale worth $500 million",
+        "url": "https://www.cnbc.com/2026/01/16/venezuela-oil-takeover-us-shipment-trump-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7979,
+        "score": -0.6333
+      },
+      {
+        "title": "Silver’s Rally Slams Solar Makers Struggling With Losses",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/silver-s-rally-slams-solar-makers-already-struggling-with-losses",
+        "source": "Bloomberg Markets",
+        "weight": 0.6147,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5336150437573371,
-          "price_change_24h": -0.01746
+          "volume_mcap_ratio": 0.49136711613448936,
+          "price_change_24h": -0.01485
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3540207659347094,
-          "price_change_24h": -0.06226
+          "volume_mcap_ratio": 0.3298054407883583,
+          "price_change_24h": -0.02034
         }
       ],
       "momentum_shifts": []
