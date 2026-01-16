@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-16T12:59:53.902400+00:00",
+  "updated_at": "2026-01-16T16:38:30.771633+00:00",
   "indicators": {
-    "change24h": -0.033,
-    "vol": 0.088,
+    "change24h": -0.022,
+    "vol": 0.078,
     "fearGreed": 49,
-    "momentum": -0.583,
+    "momentum": -0.389,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4113,
-    "global_sentiment": 0.5325,
-    "combined_sentiment": 0.4362,
-    "confidence": 0.7798,
+    "crypto_sentiment": 0.5357,
+    "global_sentiment": 0.5264,
+    "combined_sentiment": 0.529,
+    "confidence": 0.8024,
     "counts": {
-      "crypto": 72,
-      "global": 46
+      "crypto": 73,
+      "global": 56
     },
     "market_indicators": {
-      "btc_price": 95397,
-      "btc_change_24h": -1.59,
-      "eth_price": 3306.23,
-      "eth_change_24h": -1.79,
+      "btc_price": 94791,
+      "btc_change_24h": -1.79,
+      "eth_price": 3278.97,
+      "eth_change_24h": -1.11,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 194793178121,
+        "volume_24h": 182284270409,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.99,
+        "btc_dominance": 57.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-02T20:29:36.624040+00:00",
-      "crypto": 0.5759,
-      "global": 0.5863,
-      "combined": 0.5641,
-      "counts": {
-        "crypto": 66,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-03T02:05:55.021174+00:00",
       "crypto": 0.4764,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-01-16T16:38:30.771633+00:00",
+      "crypto": 0.5357,
+      "global": 0.5264,
+      "combined": 0.529,
+      "counts": {
+        "crypto": 73,
+        "global": 56
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Morgan Stanley Sees 70% Surge for ASML Shares in Bull Case",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-sees-70-surge-for-asml-shares-in-bull-case",
-        "source": "Bloomberg Markets",
-        "weight": 0.5835,
-        "score": 1.0
-      },
-      {
-        "title": "Europe Gas Surges 25% on Week as ‘Perfect Storm’ Hits Sentiment",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-16/european-gas-prices-post-biggest-weekly-gain-since-fall-of-2023",
-        "source": "Bloomberg Markets",
-        "weight": 0.4237,
+        "title": "Bitcoin copying 2022 'bear market rally' despite 21% BTC price gains",
+        "url": "https://cointelegraph.com/news/bitcoin-copying-2022-bear-market-rally-despite-btc-price-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8721,
         "score": 0.8667
       },
       {
-        "title": "Wall Street Is Split on Stock Market’s Top-Performing Sector",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-16/wall-street-is-split-on-stock-market-s-top-performing-sector",
+        "title": "Jonathan Golub of Seaport Research is Bullish on 2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-16/jonathan-golub-of-seaport-research-is-bullish-on-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5994,
-        "score": 0.5333
+        "weight": 0.7754,
+        "score": 0.8667
+      },
+      {
+        "title": "Ethereum ETF buying outpaces new supply: Will it push ETH price to $4.5K?",
+        "url": "https://cointelegraph.com/news/ethereum-etf-buying-outpaces-new-supply-eth-price-4-5k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7051,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Wall Street Is Split on Stock Market’s Top-Performing Sector",
-        "url": "https://finance.yahoo.com/news/wall-street-split-stock-market-103000496.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5994,
-        "score": -0.9667
+        "title": "Small Cap Stocks Will Struggle Without More Rate Cuts, Royal Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-16/small-caps-will-struggle-without-rate-cut-royal-says-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7158,
+        "score": -0.9333
       },
       {
-        "title": "Trump is 'shock jock' for markets as Fed independence challenged",
-        "url": "https://finance.yahoo.com/video/trump-shock-jock-markets-fed-110057843.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6362,
-        "score": -0.6667
+        "title": "25-year-old college dropout's production company brings in $1.08 million a year—and helped his parents retire",
+        "url": "https://www.cnbc.com/2026/01/16/video-production-company-brought-in-over-a-million-dollars-in-2025.html",
+        "source": "CNBC Markets",
+        "weight": 0.6069,
+        "score": -0.9333
       },
       {
-        "title": "Moldova moves to regulate crypto under EU-style MiCA rules",
-        "url": "https://cointelegraph.com/news/moldova-legalize-crypto-2026-eu-mica-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5864,
-        "score": -0.6667
+        "title": "South Korea Tightens Crypto Access as Google Play Blocks Unregistered Exchanges",
+        "url": "https://decrypt.co/354917/south-korea-tightens-crypto-access-as-google-play-blocks-unregistered-exchanges",
+        "source": "Decrypt",
+        "weight": 0.8042,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.444199577125069,
-          "price_change_24h": -0.00606
+          "volume_mcap_ratio": 0.40670325654658207,
+          "price_change_24h": 0.00218
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.34138418202485876,
-          "price_change_24h": -0.08421
+          "volume_mcap_ratio": 0.327697935885274,
+          "price_change_24h": -0.07167
         }
       ],
       "momentum_shifts": []
