@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-16T02:19:56.465526+00:00",
+  "updated_at": "2026-01-16T04:45:20.809842+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.114,
+    "change24h": -0.021,
+    "vol": 0.082,
     "fearGreed": 49,
-    "momentum": -0.422,
+    "momentum": -0.36,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4489,
-    "global_sentiment": 0.397,
-    "combined_sentiment": 0.4531,
-    "confidence": 0.7705,
+    "crypto_sentiment": 0.3751,
+    "global_sentiment": 0.4449,
+    "combined_sentiment": 0.4017,
+    "confidence": 0.7653,
     "counts": {
-      "crypto": 68,
-      "global": 35
+      "crypto": 71,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 95413,
-      "btc_change_24h": -1.18,
-      "eth_price": 3297.38,
-      "eth_change_24h": -0.85,
+      "btc_price": 95219,
+      "btc_change_24h": -1.04,
+      "eth_price": 3282.64,
+      "eth_change_24h": -0.56,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 213535174677,
+        "volume_24h": 203321624455,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.04,
+        "btc_dominance": 57.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-02T12:55:51.307178+00:00",
-      "crypto": 0.5766,
-      "global": 0.7622,
-      "combined": 0.5793,
-      "counts": {
-        "crypto": 70,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-02T16:34:27.549644+00:00",
       "crypto": 0.6172,
@@ -1008,6 +998,16 @@
         "crypto": 68,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-01-16T04:45:20.809842+00:00",
+      "crypto": 0.3751,
+      "global": 0.4449,
+      "combined": 0.4017,
+      "counts": {
+        "crypto": 71,
+        "global": 37
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "China National Team ETFs Log Record Outflows Amid Cooling Signal",
         "url": "https://www.bloomberg.com/news/articles/2026-01-16/china-national-team-etfs-log-record-outflows-amid-cooling-signal",
         "source": "Bloomberg Markets",
-        "weight": 0.7706,
+        "weight": 0.5824,
         "score": 0.8667
+      },
+      {
+        "title": "Asian Investors 'More Bullish' on China Than Their US Peers, BofA's Wu Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-16/asia-investors-more-bullish-on-china-than-us-peers-bofa-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.677,
+        "score": 0.5333
       },
       {
         "title": "Bitcoin rally collapses at $97K as funding rate stalls, retail traders sit out",
         "url": "https://cointelegraph.com/news/bitcoin-rally-collapses-at-97k-as-funding-rate-stalls-retail-traders-sit-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5138,
+        "weight": 0.3884,
         "score": 0.8667
-      },
-      {
-        "title": "ETH’s next stop could be $4.1K, but this must happen first",
-        "url": "https://cointelegraph.com/news/eth-s-next-stop-could-be-dollar4-1k-but-this-must-happen-first?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5498,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Fmr. Treasury Secretary Jack Lew on Fed Independence",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-15/fmr-treasury-secretary-jack-lew-on-fed-independence-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5464,
-        "score": -1.0
+        "title": "Bitcoin slips to nearly $95,000 as Senate delay and risk-off moves weigh on crypto",
+        "url": "https://www.coindesk.com/markets/2026/01/16/bitcoin-slips-to-nearly-usd95-000-as-senate-delay-and-risk-off-moves-weigh-on-crypto",
+        "source": "CoinDesk",
+        "weight": 0.9787,
+        "score": -0.6667
       },
       {
-        "title": "Venezuela oil fetching 30% higher price, U.S. energy chief says, after first sale worth $500 million",
-        "url": "https://www.cnbc.com/2026/01/16/venezuela-oil-takeover-us-shipment-trump-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7979,
-        "score": -0.6333
+        "title": "DeadLock ransomware hides using exploited Polygon smart contracts",
+        "url": "https://cointelegraph.com/news/deadlock-ransomware-hides-exploited-polygon-smart-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6555,
+        "score": -0.8333
       },
       {
-        "title": "Silver’s Rally Slams Solar Makers Struggling With Losses",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-16/silver-s-rally-slams-solar-makers-already-struggling-with-losses",
-        "source": "Bloomberg Markets",
-        "weight": 0.6147,
+        "title": "Does a Strong January for the S&P 500 Mean a Good Year for the Market? Here's What History Says.",
+        "url": "https://www.fool.com/investing/2026/01/15/does-a-strong-january-for-the-sp-500-mean-a-good-y/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7402,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49136711613448936,
-          "price_change_24h": -0.01485
+          "volume_mcap_ratio": 0.47171868381593873,
+          "price_change_24h": -0.00444
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3298054407883583,
-          "price_change_24h": -0.02034
+          "volume_mcap_ratio": 0.3149416907012268,
+          "price_change_24h": -0.0241
         }
       ],
       "momentum_shifts": []
