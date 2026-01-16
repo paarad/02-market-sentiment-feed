@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-16T08:38:36.878988+00:00",
+  "updated_at": "2026-01-16T12:59:53.902400+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.059,
+    "change24h": -0.033,
+    "vol": 0.088,
     "fearGreed": 49,
-    "momentum": -0.19,
+    "momentum": -0.583,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3856,
-    "global_sentiment": 0.5568,
-    "combined_sentiment": 0.4189,
-    "confidence": 0.7551,
+    "crypto_sentiment": 0.4113,
+    "global_sentiment": 0.5325,
+    "combined_sentiment": 0.4362,
+    "confidence": 0.7798,
     "counts": {
       "crypto": 72,
-      "global": 42
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 95653,
-      "btc_change_24h": -0.68,
-      "eth_price": 3312.64,
-      "eth_change_24h": -0.36,
+      "btc_price": 95397,
+      "btc_change_24h": -1.59,
+      "eth_price": 3306.23,
+      "eth_change_24h": -1.79,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 206159325577,
+        "volume_24h": 194793178121,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.01,
+        "btc_dominance": 56.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-02T19:53:45.877123+00:00",
-      "crypto": 0.5416,
-      "global": 0.5869,
-      "combined": 0.5385,
-      "counts": {
-        "crypto": 68,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-01-02T20:29:36.624040+00:00",
       "crypto": 0.5759,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-16T12:59:53.902400+00:00",
+      "crypto": 0.4113,
+      "global": 0.5325,
+      "combined": 0.4362,
+      "counts": {
+        "crypto": 72,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BlackRock’s Jewell Says Strong Earnings to Boost European Stocks",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-16/blackrock-s-jewell-says-strong-earnings-to-boost-european-stocks",
+        "title": "Morgan Stanley Sees 70% Surge for ASML Shares in Bull Case",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/morgan-stanley-sees-70-surge-for-asml-shares-in-bull-case",
         "source": "Bloomberg Markets",
-        "weight": 0.7652,
+        "weight": 0.5835,
+        "score": 1.0
+      },
+      {
+        "title": "Europe Gas Surges 25% on Week as ‘Perfect Storm’ Hits Sentiment",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/european-gas-prices-post-biggest-weekly-gain-since-fall-of-2023",
+        "source": "Bloomberg Markets",
+        "weight": 0.4237,
         "score": 0.8667
       },
       {
-        "title": "Mobius Shuns Record-Breaking Gold on Risk of Dollar Rebound",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-16/mobius-shuns-record-breaking-gold-on-risk-of-dollar-rebound",
+        "title": "Wall Street Is Split on Stock Market’s Top-Performing Sector",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/wall-street-is-split-on-stock-market-s-top-performing-sector",
         "source": "Bloomberg Markets",
-        "weight": 0.7098,
-        "score": 0.7333
-      },
-      {
-        "title": "Asia chip stocks rise after U.S.-Taiwan trade deal; Taiex and South Korea's Kospi hit fresh records",
-        "url": "https://www.cnbc.com/2026/01/16/asia-markets-live-friday-nikkei-225-hang-seng-index-kospi-taiwan-trade-deal-chips-banks.html",
-        "source": "CNBC Markets",
-        "weight": 0.7464,
-        "score": 0.6667
+        "weight": 0.5994,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Meta Triples Down on AI. It Could Be a Wild Ride for the Stock.",
-        "url": "https://finance.yahoo.com/m/dff31634-c6cf-34ab-a939-1fafb882061b/meta-triples-down-on-ai.-it.html?.tsrc=rss",
+        "title": "Wall Street Is Split on Stock Market’s Top-Performing Sector",
+        "url": "https://finance.yahoo.com/news/wall-street-split-stock-market-103000496.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7868,
+        "weight": 0.5994,
+        "score": -0.9667
+      },
+      {
+        "title": "Trump is 'shock jock' for markets as Fed independence challenged",
+        "url": "https://finance.yahoo.com/video/trump-shock-jock-markets-fed-110057843.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6362,
         "score": -0.6667
       },
       {
-        "title": "Bitcoin slips to nearly $95,000 as Senate delay and risk-off moves weigh on crypto",
-        "url": "https://www.coindesk.com/markets/2026/01/16/bitcoin-slips-to-nearly-usd95-000-as-senate-delay-and-risk-off-moves-weigh-on-crypto",
-        "source": "CoinDesk",
-        "weight": 0.6246,
+        "title": "Moldova moves to regulate crypto under EU-style MiCA rules",
+        "url": "https://cointelegraph.com/news/moldova-legalize-crypto-2026-eu-mica-regulations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5864,
         "score": -0.6667
-      },
-      {
-        "title": "Nigeria's Solar Boom Lights Up Economy",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-16/nigeria-s-solar-boom-lights-up-economy-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6561,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4714935218775515,
-          "price_change_24h": 0.00218
+          "volume_mcap_ratio": 0.444199577125069,
+          "price_change_24h": -0.00606
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3323149051512514,
-          "price_change_24h": -0.03551
+          "volume_mcap_ratio": 0.34138418202485876,
+          "price_change_24h": -0.08421
         }
       ],
       "momentum_shifts": []
