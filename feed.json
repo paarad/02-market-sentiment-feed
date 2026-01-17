@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-16T20:29:21.518333+00:00",
+  "updated_at": "2026-01-17T02:07:32.226334+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.182,
-    "fearGreed": 49,
-    "momentum": -0.223,
-    "regime": "bear",
+    "change24h": -0.009,
+    "vol": 0.147,
+    "fearGreed": 50,
+    "momentum": -0.162,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5796,
-    "global_sentiment": 0.4282,
-    "combined_sentiment": 0.5537,
-    "confidence": 0.8088,
+    "crypto_sentiment": 0.5217,
+    "global_sentiment": 0.2784,
+    "combined_sentiment": 0.4978,
+    "confidence": 0.7101,
     "counts": {
-      "crypto": 72,
-      "global": 45
+      "crypto": 54,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 94986,
-      "btc_change_24h": -0.21,
-      "eth_price": 3277.69,
-      "eth_change_24h": -0.27,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 95293,
+      "btc_change_24h": -0.17,
+      "eth_price": 3286.39,
+      "eth_change_24h": -0.52,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
-        "value": 49,
+        "value": 50,
         "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158138206802,
+        "volume_24h": 149870817252,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.01,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-03T08:34:38.902326+00:00",
-      "crypto": 0.4499,
-      "global": 0.4925,
-      "combined": 0.4618,
-      "counts": {
-        "crypto": 66,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-03T12:53:38.724029+00:00",
       "crypto": 0.4404,
@@ -1008,61 +998,71 @@
         "crypto": 72,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-01-17T02:07:32.226334+00:00",
+      "crypto": 0.5217,
+      "global": 0.2784,
+      "combined": 0.4978,
+      "counts": {
+        "crypto": 54,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Despite the Dip, Bitcoin Just Flashed Its Most Reliable Bullish Signal: Analysis",
-        "url": "https://decrypt.co/354918/bitcoin-bullish-signal-golden-cross-price-analysis",
-        "source": "Decrypt",
-        "weight": 0.649,
-        "score": 1.0
-      },
-      {
-        "title": "Despite the Dip, Bitcoin Just Flashed Its Most Reliable Bullish Signal: Analysis",
-        "url": "https://decrypt.co/354918/bitcoin-bullish-signal-golden-cross-price-analysis?.tsrc=rss",
+        "title": "Tech Still Matters. But It’s a Good Thing More Stocks Are Rallying.",
+        "url": "https://finance.yahoo.com/m/d2c5a725-06e0-382c-919a-79c69da43fbc/tech-still-matters.-but-it%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6108,
-        "score": 1.0
+        "weight": 0.6294,
+        "score": 0.5333
       },
       {
-        "title": "Nasdaq Warns Bitcoin Hardware Maker Canaan About Delisting",
-        "url": "https://decrypt.co/354933/nasdaq-warns-bitcoin-hardware-maker-canaan-delisting",
-        "source": "Decrypt",
-        "weight": 0.6033,
-        "score": 1.0
+        "title": "Takaichi Trade Faces Risks From Inflation, Yen Slump, Yield Jump",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/takaichi-trade-faces-risks-from-inflation-yen-slump-yield-jump",
+        "source": "Bloomberg Markets",
+        "weight": 0.5575,
+        "score": 0.5333
+      },
+      {
+        "title": "Hedge Funds Slash Bullish Silver Wagers to 22-Month Low",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-16/hedge-funds-slash-bullish-silver-wagers-to-22-month-low",
+        "source": "Bloomberg Markets",
+        "weight": 0.4932,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "What a 4% Withdrawal Rate Really Means When Social Security Falls Short",
-        "url": "https://247wallst.com/investing/2026/01/16/what-a-4-withdrawal-rate-really-means-when-social-security-falls-short/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.685,
+        "title": "More employers worry about their workers' financial well-being, research shows. Here's what they're doing about it",
+        "url": "https://www.cnbc.com/2026/01/16/employers-focusing-more-on-employee-financial-wellbeing-study-shows.html",
+        "source": "CNBC Markets",
+        "weight": 0.6428,
+        "score": -1.0
+      },
+      {
+        "title": "Russell 2000 Rallies as Small Caps Outperform Broader Market | The Close 1/16/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-17/the-close-1-16-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6503,
         "score": -0.9667
       },
       {
-        "title": "Hacker steals $282 million crypto in hardware wallet social-engineering attack",
-        "url": "https://www.coindesk.com/business/2026/01/16/hacker-steals-usd282-milion-in-hardware-wallet-social-engineering-attack",
-        "source": "CoinDesk",
-        "weight": 0.8358,
-        "score": -0.7333
-      },
-      {
-        "title": "The US government just caved to a crypto exchange pulling support for legislation that changes everything for investors",
-        "url": "https://cryptoslate.com/coinbase-veto-clarity-act-crypto-regulation-delay/",
-        "source": "CryptoSlate",
-        "weight": 0.5633,
-        "score": -1.0
+        "title": "ArrowMark Financial Corp. Releases Month End Estimated Net Asset Value as of December 2025",
+        "url": "https://finance.yahoo.com/news/arrowmark-financial-corp-releases-month-000100601.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.627,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34109261174633226,
-          "price_change_24h": -0.01851
+          "volume_mcap_ratio": 0.3297583599067783,
+          "price_change_24h": -0.007
         }
       ],
       "momentum_shifts": []
