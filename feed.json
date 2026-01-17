@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-17T12:53:49.623489+00:00",
+  "updated_at": "2026-01-17T16:31:19.310225+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.174,
+    "change24h": 0.011,
+    "vol": 0.208,
     "fearGreed": 50,
-    "momentum": -0.16,
+    "momentum": 0.192,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5999,
-    "global_sentiment": 0.4271,
-    "combined_sentiment": 0.5689,
-    "confidence": 0.5978,
+    "crypto_sentiment": 0.4358,
+    "global_sentiment": 0.641,
+    "combined_sentiment": 0.4636,
+    "confidence": 0.5762,
     "counts": {
-      "crypto": 71,
-      "global": 34
+      "crypto": 70,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 95208,
-      "btc_change_24h": -0.15,
-      "eth_price": 3300.98,
-      "eth_change_24h": -0.19,
+      "btc_price": 95412,
+      "btc_change_24h": 0.59,
+      "eth_price": 3317.53,
+      "eth_change_24h": 1.18,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 123371144427,
+        "volume_24h": 104998859476,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.92,
+        "btc_dominance": 56.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-03T20:30:18.889703+00:00",
-      "crypto": 0.362,
-      "global": 0.5203,
-      "combined": 0.3982,
-      "counts": {
-        "crypto": 66,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-04T02:29:24.481566+00:00",
       "crypto": 0.3299,
@@ -1008,53 +998,63 @@
         "crypto": 71,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-01-17T16:31:19.310225+00:00",
+      "crypto": 0.4358,
+      "global": 0.641,
+      "combined": 0.4636,
+      "counts": {
+        "crypto": 70,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "‘Markets Climb Wall-of-Worry’: Oppenheimer Sees Resilience Driving 2026 and Suggests 2 Stocks to Buy",
-        "url": "https://finance.yahoo.com/news/markets-climb-wall-worry-oppenheimer-110305600.html?.tsrc=rss",
+        "title": "MCHI Soars 45% as Chinese Equities Break Multi-Year Slump",
+        "url": "https://247wallst.com/investing/2026/01/17/mchi-soars-45-as-chinese-equities-break-multi-year-slump/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6464,
+        "weight": 0.5627,
+        "score": 1.0
+      },
+      {
+        "title": "2 Magnificent S&P 500 Dividend Stocks Down 10% and 14% to Buy Right Now for 2026",
+        "url": "https://www.fool.com/investing/2026/01/17/magnificent-sp-500-dividend-stocks-down-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7275,
         "score": 0.6667
       },
       {
-        "title": "Three reasons why Bitcoin's 'real breakout' toward $107K has begun",
-        "url": "https://cointelegraph.com/news/three-reasons-bitcoin-real-breakout-107k-has-begun?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7693,
-        "score": 0.5333
-      },
-      {
-        "title": "ETH price hits $3.4K, but pro traders are not bullish yet: Here’s why",
-        "url": "https://cointelegraph.com/news/eth-price-hits-3-4k-but-pro-traders-are-not-bullish-yet-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4604,
-        "score": 0.7333
+        "title": "NASA Starts Artemis II Roll Out to Kennedy Space Center",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-17/nasa-starts-artemis-ii-roll-out-to-kennedy-space-center-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6259,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin difficulty just retreated, but a more critical “survival metric” signals the mining sector is bleeding out",
+        "url": "https://cryptoslate.com/why-a-small-bitcoin-difficulty-drop-can-mean-big-miner-stress-in-2026/",
+        "source": "CryptoSlate",
+        "weight": 0.6294,
+        "score": -0.9667
+      },
+      {
+        "title": "XRP volume is exploding in Korea because it exploits a specific gap in the country’s spot-only exchange laws",
+        "url": "https://cryptoslate.com/xrp-volume-is-exploding-in-korea-because-it-exploits-a-specific-gap-in-the-countrys-spot-only-exchange-laws/",
+        "source": "CryptoSlate",
+        "weight": 0.617,
+        "score": -0.8333
+      },
+      {
         "title": "White House threatens to pull support for crypto bill after Coinbase standoff: Report",
         "url": "https://cointelegraph.com/news/white-house-considers-dropping-crypto-bill-after-coinbase-withdrawal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3926,
+        "weight": 0.2582,
         "score": -0.6667
-      },
-      {
-        "title": "Is a Stock Market Crash Imminent in 2026 Under President Donald Trump? 155 Years of History Weighs In.",
-        "url": "https://www.fool.com/investing/2026/01/17/stock-market-crash-donald-trump-155-years-history/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6755,
-        "score": -0.3333
-      },
-      {
-        "title": "100 Tech Leaders or 30 Industry Titans: QQQ vs. DIA Showdown",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/17/100-tech-leaders-or-30-industry-titans-qqq-vs-dia-showdown/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6414,
-        "score": -0.3
       }
     ],
     "market_movers": {
