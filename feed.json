@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-19T16:38:38.240263+00:00",
+  "updated_at": "2026-01-19T19:53:45.525303+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3839,
-    "global_sentiment": 0.539,
-    "combined_sentiment": 0.4162,
-    "confidence": 0.7919,
+    "crypto_sentiment": 0.3493,
+    "global_sentiment": 0.5235,
+    "combined_sentiment": 0.389,
+    "confidence": 0.7821,
     "counts": {
-      "crypto": 72,
-      "global": 48
+      "crypto": 73,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 93175,
-      "btc_change_24h": -2.01,
-      "eth_price": 3216.7,
-      "eth_change_24h": -3.51,
+      "btc_price": 93036,
+      "btc_change_24h": -2.4,
+      "eth_price": 3216.39,
+      "eth_change_24h": -3.86,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 197666752351,
+        "volume_24h": 193645909237,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-06T02:12:26.093142+00:00",
-      "crypto": 0.5778,
-      "global": 0.5186,
-      "combined": 0.5599,
-      "counts": {
-        "crypto": 74,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-06T04:45:14.370293+00:00",
       "crypto": 0.6133,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-01-19T19:53:45.525303+00:00",
+      "crypto": 0.3493,
+      "global": 0.5235,
+      "combined": 0.389,
+      "counts": {
+        "crypto": 73,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "NYSE develops 24/7 blockchain trading platform for tokenized stocks, ETFs",
-        "url": "https://cointelegraph.com/news/nyse-develops-blockchain-trading-platform-tokenized-stocks-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Hedge fund returns smash records even as K-shaped economy endures",
+        "url": "https://www.usatoday.com/story/money/economy/2026/01/19/hedge-funds-make-billions-haves-havenots/88253169007/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7363,
+        "score": 0.6667
+      },
+      {
+        "title": "Bermuda partners with Coinbase and Circle for ‘fully onchain‘ economy",
+        "url": "https://cointelegraph.com/news/bermuda-coinbase-circle-onchain-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5949,
+        "weight": 0.7898,
         "score": 0.5833
       },
       {
-        "title": "Why Bitcoin investors should worry about a 17% fertilizer surge that threatens to blow up the cooling inflation narrative",
-        "url": "https://cryptoslate.com/why-bitcoin-investors-should-worry-about-a-17-fertilizer-surge-that-threatens-to-blow-up-the-cooling-inflation-narrative/",
-        "source": "CryptoSlate",
-        "weight": 0.5074,
-        "score": 0.5333
-      },
-      {
-        "title": "Three reasons why Ethereum price remains bullish above $3,000",
-        "url": "https://cointelegraph.com/news/three-reasons-why-ethereum-price-remains-bullish-above-3-000?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4428,
-        "score": 0.5333
+        "title": "Rave Restaurant Gains 14% in 3 Months: How to Play the Stock?",
+        "url": "https://finance.yahoo.com/news/rave-restaurant-gains-14-3-171600672.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5904,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Crypto’s worst year for hacks wasn’t a smart contract problem. It was a people problem.",
+        "title": "Bitcoin Price Crashes to Zero on Paradex Exchange as Glitch Fuels Mass Liquidations",
+        "url": "https://decrypt.co/355022/bitcoin-price-crashes-zero-paradex-exchange-glitch-mass-liquidations",
+        "source": "Decrypt",
+        "weight": 0.6511,
+        "score": -0.9667
+      },
+      {
+        "title": "One year after Gary Gensler’s exit, SEC’s crypto playbook looks very different",
+        "url": "https://cointelegraph.com/news/gary-gensler-sec-crypto-regulation-trump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7565,
+        "score": -0.6333
+      },
+      {
+        "title": "Crypto’s worst year for hacks wasn’t a smart contract issue. It was a people problem.",
         "url": "https://www.coindesk.com/business/2026/01/19/crypto-s-worst-year-for-hacks-wasn-t-a-smart-contract-problem-it-was-a-people-problem",
         "source": "CoinDesk",
-        "weight": 0.6958,
+        "weight": 0.4779,
         "score": -1.0
-      },
-      {
-        "title": "US Bitcoin traders flip bearish: Is BTC price at risk of losing $90K?",
-        "url": "https://cointelegraph.com/news/us-bitcoin-traders-flip-bearish-is-btc-price-risk-losing-90k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6764,
-        "score": -1.0
-      },
-      {
-        "title": "Axis Bank CEO Chaudhry on Banking Consolidation, Rupee Performance",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-19/chaudhry-on-banking-consolidation-rupee-performance-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6223,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4886536654712858,
-          "price_change_24h": 0.0289
+          "volume_mcap_ratio": 0.5127400310074895,
+          "price_change_24h": 0.01324
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45802326842616486,
-          "price_change_24h": -0.01264
+          "volume_mcap_ratio": 0.4590620680069402,
+          "price_change_24h": -0.01389
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-19",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4426,
+      "crypto_high": 0.5387,
+      "crypto_low": 0.3493,
+      "global_avg": 0.5458,
+      "global_high": 0.6015,
+      "global_low": 0.5218,
+      "combined_avg": 0.4607,
+      "combined_high": 0.5309,
+      "combined_low": 0.389
+    },
+    "market_indicators_24h": {
+      "change24h": 0.0,
+      "vol": 0.5,
+      "fearGreed": 44,
+      "momentum": 0.0,
+      "regime": "unknown",
+      "activity": 0.6,
+      "dominance": "mixed"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-19T19:53:45.525303+00:00"
   }
 }
