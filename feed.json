@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-19T04:56:49.670210+00:00",
+  "updated_at": "2026-01-19T08:42:29.747386+00:00",
   "indicators": {
-    "change24h": -0.044,
-    "vol": 0.206,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 44,
-    "momentum": -0.776,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.5387,
-    "global_sentiment": 0.5218,
-    "combined_sentiment": 0.5309,
-    "confidence": 0.65,
+    "crypto_sentiment": 0.4622,
+    "global_sentiment": 0.5386,
+    "combined_sentiment": 0.4748,
+    "confidence": 0.7001,
     "counts": {
       "crypto": 67,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 92667,
-      "btc_change_24h": -2.51,
-      "eth_price": 3213.75,
-      "eth_change_24h": -2.92,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "btc_price": 92993,
+      "btc_change_24h": -2.24,
+      "eth_price": 3210.31,
+      "eth_change_24h": -3.02,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 44,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156921572687,
+        "volume_24h": 178316331499,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.93,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-05T16:35:35.874215+00:00",
-      "crypto": 0.5677,
-      "global": 0.5035,
-      "combined": 0.551,
-      "counts": {
-        "crypto": 76,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-05T19:53:49.291678+00:00",
       "crypto": 0.5115,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-19T08:42:29.747386+00:00",
+      "crypto": 0.4622,
+      "global": 0.5386,
+      "combined": 0.4748,
+      "counts": {
+        "crypto": 67,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin down, gold futures up as Europe threatens ‘trade bazooka’",
-        "url": "https://cointelegraph.com/news/bitcoin-down-gold-futures-up-europe-threatens-trade-bazooka?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7604,
+        "title": "Wilson: Gold Thrives on Uncertainty",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-19/wilson-gold-thrives-on-uncertainty-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7762,
         "score": 0.6667
       },
       {
-        "title": "Billionaires have ‘outsized’ political influence — and they’re richer than ever, says Oxfam",
-        "url": "https://www.cnbc.com/2026/01/19/billionaires-richer-than-ever-oxfam-inequality-report.html",
-        "source": "CNBC Markets",
-        "weight": 0.4549,
-        "score": 1.0
+        "title": "Why Franklin Templeton Sees India As A Long-Term Winner",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-19/why-franklin-templeton-sees-india-as-a-long-term-winner-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5415,
+        "score": 0.8667
       },
       {
-        "title": "Chinese Pig Breeder Muyuan Is Said to Gauge Interest for $1.5 Billion Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-19/chinese-pig-breeder-muyuan-is-said-to-gauge-interest-for-1-5-billion-hk-listing",
-        "source": "Bloomberg Markets",
-        "weight": 0.7111,
-        "score": 0.6333
+        "title": "Hyperliquid surges ahead in decentralized futures race as rivals fade",
+        "url": "https://www.coindesk.com/markets/2026/01/19/hyperliquid-extends-lead-in-perp-dex-race-as-rivals-volumes-fade",
+        "source": "CoinDesk",
+        "weight": 0.8141,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Tokyo Electric to Delay Niigata Nuclear Plant Restart, NHK Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-19/tokyo-electric-to-delay-niigata-nuclear-plant-restart-nhk-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6718,
-        "score": -0.6667
+        "title": "Why Ethereum’s ‘walkaway test’ and quantum readiness matter more than ever",
+        "url": "https://cointelegraph.com/explained/why-ethereum-s-walkaway-test-and-quantum-readiness-matter-more-than-ever?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6289,
+        "score": -0.9667
       },
       {
-        "title": "Iron Ore Sinks as China Steel Output Drops, Simandou Cargo Docks",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-19/iron-ore-sinks-as-china-steel-output-drops-simandou-cargo-docks",
+        "title": "Bayer Shares Jump as US Supreme Court to Hear Roundup Appeal",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-19/bayer-shares-jump-as-us-supreme-court-to-hear-roundup-appeal",
         "source": "Bloomberg Markets",
-        "weight": 0.6343,
-        "score": -0.6667
+        "weight": 0.7709,
+        "score": -0.5333
       },
       {
-        "title": "XRP hit by liquidation cascade as price slips below $2",
-        "url": "https://www.coindesk.com/markets/2026/01/19/xrp-hit-by-liquidation-cascade-as-price-slips-below-usd2",
-        "source": "CoinDesk",
-        "weight": 1.1369,
-        "score": -0.3333
+        "title": "HDFC Bank’s Recovery Gains Momentum on Lending Expansion",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-19/hdfc-bank-s-recovery-gains-momentum-on-lending-expansion",
+        "source": "Bloomberg Markets",
+        "weight": 0.6053,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.38534417951376726,
-          "price_change_24h": 0.01324
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.4121091759607577,
+          "price_change_24h": -0.02098
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3723229385848969,
-          "price_change_24h": -0.00705
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3831331968952087,
+          "price_change_24h": 0.011
         }
       ],
       "momentum_shifts": []
