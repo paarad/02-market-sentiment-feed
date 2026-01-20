@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-20T02:20:14.782463+00:00",
+  "updated_at": "2026-01-20T04:52:02.854904+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3942,
-    "global_sentiment": 0.4639,
-    "combined_sentiment": 0.4176,
-    "confidence": 0.6929,
+    "crypto_sentiment": 0.4499,
+    "global_sentiment": 0.4762,
+    "combined_sentiment": 0.4604,
+    "confidence": 0.7151,
     "counts": {
-      "crypto": 70,
-      "global": 48
+      "crypto": 72,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 92461,
-      "btc_change_24h": 0.04,
-      "eth_price": 3184.34,
-      "eth_change_24h": -0.58,
+      "btc_price": 92180,
+      "btc_change_24h": -0.5,
+      "eth_price": 3180.73,
+      "eth_change_24h": -1.02,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 142460127754,
+        "volume_24h": 138572021663,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-06T12:59:05.823800+00:00",
-      "crypto": 0.5665,
-      "global": 0.5709,
-      "combined": 0.5557,
-      "counts": {
-        "crypto": 65,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-06T16:38:16.656461+00:00",
       "crypto": 0.5432,
@@ -1008,66 +998,76 @@
         "crypto": 70,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-01-20T04:52:02.854904+00:00",
+      "crypto": 0.4499,
+      "global": 0.4762,
+      "combined": 0.4604,
+      "counts": {
+        "crypto": 72,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "UBP Strategist: Gold a Strong Bet, Be Cautious on Silver",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-20/ubp-strategist-gold-a-strong-bet-be-cautious-on-silver-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6514,
+        "score": 1.0
+      },
+      {
         "title": "China's stock market 'overheats' amid record high turnover — and regulators are getting worried",
         "url": "https://www.cnbc.com/2026/01/20/chinas-stock-market-overheats-amid-record-high-turnover.html",
         "source": "CNBC Markets",
-        "weight": 0.6554,
+        "weight": 0.4893,
         "score": 1.0
       },
       {
         "title": "Ethereum posts record onchain activity as research points to possible spam-driven growth: Asia Morning Briefing",
         "url": "https://www.coindesk.com/markets/2026/01/20/ethereum-posts-record-on-chain-activity-as-research-points-to-possible-spam-driven-growth-asia-morning-briefing",
         "source": "CoinDesk",
-        "weight": 0.981,
-        "score": 0.6667
-      },
-      {
-        "title": "Pop Mart Shares Surge as Traders Cheer First Buyback Since 2024",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-20/pop-mart-shares-surge-as-traders-cheer-first-buyback-since-2024",
-        "source": "Bloomberg Markets",
-        "weight": 0.7711,
+        "weight": 0.7324,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Shionogi Invests $2.1 Billion to Raise ViiV Healthcare Stake",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-20/shionogi-invests-2-1-billion-to-raise-viiv-healthcare-stake",
-        "source": "Bloomberg Markets",
-        "weight": 0.6211,
-        "score": -0.9333
-      },
-      {
-        "title": "Indonesian Rupiah Falls to Record Low on Central Bank Woes",
+        "title": "Indonesian Rupiah Drops to Record on Central Bank Autonomy Woes",
         "url": "https://www.bloomberg.com/news/articles/2026-01-20/usd-idr-indonesian-rupiah-falls-to-record-low-as-fiscal-woes-persist",
         "source": "Bloomberg Markets",
-        "weight": 0.779,
-        "score": -0.6667
+        "weight": 0.5815,
+        "score": -1.0
       },
       {
-        "title": "Japan 40-year bond yields hit fresh highs as Asia markets trade cautiously on Trump-EU tensions",
-        "url": "https://www.cnbc.com/2026/01/20/asia-pacific-markets-today-nikkei-225-kospi-hang-seng-index.html",
-        "source": "CNBC Markets",
-        "weight": 0.7029,
-        "score": -0.6667
+        "title": "China Electric Stocks Jump on Booming AI Demand, Investment Push",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-20/china-electric-stocks-jump-on-booming-ai-demand-investment-push",
+        "source": "Bloomberg Markets",
+        "weight": 0.7776,
+        "score": -0.6333
+      },
+      {
+        "title": "BlackRock Gets Nod to Extend Asia Credit Fund by Another Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-20/blackrock-gets-nod-to-extend-asia-credit-fund-by-another-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.763,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.45468367188575415,
-          "price_change_24h": 0.03262
+          "volume_mcap_ratio": 0.4637422760220909,
+          "price_change_24h": -0.00472
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34025859942216796,
-          "price_change_24h": -0.02418
+          "volume_mcap_ratio": 0.3270317570376881,
+          "price_change_24h": -0.02778
         }
       ],
       "momentum_shifts": []
