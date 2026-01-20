@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-20T16:43:57.378347+00:00",
+  "updated_at": "2026-01-20T20:34:42.550928+00:00",
   "indicators": {
-    "change24h": -0.083,
-    "vol": 0.206,
+    "change24h": -0.091,
+    "vol": 0.256,
     "fearGreed": 32,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.37,
-    "global_sentiment": 0.4056,
-    "combined_sentiment": 0.3946,
-    "confidence": 0.8357,
+    "crypto_sentiment": 0.3066,
+    "global_sentiment": 0.3661,
+    "combined_sentiment": 0.3438,
+    "confidence": 0.8127,
     "counts": {
-      "crypto": 78,
-      "global": 45
+      "crypto": 73,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 90118,
-      "btc_change_24h": -3.29,
-      "eth_price": 3006.14,
-      "eth_change_24h": -6.56,
+      "btc_price": 89580,
+      "btc_change_24h": -3.87,
+      "eth_price": 2996.22,
+      "eth_change_24h": -6.92,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.0,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 32,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 195315712883,
-        "high_activity_coins": 2
+        "volume_24h": 217441104037,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.18,
+        "btc_dominance": 57.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-07T02:12:04.818319+00:00",
-      "crypto": 0.4602,
-      "global": 0.5677,
-      "combined": 0.4758,
-      "counts": {
-        "crypto": 75,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-01-07T04:47:12.325245+00:00",
       "crypto": 0.5047,
@@ -1008,66 +998,81 @@
         "crypto": 78,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-01-20T20:34:42.550928+00:00",
+      "crypto": 0.3066,
+      "global": 0.3661,
+      "combined": 0.3438,
+      "counts": {
+        "crypto": 73,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Solana slips below $130, but onchain data suggests SOL remains bullish",
-        "url": "https://cointelegraph.com/news/solana-slips-below-130-but-onchain-data-suggests-sol-remains-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9167,
+        "title": "Another alliance of health care and AI signals why pharma stocks should be back in favor",
+        "url": "https://www.cnbc.com/2026/01/20/another-alliance-of-health-care-and-ai-signals-why-pharma-stocks-could-be-back.html",
+        "source": "CNBC Markets",
+        "weight": 0.7976,
+        "score": 0.5833
+      },
+      {
+        "title": "Why this emerging markets investor sees sports as 'contrarian play'",
+        "url": "https://finance.yahoo.com/video/why-emerging-markets-investor-sees-183000591.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6292,
         "score": 0.5333
       },
       {
-        "title": "FTSE 100 Owner Said to Eye Easing Entry Rules for Foreign Firms",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-20/ftse-100-owner-said-to-eye-easing-entry-rules-for-foreign-firms",
-        "source": "Bloomberg Markets",
-        "weight": 0.7292,
-        "score": 0.6333
-      },
-      {
-        "title": "Natural gas surged 17% yesterday and it’s triggering a macro trap that could suddenly tank Bitcoin prices",
-        "url": "https://cryptoslate.com/natural-gas-surged-17-yesterday-and-its-triggering-a-macro-trap-that-could-suddenly-tank-bitcoin-prices/",
-        "source": "CryptoSlate",
-        "weight": 0.3303,
-        "score": 0.8667
+        "title": "Visa (V) Rated Outperform by Baird After $500M Escrow Financing Deal",
+        "url": "https://finance.yahoo.com/news/visa-v-rated-outperform-baird-195457785.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.741,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin plunges below $90,000 amid global risk asset selloff",
-        "url": "https://www.coindesk.com/markets/2026/01/20/bitcoin-plunges-below-usd90-000-amid-global-risk-asset",
-        "source": "CoinDesk",
-        "weight": 0.8572,
-        "score": -1.0
-      },
-      {
-        "title": "Nvidia Stock Falls. ‘The Honeymoon Is Over for AI.’",
-        "url": "https://finance.yahoo.com/m/d79ad410-bd41-361e-a9a9-f808ac22fb64/nvidia-stock-falls.-%E2%80%98the.html?.tsrc=rss",
+        "title": "Treasuries, Stocks Sell Off as Greenland and Japan Shatter Calm",
+        "url": "https://finance.yahoo.com/news/wall-street-calm-shattered-greenland-130202405.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7183,
+        "weight": 0.7164,
         "score": -1.0
       },
       {
-        "title": "Ethereum DeFi Platform Makina Hit by Flash Loan Exploit, Loses $4M in ETH",
-        "url": "https://decrypt.co/355132/ethereum-defi-platform-makina-hit-by-flash-loan-exploit-loses-4m-in-eth",
-        "source": "Decrypt",
-        "weight": 0.8869,
-        "score": -0.7333
+        "title": "Drug pricing, patent losses and deals: Here's what pharma execs see ahead in the industry",
+        "url": "https://www.cnbc.com/2026/01/20/drug-pricing-patent-losses-deals-novo-nordisk-pfizer.html",
+        "source": "CNBC Markets",
+        "weight": 0.7358,
+        "score": -0.9333
+      },
+      {
+        "title": "New Bitcoin whales may send BTC price to $85K: Here’s why",
+        "url": "https://cointelegraph.com/news/new-bitcoin-whales-might-send-btc-price-to-dollar85k-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9364,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.6365515851452087,
-          "price_change_24h": -0.04335
+          "volume_mcap_ratio": 0.6882696146999,
+          "price_change_24h": -0.04075
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4531821397623633,
-          "price_change_24h": -0.04427
+          "volume_mcap_ratio": 0.5100637684154807,
+          "price_change_24h": -0.06855
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.30202492622955074,
+          "price_change_24h": -0.05592
         }
       ],
       "momentum_shifts": []
