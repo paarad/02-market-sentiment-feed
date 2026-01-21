@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-21T17:05:43.855014+00:00",
+  "updated_at": "2026-01-21T20:02:51.479066+00:00",
   "indicators": {
-    "change24h": -0.034,
-    "vol": 0.124,
+    "change24h": 0.037,
+    "vol": 0.111,
     "fearGreed": 24,
-    "momentum": -0.603,
-    "regime": "bear",
+    "momentum": 0.639,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3955,
-    "global_sentiment": 0.3987,
-    "combined_sentiment": 0.4132,
-    "confidence": 0.7903,
+    "crypto_sentiment": 0.4471,
+    "global_sentiment": 0.5018,
+    "combined_sentiment": 0.4605,
+    "confidence": 0.766,
     "counts": {
-      "crypto": 62,
-      "global": 38
+      "crypto": 58,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 87776,
-      "btc_change_24h": -2.72,
-      "eth_price": 2902.72,
-      "eth_change_24h": -3.74,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 90147,
+      "btc_change_24h": 0.82,
+      "eth_price": 3048.75,
+      "eth_change_24h": 2.07,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 239996625461,
-        "high_activity_coins": 3
+        "volume_24h": 257767231452,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.92,
+        "btc_dominance": 56.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-08T02:12:09.114654+00:00",
-      "crypto": 0.4114,
-      "global": 0.4197,
-      "combined": 0.4269,
-      "counts": {
-        "crypto": 74,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-08T04:44:48.520352+00:00",
       "crypto": 0.4069,
@@ -1008,71 +998,76 @@
         "crypto": 62,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-21T20:02:51.479066+00:00",
+      "crypto": 0.4471,
+      "global": 0.5018,
+      "combined": 0.4605,
+      "counts": {
+        "crypto": 58,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Private credit may be the breakout use case for tokenization: Maple's Sidney Powell",
+        "url": "https://www.coindesk.com/business/2026/01/21/private-credit-may-be-the-breakout-use-case-for-tokenization",
+        "source": "CoinDesk",
+        "weight": 0.9719,
+        "score": 0.5333
+      },
+      {
         "title": "How an industrial-scale scam is driving Ethereum transactions to record highs because of cheap gas fees",
         "url": "https://cryptoslate.com/ethereums-record-activity-clouded-by-address-poisoning-scams/",
         "source": "CryptoSlate",
-        "weight": 0.6068,
+        "weight": 0.4314,
         "score": 1.0
       },
       {
-        "title": "This Electronics Maker Is the S&P 500’s Top Stock Today. It Crushed Earnings.",
-        "url": "https://finance.yahoo.com/m/d8b7b98c-35ce-3e4b-b968-ffa51e3f51b2/this-electronics-maker-is-the.html?.tsrc=rss",
+        "title": "This S&P 500 Stock Tops Buy Point As Defense Business Booms",
+        "url": "https://finance.yahoo.com/m/7551bd95-24cc-398f-9cf1-694cc97d2e73/this-s%26p-500-stock-tops-buy.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6628,
-        "score": 0.6667
-      },
-      {
-        "title": "South Africa’s Rand Surges to Strongest Level in Three Years",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/south-africa-s-rand-surges-to-strongest-level-in-three-years",
-        "source": "Bloomberg Markets",
-        "weight": 0.6937,
+        "weight": 0.7279,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "China Tried the ‘Sell America’ Trade. Here’s How That Worked Out.",
-        "url": "https://finance.yahoo.com/m/1e6ef757-0ef4-3f56-ac6b-1e3223a423c6/china-tried-the-%E2%80%98sell.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6641,
+        "title": "JPMorgan Becomes World’s Biggest Active ETF Firm",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-21/jpmorgan-becomes-world-s-biggest-active-etf-firm-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7678,
         "score": -1.0
       },
       {
-        "title": "Telesat Sued by Creditors Alleging ‘Fraudulent’ Asset Transfers",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/telesat-sued-by-creditors-alleging-fraudulent-asset-transfers",
-        "source": "Bloomberg Markets",
-        "weight": 0.6782,
+        "title": "Farcaster founders step back as Neynar acquires struggling crypto social app",
+        "url": "https://www.coindesk.com/business/2026/01/21/farcaster-founders-step-back-as-neynar-acquires-struggling-crypto-social-app",
+        "source": "CoinDesk",
+        "weight": 0.8078,
         "score": -0.9333
       },
       {
-        "title": "Trump’s speech at Davos gives small boost to Crypto! Saylor buys $2.13B BTC! Blondish Interview!",
-        "url": "https://decrypt.co/videos/interviews/nWmEOl4c/trumps-speech-at-davos-gives-small-boost-to-crypto-saylor-buys-213b-btc-blondish-interview",
-        "source": "Decrypt",
-        "weight": 0.9294,
-        "score": -0.6667
+        "title": "Selling Treasuries Looks Symbolic If European Funds Keep Stocks",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-21/selling-treasuries-looks-symbolic-if-european-funds-keep-stocks",
+        "source": "Bloomberg Markets",
+        "weight": 0.5973,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.131650293173624,
-          "price_change_24h": 0.05786
+          "volume_mcap_ratio": 1.1659243331359597,
+          "price_change_24h": 0.05605
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5365208446949765,
-          "price_change_24h": 0.00925
-        },
-        {
-          "symbol": "BSC-USD",
-          "volume_mcap_ratio": 0.3025960247372008,
-          "price_change_24h": 0.25816
+          "volume_mcap_ratio": 0.5794525131758274,
+          "price_change_24h": 0.04042
         }
       ],
       "momentum_shifts": []
