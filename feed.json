@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-21T08:40:46.100664+00:00",
+  "updated_at": "2026-01-21T13:04:51.411621+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.141,
+    "change24h": -0.056,
+    "vol": 0.2,
     "fearGreed": 24,
-    "momentum": -0.616,
+    "momentum": -0.98,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3713,
-    "global_sentiment": 0.4964,
-    "combined_sentiment": 0.4032,
-    "confidence": 0.7882,
+    "crypto_sentiment": 0.3689,
+    "global_sentiment": 0.3802,
+    "combined_sentiment": 0.3917,
+    "confidence": 0.7721,
     "counts": {
-      "crypto": 75,
-      "global": 38
+      "crypto": 67,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 88975,
-      "btc_change_24h": -1.88,
-      "eth_price": 2957.46,
-      "eth_change_24h": -4.23,
+      "btc_price": 88660,
+      "btc_change_24h": -2.58,
+      "eth_price": 2929.45,
+      "eth_change_24h": -5.75,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 225203046284,
-        "high_activity_coins": 2
+        "volume_24h": 228515753382,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.06,
+        "btc_dominance": 57.07,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-07T19:53:14.807583+00:00",
-      "crypto": 0.4298,
-      "global": 0.4421,
-      "combined": 0.4426,
-      "counts": {
-        "crypto": 72,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-07T20:33:17.712141+00:00",
       "crypto": 0.4268,
@@ -1008,66 +998,81 @@
         "crypto": 75,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-21T13:04:51.411621+00:00",
+      "crypto": 0.3689,
+      "global": 0.3802,
+      "combined": 0.3917,
+      "counts": {
+        "crypto": 67,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Red Bull Lifts Can Sales at Fastest Past Since Pandemic, SN Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/red-bull-lifts-can-sales-at-fastest-past-since-pandemic-sn-says",
+        "title": "One of Canada’s Most Severe Housing Gaps Draws a $72 Million Bet",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-21/one-of-canada-s-most-severe-housing-gaps-draws-a-72-million-bet",
         "source": "Bloomberg Markets",
-        "weight": 0.7227,
-        "score": 1.0
+        "weight": 0.7061,
+        "score": 0.9167
       },
       {
-        "title": "Gold breaks new record on Greenland tariff threats — $7,000 level on the cards",
-        "url": "https://www.cnbc.com/2026/01/21/gold-prices-surge-record-4800-safe-haven-demand.html",
+        "title": "CNBC's The China Connection newsletter: China's new global playbook —from exporter to investor",
+        "url": "https://www.cnbc.com/2026/01/21/cnbcs-the-china-connection-newsletter-chinas-new-global-playbook-from-exporter-to-investor.html",
         "source": "CNBC Markets",
-        "weight": 0.6891,
-        "score": 1.0
+        "weight": 0.4702,
+        "score": 0.5833
       },
       {
-        "title": "Bridgewater Is Bullish on China Stocks After Fund Jumps 45%",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/bridgewater-is-bullish-on-china-stocks-after-fund-jumps-45",
-        "source": "Bloomberg Markets",
-        "weight": 0.6582,
-        "score": 1.0
+        "title": "Is RTX Corporation (RTX) the Best Defense Stock to Buy in the S&P 500?",
+        "url": "https://finance.yahoo.com/news/rtx-corporation-rtx-best-defense-123703415.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7583,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "ETH, SOL, ADA drop 5% as Trump trade threats and bond selloff spark crypto risk-off",
-        "url": "https://www.coindesk.com/markets/2026/01/21/eth-sol-ada-drop-5-as-trump-trade-threats-and-bond-selloff-spark-crypto-risk-off",
-        "source": "CoinDesk",
-        "weight": 0.7877,
+        "title": "Markets Fall Again. Early Rebound Fizzles Out as Trump Tariff Fears Return.",
+        "url": "https://finance.yahoo.com/m/65f66883-fc24-3e58-923e-909f46d82ff5/markets-fall-again.-early.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7397,
         "score": -1.0
       },
       {
-        "title": "Rolex, Patek lead high-end watch market rebound even as bitcoin struggles",
-        "url": "https://www.coindesk.com/markets/2026/01/21/crypto-slumps-while-luxury-watches-edge-higher-in-widening-market-split",
-        "source": "CoinDesk",
-        "weight": 0.7805,
-        "score": -0.9333
+        "title": "Trump to Speak at Davos; Benioff on AI; Witkoff on Greenland Security | Bloomberg Brief 1/21/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-21/bloomberg-brief-1-21-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7093,
+        "score": -1.0
       },
       {
-        "title": "China’s Bond Auction Draws Record Demand as Global Risks Mount",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/china-s-bond-auction-draws-record-demand-as-global-risks-mount",
+        "title": "ECB’s Lagarde Left Davos Dinner After Lutnick Slammed Europe",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-21/ecb-s-lagarde-left-davos-vip-dinner-after-lutnick-slammed-europe",
         "source": "Bloomberg Markets",
-        "weight": 0.6943,
-        "score": -0.9333
+        "weight": 0.7287,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.1079224546598845,
-          "price_change_24h": -0.0104
+          "volume_mcap_ratio": 1.20536893576097,
+          "price_change_24h": -0.01567
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5233370726585396,
-          "price_change_24h": 0.01082
+          "volume_mcap_ratio": 0.526433297211486,
+          "price_change_24h": -0.0046
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.3013969843563004,
+          "price_change_24h": 0.00132
         }
       ],
       "momentum_shifts": []
