@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-21T20:02:51.479066+00:00",
+  "updated_at": "2026-01-21T20:39:43.561455+00:00",
   "indicators": {
-    "change24h": 0.037,
-    "vol": 0.111,
+    "change24h": 0.022,
+    "vol": 0.085,
     "fearGreed": 24,
-    "momentum": 0.639,
+    "momentum": 0.391,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4471,
-    "global_sentiment": 0.5018,
-    "combined_sentiment": 0.4605,
-    "confidence": 0.766,
+    "crypto_sentiment": 0.4203,
+    "global_sentiment": 0.4907,
+    "combined_sentiment": 0.4394,
+    "confidence": 0.7804,
     "counts": {
       "crypto": 58,
-      "global": 44
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 90147,
-      "btc_change_24h": 0.82,
-      "eth_price": 3048.75,
-      "eth_change_24h": 2.07,
+      "btc_price": 89871,
+      "btc_change_24h": 0.37,
+      "eth_price": 3017.35,
+      "eth_change_24h": 0.73,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.95,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 257767231452,
-        "high_activity_coins": 2
+        "volume_24h": 255027145677,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.88,
+        "btc_dominance": 56.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-08T04:44:48.520352+00:00",
-      "crypto": 0.4069,
-      "global": 0.5117,
-      "combined": 0.4312,
-      "counts": {
-        "crypto": 77,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-01-08T08:39:37.494956+00:00",
       "crypto": 0.4051,
@@ -1008,6 +998,16 @@
         "crypto": 58,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-21T20:39:43.561455+00:00",
+      "crypto": 0.4203,
+      "global": 0.4907,
+      "combined": 0.4394,
+      "counts": {
+        "crypto": 58,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Private credit may be the breakout use case for tokenization: Maple's Sidney Powell",
         "url": "https://www.coindesk.com/business/2026/01/21/private-credit-may-be-the-breakout-use-case-for-tokenization",
         "source": "CoinDesk",
-        "weight": 0.9719,
+        "weight": 0.9053,
         "score": 0.5333
+      },
+      {
+        "title": "This Electronics Maker Is One of the S&P 500’s Top Stocks Today. It Crushed Earnings.",
+        "url": "https://finance.yahoo.com/m/d8b7b98c-35ce-3e4b-b968-ffa51e3f51b2/this-electronics-maker-is-one.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7022,
+        "score": 0.6667
       },
       {
         "title": "How an industrial-scale scam is driving Ethereum transactions to record highs because of cheap gas fees",
         "url": "https://cryptoslate.com/ethereums-record-activity-clouded-by-address-poisoning-scams/",
         "source": "CryptoSlate",
-        "weight": 0.4314,
+        "weight": 0.4019,
         "score": 1.0
-      },
-      {
-        "title": "This S&P 500 Stock Tops Buy Point As Defense Business Booms",
-        "url": "https://finance.yahoo.com/m/7551bd95-24cc-398f-9cf1-694cc97d2e73/this-s%26p-500-stock-tops-buy.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7279,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "XRP flashes signal that last triggered 68% price drop",
+        "url": "https://cointelegraph.com/news/xrp-flashes-signal-last-triggered-68-percent-price-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9081,
+        "score": -0.8667
+      },
+      {
         "title": "JPMorgan Becomes World’s Biggest Active ETF Firm",
         "url": "https://www.bloomberg.com/news/videos/2026-01-21/jpmorgan-becomes-world-s-biggest-active-etf-firm-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7678,
+        "weight": 0.7152,
         "score": -1.0
       },
       {
         "title": "Farcaster founders step back as Neynar acquires struggling crypto social app",
         "url": "https://www.coindesk.com/business/2026/01/21/farcaster-founders-step-back-as-neynar-acquires-struggling-crypto-social-app",
         "source": "CoinDesk",
-        "weight": 0.8078,
-        "score": -0.9333
-      },
-      {
-        "title": "Selling Treasuries Looks Symbolic If European Funds Keep Stocks",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/selling-treasuries-looks-symbolic-if-european-funds-keep-stocks",
-        "source": "Bloomberg Markets",
-        "weight": 0.5973,
+        "weight": 0.7525,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.1659243331359597,
-          "price_change_24h": 0.05605
+          "volume_mcap_ratio": 1.1747690076693087,
+          "price_change_24h": 0.01916
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5794525131758274,
-          "price_change_24h": 0.04042
+          "volume_mcap_ratio": 0.5868330109694592,
+          "price_change_24h": 0.04319
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.33511572068806156,
+          "price_change_24h": 0.13585
         }
       ],
       "momentum_shifts": []
