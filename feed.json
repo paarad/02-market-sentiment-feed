@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-21T02:22:58.624950+00:00",
+  "updated_at": "2026-01-21T04:51:19.945838+00:00",
   "indicators": {
-    "change24h": -0.078,
-    "vol": 0.272,
+    "change24h": -0.076,
+    "vol": 0.291,
     "fearGreed": 24,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3322,
-    "global_sentiment": 0.4499,
-    "combined_sentiment": 0.37,
-    "confidence": 0.7659,
+    "crypto_sentiment": 0.3383,
+    "global_sentiment": 0.3428,
+    "combined_sentiment": 0.3656,
+    "confidence": 0.7558,
     "counts": {
-      "crypto": 70,
-      "global": 35
+      "crypto": 72,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 89184,
-      "btc_change_24h": -3.54,
-      "eth_price": 2968.53,
-      "eth_change_24h": -6.67,
+      "btc_price": 89460,
+      "btc_change_24h": -2.95,
+      "eth_price": 2980.71,
+      "eth_change_24h": -6.31,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 239349101407,
-        "high_activity_coins": 2
+        "volume_24h": 242835054591,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.02,
+        "btc_dominance": 57.07,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-07T13:00:16.371022+00:00",
-      "crypto": 0.5289,
-      "global": 0.5209,
-      "combined": 0.5234,
-      "counts": {
-        "crypto": 69,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-07T16:39:13.231189+00:00",
       "crypto": 0.4174,
@@ -1008,66 +998,81 @@
         "crypto": 70,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-01-21T04:51:19.945838+00:00",
+      "crypto": 0.3383,
+      "global": 0.3428,
+      "combined": 0.3656,
+      "counts": {
+        "crypto": 72,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "World-Beating South Korea Stocks Still ‘Cheap’, First Eagle Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/world-beating-south-korea-stocks-still-cheap-first-eagle-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.627,
-        "score": 1.0
-      },
-      {
         "title": "‘Smart money’ loaded $3.2B in Bitcoin over 9 days: Santiment",
         "url": "https://cointelegraph.com/news/bitcoin-whale-sharks-accumulate-conditions-breakout-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7965,
+        "weight": 0.5986,
         "score": 0.5333
       },
       {
-        "title": "Rio Tinto Copper Output Climbs as Oyu Tolgoi Mine Ramps Up",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-20/rio-tinto-pilbara-iron-ore-shipments-rise-to-record",
+        "title": "India’s largest company is caught in geopolitical tensions. But it faces the biggest challenge at home",
+        "url": "https://www.cnbc.com/2026/01/21/india-reliance-oil-russia-trump-tariff-sanctions-retail-slowdown.html",
+        "source": "CNBC Markets",
+        "weight": 0.7639,
+        "score": 0.3333
+      },
+      {
+        "title": "Foreign Funds Return to Indian Tech Stocks on AI Growth Bets",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-21/foreign-funds-return-to-indian-tech-stocks-on-ai-growth-bets",
         "source": "Bloomberg Markets",
-        "weight": 0.4637,
-        "score": 0.6667
+        "weight": 0.5604,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Japanese Bank Stocks Slide as JGB Volatility Stokes Loss Fears",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-21/japanese-bank-stocks-slide-as-jgb-volatility-stokes-loss-fears",
+        "title": "Brazil’s BRB Replaces Finance and Risk Chiefs Amid Master Probes",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-21/brazil-s-brb-replaces-finance-and-risk-chiefs-amid-master-probes",
         "source": "Bloomberg Markets",
-        "weight": 0.7645,
+        "weight": 0.6185,
+        "score": -1.0
+      },
+      {
+        "title": "Australian Firms Delay Spending on Cost Pressures, Survey Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-21/australian-firms-delay-spending-on-cost-pressures-survey-shows",
+        "source": "Bloomberg Markets",
+        "weight": 0.6742,
         "score": -0.6667
       },
       {
-        "title": "Greenland Clash Risks Undermining America’s Place in World Economic Order",
-        "url": "https://finance.yahoo.com/m/da4713ca-b86b-35ab-9acc-b99ac236a484/greenland-clash-risks.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7046,
-        "score": -0.6333
-      },
-      {
-        "title": "Crypto market crash deepens as investors digest Trump tariff threat",
-        "url": "https://cointelegraph.com/news/crypto-market-crash-deepens-as-investors-digest-trump-tariff-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7042,
-        "score": -0.6333
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.7943821079872786,
-          "price_change_24h": -0.04317
+          "volume_mcap_ratio": 0.8825768473464235,
+          "price_change_24h": -0.01298
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5701882275664572,
-          "price_change_24h": -0.04629
+          "volume_mcap_ratio": 0.5770626060686682,
+          "price_change_24h": -0.03698
+        },
+        {
+          "symbol": "BSC-USD",
+          "volume_mcap_ratio": 0.31447791030745037,
+          "price_change_24h": 0.01804
         }
       ],
       "momentum_shifts": []
