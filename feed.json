@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-22T16:43:15.174664+00:00",
+  "updated_at": "2026-01-22T19:56:02.901689+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.05,
+    "change24h": -0.021,
+    "vol": 0.11,
     "fearGreed": 20,
-    "momentum": 0.276,
-    "regime": "sideways",
+    "momentum": -0.365,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4113,
-    "global_sentiment": 0.5122,
-    "combined_sentiment": 0.4345,
-    "confidence": 0.8038,
+    "crypto_sentiment": 0.4525,
+    "global_sentiment": 0.6473,
+    "combined_sentiment": 0.4766,
+    "confidence": 0.7945,
     "counts": {
-      "crypto": 65,
-      "global": 44
+      "crypto": 59,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 88793,
-      "btc_change_24h": 0.63,
-      "eth_price": 2935.85,
-      "eth_change_24h": 1.22,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 89768,
+      "btc_change_24h": -0.39,
+      "eth_price": 2953.53,
+      "eth_change_24h": -3.24,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 206815207130,
+        "volume_24h": 168370546262,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 57.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-09T02:19:17.050672+00:00",
-      "crypto": 0.3645,
-      "global": 0.3677,
-      "combined": 0.3873,
-      "counts": {
-        "crypto": 61,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-01-09T04:46:23.902231+00:00",
       "crypto": 0.3949,
@@ -1008,66 +998,76 @@
         "crypto": 65,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-22T19:56:02.901689+00:00",
+      "crypto": 0.4525,
+      "global": 0.6473,
+      "combined": 0.4766,
+      "counts": {
+        "crypto": 59,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "TNL Mediagene Regains Compliance with Nasdaq's Bid Price Rule",
-        "url": "https://finance.yahoo.com/news/tnl-mediagene-regains-compliance-nasdaqs-154300128.html?.tsrc=rss",
+        "title": "Oracle (ORCL) Stock Is Up, What You Need To Know",
+        "url": "https://finance.yahoo.com/news/oracle-orcl-stock-know-192537473.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7124,
-        "score": 0.9667
+        "weight": 0.7545,
+        "score": 1.0
       },
       {
-        "title": "21Shares Launches Dogecoin ETF (TDOG) on NASDAQ, Offering Spot DOGE Exposure",
-        "url": "https://coingape.com/21shares-launches-dogecoin-etf-tdog-on-nasdaq-for-spot-doge-exposure/?.tsrc=rss",
+        "title": "FuelCell Energy, Enphase, and Pangaea Shares Skyrocket, What You Need To Know",
+        "url": "https://finance.yahoo.com/news/fuelcell-energy-enphase-pangaea-shares-192121520.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.8548,
-        "score": 0.6667
+        "weight": 0.7483,
+        "score": 0.7
       },
       {
-        "title": "Ethereum upgrade sparks activity spike, but JPMorgan doubts it will last",
-        "url": "https://www.coindesk.com/tech/2026/01/22/ethereum-upgrade-sparks-activity-spike-but-jpmorgan-doubts-it-will-last",
-        "source": "CoinDesk",
-        "weight": 0.7343,
+        "title": "HubSpot, Autodesk, BILL, nCino, and Paylocity Stocks Trade Up, What You Need To Know",
+        "url": "https://finance.yahoo.com/news/hubspot-autodesk-bill-ncino-paylocity-192544077.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7546,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Trump files $5 billion lawsuit against JPMorgan over 2021 debanking",
+        "url": "https://www.coindesk.com/policy/2026/01/22/trump-files-usd5-billion-lawsuit-against-jpmorgan-over-2021-debanking",
+        "source": "CoinDesk",
+        "weight": 0.7863,
+        "score": -0.9
+      },
+      {
         "title": "AI infrastructure firm secures up to $500 million onchain loan after bypassing banks",
         "url": "https://www.coindesk.com/business/2026/01/22/ai-infrastructure-firm-secures-up-to-usd500-million-onchain-loan-after-bypassing-banks",
         "source": "CoinDesk",
-        "weight": 0.8612,
+        "weight": 0.5941,
         "score": -0.9667
       },
       {
         "title": "Crypto rebounds after Trump TACO’s on Tariffs! BitGo $2.1B IPO! Solana’s SKR token soars 250% FDV!",
         "url": "https://decrypt.co/videos/interviews/MqZOhomP/crypto-rebounds-after-trump-tacos-on-tariffs-bitgo-21b-ipo-solanas-skr-token-soars-250-fdv",
         "source": "Decrypt",
-        "weight": 0.8047,
+        "weight": 0.5552,
         "score": -1.0
-      },
-      {
-        "title": "Software selloff sparked by AI sets stage for potential big year of M&A, investors say",
-        "url": "https://www.cnbc.com/2026/01/22/selloff-in-software-from-ai-sets-stage-for-potential-big-year-of-ma.html",
-        "source": "CNBC Markets",
-        "weight": 0.7497,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5514492183835817,
-          "price_change_24h": -0.03125
+          "volume_mcap_ratio": 0.47223866422957517,
+          "price_change_24h": -0.03626
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4793850008132037,
-          "price_change_24h": -0.01331
+          "volume_mcap_ratio": 0.4050631978852832,
+          "price_change_24h": -0.00592
         }
       ],
       "momentum_shifts": []
