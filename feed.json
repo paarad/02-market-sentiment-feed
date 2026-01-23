@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-22T20:36:15.149400+00:00",
+  "updated_at": "2026-01-23T02:20:36.247504+00:00",
   "indicators": {
-    "change24h": -0.017,
-    "vol": 0.095,
-    "fearGreed": 20,
-    "momentum": -0.299,
+    "change24h": -0.015,
+    "vol": 0.091,
+    "fearGreed": 24,
+    "momentum": -0.262,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4195,
-    "global_sentiment": 0.592,
-    "combined_sentiment": 0.4473,
-    "confidence": 0.8023,
+    "crypto_sentiment": 0.4304,
+    "global_sentiment": 0.4124,
+    "combined_sentiment": 0.4405,
+    "confidence": 0.7832,
     "counts": {
-      "crypto": 59,
-      "global": 48
+      "crypto": 62,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 89557,
-      "btc_change_24h": -0.39,
-      "eth_price": 2937.46,
-      "eth_change_24h": -2.7,
+      "btc_price": 89773,
+      "btc_change_24h": -0.43,
+      "eth_price": 2961.42,
+      "eth_change_24h": -2.21,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.2,
       "fear_greed": {
-        "value": 20,
+        "value": 24,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 164273493463,
+        "volume_24h": 152433342439,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.13,
+        "btc_dominance": 57.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-09T08:39:38.753398+00:00",
-      "crypto": 0.4115,
-      "global": 0.4636,
-      "combined": 0.4306,
-      "counts": {
-        "crypto": 65,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-01-09T12:59:55.389864+00:00",
       "crypto": 0.4287,
@@ -1008,66 +998,76 @@
         "crypto": 59,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-01-23T02:20:36.247504+00:00",
+      "crypto": 0.4304,
+      "global": 0.4124,
+      "combined": 0.4405,
+      "counts": {
+        "crypto": 62,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Oracle (ORCL) Stock Is Up, What You Need To Know",
-        "url": "https://finance.yahoo.com/news/oracle-orcl-stock-know-192537473.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Stocks Bounce, Tesla Rallies On Self-Driving News; Intel Dives Late",
+        "url": "https://finance.yahoo.com/m/05fd21a7-5eb8-3eb2-ad5c-9115b844abdf/dow-jones-futures%3A-stocks.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6983,
-        "score": 1.0
+        "weight": 0.7718,
+        "score": 0.5333
       },
       {
-        "title": "FuelCell Energy, Enphase, and Pangaea Shares Skyrocket, What You Need To Know",
-        "url": "https://finance.yahoo.com/news/fuelcell-energy-enphase-pangaea-shares-192121520.html?.tsrc=rss",
+        "title": "3 Dirt Cheap Stocks to Buy With $1,000 Right Now",
+        "url": "https://www.fool.com/investing/2026/01/22/3-dirt-cheap-stocks-to-buy-with-1000-right-now/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6926,
-        "score": 0.7
-      },
-      {
-        "title": "Why Is UiPath (PATH) Stock Soaring Today",
-        "url": "https://finance.yahoo.com/news/why-uipath-path-stock-soaring-192549275.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6985,
+        "weight": 0.5816,
         "score": 0.6667
+      },
+      {
+        "title": "‘Literally billions’ of AI agents to use stablecoins in 5 years: Circle CEO",
+        "url": "https://cointelegraph.com/news/billions-of-ai-agents-to-use-stablecoins-circle-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6671,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Coinbase forms board to assess quantum computing risks to blockchain",
-        "url": "https://cointelegraph.com/news/coinbase-board-quantum-computing-risks-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7581,
+        "title": "Software sell-off sparked by AI sets stage for potential big year of M&A, investors say",
+        "url": "https://www.cnbc.com/2026/01/22/selloff-in-software-from-ai-sets-stage-for-potential-big-year-of-ma.html",
+        "source": "CNBC Markets",
+        "weight": 0.5057,
         "score": -0.9667
       },
       {
-        "title": "Bloomberg Markets 1/22/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-22/bloomberg-markets-1-22-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6954,
+        "title": "Trump sues JPMorgan in Florida court for $5B over debanking claims: Report",
+        "url": "https://cointelegraph.com/news/donald-trump-jpmorgan-florida-court-debanking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4647,
         "score": -1.0
       },
       {
-        "title": "Trump files $5 billion lawsuit against JPMorgan over 2021 debanking",
-        "url": "https://www.coindesk.com/policy/2026/01/22/trump-files-usd5-billion-lawsuit-against-jpmorgan-over-2021-debanking",
-        "source": "CoinDesk",
-        "weight": 0.7277,
-        "score": -0.9
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.45980637226424115,
-          "price_change_24h": -0.04227
+          "volume_mcap_ratio": 0.6885697911069455,
+          "price_change_24h": 0.15645
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3908422733353359,
-          "price_change_24h": -0.01466
+          "volume_mcap_ratio": 0.36587219424871,
+          "price_change_24h": -0.0172
         }
       ],
       "momentum_shifts": []
