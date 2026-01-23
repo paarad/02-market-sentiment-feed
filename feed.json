@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-23T16:39:35.826924+00:00",
+  "updated_at": "2026-01-23T19:53:47.435021+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.051,
+    "change24h": -0.004,
+    "vol": 0.04,
     "fearGreed": 24,
-    "momentum": 0.286,
-    "regime": "sideways",
+    "momentum": -0.076,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4103,
-    "global_sentiment": 0.483,
-    "combined_sentiment": 0.4313,
-    "confidence": 0.7907,
+    "crypto_sentiment": 0.4344,
+    "global_sentiment": 0.4463,
+    "combined_sentiment": 0.4463,
+    "confidence": 0.7996,
     "counts": {
-      "crypto": 52,
-      "global": 38
+      "crypto": 66,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 90049,
-      "btc_change_24h": 1.47,
-      "eth_price": 2966.03,
-      "eth_change_24h": 1.16,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 89748,
+      "btc_change_24h": 0.12,
+      "eth_price": 2949.96,
+      "eth_change_24h": -0.02,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154472687510,
+        "volume_24h": 176460887975,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.16,
+        "btc_dominance": 57.15,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-10T02:09:15.152039+00:00",
-      "crypto": 0.5289,
-      "global": 0.4143,
-      "combined": 0.5145,
-      "counts": {
-        "crypto": 70,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-10T04:38:29.441000+00:00",
       "crypto": 0.5254,
@@ -1008,66 +998,76 @@
         "crypto": 52,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-23T19:53:47.435021+00:00",
+      "crypto": 0.4344,
+      "global": 0.4463,
+      "combined": 0.4463,
+      "counts": {
+        "crypto": 66,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Sandisk Rally Pushes Short-Squeeze Risk to Extreme, S3 Says",
-        "url": "https://finance.yahoo.com/news/sandisk-rally-pushes-short-squeeze-161055515.html?.tsrc=rss",
+        "title": "Gold Races Toward $5,000 as Silver Hits a Record $100",
+        "url": "https://finance.yahoo.com/m/a4ca568c-7107-307f-ad4b-7fe6d97feff0/gold-races-toward-%245%2C000-as.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.757,
-        "score": 0.8667
-      },
-      {
-        "title": "World’s Best Equity Rally Draws Foreign Investors Into Brazil",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-23/world-s-best-equity-rally-draws-foreign-investors-into-brazil",
-        "source": "Bloomberg Markets",
-        "weight": 0.715,
-        "score": 0.8667
-      },
-      {
-        "title": "Bitcoin is bleeding against gold’s record breakout but a “power law” slip hints at a $324k price snapback",
-        "url": "https://cryptoslate.com/bitcoin-is-bleeding-against-golds-record-breaking-surge-but-a-power-law-deviation-hints-at-a-324000-price-snapback/",
-        "source": "CryptoSlate",
-        "weight": 0.4511,
+        "weight": 0.6159,
         "score": 1.0
+      },
+      {
+        "title": "Trump sues JPMorgan for $5B! Ledger prepares for $4B IPO! “Crypto Adoption is no longer reversible” says PWC!",
+        "url": "https://decrypt.co/videos/interviews/VpBdSuOE/trump-sues-jpmorgan-for-5b-ledger-prepares-for-4b-ipo-crypto-adoption-is-no-longer-reversible-says-pwc",
+        "source": "Decrypt",
+        "weight": 0.5863,
+        "score": 1.0
+      },
+      {
+        "title": "Why Silver's Surge Echoes Crypto Altcoin Season: Bitwise Exec",
+        "url": "https://decrypt.co/355739/why-silvers-surge-echoes-crypto-altcoin-season-bitwise-exec",
+        "source": "Decrypt",
+        "weight": 0.789,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "US Stocks Slip at End of Turbulent Week; Intel Sinks on Earnings",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-23/us-stocks-slip-at-end-of-turbulent-week-intel-sinks-on-earnings",
-        "source": "Bloomberg Markets",
-        "weight": 0.6346,
+        "title": "Crypto custodian BitGo down 12%, falling well below IPO price on second trading day",
+        "url": "https://www.coindesk.com/markets/2026/01/23/crypto-custodian-bitgo-shares-fall-13-on-second-day-of-trading",
+        "source": "CoinDesk",
+        "weight": 0.7246,
         "score": -0.9667
       },
       {
-        "title": "'Professional Money Launderer' Ordered to Pay UK $7.6M Over Zhimin Qian Case",
-        "url": "https://decrypt.co/355706/professional-money-launderer-ordered-to-pay-uk-7-6m-over-zhimin-qian-case",
-        "source": "Decrypt",
-        "weight": 0.8353,
-        "score": -0.6333
+        "title": "We Are An Infrastructure Company, Not A Treasury Company: BitGo CEO",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-23/we-are-an-infrastructure-company-bitgo-ceo-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.724,
+        "score": -0.9667
       },
       {
-        "title": "What obesity drugmakers see next in the market: More pills, easier access and drug combinations",
-        "url": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html",
-        "source": "CNBC Markets",
-        "weight": 0.5146,
-        "score": -0.9333
+        "title": "The S&P 500 Teeters as Bank Stocks Take It on the Chin",
+        "url": "https://finance.yahoo.com/m/f6c12de4-1ef4-3801-97d0-f94be5483c8e/the-s%26p-500-teeters-as-bank.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7007,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.4011739918386543,
-          "price_change_24h": 0.21256
+          "volume_mcap_ratio": 1.4942867120065444,
+          "price_change_24h": 0.19342
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.379067798888782,
-          "price_change_24h": -0.02555
+          "volume_mcap_ratio": 0.4159378493550314,
+          "price_change_24h": -0.03553
         }
       ],
       "momentum_shifts": []
@@ -1075,5 +1075,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-01-23",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.4155,
+      "crypto_high": 0.4344,
+      "crypto_low": 0.3833,
+      "global_avg": 0.4468,
+      "global_high": 0.4922,
+      "global_low": 0.409,
+      "combined_avg": 0.4321,
+      "combined_high": 0.4463,
+      "combined_low": 0.4049
+    },
+    "market_indicators_24h": {
+      "change24h": -0.004,
+      "vol": 0.04,
+      "fearGreed": 24,
+      "momentum": -0.076,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-01-23T19:53:47.435021+00:00"
   }
 }
