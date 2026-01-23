@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-23T04:50:12.707617+00:00",
+  "updated_at": "2026-01-23T08:39:46.031322+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.074,
+    "change24h": -0.013,
+    "vol": 0.107,
     "fearGreed": 24,
-    "momentum": -0.059,
-    "regime": "sideways",
+    "momentum": -0.227,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3833,
-    "global_sentiment": 0.409,
-    "combined_sentiment": 0.4049,
-    "confidence": 0.7728,
+    "crypto_sentiment": 0.4188,
+    "global_sentiment": 0.4922,
+    "combined_sentiment": 0.4384,
+    "confidence": 0.7881,
     "counts": {
-      "crypto": 63,
-      "global": 38
+      "crypto": 54,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 89889,
-      "btc_change_24h": -0.06,
-      "eth_price": 2977.92,
-      "eth_change_24h": -1.24,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 89058,
+      "btc_change_24h": -0.77,
+      "eth_price": 2921.78,
+      "eth_change_24h": -2.46,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154033263655,
+        "volume_24h": 165120225354,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.08,
+        "btc_dominance": 57.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-09T16:37:28.265116+00:00",
-      "crypto": 0.4829,
-      "global": 0.4504,
-      "combined": 0.4831,
-      "counts": {
-        "crypto": 51,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-09T19:53:49.496489+00:00",
       "crypto": 0.5314,
@@ -1008,66 +998,76 @@
         "crypto": 63,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-01-23T08:39:46.031322+00:00",
+      "crypto": 0.4188,
+      "global": 0.4922,
+      "combined": 0.4384,
+      "counts": {
+        "crypto": 54,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Stocks Bounce, Tesla Rallies On Self-Driving News; Intel Dives Late",
-        "url": "https://finance.yahoo.com/m/05fd21a7-5eb8-3eb2-ad5c-9115b844abdf/dow-jones-futures%3A-stocks.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7372,
-        "score": 0.5333
-      },
-      {
-        "title": "3 Dirt Cheap Stocks to Buy With $1,000 Right Now",
-        "url": "https://www.fool.com/investing/2026/01/22/3-dirt-cheap-stocks-to-buy-with-1000-right-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.436,
+        "title": "Will XRP price double again? 'Latent' buy pressure puts shorts in danger",
+        "url": "https://cointelegraph.com/news/will-xrp-price-double-again-latent-buy-pressure-shorts-danger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.83,
         "score": 0.6667
       },
       {
-        "title": "‘Literally billions’ of AI agents to use stablecoins in 5 years: Circle CEO",
-        "url": "https://cointelegraph.com/news/billions-of-ai-agents-to-use-stablecoins-circle-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5001,
+        "title": "Silver Boom Makes Hindustan Zinc Most Valuable India Metals Firm",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-23/silver-boom-makes-hindustan-zinc-most-valuable-india-metals-firm",
+        "source": "Bloomberg Markets",
+        "weight": 0.6827,
+        "score": 0.5333
+      },
+      {
+        "title": "DOJ Flags Three Crypto Cases in 'America First' Push Against Fraud",
+        "url": "https://decrypt.co/355612/doj-flags-three-crypto-cases-america-first-push",
+        "source": "Decrypt",
+        "weight": 0.6632,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Dogecoin falls 2% as liquidation pressure hits meme coins",
-        "url": "https://www.coindesk.com/markets/2026/01/23/dogecoin-falls-2-as-liquidation-pressure-hits-meme-coins",
-        "source": "CoinDesk",
-        "weight": 0.9631,
-        "score": -0.6667
-      },
-      {
-        "title": "China Construction Bank Plans 100 Wealth Hires in HK",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-23/china-construction-bank-plans-100-wealth-hires-in-hk-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7659,
-        "score": -0.6333
-      },
-      {
-        "title": "South Korea loses $48 million in seized Bitcoin to phishing scam: Report",
-        "url": "https://cointelegraph.com/news/south-korea-seized-bitcoin-stolen-phishing-scam-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Ledger said to be in talks with Goldman Sachs, Barclays on US IPO: FT",
+        "url": "https://cointelegraph.com/news/ledger-said-to-be-working-with-goldman-sachs-barclays-on-us-ipo-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.729,
+        "weight": 0.7693,
+        "score": -0.7333
+      },
+      {
+        "title": "Chery to Buy Nissan’s South Africa Car Plant as Local Sales Soar",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-23/chery-to-buy-nissan-s-south-africa-car-plant-as-local-sales-soar",
+        "source": "Bloomberg Markets",
+        "weight": 0.775,
         "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 24 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.8439142658894215,
-          "price_change_24h": 0.1811
+          "volume_mcap_ratio": 1.0678783641439091,
+          "price_change_24h": 0.14778
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3681504725995283,
-          "price_change_24h": -0.00964
+          "volume_mcap_ratio": 0.3880219147268486,
+          "price_change_24h": -0.04459
         }
       ],
       "momentum_shifts": []
