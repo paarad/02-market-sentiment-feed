@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-24T19:53:18.842683+00:00",
+  "updated_at": "2026-01-24T20:29:11.349316+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.03,
+    "change24h": -0.005,
+    "vol": 0.035,
     "fearGreed": 25,
-    "momentum": -0.127,
-    "regime": "bear",
+    "momentum": -0.091,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4339,
-    "global_sentiment": 0.4295,
-    "combined_sentiment": 0.4445,
-    "confidence": 0.6881,
+    "crypto_sentiment": 0.4656,
+    "global_sentiment": 0.4513,
+    "combined_sentiment": 0.4701,
+    "confidence": 0.6928,
     "counts": {
-      "crypto": 50,
-      "global": 39
+      "crypto": 51,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 89187,
-      "btc_change_24h": -0.53,
-      "eth_price": 2950.47,
-      "eth_change_24h": 0.07,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 89254,
+      "btc_change_24h": -0.44,
+      "eth_price": 2953.53,
+      "eth_change_24h": 0.33,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 86953247208,
+        "volume_24h": 80855994863,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-11T04:52:04.749701+00:00",
-      "crypto": 0.2233,
-      "global": 0.5509,
-      "combined": 0.2967,
-      "counts": {
-        "crypto": 64,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-11T08:35:09.869540+00:00",
       "crypto": 0.2959,
@@ -1008,6 +998,16 @@
         "crypto": 50,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-01-24T20:29:11.349316+00:00",
+      "crypto": 0.4656,
+      "global": 0.4513,
+      "combined": 0.4701,
+      "counts": {
+        "crypto": 51,
+        "global": 40
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "2 Under-the-Radar Biotech Stocks Set to Boom in 2026",
         "url": "https://www.fool.com/investing/2026/01/24/2-under-the-radar-biotech-stocks-set-to-boom-in-20/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7503,
+        "weight": 0.7002,
         "score": 0.6667
+      },
+      {
+        "title": "PENGUIN memecoin surges 564% following White House social media post",
+        "url": "https://cointelegraph.com/news/penguin-memecoin-surge-564-white-house?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7926,
+        "score": 0.5333
       },
       {
         "title": "Here's what bitcoin bulls are saying as price remains stuck during global rally",
         "url": "https://www.coindesk.com/markets/2026/01/24/here-s-what-bitcoin-bulls-are-saying-as-price-remains-stuck-during-global-rally",
         "source": "CoinDesk",
-        "weight": 0.6718,
+        "weight": 0.627,
         "score": 0.5333
-      },
-      {
-        "title": "Agora's Nick van Eck bets on stablecoin boom in enterprise payments",
-        "url": "https://www.coindesk.com/business/2026/01/24/agora-s-nick-van-eck-bets-on-stablecoin-boom-in-enterprise-payments",
-        "source": "CoinDesk",
-        "weight": 0.804,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1046,14 +1046,14 @@
         "title": "Want a More Reliable Retirement Paycheck? Use These ETFs to Supplement Your Social Security",
         "url": "https://247wallst.com/investing/2026/01/24/want-a-more-reliable-retirement-paycheck-use-these-etfs-to-supplement-your-social-security/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4079,
+        "weight": 0.3806,
         "score": -0.9667
       },
       {
         "title": "Coinbase CEO says Big banks now view crypto as an ‘existential’ threat to their business",
         "url": "https://www.coindesk.com/business/2026/01/24/coinbase-ceo-says-big-banks-now-view-crypto-as-an-existential-threat-to-their-business",
         "source": "CoinDesk",
-        "weight": 0.9426,
+        "weight": 0.8797,
         "score": -0.3333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.6577759886670245,
-          "price_change_24h": -0.08733
+          "volume_mcap_ratio": 0.5728480666540601,
+          "price_change_24h": -0.08313
         }
       ],
       "momentum_shifts": []
@@ -1070,31 +1070,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2026-01-24",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3451,
-      "crypto_high": 0.4339,
-      "crypto_low": 0.2919,
-      "global_avg": 0.4158,
-      "global_high": 0.4412,
-      "global_low": 0.3781,
-      "combined_avg": 0.3767,
-      "combined_high": 0.4445,
-      "combined_low": 0.3356
-    },
-    "market_indicators_24h": {
-      "change24h": -0.007,
-      "vol": 0.03,
-      "fearGreed": 25,
-      "momentum": -0.127,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2026-01-24T19:53:18.842683+00:00"
   }
 }
