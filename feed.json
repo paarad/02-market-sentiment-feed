@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-24T12:54:56.619209+00:00",
+  "updated_at": "2026-01-24T16:33:14.902364+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.074,
+    "change24h": -0.009,
+    "vol": 0.052,
     "fearGreed": 25,
-    "momentum": 0.017,
-    "regime": "sideways",
+    "momentum": -0.164,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3016,
-    "global_sentiment": 0.3781,
-    "combined_sentiment": 0.341,
-    "confidence": 0.6284,
+    "crypto_sentiment": 0.3667,
+    "global_sentiment": 0.4187,
+    "combined_sentiment": 0.3932,
+    "confidence": 0.6618,
     "counts": {
       "crypto": 48,
-      "global": 43
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 89388,
-      "btc_change_24h": 0.19,
-      "eth_price": 2957.64,
-      "eth_change_24h": 0.81,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 89117,
+      "btc_change_24h": -0.38,
+      "eth_price": 2951.02,
+      "eth_change_24h": 0.35,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 142285151091,
-        "high_activity_coins": 2
+        "volume_24h": 115397136929,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 57.05,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-10T20:29:48.957931+00:00",
-      "crypto": 0.2715,
-      "global": 0.5788,
-      "combined": 0.3352,
-      "counts": {
-        "crypto": 64,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-11T02:29:07.879950+00:00",
       "crypto": 0.2271,
@@ -1008,66 +998,71 @@
         "crypto": 48,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-01-24T16:33:14.902364+00:00",
+      "crypto": 0.3667,
+      "global": 0.4187,
+      "combined": 0.3932,
+      "counts": {
+        "crypto": 48,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Musk’s $1 trillion pay package renews focus on soaring CEO compensation",
-        "url": "https://www.cnbc.com/2026/01/24/musks-1-trillion-pay-package-renews-focus-on-rising-ceo-compensation.html",
+        "title": "Here's what bitcoin bulls are saying as price remains stuck during global rally",
+        "url": "https://www.coindesk.com/markets/2026/01/24/here-s-what-bitcoin-bulls-are-saying-as-price-remains-stuck-during-global-rally",
+        "source": "CoinDesk",
+        "weight": 0.9876,
+        "score": 0.5333
+      },
+      {
+        "title": "Trump withdraws 'Board of Peace' invitation to Carney in widening rift with Canada",
+        "url": "https://www.cnbc.com/2026/01/23/trump-withdraws-board-of-peace-invitation-to-carney-in-widening-rift-with-canada.html",
         "source": "CNBC Markets",
-        "weight": 0.7197,
+        "weight": 0.7526,
         "score": 0.3333
       },
       {
-        "title": "Leishen Energy Holding Co., Ltd. Announces Receipt of Nasdaq Notice Regarding Annual Meeting Requirement",
-        "url": "https://finance.yahoo.com/news/leishen-energy-holding-co-ltd-011400633.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2075,
-        "score": 0.6333
-      },
-      {
-        "title": "This ETF Almost Doubled Last Year and It's Nearly Twice as Cheap as the S&P 500. Is It a Buy?",
-        "url": "https://www.fool.com/investing/2026/01/23/this-etf-doubled-last-year-and-its-twice-as-cheap/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.33,
+        "title": "Why European Wine Could Get Pricier Under New US Tariffs",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-24/why-european-wine-could-get-pricier-under-new-us-tariffs-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6738,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Want a More Reliable Retirement Paycheck? Use These ETFs to Supplement Your Social Security",
+        "url": "https://247wallst.com/investing/2026/01/24/want-a-more-reliable-retirement-paycheck-use-these-etfs-to-supplement-your-social-security/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5995,
+        "score": -0.9667
+      },
+      {
+        "title": "Self-custody is no longer a retail hobby. It is becoming institutional infrastructure",
+        "url": "https://cryptoslate.com/self-custody-is-no-longer-a-retail-hobby-it-is-becoming-institutional-infrastructure/",
+        "source": "CryptoSlate",
+        "weight": 0.6644,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Could Royal Caribbean Be a Long-Term Wealth Builder for Patient Investors?​",
-        "url": "https://www.fool.com/investing/2026/01/24/could-royal-caribbean-be-a-long-term-wealth-builde/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4578,
-        "score": -0.6333
-      },
-      {
-        "title": "Ethereum Foundation makes post quantum security a top priority as new team forms",
-        "url": "https://www.coindesk.com/tech/2026/01/24/ethereum-foundation-makes-post-quantum-security-a-top-priority-as-new-team-forms",
-        "source": "CoinDesk",
-        "weight": 0.4378,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9201945973758282,
-          "price_change_24h": -0.09785
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3390897770361832,
-          "price_change_24h": -0.02637
+          "volume_mcap_ratio": 0.7145244917572263,
+          "price_change_24h": -0.09601
         }
       ],
       "momentum_shifts": []
