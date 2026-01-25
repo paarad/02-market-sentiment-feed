@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-25T02:31:33.453452+00:00",
+  "updated_at": "2026-01-25T04:55:44.061702+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.021,
+    "change24h": -0.015,
+    "vol": 0.052,
     "fearGreed": 25,
-    "momentum": -0.119,
+    "momentum": -0.256,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4253,
-    "global_sentiment": 0.4062,
-    "combined_sentiment": 0.4362,
-    "confidence": 0.5679,
+    "crypto_sentiment": 0.4147,
+    "global_sentiment": 0.4165,
+    "combined_sentiment": 0.4291,
+    "confidence": 0.5295,
     "counts": {
-      "crypto": 48,
-      "global": 35
+      "crypto": 62,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 89005,
-      "btc_change_24h": -0.56,
-      "eth_price": 2949.27,
-      "eth_change_24h": -0.21,
+      "btc_price": 88925,
+      "btc_change_24h": -0.88,
+      "eth_price": 2942.08,
+      "eth_change_24h": -0.54,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.1,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 70877267384,
+        "volume_24h": 71691018752,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.03,
+        "btc_dominance": 57.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-11T12:55:05.584025+00:00",
-      "crypto": 0.2695,
-      "global": 0.5794,
-      "combined": 0.3338,
-      "counts": {
-        "crypto": 66,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-01-11T16:33:07.372072+00:00",
       "crypto": 0.2672,
@@ -1008,33 +998,50 @@
         "crypto": 48,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-01-25T04:55:44.061702+00:00",
+      "crypto": 0.4147,
+      "global": 0.4165,
+      "combined": 0.4291,
+      "counts": {
+        "crypto": 62,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "AGG vs. BND: Comparing Two of the Most Widely Traded Bond Funds",
+        "url": "https://www.fool.com/coverage/etfs/2026/01/24/agg-vs-bnd-comparing-two-of-the-most-widely-traded-bond-funds/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7593,
+        "score": 0.3333
+      },
+      {
         "title": "2 Under-the-Radar Biotech Stocks Set to Boom in 2026",
         "url": "https://www.fool.com/investing/2026/01/24/2-under-the-radar-biotech-stocks-set-to-boom-in-20/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3485,
+        "weight": 0.264,
         "score": 0.6667
       },
       {
         "title": "PENGUIN memecoin surges 564% following White House social media post",
         "url": "https://cointelegraph.com/news/penguin-memecoin-surge-564-white-house?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3945,
-        "score": 0.5333
-      },
-      {
-        "title": "Here's what bitcoin bulls are saying as price remains stuck during global rally",
-        "url": "https://www.coindesk.com/markets/2026/01/24/here-s-what-bitcoin-bulls-are-saying-as-price-remains-stuck-during-global-rally",
-        "source": "CoinDesk",
-        "weight": 0.3121,
+        "weight": 0.2989,
         "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "DIA vs. VOOG: How Dow Jones Stability Compares to S&P 500 Growth",
+        "url": "https://www.fool.com/coverage/etfs/2026/01/24/dia-vs-voog-how-dow-jones-stability-compares-to-s-and-p-500-growth/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7145,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,17 +1050,10 @@
         "score": -0.5333
       },
       {
-        "title": "US Winter Storm Sets Off Power Grid Emergencies, Travel Chaos",
+        "title": "US Winter Storm Prompts Power Grid Emergencies, Travel Chaos",
         "url": "https://www.bloomberg.com/news/articles/2026-01-25/winter-storm-shakes-energy-transportation-across-the-us",
         "source": "Bloomberg Markets",
-        "weight": 0.601,
-        "score": -0.3333
-      },
-      {
-        "title": "Takaichi Warns Japan Is Ready to Act on Speculative Moves",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-24/japan-s-takaichi-warns-ready-to-act-on-speculative-market-moves",
-        "source": "Bloomberg Markets",
-        "weight": 0.5644,
+        "weight": 0.4553,
         "score": -0.3333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4235913183017993,
-          "price_change_24h": -0.04491
+          "volume_mcap_ratio": 0.3539816665294855,
+          "price_change_24h": -0.00275
         }
       ],
       "momentum_shifts": []
