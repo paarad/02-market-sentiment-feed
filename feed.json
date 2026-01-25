@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-25T04:55:44.061702+00:00",
+  "updated_at": "2026-01-25T08:35:47.145164+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.052,
+    "change24h": -0.017,
+    "vol": 0.073,
     "fearGreed": 25,
-    "momentum": -0.256,
+    "momentum": -0.29,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4147,
-    "global_sentiment": 0.4165,
-    "combined_sentiment": 0.4291,
-    "confidence": 0.5295,
+    "crypto_sentiment": 0.4311,
+    "global_sentiment": 0.3888,
+    "combined_sentiment": 0.4391,
+    "confidence": 0.533,
     "counts": {
-      "crypto": 62,
-      "global": 36
+      "crypto": 63,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 88925,
-      "btc_change_24h": -0.88,
-      "eth_price": 2942.08,
-      "eth_change_24h": -0.54,
+      "btc_price": 88509,
+      "btc_change_24h": -1.08,
+      "eth_price": 2936.98,
+      "eth_change_24h": -0.58,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 71691018752,
+        "volume_24h": 72843788011,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.04,
+        "btc_dominance": 56.97,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-11T16:33:07.372072+00:00",
-      "crypto": 0.2672,
-      "global": 0.6425,
-      "combined": 0.3372,
-      "counts": {
-        "crypto": 51,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-01-11T19:53:38.647309+00:00",
       "crypto": 0.2942,
@@ -1008,38 +998,48 @@
         "crypto": 62,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-01-25T08:35:47.145164+00:00",
+      "crypto": 0.4311,
+      "global": 0.3888,
+      "combined": 0.4391,
+      "counts": {
+        "crypto": 63,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Polymarket sees January US gov't shutdown odds surge to 77%",
+        "url": "https://cointelegraph.com/news/us-government-shutdown-january-polymarket-odds-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5423,
+        "score": 0.8667
+      },
+      {
         "title": "AGG vs. BND: Comparing Two of the Most Widely Traded Bond Funds",
         "url": "https://www.fool.com/coverage/etfs/2026/01/24/agg-vs-bnd-comparing-two-of-the-most-widely-traded-bond-funds/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7593,
+        "weight": 0.497,
         "score": 0.3333
       },
       {
         "title": "2 Under-the-Radar Biotech Stocks Set to Boom in 2026",
         "url": "https://www.fool.com/investing/2026/01/24/2-under-the-radar-biotech-stocks-set-to-boom-in-20/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.264,
+        "weight": 0.1728,
         "score": 0.6667
-      },
-      {
-        "title": "PENGUIN memecoin surges 564% following White House social media post",
-        "url": "https://cointelegraph.com/news/penguin-memecoin-surge-564-white-house?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2989,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "DIA vs. VOOG: How Dow Jones Stability Compares to S&P 500 Growth",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/24/dia-vs-voog-how-dow-jones-stability-compares-to-s-and-p-500-growth/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7145,
+        "title": "Once-prominent NFT marketplace Nifty Gateway to wind down operations",
+        "url": "https://cointelegraph.com/news/nifty-gateway-shutdown-nft-marketplace-closure-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6774,
         "score": -0.6333
       },
       {
@@ -1050,19 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "US Winter Storm Prompts Power Grid Emergencies, Travel Chaos",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-25/winter-storm-shakes-energy-transportation-across-the-us",
-        "source": "Bloomberg Markets",
-        "weight": 0.4553,
-        "score": -0.3333
+        "title": "DIA vs. VOOG: How Dow Jones Stability Compares to S&P 500 Growth",
+        "url": "https://www.fool.com/coverage/etfs/2026/01/24/dia-vs-voog-how-dow-jones-stability-compares-to-s-and-p-500-growth/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4677,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3539816665294855,
-          "price_change_24h": -0.00275
+          "volume_mcap_ratio": 0.3057135368370396,
+          "price_change_24h": -0.00426
         }
       ],
       "momentum_shifts": []
