@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-25T08:35:47.145164+00:00",
+  "updated_at": "2026-01-25T12:56:46.540209+00:00",
   "indicators": {
-    "change24h": -0.017,
-    "vol": 0.073,
+    "change24h": -0.012,
+    "vol": 0.046,
     "fearGreed": 25,
-    "momentum": -0.29,
+    "momentum": -0.213,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4311,
-    "global_sentiment": 0.3888,
-    "combined_sentiment": 0.4391,
-    "confidence": 0.533,
+    "crypto_sentiment": 0.3846,
+    "global_sentiment": 0.4496,
+    "combined_sentiment": 0.4092,
+    "confidence": 0.5658,
     "counts": {
-      "crypto": 63,
-      "global": 33
+      "crypto": 50,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 88509,
-      "btc_change_24h": -1.08,
-      "eth_price": 2936.98,
-      "eth_change_24h": -0.58,
+      "btc_price": 88619,
+      "btc_change_24h": -0.86,
+      "eth_price": 2936.93,
+      "eth_change_24h": -0.7,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 72843788011,
+        "volume_24h": 83705269330,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.97,
+        "btc_dominance": 56.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-11T19:53:38.647309+00:00",
-      "crypto": 0.2942,
-      "global": 0.5522,
-      "combined": 0.35,
-      "counts": {
-        "crypto": 64,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-01-11T20:30:48.062772+00:00",
       "crypto": 0.2385,
@@ -1008,39 +998,49 @@
         "crypto": 63,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-01-25T12:56:46.540209+00:00",
+      "crypto": 0.3846,
+      "global": 0.4496,
+      "combined": 0.4092,
+      "counts": {
+        "crypto": 50,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Cathie Wood’s ARK adds Coinbase, Circle, Bullish as crypto slides",
+        "url": "https://cointelegraph.com/news/ark-invest-buys-coinbase-circle-bullish-crypto-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7643,
+        "score": 0.5333
+      },
+      {
         "title": "Polymarket sees January US gov't shutdown odds surge to 77%",
         "url": "https://cointelegraph.com/news/us-government-shutdown-january-polymarket-odds-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5423,
+        "weight": 0.3281,
         "score": 0.8667
       },
       {
-        "title": "AGG vs. BND: Comparing Two of the Most Widely Traded Bond Funds",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/24/agg-vs-bnd-comparing-two-of-the-most-widely-traded-bond-funds/?.tsrc=rss",
+        "title": "Every Stock in This Index Group Is Up Double-Digits in 2026",
+        "url": "https://www.fool.com/investing/2026/01/25/every-stock-in-this-index-group-is-up-double-digit/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.497,
+        "weight": 0.7896,
         "score": 0.3333
-      },
-      {
-        "title": "2 Under-the-Radar Biotech Stocks Set to Boom in 2026",
-        "url": "https://www.fool.com/investing/2026/01/24/2-under-the-radar-biotech-stocks-set-to-boom-in-20/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1728,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Once-prominent NFT marketplace Nifty Gateway to wind down operations",
-        "url": "https://cointelegraph.com/news/nifty-gateway-shutdown-nft-marketplace-closure-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6774,
-        "score": -0.6333
+        "title": "Explosive truth behind crypto bots that front-run thieves to “save” funds — but they decide who gets paid back",
+        "url": "https://cryptoslate.com/explosive-truth-behind-bots-that-front-run-thieves-to-save-funds-but-they-decide-who-gets-paid-back/",
+        "source": "CryptoSlate",
+        "weight": 0.563,
+        "score": -0.8333
       },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
@@ -1050,10 +1050,10 @@
         "score": -0.5333
       },
       {
-        "title": "DIA vs. VOOG: How Dow Jones Stability Compares to S&P 500 Growth",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/24/dia-vs-voog-how-dow-jones-stability-compares-to-s-and-p-500-growth/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4677,
+        "title": "Colombia’s second-largest pension fund to offer Bitcoin exposure",
+        "url": "https://cointelegraph.com/news/colombia-second-largest-pension-fund-bitcoin-exposure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5424,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3057135368370396,
-          "price_change_24h": -0.00426
+          "volume_mcap_ratio": 0.3028333784174721,
+          "price_change_24h": 0.00912
         }
       ],
       "momentum_shifts": []
