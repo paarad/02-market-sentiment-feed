@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-26T02:30:35.793244+00:00",
+  "updated_at": "2026-01-26T04:58:59.545716+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.08,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 20,
-    "momentum": -0.509,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3837,
-    "global_sentiment": 0.6113,
-    "combined_sentiment": 0.4221,
-    "confidence": 0.6372,
+    "crypto_sentiment": 0.4099,
+    "global_sentiment": 0.631,
+    "combined_sentiment": 0.4433,
+    "confidence": 0.6413,
     "counts": {
       "crypto": 53,
-      "global": 41
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 87788,
-      "btc_change_24h": -1.36,
-      "eth_price": 2876.3,
-      "eth_change_24h": -2.51,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 87617,
+      "btc_change_24h": -1.45,
+      "eth_price": 2862.01,
+      "eth_change_24h": -2.72,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 179405073617,
+        "volume_24h": 192931386110,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.09,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-12T13:02:07.608628+00:00",
-      "crypto": 0.3719,
-      "global": 0.3947,
-      "combined": 0.3952,
-      "counts": {
-        "crypto": 63,
-        "global": 53
-      }
-    },
     {
       "ts": "2026-01-12T16:35:46.496590+00:00",
       "crypto": 0.4539,
@@ -1008,33 +998,50 @@
         "crypto": 53,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-01-26T04:58:59.545716+00:00",
+      "crypto": 0.4099,
+      "global": 0.631,
+      "combined": 0.4433,
+      "counts": {
+        "crypto": 53,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Gold hits record high over $5K, further diverging from Bitcoin",
+        "url": "https://cointelegraph.com/news/gold-reaches-all-time-high-5k-diverging-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6762,
+        "score": 0.8667
+      },
+      {
+        "title": "Gold Tops $5,000 as Global Upheaval Fuels Precious Metals Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-25/gold-tops-5-000-as-global-upheaval-fuels-precious-metals-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.406,
+        "score": 1.0
+      },
+      {
         "title": "Copper Extends Rally as Dollar Weakness Carries Metals Higher",
         "url": "https://www.bloomberg.com/news/articles/2026-01-26/copper-extends-rally-as-dollar-weakness-carries-metals-higher",
         "source": "Bloomberg Markets",
-        "weight": 0.7661,
-        "score": 0.6667
-      },
-      {
-        "title": "Shutdown odds grow as Senate Republicans won't remove DHS funding after Pretti killing",
-        "url": "https://www.cnbc.com/2026/01/25/minneapolis-shooting-government-shutdown.html",
-        "source": "CNBC Markets",
-        "weight": 0.5896,
-        "score": 0.6667
-      },
-      {
-        "title": "US Natural Gas Hits $6 for First Time Since 2022 on Arctic Blast",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-25/us-natural-gas-futures-soar-above-6-for-first-time-since-2022",
-        "source": "Bloomberg Markets",
-        "weight": 0.5443,
+        "weight": 0.5757,
         "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "Majority of institutional investors say Bitcoin is undervalued: Coinbase",
+        "url": "https://cointelegraph.com/news/institutional-investors-say-bitcoin-undervalued-coinbase-survey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7596,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 20 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1046,28 +1053,21 @@
         "title": "China didn’t grab many headlines at Davos, but it's the elephant in the room",
         "url": "https://www.cnbc.com/2026/01/26/china-isnt-grabbing-headlines-at-davos-but-its-the-elephant-in-the-room.html",
         "source": "CNBC Markets",
-        "weight": 0.6051,
+        "weight": 0.4547,
         "score": -0.6333
-      },
-      {
-        "title": "Global crypto market cap down -1.5% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42303903290482037,
-          "price_change_24h": 0.0347
+          "volume_mcap_ratio": 0.45432729458060783,
+          "price_change_24h": 0.00747
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.40482425653217785,
-          "price_change_24h": -0.05647
+          "volume_mcap_ratio": 0.43667912758763,
+          "price_change_24h": -0.07491
         }
       ],
       "momentum_shifts": []
