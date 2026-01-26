@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-26T13:03:47.847917+00:00",
+  "updated_at": "2026-01-26T16:42:58.557048+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.011,
+    "vol": 0.075,
     "fearGreed": 20,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.189,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.289,
-    "global_sentiment": 0.5433,
-    "combined_sentiment": 0.3453,
-    "confidence": 0.7295,
+    "crypto_sentiment": 0.295,
+    "global_sentiment": 0.4624,
+    "combined_sentiment": 0.3431,
+    "confidence": 0.7904,
     "counts": {
       "crypto": 52,
-      "global": 48
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 87747,
-      "btc_change_24h": -1.04,
-      "eth_price": 2900.93,
-      "eth_change_24h": -1.27,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 87467,
+      "btc_change_24h": -0.4,
+      "eth_price": 2901.3,
+      "eth_change_24h": 0.49,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 217518300787,
+        "volume_24h": 232287749100,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 56.82,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-12T20:33:08.765219+00:00",
-      "crypto": 0.5695,
-      "global": 0.4523,
-      "combined": 0.5482,
-      "counts": {
-        "crypto": 66,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-01-13T02:10:13.703274+00:00",
       "crypto": 0.4737,
@@ -1008,66 +998,76 @@
         "crypto": 52,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-01-26T16:42:58.557048+00:00",
+      "crypto": 0.295,
+      "global": 0.4624,
+      "combined": 0.3431,
+      "counts": {
+        "crypto": 52,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Futures Fall, Gold Tops $5,000 After Fresh Trump Tariff Threats Reignite 'Sell America' Trade",
-        "url": "https://finance.yahoo.com/m/ddacce9e-697a-3eeb-8084-4379de679dca/stock-futures-fall%2C-gold-tops.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6327,
-        "score": 1.0
+        "title": "Shutdown odds grow as Senate Republicans won't remove DHS funding after Pretti killing",
+        "url": "https://www.cnbc.com/2026/01/25/minneapolis-shooting-government-shutdown.html",
+        "source": "CNBC Markets",
+        "weight": 0.7016,
+        "score": 0.6667
+      },
+      {
+        "title": "Gold, Precious Metals Seeing Multiple Drivers, Says Morgan Stanley’s Gower",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-26/multiple-drivers-for-precious-metals-morgan-stanley-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.783,
+        "score": 0.5333
       },
       {
         "title": "Gold’s vertical surge toward $7,150 exposes Bitcoin but there’s 4 ways the narrative could flip fast",
         "url": "https://cryptoslate.com/golds-vertical-surge-toward-7150-exposes-bitcoin-but-theres-4-ways-the-narrative-could-flip-fast/",
         "source": "CryptoSlate",
-        "weight": 0.5978,
+        "weight": 0.392,
         "score": 1.0
-      },
-      {
-        "title": "South African Stocks Hit Fresh Record High, Gains Seen Extending",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-26/south-african-stocks-hit-fresh-record-high-gains-seen-extending",
-        "source": "Bloomberg Markets",
-        "weight": 0.648,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin hash rate slides during U.S. winter storm while markets shrug off mining disruption",
-        "url": "https://www.coindesk.com/markets/2026/01/26/bitcoin-hash-rate-slides-during-u-s-winter-storm-as-markets-shrug-off-mining-disruption",
-        "source": "CoinDesk",
-        "weight": 0.8563,
-        "score": -0.9333
-      },
-      {
-        "title": "Bitcoin crashed 30% after the last Yen intervention, but there's a catch",
-        "url": "https://cointelegraph.com/news/bitcoin-crashed-30-percent-last-yen-intervention-but-catch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.674,
+        "title": "Next Brazil Leader Needs Clear Debt Plan, Ex-Treasury Chief Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-26/next-brazil-leader-needs-clear-debt-plan-ex-treasury-chief-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.7852,
         "score": -0.9667
       },
       {
-        "title": "Bitcoin trails gold as yen intervention concerns weigh on risk assets",
-        "url": "https://www.coindesk.com/daybook-us/2026/01/26/bitcoin-trails-gold-as-yen-intervention-concerns-weigh-on-risk-assets",
-        "source": "CoinDesk",
-        "weight": 0.9311,
-        "score": -0.6667
+        "title": "US gov‘t officials delay market structure markup, SEC-CFTC crypto meeting",
+        "url": "https://cointelegraph.com/news/senate-ag-committee-delay-market-structure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7747,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin hashrate collapses weakening security as major mining pool drops 30% of its power",
+        "url": "https://cryptoslate.com/bitcoin-hashrate-collapses-weakening-security-as-us-mining-pool-loses-30-of-its-power/",
+        "source": "CryptoSlate",
+        "weight": 0.6582,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5047435447033713,
-          "price_change_24h": 0.05377
+          "volume_mcap_ratio": 0.5547913512839745,
+          "price_change_24h": 0.0446
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.44796639119800774,
-          "price_change_24h": 0.00124
+          "volume_mcap_ratio": 0.4612495214210851,
+          "price_change_24h": -0.0282
         }
       ],
       "momentum_shifts": []
