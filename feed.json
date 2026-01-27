@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-26T20:35:23.298943+00:00",
+  "updated_at": "2026-01-27T02:26:21.843923+00:00",
   "indicators": {
-    "change24h": 0.05,
-    "vol": 0.121,
-    "fearGreed": 20,
-    "momentum": 0.881,
+    "change24h": 0.023,
+    "vol": 0.057,
+    "fearGreed": 29,
+    "momentum": 0.398,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.415,
-    "global_sentiment": 0.573,
-    "combined_sentiment": 0.4423,
-    "confidence": 0.7867,
+    "crypto_sentiment": 0.4526,
+    "global_sentiment": 0.4481,
+    "combined_sentiment": 0.4601,
+    "confidence": 0.778,
     "counts": {
-      "crypto": 63,
-      "global": 42
+      "crypto": 51,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 87755,
-      "btc_change_24h": 1.8,
-      "eth_price": 2914.34,
-      "eth_change_24h": 4.56,
+      "btc_price": 88526,
+      "btc_change_24h": 0.9,
+      "eth_price": 2933.57,
+      "eth_change_24h": 2.05,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
+      "regime_strength": 1.0,
       "market_breadth": 0.95,
       "fear_greed": {
-        "value": 20,
-        "classification": "Extreme Fear",
+        "value": 29,
+        "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 206512777820,
+        "volume_24h": 180004755848,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.89,
+        "btc_dominance": 57.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-13T08:40:04.226310+00:00",
-      "crypto": 0.4738,
-      "global": 0.4048,
-      "combined": 0.4724,
-      "counts": {
-        "crypto": 66,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-01-13T13:02:05.734870+00:00",
       "crypto": 0.4193,
@@ -1008,66 +998,76 @@
         "crypto": 63,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-27T02:26:21.843923+00:00",
+      "crypto": 0.4526,
+      "global": 0.4481,
+      "combined": 0.4601,
+      "counts": {
+        "crypto": 51,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Rises As Gold Clears A Milestone; Rare Earth Play Surges On This News (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/32dbcb78-1993-3ffa-b325-f1fe335cc69a/stock-market-today%3A-dow-rises.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7421,
-        "score": 0.6667
+        "title": "China’s Zijin Gold Jumps 19% After $4 Billion Africa Mine Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-27/china-s-zijin-gold-jumps-19-after-4-billion-africa-mine-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.7871,
+        "score": 1.0
       },
       {
-        "title": "Zoom Stock Is Soaring. Its Investment in Anthropic Is a ‘Hidden Gem.’",
-        "url": "https://finance.yahoo.com/m/df238621-c5c4-34f2-9a19-04c8036b3d7c/zoom-stock-is-soaring.-its.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7136,
-        "score": 0.6667
+        "title": "Ether price gained 200% the last time this global liquidity signal flashed",
+        "url": "https://cointelegraph.com/news/ether-price-gained-200percent-the-last-time-this-global-liquidity-signal-flashed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.791,
+        "score": 0.8667
       },
       {
-        "title": "Shutdown odds grow as Senate Republicans say they won't remove DHS funding after Pretti killing",
-        "url": "https://www.cnbc.com/2026/01/25/minneapolis-shooting-government-shutdown.html",
+        "title": "China's industrial profits rise 0.6% in 2025, accelerating in December as output expands despite weak demand",
+        "url": "https://www.cnbc.com/2026/01/27/china-industrial-profits-2025-december-growth-factory-consumer-demand.html",
         "source": "CNBC Markets",
-        "weight": 0.6748,
+        "weight": 0.7686,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Tech's top CEOs mum after ICE killings, while leaders like Reid Hoffman, Yann LeCun speak out",
-        "url": "https://www.cnbc.com/2026/01/26/alex-pretti-killing-ice-tech-ceo-response.html",
-        "source": "CNBC Markets",
-        "weight": 0.7892,
-        "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 20 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "IWO vs. VUG: Comparing Growth ETFs With Different Focuses",
-        "url": "https://www.fool.com/coverage/etfs/2026/01/26/iwo-offers-broader-growth-exposure-than-vug/?.tsrc=rss",
+        "title": "Why Intel Stock Fell 5.7% Today",
+        "url": "https://www.fool.com/investing/2026/01/26/why-intel-stock-fell-57-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6735,
-        "score": -0.6333
+        "weight": 0.7184,
+        "score": -0.9333
+      },
+      {
+        "title": "North Korea–Linked Hackers Use Deepfake Video Calls to Target Crypto Workers",
+        "url": "https://decrypt.co/355979/north-korea-hackers-deepfake-video-calls-target-crypto-workers",
+        "source": "Decrypt",
+        "weight": 0.8409,
+        "score": -0.7333
+      },
+      {
+        "title": "China Solar Giant Warns of Demand Whiplash after Rebate Rollback",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-26/china-solar-giant-warns-of-demand-whiplash-after-rebate-rollback",
+        "source": "Bloomberg Markets",
+        "weight": 0.6023,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.49766181243236796,
-          "price_change_24h": 0.01188
+          "volume_mcap_ratio": 0.4376292304269167,
+          "price_change_24h": 0.01175
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.410637699911265,
-          "price_change_24h": -0.0028
+          "volume_mcap_ratio": 0.37441203650291943,
+          "price_change_24h": 0.02911
         }
       ],
       "momentum_shifts": []
