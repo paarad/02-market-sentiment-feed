@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-27T08:41:52.601464+00:00",
+  "updated_at": "2026-01-27T13:06:10.797082+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.03,
+    "change24h": 0.008,
+    "vol": 0.042,
     "fearGreed": 29,
-    "momentum": 0.122,
+    "momentum": 0.143,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4602,
-    "global_sentiment": 0.4349,
-    "combined_sentiment": 0.4647,
-    "confidence": 0.7733,
+    "crypto_sentiment": 0.404,
+    "global_sentiment": 0.5984,
+    "combined_sentiment": 0.4362,
+    "confidence": 0.7842,
     "counts": {
-      "crypto": 56,
+      "crypto": 52,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 88126,
-      "btc_change_24h": 0.2,
-      "eth_price": 2918.7,
-      "eth_change_24h": 0.24,
+      "btc_price": 87886,
+      "btc_change_24h": 0.26,
+      "eth_price": 2914.1,
+      "eth_change_24h": 0.6,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 163496692606,
+        "volume_24h": 176874156030,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.94,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-13T19:53:58.449917+00:00",
-      "crypto": 0.5293,
-      "global": 0.482,
-      "combined": 0.5204,
-      "counts": {
-        "crypto": 68,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-01-13T20:33:23.066463+00:00",
       "crypto": 0.5367,
@@ -1008,61 +998,71 @@
         "crypto": 56,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-27T13:06:10.797082+00:00",
+      "crypto": 0.404,
+      "global": 0.5984,
+      "combined": 0.4362,
+      "counts": {
+        "crypto": 52,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ASIC wins $9.3M penalty against BPS Financial over misleading Qoin Wallet",
-        "url": "https://cointelegraph.com/news/asic-bps-financial-qoin-wallet-penalty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.703,
-        "score": 0.6667
-      },
-      {
-        "title": "Fundstrat’s Lee sees a crypto comeback once precious metals cool",
-        "url": "https://cointelegraph.com/news/when-gold-silver-take-break-btc-eth-will-surge-tom-lee?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4434,
+        "title": "Stocks and Gold Near Record Highs? Maybe It’s About Trust and Verify.",
+        "url": "https://finance.yahoo.com/m/81971998-f695-386b-921e-f32e93765139/stocks-and-gold-near-record.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7056,
         "score": 1.0
       },
       {
-        "title": "Bitcoin job listings rise 6% in 2025, led by non-technical roles",
-        "url": "https://cointelegraph.com/news/bitcoin-jobs-grew-6-percent-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4398,
-        "score": 0.9667
+        "title": "S&P 500 Nears Record as Markets Shrug Off Shutdown Fears.",
+        "url": "https://finance.yahoo.com/m/c6f6afd0-1a16-33af-b2ac-f001f4b00983/s%26p-500-nears-record-as.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7126,
+        "score": 0.8667
+      },
+      {
+        "title": "Silver’s Parabolic Rally Pushes ETF Volume Near S&amp;P 500 Fund",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-27/silver-s-parabolic-rally-pushes-etf-volume-near-s-p-500-fund",
+        "source": "Bloomberg Markets",
+        "weight": 0.7675,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Germany Tests Demand for New 20-Year Bond in Sale Via Banks",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-27/germany-tests-demand-for-new-20-year-bond-in-sale-via-banks",
-        "source": "Bloomberg Markets",
-        "weight": 0.781,
+        "title": "Former SEC lawyer responds to Ripple CLARITY Act concerns in public submission",
+        "url": "https://cointelegraph.com/news/sec-crypto-task-force-ripple-clarity-passive-interest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6594,
         "score": -0.9667
       },
       {
-        "title": "Meta exec denies having access to WhatsApp chats amid privacy lawsuit",
-        "url": "https://cointelegraph.com/news/meta-denies-having-access-whatsapp-chats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5373,
+        "title": "Panic selling Bitcoin on Coinbase triggers a Binance price gap that reveals a “messy” institutional market failure",
+        "url": "https://cryptoslate.com/bitcoin-is-now-cheaper-on-coinbase-compared-to-binance-and-the-culprit-may-not-be-weak-us-demand/",
+        "source": "CryptoSlate",
+        "weight": 0.5761,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 29 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Investors Are Flocking to This ETF. It Could Outperform the S&P 500 for Years.",
+        "url": "https://www.fool.com/investing/2026/01/27/investors-are-flocking-to-this-etf-it-could-outper/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7845,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39116335842755057,
-          "price_change_24h": -0.0117
+          "volume_mcap_ratio": 0.3947216551728547,
+          "price_change_24h": -0.026
         }
       ],
       "momentum_shifts": []
