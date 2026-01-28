@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-28T08:41:54.931371+00:00",
+  "updated_at": "2026-01-28T13:06:27.742470+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.079,
+    "change24h": 0.042,
+    "vol": 0.106,
     "fearGreed": 29,
-    "momentum": 0.483,
+    "momentum": 0.74,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5255,
-    "global_sentiment": 0.6032,
-    "combined_sentiment": 0.5278,
-    "confidence": 0.7559,
+    "crypto_sentiment": 0.444,
+    "global_sentiment": 0.4675,
+    "combined_sentiment": 0.4553,
+    "confidence": 0.7805,
     "counts": {
-      "crypto": 68,
-      "global": 43
+      "crypto": 54,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 88998,
-      "btc_change_24h": 0.99,
-      "eth_price": 2992.37,
-      "eth_change_24h": 2.54,
+      "btc_price": 89882,
+      "btc_change_24h": 2.27,
+      "eth_price": 3026.74,
+      "eth_change_24h": 3.88,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187893140248,
-        "high_activity_coins": 1
+        "volume_24h": 189251201350,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.81,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-14T19:53:33.676262+00:00",
-      "crypto": 0.4533,
-      "global": 0.365,
-      "combined": 0.4537,
-      "counts": {
-        "crypto": 69,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-14T20:29:57.675036+00:00",
       "crypto": 0.4973,
@@ -1008,61 +998,76 @@
         "crypto": 68,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-01-28T13:06:27.742470+00:00",
+      "crypto": 0.444,
+      "global": 0.4675,
+      "combined": 0.4553,
+      "counts": {
+        "crypto": 54,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Japanese Retail Traders Placed Contrarian Yen Bets as It Soared",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-28/japanese-retail-traders-placed-contrarian-yen-bets-as-it-soared",
-        "source": "Bloomberg Markets",
-        "weight": 0.6576,
+        "title": "US megacap results to test market's tech trade, profit optimism",
+        "url": "https://finance.yahoo.com/news/us-megacap-results-test-markets-111936351.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6512,
         "score": 1.0
       },
       {
-        "title": "SK Hynix smashes earnings estimates as AI memory demand drives record profit",
-        "url": "https://www.cnbc.com/2026/01/28/sk-hynix-smashes-earnings-estimates-as-ai-memory-demand-drives-record-profit.html",
-        "source": "CNBC Markets",
-        "weight": 0.7677,
-        "score": 0.6667
+        "title": "January 2026's Top Growth Companies With Strong Insider Ownership",
+        "url": "https://finance.yahoo.com/news/january-2026s-top-growth-companies-113533216.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6715,
+        "score": 0.8667
       },
       {
-        "title": "Polen Focus Growth Strategy Sold Workday (WDAY) Amid Slowing Momentum in Enterprise Software",
-        "url": "https://finance.yahoo.com/news/polen-focus-growth-strategy-sold-081919254.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7659,
-        "score": 0.6667
+        "title": "Air Baltic Begins to Explore Stake Sale as IPO Efforts Stall",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/air-baltic-begins-to-explore-stake-sale-as-ipo-efforts-stall",
+        "source": "Bloomberg Markets",
+        "weight": 0.7699,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Trump’s Embrace of Weaker Dollar Deepens Greenback Woes",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-28/trump-s-embrace-of-weaker-dollar-deepens-greenback-woes",
+        "title": "Deutsche Bank raided by German police in money laundering probe",
+        "url": "https://www.cnbc.com/2026/01/28/deutsche-bank-raided-by-german-police-in-money-laundering-probe.html",
+        "source": "CNBC Markets",
+        "weight": 0.7703,
+        "score": -0.9667
+      },
+      {
+        "title": "Emerging Markets Extend Gains as Trump Embraces Weaker Dollar",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/emerging-markets-extend-gains-as-trump-embraces-weaker-dollar",
         "source": "Bloomberg Markets",
-        "weight": 0.7283,
+        "weight": 0.7862,
+        "score": -0.9333
+      },
+      {
+        "title": "Trump Downplays Weak Dollar; US 'Armada' Headed To Iran | Horizons Middle East & Africa 28/1/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-28/horizons-middle-east-africa-28-1-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6126,
         "score": -1.0
-      },
-      {
-        "title": "Up to Market to Determine Value of Currencies: Lescure",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-28/up-to-market-to-determine-value-of-currencies-lescure-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7482,
-        "score": -0.9333
-      },
-      {
-        "title": "France’s Lescure Says Let Markets Do Their Job as Yen Fluctuates",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-28/france-s-lescure-says-let-markets-do-their-job-as-yen-fluctuates",
-        "source": "Bloomberg Markets",
-        "weight": 0.6682,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4218072578869712,
-          "price_change_24h": 0.0031
+          "volume_mcap_ratio": 0.44820288779645207,
+          "price_change_24h": -0.00505
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3017507477274178,
+          "price_change_24h": -0.04529
         }
       ],
       "momentum_shifts": []
