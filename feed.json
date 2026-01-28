@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-28T16:48:48.712545+00:00",
+  "updated_at": "2026-01-28T19:59:01.684053+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.034,
+    "change24h": 0.013,
+    "vol": 0.045,
     "fearGreed": 29,
-    "momentum": 0.037,
+    "momentum": 0.22,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4802,
-    "global_sentiment": 0.4243,
-    "combined_sentiment": 0.4788,
-    "confidence": 0.7773,
+    "crypto_sentiment": 0.4716,
+    "global_sentiment": 0.4657,
+    "combined_sentiment": 0.4758,
+    "confidence": 0.8417,
     "counts": {
-      "crypto": 46,
-      "global": 42
+      "crypto": 59,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 89532,
-      "btc_change_24h": 1.03,
-      "eth_price": 2999.78,
-      "eth_change_24h": 0.43,
+      "btc_price": 89384,
+      "btc_change_24h": 1.24,
+      "eth_price": 3015.91,
+      "eth_change_24h": 1.36,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 185751931114,
+        "volume_24h": 183718420724,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.0,
+        "btc_dominance": 56.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-15T02:11:39.960070+00:00",
-      "crypto": 0.5269,
-      "global": 0.2657,
-      "combined": 0.5007,
-      "counts": {
-        "crypto": 71,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-01-15T04:48:33.855224+00:00",
       "crypto": 0.5241,
@@ -1008,66 +998,76 @@
         "crypto": 46,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-28T19:59:01.684053+00:00",
+      "crypto": 0.4716,
+      "global": 0.4657,
+      "combined": 0.4758,
+      "counts": {
+        "crypto": 59,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin price fails to follow as gold hits $5.3K record into FOMC",
-        "url": "https://cointelegraph.com/news/bitcoin-price-fails-follow-gold-hits-5-3k-record-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7731,
+        "title": "Circle shares rise 4% as Polymarket-driven USDC growth prompts analyst upgrade",
+        "url": "https://www.coindesk.com/markets/2026/01/28/circle-shares-rise-after-mizuho-upgrades-stock-on-polymarket-driven-usdc-growth",
+        "source": "CoinDesk",
+        "weight": 0.7478,
         "score": 1.0
       },
       {
-        "title": "Crops Gain as Weak Dollar, Trump Biofuel Comments Bolster Demand",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-28/crops-gain-as-weak-dollar-trump-biofuel-comments-bolster-demand",
+        "title": "General Motors Earns Slew of Target Boosts After Earnings Beat",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/general-motors-earns-slew-of-target-boosts-after-earnings-beat",
         "source": "Bloomberg Markets",
-        "weight": 0.7126,
-        "score": 1.0
+        "weight": 0.7108,
+        "score": 0.8667
       },
       {
-        "title": "HYPE price soars 58% amid exploding commodities trading on Hyperliquid",
-        "url": "https://cointelegraph.com/news/hype-price-soars-58-percent-exploding-commodities-trading-hyperliquid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Dubai Insurance launches crypto wallet  premium payments, claims settlements",
+        "url": "https://cointelegraph.com/news/dubai-insurance-crypto-wallet-premium-payments-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6788,
-        "score": 1.0
+        "weight": 0.6056,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Dimon’s $5 Billion Debanking Fight Is a Chance",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-28/opinion-dimon-s-5-billion-debanking-opportunity-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7909,
-        "score": -1.0
-      },
-      {
-        "title": "Top Wall Street Firms Met With SEC Crypto Task Force to Discuss DeFi Concerns",
-        "url": "https://decrypt.co/356166/top-wall-street-firms-met-sec-crypto-task-force-discuss-defi-concerns",
-        "source": "Decrypt",
-        "weight": 0.7291,
-        "score": -0.9667
-      },
-      {
-        "title": "Deutsche Bank searched by German police in money laundering probe",
-        "url": "https://www.cnbc.com/2026/01/28/deutsche-bank-raided-by-german-police-in-money-laundering-probe.html",
+        "title": "Healthy Returns: Botox, Trulicity among 15 drugs added to Medicare price negotiations",
+        "url": "https://www.cnbc.com/2026/01/28/healthy-returns-15-drugs-added-to-medicare-price-negotiations.html",
         "source": "CNBC Markets",
-        "weight": 0.5313,
-        "score": -0.9667
+        "weight": 0.575,
+        "score": -0.9333
+      },
+      {
+        "title": "Wall Street giants push back on exemptions for tokenized securities in SEC meeting",
+        "url": "https://www.coindesk.com/policy/2026/01/28/wall-street-giants-push-back-on-exemptions-for-tokenized-securities-in-sec-meeting",
+        "source": "CoinDesk",
+        "weight": 0.7887,
+        "score": -0.6333
+      },
+      {
+        "title": "Bitcoin traders eye $93.5K liquidation sweep despite Fed interest rate pause",
+        "url": "https://cointelegraph.com/news/bitcoin-traders-eye-dollar93-5k-liquidation-sweep-despite-fed-interest-rate-pause?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7347,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45097443853531366,
-          "price_change_24h": -0.0263
+          "volume_mcap_ratio": 0.44524702332697474,
+          "price_change_24h": -0.00663
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3009243662982816,
-          "price_change_24h": 0.02654
+          "volume_mcap_ratio": 0.30254133146541806,
+          "price_change_24h": -0.04285
         }
       ],
       "momentum_shifts": []
