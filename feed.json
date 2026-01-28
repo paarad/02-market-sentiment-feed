@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-27T20:30:46.002256+00:00",
+  "updated_at": "2026-01-28T02:22:32.995026+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.094,
+    "change24h": 0.022,
+    "vol": 0.076,
     "fearGreed": 29,
-    "momentum": 0.608,
+    "momentum": 0.385,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5014,
-    "global_sentiment": 0.5364,
-    "combined_sentiment": 0.5041,
-    "confidence": 0.813,
+    "crypto_sentiment": 0.526,
+    "global_sentiment": 0.5571,
+    "combined_sentiment": 0.5243,
+    "confidence": 0.7406,
     "counts": {
-      "crypto": 55,
-      "global": 41
+      "crypto": 50,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 88981,
-      "btc_change_24h": 1.36,
-      "eth_price": 3009.39,
-      "eth_change_24h": 3.27,
+      "btc_price": 89152,
+      "btc_change_24h": 0.71,
+      "eth_price": 3008.04,
+      "eth_change_24h": 2.54,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 177423398549,
-        "high_activity_coins": 1
+        "volume_24h": 193896129253,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.78,
+        "btc_dominance": 56.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-14T08:39:41.625398+00:00",
-      "crypto": 0.5729,
-      "global": 0.5118,
-      "combined": 0.5556,
-      "counts": {
-        "crypto": 74,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-01-14T13:02:18.447228+00:00",
       "crypto": 0.5161,
@@ -1008,52 +998,62 @@
         "crypto": 55,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-01-28T02:22:32.995026+00:00",
+      "crypto": 0.526,
+      "global": 0.5571,
+      "combined": 0.5243,
+      "counts": {
+        "crypto": 50,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ASX Growth Companies With High Insider Ownership January 2026",
-        "url": "https://finance.yahoo.com/news/asx-growth-companies-high-insider-193845900.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7238,
-        "score": 0.8667
+        "title": "Asia markets mixed after S&P 500 hits record, South Korea pushes fresh highs",
+        "url": "https://www.cnbc.com/2026/01/28/asia-markets-today-wednesday-hang-seng-index-nikkei-225-kospi-inflation-yen-australia-cpi.html",
+        "source": "CNBC Markets",
+        "weight": 0.7653,
+        "score": 1.0
       },
       {
-        "title": "Citi Sees Bigger Yen Rally Depending on Shift Back to Japan Bonds",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-27/citi-sees-bigger-yen-rally-hanging-on-shift-back-to-japan-bonds",
+        "title": "US Natural Gas Slips, Halting Historic Rally After Cold Snap",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/us-natural-gas-slips-halting-historic-rally-after-cold-snap",
         "source": "Bloomberg Markets",
-        "weight": 0.7045,
+        "weight": 0.7608,
         "score": 0.8667
       },
       {
-        "title": "Strategy Now Holds $63 Billion in Bitcoin—These Are Its Biggest Buys",
-        "url": "https://decrypt.co/292448/microstrategy-biggest-bitcoin-buys",
-        "source": "Decrypt",
-        "weight": 0.838,
-        "score": 0.6667
+        "title": "CME Raises Silver Margins as Prices Smash Records in Wild Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/cme-raises-silver-margins-as-prices-smash-records-in-wild-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.6273,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Take away the violent weekends and Bitcoin’s bull run is still alive while the dollar continues to fall",
-        "url": "https://cryptoslate.com/take-away-the-violent-weekends-and-bitcoins-bull-run-is-still-alive-as-the-dollar-continues-to-fall/",
-        "source": "CryptoSlate",
-        "weight": 0.7419,
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Shin-Etsu Shares Plunge After US Economy Fears Weigh on Earnings",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/shin-etsu-shares-plunge-after-us-economy-fears-weigh-on-earnings",
+        "source": "Bloomberg Markets",
+        "weight": 0.6391,
         "score": -0.6667
       },
       {
-        "title": "House Democrats to Trump: Fire DHS chief Noem or they'll start impeachment proceedings against her",
-        "url": "https://www.cnbc.com/2026/01/27/house-democrats-kristi-noem-impeachment-trump.html",
+        "title": "Canada's Carney to Trump: 'I meant what I said in Davos'",
+        "url": "https://www.cnbc.com/2026/01/27/carney-trump-bessent-davos.html",
         "source": "CNBC Markets",
-        "weight": 0.7794,
-        "score": -0.6333
-      },
-      {
-        "title": "How Japan’s Bond Crash Left Global Markets on Edge",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-27/japan-s-bond-market-meltdown-sends-shockwaves-around-the-world-podcast",
-        "source": "Bloomberg Markets",
-        "weight": 0.7768,
+        "weight": 0.5192,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3996922018152205,
-          "price_change_24h": -0.02484
+          "volume_mcap_ratio": 0.4266236067895105,
+          "price_change_24h": -0.02543
+        },
+        {
+          "symbol": "USDC",
+          "volume_mcap_ratio": 0.33549436491981477,
+          "price_change_24h": -0.01744
         }
       ],
       "momentum_shifts": []
