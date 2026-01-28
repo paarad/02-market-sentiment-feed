@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-28T02:22:32.995026+00:00",
+  "updated_at": "2026-01-28T04:50:12.087367+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.076,
+    "change24h": 0.016,
+    "vol": 0.058,
     "fearGreed": 29,
-    "momentum": 0.385,
+    "momentum": 0.281,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.526,
-    "global_sentiment": 0.5571,
-    "combined_sentiment": 0.5243,
-    "confidence": 0.7406,
+    "crypto_sentiment": 0.5791,
+    "global_sentiment": 0.5675,
+    "combined_sentiment": 0.5649,
+    "confidence": 0.7441,
     "counts": {
-      "crypto": 50,
+      "crypto": 52,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 89152,
-      "btc_change_24h": 0.71,
-      "eth_price": 3008.04,
-      "eth_change_24h": 2.54,
+      "btc_price": 88870,
+      "btc_change_24h": 0.41,
+      "eth_price": 2993.54,
+      "eth_change_24h": 1.94,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.7,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 193896129253,
-        "high_activity_coins": 2
+        "volume_24h": 185716032070,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 56.86,
+        "btc_dominance": 56.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-14T13:02:18.447228+00:00",
-      "crypto": 0.5161,
-      "global": 0.4555,
-      "combined": 0.5084,
-      "counts": {
-        "crypto": 73,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-01-14T16:39:54.367391+00:00",
       "crypto": 0.5049,
@@ -1008,33 +998,50 @@
         "crypto": 50,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-28T04:50:12.087367+00:00",
+      "crypto": 0.5791,
+      "global": 0.5675,
+      "combined": 0.5649,
+      "counts": {
+        "crypto": 52,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Goldman Warns Metal Rally at Risk as Users ‘Respond Negatively’",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/goldman-warns-metal-rally-at-risk-as-users-respond-negatively",
+        "source": "Bloomberg Markets",
+        "weight": 0.7788,
+        "score": 1.0
+      },
+      {
         "title": "Asia markets mixed after S&P 500 hits record, South Korea pushes fresh highs",
         "url": "https://www.cnbc.com/2026/01/28/asia-markets-today-wednesday-hang-seng-index-nikkei-225-kospi-inflation-yen-australia-cpi.html",
         "source": "CNBC Markets",
-        "weight": 0.7653,
+        "weight": 0.6117,
         "score": 1.0
       },
       {
         "title": "US Natural Gas Slips, Halting Historic Rally After Cold Snap",
         "url": "https://www.bloomberg.com/news/articles/2026-01-28/us-natural-gas-slips-halting-historic-rally-after-cold-snap",
         "source": "Bloomberg Markets",
-        "weight": 0.7608,
-        "score": 0.8667
-      },
-      {
-        "title": "CME Raises Silver Margins as Prices Smash Records in Wild Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-28/cme-raises-silver-margins-as-prices-smash-records-in-wild-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.6273,
+        "weight": 0.5726,
         "score": 0.8667
       }
     ],
     "negative": [
+      {
+        "title": "Why Do Japan’s Market Meltdowns Cause Global Chaos?",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-28/why-do-japan-s-market-meltdowns-cause-global-chaos",
+        "source": "Bloomberg Markets",
+        "weight": 0.6492,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 29 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,31 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "Shin-Etsu Shares Plunge After US Economy Fears Weigh on Earnings",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-28/shin-etsu-shares-plunge-after-us-economy-fears-weigh-on-earnings",
+        "title": "Trump’s Embrace of Weaker Dollar Fuels Bets on New Downtrend",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/trump-s-embrace-of-weaker-dollar-seen-as-start-of-new-downtrend",
         "source": "Bloomberg Markets",
-        "weight": 0.6391,
+        "weight": 0.6162,
         "score": -0.6667
-      },
-      {
-        "title": "Canada's Carney to Trump: 'I meant what I said in Davos'",
-        "url": "https://www.cnbc.com/2026/01/27/carney-trump-bessent-davos.html",
-        "source": "CNBC Markets",
-        "weight": 0.5192,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4266236067895105,
-          "price_change_24h": -0.02543
-        },
-        {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.33549436491981477,
-          "price_change_24h": -0.01744
+          "volume_mcap_ratio": 0.41865775173912506,
+          "price_change_24h": -0.01838
         }
       ],
       "momentum_shifts": []
