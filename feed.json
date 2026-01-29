@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-29T08:51:43.427980+00:00",
+  "updated_at": "2026-01-29T13:13:40.357123+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.066,
+    "change24h": -0.045,
+    "vol": 0.108,
     "fearGreed": 26,
-    "momentum": -0.412,
+    "momentum": -0.781,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5235,
-    "global_sentiment": 0.6124,
-    "combined_sentiment": 0.527,
-    "confidence": 0.8099,
+    "crypto_sentiment": 0.468,
+    "global_sentiment": 0.6269,
+    "combined_sentiment": 0.4866,
+    "confidence": 0.825,
     "counts": {
-      "crypto": 64,
-      "global": 42
+      "crypto": 60,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 87882,
-      "btc_change_24h": -1.19,
-      "eth_price": 2946.96,
-      "eth_change_24h": -1.47,
+      "btc_price": 87968,
+      "btc_change_24h": -2.36,
+      "eth_price": 2930.72,
+      "eth_change_24h": -3.38,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 185987400137,
+        "volume_24h": 175846575867,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.81,
+        "btc_dominance": 56.92,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-15T19:56:26.662038+00:00",
-      "crypto": 0.4741,
-      "global": 0.4174,
-      "combined": 0.4737,
-      "counts": {
-        "crypto": 72,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-01-15T20:34:07.372227+00:00",
       "crypto": 0.4733,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-29T13:13:40.357123+00:00",
+      "crypto": 0.468,
+      "global": 0.6269,
+      "combined": 0.4866,
+      "counts": {
+        "crypto": 60,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Metals Rally Amid Weaker Dollar",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-29/metals-rally-amid-weaker-dollar-video",
+        "title": "Tech's CAPEX Splurge as SAP Stock Falls, A Metal Markets Party | The Opening Trade 1/29/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-29/the-opening-trade-1-29-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6449,
+        "weight": 0.7188,
         "score": 1.0
       },
       {
-        "title": "Samsung’s profit triples, beating estimates as AI chip demand fuels memory shortage",
-        "url": "https://www.cnbc.com/2026/01/29/samsung-record-q4-2025-profit-ai-hbm-ai-memory-chip-shortage.html",
-        "source": "CNBC Markets",
-        "weight": 0.5179,
+        "title": "Tech's AI Spending Boosts Stocks; Oil Rises on Trump Iran Threats | Bloomberg Brief 1/29/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-29/bloomberg-brief-1-29-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7066,
         "score": 1.0
       },
       {
-        "title": "Bitcoin trader warns of downside as gold rally continues to pull focus from BTC",
-        "url": "https://www.coindesk.com/markets/2026/01/29/bitcoin-trader-warns-of-downside-as-gold-rally-continues-to-pull-focus-from-btc",
-        "source": "CoinDesk",
-        "weight": 0.8116,
-        "score": 0.5333
+        "title": "BlackRock, Partners Group Debut Private-Asset Account for Wealth",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-29/blackrock-partners-group-debut-private-asset-account-for-wealth",
+        "source": "Bloomberg Markets",
+        "weight": 0.7355,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Deutsche Bank CFO Vows Research Independence After Bessent Call",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-29/deutsche-bank-cfo-says-research-independence-is-sacrosanct",
-        "source": "Bloomberg Markets",
-        "weight": 0.7133,
-        "score": -0.9667
-      },
-      {
-        "title": "Cere Network co-founder and board face $100M lawsuit over token sales",
-        "url": "https://cointelegraph.com/news/cere-network-co-founder-board-face-100m-fraud-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5681,
+        "title": "Investors accuse Cere Network of $100 million fraud and token-dump scheme in lawsuit",
+        "url": "https://www.coindesk.com/markets/2026/01/29/investors-accuse-cere-network-of-usd100m-fraud-and-token-dump-scheme-in-lawsuit",
+        "source": "CoinDesk",
+        "weight": 0.8269,
         "score": -1.0
       },
       {
-        "title": "SEC gives guidance on issuer vs third-party tokenized securities",
-        "url": "https://cointelegraph.com/news/sec-breaks-down-tokenized-securities-into-two-categories-new-guidance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4673,
+        "title": "Small US Lenders Primed for Big Share Gains on Curve Steepening",
+        "url": "https://finance.yahoo.com/news/small-us-lenders-primed-big-103000031.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5838,
         "score": -0.9667
+      },
+      {
+        "title": "The 24/7 global stock market is impossible on today’s blockchain",
+        "url": "https://cointelegraph.com/news/global-stock-market-blockchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7355,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4422423664051568,
-          "price_change_24h": -0.02452
+          "volume_mcap_ratio": 0.4220854631944758,
+          "price_change_24h": -0.01588
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.31465010694801315,
-          "price_change_24h": 0.03771
+          "volume_mcap_ratio": 0.35935211673199113,
+          "price_change_24h": 0.03739
         }
       ],
       "momentum_shifts": []
