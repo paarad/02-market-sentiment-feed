@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-28T20:39:57.819786+00:00",
+  "updated_at": "2026-01-29T02:39:29.485251+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.03,
-    "fearGreed": 29,
-    "momentum": 0.003,
-    "regime": "sideways",
+    "change24h": -0.018,
+    "vol": 0.049,
+    "fearGreed": 26,
+    "momentum": -0.31,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4851,
-    "global_sentiment": 0.4432,
-    "combined_sentiment": 0.4841,
-    "confidence": 0.8401,
+    "crypto_sentiment": 0.5004,
+    "global_sentiment": 0.5486,
+    "combined_sentiment": 0.5043,
+    "confidence": 0.8028,
     "counts": {
-      "crypto": 59,
-      "global": 46
+      "crypto": 60,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 89175,
-      "btc_change_24h": 0.35,
-      "eth_price": 3011.29,
-      "eth_change_24h": 0.11,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "btc_price": 88153,
+      "btc_change_24h": -1.08,
+      "eth_price": 2971.17,
+      "eth_change_24h": -1.19,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 29,
+        "value": 26,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188211005259,
+        "volume_24h": 173065230025,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 56.82,
+        "btc_dominance": 56.77,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-15T08:39:50.080957+00:00",
-      "crypto": 0.4994,
-      "global": 0.3952,
-      "combined": 0.4908,
-      "counts": {
-        "crypto": 71,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-01-15T13:00:38.503218+00:00",
       "crypto": 0.5491,
@@ -1008,66 +998,76 @@
         "crypto": 59,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-01-29T02:39:29.485251+00:00",
+      "crypto": 0.5004,
+      "global": 0.5486,
+      "combined": 0.5043,
+      "counts": {
+        "crypto": 60,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Circle shares rise 4% as Polymarket-driven USDC growth prompts analyst upgrade",
-        "url": "https://www.coindesk.com/markets/2026/01/28/circle-shares-rise-after-mizuho-upgrades-stock-on-polymarket-driven-usdc-growth",
-        "source": "CoinDesk",
-        "weight": 0.6912,
+        "title": "Samsung’s profit triples, beating estimates as AI chip demand fuels memory shortage",
+        "url": "https://www.cnbc.com/2026/01/29/samsung-record-q4-2025-profit-ai-hbm-ai-memory-chip-shortage.html",
+        "source": "CNBC Markets",
+        "weight": 0.7544,
         "score": 1.0
       },
       {
-        "title": "General Motors Earns Slew of Target Boosts After Earnings Beat",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-28/general-motors-earns-slew-of-target-boosts-after-earnings-beat",
-        "source": "Bloomberg Markets",
-        "weight": 0.657,
-        "score": 0.8667
+        "title": "Sony doubles down on Soneium after first year of mainnet activity",
+        "url": "https://cointelegraph.com/news/sony-startale-follow-on-investment-soneium-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7414,
+        "score": 1.0
       },
       {
-        "title": "Dubai Insurance launches crypto wallet  premium payments, claims settlements",
-        "url": "https://cointelegraph.com/news/dubai-insurance-crypto-wallet-premium-payments-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5597,
-        "score": 0.9167
+        "title": "South Korea to Fast-Track Housing Supply in Seoul to Cool Prices",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-29/south-korea-to-fast-track-housing-supply-in-seoul-to-cool-prices",
+        "source": "Bloomberg Markets",
+        "weight": 0.7424,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Powell Says There Was 'Broad' Support to Hold Fed Rates Steady",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-28/powell-says-there-was-broad-support-to-hold-fed-rates-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7505,
-        "score": -0.6667
-      },
-      {
-        "title": "Healthy Returns: Botox, Trulicity among 15 drugs added to Medicare price negotiations",
-        "url": "https://www.cnbc.com/2026/01/28/healthy-returns-15-drugs-added-to-medicare-price-negotiations.html",
-        "source": "CNBC Markets",
-        "weight": 0.5314,
+        "title": "Review & Preview: The Fed Stays Put",
+        "url": "https://finance.yahoo.com/m/7be44e8f-5ac5-314a-b4a6-96cf74c4c98b/review-%26-preview%3A-the-fed.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6542,
         "score": -0.9333
       },
       {
-        "title": "Wall Street giants push back on exemptions for tokenized securities in SEC meeting",
-        "url": "https://www.coindesk.com/policy/2026/01/28/wall-street-giants-push-back-on-exemptions-for-tokenized-securities-in-sec-meeting",
-        "source": "CoinDesk",
-        "weight": 0.7289,
+        "title": "Richest Man in Indonesia Loses $5 Billion After MSCI’s Warning",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-29/indonesia-s-richest-man-prajogo-pangestu-loses-5-billion-after-stock-rout",
+        "source": "Bloomberg Markets",
+        "weight": 0.7585,
         "score": -0.6333
+      },
+      {
+        "title": "Indonesian Stocks Extend Fall After MSCI Warns on Investability",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-28/indonesian-stocks-see-most-foreign-selling-since-april-on-msci",
+        "source": "Bloomberg Markets",
+        "weight": 0.4613,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43845243215340984,
-          "price_change_24h": -0.00333
+          "volume_mcap_ratio": 0.4170545808882821,
+          "price_change_24h": -0.00762
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.300909725382601,
-          "price_change_24h": -0.03099
+          "volume_mcap_ratio": 0.3071773389102718,
+          "price_change_24h": -0.04651
         }
       ],
       "momentum_shifts": []
