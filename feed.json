@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-30T08:51:12.470376+00:00",
+  "updated_at": "2026-01-30T13:11:55.595193+00:00",
   "indicators": {
-    "change24h": -0.096,
-    "vol": 0.213,
+    "change24h": -0.086,
+    "vol": 0.194,
     "fearGreed": 16,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3246,
-    "global_sentiment": 0.4998,
-    "combined_sentiment": 0.3684,
-    "confidence": 0.7885,
+    "crypto_sentiment": 0.3006,
+    "global_sentiment": 0.6009,
+    "combined_sentiment": 0.3589,
+    "confidence": 0.8117,
     "counts": {
-      "crypto": 67,
-      "global": 36
+      "crypto": 65,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 82485,
-      "btc_change_24h": -6.18,
-      "eth_price": 2732.06,
-      "eth_change_24h": -7.3,
+      "btc_price": 82546,
+      "btc_change_24h": -6.16,
+      "eth_price": 2728.53,
+      "eth_change_24h": -6.92,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 320038319724,
+        "volume_24h": 327037458760,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.51,
+        "btc_dominance": 56.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-16T19:53:35.102718+00:00",
-      "crypto": 0.5796,
-      "global": 0.4582,
-      "combined": 0.5562,
-      "counts": {
-        "crypto": 73,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-16T20:29:21.518333+00:00",
       "crypto": 0.5796,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-01-30T13:11:55.595193+00:00",
+      "crypto": 0.3006,
+      "global": 0.6009,
+      "combined": 0.3589,
+      "counts": {
+        "crypto": 65,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Gold Protests Expose Darker Side of Scorching Metals Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-gold-protests-expose-darker-side-of-scorching-metals-rally",
+        "title": "GetYourGuide Crosses €1B Revenue Milestone",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-30/getyourguide-crosses-1b-revenue-milestone-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7677,
-        "score": 0.8667
-      },
-      {
-        "title": "China LNG Imports to Rise for Third Month, Kpler Estimates Show",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-lng-imports-to-rise-for-third-month-kpler-estimates-show",
-        "source": "Bloomberg Markets",
-        "weight": 0.444,
-        "score": 1.0
-      },
-      {
-        "title": "Tokyo Gas Shares Rise After Firm Lifts Operating Income Forecast",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-30/tokyo-gas-shares-rise-after-firm-lifts-operating-income-forecast",
-        "source": "Bloomberg Markets",
-        "weight": 0.6534,
+        "weight": 0.7412,
         "score": 0.6667
+      },
+      {
+        "title": "Here’s Why Greenlight Capital Sold HP (HPQ)",
+        "url": "https://finance.yahoo.com/news/why-greenlight-capital-sold-hp-130030840.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7826,
+        "score": 0.5833
+      },
+      {
+        "title": "Do You Believe in the Growth Prospects of Spectrum Brands Holdings (SPB)?",
+        "url": "https://finance.yahoo.com/news/believe-growth-prospects-spectrum-brands-125802911.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7789,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin falls to $81K, triggering $1.7B in liquidations",
-        "url": "https://cointelegraph.com/news/bitcoin-falls-to-81k-causing-billions-in-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Chevron earnings beat as production hits record with upside expected in Venezuela",
+        "url": "https://www.cnbc.com/2026/01/30/chevron-cxv-q4-2025-earnings-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7685,
+        "score": -0.8667
+      },
+      {
+        "title": "There is no trust in DeFi without proper risk management",
+        "url": "https://cointelegraph.com/news/trust-defi-risk-management?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5236,
-        "score": -1.0
+        "weight": 0.738,
+        "score": -0.8333
       },
       {
-        "title": "Novo Obesity Pill Spurs Rally After Stock’s Worst Ever Year",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-30/novo-nordisk-obesity-pill-spurs-rebound-from-stock-s-worst-year",
-        "source": "Bloomberg Markets",
-        "weight": 0.559,
-        "score": -0.9333
-      },
-      {
-        "title": "XRP bulls lose $70 million as Ripple-linked token plunges 7%",
-        "url": "https://www.coindesk.com/markets/2026/01/30/xrp-bulls-lose-usd70-million-as-ripple-linked-token-plunges-7",
+        "title": "Crypto's rough day sets giants into 'plunge protection' mode",
+        "url": "https://www.coindesk.com/daybook-us/2026/01/30/crypto-s-rough-day-sets-giants-into-plunge-protection-mode",
         "source": "CoinDesk",
-        "weight": 0.8161,
+        "weight": 0.8985,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.8132919982918562,
-          "price_change_24h": -7.37789
+          "volume_mcap_ratio": 0.9075803833025156,
+          "price_change_24h": -8.33609
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7584757827495852,
-          "price_change_24h": -0.01588
+          "volume_mcap_ratio": 0.77503466592265,
+          "price_change_24h": -0.01907
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.39810594531712706,
-          "price_change_24h": -0.07876
+          "volume_mcap_ratio": 0.42208914146812915,
+          "price_change_24h": -0.06546
         }
       ],
       "momentum_shifts": []
