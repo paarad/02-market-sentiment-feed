@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-30T05:12:10.995678+00:00",
+  "updated_at": "2026-01-30T08:51:12.470376+00:00",
   "indicators": {
-    "change24h": -0.088,
-    "vol": 0.201,
+    "change24h": -0.096,
+    "vol": 0.213,
     "fearGreed": 16,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.334,
-    "global_sentiment": 0.5314,
-    "combined_sentiment": 0.3781,
-    "confidence": 0.7983,
+    "crypto_sentiment": 0.3246,
+    "global_sentiment": 0.4998,
+    "combined_sentiment": 0.3684,
+    "confidence": 0.7885,
     "counts": {
-      "crypto": 65,
-      "global": 37
+      "crypto": 67,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 82866,
-      "btc_change_24h": -6.03,
-      "eth_price": 2746.76,
-      "eth_change_24h": -7.08,
+      "btc_price": 82485,
+      "btc_change_24h": -6.18,
+      "eth_price": 2732.06,
+      "eth_change_24h": -7.3,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 310975993443,
+        "volume_24h": 320038319724,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.5,
+        "btc_dominance": 56.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-16T16:38:30.771633+00:00",
-      "crypto": 0.5357,
-      "global": 0.5264,
-      "combined": 0.529,
-      "counts": {
-        "crypto": 73,
-        "global": 56
-      }
-    },
     {
       "ts": "2026-01-16T19:53:35.102718+00:00",
       "crypto": 0.5796,
@@ -1008,71 +998,81 @@
         "crypto": 65,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-01-30T08:51:12.470376+00:00",
+      "crypto": 0.3246,
+      "global": 0.4998,
+      "combined": 0.3684,
+      "counts": {
+        "crypto": 67,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "China Gold Protests Expose Darker Side of Scorching Metals Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-gold-protests-expose-darker-side-of-scorching-metals-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.7677,
+        "score": 0.8667
+      },
+      {
         "title": "China LNG Imports to Rise for Third Month, Kpler Estimates Show",
         "url": "https://www.bloomberg.com/news/articles/2026-01-30/china-lng-imports-to-rise-for-third-month-kpler-estimates-show",
         "source": "Bloomberg Markets",
-        "weight": 0.677,
+        "weight": 0.444,
         "score": 1.0
       },
       {
-        "title": "Rollercoaster bitcoin price moves end up liquidating $1.7 billion in bullish crypto bets",
-        "url": "https://www.coindesk.com/markets/2026/01/30/rollercoaster-bitcoin-price-moves-end-up-liquidating-usd1-7-billion-in-bullish-crypto-bets",
-        "source": "CoinDesk",
-        "weight": 0.9461,
-        "score": 0.5333
-      },
-      {
-        "title": "Gold’s Record Inflows From Asian ETFs Seen by Some as Warning",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-30/gold-s-record-inflows-from-asian-etfs-seen-by-some-as-warning",
+        "title": "Tokyo Gas Shares Rise After Firm Lifts Operating Income Forecast",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-30/tokyo-gas-shares-rise-after-firm-lifts-operating-income-forecast",
         "source": "Bloomberg Markets",
-        "weight": 0.5715,
-        "score": 0.8667
+        "weight": 0.6534,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Unclaimed Ethereum from The DAO hack to fund new security initiative: Griff Green",
-        "url": "https://cointelegraph.com/news/ethereum-dao-hack-fund-security-initiative-griff-green?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin falls to $81K, triggering $1.7B in liquidations",
+        "url": "https://cointelegraph.com/news/bitcoin-falls-to-81k-causing-billions-in-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6925,
+        "weight": 0.5236,
         "score": -1.0
       },
       {
-        "title": "Securitize says revenues up 840% in filing to go public via Cantor SPAC",
-        "url": "https://cointelegraph.com/news/securitize-says-revenues-up-840-in-filing-to-go-public-via-cantor-spac?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7568,
-        "score": -0.6333
+        "title": "Novo Obesity Pill Spurs Rally After Stock’s Worst Ever Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-30/novo-nordisk-obesity-pill-spurs-rebound-from-stock-s-worst-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.559,
+        "score": -0.9333
       },
       {
-        "title": "Fear & Greed 16 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "XRP bulls lose $70 million as Ripple-linked token plunges 7%",
+        "url": "https://www.coindesk.com/markets/2026/01/30/xrp-bulls-lose-usd70-million-as-ripple-linked-token-plunges-7",
+        "source": "CoinDesk",
+        "weight": 0.8161,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.754174070047539,
-          "price_change_24h": -6.35118
+          "volume_mcap_ratio": 0.8132919982918562,
+          "price_change_24h": -7.37789
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7223163881578633,
-          "price_change_24h": -0.00736
+          "volume_mcap_ratio": 0.7584757827495852,
+          "price_change_24h": -0.01588
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4807943824353687,
-          "price_change_24h": -0.04809
+          "volume_mcap_ratio": 0.39810594531712706,
+          "price_change_24h": -0.07876
         }
       ],
       "momentum_shifts": []
