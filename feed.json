@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-30T13:11:55.595193+00:00",
+  "updated_at": "2026-01-30T16:49:47.615159+00:00",
   "indicators": {
-    "change24h": -0.086,
-    "vol": 0.194,
+    "change24h": -0.025,
+    "vol": 0.083,
     "fearGreed": 16,
-    "momentum": -1.0,
+    "momentum": -0.444,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3006,
-    "global_sentiment": 0.6009,
-    "combined_sentiment": 0.3589,
-    "confidence": 0.8117,
+    "crypto_sentiment": 0.3065,
+    "global_sentiment": 0.4631,
+    "combined_sentiment": 0.3518,
+    "confidence": 0.791,
     "counts": {
-      "crypto": 65,
-      "global": 45
+      "crypto": 60,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 82546,
-      "btc_change_24h": -6.16,
-      "eth_price": 2728.53,
-      "eth_change_24h": -6.92,
+      "btc_price": 83115,
+      "btc_change_24h": -1.83,
+      "eth_price": 2727.22,
+      "eth_change_24h": -3.09,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 327037458760,
+        "volume_24h": 299153513896,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.49,
+        "btc_dominance": 56.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-16T20:29:21.518333+00:00",
-      "crypto": 0.5796,
-      "global": 0.4282,
-      "combined": 0.5537,
-      "counts": {
-        "crypto": 72,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-01-17T02:07:32.226334+00:00",
       "crypto": 0.5217,
@@ -1008,71 +998,81 @@
         "crypto": 65,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-01-30T16:49:47.615159+00:00",
+      "crypto": 0.3065,
+      "global": 0.4631,
+      "combined": 0.3518,
+      "counts": {
+        "crypto": 60,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "GetYourGuide Crosses €1B Revenue Milestone",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-30/getyourguide-crosses-1b-revenue-milestone-video",
+        "title": "Sandisk surges as robust AI demand powers blowout forecast",
+        "url": "https://finance.yahoo.com/news/sandisk-surges-robust-ai-demand-155458803.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7199,
+        "score": 0.8667
+      },
+      {
+        "title": "Sandisk’s 1,600% Rally Keeps Going After ‘Unprecedented’ Quarter",
+        "url": "https://finance.yahoo.com/news/sandisk-1-700-rally-keeps-144245388.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7504,
+        "score": 0.5333
+      },
+      {
+        "title": "Bombardier Rally Faces New Hurdle on Trump’s Canadian Jet Threat",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-30/bombardier-rally-faces-new-hurdle-on-trump-s-canadian-jet-threat",
         "source": "Bloomberg Markets",
-        "weight": 0.7412,
-        "score": 0.6667
-      },
-      {
-        "title": "Here’s Why Greenlight Capital Sold HP (HPQ)",
-        "url": "https://finance.yahoo.com/news/why-greenlight-capital-sold-hp-130030840.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7826,
-        "score": 0.5833
-      },
-      {
-        "title": "Do You Believe in the Growth Prospects of Spectrum Brands Holdings (SPB)?",
-        "url": "https://finance.yahoo.com/news/believe-growth-prospects-spectrum-brands-125802911.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7789,
-        "score": 0.5833
+        "weight": 0.7208,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Eli Lilly plans $3.5 billion manufacturing plant in Pennsylvania to make next-generation obesity injections",
+        "url": "https://www.cnbc.com/2026/01/30/eli-lilly-3point5-billion-pennsylvania-plant-obesity-drugs.html",
+        "source": "CNBC Markets",
+        "weight": 0.7301,
+        "score": -1.0
+      },
+      {
         "title": "Chevron earnings beat as production hits record with upside expected in Venezuela",
         "url": "https://www.cnbc.com/2026/01/30/chevron-cxv-q4-2025-earnings-.html",
         "source": "CNBC Markets",
-        "weight": 0.7685,
+        "weight": 0.7676,
         "score": -0.8667
       },
       {
-        "title": "There is no trust in DeFi without proper risk management",
-        "url": "https://cointelegraph.com/news/trust-defi-risk-management?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.738,
-        "score": -0.8333
-      },
-      {
-        "title": "Crypto's rough day sets giants into 'plunge protection' mode",
-        "url": "https://www.coindesk.com/daybook-us/2026/01/30/crypto-s-rough-day-sets-giants-into-plunge-protection-mode",
-        "source": "CoinDesk",
-        "weight": 0.8985,
-        "score": -0.6333
+        "title": "South African Stocks Slide Most Since April as Metals Tumble",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-30/south-african-stocks-slide-most-since-april-as-metals-tumble",
+        "source": "Bloomberg Markets",
+        "weight": 0.6617,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.9075803833025156,
-          "price_change_24h": -8.33609
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.7003126998979071,
+          "price_change_24h": -0.00296
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.77503466592265,
-          "price_change_24h": -0.01907
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.6994208950827397,
+          "price_change_24h": -5.18334
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.42208914146812915,
-          "price_change_24h": -0.06546
+          "volume_mcap_ratio": 0.38409303033157743,
+          "price_change_24h": 0.00629
         }
       ],
       "momentum_shifts": []
