@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-31T19:53:57.683699+00:00",
+  "updated_at": "2026-01-31T20:33:39.895936+00:00",
   "indicators": {
-    "change24h": -0.153,
-    "vol": 0.361,
+    "change24h": -0.148,
+    "vol": 0.349,
     "fearGreed": 20,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2968,
-    "global_sentiment": 0.4623,
-    "combined_sentiment": 0.3445,
-    "confidence": 0.7457,
+    "crypto_sentiment": 0.2826,
+    "global_sentiment": 0.4145,
+    "combined_sentiment": 0.3298,
+    "confidence": 0.7562,
     "counts": {
-      "crypto": 73,
-      "global": 43
+      "crypto": 60,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 77740,
-      "btc_change_24h": -7.86,
-      "eth_price": 2388.46,
-      "eth_change_24h": -13.03,
+      "btc_price": 77170,
+      "btc_change_24h": -8.14,
+      "eth_price": 2361.84,
+      "eth_change_24h": -11.91,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 304598580368,
+        "volume_24h": 303805581102,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.92,
+        "btc_dominance": 56.9,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-18T04:47:23.235061+00:00",
-      "crypto": 0.3788,
-      "global": 0.4142,
-      "combined": 0.4019,
-      "counts": {
-        "crypto": 51,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-01-18T08:34:46.587204+00:00",
       "crypto": 0.3818,
@@ -1008,6 +998,16 @@
         "crypto": 73,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-01-31T20:33:39.895936+00:00",
+      "crypto": 0.2826,
+      "global": 0.4145,
+      "combined": 0.3298,
+      "counts": {
+        "crypto": 60,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,63 +1016,63 @@
         "title": "ETH, SOL and DOGE slide 7% as $850 million bullish bets end up liquidated",
         "url": "https://www.coindesk.com/markets/2026/01/31/eth-sol-and-doge-slide-7-as-usd850-million-bullish-bets-end-up-liquidated",
         "source": "CoinDesk",
-        "weight": 0.7374,
+        "weight": 0.6831,
         "score": 0.5333
       },
       {
         "title": "Private Credit Worries Bedevil Shares of Biggest Buyout Shops",
         "url": "https://www.bloomberg.com/news/articles/2026-01-31/private-credit-worries-bedevil-shares-of-biggest-buyout-shops",
         "source": "Bloomberg Markets",
-        "weight": 0.4287,
+        "weight": 0.3972,
         "score": 0.6667
       },
       {
         "title": "1 Top ETF I Plan to Load Up On in 2026",
         "url": "https://www.fool.com/investing/2026/01/31/1-top-etf-i-plan-to-load-up-on-in-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4934,
+        "weight": 0.4571,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin hashrate drops 12% in worst drawdown since China mining ban: CryptoQuant",
+        "url": "https://www.coindesk.com/tech/2026/01/30/bitcoin-hashrate-drops-12-in-worst-drawdown-since-china-mining-ban-cryptoquant",
+        "source": "CoinDesk",
+        "weight": 0.993,
+        "score": -0.6667
+      },
+      {
         "title": "Bitcoin crashes below $76K Strategy cost basis in $2B liquidation event",
         "url": "https://cointelegraph.com/news/bitcoin-crashes-76k-strategy-cost-basis-2b-liquidation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.736,
+        "weight": 0.6818,
         "score": -0.9667
       },
       {
         "title": "Solana DeFi platform step finance hit by $27 million treasury hack as token price craters",
         "url": "https://www.coindesk.com/business/2026/01/31/solana-based-defi-platform-step-finance-hit-by-usd30-million-treasury-hack-as-token-price-craters",
         "source": "CoinDesk",
-        "weight": 0.8382,
+        "weight": 0.7765,
         "score": -0.7333
-      },
-      {
-        "title": "Bitcoin plunges near $77,000 as geopolitical risks deepens amid U.S-Iran tension",
-        "url": "https://www.coindesk.com/markets/2026/01/31/bitcoin-plunges-under-usd80-000-as-u-s-iran-attacks-deepen",
-        "source": "CoinDesk",
-        "weight": 0.5535,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7242849142000218,
-          "price_change_24h": 0.00671
+          "volume_mcap_ratio": 0.716617278281443,
+          "price_change_24h": 0.01803
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.48071488510899146,
-          "price_change_24h": -0.13401
+          "volume_mcap_ratio": 0.47345920504195776,
+          "price_change_24h": -0.10578
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.38160038900427856,
-          "price_change_24h": -14.51415
+          "volume_mcap_ratio": 0.38894464993375893,
+          "price_change_24h": -14.24362
         }
       ],
       "momentum_shifts": []
@@ -1080,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2026-01-31",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3309,
-      "crypto_high": 0.3848,
-      "crypto_low": 0.2861,
-      "global_avg": 0.4031,
-      "global_high": 0.4623,
-      "global_low": 0.3694,
-      "combined_avg": 0.3651,
-      "combined_high": 0.4087,
-      "combined_low": 0.3289
-    },
-    "market_indicators_24h": {
-      "change24h": -0.153,
-      "vol": 0.361,
-      "fearGreed": 20,
-      "momentum": -1.0,
-      "regime": "bear",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2026-01-31T19:53:57.683699+00:00"
   }
 }
