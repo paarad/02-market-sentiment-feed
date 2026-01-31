@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-31T02:34:47.386931+00:00",
+  "updated_at": "2026-01-31T05:04:55.046418+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.105,
+    "change24h": -0.014,
+    "vol": 0.101,
     "fearGreed": 20,
-    "momentum": 0.164,
+    "momentum": -0.247,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3544,
-    "global_sentiment": 0.4024,
-    "combined_sentiment": 0.3827,
-    "confidence": 0.7592,
+    "crypto_sentiment": 0.3525,
+    "global_sentiment": 0.3694,
+    "combined_sentiment": 0.3785,
+    "confidence": 0.7153,
     "counts": {
-      "crypto": 69,
+      "crypto": 54,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 83760,
-      "btc_change_24h": 2.72,
-      "eth_price": 2687.85,
-      "eth_change_24h": -1.05,
+      "btc_price": 83828,
+      "btc_change_24h": 1.2,
+      "eth_price": 2689.46,
+      "eth_change_24h": -2.07,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 254699826920,
+        "volume_24h": 233031537048,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 56.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-17T12:53:49.623489+00:00",
-      "crypto": 0.5999,
-      "global": 0.4271,
-      "combined": 0.5689,
-      "counts": {
-        "crypto": 71,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-01-17T16:31:19.310225+00:00",
       "crypto": 0.4358,
@@ -1008,6 +998,16 @@
         "crypto": 69,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-31T05:04:55.046418+00:00",
+      "crypto": 0.3525,
+      "global": 0.3694,
+      "combined": 0.3785,
+      "counts": {
+        "crypto": 54,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Labubu Maker Pop Mart Sets Up London Hub for European Push",
         "url": "https://www.bloomberg.com/news/articles/2026-01-30/labubu-maker-pop-mart-sets-up-london-hub-for-european-push",
         "source": "Bloomberg Markets",
-        "weight": 0.4993,
+        "weight": 0.374,
         "score": 1.0
+      },
+      {
+        "title": "Tether US treasury holdings reach record highs, profits fall 23% year-on-year",
+        "url": "https://cointelegraph.com/news/tether-stablecoin-usdt-profits-us-treasury-holdings-annual-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7036,
+        "score": 0.5
       },
       {
         "title": "Oil Rally Runs Out of Steam After Trump Says Iran Wants a Deal",
         "url": "https://www.bloomberg.com/news/videos/2026-01-30/oil-rally-runs-out-of-steam-trump-says-iran-wants-deal-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5259,
+        "weight": 0.3939,
         "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 1.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,40 +1039,40 @@
         "title": "Bitcoin options turn bearish as BTC flirts with drop below $80K",
         "url": "https://cointelegraph.com/news/bitcoin-options-turn-bearish-as-btc-flirts-with-drop-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9364,
+        "weight": 0.7013,
         "score": -0.8667
       },
       {
-        "title": "Review & Preview: It’s Only January?",
-        "url": "https://finance.yahoo.com/m/0ef62172-a8f2-3314-939a-426f1e628f14/review-%26-preview%3A-it%E2%80%99s-only.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6602,
+        "title": "China Factory Activity Unexpectedly Slides Into Contraction",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-31/china-factory-activity-unexpectedly-slides-back-into-contraction",
+        "source": "Bloomberg Markets",
+        "weight": 0.5383,
         "score": -1.0
       },
       {
-        "title": "Stocks Lower as Commodities and Tech Weigh on S&P; Gold, Silver Dip | The Close 1/30/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-30/the-close-1-30-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5704,
-        "score": -1.0
+        "title": "U.S. government partially shuts down; House vote could reopen it by Monday",
+        "url": "https://www.cnbc.com/2026/01/30/government-shutdown-senate-vote-dhs.html",
+        "source": "CNBC Markets",
+        "weight": 0.7951,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.7378346673117887,
-          "price_change_24h": -5.48258
+          "volume_mcap_ratio": 0.7260554180022323,
+          "price_change_24h": -5.90215
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6081067186069022,
-          "price_change_24h": -0.00179
+          "volume_mcap_ratio": 0.5608514771589749,
+          "price_change_24h": -0.00725
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4395171099490547,
-          "price_change_24h": 0.08352
+          "volume_mcap_ratio": 0.4316432766342212,
+          "price_change_24h": -7e-05
         }
       ],
       "momentum_shifts": []
