@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-31T08:39:19.456168+00:00",
+  "updated_at": "2026-01-31T13:03:10.755286+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.21,
+    "change24h": -0.02,
+    "vol": 0.243,
     "fearGreed": 20,
-    "momentum": -0.234,
+    "momentum": -0.357,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2861,
-    "global_sentiment": 0.3717,
-    "combined_sentiment": 0.3289,
-    "confidence": 0.7175,
+    "crypto_sentiment": 0.3105,
+    "global_sentiment": 0.3714,
+    "combined_sentiment": 0.3471,
+    "confidence": 0.7071,
     "counts": {
-      "crypto": 71,
-      "global": 44
+      "crypto": 57,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 82823,
-      "btc_change_24h": 0.56,
-      "eth_price": 2640.49,
-      "eth_change_24h": -2.99,
+      "btc_price": 82612,
+      "btc_change_24h": 0.12,
+      "eth_price": 2627.66,
+      "eth_change_24h": -3.72,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 225457937206,
+        "volume_24h": 220691152087,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.93,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-17T19:53:39.680626+00:00",
-      "crypto": 0.4521,
-      "global": 0.5226,
-      "combined": 0.466,
-      "counts": {
-        "crypto": 71,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-01-17T20:29:25.338126+00:00",
       "crypto": 0.4325,
@@ -1008,71 +998,81 @@
         "crypto": 71,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-01-31T13:03:10.755286+00:00",
+      "crypto": 0.3105,
+      "global": 0.3714,
+      "combined": 0.3471,
+      "counts": {
+        "crypto": 57,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Lingering extreme fear in crypto is a 'strong bullish' sign: Santiment",
-        "url": "https://cointelegraph.com/news/crypto-sentiment-extreme-fears-bullish-signals-crypto-analytics?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Active Solana addresses spike 115%, four in 10 merchants take Bitcoin: Month in Charts",
+        "url": "https://cointelegraph.com/news/active-solana-addresses-spike-115-four-in-ten-merchants-take-bitcoin-month-in-charts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5812,
+        "weight": 0.7084,
+        "score": 0.6667
+      },
+      {
+        "title": "$1.82B pulled from spot Bitcoin and Ether ETFs amid metals rally",
+        "url": "https://cointelegraph.com/news/crypto-etf-bitcoin-ether-outflows-metals-sentiment-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5005,
         "score": 0.5333
       },
       {
-        "title": "India’s NSE Targets IPO in Seven to Eight Months, CNBC Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-31/india-s-nse-targets-ipo-in-seven-to-eight-months-cnbc-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.7475,
-        "score": 0.3333
-      },
-      {
-        "title": "Tether US treasury holdings reach record highs; profits fall 23% year-on-year",
-        "url": "https://cointelegraph.com/news/tether-stablecoin-usdt-profits-us-treasury-holdings-annual-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Lingering extreme fear in crypto is a 'strong bullish' sign: Santiment",
+        "url": "https://cointelegraph.com/news/crypto-sentiment-extreme-fears-bullish-signals-crypto-analytics?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4656,
-        "score": 0.5
+        "weight": 0.3497,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Binance pins crypto's worst-ever liquidation day on macro risks, not exchange failure",
+        "url": "https://www.coindesk.com/markets/2026/01/31/binance-pins-crypto-s-worst-ever-liquidation-day-on-macro-risks-not-exchange-failure",
+        "source": "CoinDesk",
+        "weight": 0.6152,
+        "score": -1.0
+      },
+      {
+        "title": "Founder of OKX, one of the biggest crypto exchanges, blames bitcoin’s October crash on Binance",
+        "url": "https://www.coindesk.com/markets/2026/01/31/crypto-exchange-boss-blames-ethena-s-usde-for-october-crash-while-investors-hit-back",
+        "source": "CoinDesk",
+        "weight": 0.934,
+        "score": -0.6333
+      },
+      {
         "title": "Silver's 35% plunge ends up beating bitcoin in a rare crypto liquidation shock",
         "url": "https://www.coindesk.com/markets/2026/01/31/silver-s-35-plunge-ends-up-beating-bitcoin-in-a-rare-crypto-liquidation-shock",
         "source": "CoinDesk",
-        "weight": 0.9044,
+        "weight": 0.5442,
         "score": -0.9667
-      },
-      {
-        "title": "The CLARITY Act uses Bank Secrecy laws to quietly kill decentralized access without ever banning code",
-        "url": "https://cryptoslate.com/why-the-clarity-act-uses-bank-secrecy-laws-to-quietly-kill-decentralized-access-without-ever-banning-code/",
-        "source": "CryptoSlate",
-        "weight": 0.6638,
-        "score": -0.9667
-      },
-      {
-        "title": "Coinbase insider trading lawsuit against Armstrong, directors moves forward",
-        "url": "https://cointelegraph.com/news/coinbase-insider-trading-lawsuit-against-armstrong-directors-moves-forward?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6693,
-        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5233932144924774,
-          "price_change_24h": 0.00928
+          "volume_mcap_ratio": 0.5097100997817068,
+          "price_change_24h": 0.00808
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.4737260740463218,
-          "price_change_24h": -3.99167
+          "volume_mcap_ratio": 0.3890811838206152,
+          "price_change_24h": -3.60553
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.393193959837936,
-          "price_change_24h": 0.09178
+          "volume_mcap_ratio": 0.3789394601764271,
+          "price_change_24h": 0.02846
         }
       ],
       "momentum_shifts": []
