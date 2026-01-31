@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-30T20:38:39.150373+00:00",
+  "updated_at": "2026-01-31T02:34:47.386931+00:00",
   "indicators": {
-    "change24h": -0.025,
-    "vol": 0.117,
-    "fearGreed": 16,
-    "momentum": -0.445,
+    "change24h": 0.009,
+    "vol": 0.105,
+    "fearGreed": 20,
+    "momentum": 0.164,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3249,
-    "global_sentiment": 0.434,
-    "combined_sentiment": 0.3632,
-    "confidence": 0.7916,
+    "crypto_sentiment": 0.3544,
+    "global_sentiment": 0.4024,
+    "combined_sentiment": 0.3827,
+    "confidence": 0.7592,
     "counts": {
-      "crypto": 54,
-      "global": 40
+      "crypto": 69,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 83677,
-      "btc_change_24h": -0.09,
-      "eth_price": 2670.3,
-      "eth_change_24h": -4.21,
+      "btc_price": 83760,
+      "btc_change_24h": 2.72,
+      "eth_price": 2687.85,
+      "eth_change_24h": -1.05,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 16,
+        "value": 20,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 297526054685,
+        "volume_24h": 254699826920,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-17T08:34:28.179627+00:00",
-      "crypto": 0.5381,
-      "global": 0.2868,
-      "combined": 0.5108,
-      "counts": {
-        "crypto": 56,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-01-17T12:53:49.623489+00:00",
       "crypto": 0.5999,
@@ -1008,71 +998,81 @@
         "crypto": 54,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-01-31T02:34:47.386931+00:00",
+      "crypto": 0.3544,
+      "global": 0.4024,
+      "combined": 0.3827,
+      "counts": {
+        "crypto": 69,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Gold just erased $5.5 trillion in value and Bitcoin bulls see one huge opening ahead",
-        "url": "https://cryptoslate.com/how-golds-price-dip-may-ignite-a-bitcoin-rally/",
-        "source": "CryptoSlate",
-        "weight": 0.6641,
+        "title": "Labubu Maker Pop Mart Sets Up London Hub for European Push",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-30/labubu-maker-pop-mart-sets-up-london-hub-for-european-push",
+        "source": "Bloomberg Markets",
+        "weight": 0.4993,
         "score": 1.0
       },
       {
-        "title": "Warsh Tapped for Fed as Busy Earnings Week Wraps Up | Open Interest 1/30/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-01-30/open-interest-1-30-2026-video",
+        "title": "Oil Rally Runs Out of Steam After Trump Says Iran Wants a Deal",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-30/oil-rally-runs-out-of-steam-trump-says-iran-wants-deal-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6045,
-        "score": 1.0
+        "weight": 0.5259,
+        "score": 0.8667
       },
       {
-        "title": "Dollar Surges as Plunging Metals Hit Commodity Currencies",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-30/dollar-surges-as-plunging-metals-hit-commodity-currencies",
-        "source": "Bloomberg Markets",
-        "weight": 0.7259,
-        "score": 0.6667
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "U.S. government seizes $400 million Helix allegedly made from drug-linked transactions",
-        "url": "https://www.coindesk.com/policy/2026/01/30/u-s-government-seizes-usd400-million-helix-allegedly-made-from-drug-linked-transactions",
-        "source": "CoinDesk",
-        "weight": 0.8703,
-        "score": -0.9333
+        "title": "Bitcoin options turn bearish as BTC flirts with drop below $80K",
+        "url": "https://cointelegraph.com/news/bitcoin-options-turn-bearish-as-btc-flirts-with-drop-below-80k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9364,
+        "score": -0.8667
       },
       {
-        "title": "Precious metals crash, with silver plunging 35%, gold falling 12% while bitcoin holds at $83,000",
-        "url": "https://www.coindesk.com/markets/2026/01/30/precious-metals-crash-with-silver-plunging-32-gold-11-bitcoin-slips-back-to-usd82-000",
-        "source": "CoinDesk",
-        "weight": 0.8125,
-        "score": -0.9667
+        "title": "Review & Preview: It’s Only January?",
+        "url": "https://finance.yahoo.com/m/0ef62172-a8f2-3314-939a-426f1e628f14/review-%26-preview%3A-it%E2%80%99s-only.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6602,
+        "score": -1.0
       },
       {
-        "title": "Anatomy of bitcoin's plunge this week: The dollar's bottom was BTC's top",
-        "url": "https://www.coindesk.com/markets/2026/01/30/anatomy-of-bitcoin-s-plunge-this-week-the-dollar-s-bottom-was-btc-s-top",
-        "source": "CoinDesk",
-        "weight": 0.9868,
-        "score": -0.6333
+        "title": "Stocks Lower as Commodities and Tech Weigh on S&P; Gold, Silver Dip | The Close 1/30/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-01-30/the-close-1-30-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5704,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.8549174983523559,
-          "price_change_24h": -8.39827
+          "volume_mcap_ratio": 0.7378346673117887,
+          "price_change_24h": -5.48258
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6988281205985992,
-          "price_change_24h": 0.01881
+          "volume_mcap_ratio": 0.6081067186069022,
+          "price_change_24h": -0.00179
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.43941142542544226,
-          "price_change_24h": 0.07163
+          "volume_mcap_ratio": 0.4395171099490547,
+          "price_change_24h": 0.08352
         }
       ],
       "momentum_shifts": []
