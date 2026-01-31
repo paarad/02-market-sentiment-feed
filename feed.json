@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-31T13:03:10.755286+00:00",
+  "updated_at": "2026-01-31T16:37:58.491572+00:00",
   "indicators": {
-    "change24h": -0.02,
-    "vol": 0.243,
+    "change24h": -0.08,
+    "vol": 0.265,
     "fearGreed": 20,
-    "momentum": -0.357,
-    "regime": "sideways",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3105,
-    "global_sentiment": 0.3714,
-    "combined_sentiment": 0.3471,
-    "confidence": 0.7071,
+    "crypto_sentiment": 0.3848,
+    "global_sentiment": 0.4414,
+    "combined_sentiment": 0.4087,
+    "confidence": 0.7434,
     "counts": {
-      "crypto": 57,
-      "global": 42
+      "crypto": 58,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 82612,
-      "btc_change_24h": 0.12,
-      "eth_price": 2627.66,
-      "eth_change_24h": -3.72,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 80989,
+      "btc_change_24h": -2.52,
+      "eth_price": 2517.97,
+      "eth_change_24h": -7.95,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 220691152087,
+        "volume_24h": 243481662632,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 57.18,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-17T20:29:25.338126+00:00",
-      "crypto": 0.4325,
-      "global": 0.4997,
-      "combined": 0.4494,
-      "counts": {
-        "crypto": 71,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-01-18T02:27:48.738020+00:00",
       "crypto": 0.4153,
@@ -1008,71 +998,81 @@
         "crypto": 57,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-01-31T16:37:58.491572+00:00",
+      "crypto": 0.3848,
+      "global": 0.4414,
+      "combined": 0.4087,
+      "counts": {
+        "crypto": 58,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Active Solana addresses spike 115%, four in 10 merchants take Bitcoin: Month in Charts",
-        "url": "https://cointelegraph.com/news/active-solana-addresses-spike-115-four-in-ten-merchants-take-bitcoin-month-in-charts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7084,
-        "score": 0.6667
-      },
-      {
-        "title": "$1.82B pulled from spot Bitcoin and Ether ETFs amid metals rally",
-        "url": "https://cointelegraph.com/news/crypto-etf-bitcoin-ether-outflows-metals-sentiment-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5005,
+        "title": "ETH, SOL and DOGE slide 7% as $850 million bullish bets end up liquidated",
+        "url": "https://www.coindesk.com/markets/2026/01/31/eth-sol-and-doge-slide-7-as-usd850-million-bullish-bets-end-up-liquidated",
+        "source": "CoinDesk",
+        "weight": 1.0755,
         "score": 0.5333
       },
       {
-        "title": "Lingering extreme fear in crypto is a 'strong bullish' sign: Santiment",
-        "url": "https://cointelegraph.com/news/crypto-sentiment-extreme-fears-bullish-signals-crypto-analytics?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3497,
+        "title": "Private Credit Worries Bedevil Shares of Biggest Buyout Shops",
+        "url": "https://www.bloomberg.com/news/articles/2026-01-31/private-credit-worries-bedevil-shares-of-biggest-buyout-shops",
+        "source": "Bloomberg Markets",
+        "weight": 0.6253,
+        "score": 0.6667
+      },
+      {
+        "title": "1 Top ETF I Plan to Load Up On in 2026",
+        "url": "https://www.fool.com/investing/2026/01/31/1-top-etf-i-plan-to-load-up-on-in-2026/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7196,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Binance pins crypto's worst-ever liquidation day on macro risks, not exchange failure",
-        "url": "https://www.coindesk.com/markets/2026/01/31/binance-pins-crypto-s-worst-ever-liquidation-day-on-macro-risks-not-exchange-failure",
-        "source": "CoinDesk",
-        "weight": 0.6152,
+        "title": "Crypto market crashes erasing $100B as Israel strikes Gaza with ETH and XRP leading weekend losses",
+        "url": "https://cryptoslate.com/weekend-crypto-market-crash-erases-100b-as-israel-strikes-gaza-with-eth-and-xrp-leading-losses/",
+        "source": "CryptoSlate",
+        "weight": 0.7736,
         "score": -1.0
       },
       {
-        "title": "Founder of OKX, one of the biggest crypto exchanges, blames bitcoin’s October crash on Binance",
-        "url": "https://www.coindesk.com/markets/2026/01/31/crypto-exchange-boss-blames-ethena-s-usde-for-october-crash-while-investors-hit-back",
+        "title": "Bitcoin plunges under $81,000 amid reports of Iran explosions and thin weekend liquidity",
+        "url": "https://www.coindesk.com/markets/2026/01/31/bitcoin-plunges-under-usd81-000-amid-reports-of-iran-explosions-and-binance-spat",
         "source": "CoinDesk",
-        "weight": 0.934,
+        "weight": 0.8073,
         "score": -0.6333
       },
       {
-        "title": "Silver's 35% plunge ends up beating bitcoin in a rare crypto liquidation shock",
-        "url": "https://www.coindesk.com/markets/2026/01/31/silver-s-35-plunge-ends-up-beating-bitcoin-in-a-rare-crypto-liquidation-shock",
-        "source": "CoinDesk",
-        "weight": 0.5442,
-        "score": -0.9667
+        "title": "If You'd Invested $100 in Costco 10 Years Ago, Here's How Much You'd Have Today",
+        "url": "https://www.fool.com/investing/2026/01/31/invested-100-costco-stock-10-years-ago-how-much/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7294,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5097100997817068,
-          "price_change_24h": 0.00808
-        },
-        {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3890811838206152,
-          "price_change_24h": -3.60553
+          "volume_mcap_ratio": 0.563078587750079,
+          "price_change_24h": -0.00229
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3789394601764271,
-          "price_change_24h": 0.02846
+          "volume_mcap_ratio": 0.381146771955985,
+          "price_change_24h": -0.07625
+        },
+        {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.33933092910516655,
+          "price_change_24h": -2.59101
         }
       ],
       "momentum_shifts": []
