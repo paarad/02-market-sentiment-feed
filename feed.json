@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-01-31T20:33:39.895936+00:00",
+  "updated_at": "2026-02-01T03:17:01.992334+00:00",
   "indicators": {
-    "change24h": -0.148,
-    "vol": 0.349,
-    "fearGreed": 20,
+    "change24h": -0.106,
+    "vol": 0.249,
+    "fearGreed": 14,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2826,
-    "global_sentiment": 0.4145,
-    "combined_sentiment": 0.3298,
-    "confidence": 0.7562,
+    "crypto_sentiment": 0.2366,
+    "global_sentiment": 0.4513,
+    "combined_sentiment": 0.2984,
+    "confidence": 0.69,
     "counts": {
-      "crypto": 60,
+      "crypto": 63,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 77170,
-      "btc_change_24h": -8.14,
-      "eth_price": 2361.84,
-      "eth_change_24h": -11.91,
+      "btc_price": 78781,
+      "btc_change_24h": -6.26,
+      "eth_price": 2446.9,
+      "eth_change_24h": -9.31,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 20,
+        "value": 14,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 303805581102,
+        "volume_24h": 331548896215,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.9,
+        "btc_dominance": 56.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-18T08:34:46.587204+00:00",
-      "crypto": 0.3818,
-      "global": 0.3964,
-      "combined": 0.4028,
-      "counts": {
-        "crypto": 70,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-01-18T12:53:46.364311+00:00",
       "crypto": 0.2518,
@@ -1008,71 +998,81 @@
         "crypto": 60,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-01T03:17:01.992334+00:00",
+      "crypto": 0.2366,
+      "global": 0.4513,
+      "combined": 0.2984,
+      "counts": {
+        "crypto": 63,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ETH, SOL and DOGE slide 7% as $850 million bullish bets end up liquidated",
-        "url": "https://www.coindesk.com/markets/2026/01/31/eth-sol-and-doge-slide-7-as-usd850-million-bullish-bets-end-up-liquidated",
-        "source": "CoinDesk",
-        "weight": 0.6831,
-        "score": 0.5333
-      },
-      {
-        "title": "Private Credit Worries Bedevil Shares of Biggest Buyout Shops",
-        "url": "https://www.bloomberg.com/news/articles/2026-01-31/private-credit-worries-bedevil-shares-of-biggest-buyout-shops",
-        "source": "Bloomberg Markets",
-        "weight": 0.3972,
-        "score": 0.6667
-      },
-      {
-        "title": "1 Top ETF I Plan to Load Up On in 2026",
-        "url": "https://www.fool.com/investing/2026/01/31/1-top-etf-i-plan-to-load-up-on-in-2026/?.tsrc=rss",
+        "title": "Can MP Materials Stock Beat the Market in 2026?",
+        "url": "https://www.fool.com/investing/2026/01/31/can-mp-stock-beat-the-market/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4571,
+        "weight": 0.4062,
         "score": 0.5333
+      },
+      {
+        "title": "VICI Properties Inc (VICI) is Trading Close to its 52-Week Lows",
+        "url": "https://finance.yahoo.com/news/vici-properties-inc-vici-trading-205137978.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3809,
+        "score": 0.5333
+      },
+      {
+        "title": "Will the S&P 500 Crash in 2026? History Offers a Strikingly Clear Answer.",
+        "url": "https://www.fool.com/investing/2026/01/31/will-the-sp-500-crash-in-2026-history-says-this/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5167,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin hashrate drops 12% in worst drawdown since China mining ban: CryptoQuant",
-        "url": "https://www.coindesk.com/tech/2026/01/30/bitcoin-hashrate-drops-12-in-worst-drawdown-since-china-mining-ban-cryptoquant",
-        "source": "CoinDesk",
-        "weight": 0.993,
+        "title": "SOL drops to $95 as Bitcoin, AI stocks and gold sell off: Will traders buy the dip?",
+        "url": "https://cointelegraph.com/news/sol-drops-to-95-as-bitcoin-ai-stocks-and-gold-sell-off-will-traders-buy-the-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8833,
         "score": -0.6667
       },
       {
-        "title": "Bitcoin crashes below $76K Strategy cost basis in $2B liquidation event",
-        "url": "https://cointelegraph.com/news/bitcoin-crashes-76k-strategy-cost-basis-2b-liquidation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6818,
-        "score": -0.9667
+        "title": "Crypto Crash: Liquidations Top $2.5 Billion as Bitcoin, Ethereum and XRP Prices Plummet",
+        "url": "https://decrypt.co/356557/crypto-crash-liquidations-2-5-billion-bitcoin-ethereum-xrp-plummet",
+        "source": "Decrypt",
+        "weight": 0.4706,
+        "score": -1.0
       },
       {
-        "title": "Solana DeFi platform step finance hit by $27 million treasury hack as token price craters",
-        "url": "https://www.coindesk.com/business/2026/01/31/solana-based-defi-platform-step-finance-hit-by-usd30-million-treasury-hack-as-token-price-craters",
-        "source": "CoinDesk",
-        "weight": 0.7765,
-        "score": -0.7333
+        "title": "Fear & Greed 14 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.716617278281443,
-          "price_change_24h": 0.01803
+          "volume_mcap_ratio": 0.7810999586031383,
+          "price_change_24h": 0.05497
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.47345920504195776,
-          "price_change_24h": -0.10578
+          "volume_mcap_ratio": 0.5751502203714,
+          "price_change_24h": -0.03323
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.38894464993375893,
-          "price_change_24h": -14.24362
+          "volume_mcap_ratio": 0.4169965664978801,
+          "price_change_24h": -8.67624
         }
       ],
       "momentum_shifts": []
