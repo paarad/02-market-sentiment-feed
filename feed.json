@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-01T13:05:37.107005+00:00",
+  "updated_at": "2026-02-01T16:38:24.736716+00:00",
   "indicators": {
-    "change24h": -0.084,
-    "vol": 0.22,
+    "change24h": -0.073,
+    "vol": 0.222,
     "fearGreed": 14,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2415,
-    "global_sentiment": 0.3181,
-    "combined_sentiment": 0.291,
-    "confidence": 0.6563,
+    "crypto_sentiment": 0.282,
+    "global_sentiment": 0.3492,
+    "combined_sentiment": 0.3239,
+    "confidence": 0.7029,
     "counts": {
       "crypto": 77,
       "global": 31
     },
     "market_indicators": {
-      "btc_price": 78497,
-      "btc_change_24h": -5.01,
-      "eth_price": 2401.79,
-      "eth_change_24h": -8.63,
+      "btc_price": 77527,
+      "btc_change_24h": -4.13,
+      "eth_price": 2319.72,
+      "eth_change_24h": -7.92,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 346572289687,
+        "volume_24h": 313271448021,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.97,
+        "btc_dominance": 57.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-18T20:30:25.147188+00:00",
-      "crypto": 0.5493,
-      "global": 0.4541,
-      "combined": 0.5332,
-      "counts": {
-        "crypto": 67,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-01-19T02:25:10.164760+00:00",
       "crypto": 0.4452,
@@ -1008,71 +998,81 @@
         "crypto": 77,
         "global": 31
       }
+    },
+    {
+      "ts": "2026-02-01T16:38:24.736716+00:00",
+      "crypto": 0.282,
+      "global": 0.3492,
+      "combined": 0.3239,
+      "counts": {
+        "crypto": 77,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "India to Double Tax Holiday in Finance Hub to Boost Business",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-01/india-to-double-tax-holiday-in-finance-hub-to-boost-business",
-        "source": "Bloomberg Markets",
-        "weight": 0.4793,
-        "score": 0.3333
-      },
-      {
-        "title": "Costco Stock Is Soaring. Is It Too Late to Buy?",
-        "url": "https://www.fool.com/investing/2026/01/31/costco-stock-is-soaring-is-it-too-late-to-buy/?.tsrc=rss",
+        "title": "Is AllianceBernstein Holding L.P. (AB) One of the Best Nancy Pelosi Stocks to Buy in 2026?",
+        "url": "https://finance.yahoo.com/news/alliancebernstein-holding-l-p-ab-133017465.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3171,
+        "weight": 0.5569,
+        "score": 0.5333
+      },
+      {
+        "title": "The Biggest Games Releasing in February 2026",
+        "url": "https://decrypt.co/356436/the-biggest-games-releasing-in-february-2026",
+        "source": "Decrypt",
+        "weight": 0.7047,
         "score": 0.3333
       },
       {
-        "title": "Bitcoin drops to $78,000 as Strategy-fueled rally runs out of buyers, traders say",
-        "url": "https://www.coindesk.com/markets/2026/02/01/bitcoin-drops-to-usd78-000-as-microstrategy-fueled-rally-runs-out-of-buyers-traders-say",
-        "source": "CoinDesk",
-        "weight": 0.4742,
-        "score": 0.2
+        "title": "'That's Basic Econ' — Dave Ramsey Says Increased Tariffs Do Not Cost Companies Money, As 'They Pass The Tariff Cost On To The Customer'",
+        "url": "https://finance.yahoo.com/news/thats-basic-econ-dave-ramsey-133502316.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.562,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Quantum threat gets real: Ethereum Foundation prioritizes security with leanVM and PQ signatures",
+        "url": "https://www.coindesk.com/tech/2026/02/01/quantum-threat-gets-real-ethereum-foundation-prioritizes-security-with-leanvm-and-pq-signatures",
+        "source": "CoinDesk",
+        "weight": 0.8274,
+        "score": -0.6333
+      },
+      {
+        "title": "As The Job Market Tightened, Candidates Got Creative With AI. Now They're Sending Multiple Resumes. 'People Will Say This Is Unethical, But…'",
+        "url": "https://finance.yahoo.com/news/job-market-tightened-candidates-got-153112146.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7029,
+        "score": -0.7333
+      },
       {
         "title": "Fear & Greed 14 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "UAE firm bought 49% of Trump-linked crypto startup for $500M: WSJ",
-        "url": "https://cointelegraph.com/news/uae-backed-firm-buys-49-percent-trump-linked-world-liberty-wsj?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5642,
-        "score": -0.6333
-      },
-      {
-        "title": "Step Finance treasury wallets breached, $27M in SOL drained as STEP crashes 90%",
-        "url": "https://cointelegraph.com/news/step-finance-treasury-breach-solana-step-token-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5401,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.799873972850514,
-          "price_change_24h": 0.07456
+          "volume_mcap_ratio": 0.7458307032635222,
+          "price_change_24h": 0.05341
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5667663765467201,
-          "price_change_24h": -0.02871
+          "volume_mcap_ratio": 0.5583833014497753,
+          "price_change_24h": -0.02755
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.4170141872121719,
-          "price_change_24h": -7.01599
+          "volume_mcap_ratio": 0.38026798285554203,
+          "price_change_24h": -5.7521
         }
       ],
       "momentum_shifts": []
