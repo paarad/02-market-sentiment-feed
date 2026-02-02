@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-02T02:49:55.150666+00:00",
+  "updated_at": "2026-02-02T05:26:50.485661+00:00",
   "indicators": {
-    "change24h": -0.053,
-    "vol": 0.185,
+    "change24h": -0.084,
+    "vol": 0.23,
     "fearGreed": 14,
-    "momentum": -0.935,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2322,
-    "global_sentiment": 0.4672,
-    "combined_sentiment": 0.2964,
-    "confidence": 0.6825,
+    "crypto_sentiment": 0.2599,
+    "global_sentiment": 0.5212,
+    "combined_sentiment": 0.3217,
+    "confidence": 0.725,
     "counts": {
-      "crypto": 62,
+      "crypto": 78,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 76756,
-      "btc_change_24h": -2.44,
-      "eth_price": 2267.68,
-      "eth_change_24h": -7.41,
+      "btc_price": 75237,
+      "btc_change_24h": -4.6,
+      "eth_price": 2209.02,
+      "eth_change_24h": -9.63,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 245179925656,
-        "high_activity_coins": 2
+        "volume_24h": 294977003600,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.01,
+        "btc_dominance": 56.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-19T13:05:17.884110+00:00",
-      "crypto": 0.4761,
-      "global": 0.5506,
-      "combined": 0.4863,
-      "counts": {
-        "crypto": 70,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-01-19T16:38:38.240263+00:00",
       "crypto": 0.3839,
@@ -1008,66 +998,81 @@
         "crypto": 62,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-02-02T05:26:50.485661+00:00",
+      "crypto": 0.2599,
+      "global": 0.5212,
+      "combined": 0.3217,
+      "counts": {
+        "crypto": 78,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Hang Seng Launches HK's First Physical Gold ETF",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-02/hang-seng-launches-hk-s-first-physical-gold-etf-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6189,
-        "score": 0.6667
-      },
-      {
-        "title": "A Trader’s Guide to Thai Elections as Leaders Promise Stimulus",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-01/from-banks-to-tourism-a-stock-trader-s-guide-to-thailand-s-election",
-        "source": "Bloomberg Markets",
-        "weight": 0.5444,
-        "score": 0.6667
-      },
-      {
-        "title": "US Natural Gas Prices Plummet as Forecasts Show Warmer Weather",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-02/us-natural-gas-prices-plummet-as-forecasts-show-warmer-weather",
-        "source": "Bloomberg Markets",
-        "weight": 0.624,
+        "title": "The hidden reason bitcoin didn't rally as gold and silver went berserk",
+        "url": "https://www.coindesk.com/markets/2026/01/30/the-hidden-reason-bitcoin-s-bounce-keeps-failing-below-usd90-000",
+        "source": "CoinDesk",
+        "weight": 0.9527,
         "score": 0.5333
+      },
+      {
+        "title": "How to Calculate the True Value of Gold | Merryn Talks Money",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-02/gold-prices-hit-record-highs-a-portfolio-wake-up-call-merryn-talks-money",
+        "source": "Bloomberg Markets",
+        "weight": 0.7599,
+        "score": 0.6667
+      },
+      {
+        "title": "Copper Slump Deepens as Traders Wait for China Bulls to Step In",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-02/copper-extends-slump-as-traders-eye-volatility-across-metals",
+        "source": "Bloomberg Markets",
+        "weight": 0.4984,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "'This is absolutely INSANE': Bitcoin’s weekend crash exposes the cracks beneath crypto’s latest boom",
-        "url": "https://www.coindesk.com/markets/2026/02/01/this-is-absolutely-insane-bitcoin-s-weekend-crash-exposes-the-cracks-beneath-crypto-s-latest-boom",
+        "title": "Story delays $IP token supply unlock as usage lags and dump fears grow",
+        "url": "https://www.coindesk.com/markets/2026/02/02/story-delays-usdip-token-unlock-by-6-months-as-supply-overhang-fears-mount-and-usage-remains-thin",
         "source": "CoinDesk",
-        "weight": 0.9141,
+        "weight": 1.1045,
+        "score": -0.6667
+      },
+      {
+        "title": "Bitcoin Derivatives Signal Elevated Stress Following Market Rout",
+        "url": "https://decrypt.co/356594/bitcoin-derivatives-signal-elevated-stress",
+        "source": "Decrypt",
+        "weight": 0.7807,
         "score": -0.6333
       },
       {
-        "title": "Crypto protocol CrossCurve under attack, $3M reportedly exploited",
-        "url": "https://cointelegraph.com/news/crypto-protocol-crosscurve-exploited-for-3m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Crypto selloff is likely due to US liquidity drought: Analyst",
+        "url": "https://cointelegraph.com/news/liquidity-drought-hurting-crypto-markets-raoul-pal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5014,
-        "score": -1.0
-      },
-      {
-        "title": "Strategy’s Saylor signals buy after BTC briefly dips below cost basis",
-        "url": "https://cointelegraph.com/news/strategy-hints-bought-bitcoin-after-weekend-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7471,
-        "score": -0.6333
+        "weight": 0.6429,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5842031123421022,
-          "price_change_24h": -0.00288
+          "volume_mcap_ratio": 0.6792499312952983,
+          "price_change_24h": -0.00653
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.43783425078193433,
-          "price_change_24h": -0.02088
+          "volume_mcap_ratio": 0.4856616823350293,
+          "price_change_24h": -0.01546
+        },
+        {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.3197707701284644,
+          "price_change_24h": -3.91138
         }
       ],
       "momentum_shifts": []
