@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-03T05:17:31.399420+00:00",
+  "updated_at": "2026-02-03T08:49:47.857831+00:00",
   "indicators": {
-    "change24h": 0.089,
-    "vol": 0.302,
+    "change24h": 0.066,
+    "vol": 0.3,
     "fearGreed": 17,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3901,
-    "global_sentiment": 0.5543,
-    "combined_sentiment": 0.4221,
-    "confidence": 0.7841,
+    "crypto_sentiment": 0.428,
+    "global_sentiment": 0.5437,
+    "combined_sentiment": 0.4496,
+    "confidence": 0.7764,
     "counts": {
-      "crypto": 58,
-      "global": 41
+      "crypto": 57,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 78421,
-      "btc_change_24h": 4.38,
-      "eth_price": 2324.48,
-      "eth_change_24h": 5.24,
+      "btc_price": 78870,
+      "btc_change_24h": 2.58,
+      "eth_price": 2325.18,
+      "eth_change_24h": 3.46,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 273147089447,
+        "volume_24h": 247101466986,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.14,
+        "btc_dominance": 57.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-20T08:41:49.088183+00:00",
-      "crypto": 0.4089,
-      "global": 0.4425,
-      "combined": 0.4269,
-      "counts": {
-        "crypto": 76,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-20T13:05:53.470534+00:00",
       "crypto": 0.4483,
@@ -1008,26 +998,36 @@
         "crypto": 58,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-03T08:49:47.857831+00:00",
+      "crypto": 0.428,
+      "global": 0.5437,
+      "combined": 0.4496,
+      "counts": {
+        "crypto": 57,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin, ether and major tokens stage relief rally after weekend bloodbath",
-        "url": "https://www.coindesk.com/markets/2026/02/03/bitcoin-ether-and-major-tokens-stage-relief-rally-after-weekend-bloodbath",
-        "source": "CoinDesk",
-        "weight": 0.933,
-        "score": 0.5333
+        "title": "Cathie Wood’s ARK boosts crypto shares amid stock pullback",
+        "url": "https://cointelegraph.com/news/ark-invest-boosts-shares-robinhood-bitmine-amid-crypto-stock-bloodbath?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5999,
+        "score": 0.8667
       },
       {
-        "title": "Rand Is Undervalued Even After Year-Long Rally, Survey Shows",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-03/rand-is-undervalued-even-after-year-long-rally-survey-shows",
+        "title": "India Exports Poised to Rise as US Slashes Tariffs to 18%",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-03/india-exports-poised-to-rise-as-us-slashes-tariffs-to-18",
         "source": "Bloomberg Markets",
-        "weight": 0.6891,
-        "score": 0.6667
+        "weight": 0.5446,
+        "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 3.8% — rally",
+        "title": "Global crypto market cap up 2.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1036,43 +1036,43 @@
     ],
     "negative": [
       {
-        "title": "Fenwick agrees to settle lawsuit over law firm’s alleged role in FTX fraud",
-        "url": "https://cointelegraph.com/news/fenwick-settles-lawsuit-over-work-crypto-exchange-ftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.598,
-        "score": -1.0
+        "title": "FDA Rejects Self-Injected Version of AstraZeneca’s Lupus Drug",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-03/fda-rejects-self-injected-version-of-astrazeneca-s-lupus-drug",
+        "source": "Bloomberg Markets",
+        "weight": 0.6949,
+        "score": -0.9333
       },
       {
-        "title": "Tom Lee tips lack of leverage and gold ‘vortex’ for Ether's 21% slump",
-        "url": "https://cointelegraph.com/news/fundstrat-tom-lee-cites-lack-leverage-metals-vortex-ether-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Spot crypto volumes plunge to 2024 lows amid investor demand weakens",
+        "url": "https://cointelegraph.com/news/crypto-volume-contraction-sends-markets-back-to-2024-levels-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6616,
-        "score": -0.6667
+        "weight": 0.6297,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 17 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Ripple-backed custody secures $280 million diamond tokenization push in UAE",
+        "url": "https://www.coindesk.com/markets/2026/02/03/ripple-backed-custody-secures-usd280-million-diamond-tokenization-push-in-uae",
+        "source": "CoinDesk",
+        "weight": 0.9172,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6635765455132987,
-          "price_change_24h": 0.01964
+          "volume_mcap_ratio": 0.5776591145843414,
+          "price_change_24h": 0.01909
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5596724189136664,
-          "price_change_24h": 0.10443
+          "volume_mcap_ratio": 0.47457703760179215,
+          "price_change_24h": 0.03057
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.44588555917094413,
-          "price_change_24h": 3.45645
+          "volume_mcap_ratio": 0.35862020506630315,
+          "price_change_24h": 6.4432
         }
       ],
       "momentum_shifts": []
