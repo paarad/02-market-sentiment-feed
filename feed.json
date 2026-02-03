@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-03T02:46:12.361371+00:00",
+  "updated_at": "2026-02-03T05:17:31.399420+00:00",
   "indicators": {
-    "change24h": 0.044,
-    "vol": 0.215,
+    "change24h": 0.089,
+    "vol": 0.302,
     "fearGreed": 17,
-    "momentum": 0.764,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3838,
-    "global_sentiment": 0.5526,
-    "combined_sentiment": 0.4172,
-    "confidence": 0.7787,
+    "crypto_sentiment": 0.3901,
+    "global_sentiment": 0.5543,
+    "combined_sentiment": 0.4221,
+    "confidence": 0.7841,
     "counts": {
-      "crypto": 56,
-      "global": 39
+      "crypto": 58,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 78307,
-      "btc_change_24h": 1.82,
-      "eth_price": 2314.14,
-      "eth_change_24h": 1.78,
+      "btc_price": 78421,
+      "btc_change_24h": 4.38,
+      "eth_price": 2324.48,
+      "eth_change_24h": 5.24,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.95,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 318660231011,
+        "volume_24h": 273147089447,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.24,
+        "btc_dominance": 57.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-20T04:52:02.854904+00:00",
-      "crypto": 0.4499,
-      "global": 0.4762,
-      "combined": 0.4604,
-      "counts": {
-        "crypto": 72,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-20T08:41:49.088183+00:00",
       "crypto": 0.4089,
@@ -1008,71 +998,81 @@
         "crypto": 56,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-03T05:17:31.399420+00:00",
+      "crypto": 0.3901,
+      "global": 0.5543,
+      "combined": 0.4221,
+      "counts": {
+        "crypto": 58,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Sees Record Coal Plant Bids Even as Usage Declines, Report Finds",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-03/china-sees-record-coal-plant-bids-even-as-usage-declines-report",
-        "source": "Bloomberg Markets",
-        "weight": 0.582,
-        "score": 0.8667
-      },
-      {
-        "title": "Global crypto market cap up 2.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Bitcoin, ether and major tokens stage relief rally after weekend bloodbath",
+        "url": "https://www.coindesk.com/markets/2026/02/03/bitcoin-ether-and-major-tokens-stage-relief-rally-after-weekend-bloodbath",
+        "source": "CoinDesk",
+        "weight": 0.933,
         "score": 0.5333
       },
       {
-        "title": "'GameStop in 2026': How silver market has morphed into meme trading",
-        "url": "https://www.cnbc.com/2026/02/03/gamestop-in-2026-how-silver-market-has-morphed-into-meme-trading-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7667,
+        "title": "Rand Is Undervalued Even After Year-Long Rally, Survey Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-03/rand-is-undervalued-even-after-year-long-rally-survey-shows",
+        "source": "Bloomberg Markets",
+        "weight": 0.6891,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 3.8% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Goldman's Haider: Pivotal Year for Obesity Market in Pharma",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-02/haider-pivotal-year-for-obesity-market-in-pharma-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5579,
-        "score": -1.0
-      },
-      {
-        "title": "Oil Steadies After Biggest Drop Since June With Focus on Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-02/latest-oil-market-news-and-analysis-for-february-3",
-        "source": "Bloomberg Markets",
-        "weight": 0.5368,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin flash crash recovery to $100K may take 6 months: Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-flash-crash-recovery-to-dollar100k-may-take-6-months-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Fenwick agrees to settle lawsuit over law firm’s alleged role in FTX fraud",
+        "url": "https://cointelegraph.com/news/fenwick-settles-lawsuit-over-work-crypto-exchange-ftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7938,
-        "score": -0.6333
+        "weight": 0.598,
+        "score": -1.0
+      },
+      {
+        "title": "Tom Lee tips lack of leverage and gold ‘vortex’ for Ether's 21% slump",
+        "url": "https://cointelegraph.com/news/fundstrat-tom-lee-cites-lack-leverage-metals-vortex-ether-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6616,
+        "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 17 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.744646863759877,
-          "price_change_24h": 0.00383
+          "volume_mcap_ratio": 0.6635765455132987,
+          "price_change_24h": 0.01964
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.6125457440298135,
-          "price_change_24h": 0.12055
+          "volume_mcap_ratio": 0.5596724189136664,
+          "price_change_24h": 0.10443
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.47805248829559077,
-          "price_change_24h": 0.86943
+          "volume_mcap_ratio": 0.44588555917094413,
+          "price_change_24h": 3.45645
         }
       ],
       "momentum_shifts": []
