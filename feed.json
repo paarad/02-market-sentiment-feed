@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-03T13:17:15.093531+00:00",
+  "updated_at": "2026-02-03T17:01:54.368797+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.248,
+    "change24h": -0.04,
+    "vol": 0.149,
     "fearGreed": 17,
-    "momentum": 0.386,
-    "regime": "sideways",
+    "momentum": -0.693,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4466,
-    "global_sentiment": 0.4926,
-    "combined_sentiment": 0.4594,
-    "confidence": 0.8071,
+    "crypto_sentiment": 0.4576,
+    "global_sentiment": 0.4909,
+    "combined_sentiment": 0.4674,
+    "confidence": 0.8373,
     "counts": {
-      "crypto": 59,
-      "global": 39
+      "crypto": 75,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 78308,
-      "btc_change_24h": 0.59,
-      "eth_price": 2302.17,
-      "eth_change_24h": -0.16,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "btc_price": 76455,
+      "btc_change_24h": -2.76,
+      "eth_price": 2240.74,
+      "eth_change_24h": -5.05,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 224594767382,
-        "high_activity_coins": 3
+        "volume_24h": 216780283452,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.19,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-20T16:43:57.378347+00:00",
-      "crypto": 0.37,
-      "global": 0.4056,
-      "combined": 0.3946,
-      "counts": {
-        "crypto": 78,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-01-20T20:34:42.550928+00:00",
       "crypto": 0.3066,
@@ -1008,71 +998,76 @@
         "crypto": 59,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-03T17:01:54.368797+00:00",
+      "crypto": 0.4576,
+      "global": 0.4909,
+      "combined": 0.4674,
+      "counts": {
+        "crypto": 75,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "High Growth Tech Stocks to Watch in the US Market",
-        "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-watch-113814138.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6611,
-        "score": 1.0
-      },
-      {
-        "title": "The scorecard for an XRP investment thesis that separates Ripple licensing from XRPL utility signals",
-        "url": "https://cryptoslate.com/what-breaks-the-case-for-xrp-investment-thesis-when-ripple-progress-fails-to-show-up-on-xrpl/",
-        "source": "CryptoSlate",
-        "weight": 0.8797,
-        "score": 0.5833
-      },
-      {
-        "title": "Adani Flagship Posts Massive Profit Jump Purely on One-Off Gains",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-03/adani-flagship-posts-record-quarterly-profit-on-one-time-gain",
+        "title": "Stocks Rally at Risk as Retail Fervor Fades, Says Citadel Securities’ Rubner",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-03/stocks-rally-at-risk-as-retail-fervor-fades-says-citadel-securities-rubner",
         "source": "Bloomberg Markets",
-        "weight": 0.5068,
-        "score": 1.0
+        "weight": 0.7346,
+        "score": 0.8667
+      },
+      {
+        "title": "Stocks Wobble to Begin Session. Nasdaq Turns Lower.",
+        "url": "https://finance.yahoo.com/m/01b83294-88be-3b36-be6b-39fc35f4e4e7/stocks-wobble-to-begin.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6489,
+        "score": 0.8667
+      },
+      {
+        "title": "Stock Market Today: Dow Slips While Walmart Hits $1 Trillion Market Cap; Palantir Pops (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/ef588fd5-c678-37b0-9cd7-c1ffa5e83dc7/stock-market-today%3A-dow-slips.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7817,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Galaxy Digital shares plunge over 6% in pre-market over $482 million Q4 loss",
-        "url": "https://www.coindesk.com/markets/2026/02/03/galaxy-digital-shares-plunge-over-6-in-pre-market-over-usd482-million-q4-loss",
+        "title": "Ethereum builders shrug off ETH decline as network activity holds steady",
+        "url": "https://www.coindesk.com/business/2026/02/03/ethereum-builders-shrug-off-eth-decline-as-network-activity-holds-steady",
         "source": "CoinDesk",
-        "weight": 0.9396,
-        "score": -0.9667
-      },
-      {
-        "title": "Jim Cramer Explains Stock Market Slump You Didn't See Coming: S&P Futures Are Falling Because Of Gold, Silver Sell-Offs, Not A Crash",
-        "url": "https://finance.yahoo.com/news/jim-cramer-explains-stock-market-130106954.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7755,
+        "weight": 0.7869,
         "score": -1.0
       },
       {
-        "title": "Stock Market Week: Dow Rally Aces Ninth Month",
-        "url": "https://finance.yahoo.com/m/9a0e9acd-3f73-3e2d-ad49-ad0231998fc9/stock-market-week%3A-dow-rally.html?.tsrc=rss",
+        "title": "Unity, Intuit, Twilio, Freshworks, and Procore Technologies Shares Are Falling, What You Need To Know",
+        "url": "https://finance.yahoo.com/news/unity-intuit-twilio-freshworks-procore-164542888.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7729,
-        "score": -0.9333
+        "weight": 0.7754,
+        "score": -0.9667
+      },
+      {
+        "title": "Why Guidewire Software (GWRE) Stock Is Nosediving",
+        "url": "https://finance.yahoo.com/news/why-guidewire-software-gwre-stock-164542500.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7754,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5361486827273045,
-          "price_change_24h": -0.00424
+          "volume_mcap_ratio": 0.5136040304710161,
+          "price_change_24h": -0.01153
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.44114445633192206,
-          "price_change_24h": 0.04317
-        },
-        {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3174270541689571,
-          "price_change_24h": 3.22011
+          "volume_mcap_ratio": 0.34298281871140024,
+          "price_change_24h": -0.07419
         }
       ],
       "momentum_shifts": []
