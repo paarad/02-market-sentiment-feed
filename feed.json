@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-04T20:04:32.049389+00:00",
+  "updated_at": "2026-02-04T20:43:10.116307+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.187,
+    "change24h": -0.04,
+    "vol": 0.215,
     "fearGreed": 14,
-    "momentum": -0.031,
-    "regime": "sideways",
+    "momentum": -0.702,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4231,
-    "global_sentiment": 0.2918,
-    "combined_sentiment": 0.425,
-    "confidence": 0.7923,
+    "crypto_sentiment": 0.4217,
+    "global_sentiment": 0.2701,
+    "combined_sentiment": 0.4221,
+    "confidence": 0.784,
     "counts": {
-      "crypto": 62,
-      "global": 43
+      "crypto": 48,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 73735,
-      "btc_change_24h": -1.3,
-      "eth_price": 2178.56,
-      "eth_change_24h": -0.76,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 73504,
+      "btc_change_24h": -3.65,
+      "eth_price": 2169.73,
+      "eth_change_24h": -5.49,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 294833352969.0,
-        "high_activity_coins": 4
+        "volume_24h": 293884936337.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.34,
+        "btc_dominance": 58.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-21T20:39:43.561455+00:00",
-      "crypto": 0.4203,
-      "global": 0.4907,
-      "combined": 0.4394,
-      "counts": {
-        "crypto": 58,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-01-22T02:24:17.445345+00:00",
       "crypto": 0.4073,
@@ -1008,6 +998,16 @@
         "crypto": 62,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-02-04T20:43:10.116307+00:00",
+      "crypto": 0.4217,
+      "global": 0.2701,
+      "combined": 0.4221,
+      "counts": {
+        "crypto": 48,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,63 +1016,63 @@
         "title": "Bitnomial launches first US-regulated Tezos futures, allowing retail exposure to XTZ",
         "url": "https://cointelegraph.com/news/bitnomial-launches-us-regulated-tezos-xtz-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6677,
+        "weight": 0.6198,
         "score": 0.9667
       },
       {
         "title": "Hyperliquid flips the bear market script with a 71% surge while trillions vanish from global risk trades",
         "url": "https://cryptoslate.com/hyperliquid-beats-bitcoin-xrp-with-double-digit-gains/",
         "source": "CryptoSlate",
-        "weight": 0.4466,
+        "weight": 0.4146,
         "score": 1.0
       },
       {
-        "title": "Price predictions 2/4: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, XMR",
-        "url": "https://cointelegraph.com/news/price-predictions-2-4-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8218,
+        "title": "Oil Fund Posts Largest Inflow Since 2020 as Iran Risk Simmers",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/oil-fund-posts-largest-inflow-since-2020-as-iran-risk-simmers",
+        "source": "Bloomberg Markets",
+        "weight": 0.7656,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Apple stock rises as it bucks tech selloff amid AI disruption fears",
-        "url": "https://finance.yahoo.com/news/apple-stock-rises-bucks-tech-194410691.html?.tsrc=rss",
+        "title": "Tech stocks plunge as AI fears take hold",
+        "url": "https://uk.finance.yahoo.com/news/tech-stocks-plunge-ai-fears-201007129.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7692,
+        "weight": 0.7507,
         "score": -0.9667
       },
       {
-        "title": "Eli Lilly's GLP-1 growth is only getting started as Novo Nordisk braces for a decline in 2026",
-        "url": "https://www.cnbc.com/2026/02/04/eli-lilly-novo-nordisk-earnings-glp1-market.html",
-        "source": "CNBC Markets",
-        "weight": 0.7805,
-        "score": -0.9333
+        "title": "AbbVie Earnings Beat Wall Street Expectations. The Stock Is Falling Anyway.",
+        "url": "https://finance.yahoo.com/m/8bb0e2d1-e657-3197-b943-a57a71e5dd4d/abbvie-earnings-beat-wall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7057,
+        "score": -1.0
       },
       {
-        "title": "Aon Agrees to $15 Million Settlement With Pennsylvania Teachers",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-04/aon-agrees-to-15-million-settlement-with-pennsylvania-teachers",
-        "source": "Bloomberg Markets",
-        "weight": 0.72,
-        "score": -1.0
+        "title": "Apple stock rises as it bucks tech selloff amid AI disruption fears",
+        "url": "https://finance.yahoo.com/news/apple-stock-rises-bucks-tech-194410691.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7141,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6963386703992238,
-          "price_change_24h": -0.08658
+          "volume_mcap_ratio": 0.6787980971389895,
+          "price_change_24h": -0.07986
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5562239315164763,
-          "price_change_24h": -0.04777
+          "volume_mcap_ratio": 0.5454125186581437,
+          "price_change_24h": -0.02394
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.41985767483075503,
-          "price_change_24h": 0.4275
+          "volume_mcap_ratio": 0.42070400707518507,
+          "price_change_24h": -0.38168
         }
       ],
       "momentum_shifts": []
