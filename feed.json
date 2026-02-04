@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-03T20:47:14.471765+00:00",
+  "updated_at": "2026-02-04T02:40:48.118199+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.143,
-    "fearGreed": 17,
-    "momentum": -0.037,
-    "regime": "sideways",
+    "change24h": -0.027,
+    "vol": 0.156,
+    "fearGreed": 14,
+    "momentum": -0.469,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3784,
-    "global_sentiment": 0.3659,
-    "combined_sentiment": 0.3976,
-    "confidence": 0.8383,
+    "crypto_sentiment": 0.3725,
+    "global_sentiment": 0.4309,
+    "combined_sentiment": 0.3986,
+    "confidence": 0.8029,
     "counts": {
-      "crypto": 64,
-      "global": 37
+      "crypto": 77,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 76309,
-      "btc_change_24h": -2.2,
-      "eth_price": 2298.05,
-      "eth_change_24h": -0.69,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 75954,
+      "btc_change_24h": -3.19,
+      "eth_price": 2257.42,
+      "eth_change_24h": -2.55,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 17,
+        "value": 14,
         "classification": "Extreme Fear",
-        "trend": "declining"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 279915431671,
-        "high_activity_coins": 2
+        "volume_24h": 294631101738.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 56.58,
+        "btc_dominance": 58.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-21T02:22:58.624950+00:00",
-      "crypto": 0.3322,
-      "global": 0.4499,
-      "combined": 0.37,
-      "counts": {
-        "crypto": 70,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-01-21T04:51:19.945838+00:00",
       "crypto": 0.3383,
@@ -1008,66 +998,81 @@
         "crypto": 64,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-02-04T02:40:48.118199+00:00",
+      "crypto": 0.3725,
+      "global": 0.4309,
+      "combined": 0.3986,
+      "counts": {
+        "crypto": 77,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Palantir's Pop, Musk's Trillion Dollar Deal, Disney's Next Act | Open Interest 1/3/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-03/open-interest-1-3-2026-video",
+        "title": "RBI May Pivot to Buying Dollars to Build Reserves, Analysts Say",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/rbi-may-pivot-to-buying-dollars-to-build-reserves-analysts-say",
         "source": "Bloomberg Markets",
-        "weight": 0.6617,
-        "score": 0.8667
+        "weight": 0.698,
+        "score": 0.7
       },
       {
-        "title": "Who is Josh D'Amaro, Disney's next CEO?",
-        "url": "https://www.cnbc.com/2026/02/03/josh-damaro-disney-ceo.html",
+        "title": "KKR and Singtel to take full ownership of data center firm STT GDC for about $5 billion",
+        "url": "https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html",
         "source": "CNBC Markets",
-        "weight": 0.6738,
-        "score": 0.6667
+        "weight": 0.7715,
+        "score": 0.3333
       },
       {
-        "title": "Did Solana bottom at $100? SOL price charts hint at a 150% rally",
-        "url": "https://cointelegraph.com/news/did-solana-price-bottom-100-dollars-sol-price-charts-hint-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Tian Ruixiang plans to acquire up to 15K Bitcoin in equity-linked deal",
+        "url": "https://cointelegraph.com/news/tian-ruixiang-plans-acquire-15-000-bitcoin-equity-linked-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.51,
-        "score": 0.5333
+        "weight": 0.4103,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "XRP plunges 6% as bitcoin drops under support, worsening downtrend",
-        "url": "https://www.coindesk.com/markets/2026/02/04/xrp-plunges-6-as-bitcoin-drops-under-support-worsening-downtrend",
-        "source": "CoinDesk",
-        "weight": 1.0242,
+        "title": "Vitalik Buterin tempers vision for ETH L2s, pushes native rollups",
+        "url": "https://cointelegraph.com/news/ethereum-scaling-pivot-l2s-mainnet-vitalik-buterin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9542,
+        "score": -0.6333
+      },
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures mostly slip as AMD's slide adds to AI malaise ahead of Google earnings",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-mostly-slip-as-amds-slide-adds-to-ai-malaise-ahead-of-google-earnings-234546468.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5711,
         "score": -0.9667
       },
       {
-        "title": "Bitcoin in freefall hitting lowest price since Trump took office as leverage turns a macro wobble into a brutal cascade",
-        "url": "https://cryptoslate.com/bitcoin-in-freefall-hitting-lowest-price-since-trump-took-office-as-leverage-turns-a-macro-wobble-into-a-brutal-cascade/",
-        "source": "CryptoSlate",
-        "weight": 0.7268,
-        "score": -1.0
-      },
-      {
-        "title": "Pfizer says obesity injection shows promise as monthly treatment in mid-stage trial",
-        "url": "https://www.cnbc.com/2026/02/03/pfizers-monthly-obesity-injection-drove-shows-promise-in-trial.html",
-        "source": "CNBC Markets",
-        "weight": 0.7307,
-        "score": -0.9333
+        "title": "Traders Boost Bets on World’s First Rate-Hike Cycle in Australia",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/world-s-first-tightening-cycle-seen-as-rba-rate-hike-bets-rise",
+        "source": "Bloomberg Markets",
+        "weight": 0.6836,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6681876709885953,
-          "price_change_24h": -0.03898
+          "volume_mcap_ratio": 0.7121302087458868,
+          "price_change_24h": -0.04267
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.43926097966160227,
-          "price_change_24h": -0.05251
+          "volume_mcap_ratio": 0.5485387035969956,
+          "price_change_24h": -0.04648
+        },
+        {
+          "symbol": "PAXG",
+          "volume_mcap_ratio": 0.4649138980021745,
+          "price_change_24h": 5.52172
         }
       ],
       "momentum_shifts": []
