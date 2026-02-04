@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-04T02:40:48.118199+00:00",
+  "updated_at": "2026-02-04T05:12:38.921806+00:00",
   "indicators": {
-    "change24h": -0.027,
-    "vol": 0.156,
+    "change24h": -0.024,
+    "vol": 0.213,
     "fearGreed": 14,
-    "momentum": -0.469,
-    "regime": "bear",
+    "momentum": -0.421,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3725,
-    "global_sentiment": 0.4309,
-    "combined_sentiment": 0.3986,
-    "confidence": 0.8029,
+    "crypto_sentiment": 0.3549,
+    "global_sentiment": 0.4741,
+    "combined_sentiment": 0.389,
+    "confidence": 0.8017,
     "counts": {
-      "crypto": 77,
+      "crypto": 64,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 75954,
-      "btc_change_24h": -3.19,
-      "eth_price": 2257.42,
-      "eth_change_24h": -2.55,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 76381,
+      "btc_change_24h": -2.65,
+      "eth_price": 2273.29,
+      "eth_change_24h": -2.71,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 294631101738.0,
+        "volume_24h": 302311225900.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.58,
+        "btc_dominance": 58.64,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-21T04:51:19.945838+00:00",
-      "crypto": 0.3383,
-      "global": 0.3428,
-      "combined": 0.3656,
-      "counts": {
-        "crypto": 72,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-01-21T08:40:46.100664+00:00",
       "crypto": 0.3713,
@@ -1008,71 +998,81 @@
         "crypto": 77,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-04T05:12:38.921806+00:00",
+      "crypto": 0.3549,
+      "global": 0.4741,
+      "combined": 0.389,
+      "counts": {
+        "crypto": 64,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "China’s New Retail Accounts Jump to Highest Since 2024 Boom",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/china-s-new-retail-accounts-jump-to-highest-since-2024-boom",
+        "source": "Bloomberg Markets",
+        "weight": 0.619,
+        "score": 1.0
+      },
+      {
         "title": "RBI May Pivot to Buying Dollars to Build Reserves, Analysts Say",
         "url": "https://www.bloomberg.com/news/articles/2026-02-04/rbi-may-pivot-to-buying-dollars-to-build-reserves-analysts-say",
         "source": "Bloomberg Markets",
-        "weight": 0.698,
+        "weight": 0.5211,
         "score": 0.7
       },
       {
-        "title": "KKR and Singtel to take full ownership of data center firm STT GDC for about $5 billion",
-        "url": "https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html",
-        "source": "CNBC Markets",
-        "weight": 0.7715,
+        "title": "China Gold ETFs See Record Outflows as Metals Slump Shakes Faith",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/china-gold-etfs-see-record-outflows-as-metals-slump-shakes-faith",
+        "source": "Bloomberg Markets",
+        "weight": 0.7261,
         "score": 0.3333
-      },
-      {
-        "title": "Tian Ruixiang plans to acquire up to 15K Bitcoin in equity-linked deal",
-        "url": "https://cointelegraph.com/news/tian-ruixiang-plans-acquire-15-000-bitcoin-equity-linked-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4103,
-        "score": 0.5833
       }
     ],
     "negative": [
       {
+        "title": "Nevada Moves to Bar Coinbase’s Prediction Markets Without State Gaming License",
+        "url": "https://decrypt.co/356874/nevada-bar-coinbases-prediction-markets-state-gaming-license",
+        "source": "Decrypt",
+        "weight": 0.8295,
+        "score": -1.0
+      },
+      {
+        "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support",
+        "url": "https://decrypt.co/356871/bitcoin-risks-further-slide-momentum-weakens-key-support",
+        "source": "Decrypt",
+        "weight": 0.6853,
+        "score": -0.6667
+      },
+      {
         "title": "Vitalik Buterin tempers vision for ETH L2s, pushes native rollups",
         "url": "https://cointelegraph.com/news/ethereum-scaling-pivot-l2s-mainnet-vitalik-buterin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9542,
+        "weight": 0.7123,
         "score": -0.6333
-      },
-      {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures mostly slip as AMD's slide adds to AI malaise ahead of Google earnings",
-        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-mostly-slip-as-amds-slide-adds-to-ai-malaise-ahead-of-google-earnings-234546468.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5711,
-        "score": -0.9667
-      },
-      {
-        "title": "Traders Boost Bets on World’s First Rate-Hike Cycle in Australia",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-04/world-s-first-tightening-cycle-seen-as-rba-rate-hike-bets-rise",
-        "source": "Bloomberg Markets",
-        "weight": 0.6836,
-        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7121302087458868,
-          "price_change_24h": -0.04267
+          "volume_mcap_ratio": 0.7000746129816455,
+          "price_change_24h": -0.03991
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5485387035969956,
-          "price_change_24h": -0.04648
+          "volume_mcap_ratio": 0.49182328334283354,
+          "price_change_24h": -0.05747
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4649138980021745,
-          "price_change_24h": 5.52172
+          "volume_mcap_ratio": 0.4528812780766398,
+          "price_change_24h": 5.44806
         }
       ],
       "momentum_shifts": []
