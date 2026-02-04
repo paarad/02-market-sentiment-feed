@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-04T05:12:38.921806+00:00",
+  "updated_at": "2026-02-04T08:53:41.206217+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.213,
+    "change24h": -0.023,
+    "vol": 0.245,
     "fearGreed": 14,
-    "momentum": -0.421,
+    "momentum": -0.411,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3549,
-    "global_sentiment": 0.4741,
-    "combined_sentiment": 0.389,
-    "confidence": 0.8017,
+    "crypto_sentiment": 0.3924,
+    "global_sentiment": 0.5066,
+    "combined_sentiment": 0.4198,
+    "confidence": 0.7832,
     "counts": {
-      "crypto": 64,
-      "global": 39
+      "crypto": 65,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 76381,
-      "btc_change_24h": -2.65,
-      "eth_price": 2273.29,
-      "eth_change_24h": -2.71,
+      "btc_price": 76447,
+      "btc_change_24h": -2.8,
+      "eth_price": 2279.05,
+      "eth_change_24h": -1.6,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 302311225900.0,
-        "high_activity_coins": 3
+        "volume_24h": 298108618768.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 58.64,
+        "btc_dominance": 58.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-21T08:40:46.100664+00:00",
-      "crypto": 0.3713,
-      "global": 0.4964,
-      "combined": 0.4032,
-      "counts": {
-        "crypto": 75,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-21T13:04:51.411621+00:00",
       "crypto": 0.3689,
@@ -1008,71 +998,81 @@
         "crypto": 64,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-04T08:53:41.206217+00:00",
+      "crypto": 0.3924,
+      "global": 0.5066,
+      "combined": 0.4198,
+      "counts": {
+        "crypto": 65,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China’s New Retail Accounts Jump to Highest Since 2024 Boom",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-04/china-s-new-retail-accounts-jump-to-highest-since-2024-boom",
+        "title": "Turkish Defense Firm That Surged 236% in a Year Eyes New Markets",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/turkish-defense-firm-that-surged-236-in-a-year-eyes-new-markets",
         "source": "Bloomberg Markets",
-        "weight": 0.619,
-        "score": 1.0
+        "weight": 0.6982,
+        "score": 0.6667
       },
       {
-        "title": "RBI May Pivot to Buying Dollars to Build Reserves, Analysts Say",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-04/rbi-may-pivot-to-buying-dollars-to-build-reserves-analysts-say",
+        "title": "FTSE 100 Boosted by Commodities, Pound Rises",
+        "url": "https://www.bloomberg.com/news/live-blog/2026-02-04/ftse-100-live-pound-gdp-ai-stocks-gsk-novo-boe-what-s-moving-uk-markets-right-now-markets-today-ml7o0fhm",
         "source": "Bloomberg Markets",
-        "weight": 0.5211,
-        "score": 0.7
+        "weight": 0.6271,
+        "score": 0.6667
       },
       {
-        "title": "China Gold ETFs See Record Outflows as Metals Slump Shakes Faith",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-04/china-gold-etfs-see-record-outflows-as-metals-slump-shakes-faith",
-        "source": "Bloomberg Markets",
-        "weight": 0.7261,
-        "score": 0.3333
+        "title": "Bitwise to acquire crypto staking company Chorus One: Report",
+        "url": "https://cointelegraph.com/news/bitwise-acquire-chorus-one-crypto-staking-demand-surges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7043,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Crypto darknet drug kingpin Rui-Siang Lin gets 30 years",
+        "url": "https://www.coindesk.com/policy/2026/02/04/incognito-market-founder-rui-siang-lin-sentenced-to-30-years-in-crypto-darknet-drug-marketplace-case",
+        "source": "CoinDesk",
+        "weight": 0.6662,
+        "score": -0.9333
+      },
+      {
         "title": "Nevada Moves to Bar Coinbase’s Prediction Markets Without State Gaming License",
         "url": "https://decrypt.co/356874/nevada-bar-coinbases-prediction-markets-state-gaming-license",
         "source": "Decrypt",
-        "weight": 0.8295,
+        "weight": 0.542,
         "score": -1.0
       },
       {
-        "title": "Bitcoin Risks Further Slide as Momentum Weakens Below Key Support",
-        "url": "https://decrypt.co/356871/bitcoin-risks-further-slide-momentum-weakens-key-support",
-        "source": "Decrypt",
-        "weight": 0.6853,
-        "score": -0.6667
-      },
-      {
-        "title": "Vitalik Buterin tempers vision for ETH L2s, pushes native rollups",
-        "url": "https://cointelegraph.com/news/ethereum-scaling-pivot-l2s-mainnet-vitalik-buterin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7123,
-        "score": -0.6333
+        "title": "Fear & Greed 14 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7000746129816455,
-          "price_change_24h": -0.03991
+          "volume_mcap_ratio": 0.6978014418022664,
+          "price_change_24h": -0.03896
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.49182328334283354,
-          "price_change_24h": -0.05747
+          "volume_mcap_ratio": 0.4604548086515543,
+          "price_change_24h": 0.00973
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4528812780766398,
-          "price_change_24h": 5.44806
+          "volume_mcap_ratio": 0.4088350436327358,
+          "price_change_24h": 2.96125
         }
       ],
       "momentum_shifts": []
