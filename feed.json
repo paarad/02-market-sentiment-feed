@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-04T13:16:31.780639+00:00",
+  "updated_at": "2026-02-04T16:58:36.511345+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.202,
+    "change24h": -0.029,
+    "vol": 0.208,
     "fearGreed": 14,
-    "momentum": -0.401,
-    "regime": "sideways",
+    "momentum": -0.51,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4067,
-    "global_sentiment": 0.5313,
-    "combined_sentiment": 0.4326,
-    "confidence": 0.8136,
+    "crypto_sentiment": 0.3928,
+    "global_sentiment": 0.3275,
+    "combined_sentiment": 0.4052,
+    "confidence": 0.8238,
     "counts": {
-      "crypto": 63,
-      "global": 46
+      "crypto": 60,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 76009,
-      "btc_change_24h": -2.95,
-      "eth_price": 2238.83,
-      "eth_change_24h": -2.7,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 73659,
+      "btc_change_24h": -3.83,
+      "eth_price": 2132.06,
+      "eth_change_24h": -4.85,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 297939048549.0,
-        "high_activity_coins": 3
+        "volume_24h": 313503384142.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 58.71,
+        "btc_dominance": 58.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-21T17:05:43.855014+00:00",
-      "crypto": 0.3955,
-      "global": 0.3987,
-      "combined": 0.4132,
-      "counts": {
-        "crypto": 62,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-21T20:02:51.479066+00:00",
       "crypto": 0.4471,
@@ -1008,71 +998,81 @@
         "crypto": 63,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-02-04T16:58:36.511345+00:00",
+      "crypto": 0.3928,
+      "global": 0.3275,
+      "combined": 0.4052,
+      "counts": {
+        "crypto": 60,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "trivago Leads The Pack Of 3 Promising Penny Stocks",
-        "url": "https://finance.yahoo.com/news/trivago-leads-pack-3-promising-120531741.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6978,
+        "title": "Hyperliquid flips the bear market script with a 71% surge while trillions vanish from global risk trades",
+        "url": "https://cryptoslate.com/hyperliquid-beats-bitcoin-xrp-with-double-digit-gains/",
+        "source": "CryptoSlate",
+        "weight": 0.6389,
         "score": 1.0
       },
       {
-        "title": "Discover How Power Solutions International And 2 More Growth Stocks Stand Out",
-        "url": "https://finance.yahoo.com/news/discover-power-solutions-international-2-113551539.html?.tsrc=rss",
+        "title": "Wall Street’s Rotation Into Value Has a Dot-Com Warning to It",
+        "url": "https://finance.yahoo.com/news/wall-street-rotation-value-dot-103000456.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.659,
-        "score": 1.0
+        "weight": 0.704,
+        "score": 0.6667
       },
       {
-        "title": "January rally bolsters near-term outlook for bitcoin mining stocks, JPMorgan says",
-        "url": "https://www.coindesk.com/markets/2026/02/04/january-rally-bolsters-near-term-outlook-for-bitcoin-mining-stocks-jpmorgan-says",
+        "title": "This bullish analyst on Michael Saylor's Strategy just threw in the towel on lofty price target",
+        "url": "https://www.coindesk.com/markets/2026/02/04/this-bullish-analyst-on-michael-saylor-s-strategy-just-threw-in-the-towel",
         "source": "CoinDesk",
-        "weight": 0.9852,
+        "weight": 0.7463,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin falls back to $74,000, remaining on defense as AI jitters shake tech sector",
+        "url": "https://www.coindesk.com/markets/2026/02/04/bitcoin-falls-back-to-usd74-000-remaining-on-defense-as-ai-jitters-shake-tech-sector",
+        "source": "CoinDesk",
+        "weight": 0.8731,
+        "score": -0.9667
+      },
+      {
+        "title": "Pemex Slashes Debt to 11-Year Low as Mexico Eyes Oil Turnaround",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-04/pemex-slashes-debt-to-11-year-low-as-mexico-eyes-oil-turnaround",
+        "source": "Bloomberg Markets",
+        "weight": 0.7434,
+        "score": -1.0
+      },
+      {
         "title": "China ramps up threats over Panama Canal ruling that handed Trump a major victory",
         "url": "https://www.cnbc.com/2026/02/04/china-us-trump-panama-canal-court-ruling-ck-hutchison.html",
         "source": "CNBC Markets",
-        "weight": 0.7945,
+        "weight": 0.7808,
         "score": -0.9333
-      },
-      {
-        "title": "Novo Shares Plunge on Shock Weight-Loss Drug Forecast",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-04/novo-shares-plunge-on-weight-loss-drug-forecast-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.718,
-        "score": -1.0
-      },
-      {
-        "title": "Software Wipeout, Novo Sheds Market Share & UBS Wealth Outflows Weigh | The Opening Trade 2/4/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-04/the-opening-trade-2-4-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7044,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7009639641132177,
-          "price_change_24h": -0.04402
+          "volume_mcap_ratio": 0.7354506440822827,
+          "price_change_24h": -0.06766
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5286940881286535,
-          "price_change_24h": -0.00884
+          "volume_mcap_ratio": 0.5187695345983091,
+          "price_change_24h": -0.02706
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4309475320276161,
-          "price_change_24h": 2.11406
+          "volume_mcap_ratio": 0.43796270672661525,
+          "price_change_24h": -1.5351
         }
       ],
       "momentum_shifts": []
