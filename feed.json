@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-05T02:42:55.272433+00:00",
+  "updated_at": "2026-02-05T05:19:23.330527+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.212,
+    "change24h": -0.089,
+    "vol": 0.223,
     "fearGreed": 12,
-    "momentum": -0.697,
-    "regime": "sideways",
+    "momentum": -1.0,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3812,
-    "global_sentiment": 0.3907,
-    "combined_sentiment": 0.4018,
-    "confidence": 0.7733,
+    "crypto_sentiment": 0.3472,
+    "global_sentiment": 0.488,
+    "combined_sentiment": 0.3844,
+    "confidence": 0.8017,
     "counts": {
-      "crypto": 58,
-      "global": 49
+      "crypto": 60,
+      "global": 51
     },
     "market_indicators": {
-      "btc_price": 72372,
-      "btc_change_24h": -4.7,
-      "eth_price": 2148.02,
-      "eth_change_24h": -4.84,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 70721,
+      "btc_change_24h": -7.42,
+      "eth_price": 2104.39,
+      "eth_change_24h": -7.51,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "low",
-        "volume_24h": 307286092413.0,
-        "high_activity_coins": 4
+        "level": "medium",
+        "volume_24h": 329229556743.0,
+        "high_activity_coins": 7
       },
       "dominance": {
-        "btc_dominance": 58.28,
+        "btc_dominance": 58.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-22T04:53:15.485079+00:00",
-      "crypto": 0.4549,
-      "global": 0.4397,
-      "combined": 0.4611,
-      "counts": {
-        "crypto": 62,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-01-22T08:41:42.896874+00:00",
       "crypto": 0.4451,
@@ -1008,52 +998,62 @@
         "crypto": 58,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-02-05T05:19:23.330527+00:00",
+      "crypto": 0.3472,
+      "global": 0.488,
+      "combined": 0.3844,
+      "counts": {
+        "crypto": 60,
+        "global": 51
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crocs, Inc. (CROX): A Bull Case Theory",
-        "url": "https://finance.yahoo.com/news/crocs-inc-crox-bull-case-023737745.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7919,
+        "title": "China Trader Who Made $3 Billion on Gold Bets Big Against Silver",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-05/china-trader-who-made-3-billion-on-gold-bets-big-against-silver",
+        "source": "Bloomberg Markets",
+        "weight": 0.724,
+        "score": 1.0
+      },
+      {
+        "title": "China's Hong Kong-listed tech stocks enter bear market as tax and AI fears take hold",
+        "url": "https://www.cnbc.com/2026/02/05/china-tech-hsi-enters-bear-market-as-tax-ai-fears-take-hold.html",
+        "source": "CNBC Markets",
+        "weight": 0.7545,
         "score": 0.5333
       },
       {
-        "title": "Panasonic Soars Most Since 2014 on Restructuring Hopes",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-05/panasonic-shares-soar-most-since-2014-on-restructuring-hopes",
-        "source": "Bloomberg Markets",
-        "weight": 0.6286,
-        "score": 0.6667
-      },
-      {
-        "title": "Rotation Trade a Boon for Dow 30 Today",
-        "url": "https://finance.yahoo.com/news/rotation-trade-boon-dow-30-232300962.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5444,
-        "score": 0.6667
+        "title": "FCC Opens Review of Elon Musk's SpaceX Plan for Orbital AI Data Centers",
+        "url": "https://decrypt.co/357024/fcc-review-musk-spacex-plan-orbital-ai-data-centers",
+        "source": "Decrypt",
+        "weight": 0.6786,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Merck Veteran-Led Eikon Therapeutics Raises $381 Million in IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-05/merck-veteran-led-eikon-therapeutics-raises-381-million-in-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.6675,
-        "score": -0.9333
-      },
-      {
-        "title": "Gold, Silver Recover From Rout as Traders Search for Catalysts",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-04/gold-silver-recover-as-traders-search-for-catalysts-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5364,
+        "title": "Silver’s 17% plunge reignites market behaviour that once topped bitcoin liquidations",
+        "url": "https://www.coindesk.com/markets/2026/02/05/silver-s-17-plunge-reignites-market-behaviour-that-once-topped-bitcoin",
+        "source": "CoinDesk",
+        "weight": 0.9361,
         "score": -0.9667
       },
       {
-        "title": "Australia and EU to Meet to Try and Secure Free Trade Agreement",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-05/australia-and-eu-to-meet-to-try-and-secure-free-trade-agreement",
+        "title": "XRP crashes to its lowest since Trump's election win, could slide further to $1.00",
+        "url": "https://www.coindesk.com/markets/2026/02/05/xrp-crashes-to-its-lowest-since-trump-s-election-win",
+        "source": "CoinDesk",
+        "weight": 1.07,
+        "score": -0.6333
+      },
+      {
+        "title": "The Sci-Fi Quants Dominating Europe’s Most Volatile Power Market",
+        "url": "https://www.bloomberg.com/news/features/2026-02-05/second-foundation-dominates-europe-s-power-market-with-sci-fi-inspired-trading",
         "source": "Bloomberg Markets",
-        "weight": 0.7687,
+        "weight": 0.7714,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.7038592247837442,
-          "price_change_24h": -0.0786
+          "volume_mcap_ratio": 0.7642103892637993,
+          "price_change_24h": -0.07097
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5604736067302636,
-          "price_change_24h": 0.02151
+          "volume_mcap_ratio": 0.5864053659318607,
+          "price_change_24h": -0.02213
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4188214928181601,
-          "price_change_24h": -2.71003
+          "volume_mcap_ratio": 0.4511667722116966,
+          "price_change_24h": -4.71743
         }
       ],
       "momentum_shifts": []
