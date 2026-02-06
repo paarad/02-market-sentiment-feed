@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-05T20:41:46.370217+00:00",
+  "updated_at": "2026-02-06T02:42:56.171250+00:00",
   "indicators": {
-    "change24h": -0.208,
-    "vol": 0.477,
-    "fearGreed": 12,
+    "change24h": -0.172,
+    "vol": 0.545,
+    "fearGreed": 9,
     "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3057,
-    "global_sentiment": 0.3071,
-    "combined_sentiment": 0.3382,
-    "confidence": 0.8334,
+    "crypto_sentiment": 0.3071,
+    "global_sentiment": 0.4244,
+    "combined_sentiment": 0.349,
+    "confidence": 0.7924,
     "counts": {
-      "crypto": 69,
-      "global": 54
+      "crypto": 81,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 63669,
-      "btc_change_24h": -13.4,
-      "eth_price": 1861.44,
-      "eth_change_24h": -14.23,
+      "btc_price": 64967,
+      "btc_change_24h": -10.29,
+      "eth_price": 1916.15,
+      "eth_change_24h": -10.82,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 12,
+        "value": 9,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "medium",
-        "volume_24h": 439393404803.25,
-        "high_activity_coins": 8
+        "level": "high",
+        "volume_24h": 586363636202.84,
+        "high_activity_coins": 12
       },
       "dominance": {
-        "btc_dominance": 57.58,
+        "btc_dominance": 57.7,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-23T02:20:36.247504+00:00",
-      "crypto": 0.4304,
-      "global": 0.4124,
-      "combined": 0.4405,
-      "counts": {
-        "crypto": 62,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-01-23T04:50:12.707617+00:00",
       "crypto": 0.3833,
@@ -1008,52 +998,62 @@
         "crypto": 69,
         "global": 54
       }
+    },
+    {
+      "ts": "2026-02-06T02:42:56.171250+00:00",
+      "crypto": 0.3071,
+      "global": 0.4244,
+      "combined": 0.349,
+      "counts": {
+        "crypto": 81,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tether backs Anchorage Digital in $100M equity investment",
-        "url": "https://cointelegraph.com/news/tether-backs-anchorage-digital-100m-equity-investment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7486,
-        "score": 0.7833
-      },
-      {
-        "title": "Aster layer-1 blockchain testnet goes live, mainnet rollout targeted for Q1",
-        "url": "https://cointelegraph.com/news/aster-layer-1-testnet-live-all-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5573,
+        "title": "Ajinomoto Shares Rally 10% as Coffee, Seasonings Fuel  Profit",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-06/ajinomoto-shares-jump-after-coffee-seasonings-fuel-3q-profit",
+        "source": "Bloomberg Markets",
+        "weight": 0.7015,
         "score": 1.0
       },
       {
-        "title": "Is Verizon's 6.2%-Yielding Dividend Too Good to Be True?",
-        "url": "https://www.fool.com/investing/2026/02/05/is-verizons-62-yielding-dividend-too-good/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6835,
-        "score": 0.5333
+        "title": "Nio Jumps After Chinese EV Maker Signals First Quarterly Profit",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-06/nio-jumps-after-chinese-ev-maker-signals-first-quarterly-profit",
+        "source": "Bloomberg Markets",
+        "weight": 0.7663,
+        "score": 0.6667
+      },
+      {
+        "title": "Muyuan Foods CFO Discusses Expansion Plans, Pork Prices",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-06/muyuan-foods-cfo-discusses-expansion-plans-pork-prices-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7516,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Cheaper, Generic Weight-Loss Drugs Are Coming",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-05/ozempic-patents-expiring-as-novo-nordisk-navigates-share-slump-big-take-podcast",
-        "source": "Bloomberg Markets",
-        "weight": 0.693,
-        "score": -1.0
-      },
-      {
-        "title": "Trump would decide whether to investigate Fed pick Warsh over refusal to cut rates: Bessent",
-        "url": "https://www.cnbc.com/2026/02/05/bessent-trump-investigation-warsh-warren-fed.html",
-        "source": "CNBC Markets",
-        "weight": 0.7003,
+        "title": "Review & Preview: Utilities Are the New Bitcoin",
+        "url": "https://finance.yahoo.com/m/2a460882-2171-3928-bab2-749324a39242/review-%26-preview%3A-utilities.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6499,
         "score": -0.9667
       },
       {
-        "title": "XRP plunges 16% in worst drop among bitcoin, ether and major tokens",
-        "url": "https://www.coindesk.com/markets/2026/02/05/xrp-plunges-16-in-worst-drop-among-bitcoin-ether-and-major-tokens",
-        "source": "CoinDesk",
-        "weight": 0.6818,
+        "title": "Silver Extends Plunge, Wiping Out Gains in Very Volatile Market",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-05/silver-extends-decline-after-selloff-wipes-out-this-year-s-gains",
+        "source": "Bloomberg Markets",
+        "weight": 0.5463,
+        "score": -0.9333
+      },
+      {
+        "title": "Heard on the Street Recap: Chomping at the Bitcoin",
+        "url": "https://finance.yahoo.com/m/368d2563-a21a-3a81-8b2d-ce75f3256521/heard-on-the-street-recap%3A.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5208,
         "score": -0.9667
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.0369381947937848,
-          "price_change_24h": -0.0027
+          "volume_mcap_ratio": 1.3387444161689162,
+          "price_change_24h": 0.09035
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.7995612128208276,
-          "price_change_24h": -0.10314
+          "volume_mcap_ratio": 0.966624448562854,
+          "price_change_24h": -0.04304
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.4989854221995235,
-          "price_change_24h": -17.86997
+          "volume_mcap_ratio": 0.7306568952964004,
+          "price_change_24h": -17.32434
         }
       ],
       "momentum_shifts": []
