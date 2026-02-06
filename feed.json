@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-06T20:02:51.060586+00:00",
+  "updated_at": "2026-02-06T20:41:33.650924+00:00",
   "indicators": {
-    "change24h": 0.115,
-    "vol": 0.336,
+    "change24h": 0.136,
+    "vol": 0.386,
     "fearGreed": 9,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3267,
-    "global_sentiment": 0.5816,
-    "combined_sentiment": 0.3768,
-    "confidence": 0.8294,
+    "crypto_sentiment": 0.3435,
+    "global_sentiment": 0.598,
+    "combined_sentiment": 0.3908,
+    "confidence": 0.8345,
     "counts": {
       "crypto": 66,
-      "global": 42
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 70632,
-      "btc_change_24h": 8.43,
-      "eth_price": 2063.32,
-      "eth_change_24h": 7.22,
+      "btc_price": 70354,
+      "btc_change_24h": 10.65,
+      "eth_price": 2070.7,
+      "eth_change_24h": 11.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 1.0,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "medium",
-        "volume_24h": 549020320555.61,
-        "high_activity_coins": 7
+        "volume_24h": 541901242396.61,
+        "high_activity_coins": 8
       },
       "dominance": {
-        "btc_dominance": 58.42,
+        "btc_dominance": 58.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-23T20:33:53.340224+00:00",
-      "crypto": 0.4077,
-      "global": 0.4702,
-      "combined": 0.4283,
-      "counts": {
-        "crypto": 66,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-24T02:09:55.718475+00:00",
       "crypto": 0.3226,
@@ -1008,6 +998,16 @@
         "crypto": 66,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-02-06T20:41:33.650924+00:00",
+      "crypto": 0.3435,
+      "global": 0.598,
+      "combined": 0.3908,
+      "counts": {
+        "crypto": 66,
+        "global": 45
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Stock Market Today: Dow Touches 50,000 As Nvidia Jumps; Palantir, Tesla Rebound (Live Coverage)",
         "url": "https://finance.yahoo.com/m/d5f6d70b-adbf-3412-b185-ebea8f943d91/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7772,
+        "weight": 0.7214,
         "score": 1.0
       },
       {
         "title": "Dow Jones Industrial Average surges 1,100 points and tops 50,000 points as stocks rally",
         "url": "https://finance.yahoo.com/news/dow-jones-industrial-average-surges-192510742.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.744,
+        "weight": 0.6906,
         "score": 1.0
       },
       {
         "title": "Dow soars 1,000 points, Caterpillar & Under Armour jump",
         "url": "https://finance.yahoo.com/video/dow-soars-1-000-points-190851310.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.721,
+        "weight": 0.6692,
         "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "President Trump Launches TrumpRx, Promising Lower Drug Prices: Is It Legit?",
+        "url": "https://decrypt.co/357223/president-trump-trumprx-promising-lower-drug-prices",
+        "source": "Decrypt",
+        "weight": 0.8023,
+        "score": -0.9333
+      },
+      {
         "title": "Bitcoin crashed to $55,000 on Bithumb after exchange accidentally airdropped users 2,000 BTC",
         "url": "https://www.coindesk.com/business/2026/02/06/bitcoin-crashed-to-usd55-000-on-bithumb-after-exchange-accidentally-airdropped-users-2-000-btc",
         "source": "CoinDesk",
-        "weight": 0.7734,
+        "weight": 0.7178,
         "score": -0.9667
       },
       {
         "title": "Ethereum collapses below $2,000 after Vitalik Buterin and insiders moved millions to exchanges into thin liquidity",
         "url": "https://cryptoslate.com/ethereum-collapses-below-2000-after-vitalik-buterin-and-insiders-moved-millions-to-exchanges-into-thin-liquidity/",
         "source": "CryptoSlate",
-        "weight": 0.7252,
-        "score": -0.9667
-      },
-      {
-        "title": "Bessent Rebuts Split Between His and Trump’s Dollar Comments",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-06/bessent-rebuts-split-between-his-and-trump-s-dollar-comments",
-        "source": "Bloomberg Markets",
-        "weight": 0.6717,
+        "weight": 0.6732,
         "score": -0.9667
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.309677423268849,
-          "price_change_24h": 0.11754
+          "volume_mcap_ratio": 1.2606004833224116,
+          "price_change_24h": 0.12484
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9732582207271164,
-          "price_change_24h": 0.10347
+          "volume_mcap_ratio": 0.855162652337976,
+          "price_change_24h": 0.07099
         },
         {
-          "symbol": "AAVE",
-          "volume_mcap_ratio": 0.5920599470424112,
-          "price_change_24h": 4.27311
+          "symbol": "SUI",
+          "volume_mcap_ratio": 0.600679986895177,
+          "price_change_24h": 11.62278
         }
       ],
       "momentum_shifts": []
