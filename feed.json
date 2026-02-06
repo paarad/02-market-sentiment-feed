@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-06T08:53:57.986794+00:00",
+  "updated_at": "2026-02-06T13:16:01.089561+00:00",
   "indicators": {
-    "change24h": -0.151,
-    "vol": 0.387,
+    "change24h": -0.055,
+    "vol": 0.301,
     "fearGreed": 9,
-    "momentum": -1.0,
+    "momentum": -0.968,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3108,
-    "global_sentiment": 0.3185,
-    "combined_sentiment": 0.343,
-    "confidence": 0.7643,
+    "crypto_sentiment": 0.322,
+    "global_sentiment": 0.4969,
+    "combined_sentiment": 0.3663,
+    "confidence": 0.7783,
     "counts": {
-      "crypto": 77,
-      "global": 42
+      "crypto": 63,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 64908,
-      "btc_change_24h": -8.61,
-      "eth_price": 1876.13,
-      "eth_change_24h": -11.07,
+      "btc_price": 66922,
+      "btc_change_24h": -3.56,
+      "eth_price": 1933.71,
+      "eth_change_24h": -5.93,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "regime_strength": 0.4,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "high",
-        "volume_24h": 583884066663.61,
+        "volume_24h": 570904615010.61,
         "high_activity_coins": 13
       },
       "dominance": {
-        "btc_dominance": 57.81,
+        "btc_dominance": 57.9,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-23T13:02:43.339959+00:00",
-      "crypto": 0.4155,
-      "global": 0.4382,
-      "combined": 0.4315,
-      "counts": {
-        "crypto": 54,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-01-23T16:39:35.826924+00:00",
       "crypto": 0.4103,
@@ -1008,71 +998,81 @@
         "crypto": 77,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-02-06T13:16:01.089561+00:00",
+      "crypto": 0.322,
+      "global": 0.4969,
+      "combined": 0.3663,
+      "counts": {
+        "crypto": 63,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin surges back above $65,000 after $700 million wipeout in Asia whipsaw",
-        "url": "https://www.coindesk.com/markets/2026/02/06/bitcoin-surges-back-above-usd65-000-after-usd700-million-wipeout-in-asia-whipsaw",
-        "source": "CoinDesk",
-        "weight": 0.5234,
-        "score": 0.5333
+        "title": "US Market's Undiscovered Gems Featuring Three Promising Stocks",
+        "url": "https://finance.yahoo.com/news/us-markets-undiscovered-gems-featuring-113308290.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6562,
+        "score": 0.8667
       },
       {
-        "title": "BlackRock's bitcoin fund hits $10 billion volume record, hinting at peak selling",
-        "url": "https://www.coindesk.com/markets/2026/02/06/blackrock-s-bitcoin-etf-hits-usd10-billion-volume-record-hinting-at-capitulation",
-        "source": "CoinDesk",
-        "weight": 0.6833,
-        "score": 0.3333
-      },
-      {
-        "title": "VW Sees ‘Make-or-Break’ Year for South Africa Pick-Up Plan",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-06/vw-sees-make-or-break-year-for-south-africa-pick-up-plan",
+        "title": "Hyperlocal Stars Like Bad Bunny Are Going Global",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-06/hyperlocal-stars-like-bad-bunny-are-going-global-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6529,
-        "score": 0.3333
+        "weight": 0.6549,
+        "score": 0.8667
+      },
+      {
+        "title": "Top Mutual Fund Wins Buying Growth Stocks Others Question",
+        "url": "https://finance.yahoo.com/m/4978f057-9457-3ba8-bbd8-4597d6391afd/top-mutual-fund-wins-buying.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6922,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "German Industrial Production Drops in Setback for Recovery",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-06/german-industrial-production-drops-in-setback-for-recovery-hopes",
+        "title": "Novo’s Stratospheric Rise Has Turned Into a $460 Billion Wipeout",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-06/novo-s-stratospheric-rise-has-turned-into-a-450-billion-wipeout",
         "source": "Bloomberg Markets",
-        "weight": 0.6521,
-        "score": -0.9667
+        "weight": 0.7651,
+        "score": -0.9333
       },
       {
-        "title": "Banks and crypto could offer similar products in time: Bessent",
-        "url": "https://cointelegraph.com/news/banks-crypto-could-offer-similar-products-in-time-bessent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5157,
+        "title": "Tech Selloff Deepens, Stellantis Faces Billions in Charges | The Opening Trade 2/6/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-06/the-opening-trade-2-6-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6848,
         "score": -1.0
       },
       {
-        "title": "Bitcoin’s crash to $60,000 has traders hunting for a hidden fund blowup",
-        "url": "https://www.coindesk.com/markets/2026/02/06/bitcoin-s-crash-to-usd60-000-has-traders-hunting-for-a-hidden-fund-blowup",
-        "source": "CoinDesk",
-        "weight": 0.7914,
-        "score": -0.6333
+        "title": "BofA’s Hartnett Says Midcaps Are Best Play Ahead of US Midterms",
+        "url": "https://finance.yahoo.com/news/bofa-hartnett-says-midcaps-best-113028954.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6529,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.359417388070723,
-          "price_change_24h": 0.08568
+          "volume_mcap_ratio": 1.3499911979732542,
+          "price_change_24h": 0.05583
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.032347379126011,
-          "price_change_24h": -0.00762
+          "volume_mcap_ratio": 0.9663661342600186,
+          "price_change_24h": 0.11695
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.7101096903283888,
-          "price_change_24h": -12.87393
+          "volume_mcap_ratio": 0.7030034636509406,
+          "price_change_24h": -4.84753
         }
       ],
       "momentum_shifts": []
