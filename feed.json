@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-06T13:16:01.089561+00:00",
+  "updated_at": "2026-02-06T16:56:00.452879+00:00",
   "indicators": {
-    "change24h": -0.055,
-    "vol": 0.301,
+    "change24h": 0.05,
+    "vol": 0.29,
     "fearGreed": 9,
-    "momentum": -0.968,
-    "regime": "bear",
+    "momentum": 0.872,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.322,
-    "global_sentiment": 0.4969,
-    "combined_sentiment": 0.3663,
-    "confidence": 0.7783,
+    "crypto_sentiment": 0.3331,
+    "global_sentiment": 0.3795,
+    "combined_sentiment": 0.3648,
+    "confidence": 0.8366,
     "counts": {
-      "crypto": 63,
-      "global": 45
+      "crypto": 70,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 66922,
-      "btc_change_24h": -3.56,
-      "eth_price": 1933.71,
-      "eth_change_24h": -5.93,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.35,
+      "btc_price": 70125,
+      "btc_change_24h": 2.5,
+      "eth_price": 2044.03,
+      "eth_change_24h": 1.95,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "high",
-        "volume_24h": 570904615010.61,
-        "high_activity_coins": 13
+        "level": "medium",
+        "volume_24h": 572312145554.61,
+        "high_activity_coins": 9
       },
       "dominance": {
-        "btc_dominance": 57.9,
+        "btc_dominance": 58.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-23T16:39:35.826924+00:00",
-      "crypto": 0.4103,
-      "global": 0.483,
-      "combined": 0.4313,
-      "counts": {
-        "crypto": 52,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-01-23T19:53:47.435021+00:00",
       "crypto": 0.4344,
@@ -1008,71 +998,81 @@
         "crypto": 63,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-02-06T16:56:00.452879+00:00",
+      "crypto": 0.3331,
+      "global": 0.3795,
+      "combined": 0.3648,
+      "counts": {
+        "crypto": 70,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US Market's Undiscovered Gems Featuring Three Promising Stocks",
-        "url": "https://finance.yahoo.com/news/us-markets-undiscovered-gems-featuring-113308290.html?.tsrc=rss",
+        "title": "AI trade splinters as investors get more selective",
+        "url": "https://finance.yahoo.com/news/ai-trade-splinters-investors-more-150101291.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6562,
-        "score": 0.8667
+        "weight": 0.6411,
+        "score": 0.8
       },
       {
-        "title": "Hyperlocal Stars Like Bad Bunny Are Going Global",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-06/hyperlocal-stars-like-bad-bunny-are-going-global-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6549,
-        "score": 0.8667
+        "title": "CoinDesk 20 Performance Update: Ripple (XRP) Surges 20.1% as All Assets Trade Higher",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/02/06/coindesk-20-performance-update-ripple-xrp-surges-20-1-as-all-assets-trade-higher",
+        "source": "CoinDesk",
+        "weight": 0.9282,
+        "score": 0.5333
       },
       {
-        "title": "Top Mutual Fund Wins Buying Growth Stocks Others Question",
-        "url": "https://finance.yahoo.com/m/4978f057-9457-3ba8-bbd8-4597d6391afd/top-mutual-fund-wins-buying.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6922,
-        "score": 0.6667
+        "title": "Global crypto market cap up 2.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Novo’s Stratospheric Rise Has Turned Into a $460 Billion Wipeout",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-06/novo-s-stratospheric-rise-has-turned-into-a-450-billion-wipeout",
-        "source": "Bloomberg Markets",
-        "weight": 0.7651,
-        "score": -0.9333
+        "title": "Bitcoin crashed to $55,000 on Bithumb after exchange accidentally airdropped users 2,000 BTC",
+        "url": "https://www.coindesk.com/business/2026/02/06/bitcoin-crashed-to-usd55-000-on-bithumb-after-exchange-accidentally-airdropped-users-2-000-btc",
+        "source": "CoinDesk",
+        "weight": 1.1082,
+        "score": -0.9667
       },
       {
-        "title": "Tech Selloff Deepens, Stellantis Faces Billions in Charges | The Opening Trade 2/6/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-06/the-opening-trade-2-6-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6848,
-        "score": -1.0
-      },
-      {
-        "title": "BofA’s Hartnett Says Midcaps Are Best Play Ahead of US Midterms",
-        "url": "https://finance.yahoo.com/news/bofa-hartnett-says-midcaps-best-113028954.html?.tsrc=rss",
+        "title": "Stock Market Divided With S&P 500, Nasdaq Below Key Levels; Google, Amazon AI Spending Stuns: Weekly Review",
+        "url": "https://finance.yahoo.com/m/e11da50b-cad4-3459-9edc-b4e8339e8b79/stock-market-divided-with-s%26p.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6529,
+        "weight": 0.7576,
         "score": -1.0
+      },
+      {
+        "title": "Yen Weakness, Rising Rates are Risks for Equities: Nishihara",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-06/yen-weakness-rising-rates-risk-for-equities-nishihara-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7333,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.3499911979732542,
-          "price_change_24h": 0.05583
+          "volume_mcap_ratio": 1.3450509234335286,
+          "price_change_24h": 0.15751
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9663661342600186,
-          "price_change_24h": 0.11695
+          "volume_mcap_ratio": 0.8328660047337422,
+          "price_change_24h": 0.08824
         },
         {
-          "symbol": "SUI",
-          "volume_mcap_ratio": 0.7030034636509406,
-          "price_change_24h": -4.84753
+          "symbol": "AAVE",
+          "volume_mcap_ratio": 0.624699165415603,
+          "price_change_24h": -0.97759
         }
       ],
       "momentum_shifts": []
