@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-07T13:04:40.289883+00:00",
+  "updated_at": "2026-02-07T16:39:28.365210+00:00",
   "indicators": {
-    "change24h": 0.072,
-    "vol": 0.279,
+    "change24h": -0.003,
+    "vol": 0.196,
     "fearGreed": 6,
-    "momentum": 1.0,
+    "momentum": -0.051,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3864,
-    "global_sentiment": 0.3268,
-    "combined_sentiment": 0.4003,
-    "confidence": 0.6819,
+    "crypto_sentiment": 0.3543,
+    "global_sentiment": 0.3445,
+    "combined_sentiment": 0.3778,
+    "confidence": 0.6687,
     "counts": {
-      "crypto": 67,
+      "crypto": 80,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 68947,
-      "btc_change_24h": 3.72,
-      "eth_price": 2039.26,
-      "eth_change_24h": 6.22,
+      "btc_price": 69159,
+      "btc_change_24h": -0.69,
+      "eth_price": 2048.52,
+      "eth_change_24h": 0.66,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 6,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 350142617593.0,
-        "high_activity_coins": 4
+        "volume_24h": 340467431872.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.07,
+        "btc_dominance": 58.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-24T16:33:14.902364+00:00",
-      "crypto": 0.3667,
-      "global": 0.4187,
-      "combined": 0.3932,
-      "counts": {
-        "crypto": 48,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-01-24T19:53:18.842683+00:00",
       "crypto": 0.4339,
@@ -1008,71 +998,81 @@
         "crypto": 67,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-02-07T16:39:28.365210+00:00",
+      "crypto": 0.3543,
+      "global": 0.3445,
+      "combined": 0.3778,
+      "counts": {
+        "crypto": 80,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "How the Debt Problem is Fueling the Gold Market",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-07/how-the-debt-problem-is-fueling-the-gold-market-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6658,
+        "score": 0.6667
       },
       {
-        "title": "Morgan Stanley Raises its Price Target on Public Service Enterprise Group Inc. (PEG) to $92 and Kept an Overweight Rating",
-        "url": "https://finance.yahoo.com/news/morgan-stanley-raises-price-target-121601215.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7262,
+        "title": "Bitcoin slips below $70,000 after erasing post-election gains during 'sell at any price' rout",
+        "url": "https://www.coindesk.com/markets/2026/02/07/bitcoin-falls-below-usd70-000-after-erasing-post-election-gains-during-sell-at-any-price-rout",
+        "source": "CoinDesk",
+        "weight": 0.9425,
         "score": 0.3333
       },
       {
-        "title": "PG&E Corporation, Lockheed Martin, Salesforce, and Wells Fargo Announce the Launch of EMBERPOINT LLC",
-        "url": "https://finance.yahoo.com/news/pg-e-corporation-lockheed-martin-120759324.html?.tsrc=rss",
+        "title": "Why This Stock's January Slump Could Be a Gift for Patient Investors",
+        "url": "https://www.fool.com/investing/2026/02/07/why-this-stocks-january-slump-could-be-a-gift-for/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7173,
+        "weight": 0.7602,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Crypto Exchange to Reimburse Some Users After $40 Billion Error",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-07/crypto-exchange-to-reimburse-some-users-after-40-billion-error",
-        "source": "Bloomberg Markets",
-        "weight": 0.687,
+        "title": "Better Large-Cap ETF: Vanguard's MGK vs. State Street's SPY",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/07/better-large-cap-etf-vanguard-s-mgk-vs-state-street-s-spy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6919,
+        "score": -0.9667
+      },
+      {
+        "title": "3 Things Investors Need to Know About the Healthcare Sector in 2026",
+        "url": "https://www.fool.com/investing/2026/02/07/3-things-investors-need-to-know-about-the-healthca/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6271,
         "score": -1.0
       },
       {
-        "title": "IEMG vs. IXUS: Should You Bet on Emerging Markets or Diversify With Total International Stocks?",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/07/iemg-vs-ixus-should-you-bet-on-emerging-markets-or-diversify-with-total-international-stocks/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6929,
-        "score": -0.9667
-      },
-      {
-        "title": "Crypto Giant Tether Aided Turkey in Billion Dollar Crackdown",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-07/crypto-giant-tether-aided-turkey-in-billion-dollar-crackdown",
-        "source": "Bloomberg Markets",
-        "weight": 0.5737,
-        "score": -0.9667
+        "title": "What crashed Bitcoin? Three theories behind BTC's trip below $60K",
+        "url": "https://cointelegraph.com/news/what-crashed-bitcoin-three-theories-btc-trip-below-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7692,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8531072878312461,
-          "price_change_24h": 0.03967
+          "volume_mcap_ratio": 0.7931526102323365,
+          "price_change_24h": -0.05017
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5189883965101684,
-          "price_change_24h": 0.02155
+          "volume_mcap_ratio": 0.5014822444753989,
+          "price_change_24h": -0.12744
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.33054179302071146,
-          "price_change_24h": 4.66854
+          "volume_mcap_ratio": 0.34412833688645456,
+          "price_change_24h": -1.06805
         }
       ],
       "momentum_shifts": []
