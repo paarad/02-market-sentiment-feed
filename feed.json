@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-07T08:40:35.095603+00:00",
+  "updated_at": "2026-02-07T13:04:40.289883+00:00",
   "indicators": {
-    "change24h": 0.106,
-    "vol": 0.308,
+    "change24h": 0.072,
+    "vol": 0.279,
     "fearGreed": 6,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,34 +11,34 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.361,
-    "global_sentiment": 0.5387,
-    "combined_sentiment": 0.399,
-    "confidence": 0.7181,
+    "crypto_sentiment": 0.3864,
+    "global_sentiment": 0.3268,
+    "combined_sentiment": 0.4003,
+    "confidence": 0.6819,
     "counts": {
-      "crypto": 68,
-      "global": 36
+      "crypto": 67,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 68411,
-      "btc_change_24h": 5.6,
-      "eth_price": 2019.8,
-      "eth_change_24h": 7.51,
+      "btc_price": 68947,
+      "btc_change_24h": 3.72,
+      "eth_price": 2039.26,
+      "eth_change_24h": 6.22,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 6,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
-        "level": "medium",
-        "volume_24h": 380370250554.0,
-        "high_activity_coins": 6
+        "level": "low",
+        "volume_24h": 350142617593.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 58.0,
+        "btc_dominance": 58.07,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-24T12:54:56.619209+00:00",
-      "crypto": 0.3016,
-      "global": 0.3781,
-      "combined": 0.341,
-      "counts": {
-        "crypto": 48,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-24T16:33:14.902364+00:00",
       "crypto": 0.3667,
@@ -1008,71 +998,81 @@
         "crypto": 68,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-02-07T13:04:40.289883+00:00",
+      "crypto": 0.3864,
+      "global": 0.3268,
+      "combined": 0.4003,
+      "counts": {
+        "crypto": 67,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 5.2% — rally",
+        "title": "Global crypto market cap up 2.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "India’s Top Bank Beats Profit Forecast on Strong Credit Demand",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-07/india-s-top-bank-beats-profit-forecast-on-strong-credit-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.7665,
-        "score": 0.5
+        "title": "Morgan Stanley Raises its Price Target on Public Service Enterprise Group Inc. (PEG) to $92 and Kept an Overweight Rating",
+        "url": "https://finance.yahoo.com/news/morgan-stanley-raises-price-target-121601215.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7262,
+        "score": 0.3333
       },
       {
-        "title": "Google search volume for 'Bitcoin' skyrockets amid BTC price swings",
-        "url": "https://cointelegraph.com/news/bitcoin-google-search-volume-surges-btc-price-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6663,
-        "score": 0.5333
+        "title": "PG&E Corporation, Lockheed Martin, Salesforce, and Wells Fargo Announce the Launch of EMBERPOINT LLC",
+        "url": "https://finance.yahoo.com/news/pg-e-corporation-lockheed-martin-120759324.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7173,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Ether's recent crash below $2,000 leaves $686 million gaping hole in trading firm's book",
-        "url": "https://www.coindesk.com/markets/2026/02/07/ether-s-recent-crash-below-usd2-000-leaves-usd686-million-gaping-hole-in-trading-firm-s-book",
-        "source": "CoinDesk",
-        "weight": 0.8548,
-        "score": -0.6333
+        "title": "Crypto Exchange to Reimburse Some Users After $40 Billion Error",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-07/crypto-exchange-to-reimburse-some-users-after-40-billion-error",
+        "source": "Bloomberg Markets",
+        "weight": 0.687,
+        "score": -1.0
       },
       {
-        "title": "$231.6M pours into IBIT following ‘second-worst’ day for ETF price",
-        "url": "https://cointelegraph.com/news/blackrock-bitcoin-etf-ibit-flows-trading-price-btc-volatile?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7231,
-        "score": -0.6333
+        "title": "IEMG vs. IXUS: Should You Bet on Emerging Markets or Diversify With Total International Stocks?",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/07/iemg-vs-ixus-should-you-bet-on-emerging-markets-or-diversify-with-total-international-stocks/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6929,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 6 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Crypto Giant Tether Aided Turkey in Billion Dollar Crackdown",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-07/crypto-giant-tether-aided-turkey-in-billion-dollar-crackdown",
+        "source": "Bloomberg Markets",
+        "weight": 0.5737,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.8873785739424532,
-          "price_change_24h": 0.06332
+          "volume_mcap_ratio": 0.8531072878312461,
+          "price_change_24h": 0.03967
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5868929838669,
-          "price_change_24h": 0.07589
+          "volume_mcap_ratio": 0.5189883965101684,
+          "price_change_24h": 0.02155
         },
         {
-          "symbol": "USDC",
-          "volume_mcap_ratio": 0.362916283789295,
-          "price_change_24h": -0.00269
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.33054179302071146,
+          "price_change_24h": 4.66854
         }
       ],
       "momentum_shifts": []
