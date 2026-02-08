@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-08T05:26:53.323858+00:00",
+  "updated_at": "2026-02-08T08:40:59.352616+00:00",
   "indicators": {
-    "change24h": -0.032,
-    "vol": 0.121,
+    "change24h": 0.029,
+    "vol": 0.131,
     "fearGreed": 7,
-    "momentum": -0.564,
-    "regime": "bear",
+    "momentum": 0.506,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4169,
-    "global_sentiment": 0.2851,
-    "combined_sentiment": 0.4197,
-    "confidence": 0.6201,
+    "crypto_sentiment": 0.4464,
+    "global_sentiment": 0.369,
+    "combined_sentiment": 0.4489,
+    "confidence": 0.6133,
     "counts": {
-      "crypto": 69,
-      "global": 38
+      "crypto": 71,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 69213,
-      "btc_change_24h": -1.51,
-      "eth_price": 2084.64,
-      "eth_change_24h": -0.13,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 70516,
+      "btc_change_24h": 2.81,
+      "eth_price": 2115.01,
+      "eth_change_24h": 4.75,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 7,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 231981031978.0,
+        "volume_24h": 207417057715.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.98,
+        "btc_dominance": 58.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-25T08:35:47.145164+00:00",
-      "crypto": 0.4311,
-      "global": 0.3888,
-      "combined": 0.4391,
-      "counts": {
-        "crypto": 63,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-01-25T12:56:46.540209+00:00",
       "crypto": 0.3846,
@@ -1008,40 +998,43 @@
         "crypto": 69,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-02-08T08:40:59.352616+00:00",
+      "crypto": 0.4464,
+      "global": 0.369,
+      "combined": 0.4489,
+      "counts": {
+        "crypto": 71,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "'Massive consolidation' expected across crypto industry: Bullish CEO",
-        "url": "https://cointelegraph.com/news/crypto-companies-consolidation-industry-bullish-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7723,
+        "title": "Should You Buy Nvidia Stock Before Feb. 25? A Mountain of Evidence Is Piling Up That Provides a Crystal Clear Answer",
+        "url": "https://www.fool.com/investing/2026/02/08/should-you-buy-nvidia-stock-before-feb-25-a-mounta/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7537,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 2.4% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Trump’s crypto “golden age” throws away $2 trillion in profits, leaving those holding dollars as winners",
-        "url": "https://cryptoslate.com/trumps-crypto-rally-fizzles-as-2-trillion-market-gains-vanish/",
-        "source": "CryptoSlate",
-        "weight": 0.2546,
-        "score": 1.0
-      },
-      {
-        "title": "SLV vs. GDX: Investing in The Top Precious Metals",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/07/slv-vs-gdx-investing-in-the-top-precious-metals/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5356,
-        "score": 0.3333
+        "title": "'Massive consolidation' expected across crypto industry: Bullish CEO",
+        "url": "https://cointelegraph.com/news/crypto-companies-consolidation-industry-bullish-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5315,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "QQQ vs. SPY: QQQ Has Delivered Superior Gains, But It Comes With Higher Risk",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/07/qqq-vs-spy-qqq-has-delivered-superior-gains-but-it-comes-with-higher-risk/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7553,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 7 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,24 +1043,31 @@
         "score": -0.5333
       },
       {
-        "title": "Better Leveraged ETF Buy: Is Tech-Heavy QLD or S&P 500-Focused SSO the Right Choice for Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/07/better-leveraged-etf-buy-is-tech-heavy-qld-or-s-and-p-500-focused-sso-the-right-choice-for-investors/?.tsrc=rss",
+        "title": "QQQ vs. SPY: QQQ Has Delivered Superior Gains, But It Comes With Higher Risk",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/07/qqq-vs-spy-qqq-has-delivered-superior-gains-but-it-comes-with-higher-risk/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3726,
-        "score": -0.9667
+        "weight": 0.5198,
+        "score": -0.6333
+      },
+      {
+        "title": "IEMG vs. SPGM: How These Popular Global ETFs Stack Up for Investors",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/08/iemg-vs-spgm-how-these-popular-global-etfs-stack-up-for-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7686,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5659506109540383,
-          "price_change_24h": -0.01206
+          "volume_mcap_ratio": 0.49967903264643065,
+          "price_change_24h": -0.01723
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3485283657501808,
-          "price_change_24h": -0.07337
+          "volume_mcap_ratio": 0.3166779473395424,
+          "price_change_24h": -0.04324
         }
       ],
       "momentum_shifts": []
