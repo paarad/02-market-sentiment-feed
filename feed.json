@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-09T13:27:03.244625+00:00",
+  "updated_at": "2026-02-09T20:23:21.333194+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.002,
+    "vol": 0.073,
     "fearGreed": 14,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.031,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2857,
-    "global_sentiment": 0.357,
-    "combined_sentiment": 0.3274,
-    "confidence": 0.7836,
+    "crypto_sentiment": 0.3868,
+    "global_sentiment": 0.424,
+    "combined_sentiment": 0.4088,
+    "confidence": 0.8029,
     "counts": {
-      "crypto": 66,
-      "global": 46
+      "crypto": 75,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 69158,
-      "btc_change_24h": -3.13,
-      "eth_price": 2046.03,
-      "eth_change_24h": -4.05,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 70597,
+      "btc_change_24h": -0.66,
+      "eth_price": 2121.18,
+      "eth_change_24h": 0.2,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 167816520119.0,
+        "volume_24h": 197279688955.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.32,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-26T16:42:58.557048+00:00",
-      "crypto": 0.295,
-      "global": 0.4624,
-      "combined": 0.3431,
-      "counts": {
-        "crypto": 52,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-26T19:55:52.932172+00:00",
       "crypto": 0.3769,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-02-09T20:23:21.333194+00:00",
+      "crypto": 0.3868,
+      "global": 0.424,
+      "combined": 0.4088,
+      "counts": {
+        "crypto": 75,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Promising Penny Stocks With Over $400M Market Cap",
-        "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-over-120516012.html?.tsrc=rss",
+        "title": "Activist Investor Pushes for Change at Swatch",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-09/the-battle-over-swatch-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5577,
+        "score": 0.8667
+      },
+      {
+        "title": "Array Technologies Surges 122% in 6 Months: Time to Buy the Stock?",
+        "url": "https://finance.yahoo.com/news/array-technologies-surges-122-6-181200097.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6834,
+        "weight": 0.6212,
         "score": 0.6667
       },
       {
-        "title": "3 Stocks Estimated To Be Undervalued By Up To 25.8% Offering Intriguing Prospects",
-        "url": "https://finance.yahoo.com/news/3-stocks-estimated-undervalued-25-113804118.html?.tsrc=rss",
+        "title": "United Bancorp's Q4 Earnings Rise Y/Y on Loan Demand",
+        "url": "https://finance.yahoo.com/news/united-bancorps-q4-earnings-rise-180400655.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6486,
-        "score": 0.6667
-      },
-      {
-        "title": "3 High Growth Companies With Strong Insider Ownership",
-        "url": "https://finance.yahoo.com/news/3-high-growth-companies-strong-113602228.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.646,
+        "weight": 0.6117,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Hims & Hers Stock Plunges. Its Weight Loss Drug Strategy Backfired.",
-        "url": "https://finance.yahoo.com/m/3bdf7c21-9b76-30b5-9407-e5570705df84/hims-%26-hers-stock-plunges..html?.tsrc=rss",
+        "title": "11 Stocks That Have Cratered and Look Like Buys",
+        "url": "https://finance.yahoo.com/m/fc81298d-a582-347a-b75e-9ef7b4b05c1b/11-stocks-that-have-cratered.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7771,
+        "weight": 0.7109,
         "score": -0.9333
       },
       {
-        "title": "Novo Nordisk sues Hims & Hers over cheaper copycat versions of Wegovy pill, injections",
-        "url": "https://www.cnbc.com/2026/02/09/novo-nordisk-sues-hims-hers-compounded-obesity-drugs.html",
-        "source": "CNBC Markets",
-        "weight": 0.7127,
+        "title": "Software Poses ‘All-Time’ Risk to Speculative Credit, Deutsche Bank Warns",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-09/software-among-all-time-concentration-risks-to-junk-deutsche",
+        "source": "Bloomberg Markets",
+        "weight": 0.6466,
         "score": -1.0
       },
       {
-        "title": "Lilly Strikes Deal for Biotech Orna Worth Up to $2.4 Billion",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-09/lilly-strikes-deal-for-orna-therapeutics-for-up-to-2-4-billion",
-        "source": "Bloomberg Markets",
-        "weight": 0.6925,
-        "score": -1.0
+        "title": "QLD Offers Broader Tech Exposure Than SOXL",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/09/qld-offers-broader-tech-exposure-than-soxl/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6117,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3971399810415435,
-          "price_change_24h": -0.00807
+          "volume_mcap_ratio": 0.47988809259610904,
+          "price_change_24h": 0.02017
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3032175572197166,
-          "price_change_24h": 0.01951
+          "volume_mcap_ratio": 0.3471179486159871,
+          "price_change_24h": 0.01948
         }
       ],
       "momentum_shifts": []
