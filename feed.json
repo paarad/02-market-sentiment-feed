@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-09T02:50:41.172734+00:00",
+  "updated_at": "2026-02-09T05:39:56.503013+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.14,
+    "change24h": 0.02,
+    "vol": 0.111,
     "fearGreed": 14,
-    "momentum": 0.317,
+    "momentum": 0.348,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4811,
-    "global_sentiment": 0.3556,
-    "combined_sentiment": 0.4738,
-    "confidence": 0.6104,
+    "crypto_sentiment": 0.4677,
+    "global_sentiment": 0.5307,
+    "combined_sentiment": 0.4784,
+    "confidence": 0.6929,
     "counts": {
-      "crypto": 63,
-      "global": 44
+      "crypto": 65,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 70734,
-      "btc_change_24h": 2.11,
-      "eth_price": 2087.08,
-      "eth_change_24h": -0.04,
+      "btc_price": 71041,
+      "btc_change_24h": 2.74,
+      "eth_price": 2093.62,
+      "eth_change_24h": 0.73,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156183837949.0,
+        "volume_24h": 156134756875.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.47,
+        "btc_dominance": 58.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-26T04:58:59.545716+00:00",
-      "crypto": 0.4099,
-      "global": 0.631,
-      "combined": 0.4433,
-      "counts": {
-        "crypto": 53,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-26T08:42:40.890254+00:00",
       "crypto": 0.3609,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-09T05:39:56.503013+00:00",
+      "crypto": 0.4677,
+      "global": 0.5307,
+      "combined": 0.4784,
+      "counts": {
+        "crypto": 65,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Takaichi Triumph: Japan’s record 56,000 Nikkei surge sends bitcoin to $72,000, gold past $5,000",
-        "url": "https://www.coindesk.com/markets/2026/02/09/takaichi-triumph-japan-s-record-56-000-nikkei-surge-sends-bitcoin-to-usd72-000-gold-past-usd5-000",
-        "source": "CoinDesk",
-        "weight": 0.8381,
+        "title": "Hedge Funds Boost Aussie Long Positions as RBA Keeps Tightening",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-09/hedge-funds-boost-aussie-long-positions-as-rba-keeps-tightening",
+        "source": "Bloomberg Markets",
+        "weight": 0.6842,
         "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Takaichi Triumph: Japan’s record 56,000 Nikkei surge sends bitcoin to $72,000, gold past $5,000",
+        "url": "https://www.coindesk.com/markets/2026/02/09/takaichi-triumph-japan-s-record-56-000-nikkei-surge-sends-bitcoin-to-usd72-000-gold-past-usd5-000",
+        "source": "CoinDesk",
+        "weight": 0.605,
+        "score": 0.8667
       },
       {
-        "title": "DBS Shares Slip as Profit Misses on Weaker Loan Margins, Tax",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-08/dbs-profit-misses-estimates-bank-says-earnings-this-year-to-dip",
+        "title": "London Stocks Are Leaving the Growth Market They Once Flocked to",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-09/london-stock-exchange-firms-leaving-the-aim-growth-market-they-once-flocked-to",
         "source": "Bloomberg Markets",
-        "weight": 0.4986,
+        "weight": 0.7625,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin Sharpe ratio slides to levels seen in previous market bottoms",
+        "url": "https://cointelegraph.com/news/bitcoin-sharpe-ratio-falls-bear-market-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7956,
+        "score": -0.6667
+      },
+      {
         "title": "US Natural Gas Extends Decline on Outlook for Warmer Weather",
         "url": "https://www.bloomberg.com/news/articles/2026-02-09/us-natural-gas-extends-decline-on-outlook-for-warmer-weather",
         "source": "Bloomberg Markets",
-        "weight": 0.7296,
+        "weight": 0.5267,
         "score": -0.9667
       },
       {
-        "title": "KDDI Shares Sink on $1.6 Billion Hit From Probe Into Fake Sales",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-09/kddi-shares-sink-on-1-6-billion-hit-from-probe-into-fake-sales",
-        "source": "Bloomberg Markets",
-        "weight": 0.6019,
-        "score": -1.0
-      },
-      {
-        "title": "Hong Kong media baron and pro-democracy activist Jimmy Lai sentenced to 20 years in prison",
-        "url": "https://www.cnbc.com/2026/02/09/hong-kong-media-tycoon-democracy-activist-jimmy-lai-sentenced-imprisonment.html",
-        "source": "CNBC Markets",
-        "weight": 0.7743,
-        "score": -0.6333
+        "title": "Fear & Greed 14 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3749583444156752,
-          "price_change_24h": -0.00319
+          "volume_mcap_ratio": 0.3785382515577583,
+          "price_change_24h": 0.00557
         }
       ],
       "momentum_shifts": []
