@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-09T05:39:56.503013+00:00",
+  "updated_at": "2026-02-09T09:02:48.986303+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.111,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 14,
-    "momentum": 0.348,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4677,
-    "global_sentiment": 0.5307,
-    "combined_sentiment": 0.4784,
-    "confidence": 0.6929,
+    "crypto_sentiment": 0.339,
+    "global_sentiment": 0.48,
+    "combined_sentiment": 0.3776,
+    "confidence": 0.6858,
     "counts": {
-      "crypto": 65,
-      "global": 46
+      "crypto": 64,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 71041,
-      "btc_change_24h": 2.74,
-      "eth_price": 2093.62,
-      "eth_change_24h": 0.73,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 69855,
+      "btc_change_24h": -0.87,
+      "eth_price": 2049.41,
+      "eth_change_24h": -2.97,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156134756875.0,
+        "volume_24h": 159547862520.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.52,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-26T08:42:40.890254+00:00",
-      "crypto": 0.3609,
-      "global": 0.6138,
-      "combined": 0.4051,
-      "counts": {
-        "crypto": 52,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-26T13:03:47.847917+00:00",
       "crypto": 0.289,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-02-09T09:02:48.986303+00:00",
+      "crypto": 0.339,
+      "global": 0.48,
+      "combined": 0.3776,
+      "counts": {
+        "crypto": 64,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Hedge Funds Boost Aussie Long Positions as RBA Keeps Tightening",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-09/hedge-funds-boost-aussie-long-positions-as-rba-keeps-tightening",
+        "title": "Chinese chip designer Montage Technology soars over 60% in Hong Kong debut",
+        "url": "https://www.cnbc.com/2026/02/09/chinese-chipmaker-montage-technology-hong-kong-ipo-debut.html",
+        "source": "CNBC Markets",
+        "weight": 0.7445,
+        "score": 0.5333
+      },
+      {
+        "title": "Apollo, Schroders Join Forces to Sell Funds to Wealthy Investors",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-09/apollo-schroders-join-forces-to-sell-funds-to-wealthy-investors",
         "source": "Bloomberg Markets",
-        "weight": 0.6842,
-        "score": 0.8667
+        "weight": 0.6691,
+        "score": 0.5833
       },
       {
         "title": "Takaichi Triumph: Japan’s record 56,000 Nikkei surge sends bitcoin to $72,000, gold past $5,000",
         "url": "https://www.coindesk.com/markets/2026/02/09/takaichi-triumph-japan-s-record-56-000-nikkei-surge-sends-bitcoin-to-usd72-000-gold-past-usd5-000",
         "source": "CoinDesk",
-        "weight": 0.605,
+        "weight": 0.4094,
         "score": 0.8667
-      },
-      {
-        "title": "London Stocks Are Leaving the Growth Market They Once Flocked to",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-09/london-stock-exchange-firms-leaving-the-aim-growth-market-they-once-flocked-to",
-        "source": "Bloomberg Markets",
-        "weight": 0.7625,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Sharpe ratio slides to levels seen in previous market bottoms",
-        "url": "https://cointelegraph.com/news/bitcoin-sharpe-ratio-falls-bear-market-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "FDIC Agrees to Pay Fees, Drop FOIA Fight Over Crypto 'Pause Letters'",
+        "url": "https://decrypt.co/357422/fdic-pay-fees-drop-foia-crypto-pause-letters",
+        "source": "Decrypt",
+        "weight": 0.5776,
+        "score": -1.0
+      },
+      {
+        "title": "South Korea expands crypto market probes after $44B Bithumb Bitcoin blunder",
+        "url": "https://cointelegraph.com/news/south-korea-fss-2026-crypto-price-manipulation-probes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7956,
+        "weight": 0.7361,
         "score": -0.6667
       },
       {
-        "title": "US Natural Gas Extends Decline on Outlook for Warmer Weather",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-09/us-natural-gas-extends-decline-on-outlook-for-warmer-weather",
-        "source": "Bloomberg Markets",
-        "weight": 0.5267,
-        "score": -0.9667
-      },
-      {
-        "title": "Fear & Greed 14 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Yen near 160, a record Nikkei 225, higher yields: What experts expect after Sanae Takaichi's landslide victory",
+        "url": "https://www.cnbc.com/2026/02/09/japan-election-sanae-takaichi-markets-yen-bonds-nikkei-225-jgb-160-usd-ldp.html",
+        "source": "CNBC Markets",
+        "weight": 0.6901,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3785382515577583,
-          "price_change_24h": 0.00557
+          "volume_mcap_ratio": 0.3871709880803127,
+          "price_change_24h": 0.00026
         }
       ],
       "momentum_shifts": []
