@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-10T13:41:19.699913+00:00",
+  "updated_at": "2026-02-10T17:11:13.195598+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.109,
+    "change24h": -0.019,
+    "vol": 0.107,
     "fearGreed": 9,
-    "momentum": -0.03,
+    "momentum": -0.325,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.366,
-    "global_sentiment": 0.5186,
-    "combined_sentiment": 0.4011,
-    "confidence": 0.7395,
+    "crypto_sentiment": 0.2468,
+    "global_sentiment": 0.4942,
+    "combined_sentiment": 0.3096,
+    "confidence": 0.7623,
     "counts": {
-      "crypto": 69,
-      "global": 44
+      "crypto": 51,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 68899,
-      "btc_change_24h": -0.23,
-      "eth_price": 2020.27,
-      "eth_change_24h": -0.91,
+      "btc_price": 69434,
+      "btc_change_24h": -0.73,
+      "eth_price": 2025.38,
+      "eth_change_24h": -2.8,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190652547452.6,
+        "volume_24h": 181362023401.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.26,
+        "btc_dominance": 58.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-27T13:06:10.797082+00:00",
-      "crypto": 0.404,
-      "global": 0.5984,
-      "combined": 0.4362,
-      "counts": {
-        "crypto": 52,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-27T16:38:43.230642+00:00",
       "crypto": 0.4526,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-10T17:11:13.195598+00:00",
+      "crypto": 0.2468,
+      "global": 0.4942,
+      "combined": 0.3096,
+      "counts": {
+        "crypto": 51,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tech-led rally in the S&P 500 will resume, Capital Economics says",
-        "url": "https://finance.yahoo.com/news/tech-led-rally-p-500-124156930.html?.tsrc=rss",
+        "title": "Datadog Is the Top Stock in the S&P 500 Today. Software Gets Some Rare Good News.",
+        "url": "https://finance.yahoo.com/m/376a0cd6-cefa-32e5-bc16-d6f7fb24bdb2/datadog-is-the-top-stock-in.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7135,
+        "weight": 0.711,
+        "score": 0.8667
+      },
+      {
+        "title": "Trump Commerce Sec. Lutnick admits visiting Epstein island during family vacation",
+        "url": "https://www.cnbc.com/2026/02/10/lutnick-epstein-island-vacation-congress.html",
+        "source": "CNBC Markets",
+        "weight": 0.7195,
         "score": 0.6667
       },
       {
-        "title": "Liberty Mutual to Partner With Net-Zero Focused PE Firm Ara",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-10/liberty-mutual-to-partner-with-net-zero-focused-pe-firm-ara",
-        "source": "Bloomberg Markets",
-        "weight": 0.6582,
-        "score": 0.5833
-      },
-      {
-        "title": "Ares Lands $2.4 Billion Loan Deal for Vantage Data Centers",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-10/ares-lands-2-4-billion-loan-deal-for-vantage-data-centers",
-        "source": "Bloomberg Markets",
-        "weight": 0.6213,
-        "score": 0.5833
+        "title": "S&P 500 Near Record as Investors Brace for Key US Data",
+        "url": "https://finance.yahoo.com/news/p-500-near-record-investors-161446699.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7176,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Needs Tech to Power an S&P 500 Breakout. It May Have to Wait.",
-        "url": "https://finance.yahoo.com/m/7f0f4bef-4e1a-37c6-a52d-1cfaddc10696/stock-market-needs-tech-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7136,
+        "title": "Struggling Coinbase gets price target cut from JPMorgan ahead of Thursday earnings",
+        "url": "https://www.coindesk.com/markets/2026/02/10/struggling-coinbase-gets-price-target-cut-from-jpmorgan-ahead-of-thursday-earnings",
+        "source": "CoinDesk",
+        "weight": 0.9802,
+        "score": -0.9333
+      },
+      {
+        "title": "Google Warns of AI-Powered North Korean Malware Campaign Targeting Crypto, DeFi",
+        "url": "https://decrypt.co/357601/google-warns-of-ai-powered-north-korean-malware-campaign-targeting-crypto-defi",
+        "source": "Decrypt",
+        "weight": 0.7719,
         "score": -1.0
       },
       {
-        "title": "Phantom Chat under scrutiny after $264K address poisoning loss",
-        "url": "https://cointelegraph.com/news/phantom-chat-address-poisoning-bitcoin-phishing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7714,
-        "score": -0.6667
-      },
-      {
-        "title": "Ethereum wants home validators to verify proofs but a 12 GPU reality raises a new threat",
-        "url": "https://cryptoslate.com/ethereum-wants-home-validators-to-verify-proofs-but-a-12-gpu-reality-raises-a-new-threat/",
-        "source": "CryptoSlate",
-        "weight": 0.7208,
-        "score": -0.6333
+        "title": "CFTC's 'Top Cop' Legal Team Eliminated Amid Embrace of Crypto, Prediction Markets: Report",
+        "url": "https://decrypt.co/357602/cftc-legal-team-completely-eliminated-crypto-prediction-markets",
+        "source": "Decrypt",
+        "weight": 0.7593,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4695489113075685,
-          "price_change_24h": 0.01377
+          "volume_mcap_ratio": 0.4516907323254325,
+          "price_change_24h": 0.02118
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.31176101334065665,
-          "price_change_24h": -0.03479
+          "volume_mcap_ratio": 0.3465416240209622,
+          "price_change_24h": 0.03202
         }
       ],
       "momentum_shifts": []
