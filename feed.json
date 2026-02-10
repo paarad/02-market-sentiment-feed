@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-10T20:26:54.750327+00:00",
+  "updated_at": "2026-02-10T20:53:44.190168+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.171,
+    "change24h": -0.042,
+    "vol": 0.168,
     "fearGreed": 9,
-    "momentum": -0.702,
+    "momentum": -0.728,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3505,
-    "global_sentiment": 0.4218,
-    "combined_sentiment": 0.3814,
-    "confidence": 0.7982,
+    "crypto_sentiment": 0.35,
+    "global_sentiment": 0.4255,
+    "combined_sentiment": 0.3813,
+    "confidence": 0.7927,
     "counts": {
       "crypto": 70,
-      "global": 44
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 68757,
-      "btc_change_24h": -2.63,
-      "eth_price": 2008.57,
-      "eth_change_24h": -5.42,
+      "btc_price": 68769,
+      "btc_change_24h": -2.79,
+      "eth_price": 2009.79,
+      "eth_change_24h": -5.48,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.3,
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 171388867498.6,
+        "volume_24h": 174974689418.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.34,
+        "btc_dominance": 58.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-27T19:57:37.800062+00:00",
-      "crypto": 0.489,
-      "global": 0.5571,
-      "combined": 0.4965,
-      "counts": {
-        "crypto": 46,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-27T20:30:46.002256+00:00",
       "crypto": 0.5014,
@@ -1008,6 +998,16 @@
         "crypto": 70,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-10T20:53:44.190168+00:00",
+      "crypto": 0.35,
+      "global": 0.4255,
+      "combined": 0.3813,
+      "counts": {
+        "crypto": 70,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "Why Bitcoin ETFs bleed billions while Gold makes 53 new all-time highs with $559B in demand",
         "url": "https://cryptoslate.com/why-bitcoin-etfs-bleed-billions-while-gold-makes-53-new-all-time-highs-with-559b-in-demand/",
         "source": "CryptoSlate",
-        "weight": 0.6923,
+        "weight": 0.6575,
         "score": 1.0
       },
       {
         "title": "Datadog Is the Top Stock in the S&P 500 Today. Software Gets Some Rare Good News.",
         "url": "https://finance.yahoo.com/m/376a0cd6-cefa-32e5-bc16-d6f7fb24bdb2/datadog-is-the-top-stock-in.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.748,
+        "weight": 0.7103,
         "score": 0.8667
       },
       {
         "title": "Trump Commerce Sec. Lutnick admits visiting Epstein island during family vacation",
         "url": "https://www.cnbc.com/2026/02/10/lutnick-epstein-island-vacation-congress.html",
         "source": "CNBC Markets",
-        "weight": 0.7561,
+        "weight": 0.718,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "The big question investors ask about AI spend: 'Is it paying off?'",
+        "url": "https://finance.yahoo.com/video/big-investors-ask-ai-spend-203558100.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7731,
+        "score": -0.9667
+      },
+      {
         "title": "The Stock Market Is Finally Broadening Out. The S&P 500 Will Suffer.",
         "url": "https://finance.yahoo.com/m/7f0f4bef-4e1a-37c6-a52d-1cfaddc10696/the-stock-market-is-finally.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7366,
+        "weight": 0.6995,
         "score": -1.0
       },
       {
         "title": "Struggling Coinbase gets price target cut from JPMorgan ahead of Thursday earnings",
         "url": "https://www.coindesk.com/markets/2026/02/10/struggling-coinbase-gets-price-target-cut-from-jpmorgan-ahead-of-thursday-earnings",
         "source": "CoinDesk",
-        "weight": 0.6725,
+        "weight": 0.6386,
         "score": -0.9333
-      },
-      {
-        "title": "UBS Downgrades U.S. Information Technology Sector on Software, Capex Risks",
-        "url": "https://finance.yahoo.com/m/a7c291f8-19eb-35aa-8906-b0b6f49a5562/ubs-downgrades-u.s..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7047,
-        "score": -0.8
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4242920059610582,
-          "price_change_24h": 0.00079
+          "volume_mcap_ratio": 0.4231914242352785,
+          "price_change_24h": -0.00837
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3315109337628502,
-          "price_change_24h": -0.06315
+          "volume_mcap_ratio": 0.3312566705947618,
+          "price_change_24h": -0.02128
         }
       ],
       "momentum_shifts": []
