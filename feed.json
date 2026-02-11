@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-11T08:58:18.628165+00:00",
+  "updated_at": "2026-02-11T13:26:38.898557+00:00",
   "indicators": {
-    "change24h": -0.038,
-    "vol": 0.156,
+    "change24h": -0.034,
+    "vol": 0.14,
     "fearGreed": 11,
-    "momentum": -0.674,
+    "momentum": -0.588,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3576,
-    "global_sentiment": 0.5158,
-    "combined_sentiment": 0.3945,
-    "confidence": 0.7298,
+    "crypto_sentiment": 0.3475,
+    "global_sentiment": 0.5543,
+    "combined_sentiment": 0.3902,
+    "confidence": 0.8005,
     "counts": {
-      "crypto": 68,
-      "global": 47
+      "crypto": 55,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 66944,
-      "btc_change_24h": -3.07,
-      "eth_price": 1948.68,
-      "eth_change_24h": -3.23,
+      "btc_price": 66892,
+      "btc_change_24h": -2.63,
+      "eth_price": 1948.05,
+      "eth_change_24h": -3.19,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.25,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165504449610.6,
+        "volume_24h": 164620291210.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.1,
+        "btc_dominance": 58.12,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-28T08:41:54.931371+00:00",
-      "crypto": 0.5255,
-      "global": 0.6032,
-      "combined": 0.5278,
-      "counts": {
-        "crypto": 68,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-28T13:06:27.742470+00:00",
       "crypto": 0.444,
@@ -1008,66 +998,76 @@
         "crypto": 68,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-02-11T13:26:38.898557+00:00",
+      "crypto": 0.3475,
+      "global": 0.5543,
+      "combined": 0.3902,
+      "counts": {
+        "crypto": 55,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Goldi Solar Is Said to Consider $350 Million India IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/goldi-solar-is-said-to-consider-350-million-india-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.679,
-        "score": 0.6333
-      },
-      {
-        "title": "Commerzbank CEO Orlopp Lifts Profit Guidance",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-11/commerzbank-ceo-orlopp-on-profit-guidance-deregulation-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6616,
-        "score": 0.5
-      },
-      {
-        "title": "Buoyant stocks pause for breath on signs of softening US consumption",
-        "url": "https://sg.finance.yahoo.com/news/buoyant-stocks-pause-breath-signs-011603134.html?.tsrc=rss",
+        "title": "Netflix (NFLX) Plunged Due to Investors’ Concerns Over Acquisition Pricing",
+        "url": "https://finance.yahoo.com/news/netflix-nflx-plunged-due-investors-131427556.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3285,
-        "score": 0.8667
+        "weight": 0.7814,
+        "score": 1.0
+      },
+      {
+        "title": "SGA U.S. Large Cap Growth Strategy Bets on Broadcom (AVGO), a Leading Semiconductor and Infrastructure Software Company",
+        "url": "https://finance.yahoo.com/news/sga-u-large-cap-growth-125612401.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7544,
+        "score": 1.0
+      },
+      {
+        "title": "Jobs Report May Be A Game-Changer For The Fed (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/a2a162dc-ef9b-3388-a4e6-0ceb0cb67a67/jobs-report-may-be-a.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7008,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "White House crypto bill talks ‘productive,’ but no deal yet",
-        "url": "https://cointelegraph.com/news/crypto-banks-white-house-crypto-bill-meeting-productive-no-deal-reached?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5782,
+        "title": "Bearish sentiment prevails as bitcoin falls below $67,000, ether drops",
+        "url": "https://www.coindesk.com/markets/2026/02/11/bearish-sentiment-prevails-as-bitcoin-falls-below-usd67-000-ether-drops",
+        "source": "CoinDesk",
+        "weight": 0.8089,
+        "score": -1.0
+      },
+      {
+        "title": "Pound’s Most Vulnerable Moment Is Two Months Away, Citi Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/pound-s-most-vulnerable-moment-is-two-months-away-citigroup-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6895,
         "score": -0.9667
       },
       {
-        "title": "Congo Copper Exports Rose 10% Last Year as China Drives Output",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/congo-copper-exports-rose-10-last-year-as-china-drives-output",
+        "title": "Ghana Holds Emergency Cabinet Meeting on Cocoa as Futures Plunge",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/ghana-holds-emergency-cabinet-meeting-on-cocoa-as-futures-plunge",
         "source": "Bloomberg Markets",
-        "weight": 0.7814,
-        "score": -0.6333
-      },
-      {
-        "title": "Ireland Must Build up Fiscal Buffers, Central Bank Chief Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/ireland-must-build-up-fiscal-buffers-central-bank-chief-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.7361,
-        "score": -0.6667
+        "weight": 0.6621,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3861936634908609,
-          "price_change_24h": 0.03125
+          "volume_mcap_ratio": 0.3849607138382155,
+          "price_change_24h": 0.02875
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.36706572347314587,
-          "price_change_24h": -0.0395
+          "volume_mcap_ratio": 0.383427293368684,
+          "price_change_24h": 0.02141
         }
       ],
       "momentum_shifts": []
