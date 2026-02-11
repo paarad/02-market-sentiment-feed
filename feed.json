@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-11T05:39:06.710198+00:00",
+  "updated_at": "2026-02-11T08:58:18.628165+00:00",
   "indicators": {
-    "change24h": -0.045,
-    "vol": 0.134,
+    "change24h": -0.038,
+    "vol": 0.156,
     "fearGreed": 11,
-    "momentum": -0.783,
+    "momentum": -0.674,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.418,
-    "global_sentiment": 0.544,
-    "combined_sentiment": 0.4422,
-    "confidence": 0.7537,
+    "crypto_sentiment": 0.3576,
+    "global_sentiment": 0.5158,
+    "combined_sentiment": 0.3945,
+    "confidence": 0.7298,
     "counts": {
-      "crypto": 70,
-      "global": 39
+      "crypto": 68,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 67471,
-      "btc_change_24h": -2.84,
-      "eth_price": 1976.09,
-      "eth_change_24h": -4.13,
+      "btc_price": 66944,
+      "btc_change_24h": -3.07,
+      "eth_price": 1948.68,
+      "eth_change_24h": -3.23,
       "market_regime": "bear",
-      "regime_strength": 0.6,
+      "regime_strength": 0.4,
       "market_breadth": 0.25,
       "fear_greed": {
         "value": 11,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 171469360063.6,
+        "volume_24h": 165504449610.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.07,
+        "btc_dominance": 58.1,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-28T04:50:12.087367+00:00",
-      "crypto": 0.5791,
-      "global": 0.5675,
-      "combined": 0.5649,
-      "counts": {
-        "crypto": 52,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-28T08:41:54.931371+00:00",
       "crypto": 0.5255,
@@ -1008,66 +998,76 @@
         "crypto": 70,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-11T08:58:18.628165+00:00",
+      "crypto": 0.3576,
+      "global": 0.5158,
+      "combined": 0.3945,
+      "counts": {
+        "crypto": 68,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Goldi Solar Is Said to Consider $350 Million India IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/goldi-solar-is-said-to-consider-350-million-india-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.679,
+        "score": 0.6333
+      },
+      {
+        "title": "Commerzbank CEO Orlopp Lifts Profit Guidance",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-11/commerzbank-ceo-orlopp-on-profit-guidance-deregulation-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6616,
+        "score": 0.5
+      },
+      {
         "title": "Buoyant stocks pause for breath on signs of softening US consumption",
         "url": "https://sg.finance.yahoo.com/news/buoyant-stocks-pause-breath-signs-011603134.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4821,
+        "weight": 0.3285,
         "score": 0.8667
-      },
-      {
-        "title": "AI, Weak Dollar Propel Emerging-Market Stocks to Record High",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/emerging-market-stocks-jump-to-record-high-on-ai-optimism",
-        "source": "Bloomberg Markets",
-        "weight": 0.5933,
-        "score": 0.6667
-      },
-      {
-        "title": "Tokenized commodities market crosses $6B amid gold’s historic rally",
-        "url": "https://cointelegraph.com/news/tokenized-commodities-like-gold-reach-6-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6791,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "ArrowMark Financial Corp. Releases Month End Estimated net asset value as of January 2026",
-        "url": "https://finance.yahoo.com/news/arrowmark-financial-corp-releases-month-011500209.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4811,
+        "title": "White House crypto bill talks ‘productive,’ but no deal yet",
+        "url": "https://cointelegraph.com/news/crypto-banks-white-house-crypto-bill-meeting-productive-no-deal-reached?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5782,
         "score": -0.9667
       },
       {
-        "title": "Fear & Greed 11 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Congo Copper Exports Rose 10% Last Year as China Drives Output",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/congo-copper-exports-rose-10-last-year-as-china-drives-output",
+        "source": "Bloomberg Markets",
+        "weight": 0.7814,
+        "score": -0.6333
       },
       {
-        "title": "China Stocks Win Most MSCI Index Additions in Nearly Three Years",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/china-stocks-win-most-msci-index-additions-in-nearly-three-years",
+        "title": "Ireland Must Build up Fiscal Buffers, Central Bank Chief Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/ireland-must-build-up-fiscal-buffers-central-bank-chief-says",
         "source": "Bloomberg Markets",
-        "weight": 0.6514,
-        "score": -0.6333
+        "weight": 0.7361,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4022726967457407,
-          "price_change_24h": 0.01532
+          "volume_mcap_ratio": 0.3861936634908609,
+          "price_change_24h": 0.03125
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.31605001951758876,
-          "price_change_24h": -0.06328
+          "volume_mcap_ratio": 0.36706572347314587,
+          "price_change_24h": -0.0395
         }
       ],
       "momentum_shifts": []
