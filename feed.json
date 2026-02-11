@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-11T17:11:04.651827+00:00",
+  "updated_at": "2026-02-11T20:21:38.824103+00:00",
   "indicators": {
-    "change24h": -0.049,
-    "vol": 0.176,
+    "change24h": -0.019,
+    "vol": 0.133,
     "fearGreed": 11,
-    "momentum": -0.854,
+    "momentum": -0.329,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.386,
-    "global_sentiment": 0.433,
-    "combined_sentiment": 0.4089,
-    "confidence": 0.8256,
+    "crypto_sentiment": 0.3996,
+    "global_sentiment": 0.489,
+    "combined_sentiment": 0.4238,
+    "confidence": 0.8179,
     "counts": {
-      "crypto": 56,
-      "global": 40
+      "crypto": 69,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 66167,
-      "btc_change_24h": -4.7,
-      "eth_price": 1916.39,
-      "eth_change_24h": -5.32,
+      "btc_price": 67542,
+      "btc_change_24h": -1.82,
+      "eth_price": 1950.48,
+      "eth_change_24h": -2.91,
       "market_regime": "bear",
-      "regime_strength": 0.6,
+      "regime_strength": 0.4,
       "market_breadth": 0.15,
       "fear_greed": {
         "value": 11,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 180911849042.6,
+        "volume_24h": 182846195876.6,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.0,
+        "btc_dominance": 58.22,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-28T16:48:48.712545+00:00",
-      "crypto": 0.4802,
-      "global": 0.4243,
-      "combined": 0.4788,
-      "counts": {
-        "crypto": 46,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-01-28T19:59:01.684053+00:00",
       "crypto": 0.4716,
@@ -1008,71 +998,81 @@
         "crypto": 56,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-02-11T20:21:38.824103+00:00",
+      "crypto": 0.3996,
+      "global": 0.489,
+      "combined": 0.4238,
+      "counts": {
+        "crypto": 69,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin reacts to major US jobs data beat as Fed rate pause odds near 95%",
-        "url": "https://cointelegraph.com/news/bitcoin-reacts-to-major-us-jobs-data-beat-as-fed-rate-pause-odds-near-95?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6589,
-        "score": 0.8667
+        "title": "AI Winners vs Losers on Wall Street | Open Interest 02/11/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-11/open-interest-02-11-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.676,
+        "score": 0.7
       },
       {
-        "title": "Uniswap Token Jumps Following BlackRock Investment as BUIDL Goes DeFi",
-        "url": "https://decrypt.co/357749/uniswap-token-jumps-blackrock-investment-buidl-defi",
-        "source": "Decrypt",
-        "weight": 0.8278,
-        "score": 0.6667
-      },
-      {
-        "title": "Novo Nordisk CEO sees 15 million-patient opportunity in Medicare coverage for obesity drugs",
+        "title": "Novo Nordisk CEO sees 15 million patient opportunity in Medicare coverage for obesity drugs",
         "url": "https://www.cnbc.com/2026/02/11/novo-nordisk-ceo-medicare-coverage-opens-15-million-patient-opportunity.html",
         "source": "CNBC Markets",
-        "weight": 0.7323,
+        "weight": 0.6271,
         "score": 0.6667
+      },
+      {
+        "title": "Tariff revenue soars more than 300% as U.S. awaits Supreme Court decision",
+        "url": "https://www.cnbc.com/2026/02/11/tariff-revenue-soars-more-than-300percent-as-us-awaits-supreme-court-decision.html",
+        "source": "CNBC Markets",
+        "weight": 0.775,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Michelin Plans Up to €2 Billion Share Buyback Amid Polymers Push",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/michelin-plans-up-to-2-billion-share-buyback-amid-polymers-push",
+        "title": "German Conservatives Want Stronger State Role In Gas Storage",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/german-conservatives-want-stronger-state-role-in-gas-storage",
         "source": "Bloomberg Markets",
-        "weight": 0.7625,
-        "score": -0.9333
-      },
-      {
-        "title": "Moderna Stock Sinks. The Puzzling Reason Its Flu Vaccine Was Rejected.",
-        "url": "https://finance.yahoo.com/m/47998de2-2525-3340-ac78-c12bd999fa77/moderna-stock-sinks.-the.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7251,
-        "score": -0.9333
-      },
-      {
-        "title": "VYM vs. NOBL: Which Dividend-Focused ETF Delivers a Higher Yield and Lower Fees?",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/11/vym-vs-nobl-which-dividend-focused-etf-delivers-a-higher-yield-and-lower-fees/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6946,
+        "weight": 0.6207,
         "score": -0.9667
+      },
+      {
+        "title": "Moderna Stock Sinks on Vaccine Rejection. Company Is ‘Desperately Seeking Clarification.’",
+        "url": "https://finance.yahoo.com/m/47998de2-2525-3340-ac78-c12bd999fa77/moderna-stock-sinks-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6281,
+        "score": -0.9333
+      },
+      {
+        "title": "Ondo and Securitize execs say utility, not hype, will drive tokenization’s next phase",
+        "url": "https://www.coindesk.com/business/2026/02/11/ondo-and-securitize-execs-say-utility-not-hype-will-drive-tokenization-s-next-phase",
+        "source": "CoinDesk",
+        "weight": 0.744,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4326520445159835,
-          "price_change_24h": -0.03458
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.4503601045868123,
+          "price_change_24h": -0.03931
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.42932319642006067,
-          "price_change_24h": -0.00517
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.44625173915604754,
+          "price_change_24h": -0.0088
         },
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.3228700271909419,
-          "price_change_24h": 9.75335
+          "volume_mcap_ratio": 0.4007472037513203,
+          "price_change_24h": 4.50268
         }
       ],
       "momentum_shifts": []
