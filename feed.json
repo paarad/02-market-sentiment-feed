@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-11T02:56:52.674730+00:00",
+  "updated_at": "2026-02-11T05:39:06.710198+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.118,
+    "change24h": -0.045,
+    "vol": 0.134,
     "fearGreed": 11,
-    "momentum": -0.613,
+    "momentum": -0.783,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4231,
-    "global_sentiment": 0.5426,
-    "combined_sentiment": 0.4459,
-    "confidence": 0.7711,
+    "crypto_sentiment": 0.418,
+    "global_sentiment": 0.544,
+    "combined_sentiment": 0.4422,
+    "confidence": 0.7537,
     "counts": {
-      "crypto": 69,
+      "crypto": 70,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 68601,
-      "btc_change_24h": -2.09,
-      "eth_price": 2015.82,
-      "eth_change_24h": -4.34,
+      "btc_price": 67471,
+      "btc_change_24h": -2.84,
+      "eth_price": 1976.09,
+      "eth_change_24h": -4.13,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 171581902289.6,
+        "volume_24h": 171469360063.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.2,
+        "btc_dominance": 58.07,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-28T02:22:32.995026+00:00",
-      "crypto": 0.526,
-      "global": 0.5571,
-      "combined": 0.5243,
-      "counts": {
-        "crypto": 50,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-28T04:50:12.087367+00:00",
       "crypto": 0.5791,
@@ -1008,6 +998,16 @@
         "crypto": 69,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-11T05:39:06.710198+00:00",
+      "crypto": 0.418,
+      "global": 0.544,
+      "combined": 0.4422,
+      "counts": {
+        "crypto": 70,
+        "global": 39
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Buoyant stocks pause for breath on signs of softening US consumption",
         "url": "https://sg.finance.yahoo.com/news/buoyant-stocks-pause-breath-signs-011603134.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6588,
+        "weight": 0.4821,
         "score": 0.8667
       },
       {
-        "title": "Why Ford Is Well-Positioned for 2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-10/why-ford-is-well-positioned-for-2026-video",
+        "title": "AI, Weak Dollar Propel Emerging-Market Stocks to Record High",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/emerging-market-stocks-jump-to-record-high-on-ai-optimism",
         "source": "Bloomberg Markets",
-        "weight": 0.442,
-        "score": 1.0
+        "weight": 0.5933,
+        "score": 0.6667
       },
       {
-        "title": "Oil Rises as Tensions Over Iran Eclipse Signs of Inventory Build",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-10/latest-oil-market-news-and-analysis-for-feb-11",
-        "source": "Bloomberg Markets",
-        "weight": 0.5362,
-        "score": 0.6667
+        "title": "Tokenized commodities market crosses $6B amid gold’s historic rally",
+        "url": "https://cointelegraph.com/news/tokenized-commodities-like-gold-reach-6-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6791,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,15 +1039,8 @@
         "title": "ArrowMark Financial Corp. Releases Month End Estimated net asset value as of January 2026",
         "url": "https://finance.yahoo.com/news/arrowmark-financial-corp-releases-month-011500209.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6575,
+        "weight": 0.4811,
         "score": -0.9667
-      },
-      {
-        "title": "Retail Sales Stall as Dow Sets Record, S&P Falls | The Close 2/10/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-11/the-close-2-10-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6793,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
@@ -1055,19 +1048,26 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "China Stocks Win Most MSCI Index Additions in Nearly Three Years",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-11/china-stocks-win-most-msci-index-additions-in-nearly-three-years",
+        "source": "Bloomberg Markets",
+        "weight": 0.6514,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4009961054091687,
-          "price_change_24h": -0.00458
+          "volume_mcap_ratio": 0.4022726967457407,
+          "price_change_24h": 0.01532
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.34126657942262384,
-          "price_change_24h": -0.07166
+          "volume_mcap_ratio": 0.31605001951758876,
+          "price_change_24h": -0.06328
         }
       ],
       "momentum_shifts": []
