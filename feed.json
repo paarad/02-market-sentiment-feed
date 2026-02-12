@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-11T20:48:19.696007+00:00",
+  "updated_at": "2026-02-12T02:52:51.415304+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.129,
-    "fearGreed": 11,
-    "momentum": -0.411,
-    "regime": "bear",
+    "change24h": -0.011,
+    "vol": 0.135,
+    "fearGreed": 5,
+    "momentum": -0.199,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4117,
-    "global_sentiment": 0.4672,
-    "combined_sentiment": 0.4311,
-    "confidence": 0.8192,
+    "crypto_sentiment": 0.3536,
+    "global_sentiment": 0.5134,
+    "combined_sentiment": 0.3913,
+    "confidence": 0.747,
     "counts": {
-      "crypto": 56,
-      "global": 48
+      "crypto": 51,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 67309,
-      "btc_change_24h": -2.28,
-      "eth_price": 1946.98,
-      "eth_change_24h": -3.26,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 67642,
+      "btc_change_24h": -1.43,
+      "eth_price": 1962.34,
+      "eth_change_24h": -2.66,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 11,
+        "value": 5,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 185041764323.6,
+        "volume_24h": 197744324004.6,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.15,
+        "btc_dominance": 58.17,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-28T20:39:57.819786+00:00",
-      "crypto": 0.4851,
-      "global": 0.4432,
-      "combined": 0.4841,
-      "counts": {
-        "crypto": 59,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-01-29T02:39:29.485251+00:00",
       "crypto": 0.5004,
@@ -1008,71 +998,81 @@
         "crypto": 56,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-02-12T02:52:51.415304+00:00",
+      "crypto": 0.3536,
+      "global": 0.5134,
+      "combined": 0.3913,
+      "counts": {
+        "crypto": 51,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "American Rebel Holdings, Inc (NASDAQ: AREB) Files Appeal of Nasdaq Delisting Determination, Preserving Listing Pending Hearing",
-        "url": "https://finance.yahoo.com/news/american-rebel-holdings-inc-nasdaq-203600440.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7812,
-        "score": 0.6333
+        "title": "House votes to override Trump's Canada tariffs",
+        "url": "https://www.cnbc.com/2026/02/11/gop-trump-tariffs-canada.html",
+        "source": "CNBC Markets",
+        "weight": 0.6667,
+        "score": 0.5833
       },
       {
-        "title": "McDonald’s Is Beating the Market. Earnings Come Soon.",
-        "url": "https://finance.yahoo.com/m/5370f67e-eda2-3f5b-9fca-0c31663112e6/mcdonald%E2%80%99s-is-beating-the.html?.tsrc=rss",
+        "title": "Data Center Momentum Fuels Breakout For This Top Performing S&P 500 Generator Play",
+        "url": "https://finance.yahoo.com/m/4b49e205-7f93-3cc9-bc65-71a2fb7d31b4/data-center-momentum-fuels.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7164,
+        "weight": 0.5127,
         "score": 0.6667
       },
       {
-        "title": "AI Winners vs Losers on Wall Street | Open Interest 02/11/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-11/open-interest-02-11-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6421,
-        "score": 0.7
+        "title": "Review & Preview: Powell’s Vindication",
+        "url": "https://finance.yahoo.com/m/07d9ec1e-ff54-3430-9fec-9e8a8533e97b/review-%26-preview%3A-powell%E2%80%99s.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6376,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "German Conservatives Want Stronger State Role In Gas Storage",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-11/german-conservatives-want-stronger-state-role-in-gas-storage",
-        "source": "Bloomberg Markets",
-        "weight": 0.5896,
+        "title": "Japan stocks extend post-election rally with Nikkei 225 breaching 58,000 for the first time",
+        "url": "https://www.cnbc.com/2026/02/12/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html",
+        "source": "CNBC Markets",
+        "weight": 0.7259,
+        "score": -0.9333
+      },
+      {
+        "title": "Democratic lawmakers slam SEC Chair Atkins over crypto enforcement",
+        "url": "https://cointelegraph.com/news/democrats-slam-sec-chair-atkins-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4438,
         "score": -0.9667
       },
       {
-        "title": "US Energy Secretary Meets Venezuela's Acting President Rodríguez",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-11/wright-meets-venezuela-s-acting-president-rodriguez-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7596,
-        "score": -0.6333
-      },
-      {
-        "title": "Ondo and Securitize execs say utility, not hype, will drive tokenization’s next phase",
-        "url": "https://www.coindesk.com/business/2026/02/11/ondo-and-securitize-execs-say-utility-not-hype-will-drive-tokenization-s-next-phase",
-        "source": "CoinDesk",
-        "weight": 0.7067,
-        "score": -0.6333
+        "title": "Fear & Greed 5 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.45018305131132136,
-          "price_change_24h": -0.0692
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44669967374316016,
-          "price_change_24h": -0.01823
+          "volume_mcap_ratio": 0.4744552003669909,
+          "price_change_24h": -0.00235
         },
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.42424643833186854,
-          "price_change_24h": 4.19554
+          "volume_mcap_ratio": 0.46732498830794467,
+          "price_change_24h": 2.71687
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.42963836127167465,
+          "price_change_24h": -0.07019
         }
       ],
       "momentum_shifts": []
