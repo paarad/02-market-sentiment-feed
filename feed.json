@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-12T17:06:31.518292+00:00",
+  "updated_at": "2026-02-12T20:17:41.683691+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.103,
+    "change24h": -0.016,
+    "vol": 0.11,
     "fearGreed": 5,
-    "momentum": 0.105,
+    "momentum": -0.282,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4102,
-    "global_sentiment": 0.5783,
-    "combined_sentiment": 0.4392,
-    "confidence": 0.7621,
+    "crypto_sentiment": 0.3416,
+    "global_sentiment": 0.4761,
+    "combined_sentiment": 0.3792,
+    "confidence": 0.7728,
     "counts": {
       "crypto": 58,
-      "global": 40
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 65841,
-      "btc_change_24h": -0.41,
-      "eth_price": 1912.48,
-      "eth_change_24h": -0.2,
+      "btc_price": 65646,
+      "btc_change_24h": -2.82,
+      "eth_price": 1919.66,
+      "eth_change_24h": -1.59,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166596742619.6,
+        "volume_24h": 177227296354.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.84,
+        "btc_dominance": 57.76,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-29T16:52:45.454548+00:00",
-      "crypto": 0.4202,
-      "global": 0.3955,
-      "combined": 0.4314,
-      "counts": {
-        "crypto": 62,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-29T20:01:27.413654+00:00",
       "crypto": 0.3228,
@@ -1008,66 +998,76 @@
         "crypto": 58,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-02-12T20:17:41.683691+00:00",
+      "crypto": 0.3416,
+      "global": 0.4761,
+      "combined": 0.3792,
+      "counts": {
+        "crypto": 58,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Analysis-For stock market, AI turns from lifting all boats to sinking ships",
-        "url": "https://finance.yahoo.com/news/analysis-stock-market-ai-turns-160954707.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7174,
+        "title": "Old Economy Stocks Surge Again | Open Interest 2/12/20212",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-12/open-interest-2-12-20212-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6152,
         "score": 1.0
       },
       {
-        "title": "Here’s Why Analog Devices (ADI) Rose in Q4",
-        "url": "https://finance.yahoo.com/news/why-analog-devices-adi-rose-160013574.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7041,
+        "title": "Anthropic Finalizes $30B Funding",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-12/anthropic-finalizes-30b-funding",
+        "source": "Bloomberg Markets",
+        "weight": 0.7565,
         "score": 0.6667
       },
       {
-        "title": "Fastly Stock Soars 64%. A ‘Stellar Quarter’ Shows It’s an Underrated AI Play.",
-        "url": "https://finance.yahoo.com/m/a1667dc0-8590-38cb-87e9-4564d22951a2/fastly-stock-soars-64%25.-a.html?.tsrc=rss",
+        "title": "February 2026's Standout Penny Stocks To Consider",
+        "url": "https://finance.yahoo.com/news/february-2026s-standout-penny-stocks-180545381.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6405,
+        "weight": 0.6205,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Ethereum price decline is testing Wall Street as ETF flows flip while a $1,800 retest looms",
-        "url": "https://cryptoslate.com/ethereum-etf-holders-suffer-5-billion-losses-as-market-slide-continues/",
-        "source": "CryptoSlate",
-        "weight": 0.6817,
+        "title": "Sector Update: Energy Stocks Lower in Afternoon Trading",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-lower-afternoon-190313426.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6931,
         "score": -1.0
       },
       {
-        "title": "Energy is firmly in a rotational bull market, BofA says",
-        "url": "https://finance.yahoo.com/news/energy-firmly-rotational-bull-market-155545426.html?.tsrc=rss",
+        "title": "Software still has a 'huge role' in AI buildout, Dan Ives explains",
+        "url": "https://finance.yahoo.com/video/software-still-huge-role-ai-184821474.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6981,
+        "weight": 0.6736,
         "score": -0.9667
       },
       {
-        "title": "Medical emergencies can lead to debt and bankruptcy — even for insured Americans",
-        "url": "https://www.cnbc.com/2026/02/12/medical-debt-bankruptcy.html",
-        "source": "CNBC Markets",
-        "weight": 0.6985,
-        "score": -0.6667
+        "title": "Bitcoin Treasuries Added $3.5 Billion in January—Almost All By Strategy",
+        "url": "https://decrypt.co/357902/bitcoin-treasuries-added-3-5-billion-january-strategy",
+        "source": "Decrypt",
+        "weight": 0.6277,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40516613730539536,
-          "price_change_24h": 0.0
+          "volume_mcap_ratio": 0.415881679780663,
+          "price_change_24h": -0.02075
         },
         {
-          "symbol": "UNI",
-          "volume_mcap_ratio": 0.32529591758372683,
-          "price_change_24h": -12.55242
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.33080297753599275,
+          "price_change_24h": -0.05944
         }
       ],
       "momentum_shifts": []
