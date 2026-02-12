@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-12T08:57:10.565460+00:00",
+  "updated_at": "2026-02-12T13:25:32.698199+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.104,
+    "change24h": 0.035,
+    "vol": 0.119,
     "fearGreed": 5,
-    "momentum": 0.32,
+    "momentum": 0.611,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3739,
-    "global_sentiment": 0.5459,
-    "combined_sentiment": 0.4092,
-    "confidence": 0.6914,
+    "crypto_sentiment": 0.4172,
+    "global_sentiment": 0.5734,
+    "combined_sentiment": 0.444,
+    "confidence": 0.7336,
     "counts": {
-      "crypto": 61,
-      "global": 46
+      "crypto": 57,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 67075,
-      "btc_change_24h": 0.24,
-      "eth_price": 1964.48,
-      "eth_change_24h": 0.78,
+      "btc_price": 67940,
+      "btc_change_24h": 1.56,
+      "eth_price": 1984.52,
+      "eth_change_24h": 1.86,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181533256903.6,
+        "volume_24h": 189275151378.6,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.93,
+        "btc_dominance": 58.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-29T08:51:43.427980+00:00",
-      "crypto": 0.5235,
-      "global": 0.6124,
-      "combined": 0.527,
-      "counts": {
-        "crypto": 64,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-01-29T13:13:40.357123+00:00",
       "crypto": 0.468,
@@ -1008,71 +998,81 @@
         "crypto": 61,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-02-12T13:25:32.698199+00:00",
+      "crypto": 0.4172,
+      "global": 0.5734,
+      "combined": 0.444,
+      "counts": {
+        "crypto": 57,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "GFH CEO: Aim to List Healian in Saudi Over 12-18 months",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-12/gfh-ceo-aim-to-list-healian-in-saudi-over-12-18-months-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7677,
+        "title": "3 Stocks Estimated To Be Up To 39.1% Below Intrinsic Value Offering A Possible Opportunity",
+        "url": "https://finance.yahoo.com/news/3-stocks-estimated-39-1-113757071.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6503,
         "score": 1.0
       },
       {
-        "title": "FTSE 100 Hits Fresh Record in Broad Equities Rally",
-        "url": "https://www.bloomberg.com/news/live-blog/2026-02-12/ftse-100-live-uk-gdp-unilever-trump-tariffs-pound-gilts-gbp-usd-what-s-moving-uk-markets-right-now-markets-today",
+        "title": "Emerging Market Stocks Rally for Fourth Day, Led by Korean Tech",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-12/emerging-market-stocks-rally-for-fourth-day-led-by-korean-tech",
         "source": "Bloomberg Markets",
-        "weight": 0.618,
+        "weight": 0.7329,
         "score": 0.8667
       },
       {
-        "title": "Zhipu leads rally in Chinese AI stocks, surging 30%, as a wave of new releases hits market",
-        "url": "https://www.cnbc.com/2026/02/12/chinese-ai-stocks-new-model-and-agent-releases-zhipu-minimax.html",
-        "source": "CNBC Markets",
-        "weight": 0.5664,
+        "title": "3 Promising Penny Stocks With At Least $600M Market Cap",
+        "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-least-120456787.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.685,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Japan stocks extend post-election rally with Nikkei 225 breaching 58,000 for the first time",
-        "url": "https://www.cnbc.com/2026/02/12/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html",
-        "source": "CNBC Markets",
-        "weight": 0.7469,
-        "score": -0.9333
-      },
-      {
-        "title": "Binance Pushes Back Against Blame Over October Crash",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-12/binance-pushes-back-against-blame-over-october-crash-video",
+        "title": "European Commission Probed Over Real Estate Sales to Belgium",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-12/european-commission-probed-over-real-estate-sales-to-belgium",
         "source": "Bloomberg Markets",
-        "weight": 0.561,
-        "score": -0.8
+        "weight": 0.7824,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 5 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "AI-powered agents dominate the EasyA x Consensus Hong Kong hackathon",
+        "url": "https://www.coindesk.com/tech/2026/02/12/ai-powered-agents-dominate-the-easya-x-consensus-hong-kong-hackathon",
+        "source": "CoinDesk",
+        "weight": 0.7603,
+        "score": -0.7333
+      },
+      {
+        "title": "Trump orders Pentagon to buy power from coal plants",
+        "url": "https://www.cnbc.com/2026/02/11/trump-orders-pentagon-to-buy-power-from-coal-plants.html",
+        "source": "CNBC Markets",
+        "weight": 0.7798,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.507183245201367,
-          "price_change_24h": 3.16607
+          "volume_mcap_ratio": 0.5330159129013337,
+          "price_change_24h": 4.6662
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44054738130233395,
-          "price_change_24h": -0.02903
+          "volume_mcap_ratio": 0.4373374593176346,
+          "price_change_24h": 0.00127
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3706233006205977,
-          "price_change_24h": -0.03843
+          "volume_mcap_ratio": 0.35591151310114144,
+          "price_change_24h": 0.01638
         }
       ],
       "momentum_shifts": []
