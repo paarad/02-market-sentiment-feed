@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-12T02:52:51.415304+00:00",
+  "updated_at": "2026-02-12T05:36:22.614294+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.135,
+    "change24h": 0.004,
+    "vol": 0.087,
     "fearGreed": 5,
-    "momentum": -0.199,
+    "momentum": 0.073,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3536,
-    "global_sentiment": 0.5134,
-    "combined_sentiment": 0.3913,
-    "confidence": 0.747,
+    "crypto_sentiment": 0.359,
+    "global_sentiment": 0.5493,
+    "combined_sentiment": 0.3983,
+    "confidence": 0.7375,
     "counts": {
-      "crypto": 51,
-      "global": 35
+      "crypto": 65,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 67642,
-      "btc_change_24h": -1.43,
-      "eth_price": 1962.34,
-      "eth_change_24h": -2.66,
+      "btc_price": 67023,
+      "btc_change_24h": -0.6,
+      "eth_price": 1966.65,
+      "eth_change_24h": -0.37,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 197744324004.6,
+        "volume_24h": 190318739469.6,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.17,
+        "btc_dominance": 57.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-29T02:39:29.485251+00:00",
-      "crypto": 0.5004,
-      "global": 0.5486,
-      "combined": 0.5043,
-      "counts": {
-        "crypto": 60,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-29T05:08:57.706038+00:00",
       "crypto": 0.5153,
@@ -1008,71 +998,81 @@
         "crypto": 51,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-02-12T05:36:22.614294+00:00",
+      "crypto": 0.359,
+      "global": 0.5493,
+      "combined": 0.3983,
+      "counts": {
+        "crypto": 65,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "House votes to override Trump's Canada tariffs",
-        "url": "https://www.cnbc.com/2026/02/11/gop-trump-tariffs-canada.html",
+        "title": "Zhipu leads rally in Chinese AI stocks, surging 30%, as a wave of new releases hits market",
+        "url": "https://www.cnbc.com/2026/02/12/chinese-ai-stocks-new-model-and-agent-releases-zhipu-minimax.html",
         "source": "CNBC Markets",
-        "weight": 0.6667,
-        "score": 0.5833
-      },
-      {
-        "title": "Data Center Momentum Fuels Breakout For This Top Performing S&P 500 Generator Play",
-        "url": "https://finance.yahoo.com/m/4b49e205-7f93-3cc9-bc65-71a2fb7d31b4/data-center-momentum-fuels.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5127,
+        "weight": 0.6981,
         "score": 0.6667
       },
       {
-        "title": "Review & Preview: Powell’s Vindication",
-        "url": "https://finance.yahoo.com/m/07d9ec1e-ff54-3430-9fec-9e8a8533e97b/review-%26-preview%3A-powell%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6376,
+        "title": "Toyota Delays Deadline for $35 Billion Deal Opposed by Elliott",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-12/toyota-delays-deadline-for-35-billion-deal-opposed-by-elliott",
+        "source": "Bloomberg Markets",
+        "weight": 0.7753,
         "score": 0.5333
+      },
+      {
+        "title": "House votes to override Trump's Canada tariffs",
+        "url": "https://www.cnbc.com/2026/02/11/gop-trump-tariffs-canada.html",
+        "source": "CNBC Markets",
+        "weight": 0.4866,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
+        "title": "US Banks Urge Regulator to Slow Crypto-Linked Charters Amid Rule Overhaul",
+        "url": "https://decrypt.co/357820/us-banks-urge-regulator-slow-crypto-linked-bank-charters",
+        "source": "Decrypt",
+        "weight": 0.8425,
+        "score": -0.6667
+      },
+      {
         "title": "Japan stocks extend post-election rally with Nikkei 225 breaching 58,000 for the first time",
         "url": "https://www.cnbc.com/2026/02/12/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html",
         "source": "CNBC Markets",
-        "weight": 0.7259,
+        "weight": 0.5299,
         "score": -0.9333
-      },
-      {
-        "title": "Democratic lawmakers slam SEC Chair Atkins over crypto enforcement",
-        "url": "https://cointelegraph.com/news/democrats-slam-sec-chair-atkins-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4438,
-        "score": -0.9667
       },
       {
         "title": "Fear & Greed 5 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
-        "weight": 0.8,
+        "weight": 0.7999,
         "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4744552003669909,
-          "price_change_24h": -0.00235
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.4905000758973957,
+          "price_change_24h": 3.49556
         },
         {
-          "symbol": "UNI",
-          "volume_mcap_ratio": 0.46732498830794467,
-          "price_change_24h": 2.71687
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.46089633844753775,
+          "price_change_24h": -0.01452
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.42963836127167465,
-          "price_change_24h": -0.07019
+          "volume_mcap_ratio": 0.44644665911062437,
+          "price_change_24h": -0.16318
         }
       ],
       "momentum_shifts": []
