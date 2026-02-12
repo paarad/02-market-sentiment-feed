@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-12T05:36:22.614294+00:00",
+  "updated_at": "2026-02-12T08:57:10.565460+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.087,
+    "change24h": 0.018,
+    "vol": 0.104,
     "fearGreed": 5,
-    "momentum": 0.073,
+    "momentum": 0.32,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.359,
-    "global_sentiment": 0.5493,
-    "combined_sentiment": 0.3983,
-    "confidence": 0.7375,
+    "crypto_sentiment": 0.3739,
+    "global_sentiment": 0.5459,
+    "combined_sentiment": 0.4092,
+    "confidence": 0.6914,
     "counts": {
-      "crypto": 65,
-      "global": 38
+      "crypto": 61,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 67023,
-      "btc_change_24h": -0.6,
-      "eth_price": 1966.65,
-      "eth_change_24h": -0.37,
+      "btc_price": 67075,
+      "btc_change_24h": 0.24,
+      "eth_price": 1964.48,
+      "eth_change_24h": 0.78,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190318739469.6,
+        "volume_24h": 181533256903.6,
         "high_activity_coins": 3
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-29T05:08:57.706038+00:00",
-      "crypto": 0.5153,
-      "global": 0.5813,
-      "combined": 0.5183,
-      "counts": {
-        "crypto": 76,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-01-29T08:51:43.427980+00:00",
       "crypto": 0.5235,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-02-12T08:57:10.565460+00:00",
+      "crypto": 0.3739,
+      "global": 0.5459,
+      "combined": 0.4092,
+      "counts": {
+        "crypto": 61,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "GFH CEO: Aim to List Healian in Saudi Over 12-18 months",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-12/gfh-ceo-aim-to-list-healian-in-saudi-over-12-18-months-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7677,
+        "score": 1.0
+      },
+      {
+        "title": "FTSE 100 Hits Fresh Record in Broad Equities Rally",
+        "url": "https://www.bloomberg.com/news/live-blog/2026-02-12/ftse-100-live-uk-gdp-unilever-trump-tariffs-pound-gilts-gbp-usd-what-s-moving-uk-markets-right-now-markets-today",
+        "source": "Bloomberg Markets",
+        "weight": 0.618,
+        "score": 0.8667
+      },
+      {
         "title": "Zhipu leads rally in Chinese AI stocks, surging 30%, as a wave of new releases hits market",
         "url": "https://www.cnbc.com/2026/02/12/chinese-ai-stocks-new-model-and-agent-releases-zhipu-minimax.html",
         "source": "CNBC Markets",
-        "weight": 0.6981,
+        "weight": 0.5664,
         "score": 0.6667
-      },
-      {
-        "title": "Toyota Delays Deadline for $35 Billion Deal Opposed by Elliott",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-12/toyota-delays-deadline-for-35-billion-deal-opposed-by-elliott",
-        "source": "Bloomberg Markets",
-        "weight": 0.7753,
-        "score": 0.5333
-      },
-      {
-        "title": "House votes to override Trump's Canada tariffs",
-        "url": "https://www.cnbc.com/2026/02/11/gop-trump-tariffs-canada.html",
-        "source": "CNBC Markets",
-        "weight": 0.4866,
-        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "US Banks Urge Regulator to Slow Crypto-Linked Charters Amid Rule Overhaul",
-        "url": "https://decrypt.co/357820/us-banks-urge-regulator-slow-crypto-linked-bank-charters",
-        "source": "Decrypt",
-        "weight": 0.8425,
-        "score": -0.6667
-      },
-      {
         "title": "Japan stocks extend post-election rally with Nikkei 225 breaching 58,000 for the first time",
         "url": "https://www.cnbc.com/2026/02/12/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html",
         "source": "CNBC Markets",
-        "weight": 0.5299,
+        "weight": 0.7469,
         "score": -0.9333
+      },
+      {
+        "title": "Binance Pushes Back Against Blame Over October Crash",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-12/binance-pushes-back-against-blame-over-october-crash-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.561,
+        "score": -0.8
       },
       {
         "title": "Fear & Greed 5 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
-        "weight": 0.7999,
+        "weight": 0.8,
         "score": -0.5333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.4905000758973957,
-          "price_change_24h": 3.49556
+          "volume_mcap_ratio": 0.507183245201367,
+          "price_change_24h": 3.16607
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46089633844753775,
-          "price_change_24h": -0.01452
+          "volume_mcap_ratio": 0.44054738130233395,
+          "price_change_24h": -0.02903
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.44644665911062437,
-          "price_change_24h": -0.16318
+          "volume_mcap_ratio": 0.3706233006205977,
+          "price_change_24h": -0.03843
         }
       ],
       "momentum_shifts": []
