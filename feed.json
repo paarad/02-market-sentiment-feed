@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-12T13:25:32.698199+00:00",
+  "updated_at": "2026-02-12T17:06:31.518292+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.119,
+    "change24h": 0.006,
+    "vol": 0.103,
     "fearGreed": 5,
-    "momentum": 0.611,
+    "momentum": 0.105,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4172,
-    "global_sentiment": 0.5734,
-    "combined_sentiment": 0.444,
-    "confidence": 0.7336,
+    "crypto_sentiment": 0.4102,
+    "global_sentiment": 0.5783,
+    "combined_sentiment": 0.4392,
+    "confidence": 0.7621,
     "counts": {
-      "crypto": 57,
-      "global": 38
+      "crypto": 58,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 67940,
-      "btc_change_24h": 1.56,
-      "eth_price": 1984.52,
-      "eth_change_24h": 1.86,
+      "btc_price": 65841,
+      "btc_change_24h": -0.41,
+      "eth_price": 1912.48,
+      "eth_change_24h": -0.2,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 189275151378.6,
-        "high_activity_coins": 3
+        "volume_24h": 166596742619.6,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.14,
+        "btc_dominance": 57.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-29T13:13:40.357123+00:00",
-      "crypto": 0.468,
-      "global": 0.6269,
-      "combined": 0.4866,
-      "counts": {
-        "crypto": 60,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-01-29T16:52:45.454548+00:00",
       "crypto": 0.4202,
@@ -1008,71 +998,76 @@
         "crypto": 57,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-02-12T17:06:31.518292+00:00",
+      "crypto": 0.4102,
+      "global": 0.5783,
+      "combined": 0.4392,
+      "counts": {
+        "crypto": 58,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Stocks Estimated To Be Up To 39.1% Below Intrinsic Value Offering A Possible Opportunity",
-        "url": "https://finance.yahoo.com/news/3-stocks-estimated-39-1-113757071.html?.tsrc=rss",
+        "title": "Analysis-For stock market, AI turns from lifting all boats to sinking ships",
+        "url": "https://finance.yahoo.com/news/analysis-stock-market-ai-turns-160954707.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6503,
+        "weight": 0.7174,
         "score": 1.0
       },
       {
-        "title": "Emerging Market Stocks Rally for Fourth Day, Led by Korean Tech",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-12/emerging-market-stocks-rally-for-fourth-day-led-by-korean-tech",
-        "source": "Bloomberg Markets",
-        "weight": 0.7329,
-        "score": 0.8667
+        "title": "Here’s Why Analog Devices (ADI) Rose in Q4",
+        "url": "https://finance.yahoo.com/news/why-analog-devices-adi-rose-160013574.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7041,
+        "score": 0.6667
       },
       {
-        "title": "3 Promising Penny Stocks With At Least $600M Market Cap",
-        "url": "https://finance.yahoo.com/news/3-promising-penny-stocks-least-120456787.html?.tsrc=rss",
+        "title": "Fastly Stock Soars 64%. A ‘Stellar Quarter’ Shows It’s an Underrated AI Play.",
+        "url": "https://finance.yahoo.com/m/a1667dc0-8590-38cb-87e9-4564d22951a2/fastly-stock-soars-64%25.-a.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.685,
+        "weight": 0.6405,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "European Commission Probed Over Real Estate Sales to Belgium",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-12/european-commission-probed-over-real-estate-sales-to-belgium",
-        "source": "Bloomberg Markets",
-        "weight": 0.7824,
+        "title": "Ethereum price decline is testing Wall Street as ETF flows flip while a $1,800 retest looms",
+        "url": "https://cryptoslate.com/ethereum-etf-holders-suffer-5-billion-losses-as-market-slide-continues/",
+        "source": "CryptoSlate",
+        "weight": 0.6817,
+        "score": -1.0
+      },
+      {
+        "title": "Energy is firmly in a rotational bull market, BofA says",
+        "url": "https://finance.yahoo.com/news/energy-firmly-rotational-bull-market-155545426.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6981,
         "score": -0.9667
       },
       {
-        "title": "AI-powered agents dominate the EasyA x Consensus Hong Kong hackathon",
-        "url": "https://www.coindesk.com/tech/2026/02/12/ai-powered-agents-dominate-the-easya-x-consensus-hong-kong-hackathon",
-        "source": "CoinDesk",
-        "weight": 0.7603,
-        "score": -0.7333
-      },
-      {
-        "title": "Trump orders Pentagon to buy power from coal plants",
-        "url": "https://www.cnbc.com/2026/02/11/trump-orders-pentagon-to-buy-power-from-coal-plants.html",
+        "title": "Medical emergencies can lead to debt and bankruptcy — even for insured Americans",
+        "url": "https://www.cnbc.com/2026/02/12/medical-debt-bankruptcy.html",
         "source": "CNBC Markets",
-        "weight": 0.7798,
-        "score": -0.6333
+        "weight": 0.6985,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "UNI",
-          "volume_mcap_ratio": 0.5330159129013337,
-          "price_change_24h": 4.6662
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4373374593176346,
-          "price_change_24h": 0.00127
+          "volume_mcap_ratio": 0.40516613730539536,
+          "price_change_24h": 0.0
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.35591151310114144,
-          "price_change_24h": 0.01638
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.32529591758372683,
+          "price_change_24h": -12.55242
         }
       ],
       "momentum_shifts": []
