@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-13T20:18:38.601166+00:00",
+  "updated_at": "2026-02-13T20:49:14.525133+00:00",
   "indicators": {
-    "change24h": 0.066,
-    "vol": 0.238,
+    "change24h": 0.069,
+    "vol": 0.249,
     "fearGreed": 9,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3914,
-    "global_sentiment": 0.5011,
-    "combined_sentiment": 0.4186,
-    "confidence": 0.7654,
+    "crypto_sentiment": 0.4037,
+    "global_sentiment": 0.4408,
+    "combined_sentiment": 0.4228,
+    "confidence": 0.776,
     "counts": {
-      "crypto": 49,
-      "global": 34
+      "crypto": 64,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 68744,
-      "btc_change_24h": 4.72,
-      "eth_price": 2048.0,
-      "eth_change_24h": 6.73,
+      "btc_price": 68794,
+      "btc_change_24h": 5.27,
+      "eth_price": 2045.25,
+      "eth_change_24h": 6.57,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168848956110.6,
-        "high_activity_coins": 1
+        "volume_24h": 168448072840.6,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.05,
+        "btc_dominance": 58.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-30T20:00:41.585784+00:00",
-      "crypto": 0.31,
-      "global": 0.4365,
-      "combined": 0.3522,
-      "counts": {
-        "crypto": 68,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-01-30T20:38:39.150373+00:00",
       "crypto": 0.3249,
@@ -1008,22 +998,32 @@
         "crypto": 49,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-02-13T20:49:14.525133+00:00",
+      "crypto": 0.4037,
+      "global": 0.4408,
+      "combined": 0.4228,
+      "counts": {
+        "crypto": 64,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "6 Things To Do With Your Money Right Now After Dow Hit 50K",
-        "url": "https://finance.yahoo.com/news/6-things-money-now-dow-173405007.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5828,
-        "score": 1.0
+        "title": "Price predictions 2/13: BTC, ETH, BNB, XRP, SOL, DOGE, BCH, HYPE, ADA, XMR",
+        "url": "https://cointelegraph.com/news/price-predictions-2-13-btc-eth-bnb-xrp-sol-doge-bch-hype-ada-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9251,
+        "score": 0.5333
       },
       {
         "title": "The Goldman Lawyer With an Epstein Problem",
         "url": "https://www.bloomberg.com/news/videos/2026-02-13/opinion-the-goldman-lawyer-s-epstein-problem-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7714,
+        "weight": 0.7273,
         "score": 0.6667
       },
       {
@@ -1039,30 +1039,35 @@
         "title": "If the CFTC “only does Bitcoin,” why did it just invite crypto’s biggest CEOs into the room?",
         "url": "https://cryptoslate.com/cftc-chair-forms-a-new-innovation-advisory-committee-packed-with-crypto-exchange-and-prediction-market-ceos/",
         "source": "CryptoSlate",
-        "weight": 0.6511,
+        "weight": 0.6139,
         "score": -1.0
+      },
+      {
+        "title": "Clarity Act Passage Would 'Comfort' Markets Amid Bitcoin Volatility: Treasury Secretary Bessent",
+        "url": "https://decrypt.co/358067/clarity-act-passage-comfort-markets-bitcoin-volatility-bessent",
+        "source": "Decrypt",
+        "weight": 0.8181,
+        "score": -0.6333
       },
       {
         "title": "$3.85 Million in Ethereum From Mixin Network Hack Sent to Tornado Cash",
         "url": "https://decrypt.co/358032/3-million-ethereum-mixin-network-hack-tornado-cash",
         "source": "Decrypt",
-        "weight": 0.6395,
+        "weight": 0.6029,
         "score": -0.8333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Rise Friday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-rise-friday-192029877.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7152,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3941110674003736,
-          "price_change_24h": 0.01632
+          "volume_mcap_ratio": 0.3940550230322852,
+          "price_change_24h": 0.01572
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3242055530992726,
+          "price_change_24h": 0.04137
         }
       ],
       "momentum_shifts": []
