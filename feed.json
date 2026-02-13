@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-13T08:53:54.911398+00:00",
+  "updated_at": "2026-02-13T13:17:19.062425+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.089,
+    "change24h": -0.02,
+    "vol": 0.099,
     "fearGreed": 9,
-    "momentum": -0.113,
-    "regime": "sideways",
+    "momentum": -0.344,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3398,
-    "global_sentiment": 0.4262,
-    "combined_sentiment": 0.3737,
-    "confidence": 0.688,
+    "crypto_sentiment": 0.29,
+    "global_sentiment": 0.4559,
+    "combined_sentiment": 0.3388,
+    "confidence": 0.7315,
     "counts": {
-      "crypto": 61,
-      "global": 37
+      "crypto": 49,
+      "global": 52
     },
     "market_indicators": {
-      "btc_price": 66584,
-      "btc_change_24h": -0.66,
-      "eth_price": 1957.36,
-      "eth_change_24h": -0.31,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 66960,
+      "btc_change_24h": -1.27,
+      "eth_price": 1957.5,
+      "eth_change_24h": -1.32,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173623832950.6,
+        "volume_24h": 159046182372.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.88,
+        "btc_dominance": 58.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-30T08:51:12.470376+00:00",
-      "crypto": 0.3246,
-      "global": 0.4998,
-      "combined": 0.3684,
-      "counts": {
-        "crypto": 67,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-01-30T13:11:55.595193+00:00",
       "crypto": 0.3006,
@@ -1008,66 +998,76 @@
         "crypto": 61,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-02-13T13:17:19.062425+00:00",
+      "crypto": 0.29,
+      "global": 0.4559,
+      "combined": 0.3388,
+      "counts": {
+        "crypto": 49,
+        "global": 52
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "India Greenlights 40 Billion Upgrade to Its Air Defense",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-13/india-greenlights-40-billion-dollars-upgrade-to-its-air-defense",
-        "source": "Bloomberg Markets",
-        "weight": 0.5975,
-        "score": 0.9167
+        "title": "High Growth Tech Stocks To Watch In The US Market",
+        "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-watch-113832381.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6614,
+        "score": 1.0
       },
       {
-        "title": "Asia stock markets track losses on Wall Street as AI fears hit sentiment",
-        "url": "https://www.cnbc.com/2026/02/13/asia-markets-live-today-friday-nikkei-kospi-hang-seng-ai-fears.html",
-        "source": "CNBC Markets",
-        "weight": 0.7333,
-        "score": 0.6667
+        "title": "Insider Ownership Drives These 3 Prominent Growth Companies",
+        "url": "https://finance.yahoo.com/news/insider-ownership-drives-3-prominent-113559133.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6582,
+        "score": 1.0
       },
       {
-        "title": "HKEX Weighs Expanding Private IPO Filings to Boost Listings",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-13/hkex-mulls-expanding-confidential-ipo-filings-to-boost-listings",
+        "title": "Hong Kong Regulator Urges IPO Auditors to Safeguard Quality",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-13/hong-kong-regulator-urges-ipo-auditors-to-safeguard-quality",
         "source": "Bloomberg Markets",
-        "weight": 0.6336,
-        "score": 0.6333
+        "weight": 0.7313,
+        "score": 0.8333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
-        "url": "https://cointelegraph.com/news/bitcoin-open-interest-hits-lows-not-seen-since-2024-is-tradfi-abandoning-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5326,
+        "title": "Software sell-off is a 'generational' buying opportunity: Dan Ives",
+        "url": "https://finance.yahoo.com/video/software-sell-off-generational-buying-130059987.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7752,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 9 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Stock Market Today: Dow Falls Ahead Of CPI Inflation Report; DraftKings Plunges On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/b8c56085-66da-3c0e-b403-2b57226b99c8/stock-market-today%3A-dow-falls.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7744,
+        "score": -0.9667
       },
       {
-        "title": "Chinese Stocks Can't Wait for Holiday Break, Except Zhipu | The China Show 2/13/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-13/the-china-show-2-13-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6603,
-        "score": -0.6333
+        "title": "Are Leveraged ETFs Right for Your Portfolio? QLD's Tech Bet vs. SSO's Higher Dividend.",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/13/are-leveraged-etfs-right-for-your-portfolio-qld-s-tech-bet-vs-sso-s-higher-dividend/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7297,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40925861428998905,
-          "price_change_24h": 0.00698
+          "volume_mcap_ratio": 0.3917507593380666,
+          "price_change_24h": -0.03014
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3050480284676989,
-          "price_change_24h": -0.01732
+          "volume_mcap_ratio": 0.3259146636372924,
+          "price_change_24h": -0.07592
         }
       ],
       "momentum_shifts": []
