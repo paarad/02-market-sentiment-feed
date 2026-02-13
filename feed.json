@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-13T16:57:19.061260+00:00",
+  "updated_at": "2026-02-13T20:18:38.601166+00:00",
   "indicators": {
-    "change24h": 0.076,
-    "vol": 0.228,
+    "change24h": 0.066,
+    "vol": 0.238,
     "fearGreed": 9,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3897,
-    "global_sentiment": 0.3811,
-    "combined_sentiment": 0.4074,
-    "confidence": 0.76,
+    "crypto_sentiment": 0.3914,
+    "global_sentiment": 0.5011,
+    "combined_sentiment": 0.4186,
+    "confidence": 0.7654,
     "counts": {
       "crypto": 49,
-      "global": 41
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 69110,
-      "btc_change_24h": 5.33,
-      "eth_price": 2067.44,
-      "eth_change_24h": 8.41,
+      "btc_price": 68744,
+      "btc_change_24h": 4.72,
+      "eth_price": 2048.0,
+      "eth_change_24h": 6.73,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 177955247513.6,
-        "high_activity_coins": 2
+        "volume_24h": 168848956110.6,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.08,
+        "btc_dominance": 58.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-30T16:49:47.615159+00:00",
-      "crypto": 0.3065,
-      "global": 0.4631,
-      "combined": 0.3518,
-      "counts": {
-        "crypto": 60,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-30T20:00:41.585784+00:00",
       "crypto": 0.31,
@@ -1008,52 +998,62 @@
         "crypto": 49,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-13T20:18:38.601166+00:00",
+      "crypto": 0.3914,
+      "global": 0.5011,
+      "combined": 0.4186,
+      "counts": {
+        "crypto": 49,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Wall Street analysts slash Coinbase price targets after Q4 miss — but shares rally",
-        "url": "https://www.coindesk.com/markets/2026/02/13/wall-street-analysts-slash-coinbase-price-targets-after-q4-miss-but-shares-still-rally",
-        "source": "CoinDesk",
-        "weight": 0.9355,
-        "score": 0.5333
+        "title": "6 Things To Do With Your Money Right Now After Dow Hit 50K",
+        "url": "https://finance.yahoo.com/news/6-things-money-now-dow-173405007.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5828,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 4.6% — rally",
+        "title": "The Goldman Lawyer With an Epstein Problem",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-13/opinion-the-goldman-lawyer-s-epstein-problem-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7714,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 4.5% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Apple CEO Tim Cook Says Company Doesn't Usually Look Back, But Will Celebrate 50th Anniversary: 'I Promise'",
-        "url": "https://finance.yahoo.com/news/apple-ceo-tim-cook-says-143103615.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6036,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "From software to real estate, U.S. sectors under the grip of AI scare trade",
-        "url": "https://finance.yahoo.com/news/software-real-estate-u-sectors-154417223.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6951,
+        "title": "If the CFTC “only does Bitcoin,” why did it just invite crypto’s biggest CEOs into the room?",
+        "url": "https://cryptoslate.com/cftc-chair-forms-a-new-innovation-advisory-committee-packed-with-crypto-exchange-and-prediction-market-ceos/",
+        "source": "CryptoSlate",
+        "weight": 0.6511,
         "score": -1.0
       },
       {
-        "title": "State-Sponsored Hackers Using Popular AI Tools Including Gemini, Google Warns",
-        "url": "https://decrypt.co/358028/state-sponsored-hackers-using-popular-ai-tools-including-gemini-google-warns",
+        "title": "$3.85 Million in Ethereum From Mixin Network Hack Sent to Tornado Cash",
+        "url": "https://decrypt.co/358032/3-million-ethereum-mixin-network-hack-tornado-cash",
         "source": "Decrypt",
-        "weight": 0.8317,
-        "score": -0.7333
+        "weight": 0.6395,
+        "score": -0.8333
       },
       {
-        "title": "Connecticut Man Faces 375 Years for Gambling Away Crypto Investors' Funds on Stake",
-        "url": "https://decrypt.co/358036/connecticut-man-faces-375-years-gambling-crypto-investors-funds-stake",
-        "source": "Decrypt",
-        "weight": 0.8258,
+        "title": "Sector Update: Energy Stocks Rise Friday Afternoon",
+        "url": "https://finance.yahoo.com/news/sector-energy-stocks-rise-friday-192029877.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7152,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4147047860028907,
-          "price_change_24h": 0.00538
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.34872363060337325,
-          "price_change_24h": -0.04643
+          "volume_mcap_ratio": 0.3941110674003736,
+          "price_change_24h": 0.01632
         }
       ],
       "momentum_shifts": []
