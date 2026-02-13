@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-13T02:52:46.956721+00:00",
+  "updated_at": "2026-02-13T05:23:50.937826+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.087,
+    "change24h": -0.015,
+    "vol": 0.104,
     "fearGreed": 9,
-    "momentum": -0.223,
+    "momentum": -0.257,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3761,
-    "global_sentiment": 0.4529,
-    "combined_sentiment": 0.4031,
-    "confidence": 0.7318,
+    "crypto_sentiment": 0.3408,
+    "global_sentiment": 0.4083,
+    "combined_sentiment": 0.373,
+    "confidence": 0.7598,
     "counts": {
-      "crypto": 45,
-      "global": 44
+      "crypto": 63,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 66585,
-      "btc_change_24h": -1.39,
-      "eth_price": 1945.83,
-      "eth_change_24h": -0.74,
+      "btc_price": 66309,
+      "btc_change_24h": -0.73,
+      "eth_price": 1939.07,
+      "eth_change_24h": -1.09,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166014332412.6,
+        "volume_24h": 164125334826.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.91,
+        "btc_dominance": 57.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-30T02:39:54.277751+00:00",
-      "crypto": 0.3199,
-      "global": 0.4726,
-      "combined": 0.3627,
-      "counts": {
-        "crypto": 65,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-01-30T05:12:10.995678+00:00",
       "crypto": 0.334,
@@ -1008,66 +998,76 @@
         "crypto": 45,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-13T05:23:50.937826+00:00",
+      "crypto": 0.3408,
+      "global": 0.4083,
+      "combined": 0.373,
+      "counts": {
+        "crypto": 63,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Yuan Poised to Extend Surge Against Indian Rupee, Analysts Say",
+        "title": "Yuan Set to Extend Surge Against Indian Rupee, Analysts Say",
         "url": "https://www.bloomberg.com/news/articles/2026-02-13/yuan-poised-to-extend-surge-against-indian-rupee-analysts-say",
         "source": "Bloomberg Markets",
-        "weight": 0.6821,
-        "score": 0.8667
+        "weight": 0.51,
+        "score": 1.0
+      },
+      {
+        "title": "Crypto use in human trafficking networks surged in 2025: Chainalysis",
+        "url": "https://cointelegraph.com/news/crypto-use-in-human-trafficking-networks-surged-in-2025-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7963,
+        "score": 0.5333
       },
       {
         "title": "Asia stock markets track losses on Wall Street as AI fears hit sentiment",
         "url": "https://www.cnbc.com/2026/02/13/asia-markets-live-today-friday-nikkei-kospi-hang-seng-ai-fears.html",
         "source": "CNBC Markets",
-        "weight": 0.7918,
+        "weight": 0.6169,
         "score": 0.6667
-      },
-      {
-        "title": "Aptos-incubated Decibel to launch protocol-native stablecoin ahead of mainnet",
-        "url": "https://cointelegraph.com/news/aptos-incubated-decibel-to-launch-protocol-native-stablecoin-via-stripe-owned-bridge-ahead-of-mainnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4479,
-        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "Oil Set for Weekly Loss as Iran Concerns Ebb, Wider Markets Drop",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-12/latest-oil-market-news-and-analysis-for-feb-13",
-        "source": "Bloomberg Markets",
-        "weight": 0.5436,
+        "title": "Bitcoin open interest hits lows not seen since 2024: Is TradFi abandoning BTC?",
+        "url": "https://cointelegraph.com/news/bitcoin-open-interest-hits-lows-not-seen-since-2024-is-tradfi-abandoning-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7981,
         "score": -1.0
       },
       {
-        "title": "Wall Street sinks as tech rout deepens on AI angst",
-        "url": "https://finance.yahoo.com/video/wall-street-sinks-tech-rout-233234830.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5441,
-        "score": -0.9667
+        "title": "Copper Rebounds From Selloff as Trade Slows Into China’s Break",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-13/copper-rebounds-from-selloff-as-trade-slows-into-china-s-break",
+        "source": "Bloomberg Markets",
+        "weight": 0.6486,
+        "score": -1.0
       },
       {
-        "title": "China Used-Home Prices Fall at Slower Pace in Relief to Market",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-13/china-used-home-prices-fall-at-slower-pace-in-relief-to-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.6966,
-        "score": -0.6333
+        "title": "Bitcoin loses $2.3B in biggest crash since 2021 as capitulation intensifies: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-suffers-losses-rivaling-2021-crash-as-capitulation-continues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6418,
+        "score": -0.8
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4097130325943386,
-          "price_change_24h": -0.01582
+          "volume_mcap_ratio": 0.4091788967719498,
+          "price_change_24h": -0.00483
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3259429461699549,
-          "price_change_24h": 0.0034
+          "volume_mcap_ratio": 0.3215817136212069,
+          "price_change_24h": 0.03576
         }
       ],
       "momentum_shifts": []
