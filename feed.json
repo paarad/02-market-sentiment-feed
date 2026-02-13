@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-13T13:17:19.062425+00:00",
+  "updated_at": "2026-02-13T16:57:19.061260+00:00",
   "indicators": {
-    "change24h": -0.02,
-    "vol": 0.099,
+    "change24h": 0.076,
+    "vol": 0.228,
     "fearGreed": 9,
-    "momentum": -0.344,
-    "regime": "bear",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.29,
-    "global_sentiment": 0.4559,
-    "combined_sentiment": 0.3388,
-    "confidence": 0.7315,
+    "crypto_sentiment": 0.3897,
+    "global_sentiment": 0.3811,
+    "combined_sentiment": 0.4074,
+    "confidence": 0.76,
     "counts": {
       "crypto": 49,
-      "global": 52
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 66960,
-      "btc_change_24h": -1.27,
-      "eth_price": 1957.5,
-      "eth_change_24h": -1.32,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 69110,
+      "btc_change_24h": 5.33,
+      "eth_price": 2067.44,
+      "eth_change_24h": 8.41,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 159046182372.6,
+        "volume_24h": 177955247513.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.05,
+        "btc_dominance": 58.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-30T13:11:55.595193+00:00",
-      "crypto": 0.3006,
-      "global": 0.6009,
-      "combined": 0.3589,
-      "counts": {
-        "crypto": 65,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-01-30T16:49:47.615159+00:00",
       "crypto": 0.3065,
@@ -1008,66 +998,76 @@
         "crypto": 49,
         "global": 52
       }
+    },
+    {
+      "ts": "2026-02-13T16:57:19.061260+00:00",
+      "crypto": 0.3897,
+      "global": 0.3811,
+      "combined": 0.4074,
+      "counts": {
+        "crypto": 49,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "High Growth Tech Stocks To Watch In The US Market",
-        "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-watch-113832381.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6614,
-        "score": 1.0
+        "title": "Wall Street analysts slash Coinbase price targets after Q4 miss — but shares rally",
+        "url": "https://www.coindesk.com/markets/2026/02/13/wall-street-analysts-slash-coinbase-price-targets-after-q4-miss-but-shares-still-rally",
+        "source": "CoinDesk",
+        "weight": 0.9355,
+        "score": 0.5333
       },
       {
-        "title": "Insider Ownership Drives These 3 Prominent Growth Companies",
-        "url": "https://finance.yahoo.com/news/insider-ownership-drives-3-prominent-113559133.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6582,
-        "score": 1.0
+        "title": "Global crypto market cap up 4.6% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Hong Kong Regulator Urges IPO Auditors to Safeguard Quality",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-13/hong-kong-regulator-urges-ipo-auditors-to-safeguard-quality",
-        "source": "Bloomberg Markets",
-        "weight": 0.7313,
-        "score": 0.8333
+        "title": "Apple CEO Tim Cook Says Company Doesn't Usually Look Back, But Will Celebrate 50th Anniversary: 'I Promise'",
+        "url": "https://finance.yahoo.com/news/apple-ceo-tim-cook-says-143103615.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6036,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Software sell-off is a 'generational' buying opportunity: Dan Ives",
-        "url": "https://finance.yahoo.com/video/software-sell-off-generational-buying-130059987.html?.tsrc=rss",
+        "title": "From software to real estate, U.S. sectors under the grip of AI scare trade",
+        "url": "https://finance.yahoo.com/news/software-real-estate-u-sectors-154417223.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7752,
+        "weight": 0.6951,
         "score": -1.0
       },
       {
-        "title": "Stock Market Today: Dow Falls Ahead Of CPI Inflation Report; DraftKings Plunges On Earnings (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/b8c56085-66da-3c0e-b403-2b57226b99c8/stock-market-today%3A-dow-falls.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7744,
-        "score": -0.9667
+        "title": "State-Sponsored Hackers Using Popular AI Tools Including Gemini, Google Warns",
+        "url": "https://decrypt.co/358028/state-sponsored-hackers-using-popular-ai-tools-including-gemini-google-warns",
+        "source": "Decrypt",
+        "weight": 0.8317,
+        "score": -0.7333
       },
       {
-        "title": "Are Leveraged ETFs Right for Your Portfolio? QLD's Tech Bet vs. SSO's Higher Dividend.",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/13/are-leveraged-etfs-right-for-your-portfolio-qld-s-tech-bet-vs-sso-s-higher-dividend/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7297,
-        "score": -0.9667
+        "title": "Connecticut Man Faces 375 Years for Gambling Away Crypto Investors' Funds on Stake",
+        "url": "https://decrypt.co/358036/connecticut-man-faces-375-years-gambling-crypto-investors-funds-stake",
+        "source": "Decrypt",
+        "weight": 0.8258,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3917507593380666,
-          "price_change_24h": -0.03014
+          "volume_mcap_ratio": 0.4147047860028907,
+          "price_change_24h": 0.00538
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3259146636372924,
-          "price_change_24h": -0.07592
+          "volume_mcap_ratio": 0.34872363060337325,
+          "price_change_24h": -0.04643
         }
       ],
       "momentum_shifts": []
