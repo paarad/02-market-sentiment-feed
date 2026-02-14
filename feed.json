@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-14T13:04:41.940129+00:00",
+  "updated_at": "2026-02-14T16:39:24.070264+00:00",
   "indicators": {
-    "change24h": 0.078,
-    "vol": 0.182,
+    "change24h": 0.029,
+    "vol": 0.139,
     "fearGreed": 9,
-    "momentum": 1.0,
+    "momentum": 0.507,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4317,
-    "global_sentiment": 0.4646,
-    "combined_sentiment": 0.4458,
-    "confidence": 0.6362,
+    "crypto_sentiment": 0.4441,
+    "global_sentiment": 0.5291,
+    "combined_sentiment": 0.4605,
+    "confidence": 0.6495,
     "counts": {
-      "crypto": 63,
-      "global": 44
+      "crypto": 49,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 69498,
-      "btc_change_24h": 3.57,
-      "eth_price": 2067.31,
-      "eth_change_24h": 5.36,
+      "btc_price": 69514,
+      "btc_change_24h": 0.34,
+      "eth_price": 2075.36,
+      "eth_change_24h": 0.65,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
+      "regime_strength": 1.0,
       "market_breadth": 0.9,
       "fear_greed": {
         "value": 9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158228463876.6,
+        "volume_24h": 141236908940.6,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.01,
+        "btc_dominance": 57.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-31T13:03:10.755286+00:00",
-      "crypto": 0.3105,
-      "global": 0.3714,
-      "combined": 0.3471,
-      "counts": {
-        "crypto": 57,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-01-31T16:37:58.491572+00:00",
       "crypto": 0.3848,
@@ -1008,45 +998,48 @@
         "crypto": 63,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-14T16:39:24.070264+00:00",
+      "crypto": 0.4441,
+      "global": 0.5291,
+      "combined": 0.4605,
+      "counts": {
+        "crypto": 49,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ARK turns bullish on Coinbase again with $15M purchase after selling spree",
-        "url": "https://cointelegraph.com/news/ark-invest-buys-coinbase-15m-after-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5825,
-        "score": 0.8667
+        "title": "Turkish Broker With 2,400% Stock Surge Reports Huge Profit Jump",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-14/turkish-broker-with-2-400-stock-surge-reports-huge-profit-jump",
+        "source": "Bloomberg Markets",
+        "weight": 0.5844,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 3.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Invesco’s SPHQ ETF Smoked The S&P 500 With A Simple Screen",
-        "url": "https://247wallst.com/investing/2026/02/14/invescos-sphq-etf-smoked-the-sp-500-with-a-simple-screen/?.tsrc=rss",
+        "title": "Trump Brags His Tariffs Drove S&P 500, Dow To Record Highs, But New Report Says It Could Cost Households $1,300 More A Year",
+        "url": "https://finance.yahoo.com/news/trump-brags-tariffs-drove-p-163130739.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6752,
-        "score": 0.3333
+        "weight": 0.7879,
+        "score": 0.6667
+      },
+      {
+        "title": "Is Trump’s Manufacturing Comeback Real?",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-14/is-trump-s-manufacturing-comeback-real-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6658,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Figure Technology suffers data breach, exposing personal customer details",
-        "url": "https://cointelegraph.com/news/figure-technology-data-breach-customer-details-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7897,
-        "score": -0.7333
-      },
-      {
-        "title": "U.S. and European interests are 'intertwined', Rubio says",
-        "url": "https://www.cnbc.com/2026/02/14/us-and-european-interests-are-intertwined-rubio-says.html",
-        "source": "CNBC Markets",
-        "weight": 0.7635,
+        "title": "VXUS Offers Broader Global Exposure Than IEFA",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/14/vxus-offers-broader-global-exposure-than-iefa/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6774,
         "score": -0.6333
       },
       {
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Starmer Speaks at MSC, on Independence From the US",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-14/starmer-speaks-at-msc-on-independence-from-the-us-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6638,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38504347317370746,
-          "price_change_24h": 0.02968
+          "volume_mcap_ratio": 0.3535098142534022,
+          "price_change_24h": 0.01155
         }
       ],
       "momentum_shifts": []
