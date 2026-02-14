@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-14T02:40:39.448811+00:00",
+  "updated_at": "2026-02-14T05:11:58.342190+00:00",
   "indicators": {
-    "change24h": 0.067,
-    "vol": 0.202,
+    "change24h": 0.072,
+    "vol": 0.19,
     "fearGreed": 9,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4142,
-    "global_sentiment": 0.3508,
-    "combined_sentiment": 0.4233,
-    "confidence": 0.7083,
+    "crypto_sentiment": 0.4196,
+    "global_sentiment": 0.3677,
+    "combined_sentiment": 0.4287,
+    "confidence": 0.6662,
     "counts": {
-      "crypto": 50,
-      "global": 36
+      "crypto": 49,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 68864,
-      "btc_change_24h": 3.48,
-      "eth_price": 2049.72,
-      "eth_change_24h": 5.37,
+      "btc_price": 68784,
+      "btc_change_24h": 3.85,
+      "eth_price": 2050.68,
+      "eth_change_24h": 5.78,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.95,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 150740610623.6,
+        "volume_24h": 153761994618.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.99,
+        "btc_dominance": 57.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-31T02:34:47.386931+00:00",
-      "crypto": 0.3544,
-      "global": 0.4024,
-      "combined": 0.3827,
-      "counts": {
-        "crypto": 69,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-31T05:04:55.046418+00:00",
       "crypto": 0.3525,
@@ -1008,12 +998,22 @@
         "crypto": 50,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-02-14T05:11:58.342190+00:00",
+      "crypto": 0.4196,
+      "global": 0.3677,
+      "combined": 0.4287,
+      "counts": {
+        "crypto": 49,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 3.2% — rally",
+        "title": "Global crypto market cap up 3.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,15 +1023,15 @@
         "title": "Bitcoin spikes 6% on softer US inflation but the CPI record still has holes after the shutdown",
         "url": "https://cryptoslate.com/bitcoin-jumps-6-as-us-inflation-cools-in-january-but-missing-2025-data-obscures-the-full-picture/",
         "source": "CryptoSlate",
-        "weight": 0.4251,
+        "weight": 0.3176,
         "score": 1.0
       },
       {
-        "title": "Stock Market Today, Feb. 13: Pinterest Drops on Weak Revenue Outlook",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/13/stock-market-today-feb-13-pinterest-drops-on-weak-revenue-outlook/?.tsrc=rss",
+        "title": "Microsoft Is 'Worst-Performing' Hyperscaler Stock Since ChatGPT Launch, Chamath Palihapitiya Says",
+        "url": "https://finance.yahoo.com/news/microsoft-worst-performing-hyperscaler-stock-043118474.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4945,
-        "score": 0.6667
+        "weight": 0.7397,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,35 +1039,35 @@
         "title": "S&P 500 ends up slightly as tech dips, inflation cools",
         "url": "https://finance.yahoo.com/video/p-500-ends-slightly-tech-001645134.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6064,
+        "weight": 0.4531,
         "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 9 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "UBS' Mish on Private Credit AI Disruption Risk",
         "url": "https://www.bloomberg.com/news/videos/2026-02-13/ubs-mish-on-private-credit-ai-disruption-risk-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5478,
+        "weight": 0.4094,
         "score": -0.9667
-      },
-      {
-        "title": "Bitcoin Recovery Likely To Be 'Slow And Painful,' Analysts Warn: Watch This Key Level",
-        "url": "https://finance.yahoo.com/news/bitcoin-recovery-likely-slow-painful-233113604.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5555,
-        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37400237487287896,
-          "price_change_24h": 0.02401
+          "volume_mcap_ratio": 0.36255256462456426,
+          "price_change_24h": 0.04469
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3056505610513188,
-          "price_change_24h": -0.0024
+          "volume_mcap_ratio": 0.31091748708789163,
+          "price_change_24h": -0.02054
         }
       ],
       "momentum_shifts": []
