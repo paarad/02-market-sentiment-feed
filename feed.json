@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-14T08:41:44.908090+00:00",
+  "updated_at": "2026-02-14T13:04:41.940129+00:00",
   "indicators": {
-    "change24h": 0.075,
-    "vol": 0.19,
+    "change24h": 0.078,
+    "vol": 0.182,
     "fearGreed": 9,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4434,
-    "global_sentiment": 0.401,
-    "combined_sentiment": 0.4493,
-    "confidence": 0.6462,
+    "crypto_sentiment": 0.4317,
+    "global_sentiment": 0.4646,
+    "combined_sentiment": 0.4458,
+    "confidence": 0.6362,
     "counts": {
       "crypto": 63,
-      "global": 40
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 69633,
-      "btc_change_24h": 4.87,
-      "eth_price": 2076.03,
-      "eth_change_24h": 6.63,
+      "btc_price": 69498,
+      "btc_change_24h": 3.57,
+      "eth_price": 2067.31,
+      "eth_change_24h": 5.36,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 150292418080.6,
+        "volume_24h": 158228463876.6,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.1,
+        "btc_dominance": 58.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-31T08:39:19.456168+00:00",
-      "crypto": 0.2861,
-      "global": 0.3717,
-      "combined": 0.3289,
-      "counts": {
-        "crypto": 71,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-01-31T13:03:10.755286+00:00",
       "crypto": 0.3105,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-02-14T13:04:41.940129+00:00",
+      "crypto": 0.4317,
+      "global": 0.4646,
+      "combined": 0.4458,
+      "counts": {
+        "crypto": 63,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 4.2% — rally",
+        "title": "ARK turns bullish on Coinbase again with $15M purchase after selling spree",
+        "url": "https://cointelegraph.com/news/ark-invest-buys-coinbase-15m-after-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5825,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 3.5% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Trump Media files for two new crypto ETFs tied to Bitcoin, Ether, Cronos",
-        "url": "https://cointelegraph.com/news/trump-media-files-crypto-etfs-bitcoin-ether-cronos-sec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7212,
-        "score": 0.3333
-      },
-      {
-        "title": "Where Will Alphabet Be in 5 Years?",
-        "url": "https://www.fool.com/investing/2026/02/14/where-will-alphabet-be-in-5-years/?.tsrc=rss",
+        "title": "Invesco’s SPHQ ETF Smoked The S&P 500 With A Simple Screen",
+        "url": "https://247wallst.com/investing/2026/02/14/invescos-sphq-etf-smoked-the-sp-500-with-a-simple-screen/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7103,
+        "weight": 0.6752,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Figure Technology suffers data breach, exposing personal customer details",
+        "url": "https://cointelegraph.com/news/figure-technology-data-breach-customer-details-exposed?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7897,
+        "score": -0.7333
+      },
+      {
+        "title": "U.S. and European interests are 'intertwined', Rubio says",
+        "url": "https://www.cnbc.com/2026/02/14/us-and-european-interests-are-intertwined-rubio-says.html",
+        "source": "CNBC Markets",
+        "weight": 0.7635,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 9 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "S&P 500 ends up slightly as tech dips, inflation cools",
-        "url": "https://finance.yahoo.com/video/p-500-ends-slightly-tech-001645134.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3026,
-        "score": -1.0
-      },
-      {
-        "title": "UBS' Mish on Private Credit AI Disruption Risk",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-13/ubs-mish-on-private-credit-ai-disruption-risk-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.2733,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35859930225871783,
-          "price_change_24h": 0.03866
+          "volume_mcap_ratio": 0.38504347317370746,
+          "price_change_24h": 0.02968
         }
       ],
       "momentum_shifts": []
