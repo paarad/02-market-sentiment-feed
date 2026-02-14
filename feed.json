@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-13T20:49:14.525133+00:00",
+  "updated_at": "2026-02-14T02:40:39.448811+00:00",
   "indicators": {
-    "change24h": 0.069,
-    "vol": 0.249,
+    "change24h": 0.067,
+    "vol": 0.202,
     "fearGreed": 9,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4037,
-    "global_sentiment": 0.4408,
-    "combined_sentiment": 0.4228,
-    "confidence": 0.776,
+    "crypto_sentiment": 0.4142,
+    "global_sentiment": 0.3508,
+    "combined_sentiment": 0.4233,
+    "confidence": 0.7083,
     "counts": {
-      "crypto": 64,
+      "crypto": 50,
       "global": 36
     },
     "market_indicators": {
-      "btc_price": 68794,
-      "btc_change_24h": 5.27,
-      "eth_price": 2045.25,
-      "eth_change_24h": 6.57,
+      "btc_price": 68864,
+      "btc_change_24h": 3.48,
+      "eth_price": 2049.72,
+      "eth_change_24h": 5.37,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168448072840.6,
+        "volume_24h": 150740610623.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.06,
+        "btc_dominance": 57.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-01-30T20:38:39.150373+00:00",
-      "crypto": 0.3249,
-      "global": 0.434,
-      "combined": 0.3632,
-      "counts": {
-        "crypto": 54,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-01-31T02:34:47.386931+00:00",
       "crypto": 0.3544,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-02-14T02:40:39.448811+00:00",
+      "crypto": 0.4142,
+      "global": 0.3508,
+      "combined": 0.4233,
+      "counts": {
+        "crypto": 50,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Price predictions 2/13: BTC, ETH, BNB, XRP, SOL, DOGE, BCH, HYPE, ADA, XMR",
-        "url": "https://cointelegraph.com/news/price-predictions-2-13-btc-eth-bnb-xrp-sol-doge-bch-hype-ada-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9251,
-        "score": 0.5333
-      },
-      {
-        "title": "The Goldman Lawyer With an Epstein Problem",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-13/opinion-the-goldman-lawyer-s-epstein-problem-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7273,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 4.5% — rally",
+        "title": "Global crypto market cap up 3.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Bitcoin spikes 6% on softer US inflation but the CPI record still has holes after the shutdown",
+        "url": "https://cryptoslate.com/bitcoin-jumps-6-as-us-inflation-cools-in-january-but-missing-2025-data-obscures-the-full-picture/",
+        "source": "CryptoSlate",
+        "weight": 0.4251,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today, Feb. 13: Pinterest Drops on Weak Revenue Outlook",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/13/stock-market-today-feb-13-pinterest-drops-on-weak-revenue-outlook/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4945,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "If the CFTC “only does Bitcoin,” why did it just invite crypto’s biggest CEOs into the room?",
-        "url": "https://cryptoslate.com/cftc-chair-forms-a-new-innovation-advisory-committee-packed-with-crypto-exchange-and-prediction-market-ceos/",
-        "source": "CryptoSlate",
-        "weight": 0.6139,
+        "title": "S&P 500 ends up slightly as tech dips, inflation cools",
+        "url": "https://finance.yahoo.com/video/p-500-ends-slightly-tech-001645134.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6064,
         "score": -1.0
       },
       {
-        "title": "Clarity Act Passage Would 'Comfort' Markets Amid Bitcoin Volatility: Treasury Secretary Bessent",
-        "url": "https://decrypt.co/358067/clarity-act-passage-comfort-markets-bitcoin-volatility-bessent",
-        "source": "Decrypt",
-        "weight": 0.8181,
-        "score": -0.6333
+        "title": "UBS' Mish on Private Credit AI Disruption Risk",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-13/ubs-mish-on-private-credit-ai-disruption-risk-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5478,
+        "score": -0.9667
       },
       {
-        "title": "$3.85 Million in Ethereum From Mixin Network Hack Sent to Tornado Cash",
-        "url": "https://decrypt.co/358032/3-million-ethereum-mixin-network-hack-tornado-cash",
-        "source": "Decrypt",
-        "weight": 0.6029,
-        "score": -0.8333
+        "title": "Bitcoin Recovery Likely To Be 'Slow And Painful,' Analysts Warn: Watch This Key Level",
+        "url": "https://finance.yahoo.com/news/bitcoin-recovery-likely-slow-painful-233113604.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5555,
+        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3940550230322852,
-          "price_change_24h": 0.01572
+          "volume_mcap_ratio": 0.37400237487287896,
+          "price_change_24h": 0.02401
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3242055530992726,
-          "price_change_24h": 0.04137
+          "volume_mcap_ratio": 0.3056505610513188,
+          "price_change_24h": -0.0024
         }
       ],
       "momentum_shifts": []
