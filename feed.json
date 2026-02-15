@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-15T02:54:07.351945+00:00",
+  "updated_at": "2026-02-15T05:21:52.177822+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.287,
+    "change24h": 0.046,
+    "vol": 0.35,
     "fearGreed": 8,
-    "momentum": 0.664,
+    "momentum": 0.8,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5619,
-    "global_sentiment": 0.2773,
-    "combined_sentiment": 0.5278,
-    "confidence": 0.5772,
+    "crypto_sentiment": 0.521,
+    "global_sentiment": 0.2807,
+    "combined_sentiment": 0.4975,
+    "confidence": 0.5665,
     "counts": {
-      "crypto": 48,
-      "global": 43
+      "crypto": 49,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 69471,
-      "btc_change_24h": 0.91,
-      "eth_price": 2061.17,
-      "eth_change_24h": 0.61,
+      "btc_price": 70406,
+      "btc_change_24h": 2.24,
+      "eth_price": 2089.64,
+      "eth_change_24h": 1.74,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 147404528742.0,
+        "volume_24h": 165255799675.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.74,
+        "btc_dominance": 57.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-01T03:17:01.992334+00:00",
-      "crypto": 0.2366,
-      "global": 0.4513,
-      "combined": 0.2984,
-      "counts": {
-        "crypto": 63,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-02-01T05:24:21.936926+00:00",
       "crypto": 0.2091,
@@ -1008,12 +998,22 @@
         "crypto": 48,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-02-15T05:21:52.177822+00:00",
+      "crypto": 0.521,
+      "global": 0.2807,
+      "combined": 0.4975,
+      "counts": {
+        "crypto": 49,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.3% — rally",
+        "title": "Global crypto market cap up 2.7% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,51 +1023,51 @@
         "title": "China’s Stock Bull Run Falters With Earnings Set to Underwhelm",
         "url": "https://www.bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm",
         "source": "Bloomberg Markets",
-        "weight": 0.5721,
+        "weight": 0.4305,
         "score": 0.5333
       },
       {
         "title": "Can Meme Coins Power a Senate Bid? Virginia’s Mark Moran Says Yes",
         "url": "https://decrypt.co/358070/can-meme-coins-power-senate-bid-virginia-mark-moran-says-yes",
         "source": "Decrypt",
-        "weight": 0.3127,
+        "weight": 0.2353,
         "score": 0.8667
       }
     ],
     "negative": [
-      {
-        "title": "Better International ETF: iShares' IEFA vs. Schwab's SCHE",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/14/better-international-etf-ishares-iefa-vs-schwab-s-sche/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5821,
-        "score": -0.9667
-      },
-      {
-        "title": "Better International ETF: Vanguard's VXUS vs. iShares' EEM",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/14/better-international-etf-vanguard-s-vxus-vs-ishares-eem/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7402,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 8 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Better International ETF: iShares' IEFA vs. Schwab's SCHE",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/14/better-international-etf-ishares-iefa-vs-schwab-s-sche/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.438,
+        "score": -0.9667
+      },
+      {
+        "title": "Better International ETF: Vanguard's VXUS vs. iShares' EEM",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/14/better-international-etf-vanguard-s-vxus-vs-ishares-eem/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5569,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.48020101748889643,
-          "price_change_24h": 27.16956
+          "volume_mcap_ratio": 0.5405369592701927,
+          "price_change_24h": 30.25684
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3629555310864899,
-          "price_change_24h": 0.01084
+          "volume_mcap_ratio": 0.41431100992734815,
+          "price_change_24h": 0.01274
         }
       ],
       "momentum_shifts": []
