@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-15T08:42:17.340159+00:00",
+  "updated_at": "2026-02-15T13:06:27.445181+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.334,
+    "change24h": 0.001,
+    "vol": 0.185,
     "fearGreed": 8,
-    "momentum": 0.522,
-    "regime": "sideways",
+    "momentum": 0.013,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4236,
-    "global_sentiment": 0.3662,
-    "combined_sentiment": 0.4316,
-    "confidence": 0.5484,
+    "crypto_sentiment": 0.5404,
+    "global_sentiment": 0.3729,
+    "combined_sentiment": 0.5197,
+    "confidence": 0.5407,
     "counts": {
-      "crypto": 49,
-      "global": 41
+      "crypto": 64,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 70257,
-      "btc_change_24h": 0.91,
-      "eth_price": 2060.7,
-      "eth_change_24h": -0.74,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 69381,
+      "btc_change_24h": -0.09,
+      "eth_price": 2020.03,
+      "eth_change_24h": -2.23,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176957798611.6,
+        "volume_24h": 172666285053.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.85,
+        "btc_dominance": 57.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-01T08:40:58.213596+00:00",
-      "crypto": 0.2221,
-      "global": 0.4094,
-      "combined": 0.2841,
-      "counts": {
-        "crypto": 78,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-02-01T13:05:37.107005+00:00",
       "crypto": 0.2415,
@@ -1008,40 +998,43 @@
         "crypto": 49,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-15T13:06:27.445181+00:00",
+      "crypto": 0.5404,
+      "global": 0.3729,
+      "combined": 0.5197,
+      "counts": {
+        "crypto": 64,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Token Escrow on XRPL could force new XRP demand, but only if this adoption hurdle breaks",
+        "url": "https://cryptoslate.com/xrpls-token-escrow-targets-regulatory-friendly-blockchain-use/",
+        "source": "CryptoSlate",
+        "weight": 0.7221,
+        "score": 0.8
+      },
+      {
+        "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
+        "url": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat",
+        "source": "CoinDesk",
+        "weight": 0.8799,
         "score": 0.5333
       },
       {
-        "title": "Goldman Upgrades Forecast for 2026 China Current-Account Surplus",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-15/goldman-upgrades-forecast-for-2026-china-current-account-surplus",
+        "title": "AI Risk Is Dominating Conference Calls as Investors Dump Stocks",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-15/ai-risk-is-dominating-conference-calls-as-investors-dump-stocks",
         "source": "Bloomberg Markets",
-        "weight": 0.5228,
+        "weight": 0.5587,
         "score": 0.3333
-      },
-      {
-        "title": "China’s Stock Bull Run Falters With Earnings Set to Underwhelm",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-15/china-s-stock-bull-run-falters-with-earnings-set-to-underwhelm",
-        "source": "Bloomberg Markets",
-        "weight": 0.2927,
-        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Senators ask Bessent to probe $500M UAE stake in Trump-linked WLFI",
-        "url": "https://cointelegraph.com/news/senators-urge-cfius-probe-uae-stake-trump-linked-wlfi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6775,
-        "score": -0.9667
-      },
       {
         "title": "Fear & Greed 8 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,24 +1043,31 @@
         "score": -0.5333
       },
       {
-        "title": "Better International ETF: iShares' IEFA vs. Schwab's SCHE",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/14/better-international-etf-ishares-iefa-vs-schwab-s-sche/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2978,
+        "title": "Senators ask Bessent to probe $500M UAE stake in Trump-linked WLFI",
+        "url": "https://cointelegraph.com/news/senators-urge-cfius-probe-uae-stake-trump-linked-wlfi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4074,
         "score": -0.9667
+      },
+      {
+        "title": "Rich World’s Growing Civil Unrest Comes With an Insurance Sting",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting",
+        "source": "Bloomberg Markets",
+        "weight": 0.4977,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.5930867899532888,
-          "price_change_24h": 25.26026
+          "volume_mcap_ratio": 0.6486031952340815,
+          "price_change_24h": 17.43682
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4390381293295709,
-          "price_change_24h": 0.01251
+          "volume_mcap_ratio": 0.41909166672473513,
+          "price_change_24h": -0.00487
         }
       ],
       "momentum_shifts": []
