@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-15T13:06:27.445181+00:00",
+  "updated_at": "2026-02-15T16:39:26.016944+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.185,
+    "change24h": -0.017,
+    "vol": 0.137,
     "fearGreed": 8,
-    "momentum": 0.013,
+    "momentum": -0.305,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5404,
-    "global_sentiment": 0.3729,
-    "combined_sentiment": 0.5197,
-    "confidence": 0.5407,
+    "crypto_sentiment": 0.3689,
+    "global_sentiment": 0.401,
+    "combined_sentiment": 0.3934,
+    "confidence": 0.6392,
     "counts": {
-      "crypto": 64,
-      "global": 39
+      "crypto": 66,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 69381,
-      "btc_change_24h": -0.09,
-      "eth_price": 2020.03,
-      "eth_change_24h": -2.23,
+      "btc_price": 68935,
+      "btc_change_24h": -0.82,
+      "eth_price": 2002.46,
+      "eth_change_24h": -3.47,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172666285053.6,
+        "volume_24h": 168462710681.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.98,
+        "btc_dominance": 57.92,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-01T13:05:37.107005+00:00",
-      "crypto": 0.2415,
-      "global": 0.3181,
-      "combined": 0.291,
-      "counts": {
-        "crypto": 77,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-02-01T16:38:24.736716+00:00",
       "crypto": 0.282,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-15T16:39:26.016944+00:00",
+      "crypto": 0.3689,
+      "global": 0.401,
+      "combined": 0.3934,
+      "counts": {
+        "crypto": 66,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "The SPYT Income ETF Pays Monthly but Caps Your Gains When Markets Rally",
+        "url": "https://247wallst.com/investing/2026/02/15/the-spyt-income-etf-pays-monthly-but-caps-your-gains-when-markets-rally/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.525,
+        "score": 1.0
+      },
+      {
         "title": "Token Escrow on XRPL could force new XRP demand, but only if this adoption hurdle breaks",
         "url": "https://cryptoslate.com/xrpls-token-escrow-targets-regulatory-friendly-blockchain-use/",
         "source": "CryptoSlate",
-        "weight": 0.7221,
+        "weight": 0.4792,
         "score": 0.8
       },
       {
-        "title": "Wall Street remains bullish on bitcoin while offshore traders retreat",
-        "url": "https://www.coindesk.com/markets/2026/02/15/wall-street-remains-bullish-on-bitcoin-while-offshore-traders-retreat",
-        "source": "CoinDesk",
-        "weight": 0.8799,
+        "title": "Is SCHF the Right International ETF for a Diversified Portfolio?",
+        "url": "https://www.fool.com/investing/2026/02/15/is-schf-right-international-etf-for-diversified/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5942,
         "score": 0.5333
-      },
-      {
-        "title": "AI Risk Is Dominating Conference Calls as Investors Dump Stocks",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-15/ai-risk-is-dominating-conference-calls-as-investors-dump-stocks",
-        "source": "Bloomberg Markets",
-        "weight": 0.5587,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 8 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Senators ask Bessent to probe $500M UAE stake in Trump-linked WLFI",
-        "url": "https://cointelegraph.com/news/senators-urge-cfius-probe-uae-stake-trump-linked-wlfi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4074,
+        "title": "In bitcoin price plummet, ETF flows are down but aren't signaling 'crypto winter' investor panic",
+        "url": "https://www.cnbc.com/2026/02/15/bitcoin-price-crash-crypto-winter-investors-etf-flows.html",
+        "source": "CNBC Markets",
+        "weight": 0.6929,
         "score": -0.9667
       },
       {
-        "title": "Rich World’s Growing Civil Unrest Comes With an Insurance Sting",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting",
-        "source": "Bloomberg Markets",
-        "weight": 0.4977,
-        "score": -0.6667
+        "title": "XRP outruns bitcoin, ether after investors piled into the recent crash",
+        "url": "https://www.coindesk.com/markets/2026/02/15/xrp-is-outrunning-bitcoin-and-ether-after-investors-piled-into-the-recent-crash",
+        "source": "CoinDesk",
+        "weight": 0.8483,
+        "score": -0.6333
+      },
+      {
+        "title": "Study suggests WLFI could act as an ‘early warning signal’ in crypto",
+        "url": "https://cointelegraph.com/news/wlfi-early-warning-signal-crypto-amberdata-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5289,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.6486031952340815,
-          "price_change_24h": 17.43682
+          "volume_mcap_ratio": 0.617861425499337,
+          "price_change_24h": 6.9811
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41909166672473513,
-          "price_change_24h": -0.00487
+          "volume_mcap_ratio": 0.41479690786253376,
+          "price_change_24h": -0.00798
         }
       ],
       "momentum_shifts": []
