@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-15T20:35:33.225660+00:00",
+  "updated_at": "2026-02-16T02:49:30.697236+00:00",
   "indicators": {
-    "change24h": -0.054,
-    "vol": 0.143,
-    "fearGreed": 8,
-    "momentum": -0.949,
+    "change24h": -0.055,
+    "vol": 0.187,
+    "fearGreed": 12,
+    "momentum": -0.954,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2831,
-    "global_sentiment": 0.557,
-    "combined_sentiment": 0.3421,
-    "confidence": 0.621,
+    "crypto_sentiment": 0.3439,
+    "global_sentiment": 0.5399,
+    "combined_sentiment": 0.3862,
+    "confidence": 0.6139,
     "counts": {
-      "crypto": 51,
-      "global": 45
+      "crypto": 52,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 68446,
-      "btc_change_24h": -1.97,
-      "eth_price": 1951.13,
-      "eth_change_24h": -6.41,
+      "btc_price": 68376,
+      "btc_change_24h": -1.62,
+      "eth_price": 1956.78,
+      "eth_change_24h": -5.01,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.05,
       "fear_greed": {
-        "value": 8,
+        "value": 12,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 184880089507.6,
-        "high_activity_coins": 2
+        "volume_24h": 187515111416.6,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.09,
+        "btc_dominance": 58.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-01T20:35:34.118426+00:00",
-      "crypto": 0.2984,
-      "global": 0.5119,
-      "combined": 0.3498,
-      "counts": {
-        "crypto": 76,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-02-02T02:49:55.150666+00:00",
       "crypto": 0.2322,
@@ -1008,66 +998,81 @@
         "crypto": 51,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-02-16T02:49:30.697236+00:00",
+      "crypto": 0.3439,
+      "global": 0.5399,
+      "combined": 0.3862,
+      "counts": {
+        "crypto": 52,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "AirAsia Chief Says Brand Unit Is Nearing Nasdaq Backdoor Listing",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-16/airasia-chief-says-brand-unit-is-nearing-nasdaq-backdoor-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.7594,
+        "score": 0.6333
+      },
+      {
         "title": "Bond Traders Look to Jobs Data, Stocks for Gut Check on Rally",
         "url": "https://www.bloomberg.com/news/articles/2026-02-15/bond-traders-look-to-jobs-data-stocks-for-gut-check-on-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.7471,
+        "weight": 0.3636,
         "score": 0.8667
       },
       {
-        "title": "The Week in EV Stocks: Rivian Gains 19.8% While Tesla Lags Behind | RIVN, TSLA",
-        "url": "https://247wallst.com/investing/2026/02/15/the-week-in-ev-stocks-rivian-gains-19-8-while-tesla-lags-behind-rivn-tsla/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6745,
-        "score": 0.8
-      },
-      {
-        "title": "The SPYT Income ETF Pays Monthly but Caps Your Gains When Markets Rally",
-        "url": "https://247wallst.com/investing/2026/02/15/the-spyt-income-etf-pays-monthly-but-caps-your-gains-when-markets-rally/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3332,
-        "score": 1.0
+        "title": "OpenClaw creator Peter Steinberger joining OpenAI, Altman Says",
+        "url": "https://www.cnbc.com/2026/02/15/openclaw-creator-peter-steinberger-joining-openai-altman-says.html",
+        "source": "CNBC Markets",
+        "weight": 0.5734,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Michael Saylor signals another Bitcoin buy amid market rout",
-        "url": "https://cointelegraph.com/news/michael-saylor-signals-strategy-buy-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Solution worse than problem? Adam Back opposes BIP-110 Ordinals fix",
+        "url": "https://cointelegraph.com/news/adam-back-opposes-bip110-fixing-arbitrary-data-spam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6603,
-        "score": -0.9667
+        "weight": 0.7239,
+        "score": -0.6667
       },
       {
-        "title": "Fear & Greed 8 (Fear) — bearish",
+        "title": "A Family Fights to Keep Control of 157-Year-Old Firm in Japan",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-15/a-family-fights-to-keep-control-of-157-year-old-firm-in-japan",
+        "source": "Bloomberg Markets",
+        "weight": 0.5142,
+        "score": -0.9333
+      },
+      {
+        "title": "Fear & Greed 12 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "In bitcoin price plummet, ETF flows are down but aren't signaling 'crypto winter' investor panic",
-        "url": "https://www.cnbc.com/2026/02/15/bitcoin-price-crash-crypto-winter-investors-etf-flows.html",
-        "source": "CNBC Markets",
-        "weight": 0.4398,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "PEPE",
-          "volume_mcap_ratio": 0.5565386581367314,
-          "price_change_24h": -5.116
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.462092495424885,
+          "price_change_24h": -0.00162
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.46658214366192163,
-          "price_change_24h": -0.00251
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.4529168394771587,
+          "price_change_24h": -8.23859
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3453412711117391,
+          "price_change_24h": -0.05386
         }
       ],
       "momentum_shifts": []
