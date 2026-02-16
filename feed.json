@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-16T02:49:30.697236+00:00",
+  "updated_at": "2026-02-16T05:39:31.516895+00:00",
   "indicators": {
-    "change24h": -0.055,
-    "vol": 0.187,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 12,
-    "momentum": -0.954,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3439,
-    "global_sentiment": 0.5399,
-    "combined_sentiment": 0.3862,
-    "confidence": 0.6139,
+    "crypto_sentiment": 0.3694,
+    "global_sentiment": 0.4872,
+    "combined_sentiment": 0.4009,
+    "confidence": 0.6275,
     "counts": {
-      "crypto": 52,
-      "global": 40
+      "crypto": 65,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 68376,
-      "btc_change_24h": -1.62,
-      "eth_price": 1956.78,
-      "eth_change_24h": -5.01,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "btc_price": 68324,
+      "btc_change_24h": -2.89,
+      "eth_price": 1953.82,
+      "eth_change_24h": -6.61,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187515111416.6,
-        "high_activity_coins": 3
+        "volume_24h": 169947451877.6,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.05,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-02T02:49:55.150666+00:00",
-      "crypto": 0.2322,
-      "global": 0.4672,
-      "combined": 0.2964,
-      "counts": {
-        "crypto": 62,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-02-02T05:26:50.485661+00:00",
       "crypto": 0.2599,
@@ -1008,71 +998,76 @@
         "crypto": 52,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-02-16T05:39:31.516895+00:00",
+      "crypto": 0.3694,
+      "global": 0.4872,
+      "combined": 0.4009,
+      "counts": {
+        "crypto": 65,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AirAsia Chief Says Brand Unit Is Nearing Nasdaq Backdoor Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-16/airasia-chief-says-brand-unit-is-nearing-nasdaq-backdoor-listing",
+        "title": "Talabat CEO: Still the Leader in All of Our Markets",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-16/talabat-ceo-still-the-leader-in-all-of-our-markets-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7594,
-        "score": 0.6333
+        "weight": 0.6934,
+        "score": 0.6667
       },
       {
-        "title": "Bond Traders Look to Jobs Data, Stocks for Gut Check on Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-15/bond-traders-look-to-jobs-data-stocks-for-gut-check-on-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.3636,
-        "score": 0.8667
+        "title": "Bitcoin Leverage Heats Up as Traders Bet on Price Rebound",
+        "url": "https://decrypt.co/358134/bitcoin-leverage-heats-up-as-traders-bet-on-price-rebound",
+        "source": "Decrypt",
+        "weight": 0.735,
+        "score": 0.5333
       },
       {
-        "title": "OpenClaw creator Peter Steinberger joining OpenAI, Altman Says",
-        "url": "https://www.cnbc.com/2026/02/15/openclaw-creator-peter-steinberger-joining-openai-altman-says.html",
-        "source": "CNBC Markets",
-        "weight": 0.5734,
+        "title": "MiniMax Shares Surge 25% as Optimism Over Chinese AI Firms Grows",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-16/minimax-shares-surge-25-as-optimism-over-chinese-ai-firms-grows",
+        "source": "Bloomberg Markets",
+        "weight": 0.7026,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Solution worse than problem? Adam Back opposes BIP-110 Ordinals fix",
-        "url": "https://cointelegraph.com/news/adam-back-opposes-bip110-fixing-arbitrary-data-spam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7239,
+        "title": "Banker Who Helped Lead Saudi Debt Boom Will Now Drive FDI Push",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-16/banker-who-helped-lead-saudi-debt-boom-will-now-drive-fdi-push",
+        "source": "Bloomberg Markets",
+        "weight": 0.7552,
         "score": -0.6667
       },
       {
-        "title": "A Family Fights to Keep Control of 157-Year-Old Firm in Japan",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-15/a-family-fights-to-keep-control-of-157-year-old-firm-in-japan",
+        "title": "Trump’s New World Order Is Pushing Sweden to Warm Up to the Euro",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-16/sweden-is-warming-to-euro-adoption-thanks-to-trump-s-new-world-order",
         "source": "Bloomberg Markets",
-        "weight": 0.5142,
-        "score": -0.9333
+        "weight": 0.7415,
+        "score": -0.6667
       },
       {
-        "title": "Fear & Greed 12 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Strategy to equitize convertible debt over 3-6 years: Saylor",
+        "url": "https://cointelegraph.com/news/strategy-plans-equitize-convertible-debt-over-next-3-6-years-saylor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6796,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.462092495424885,
-          "price_change_24h": -0.00162
+          "volume_mcap_ratio": 0.42220244782705507,
+          "price_change_24h": -0.01981
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.4529168394771587,
-          "price_change_24h": -8.23859
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3453412711117391,
-          "price_change_24h": -0.05386
+          "volume_mcap_ratio": 0.3968831039470527,
+          "price_change_24h": -9.66363
         }
       ],
       "momentum_shifts": []
