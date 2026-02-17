@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-16T20:39:36.730023+00:00",
+  "updated_at": "2026-02-17T02:45:57.683663+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
-    "fearGreed": 12,
+    "fearGreed": 10,
     "momentum": 0.0,
     "regime": "unknown",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3442,
-    "global_sentiment": 0.4037,
-    "combined_sentiment": 0.3751,
-    "confidence": 0.7324,
+    "crypto_sentiment": 0.3505,
+    "global_sentiment": 0.5876,
+    "combined_sentiment": 0.3952,
+    "confidence": 0.6923,
     "counts": {
-      "crypto": 52,
-      "global": 41
+      "crypto": 54,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 68140,
-      "btc_change_24h": -0.47,
-      "eth_price": 1981.87,
-      "eth_change_24h": 1.58,
+      "btc_price": 68914,
+      "btc_change_24h": 0.69,
+      "eth_price": 2001.11,
+      "eth_change_24h": 2.29,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
       "fear_greed": {
-        "value": 12,
+        "value": 10,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 143996440924.6,
+        "volume_24h": 139681876778.6,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-03T05:17:31.399420+00:00",
-      "crypto": 0.3901,
-      "global": 0.5543,
-      "combined": 0.4221,
-      "counts": {
-        "crypto": 58,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-03T08:49:47.857831+00:00",
       "crypto": 0.428,
@@ -1008,66 +998,76 @@
         "crypto": 52,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-17T02:45:57.683663+00:00",
+      "crypto": 0.3505,
+      "global": 0.5876,
+      "combined": 0.3952,
+      "counts": {
+        "crypto": 54,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "International ETFs Have Outperformed U.S. Stocks -- but Is There More Upside Left?",
-        "url": "https://www.fool.com/investing/2026/02/16/international-etfs-outperformed-us-stocks-upside/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6863,
-        "score": 0.5333
-      },
-      {
-        "title": "Metaplanet operating profit to rise 81% in 2026 after soaring 17-fold last year on options writing",
-        "url": "https://www.coindesk.com/business/2026/02/16/metaplanet-operating-profit-to-rise-81-in-2026-after-soaring-17-fold-last-year-on-options-writing",
-        "source": "CoinDesk",
-        "weight": 0.3642,
+        "title": "BHP’s Bumper Copper Profits Offset China Drag on Iron Ore",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-16/bhp-profit-climbs-as-copper-surge-offsets-china-drag-on-iron-ore",
+        "source": "Bloomberg Markets",
+        "weight": 0.4478,
         "score": 1.0
       },
       {
-        "title": "Bitcoin weekly RSI echoes mid-2022 bear market as BTC plays liquidity games",
-        "url": "https://cointelegraph.com/news/bitcoin-weekly-rsi-echoes-mid-2022-bear-market-as-btc-plays-liquidity-games?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "ETH chart pattern projects rally to $2.5K if key conditions are met: Data",
+        "url": "https://cointelegraph.com/news/eth-chart-pattern-projects-rally-to-dollar2-5k-if-key-conditions-are-met-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7341,
-        "score": 0.3333
+        "weight": 0.5225,
+        "score": 0.7333
       }
     ],
     "negative": [
       {
-        "title": "Small Cap ETFs: VB Boasts Lower Fees, While ISCB Sports a Higher Dividend Yield",
-        "url": "https://www.fool.com/coverage/etfs/2026/02/16/small-cap-etfs-vb-boasts-lowest-fees-while-iscb-sports-a-higher-dividend-yield/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5484,
+        "title": "Logan Paul sells Pokémon card for $16.5M, years after fractional NFT row",
+        "url": "https://cointelegraph.com/news/logan-paul-sells-pokemon-card-record-16-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7393,
+        "score": -1.0
+      },
+      {
+        "title": "Coinbase diamond hands vs Binance panic sellers — the $60,000 stress test",
+        "url": "https://cryptoslate.com/coinbase-diamond-hands-vs-binance-panic-sellers-the-60000-stress-test/",
+        "source": "CryptoSlate",
+        "weight": 0.4905,
         "score": -0.9667
       },
       {
-        "title": "Bitcoin Falls 2.3% to $68,674 as Crypto Funds See Large Outflows",
-        "url": "https://247wallst.com/investing/2026/02/16/bitcoin-falls-2-3-to-68674-as-crypto-funds-see-large-outflows/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5297,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin has 6 weeks to avoid 2026 being the most bearish period in history – one price matters now",
-        "url": "https://cryptoslate.com/bitcoin-has-6-weeks-to-avoid-2026-being-the-most-bearish-period-in-history-one-price-matters-now/",
-        "source": "CryptoSlate",
-        "weight": 0.4969,
-        "score": -1.0
+        "title": "Fear & Greed 10 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34715134918689095,
-          "price_change_24h": 0.01492
+          "volume_mcap_ratio": 0.3406792267521228,
+          "price_change_24h": -0.0078
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3116910349053582,
-          "price_change_24h": -0.00563
+          "volume_mcap_ratio": 0.30710424087700566,
+          "price_change_24h": -0.00705
         }
       ],
       "momentum_shifts": []
