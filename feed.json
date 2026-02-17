@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-17T13:20:15.697284+00:00",
+  "updated_at": "2026-02-17T17:04:44.897765+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.01,
+    "vol": 0.073,
     "fearGreed": 10,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.18,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3919,
-    "global_sentiment": 0.4499,
-    "combined_sentiment": 0.4148,
-    "confidence": 0.7497,
+    "crypto_sentiment": 0.4007,
+    "global_sentiment": 0.4909,
+    "combined_sentiment": 0.4248,
+    "confidence": 0.8031,
     "counts": {
-      "crypto": 53,
-      "global": 44
+      "crypto": 66,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 67993,
-      "btc_change_24h": -2.34,
-      "eth_price": 1976.84,
-      "eth_change_24h": -1.57,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 67567,
+      "btc_change_24h": -0.39,
+      "eth_price": 1978.55,
+      "eth_change_24h": 0.34,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 129611393091.6,
+        "volume_24h": 142140960413.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.59,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-03T20:18:53.036522+00:00",
-      "crypto": 0.3966,
-      "global": 0.3501,
-      "combined": 0.41,
-      "counts": {
-        "crypto": 63,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-02-03T20:47:14.471765+00:00",
       "crypto": 0.3784,
@@ -1008,66 +998,76 @@
         "crypto": 53,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-17T17:04:44.897765+00:00",
+      "crypto": 0.4007,
+      "global": 0.4909,
+      "combined": 0.4248,
+      "counts": {
+        "crypto": 66,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 High Growth Companies With Strong Insider Ownership",
-        "url": "https://finance.yahoo.com/news/3-high-growth-companies-strong-113607634.html?.tsrc=rss",
+        "title": "Should You Hold Lamb Weston Holdings (LW)?",
+        "url": "https://finance.yahoo.com/news/hold-lamb-weston-holdings-lw-163728451.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6546,
+        "weight": 0.7591,
         "score": 1.0
       },
       {
-        "title": "Promising Penny Stocks To Consider In February 2026",
-        "url": "https://finance.yahoo.com/news/promising-penny-stocks-consider-february-120525885.html?.tsrc=rss",
+        "title": "Meridian Hedged Equity Fund Remains Confident in DraftKings’ (DKNG) Earnings Outlook",
+        "url": "https://finance.yahoo.com/news/meridian-hedged-equity-fund-remains-163529838.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6926,
-        "score": 0.6667
+        "weight": 0.7562,
+        "score": 1.0
       },
       {
-        "title": "Undervalued Small Caps With Insider Action In February 2026",
-        "url": "https://finance.yahoo.com/news/undervalued-small-caps-insider-action-113957308.html?.tsrc=rss",
+        "title": "Meridian Hedged Equity Fund Maintains Confidence in Vistra Corp. (VST)",
+        "url": "https://finance.yahoo.com/news/meridian-hedged-equity-fund-maintains-163205876.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6595,
-        "score": 0.6667
+        "weight": 0.7512,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Congressman Calls for Review of Overseas Support for Autonomous Vehicles",
-        "url": "https://decrypt.co/358267/congressman-overseas-support-autonomous-vehicles",
-        "source": "Decrypt",
-        "weight": 0.8191,
+        "title": "Software: Is the 'SaaS-pocalypse' overplayed amid tech's AI scare?",
+        "url": "https://finance.yahoo.com/video/software-saas-pocalypse-overplayed-amid-163000877.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7482,
         "score": -0.9667
       },
       {
-        "title": "Stock Futures Drop as Tech Selloff Gathers Pace",
-        "url": "https://finance.yahoo.com/m/6ccfa8af-c11e-3638-81af-48fa3b425582/stock-futures-drop-as-tech.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7836,
-        "score": -1.0
+        "title": "Wall Street’s New Game: Sports Investing",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-17/wall-street-s-new-game-sports-investing-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7221,
+        "score": -0.9667
       },
       {
-        "title": "Arcelor’s South Africa Assets Get Approach From Steel Processors",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-17/arcelor-s-south-africa-assets-get-approach-from-steel-processors",
-        "source": "Bloomberg Markets",
-        "weight": 0.6973,
-        "score": -0.9333
+        "title": "Universa’s Spitznagel Sees S&P Soaring to 8,000 Before Bust",
+        "url": "https://finance.yahoo.com/news/universa-spitznagel-sees-p-soaring-152508423.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6604,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5150574444560088,
-          "price_change_24h": 0.05206
+          "volume_mcap_ratio": 0.49931292904406965,
+          "price_change_24h": 0.03794
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3215744793566702,
-          "price_change_24h": -0.01483
+          "volume_mcap_ratio": 0.3367194774284451,
+          "price_change_24h": 0.00211
         }
       ],
       "momentum_shifts": []
