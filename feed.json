@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-17T02:45:57.683663+00:00",
+  "updated_at": "2026-02-17T05:24:17.802375+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3505,
-    "global_sentiment": 0.5876,
-    "combined_sentiment": 0.3952,
-    "confidence": 0.6923,
+    "crypto_sentiment": 0.3383,
+    "global_sentiment": 0.5596,
+    "combined_sentiment": 0.3837,
+    "confidence": 0.6468,
     "counts": {
-      "crypto": 54,
-      "global": 39
+      "crypto": 63,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 68914,
-      "btc_change_24h": 0.69,
-      "eth_price": 2001.11,
-      "eth_change_24h": 2.29,
+      "btc_price": 68171,
+      "btc_change_24h": -0.45,
+      "eth_price": 1975.93,
+      "eth_change_24h": 0.84,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139681876778.6,
-        "high_activity_coins": 2
+        "volume_24h": 137994726129.6,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-03T08:49:47.857831+00:00",
-      "crypto": 0.428,
-      "global": 0.5437,
-      "combined": 0.4496,
-      "counts": {
-        "crypto": 57,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-03T13:17:15.093531+00:00",
       "crypto": 0.4466,
@@ -1008,30 +998,40 @@
         "crypto": 54,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-17T05:24:17.802375+00:00",
+      "crypto": 0.3383,
+      "global": 0.5596,
+      "combined": 0.3837,
+      "counts": {
+        "crypto": 63,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BHP’s Bumper Copper Profits Offset China Drag on Iron Ore",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-16/bhp-profit-climbs-as-copper-surge-offsets-china-drag-on-iron-ore",
+        "title": "BHP Group CFO on Bumper Copper Profits, M&A Outlook",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-17/bhp-cfo-on-bumper-copper-profits-m-a-outlook-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4478,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "weight": 0.7765,
         "score": 0.5333
       },
       {
         "title": "ETH chart pattern projects rally to $2.5K if key conditions are met: Data",
         "url": "https://cointelegraph.com/news/eth-chart-pattern-projects-rally-to-dollar2-5k-if-key-conditions-are-met-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5225,
+        "weight": 0.3852,
         "score": 0.7333
+      },
+      {
+        "title": "Topshop Opens in John Lewis in Bid to Regain UK Clothing Appeal",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-17/topshop-opens-in-john-lewis-in-bid-to-regain-uk-clothing-appeal",
+        "source": "Bloomberg Markets",
+        "weight": 0.4293,
+        "score": 0.5833
       }
     ],
     "negative": [
@@ -1039,15 +1039,15 @@
         "title": "Logan Paul sells Pokémon card for $16.5M, years after fractional NFT row",
         "url": "https://cointelegraph.com/news/logan-paul-sells-pokemon-card-record-16-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7393,
+        "weight": 0.545,
         "score": -1.0
       },
       {
-        "title": "Coinbase diamond hands vs Binance panic sellers — the $60,000 stress test",
-        "url": "https://cryptoslate.com/coinbase-diamond-hands-vs-binance-panic-sellers-the-60000-stress-test/",
-        "source": "CryptoSlate",
-        "weight": 0.4905,
-        "score": -0.9667
+        "title": "Activist Elliott Builds Big Stake in Norwegian Cruise Line",
+        "url": "https://finance.yahoo.com/m/db275e07-195b-3ad7-80ec-eba5a92239c2/activist-elliott-builds-big.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5451,
+        "score": -0.9333
       },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3406792267521228,
-          "price_change_24h": -0.0078
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.30710424087700566,
-          "price_change_24h": -0.00705
+          "volume_mcap_ratio": 0.335138894194804,
+          "price_change_24h": -0.00351
         }
       ],
       "momentum_shifts": []
