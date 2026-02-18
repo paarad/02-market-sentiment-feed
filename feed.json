@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-18T05:25:41.092638+00:00",
+  "updated_at": "2026-02-18T08:55:47.227553+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.085,
+    "change24h": 0.012,
+    "vol": 0.073,
     "fearGreed": 8,
-    "momentum": 0.058,
+    "momentum": 0.204,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4314,
-    "global_sentiment": 0.4721,
-    "combined_sentiment": 0.4462,
-    "confidence": 0.7246,
+    "crypto_sentiment": 0.3345,
+    "global_sentiment": 0.4562,
+    "combined_sentiment": 0.3722,
+    "confidence": 0.7394,
     "counts": {
-      "crypto": 51,
-      "global": 36
+      "crypto": 64,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 67851,
-      "btc_change_24h": -0.22,
-      "eth_price": 1999.7,
-      "eth_change_24h": 1.0,
+      "btc_price": 68074,
+      "btc_change_24h": -0.08,
+      "eth_price": 2019.59,
+      "eth_change_24h": 2.25,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 141421890505.0,
+        "volume_24h": 144279764252.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.6,
+        "btc_dominance": 57.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-04T13:16:31.780639+00:00",
-      "crypto": 0.4067,
-      "global": 0.5313,
-      "combined": 0.4326,
-      "counts": {
-        "crypto": 63,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-04T16:58:36.511345+00:00",
       "crypto": 0.3928,
@@ -1008,66 +998,76 @@
         "crypto": 51,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-02-18T08:55:47.227553+00:00",
+      "crypto": 0.3345,
+      "global": 0.4562,
+      "combined": 0.3722,
+      "counts": {
+        "crypto": 64,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "BAE Signals Steady Earnings, Sales Growth After Record Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-18/bae-systems-signals-steady-earnings-growth-after-record-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.6969,
+        "score": 0.6667
+      },
+      {
+        "title": "LEO Pharma Positions for IPO This Year With Investor Meetings",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-18/leo-pharma-positions-for-ipo-this-year-with-investor-meetings",
+        "source": "Bloomberg Markets",
+        "weight": 0.7185,
+        "score": 0.6333
+      },
+      {
         "title": "CNBC's The China Connection newsletter: Businesses scramble to reach China's growing experiences economy",
         "url": "https://www.cnbc.com/2026/02/17/cnbcs-the-china-connection-newsletter-businesses-scramble-to-reach-chinas-growing-experiences-economy.html",
         "source": "CNBC Markets",
-        "weight": 0.7083,
-        "score": 0.5833
-      },
-      {
-        "title": "Walmart to Report Earnings Amid New CEO, $1T Market Cap",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-17/walmart-to-report-earnings-amid-new-ceo-1t-market-cap-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3996,
-        "score": 1.0
-      },
-      {
-        "title": "Nvidia is partnering with major Indian VC firms in search for the country's next AI start-ups",
-        "url": "https://www.cnbc.com/2026/02/18/nvidia-india-ai-vc-data-center-partners.html",
-        "source": "CNBC Markets",
-        "weight": 0.6716,
+        "weight": 0.4726,
         "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 8 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Bank of Canada Orders Payments Firm XTM to Stop as Millions Go Missing",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-17/bank-of-canada-orders-payments-firm-xtm-to-stop-as-millions-go-missing",
-        "source": "Bloomberg Markets",
-        "weight": 0.4179,
-        "score": -1.0
-      },
-      {
-        "title": "Why Bitcoin Open Interest Has Seen Its Largest Decline in Almost 3 Years",
-        "url": "https://decrypt.co/358273/bitcoin-open-interest-largest-decline-april-2023",
-        "source": "Decrypt",
-        "weight": 0.4301,
+        "title": "Peter Thiel’s Founders Fund dumps ETHZilla stake as ETH treasuries face pressure",
+        "url": "https://cointelegraph.com/news/peter-thiel-founders-fund-exits-ethzilla-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9451,
         "score": -0.9667
+      },
+      {
+        "title": "UK Inflation Falls to Lowest Level Since March 2025",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-18/uk-inflation-falls-to-lowest-level-since-march-2025-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7852,
+        "score": -0.8
+      },
+      {
+        "title": "Cheveley: Copper Being Dragged to US by Tariff Threats",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-18/cheveley-copper-being-dragged-to-us-by-tariff-threats-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5857,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5203451615084571,
-          "price_change_24h": 0.05452
+          "volume_mcap_ratio": 0.3656931775251244,
+          "price_change_24h": 0.05438
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3442504158196117,
-          "price_change_24h": -0.01056
+          "volume_mcap_ratio": 0.3416353343149221,
+          "price_change_24h": -0.00743
         }
       ],
       "momentum_shifts": []
