@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-17T20:47:47.416713+00:00",
+  "updated_at": "2026-02-18T02:48:58.972178+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.082,
-    "fearGreed": 10,
-    "momentum": 0.117,
-    "regime": "sideways",
+    "change24h": -0.018,
+    "vol": 0.133,
+    "fearGreed": 8,
+    "momentum": -0.314,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.377,
-    "global_sentiment": 0.3809,
-    "combined_sentiment": 0.3979,
-    "confidence": 0.7848,
+    "crypto_sentiment": 0.4438,
+    "global_sentiment": 0.4206,
+    "combined_sentiment": 0.4512,
+    "confidence": 0.7528,
     "counts": {
-      "crypto": 65,
-      "global": 42
+      "crypto": 66,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 67827,
-      "btc_change_24h": -0.53,
-      "eth_price": 1998.15,
-      "eth_change_24h": 0.78,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 67293,
+      "btc_change_24h": -2.37,
+      "eth_price": 1988.91,
+      "eth_change_24h": -0.66,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 10,
+        "value": 8,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 148161134418.0,
+        "volume_24h": 142926482270.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.61,
+        "btc_dominance": 57.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-04T05:12:38.921806+00:00",
-      "crypto": 0.3549,
-      "global": 0.4741,
-      "combined": 0.389,
-      "counts": {
-        "crypto": 64,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-02-04T08:53:41.206217+00:00",
       "crypto": 0.3924,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-02-18T02:48:58.972178+00:00",
+      "crypto": 0.4438,
+      "global": 0.4206,
+      "combined": 0.4512,
+      "counts": {
+        "crypto": 66,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Long-Term Care Provider Soars In Base, Approaches Buy Point",
-        "url": "https://finance.yahoo.com/m/a5f7aa53-6e5d-3ddd-8cc2-1fe8eb5db715/long-term-care-provider-soars.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7292,
-        "score": 0.8667
-      },
-      {
-        "title": "Stripe's stablecoin firm Bridge wins initial approval of national bank trust charter",
-        "url": "https://www.coindesk.com/business/2026/02/17/stripe-s-stablecoin-firm-bridge-wins-initial-approval-of-national-bank-trust-charter",
-        "source": "CoinDesk",
-        "weight": 0.9313,
-        "score": 0.5833
-      },
-      {
-        "title": "Consumer Pressures General Mills Amid Price Cuts",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-17/consumer-pressures-general-mills-amid-price-cuts-video",
+        "title": "Walmart to Report Earnings Amid New CEO, $1T Market Cap",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-17/walmart-to-report-earnings-amid-new-ceo-1t-market-cap-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5311,
+        "weight": 0.5403,
+        "score": 1.0
+      },
+      {
+        "title": "Ether bulls target $2.5K as staking ETF launch, RWA market cap reflect growth",
+        "url": "https://cointelegraph.com/news/ether-bulls-target-2-5k-as-staking-etf-launch-rwa-market-cap-reflect-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5241,
+        "score": 1.0
+      },
+      {
+        "title": "HIVE Digital posts 219% revenue jump as miner-AI hybrid strategy gains traction",
+        "url": "https://cointelegraph.com/news/hive-revenue-surge-artificial-intelligence-expansion-bitcoin-mining-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4207,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "JPMorgan Flags 'AI-Resilient' Software Names After Selloff",
-        "url": "https://finance.yahoo.com/news/jpmorgan-flags-ai-resilient-software-193032806.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6894,
+        "title": "Bank of Canada Orders Payments Firm XTM to Stop as Millions Go Missing",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-17/bank-of-canada-orders-payments-firm-xtm-to-stop-as-millions-go-missing",
+        "source": "Bloomberg Markets",
+        "weight": 0.565,
         "score": -1.0
       },
       {
-        "title": "A lot of software companies won't 'thrive or survive': Analyst",
-        "url": "https://finance.yahoo.com/video/lot-software-companies-wont-thrive-193000506.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6887,
-        "score": -1.0
+        "title": "Why Bitcoin Open Interest Has Seen Its Largest Decline in Almost 3 Years",
+        "url": "https://decrypt.co/358273/bitcoin-open-interest-largest-decline-april-2023",
+        "source": "Decrypt",
+        "weight": 0.5816,
+        "score": -0.9667
       },
       {
-        "title": "Why Is the US Stock Market Down Today?",
-        "url": "https://beincrypto.com/why-is-the-us-stock-market-down-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6986,
+        "title": "BC to Cut 15,000 Jobs But Spending and Debt to Rise Anyway",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-17/british-columbia-to-cut-15-000-jobs-but-spending-to-rise-anyway",
+        "source": "Bloomberg Markets",
+        "weight": 0.4663,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5376976052136289,
-          "price_change_24h": 0.06183
+          "volume_mcap_ratio": 0.5259009752606694,
+          "price_change_24h": 0.02544
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3609348255149607,
-          "price_change_24h": -0.01099
+          "volume_mcap_ratio": 0.3480051254496724,
+          "price_change_24h": -0.00767
         }
       ],
       "momentum_shifts": []
