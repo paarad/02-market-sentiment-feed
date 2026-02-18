@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-18T08:55:47.227553+00:00",
+  "updated_at": "2026-02-18T13:22:01.822670+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.073,
+    "change24h": -0.004,
+    "vol": 0.082,
     "fearGreed": 8,
-    "momentum": 0.204,
+    "momentum": -0.063,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3345,
-    "global_sentiment": 0.4562,
-    "combined_sentiment": 0.3722,
-    "confidence": 0.7394,
+    "crypto_sentiment": 0.3429,
+    "global_sentiment": 0.565,
+    "combined_sentiment": 0.3876,
+    "confidence": 0.7628,
     "counts": {
-      "crypto": 64,
-      "global": 33
+      "crypto": 50,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 68074,
-      "btc_change_24h": -0.08,
-      "eth_price": 2019.59,
-      "eth_change_24h": 2.25,
+      "btc_price": 67455,
+      "btc_change_24h": -1.0,
+      "eth_price": 1987.24,
+      "eth_change_24h": 0.15,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 144279764252.0,
+        "volume_24h": 149088987613.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.58,
+        "btc_dominance": 57.6,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-04T16:58:36.511345+00:00",
-      "crypto": 0.3928,
-      "global": 0.3275,
-      "combined": 0.4052,
-      "counts": {
-        "crypto": 60,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-02-04T20:04:32.049389+00:00",
       "crypto": 0.4231,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-02-18T13:22:01.822670+00:00",
+      "crypto": 0.3429,
+      "global": 0.565,
+      "combined": 0.3876,
+      "counts": {
+        "crypto": 50,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BAE Signals Steady Earnings, Sales Growth After Record Year",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-18/bae-systems-signals-steady-earnings-growth-after-record-year",
-        "source": "Bloomberg Markets",
-        "weight": 0.6969,
+        "title": "3 Reliable Dividend Stocks Offering Up To 10.2% Yield",
+        "url": "https://finance.yahoo.com/news/3-reliable-dividend-stocks-offering-113206255.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6474,
+        "score": 0.8667
+      },
+      {
+        "title": "Wall Street is selling crypto income inside TradFi products and one hidden switch decides who gets in",
+        "url": "https://cryptoslate.com/wall-street-is-selling-crypto-income-inside-traditional-products-and-one-hidden-switch-decides-who-gets-in/",
+        "source": "CryptoSlate",
+        "weight": 0.6785,
+        "score": 0.75
+      },
+      {
+        "title": "Undervalued Small Caps With Insider Activity To Watch In February 2026",
+        "url": "https://finance.yahoo.com/news/undervalued-small-caps-insider-activity-113947458.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.657,
         "score": 0.6667
-      },
-      {
-        "title": "LEO Pharma Positions for IPO This Year With Investor Meetings",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-18/leo-pharma-positions-for-ipo-this-year-with-investor-meetings",
-        "source": "Bloomberg Markets",
-        "weight": 0.7185,
-        "score": 0.6333
-      },
-      {
-        "title": "CNBC's The China Connection newsletter: Businesses scramble to reach China's growing experiences economy",
-        "url": "https://www.cnbc.com/2026/02/17/cnbcs-the-china-connection-newsletter-businesses-scramble-to-reach-chinas-growing-experiences-economy.html",
-        "source": "CNBC Markets",
-        "weight": 0.4726,
-        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Peter Thiel’s Founders Fund dumps ETHZilla stake as ETH treasuries face pressure",
-        "url": "https://cointelegraph.com/news/peter-thiel-founders-fund-exits-ethzilla-stake?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9451,
+        "title": "From 2016 hack to $150M Endowment: the DAO’s second act focuses on Ethereum security",
+        "url": "https://www.coindesk.com/tech/2026/02/18/from-2016-hack-to-usd150m-endowment-the-dao-s-second-act-focuses-on-ethereum-security",
+        "source": "CoinDesk",
+        "weight": 0.9585,
+        "score": -1.0
+      },
+      {
+        "title": "Bond Traders Look to Data, Fed Minutes to Gauge Scope for Easing",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-18/traders-look-to-data-fed-minutes-to-gauge-scope-for-fed-easing",
+        "source": "Bloomberg Markets",
+        "weight": 0.7184,
         "score": -0.9667
       },
       {
-        "title": "UK Inflation Falls to Lowest Level Since March 2025",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-18/uk-inflation-falls-to-lowest-level-since-march-2025-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7852,
-        "score": -0.8
-      },
-      {
-        "title": "Cheveley: Copper Being Dragged to US by Tariff Threats",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-18/cheveley-copper-being-dragged-to-us-by-tariff-threats-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5857,
-        "score": -1.0
+        "title": "Moonwell hit by $1.78M exploit as AI vibe coding debate reaches DeFi",
+        "url": "https://cointelegraph.com/news/moonwell-exploit-cbeth-oracle-misprice-ai-commits-testing-audits?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7738,
+        "score": -0.8333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3656931775251244,
-          "price_change_24h": 0.05438
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.338688304315203,
+          "price_change_24h": 0.02109
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3416353343149221,
-          "price_change_24h": -0.00743
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3192691890184341,
+          "price_change_24h": -0.02492
         }
       ],
       "momentum_shifts": []
