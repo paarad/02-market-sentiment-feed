@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-19T02:48:09.989603+00:00",
+  "updated_at": "2026-02-19T05:24:22.411701+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.089,
+    "change24h": -0.036,
+    "vol": 0.095,
     "fearGreed": 9,
-    "momentum": -0.505,
+    "momentum": -0.626,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4178,
-    "global_sentiment": 0.4428,
-    "combined_sentiment": 0.4336,
-    "confidence": 0.7649,
+    "crypto_sentiment": 0.4663,
+    "global_sentiment": 0.4756,
+    "combined_sentiment": 0.4727,
+    "confidence": 0.7661,
     "counts": {
-      "crypto": 60,
-      "global": 42
+      "crypto": 45,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 66675,
-      "btc_change_24h": -0.87,
-      "eth_price": 1963.97,
-      "eth_change_24h": -1.2,
+      "btc_price": 66738,
+      "btc_change_24h": -1.65,
+      "eth_price": 1967.79,
+      "eth_change_24h": -1.62,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 138446471258.0,
+        "volume_24h": 139204000036.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.57,
+        "btc_dominance": 57.6,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-05T08:54:54.496038+00:00",
-      "crypto": 0.3417,
-      "global": 0.5238,
-      "combined": 0.3832,
-      "counts": {
-        "crypto": 77,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-05T13:18:41.988249+00:00",
       "crypto": 0.2746,
@@ -1008,29 +998,39 @@
         "crypto": 60,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-02-19T05:24:22.411701+00:00",
+      "crypto": 0.4663,
+      "global": 0.4756,
+      "combined": 0.4727,
+      "counts": {
+        "crypto": 45,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stocks Gain in Asia After Tech Boosts US Equities: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-18/asian-stocks-to-climb-as-tech-lifts-us-equities-markets-wrap",
-        "source": "Bloomberg Markets",
-        "weight": 0.4824,
-        "score": 1.0
+        "title": "WLFI surges 10% after Apex stablecoin deal, outperforming BTC and ETH",
+        "url": "https://www.coindesk.com/markets/2026/02/19/wlfi-surges-10-after-apex-stablecoin-deal-outperforming-btc-and-eth",
+        "source": "CoinDesk",
+        "weight": 0.927,
+        "score": 0.5333
       },
       {
-        "title": "OpenAI pits AI agents against each other to red team smart contracts",
-        "url": "https://cointelegraph.com/news/openai-benchmark-ai-agents-detect-smart-contract-flaws?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6761,
+        "title": "PLS CEO Henderson on 1H Earnings",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-19/pls-ceo-henderson-on-1h-earnings-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6811,
         "score": 0.6667
       },
       {
-        "title": "Review & Preview: Data Dependent",
-        "url": "https://finance.yahoo.com/m/7e39bf48-8c56-3e34-8837-8d88ccf7e453/review-%26-preview%3A-data.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6496,
+        "title": "Samsung Shares Surge to Record After Report on Higher Chip Price",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-19/samsung-shares-rise-to-record-after-report-on-higher-chip-price",
+        "source": "Bloomberg Markets",
+        "weight": 0.6102,
         "score": 0.6667
       }
     ],
@@ -1039,35 +1039,35 @@
         "title": "Mizuho Dropped From Another Yen Bond Deal in Fallout From Probe",
         "url": "https://www.bloomberg.com/news/articles/2026-02-19/yet-another-japanese-issuer-drops-mizuho-from-yen-bond-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.6812,
+        "weight": 0.5042,
         "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 9 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "Stocks Rise as Data Signal Resilient Economy | The Close 2/18/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-02-19/the-close-2-18-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5806,
+        "weight": 0.4298,
         "score": -0.9667
-      },
-      {
-        "title": "SOL’s path of least resistance tilts toward $50 but onchain data hints at a bottom",
-        "url": "https://cointelegraph.com/news/sol-s-path-of-least-resistance-tilts-toward-dollar50-but-onchain-data-hints-at-a-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5355,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3385563103784466,
-          "price_change_24h": 0.03886
+          "volume_mcap_ratio": 0.3478067150587692,
+          "price_change_24h": 0.04513
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3290586979740242,
-          "price_change_24h": 0.01415
+          "volume_mcap_ratio": 0.32687030087743907,
+          "price_change_24h": 0.01504
         }
       ],
       "momentum_shifts": []
