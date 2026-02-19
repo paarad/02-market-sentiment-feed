@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-19T05:24:22.411701+00:00",
+  "updated_at": "2026-02-19T08:55:20.431446+00:00",
   "indicators": {
-    "change24h": -0.036,
-    "vol": 0.095,
+    "change24h": -0.042,
+    "vol": 0.123,
     "fearGreed": 9,
-    "momentum": -0.626,
+    "momentum": -0.736,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4663,
-    "global_sentiment": 0.4756,
-    "combined_sentiment": 0.4727,
-    "confidence": 0.7661,
+    "crypto_sentiment": 0.4352,
+    "global_sentiment": 0.4964,
+    "combined_sentiment": 0.4511,
+    "confidence": 0.7481,
     "counts": {
       "crypto": 45,
-      "global": 45
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 66738,
-      "btc_change_24h": -1.65,
-      "eth_price": 1967.79,
-      "eth_change_24h": -1.62,
+      "btc_price": 66866,
+      "btc_change_24h": -1.88,
+      "eth_price": 1967.57,
+      "eth_change_24h": -2.69,
       "market_regime": "bear",
-      "regime_strength": 0.4,
+      "regime_strength": 0.6,
       "market_breadth": 0.2,
       "fear_greed": {
         "value": 9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139204000036.0,
+        "volume_24h": 134887476880.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.6,
+        "btc_dominance": 57.66,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-05T13:18:41.988249+00:00",
-      "crypto": 0.2746,
-      "global": 0.4107,
-      "combined": 0.3235,
-      "counts": {
-        "crypto": 77,
-        "global": 52
-      }
-    },
     {
       "ts": "2026-02-05T16:59:24.340390+00:00",
       "crypto": 0.213,
@@ -1008,6 +998,16 @@
         "crypto": 45,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-02-19T08:55:20.431446+00:00",
+      "crypto": 0.4352,
+      "global": 0.4964,
+      "combined": 0.4511,
+      "counts": {
+        "crypto": 45,
+        "global": 41
+      }
     }
   ],
   "drivers": {
@@ -1016,31 +1016,38 @@
         "title": "WLFI surges 10% after Apex stablecoin deal, outperforming BTC and ETH",
         "url": "https://www.coindesk.com/markets/2026/02/19/wlfi-surges-10-after-apex-stablecoin-deal-outperforming-btc-and-eth",
         "source": "CoinDesk",
-        "weight": 0.927,
+        "weight": 0.6176,
         "score": 0.5333
       },
       {
         "title": "PLS CEO Henderson on 1H Earnings",
         "url": "https://www.bloomberg.com/news/videos/2026-02-19/pls-ceo-henderson-on-1h-earnings-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6811,
+        "weight": 0.4538,
         "score": 0.6667
       },
       {
         "title": "Samsung Shares Surge to Record After Report on Higher Chip Price",
         "url": "https://www.bloomberg.com/news/articles/2026-02-19/samsung-shares-rise-to-record-after-report-on-higher-chip-price",
         "source": "Bloomberg Markets",
-        "weight": 0.6102,
+        "weight": 0.4065,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Mizuho Dropped From Another Yen Bond Deal in Fallout From Probe",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-19/yet-another-japanese-issuer-drops-mizuho-from-yen-bond-deal",
-        "source": "Bloomberg Markets",
-        "weight": 0.5042,
-        "score": -1.0
+        "title": "Bitcoin’s $40,000 put becomes second-largest options bet ahead of February expiry next week",
+        "url": "https://www.coindesk.com/markets/2026/02/19/tbitcoin-s-usd40-000-put-becomes-second-largest-options-bet-ahead-of-february-expiry-next-week",
+        "source": "CoinDesk",
+        "weight": 0.7835,
+        "score": -0.6333
+      },
+      {
+        "title": "Former South Korean president Yoon Suk Yeol gets life sentence over martial law attempt",
+        "url": "https://www.cnbc.com/2026/02/19/south-korea-ex-president-yoon-suk-yeol-life-sentence-guilty-insurrection-death-sentence-martial-law-verdict.html",
+        "source": "CNBC Markets",
+        "weight": 0.751,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 9 (Fear) — bearish",
@@ -1048,26 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Stocks Rise as Data Signal Resilient Economy | The Close 2/18/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-19/the-close-2-18-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4298,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3478067150587692,
-          "price_change_24h": 0.04513
+          "volume_mcap_ratio": 0.3722063563260964,
+          "price_change_24h": -0.0252
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.32687030087743907,
-          "price_change_24h": 0.01504
+          "volume_mcap_ratio": 0.3295043485891893,
+          "price_change_24h": 0.0092
         }
       ],
       "momentum_shifts": []
