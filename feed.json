@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-19T08:55:20.431446+00:00",
+  "updated_at": "2026-02-19T13:23:35.910313+00:00",
   "indicators": {
-    "change24h": -0.042,
-    "vol": 0.123,
+    "change24h": -0.036,
+    "vol": 0.114,
     "fearGreed": 9,
-    "momentum": -0.736,
+    "momentum": -0.622,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4352,
-    "global_sentiment": 0.4964,
-    "combined_sentiment": 0.4511,
-    "confidence": 0.7481,
+    "crypto_sentiment": 0.4848,
+    "global_sentiment": 0.6024,
+    "combined_sentiment": 0.4972,
+    "confidence": 0.7851,
     "counts": {
-      "crypto": 45,
-      "global": 41
+      "crypto": 50,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 66866,
+      "btc_price": 66193,
       "btc_change_24h": -1.88,
-      "eth_price": 1967.57,
-      "eth_change_24h": -2.69,
+      "eth_price": 1933.6,
+      "eth_change_24h": -2.7,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 134887476880.0,
+        "volume_24h": 136187274054.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.66,
+        "btc_dominance": 57.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-05T16:59:24.340390+00:00",
-      "crypto": 0.213,
-      "global": 0.4702,
-      "combined": 0.2823,
-      "counts": {
-        "crypto": 85,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-05T20:03:51.894593+00:00",
       "crypto": 0.2506,
@@ -1008,66 +998,76 @@
         "crypto": 45,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-19T13:23:35.910313+00:00",
+      "crypto": 0.4848,
+      "global": 0.6024,
+      "combined": 0.4972,
+      "counts": {
+        "crypto": 50,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "WLFI surges 10% after Apex stablecoin deal, outperforming BTC and ETH",
-        "url": "https://www.coindesk.com/markets/2026/02/19/wlfi-surges-10-after-apex-stablecoin-deal-outperforming-btc-and-eth",
-        "source": "CoinDesk",
-        "weight": 0.6176,
-        "score": 0.5333
+        "title": "Virtuix to Ring the Nasdaq Closing Bell on Wednesday, March 4, 2026",
+        "url": "https://finance.yahoo.com/news/virtuix-ring-nasdaq-closing-bell-124700226.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7456,
+        "score": 0.9667
       },
       {
-        "title": "PLS CEO Henderson on 1H Earnings",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-19/pls-ceo-henderson-on-1h-earnings-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4538,
-        "score": 0.6667
+        "title": "Can Rivian Stock Beat the Market in 2026?​",
+        "url": "https://www.fool.com/investing/2026/02/19/can-rivian-stock-beat-the-market-in-2026/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6983,
+        "score": 1.0
       },
       {
-        "title": "Samsung Shares Surge to Record After Report on Higher Chip Price",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-19/samsung-shares-rise-to-record-after-report-on-higher-chip-price",
-        "source": "Bloomberg Markets",
-        "weight": 0.4065,
-        "score": 0.6667
+        "title": "Crypto VC funding surging again sounds like a rally, until you trace where the money actually lands",
+        "url": "https://cryptoslate.com/crypto-vc-funding-surging-again-sounds-like-a-rally-until-you-trace-where-the-money-actually-lands/",
+        "source": "CryptoSlate",
+        "weight": 0.6777,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin’s $40,000 put becomes second-largest options bet ahead of February expiry next week",
-        "url": "https://www.coindesk.com/markets/2026/02/19/tbitcoin-s-usd40-000-put-becomes-second-largest-options-bet-ahead-of-february-expiry-next-week",
-        "source": "CoinDesk",
-        "weight": 0.7835,
-        "score": -0.6333
+        "title": "Polymarket’s lawsuit could decide who regulates US prediction markets",
+        "url": "https://cointelegraph.com/news/polymarket-s-lawsuit-could-decide-who-regulates-us-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7186,
+        "score": -1.0
+      },
+      {
+        "title": "The sectors best positioned amid AI uncertainty, tech volatility",
+        "url": "https://finance.yahoo.com/video/sectors-best-positioned-amid-ai-123017769.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.722,
+        "score": -0.9667
       },
       {
         "title": "Former South Korean president Yoon Suk Yeol gets life sentence over martial law attempt",
         "url": "https://www.cnbc.com/2026/02/19/south-korea-ex-president-yoon-suk-yeol-life-sentence-guilty-insurrection-death-sentence-martial-law-verdict.html",
         "source": "CNBC Markets",
-        "weight": 0.751,
+        "weight": 0.782,
         "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 9 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3722063563260964,
-          "price_change_24h": -0.0252
+          "volume_mcap_ratio": 0.34988051533643383,
+          "price_change_24h": -0.04616
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3295043485891893,
-          "price_change_24h": 0.0092
+          "volume_mcap_ratio": 0.3242433939975765,
+          "price_change_24h": -0.01946
         }
       ],
       "momentum_shifts": []
