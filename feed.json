@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-20T13:14:36.679195+00:00",
+  "updated_at": "2026-02-20T16:51:04.002879+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.084,
+    "change24h": 0.04,
+    "vol": 0.129,
     "fearGreed": 7,
-    "momentum": 0.254,
+    "momentum": 0.704,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4205,
-    "global_sentiment": 0.6743,
-    "combined_sentiment": 0.4549,
-    "confidence": 0.7607,
+    "crypto_sentiment": 0.3674,
+    "global_sentiment": 0.5942,
+    "combined_sentiment": 0.4084,
+    "confidence": 0.7636,
     "counts": {
-      "crypto": 72,
-      "global": 33
+      "crypto": 57,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 67145,
-      "btc_change_24h": 1.16,
-      "eth_price": 1945.37,
-      "eth_change_24h": 0.35,
+      "btc_price": 67624,
+      "btc_change_24h": 2.01,
+      "eth_price": 1962.42,
+      "eth_change_24h": 2.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 7,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139556942728.6,
+        "volume_24h": 168466344409.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.82,
+        "btc_dominance": 57.74,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-06T20:02:51.060586+00:00",
-      "crypto": 0.3267,
-      "global": 0.5816,
-      "combined": 0.3768,
-      "counts": {
-        "crypto": 66,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-06T20:41:33.650924+00:00",
       "crypto": 0.3435,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-02-20T16:51:04.002879+00:00",
+      "crypto": 0.3674,
+      "global": 0.5942,
+      "combined": 0.4084,
+      "counts": {
+        "crypto": 57,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AngloGold Posts Profit Surge and Record Dividend on Price Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-20/anglogold-posts-profit-surge-and-record-dividend-on-price-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.7049,
-        "score": 1.0
-      },
-      {
-        "title": "Trump’s Iran Ultimatum, UK Posts Biggest Ever Budget Surplus | The Opening Trade 2/20/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-20/the-opening-trade-2-20-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6416,
-        "score": 1.0
-      },
-      {
         "title": "From 'vanlords' to safe parking sites: How RVs became Silicon Valley's housing safety net",
         "url": "https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html",
         "source": "CNBC Markets",
-        "weight": 0.7342,
+        "weight": 0.6692,
         "score": 0.8667
+      },
+      {
+        "title": "Copper Climbs as Supreme Court Strikes Down Trump’s Tariffs",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-20/copper-climbs-as-supreme-court-strikes-down-trump-s-tariffs",
+        "source": "Bloomberg Markets",
+        "weight": 0.7339,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 2.0% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "House Democrats press Treasury on World Liberty bank charter and UAE stake",
-        "url": "https://cointelegraph.com/news/democrats-press-treasury-on-trump-world-liberty-financial?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7572,
+        "title": "Nvidia Stock, After Big Meta Chip News, Sets Up Ahead Of Quarterly Earnings Report",
+        "url": "https://finance.yahoo.com/m/d2cf54e9-d150-360a-b754-c7612fbd7282/nvidia-stock%2C-after-big-meta.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7263,
+        "score": -0.9333
+      },
+      {
+        "title": "Bitcoin-backed loans with sub-prime-style incentives, but with liquidation triggers hit Wall Street",
+        "url": "https://cryptoslate.com/bitcoin-backed-loans-hit-wall-street-sub-prime-style-incentives-but-with-liquidation-triggers/",
+        "source": "CryptoSlate",
+        "weight": 0.5555,
         "score": -1.0
       },
       {
-        "title": "Tether USDT supply set for biggest monthly decline since 2022 FTX collapse",
-        "url": "https://cointelegraph.com/news/tether-usdt-biggest-monthly-decline-ftx-collapse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "House Democrats press Treasury on World Liberty bank charter and UAE stake",
+        "url": "https://cointelegraph.com/news/democrats-press-treasury-on-trump-world-liberty-financial?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7395,
-        "score": -0.6667
-      },
-      {
-        "title": "South Africa Banks Raise $322 Million in Debut Rescue-Debt Issue",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-20/south-africa-banks-raise-322-million-in-debut-rescue-debt-issue",
-        "source": "Bloomberg Markets",
-        "weight": 0.7281,
-        "score": -0.6667
+        "weight": 0.4991,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3450838665397216,
-          "price_change_24h": -0.03908
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.40264491322323015,
+          "price_change_24h": 0.02218
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3401899237549221,
-          "price_change_24h": 0.02207
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.38064841450596393,
+          "price_change_24h": -0.0454
         }
       ],
       "momentum_shifts": []
