@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-19T20:39:48.678367+00:00",
+  "updated_at": "2026-02-20T02:42:49.534097+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.117,
-    "fearGreed": 9,
-    "momentum": -0.076,
+    "change24h": 0.007,
+    "vol": 0.072,
+    "fearGreed": 7,
+    "momentum": 0.115,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4565,
-    "global_sentiment": 0.4005,
-    "combined_sentiment": 0.4591,
-    "confidence": 0.8092,
+    "crypto_sentiment": 0.3928,
+    "global_sentiment": 0.367,
+    "combined_sentiment": 0.4085,
+    "confidence": 0.766,
     "counts": {
-      "crypto": 52,
-      "global": 37
+      "crypto": 68,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 66935,
-      "btc_change_24h": 0.72,
-      "eth_price": 1938.52,
-      "eth_change_24h": -0.49,
+      "btc_price": 67248,
+      "btc_change_24h": 0.81,
+      "eth_price": 1953.12,
+      "eth_change_24h": -0.5,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 9,
+        "value": 7,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 131600618869.0,
+        "volume_24h": 130538467720.0,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-06T05:17:51.227034+00:00",
-      "crypto": 0.298,
-      "global": 0.466,
-      "combined": 0.3457,
-      "counts": {
-        "crypto": 66,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-02-06T08:53:57.986794+00:00",
       "crypto": 0.3108,
@@ -1008,52 +998,62 @@
         "crypto": 52,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-02-20T02:42:49.534097+00:00",
+      "crypto": 0.3928,
+      "global": 0.367,
+      "combined": 0.4085,
+      "counts": {
+        "crypto": 68,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Promising Penny Stocks To Consider In February 2026",
-        "url": "https://finance.yahoo.com/news/promising-penny-stocks-consider-february-180513794.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.594,
+        "title": "Texas Roadhouse Shares Gain After Upbeat Start to Quarter",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-19/texas-roadhouse-shares-gain-after-upbeat-start-to-quarter",
+        "source": "Bloomberg Markets",
+        "weight": 0.4482,
         "score": 0.6667
       },
       {
-        "title": "CME Will Make Crypto Derivatives Trading 24/7 in May as Wall Street Eyes Similar Goal",
-        "url": "https://decrypt.co/358595/cme-crypto-derivatives-trading-24-7-may-wall-street-similar-goal",
-        "source": "Decrypt",
-        "weight": 0.5776,
-        "score": 0.5833
+        "title": "Sumitomo Pharma shares plunge 12% despite greenlight for Parkinson's treatment",
+        "url": "https://www.cnbc.com/2026/02/20/sumitomo-pharma-shares-plunge-despite-greenlight-for-parkinsons-treatment.html",
+        "source": "CNBC Markets",
+        "weight": 0.7754,
+        "score": 0.3333
       },
       {
-        "title": "Crypto VC funding surging again sounds like a rally, until you trace where the money actually lands",
-        "url": "https://cryptoslate.com/crypto-vc-funding-surging-again-sounds-like-a-rally-until-you-trace-where-the-money-actually-lands/",
-        "source": "CryptoSlate",
-        "weight": 0.2926,
-        "score": 1.0
+        "title": "Bitcoin Lightning Network exceeds $1B in monthly volume: Report",
+        "url": "https://cointelegraph.com/news/bitcoin-lightning-network-1b-monthly-volume?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4398,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Dow Drops Amid U.S.-Iran Tensions; Deere Surges On Strong Outlook (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/9e3bb4c8-8cbc-36ae-813a-4288622e532b/stock-market-today%3A-dow-drops.html?.tsrc=rss",
+        "title": "Wall Street ends down as private equity stocks sink",
+        "url": "https://finance.yahoo.com/video/wall-street-ends-down-private-233844464.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.749,
+        "weight": 0.5612,
+        "score": -1.0
+      },
+      {
+        "title": "Stock Market Today, Feb. 19: American Airlines Falls as Rising Fuel Costs Test 2026 Earnings Outlook",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/19/stock-market-today-feb-19-american-airlines-falls-as-rising-fuel-costs-test-2026-earnings-outlook/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5527,
         "score": -0.9667
       },
       {
-        "title": "Janus Henderson Launches New CLO ETF, The Commodities Comeback | ETF IQ 2/19/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-19/etf-iq-2-19-2026-video",
+        "title": "Bets on Musk’s SpaceX Spark 200% Surge in Korean Brokerage Stock",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-20/bets-on-musk-s-spacex-spark-200-surge-in-korean-brokerage-stock",
         "source": "Bloomberg Markets",
-        "weight": 0.6186,
-        "score": -0.9667
-      },
-      {
-        "title": "Red Cat to Ring the Nasdaq Opening Bell of Friday, February 20 Ahead of the Company’s Innovation Day Event",
-        "url": "https://finance.yahoo.com/news/red-cat-ring-nasdaq-opening-193000427.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6994,
+        "weight": 0.6844,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.356632748645564,
-          "price_change_24h": -0.02224
+          "volume_mcap_ratio": 0.32929643968437766,
+          "price_change_24h": -0.07411
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.31403513664861393,
-          "price_change_24h": 0.00559
+          "volume_mcap_ratio": 0.31235927393267376,
+          "price_change_24h": -0.00306
         }
       ],
       "momentum_shifts": []
