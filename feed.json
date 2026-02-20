@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-20T20:00:36.523102+00:00",
+  "updated_at": "2026-02-20T20:40:44.831029+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.116,
+    "change24h": 0.03,
+    "vol": 0.118,
     "fearGreed": 7,
-    "momentum": 0.492,
+    "momentum": 0.519,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3241,
-    "global_sentiment": 0.4752,
-    "combined_sentiment": 0.366,
-    "confidence": 0.7553,
+    "crypto_sentiment": 0.3403,
+    "global_sentiment": 0.5091,
+    "combined_sentiment": 0.381,
+    "confidence": 0.7671,
     "counts": {
-      "crypto": 53,
-      "global": 41
+      "crypto": 66,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 67633,
-      "btc_change_24h": 0.93,
-      "eth_price": 1962.23,
-      "eth_change_24h": 1.24,
+      "btc_price": 67614,
+      "btc_change_24h": 1.03,
+      "eth_price": 1965.36,
+      "eth_change_24h": 1.35,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 7,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181148002436.0,
+        "volume_24h": 177376557892.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.74,
+        "btc_dominance": 57.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-07T02:38:40.891330+00:00",
-      "crypto": 0.3434,
-      "global": 0.5013,
-      "combined": 0.3827,
-      "counts": {
-        "crypto": 69,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-02-07T05:08:48.535892+00:00",
       "crypto": 0.3625,
@@ -1008,6 +998,16 @@
         "crypto": 53,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-20T20:40:44.831029+00:00",
+      "crypto": 0.3403,
+      "global": 0.5091,
+      "combined": 0.381,
+      "counts": {
+        "crypto": 66,
+        "global": 37
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Dow Turns Flat as Tariff Gains Fade",
         "url": "https://finance.yahoo.com/m/a1327971-7540-3ab6-bf7c-68cc5197c597/dow-turns-flat-as-tariff.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6382,
+        "weight": 0.5907,
         "score": 0.8667
+      },
+      {
+        "title": "Blue Collar AI Stock Comfort Systems Jumps On Blowout Earnings, Soaring Backlog",
+        "url": "https://finance.yahoo.com/m/036d4fe9-c791-3af1-9eb1-61fa41b2cffa/blue-collar-ai-stock-comfort.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7445,
+        "score": 0.6667
       },
       {
         "title": "From 'vanlords' to safe parking sites: How RVs became Silicon Valley's housing safety net",
         "url": "https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html",
         "source": "CNBC Markets",
-        "weight": 0.5915,
+        "weight": 0.5475,
         "score": 0.8667
-      },
-      {
-        "title": "ValueAct Holdings Trims Insight Enterprises by $99 Million as Enterprise IT Budgets Tighten",
-        "url": "https://www.fool.com/coverage/filings/2026/02/20/valueact-holdings-trims-insight-enterprises-by-usd99-million-as-enterprise-it-budgets-tighten/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6399,
-        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Tesla loses bid to toss $243 million verdict in fatal Autopilot crash suit",
         "url": "https://www.cnbc.com/2026/02/20/tesla-loses-bid-toss-243-million-verdict-fatal-autopilot-crash-suit.html",
         "source": "CNBC Markets",
-        "weight": 0.7525,
+        "weight": 0.6965,
         "score": -1.0
       },
       {
         "title": "Specialized AI detects 92% of real-world DeFi exploits",
         "url": "https://www.coindesk.com/business/2026/02/20/specialized-ai-detects-92-of-real-world-defi-exploits",
         "source": "CoinDesk",
-        "weight": 0.9006,
+        "weight": 0.8336,
         "score": -0.8333
       },
       {
         "title": "BTC treasury executives call for reform of 1,250% risk weight in Basel III",
         "url": "https://cointelegraph.com/news/btc-treasury-reform-1250-percent-risk-basel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.683,
+        "weight": 0.6322,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44039812374822634,
-          "price_change_24h": 0.00148
+          "volume_mcap_ratio": 0.44130529577921834,
+          "price_change_24h": 0.00097
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.39331832890749985,
-          "price_change_24h": -0.04158
+          "volume_mcap_ratio": 0.3968807908360181,
+          "price_change_24h": 0.01631
         }
       ],
       "momentum_shifts": []
