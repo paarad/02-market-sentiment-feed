@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-21T05:08:52.021666+00:00",
+  "updated_at": "2026-02-21T08:39:54.665148+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.088,
+    "change24h": 0.018,
+    "vol": 0.085,
     "fearGreed": 8,
-    "momentum": 0.468,
+    "momentum": 0.317,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2869,
-    "global_sentiment": 0.4378,
-    "combined_sentiment": 0.335,
-    "confidence": 0.6425,
+    "crypto_sentiment": 0.364,
+    "global_sentiment": 0.4295,
+    "combined_sentiment": 0.3921,
+    "confidence": 0.6039,
     "counts": {
-      "crypto": 52,
+      "crypto": 51,
       "global": 32
     },
     "market_indicators": {
-      "btc_price": 67817,
-      "btc_change_24h": 0.92,
-      "eth_price": 1961.23,
-      "eth_change_24h": 1.24,
+      "btc_price": 67926,
+      "btc_change_24h": 0.26,
+      "eth_price": 1963.84,
+      "eth_change_24h": 0.26,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.95,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178237044435.6,
+        "volume_24h": 164614428071.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.78,
+        "btc_dominance": 57.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-07T13:04:40.289883+00:00",
-      "crypto": 0.3864,
-      "global": 0.3268,
-      "combined": 0.4003,
-      "counts": {
-        "crypto": 67,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-02-07T16:39:28.365210+00:00",
       "crypto": 0.3543,
@@ -1008,40 +998,43 @@
         "crypto": 52,
         "global": 32
       }
+    },
+    {
+      "ts": "2026-02-21T08:39:54.665148+00:00",
+      "crypto": 0.364,
+      "global": 0.4295,
+      "combined": 0.3921,
+      "counts": {
+        "crypto": 51,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Small investors are buying bitcoin. For a rally to succeed, the whales need to join in.",
+        "url": "https://www.coindesk.com/markets/2026/02/21/small-investors-are-buying-bitcoin-it-now-needs-bigger-players-to-show-up",
+        "source": "CoinDesk",
+        "weight": 0.8741,
+        "score": 0.5333
+      },
+      {
         "title": "From 'vanlords' to safe parking sites: How RVs became Silicon Valley's housing safety net",
         "url": "https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html",
         "source": "CNBC Markets",
-        "weight": 0.2058,
+        "weight": 0.1371,
         "score": 0.8667
       },
       {
         "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
         "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html",
         "source": "CNBC Markets",
-        "weight": 0.5261,
-        "score": 0.3333
-      },
-      {
-        "title": "Is BlackLine Stock a Turnaround Bet After This Fund's New $20 Million Stake?",
-        "url": "https://www.fool.com/coverage/filings/2026/02/20/is-blackline-stock-a-turnaround-bet-after-this-fund-s-new-usd20-million-stake/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4719,
+        "weight": 0.3505,
         "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Colombia Notches Progress With Venezuela on Natural Gas Trade",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-21/colombia-notches-progress-with-venezuela-on-natural-gas-trade",
-        "source": "Bloomberg Markets",
-        "weight": 0.5038,
-        "score": -0.9667
-      },
       {
         "title": "Fear & Greed 8 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,10 +1043,17 @@
         "score": -0.5333
       },
       {
+        "title": "Colombia Notches Progress With Venezuela on Natural Gas Trade",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-21/colombia-notches-progress-with-venezuela-on-natural-gas-trade",
+        "source": "Bloomberg Markets",
+        "weight": 0.3356,
+        "score": -0.9667
+      },
+      {
         "title": "Bitcoin shrugs off Trump's new tariffs, nears $68,000 as altcoins lead modest bounce",
         "url": "https://www.coindesk.com/markets/2026/02/20/bitcoin-shrugs-off-trump-s-new-tariffs-nears-usd68-000-as-altcoins-lead-modest-bounce",
         "source": "CoinDesk",
-        "weight": 0.4061,
+        "weight": 0.2705,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43033851692295066,
-          "price_change_24h": 0.0112
+          "volume_mcap_ratio": 0.40884035876777813,
+          "price_change_24h": 0.00651
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3615142026391698,
-          "price_change_24h": -0.00456
+          "volume_mcap_ratio": 0.38231546387560145,
+          "price_change_24h": 0.00658
         }
       ],
       "momentum_shifts": []
