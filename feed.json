@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-20T20:40:44.831029+00:00",
+  "updated_at": "2026-02-21T02:36:41.487332+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.118,
-    "fearGreed": 7,
-    "momentum": 0.519,
+    "change24h": 0.026,
+    "vol": 0.093,
+    "fearGreed": 8,
+    "momentum": 0.458,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3403,
-    "global_sentiment": 0.5091,
-    "combined_sentiment": 0.381,
-    "confidence": 0.7671,
+    "crypto_sentiment": 0.3335,
+    "global_sentiment": 0.4328,
+    "combined_sentiment": 0.3696,
+    "confidence": 0.7061,
     "counts": {
-      "crypto": 66,
-      "global": 37
+      "crypto": 53,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 67614,
-      "btc_change_24h": 1.03,
-      "eth_price": 1965.36,
-      "eth_change_24h": 1.35,
+      "btc_price": 68042,
+      "btc_change_24h": 1.26,
+      "eth_price": 1969.54,
+      "eth_change_24h": 0.85,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.9,
       "fear_greed": {
-        "value": 7,
+        "value": 8,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 177376557892.0,
+        "volume_24h": 177429559938.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.72,
+        "btc_dominance": 57.82,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-07T05:08:48.535892+00:00",
-      "crypto": 0.3625,
-      "global": 0.5011,
-      "combined": 0.3969,
-      "counts": {
-        "crypto": 68,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-02-07T08:40:35.095603+00:00",
       "crypto": 0.361,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-02-21T02:36:41.487332+00:00",
+      "crypto": 0.3335,
+      "global": 0.4328,
+      "combined": 0.3696,
+      "counts": {
+        "crypto": 53,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Turns Flat as Tariff Gains Fade",
-        "url": "https://finance.yahoo.com/m/a1327971-7540-3ab6-bf7c-68cc5197c597/dow-turns-flat-as-tariff.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5907,
-        "score": 0.8667
-      },
-      {
-        "title": "Blue Collar AI Stock Comfort Systems Jumps On Blowout Earnings, Soaring Backlog",
-        "url": "https://finance.yahoo.com/m/036d4fe9-c791-3af1-9eb1-61fa41b2cffa/blue-collar-ai-stock-comfort.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7445,
-        "score": 0.6667
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
         "title": "From 'vanlords' to safe parking sites: How RVs became Silicon Valley's housing safety net",
         "url": "https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html",
         "source": "CNBC Markets",
-        "weight": 0.5475,
+        "weight": 0.2759,
         "score": 0.8667
+      },
+      {
+        "title": "Trump announces new 10% global tariff after raging over Supreme Court loss",
+        "url": "https://www.cnbc.com/2026/02/20/trump-global-trade-tariff-supreme-court.html",
+        "source": "CNBC Markets",
+        "weight": 0.7053,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Tesla loses bid to toss $243 million verdict in fatal Autopilot crash suit",
-        "url": "https://www.cnbc.com/2026/02/20/tesla-loses-bid-toss-243-million-verdict-fatal-autopilot-crash-suit.html",
-        "source": "CNBC Markets",
-        "weight": 0.6965,
-        "score": -1.0
+        "title": "Colombia Notches Progress With Venezuela on Natural Gas Trade",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-21/colombia-notches-progress-with-venezuela-on-natural-gas-trade",
+        "source": "Bloomberg Markets",
+        "weight": 0.6753,
+        "score": -0.9667
       },
       {
-        "title": "Specialized AI detects 92% of real-world DeFi exploits",
-        "url": "https://www.coindesk.com/business/2026/02/20/specialized-ai-detects-92-of-real-world-defi-exploits",
+        "title": "Bitcoin shrugs off Trump's new tariffs, nears $68,000 as altcoins lead modest bounce",
+        "url": "https://www.coindesk.com/markets/2026/02/20/bitcoin-shrugs-off-trump-s-new-tariffs-nears-usd68-000-as-altcoins-lead-modest-bounce",
         "source": "CoinDesk",
-        "weight": 0.8336,
-        "score": -0.8333
+        "weight": 0.5444,
+        "score": -0.9333
       },
       {
-        "title": "BTC treasury executives call for reform of 1,250% risk weight in Basel III",
-        "url": "https://cointelegraph.com/news/btc-treasury-reform-1250-percent-risk-basel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6322,
-        "score": -1.0
+        "title": "Fear & Greed 8 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44130529577921834,
-          "price_change_24h": 0.00097
+          "volume_mcap_ratio": 0.4379474850487638,
+          "price_change_24h": 0.01319
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3968807908360181,
-          "price_change_24h": 0.01631
+          "volume_mcap_ratio": 0.3807667985319317,
+          "price_change_24h": 0.03605
         }
       ],
       "momentum_shifts": []
