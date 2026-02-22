@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-22T13:05:21.762006+00:00",
+  "updated_at": "2026-02-22T16:39:17.322782+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.106,
+    "change24h": -0.029,
+    "vol": 0.109,
     "fearGreed": 9,
-    "momentum": -0.408,
+    "momentum": -0.515,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4056,
-    "global_sentiment": 0.4254,
-    "combined_sentiment": 0.423,
-    "confidence": 0.5871,
+    "crypto_sentiment": 0.3784,
+    "global_sentiment": 0.4417,
+    "combined_sentiment": 0.4039,
+    "confidence": 0.6879,
     "counts": {
-      "crypto": 51,
-      "global": 36
+      "crypto": 52,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 67975,
-      "btc_change_24h": -0.26,
-      "eth_price": 1967.59,
-      "eth_change_24h": -0.35,
+      "btc_price": 67520,
+      "btc_change_24h": -1.01,
+      "eth_price": 1948.67,
+      "eth_change_24h": -1.7,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.25,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 74859267200.6,
+        "volume_24h": 76631917921.6,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.94,
+        "btc_dominance": 57.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-08T19:56:20.624012+00:00",
-      "crypto": 0.3631,
-      "global": 0.4194,
-      "combined": 0.3906,
-      "counts": {
-        "crypto": 67,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-02-08T20:36:55.161291+00:00",
       "crypto": 0.3658,
@@ -1008,53 +998,63 @@
         "crypto": 51,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-02-22T16:39:17.322782+00:00",
+      "crypto": 0.3784,
+      "global": 0.4417,
+      "combined": 0.4039,
+      "counts": {
+        "crypto": 52,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Xi Gains Leverage Before Trump Summit After Tariff Reversal",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-22/xi-gains-upper-hand-before-trump-summit-after-us-tariff-reversal",
-        "source": "Bloomberg Markets",
-        "weight": 0.4346,
-        "score": 0.6667
+        "title": "Technical strategist says S&P 500 \"appears coiled for a significant move\" soon",
+        "url": "https://finance.yahoo.com/news/technical-strategist-says-p-500-150311826.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6649,
+        "score": 0.5333
       },
       {
-        "title": "862k jobs vanished, CPI cooled, and Bitcoin now trades like a bond – What Would Satoshi Say?",
-        "url": "https://cryptoslate.com/jobs-revisions-cpi-cools-bitcoin-trades-like-bond/",
-        "source": "CryptoSlate",
-        "weight": 0.5469,
+        "title": "Bitcoin historical price metric sees $122K 'average return' over 10 months",
+        "url": "https://cointelegraph.com/news/bitcoin-historical-price-metric-122k-average-return-over-10-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5865,
+        "score": 0.5333
+      },
+      {
+        "title": "Could Merck Stock Quietly Help Turn Steady Dividends Into a Millionaire Retirement?",
+        "url": "https://www.fool.com/investing/2026/02/22/could-merck-quietly-help-turn-steady-dividends-int/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7723,
         "score": 0.3333
-      },
-      {
-        "title": "Bitcoin miners face a margin crunch that historically precedes strong returns within 90 days",
-        "url": "https://cryptoslate.com/bitcoin-mining-stress-signals-possible-bullish-trend-ahead/",
-        "source": "CryptoSlate",
-        "weight": 0.2003,
-        "score": 0.7
       }
     ],
     "negative": [
+      {
+        "title": "TSA PreCheck is open at airports, agency says, hours after DHS announced suspension",
+        "url": "https://www.cnbc.com/2026/02/22/tsa-airlines-weather-shutdown-blizzard-dhs.html",
+        "source": "CNBC Markets",
+        "weight": 0.7792,
+        "score": -0.6333
+      },
+      {
+        "title": "Want to Invest in Small-Cap Stocks? Check Out These Two Top ETFs",
+        "url": "https://www.fool.com/coverage/etfs/2026/02/22/want-to-invest-in-small-cap-stocks-check-out-these-two-top-etfs/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7712,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 9 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Bitcoin miner Bitdeer dumps entire BTC reserves, holdings drop to zero",
-        "url": "https://cointelegraph.com/news/bitdeer-sells-bitcoin-treasury-zero-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5482,
-        "score": -0.6667
-      },
-      {
-        "title": "Nvidia earnings, SCOTUS tariff fallout, geopolitical tensions rise: What to watch this week",
-        "url": "https://finance.yahoo.com/news/nvidia-earnings-scotus-tariff-fallout-geopolitical-tensions-rise-what-to-watch-this-week-124717965.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7726,
-        "score": -0.3333
       }
     ],
     "market_movers": {
