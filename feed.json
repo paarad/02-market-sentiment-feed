@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-21T20:33:41.584978+00:00",
+  "updated_at": "2026-02-22T02:49:16.630228+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.094,
-    "fearGreed": 8,
-    "momentum": 0.05,
+    "change24h": -0.014,
+    "vol": 0.089,
+    "fearGreed": 9,
+    "momentum": -0.24,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3921,
-    "global_sentiment": 0.3635,
-    "combined_sentiment": 0.4077,
-    "confidence": 0.6488,
+    "crypto_sentiment": 0.4731,
+    "global_sentiment": 0.4366,
+    "combined_sentiment": 0.4746,
+    "confidence": 0.6048,
     "counts": {
-      "crypto": 65,
-      "global": 36
+      "crypto": 50,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 68550,
-      "btc_change_24h": 1.45,
-      "eth_price": 1988.81,
-      "eth_change_24h": 1.3,
+      "btc_price": 67997,
+      "btc_change_24h": -0.03,
+      "eth_price": 1974.41,
+      "eth_change_24h": 0.38,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 8,
+        "value": 9,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 87513655438.6,
+        "volume_24h": 81796674265.6,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.91,
+        "btc_dominance": 57.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-08T05:26:53.323858+00:00",
-      "crypto": 0.4169,
-      "global": 0.2851,
-      "combined": 0.4197,
-      "counts": {
-        "crypto": 69,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-02-08T08:40:59.352616+00:00",
       "crypto": 0.4464,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-02-22T02:49:16.630228+00:00",
+      "crypto": 0.4731,
+      "global": 0.4366,
+      "combined": 0.4746,
+      "counts": {
+        "crypto": 50,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "‘Bitcoin to zero’ searches spike in the U.S., but the bottom signal is mixed",
-        "url": "https://www.coindesk.com/markets/2026/02/22/bitcoin-to-zero-searches-spike-in-the-u-s-but-the-bottom-signal-is-mixed",
-        "source": "CoinDesk",
-        "weight": 0.8846,
+        "title": "Bitcoin miners face a margin crunch that historically precedes strong returns within 90 days",
+        "url": "https://cryptoslate.com/bitcoin-mining-stress-signals-possible-bullish-trend-ahead/",
+        "source": "CryptoSlate",
+        "weight": 0.656,
+        "score": 0.7
+      },
+      {
+        "title": "Supreme Court nukes Trump tariffs — up to $175B in refunds could hit Bitcoin market next",
+        "url": "https://cryptoslate.com/supreme-court-just-nuked-trumps-ieepa-tariffs-and-bitcoin-is-bracing-for-a-179-billion-surprise-payout/",
+        "source": "CryptoSlate",
+        "weight": 0.7442,
         "score": 0.3333
       },
       {
-        "title": "'Ethereum Is Going Hard': Vitalik Buterin Backs Censorship Resistance Upgrade",
-        "url": "https://decrypt.co/358792/ethereum-going-hard-vitalik-buterin-backs-censorship-resistance-upgrade",
-        "source": "Decrypt",
-        "weight": 0.8296,
-        "score": 0.3333
-      },
-      {
-        "title": "The Schwab U.S. Dividend Equity ETF Has Surged 15% to Start 2026. Here's the Secret Fuel Source Driving the Rally.",
-        "url": "https://www.fool.com/investing/2026/02/21/the-schwab-us-dividend-equity-etf-has-surged-15-to/?.tsrc=rss",
+        "title": "Casino Icon Caesars Entertainment Navigates Debt and Digital Transition as Progeny 3 Exits",
+        "url": "https://www.fool.com/coverage/filings/2026/02/21/casino-icon-caesars-entertainment-navigates-debt-and-digital-transition-as-progeny-3-exits/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5584,
+        "weight": 0.6071,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "How AI is helping retail traders exploit prediction market 'glitches' to make easy money",
-        "url": "https://www.coindesk.com/markets/2026/02/21/how-ai-is-helping-retail-traders-exploit-prediction-market-glitches-to-make-easy-money",
-        "source": "CoinDesk",
-        "weight": 0.526,
-        "score": -0.8333
-      },
-      {
-        "title": "Fear & Greed 8 (Fear) — bearish",
+        "title": "Fear & Greed 9 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
+        "title": "How AI is helping retail traders exploit prediction market 'glitches' to make easy money",
+        "url": "https://www.coindesk.com/markets/2026/02/21/how-ai-is-helping-retail-traders-exploit-prediction-market-glitches-to-make-easy-money",
+        "source": "CoinDesk",
+        "weight": 0.2552,
+        "score": -0.8333
+      },
+      {
         "title": "Kirkland Star Lawyer’s Antitrust Warning Sowed Seeds of His Own Exit",
         "url": "https://www.bloomberg.com/news/articles/2026-02-21/kirkland-star-lawyer-s-debt-warning-sows-seeds-of-his-own-exit",
         "source": "Bloomberg Markets",
-        "weight": 0.3972,
+        "weight": 0.1927,
         "score": -1.0
       }
     ],
