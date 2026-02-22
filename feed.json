@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-22T05:18:21.116726+00:00",
+  "updated_at": "2026-02-22T08:41:00.322963+00:00",
   "indicators": {
-    "change24h": -0.016,
-    "vol": 0.118,
+    "change24h": -0.014,
+    "vol": 0.104,
     "fearGreed": 9,
-    "momentum": -0.281,
+    "momentum": -0.24,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4689,
-    "global_sentiment": 0.4771,
-    "combined_sentiment": 0.4747,
-    "confidence": 0.6032,
+    "crypto_sentiment": 0.3988,
+    "global_sentiment": 0.5491,
+    "combined_sentiment": 0.4282,
+    "confidence": 0.615,
     "counts": {
-      "crypto": 51,
-      "global": 39
+      "crypto": 52,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 67887,
-      "btc_change_24h": 0.08,
-      "eth_price": 1971.44,
-      "eth_change_24h": 0.48,
+      "btc_price": 67971,
+      "btc_change_24h": 0.07,
+      "eth_price": 1973.17,
+      "eth_change_24h": 0.46,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.45,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 79744836078.6,
+        "volume_24h": 80387041037.6,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.87,
+        "btc_dominance": 57.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-08T13:05:30.430979+00:00",
-      "crypto": 0.4951,
-      "global": 0.4404,
-      "combined": 0.4914,
-      "counts": {
-        "crypto": 85,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-02-08T16:39:29.623441+00:00",
       "crypto": 0.4219,
@@ -1008,33 +998,50 @@
         "crypto": 51,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-22T08:41:00.322963+00:00",
+      "crypto": 0.3988,
+      "global": 0.5491,
+      "combined": 0.4282,
+      "counts": {
+        "crypto": 52,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Xi Gains Upper Hand Before Trump Summit After US Tariff Reversal",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-22/xi-gains-upper-hand-before-trump-summit-after-us-tariff-reversal",
+        "source": "Bloomberg Markets",
+        "weight": 0.723,
+        "score": 0.6667
+      },
+      {
         "title": "Bitcoin miners face a margin crunch that historically precedes strong returns within 90 days",
         "url": "https://cryptoslate.com/bitcoin-mining-stress-signals-possible-bullish-trend-ahead/",
         "source": "CryptoSlate",
-        "weight": 0.4923,
+        "weight": 0.3333,
         "score": 0.7
       },
       {
         "title": "This Vanguard ETF Has Doubled the S&P 500's Returns Year to Date. Should You Buy It?",
         "url": "https://www.fool.com/investing/2026/02/21/vanguard-etf-doubled-sp-500-returns-should-you-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.637,
+        "weight": 0.4312,
         "score": 0.5333
-      },
-      {
-        "title": "50% of Bitcoin's past 24 months ended in gains: Economist",
-        "url": "https://cointelegraph.com/news/bitcoin-price-uptrend-economist-forecast-december?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6427,
-        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Bitcoin miner Bitdeer dumps entire BTC reserves, holdings drop to zero",
+        "url": "https://cointelegraph.com/news/bitdeer-sells-bitcoin-treasury-zero-holdings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9121,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 9 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Election odds, but with an ETF wrapper: the “ambient gambling” shift coming to brokerage accounts",
-        "url": "https://cryptoslate.com/election-betting-etfs-crypto-blast-radius/",
-        "source": "CryptoSlate",
-        "weight": 0.6518,
-        "score": -0.3333
-      },
-      {
-        "title": "How AI is helping retail traders exploit prediction market 'glitches' to make easy money",
-        "url": "https://www.coindesk.com/markets/2026/02/21/how-ai-is-helping-retail-traders-exploit-prediction-market-glitches-to-make-easy-money",
+        "title": "Mentioning 'bitcoin' or crypto on AI agent OpenClaw's Discord will get you banned",
+        "url": "https://www.coindesk.com/tech/2026/02/22/mentioning-bitcoin-or-crypto-on-ai-agent-openclaw-s-discord-will-get-you-banned",
         "source": "CoinDesk",
-        "weight": 0.1915,
-        "score": -0.8333
+        "weight": 0.7021,
+        "score": -0.3333
       }
     ],
     "market_movers": {
