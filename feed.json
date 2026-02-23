@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-23T13:21:41.614492+00:00",
+  "updated_at": "2026-02-23T17:07:49.265168+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.046,
+    "vol": 0.165,
     "fearGreed": 5,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.813,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2559,
-    "global_sentiment": 0.3757,
-    "combined_sentiment": 0.3066,
-    "confidence": 0.7287,
+    "crypto_sentiment": 0.4472,
+    "global_sentiment": 0.2836,
+    "combined_sentiment": 0.4424,
+    "confidence": 0.8029,
     "counts": {
-      "crypto": 64,
-      "global": 37
+      "crypto": 62,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 66184,
-      "btc_change_24h": -2.67,
-      "eth_price": 1919.61,
-      "eth_change_24h": -2.42,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 65388,
+      "btc_change_24h": -3.16,
+      "eth_price": 1885.2,
+      "eth_change_24h": -3.24,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165433659367.6,
+        "volume_24h": 179334592946.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.63,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-09T20:51:28.748381+00:00",
-      "crypto": 0.3702,
-      "global": 0.4203,
-      "combined": 0.396,
-      "counts": {
-        "crypto": 74,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-10T03:15:25.768785+00:00",
       "crypto": 0.3935,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-02-23T17:07:49.265168+00:00",
+      "crypto": 0.4472,
+      "global": 0.2836,
+      "combined": 0.4424,
+      "counts": {
+        "crypto": 62,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "A Sustained Oil Rally Rests on Iran Tensions Hitting Supply",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/a-sustained-oil-rally-rests-on-iran-tensions-hitting-supply",
-        "source": "Bloomberg Markets",
-        "weight": 0.7473,
-        "score": 0.8667
+        "title": "Crypto.com wins initial approval for U.S. federally regulated crypto custodian bank",
+        "url": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
+        "source": "CoinDesk",
+        "weight": 0.8148,
+        "score": 0.95
       },
       {
-        "title": "Estée Lauder CEO: Open to More M&A",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-23/estee-lauder-ceo-open-to-more-m-a-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7282,
+        "title": "ProShares GENIUS ETF's $17B debut boosts case for tokenized money market funds",
+        "url": "https://cointelegraph.com/news/iqmm-s-17b-debut-strengthens-case-for-tokenized-money-market-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7976,
         "score": 0.6667
       },
       {
-        "title": "Gold-Like Swiss Franc May Surge 17%, Morgan Stanley’s Adams Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/gold-like-swiss-franc-may-surge-17-morgan-stanley-s-adams-says",
+        "title": "Thames Water Creditors Take Rescue Deal to Ratings Firms for Nod",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/thames-water-creditors-take-rescue-deal-to-ratings-firms-for-nod",
         "source": "Bloomberg Markets",
-        "weight": 0.6981,
-        "score": 0.5333
+        "weight": 0.7891,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
+        "title": "XRP price chart and whale activity warn of a drop below $1",
+        "url": "https://cointelegraph.com/news/xrp-price-chart-whale-activity-warn-drop-below-1-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9185,
+        "score": -0.8667
+      },
+      {
         "title": "Novo Nordisk sinks 15% after weight loss drug fails to match Eli Lilly's in trial",
         "url": "https://www.cnbc.com/2026/02/23/novo-nordisk-stock-cagrisema-trial-fails-weight-loss.html",
         "source": "CNBC Markets",
-        "weight": 0.7835,
+        "weight": 0.7917,
         "score": -1.0
       },
       {
-        "title": "Novo Nordisk Stock Plunges and Eli Lilly Jumps. It’s All Down to This Weight-Loss Drug Trial.",
-        "url": "https://finance.yahoo.com/m/ade99e02-f1c5-3f9a-9d80-378a146f1a58/novo-nordisk-stock-plunges.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7063,
-        "score": -0.9333
-      },
-      {
-        "title": "Novo Nordisk Trial Flop Ripples Through Denmark’s Stock Market",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/novo-nordisk-trial-flop-ripples-through-denmark-s-stock-market",
+        "title": "Mexico Details How It Took Out Its Most-Wanted Drug Cartel Chief",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/mexico-details-how-it-took-out-its-most-wanted-drug-cartel-chief",
         "source": "Bloomberg Markets",
-        "weight": 0.6101,
-        "score": -0.9333
+        "weight": 0.7688,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.46123178878609794,
-          "price_change_24h": -0.18829
+          "volume_mcap_ratio": 0.9310584959627138,
+          "price_change_24h": -0.05362
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3816382803006257,
-          "price_change_24h": 0.01952
+          "volume_mcap_ratio": 0.4278998994206798,
+          "price_change_24h": 0.03597
         }
       ],
       "momentum_shifts": []
