@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-23T17:07:49.265168+00:00",
+  "updated_at": "2026-02-23T20:26:07.369028+00:00",
   "indicators": {
-    "change24h": -0.046,
-    "vol": 0.165,
+    "change24h": -0.066,
+    "vol": 0.217,
     "fearGreed": 5,
-    "momentum": -0.813,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4472,
-    "global_sentiment": 0.2836,
-    "combined_sentiment": 0.4424,
-    "confidence": 0.8029,
+    "crypto_sentiment": 0.3808,
+    "global_sentiment": 0.2884,
+    "combined_sentiment": 0.393,
+    "confidence": 0.7907,
     "counts": {
-      "crypto": 62,
+      "crypto": 45,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 65388,
-      "btc_change_24h": -3.16,
-      "eth_price": 1885.2,
-      "eth_change_24h": -3.24,
+      "btc_price": 64065,
+      "btc_change_24h": -4.97,
+      "eth_price": 1852.58,
+      "eth_change_24h": -4.69,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 179334592946.6,
+        "volume_24h": 200886074055.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.63,
+        "btc_dominance": 57.37,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-10T03:15:25.768785+00:00",
-      "crypto": 0.3935,
-      "global": 0.4558,
-      "combined": 0.4164,
-      "counts": {
-        "crypto": 60,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-02-10T05:40:49.525756+00:00",
       "crypto": 0.3424,
@@ -1008,6 +998,16 @@
         "crypto": 62,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-23T20:26:07.369028+00:00",
+      "crypto": 0.3808,
+      "global": 0.2884,
+      "combined": 0.393,
+      "counts": {
+        "crypto": 45,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Crypto.com wins initial approval for U.S. federally regulated crypto custodian bank",
         "url": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
         "source": "CoinDesk",
-        "weight": 0.8148,
+        "weight": 0.5562,
         "score": 0.95
+      },
+      {
+        "title": "Stablecore's Jack Henry integration opens stablecoins to 1,600 banks",
+        "url": "https://cointelegraph.com/news/stablecore-jack-henry-bank-stablecoin-integration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6373,
+        "score": 0.5833
       },
       {
         "title": "ProShares GENIUS ETF's $17B debut boosts case for tokenized money market funds",
         "url": "https://cointelegraph.com/news/iqmm-s-17b-debut-strengthens-case-for-tokenized-money-market-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7976,
+        "weight": 0.5445,
         "score": 0.6667
-      },
-      {
-        "title": "Thames Water Creditors Take Rescue Deal to Ratings Firms for Nod",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/thames-water-creditors-take-rescue-deal-to-ratings-firms-for-nod",
-        "source": "Bloomberg Markets",
-        "weight": 0.7891,
-        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "XRP price chart and whale activity warn of a drop below $1",
-        "url": "https://cointelegraph.com/news/xrp-price-chart-whale-activity-warn-drop-below-1-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9185,
-        "score": -0.8667
+        "title": "Ethereum Founder Vitalik Buterin Continues ETH Selling Spree",
+        "url": "https://decrypt.co/358839/ethereum-founder-vitalik-buterin-continues-eth-selling-spree",
+        "source": "Decrypt",
+        "weight": 0.717,
+        "score": -0.9667
       },
       {
-        "title": "Novo Nordisk sinks 15% after weight loss drug fails to match Eli Lilly's in trial",
-        "url": "https://www.cnbc.com/2026/02/23/novo-nordisk-stock-cagrisema-trial-fails-weight-loss.html",
+        "title": "Fancy clothes, mealtime alarms and Disney princess gigs: How GLP-1s are changing people's lives in unexpected ways",
+        "url": "https://www.cnbc.com/2026/02/23/how-glp-1s-are-changing-peoples-lives-in-unexpected-ways.html",
         "source": "CNBC Markets",
-        "weight": 0.7917,
+        "weight": 0.6086,
         "score": -1.0
       },
       {
-        "title": "Mexico Details How It Took Out Its Most-Wanted Drug Cartel Chief",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/mexico-details-how-it-took-out-its-most-wanted-drug-cartel-chief",
-        "source": "Bloomberg Markets",
-        "weight": 0.7688,
+        "title": "Bitcoin rebounds after $100B tariff whiplash — but $60k options price target hints at bigger risk",
+        "url": "https://cryptoslate.com/bitcoin-rebounds-above-66k-after-policy-whiplash-but-60k-options-bets-hint-at-bigger-risk/",
+        "source": "CryptoSlate",
+        "weight": 0.5837,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9310584959627138,
-          "price_change_24h": -0.05362
+          "volume_mcap_ratio": 1.0304710700435349,
+          "price_change_24h": 0.02031
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4278998994206798,
-          "price_change_24h": 0.03597
+          "volume_mcap_ratio": 0.4792820898669325,
+          "price_change_24h": 0.01963
         }
       ],
       "momentum_shifts": []
