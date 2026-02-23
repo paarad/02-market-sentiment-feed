@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-23T05:38:17.305029+00:00",
+  "updated_at": "2026-02-23T08:58:55.124501+00:00",
   "indicators": {
-    "change24h": -0.064,
-    "vol": 0.184,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 5,
-    "momentum": -1.0,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2869,
-    "global_sentiment": 0.3744,
-    "combined_sentiment": 0.3297,
-    "confidence": 0.5875,
+    "crypto_sentiment": 0.3054,
+    "global_sentiment": 0.4715,
+    "combined_sentiment": 0.3517,
+    "confidence": 0.6633,
     "counts": {
-      "crypto": 62,
+      "crypto": 55,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 65052,
-      "btc_change_24h": -4.22,
-      "eth_price": 1866.85,
-      "eth_change_24h": -5.34,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "btc_price": 65625,
+      "btc_change_24h": -3.42,
+      "eth_price": 1878.49,
+      "eth_change_24h": -4.79,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 5,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 129371130030.6,
+        "volume_24h": 142307795276.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.65,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-09T13:27:03.244625+00:00",
-      "crypto": 0.2857,
-      "global": 0.357,
-      "combined": 0.3274,
-      "counts": {
-        "crypto": 66,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-09T20:23:21.333194+00:00",
       "crypto": 0.3868,
@@ -1008,66 +998,76 @@
         "crypto": 62,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-02-23T08:58:55.124501+00:00",
+      "crypto": 0.3054,
+      "global": 0.4715,
+      "combined": 0.3517,
+      "counts": {
+        "crypto": 55,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US Natural Gas Jumps on Powerful Blizzard and Higher LNG Exports",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/us-natural-gas-jumps-on-powerful-blizzard-and-higher-lng-exports",
+        "title": "Oil to Surge as US and Iran Appear Set for War, Fesharaki Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/oil-to-surge-as-us-and-iran-appear-set-for-war-fesharaki-says",
         "source": "Bloomberg Markets",
-        "weight": 0.568,
-        "score": 0.6667
-      },
-      {
-        "title": "Tariff Turmoil Brings India Uncertainty, But Consumer Staples are Stirring",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-02-23/india-consumer-staples-show-signs-of-recovery-centrum-bullish-on-nestle-dabur",
-        "source": "Bloomberg Markets",
-        "weight": 0.5748,
+        "weight": 0.641,
         "score": 0.5333
       },
       {
-        "title": "Gold Rises as Trump Tariff Defeat Throws Trade Deals Into Doubt",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-22/gold-rises-as-trump-s-tariff-knockback-generates-uncertainty",
+        "title": "Forint Bulls Undeterred as Hungary’s Rate-Cut Cycle Approaches",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/forint-bulls-undeterred-as-hungary-s-rate-cut-cycle-approaches",
         "source": "Bloomberg Markets",
-        "weight": 0.3957,
-        "score": 0.6667
+        "weight": 0.5669,
+        "score": 0.5333
+      },
+      {
+        "title": "German Auto Supplier Sees Debt Relief From Slower EV Transition",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/german-auto-supplier-sees-debt-relief-from-slower-ev-transition",
+        "source": "Bloomberg Markets",
+        "weight": 0.7111,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Copper Advances as US Tariff Muddle Spurs Decline in the Dollar",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/copper-advances-as-us-tariff-muddle-spurs-decline-in-the-dollar",
-        "source": "Bloomberg Markets",
-        "weight": 0.5636,
-        "score": -0.9667
+        "title": "Fear & Greed 5 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Bank of America Sees More Firms Hedging FX Risks in Philippines",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/bank-of-america-sees-more-firms-hedging-fx-risks-in-philippines",
+        "title": "Gower: Copper Likely to Remain Well Supported",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-23/gower-copper-likely-to-remain-well-supported-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7345,
-        "score": -0.6667
+        "weight": 0.6728,
+        "score": -0.6333
       },
       {
-        "title": "Private Equity’s Dry Spell Now Worse Than 2008 Crisis, Bain Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/private-equity-s-dry-spell-now-worse-than-2008-crisis-bain-says",
+        "title": "Indian Infrastructure Lender Secures $125 Million Loan From HSBC",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/indian-infrastructure-lender-secures-125-million-loan-from-hsbc",
         "source": "Bloomberg Markets",
-        "weight": 0.7446,
-        "score": -0.6
+        "weight": 0.6145,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.33274894608892797,
-          "price_change_24h": 0.01619
+          "volume_mcap_ratio": 0.35129463397275584,
+          "price_change_24h": -0.00554
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.30301098806637244,
-          "price_change_24h": 0.01116
+          "volume_mcap_ratio": 0.34003060930968965,
+          "price_change_24h": 0.0056
         }
       ],
       "momentum_shifts": []
