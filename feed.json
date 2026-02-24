@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-23T20:53:53.616664+00:00",
+  "updated_at": "2026-02-24T02:46:34.168810+00:00",
   "indicators": {
-    "change24h": -0.063,
-    "vol": 0.229,
-    "fearGreed": 5,
-    "momentum": -1.0,
-    "regime": "bear",
+    "change24h": -0.019,
+    "vol": 0.184,
+    "fearGreed": 8,
+    "momentum": -0.331,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3983,
-    "global_sentiment": 0.2979,
-    "combined_sentiment": 0.4069,
-    "confidence": 0.7892,
+    "crypto_sentiment": 0.4102,
+    "global_sentiment": 0.3116,
+    "combined_sentiment": 0.4169,
+    "confidence": 0.7371,
     "counts": {
       "crypto": 59,
-      "global": 43
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 64337,
-      "btc_change_24h": -4.51,
-      "eth_price": 1857.36,
-      "eth_change_24h": -4.33,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "btc_price": 64110,
+      "btc_change_24h": -1.03,
+      "eth_price": 1842.14,
+      "eth_change_24h": -1.15,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
-        "value": 5,
+        "value": 8,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 203141641339.6,
+        "volume_24h": 187615971841.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.41,
+        "btc_dominance": 57.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-10T09:04:10.402318+00:00",
-      "crypto": 0.3333,
-      "global": 0.502,
-      "combined": 0.3751,
-      "counts": {
-        "crypto": 55,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-02-10T13:41:19.699913+00:00",
       "crypto": 0.366,
@@ -1008,66 +998,76 @@
         "crypto": 59,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-02-24T02:46:34.168810+00:00",
+      "crypto": 0.4102,
+      "global": 0.3116,
+      "combined": 0.4169,
+      "counts": {
+        "crypto": 59,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto.com wins initial approval for U.S. federally regulated crypto custodian bank",
-        "url": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
-        "source": "CoinDesk",
-        "weight": 0.5272,
-        "score": 0.95
-      },
-      {
-        "title": "Stablecore's Jack Henry integration opens stablecoins to 1,600 banks",
-        "url": "https://cointelegraph.com/news/stablecore-jack-henry-bank-stablecoin-integration?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6041,
-        "score": 0.5833
-      },
-      {
-        "title": "ProShares GENIUS ETF's $17B debut boosts case for tokenized money market funds",
-        "url": "https://cointelegraph.com/news/iqmm-s-17b-debut-strengthens-case-for-tokenized-money-market-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5161,
+        "title": "Gold Pulls Back After Four-Day Ascent as Traders Take Profits",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/gold-rises-for-fifth-day-on-us-tariff-uncertainty-iran-tension",
+        "source": "Bloomberg Markets",
+        "weight": 0.5633,
         "score": 0.6667
+      },
+      {
+        "title": "Amundi Goes Long Japanese Debt for the First Time in Decades",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/amundi-goes-long-japanese-debt-for-the-first-time-in-decades",
+        "source": "Bloomberg Markets",
+        "weight": 0.575,
+        "score": 0.5333
+      },
+      {
+        "title": "Lithium Output at SQM-Codelco Venture Edges Out Forecasts",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-23/lithium-output-at-sqm-codelco-venture-edges-out-forecasts",
+        "source": "Bloomberg Markets",
+        "weight": 0.4899,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Ethereum Founder Vitalik Buterin Continues ETH Selling Spree",
-        "url": "https://decrypt.co/358839/ethereum-founder-vitalik-buterin-continues-eth-selling-spree",
+        "title": "Is Artificial General Intelligence Already Here? One AI Founder Thinks So",
+        "url": "https://decrypt.co/358932/artificial-general-intelligence-already-here-ai-founder",
         "source": "Decrypt",
-        "weight": 0.6797,
+        "weight": 0.5987,
+        "score": -1.0
+      },
+      {
+        "title": "Stocks Slip as Software Selloff Sparks AI Concerns | The Close 2/23/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-24/the-close-2-23-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6151,
         "score": -0.9667
       },
       {
-        "title": "Fancy clothes, mealtime alarms and Disney princess gigs: How GLP-1s are changing people's lives in unexpected ways",
-        "url": "https://www.cnbc.com/2026/02/23/how-glp-1s-are-changing-peoples-lives-in-unexpected-ways.html",
+        "title": "EU postpones vote on U.S. trade deal after Trump’s latest tariff threat",
+        "url": "https://www.cnbc.com/2026/02/23/trump-15percent-global-tariff-europe-eu-uk-reaction.html",
         "source": "CNBC Markets",
-        "weight": 0.5769,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin rebounds after $100B tariff whiplash — but $60k options price target hints at bigger risk",
-        "url": "https://cryptoslate.com/bitcoin-rebounds-above-66k-after-policy-whiplash-but-60k-options-bets-hint-at-bigger-risk/",
-        "source": "CryptoSlate",
-        "weight": 0.5533,
-        "score": -1.0
+        "weight": 0.7708,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.02820979292951,
-          "price_change_24h": 0.01648
+          "volume_mcap_ratio": 1.0056059952118834,
+          "price_change_24h": -0.0159
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4831799226289417,
-          "price_change_24h": 0.02437
+          "volume_mcap_ratio": 0.44024367101430045,
+          "price_change_24h": -0.01081
         }
       ],
       "momentum_shifts": []
