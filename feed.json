@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-24T02:46:34.168810+00:00",
+  "updated_at": "2026-02-24T05:24:05.954030+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.184,
+    "change24h": -0.035,
+    "vol": 0.147,
     "fearGreed": 8,
-    "momentum": -0.331,
-    "regime": "sideways",
+    "momentum": -0.607,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4102,
-    "global_sentiment": 0.3116,
-    "combined_sentiment": 0.4169,
-    "confidence": 0.7371,
+    "crypto_sentiment": 0.2965,
+    "global_sentiment": 0.3048,
+    "combined_sentiment": 0.3311,
+    "confidence": 0.7627,
     "counts": {
-      "crypto": 59,
-      "global": 33
+      "crypto": 48,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 64110,
-      "btc_change_24h": -1.03,
-      "eth_price": 1842.14,
-      "eth_change_24h": -1.15,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 63055,
+      "btc_change_24h": -3.17,
+      "eth_price": 1825.07,
+      "eth_change_24h": -2.28,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187615971841.6,
+        "volume_24h": 179375594427.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.4,
+        "btc_dominance": 57.15,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-10T13:41:19.699913+00:00",
-      "crypto": 0.366,
-      "global": 0.5186,
-      "combined": 0.4011,
-      "counts": {
-        "crypto": 69,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-02-10T17:11:13.195598+00:00",
       "crypto": 0.2468,
@@ -1008,6 +998,16 @@
         "crypto": 59,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-02-24T05:24:05.954030+00:00",
+      "crypto": 0.2965,
+      "global": 0.3048,
+      "combined": 0.3311,
+      "counts": {
+        "crypto": 48,
+        "global": 32
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "Gold Pulls Back After Four-Day Ascent as Traders Take Profits",
         "url": "https://www.bloomberg.com/news/articles/2026-02-23/gold-rises-for-fifth-day-on-us-tariff-uncertainty-iran-tension",
         "source": "Bloomberg Markets",
-        "weight": 0.5633,
+        "weight": 0.4159,
         "score": 0.6667
       },
       {
-        "title": "Amundi Goes Long Japanese Debt for the First Time in Decades",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/amundi-goes-long-japanese-debt-for-the-first-time-in-decades",
+        "title": "Copper Jumps as China Traders Cheer Prospect of Lower US Levies",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-24/copper-jumps-as-china-traders-cheer-prospect-of-lower-us-levies",
         "source": "Bloomberg Markets",
-        "weight": 0.575,
-        "score": 0.5333
+        "weight": 0.5937,
+        "score": 0.3333
       },
       {
-        "title": "Lithium Output at SQM-Codelco Venture Edges Out Forecasts",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-23/lithium-output-at-sqm-codelco-venture-edges-out-forecasts",
+        "title": "Australian Real Estate Firms Buoyed by Staff Returning to Office",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-24/australian-real-estate-firms-buoyed-by-staff-returning-to-office",
         "source": "Bloomberg Markets",
-        "weight": 0.4899,
-        "score": 0.5833
+        "weight": 0.5913,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Is Artificial General Intelligence Already Here? One AI Founder Thinks So",
-        "url": "https://decrypt.co/358932/artificial-general-intelligence-already-here-ai-founder",
-        "source": "Decrypt",
-        "weight": 0.5987,
-        "score": -1.0
-      },
-      {
-        "title": "Stocks Slip as Software Selloff Sparks AI Concerns | The Close 2/23/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-24/the-close-2-23-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6151,
+        "title": "Tether-backed crypto exchange is ditching the ‘retail’ label to build the secret plumbing for Europe’s biggest banks",
+        "url": "https://www.coindesk.com/business/2026/02/23/tether-backed-crypto-exchange-is-ditching-the-retail-label-to-build-the-secret-plumbing-for-europe-s-biggest-banks",
+        "source": "CoinDesk",
+        "weight": 0.9011,
         "score": -0.9667
       },
       {
-        "title": "EU postpones vote on U.S. trade deal after Trump’s latest tariff threat",
-        "url": "https://www.cnbc.com/2026/02/23/trump-15percent-global-tariff-europe-eu-uk-reaction.html",
-        "source": "CNBC Markets",
-        "weight": 0.7708,
-        "score": -0.6667
+        "title": "Terraform Estate Sues Jane Street Over Trades Tied to 2022 Crypto Market Collapse: WSJ",
+        "url": "https://decrypt.co/358936/terraform-estate-sues-jane-street-trades-tied-2022-collapse",
+        "source": "Decrypt",
+        "weight": 0.6962,
+        "score": -1.0
+      },
+      {
+        "title": "3 Solana platforms to shutter following devastating $27M hack",
+        "url": "https://cointelegraph.com/news/step-finance-solanafloor-remora-markets-wind-down-operations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5958,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 1.0056059952118834,
-          "price_change_24h": -0.0159
+          "volume_mcap_ratio": 1.0008659605056311,
+          "price_change_24h": 0.00048
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.44024367101430045,
-          "price_change_24h": -0.01081
+          "volume_mcap_ratio": 0.44205408100816834,
+          "price_change_24h": -0.02143
         }
       ],
       "momentum_shifts": []
