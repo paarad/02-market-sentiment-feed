@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-24T20:19:03.444755+00:00",
+  "updated_at": "2026-02-24T20:45:33.123434+00:00",
   "indicators": {
     "change24h": 0.014,
-    "vol": 0.13,
+    "vol": 0.118,
     "fearGreed": 8,
-    "momentum": 0.244,
+    "momentum": 0.243,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2992,
-    "global_sentiment": 0.433,
-    "combined_sentiment": 0.3438,
-    "confidence": 0.7981,
+    "crypto_sentiment": 0.3212,
+    "global_sentiment": 0.403,
+    "combined_sentiment": 0.3578,
+    "confidence": 0.8051,
     "counts": {
-      "crypto": 49,
+      "crypto": 65,
       "global": 49
     },
     "market_indicators": {
-      "btc_price": 64483,
-      "btc_change_24h": 0.74,
-      "eth_price": 1855.77,
-      "eth_change_24h": 0.35,
+      "btc_price": 64487,
+      "btc_change_24h": 0.39,
+      "eth_price": 1859.28,
+      "eth_change_24h": 0.22,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160984952695.6,
+        "volume_24h": 161866621705.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.47,
+        "btc_dominance": 57.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-11T05:39:06.710198+00:00",
-      "crypto": 0.418,
-      "global": 0.544,
-      "combined": 0.4422,
-      "counts": {
-        "crypto": 70,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-02-11T08:58:18.628165+00:00",
       "crypto": 0.3576,
@@ -1008,6 +998,16 @@
         "crypto": 49,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-02-24T20:45:33.123434+00:00",
+      "crypto": 0.3212,
+      "global": 0.403,
+      "combined": 0.3578,
+      "counts": {
+        "crypto": 65,
+        "global": 49
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Adam Back's BSTR moving forward with public listing plans, hopes for April approval",
         "url": "https://www.coindesk.com/markets/2026/02/24/adam-back-s-bstr-moving-forward-with-public-listing-plans-hopes-for-april-approval",
         "source": "CoinDesk",
-        "weight": 0.5398,
+        "weight": 0.513,
         "score": 1.0
-      },
-      {
-        "title": "Stock Market Today: Dow, S&P 500 Rally After Rout; Electronics Name Explodes Higher (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/74649302-e0f3-3f1b-b191-9ab300a68f5a/stock-market-today%3A-dow%2C-s%26p.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6533,
-        "score": 0.6667
       },
       {
         "title": "Why Is The US Stock Market Up Today?",
         "url": "https://beincrypto.com/why-us-stock-market-is-up-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7231,
+        "weight": 0.6871,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin retakes $64,000, crypto miners rally, as AI-related software rout eases",
+        "url": "https://www.coindesk.com/markets/2026/02/24/bitcoin-retakes-usd64-000-crypto-miners-rally-as-ai-related-software-rout-eases",
+        "source": "CoinDesk",
+        "weight": 0.6861,
         "score": 0.5333
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Millions in crypto funded tools to exploit U.S. software, Treasury says in new sanctions",
         "url": "https://www.coindesk.com/policy/2026/02/24/millions-in-crypto-funded-tools-to-exploit-u-s-software-treasury-says-in-new-sanctions",
         "source": "CoinDesk",
-        "weight": 0.9433,
+        "weight": 0.8964,
         "score": -0.8333
       },
       {
         "title": "AI scare: Citrini's report is just a 'thought experiment' for now",
         "url": "https://finance.yahoo.com/video/ai-scare-citronis-report-just-183000488.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6485,
+        "weight": 0.6162,
         "score": -0.9667
       },
       {
         "title": "Bitcoin slides toward fifth straight monthly loss as $4.5B ETF outflows put $58,000 on the line",
         "url": "https://cryptoslate.com/bitcoin-is-sliding-toward-a-fifth-straight-monthly-loss-and-wall-streets-etf-flows-may-decide-58000/",
         "source": "CryptoSlate",
-        "weight": 0.6832,
+        "weight": 0.6492,
         "score": -0.8
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5860610075925662,
-          "price_change_24h": 0.06615
+          "volume_mcap_ratio": 0.5899956665989311,
+          "price_change_24h": 0.0622
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3916400888727071,
-          "price_change_24h": 0.0269
+          "volume_mcap_ratio": 0.38869262809972466,
+          "price_change_24h": 0.02165
         }
       ],
       "momentum_shifts": []
