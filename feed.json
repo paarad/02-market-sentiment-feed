@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-25T17:14:12.677361+00:00",
+  "updated_at": "2026-02-25T20:20:06.404044+00:00",
   "indicators": {
-    "change24h": 0.121,
-    "vol": 0.319,
+    "change24h": 0.122,
+    "vol": 0.369,
     "fearGreed": 11,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5976,
-    "global_sentiment": 0.4488,
-    "combined_sentiment": 0.5689,
-    "confidence": 0.8181,
+    "crypto_sentiment": 0.6063,
+    "global_sentiment": 0.444,
+    "combined_sentiment": 0.575,
+    "confidence": 0.8034,
     "counts": {
-      "crypto": 60,
-      "global": 43
+      "crypto": 73,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 68526,
-      "btc_change_24h": 6.4,
-      "eth_price": 2065.08,
-      "eth_change_24h": 10.97,
+      "btc_price": 68745,
+      "btc_change_24h": 6.74,
+      "eth_price": 2064.56,
+      "eth_change_24h": 11.45,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 174907971838.6,
+        "volume_24h": 191898410588.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.48,
+        "btc_dominance": 57.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-12T02:52:51.415304+00:00",
-      "crypto": 0.3536,
-      "global": 0.5134,
-      "combined": 0.3913,
-      "counts": {
-        "crypto": 51,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-02-12T05:36:22.614294+00:00",
       "crypto": 0.359,
@@ -1008,66 +998,76 @@
         "crypto": 60,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-02-25T20:20:06.404044+00:00",
+      "crypto": 0.6063,
+      "global": 0.444,
+      "combined": 0.575,
+      "counts": {
+        "crypto": 73,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bond rally stalls as rising risk appetite dulls haven demand",
+        "url": "https://finance.yahoo.com/news/treasuries-head-biggest-drop-week-104148302.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6848,
+        "score": 0.8667
+      },
+      {
         "title": "Solana leads crypto recovery with 10% gain: Is $100 SOL price next?",
         "url": "https://cointelegraph.com/news/solana-leads-crypto-recovery-10-percent-100-dollars-sol-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8457,
+        "weight": 0.5913,
         "score": 1.0
       },
       {
         "title": "CoinDesk 20 performance update: Polkadot (DOT) surges 17.2% as all assets rise",
         "url": "https://www.coindesk.com/coindesk-indices/2026/02/25/coindesk-20-performance-update-polkadot-dot-surges-17-2-as-all-assets-rise",
         "source": "CoinDesk",
-        "weight": 0.8499,
-        "score": 0.8667
-      },
-      {
-        "title": "Circle Stock Jumps Double Digits as It Reports 72% Rise in USDC Circulation",
-        "url": "https://decrypt.co/359097/circle-stock-jumps-double-digits-rise-usdc-circulation",
-        "source": "Decrypt",
-        "weight": 0.6696,
+        "weight": 0.5942,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "The Nasdaq Rallies 1%. The Software Stock Rebound Continues.",
-        "url": "https://finance.yahoo.com/m/3ca5fc7e-57ce-3cd8-a242-c7f5d076c14b/the-nasdaq-rallies-1%25.-the.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7454,
-        "score": -0.9667
+        "title": "Brookfield’s CDK Posts 18% Earnings Drop as Software Fears Grow",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-25/brookfield-s-cdk-posts-18-earnings-drop-as-software-fears-grow",
+        "source": "Bloomberg Markets",
+        "weight": 0.6291,
+        "score": -1.0
       },
       {
-        "title": "VOLATILITY IS THE WORD OF THE YEAR",
-        "url": "https://finance.yahoo.com/news/volatility-word-154500932.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6737,
-        "score": -0.9667
-      },
-      {
-        "title": "These 4 charts show the scale of Novo Nordisk's woes",
-        "url": "https://www.cnbc.com/2026/02/25/novo-nordisk-stock-nvo-lly-eli-lilly-ozempic-weight-loss-obesity.html",
+        "title": "Samsung launches S26 smartphone as sector braces for memory chip crunch",
+        "url": "https://www.cnbc.com/2026/02/25/samsung-launches-s26-smartphone-memory-chip-crunch.html",
         "source": "CNBC Markets",
-        "weight": 0.6418,
-        "score": -0.9333
+        "weight": 0.6109,
+        "score": -0.9667
+      },
+      {
+        "title": "Mortgage rates hit lowest level in nearly 4 years, but homebuyers are still stuck on the sidelines",
+        "url": "https://www.cnbc.com/2026/02/25/mortgage-rates-hit-lowest-level-in-nearly-4-years.html",
+        "source": "CNBC Markets",
+        "weight": 0.4439,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.6946679781226591,
-          "price_change_24h": -0.10215
+          "volume_mcap_ratio": 0.7655172928865552,
+          "price_change_24h": 0.01578
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42657116578750476,
-          "price_change_24h": 0.0125
+          "volume_mcap_ratio": 0.4595184921908063,
+          "price_change_24h": 0.00219
         }
       ],
       "momentum_shifts": []
