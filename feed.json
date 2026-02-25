@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-24T20:45:33.123434+00:00",
+  "updated_at": "2026-02-25T02:47:42.440464+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.118,
-    "fearGreed": 8,
-    "momentum": 0.243,
+    "change24h": 0.055,
+    "vol": 0.186,
+    "fearGreed": 11,
+    "momentum": 0.966,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3212,
-    "global_sentiment": 0.403,
-    "combined_sentiment": 0.3578,
-    "confidence": 0.8051,
+    "crypto_sentiment": 0.3337,
+    "global_sentiment": 0.4547,
+    "combined_sentiment": 0.3715,
+    "confidence": 0.7603,
     "counts": {
-      "crypto": 65,
-      "global": 49
+      "crypto": 66,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 64487,
-      "btc_change_24h": 0.39,
-      "eth_price": 1859.28,
-      "eth_change_24h": 0.22,
+      "btc_price": 65941,
+      "btc_change_24h": 2.82,
+      "eth_price": 1923.65,
+      "eth_change_24h": 4.3,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 8,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161866621705.6,
+        "volume_24h": 176605433147.6,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.45,
+        "btc_dominance": 57.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-11T08:58:18.628165+00:00",
-      "crypto": 0.3576,
-      "global": 0.5158,
-      "combined": 0.3945,
-      "counts": {
-        "crypto": 68,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-02-11T13:26:38.898557+00:00",
       "crypto": 0.3475,
@@ -1008,66 +998,76 @@
         "crypto": 65,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-02-25T02:47:42.440464+00:00",
+      "crypto": 0.3337,
+      "global": 0.4547,
+      "combined": 0.3715,
+      "counts": {
+        "crypto": 66,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Adam Back's BSTR moving forward with public listing plans, hopes for April approval",
-        "url": "https://www.coindesk.com/markets/2026/02/24/adam-back-s-bstr-moving-forward-with-public-listing-plans-hopes-for-april-approval",
-        "source": "CoinDesk",
-        "weight": 0.513,
-        "score": 1.0
+        "title": "Korea’s $2.2 Trillion Rally Takes Market Value Above France’s",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-25/korea-s-2-2-trillion-rally-takes-market-value-above-france-s",
+        "source": "Bloomberg Markets",
+        "weight": 0.7028,
+        "score": 0.8667
       },
       {
-        "title": "Why Is The US Stock Market Up Today?",
-        "url": "https://beincrypto.com/why-us-stock-market-is-up-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6871,
+        "title": "Global crypto market cap up 2.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Bitcoin retakes $64,000, crypto miners rally, as AI-related software rout eases",
-        "url": "https://www.coindesk.com/markets/2026/02/24/bitcoin-retakes-usd64-000-crypto-miners-rally-as-ai-related-software-rout-eases",
-        "source": "CoinDesk",
-        "weight": 0.6861,
+        "title": "The global M&A boom is rolling into 2026 as AI sparks deal frenzy — but cash is getting tight",
+        "url": "https://www.cnbc.com/2026/02/25/global-ma-boom-surges-2026-ai-mega-deals-capital-squeeze-merger-and-acquisition.html",
+        "source": "CNBC Markets",
+        "weight": 0.7985,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Millions in crypto funded tools to exploit U.S. software, Treasury says in new sanctions",
-        "url": "https://www.coindesk.com/policy/2026/02/24/millions-in-crypto-funded-tools-to-exploit-u-s-software-treasury-says-in-new-sanctions",
-        "source": "CoinDesk",
-        "weight": 0.8964,
-        "score": -0.8333
+        "title": "ETH bounces off $1.8K as multiple Ether price metrics point to prolonged weakness",
+        "url": "https://cointelegraph.com/news/eth-bounces-off-1-8k-as-multiple-ether-price-metrics-point-to-prolonged-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5988,
+        "score": -0.8667
       },
       {
-        "title": "AI scare: Citrini's report is just a 'thought experiment' for now",
-        "url": "https://finance.yahoo.com/video/ai-scare-citronis-report-just-183000488.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6162,
-        "score": -0.9667
+        "title": "ESMA warns crypto perpetual derivatives likely fall under CFD rules",
+        "url": "https://cointelegraph.com/news/crypto-derivatives-eu-regulations-esma?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4598,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin slides toward fifth straight monthly loss as $4.5B ETF outflows put $58,000 on the line",
-        "url": "https://cryptoslate.com/bitcoin-is-sliding-toward-a-fifth-straight-monthly-loss-and-wall-streets-etf-flows-may-decide-58000/",
-        "source": "CryptoSlate",
-        "weight": 0.6492,
-        "score": -0.8
+        "title": "Governments are rushing to hoard critical minerals as the 'resource nationalism' era arrives",
+        "url": "https://www.cnbc.com/2026/02/25/critical-minerals-stockpile-race-us-eu-china-resource-nationalism.html",
+        "source": "CNBC Markets",
+        "weight": 0.7226,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5899956665989311,
-          "price_change_24h": 0.0622
+          "volume_mcap_ratio": 0.5913781878498594,
+          "price_change_24h": 0.06826
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38869262809972466,
-          "price_change_24h": 0.02165
+          "volume_mcap_ratio": 0.39329407229628116,
+          "price_change_24h": 0.02668
         }
       ],
       "momentum_shifts": []
