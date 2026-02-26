@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-26T02:42:40.082472+00:00",
+  "updated_at": "2026-02-26T05:22:07.107358+00:00",
   "indicators": {
-    "change24h": 0.065,
-    "vol": 0.216,
+    "change24h": 0.076,
+    "vol": 0.234,
     "fearGreed": 11,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5043,
-    "global_sentiment": 0.5241,
-    "combined_sentiment": 0.5052,
-    "confidence": 0.7442,
+    "crypto_sentiment": 0.499,
+    "global_sentiment": 0.5195,
+    "combined_sentiment": 0.5009,
+    "confidence": 0.7223,
     "counts": {
-      "crypto": 56,
-      "global": 43
+      "crypto": 55,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 67983,
-      "btc_change_24h": 3.1,
-      "eth_price": 2047.94,
-      "eth_change_24h": 6.52,
+      "btc_price": 68258,
+      "btc_change_24h": 4.52,
+      "eth_price": 2060.08,
+      "eth_change_24h": 8.35,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.75,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 215355385343.0,
+        "volume_24h": 203880597208.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-12T13:25:32.698199+00:00",
-      "crypto": 0.4172,
-      "global": 0.5734,
-      "combined": 0.444,
-      "counts": {
-        "crypto": 57,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-02-12T17:06:31.518292+00:00",
       "crypto": 0.4102,
@@ -1008,30 +998,40 @@
         "crypto": 56,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-02-26T05:22:07.107358+00:00",
+      "crypto": 0.499,
+      "global": 0.5195,
+      "combined": 0.5009,
+      "counts": {
+        "crypto": 55,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today, Feb. 25: Novo Nordisk Dips After Announcing $2.1 Billion Partnership With Vivtex for Oral Drug-Delivery Technologies",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-novo-nordisk-dips-after-announcing-usd2-1-billion-partnership-with-vivtex-for-oral-drug-delivery-technologies/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5334,
-        "score": 0.9167
-      },
-      {
-        "title": "Rare-Earth Miner Lynas Posts Earnings Surge, Misses Expectations",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-25/rare-earth-miner-lynas-posts-earnings-surge-misses-expectations",
+        "title": "Hong Kong Exchange’s Quarterly Profit Rises 15% on Trading Jump",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-26/hong-kong-exchange-s-quarterly-profit-rises-15-on-trading-jump",
         "source": "Bloomberg Markets",
-        "weight": 0.5124,
-        "score": 0.8667
+        "weight": 0.7103,
+        "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 3.3% — rally",
+        "title": "Global crypto market cap up 5.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Stock Market Today, Feb. 25: Novo Nordisk Dips After Announcing $2.1 Billion Partnership With Vivtex for Oral Drug-Delivery Technologies",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-novo-nordisk-dips-after-announcing-usd2-1-billion-partnership-with-vivtex-for-oral-drug-delivery-technologies/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3924,
+        "score": 0.9167
       }
     ],
     "negative": [
@@ -1039,40 +1039,40 @@
         "title": "ETHZilla shares pop as it rebrands to Forum in tokenization pivot",
         "url": "https://cointelegraph.com/news/ethzilla-shares-jump-rebrand-forum-tokenization-pivot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7547,
+        "weight": 0.5552,
         "score": -0.9667
       },
       {
         "title": "UK security committee chair urges temp ban on crypto political donations",
         "url": "https://cointelegraph.com/news/uk-temporary-ban-crypto-political-donations-matt-western?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7488,
+        "weight": 0.5508,
         "score": -0.9667
       },
       {
-        "title": "FS KKR Private Credit Fund Cuts Dividend Amid Rise in Bad Loans",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-26/fs-kkr-private-credit-fund-cuts-dividend-amid-rise-in-bad-loans",
-        "source": "Bloomberg Markets",
-        "weight": 0.6069,
-        "score": -1.0
+        "title": "The Trade Desk Inc (TTD) Q4 2025 Earnings Call Highlights: Strong Revenue Growth Amid Market ...",
+        "url": "https://finance.yahoo.com/news/trade-desk-inc-ttd-q4-050052263.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7679,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.8031654096141327,
-          "price_change_24h": 0.10803
+          "volume_mcap_ratio": 0.805368756514671,
+          "price_change_24h": 0.04937
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5020577167635717,
-          "price_change_24h": 0.01983
+          "volume_mcap_ratio": 0.5010470250214649,
+          "price_change_24h": 0.00796
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.3244898452911425,
-          "price_change_24h": 0.04133
+          "volume_mcap_ratio": 0.32718284650523227,
+          "price_change_24h": 2.21758
         }
       ],
       "momentum_shifts": []
