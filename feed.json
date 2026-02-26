@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-26T05:22:07.107358+00:00",
+  "updated_at": "2026-02-26T08:57:42.100216+00:00",
   "indicators": {
-    "change24h": 0.076,
-    "vol": 0.234,
+    "change24h": 0.073,
+    "vol": 0.214,
     "fearGreed": 11,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.499,
-    "global_sentiment": 0.5195,
-    "combined_sentiment": 0.5009,
-    "confidence": 0.7223,
+    "crypto_sentiment": 0.519,
+    "global_sentiment": 0.4772,
+    "combined_sentiment": 0.5124,
+    "confidence": 0.7364,
     "counts": {
-      "crypto": 55,
-      "global": 41
+      "crypto": 69,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 68258,
-      "btc_change_24h": 4.52,
-      "eth_price": 2060.08,
-      "eth_change_24h": 8.35,
+      "btc_price": 67978,
+      "btc_change_24h": 3.73,
+      "eth_price": 2054.32,
+      "eth_change_24h": 7.56,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.75,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 203880597208.0,
-        "high_activity_coins": 3
+        "volume_24h": 223066157054.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.55,
+        "btc_dominance": 57.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-12T17:06:31.518292+00:00",
-      "crypto": 0.4102,
-      "global": 0.5783,
-      "combined": 0.4392,
-      "counts": {
-        "crypto": 58,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-02-12T20:17:41.683691+00:00",
       "crypto": 0.3416,
@@ -1008,71 +998,81 @@
         "crypto": 55,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-02-26T08:57:42.100216+00:00",
+      "crypto": 0.519,
+      "global": 0.4772,
+      "combined": 0.5124,
+      "counts": {
+        "crypto": 69,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Hong Kong Exchange’s Quarterly Profit Rises 15% on Trading Jump",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-26/hong-kong-exchange-s-quarterly-profit-rises-15-on-trading-jump",
+        "title": "Hong Kong’s Top Developer Posts Higher Profit as Market Rebounds",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-26/hong-kong-s-top-developer-posts-higher-profit-as-market-rebounds",
         "source": "Bloomberg Markets",
-        "weight": 0.7103,
-        "score": 0.6667
+        "weight": 0.7663,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 5.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Bitwise: Wall Street bullish on crypto, investors remain skeptical",
+        "url": "https://cointelegraph.com/news/wall-street-loud-crypto-investors-not-listening-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5428,
+        "score": 0.8667
+      },
+      {
+        "title": "Is XRP price setting up for a 20% bounce in March?",
+        "url": "https://cointelegraph.com/news/is-xrp-price-setting-up-20-percent-bounce-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8553,
         "score": 0.5333
-      },
-      {
-        "title": "Stock Market Today, Feb. 25: Novo Nordisk Dips After Announcing $2.1 Billion Partnership With Vivtex for Oral Drug-Delivery Technologies",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-novo-nordisk-dips-after-announcing-usd2-1-billion-partnership-with-vivtex-for-oral-drug-delivery-technologies/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3924,
-        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "ETHZilla shares pop as it rebrands to Forum in tokenization pivot",
-        "url": "https://cointelegraph.com/news/ethzilla-shares-jump-rebrand-forum-tokenization-pivot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5552,
-        "score": -0.9667
+        "title": "Data Center Exposure Is Saving Grace for Construction Firms",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-26/data-center-exposure-is-saving-grace-for-construction-firms",
+        "source": "Bloomberg Markets",
+        "weight": 0.6757,
+        "score": -0.9333
       },
       {
-        "title": "UK security committee chair urges temp ban on crypto political donations",
-        "url": "https://cointelegraph.com/news/uk-temporary-ban-crypto-political-donations-matt-western?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Deutsche Bank-backed AllUnity launches Swiss franc stablecoin CHFAU",
+        "url": "https://cointelegraph.com/news/allunity-swiss-franc-stablecoin-chfau-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5508,
-        "score": -0.9667
-      },
-      {
-        "title": "The Trade Desk Inc (TTD) Q4 2025 Earnings Call Highlights: Strong Revenue Growth Amid Market ...",
-        "url": "https://finance.yahoo.com/news/trade-desk-inc-ttd-q4-050052263.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7679,
+        "weight": 0.7159,
         "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 11 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.805368756514671,
-          "price_change_24h": 0.04937
+          "volume_mcap_ratio": 0.8153809443402097,
+          "price_change_24h": -0.0172
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5010470250214649,
-          "price_change_24h": 0.00796
+          "volume_mcap_ratio": 0.5394553690538122,
+          "price_change_24h": 0.01853
         },
         {
           "symbol": "PEPE",
-          "volume_mcap_ratio": 0.32718284650523227,
-          "price_change_24h": 2.21758
+          "volume_mcap_ratio": 0.3553087060154742,
+          "price_change_24h": 1.63726
         }
       ],
       "momentum_shifts": []
