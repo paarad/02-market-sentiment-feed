@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-25T20:43:01.536513+00:00",
+  "updated_at": "2026-02-26T02:42:40.082472+00:00",
   "indicators": {
-    "change24h": 0.123,
-    "vol": 0.364,
+    "change24h": 0.065,
+    "vol": 0.216,
     "fearGreed": 11,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6135,
-    "global_sentiment": 0.4242,
-    "combined_sentiment": 0.5788,
-    "confidence": 0.8025,
+    "crypto_sentiment": 0.5043,
+    "global_sentiment": 0.5241,
+    "combined_sentiment": 0.5052,
+    "confidence": 0.7442,
     "counts": {
-      "crypto": 72,
-      "global": 46
+      "crypto": 56,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 69116,
-      "btc_change_24h": 7.17,
-      "eth_price": 2069.97,
-      "eth_change_24h": 11.32,
+      "btc_price": 67983,
+      "btc_change_24h": 3.1,
+      "eth_price": 2047.94,
+      "eth_change_24h": 6.52,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 203589608315.0,
-        "high_activity_coins": 2
+        "volume_24h": 215355385343.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.64,
+        "btc_dominance": 57.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-12T08:57:10.565460+00:00",
-      "crypto": 0.3739,
-      "global": 0.5459,
-      "combined": 0.4092,
-      "counts": {
-        "crypto": 61,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-12T13:25:32.698199+00:00",
       "crypto": 0.4172,
@@ -1008,66 +998,81 @@
         "crypto": 72,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-02-26T02:42:40.082472+00:00",
+      "crypto": 0.5043,
+      "global": 0.5241,
+      "combined": 0.5052,
+      "counts": {
+        "crypto": 56,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bond Rally Stalls as Rising Risk Appetite Dulls Haven Demand",
-        "url": "https://finance.yahoo.com/news/treasuries-head-biggest-drop-week-104148302.html?.tsrc=rss",
+        "title": "Stock Market Today, Feb. 25: Novo Nordisk Dips After Announcing $2.1 Billion Partnership With Vivtex for Oral Drug-Delivery Technologies",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/02/25/stock-market-today-feb-25-novo-nordisk-dips-after-announcing-usd2-1-billion-partnership-with-vivtex-for-oral-drug-delivery-technologies/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6553,
+        "weight": 0.5334,
+        "score": 0.9167
+      },
+      {
+        "title": "Rare-Earth Miner Lynas Posts Earnings Surge, Misses Expectations",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-25/rare-earth-miner-lynas-posts-earnings-surge-misses-expectations",
+        "source": "Bloomberg Markets",
+        "weight": 0.5124,
         "score": 0.8667
       },
       {
-        "title": "Solana leads crypto recovery with 10% gain: Is $100 SOL price next?",
-        "url": "https://cointelegraph.com/news/solana-leads-crypto-recovery-10-percent-100-dollars-sol-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5658,
-        "score": 1.0
-      },
-      {
-        "title": "CoinDesk 20 performance update: Polkadot (DOT) surges 17.2% as all assets rise",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/02/25/coindesk-20-performance-update-polkadot-dot-surges-17-2-as-all-assets-rise",
-        "source": "CoinDesk",
-        "weight": 0.5686,
-        "score": 0.8667
+        "title": "Global crypto market cap up 3.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Brookfield’s CDK Posts 18% Earnings Drop as Software Fears Grow",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-25/brookfield-s-cdk-posts-18-earnings-drop-as-software-fears-grow",
-        "source": "Bloomberg Markets",
-        "weight": 0.6019,
-        "score": -1.0
-      },
-      {
-        "title": "Samsung launches S26 smartphone as sector braces for memory chip crunch",
-        "url": "https://www.cnbc.com/2026/02/25/samsung-launches-s26-smartphone-memory-chip-crunch.html",
-        "source": "CNBC Markets",
-        "weight": 0.5845,
+        "title": "ETHZilla shares pop as it rebrands to Forum in tokenization pivot",
+        "url": "https://cointelegraph.com/news/ethzilla-shares-jump-rebrand-forum-tokenization-pivot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7547,
         "score": -0.9667
       },
       {
-        "title": "Jefferies Fund Sued by Investors Over First Brands Collapse",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-25/jefferies-fund-sued-by-investors-over-first-brands-collapse",
+        "title": "UK security committee chair urges temp ban on crypto political donations",
+        "url": "https://cointelegraph.com/news/uk-temporary-ban-crypto-political-donations-matt-western?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7488,
+        "score": -0.9667
+      },
+      {
+        "title": "FS KKR Private Credit Fund Cuts Dividend Amid Rise in Bad Loans",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-26/fs-kkr-private-credit-fund-cuts-dividend-amid-rise-in-bad-loans",
         "source": "Bloomberg Markets",
-        "weight": 0.7504,
-        "score": -0.6667
+        "weight": 0.6069,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.7698412022237581,
-          "price_change_24h": -0.01628
+          "volume_mcap_ratio": 0.8031654096141327,
+          "price_change_24h": 0.10803
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46476725555968884,
-          "price_change_24h": 0.01976
+          "volume_mcap_ratio": 0.5020577167635717,
+          "price_change_24h": 0.01983
+        },
+        {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.3244898452911425,
+          "price_change_24h": 0.04133
         }
       ],
       "momentum_shifts": []
