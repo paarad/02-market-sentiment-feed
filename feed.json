@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-26T13:23:39.972427+00:00",
+  "updated_at": "2026-02-26T17:06:13.785441+00:00",
   "indicators": {
-    "change24h": 0.048,
-    "vol": 0.156,
+    "change24h": -0.037,
+    "vol": 0.158,
     "fearGreed": 11,
-    "momentum": 0.841,
-    "regime": "sideways",
+    "momentum": -0.643,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4784,
-    "global_sentiment": 0.5424,
-    "combined_sentiment": 0.4873,
-    "confidence": 0.7726,
+    "crypto_sentiment": 0.4412,
+    "global_sentiment": 0.4725,
+    "combined_sentiment": 0.4536,
+    "confidence": 0.8041,
     "counts": {
-      "crypto": 53,
-      "global": 44
+      "crypto": 51,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 68015,
-      "btc_change_24h": 2.95,
-      "eth_price": 2063.44,
-      "eth_change_24h": 5.4,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "btc_price": 66884,
+      "btc_change_24h": -1.92,
+      "eth_price": 1990.52,
+      "eth_change_24h": -3.19,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 230931597395.0,
+        "volume_24h": 216247587443.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.46,
+        "btc_dominance": 57.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-12T20:42:59.196176+00:00",
-      "crypto": 0.341,
-      "global": 0.429,
-      "combined": 0.3748,
-      "counts": {
-        "crypto": 44,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-02-13T02:52:46.956721+00:00",
       "crypto": 0.3761,
@@ -1008,71 +998,81 @@
         "crypto": 53,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-02-26T17:06:13.785441+00:00",
+      "crypto": 0.4412,
+      "global": 0.4725,
+      "combined": 0.4536,
+      "counts": {
+        "crypto": 51,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Circle’s $461M payout shows who captures USDC yield — and it’s not Circle",
-        "url": "https://cryptoslate.com/circles-461m-payout-shows-who-captures-usdc-yield-and-its-not-circle/",
-        "source": "CryptoSlate",
-        "weight": 0.6546,
-        "score": 0.8
+        "title": "Ethereum reclaims $2K as volatility spike backs ETH price recovery",
+        "url": "https://cointelegraph.com/news/ethereum-reclaims-2k-volatility-spike-backs-eth-price-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8261,
+        "score": 0.8667
       },
       {
-        "title": "Here’s Why Aristotle Growth Equity Fund Sold Linde (LIN)",
-        "url": "https://finance.yahoo.com/news/why-aristotle-growth-equity-fund-130855574.html?.tsrc=rss",
+        "title": "Axon Stock Surges; How Taser Maker Disarmed AI Software Doubts",
+        "url": "https://finance.yahoo.com/m/061574cc-b4c0-38a5-98d8-16e8db20a70b/axon-stock-surges%3B-how-taser.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7776,
+        "weight": 0.7224,
         "score": 0.6667
       },
       {
-        "title": "Aristotle Growth Equity Fund Sold Alexandria Real Estate Equities (ARE) Due to Weak Market Expectation",
-        "url": "https://finance.yahoo.com/news/aristotle-growth-equity-fund-sold-130549910.html?.tsrc=rss",
+        "title": "Why Nvidia’s Huge Numbers Don’t Settle the Latest AI Fears",
+        "url": "https://finance.yahoo.com/m/f40ac609-e6cc-3089-979e-d6fc6be174fe/why-nvidia%E2%80%99s-huge-numbers.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.773,
+        "weight": 0.6763,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "The 10 a.m. mystery: Why bitcoin’s daily ‘price slam’ suddenly vanished after a massive lawsuit",
-        "url": "https://www.coindesk.com/markets/2026/02/26/why-crypto-x-thinks-jane-street-crashed-bitcoin-and-what-s-actually-behind-the-10-am-slam",
+        "title": "Nvidia Stock Slumps. Why Wall Street Analysts Loved the Earnings.",
+        "url": "https://finance.yahoo.com/m/d5b62309-a040-398e-9547-fae019bf6d70/nvidia-stock-slumps.-why-wall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6855,
+        "score": -0.9667
+      },
+      {
+        "title": "Ethereum Foundation drops most ambitious roadmap in years, targets finality in seconds by 2029",
+        "url": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
         "source": "CoinDesk",
-        "weight": 0.6785,
+        "weight": 0.6656,
+        "score": -0.9667
+      },
+      {
+        "title": "Analysts reject Jane Street ‘10 a.m. dump’ claims, say Bitcoin isn’t easily manipulated",
+        "url": "https://cointelegraph.com/news/bitcoin-10am-dump-theory-jane-street-ibit-13f-terraform-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6091,
         "score": -1.0
-      },
-      {
-        "title": "U.S. warns Iran's reluctance to discuss weapons is a 'big, big problem' as fresh talks begin",
-        "url": "https://www.cnbc.com/2026/02/26/us-iran-nuclear-weapons-talks-rubio-geneva-ballistic-missiles.html",
-        "source": "CNBC Markets",
-        "weight": 0.6825,
-        "score": -0.9667
-      },
-      {
-        "title": "Rubio Says US to Investigate Deadly Cuba Speedboat Shooting",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-26/rubio-says-us-to-investigate-cuba-speedboat-shooting-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6553,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.8422014487359344,
-          "price_change_24h": -0.07698
+          "volume_mcap_ratio": 0.8872023520024275,
+          "price_change_24h": -0.1624
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5326131664840011,
-          "price_change_24h": 0.01461
+          "volume_mcap_ratio": 0.5062357234840604,
+          "price_change_24h": -0.01438
         },
         {
           "symbol": "AAVE",
-          "volume_mcap_ratio": 0.3601865445643028,
-          "price_change_24h": -2.34861
+          "volume_mcap_ratio": 0.5013483060880394,
+          "price_change_24h": -6.39044
         }
       ],
       "momentum_shifts": []
