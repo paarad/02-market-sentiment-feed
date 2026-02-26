@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-26T20:19:45.750758+00:00",
+  "updated_at": "2026-02-26T20:48:10.016710+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.197,
+    "change24h": -0.039,
+    "vol": 0.2,
     "fearGreed": 11,
-    "momentum": -0.484,
+    "momentum": -0.674,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.496,
-    "global_sentiment": 0.3936,
-    "combined_sentiment": 0.4881,
-    "confidence": 0.7902,
+    "crypto_sentiment": 0.4946,
+    "global_sentiment": 0.3844,
+    "combined_sentiment": 0.4863,
+    "confidence": 0.783,
     "counts": {
       "crypto": 63,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 67730,
-      "btc_change_24h": -1.53,
-      "eth_price": 2034.79,
-      "eth_change_24h": -1.53,
+      "btc_price": 67434,
+      "btc_change_24h": -2.67,
+      "eth_price": 2028.16,
+      "eth_change_24h": -2.4,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 199445966073.0,
+        "volume_24h": 198195822567.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.56,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-13T05:23:50.937826+00:00",
-      "crypto": 0.3408,
-      "global": 0.4083,
-      "combined": 0.373,
-      "counts": {
-        "crypto": 63,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-13T08:53:54.911398+00:00",
       "crypto": 0.3398,
@@ -1008,6 +998,16 @@
         "crypto": 63,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-02-26T20:48:10.016710+00:00",
+      "crypto": 0.4946,
+      "global": 0.3844,
+      "combined": 0.4863,
+      "counts": {
+        "crypto": 63,
+        "global": 42
+      }
     }
   ],
   "drivers": {
@@ -1016,63 +1016,63 @@
         "title": "Circle's post-earnings surge nears 50% as short squeeze, not strong financials, fuels rally",
         "url": "https://www.coindesk.com/markets/2026/02/26/circle-s-post-earnings-surge-nears-50-as-short-squeeze-not-strong-financials-fuels-rally",
         "source": "CoinDesk",
-        "weight": 0.7389,
+        "weight": 0.6996,
         "score": 1.0
       },
       {
         "title": "Ethereum reclaims $2K as volatility spike backs ETH price recovery",
         "url": "https://cointelegraph.com/news/ethereum-reclaims-2k-volatility-spike-backs-eth-price-recovery?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5691,
+        "weight": 0.5389,
         "score": 0.8667
       },
       {
         "title": "Bitcoin bear market may end if bulls reclaim $74.5K: Here’s why",
         "url": "https://cointelegraph.com/news/bitcoin-bear-market-may-end-if-bulls-reclaim-dollar74-5k-here-s-why?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7884,
+        "weight": 0.7464,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Nasdaq Sinks As Nvidia Extends Losses; This Chip Gear Maker Tumbles (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/349e7a6b-df1f-3771-871b-2d425ed94e2d/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "Sector Update: Energy",
+        "url": "https://finance.yahoo.com/news/sector-energy-204014124.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7356,
-        "score": -1.0
+        "weight": 0.7879,
+        "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 11 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "Ethereum Foundation drops most ambitious roadmap in years, targets finality in seconds by 2029",
         "url": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
         "source": "CoinDesk",
-        "weight": 0.4585,
+        "weight": 0.4341,
         "score": -0.9667
-      },
-      {
-        "title": "Sector Update: Energy Stocks Higher Thursday Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-higher-thursday-190754834.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6966,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.9016525170043005,
-          "price_change_24h": 0.02146
+          "volume_mcap_ratio": 0.9032790468925457,
+          "price_change_24h": -0.06672
         },
         {
           "symbol": "AAVE",
-          "volume_mcap_ratio": 0.625782243546575,
-          "price_change_24h": -5.85678
+          "volume_mcap_ratio": 0.638135266564646,
+          "price_change_24h": -6.81162
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47281306978319737,
-          "price_change_24h": -0.00835
+          "volume_mcap_ratio": 0.4695066737844864,
+          "price_change_24h": -0.01848
         }
       ],
       "momentum_shifts": []
