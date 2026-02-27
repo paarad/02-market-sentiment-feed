@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-27T02:41:26.184696+00:00",
+  "updated_at": "2026-02-27T05:17:16.981489+00:00",
   "indicators": {
-    "change24h": -0.016,
-    "vol": 0.087,
+    "change24h": -0.002,
+    "vol": 0.101,
     "fearGreed": 13,
-    "momentum": -0.285,
-    "regime": "bear",
+    "momentum": -0.027,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4697,
-    "global_sentiment": 0.5104,
-    "combined_sentiment": 0.4782,
-    "confidence": 0.7653,
+    "crypto_sentiment": 0.5072,
+    "global_sentiment": 0.626,
+    "combined_sentiment": 0.5159,
+    "confidence": 0.7214,
     "counts": {
-      "crypto": 51,
-      "global": 32
+      "crypto": 46,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 67469,
-      "btc_change_24h": -0.8,
-      "eth_price": 2030.86,
-      "eth_change_24h": -0.99,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 67867,
+      "btc_change_24h": -0.54,
+      "eth_price": 2046.49,
+      "eth_change_24h": -0.69,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166692911179.0,
+        "volume_24h": 171882336880.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.44,
+        "btc_dominance": 57.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-13T13:17:19.062425+00:00",
-      "crypto": 0.29,
-      "global": 0.4559,
-      "combined": 0.3388,
-      "counts": {
-        "crypto": 49,
-        "global": 52
-      }
-    },
     {
       "ts": "2026-02-13T16:57:19.061260+00:00",
       "crypto": 0.3897,
@@ -1008,71 +998,81 @@
         "crypto": 51,
         "global": 32
       }
+    },
+    {
+      "ts": "2026-02-27T05:17:16.981489+00:00",
+      "crypto": 0.5072,
+      "global": 0.626,
+      "combined": 0.5159,
+      "counts": {
+        "crypto": 46,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Korea’s $1 Trillion Pension Fund Has Record Gains on Kospi Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-27/korea-s-1-trillion-pension-fund-has-record-gains-on-kospi-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.6638,
+        "score": 0.8667
+      },
+      {
         "title": "Compass to Share Listings with Rocket in New Partnership",
         "url": "https://finance.yahoo.com/m/556b326d-0a2b-3671-80e7-164cea501be9/compass-to-share-listings.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.648,
+        "weight": 0.48,
         "score": 1.0
       },
       {
-        "title": "Bitcoin’s 100 BTC club edges toward 20K wallets in a ‘bullish sign’",
-        "url": "https://cointelegraph.com/news/bitcoin-large-wallet-holders-growing-bullish-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.9294,
-        "score": 0.5333
-      },
-      {
-        "title": "Redfin Will Display Compass’s Exclusive Home Listings",
-        "url": "https://finance.yahoo.com/m/447d0dd5-6941-3400-a9de-84c052747a11/redfin-will-display-compass%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5773,
-        "score": 0.6333
+        "title": "HK Government to Inject New Capital Into Investment Fund",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-27/hk-govt-to-inject-new-capital-into-investment-fund-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7696,
+        "score": 0.5833
       }
     ],
     "negative": [
-      {
-        "title": "Hillary Clinton Deposed by House Panel About Epstein",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-26/hillary-clinton-testifies-before-house-about-epstein-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.509,
-        "score": -0.9667
-      },
-      {
-        "title": "There’s a New DeFi Bill in Congress—What Does That Mean for Crypto Market Structure?",
-        "url": "https://decrypt.co/359343/new-defi-bill-congress-what-mean-crypto-market-structure",
-        "source": "Decrypt",
-        "weight": 0.4945,
-        "score": -0.9667
-      },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "There’s a New DeFi Bill in Congress—What Does That Mean for Crypto Market Structure?",
+        "url": "https://decrypt.co/359343/new-defi-bill-congress-what-mean-crypto-market-structure",
+        "source": "Decrypt",
+        "weight": 0.3663,
+        "score": -0.9667
+      },
+      {
+        "title": "U.S. regulator's GENIUS pitch casts dark cloud over crypto sector's stablecoin model",
+        "url": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
+        "source": "CoinDesk",
+        "weight": 0.4296,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.8828477902762776,
-          "price_change_24h": 0.00329
-        },
-        {
-          "symbol": "AAVE",
-          "volume_mcap_ratio": 0.6169271688778,
-          "price_change_24h": -3.38241
+          "volume_mcap_ratio": 0.8786416050689142,
+          "price_change_24h": -0.00938
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3939211227466807,
-          "price_change_24h": -0.00713
+          "volume_mcap_ratio": 0.39552991654180975,
+          "price_change_24h": 0.00449
+        },
+        {
+          "symbol": "PEPE",
+          "volume_mcap_ratio": 0.30340282683535674,
+          "price_change_24h": -4.50399
         }
       ],
       "momentum_shifts": []
