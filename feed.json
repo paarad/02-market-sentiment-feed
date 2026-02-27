@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-27T16:49:50.421256+00:00",
+  "updated_at": "2026-02-27T20:01:53.724567+00:00",
   "indicators": {
-    "change24h": -0.031,
-    "vol": 0.112,
+    "change24h": -0.052,
+    "vol": 0.15,
     "fearGreed": 13,
-    "momentum": -0.538,
+    "momentum": -0.905,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4155,
-    "global_sentiment": 0.4537,
-    "combined_sentiment": 0.4328,
-    "confidence": 0.7902,
+    "crypto_sentiment": 0.4453,
+    "global_sentiment": 0.4181,
+    "combined_sentiment": 0.4522,
+    "confidence": 0.8077,
     "counts": {
-      "crypto": 52,
+      "crypto": 55,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 65562,
-      "btc_change_24h": -2.1,
-      "eth_price": 1927.47,
-      "eth_change_24h": -3.56,
+      "btc_price": 65404,
+      "btc_change_24h": -3.5,
+      "eth_price": 1921.05,
+      "eth_change_24h": -5.75,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168106576363.0,
-        "high_activity_coins": 3
+        "volume_24h": 160391866380.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.4,
+        "btc_dominance": 57.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-14T02:40:39.448811+00:00",
-      "crypto": 0.4142,
-      "global": 0.3508,
-      "combined": 0.4233,
-      "counts": {
-        "crypto": 50,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-02-14T05:11:58.342190+00:00",
       "crypto": 0.4196,
@@ -1008,30 +998,40 @@
         "crypto": 52,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-27T20:01:53.724567+00:00",
+      "crypto": 0.4453,
+      "global": 0.4181,
+      "combined": 0.4522,
+      "counts": {
+        "crypto": 55,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stocks to Watch Friday: Nvidia, Dell, Duolingo, Compass",
-        "url": "https://finance.yahoo.com/m/34e4596a-8cf7-32f8-b757-3a2b0b6fa65f/stocks-to-watch-friday%3A.html?.tsrc=rss",
+        "title": "3 Reasons to Sell RUSHA and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/news/3-reasons-sell-rusha-1-183132390.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6969,
+        "weight": 0.6722,
         "score": 1.0
       },
       {
-        "title": "What Makes Occidental Petroleum Corporation (OXY) an Investment Bet?",
-        "url": "https://finance.yahoo.com/news/makes-occidental-petroleum-corporation-oxy-152705720.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6822,
-        "score": 1.0
+        "title": "WBD and Paramount may have an easier time winning regulatory approval than Netflix",
+        "url": "https://www.cnbc.com/2026/02/27/warner-bros-paramount-skydance-netflix-deal.html",
+        "source": "CNBC Markets",
+        "weight": 0.791,
+        "score": 0.5833
       },
       {
-        "title": "Netflix Option Trader Sitting on $16 Million Paper Gain After Warner Bros. Bid Pulled",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-27/bullish-netflix-option-trader-sitting-on-16-million-paper-gain",
-        "source": "Bloomberg Markets",
-        "weight": 0.6796,
-        "score": 1.0
+        "title": "3 Reasons to Avoid QSR and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/news/3-reasons-avoid-qsr-1-182132559.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6594,
+        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,40 +1039,35 @@
         "title": "Trump Faces 2,000 Tariff Lawsuits Following Supreme Court Loss",
         "url": "https://www.bloomberg.com/news/articles/2026-02-27/trump-faces-2-000-tariff-lawsuits-following-supreme-court-loss",
         "source": "Bloomberg Markets",
-        "weight": 0.7413,
+        "weight": 0.5121,
         "score": -1.0
       },
       {
         "title": "Crypto taxes updated, BTC stuck below $70K: Month in charts",
         "url": "https://cointelegraph.com/news/crypto-taxes-btc-stuck-70k-month-in-charts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7911,
+        "weight": 0.5466,
         "score": -0.9333
       },
       {
-        "title": "AI Fears Set to Raise Cost of Private Loan for Insurance Broker",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-27/ai-fears-set-to-raise-cost-of-private-loan-for-insurance-broker",
-        "source": "Bloomberg Markets",
-        "weight": 0.6661,
-        "score": -0.9667
+        "title": "Stock Market Today: Dow Sinks On Hot Inflation; Nvidia Dives On OpenAI Deal (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7257,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.550572366928413,
-          "price_change_24h": -0.0891
+          "volume_mcap_ratio": 0.44285657199279227,
+          "price_change_24h": -0.02914
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40472943457894617,
-          "price_change_24h": 0.00445
-        },
-        {
-          "symbol": "AAVE",
-          "volume_mcap_ratio": 0.391281418402681,
-          "price_change_24h": -0.80694
+          "volume_mcap_ratio": 0.38572318568347164,
+          "price_change_24h": -0.00676
         }
       ],
       "momentum_shifts": []
