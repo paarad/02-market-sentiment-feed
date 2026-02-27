@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-27T08:51:58.995495+00:00",
+  "updated_at": "2026-02-27T13:14:35.425778+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.095,
+    "change24h": -0.046,
+    "vol": 0.131,
     "fearGreed": 13,
-    "momentum": -0.065,
-    "regime": "sideways",
+    "momentum": -0.806,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.457,
-    "global_sentiment": 0.4703,
-    "combined_sentiment": 0.4653,
-    "confidence": 0.7236,
+    "crypto_sentiment": 0.4253,
+    "global_sentiment": 0.389,
+    "combined_sentiment": 0.4347,
+    "confidence": 0.7685,
     "counts": {
-      "crypto": 48,
-      "global": 42
+      "crypto": 50,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 67982,
-      "btc_change_24h": -0.11,
-      "eth_price": 2034.44,
-      "eth_change_24h": -0.97,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 66038,
+      "btc_change_24h": -2.93,
+      "eth_price": 1960.63,
+      "eth_change_24h": -5.06,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 164702775523.0,
-        "high_activity_coins": 3
+        "volume_24h": 173403284215.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.56,
+        "btc_dominance": 57.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-13T20:18:38.601166+00:00",
-      "crypto": 0.3914,
-      "global": 0.5011,
-      "combined": 0.4186,
-      "counts": {
-        "crypto": 49,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-02-13T20:49:14.525133+00:00",
       "crypto": 0.4037,
@@ -1008,71 +998,81 @@
         "crypto": 48,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-02-27T13:14:35.425778+00:00",
+      "crypto": 0.4253,
+      "global": 0.389,
+      "combined": 0.4347,
+      "counts": {
+        "crypto": 50,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global Funds Dump Nearly $5 Billion of Korean Stocks After Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-27/global-funds-dump-nearly-5-billion-of-korean-stocks-after-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.6377,
+        "title": "Dow Jones Futures Fall, S&P 500 To Test Support On AI Fears; Block, Netflix, Applied Opto Lead Big Movers",
+        "url": "https://finance.yahoo.com/m/c0f5464d-1082-3ab7-a423-4bd2eba44da7/dow-jones-futures-fall%2C-s%26p.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7778,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin’s 100 BTC club edges toward 20K wallets in a ‘bullish sign’",
-        "url": "https://cointelegraph.com/news/bitcoin-large-wallet-holders-growing-bullish-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Pantera, Franklin Templeton join Sentient Arena to test AI agents",
+        "url": "https://cointelegraph.com/news/sentient-arena-tests-ai-agents-pantera-franklin-templeton?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4554,
-        "score": 0.8667
+        "weight": 0.7304,
+        "score": 0.6667
       },
       {
-        "title": "XRPL Foundation patches ‘critical’ flaw that almost made it to mainnet",
-        "url": "https://cointelegraph.com/news/ai-tool-and-security-engineer-catch-critical-xrp-ledger-bug-before-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5929,
-        "score": 0.6333
+        "title": "Rightmove Rally Gives AI Selloff Victim FTSE 100 Survival Hope",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-27/rightmove-rally-gives-ai-selloff-victim-ftse-100-survival-hope",
+        "source": "Bloomberg Markets",
+        "weight": 0.6854,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Pharma Drives Swiss Growth Recovery After US Tariff Shock",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-27/pharma-drives-swiss-growth-recovery-after-us-tariff-shock",
-        "source": "Bloomberg Markets",
-        "weight": 0.7238,
-        "score": -1.0
+        "title": "Stock Market Today: Dow Falls Ahead Of Inflation Data; Nvidia Partner CoreWeave Takes A Plunge (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/6321d290-afe8-3442-b334-34bd0776a36f/stock-market-today%3A-dow-falls.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7771,
+        "score": -0.9667
       },
       {
-        "title": "Rightmove CEO Sees AI Opportunities, Says Peers Will Survive",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-27/rightmove-ceo-sees-ai-opportunities-says-peers-will-survive",
+        "title": "Novo Nordisk’s Torrid Week Erases Last of Wegovy-Fueled Gains",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-27/novo-nordisk-s-torrid-week-erases-last-of-wegovy-fueled-gains",
         "source": "Bloomberg Markets",
-        "weight": 0.7573,
+        "weight": 0.6134,
+        "score": -0.9333
+      },
+      {
+        "title": "Last time software underperformed the S&P 500 so much? The dotcom bust",
+        "url": "https://finance.yahoo.com/news/last-time-software-underperformed-p-125223450.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7665,
         "score": -0.6333
-      },
-      {
-        "title": "Floods in Major Growing State Dent Malaysia Palm Oil Output",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-27/floods-in-major-growing-state-dent-malaysia-palm-oil-output",
-        "source": "Bloomberg Markets",
-        "weight": 0.6869,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "AAVE",
-          "volume_mcap_ratio": 0.6261519825485297,
-          "price_change_24h": 5.68219
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.7104861496593623,
+          "price_change_24h": 0.01792
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.6158407712163404,
-          "price_change_24h": 0.12143
+          "symbol": "AAVE",
+          "volume_mcap_ratio": 0.5380334831312424,
+          "price_change_24h": 0.98986
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39098933845248507,
-          "price_change_24h": -0.005
+          "volume_mcap_ratio": 0.42047859032983764,
+          "price_change_24h": -0.00543
         }
       ],
       "momentum_shifts": []
