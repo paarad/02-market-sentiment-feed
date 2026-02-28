@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-28T08:37:53.250569+00:00",
+  "updated_at": "2026-02-28T13:00:45.989901+00:00",
   "indicators": {
-    "change24h": -0.102,
-    "vol": 0.283,
+    "change24h": -0.058,
+    "vol": 0.182,
     "fearGreed": 11,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3547,
-    "global_sentiment": 0.4649,
-    "combined_sentiment": 0.3881,
-    "confidence": 0.6892,
+    "crypto_sentiment": 0.3569,
+    "global_sentiment": 0.5456,
+    "combined_sentiment": 0.3965,
+    "confidence": 0.698,
     "counts": {
-      "crypto": 54,
-      "global": 38
+      "crypto": 57,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 63613,
-      "btc_change_24h": -6.18,
-      "eth_price": 1860.15,
-      "eth_change_24h": -8.42,
+      "btc_price": 64000,
+      "btc_change_24h": -2.76,
+      "eth_price": 1868.13,
+      "eth_change_24h": -4.6,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.2,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178367499918.0,
-        "high_activity_coins": 2
+        "volume_24h": 161461528149.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.23,
+        "btc_dominance": 57.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-14T19:56:29.162998+00:00",
-      "crypto": 0.5405,
-      "global": 0.4828,
-      "combined": 0.529,
-      "counts": {
-        "crypto": 62,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-14T20:35:08.021857+00:00",
       "crypto": 0.5398,
@@ -1008,66 +998,81 @@
         "crypto": 54,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-02-28T13:00:45.989901+00:00",
+      "crypto": 0.3569,
+      "global": 0.5456,
+      "combined": 0.3965,
+      "counts": {
+        "crypto": 57,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Africa's Critical Minerals Moment | Bloomberg Next Africa",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-28/africa-s-critical-mineral-moment-bloomberg-next-africa-video",
+        "title": "Iran TV Shows Tehran Destruction After US-Israel Attacks",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-28/iran-tv-shows-tehran-destruction-after-us-israel-attacks-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5983,
+        "weight": 0.6763,
         "score": 0.6667
       },
       {
-        "title": "Is Regeneron Pharmaceuticals Stock Underperforming the Nasdaq?",
-        "url": "https://www.barchart.com/story/news/483007/is-regeneron-pharmaceuticals-stock-underperforming-the-nasdaq?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5465,
+        "title": "Oil-linked futures on Hyperliquid surge 5% after U.S.-Israel strike on Iran",
+        "url": "https://www.coindesk.com/markets/2026/02/28/oil-linked-futures-on-hyperliquid-surge-5-after-u-s-israel-strike-on-iran",
+        "source": "CoinDesk",
+        "weight": 0.728,
         "score": 0.5333
       },
       {
-        "title": "Duolingo Looks to Double Daily Active Users to 100M by 2028",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-27/duolingo-looks-to-double-daily-active-users-by-2028-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.2765,
-        "score": 1.0
+        "title": "Forget Tariffs! If a Stock Market Crash Occurs Under President Donald Trump, It'll Likely Be Caused by These 3 Catalysts.",
+        "url": "https://www.fool.com/investing/2026/02/28/forget-tariffs-stock-market-crash-donald-trump/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5291,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
-        "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5257,
-        "score": -1.0
-      },
-      {
-        "title": "OpenAI wins defense contract hours after government ditches Anthropic",
-        "url": "https://cointelegraph.com/news/openai-defense-contract-anthropic-ban-classified-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6834,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "XRP Ledger nearly shipped a feature that could drain accounts without owners signing",
+        "url": "https://cryptoslate.com/xrp-ledger-xrpl-averts-critical-security-flaw-with-ai/",
+        "source": "CryptoSlate",
+        "weight": 0.5941,
+        "score": -0.6333
+      },
+      {
+        "title": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
+        "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3169,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4101294754827068,
-          "price_change_24h": 0.00701
+          "symbol": "PAXG",
+          "volume_mcap_ratio": 0.4187791834846675,
+          "price_change_24h": 4.63661
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3941253572691844,
-          "price_change_24h": -0.09304
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3932175886424451,
+          "price_change_24h": 0.01978
+        },
+        {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.3901337389641826,
+          "price_change_24h": 3.2446
         }
       ],
       "momentum_shifts": []
