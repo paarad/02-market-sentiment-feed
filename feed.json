@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-28T13:00:45.989901+00:00",
+  "updated_at": "2026-02-28T16:36:03.058373+00:00",
   "indicators": {
-    "change24h": -0.058,
-    "vol": 0.182,
+    "change24h": -0.034,
+    "vol": 0.121,
     "fearGreed": 11,
-    "momentum": -1.0,
+    "momentum": -0.599,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3569,
-    "global_sentiment": 0.5456,
-    "combined_sentiment": 0.3965,
-    "confidence": 0.698,
+    "crypto_sentiment": 0.3689,
+    "global_sentiment": 0.5815,
+    "combined_sentiment": 0.4085,
+    "confidence": 0.6922,
     "counts": {
-      "crypto": 57,
-      "global": 39
+      "crypto": 49,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 64000,
-      "btc_change_24h": -2.76,
-      "eth_price": 1868.13,
-      "eth_change_24h": -4.6,
+      "btc_price": 64980,
+      "btc_change_24h": -1.58,
+      "eth_price": 1899.77,
+      "eth_change_24h": -2.21,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161461528149.0,
+        "volume_24h": 158225709066.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.33,
+        "btc_dominance": 57.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-14T20:35:08.021857+00:00",
-      "crypto": 0.5398,
-      "global": 0.4269,
-      "combined": 0.5237,
-      "counts": {
-        "crypto": 48,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-15T02:54:07.351945+00:00",
       "crypto": 0.5619,
@@ -1008,71 +998,81 @@
         "crypto": 57,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-28T16:36:03.058373+00:00",
+      "crypto": 0.3689,
+      "global": 0.5815,
+      "combined": 0.4085,
+      "counts": {
+        "crypto": 49,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Iran TV Shows Tehran Destruction After US-Israel Attacks",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-28/iran-tv-shows-tehran-destruction-after-us-israel-attacks-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6763,
-        "score": 0.6667
+        "title": "Ameriprise Financial, Inc. (AMP): A Bull Case Theory",
+        "url": "https://finance.yahoo.com/news/ameriprise-financial-inc-amp-bull-134729105.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5783,
+        "score": 0.8667
       },
       {
-        "title": "Oil-linked futures on Hyperliquid surge 5% after U.S.-Israel strike on Iran",
-        "url": "https://www.coindesk.com/markets/2026/02/28/oil-linked-futures-on-hyperliquid-surge-5-after-u-s-israel-strike-on-iran",
+        "title": "XRP tumbles 9% as break below $1.36 wipes out relief rally",
+        "url": "https://www.coindesk.com/markets/2026/02/28/xrp-tumbles-9-as-break-below-usd1-36-wipes-out-relief-rally",
         "source": "CoinDesk",
-        "weight": 0.728,
+        "weight": 0.8387,
         "score": 0.5333
       },
       {
-        "title": "Forget Tariffs! If a Stock Market Crash Occurs Under President Donald Trump, It'll Likely Be Caused by These 3 Catalysts.",
-        "url": "https://www.fool.com/investing/2026/02/28/forget-tariffs-stock-market-crash-donald-trump/?.tsrc=rss",
+        "title": "Rowe Price Group, Inc. (TROW): A Bull Case Theory",
+        "url": "https://finance.yahoo.com/news/rowe-price-group-inc-trow-155815878.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5291,
+        "weight": 0.7438,
         "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Crypto community fear of Iran choking oil supply and crashing markets may be overblown",
+        "url": "https://www.coindesk.com/markets/2026/02/28/crypto-community-fears-iran-choking-oil-supply-and-crashing-markets-but-that-may-be-overblown",
+        "source": "CoinDesk",
+        "weight": 0.8924,
+        "score": -0.6333
+      },
+      {
+        "title": "Why Leaders Should Rethink the Way They Handle Mistakes",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-28/why-leaders-should-rethink-the-way-they-handle-mistakes-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5343,
+        "score": -0.8
+      },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "XRP Ledger nearly shipped a feature that could drain accounts without owners signing",
-        "url": "https://cryptoslate.com/xrp-ledger-xrpl-averts-critical-security-flaw-with-ai/",
-        "source": "CryptoSlate",
-        "weight": 0.5941,
-        "score": -0.6333
-      },
-      {
-        "title": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
-        "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3169,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.43725005964564373,
+          "price_change_24h": 2.21716
+        },
+        {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4187791834846675,
-          "price_change_24h": 4.63661
+          "volume_mcap_ratio": 0.4206774347842467,
+          "price_change_24h": 3.27848
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3932175886424451,
-          "price_change_24h": 0.01978
-        },
-        {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3901337389641826,
-          "price_change_24h": 3.2446
+          "volume_mcap_ratio": 0.3855843382877545,
+          "price_change_24h": 0.01429
         }
       ],
       "momentum_shifts": []
