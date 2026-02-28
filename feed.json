@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-28T19:54:25.193273+00:00",
+  "updated_at": "2026-02-28T20:34:29.399582+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.144,
+    "change24h": 0.025,
+    "vol": 0.152,
     "fearGreed": 11,
-    "momentum": 0.275,
+    "momentum": 0.439,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3919,
-    "global_sentiment": 0.5303,
-    "combined_sentiment": 0.4215,
-    "confidence": 0.6895,
+    "crypto_sentiment": 0.4681,
+    "global_sentiment": 0.4875,
+    "combined_sentiment": 0.475,
+    "confidence": 0.6524,
     "counts": {
-      "crypto": 68,
-      "global": 37
+      "crypto": 46,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 66518,
-      "btc_change_24h": 1.71,
-      "eth_price": 1949.17,
-      "eth_change_24h": 1.47,
+      "btc_price": 66778,
+      "btc_change_24h": 1.84,
+      "eth_price": 1958.11,
+      "eth_change_24h": 1.77,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160689776120.0,
+        "volume_24h": 163221394274.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.66,
+        "btc_dominance": 57.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-15T05:21:52.177822+00:00",
-      "crypto": 0.521,
-      "global": 0.2807,
-      "combined": 0.4975,
-      "counts": {
-        "crypto": 49,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-02-15T08:42:17.340159+00:00",
       "crypto": 0.4236,
@@ -1008,46 +998,56 @@
         "crypto": 68,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-02-28T20:34:29.399582+00:00",
+      "crypto": 0.4681,
+      "global": 0.4875,
+      "combined": 0.475,
+      "counts": {
+        "crypto": 46,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 1.6% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Public Storage (PSA): A Bull Case Theory",
-        "url": "https://finance.yahoo.com/news/public-storage-psa-bull-case-185241721.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7103,
+        "title": "Bitcoin bottom fractal calls for 130% rally, but is the model valid in 2026?",
+        "url": "https://cointelegraph.com/news/bitcoin-bottom-fractal-calls-for-130percent-rally-but-is-the-model-valid-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7921,
         "score": 0.5333
       },
       {
-        "title": "Ameriprise Financial, Inc. (AMP): A Bull Case Theory",
-        "url": "https://finance.yahoo.com/news/ameriprise-financial-inc-amp-bull-134729105.html?.tsrc=rss",
+        "title": "Public Storage (PSA): A Bull Case Theory",
+        "url": "https://finance.yahoo.com/news/public-storage-psa-bull-case-185241721.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3947,
-        "score": 0.8667
+        "weight": 0.6576,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Bloomberg This Weekend 2/28/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6873,
+        "score": -0.9667
+      },
+      {
         "title": "Bolivia Races to Destroy Cash That Fell From Sky in Plane Crash",
         "url": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-races-to-destroy-cash-that-fell-from-sky-in-plane-crash",
         "source": "Bloomberg Markets",
-        "weight": 0.6739,
+        "weight": 0.6239,
         "score": -1.0
-      },
-      {
-        "title": "Bitcoin recovers instantly after Iran war crashes price but one Monday number could flip the next move",
-        "url": "https://cryptoslate.com/bitcoin-recovers-instantly-after-iran-war-crashes-price-but-one-monday-number-could-flip-the-next-move/",
-        "source": "CryptoSlate",
-        "weight": 0.7228,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
@@ -1060,19 +1060,19 @@
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.46939722517464116,
-          "price_change_24h": 1.44948
+          "symbol": "PAXG",
+          "volume_mcap_ratio": 0.4673685298199953,
+          "price_change_24h": 2.11692
         },
         {
-          "symbol": "PAXG",
-          "volume_mcap_ratio": 0.46314494751902857,
-          "price_change_24h": 2.69739
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.4601582081946624,
+          "price_change_24h": 1.06085
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3880437221526413,
-          "price_change_24h": 0.03446
+          "volume_mcap_ratio": 0.39508807277294117,
+          "price_change_24h": 0.04191
         }
       ],
       "momentum_shifts": []
@@ -1080,31 +1080,5 @@
   },
   "notes": {
     "warnings": []
-  },
-  "daily_recap": {
-    "date": "2026-02-28",
-    "period": "24h",
-    "summary": {
-      "crypto_avg": 0.3785,
-      "crypto_high": 0.4031,
-      "crypto_low": 0.3547,
-      "global_avg": 0.4941,
-      "global_high": 0.5815,
-      "global_low": 0.4087,
-      "combined_avg": 0.4084,
-      "combined_high": 0.4215,
-      "combined_low": 0.3881
-    },
-    "market_indicators_24h": {
-      "change24h": 0.016,
-      "vol": 0.144,
-      "fearGreed": 11,
-      "momentum": 0.275,
-      "regime": "sideways",
-      "activity": 0.6,
-      "dominance": "btc"
-    },
-    "entries_count": 6,
-    "generated_at": "2026-02-28T19:54:25.193273+00:00"
   }
 }
