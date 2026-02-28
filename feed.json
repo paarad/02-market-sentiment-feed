@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-28T04:58:31.702879+00:00",
+  "updated_at": "2026-02-28T08:37:53.250569+00:00",
   "indicators": {
-    "change24h": -0.059,
-    "vol": 0.186,
+    "change24h": -0.102,
+    "vol": 0.283,
     "fearGreed": 11,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3957,
-    "global_sentiment": 0.4337,
-    "combined_sentiment": 0.4163,
-    "confidence": 0.6905,
+    "crypto_sentiment": 0.3547,
+    "global_sentiment": 0.4649,
+    "combined_sentiment": 0.3881,
+    "confidence": 0.6892,
     "counts": {
-      "crypto": 53,
-      "global": 39
+      "crypto": 54,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 65691,
-      "btc_change_24h": -3.25,
-      "eth_price": 1925.6,
-      "eth_change_24h": -6.0,
+      "btc_price": 63613,
+      "btc_change_24h": -6.18,
+      "eth_price": 1860.15,
+      "eth_change_24h": -8.42,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 150374953664.0,
-        "high_activity_coins": 1
+        "volume_24h": 178367499918.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.43,
+        "btc_dominance": 57.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-14T16:39:24.070264+00:00",
-      "crypto": 0.4441,
-      "global": 0.5291,
-      "combined": 0.4605,
-      "counts": {
-        "crypto": 49,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-14T19:56:29.162998+00:00",
       "crypto": 0.5405,
@@ -1008,39 +998,56 @@
         "crypto": 53,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-02-28T08:37:53.250569+00:00",
+      "crypto": 0.3547,
+      "global": 0.4649,
+      "combined": 0.3881,
+      "counts": {
+        "crypto": 54,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Africa's Critical Minerals Moment | Bloomberg Next Africa",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-28/africa-s-critical-mineral-moment-bloomberg-next-africa-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5983,
+        "score": 0.6667
+      },
+      {
+        "title": "Is Regeneron Pharmaceuticals Stock Underperforming the Nasdaq?",
+        "url": "https://www.barchart.com/story/news/483007/is-regeneron-pharmaceuticals-stock-underperforming-the-nasdaq?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5465,
+        "score": 0.5333
+      },
+      {
         "title": "Duolingo Looks to Double Daily Active Users to 100M by 2028",
         "url": "https://www.bloomberg.com/news/videos/2026-02-27/duolingo-looks-to-double-daily-active-users-by-2028-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4217,
+        "weight": 0.2765,
         "score": 1.0
-      },
-      {
-        "title": "Compass, Rocket Partner on Home Listing Initiative",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-27/compass-rocket-partner-on-home-listing-initiative-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4099,
-        "score": 1.0
-      },
-      {
-        "title": "China Fundraising Jumps as Refinancing and Bond Issuance Boom",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-28/china-fundraising-jumps-as-refinancing-and-bond-issuance-boom",
-        "source": "Bloomberg Markets",
-        "weight": 0.7142,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Why Bank of Hawaii (BOH) Shares Are Trading Lower Today",
-        "url": "https://finance.yahoo.com/news/why-bank-hawaii-boh-shares-005632699.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.502,
+        "title": "Mt. Gox's former CEO floats hard fork to recover 80K hacked Bitcoin",
+        "url": "https://cointelegraph.com/news/mt-gox-former-ceo-proposes-hard-fork-recover-lost-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5257,
         "score": -1.0
+      },
+      {
+        "title": "OpenAI wins defense contract hours after government ditches Anthropic",
+        "url": "https://cointelegraph.com/news/openai-defense-contract-anthropic-ban-classified-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6834,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
@@ -1048,21 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "SBI Holdings is dangling XRP to sell a plain three year bond, but the numbers show how small",
-        "url": "https://cryptoslate.com/sbi-holdings-is-dangling-xrp-to-sell-a-plain-three-year-bond-but-the-numbers-show-how-small/",
-        "source": "CryptoSlate",
-        "weight": 0.3289,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35579419682176344,
-          "price_change_24h": -0.00423
+          "volume_mcap_ratio": 0.4101294754827068,
+          "price_change_24h": 0.00701
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3941253572691844,
+          "price_change_24h": -0.09304
         }
       ],
       "momentum_shifts": []
