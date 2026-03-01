@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-02-28T20:34:29.399582+00:00",
+  "updated_at": "2026-03-01T02:56:30.190813+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.152,
-    "fearGreed": 11,
-    "momentum": 0.439,
+    "change24h": 0.055,
+    "vol": 0.246,
+    "fearGreed": 14,
+    "momentum": 0.963,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4681,
-    "global_sentiment": 0.4875,
-    "combined_sentiment": 0.475,
-    "confidence": 0.6524,
+    "crypto_sentiment": 0.4843,
+    "global_sentiment": 0.4821,
+    "combined_sentiment": 0.4867,
+    "confidence": 0.6207,
     "counts": {
-      "crypto": 46,
-      "global": 39
+      "crypto": 54,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 66778,
-      "btc_change_24h": 1.84,
-      "eth_price": 1958.11,
-      "eth_change_24h": 1.77,
+      "btc_price": 67756,
+      "btc_change_24h": 2.71,
+      "eth_price": 2037.06,
+      "eth_change_24h": 5.51,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.8,
       "fear_greed": {
-        "value": 11,
+        "value": 14,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 163221394274.0,
-        "high_activity_coins": 4
+        "volume_24h": 197306393352.0,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.62,
+        "btc_dominance": 57.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-15T08:42:17.340159+00:00",
-      "crypto": 0.4236,
-      "global": 0.3662,
-      "combined": 0.4316,
-      "counts": {
-        "crypto": 49,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-15T13:06:27.445181+00:00",
       "crypto": 0.5404,
@@ -1008,71 +998,81 @@
         "crypto": 46,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-01T02:56:30.190813+00:00",
+      "crypto": 0.4843,
+      "global": 0.4821,
+      "combined": 0.4867,
+      "counts": {
+        "crypto": 54,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.6% — rally",
+        "title": "Global crypto market cap up 2.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
+        "title": "Insight Holdings Trims AppFolio as Property Software Faces a More Selective SaaS Market",
+        "url": "https://www.fool.com/coverage/filings/2026/02/28/insight-holdings-trims-appfolio-as-property-software-faces-a-more-selective-saas-market/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6678,
+        "score": 0.3333
+      },
+      {
         "title": "Bitcoin bottom fractal calls for 130% rally, but is the model valid in 2026?",
         "url": "https://cointelegraph.com/news/bitcoin-bottom-fractal-calls-for-130percent-rally-but-is-the-model-valid-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7921,
-        "score": 0.5333
-      },
-      {
-        "title": "Public Storage (PSA): A Bull Case Theory",
-        "url": "https://finance.yahoo.com/news/public-storage-psa-bull-case-185241721.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6576,
+        "weight": 0.3796,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bloomberg This Weekend 2/28/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6873,
-        "score": -0.9667
-      },
-      {
-        "title": "Bolivia Races to Destroy Cash That Fell From Sky in Plane Crash",
-        "url": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-races-to-destroy-cash-that-fell-from-sky-in-plane-crash",
-        "source": "Bloomberg Markets",
-        "weight": 0.6239,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 11 (Fear) — bearish",
+        "title": "Fear & Greed 14 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Bloomberg This Weekend 2/28/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3294,
+        "score": -0.9667
+      },
+      {
+        "title": "Bolivia Races to Destroy $62 Million in Cash That Fell From Sky",
+        "url": "https://www.bloomberg.com/news/articles/2026-02-28/bolivia-races-to-destroy-cash-that-fell-from-sky-in-plane-crash",
+        "source": "Bloomberg Markets",
+        "weight": 0.299,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4673685298199953,
-          "price_change_24h": 2.11692
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.5173868970852331,
+          "price_change_24h": -0.12667
         },
         {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.4601582081946624,
-          "price_change_24h": 1.06085
+          "symbol": "PAXG",
+          "volume_mcap_ratio": 0.5097559685155171,
+          "price_change_24h": 0.31734
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39508807277294117,
-          "price_change_24h": 0.04191
+          "volume_mcap_ratio": 0.4694950704344187,
+          "price_change_24h": 0.04155
         }
       ],
       "momentum_shifts": []
