@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-01T05:20:28.155783+00:00",
+  "updated_at": "2026-03-01T08:39:43.153498+00:00",
   "indicators": {
-    "change24h": 0.051,
-    "vol": 0.233,
+    "change24h": 0.086,
+    "vol": 0.281,
     "fearGreed": 14,
-    "momentum": 0.895,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5179,
-    "global_sentiment": 0.4328,
-    "combined_sentiment": 0.5078,
-    "confidence": 0.5532,
+    "crypto_sentiment": 0.5521,
+    "global_sentiment": 0.4476,
+    "combined_sentiment": 0.5347,
+    "confidence": 0.6102,
     "counts": {
-      "crypto": 43,
+      "crypto": 54,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 67397,
-      "btc_change_24h": 2.57,
-      "eth_price": 2015.58,
-      "eth_change_24h": 4.57,
+      "btc_price": 67182,
+      "btc_change_24h": 5.55,
+      "eth_price": 2004.21,
+      "eth_change_24h": 7.72,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 210443976428.0,
+        "volume_24h": 181049221235.0,
         "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.46,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-15T16:39:26.016944+00:00",
-      "crypto": 0.3689,
-      "global": 0.401,
-      "combined": 0.3934,
-      "counts": {
-        "crypto": 66,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-15T19:57:06.215068+00:00",
       "crypto": 0.284,
@@ -1008,30 +998,40 @@
         "crypto": 43,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-03-01T08:39:43.153498+00:00",
+      "crypto": 0.5521,
+      "global": 0.4476,
+      "combined": 0.5347,
+      "counts": {
+        "crypto": 54,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.9% — rally",
+        "title": "Global crypto market cap up 5.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Insight Holdings Trims AppFolio as Property Software Faces a More Selective SaaS Market",
-        "url": "https://www.fool.com/coverage/filings/2026/02/28/insight-holdings-trims-appfolio-as-property-software-faces-a-more-selective-saas-market/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5062,
-        "score": 0.3333
+        "title": "How Starmer Stumbled Into a French-Style Fix for Britain’s Woes",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/how-starmer-stumbled-into-a-french-style-fix-for-britain-s-woes",
+        "source": "Bloomberg Markets",
+        "weight": 0.5882,
+        "score": 0.6667
       },
       {
-        "title": "Bitcoin bottom fractal calls for 130% rally, but is the model valid in 2026?",
-        "url": "https://cointelegraph.com/news/bitcoin-bottom-fractal-calls-for-130percent-rally-but-is-the-model-valid-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "6 Polymarket traders net $1M on US-Iran strike, spark insider fears: Report",
+        "url": "https://cointelegraph.com/news/polymarket-traders-1m-us-iran-strike-insider-trading-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.2877,
-        "score": 0.5333
+        "weight": 0.6816,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,36 +1043,36 @@
         "score": -0.5333
       },
       {
+        "title": "Gulf Airlines Extend Flight Cancellations as Iran Targets Hubs",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/iran-strikes-disrupt-thousands-of-flights-dubai-airport-damaged",
+        "source": "Bloomberg Markets",
+        "weight": 0.4132,
+        "score": -0.9667
+      },
+      {
         "title": "Korea Export Momentum Continues, Easing Monetary Policy Pressure",
         "url": "https://www.bloomberg.com/news/articles/2026-03-01/korea-export-momentum-continues-easing-monetary-policy-pressure",
         "source": "Bloomberg Markets",
-        "weight": 0.4785,
+        "weight": 0.326,
         "score": -0.6667
-      },
-      {
-        "title": "Bloomberg This Weekend 2/28/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-02-28/bloomberg-this-weekend-2-28-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.2497,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.5365071144436531,
-          "price_change_24h": 0.4745
-        },
-        {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.5318389161629236,
-          "price_change_24h": 0.06414
+          "volume_mcap_ratio": 0.46809112535086295,
+          "price_change_24h": -0.80766
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.48773417206624364,
-          "price_change_24h": 0.00242
+          "volume_mcap_ratio": 0.4294338540948999,
+          "price_change_24h": -0.00012
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.4201453730501448,
+          "price_change_24h": 0.01634
         }
       ],
       "momentum_shifts": []
