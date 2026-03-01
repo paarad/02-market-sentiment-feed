@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-01T19:55:45.510879+00:00",
+  "updated_at": "2026-03-01T20:36:23.585461+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.14,
+    "change24h": -0.023,
+    "vol": 0.151,
     "fearGreed": 14,
-    "momentum": -0.024,
-    "regime": "sideways",
+    "momentum": -0.409,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4953,
+    "crypto_sentiment": 0.4938,
     "global_sentiment": 0.5116,
-    "combined_sentiment": 0.4974,
-    "confidence": 0.6611,
+    "combined_sentiment": 0.4963,
+    "confidence": 0.6815,
     "counts": {
-      "crypto": 51,
+      "crypto": 52,
       "global": 30
     },
     "market_indicators": {
-      "btc_price": 65882,
-      "btc_change_24h": -1.08,
-      "eth_price": 1952.6,
-      "eth_change_24h": 0.09,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 65196,
+      "btc_change_24h": -2.3,
+      "eth_price": 1920.91,
+      "eth_change_24h": -1.6,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 164219234197.0,
+        "volume_24h": 165047064536.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.41,
+        "btc_dominance": 57.34,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-16T05:39:31.516895+00:00",
-      "crypto": 0.3694,
-      "global": 0.4872,
-      "combined": 0.4009,
-      "counts": {
-        "crypto": 65,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-16T08:58:41.491940+00:00",
       "crypto": 0.3919,
@@ -1008,6 +998,16 @@
         "crypto": 51,
         "global": 30
       }
+    },
+    {
+      "ts": "2026-03-01T20:36:23.585461+00:00",
+      "crypto": 0.4938,
+      "global": 0.5116,
+      "combined": 0.4963,
+      "counts": {
+        "crypto": 52,
+        "global": 30
+      }
     }
   ],
   "drivers": {
@@ -1016,32 +1016,25 @@
         "title": "Bitcoin undervalued relative to gold signals potential rally: Analyst",
         "url": "https://cointelegraph.com/news/bitcoin-undervalued-gold-potential-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7108,
+        "weight": 0.6573,
         "score": 0.8667
+      },
+      {
+        "title": "The Best AI Tools That Actually Respect Your Privacy",
+        "url": "https://decrypt.co/359454/best-ai-tools-respect-privacy",
+        "source": "Decrypt",
+        "weight": 0.7941,
+        "score": 0.3333
       },
       {
         "title": "Crypto investment cons now run like call centers and the DOJ $580M haul shows where the money pools",
         "url": "https://cryptoslate.com/crypto-investment-cons-now-run-like-call-centers-and-the-doj-580m-haul-shows-where-the-money-pools/",
         "source": "CryptoSlate",
-        "weight": 0.7077,
+        "weight": 0.6545,
         "score": 0.3333
-      },
-      {
-        "title": "Crypto Loses Its Grip on Retail Army Now Defecting to Equities",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-01/crypto-loses-its-grip-on-retail-army-now-defecting-to-equities",
-        "source": "Bloomberg Markets",
-        "weight": 0.4273,
-        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Bitcoin losing trillions in value hasn't stopped traditional giants' interest in digital assets sector",
-        "url": "https://www.coindesk.com/business/2026/03/01/bitcoin-losing-trillions-in-value-hasn-t-stopped-traditional-giants-interest-in-digital-assets-sector",
-        "source": "CoinDesk",
-        "weight": 0.7226,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 14 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,24 +1043,31 @@
         "score": -0.5333
       },
       {
+        "title": "Bitcoin losing trillions in value hasn't stopped traditional giants' interest in digital assets sector",
+        "url": "https://www.coindesk.com/business/2026/03/01/bitcoin-losing-trillions-in-value-hasn-t-stopped-traditional-giants-interest-in-digital-assets-sector",
+        "source": "CoinDesk",
+        "weight": 0.6682,
+        "score": -0.6333
+      },
+      {
         "title": "The Legal Strategy Behind Crypto Exchange Backpack's Token-to-Equity Program",
         "url": "https://decrypt.co/359510/legal-strategy-behind-crypto-exchange-backpack-token-equity-program",
         "source": "Decrypt",
-        "weight": 0.4795,
+        "weight": 0.4434,
         "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.40092979114844385,
-          "price_change_24h": -0.01536
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3910475229560375,
+          "price_change_24h": -0.02772
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.39437015849457907,
-          "price_change_24h": -0.02371
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3759226868154219,
+          "price_change_24h": -0.07697
         }
       ],
       "momentum_shifts": []
