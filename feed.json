@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-01T13:04:32.203214+00:00",
+  "updated_at": "2026-03-01T16:37:35.964347+00:00",
   "indicators": {
-    "change24h": 0.066,
-    "vol": 0.223,
+    "change24h": 0.061,
+    "vol": 0.206,
     "fearGreed": 14,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4869,
-    "global_sentiment": 0.5197,
-    "combined_sentiment": 0.4918,
-    "confidence": 0.6016,
+    "crypto_sentiment": 0.4499,
+    "global_sentiment": 0.5185,
+    "combined_sentiment": 0.464,
+    "confidence": 0.6391,
     "counts": {
-      "crypto": 55,
-      "global": 33
+      "crypto": 53,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 66341,
-      "btc_change_24h": 3.75,
-      "eth_price": 1979.56,
-      "eth_change_24h": 6.01,
+      "btc_price": 67017,
+      "btc_change_24h": 3.13,
+      "eth_price": 2004.32,
+      "eth_change_24h": 5.5,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165404062451.0,
+        "volume_24h": 162647195283.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.42,
+        "btc_dominance": 57.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-15T20:35:33.225660+00:00",
-      "crypto": 0.2831,
-      "global": 0.557,
-      "combined": 0.3421,
-      "counts": {
-        "crypto": 51,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-02-16T02:49:30.697236+00:00",
       "crypto": 0.3439,
@@ -1008,38 +998,55 @@
         "crypto": 55,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-03-01T16:37:35.964347+00:00",
+      "crypto": 0.4499,
+      "global": 0.5185,
+      "combined": 0.464,
+      "counts": {
+        "crypto": 53,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 3.5% — rally",
+        "title": "Global crypto market cap up 2.9% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Fed Chair Nominee Kevin Warsh's Biggest Challenge Won't Be Balance Sheet Deleveraging or Interest Rates -- It'll Be Something Far More Important",
-        "url": "https://www.fool.com/investing/2026/03/01/fed-chair-nominee-kevin-warsh-biggest-challenge/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7011,
+        "title": "Crypto Loses Its Grip on Retail Army Now Defecting to Equities",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/crypto-loses-its-grip-on-retail-army-now-defecting-to-equities",
+        "source": "Bloomberg Markets",
+        "weight": 0.6257,
         "score": 0.5333
       },
       {
-        "title": "OPEC+ Confirms 206k Barrel-a-Day Production Hike for April",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-01/opec-agrees-in-principle-to-206k-b-d-hike-for-april-delegates",
-        "source": "Bloomberg Markets",
-        "weight": 0.619,
-        "score": 0.5333
+        "title": "Bitcoin market bottom may be nearing, at least if measured against gold, analyst says",
+        "url": "https://www.coindesk.com/markets/2026/03/01/bitcoin-market-bottom-may-be-nearing-at-least-if-measured-against-gold-analyst-says",
+        "source": "CoinDesk",
+        "weight": 0.8287,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "US-Iran Talks Show Stark Divide as Oman Cites Progress",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-01/us-iran-talks-show-stark-divide-as-oman-cites-progress-video",
+        "title": "The Legal Strategy Behind Crypto Exchange Backpack's Token-to-Equity Program",
+        "url": "https://decrypt.co/359510/legal-strategy-behind-crypto-exchange-backpack-token-equity-program",
+        "source": "Decrypt",
+        "weight": 0.7022,
+        "score": -0.6333
+      },
+      {
+        "title": "Jen Gavito on Diplomatic Divides Surrounding US-Israel-Iran",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-01/jen-gavito-on-diplomatic-divides-around-us-israel-iran-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7716,
+        "weight": 0.6942,
         "score": -0.6333
       },
       {
@@ -1048,26 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "BankMe",
-        "url": "https://cryptoslate.com/project-reports/bankme/",
-        "source": "CryptoSlate",
-        "weight": 0.7487,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4130249821717231,
-          "price_change_24h": -0.06739
+          "volume_mcap_ratio": 0.40650790511426627,
+          "price_change_24h": -0.01304
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40201387757698204,
-          "price_change_24h": -0.02172
+          "volume_mcap_ratio": 0.3941365137094476,
+          "price_change_24h": -0.01374
         }
       ],
       "momentum_shifts": []
