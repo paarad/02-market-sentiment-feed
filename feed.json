@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-02T05:18:13.829668+00:00",
+  "updated_at": "2026-03-02T08:54:55.474357+00:00",
   "indicators": {
-    "change24h": -0.031,
-    "vol": 0.127,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 10,
-    "momentum": -0.548,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3928,
-    "global_sentiment": 0.4482,
-    "combined_sentiment": 0.4153,
-    "confidence": 0.5976,
+    "crypto_sentiment": 0.4239,
+    "global_sentiment": 0.4455,
+    "combined_sentiment": 0.4384,
+    "confidence": 0.6167,
     "counts": {
-      "crypto": 44,
-      "global": 41
+      "crypto": 53,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 66753,
-      "btc_change_24h": -0.96,
-      "eth_price": 1969.15,
-      "eth_change_24h": -2.3,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 66210,
+      "btc_change_24h": -1.15,
+      "eth_price": 1946.22,
+      "eth_change_24h": -2.54,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156950190587.0,
+        "volume_24h": 159294089581.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.61,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-16T16:55:17.667025+00:00",
-      "crypto": 0.3778,
-      "global": 0.384,
-      "combined": 0.3987,
-      "counts": {
-        "crypto": 52,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-02-16T20:00:58.524687+00:00",
       "crypto": 0.3605,
@@ -1008,45 +998,55 @@
         "crypto": 44,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-02T08:54:55.474357+00:00",
+      "crypto": 0.4239,
+      "global": 0.4455,
+      "combined": 0.4384,
+      "counts": {
+        "crypto": 53,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crude oil jumps, and $100 per-gallon price may be ahead",
-        "url": "https://www.thestreet.com/investing/crude-oil-jumps-and-100-per-gallon-price-may-be-ahead?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7769,
-        "score": 0.8667
-      },
-      {
         "title": "Oil surges and stock futures sink after war in Iran disrupts crude supply",
         "url": "https://www.cnn.com/2026/03/01/business/oil-prices-us-attack-iran-vis?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4575,
+        "weight": 0.5251,
         "score": 1.0
       },
       {
-        "title": "Trump Media could spin out Truth Social amid crypto push",
-        "url": "https://cointelegraph.com/news/trump-media-considers-truth-social-spinout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5834,
-        "score": 0.5833
+        "title": "Crude oil jumps, and $100 per-gallon price may be ahead",
+        "url": "https://www.thestreet.com/investing/crude-oil-jumps-and-100-per-gallon-price-may-be-ahead?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5119,
+        "score": 0.8667
+      },
+      {
+        "title": "European Gas Jumps 25% as Iran Crisis Threatens Global Flows",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-02/european-gas-jumps-25-as-iranian-crisis-threatens-global-flows",
+        "source": "Bloomberg Markets",
+        "weight": 0.6473,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "February crypto losses hit lowest level since March 2025: PeckShield",
+        "title": "February crypto losses hit lowest level since March 2025, says PeckShield",
         "url": "https://cointelegraph.com/news/crypto-hack-losses-february-2026-peckshield-lowest-since-march-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.734,
-        "score": -0.9
+        "weight": 0.4836,
+        "score": -1.0
       },
       {
-        "title": "Geely Extends Lead Over BYD With Biggest Sales Gap Since 2022",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-02/geely-extends-lead-over-byd-with-biggest-sales-gap-since-2022",
+        "title": "Bavarian Nordic CEO Steps Down After Failed $3 Billion Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-02/bavarian-nordic-ceo-steps-down-after-failed-3-billion-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.6961,
+        "weight": 0.7161,
         "score": -0.6333
       },
       {
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37290956813753917,
-          "price_change_24h": -0.00651
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3530726142297156,
-          "price_change_24h": 0.01142
+          "volume_mcap_ratio": 0.38004117965295153,
+          "price_change_24h": -0.01267
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.31946201844515637,
-          "price_change_24h": 0.65654
+          "volume_mcap_ratio": 0.37109424100969596,
+          "price_change_24h": 1.36504
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.36425242757996507,
+          "price_change_24h": -0.04998
         }
       ],
       "momentum_shifts": []
