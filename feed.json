@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-01T20:36:23.585461+00:00",
+  "updated_at": "2026-03-02T02:43:57.762841+00:00",
   "indicators": {
-    "change24h": -0.023,
+    "change24h": -0.038,
     "vol": 0.151,
-    "fearGreed": 14,
-    "momentum": -0.409,
+    "fearGreed": 10,
+    "momentum": -0.669,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4938,
-    "global_sentiment": 0.5116,
-    "combined_sentiment": 0.4963,
-    "confidence": 0.6815,
+    "crypto_sentiment": 0.4827,
+    "global_sentiment": 0.4676,
+    "combined_sentiment": 0.4843,
+    "confidence": 0.6379,
     "counts": {
       "crypto": 52,
-      "global": 30
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 65196,
-      "btc_change_24h": -2.3,
-      "eth_price": 1920.91,
-      "eth_change_24h": -1.6,
+      "btc_price": 66320,
+      "btc_change_24h": -2.51,
+      "eth_price": 1956.41,
+      "eth_change_24h": -4.19,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 14,
+        "value": 10,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165047064536.0,
-        "high_activity_coins": 2
+        "volume_24h": 161476837342.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.34,
+        "btc_dominance": 57.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-16T08:58:41.491940+00:00",
-      "crypto": 0.3919,
-      "global": 0.4971,
-      "combined": 0.4187,
-      "counts": {
-        "crypto": 68,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-16T13:19:57.068790+00:00",
       "crypto": 0.4234,
@@ -1008,66 +998,81 @@
         "crypto": 52,
         "global": 30
       }
+    },
+    {
+      "ts": "2026-03-02T02:43:57.762841+00:00",
+      "crypto": 0.4827,
+      "global": 0.4676,
+      "combined": 0.4843,
+      "counts": {
+        "crypto": 52,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin undervalued relative to gold signals potential rally: Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-undervalued-gold-potential-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Oil surges and stock futures sink after war in Iran disrupts crude supply",
+        "url": "https://www.cnn.com/2026/03/01/business/oil-prices-us-attack-iran-vis?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6158,
+        "score": 1.0
+      },
+      {
+        "title": "Trump Media could spin out Truth Social amid crypto push",
+        "url": "https://cointelegraph.com/news/trump-media-considers-truth-social-spinout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6573,
+        "weight": 0.7852,
+        "score": 0.5833
+      },
+      {
+        "title": "Oil Pares Advance as Iran Crisis Disrupts Flows Through Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2",
+        "source": "Bloomberg Markets",
+        "weight": 0.5219,
         "score": 0.8667
-      },
-      {
-        "title": "The Best AI Tools That Actually Respect Your Privacy",
-        "url": "https://decrypt.co/359454/best-ai-tools-respect-privacy",
-        "source": "Decrypt",
-        "weight": 0.7941,
-        "score": 0.3333
-      },
-      {
-        "title": "Crypto investment cons now run like call centers and the DOJ $580M haul shows where the money pools",
-        "url": "https://cryptoslate.com/crypto-investment-cons-now-run-like-call-centers-and-the-doj-580m-haul-shows-where-the-money-pools/",
-        "source": "CryptoSlate",
-        "weight": 0.6545,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 14 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Top Chinese Liquor Maker Wuliangye Says Chairman Under Detention",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-02/top-chinese-liquor-maker-wuliangye-says-chairman-under-detention",
+        "source": "Bloomberg Markets",
+        "weight": 0.6929,
+        "score": -0.9333
       },
       {
-        "title": "Bitcoin losing trillions in value hasn't stopped traditional giants' interest in digital assets sector",
-        "url": "https://www.coindesk.com/business/2026/03/01/bitcoin-losing-trillions-in-value-hasn-t-stopped-traditional-giants-interest-in-digital-assets-sector",
-        "source": "CoinDesk",
-        "weight": 0.6682,
-        "score": -0.6333
+        "title": "Iran's Nuclear Materials a Risk: Ex-US Energy Secretary",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-02/iran-s-nuclear-materials-a-risk-ex-us-energy-secretary-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6307,
+        "score": -0.9667
       },
       {
-        "title": "The Legal Strategy Behind Crypto Exchange Backpack's Token-to-Equity Program",
-        "url": "https://decrypt.co/359510/legal-strategy-behind-crypto-exchange-backpack-token-equity-program",
-        "source": "Decrypt",
-        "weight": 0.4434,
-        "score": -0.6333
+        "title": "Gold Is Sending A Message We Haven't Heard Since 2008",
+        "url": "https://finance.yahoo.com/news/gold-sending-message-havent-heard-223041837.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4912,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3910475229560375,
-          "price_change_24h": -0.02772
+          "volume_mcap_ratio": 0.38297243457922286,
+          "price_change_24h": -0.04453
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3759226868154219,
-          "price_change_24h": -0.07697
+          "volume_mcap_ratio": 0.37258960936786883,
+          "price_change_24h": 0.22235
+        },
+        {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.3213258114563554,
+          "price_change_24h": 0.77134
         }
       ],
       "momentum_shifts": []
