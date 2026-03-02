@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-02T08:54:55.474357+00:00",
+  "updated_at": "2026-03-02T13:15:39.118191+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4239,
-    "global_sentiment": 0.4455,
-    "combined_sentiment": 0.4384,
-    "confidence": 0.6167,
+    "crypto_sentiment": 0.4008,
+    "global_sentiment": 0.5056,
+    "combined_sentiment": 0.426,
+    "confidence": 0.7035,
     "counts": {
-      "crypto": 53,
-      "global": 34
+      "crypto": 52,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 66210,
-      "btc_change_24h": -1.15,
-      "eth_price": 1946.22,
-      "eth_change_24h": -2.54,
+      "btc_price": 65855,
+      "btc_change_24h": -0.74,
+      "eth_price": 1933.52,
+      "eth_change_24h": -2.35,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 159294089581.0,
+        "volume_24h": 170793726086.0,
         "high_activity_coins": 3
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-16T20:00:58.524687+00:00",
-      "crypto": 0.3605,
-      "global": 0.427,
-      "combined": 0.3893,
-      "counts": {
-        "crypto": 66,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-16T20:39:36.730023+00:00",
       "crypto": 0.3442,
@@ -1008,45 +998,48 @@
         "crypto": 53,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-03-02T13:15:39.118191+00:00",
+      "crypto": 0.4008,
+      "global": 0.5056,
+      "combined": 0.426,
+      "counts": {
+        "crypto": 52,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Oil surges and stock futures sink after war in Iran disrupts crude supply",
-        "url": "https://www.cnn.com/2026/03/01/business/oil-prices-us-attack-iran-vis?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5251,
+        "title": "Morgan Stanley’s Wilson Says Iran Unlikely to Dent Bullish View",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-02/morgan-stanley-s-wilson-says-iran-unlikely-to-dent-bullish-view",
+        "source": "Bloomberg Markets",
+        "weight": 0.6492,
         "score": 1.0
       },
       {
-        "title": "Crude oil jumps, and $100 per-gallon price may be ahead",
-        "url": "https://www.thestreet.com/investing/crude-oil-jumps-and-100-per-gallon-price-may-be-ahead?.tsrc=rss",
+        "title": "Oil surges and stock futures sink as war in Iran threatens crude supply",
+        "url": "https://www.cnn.com/2026/03/01/business/oil-prices-us-attack-iran-vis?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5119,
-        "score": 0.8667
+        "weight": 0.6246,
+        "score": 1.0
       },
       {
-        "title": "European Gas Jumps 25% as Iran Crisis Threatens Global Flows",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-02/european-gas-jumps-25-as-iranian-crisis-threatens-global-flows",
-        "source": "Bloomberg Markets",
-        "weight": 0.6473,
-        "score": 0.5333
+        "title": "M2 money supply is surging again – so why isn’t this bullish for Bitcoin anymore?",
+        "url": "https://cryptoslate.com/m2-money-supply-is-surging-again-so-why-isnt-this-bullish-for-bitcoin-anymore/",
+        "source": "CryptoSlate",
+        "weight": 0.6537,
+        "score": 0.7
       }
     ],
     "negative": [
       {
-        "title": "February crypto losses hit lowest level since March 2025, says PeckShield",
-        "url": "https://cointelegraph.com/news/crypto-hack-losses-february-2026-peckshield-lowest-since-march-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4836,
-        "score": -1.0
-      },
-      {
-        "title": "Bavarian Nordic CEO Steps Down After Failed $3 Billion Deal",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-02/bavarian-nordic-ceo-steps-down-after-failed-3-billion-deal",
-        "source": "Bloomberg Markets",
-        "weight": 0.7161,
+        "title": "Defense stocks jump as U.S., Iran exchange attacks",
+        "url": "https://www.cnbc.com/2026/03/02/defense-stocks-us-iran-israel-attacks-lockheed-renk-leonardo.html",
+        "source": "CNBC Markets",
+        "weight": 0.7666,
         "score": -0.6333
       },
       {
@@ -1055,24 +1048,31 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "S&P 500, Dow and Nasdaq Futures Tumble as U.S.-Iran Tensions Escalate",
+        "url": "https://finance.yahoo.com/news/p-500-dow-nasdaq-futures-105557520.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6113,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.4386253423059222,
+          "price_change_24h": -0.00958
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38004117965295153,
-          "price_change_24h": -0.01267
+          "volume_mcap_ratio": 0.39895956760211165,
+          "price_change_24h": -0.02447
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.37109424100969596,
-          "price_change_24h": 1.36504
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.36425242757996507,
-          "price_change_24h": -0.04998
+          "volume_mcap_ratio": 0.39674815573115124,
+          "price_change_24h": 0.55286
         }
       ],
       "momentum_shifts": []
