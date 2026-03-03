@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-03T05:16:46.897497+00:00",
+  "updated_at": "2026-03-03T08:53:01.220579+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.135,
+    "change24h": 0.001,
+    "vol": 0.1,
     "fearGreed": 14,
-    "momentum": 0.26,
+    "momentum": 0.021,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4281,
-    "global_sentiment": 0.4323,
-    "combined_sentiment": 0.4405,
-    "confidence": 0.7636,
+    "crypto_sentiment": 0.4087,
+    "global_sentiment": 0.4376,
+    "combined_sentiment": 0.4264,
+    "confidence": 0.7457,
     "counts": {
       "crypto": 56,
-      "global": 39
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 68363,
-      "btc_change_24h": 2.41,
-      "eth_price": 2008.33,
-      "eth_change_24h": 2.08,
+      "btc_price": 67124,
+      "btc_change_24h": 1.38,
+      "eth_price": 1954.41,
+      "eth_change_24h": 0.43,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 213473677537.0,
-        "high_activity_coins": 5
+        "volume_24h": 225623416382.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.94,
+        "btc_dominance": 57.83,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-17T17:04:44.897765+00:00",
-      "crypto": 0.4007,
-      "global": 0.4909,
-      "combined": 0.4248,
-      "counts": {
-        "crypto": 66,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-02-17T20:19:52.193921+00:00",
       "crypto": 0.3773,
@@ -1008,71 +998,81 @@
         "crypto": 56,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-03T08:53:01.220579+00:00",
+      "crypto": 0.4087,
+      "global": 0.4376,
+      "combined": 0.4264,
+      "counts": {
+        "crypto": 56,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Kroeber: China Growth Target Irrelevant To Its Problems",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-03/kroeber-china-growth-target-irrelevant-to-its-problems-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7611,
-        "score": 0.6667
+        "title": "Circle Stock Extends Double-Digit Gains Amid Broader Crypto Rally",
+        "url": "https://decrypt.co/359772/circle-stock-extends-double-digit-gains-crypto-rally",
+        "source": "Decrypt",
+        "weight": 0.5687,
+        "score": 1.0
       },
       {
-        "title": "Chinese Copper Supplies Swell as Output Climbs to Record Levels",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/chinese-copper-supplies-swell-as-output-climbs-to-record-levels",
-        "source": "Bloomberg Markets",
-        "weight": 0.749,
-        "score": 0.6667
+        "title": "Celsius Holdings (CELH) Loses 8% on Profit-Taking",
+        "url": "https://finance.yahoo.com/news/celsius-holdings-celh-loses-8-062613280.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.603,
+        "score": 0.8667
       },
       {
-        "title": "India Highway Authority Infra Trust’s IPO Seeks Up to $656 Million",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/india-highway-authority-infra-trust-s-ipo-seeks-up-to-656-million",
+        "title": "Japan Power Futures Jump as Iran Conflict Threatens Gas Supplies",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/japan-power-futures-jump-as-iran-conflict-threatens-gas-supplies",
         "source": "Bloomberg Markets",
-        "weight": 0.7198,
-        "score": 0.6333
+        "weight": 0.7616,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Uniswap beats class action alleging it assisted crypto ‘rug pulls’",
-        "url": "https://cointelegraph.com/news/uniswap-beats-class-action-alleging-helped-crypto-rug-pulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6733,
+        "title": "Traders No Longer Price Second BOE Interest-Rate Cut This Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/traders-no-longer-price-second-boe-interest-rate-cut-this-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.7727,
+        "score": -0.9667
+      },
+      {
+        "title": "Beiersdorf Shares Slide on Nivea Maker’s Sluggish Forecast",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/beiersdorf-shares-slide-on-nivea-maker-s-sluggish-forecast",
+        "source": "Bloomberg Markets",
+        "weight": 0.7398,
         "score": -0.9333
       },
       {
-        "title": "Asian Stocks Extend Declines as Middle East Tensions Remain High",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/asian-stocks-extend-declines-as-middle-east-tensions-remain-high",
+        "title": "Nidec Warns of $1.6 Billion Charges From Accounting Scandal",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/nidec-warns-of-1-6-billion-in-charges-from-accounting-scandal",
         "source": "Bloomberg Markets",
-        "weight": 0.5911,
-        "score": -1.0
-      },
-      {
-        "title": "OpenZeppelin finds data contamination in OpenAI’s EVMbench",
-        "url": "https://cointelegraph.com/news/openzeppelin-audits-openai-evmbench-finds-data-contamination?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7149,
-        "score": -0.6333
+        "weight": 0.6847,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5466707933569808,
-          "price_change_24h": -0.03512
+          "volume_mcap_ratio": 0.5526252798498621,
+          "price_change_24h": 0.02265
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5293473100559447,
-          "price_change_24h": -0.01387
+          "volume_mcap_ratio": 0.5352301550051245,
+          "price_change_24h": -0.00445
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.4191623104671263,
-          "price_change_24h": 21.24207
+          "volume_mcap_ratio": 0.44733126357601244,
+          "price_change_24h": 13.72877
         }
       ],
       "momentum_shifts": []
