@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-03T02:46:42.734925+00:00",
+  "updated_at": "2026-03-03T05:16:46.897497+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.092,
+    "change24h": 0.015,
+    "vol": 0.135,
     "fearGreed": 14,
-    "momentum": 0.236,
+    "momentum": 0.26,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4674,
-    "global_sentiment": 0.4523,
-    "combined_sentiment": 0.4716,
-    "confidence": 0.7703,
+    "crypto_sentiment": 0.4281,
+    "global_sentiment": 0.4323,
+    "combined_sentiment": 0.4405,
+    "confidence": 0.7636,
     "counts": {
-      "crypto": 53,
-      "global": 46
+      "crypto": 56,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 68444,
-      "btc_change_24h": 3.21,
-      "eth_price": 2014.42,
-      "eth_change_24h": 2.99,
+      "btc_price": 68363,
+      "btc_change_24h": 2.41,
+      "eth_price": 2008.33,
+      "eth_change_24h": 2.08,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 226655271383.0,
+        "volume_24h": 213473677537.0,
         "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.93,
+        "btc_dominance": 57.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-17T13:20:15.697284+00:00",
-      "crypto": 0.3919,
-      "global": 0.4499,
-      "combined": 0.4148,
-      "counts": {
-        "crypto": 53,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-02-17T17:04:44.897765+00:00",
       "crypto": 0.4007,
@@ -1008,52 +998,62 @@
         "crypto": 53,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-03-03T05:16:46.897497+00:00",
+      "crypto": 0.4281,
+      "global": 0.4323,
+      "combined": 0.4405,
+      "counts": {
+        "crypto": 56,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Defense Stocks Surge as Middle East Attacks Escalate",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-02/defense-stocks-surge-as-middle-east-attacks-escalate-video",
+        "title": "Kroeber: China Growth Target Irrelevant To Its Problems",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-03/kroeber-china-growth-target-irrelevant-to-its-problems-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5072,
-        "score": 0.8667
+        "weight": 0.7611,
+        "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 2.3% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Chinese Copper Supplies Swell as Output Climbs to Record Levels",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/chinese-copper-supplies-swell-as-output-climbs-to-record-levels",
+        "source": "Bloomberg Markets",
+        "weight": 0.749,
+        "score": 0.6667
       },
       {
-        "title": "BWET: World's Top-Performing ETF This Year",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-02/bwet-world-s-top-performing-etf-this-year-video",
+        "title": "India Highway Authority Infra Trust’s IPO Seeks Up to $656 Million",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/india-highway-authority-infra-trust-s-ipo-seeks-up-to-656-million",
         "source": "Bloomberg Markets",
-        "weight": 0.4778,
-        "score": 0.8667
+        "weight": 0.7198,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Asian Banks’ Billions in Gulf Loans at Risk Amid Mideast Turmoil",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/asian-banks-billions-in-gulf-loans-at-risk-amid-mideast-turmoil",
+        "title": "Uniswap beats class action alleging it assisted crypto ‘rug pulls’",
+        "url": "https://cointelegraph.com/news/uniswap-beats-class-action-alleging-helped-crypto-rug-pulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6733,
+        "score": -0.9333
+      },
+      {
+        "title": "Asian Stocks Extend Declines as Middle East Tensions Remain High",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/asian-stocks-extend-declines-as-middle-east-tensions-remain-high",
         "source": "Bloomberg Markets",
-        "weight": 0.6869,
+        "weight": 0.5911,
         "score": -1.0
       },
       {
-        "title": "Ex-Capula Compliance Head Refiles Improper Expense Allegations",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-02/ex-capula-compliance-head-refiles-improper-expense-allegations",
-        "source": "Bloomberg Markets",
-        "weight": 0.4897,
-        "score": -1.0
-      },
-      {
-        "title": "Dow Jones Futures Fall: U.S.-Iran Conflict Sparks Market Upheaval As Nvidia Rallies; Credo, MongoDB Plunge Late",
-        "url": "https://finance.yahoo.com/m/b678b4c5-46a0-3389-8070-1072a0521bd7/dow-jones-futures-fall%3A.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7164,
+        "title": "OpenZeppelin finds data contamination in OpenAI’s EVMbench",
+        "url": "https://cointelegraph.com/news/openzeppelin-audits-openai-evmbench-finds-data-contamination?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7149,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5533832121587954,
-          "price_change_24h": -0.02452
+          "volume_mcap_ratio": 0.5466707933569808,
+          "price_change_24h": -0.03512
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5326355467221927,
-          "price_change_24h": -0.01347
+          "volume_mcap_ratio": 0.5293473100559447,
+          "price_change_24h": -0.01387
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.41381840229136446,
-          "price_change_24h": 17.77067
+          "volume_mcap_ratio": 0.4191623104671263,
+          "price_change_24h": 21.24207
         }
       ],
       "momentum_shifts": []
