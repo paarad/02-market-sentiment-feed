@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-03T08:53:01.220579+00:00",
+  "updated_at": "2026-03-03T13:14:14.131846+00:00",
   "indicators": {
     "change24h": 0.001,
-    "vol": 0.1,
+    "vol": 0.093,
     "fearGreed": 14,
-    "momentum": 0.021,
+    "momentum": 0.015,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4087,
-    "global_sentiment": 0.4376,
-    "combined_sentiment": 0.4264,
-    "confidence": 0.7457,
+    "crypto_sentiment": 0.4448,
+    "global_sentiment": 0.449,
+    "combined_sentiment": 0.4543,
+    "confidence": 0.7917,
     "counts": {
-      "crypto": 56,
-      "global": 44
+      "crypto": 57,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 67124,
-      "btc_change_24h": 1.38,
-      "eth_price": 1954.41,
-      "eth_change_24h": 0.43,
+      "btc_price": 67143,
+      "btc_change_24h": 1.93,
+      "eth_price": 1953.3,
+      "eth_change_24h": 1.05,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "low",
-        "volume_24h": 225623416382.0,
-        "high_activity_coins": 4
+        "level": "medium",
+        "volume_24h": 234994630130.0,
+        "high_activity_coins": 6
       },
       "dominance": {
-        "btc_dominance": 57.83,
+        "btc_dominance": 57.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-17T20:19:52.193921+00:00",
-      "crypto": 0.3773,
-      "global": 0.4011,
-      "combined": 0.3997,
-      "counts": {
-        "crypto": 66,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-02-17T20:47:47.416713+00:00",
       "crypto": 0.377,
@@ -1008,71 +998,81 @@
         "crypto": 56,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-03T13:14:14.131846+00:00",
+      "crypto": 0.4448,
+      "global": 0.449,
+      "combined": 0.4543,
+      "counts": {
+        "crypto": 57,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Circle Stock Extends Double-Digit Gains Amid Broader Crypto Rally",
-        "url": "https://decrypt.co/359772/circle-stock-extends-double-digit-gains-crypto-rally",
-        "source": "Decrypt",
-        "weight": 0.5687,
+        "title": "Palantir Is Back on Wall Street’s Buy List After a 38% Plunge",
+        "url": "https://finance.yahoo.com/news/palantir-back-wall-street-buy-123242692.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7385,
         "score": 1.0
       },
       {
-        "title": "Celsius Holdings (CELH) Loses 8% on Profit-Taking",
-        "url": "https://finance.yahoo.com/news/celsius-holdings-celh-loses-8-062613280.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.603,
-        "score": 0.8667
+        "title": "Dollar surge pressures crypto markets after escalation in Iran conflict",
+        "url": "https://www.coindesk.com/markets/2026/03/03/dollar-surge-pressures-crypto-and-gold-after-escalation-in-iran-conflict",
+        "source": "CoinDesk",
+        "weight": 0.8182,
+        "score": 0.5333
       },
       {
-        "title": "Japan Power Futures Jump as Iran Conflict Threatens Gas Supplies",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/japan-power-futures-jump-as-iran-conflict-threatens-gas-supplies",
-        "source": "Bloomberg Markets",
-        "weight": 0.7616,
+        "title": "Cardano’s Project Catalyst is changing hands and the pause is forcing builders to face a brutal funding gap",
+        "url": "https://cryptoslate.com/cardanos-project-catalyst-is-changing-hands-and-the-pause-is-forcing-builders-to-face-a-brutal-funding-gap/",
+        "source": "CryptoSlate",
+        "weight": 0.6545,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Traders No Longer Price Second BOE Interest-Rate Cut This Year",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/traders-no-longer-price-second-boe-interest-rate-cut-this-year",
+        "title": "Ireland Nominates Makhlouf for Second Term as Governor",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/ireland-nominates-makhlouf-for-second-term-as-central-bank-head",
         "source": "Bloomberg Markets",
-        "weight": 0.7727,
+        "weight": 0.7242,
         "score": -0.9667
       },
       {
-        "title": "Beiersdorf Shares Slide on Nivea Maker’s Sluggish Forecast",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/beiersdorf-shares-slide-on-nivea-maker-s-sluggish-forecast",
-        "source": "Bloomberg Markets",
-        "weight": 0.7398,
-        "score": -0.9333
+        "title": "AI pullback a buying opportunity? GinsGlobal's Ginsberg says yes",
+        "url": "https://finance.yahoo.com/video/ai-pullback-buying-opportunity-ginsglobals-113934494.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6667,
+        "score": -0.9667
       },
       {
-        "title": "Nidec Warns of $1.6 Billion Charges From Accounting Scandal",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/nidec-warns-of-1-6-billion-in-charges-from-accounting-scandal",
-        "source": "Bloomberg Markets",
-        "weight": 0.6847,
-        "score": -0.9667
+        "title": "Analysis-Buyback plans aren't enough to soothe investors after software-sector rout",
+        "url": "https://finance.yahoo.com/news/analysis-buyback-plans-arent-enough-110522150.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6242,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5526252798498621,
-          "price_change_24h": 0.02265
+          "volume_mcap_ratio": 0.5560914640383181,
+          "price_change_24h": 0.00951
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5352301550051245,
-          "price_change_24h": -0.00445
+          "volume_mcap_ratio": 0.5556128769536779,
+          "price_change_24h": 0.00588
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.44733126357601244,
-          "price_change_24h": 13.72877
+          "volume_mcap_ratio": 0.4692593308920251,
+          "price_change_24h": 10.31897
         }
       ],
       "momentum_shifts": []
