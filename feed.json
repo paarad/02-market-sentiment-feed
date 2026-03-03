@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-03T16:58:34.687418+00:00",
+  "updated_at": "2026-03-03T20:02:36.360017+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.135,
+    "change24h": -0.031,
+    "vol": 0.13,
     "fearGreed": 14,
-    "momentum": -0.7,
+    "momentum": -0.548,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4177,
-    "global_sentiment": 0.4033,
-    "combined_sentiment": 0.4302,
-    "confidence": 0.8114,
+    "crypto_sentiment": 0.4017,
+    "global_sentiment": 0.4254,
+    "combined_sentiment": 0.4201,
+    "confidence": 0.8009,
     "counts": {
       "crypto": 58,
-      "global": 39
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 68365,
-      "btc_change_24h": -1.86,
-      "eth_price": 1988.63,
-      "eth_change_24h": -3.7,
+      "btc_price": 68453,
+      "btc_change_24h": -0.73,
+      "eth_price": 1986.94,
+      "eth_change_24h": -3.28,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "medium",
-        "volume_24h": 210582191436.0,
+        "volume_24h": 199579218332.0,
         "high_activity_coins": 6
       },
       "dominance": {
-        "btc_dominance": 58.01,
+        "btc_dominance": 58.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-18T02:48:58.972178+00:00",
-      "crypto": 0.4438,
-      "global": 0.4206,
-      "combined": 0.4512,
-      "counts": {
-        "crypto": 66,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-02-18T05:25:41.092638+00:00",
       "crypto": 0.4314,
@@ -1008,71 +998,81 @@
         "crypto": 58,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-03T20:02:36.360017+00:00",
+      "crypto": 0.4017,
+      "global": 0.4254,
+      "combined": 0.4201,
+      "counts": {
+        "crypto": 58,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ondo Finance tokenized stocks platform on Binance wins regulatory approval in Abu Dhabi",
-        "url": "https://www.coindesk.com/business/2026/03/03/ondo-finance-tokenized-stocks-platform-on-binance-wins-regulatory-approval-in-abu-dhabi",
-        "source": "CoinDesk",
-        "weight": 0.709,
-        "score": 0.9167
-      },
-      {
         "title": "Google employees call for military limits on AI amid Iran strikes, Anthropic fallout",
         "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html",
         "source": "CNBC Markets",
-        "weight": 0.593,
+        "weight": 0.5969,
         "score": 0.9667
       },
       {
-        "title": "Dow and Nasdaq plunge 2% as Amazon data centres hit in Iran war",
-        "url": "https://www.proactiveinvestors.com/companies/news/1088226/nasdaq-futures-plunge-as-market-takes-iran-war-more-seriously-1088226.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7272,
-        "score": 0.6667
+        "title": "Ondo Finance tokenized stocks platform on Binance wins regulatory approval in Abu Dhabi",
+        "url": "https://www.coindesk.com/business/2026/03/03/ondo-finance-tokenized-stocks-platform-on-binance-wins-regulatory-approval-in-abu-dhabi",
+        "source": "CoinDesk",
+        "weight": 0.4975,
+        "score": 0.9167
+      },
+      {
+        "title": "US Oil Stocks Halt Gains as Price Rally Seen as Short-Term",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/us-oil-stocks-halt-gains-as-price-rally-seen-as-short-term",
+        "source": "Bloomberg Markets",
+        "weight": 0.7499,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "The S&P 500 Keeps Falling. Here’s When Circuit Breakers Kick In.",
-        "url": "https://finance.yahoo.com/m/567dfd91-b331-3b17-a766-2264ce2f8753/the-s%26p-500-keeps-falling..html?.tsrc=rss",
+        "title": "Dow and Nasdaq halve losses as market ponders Iran conflict impact",
+        "url": "https://www.proactiveinvestors.com/companies/news/1088226/nasdaq-futures-plunge-as-market-takes-iran-war-more-seriously-1088226.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7079,
+        "weight": 0.7484,
         "score": -1.0
       },
       {
-        "title": "All 11 S&P 500 Sectors Are Down 1% or More. It’s an ‘Everything Selloff.’",
-        "url": "https://finance.yahoo.com/m/06054602-088a-330e-ae41-a3391063f936/all-11-s%26p-500-sectors-are.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6739,
+        "title": "Ether supply on exchanges drops to multi-year lows: Here’s why it matters",
+        "url": "https://cointelegraph.com/news/ether-supply-on-exchanges-drops-to-multi-year-lows-here-s-why-it-matters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.706,
         "score": -1.0
       },
       {
-        "title": "Bitcoin Miner MARA Says It May Sell BTC Holdings in Strategy Shift",
-        "url": "https://decrypt.co/359806/bitcoin-miner-mara-may-sell-btc-strategy-shift",
-        "source": "Decrypt",
-        "weight": 0.9801,
-        "score": -0.6333
+        "title": "Muni Bonds Head for Biggest Drop Since July on Inflation Concern",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/muni-bonds-head-for-biggest-drop-since-july-on-inflation-concern",
+        "source": "Bloomberg Markets",
+        "weight": 0.7273,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5073506887770942,
-          "price_change_24h": -0.08727
+          "volume_mcap_ratio": 0.534773966691982,
+          "price_change_24h": -0.0713
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4948389001013512,
-          "price_change_24h": -0.0068
+          "volume_mcap_ratio": 0.4800235266639509,
+          "price_change_24h": -0.02284
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.4251211129679051,
-          "price_change_24h": 3.27147
+          "volume_mcap_ratio": 0.4100237050442715,
+          "price_change_24h": 2.69595
         }
       ],
       "momentum_shifts": []
