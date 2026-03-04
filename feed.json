@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-04T05:11:19.901729+00:00",
+  "updated_at": "2026-03-04T08:50:41.269502+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.126,
+    "change24h": 0.035,
+    "vol": 0.128,
     "fearGreed": 10,
-    "momentum": -0.401,
-    "regime": "bear",
+    "momentum": 0.61,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3421,
-    "global_sentiment": 0.3789,
-    "combined_sentiment": 0.3715,
-    "confidence": 0.7024,
+    "crypto_sentiment": 0.3528,
+    "global_sentiment": 0.4797,
+    "combined_sentiment": 0.3879,
+    "confidence": 0.7014,
     "counts": {
-      "crypto": 50,
-      "global": 40
+      "crypto": 64,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 67853,
-      "btc_change_24h": -0.66,
-      "eth_price": 1961.42,
-      "eth_change_24h": -2.33,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 70548,
+      "btc_change_24h": 5.07,
+      "eth_price": 2045.54,
+      "eth_change_24h": 4.65,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 198884286397.0,
-        "high_activity_coins": 4
+        "volume_24h": 196484028934.0,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 58.02,
+        "btc_dominance": 58.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-18T17:12:07.185056+00:00",
-      "crypto": 0.3626,
-      "global": 0.4158,
-      "combined": 0.3899,
-      "counts": {
-        "crypto": 59,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-18T20:22:01.353657+00:00",
       "crypto": 0.3793,
@@ -1008,71 +998,81 @@
         "crypto": 50,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-04T08:50:41.269502+00:00",
+      "crypto": 0.3528,
+      "global": 0.4797,
+      "combined": 0.3879,
+      "counts": {
+        "crypto": 64,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Why Intel (INTC) Stock Is Falling Today",
-        "url": "https://finance.yahoo.com/news/why-intel-intc-stock-falling-003242694.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4678,
+        "title": "Global crypto market cap up 2.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Why AMD (AMD) Stock Is Trading Lower Today",
-        "url": "https://finance.yahoo.com/news/why-amd-amd-stock-trading-002742987.html?.tsrc=rss",
+        "title": "3 Ways to Profit From the Iran Crisis With Options",
+        "url": "https://finance.yahoo.com/m/c5d55d7a-eb84-365d-ae9f-31b5568b778c/3-ways-to-profit-from-the.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4634,
+        "weight": 0.5759,
         "score": 0.5333
       },
       {
-        "title": "Semtech, Photronics, Nova, and Vishay Intertechnology Shares Are Falling, What You Need To Know",
-        "url": "https://finance.yahoo.com/news/semtech-photronics-nova-vishay-intertechnology-002242390.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4589,
-        "score": 0.5333
+        "title": "Trump Says US Willing to Escort Vessels Through Hormuz",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-04/trump-says-us-willing-to-escort-vessels-through-hormuz-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7433,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Asian Markets Extend Losses, South Korean Stocks Plunge",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-04/asian-markets-extend-losses-south-korean-stocks-plunge-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6822,
-        "score": -1.0
+        "title": "X introduces 90-day revenue-sharing ban for undisclosed AI war videos",
+        "url": "https://cointelegraph.com/news/x-90-day-revenue-sharing-ban-undisclosed-ai-conflict-videos?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7647,
+        "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 10 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "Treasury Stability or Higher Bond Income? SCHO vs. ISTB",
         "url": "https://www.fool.com/coverage/etfs/2026/03/03/treasury-stability-or-higher-bond-income-scho-vs-istb/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5987,
+        "weight": 0.3925,
         "score": -0.9667
-      },
-      {
-        "title": "Iran Optimism May Prevail, But It’s Not Free Money",
-        "url": "https://www.bloomberg.com/opinion/newsletters/2026-03-04/iran-optimism-may-prevail-but-it-s-not-free-money",
-        "source": "Bloomberg Markets",
-        "weight": 0.6975,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5153784645963131,
-          "price_change_24h": -0.01501
+          "volume_mcap_ratio": 0.5170753077489041,
+          "price_change_24h": 0.00386
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46346204551543174,
-          "price_change_24h": -0.00203
+          "volume_mcap_ratio": 0.4886880844324684,
+          "price_change_24h": 0.01431
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.4147440246288219,
-          "price_change_24h": -3.72393
+          "volume_mcap_ratio": 0.42457560093311375,
+          "price_change_24h": -2.40695
         }
       ],
       "momentum_shifts": []
