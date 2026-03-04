@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-03T20:39:27.000586+00:00",
+  "updated_at": "2026-03-04T02:39:37.865669+00:00",
   "indicators": {
-    "change24h": -0.03,
-    "vol": 0.128,
-    "fearGreed": 14,
-    "momentum": -0.529,
-    "regime": "bear",
+    "change24h": -0.021,
+    "vol": 0.108,
+    "fearGreed": 10,
+    "momentum": -0.363,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3987,
-    "global_sentiment": 0.4219,
-    "combined_sentiment": 0.4175,
-    "confidence": 0.7918,
+    "crypto_sentiment": 0.347,
+    "global_sentiment": 0.4099,
+    "combined_sentiment": 0.3778,
+    "confidence": 0.7524,
     "counts": {
       "crypto": 55,
-      "global": 43
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 68432,
-      "btc_change_24h": -1.03,
-      "eth_price": 1984.11,
-      "eth_change_24h": -2.8,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 68071,
+      "btc_change_24h": -0.58,
+      "eth_price": 1972.38,
+      "eth_change_24h": -2.05,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 14,
+        "value": 10,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
-        "level": "medium",
-        "volume_24h": 194645362571.0,
-        "high_activity_coins": 6
+        "level": "low",
+        "volume_24h": 193888965014.0,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 58.13,
+        "btc_dominance": 58.01,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-18T08:55:47.227553+00:00",
-      "crypto": 0.3345,
-      "global": 0.4562,
-      "combined": 0.3722,
-      "counts": {
-        "crypto": 64,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-02-18T13:22:01.822670+00:00",
       "crypto": 0.3429,
@@ -1008,71 +998,81 @@
         "crypto": 55,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-04T02:39:37.865669+00:00",
+      "crypto": 0.347,
+      "global": 0.4099,
+      "combined": 0.3778,
+      "counts": {
+        "crypto": 55,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Google employees call for military limits on AI amid Iran strikes, Anthropic fallout",
-        "url": "https://www.cnbc.com/2026/03/03/anthropic-fallout-iran-war-tech-military-ai.html",
-        "source": "CNBC Markets",
-        "weight": 0.556,
-        "score": 0.9667
-      },
-      {
-        "title": "Ondo Finance tokenized stocks platform on Binance wins regulatory approval in Abu Dhabi",
-        "url": "https://www.coindesk.com/business/2026/03/03/ondo-finance-tokenized-stocks-platform-on-binance-wins-regulatory-approval-in-abu-dhabi",
-        "source": "CoinDesk",
-        "weight": 0.4634,
-        "score": 0.9167
-      },
-      {
-        "title": "Vita Coco, B&G Foods, Energizer, Kimberly-Clark, and Clorox Shares Plummet, What You Need To Know",
-        "url": "https://finance.yahoo.com/news/vita-coco-b-g-foods-202242574.html?.tsrc=rss",
+        "title": "Why Intel (INTC) Stock Is Falling Today",
+        "url": "https://finance.yahoo.com/news/why-intel-intc-stock-falling-003242694.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7746,
+        "weight": 0.6265,
+        "score": 0.5333
+      },
+      {
+        "title": "Why AMD (AMD) Stock Is Trading Lower Today",
+        "url": "https://finance.yahoo.com/news/why-amd-amd-stock-trading-002742987.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6205,
+        "score": 0.5333
+      },
+      {
+        "title": "Semtech, Photronics, Nova, and Vishay Intertechnology Shares Are Falling, What You Need To Know",
+        "url": "https://finance.yahoo.com/news/semtech-photronics-nova-vishay-intertechnology-002242390.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6146,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Better iShares ETF: Large-Cap Exposure with IVV or Small-Cap Focused IWM",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/03/better-ishares-etf-large-cap-exposure-with-ivv-or-small-cap-focused-iwm/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7617,
+        "title": "Prediction market 'gambling' needs state regulation, not feds, Mick Mulvaney says after Iran war bets",
+        "url": "https://www.cnbc.com/2026/03/03/prediction-market-gambling-mick-mulvaney-polymarket-kalshi.html",
+        "source": "CNBC Markets",
+        "weight": 0.5628,
         "score": -0.9667
       },
       {
-        "title": "Ether supply on exchanges drops to multi-year lows: Here’s why it matters",
-        "url": "https://cointelegraph.com/news/ether-supply-on-exchanges-drops-to-multi-year-lows-here-s-why-it-matters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6576,
-        "score": -1.0
-      },
-      {
-        "title": "Muni Bonds Head for Biggest Drop Since July on Inflation Concern",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-03/muni-bonds-head-for-biggest-drop-since-july-on-inflation-concern",
+        "title": "China’s Cheap Money Is Shaking $9.5 Trillion Global Loan Market",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-03/china-s-cheap-money-is-shaking-9-5-trillion-global-loan-market",
         "source": "Bloomberg Markets",
-        "weight": 0.6775,
+        "weight": 0.5241,
         "score": -0.9667
+      },
+      {
+        "title": "Fear & Greed 10 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4768672760617236,
-          "price_change_24h": -0.02237
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.5040576979999477,
+          "price_change_24h": 0.01776
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.4175314378098394,
-          "price_change_24h": -0.05043
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.45497400360148327,
+          "price_change_24h": 0.01239
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.40767486724534746,
-          "price_change_24h": -4.17718
+          "volume_mcap_ratio": 0.42510840418805007,
+          "price_change_24h": -3.57313
         }
       ],
       "momentum_shifts": []
