@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-04T20:04:17.889009+00:00",
+  "updated_at": "2026-03-04T20:39:35.281105+00:00",
   "indicators": {
-    "change24h": 0.091,
-    "vol": 0.299,
+    "change24h": 0.09,
+    "vol": 0.301,
     "fearGreed": 10,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4953,
-    "global_sentiment": 0.4707,
-    "combined_sentiment": 0.494,
-    "confidence": 0.8234,
+    "crypto_sentiment": 0.5205,
+    "global_sentiment": 0.4698,
+    "combined_sentiment": 0.5129,
+    "confidence": 0.829,
     "counts": {
-      "crypto": 55,
-      "global": 39
+      "crypto": 57,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 73649,
-      "btc_change_24h": 7.58,
-      "eth_price": 2177.25,
+      "btc_price": 73478,
+      "btc_change_24h": 7.43,
+      "eth_price": 2171.84,
       "eth_change_24h": 9.53,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.7,
+      "regime_strength": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 269524529588.0,
+        "volume_24h": 269699487862.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.72,
+        "btc_dominance": 58.69,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-19T05:24:22.411701+00:00",
-      "crypto": 0.4663,
-      "global": 0.4756,
-      "combined": 0.4727,
-      "counts": {
-        "crypto": 45,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-02-19T08:55:20.431446+00:00",
       "crypto": 0.4352,
@@ -1008,30 +998,40 @@
         "crypto": 55,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-04T20:39:35.281105+00:00",
+      "crypto": 0.5205,
+      "global": 0.4698,
+      "combined": 0.5129,
+      "counts": {
+        "crypto": 57,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "A sucker's rally? Why Bitcoin analysts say BTC price must hold $70K",
+        "url": "https://cointelegraph.com/news/suckers-rally-why-bitcoin-analysts-say-btc-price-must-hold-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9449,
+        "score": 0.8667
+      },
+      {
         "title": "Tradeweb backs crypto ECN Crossover Markets in $31M funding round",
         "url": "https://cointelegraph.com/news/tradeweb-leads-31m-round-in-crypto-ecn-crossover-markets-entering-institutional-trading-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7592,
+        "weight": 0.7093,
         "score": 0.9167
       },
       {
         "title": "MEXC expands tokenized stock offerings with new Ondo Finance listings",
         "url": "https://cointelegraph.com/news/mexc-expands-tokenized-stock-offerings-with-new-ondo-finance-listings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6144,
+        "weight": 0.574,
         "score": 1.0
-      },
-      {
-        "title": "Bitcoin bears could walk into a brutal short squeeze next as BTC retakes $70k",
-        "url": "https://cryptoslate.com/bitcoin-momentum-swings-sharply-and-70000-opens-the-escape-hatch-but-the-next-hurdle-is-brutal/",
-        "source": "CryptoSlate",
-        "weight": 0.6384,
-        "score": 0.8667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Morgan Stanley taps Coinbase and BNY for Bitcoin ETF custody",
         "url": "https://cointelegraph.com/news/morgan-stanley-coinbase-bny-bitcoin-etf-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5342,
+        "weight": 0.4991,
         "score": -0.9667
       },
       {
         "title": "Discipline Amid Higher Rates, Focus on Cash Flow",
         "url": "https://www.bloomberg.com/news/videos/2026-03-04/discipline-amid-higher-rates-focus-on-cash-flow-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7851,
+        "weight": 0.7335,
         "score": -0.6333
       },
       {
         "title": "Trump officially nominates Kevin Warsh as Fed chair to replace Jerome Powell",
         "url": "https://www.cnbc.com/2026/03/04/trump-federal-reserve-kevin-warsh-senate.html",
         "source": "CNBC Markets",
-        "weight": 0.7292,
+        "weight": 0.6813,
         "score": -0.6667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6504037422505611,
-          "price_change_24h": 0.02752
+          "volume_mcap_ratio": 0.6543010355502867,
+          "price_change_24h": 0.02798
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5859681048999091,
-          "price_change_24h": 0.04276
+          "volume_mcap_ratio": 0.5909985367920634,
+          "price_change_24h": -0.00156
         }
       ],
       "momentum_shifts": []
