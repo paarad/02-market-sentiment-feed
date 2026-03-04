@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-04T08:50:41.269502+00:00",
+  "updated_at": "2026-03-04T13:13:04.195204+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.128,
+    "change24h": 0.056,
+    "vol": 0.16,
     "fearGreed": 10,
-    "momentum": 0.61,
+    "momentum": 0.971,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3528,
-    "global_sentiment": 0.4797,
-    "combined_sentiment": 0.3879,
-    "confidence": 0.7014,
+    "crypto_sentiment": 0.5106,
+    "global_sentiment": 0.4558,
+    "combined_sentiment": 0.5043,
+    "confidence": 0.7924,
     "counts": {
-      "crypto": 64,
-      "global": 38
+      "crypto": 50,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 70548,
-      "btc_change_24h": 5.07,
-      "eth_price": 2045.54,
-      "eth_change_24h": 4.65,
+      "btc_price": 71476,
+      "btc_change_24h": 6.37,
+      "eth_price": 2065.02,
+      "eth_change_24h": 5.58,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196484028934.0,
-        "high_activity_coins": 5
+        "volume_24h": 227690076185.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 58.47,
+        "btc_dominance": 58.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-18T20:22:01.353657+00:00",
-      "crypto": 0.3793,
-      "global": 0.4801,
-      "combined": 0.4078,
-      "counts": {
-        "crypto": 61,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-02-18T20:49:50.289047+00:00",
       "crypto": 0.3921,
@@ -1008,71 +998,81 @@
         "crypto": 64,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-03-04T13:13:04.195204+00:00",
+      "crypto": 0.5106,
+      "global": 0.4558,
+      "combined": 0.5043,
+      "counts": {
+        "crypto": 50,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.9% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Three Bitcoin signals show $80K is next BTC price target for bulls",
+        "url": "https://cointelegraph.com/news/3-bitcoin-signals-80k-next-btc-price-target-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8277,
+        "score": 0.8667
       },
       {
-        "title": "3 Ways to Profit From the Iran Crisis With Options",
-        "url": "https://finance.yahoo.com/m/c5d55d7a-eb84-365d-ae9f-31b5568b778c/3-ways-to-profit-from-the.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5759,
-        "score": 0.5333
+        "title": "XRP rewrites the playbook for altcoin ETF approvals to surge in late 2026 after a wave of futures listings",
+        "url": "https://cryptoslate.com/xrp-rewrites-the-playbook-so-altcoin-etf-approvals-could-surge-in-late-2026-after-a-wave-of-futures-listings/",
+        "source": "CryptoSlate",
+        "weight": 0.5932,
+        "score": 0.95
       },
       {
-        "title": "Trump Says US Willing to Escort Vessels Through Hormuz",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-04/trump-says-us-willing-to-escort-vessels-through-hormuz-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7433,
-        "score": 0.3333
+        "title": "Kraken wins Kansas City Fed approval for limited master account access",
+        "url": "https://cointelegraph.com/news/kraken-crypto-exchange-fed-master-account?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6684,
+        "score": 0.75
       }
     ],
     "negative": [
       {
-        "title": "X introduces 90-day revenue-sharing ban for undisclosed AI war videos",
-        "url": "https://cointelegraph.com/news/x-90-day-revenue-sharing-ban-undisclosed-ai-conflict-videos?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7647,
-        "score": -0.6667
-      },
-      {
-        "title": "Fear & Greed 10 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Treasury Stability or Higher Bond Income? SCHO vs. ISTB",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/03/treasury-stability-or-higher-bond-income-scho-vs-istb/?.tsrc=rss",
+        "title": "Dow Jones Futures Waver On Trump Tariff Hike, Iran Outreach Report",
+        "url": "https://finance.yahoo.com/m/c1add9ec-a86f-3839-becb-88c19fce4003/dow-jones-futures-waver-on.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3925,
+        "weight": 0.7862,
         "score": -0.9667
+      },
+      {
+        "title": "Market infrastructure firms warn tokenized securities face higher costs, split liquidity without interoperability",
+        "url": "https://www.coindesk.com/markets/2026/03/04/market-infrastructure-firms-warn-tokenized-securities-face-higher-costs-split-liquidity-without-interoperability",
+        "source": "CoinDesk",
+        "weight": 0.9751,
+        "score": -0.6333
+      },
+      {
+        "title": "Stock Market Today: Dow Dips Amid Iran, Tariff News; Nvidia, Tesla Rebound (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/69885568-120b-32ce-8274-0b59522d7129/stock-market-today%3A-dow-dips.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7866,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.5170753077489041,
-          "price_change_24h": 0.00386
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.5516189159289396,
+          "price_change_24h": 0.02214
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.4886880844324684,
-          "price_change_24h": 0.01431
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.4190530710333994,
+          "price_change_24h": -0.01715
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.42457560093311375,
-          "price_change_24h": -2.40695
+          "volume_mcap_ratio": 0.3695146674875134,
+          "price_change_24h": 0.10057
         }
       ],
       "momentum_shifts": []
