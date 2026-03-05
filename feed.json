@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-05T20:23:19.227788+00:00",
+  "updated_at": "2026-03-05T20:45:53.941876+00:00",
   "indicators": {
-    "change24h": -0.039,
-    "vol": 0.176,
+    "change24h": -0.038,
+    "vol": 0.182,
     "fearGreed": 22,
-    "momentum": -0.676,
+    "momentum": -0.663,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3948,
-    "global_sentiment": 0.3936,
-    "combined_sentiment": 0.4123,
-    "confidence": 0.8059,
+    "crypto_sentiment": 0.3717,
+    "global_sentiment": 0.4218,
+    "combined_sentiment": 0.3973,
+    "confidence": 0.8063,
     "counts": {
       "crypto": 57,
-      "global": 48
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 71178,
-      "btc_change_24h": -3.09,
-      "eth_price": 2086.26,
-      "eth_change_24h": -3.9,
+      "btc_price": 71166,
+      "btc_change_24h": -3.1,
+      "eth_price": 2088.27,
+      "eth_change_24h": -3.91,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 209475492455.0,
+        "volume_24h": 200399786073.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.43,
+        "btc_dominance": 58.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-20T05:18:43.663630+00:00",
-      "crypto": 0.3582,
-      "global": 0.3715,
-      "combined": 0.383,
-      "counts": {
-        "crypto": 55,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-02-20T08:51:51.141926+00:00",
       "crypto": 0.3902,
@@ -1008,6 +998,16 @@
         "crypto": 57,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-03-05T20:45:53.941876+00:00",
+      "crypto": 0.3717,
+      "global": 0.4218,
+      "combined": 0.3973,
+      "counts": {
+        "crypto": 57,
+        "global": 46
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "Nasdaq Texas Launches with Inaugural Dual Listings",
         "url": "https://finance.yahoo.com/news/nasdaq-texas-launches-inaugural-dual-190000714.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6814,
+        "weight": 0.6524,
         "score": 1.0
       },
       {
-        "title": "U.S. crude oil tops $80 per barrel as escalating Iran war disrupts global fuel supplies",
-        "url": "https://www.cnbc.com/2026/03/05/crude-oil-prices-today-iran-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.7508,
+        "title": "Dow sinks by over 1,000 points amid oil price surge",
+        "url": "https://finance.yahoo.com/video/dow-sinks-over-1-000-203857651.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7894,
         "score": 0.5333
       },
       {
-        "title": "Equity Markets Drop, Oil Jumps Intraday Amid Growing Middle East Conflict",
-        "url": "https://finance.yahoo.com/news/equity-markets-drop-oil-jumps-190322457.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6859,
+        "title": "Broadcom stock rallies as CEO Tan makes strong case for why AI growth will last",
+        "url": "https://www.cnbc.com/2026/03/05/broadcom-stock-rally-ai-chip-growth.html",
+        "source": "CNBC Markets",
+        "weight": 0.7811,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Penguin Apparel Brand Targets Crypto IP Pudgy Penguins in Trademark Infringement Lawsuit",
+        "url": "https://decrypt.co/360169/penguin-apparel-brand-targets-pudgy-trademark-infringement-lawsuit",
+        "source": "Decrypt",
+        "weight": 0.826,
+        "score": -1.0
+      },
+      {
         "title": "Wall Street Assessing War Risks to US Economy, Homeowners Stay Out | Bloomberg Markets 3/5/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-03-05/bloomberg-markets-3-5-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7197,
+        "weight": 0.6891,
         "score": -0.9667
       },
       {
         "title": "Trump’s New Tariffs Face Legal Challenge From States",
         "url": "https://www.bloomberg.com/news/videos/2026-03-05/trump-s-new-tariffs-face-legal-challenge-from-states-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6513,
+        "weight": 0.6236,
         "score": -1.0
-      },
-      {
-        "title": "Noem To Be Replaced as Homeland Security Chief",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-05/noem-to-be-replaced-as-homeland-security-chief-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7835,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4865443365461002,
-          "price_change_24h": -0.03657
+          "volume_mcap_ratio": 0.48463024994906495,
+          "price_change_24h": -0.03567
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4782860650690258,
-          "price_change_24h": -0.0279
+          "volume_mcap_ratio": 0.4788019172629691,
+          "price_change_24h": -0.00929
         }
       ],
       "momentum_shifts": []
