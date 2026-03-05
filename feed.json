@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-05T02:42:35.709123+00:00",
+  "updated_at": "2026-03-05T05:14:39.750738+00:00",
   "indicators": {
-    "change24h": 0.058,
-    "vol": 0.192,
+    "change24h": 0.072,
+    "vol": 0.235,
     "fearGreed": 22,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5217,
-    "global_sentiment": 0.4842,
-    "combined_sentiment": 0.515,
-    "confidence": 0.7841,
+    "crypto_sentiment": 0.5567,
+    "global_sentiment": 0.4648,
+    "combined_sentiment": 0.5396,
+    "confidence": 0.7811,
     "counts": {
-      "crypto": 59,
-      "global": 40
+      "crypto": 72,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 72416,
-      "btc_change_24h": 6.33,
-      "eth_price": 2119.33,
-      "eth_change_24h": 7.35,
+      "btc_price": 72793,
+      "btc_change_24h": 7.25,
+      "eth_price": 2136.01,
+      "eth_change_24h": 8.9,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.75,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 285842276319.0,
+        "volume_24h": 275380361936.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.74,
+        "btc_dominance": 58.77,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-19T13:23:35.910313+00:00",
-      "crypto": 0.4848,
-      "global": 0.6024,
-      "combined": 0.4972,
-      "counts": {
-        "crypto": 50,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-19T17:02:41.279220+00:00",
       "crypto": 0.4417,
@@ -1008,52 +998,62 @@
         "crypto": 59,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-05T05:14:39.750738+00:00",
+      "crypto": 0.5567,
+      "global": 0.4648,
+      "combined": 0.5396,
+      "counts": {
+        "crypto": 72,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Sky token jumps 10% after governance vote causes bullish tilt in market dynamics",
+        "url": "https://www.coindesk.com/markets/2026/03/05/sky-jumps-nearly-10-after-governance-vote-cuts-emissions-while-buybacks-tighten-supply",
+        "source": "CoinDesk",
+        "weight": 0.9815,
+        "score": 0.8667
+      },
+      {
+        "title": "Emerging-Market FX Swings Top Developed Peers After Record Lull",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-05/emerging-market-fx-swings-tops-developed-peers-after-record-lull",
+        "source": "Bloomberg Markets",
+        "weight": 0.7459,
+        "score": 0.8667
+      },
+      {
         "title": "Review & Preview: Stocks Show Resilience",
         "url": "https://finance.yahoo.com/m/362ed253-1839-3505-8c83-b7a8aca0d257/review-%26-preview%3A-stocks-show.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6503,
+        "weight": 0.4852,
         "score": 1.0
-      },
-      {
-        "title": "Why China's Growth Target Is the Lowest Since 1991",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-05/why-china-s-growth-target-is-the-lowest-since-1991-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6858,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 4.9% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Goldman Sachs AM Says Non-Payment in Private Credit Remains Low",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-05/goldman-sachs-am-says-non-payment-in-private-credit-remains-low",
+        "title": "Goldman Sachs's Reynolds on Private Credit Outlook",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-05/goldman-sachs-s-reynolds-on-private-credit-outlook-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7049,
+        "weight": 0.6549,
         "score": -1.0
       },
       {
-        "title": "Inside the Ray-Ban Smart Glasses Controversy Plaguing Meta",
-        "url": "https://decrypt.co/360048/ray-ban-smart-glasses-controversy-meta",
-        "source": "Decrypt",
-        "weight": 0.6866,
-        "score": -0.6667
+        "title": "Goldman Sachs AM Says Non-Payment in Private Credit Remains Low",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-05/goldman-sachs-am-says-non-payment-in-private-credit-remains-low",
+        "source": "Bloomberg Markets",
+        "weight": 0.526,
+        "score": -1.0
       },
       {
-        "title": "Nokomis Capital Initiates Stake in Apple Hospitality REIT as Marriott and Hilton Hotels Drive Steady Demand",
-        "url": "https://www.fool.com/coverage/filings/2026/03/04/nokomis-capital-initiates-stake-in-apple-hospitality-reit-as-marriott-and-hilton-hotels-drive-steady-demand/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7079,
+        "title": "Bitwise has now donated over $380K to open-source Bitcoin devs",
+        "url": "https://cointelegraph.com/news/bitwise-second-donation-bitcoin-devs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7602,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6748578021258128,
-          "price_change_24h": 0.01284
+          "volume_mcap_ratio": 0.6712013962024158,
+          "price_change_24h": 0.02124
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4935226156968359,
-          "price_change_24h": -0.01051
+          "volume_mcap_ratio": 0.6220090974772288,
+          "price_change_24h": -0.01116
         }
       ],
       "momentum_shifts": []
