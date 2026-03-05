@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-05T18:10:40.587632+00:00",
+  "updated_at": "2026-03-05T20:23:19.227788+00:00",
   "indicators": {
     "change24h": -0.039,
-    "vol": 0.189,
+    "vol": 0.176,
     "fearGreed": 22,
-    "momentum": -0.675,
+    "momentum": -0.676,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3766,
-    "global_sentiment": 0.4534,
-    "combined_sentiment": 0.4036,
-    "confidence": 0.8118,
+    "crypto_sentiment": 0.3948,
+    "global_sentiment": 0.3936,
+    "combined_sentiment": 0.4123,
+    "confidence": 0.8059,
     "counts": {
-      "crypto": 56,
-      "global": 51
+      "crypto": 57,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 70953,
-      "btc_change_24h": -3.26,
-      "eth_price": 2065.91,
-      "eth_change_24h": -3.95,
+      "btc_price": 71178,
+      "btc_change_24h": -3.09,
+      "eth_price": 2086.26,
+      "eth_change_24h": -3.9,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 218969654962.0,
+        "volume_24h": 209475492455.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.44,
+        "btc_dominance": 58.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-20T02:42:49.534097+00:00",
-      "crypto": 0.3928,
-      "global": 0.367,
-      "combined": 0.4085,
-      "counts": {
-        "crypto": 68,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-02-20T05:18:43.663630+00:00",
       "crypto": 0.3582,
@@ -1008,66 +998,76 @@
         "crypto": 56,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-03-05T20:23:19.227788+00:00",
+      "crypto": 0.3948,
+      "global": 0.3936,
+      "combined": 0.4123,
+      "counts": {
+        "crypto": 57,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "TCX Rises 2.2% in 6 Months on Strong Domains, Wavelo Performance",
-        "url": "https://finance.yahoo.com/news/tcx-rises-2-2-6-161400656.html?.tsrc=rss",
+        "title": "Nasdaq Texas Launches with Inaugural Dual Listings",
+        "url": "https://finance.yahoo.com/news/nasdaq-texas-launches-inaugural-dual-190000714.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.639,
-        "score": 0.6667
+        "weight": 0.6814,
+        "score": 1.0
       },
       {
-        "title": "Today's Stock Market: Dow Plunges 600 Points, S&P 500 and Nasdaq Fall on Geopolitical Tension",
-        "url": "https://finance.yahoo.com/news/todays-stock-market-dow-plunges-160948752.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6339,
-        "score": 0.6667
+        "title": "U.S. crude oil tops $80 per barrel as escalating Iran war disrupts global fuel supplies",
+        "url": "https://www.cnbc.com/2026/03/05/crude-oil-prices-today-iran-war.html",
+        "source": "CNBC Markets",
+        "weight": 0.7508,
+        "score": 0.5333
       },
       {
-        "title": "Bitcoin Price Predictions Flip Bullish, But Ethereum Is Still Stuck",
-        "url": "https://decrypt.co/360131/bitcoin-price-predictions-flip-bullish-but-ethereum-stuck",
-        "source": "Decrypt",
-        "weight": 0.7084,
+        "title": "Equity Markets Drop, Oil Jumps Intraday Amid Growing Middle East Conflict",
+        "url": "https://finance.yahoo.com/news/equity-markets-drop-oil-jumps-190322457.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6859,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "5 unresolved questions hanging over the Anthropic–Pentagon fracas: 'It's all very puzzling'",
-        "url": "https://www.cnbc.com/2026/03/05/5-big-questions-anthropic-pentagon-ai-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.6355,
+        "title": "Wall Street Assessing War Risks to US Economy, Homeowners Stay Out | Bloomberg Markets 3/5/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-05/bloomberg-markets-3-5-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7197,
         "score": -0.9667
       },
       {
-        "title": "38% of altcoins near all-time lows, worse than FTX crash: Analyst",
-        "url": "https://cointelegraph.com/news/38-altcoins-near-all-time-lows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7605,
-        "score": -0.6333
+        "title": "Trump’s New Tariffs Face Legal Challenge From States",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-05/trump-s-new-tariffs-face-legal-challenge-from-states-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6513,
+        "score": -1.0
       },
       {
-        "title": "Oil Prices Could Become a Real Problem for Stocks. This is the Number to Worry About.",
-        "url": "https://finance.yahoo.com/m/0c6e3142-0566-3cd2-b59a-1645035cb586/oil-prices-could-become-a.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6942,
-        "score": -0.6667
+        "title": "Noem To Be Replaced as Homeland Security Chief",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-05/noem-to-be-replaced-as-homeland-security-chief-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7835,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5147408786556114,
-          "price_change_24h": -0.02025
+          "volume_mcap_ratio": 0.4865443365461002,
+          "price_change_24h": -0.03657
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.49729452201119356,
-          "price_change_24h": 0.03552
+          "volume_mcap_ratio": 0.4782860650690258,
+          "price_change_24h": -0.0279
         }
       ],
       "momentum_shifts": []
