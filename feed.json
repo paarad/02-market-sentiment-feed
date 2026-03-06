@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-06T20:01:46.330602+00:00",
+  "updated_at": "2026-03-06T20:39:52.284471+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.145,
+    "change24h": -0.045,
+    "vol": 0.171,
     "fearGreed": 18,
-    "momentum": -0.608,
-    "regime": "sideways",
+    "momentum": -0.789,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4374,
-    "global_sentiment": 0.3874,
-    "combined_sentiment": 0.4437,
-    "confidence": 0.7882,
+    "crypto_sentiment": 0.4202,
+    "global_sentiment": 0.3923,
+    "combined_sentiment": 0.4311,
+    "confidence": 0.7851,
     "counts": {
-      "crypto": 56,
-      "global": 43
+      "crypto": 68,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 68133,
-      "btc_change_24h": -4.0,
-      "eth_price": 1983.96,
-      "eth_change_24h": -4.39,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 67851,
+      "btc_change_24h": -4.83,
+      "eth_price": 1973.12,
+      "eth_change_24h": -5.61,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161482317365.0,
+        "volume_24h": 162293733555.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.96,
+        "btc_dominance": 57.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-21T05:08:52.021666+00:00",
-      "crypto": 0.2869,
-      "global": 0.4378,
-      "combined": 0.335,
-      "counts": {
-        "crypto": 52,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-02-21T08:39:54.665148+00:00",
       "crypto": 0.364,
@@ -1008,52 +998,62 @@
         "crypto": 56,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-06T20:39:52.284471+00:00",
+      "crypto": 0.4202,
+      "global": 0.3923,
+      "combined": 0.4311,
+      "counts": {
+        "crypto": 68,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bond Traders Pile Into Inflation Hedges as War Drives Up Oil",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-06/bond-traders-pile-into-inflation-hedges-as-war-drives-up-oil",
+        "source": "Bloomberg Markets",
+        "weight": 0.7431,
+        "score": 0.8667
+      },
+      {
         "title": "Bitcoin could tag $90,000 again but only if this level stops acting like a sell wall for trapped traders",
         "url": "https://cryptoslate.com/bitcoin-could-tag-90000-again-but-only-if-this-level-stops-acting-like-a-sell-wall-for-trapped-traders/",
         "source": "CryptoSlate",
-        "weight": 0.6796,
+        "weight": 0.6316,
         "score": 0.8667
       },
       {
         "title": "How High Could Oil Prices Go If the Conflict with Iran Continues?",
         "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-high-could-oil-prices-go-if-the-conflict-with-iran-continues",
         "source": "Bloomberg Markets",
-        "weight": 0.6505,
+        "weight": 0.6045,
         "score": 0.6667
-      },
-      {
-        "title": "Oil shock could send Bitcoin down 45% if price surge forces Fed to delay cuts",
-        "url": "https://cryptoslate.com/oil-shock-could-send-bitcoin-down-45-if-price-surge-forces-fed-to-delay-cuts/",
-        "source": "CryptoSlate",
-        "weight": 0.5339,
-        "score": 0.8
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin recovery meets DeFi tensions as Aave rift deepens: Finance Redefined",
-        "url": "https://cointelegraph.com/news/bitcoin-etf-rebound-stablecoin-inflows-defi-governance-hacks-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7103,
-        "score": -0.9333
-      },
-      {
-        "title": "The structural tailwind behind AI, tech stocks right now",
-        "url": "https://finance.yahoo.com/video/structural-tailwind-behind-ai-tech-183000825.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6704,
+        "title": "Robinhood's venture fund, which gives investors access to private companies, tanks 11% on first day",
+        "url": "https://www.cnbc.com/2026/03/06/robinhoods-venture-fund-which-gives-investors-access-to-private-companies-tanks-11percent-on-first-day.html",
+        "source": "CNBC Markets",
+        "weight": 0.7532,
         "score": -0.9667
       },
       {
-        "title": "Brightline Florida Cut Deeper Into Junk on Restructuring Risk",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/brightline-florida-cut-deeper-into-junk-on-restructuring-risk",
-        "source": "Bloomberg Markets",
-        "weight": 0.6216,
+        "title": "Big Tech Stocks Were Expensive. Then the Market Turned on AI",
+        "url": "https://finance.yahoo.com/news/big-tech-stocks-were-expensive-103137428.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.731,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin recovery meets DeFi tensions as Aave rift deepens: Finance Redefined",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-rebound-stablecoin-inflows-defi-governance-hacks-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6601,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4137639278315374,
-          "price_change_24h": -0.00841
+          "volume_mcap_ratio": 0.4115516315718583,
+          "price_change_24h": 0.00441
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39323579057077557,
-          "price_change_24h": -0.00382
+          "volume_mcap_ratio": 0.3926325635140982,
+          "price_change_24h": -0.0093
         }
       ],
       "momentum_shifts": []
