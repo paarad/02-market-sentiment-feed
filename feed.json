@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-06T08:49:33.034374+00:00",
+  "updated_at": "2026-03-06T13:12:36.230945+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.141,
+    "change24h": -0.033,
+    "vol": 0.152,
     "fearGreed": 18,
-    "momentum": -0.081,
-    "regime": "sideways",
+    "momentum": -0.572,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3414,
-    "global_sentiment": 0.4755,
-    "combined_sentiment": 0.379,
-    "confidence": 0.7218,
+    "crypto_sentiment": 0.4019,
+    "global_sentiment": 0.5839,
+    "combined_sentiment": 0.4334,
+    "confidence": 0.7805,
     "counts": {
-      "crypto": 54,
-      "global": 41
+      "crypto": 57,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 70939,
-      "btc_change_24h": -1.77,
-      "eth_price": 2081.91,
-      "eth_change_24h": -1.41,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 70008,
+      "btc_change_24h": -3.67,
+      "eth_price": 2051.05,
+      "eth_change_24h": -3.57,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181174017188.0,
+        "volume_24h": 170611731642.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.39,
+        "btc_dominance": 58.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-20T20:00:36.523102+00:00",
-      "crypto": 0.3241,
-      "global": 0.4752,
-      "combined": 0.366,
-      "counts": {
-        "crypto": 53,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-20T20:40:44.831029+00:00",
       "crypto": 0.3403,
@@ -1008,66 +998,76 @@
         "crypto": 54,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-06T13:12:36.230945+00:00",
+      "crypto": 0.4019,
+      "global": 0.5839,
+      "combined": 0.4334,
+      "counts": {
+        "crypto": 57,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Almost nobody is talking about altseason anymore. That may be bullish",
-        "url": "https://www.coindesk.com/markets/2026/03/06/almost-nobody-is-talking-about-altseason-anymore-that-may-be-bullish",
-        "source": "CoinDesk",
-        "weight": 0.6546,
-        "score": 0.5333
+        "title": "Bitcoin mining profit plummets to $500 per BTC as costs surge past $70k as Wall St funds miners’ AI escape hatch",
+        "url": "https://cryptoslate.com/bitcoin-mining-costs-has-surged-past-70000-and-wall-street-is-funding-miners-ai-escape-hatch/",
+        "source": "CryptoSlate",
+        "weight": 0.635,
+        "score": 1.0
       },
       {
-        "title": "Bitcoin relief rally faces headwinds as bear market persists: analysts",
-        "url": "https://cointelegraph.com/news/bitcoin-relief-rally-faces-headwinds-as-bear-market-persists-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5748,
-        "score": 0.5333
-      },
-      {
-        "title": "European Gas Set for Biggest Weekly Gain Since Energy Crisis",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/european-gas-set-for-biggest-weekly-gain-since-energy-crisis",
+        "title": "IRGC Apparatus Must Be Dismantled for Iranians to Take Charge: Aarabi",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-06/irgc-apparatus-must-be-dismantled-for-iranians-to-take-charge-aarabi",
         "source": "Bloomberg Markets",
-        "weight": 0.6952,
-        "score": 0.3333
+        "weight": 0.7385,
+        "score": 0.6667
+      },
+      {
+        "title": "Bitcoin hit by short-termism as rally fades ahead of U.S. jobs data",
+        "url": "https://www.coindesk.com/daybook-us/2026/03/06/bitcoin-hit-by-short-termism-as-rally-fades-ahead-of-u-s-jobs-data",
+        "source": "CoinDesk",
+        "weight": 0.9046,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "How US Sub Strike Threatens India’s Economy",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-us-sub-strike-threatens-india-s-economy-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6283,
-        "score": -0.9667
+        "title": "Strike secures New York BitLicense, opening bitcoin financial services to state residents",
+        "url": "https://www.coindesk.com/business/2026/03/06/strike-secures-new-york-bitlicense-opening-bitcoin-financial-services-to-state-residents",
+        "source": "CoinDesk",
+        "weight": 0.879,
+        "score": -0.6333
       },
       {
-        "title": "Solv Protocol offers 10% bounty after $2.7M vault exploit",
-        "url": "https://cointelegraph.com/news/hacker-steals-nearly-3-million-from-solv-protocol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4991,
-        "score": -1.0
+        "title": "1 S&P 500 Stock with Solid Fundamentals and 2 We Turn Down",
+        "url": "https://finance.yahoo.com/news/1-p-500-stock-solid-124937469.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7654,
+        "score": -0.6
       },
       {
-        "title": "Iran Intensifies GCC Strikes; Trump Wants Say in Succession | Horizons Middle East & Africa 3/6/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-06/horizons-middle-east-africa-03-06-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7107,
-        "score": -0.6667
+        "title": "3 Dow Jones Stocks We Steer Clear Of",
+        "url": "https://finance.yahoo.com/news/3-dow-jones-stocks-steer-123437137.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7436,
+        "score": -0.6
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.42555340075628334,
-          "price_change_24h": -0.01085
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.4088699949511525,
+          "price_change_24h": 0.02818
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.4155930783159854,
-          "price_change_24h": 0.05511
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.39846092185887183,
+          "price_change_24h": -0.01059
         }
       ],
       "momentum_shifts": []
