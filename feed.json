@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-06T02:40:09.391518+00:00",
+  "updated_at": "2026-03-06T05:12:24.694560+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.111,
+    "change24h": -0.019,
+    "vol": 0.127,
     "fearGreed": 18,
-    "momentum": -0.119,
-    "regime": "sideways",
+    "momentum": -0.336,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3177,
-    "global_sentiment": 0.4775,
-    "combined_sentiment": 0.3614,
-    "confidence": 0.771,
+    "crypto_sentiment": 0.2899,
+    "global_sentiment": 0.4967,
+    "combined_sentiment": 0.3422,
+    "confidence": 0.7717,
     "counts": {
       "crypto": 76,
-      "global": 51
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 71173,
-      "btc_change_24h": -1.79,
-      "eth_price": 2083.98,
-      "eth_change_24h": -1.73,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 70490,
+      "btc_change_24h": -3.18,
+      "eth_price": 2068.13,
+      "eth_change_24h": -3.2,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 184257184679.0,
+        "volume_24h": 184304936035.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.43,
+        "btc_dominance": 58.3,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-20T13:14:36.679195+00:00",
-      "crypto": 0.4205,
-      "global": 0.6743,
-      "combined": 0.4549,
-      "counts": {
-        "crypto": 72,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-02-20T16:51:04.002879+00:00",
       "crypto": 0.3674,
@@ -1008,66 +998,76 @@
         "crypto": 76,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-03-06T05:12:24.694560+00:00",
+      "crypto": 0.2899,
+      "global": 0.4967,
+      "combined": 0.3422,
+      "counts": {
+        "crypto": 76,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Petrobras Tops Estimates as Output Counters Oil Slide",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/petrobras-tops-estimates-after-strong-output-offsets-price-drop",
+        "title": "Rohm Shares Set to Surge on Report Denso Made $8 Billion Offer",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-06/denso-offered-to-buy-chipmaker-rohm-for-8-billion-nikkei-says",
         "source": "Bloomberg Markets",
-        "weight": 0.5943,
-        "score": 0.6667
-      },
-      {
-        "title": "Iran's Shahed drone: How 'the poor man’s cruise missile’ is shaping Tehran’s retaliation",
-        "url": "https://www.cnbc.com/2026/03/05/iran-shahed-136-drone-cost-air-defense-gulf-war-us-israel-gulf-scorpion-strike-centcom.html",
-        "source": "CNBC Markets",
-        "weight": 0.7872,
-        "score": 0.3333
-      },
-      {
-        "title": "U.S. crude oil tops $80 per barrel as escalating Iran war disrupts global fuel supplies",
-        "url": "https://www.cnbc.com/2026/03/05/crude-oil-prices-today-iran-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.4739,
+        "weight": 0.6379,
         "score": 0.5333
+      },
+      {
+        "title": "Teck Charges Korea Zinc More on Silver, Germanium in 2026",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-06/teck-charges-korea-zinc-more-on-silver-germanium-in-2026",
+        "source": "Bloomberg Markets",
+        "weight": 0.6206,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin drops under $71,000, ETH, DOGE slide as war-week rally runs into resistance",
+        "url": "https://www.coindesk.com/markets/2026/03/06/bitcoin-drops-under-usd71-000-eth-doge-slide-as-war-week-rally-runs-into-resistance",
+        "source": "CoinDesk",
+        "weight": 1.1236,
+        "score": 0.2
       }
     ],
     "negative": [
       {
+        "title": "Solv Protocol offers 10% bounty after hacker snatches $2.7M",
+        "url": "https://cointelegraph.com/news/hacker-steals-nearly-3-million-from-solv-protocol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7582,
+        "score": -1.0
+      },
+      {
+        "title": "US regulators say tokenized securities subject to same capital rules",
+        "url": "https://cointelegraph.com/news/tokenized-securities-same-capital-rules-us-regulators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7003,
+        "score": -0.9667
+      },
+      {
         "title": "SEC, Justin Sun reach settlement over Tron lawsuit",
         "url": "https://www.coindesk.com/policy/2026/03/05/sec-justin-sun-reach-settlement-over-tron-lawsuit",
         "source": "CoinDesk",
-        "weight": 0.5765,
+        "weight": 0.43,
         "score": -1.0
-      },
-      {
-        "title": "Gold Set for Weekly Loss as Dollar Strength Offsets War Premium",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-05/gold-steadies-as-firmer-dollar-offsets-middle-east-risk-premium",
-        "source": "Bloomberg Markets",
-        "weight": 0.5569,
-        "score": -1.0
-      },
-      {
-        "title": "U.S. banking agencies say capital should be same for standard or tokenized securities",
-        "url": "https://www.coindesk.com/policy/2026/03/05/u-s-banking-agencies-say-capital-should-be-same-for-standard-or-tokenized-securities",
-        "source": "CoinDesk",
-        "weight": 0.569,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4517765811169321,
-          "price_change_24h": -0.015
+          "volume_mcap_ratio": 0.4437759058488938,
+          "price_change_24h": -0.01419
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.34264279280570376,
-          "price_change_24h": -0.00172
+          "volume_mcap_ratio": 0.33205883096014704,
+          "price_change_24h": 0.01432
         }
       ],
       "momentum_shifts": []
