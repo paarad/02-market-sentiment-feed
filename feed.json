@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-06T16:52:51.682987+00:00",
+  "updated_at": "2026-03-06T20:01:46.330602+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.155,
+    "change24h": -0.035,
+    "vol": 0.145,
     "fearGreed": 18,
-    "momentum": -0.707,
-    "regime": "bear",
+    "momentum": -0.608,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4304,
-    "global_sentiment": 0.5035,
-    "combined_sentiment": 0.4481,
-    "confidence": 0.7957,
+    "crypto_sentiment": 0.4374,
+    "global_sentiment": 0.3874,
+    "combined_sentiment": 0.4437,
+    "confidence": 0.7882,
     "counts": {
-      "crypto": 57,
-      "global": 40
+      "crypto": 56,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 68625,
-      "btc_change_24h": -3.71,
-      "eth_price": 1976.07,
-      "eth_change_24h": -4.93,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "btc_price": 68133,
+      "btc_change_24h": -4.0,
+      "eth_price": 1983.96,
+      "eth_change_24h": -4.39,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 174531311682.0,
+        "volume_24h": 161482317365.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.17,
+        "btc_dominance": 57.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-21T02:36:41.487332+00:00",
-      "crypto": 0.3335,
-      "global": 0.4328,
-      "combined": 0.3696,
-      "counts": {
-        "crypto": 53,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-02-21T05:08:52.021666+00:00",
       "crypto": 0.2869,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-06T20:01:46.330602+00:00",
+      "crypto": 0.4374,
+      "global": 0.3874,
+      "combined": 0.4437,
+      "counts": {
+        "crypto": 56,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Colombia Local Debt Selloff Turns to Rally on Oil Surge",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/colombia-local-debt-selloff-turns-to-rally-on-oil-surge",
-        "source": "Bloomberg Markets",
-        "weight": 0.6566,
-        "score": 1.0
+        "title": "Bitcoin could tag $90,000 again but only if this level stops acting like a sell wall for trapped traders",
+        "url": "https://cryptoslate.com/bitcoin-could-tag-90000-again-but-only-if-this-level-stops-acting-like-a-sell-wall-for-trapped-traders/",
+        "source": "CryptoSlate",
+        "weight": 0.6796,
+        "score": 0.8667
       },
       {
-        "title": "DVN Outperforms Industry in the Past 6 Months: How to Play the Stock?",
-        "url": "https://finance.yahoo.com/news/dvn-outperforms-industry-past-6-153300658.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.686,
+        "title": "How High Could Oil Prices Go If the Conflict with Iran Continues?",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-high-could-oil-prices-go-if-the-conflict-with-iran-continues",
+        "source": "Bloomberg Markets",
+        "weight": 0.6505,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin mining profit plummets to $500 per BTC as costs surge past $70k as Wall St funds miners’ AI escape hatch",
-        "url": "https://cryptoslate.com/bitcoin-mining-costs-has-surged-past-70000-and-wall-street-is-funding-miners-ai-escape-hatch/",
+        "title": "Oil shock could send Bitcoin down 45% if price surge forces Fed to delay cuts",
+        "url": "https://cryptoslate.com/oil-shock-could-send-bitcoin-down-45-if-price-surge-forces-fed-to-delay-cuts/",
         "source": "CryptoSlate",
-        "weight": 0.4155,
-        "score": 1.0
+        "weight": 0.5339,
+        "score": 0.8
       }
     ],
     "negative": [
       {
-        "title": "FDA reversals leave investors worrying about the fates of other experimental drugs",
-        "url": "https://www.cnbc.com/2026/03/06/fda-reversals-on-uniqure-moderna-approvals-worry-investors.html",
-        "source": "CNBC Markets",
-        "weight": 0.7709,
+        "title": "Bitcoin recovery meets DeFi tensions as Aave rift deepens: Finance Redefined",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-rebound-stablecoin-inflows-defi-governance-hacks-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7103,
         "score": -0.9333
       },
       {
-        "title": "Crypto Biz: Kraken plugs into the Fed",
-        "url": "https://cointelegraph.com/news/kraken-fed-access-mara-bitcoin-nyse-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7561,
-        "score": -0.6333
+        "title": "The structural tailwind behind AI, tech stocks right now",
+        "url": "https://finance.yahoo.com/video/structural-tailwind-behind-ai-tech-183000825.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6704,
+        "score": -0.9667
       },
       {
-        "title": "NYSE to Pay SEC $9 Million Tied to 2023 Market Outage Turmoil",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/nyse-to-pay-sec-9-million-tied-to-2023-market-outage-turmoil",
+        "title": "Brightline Florida Cut Deeper Into Junk on Restructuring Risk",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-06/brightline-florida-cut-deeper-into-junk-on-restructuring-risk",
         "source": "Bloomberg Markets",
-        "weight": 0.7314,
-        "score": -0.6333
+        "weight": 0.6216,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.41759929548811814,
-          "price_change_24h": 0.00554
+          "volume_mcap_ratio": 0.4137639278315374,
+          "price_change_24h": -0.00841
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40634457267101887,
-          "price_change_24h": -0.01566
+          "volume_mcap_ratio": 0.39323579057077557,
+          "price_change_24h": -0.00382
         }
       ],
       "momentum_shifts": []
