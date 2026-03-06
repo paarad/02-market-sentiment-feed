@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-06T05:12:24.694560+00:00",
+  "updated_at": "2026-03-06T08:49:33.034374+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.127,
+    "change24h": -0.005,
+    "vol": 0.141,
     "fearGreed": 18,
-    "momentum": -0.336,
-    "regime": "bear",
+    "momentum": -0.081,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2899,
-    "global_sentiment": 0.4967,
-    "combined_sentiment": 0.3422,
-    "confidence": 0.7717,
+    "crypto_sentiment": 0.3414,
+    "global_sentiment": 0.4755,
+    "combined_sentiment": 0.379,
+    "confidence": 0.7218,
     "counts": {
-      "crypto": 76,
-      "global": 47
+      "crypto": 54,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 70490,
-      "btc_change_24h": -3.18,
-      "eth_price": 2068.13,
-      "eth_change_24h": -3.2,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 70939,
+      "btc_change_24h": -1.77,
+      "eth_price": 2081.91,
+      "eth_change_24h": -1.41,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 184304936035.0,
+        "volume_24h": 181174017188.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.3,
+        "btc_dominance": 58.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-20T16:51:04.002879+00:00",
-      "crypto": 0.3674,
-      "global": 0.5942,
-      "combined": 0.4084,
-      "counts": {
-        "crypto": 57,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-02-20T20:00:36.523102+00:00",
       "crypto": 0.3241,
@@ -1008,66 +998,76 @@
         "crypto": 76,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-03-06T08:49:33.034374+00:00",
+      "crypto": 0.3414,
+      "global": 0.4755,
+      "combined": 0.379,
+      "counts": {
+        "crypto": 54,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Rohm Shares Set to Surge on Report Denso Made $8 Billion Offer",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/denso-offered-to-buy-chipmaker-rohm-for-8-billion-nikkei-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6379,
-        "score": 0.5333
-      },
-      {
-        "title": "Teck Charges Korea Zinc More on Silver, Germanium in 2026",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/teck-charges-korea-zinc-more-on-silver-germanium-in-2026",
-        "source": "Bloomberg Markets",
-        "weight": 0.6206,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin drops under $71,000, ETH, DOGE slide as war-week rally runs into resistance",
-        "url": "https://www.coindesk.com/markets/2026/03/06/bitcoin-drops-under-usd71-000-eth-doge-slide-as-war-week-rally-runs-into-resistance",
+        "title": "Almost nobody is talking about altseason anymore. That may be bullish",
+        "url": "https://www.coindesk.com/markets/2026/03/06/almost-nobody-is-talking-about-altseason-anymore-that-may-be-bullish",
         "source": "CoinDesk",
-        "weight": 1.1236,
-        "score": 0.2
+        "weight": 0.6546,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin relief rally faces headwinds as bear market persists: analysts",
+        "url": "https://cointelegraph.com/news/bitcoin-relief-rally-faces-headwinds-as-bear-market-persists-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5748,
+        "score": 0.5333
+      },
+      {
+        "title": "European Gas Set for Biggest Weekly Gain Since Energy Crisis",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-06/european-gas-set-for-biggest-weekly-gain-since-energy-crisis",
+        "source": "Bloomberg Markets",
+        "weight": 0.6952,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Solv Protocol offers 10% bounty after hacker snatches $2.7M",
-        "url": "https://cointelegraph.com/news/hacker-steals-nearly-3-million-from-solv-protocol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7582,
-        "score": -1.0
-      },
-      {
-        "title": "US regulators say tokenized securities subject to same capital rules",
-        "url": "https://cointelegraph.com/news/tokenized-securities-same-capital-rules-us-regulators?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7003,
+        "title": "How US Sub Strike Threatens India’s Economy",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-us-sub-strike-threatens-india-s-economy-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6283,
         "score": -0.9667
       },
       {
-        "title": "SEC, Justin Sun reach settlement over Tron lawsuit",
-        "url": "https://www.coindesk.com/policy/2026/03/05/sec-justin-sun-reach-settlement-over-tron-lawsuit",
-        "source": "CoinDesk",
-        "weight": 0.43,
+        "title": "Solv Protocol offers 10% bounty after $2.7M vault exploit",
+        "url": "https://cointelegraph.com/news/hacker-steals-nearly-3-million-from-solv-protocol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4991,
         "score": -1.0
+      },
+      {
+        "title": "Iran Intensifies GCC Strikes; Trump Wants Say in Succession | Horizons Middle East & Africa 3/6/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-06/horizons-middle-east-africa-03-06-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7107,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4437759058488938,
-          "price_change_24h": -0.01419
+          "volume_mcap_ratio": 0.42555340075628334,
+          "price_change_24h": -0.01085
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.33205883096014704,
-          "price_change_24h": 0.01432
+          "volume_mcap_ratio": 0.4155930783159854,
+          "price_change_24h": 0.05511
         }
       ],
       "momentum_shifts": []
