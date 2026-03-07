@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-06T20:39:52.284471+00:00",
+  "updated_at": "2026-03-07T02:32:47.908202+00:00",
   "indicators": {
-    "change24h": -0.045,
-    "vol": 0.171,
-    "fearGreed": 18,
-    "momentum": -0.789,
+    "change24h": -0.044,
+    "vol": 0.139,
+    "fearGreed": 12,
+    "momentum": -0.762,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4202,
-    "global_sentiment": 0.3923,
-    "combined_sentiment": 0.4311,
-    "confidence": 0.7851,
+    "crypto_sentiment": 0.4241,
+    "global_sentiment": 0.4589,
+    "combined_sentiment": 0.4397,
+    "confidence": 0.7425,
     "counts": {
-      "crypto": 68,
-      "global": 45
+      "crypto": 58,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 67851,
-      "btc_change_24h": -4.83,
-      "eth_price": 1973.12,
-      "eth_change_24h": -5.61,
+      "btc_price": 68111,
+      "btc_change_24h": -4.45,
+      "eth_price": 1975.53,
+      "eth_change_24h": -5.35,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.3,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 18,
+        "value": 12,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 162293733555.0,
-        "high_activity_coins": 2
+        "volume_24h": 150974512627.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.93,
+        "btc_dominance": 57.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-21T08:39:54.665148+00:00",
-      "crypto": 0.364,
-      "global": 0.4295,
-      "combined": 0.3921,
-      "counts": {
-        "crypto": 51,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-02-21T13:03:41.406209+00:00",
       "crypto": 0.4559,
@@ -1008,66 +998,71 @@
         "crypto": 68,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-03-07T02:32:47.908202+00:00",
+      "crypto": 0.4241,
+      "global": 0.4589,
+      "combined": 0.4397,
+      "counts": {
+        "crypto": 58,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bond Traders Pile Into Inflation Hedges as War Drives Up Oil",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-06/bond-traders-pile-into-inflation-hedges-as-war-drives-up-oil",
-        "source": "Bloomberg Markets",
-        "weight": 0.7431,
-        "score": 0.8667
+        "title": "Price predictions 3/6: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, XMR",
+        "url": "https://cointelegraph.com/news/price-predictions-3-6-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5058,
+        "score": 1.0
       },
       {
-        "title": "Bitcoin could tag $90,000 again but only if this level stops acting like a sell wall for trapped traders",
-        "url": "https://cryptoslate.com/bitcoin-could-tag-90000-again-but-only-if-this-level-stops-acting-like-a-sell-wall-for-trapped-traders/",
-        "source": "CryptoSlate",
-        "weight": 0.6316,
-        "score": 0.8667
+        "title": "Lumentum, Coherent, and Vertiv Added to the S&P 500 As AI Stocks Dominate Rebalancing",
+        "url": "https://247wallst.com/investing/2026/03/06/lumentum-coherent-and-vertiv-added-to-the-sp-500-as-ai-stocks-dominate-rebalancing/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5224,
+        "score": 0.9167
       },
       {
-        "title": "How High Could Oil Prices Go If the Conflict with Iran Continues?",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-06/how-high-could-oil-prices-go-if-the-conflict-with-iran-continues",
-        "source": "Bloomberg Markets",
-        "weight": 0.6045,
-        "score": 0.6667
+        "title": "Vertiv and EchoStar lead tech surge in S&P 500 rebalance",
+        "url": "https://finance.yahoo.com/news/vertiv-echostar-lead-tech-surge-230634408.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5378,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Novo and Hims End Feud, Will Sell Obesity Drugs Together",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-07/novo-and-hims-end-feud-will-sell-obesity-drugs-together",
+        "source": "Bloomberg Markets",
+        "weight": 0.633,
+        "score": -1.0
+      },
+      {
+        "title": "DEA Investigated Epstein Over Ketamine, Prostitution and Money",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-06/dea-investigated-epstein-over-ketamine-prostitution-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5931,
+        "score": -1.0
+      },
+      {
         "title": "Robinhood's venture fund, which gives investors access to private companies, tanks 11% on first day",
         "url": "https://www.cnbc.com/2026/03/06/robinhoods-venture-fund-which-gives-investors-access-to-private-companies-tanks-11percent-on-first-day.html",
         "source": "CNBC Markets",
-        "weight": 0.7532,
+        "weight": 0.5753,
         "score": -0.9667
-      },
-      {
-        "title": "Big Tech Stocks Were Expensive. Then the Market Turned on AI",
-        "url": "https://finance.yahoo.com/news/big-tech-stocks-were-expensive-103137428.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.731,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin recovery meets DeFi tensions as Aave rift deepens: Finance Redefined",
-        "url": "https://cointelegraph.com/news/bitcoin-etf-rebound-stablecoin-inflows-defi-governance-hacks-finance-redefined?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6601,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.4115516315718583,
-          "price_change_24h": 0.00441
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3926325635140982,
-          "price_change_24h": -0.0093
+          "volume_mcap_ratio": 0.36795675382575865,
+          "price_change_24h": -0.00542
         }
       ],
       "momentum_shifts": []
