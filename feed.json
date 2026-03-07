@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-07T08:39:46.952456+00:00",
+  "updated_at": "2026-03-07T13:02:07.279268+00:00",
   "indicators": {
-    "change24h": -0.037,
-    "vol": 0.113,
+    "change24h": -0.029,
+    "vol": 0.088,
     "fearGreed": 12,
-    "momentum": -0.652,
+    "momentum": -0.504,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3991,
-    "global_sentiment": 0.414,
-    "combined_sentiment": 0.4171,
-    "confidence": 0.708,
+    "crypto_sentiment": 0.4352,
+    "global_sentiment": 0.4615,
+    "combined_sentiment": 0.4482,
+    "confidence": 0.6753,
     "counts": {
-      "crypto": 63,
-      "global": 41
+      "crypto": 76,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 67927,
-      "btc_change_24h": -4.25,
-      "eth_price": 1984.9,
-      "eth_change_24h": -4.56,
+      "btc_price": 68008,
+      "btc_change_24h": -2.78,
+      "eth_price": 1982.5,
+      "eth_change_24h": -3.26,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 146359060807.0,
-        "high_activity_coins": 2
+        "volume_24h": 126252688161.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.89,
+        "btc_dominance": 57.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-21T19:56:45.980724+00:00",
-      "crypto": 0.4027,
-      "global": 0.3702,
-      "combined": 0.4162,
-      "counts": {
-        "crypto": 65,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-02-21T20:33:41.584978+00:00",
       "crypto": 0.3921,
@@ -1008,40 +998,43 @@
         "crypto": 63,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-07T13:02:07.279268+00:00",
+      "crypto": 0.4352,
+      "global": 0.4615,
+      "combined": 0.4482,
+      "counts": {
+        "crypto": 76,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin slips below $68,000 heading into the weekend as dollar posts steepest weekly gain in a year",
-        "url": "https://www.coindesk.com/markets/2026/03/07/bitcoin-slips-below-usd68-000-heading-into-the-weekend-as-dollar-posts-steepest-weekly-gain-in-a-year",
-        "source": "CoinDesk",
-        "weight": 0.7579,
-        "score": 0.3333
-      },
-      {
-        "title": "Price predictions 3/6: BTC, ETH, BNB, XRP, SOL, DOGE, ADA, BCH, HYPE, XMR",
-        "url": "https://cointelegraph.com/news/price-predictions-3-6-btc-eth-bnb-xrp-sol-doge-ada-bch-hype-xmr?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "USDC beats Tether as stablecoin transfer volume hits $1.8T all-time high",
+        "url": "https://cointelegraph.com/news/usdc-beats-tether-stablecoin-transfer-volume-1-8-trillion-all-time-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.2495,
-        "score": 1.0
+        "weight": 0.617,
+        "score": 0.6667
       },
       {
-        "title": "Vertiv and EchoStar lead tech surge in S&P 500 rebalance",
-        "url": "https://finance.yahoo.com/news/vertiv-echostar-lead-tech-surge-230634408.html?.tsrc=rss",
+        "title": "Odd Lots: Henry Blodget on the Problem for OpenAI (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2026-03-07/henry-blodget-on-the-problem-for-openai-podcast",
+        "source": "Bloomberg Markets",
+        "weight": 0.5019,
+        "score": 0.6667
+      },
+      {
+        "title": "Move Over, Tariffs! If a Stock Market Crash Takes Shape Under President Donald Trump, These 2 Factors Are Likely the Cause.",
+        "url": "https://www.fool.com/investing/2026/03/07/move-over-tariffs-stock-market-crash-donald-trump/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2653,
-        "score": 0.8667
+        "weight": 0.5277,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Florida Senate passes state-level stablecoin bill, awaits DeSantis’ signature",
-        "url": "https://cointelegraph.com/news/florida-senate-passes-stablecoin-bill-desantis-signature?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7382,
-        "score": -0.6667
-      },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,24 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "Novo and Hims End Feud, Will Sell Obesity Drugs Together",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-07/novo-and-hims-end-feud-will-sell-obesity-drugs-together",
-        "source": "Bloomberg Markets",
-        "weight": 0.3123,
-        "score": -1.0
+        "title": "Florida Senate passes state-level stablecoin bill, awaits DeSantis’ signature",
+        "url": "https://cointelegraph.com/news/florida-senate-passes-stablecoin-bill-desantis-signature?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4454,
+        "score": -0.6667
+      },
+      {
+        "title": "Global crypto market cap down -2.3% — selloff",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3481770409105694,
-          "price_change_24h": 0.00645
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3329794868949754,
-          "price_change_24h": -0.02472
+          "volume_mcap_ratio": 0.30863539881716107,
+          "price_change_24h": -0.00487
         }
       ],
       "momentum_shifts": []
