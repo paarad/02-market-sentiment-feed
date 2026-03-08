@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-08T05:12:15.043911+00:00",
+  "updated_at": "2026-03-08T08:39:41.358330+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.076,
+    "change24h": -0.019,
+    "vol": 0.067,
     "fearGreed": 12,
-    "momentum": -0.379,
-    "regime": "sideways",
+    "momentum": -0.326,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3163,
-    "global_sentiment": 0.4809,
-    "combined_sentiment": 0.3607,
-    "confidence": 0.5635,
+    "crypto_sentiment": 0.2119,
+    "global_sentiment": 0.5136,
+    "combined_sentiment": 0.2851,
+    "confidence": 0.588,
     "counts": {
-      "crypto": 59,
-      "global": 27
+      "crypto": 56,
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 66919,
-      "btc_change_24h": -1.58,
-      "eth_price": 1943.36,
-      "eth_change_24h": -1.66,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 67295,
+      "btc_change_24h": -0.9,
+      "eth_price": 1952.97,
+      "eth_change_24h": -1.59,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 90084164018.0,
+        "volume_24h": 89006001676.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.82,
+        "btc_dominance": 57.9,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-22T16:39:17.322782+00:00",
-      "crypto": 0.3784,
-      "global": 0.4417,
-      "combined": 0.4039,
-      "counts": {
-        "crypto": 52,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-02-22T19:56:48.548327+00:00",
       "crypto": 0.368,
@@ -1008,53 +998,63 @@
         "crypto": 59,
         "global": 27
       }
+    },
+    {
+      "ts": "2026-03-08T08:39:41.358330+00:00",
+      "crypto": 0.2119,
+      "global": 0.5136,
+      "combined": 0.2851,
+      "counts": {
+        "crypto": 56,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Prediction: The Trump Bull Market Will Soon End -- and More Than 150 Years of Historical Precedent Explains Why",
+        "url": "https://www.fool.com/investing/2026/03/08/prediction-trump-bull-market-end-150-years-history/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7792,
+        "score": 0.5333
+      },
+      {
         "title": "Lumentum’s S&P 500 Debut And NVIDIA Deal Reshape AI Optics Outlook",
         "url": "https://finance.yahoo.com/news/lumentum-p-500-debut-nvidia-041952784.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7232,
+        "weight": 0.4851,
         "score": 0.5833
       },
       {
         "title": "Stock Market Rally Attempt Depends On Iran War, Oil's Next Move",
         "url": "https://finance.yahoo.com/m/988f8dd0-d506-3b09-a611-47793386faff/stock-market-rally-attempt.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6895,
+        "weight": 0.4624,
         "score": 0.3333
-      },
-      {
-        "title": "2 confidence-building tools for parents to set kids up for 'a lifetime of success,' from a mental performance coach",
-        "url": "https://www.cnbc.com/2026/03/07/confidence-building-tools-parents-help-kids-succeed.html",
-        "source": "CNBC Markets",
-        "weight": 0.2411,
-        "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "CZ says CEXs have ‘zero motive’ to aid terrorists as court dismisses terrorism case",
+        "url": "https://cointelegraph.com/news/cz-says-cexs-zero-motive-aid-terrorists-court-dismisses-binance-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6781,
+        "score": -1.0
+      },
+      {
+        "title": "US lawmakers warn temporary CBDC ban isn’t enough, demand 'permanent' block",
+        "url": "https://cointelegraph.com/news/united-states-cbdc-federal-reserve-lawmakers-dispute-letter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6716,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Crypto Fear and Greed Index falls back down to 'extreme fear' levels",
-        "url": "https://cointelegraph.com/news/crypto-fear-greed-index-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.352,
-        "score": -0.9667
-      },
-      {
-        "title": "Global crypto market cap down -1.4% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
       }
     ],
     "market_movers": {
