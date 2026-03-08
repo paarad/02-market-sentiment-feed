@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-07T20:33:48.128707+00:00",
+  "updated_at": "2026-03-08T02:46:24.635418+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.05,
+    "change24h": -0.015,
+    "vol": 0.054,
     "fearGreed": 12,
-    "momentum": -0.187,
-    "regime": "sideways",
+    "momentum": -0.258,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4065,
-    "global_sentiment": 0.4185,
-    "combined_sentiment": 0.4231,
-    "confidence": 0.653,
+    "crypto_sentiment": 0.3233,
+    "global_sentiment": 0.3847,
+    "combined_sentiment": 0.3579,
+    "confidence": 0.5973,
     "counts": {
-      "crypto": 59,
-      "global": 29
+      "crypto": 73,
+      "global": 26
     },
     "market_indicators": {
-      "btc_price": 67263,
-      "btc_change_24h": -0.84,
-      "eth_price": 1963.66,
-      "eth_change_24h": -0.51,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 67376,
+      "btc_change_24h": -1.21,
+      "eth_price": 1967.33,
+      "eth_change_24h": -0.54,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
-        "trend": "improving"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 85742866317.0,
+        "volume_24h": 85266462776.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.82,
+        "btc_dominance": 57.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-22T08:41:00.322963+00:00",
-      "crypto": 0.3988,
-      "global": 0.5491,
-      "combined": 0.4282,
-      "counts": {
-        "crypto": 52,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-02-22T13:05:21.762006+00:00",
       "crypto": 0.4056,
@@ -1008,6 +998,16 @@
         "crypto": 59,
         "global": 29
       }
+    },
+    {
+      "ts": "2026-03-08T02:46:24.635418+00:00",
+      "crypto": 0.3233,
+      "global": 0.3847,
+      "combined": 0.3579,
+      "counts": {
+        "crypto": 73,
+        "global": 26
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "2 confidence-building tools for parents to set kids up for 'a lifetime of success,' from a mental performance coach",
         "url": "https://www.cnbc.com/2026/03/07/confidence-building-tools-parents-help-kids-succeed.html",
         "source": "CNBC Markets",
-        "weight": 0.6543,
+        "weight": 0.3193,
         "score": 0.6667
       },
       {
         "title": "S&P 500 Movers: Trade Desk Surges on CEO Buy, Palantir Rides Geopolitical Wave, CrowdStrike Earnings Impress",
         "url": "https://247wallst.com/investing/2026/03/07/sp-500-movers-trade-desk-surges-on-ceo-buy-palantir-rides-geopolitical-wave-crowdstrike-earnings-impress/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7703,
+        "weight": 0.3759,
         "score": 0.5333
       },
       {
-        "title": "Stock Market Focused On Iran War. Oil's Next Move Could Be Big.",
-        "url": "https://finance.yahoo.com/m/988f8dd0-d506-3b09-a611-47793386faff/stock-market-focused-on-iran.html?.tsrc=rss",
+        "title": "Stock Market Rally Attempt Depends On Iran War, Oil's Next Move",
+        "url": "https://finance.yahoo.com/m/988f8dd0-d506-3b09-a611-47793386faff/stock-market-rally-attempt.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7529,
+        "weight": 0.4635,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Crypto Fear and Greed Index falls back down to 'extreme fear' levels",
+        "url": "https://cointelegraph.com/news/crypto-fear-greed-index-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4662,
+        "score": -0.9667
+      },
+      {
+        "title": "Fear & Greed 12 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Trump's cyber strategy vows to 'support the security' of cryptocurrencies and blockchain",
         "url": "https://www.coindesk.com/policy/2026/03/07/trump-s-cyber-strategy-vows-to-support-the-security-of-cryptocurrencies-and-blockchain",
         "source": "CoinDesk",
-        "weight": 0.9133,
+        "weight": 0.4457,
         "score": -0.6333
-      },
-      {
-        "title": "Polymarket Founder Says War Bets Are Facing Growing Resistance",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-07/polymarket-founder-says-war-bets-are-facing-growing-resistance",
-        "source": "Bloomberg Markets",
-        "weight": 0.5729,
-        "score": -1.0
-      },
-      {
-        "title": "AtaiBeckley Is Said to Explore Options for Main Psychedelic Drug",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-07/ataibeckley-is-said-to-explore-options-for-main-psychedelic-drug",
-        "source": "Bloomberg Markets",
-        "weight": 0.512,
-        "score": -0.9333
       }
     ],
     "market_movers": {
