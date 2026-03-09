@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-09T02:47:50.181276+00:00",
+  "updated_at": "2026-03-09T05:22:07.076982+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.044,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 8,
-    "momentum": -0.048,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3416,
-    "global_sentiment": 0.4766,
-    "combined_sentiment": 0.3793,
-    "confidence": 0.556,
+    "crypto_sentiment": 0.4946,
+    "global_sentiment": 0.5432,
+    "combined_sentiment": 0.4995,
+    "confidence": 0.6881,
     "counts": {
-      "crypto": 49,
-      "global": 38
+      "crypto": 52,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 66559,
-      "btc_change_24h": -1.18,
-      "eth_price": 1958.37,
-      "eth_change_24h": -0.44,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 67171,
+      "btc_change_24h": 0.03,
+      "eth_price": 1979.92,
+      "eth_change_24h": 1.75,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 136276530614.0,
+        "volume_24h": 138708960267.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.61,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-23T13:21:41.614492+00:00",
-      "crypto": 0.2559,
-      "global": 0.3757,
-      "combined": 0.3066,
-      "counts": {
-        "crypto": 64,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-02-23T17:07:49.265168+00:00",
       "crypto": 0.4472,
@@ -1008,61 +998,71 @@
         "crypto": 49,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-03-09T05:22:07.076982+00:00",
+      "crypto": 0.4946,
+      "global": 0.5432,
+      "combined": 0.4995,
+      "counts": {
+        "crypto": 52,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Inflation Jumps as Oil Adds to Record Holiday Spending",
+        "title": "Japan Stock Fear Gauges Soar as Oil Spike Upends Bull Scenario",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-09/japan-stock-fear-gauges-soar-as-oil-spike-upends-bull-scenario",
+        "source": "Bloomberg Markets",
+        "weight": 0.6183,
+        "score": 0.8667
+      },
+      {
+        "title": "China Inflation Takes Off After Holiday Boost as Oil Shock Looms",
         "url": "https://www.bloomberg.com/news/articles/2026-03-09/china-consumer-prices-rebound-driven-by-record-holiday-spending",
         "source": "Bloomberg Markets",
-        "weight": 0.6982,
+        "weight": 0.5187,
         "score": 1.0
       },
       {
-        "title": "China consumer inflation hits three-year high as producer deflation eases",
-        "url": "https://www.cnbc.com/2026/03/09/china-february-inflation-cpi-producer-prices-stimulus-economy-ppi-factory-consumer.html",
+        "title": "Asia markets tumble as oil nears $120 a barrel; marks largest one day gain in almost 40 years",
+        "url": "https://www.cnbc.com/2026/03/09/nikkei-225-hang-seng-index-kospi-crude-wti-brent-oil-futures-iran-war-gulf-hormuz.html",
         "source": "CNBC Markets",
-        "weight": 0.7129,
-        "score": 0.6667
-      },
-      {
-        "title": "Dollar Gains on Haven Bid, Oil as Iran War Rips Across Markets",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-08/dollar-rises-on-haven-bid-oil-as-iran-war-rips-across-markets",
-        "source": "Bloomberg Markets",
-        "weight": 0.5324,
+        "weight": 0.7735,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Chinese Sovereign Bonds Slump as Oil Surge Fans Inflation Worry",
+        "title": "Treasury Urges Congress to Give Crypto Platforms Power to Freeze Suspicious Funds",
+        "url": "https://decrypt.co/360389/treasury-congres-crypto-platforms-freeze-suspicious-funds",
+        "source": "Decrypt",
+        "weight": 0.6962,
+        "score": -0.9667
+      },
+      {
+        "title": "Crypto regulatory clarity matters more for banks, ex-CFTC chief says",
+        "url": "https://cointelegraph.com/news/us-banks-need-crypto-regulatory-clarity-giancarlo-cftc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6424,
+        "score": -0.9667
+      },
+      {
+        "title": "China’s Bond Futures Fall Most This Year on Oil Price Shock",
         "url": "https://www.bloomberg.com/news/articles/2026-03-09/chinese-sovereign-bonds-slump-as-oil-surge-fans-inflation-worry",
         "source": "Bloomberg Markets",
-        "weight": 0.742,
-        "score": -0.6667
-      },
-      {
-        "title": "Aluminum Rises to 2022 High as Iran War Stokes Supply Crunch",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-09/aluminum-rises-to-2022-high-as-iran-war-stokes-supply-crunch",
-        "source": "Bloomberg Markets",
-        "weight": 0.7105,
-        "score": -0.6667
-      },
-      {
-        "title": "Fosun International Slumps After Warning Loss May Widen",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-09/fosun-international-slumps-after-warning-loss-may-widen",
-        "source": "Bloomberg Markets",
-        "weight": 0.7041,
-        "score": -0.6667
+        "weight": 0.5513,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3306829484255521,
-          "price_change_24h": -0.00175
+          "volume_mcap_ratio": 0.33638639715178187,
+          "price_change_24h": -0.00858
         }
       ],
       "momentum_shifts": []
