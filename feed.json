@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-09T17:03:04.855371+00:00",
+  "updated_at": "2026-03-09T20:03:00.842094+00:00",
   "indicators": {
-    "change24h": 0.041,
-    "vol": 0.224,
+    "change24h": 0.034,
+    "vol": 0.198,
     "fearGreed": 8,
-    "momentum": 0.722,
+    "momentum": 0.587,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5008,
-    "global_sentiment": 0.4678,
-    "combined_sentiment": 0.4979,
-    "confidence": 0.8099,
+    "crypto_sentiment": 0.4976,
+    "global_sentiment": 0.5617,
+    "combined_sentiment": 0.5034,
+    "confidence": 0.8137,
     "counts": {
-      "crypto": 60,
-      "global": 43
+      "crypto": 57,
+      "global": 53
     },
     "market_indicators": {
-      "btc_price": 68986,
-      "btc_change_24h": 2.97,
-      "eth_price": 2027.91,
-      "eth_change_24h": 4.42,
+      "btc_price": 69089,
+      "btc_change_24h": 2.78,
+      "eth_price": 2036.39,
+      "eth_change_24h": 3.85,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 186025644088.0,
+        "volume_24h": 199265506421.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.05,
+        "btc_dominance": 58.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-24T02:46:34.168810+00:00",
-      "crypto": 0.4102,
-      "global": 0.3116,
-      "combined": 0.4169,
-      "counts": {
-        "crypto": 59,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-02-24T05:24:05.954030+00:00",
       "crypto": 0.2965,
@@ -1008,26 +998,36 @@
         "crypto": 60,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-09T20:03:00.842094+00:00",
+      "crypto": 0.4976,
+      "global": 0.5617,
+      "combined": 0.5034,
+      "counts": {
+        "crypto": 57,
+        "global": 53
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Treasury yields tick higher as traders weigh inflation and recession risks with $100 oil",
-        "url": "https://www.cnbc.com/2026/03/09/us-treasury-yields-investors-monitor-iran-war-and-soaring-oil-price.html",
+        "title": "Oil Above $100: What’s Next? | Open Interest 3/9/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-09/open-interest-3-9-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5494,
+        "score": 1.0
+      },
+      {
+        "title": "Anthropic was the Pentagon's choice for AI. Now it's banned and experts are worried",
+        "url": "https://www.cnbc.com/2026/03/09/anthropic-was-the-pentagons-choice-for-ai-now-its-banned-and-experts-are-worried.html",
         "source": "CNBC Markets",
-        "weight": 0.7085,
-        "score": 0.6667
+        "weight": 0.799,
+        "score": 0.5833
       },
       {
-        "title": "2 Services Stocks Worth Your Attention and 1 We Ignore",
-        "url": "https://finance.yahoo.com/news/2-services-stocks-worth-attention-153017895.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6691,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 2.7% — rally",
+        "title": "Global crypto market cap up 2.5% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1036,38 +1036,38 @@
     ],
     "negative": [
       {
+        "title": "Anthropic Sues Trump Admin Over 'Supply Chain Risk' Designation",
+        "url": "https://decrypt.co/360446/anthropic-challenges-white-house-supply-chain-risk",
+        "source": "Decrypt",
+        "weight": 0.8269,
+        "score": -1.0
+      },
+      {
+        "title": "These Stocks Are Today’s Movers: Hims & Hers, Live Nation, Broadcom, Carnival, Vertiv, Sandisk, Strategy, and More",
+        "url": "https://finance.yahoo.com/m/36fd55c7-992f-3816-8223-7c509cbb0082/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6845,
+        "score": -1.0
+      },
+      {
         "title": "Anthropic sues Trump administration over Pentagon blacklist",
         "url": "https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html",
         "source": "CNBC Markets",
-        "weight": 0.7949,
+        "weight": 0.6831,
         "score": -1.0
-      },
-      {
-        "title": "Goldman-Led Lenders Brace for Loss on Arclin Debt as Demand Cools",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-09/goldman-led-lenders-gird-for-loss-on-arclin-debt-as-demand-cools",
-        "source": "Bloomberg Markets",
-        "weight": 0.7041,
-        "score": -1.0
-      },
-      {
-        "title": "EU’s regulated blockchain securities market adds first bank participant",
-        "url": "https://cointelegraph.com/news/amina-bank-eu-blockchain-securities-market-21x?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7071,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4381634655200958,
-          "price_change_24h": 0.01472
+          "volume_mcap_ratio": 0.46547103370264636,
+          "price_change_24h": 0.01166
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.42092352362455454,
-          "price_change_24h": -0.02721
+          "volume_mcap_ratio": 0.42322748654924836,
+          "price_change_24h": -0.04209
         }
       ],
       "momentum_shifts": []
