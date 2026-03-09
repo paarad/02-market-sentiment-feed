@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-09T20:03:00.842094+00:00",
+  "updated_at": "2026-03-09T20:41:49.661965+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.198,
+    "change24h": 0.026,
+    "vol": 0.18,
     "fearGreed": 8,
-    "momentum": 0.587,
+    "momentum": 0.458,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4976,
-    "global_sentiment": 0.5617,
-    "combined_sentiment": 0.5034,
-    "confidence": 0.8137,
+    "crypto_sentiment": 0.5064,
+    "global_sentiment": 0.5849,
+    "combined_sentiment": 0.5119,
+    "confidence": 0.8077,
     "counts": {
-      "crypto": 57,
-      "global": 53
+      "crypto": 70,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 69089,
-      "btc_change_24h": 2.78,
-      "eth_price": 2036.39,
-      "eth_change_24h": 3.85,
+      "btc_price": 68897,
+      "btc_change_24h": 2.23,
+      "eth_price": 2024.9,
+      "eth_change_24h": 3.0,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 199265506421.0,
+        "volume_24h": 189880663694.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.0,
+        "btc_dominance": 57.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-24T05:24:05.954030+00:00",
-      "crypto": 0.2965,
-      "global": 0.3048,
-      "combined": 0.3311,
-      "counts": {
-        "crypto": 48,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-02-24T08:58:27.304450+00:00",
       "crypto": 0.2749,
@@ -1008,30 +998,40 @@
         "crypto": 57,
         "global": 53
       }
+    },
+    {
+      "ts": "2026-03-09T20:41:49.661965+00:00",
+      "crypto": 0.5064,
+      "global": 0.5849,
+      "combined": 0.5119,
+      "counts": {
+        "crypto": 70,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Oil Above $100: What’s Next? | Open Interest 3/9/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-09/open-interest-3-9-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5494,
-        "score": 1.0
-      },
-      {
         "title": "Anthropic was the Pentagon's choice for AI. Now it's banned and experts are worried",
         "url": "https://www.cnbc.com/2026/03/09/anthropic-was-the-pentagons-choice-for-ai-now-its-banned-and-experts-are-worried.html",
         "source": "CNBC Markets",
-        "weight": 0.799,
-        "score": 0.5833
+        "weight": 0.7988,
+        "score": 0.8833
       },
       {
-        "title": "Global crypto market cap up 2.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "W.W. Grainger (GWW): Buy, Sell, or Hold Post Q4 Earnings?",
+        "url": "https://finance.yahoo.com/news/w-w-grainger-gww-buy-203416299.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7884,
+        "score": 0.8667
+      },
+      {
+        "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+        "url": "https://finance.yahoo.com/news/ocular-therapeutix-reports-inducement-grants-200100601.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7395,
+        "score": 0.6333
       }
     ],
     "negative": [
@@ -1039,35 +1039,35 @@
         "title": "Anthropic Sues Trump Admin Over 'Supply Chain Risk' Designation",
         "url": "https://decrypt.co/360446/anthropic-challenges-white-house-supply-chain-risk",
         "source": "Decrypt",
-        "weight": 0.8269,
-        "score": -1.0
-      },
-      {
-        "title": "These Stocks Are Today’s Movers: Hims & Hers, Live Nation, Broadcom, Carnival, Vertiv, Sandisk, Strategy, and More",
-        "url": "https://finance.yahoo.com/m/36fd55c7-992f-3816-8223-7c509cbb0082/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6845,
+        "weight": 0.7674,
         "score": -1.0
       },
       {
         "title": "Anthropic sues Trump administration over Pentagon blacklist",
         "url": "https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html",
         "source": "CNBC Markets",
-        "weight": 0.6831,
+        "weight": 0.6339,
         "score": -1.0
+      },
+      {
+        "title": "UN's Kirsi Madi: Gender Equality is Smart Business",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-09/un-s-kirsi-madi-gender-equality-is-smart-business-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7458,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46547103370264636,
-          "price_change_24h": 0.01166
+          "volume_mcap_ratio": 0.46551595831714976,
+          "price_change_24h": 0.01686
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.42322748654924836,
-          "price_change_24h": -0.04209
+          "volume_mcap_ratio": 0.42618282984052275,
+          "price_change_24h": -0.05098
         }
       ],
       "momentum_shifts": []
