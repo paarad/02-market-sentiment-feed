@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-09T13:20:53.018989+00:00",
+  "updated_at": "2026-03-09T17:03:04.855371+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.041,
+    "vol": 0.224,
     "fearGreed": 8,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.722,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5282,
-    "global_sentiment": 0.6037,
-    "combined_sentiment": 0.5298,
-    "confidence": 0.7874,
+    "crypto_sentiment": 0.5008,
+    "global_sentiment": 0.4678,
+    "combined_sentiment": 0.4979,
+    "confidence": 0.8099,
     "counts": {
-      "crypto": 69,
-      "global": 44
+      "crypto": 60,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 68284,
-      "btc_change_24h": 1.78,
-      "eth_price": 2003.96,
-      "eth_change_24h": 3.44,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 68986,
+      "btc_change_24h": 2.97,
+      "eth_price": 2027.91,
+      "eth_change_24h": 4.42,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160305976208.0,
+        "volume_24h": 186025644088.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.05,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-23T20:53:53.616664+00:00",
-      "crypto": 0.3983,
-      "global": 0.2979,
-      "combined": 0.4069,
-      "counts": {
-        "crypto": 59,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-24T02:46:34.168810+00:00",
       "crypto": 0.4102,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-09T17:03:04.855371+00:00",
+      "crypto": 0.5008,
+      "global": 0.4678,
+      "combined": 0.4979,
+      "counts": {
+        "crypto": 60,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "New Century Logistics (BVI) Limited Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-        "url": "https://finance.yahoo.com/news/century-logistics-bvi-limited-regains-130000496.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7685,
-        "score": 0.9667
+        "title": "Treasury yields tick higher as traders weigh inflation and recession risks with $100 oil",
+        "url": "https://www.cnbc.com/2026/03/09/us-treasury-yields-investors-monitor-iran-war-and-soaring-oil-price.html",
+        "source": "CNBC Markets",
+        "weight": 0.7085,
+        "score": 0.6667
       },
       {
-        "title": "Jensen Quality Growth Equity Divested Amphenol (APH) Due to Elevated Valuation",
-        "url": "https://finance.yahoo.com/news/jensen-quality-growth-equity-divested-124132400.html?.tsrc=rss",
+        "title": "2 Services Stocks Worth Your Attention and 1 We Ignore",
+        "url": "https://finance.yahoo.com/news/2-services-stocks-worth-attention-153017895.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7416,
-        "score": 1.0
+        "weight": 0.6691,
+        "score": 0.6667
       },
       {
-        "title": "Oil Surges Past $100 a Barrel, Iran Names New Supreme Leader | The Opening Trade 3/9/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-09/the-opening-trade-3-9-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7226,
-        "score": 1.0
+        "title": "Global crypto market cap up 2.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Microsoft adds higher-priced Office tier with Copilot as it tries to juice sales with AI",
-        "url": "https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html",
+        "title": "Anthropic sues Trump administration over Pentagon blacklist",
+        "url": "https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html",
         "source": "CNBC Markets",
-        "weight": 0.7685,
-        "score": -0.6333
+        "weight": 0.7949,
+        "score": -1.0
       },
       {
-        "title": "Stablecoin payments startup Kast raises $80M at $600M valuation: Report",
-        "url": "https://cointelegraph.com/news/kast-stablecoin-firm-600m-valuation-80m-raise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Goldman-Led Lenders Brace for Loss on Arclin Debt as Demand Cools",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-09/goldman-led-lenders-gird-for-loss-on-arclin-debt-as-demand-cools",
+        "source": "Bloomberg Markets",
+        "weight": 0.7041,
+        "score": -1.0
+      },
+      {
+        "title": "EU’s regulated blockchain securities market adds first bank participant",
+        "url": "https://cointelegraph.com/news/amina-bank-eu-blockchain-securities-market-21x?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7342,
-        "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 8 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "weight": 0.7071,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37924431047488544,
-          "price_change_24h": -0.01351
+          "volume_mcap_ratio": 0.4381634655200958,
+          "price_change_24h": 0.01472
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.37045472485907194,
-          "price_change_24h": -0.01627
+          "volume_mcap_ratio": 0.42092352362455454,
+          "price_change_24h": -0.02721
         }
       ],
       "momentum_shifts": []
