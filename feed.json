@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-09T20:41:49.661965+00:00",
+  "updated_at": "2026-03-10T02:39:14.435727+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.18,
-    "fearGreed": 8,
-    "momentum": 0.458,
+    "change24h": 0.051,
+    "vol": 0.2,
+    "fearGreed": 13,
+    "momentum": 0.884,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5064,
-    "global_sentiment": 0.5849,
-    "combined_sentiment": 0.5119,
-    "confidence": 0.8077,
+    "crypto_sentiment": 0.5689,
+    "global_sentiment": 0.4555,
+    "combined_sentiment": 0.548,
+    "confidence": 0.7495,
     "counts": {
-      "crypto": 70,
-      "global": 41
+      "crypto": 54,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 68897,
-      "btc_change_24h": 2.23,
-      "eth_price": 2024.9,
-      "eth_change_24h": 3.0,
+      "btc_price": 70033,
+      "btc_change_24h": 5.33,
+      "eth_price": 2043.14,
+      "eth_change_24h": 4.36,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
-        "value": 8,
+        "value": 13,
         "classification": "Extreme Fear",
-        "trend": "declining"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 189880663694.0,
+        "volume_24h": 178315402560.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.99,
+        "btc_dominance": 58.27,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-24T08:58:27.304450+00:00",
-      "crypto": 0.2749,
-      "global": 0.3283,
-      "combined": 0.3169,
-      "counts": {
-        "crypto": 64,
-        "global": 30
-      }
-    },
     {
       "ts": "2026-02-24T13:23:18.409941+00:00",
       "crypto": 0.3076,
@@ -1008,66 +998,76 @@
         "crypto": 70,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-10T02:39:14.435727+00:00",
+      "crypto": 0.5689,
+      "global": 0.4555,
+      "combined": 0.548,
+      "counts": {
+        "crypto": 54,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Anthropic was the Pentagon's choice for AI. Now it's banned and experts are worried",
-        "url": "https://www.cnbc.com/2026/03/09/anthropic-was-the-pentagons-choice-for-ai-now-its-banned-and-experts-are-worried.html",
-        "source": "CNBC Markets",
-        "weight": 0.7988,
-        "score": 0.8833
+        "title": "Semiconductor ETFs Rally with Bull 3X ETF up 11.6% on Monday",
+        "url": "https://247wallst.com/investing/2026/03/09/semiconductor-etfs-rally-with-bull-3x-etf-up-11-6-on-monday/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5651,
+        "score": 1.0
       },
       {
-        "title": "W.W. Grainger (GWW): Buy, Sell, or Hold Post Q4 Earnings?",
-        "url": "https://finance.yahoo.com/news/w-w-grainger-gww-buy-203416299.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7884,
+        "title": "Bitcoin vs gold: ETF flows point to early capital rotation signs",
+        "url": "https://cointelegraph.com/news/bitcoin-vs-gold-etf-flows-point-to-early-capital-rotation-signs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.583,
         "score": 0.8667
       },
       {
-        "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "url": "https://finance.yahoo.com/news/ocular-therapeutix-reports-inducement-grants-200100601.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7395,
-        "score": 0.6333
+        "title": "Will Bitcoin follow oil’s historic surge and rally to $79K before the end of March?",
+        "url": "https://cointelegraph.com/news/will-bitcoin-follow-oil-historic-surge-and-rally-to-79k-before-end-of-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4738,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Anthropic Sues Trump Admin Over 'Supply Chain Risk' Designation",
-        "url": "https://decrypt.co/360446/anthropic-challenges-white-house-supply-chain-risk",
-        "source": "Decrypt",
-        "weight": 0.7674,
-        "score": -1.0
-      },
-      {
-        "title": "Anthropic sues Trump administration over Pentagon blacklist",
-        "url": "https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html",
-        "source": "CNBC Markets",
-        "weight": 0.6339,
-        "score": -1.0
-      },
-      {
-        "title": "UN's Kirsi Madi: Gender Equality is Smart Business",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-09/un-s-kirsi-madi-gender-equality-is-smart-business-video",
+        "title": "Bank Indonesia Poised to Defend Rupiah, Analysts Say",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-10/bank-indonesia-to-defend-rupiah-as-oil-volatility-jolts-markets",
         "source": "Bloomberg Markets",
-        "weight": 0.7458,
+        "weight": 0.6908,
+        "score": -1.0
+      },
+      {
+        "title": "Oil plunges 10% as Trump warns to hit Iran 'twenty times harder' if it blockades Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/03/10/crude-oil-prices-today-iran-war.html",
+        "source": "CNBC Markets",
+        "weight": 0.7609,
         "score": -0.6333
+      },
+      {
+        "title": "India’s RBI Steps Up Support for Rupee, Bonds as Oil Swings",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-10/india-s-rbi-steps-up-support-for-rupee-bonds-as-oil-tops-100",
+        "source": "Bloomberg Markets",
+        "weight": 0.7002,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46551595831714976,
-          "price_change_24h": 0.01686
+          "volume_mcap_ratio": 0.445578553268081,
+          "price_change_24h": 0.01097
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.42618282984052275,
-          "price_change_24h": -0.05098
+          "volume_mcap_ratio": 0.32249863525279604,
+          "price_change_24h": 0.00905
         }
       ],
       "momentum_shifts": []
