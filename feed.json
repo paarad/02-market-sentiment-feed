@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-10T02:39:14.435727+00:00",
+  "updated_at": "2026-03-10T05:12:42.041708+00:00",
   "indicators": {
-    "change24h": 0.051,
-    "vol": 0.2,
+    "change24h": 0.042,
+    "vol": 0.202,
     "fearGreed": 13,
-    "momentum": 0.884,
+    "momentum": 0.732,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5689,
-    "global_sentiment": 0.4555,
-    "combined_sentiment": 0.548,
-    "confidence": 0.7495,
+    "crypto_sentiment": 0.5402,
+    "global_sentiment": 0.4671,
+    "combined_sentiment": 0.5274,
+    "confidence": 0.7725,
     "counts": {
-      "crypto": 54,
-      "global": 40
+      "crypto": 56,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 70033,
-      "btc_change_24h": 5.33,
-      "eth_price": 2043.14,
-      "eth_change_24h": 4.36,
+      "btc_price": 70199,
+      "btc_change_24h": 4.54,
+      "eth_price": 2048.08,
+      "eth_change_24h": 3.42,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178315402560.0,
+        "volume_24h": 180160871790.0,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-24T13:23:18.409941+00:00",
-      "crypto": 0.3076,
-      "global": 0.337,
-      "combined": 0.3421,
-      "counts": {
-        "crypto": 47,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-02-24T17:12:24.228704+00:00",
       "crypto": 0.3114,
@@ -1008,66 +998,76 @@
         "crypto": 54,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-10T05:12:42.041708+00:00",
+      "crypto": 0.5402,
+      "global": 0.4671,
+      "combined": 0.5274,
+      "counts": {
+        "crypto": 56,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 2.6% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "Semiconductor ETFs Rally with Bull 3X ETF up 11.6% on Monday",
         "url": "https://247wallst.com/investing/2026/03/09/semiconductor-etfs-rally-with-bull-3x-etf-up-11-6-on-monday/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5651,
+        "weight": 0.4205,
         "score": 1.0
       },
       {
-        "title": "Bitcoin vs gold: ETF flows point to early capital rotation signs",
-        "url": "https://cointelegraph.com/news/bitcoin-vs-gold-etf-flows-point-to-early-capital-rotation-signs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.583,
-        "score": 0.8667
-      },
-      {
-        "title": "Will Bitcoin follow oil’s historic surge and rally to $79K before the end of March?",
-        "url": "https://cointelegraph.com/news/will-bitcoin-follow-oil-historic-surge-and-rally-to-79k-before-end-of-march?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4738,
-        "score": 1.0
+        "title": "Chinese Exports Soared 22% Before Middle East War Broke Out",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-10/china-s-exports-surge-tops-forecasts-as-iran-war-threatens-trade",
+        "source": "Bloomberg Markets",
+        "weight": 0.6294,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bank Indonesia Poised to Defend Rupiah, Analysts Say",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-10/bank-indonesia-to-defend-rupiah-as-oil-volatility-jolts-markets",
-        "source": "Bloomberg Markets",
-        "weight": 0.6908,
+        "title": "Anthropic sues Trump administration over Pentagon blacklist",
+        "url": "https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html",
+        "source": "CNBC Markets",
+        "weight": 0.7284,
         "score": -1.0
       },
       {
-        "title": "Oil plunges 10% as Trump warns to hit Iran 'twenty times harder' if it blockades Strait of Hormuz",
-        "url": "https://www.cnbc.com/2026/03/10/crude-oil-prices-today-iran-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.7609,
-        "score": -0.6333
+        "title": "Bank Indonesia May Defend Rupiah Amid Volatile Oil, Analysts Say",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-10/bank-indonesia-to-defend-rupiah-as-oil-volatility-jolts-markets",
+        "source": "Bloomberg Markets",
+        "weight": 0.5141,
+        "score": -1.0
       },
       {
-        "title": "India’s RBI Steps Up Support for Rupee, Bonds as Oil Swings",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-10/india-s-rbi-steps-up-support-for-rupee-bonds-as-oil-tops-100",
-        "source": "Bloomberg Markets",
-        "weight": 0.7002,
-        "score": -0.6667
+        "title": "NFT lending protocol Gondi says platform secured after $230K exploit",
+        "url": "https://cointelegraph.com/news/nft-platform-gondi-secure-after-230k-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5943,
+        "score": -0.8333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.445578553268081,
-          "price_change_24h": 0.01097
+          "volume_mcap_ratio": 0.4424723543266212,
+          "price_change_24h": 0.00889
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.32249863525279604,
-          "price_change_24h": 0.00905
+          "volume_mcap_ratio": 0.3858509593568388,
+          "price_change_24h": 0.01081
         }
       ],
       "momentum_shifts": []
