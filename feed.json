@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-10T17:01:04.504613+00:00",
+  "updated_at": "2026-03-10T20:03:26.485948+00:00",
   "indicators": {
-    "change24h": 0.041,
-    "vol": 0.163,
+    "change24h": 0.009,
+    "vol": 0.071,
     "fearGreed": 13,
-    "momentum": 0.721,
+    "momentum": 0.154,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5121,
-    "global_sentiment": 0.5604,
-    "combined_sentiment": 0.5141,
-    "confidence": 0.8304,
+    "crypto_sentiment": 0.4608,
+    "global_sentiment": 0.5128,
+    "combined_sentiment": 0.4717,
+    "confidence": 0.8196,
     "counts": {
-      "crypto": 58,
-      "global": 44
+      "crypto": 68,
+      "global": 55
     },
     "market_indicators": {
-      "btc_price": 71231,
-      "btc_change_24h": 3.28,
-      "eth_price": 2080.51,
-      "eth_change_24h": 2.61,
+      "btc_price": 70059,
+      "btc_change_24h": 1.52,
+      "eth_price": 2037.15,
+      "eth_change_24h": 0.15,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 195845374408.0,
+        "volume_24h": 203061489406.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.33,
+        "btc_dominance": 58.27,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-25T02:47:42.440464+00:00",
-      "crypto": 0.3337,
-      "global": 0.4547,
-      "combined": 0.3715,
-      "counts": {
-        "crypto": 66,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-02-25T05:25:43.409744+00:00",
       "crypto": 0.3694,
@@ -1008,66 +998,76 @@
         "crypto": 58,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-10T20:03:26.485948+00:00",
+      "crypto": 0.4608,
+      "global": 0.5128,
+      "combined": 0.4717,
+      "counts": {
+        "crypto": 68,
+        "global": 55
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin Rebounds to $71,000 as Wall Street Deepens Crypto Push",
+        "title": "Circle could rally 60% more on stablecoin adoption, AI agentic finance, Bernstein says",
+        "url": "https://www.coindesk.com/markets/2026/03/10/circle-could-rally-60-more-on-stablecoin-adoption-ai-agentic-finance-bernstein-says",
+        "source": "CoinDesk",
+        "weight": 0.8392,
+        "score": 0.8667
+      },
+      {
+        "title": "Bitcoin Rebounds to $71,000 as Wall Street Deepens Push",
         "url": "https://www.bloomberg.com/news/articles/2026-03-10/bitcoin-rebounds-to-71-000-as-wall-street-deepens-crypto-push",
         "source": "Bloomberg Markets",
-        "weight": 0.6942,
+        "weight": 0.4886,
         "score": 1.0
       },
       {
-        "title": "Rivian Stock Just Got an Upgrade. Here’s Why.",
-        "url": "https://finance.yahoo.com/m/1e4eb1c7-0302-3cd2-ac27-165d5f4ec705/rivian-stock-just-got-an.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow, S&P 500 Fade; Micron Climbs On Partnership News (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/20d0c652-b6f0-3272-b5a9-2de42a64a28a/stock-market-today%3A-dow%2C-s%26p.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6937,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market Today: Dow, Nasdaq Climb As Oil Prices Plummet Amid Ongoing U.S.-Iran Conflict (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/20d0c652-b6f0-3272-b5a9-2de42a64a28a/stock-market-today%3A-dow%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6999,
-        "score": 0.8667
+        "weight": 0.7791,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "BioNTech Reports Earnings. That’s Not Why the Stock Is Down 21%.",
-        "url": "https://finance.yahoo.com/m/22818de1-990b-3fc6-b31e-580c47c7103c/biontech-reports-earnings..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7004,
+        "title": "Crypto hacks fall to $49M in February as attackers shift to phishing scams",
+        "url": "https://cointelegraph.com/news/crypto-hacks-fall-february-attackers-phishing-approval-scams?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7163,
         "score": -1.0
       },
       {
-        "title": "Jito Foundation acquires and revives SolanaFloor following shutdown over $27 million exploit",
-        "url": "https://www.coindesk.com/business/2026/03/10/jito-foundation-acquires-and-revives-solanafloor-following-shutdown-over-usd27-million-exploit",
-        "source": "CoinDesk",
-        "weight": 0.7921,
-        "score": -0.8333
+        "title": "Small Business Optimism Falls Again",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-10/small-business-optimism-falls-again-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6119,
+        "score": -0.9667
       },
       {
-        "title": "Vertex passes key test in quest to treat kidney diseases",
-        "url": "https://www.cnbc.com/2026/03/10/vertex-kidney-drug-povetacicept-succeeds-trial-igan.html",
-        "source": "CNBC Markets",
-        "weight": 0.638,
-        "score": -0.9333
+        "title": "Sector Update: Energy",
+        "url": "https://finance.yahoo.com/news/sector-energy-195318001.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7845,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47494949659485053,
-          "price_change_24h": -0.00663
+          "volume_mcap_ratio": 0.4791925003279364,
+          "price_change_24h": -0.01229
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.32131866612091864,
-          "price_change_24h": 0.03912
+          "volume_mcap_ratio": 0.3199249895721128,
+          "price_change_24h": -0.04135
         }
       ],
       "momentum_shifts": []
