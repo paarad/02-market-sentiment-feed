@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-11T13:17:35.081166+00:00",
+  "updated_at": "2026-03-11T17:01:21.510419+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.085,
+    "change24h": -0.011,
+    "vol": 0.159,
     "fearGreed": 15,
-    "momentum": -0.118,
-    "regime": "sideways",
+    "momentum": -0.188,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4552,
-    "global_sentiment": 0.6107,
-    "combined_sentiment": 0.4756,
-    "confidence": 0.8001,
+    "crypto_sentiment": 0.3981,
+    "global_sentiment": 0.5724,
+    "combined_sentiment": 0.4296,
+    "confidence": 0.802,
     "counts": {
-      "crypto": 59,
-      "global": 37
+      "crypto": 51,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 69852,
-      "btc_change_24h": -1.31,
-      "eth_price": 2034.87,
-      "eth_change_24h": -1.02,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 70576,
+      "btc_change_24h": -0.92,
+      "eth_price": 2067.2,
+      "eth_change_24h": -0.65,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176730658085.0,
+        "volume_24h": 167902906521.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.17,
+        "btc_dominance": 58.28,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-25T20:43:01.536513+00:00",
-      "crypto": 0.6135,
-      "global": 0.4242,
-      "combined": 0.5788,
-      "counts": {
-        "crypto": 72,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-26T02:42:40.082472+00:00",
       "crypto": 0.5043,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-03-11T17:01:21.510419+00:00",
+      "crypto": 0.3981,
+      "global": 0.5724,
+      "combined": 0.4296,
+      "counts": {
+        "crypto": 51,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Inflation Holds Steady at 2.4% Pace in February",
-        "url": "https://finance.yahoo.com/m/a845b54c-75b1-3254-b9d1-f11af1041b0b/inflation-holds-steady-at.html?.tsrc=rss",
+        "title": "1 Services Stock for Long-Term Investors and 2 We Brush Off",
+        "url": "https://finance.yahoo.com/news/1-services-stock-long-term-160013153.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7334,
+        "weight": 0.7112,
         "score": 1.0
       },
       {
-        "title": "The Stock Market Needs More Than Oracle Earnings to Forget About the Iran War",
-        "url": "https://finance.yahoo.com/m/d220b7f7-5b8c-355b-b672-bce56e4ed4f5/the-stock-market-needs-more.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7024,
-        "score": 1.0
+        "title": "Nebius stock pops 14% on Nvidia $2 billion investment announcement",
+        "url": "https://www.cnbc.com/2026/03/11/nebius-nvidia-ai-cloud.html",
+        "source": "CNBC Markets",
+        "weight": 0.6327,
+        "score": 0.9167
       },
       {
-        "title": "Nike Leads Dow On Upgrade, Analyst Sees 30% Premium",
-        "url": "https://finance.yahoo.com/m/ce0d1c7f-cfc9-38ed-b5c4-2187c6a34e7c/nike-leads-dow-on-upgrade%2C.html?.tsrc=rss",
+        "title": "3 Reasons to Avoid IEP and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/news/3-reasons-avoid-iep-1-163513774.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7361,
-        "score": 0.8667
+        "weight": 0.7607,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Binance sues Wall Street Journal amid report of DOJ Iran probe",
-        "url": "https://cointelegraph.com/news/doj-investigates-binance-s-role-in-alleged-iran-sanctions-evasion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6708,
-        "score": -1.0
+        "title": "Russian Oil Output Fell Further in February, OPEC Data Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-11/russian-oil-output-fell-further-in-february-opec-data-shows",
+        "source": "Bloomberg Markets",
+        "weight": 0.6217,
+        "score": -0.9667
       },
       {
-        "title": "US Senate bill targets prediction markets on war and assassinations",
-        "url": "https://cointelegraph.com/news/us-senate-bill-targets-prediction-markets-on-war-and-assassinations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.785,
+        "title": "Morgan Stanley Sees Risks That Oil Shock Will Delay Next Fed Cut",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-11/morgan-stanley-sees-risks-that-oil-shock-will-delay-next-fed-cut",
+        "source": "Bloomberg Markets",
+        "weight": 0.7502,
         "score": -0.6667
       },
       {
-        "title": "Salesforce Kicks Off Eight-Part US High-Grade Bond Offering",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/salesforce-kicks-off-eight-part-us-high-grade-bond-offering",
+        "title": "Traders Suffer Losses on Options After U-Turn in ECB Rate Bets",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-11/traders-suffer-losses-on-options-after-u-turn-in-ecb-rate-bets",
         "source": "Bloomberg Markets",
-        "weight": 0.7636,
-        "score": -0.6333
+        "weight": 0.7419,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41607176455996436,
-          "price_change_24h": 0.00071
+          "volume_mcap_ratio": 0.40868209791431176,
+          "price_change_24h": -0.00121
         }
       ],
       "momentum_shifts": []
