@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-11T08:53:37.623530+00:00",
+  "updated_at": "2026-03-11T13:17:35.081166+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.075,
+    "change24h": -0.007,
+    "vol": 0.085,
     "fearGreed": 15,
-    "momentum": -0.248,
-    "regime": "bear",
+    "momentum": -0.118,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5679,
-    "global_sentiment": 0.6412,
-    "combined_sentiment": 0.5627,
-    "confidence": 0.7778,
+    "crypto_sentiment": 0.4552,
+    "global_sentiment": 0.6107,
+    "combined_sentiment": 0.4756,
+    "confidence": 0.8001,
     "counts": {
-      "crypto": 71,
-      "global": 42
+      "crypto": 59,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 69551,
-      "btc_change_24h": -1.62,
-      "eth_price": 2018.96,
-      "eth_change_24h": -1.9,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 69852,
+      "btc_change_24h": -1.31,
+      "eth_price": 2034.87,
+      "eth_change_24h": -1.02,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 179759595453.0,
+        "volume_24h": 176730658085.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.22,
+        "btc_dominance": 58.17,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-25T20:20:06.404044+00:00",
-      "crypto": 0.6063,
-      "global": 0.444,
-      "combined": 0.575,
-      "counts": {
-        "crypto": 73,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-25T20:43:01.536513+00:00",
       "crypto": 0.6135,
@@ -1008,61 +998,71 @@
         "crypto": 71,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-03-11T13:17:35.081166+00:00",
+      "crypto": 0.4552,
+      "global": 0.6107,
+      "combined": 0.4756,
+      "counts": {
+        "crypto": 59,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tokenized assets climb to $23.6B as investors seek always-on markets",
-        "url": "https://cointelegraph.com/news/tokenized-rwas-rise-66-percent-2026-defillama?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7846,
+        "title": "Inflation Holds Steady at 2.4% Pace in February",
+        "url": "https://finance.yahoo.com/m/a845b54c-75b1-3254-b9d1-f11af1041b0b/inflation-holds-steady-at.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7334,
         "score": 1.0
       },
       {
-        "title": "Lescure Says Not Revising French Growth Forecasts Yet",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/lescure-says-not-revising-french-growth-forecasts-yet",
-        "source": "Bloomberg Markets",
-        "weight": 0.7741,
+        "title": "The Stock Market Needs More Than Oracle Earnings to Forget About the Iran War",
+        "url": "https://finance.yahoo.com/m/d220b7f7-5b8c-355b-b672-bce56e4ed4f5/the-stock-market-needs-more.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7024,
+        "score": 1.0
+      },
+      {
+        "title": "Nike Leads Dow On Upgrade, Analyst Sees 30% Premium",
+        "url": "https://finance.yahoo.com/m/ce0d1c7f-cfc9-38ed-b5c4-2187c6a34e7c/nike-leads-dow-on-upgrade%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7361,
         "score": 0.8667
-      },
-      {
-        "title": "‘Adoption paradox’ in effect as Ether lags while network activity surges",
-        "url": "https://cointelegraph.com/news/ethereum-adoption-paradox-deepens-as-network-activity-increases-while-prices-sink?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6046,
-        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "ECB Hike Potentially Closer Than Thought on Iran War, Kazimir Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/ecb-hike-potentially-closer-than-thought-on-iran-kazimir-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6616,
+        "title": "Binance sues Wall Street Journal amid report of DOJ Iran probe",
+        "url": "https://cointelegraph.com/news/doj-investigates-binance-s-role-in-alleged-iran-sanctions-evasion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6708,
+        "score": -1.0
+      },
+      {
+        "title": "US Senate bill targets prediction markets on war and assassinations",
+        "url": "https://cointelegraph.com/news/us-senate-bill-targets-prediction-markets-on-war-and-assassinations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.785,
         "score": -0.6667
       },
       {
-        "title": "Fear & Greed 15 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Morgan Stanley Traders Pitch Shorting Kronos Worldwide’s Bonds",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/morgan-stanley-traders-pitch-shorting-kronos-worldwide-s-bonds",
+        "title": "Salesforce Kicks Off Eight-Part US High-Grade Bond Offering",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-11/salesforce-kicks-off-eight-part-us-high-grade-bond-offering",
         "source": "Bloomberg Markets",
-        "weight": 0.6915,
-        "score": -0.6
+        "weight": 0.7636,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42562218425408044,
-          "price_change_24h": -0.00276
+          "volume_mcap_ratio": 0.41607176455996436,
+          "price_change_24h": 0.00071
         }
       ],
       "momentum_shifts": []
