@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-11T17:01:21.510419+00:00",
+  "updated_at": "2026-03-11T20:04:55.822888+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.159,
+    "change24h": 0.023,
+    "vol": 0.109,
     "fearGreed": 15,
-    "momentum": -0.188,
-    "regime": "bear",
+    "momentum": 0.411,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3981,
-    "global_sentiment": 0.5724,
-    "combined_sentiment": 0.4296,
-    "confidence": 0.802,
+    "crypto_sentiment": 0.374,
+    "global_sentiment": 0.3995,
+    "combined_sentiment": 0.3972,
+    "confidence": 0.8002,
     "counts": {
-      "crypto": 51,
-      "global": 40
+      "crypto": 48,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 70576,
-      "btc_change_24h": -0.92,
-      "eth_price": 2067.2,
-      "eth_change_24h": -0.65,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 70529,
+      "btc_change_24h": 0.51,
+      "eth_price": 2072.89,
+      "eth_change_24h": 1.63,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 167902906521.0,
+        "volume_24h": 169567069656.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.28,
+        "btc_dominance": 58.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-26T02:42:40.082472+00:00",
-      "crypto": 0.5043,
-      "global": 0.5241,
-      "combined": 0.5052,
-      "counts": {
-        "crypto": 56,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-02-26T05:22:07.107358+00:00",
       "crypto": 0.499,
@@ -1008,61 +998,71 @@
         "crypto": 51,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-11T20:04:55.822888+00:00",
+      "crypto": 0.374,
+      "global": 0.3995,
+      "combined": 0.3972,
+      "counts": {
+        "crypto": 48,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "1 Services Stock for Long-Term Investors and 2 We Brush Off",
-        "url": "https://finance.yahoo.com/news/1-services-stock-long-term-160013153.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7112,
-        "score": 1.0
-      },
-      {
-        "title": "Nebius stock pops 14% on Nvidia $2 billion investment announcement",
+        "title": "Nebius stock pops 16% on Nvidia $2 billion investment announcement",
         "url": "https://www.cnbc.com/2026/03/11/nebius-nvidia-ai-cloud.html",
         "source": "CNBC Markets",
-        "weight": 0.6327,
+        "weight": 0.797,
         "score": 0.9167
       },
       {
-        "title": "3 Reasons to Avoid IEP and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/news/3-reasons-avoid-iep-1-163513774.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Slumps As Oil Spikes; Nvidia Gains As Oracle Soars (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/f133ae8a-24f1-344a-9fa5-e6d2f2f2c945/stock-market-today%3A-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7607,
-        "score": 0.6667
+        "weight": 0.7659,
+        "score": 0.7
+      },
+      {
+        "title": "3 Reasons WT Has Explosive Upside Potential",
+        "url": "https://finance.yahoo.com/news/3-reasons-wt-explosive-upside-170513430.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.566,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Russian Oil Output Fell Further in February, OPEC Data Shows",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/russian-oil-output-fell-further-in-february-opec-data-shows",
+        "title": "Pharma Deals Aren't Just Based on Price: Eric Tokat",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-11/pharma-deals-aren-t-just-based-on-price-eric-tokat-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6217,
+        "weight": 0.7549,
         "score": -0.9667
       },
       {
-        "title": "Morgan Stanley Sees Risks That Oil Shock Will Delay Next Fed Cut",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/morgan-stanley-sees-risks-that-oil-shock-will-delay-next-fed-cut",
-        "source": "Bloomberg Markets",
-        "weight": 0.7502,
-        "score": -0.6667
+        "title": "You can't 'borrow your way out of debt,' expert says — but more consumers are trying",
+        "url": "https://www.cnbc.com/2026/03/11/personal-loan-credit-card-debt-consolidation.html",
+        "source": "CNBC Markets",
+        "weight": 0.7396,
+        "score": -0.9333
       },
       {
-        "title": "Traders Suffer Losses on Options After U-Turn in ECB Rate Bets",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-11/traders-suffer-losses-on-options-after-u-turn-in-ecb-rate-bets",
-        "source": "Bloomberg Markets",
-        "weight": 0.7419,
-        "score": -0.6667
+        "title": "Microsoft Sides With Anthropic Against Trump Admin’s Supply Chain Risk Designation",
+        "url": "https://decrypt.co/360739/microsoft-sides-anthropic-against-trump-admin-supply-chain-risk",
+        "source": "Decrypt",
+        "weight": 0.7486,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40868209791431176,
-          "price_change_24h": -0.00121
+          "volume_mcap_ratio": 0.40198944659754765,
+          "price_change_24h": 0.00826
         }
       ],
       "momentum_shifts": []
