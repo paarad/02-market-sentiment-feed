@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-12T13:17:57.544488+00:00",
+  "updated_at": "2026-03-12T17:03:41.228957+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.082,
+    "change24h": 0.001,
+    "vol": 0.059,
     "fearGreed": 18,
-    "momentum": 0.191,
+    "momentum": 0.011,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4312,
-    "global_sentiment": 0.552,
-    "combined_sentiment": 0.4527,
-    "confidence": 0.8179,
+    "crypto_sentiment": 0.406,
+    "global_sentiment": 0.5602,
+    "combined_sentiment": 0.4345,
+    "confidence": 0.8334,
     "counts": {
-      "crypto": 56,
-      "global": 41
+      "crypto": 58,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 70282,
-      "btc_change_24h": 0.27,
-      "eth_price": 2060.76,
-      "eth_change_24h": 0.96,
+      "btc_price": 70406,
+      "btc_change_24h": -0.69,
+      "eth_price": 2069.86,
+      "eth_change_24h": -0.24,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158415145939.62,
+        "volume_24h": 160386550043.62,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-26T20:48:10.016710+00:00",
-      "crypto": 0.4946,
-      "global": 0.3844,
-      "combined": 0.4863,
-      "counts": {
-        "crypto": 63,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-27T02:41:26.184696+00:00",
       "crypto": 0.4697,
@@ -1008,52 +998,62 @@
         "crypto": 56,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-12T17:03:41.228957+00:00",
+      "crypto": 0.406,
+      "global": 0.5602,
+      "combined": 0.4345,
+      "counts": {
+        "crypto": 58,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-        "url": "https://www.cnbc.com/2026/03/12/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
-        "source": "CNBC Markets",
-        "weight": 0.7713,
-        "score": 0.8667
+        "title": "The Dow Falls 550 Points. Stock Market Breadth Is Deteriorating.",
+        "url": "https://finance.yahoo.com/m/812e696c-9ad4-3893-9910-eacaa652cdb0/the-dow-falls-550-points..html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7751,
+        "score": 1.0
       },
       {
-        "title": "EU Countries Call for Stronger European Payments Systems",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/eu-countries-call-for-stronger-european-payments-systems",
+        "title": "SoftBank-Backed PayPay Rises 19% After $880 Million IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/softbank-backed-paypay-rises-19-after-880-million-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.7068,
-        "score": 0.6667
+        "weight": 0.7897,
+        "score": 0.9667
       },
       {
-        "title": "Nintendo has jumped 18% this week as a surprise Pokémon hit drove hope it could boost Switch 2 sales",
-        "url": "https://www.cnbc.com/2026/03/12/pokemon-pokopia-nintendo-share-price-rise-switch-2.html",
-        "source": "CNBC Markets",
-        "weight": 0.687,
-        "score": 0.5333
+        "title": "Exchange CEOs Urge Review of Easy Prediction Market Listings",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/exchange-ceos-urge-review-of-easy-listings-in-prediction-markets",
+        "source": "Bloomberg Markets",
+        "weight": 0.5781,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Singapore Jails Man Over $6.9M SafeX Crypto Theft Case",
-        "url": "https://decrypt.co/360861/singapore-jails-man-over-6-9m-safex-crypto-theft-case",
-        "source": "Decrypt",
-        "weight": 0.771,
+        "title": "Stellantis Weighs Deals With China Rivals to Shore Up Europe",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/stellantis-weighs-deals-with-china-carmakers-to-shore-up-europe",
+        "source": "Bloomberg Markets",
+        "weight": 0.6574,
+        "score": -0.9333
+      },
+      {
+        "title": "Kadensa Capital Liquidates Stride Position Amid Stock's 50% Plummet",
+        "url": "https://www.fool.com/coverage/filings/2026/03/12/kadensa-capital-liquidates-stride-position-amid-stock-s-50-plummet/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7513,
         "score": -0.6333
       },
       {
-        "title": "Why Ray Dalio says Bitcoin can’t replace gold",
-        "url": "https://cointelegraph.com/news/why-ray-dalio-says-bitcoin-can-t-replace-gold?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7322,
-        "score": -0.6667
-      },
-      {
-        "title": "TSA workers set to miss first paycheck of shutdown as Senate bickers over DHS funding",
-        "url": "https://www.cnbc.com/2026/03/12/senate-dhs-homeland-shutdown-funding-tsa-immigration.html",
-        "source": "CNBC Markets",
-        "weight": 0.6815,
+        "title": "AI Impact on Software Won’t Trigger Wave of Downgrades, S&amp;P Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/ai-impact-on-software-won-t-trigger-wave-of-downgrades-s-p-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6876,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3843633711356699,
-          "price_change_24h": -0.00251
+          "volume_mcap_ratio": 0.37915523493951725,
+          "price_change_24h": -0.00768
         }
       ],
       "momentum_shifts": []
