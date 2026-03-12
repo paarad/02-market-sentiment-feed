@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-12T17:03:41.228957+00:00",
+  "updated_at": "2026-03-12T20:04:04.243809+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.059,
+    "change24h": -0.006,
+    "vol": 0.058,
     "fearGreed": 18,
-    "momentum": 0.011,
-    "regime": "sideways",
+    "momentum": -0.108,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.406,
-    "global_sentiment": 0.5602,
-    "combined_sentiment": 0.4345,
-    "confidence": 0.8334,
+    "crypto_sentiment": 0.4517,
+    "global_sentiment": 0.4676,
+    "combined_sentiment": 0.4611,
+    "confidence": 0.8251,
     "counts": {
-      "crypto": 58,
+      "crypto": 71,
       "global": 48
     },
     "market_indicators": {
-      "btc_price": 70406,
-      "btc_change_24h": -0.69,
-      "eth_price": 2069.86,
-      "eth_change_24h": -0.24,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 70457,
+      "btc_change_24h": -0.09,
+      "eth_price": 2070.6,
+      "eth_change_24h": -0.1,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160386550043.62,
+        "volume_24h": 149159360513.62,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.19,
+        "btc_dominance": 58.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-27T02:41:26.184696+00:00",
-      "crypto": 0.4697,
-      "global": 0.5104,
-      "combined": 0.4782,
-      "counts": {
-        "crypto": 51,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-02-27T05:17:16.981489+00:00",
       "crypto": 0.5072,
@@ -1008,61 +998,71 @@
         "crypto": 58,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-03-12T20:04:04.243809+00:00",
+      "crypto": 0.4517,
+      "global": 0.4676,
+      "combined": 0.4611,
+      "counts": {
+        "crypto": 71,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "The Dow Falls 550 Points. Stock Market Breadth Is Deteriorating.",
-        "url": "https://finance.yahoo.com/m/812e696c-9ad4-3893-9910-eacaa652cdb0/the-dow-falls-550-points..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7751,
-        "score": 1.0
+        "title": "SpaceX IPO Lures Investors Into Murky Private Deals",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/spacex-ipo-lures-investors-into-murky-private-deals-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6957,
+        "score": 0.6667
       },
       {
-        "title": "SoftBank-Backed PayPay Rises 19% After $880 Million IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/softbank-backed-paypay-rises-19-after-880-million-ipo",
+        "title": "Airlines Start Raising Fares Due to Higher Oil Prices",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/airlines-start-raising-fares-due-to-higher-oil-prices-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7897,
-        "score": 0.9667
+        "weight": 0.6483,
+        "score": 0.6667
       },
       {
-        "title": "Exchange CEOs Urge Review of Easy Prediction Market Listings",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/exchange-ceos-urge-review-of-easy-listings-in-prediction-markets",
+        "title": "Greater Scrutiny Facing Companies Ahead of IPO",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/greater-scrutiny-facing-companies-ahead-of-ipo-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5781,
-        "score": 1.0
+        "weight": 0.6818,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Stellantis Weighs Deals With China Rivals to Shore Up Europe",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/stellantis-weighs-deals-with-china-carmakers-to-shore-up-europe",
+        "title": "Deutsche Bank's Chadha Cautions Against Fed Rate Cuts",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/deutsche-bank-s-chadha-cautions-against-fed-rate-cuts-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6574,
-        "score": -0.9333
+        "weight": 0.7893,
+        "score": -0.9667
       },
       {
-        "title": "Kadensa Capital Liquidates Stride Position Amid Stock's 50% Plummet",
-        "url": "https://www.fool.com/coverage/filings/2026/03/12/kadensa-capital-liquidates-stride-position-amid-stock-s-50-plummet/?.tsrc=rss",
+        "title": "American Airlines Drops 4% as the Airline Sector Hits an Air Pocket",
+        "url": "https://247wallst.com/investing/2026/03/12/american-airlines-drops-4-as-the-airline-sector-hits-an-air-pocket/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7513,
-        "score": -0.6333
+        "weight": 0.6715,
+        "score": -1.0
       },
       {
-        "title": "AI Impact on Software Won’t Trigger Wave of Downgrades, S&amp;P Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/ai-impact-on-software-won-t-trigger-wave-of-downgrades-s-p-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6876,
-        "score": -0.6333
+        "title": "JPMorgan Sued for Allegedly Enabling $328 Million Crypto 'Ponzi Scheme'",
+        "url": "https://decrypt.co/360908/jpmorgan-sued-328-million-crypto-ponzi-scheme",
+        "source": "Decrypt",
+        "weight": 0.6168,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37915523493951725,
-          "price_change_24h": -0.00768
+          "volume_mcap_ratio": 0.36705751667944575,
+          "price_change_24h": -0.00782
         }
       ],
       "momentum_shifts": []
