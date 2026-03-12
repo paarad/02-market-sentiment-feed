@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-12T05:18:03.577050+00:00",
+  "updated_at": "2026-03-12T08:54:14.321624+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.099,
+    "change24h": 0.018,
+    "vol": 0.122,
     "fearGreed": 18,
-    "momentum": -0.048,
+    "momentum": 0.322,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3408,
-    "global_sentiment": 0.5149,
-    "combined_sentiment": 0.3819,
-    "confidence": 0.7704,
+    "crypto_sentiment": 0.3024,
+    "global_sentiment": 0.4016,
+    "combined_sentiment": 0.3436,
+    "confidence": 0.7659,
     "counts": {
-      "crypto": 51,
-      "global": 37
+      "crypto": 54,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 69376,
-      "btc_change_24h": -0.85,
-      "eth_price": 2023.69,
-      "eth_change_24h": -0.54,
+      "btc_price": 69862,
+      "btc_change_24h": 0.39,
+      "eth_price": 2047.79,
+      "eth_change_24h": 1.32,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153405021764.61,
+        "volume_24h": 157212575444.62,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.1,
+        "btc_dominance": 58.12,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-26T17:06:13.785441+00:00",
-      "crypto": 0.4412,
-      "global": 0.4725,
-      "combined": 0.4536,
-      "counts": {
-        "crypto": 51,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-02-26T20:19:45.750758+00:00",
       "crypto": 0.496,
@@ -1008,6 +998,16 @@
         "crypto": 51,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-03-12T08:54:14.321624+00:00",
+      "crypto": 0.3024,
+      "global": 0.4016,
+      "combined": 0.3436,
+      "counts": {
+        "crypto": 54,
+        "global": 32
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "XRP steadies near $1.38 as Bollinger squeeze hints at breakout before CPI",
         "url": "https://www.coindesk.com/markets/2026/03/12/xrp-steadies-near-usd1-38-as-bollinger-squeeze-hints-at-breakout-before-cpi",
         "source": "CoinDesk",
-        "weight": 1.1947,
+        "weight": 0.7879,
         "score": 0.5333
+      },
+      {
+        "title": "Indian Rupee Hedging Costs Rise as Importers Brace for More Pain",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/indian-rupee-hedging-costs-rise-as-importers-brace-for-more-pain",
+        "source": "Bloomberg Markets",
+        "weight": 0.7167,
+        "score": 0.5
       },
       {
         "title": "Foreign Stocks Are Reeling From the Iran War. Buying the Dip Could Pay Off.",
         "url": "https://finance.yahoo.com/m/5f135da6-8a98-3de2-90af-b0db5b58e4a4/foreign-stocks-are-reeling.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7727,
+        "weight": 0.5096,
         "score": 0.6667
-      },
-      {
-        "title": "Review & Preview: All Fueled Up",
-        "url": "https://finance.yahoo.com/m/f9f59241-ea52-30d3-b5f0-08bdd8a80e13/review-%26-preview%3A-all-fueled.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4295,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Bonk.fun hacked: Domain hijacked, crypto drainer planted",
-        "url": "https://www.coindesk.com/tech/2026/03/12/bonk-fun-hacked-domain-hijacked-crypto-drainer-planted",
-        "source": "CoinDesk",
-        "weight": 0.9069,
+        "title": "US prosecutors urge judge to deny Sam Bankman-Fried retrial bid: Report",
+        "url": "https://cointelegraph.com/news/us-prosecutors-oppose-sam-bankman-fried-new-trial-ftx-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7252,
+        "score": -0.9667
+      },
+      {
+        "title": "Bonk.fun warns hackers hijacked domain in wallet-drainer attack",
+        "url": "https://cointelegraph.com/news/bonk-fun-domain-hijack-wallet-drainer-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.69,
         "score": -0.7333
       },
       {
-        "title": "Binance.US names new CEO as crypto exchange eyes expansion",
-        "url": "https://cointelegraph.com/news/binance-us-names-new-ceo-crypto-exchange-eyes-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Kalshi preemptively sues Iowa, claiming risk of enforcement action",
+        "url": "https://cointelegraph.com/news/kalshi-preemptively-sues-iowa-claiming-risk-of-enforcement-action?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.603,
-        "score": -1.0
-      },
-      {
-        "title": "Japan Insurers Still Keen on Private Debt Amid Growing Red Flags",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/japan-insurers-still-keen-on-private-debt-amid-growing-red-flags",
-        "source": "Bloomberg Markets",
-        "weight": 0.6212,
-        "score": -0.9667
+        "weight": 0.5478,
+        "score": -0.9
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3812228627203736,
-          "price_change_24h": 0.00313
+          "volume_mcap_ratio": 0.38286070350446905,
+          "price_change_24h": 0.00255
         }
       ],
       "momentum_shifts": []
