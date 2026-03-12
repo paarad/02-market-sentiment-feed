@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-12T02:44:06.078767+00:00",
+  "updated_at": "2026-03-12T05:18:03.577050+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.082,
+    "change24h": -0.003,
+    "vol": 0.099,
     "fearGreed": 18,
-    "momentum": 0.082,
+    "momentum": -0.048,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3677,
-    "global_sentiment": 0.5684,
-    "combined_sentiment": 0.4065,
-    "confidence": 0.7365,
+    "crypto_sentiment": 0.3408,
+    "global_sentiment": 0.5149,
+    "combined_sentiment": 0.3819,
+    "confidence": 0.7704,
     "counts": {
-      "crypto": 50,
-      "global": 38
+      "crypto": 51,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 69435,
-      "btc_change_24h": -0.37,
-      "eth_price": 2031.12,
-      "eth_change_24h": 0.46,
+      "btc_price": 69376,
+      "btc_change_24h": -0.85,
+      "eth_price": 2023.69,
+      "eth_change_24h": -0.54,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 163971409106.62,
+        "volume_24h": 153405021764.61,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.08,
+        "btc_dominance": 58.1,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-26T13:23:39.972427+00:00",
-      "crypto": 0.4784,
-      "global": 0.5424,
-      "combined": 0.4873,
-      "counts": {
-        "crypto": 53,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-02-26T17:06:13.785441+00:00",
       "crypto": 0.4412,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-03-12T05:18:03.577050+00:00",
+      "crypto": 0.3408,
+      "global": 0.5149,
+      "combined": 0.3819,
+      "counts": {
+        "crypto": 51,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures Fall As Oil Prices Top $90 On Tanker Attacks; Oracle, Nvidia Lift These AI Names",
-        "url": "https://finance.yahoo.com/m/e5178f58-7f28-301c-8d0b-4a67fdf4e108/dow-jones-futures-fall-as-oil.html?.tsrc=rss",
+        "title": "XRP steadies near $1.38 as Bollinger squeeze hints at breakout before CPI",
+        "url": "https://www.coindesk.com/markets/2026/03/12/xrp-steadies-near-usd1-38-as-bollinger-squeeze-hints-at-breakout-before-cpi",
+        "source": "CoinDesk",
+        "weight": 1.1947,
+        "score": 0.5333
+      },
+      {
+        "title": "Foreign Stocks Are Reeling From the Iran War. Buying the Dip Could Pay Off.",
+        "url": "https://finance.yahoo.com/m/5f135da6-8a98-3de2-90af-b0db5b58e4a4/foreign-stocks-are-reeling.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7788,
-        "score": 1.0
+        "weight": 0.7727,
+        "score": 0.6667
       },
       {
         "title": "Review & Preview: All Fueled Up",
         "url": "https://finance.yahoo.com/m/f9f59241-ea52-30d3-b5f0-08bdd8a80e13/review-%26-preview%3A-all-fueled.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5777,
+        "weight": 0.4295,
         "score": 0.8667
-      },
-      {
-        "title": "Trump Touts Oil Supply Moves, Vows to Finish in Iran",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/trump-touts-oil-supply-moves-vows-to-finish-in-iran-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.74,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 18 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "SEC, CFTC end years of rivalry with deal that will mean combined crypto oversight",
-        "url": "https://www.coindesk.com/policy/2026/03/11/sec-cftc-end-years-of-rivalry-with-deal-that-will-mean-combined-crypto-oversight",
+        "title": "Bonk.fun hacked: Domain hijacked, crypto drainer planted",
+        "url": "https://www.coindesk.com/tech/2026/03/12/bonk-fun-hacked-domain-hijacked-crypto-drainer-planted",
         "source": "CoinDesk",
-        "weight": 0.6506,
-        "score": -0.6333
+        "weight": 0.9069,
+        "score": -0.7333
       },
       {
-        "title": "SEC, CFTC sign memo to regulate crypto, other markets in harmony",
-        "url": "https://cointelegraph.com/news/sec-cftc-sign-memo-regulate-markets-harmony?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Binance.US names new CEO as crypto exchange eyes expansion",
+        "url": "https://cointelegraph.com/news/binance-us-names-new-ceo-crypto-exchange-eyes-expansion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6096,
-        "score": -0.6333
+        "weight": 0.603,
+        "score": -1.0
+      },
+      {
+        "title": "Japan Insurers Still Keen on Private Debt Amid Growing Red Flags",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/japan-insurers-still-keen-on-private-debt-amid-growing-red-flags",
+        "source": "Bloomberg Markets",
+        "weight": 0.6212,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3915439508769258,
-          "price_change_24h": 0.01055
+          "volume_mcap_ratio": 0.3812228627203736,
+          "price_change_24h": 0.00313
         }
       ],
       "momentum_shifts": []
