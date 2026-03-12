@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-11T20:43:46.192571+00:00",
+  "updated_at": "2026-03-12T02:44:06.078767+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.099,
-    "fearGreed": 15,
-    "momentum": 0.347,
+    "change24h": 0.005,
+    "vol": 0.082,
+    "fearGreed": 18,
+    "momentum": 0.082,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3919,
-    "global_sentiment": 0.3679,
-    "combined_sentiment": 0.4079,
-    "confidence": 0.8092,
+    "crypto_sentiment": 0.3677,
+    "global_sentiment": 0.5684,
+    "combined_sentiment": 0.4065,
+    "confidence": 0.7365,
     "counts": {
       "crypto": 50,
-      "global": 40
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 70544,
-      "btc_change_24h": 0.37,
-      "eth_price": 2071.02,
-      "eth_change_24h": 1.29,
+      "btc_price": 69435,
+      "btc_change_24h": -0.37,
+      "eth_price": 2031.12,
+      "eth_change_24h": 0.46,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 15,
+        "value": 18,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166791261808.0,
+        "volume_24h": 163971409106.62,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.22,
+        "btc_dominance": 58.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-26T08:57:42.100216+00:00",
-      "crypto": 0.519,
-      "global": 0.4772,
-      "combined": 0.5124,
-      "counts": {
-        "crypto": 69,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-02-26T13:23:39.972427+00:00",
       "crypto": 0.4784,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-12T02:44:06.078767+00:00",
+      "crypto": 0.3677,
+      "global": 0.5684,
+      "combined": 0.4065,
+      "counts": {
+        "crypto": 50,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume",
-        "url": "https://www.coindesk.com/markets/2026/03/11/crypto-platform-bullish-climbs-past-coinbase-to-become-third-largest-crypto-exchange-by-spot-volume",
-        "source": "CoinDesk",
-        "weight": 0.9795,
+        "title": "Dow Jones Futures Fall As Oil Prices Top $90 On Tanker Attacks; Oracle, Nvidia Lift These AI Names",
+        "url": "https://finance.yahoo.com/m/e5178f58-7f28-301c-8d0b-4a67fdf4e108/dow-jones-futures-fall-as-oil.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7788,
+        "score": 1.0
+      },
+      {
+        "title": "Review & Preview: All Fueled Up",
+        "url": "https://finance.yahoo.com/m/f9f59241-ea52-30d3-b5f0-08bdd8a80e13/review-%26-preview%3A-all-fueled.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5777,
         "score": 0.8667
       },
       {
-        "title": "Nebius stock pops 16% on Nvidia $2 billion investment announcement",
-        "url": "https://www.cnbc.com/2026/03/11/nebius-nvidia-ai-cloud.html",
-        "source": "CNBC Markets",
-        "weight": 0.7396,
-        "score": 0.9167
-      },
-      {
-        "title": "Centerview’s Tokat Sees Potential for Mega Pharma Deals in 2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-11/centerview-s-tokat-sees-potential-for-mega-pharma-deals-video",
+        "title": "Trump Touts Oil Supply Moves, Vows to Finish in Iran",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/trump-touts-oil-supply-moves-vows-to-finish-in-iran-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7852,
-        "score": 0.5333
+        "weight": 0.74,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "How major US stock indexes fared Wednesday 3/11/2026",
-        "url": "https://finance.yahoo.com/news/major-us-stock-indexes-fared-201912624.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.763,
-        "score": -0.9667
+        "title": "Fear & Greed 18 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Pharma Deals Aren't Just Based on Price: Eric Tokat",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-11/pharma-deals-aren-t-just-based-on-price-eric-tokat-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7005,
-        "score": -0.9667
+        "title": "SEC, CFTC end years of rivalry with deal that will mean combined crypto oversight",
+        "url": "https://www.coindesk.com/policy/2026/03/11/sec-cftc-end-years-of-rivalry-with-deal-that-will-mean-combined-crypto-oversight",
+        "source": "CoinDesk",
+        "weight": 0.6506,
+        "score": -0.6333
       },
       {
-        "title": "You can't 'borrow your way out of debt,' expert says — but more consumers are trying",
-        "url": "https://www.cnbc.com/2026/03/11/personal-loan-credit-card-debt-consolidation.html",
-        "source": "CNBC Markets",
-        "weight": 0.6863,
-        "score": -0.9333
+        "title": "SEC, CFTC sign memo to regulate crypto, other markets in harmony",
+        "url": "https://cointelegraph.com/news/sec-cftc-sign-memo-regulate-markets-harmony?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6096,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3998100265754839,
-          "price_change_24h": 0.00123
+          "volume_mcap_ratio": 0.3915439508769258,
+          "price_change_24h": 0.01055
         }
       ],
       "momentum_shifts": []
