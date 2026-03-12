@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-12T20:04:04.243809+00:00",
+  "updated_at": "2026-03-12T20:43:25.953225+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.058,
+    "change24h": -0.01,
+    "vol": 0.077,
     "fearGreed": 18,
-    "momentum": -0.108,
+    "momentum": -0.171,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4517,
-    "global_sentiment": 0.4676,
-    "combined_sentiment": 0.4611,
-    "confidence": 0.8251,
+    "crypto_sentiment": 0.4485,
+    "global_sentiment": 0.5285,
+    "combined_sentiment": 0.4638,
+    "confidence": 0.8173,
     "counts": {
-      "crypto": 71,
-      "global": 48
+      "crypto": 57,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 70457,
-      "btc_change_24h": -0.09,
-      "eth_price": 2070.6,
-      "eth_change_24h": -0.1,
+      "btc_price": 70180,
+      "btc_change_24h": -0.44,
+      "eth_price": 2061.7,
+      "eth_change_24h": -0.42,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149159360513.62,
+        "volume_24h": 154848883684.62,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.21,
+        "btc_dominance": 58.17,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-27T05:17:16.981489+00:00",
-      "crypto": 0.5072,
-      "global": 0.626,
-      "combined": 0.5159,
-      "counts": {
-        "crypto": 46,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-27T08:51:58.995495+00:00",
       "crypto": 0.457,
@@ -1008,52 +998,62 @@
         "crypto": 71,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-03-12T20:43:25.953225+00:00",
+      "crypto": 0.4485,
+      "global": 0.5285,
+      "combined": 0.4638,
+      "counts": {
+        "crypto": 57,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Firefly Just Launched Lockheed Martin Into Space. How the Stock Stacks Up With SpaceX, Rocket Lab.",
+        "url": "https://finance.yahoo.com/m/41d9877a-1a98-3a3d-bbc9-af7443203b05/firefly-just-launched.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7632,
+        "score": 0.6667
+      },
+      {
+        "title": "SoftBank-Backed PayPay Shares Jump 14% After $880 Million IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/softbank-backed-paypay-rises-19-after-880-million-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.5173,
+        "score": 0.9667
+      },
+      {
         "title": "SpaceX IPO Lures Investors Into Murky Private Deals",
         "url": "https://www.bloomberg.com/news/videos/2026-03-12/spacex-ipo-lures-investors-into-murky-private-deals-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6957,
+        "weight": 0.6449,
         "score": 0.6667
-      },
-      {
-        "title": "Airlines Start Raising Fares Due to Higher Oil Prices",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/airlines-start-raising-fares-due-to-higher-oil-prices-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6483,
-        "score": 0.6667
-      },
-      {
-        "title": "Greater Scrutiny Facing Companies Ahead of IPO",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/greater-scrutiny-facing-companies-ahead-of-ipo-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6818,
-        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Deutsche Bank's Chadha Cautions Against Fed Rate Cuts",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/deutsche-bank-s-chadha-cautions-against-fed-rate-cuts-video",
+        "title": "Man Killed After Ramming Car Into Michigan Synagogue",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/man-killed-after-ramming-car-into-michigan-synagogue",
         "source": "Bloomberg Markets",
-        "weight": 0.7893,
+        "weight": 0.7461,
         "score": -0.9667
       },
       {
-        "title": "American Airlines Drops 4% as the Airline Sector Hits an Air Pocket",
-        "url": "https://247wallst.com/investing/2026/03/12/american-airlines-drops-4-as-the-airline-sector-hits-an-air-pocket/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6715,
-        "score": -1.0
+        "title": "Deutsche Bank's Chadha Cautions Against Fed Rate Cuts",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-12/deutsche-bank-s-chadha-cautions-against-fed-rate-cuts-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7317,
+        "score": -0.9667
       },
       {
         "title": "JPMorgan Sued for Allegedly Enabling $328 Million Crypto 'Ponzi Scheme'",
         "url": "https://decrypt.co/360908/jpmorgan-sued-328-million-crypto-ponzi-scheme",
         "source": "Decrypt",
-        "weight": 0.6168,
+        "weight": 0.5718,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36705751667944575,
-          "price_change_24h": -0.00782
+          "volume_mcap_ratio": 0.3675858869061192,
+          "price_change_24h": -0.00634
         }
       ],
       "momentum_shifts": []
