@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-12T20:43:25.953225+00:00",
+  "updated_at": "2026-03-13T02:41:59.618592+00:00",
   "indicators": {
-    "change24h": -0.01,
-    "vol": 0.077,
-    "fearGreed": 18,
-    "momentum": -0.171,
-    "regime": "bear",
+    "change24h": 0.033,
+    "vol": 0.144,
+    "fearGreed": 15,
+    "momentum": 0.581,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4485,
-    "global_sentiment": 0.5285,
-    "combined_sentiment": 0.4638,
-    "confidence": 0.8173,
+    "crypto_sentiment": 0.4533,
+    "global_sentiment": 0.4706,
+    "combined_sentiment": 0.4625,
+    "confidence": 0.7759,
     "counts": {
-      "crypto": 57,
-      "global": 41
+      "crypto": 58,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 70180,
-      "btc_change_24h": -0.44,
-      "eth_price": 2061.7,
-      "eth_change_24h": -0.42,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 71255,
+      "btc_change_24h": 2.62,
+      "eth_price": 2110.63,
+      "eth_change_24h": 3.91,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
-        "value": 18,
+        "value": 15,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154848883684.62,
-        "high_activity_coins": 1
+        "volume_24h": 173998873615.62,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.17,
+        "btc_dominance": 58.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-27T08:51:58.995495+00:00",
-      "crypto": 0.457,
-      "global": 0.4703,
-      "combined": 0.4653,
-      "counts": {
-        "crypto": 48,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-02-27T13:14:35.425778+00:00",
       "crypto": 0.4253,
@@ -1008,61 +998,76 @@
         "crypto": 57,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-13T02:41:59.618592+00:00",
+      "crypto": 0.4533,
+      "global": 0.4706,
+      "combined": 0.4625,
+      "counts": {
+        "crypto": 58,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Firefly Just Launched Lockheed Martin Into Space. How the Stock Stacks Up With SpaceX, Rocket Lab.",
-        "url": "https://finance.yahoo.com/m/41d9877a-1a98-3a3d-bbc9-af7443203b05/firefly-just-launched.html?.tsrc=rss",
+        "title": "Global crypto market cap up 2.6% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Dow Jones Futures Rise After Oil Prices Spur Market Sell-Off; Dell, Micron Lead 7 Stocks To Watch",
+        "url": "https://finance.yahoo.com/m/b84ae462-a033-3f56-a890-de28b1c2522c/dow-jones-futures-rise-after.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7632,
-        "score": 0.6667
+        "weight": 0.7763,
+        "score": 0.5333
       },
       {
-        "title": "SoftBank-Backed PayPay Shares Jump 14% After $880 Million IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-12/softbank-backed-paypay-rises-19-after-880-million-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.5173,
-        "score": 0.9667
-      },
-      {
-        "title": "SpaceX IPO Lures Investors Into Murky Private Deals",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/spacex-ipo-lures-investors-into-murky-private-deals-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6449,
-        "score": 0.6667
+        "title": "Bitcoin set up for rip to $80,000 even as oil prices surge and Iran threatens $200 a barrel",
+        "url": "https://cryptoslate.com/bitcoin-set-up-for-rip-to-80000-even-as-oil-prices-surge-and-iran-threatens-200-a-barrel/",
+        "source": "CryptoSlate",
+        "weight": 0.4757,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Man Killed After Ramming Car Into Michigan Synagogue",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/man-killed-after-ramming-car-into-michigan-synagogue",
+        "title": "Hedge Fund Regal Hit by 93% Crash in Australian Biotech Stock",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-13/hedge-fund-regal-hit-by-93-crash-in-australian-biotech-stock",
         "source": "Bloomberg Markets",
-        "weight": 0.7461,
-        "score": -0.9667
+        "weight": 0.7292,
+        "score": -0.9333
       },
       {
-        "title": "Deutsche Bank's Chadha Cautions Against Fed Rate Cuts",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-12/deutsche-bank-s-chadha-cautions-against-fed-rate-cuts-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7317,
-        "score": -0.9667
-      },
-      {
-        "title": "JPMorgan Sued for Allegedly Enabling $328 Million Crypto 'Ponzi Scheme'",
-        "url": "https://decrypt.co/360908/jpmorgan-sued-328-million-crypto-ponzi-scheme",
-        "source": "Decrypt",
-        "weight": 0.5718,
+        "title": "The S&P 500’s 1.5% Selloff Is Driven By A Few Key Factors",
+        "url": "https://247wallst.com/investing/2026/03/12/the-sp-500s-1-5-selloff-is-driven-by-a-few-key-factors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5726,
         "score": -1.0
+      },
+      {
+        "title": "Gold Set for Second Weekly Decline as Oil Prices Rally Further",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-12/gold-steadies-after-two-day-drop-as-oil-prices-rally-further",
+        "source": "Bloomberg Markets",
+        "weight": 0.4833,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3675858869061192,
-          "price_change_24h": -0.00634
+          "volume_mcap_ratio": 0.4162034584363243,
+          "price_change_24h": -0.01426
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.33006351787138183,
+          "price_change_24h": -0.01599
         }
       ],
       "momentum_shifts": []
