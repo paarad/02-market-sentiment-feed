@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-14T16:40:27.217788+00:00",
+  "updated_at": "2026-03-14T19:58:39.426612+00:00",
   "indicators": {
-    "change24h": -0.01,
-    "vol": 0.146,
+    "change24h": -0.008,
+    "vol": 0.091,
     "fearGreed": 16,
-    "momentum": -0.173,
-    "regime": "sideways",
+    "momentum": -0.138,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4648,
-    "global_sentiment": 0.3648,
-    "combined_sentiment": 0.4623,
-    "confidence": 0.6125,
+    "crypto_sentiment": 0.4391,
+    "global_sentiment": 0.3231,
+    "combined_sentiment": 0.4396,
+    "confidence": 0.5605,
     "counts": {
-      "crypto": 47,
+      "crypto": 45,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 70669,
-      "btc_change_24h": -1.65,
-      "eth_price": 2076.16,
-      "eth_change_24h": -2.65,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 70704,
+      "btc_change_24h": -0.67,
+      "eth_price": 2077.36,
+      "eth_change_24h": -1.21,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 114519659023.62,
+        "volume_24h": 94755829776.62,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.19,
+        "btc_dominance": 58.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-01T02:56:30.190813+00:00",
-      "crypto": 0.4843,
-      "global": 0.4821,
-      "combined": 0.4867,
-      "counts": {
-        "crypto": 54,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-01T05:20:28.155783+00:00",
       "crypto": 0.5179,
@@ -1008,6 +998,16 @@
         "crypto": 47,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-03-14T19:58:39.426612+00:00",
+      "crypto": 0.4391,
+      "global": 0.3231,
+      "combined": 0.4396,
+      "counts": {
+        "crypto": 45,
+        "global": 33
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "The biggest release of emergency oil stockpiles in history was announced. Why crude may keep rising",
         "url": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html",
         "source": "CNBC Markets",
-        "weight": 0.5306,
+        "weight": 0.3623,
         "score": 0.8667
+      },
+      {
+        "title": "Trane CEO on \"Bloomberg This Weekend\" C-Suite Saturdays",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-14/trane-ceo-on-bloomberg-this-weekend-c-suite-saturdays-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5344,
+        "score": 0.5333
       },
       {
         "title": "Bitcoin beat the S&P 500, Nasdaq Composite and gold since the start of the Iran war",
         "url": "https://www.cnbc.com/2026/03/14/bitcoin-outperforms-sp-500-nasdaq-gold-since-the-start-of-iran-war.html",
         "source": "CNBC Markets",
-        "weight": 0.6593,
+        "weight": 0.4502,
         "score": 0.5333
-      },
-      {
-        "title": "USDC market cap nears record $80B amid ‘capital flight’ in UAE: Analyst",
-        "url": "https://cointelegraph.com/news/usdc-market-cap-nears-80b-uae-capital-flight-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4027,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Private Credit Fears, War Darken Outlook For US Financial Stocks",
-        "url": "https://finance.yahoo.com/news/private-credit-fears-war-darken-130000093.html?.tsrc=rss",
+        "title": "JPMorgan Makes Bold Push to Offload Huge LBO Debt",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-14/jpmorgan-makes-bold-push-to-offload-huge-lbo-debt-credit-weekly",
+        "source": "Bloomberg Markets",
+        "weight": 0.7146,
+        "score": -0.6667
+      },
+      {
+        "title": "Bank of America has a stark warning for stock investors",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-has-a-stark-warning-for-stock-investors?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5233,
-        "score": -1.0
+        "weight": 0.6403,
+        "score": -0.6667
       },
       {
-        "title": "'Iran Crossed A Red Line': Former Energy Secretary on Iran's Nuclear Program",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-14/-iran-crossed-a-red-line-former-energy-secretary-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.756,
-        "score": -0.6333
-      },
-      {
-        "title": "Top UN Official on Risk to Oil Tankers and Ships in Strait of Hormuz",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-14/risk-to-oil-tankers-and-ships-in-strait-of-hormuz-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7435,
-        "score": -0.6333
+        "title": "Fear & Greed 16 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
