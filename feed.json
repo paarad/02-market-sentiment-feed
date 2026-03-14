@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-14T08:45:34.301990+00:00",
+  "updated_at": "2026-03-14T13:07:54.160181+00:00",
   "indicators": {
-    "change24h": -0.018,
-    "vol": 0.139,
+    "change24h": -0.028,
+    "vol": 0.182,
     "fearGreed": 16,
-    "momentum": -0.307,
+    "momentum": -0.495,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4921,
-    "global_sentiment": 0.4602,
-    "combined_sentiment": 0.4908,
-    "confidence": 0.6465,
+    "crypto_sentiment": 0.5198,
+    "global_sentiment": 0.4381,
+    "combined_sentiment": 0.5097,
+    "confidence": 0.6076,
     "counts": {
-      "crypto": 65,
-      "global": 35
+      "crypto": 51,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 70578,
-      "btc_change_24h": -1.7,
-      "eth_price": 2074.16,
-      "eth_change_24h": -1.33,
+      "btc_price": 70753,
+      "btc_change_24h": -2.72,
+      "eth_price": 2074.34,
+      "eth_change_24h": -3.4,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 192715337088.62,
+        "volume_24h": 166304521427.62,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.19,
+        "btc_dominance": 58.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-02-28T19:54:25.193273+00:00",
-      "crypto": 0.3919,
-      "global": 0.5303,
-      "combined": 0.4215,
-      "counts": {
-        "crypto": 68,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-02-28T20:34:29.399582+00:00",
       "crypto": 0.4681,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-03-14T13:07:54.160181+00:00",
+      "crypto": 0.5198,
+      "global": 0.4381,
+      "combined": 0.5097,
+      "counts": {
+        "crypto": 51,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Australia’s Rural Areas Facing ‘Unacceptable’ Fuel Shortages",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-14/australia-s-rural-areas-facing-unacceptable-fuel-shortages",
-        "source": "Bloomberg Markets",
-        "weight": 0.4677,
-        "score": 0.5333
+        "title": "USDC market cap nears record $80B amid ‘capital flight’ in UAE: Analyst",
+        "url": "https://cointelegraph.com/news/usdc-market-cap-nears-80b-uae-capital-flight-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6063,
+        "score": 0.8667
       },
       {
-        "title": "China Travelers Make Record Number of Trips in Spring Holidays",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-14/china-travelers-make-record-number-of-trips-in-spring-holidays",
-        "source": "Bloomberg Markets",
-        "weight": 0.6626,
+        "title": "Is Ford Stock a Buy Now?",
+        "url": "https://www.fool.com/investing/2026/03/14/is-ford-stock-a-buy-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7729,
         "score": 0.3333
       },
       {
-        "title": "Key Bitcoin price levels to watch as BTC nears new monthly highs",
-        "url": "https://cointelegraph.com/news/key-bitcoin-price-levels-to-watch-as-btc-nears-new-monthly-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2008,
-        "score": 1.0
+        "title": "Dow Jones Futures: Oil Prices, Iran War Drive Stocks Lower; Nvidia GTC, Micron Earnings Due",
+        "url": "https://finance.yahoo.com/m/cb03c9e2-36cb-3935-874a-11f3d5b70bb4/dow-jones-futures%3A-oil.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7365,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Berkshire Hathaway filing provides glimpse of share buyback resumption",
+        "url": "https://www.cnbc.com/2026/03/14/berkshire-hathaway-filing-provides-glimpse-of-share-buyback-resumption.html",
+        "source": "CNBC Markets",
+        "weight": 0.7927,
+        "score": -0.6333
+      },
+      {
+        "title": "Mota-Engil Says Its CEO Faces Defamation Suit by Muddy Waters",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-14/mota-engil-says-its-ceo-faces-defamation-suit-by-muddy-waters",
+        "source": "Bloomberg Markets",
+        "weight": 0.6709,
+        "score": -0.7333
+      },
       {
         "title": "Fear & Greed 16 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "JSW Steel Wins Rights to Develop Coking Coal Mine in Mozambique",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-14/jsw-steel-wins-rights-to-develop-coking-coal-mine-in-mozambique",
-        "source": "Bloomberg Markets",
-        "weight": 0.5967,
-        "score": -0.6333
-      },
-      {
-        "title": "Global crypto market cap down -1.4% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45837008325542095,
-          "price_change_24h": -0.0025
+          "volume_mcap_ratio": 0.4034689266980601,
+          "price_change_24h": -0.00097
         }
       ],
       "momentum_shifts": []
