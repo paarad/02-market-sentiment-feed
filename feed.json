@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-15T13:09:02.671477+00:00",
+  "updated_at": "2026-03-15T16:41:10.179984+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.081,
+    "change24h": 0.004,
+    "vol": 0.064,
     "fearGreed": 15,
-    "momentum": 0.244,
+    "momentum": 0.066,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4002,
-    "global_sentiment": 0.4738,
-    "combined_sentiment": 0.423,
-    "confidence": 0.5451,
+    "crypto_sentiment": 0.3853,
+    "global_sentiment": 0.4299,
+    "combined_sentiment": 0.4081,
+    "confidence": 0.4978,
     "counts": {
-      "crypto": 46,
-      "global": 29
+      "crypto": 56,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 71622,
-      "btc_change_24h": 1.21,
-      "eth_price": 2109.91,
-      "eth_change_24h": 1.71,
+      "btc_price": 71472,
+      "btc_change_24h": 1.15,
+      "eth_price": 2093.39,
+      "eth_change_24h": 0.82,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 78756157896.62,
+        "volume_24h": 81709355364.62,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.28,
+        "btc_dominance": 58.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-01T20:36:23.585461+00:00",
-      "crypto": 0.4938,
-      "global": 0.5116,
-      "combined": 0.4963,
-      "counts": {
-        "crypto": 52,
-        "global": 30
-      }
-    },
     {
       "ts": "2026-03-02T02:43:57.762841+00:00",
       "crypto": 0.4827,
@@ -1008,39 +998,49 @@
         "crypto": 46,
         "global": 29
       }
+    },
+    {
+      "ts": "2026-03-15T16:41:10.179984+00:00",
+      "crypto": 0.3853,
+      "global": 0.4299,
+      "combined": 0.4081,
+      "counts": {
+        "crypto": 56,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Bitcoin’s $71k rally has a problem most traders aren’t watching",
+        "url": "https://cryptoslate.com/bitcoins-71k-rally-has-a-problem-most-traders-arent-watching/",
+        "source": "CryptoSlate",
+        "weight": 0.5509,
         "score": 0.5333
       },
       {
-        "title": "Dow Jones Futures Due With Oil Prices Near $100 Amid Iran War; Nvidia GTC, Micron Earnings Ahead",
-        "url": "https://finance.yahoo.com/m/cb03c9e2-36cb-3935-874a-11f3d5b70bb4/dow-jones-futures-due-with.html?.tsrc=rss",
+        "title": "NICE Stock Fell Over 20% Last Quarter. One Investor Exited a $3 Million Position",
+        "url": "https://www.fool.com/coverage/filings/2026/03/15/nice-stock-fell-over-20-last-quarter-one-investor-exited-a-usd3-million-position/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7844,
+        "weight": 0.7449,
         "score": 0.3333
       },
       {
-        "title": "2 Dirt Cheap Stocks to Buy With $1,000 Right Now",
-        "url": "https://www.fool.com/investing/2026/03/15/2-dirt-cheap-stocks-to-buy-with-1000-right-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7638,
+        "title": "IEA Says Asia to Release Emergency Oil Stocks Immediately",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-15/iea-says-oil-from-emergency-stocks-to-flow-immediately-in-asia",
+        "source": "Bloomberg Markets",
+        "weight": 0.6747,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "The CFTC starts crack down on the growing insider problem in prediction markets",
-        "url": "https://cryptoslate.com/the-cftc-to-crack-down-on-the-growing-insider-problem-in-prediction-markets/",
-        "source": "CryptoSlate",
-        "weight": 0.7165,
-        "score": -0.6667
+        "title": "Iran Supertanker Pushes Through Strait for China",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-15/hormuz-tracker-iran-supertanker-pushes-through-strait-for-china",
+        "source": "Bloomberg Markets",
+        "weight": 0.5626,
+        "score": -0.9667
       },
       {
         "title": "Fear & Greed 15 (Fear) — bearish",
@@ -1050,11 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Oil Market Set for Tumultuous Week as Kharg Attack Raises Stakes",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-15/oil-market-set-for-tumultuous-week-as-kharg-attack-raises-stakes",
+        "title": "EPA Administrator Lee Zeldin on the Iran Conflict",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-15/democrats-hope-is-not-a-strategy-says-rep-zeldin-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5642,
-        "score": -0.6667
+        "weight": 0.5976,
+        "score": -0.6333
       }
     ],
     "market_movers": {
