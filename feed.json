@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-15T05:39:12.383234+00:00",
+  "updated_at": "2026-03-15T08:48:27.167779+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.07,
+    "change24h": 0.015,
+    "vol": 0.083,
     "fearGreed": 15,
-    "momentum": 0.121,
+    "momentum": 0.268,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4417,
-    "global_sentiment": 0.3245,
-    "combined_sentiment": 0.4417,
-    "confidence": 0.4959,
+    "crypto_sentiment": 0.5171,
+    "global_sentiment": 0.478,
+    "combined_sentiment": 0.511,
+    "confidence": 0.4994,
     "counts": {
       "crypto": 45,
-      "global": 34
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 71620,
-      "btc_change_24h": 0.92,
-      "eth_price": 2110.63,
-      "eth_change_24h": 1.03,
+      "btc_price": 71645,
+      "btc_change_24h": 1.52,
+      "eth_price": 2112.08,
+      "eth_change_24h": 1.86,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.75,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 82088572115.62,
+        "volume_24h": 78534160376.62,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-01T16:37:35.964347+00:00",
-      "crypto": 0.4499,
-      "global": 0.5185,
-      "combined": 0.464,
-      "counts": {
-        "crypto": 53,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-03-01T19:55:45.510879+00:00",
       "crypto": 0.4953,
@@ -1008,30 +998,40 @@
         "crypto": 45,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-03-15T08:48:27.167779+00:00",
+      "crypto": 0.5171,
+      "global": 0.478,
+      "combined": 0.511,
+      "counts": {
+        "crypto": 45,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin whales are starting to accumulate again at $71K: Santiment",
-        "url": "https://cointelegraph.com/news/bitcoin-whale-accumulation-btc-price-retail-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7865,
-        "score": 0.3333
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Dow Jones Futures: Oil Prices, Iran War Drive Stocks Lower; Nvidia GTC, Micron Earnings Due",
-        "url": "https://finance.yahoo.com/m/cb03c9e2-36cb-3935-874a-11f3d5b70bb4/dow-jones-futures%3A-oil.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5807,
-        "score": 0.3333
+        "title": "Australian Treasurer Says Household Costs to Rise on Oil Price",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-15/australian-treasurer-says-household-costs-to-rise-on-oil-price",
+        "source": "Bloomberg Markets",
+        "weight": 0.5933,
+        "score": 0.6667
       },
       {
-        "title": "The biggest release of emergency oil stockpiles in history was announced. Why crude may keep rising",
-        "url": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html",
-        "source": "CNBC Markets",
-        "weight": 0.1185,
-        "score": 0.8667
+        "title": "Introducing Leaders with Francine Lacqua: The Podcast",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-15/introducing-leaders-with-francine-lacqua-podcast-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5809,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1046,14 +1046,14 @@
         "title": "Trump fundraising pitch features U.S. soldiers killed in Iran war",
         "url": "https://www.cnbc.com/2026/03/14/trump-iran-war-fundraising-us-soldiers.html",
         "source": "CNBC Markets",
-        "weight": 0.3664,
+        "weight": 0.2545,
         "score": -0.6333
       },
       {
         "title": "ITOT vs. VTV: Is Broad Market Exposure or Value Stock Stability the Better Buy for Investors?",
         "url": "https://www.fool.com/coverage/etfs/2026/03/14/itot-vs-vtv-is-broad-market-exposure-or-value-stock-stability-the-better-buy-for-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3124,
+        "weight": 0.217,
         "score": -0.6333
       }
     ],
