@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-15T20:00:02.713907+00:00",
+  "updated_at": "2026-03-15T20:38:02.977402+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.07,
+    "change24h": 0.012,
+    "vol": 0.071,
     "fearGreed": 15,
-    "momentum": 0.145,
+    "momentum": 0.204,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3962,
-    "global_sentiment": 0.4897,
-    "combined_sentiment": 0.4213,
-    "confidence": 0.5518,
+    "crypto_sentiment": 0.454,
+    "global_sentiment": 0.5047,
+    "combined_sentiment": 0.4659,
+    "confidence": 0.5735,
     "counts": {
       "crypto": 40,
-      "global": 36
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 71555,
-      "btc_change_24h": 1.2,
-      "eth_price": 2113.76,
-      "eth_change_24h": 1.75,
+      "btc_price": 71681,
+      "btc_change_24h": 1.29,
+      "eth_price": 2126.11,
+      "eth_change_24h": 2.2,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 89909687624.62,
+        "volume_24h": 88659575447.62,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.29,
+        "btc_dominance": 58.28,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-02T05:18:13.829668+00:00",
-      "crypto": 0.3928,
-      "global": 0.4482,
-      "combined": 0.4153,
-      "counts": {
-        "crypto": 44,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-03-02T08:54:55.474357+00:00",
       "crypto": 0.4239,
@@ -1008,30 +998,40 @@
         "crypto": 40,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-03-15T20:38:02.977402+00:00",
+      "crypto": 0.454,
+      "global": 0.5047,
+      "combined": 0.4659,
+      "counts": {
+        "crypto": 40,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.0% — rally",
+        "title": "Global crypto market cap up 1.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Did Warren Buffett Know Something Wall Street Doesn't? The Former Berkshire Hathaway CEO Left a $373 Billion Warning for the Stock Market.",
-        "url": "https://www.fool.com/investing/2026/03/15/buffett-berkshire-hathaway-cash-what-it-means/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7406,
+        "title": "Triton Partners Raises €5.5 Billion for Delayed Flagship Fund",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-15/triton-partners-raises-5-5-billion-for-delayed-flagship-fund",
+        "source": "Bloomberg Markets",
+        "weight": 0.7435,
         "score": 0.3333
       },
       {
-        "title": "US Reiterates Oil Reserve Release Spurred by Iran War Will Be an Exchange",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-15/us-oil-reserve-release-spurred-by-iran-war-will-be-an-exchange",
-        "source": "Bloomberg Markets",
-        "weight": 0.6836,
-        "score": 0.3333
+        "title": "Bitcoin price jumped over $71k – but most of the rally isn’t coming from real buyers",
+        "url": "https://cryptoslate.com/bitcoins-71k-rally-has-a-problem-most-traders-arent-watching/",
+        "source": "CryptoSlate",
+        "weight": 0.3491,
+        "score": 0.7
       }
     ],
     "negative": [
@@ -1039,7 +1039,7 @@
         "title": "The SEC and CFTC join hands: State of Crypto",
         "url": "https://www.coindesk.com/policy/2026/03/15/the-sec-and-cftc-join-hands-state-of-crypto",
         "source": "CoinDesk",
-        "weight": 0.9495,
+        "weight": 0.8825,
         "score": -0.6333
       },
       {
@@ -1053,7 +1053,7 @@
         "title": "Iran Supertanker Pushes Through Strait for China",
         "url": "https://www.bloomberg.com/news/articles/2026-03-15/hormuz-tracker-iran-supertanker-pushes-through-strait-for-china",
         "source": "Bloomberg Markets",
-        "weight": 0.3836,
+        "weight": 0.3566,
         "score": -0.9667
       }
     ],
