@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-15T08:48:27.167779+00:00",
+  "updated_at": "2026-03-15T13:09:02.671477+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.083,
+    "change24h": 0.014,
+    "vol": 0.081,
     "fearGreed": 15,
-    "momentum": 0.268,
+    "momentum": 0.244,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5171,
-    "global_sentiment": 0.478,
-    "combined_sentiment": 0.511,
-    "confidence": 0.4994,
+    "crypto_sentiment": 0.4002,
+    "global_sentiment": 0.4738,
+    "combined_sentiment": 0.423,
+    "confidence": 0.5451,
     "counts": {
-      "crypto": 45,
-      "global": 31
+      "crypto": 46,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 71645,
-      "btc_change_24h": 1.52,
-      "eth_price": 2112.08,
-      "eth_change_24h": 1.86,
+      "btc_price": 71622,
+      "btc_change_24h": 1.21,
+      "eth_price": 2109.91,
+      "eth_change_24h": 1.71,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 78534160376.62,
+        "volume_24h": 78756157896.62,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.31,
+        "btc_dominance": 58.28,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-01T19:55:45.510879+00:00",
-      "crypto": 0.4953,
-      "global": 0.5116,
-      "combined": 0.4974,
-      "counts": {
-        "crypto": 51,
-        "global": 30
-      }
-    },
     {
       "ts": "2026-03-01T20:36:23.585461+00:00",
       "crypto": 0.4938,
@@ -1008,33 +998,50 @@
         "crypto": 45,
         "global": 31
       }
+    },
+    {
+      "ts": "2026-03-15T13:09:02.671477+00:00",
+      "crypto": 0.4002,
+      "global": 0.4738,
+      "combined": 0.423,
+      "counts": {
+        "crypto": 46,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 1.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Australian Treasurer Says Household Costs to Rise on Oil Price",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-15/australian-treasurer-says-household-costs-to-rise-on-oil-price",
-        "source": "Bloomberg Markets",
-        "weight": 0.5933,
-        "score": 0.6667
+        "title": "Dow Jones Futures Due With Oil Prices Near $100 Amid Iran War; Nvidia GTC, Micron Earnings Ahead",
+        "url": "https://finance.yahoo.com/m/cb03c9e2-36cb-3935-874a-11f3d5b70bb4/dow-jones-futures-due-with.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7844,
+        "score": 0.3333
       },
       {
-        "title": "Introducing Leaders with Francine Lacqua: The Podcast",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-15/introducing-leaders-with-francine-lacqua-podcast-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5809,
+        "title": "2 Dirt Cheap Stocks to Buy With $1,000 Right Now",
+        "url": "https://www.fool.com/investing/2026/03/15/2-dirt-cheap-stocks-to-buy-with-1000-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7638,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "The CFTC starts crack down on the growing insider problem in prediction markets",
+        "url": "https://cryptoslate.com/the-cftc-to-crack-down-on-the-growing-insider-problem-in-prediction-markets/",
+        "source": "CryptoSlate",
+        "weight": 0.7165,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 15 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Trump fundraising pitch features U.S. soldiers killed in Iran war",
-        "url": "https://www.cnbc.com/2026/03/14/trump-iran-war-fundraising-us-soldiers.html",
-        "source": "CNBC Markets",
-        "weight": 0.2545,
-        "score": -0.6333
-      },
-      {
-        "title": "ITOT vs. VTV: Is Broad Market Exposure or Value Stock Stability the Better Buy for Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/14/itot-vs-vtv-is-broad-market-exposure-or-value-stock-stability-the-better-buy-for-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.217,
-        "score": -0.6333
+        "title": "Oil Market Set for Tumultuous Week as Kharg Attack Raises Stakes",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-15/oil-market-set-for-tumultuous-week-as-kharg-attack-raises-stakes",
+        "source": "Bloomberg Markets",
+        "weight": 0.5642,
+        "score": -0.6667
       }
     ],
     "market_movers": {
