@@ -1,46 +1,46 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-15T20:38:02.977402+00:00",
+  "updated_at": "2026-03-16T03:20:45.296745+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.071,
-    "fearGreed": 15,
-    "momentum": 0.204,
-    "regime": "sideways",
+    "change24h": 0.0,
+    "vol": 0.5,
+    "fearGreed": 23,
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.454,
-    "global_sentiment": 0.5047,
-    "combined_sentiment": 0.4659,
-    "confidence": 0.5735,
+    "crypto_sentiment": 0.4241,
+    "global_sentiment": 0.3935,
+    "combined_sentiment": 0.4342,
+    "confidence": 0.6312,
     "counts": {
-      "crypto": 40,
-      "global": 37
+      "crypto": 56,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 71681,
-      "btc_change_24h": 1.29,
-      "eth_price": 2126.11,
-      "eth_change_24h": 2.2,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "btc_price": 72569,
+      "btc_change_24h": 1.65,
+      "eth_price": 2184.03,
+      "eth_change_24h": 4.12,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
-        "value": 15,
+        "value": 23,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 88659575447.62,
+        "volume_24h": 115100418737.62,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.28,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-02T08:54:55.474357+00:00",
-      "crypto": 0.4239,
-      "global": 0.4455,
-      "combined": 0.4384,
-      "counts": {
-        "crypto": 53,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-03-02T13:15:39.118191+00:00",
       "crypto": 0.4008,
@@ -1008,53 +998,63 @@
         "crypto": 40,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-03-16T03:20:45.296745+00:00",
+      "crypto": 0.4241,
+      "global": 0.3935,
+      "combined": 0.4342,
+      "counts": {
+        "crypto": 56,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.1% — rally",
+        "title": "China's factory output and consumption beat forecasts, while property investment contraction slows",
+        "url": "https://www.cnbc.com/2026/03/16/china-data-today-retail-sales-property-industrial-production.html",
+        "source": "CNBC Markets",
+        "weight": 0.7164,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 1.8% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Triton Partners Raises €5.5 Billion for Delayed Flagship Fund",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-15/triton-partners-raises-5-5-billion-for-delayed-flagship-fund",
+        "title": "China Taps Fertilizer Reserves as War Disrupts Global Supplies",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/china-taps-fertilizer-reserves-as-war-disrupts-global-supplies",
         "source": "Bloomberg Markets",
-        "weight": 0.7435,
+        "weight": 0.7539,
         "score": 0.3333
-      },
-      {
-        "title": "Bitcoin price jumped over $71k – but most of the rally isn’t coming from real buyers",
-        "url": "https://cryptoslate.com/bitcoins-71k-rally-has-a-problem-most-traders-arent-watching/",
-        "source": "CryptoSlate",
-        "weight": 0.3491,
-        "score": 0.7
       }
     ],
     "negative": [
       {
-        "title": "The SEC and CFTC join hands: State of Crypto",
-        "url": "https://www.coindesk.com/policy/2026/03/15/the-sec-and-cftc-join-hands-state-of-crypto",
-        "source": "CoinDesk",
-        "weight": 0.8825,
-        "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 15 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Iran Supertanker Pushes Through Strait for China",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-15/hormuz-tracker-iran-supertanker-pushes-through-strait-for-china",
-        "source": "Bloomberg Markets",
-        "weight": 0.3566,
+        "title": "Battle of the Tech ETFs: How IYW and XLK Compare on Risk, Fees, and Performance",
+        "url": "https://www.fool.com/coverage/etfs/2026/03/15/battle-of-the-tech-etfs-how-iyw-and-xlk-compare-on-risk-fees-and-performance/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5978,
         "score": -0.9667
+      },
+      {
+        "title": "SPXL vs. TQQQ: Is S&P 500 Stability or Tech-Focused Growth the Better Buy for Leveraged ETF Investors?",
+        "url": "https://www.fool.com/coverage/etfs/2026/03/15/spxl-vs-tqqq-is-s-and-p-500-stability-or-tech-focused-growth-the-better-buy-for-leveraged-etf-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5417,
+        "score": -0.9667
+      },
+      {
+        "title": "Trump signals possible delay to Beijing summit as U.S. pressures China to help reopen Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
+        "source": "CNBC Markets",
+        "weight": 0.7714,
+        "score": -0.6333
       }
     ],
     "market_movers": {
