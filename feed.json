@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-16T09:06:57.744970+00:00",
+  "updated_at": "2026-03-16T13:42:56.558287+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.072,
+    "vol": 0.227,
     "fearGreed": 23,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4439,
-    "global_sentiment": 0.3935,
-    "combined_sentiment": 0.449,
-    "confidence": 0.7236,
+    "crypto_sentiment": 0.5448,
+    "global_sentiment": 0.5362,
+    "combined_sentiment": 0.5366,
+    "confidence": 0.799,
     "counts": {
-      "crypto": 43,
-      "global": 46
+      "crypto": 48,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 73100,
-      "btc_change_24h": 1.7,
-      "eth_price": 2241.84,
-      "eth_change_24h": 5.74,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 74385,
+      "btc_change_24h": 4.27,
+      "eth_price": 2301.58,
+      "eth_change_24h": 10.2,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 174358658474.62,
-        "high_activity_coins": 2
+        "volume_24h": 192388305921.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.25,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-02T20:04:12.155749+00:00",
-      "crypto": 0.528,
-      "global": 0.4951,
-      "combined": 0.5206,
-      "counts": {
-        "crypto": 68,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-03-02T20:44:38.241954+00:00",
       "crypto": 0.5278,
@@ -1008,66 +998,81 @@
         "crypto": 43,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-03-16T13:42:56.558287+00:00",
+      "crypto": 0.5448,
+      "global": 0.5362,
+      "combined": 0.5366,
+      "counts": {
+        "crypto": 48,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP climbs 3% past $1.47 as breakout extends on broad bitcoin-led move",
-        "url": "https://www.coindesk.com/markets/2026/03/16/xrp-climbs-3-past-usd1-47-as-breakout-extends-on-broad-bitcoin-led-move",
+        "title": "Vivakor Receives Nasdaq Panel Approval for Path to Continued Listing, Upon Compliance by April 30, 2026",
+        "url": "https://finance.yahoo.com/news/vivakor-receives-nasdaq-panel-approval-123000128.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6952,
+        "score": 0.9667
+      },
+      {
+        "title": "Altcoins jump as bitcoin inches toward potential $74,000 breakout",
+        "url": "https://www.coindesk.com/markets/2026/03/16/altcoins-jump-as-bitcoin-inches-toward-potential-usd74-000-breakout",
         "source": "CoinDesk",
-        "weight": 0.7908,
+        "weight": 0.6967,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin briefly tops $74,000 as ether, sol, ada gains as much as 6% in Monday surge",
-        "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-tops-usd74-000-as-ether-sol-ada-gains-as-much-as-6-in-monday-surge",
+        "title": "U.S., UK, Canada start Operation Atlantic to disrupt crypto approval-phishing scams",
+        "url": "https://www.coindesk.com/business/2026/03/16/u-s-uk-canada-start-operation-atlantic-to-disrupt-crypto-approval-phishing-scams",
         "source": "CoinDesk",
-        "weight": 0.6396,
-        "score": 0.8667
-      },
-      {
-        "title": "BYD Shares Surge the Most in 13 Months on Overseas Sales Orders",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-16/byd-shares-surge-the-most-in-13-months-on-overseas-sales-orders",
-        "source": "Bloomberg Markets",
-        "weight": 0.5874,
-        "score": 0.8667
+        "weight": 0.9041,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Ships stranded at Hormuz, energy crunch at home: How India’s U.S.-Israel tilt is testing ties with Iran",
-        "url": "https://www.cnbc.com/2026/03/16/india-us-israel-relationship-iran-war-testing-ties.html",
+        "title": "SEC drops lawsuit against BitClout’s Nader Al-Naji",
+        "url": "https://www.coindesk.com/policy/2026/03/16/sec-drops-case-against-bitclout-s-nader-al-naji",
+        "source": "CoinDesk",
+        "weight": 0.8296,
+        "score": -1.0
+      },
+      {
+        "title": "Strait of Hormuz standoff puts supply of America's generic drug prescriptions at risk",
+        "url": "https://www.cnbc.com/2026/03/16/strait-of-hormuz-closure-generic-drug-prescriptions.html",
         "source": "CNBC Markets",
-        "weight": 0.6417,
+        "weight": 0.7439,
         "score": -0.9333
       },
       {
-        "title": "Australia warns of AI, ‘finfluencers’ as Gen Z crypto ownership reaches 23%",
-        "url": "https://cointelegraph.com/news/asic-warns-ai-finfluencers-gen-z-crypto-23-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5115,
-        "score": -0.9667
-      },
-      {
-        "title": "Iran’s Upper Hand in Hormuz Is Pressuring Oil Buyers and Trump",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-16/iran-s-upper-hand-in-hormuz-is-pressuring-oil-buyers-and-trump",
+        "title": "BofA’s Francisco Blanch Explains the Path to $200 Oil",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-16/bofa-s-francisco-blanch-explains-the-path-to-200-oil-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7386,
-        "score": -0.6333
+        "weight": 0.6767,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4116172042481922,
-          "price_change_24h": -0.01307
+          "volume_mcap_ratio": 0.4609297588718748,
+          "price_change_24h": -0.01573
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3680711603774806,
+          "price_change_24h": 0.0204
         },
         {
           "symbol": "AAVE",
-          "volume_mcap_ratio": 0.3055455277183141,
-          "price_change_24h": 5.17896
+          "volume_mcap_ratio": 0.32161004730224496,
+          "price_change_24h": 8.89947
         }
       ],
       "momentum_shifts": []
