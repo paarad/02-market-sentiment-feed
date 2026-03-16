@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-16T13:42:56.558287+00:00",
+  "updated_at": "2026-03-16T17:11:18.080432+00:00",
   "indicators": {
-    "change24h": 0.072,
-    "vol": 0.227,
+    "change24h": 0.067,
+    "vol": 0.216,
     "fearGreed": 23,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5448,
-    "global_sentiment": 0.5362,
-    "combined_sentiment": 0.5366,
-    "confidence": 0.799,
+    "crypto_sentiment": 0.5265,
+    "global_sentiment": 0.396,
+    "combined_sentiment": 0.5112,
+    "confidence": 0.8215,
     "counts": {
-      "crypto": 48,
-      "global": 43
+      "crypto": 55,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 74385,
-      "btc_change_24h": 4.27,
-      "eth_price": 2301.58,
-      "eth_change_24h": 10.2,
+      "btc_price": 73741,
+      "btc_change_24h": 3.15,
+      "eth_price": 2301.11,
+      "eth_change_24h": 9.82,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 192388305921.0,
+        "volume_24h": 217391857116.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.25,
+        "btc_dominance": 58.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-02T20:44:38.241954+00:00",
-      "crypto": 0.5278,
-      "global": 0.5016,
-      "combined": 0.521,
-      "counts": {
-        "crypto": 54,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-03-03T02:46:42.734925+00:00",
       "crypto": 0.4674,
@@ -1008,71 +998,81 @@
         "crypto": 48,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-16T17:11:18.080432+00:00",
+      "crypto": 0.5265,
+      "global": 0.396,
+      "combined": 0.5112,
+      "counts": {
+        "crypto": 55,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Vivakor Receives Nasdaq Panel Approval for Path to Continued Listing, Upon Compliance by April 30, 2026",
-        "url": "https://finance.yahoo.com/news/vivakor-receives-nasdaq-panel-approval-123000128.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6952,
-        "score": 0.9667
-      },
-      {
-        "title": "Altcoins jump as bitcoin inches toward potential $74,000 breakout",
-        "url": "https://www.coindesk.com/markets/2026/03/16/altcoins-jump-as-bitcoin-inches-toward-potential-usd74-000-breakout",
-        "source": "CoinDesk",
-        "weight": 0.6967,
+        "title": "Three Ethereum indicators hint that $2.8K is the next ETH price target",
+        "url": "https://cointelegraph.com/news/three-ethereum-indicators-hint-2-8k-next-eth-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.685,
         "score": 0.8667
       },
       {
-        "title": "U.S., UK, Canada start Operation Atlantic to disrupt crypto approval-phishing scams",
-        "url": "https://www.coindesk.com/business/2026/03/16/u-s-uk-canada-start-operation-atlantic-to-disrupt-crypto-approval-phishing-scams",
-        "source": "CoinDesk",
-        "weight": 0.9041,
-        "score": 0.5833
+        "title": "Abra targets Nasdaq listing in $750M deal with New Providence SPAC",
+        "url": "https://cointelegraph.com/news/abra-nasdaq-spac-new-providence-crypto-wealth-manager-public-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7512,
+        "score": 0.6333
+      },
+      {
+        "title": "Peloton is launching bikes and treadmills for gyms, accelerating commercial strategy",
+        "url": "https://www.cnbc.com/2026/03/16/peloton-launches-bike-and-tread-for-gyms.html",
+        "source": "CNBC Markets",
+        "weight": 0.6983,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Markets May Be Underpricing Iran Risks, Bank of America Warns",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/markets-may-be-underpricing-iran-risks-bank-of-america-warns",
+        "source": "Bloomberg Markets",
+        "weight": 0.6203,
+        "score": -0.9667
+      },
+      {
         "title": "SEC drops lawsuit against BitClout’s Nader Al-Naji",
         "url": "https://www.coindesk.com/policy/2026/03/16/sec-drops-case-against-bitclout-s-nader-al-naji",
         "source": "CoinDesk",
-        "weight": 0.8296,
+        "weight": 0.5554,
         "score": -1.0
       },
       {
         "title": "Strait of Hormuz standoff puts supply of America's generic drug prescriptions at risk",
         "url": "https://www.cnbc.com/2026/03/16/strait-of-hormuz-closure-generic-drug-prescriptions.html",
         "source": "CNBC Markets",
-        "weight": 0.7439,
+        "weight": 0.5634,
         "score": -0.9333
-      },
-      {
-        "title": "BofA’s Francisco Blanch Explains the Path to $200 Oil",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-16/bofa-s-francisco-blanch-explains-the-path-to-200-oil-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6767,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4609297588718748,
-          "price_change_24h": -0.01573
+          "volume_mcap_ratio": 0.533102525376256,
+          "price_change_24h": -0.05085
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3680711603774806,
-          "price_change_24h": 0.0204
+          "volume_mcap_ratio": 0.41298370253793737,
+          "price_change_24h": -0.00691
         },
         {
           "symbol": "AAVE",
-          "volume_mcap_ratio": 0.32161004730224496,
-          "price_change_24h": 8.89947
+          "volume_mcap_ratio": 0.3451180016728918,
+          "price_change_24h": 6.74039
         }
       ],
       "momentum_shifts": []
