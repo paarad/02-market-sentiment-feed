@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-16T05:51:58.744745+00:00",
+  "updated_at": "2026-03-16T09:06:57.744970+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4785,
-    "global_sentiment": 0.4211,
-    "combined_sentiment": 0.4773,
-    "confidence": 0.7368,
+    "crypto_sentiment": 0.4439,
+    "global_sentiment": 0.3935,
+    "combined_sentiment": 0.449,
+    "confidence": 0.7236,
     "counts": {
-      "crypto": 41,
-      "global": 48
+      "crypto": 43,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 74074,
-      "btc_change_24h": 3.54,
-      "eth_price": 2274.56,
-      "eth_change_24h": 7.84,
+      "btc_price": 73100,
+      "btc_change_24h": 1.7,
+      "eth_price": 2241.84,
+      "eth_change_24h": 5.74,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 150670443034.62,
-        "high_activity_coins": 1
+        "volume_24h": 174358658474.62,
+        "high_activity_coins": 2
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-02T16:58:03.722092+00:00",
-      "crypto": 0.5249,
-      "global": 0.4904,
-      "combined": 0.5178,
-      "counts": {
-        "crypto": 52,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-03-02T20:04:12.155749+00:00",
       "crypto": 0.528,
@@ -1008,6 +998,16 @@
         "crypto": 41,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-03-16T09:06:57.744970+00:00",
+      "crypto": 0.4439,
+      "global": 0.3935,
+      "combined": 0.449,
+      "counts": {
+        "crypto": 43,
+        "global": 46
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,58 @@
         "title": "XRP climbs 3% past $1.47 as breakout extends on broad bitcoin-led move",
         "url": "https://www.coindesk.com/markets/2026/03/16/xrp-climbs-3-past-usd1-47-as-breakout-extends-on-broad-bitcoin-led-move",
         "source": "CoinDesk",
-        "weight": 1.1511,
+        "weight": 0.7908,
         "score": 0.8667
       },
       {
         "title": "Bitcoin briefly tops $74,000 as ether, sol, ada gains as much as 6% in Monday surge",
         "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-tops-usd74-000-as-ether-sol-ada-gains-as-much-as-6-in-monday-surge",
         "source": "CoinDesk",
-        "weight": 0.9309,
+        "weight": 0.6396,
         "score": 0.8667
       },
       {
-        "title": "MTN Surprises With Dividend as it Rebounds From Currency Shock",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-16/mtn-dividend-beats-estimates-as-it-swings-back-into-profit",
+        "title": "BYD Shares Surge the Most in 13 Months on Overseas Sales Orders",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/byd-shares-surge-the-most-in-13-months-on-overseas-sales-orders",
         "source": "Bloomberg Markets",
-        "weight": 0.743,
+        "weight": 0.5874,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Australia warns of AI, ‘finfluencers’ as Gen Z crypto ownership hits 23%",
+        "title": "Ships stranded at Hormuz, energy crunch at home: How India’s U.S.-Israel tilt is testing ties with Iran",
+        "url": "https://www.cnbc.com/2026/03/16/india-us-israel-relationship-iran-war-testing-ties.html",
+        "source": "CNBC Markets",
+        "weight": 0.6417,
+        "score": -0.9333
+      },
+      {
+        "title": "Australia warns of AI, ‘finfluencers’ as Gen Z crypto ownership reaches 23%",
         "url": "https://cointelegraph.com/news/asic-warns-ai-finfluencers-gen-z-crypto-23-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7446,
+        "weight": 0.5115,
         "score": -0.9667
       },
       {
-        "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin",
-        "url": "https://decrypt.co/361195/blockfills-bankruptcy-withdrawals-halted-court-froze-bitcoin",
-        "source": "Decrypt",
-        "weight": 0.6735,
-        "score": -1.0
-      },
-      {
-        "title": "Dubai Suspends Flights as Trump Demands Help With Hormuz",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-16/dubai-suspends-flights-as-trump-demands-help-with-hormuz-video",
+        "title": "Iran’s Upper Hand in Hormuz Is Pressuring Oil Buyers and Trump",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/iran-s-upper-hand-in-hormuz-is-pressuring-oil-buyers-and-trump",
         "source": "Bloomberg Markets",
-        "weight": 0.6239,
-        "score": -0.9667
+        "weight": 0.7386,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35945107123541725,
-          "price_change_24h": -0.00622
+          "volume_mcap_ratio": 0.4116172042481922,
+          "price_change_24h": -0.01307
+        },
+        {
+          "symbol": "AAVE",
+          "volume_mcap_ratio": 0.3055455277183141,
+          "price_change_24h": 5.17896
         }
       ],
       "momentum_shifts": []
