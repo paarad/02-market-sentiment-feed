@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-16T03:20:45.296745+00:00",
+  "updated_at": "2026-03-16T05:51:58.744745+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4241,
-    "global_sentiment": 0.3935,
-    "combined_sentiment": 0.4342,
-    "confidence": 0.6312,
+    "crypto_sentiment": 0.4785,
+    "global_sentiment": 0.4211,
+    "combined_sentiment": 0.4773,
+    "confidence": 0.7368,
     "counts": {
-      "crypto": 56,
-      "global": 45
+      "crypto": 41,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 72569,
-      "btc_change_24h": 1.65,
-      "eth_price": 2184.03,
-      "eth_change_24h": 4.12,
+      "btc_price": 74074,
+      "btc_change_24h": 3.54,
+      "eth_price": 2274.56,
+      "eth_change_24h": 7.84,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 115100418737.62,
-        "high_activity_coins": 0
+        "volume_24h": 150670443034.62,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-02T13:15:39.118191+00:00",
-      "crypto": 0.4008,
-      "global": 0.5056,
-      "combined": 0.426,
-      "counts": {
-        "crypto": 52,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-02T16:58:03.722092+00:00",
       "crypto": 0.5249,
@@ -1008,57 +998,73 @@
         "crypto": 56,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-03-16T05:51:58.744745+00:00",
+      "crypto": 0.4785,
+      "global": 0.4211,
+      "combined": 0.4773,
+      "counts": {
+        "crypto": 41,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China's factory output and consumption beat forecasts, while property investment contraction slows",
-        "url": "https://www.cnbc.com/2026/03/16/china-data-today-retail-sales-property-industrial-production.html",
-        "source": "CNBC Markets",
-        "weight": 0.7164,
-        "score": 0.6667
+        "title": "XRP climbs 3% past $1.47 as breakout extends on broad bitcoin-led move",
+        "url": "https://www.coindesk.com/markets/2026/03/16/xrp-climbs-3-past-usd1-47-as-breakout-extends-on-broad-bitcoin-led-move",
+        "source": "CoinDesk",
+        "weight": 1.1511,
+        "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 1.8% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Bitcoin briefly tops $74,000 as ether, sol, ada gains as much as 6% in Monday surge",
+        "url": "https://www.coindesk.com/markets/2026/03/16/bitcoin-tops-usd74-000-as-ether-sol-ada-gains-as-much-as-6-in-monday-surge",
+        "source": "CoinDesk",
+        "weight": 0.9309,
+        "score": 0.8667
       },
       {
-        "title": "China Taps Fertilizer Reserves as War Disrupts Global Supplies",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-16/china-taps-fertilizer-reserves-as-war-disrupts-global-supplies",
+        "title": "MTN Surprises With Dividend as it Rebounds From Currency Shock",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-16/mtn-dividend-beats-estimates-as-it-swings-back-into-profit",
         "source": "Bloomberg Markets",
-        "weight": 0.7539,
-        "score": 0.3333
+        "weight": 0.743,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Battle of the Tech ETFs: How IYW and XLK Compare on Risk, Fees, and Performance",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/15/battle-of-the-tech-etfs-how-iyw-and-xlk-compare-on-risk-fees-and-performance/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5978,
+        "title": "Australia warns of AI, ‘finfluencers’ as Gen Z crypto ownership hits 23%",
+        "url": "https://cointelegraph.com/news/asic-warns-ai-finfluencers-gen-z-crypto-23-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7446,
         "score": -0.9667
       },
       {
-        "title": "SPXL vs. TQQQ: Is S&P 500 Stability or Tech-Focused Growth the Better Buy for Leveraged ETF Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/15/spxl-vs-tqqq-is-s-and-p-500-stability-or-tech-focused-growth-the-better-buy-for-leveraged-etf-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5417,
-        "score": -0.9667
+        "title": "BlockFills Entities File Bankruptcy After Withdrawals Halted, Court Froze Bitcoin",
+        "url": "https://decrypt.co/361195/blockfills-bankruptcy-withdrawals-halted-court-froze-bitcoin",
+        "source": "Decrypt",
+        "weight": 0.6735,
+        "score": -1.0
       },
       {
-        "title": "Trump signals possible delay to Beijing summit as U.S. pressures China to help reopen Strait of Hormuz",
-        "url": "https://www.cnbc.com/2026/03/16/trump-possible-delay-beijing-summit-china-iran-strait-of-hormuz-.html",
-        "source": "CNBC Markets",
-        "weight": 0.7714,
-        "score": -0.6333
+        "title": "Dubai Suspends Flights as Trump Demands Help With Hormuz",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-16/dubai-suspends-flights-as-trump-demands-help-with-hormuz-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6239,
+        "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.35945107123541725,
+          "price_change_24h": -0.00622
+        }
+      ],
       "momentum_shifts": []
     }
   },
