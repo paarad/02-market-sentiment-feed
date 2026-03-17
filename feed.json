@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-17T05:23:48.292888+00:00",
+  "updated_at": "2026-03-17T09:00:39.803071+00:00",
   "indicators": {
-    "change24h": 0.018,
+    "change24h": 0.032,
     "vol": 0.114,
     "fearGreed": 28,
-    "momentum": 0.309,
+    "momentum": 0.553,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5463,
-    "global_sentiment": 0.4889,
-    "combined_sentiment": 0.5338,
-    "confidence": 0.7612,
+    "crypto_sentiment": 0.499,
+    "global_sentiment": 0.4628,
+    "combined_sentiment": 0.4961,
+    "confidence": 0.758,
     "counts": {
-      "crypto": 67,
-      "global": 40
+      "crypto": 56,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 74249,
-      "btc_change_24h": 0.48,
-      "eth_price": 2311.48,
-      "eth_change_24h": 1.96,
+      "btc_price": 74187,
+      "btc_change_24h": 1.43,
+      "eth_price": 2319.98,
+      "eth_change_24h": 3.39,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 245627961539.0,
+        "volume_24h": 235322498568.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.16,
+        "btc_dominance": 58.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-03T16:58:34.687418+00:00",
-      "crypto": 0.4177,
-      "global": 0.4033,
-      "combined": 0.4302,
-      "counts": {
-        "crypto": 58,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-03-03T20:02:36.360017+00:00",
       "crypto": 0.4017,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-17T09:00:39.803071+00:00",
+      "crypto": 0.499,
+      "global": 0.4628,
+      "combined": 0.4961,
+      "counts": {
+        "crypto": 56,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Crypto.com taps KG Inicis for tourist crypto payments in South Korea",
+        "url": "https://cointelegraph.com/news/crypto-com-kg-inicis-south-korea-tourist-crypto-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7709,
+        "score": 0.5833
+      },
+      {
         "title": "Bitcoin just surged past $75,000. Derivatives seem to be driving the rally.",
         "url": "https://www.coindesk.com/markets/2026/03/17/bitcoin-just-surged-past-usd75-000-derivatives-are-driving-the-move",
         "source": "CoinDesk",
-        "weight": 0.6672,
+        "weight": 0.4394,
         "score": 1.0
       },
       {
-        "title": "China's Leapmotor Says No Plans to Hike Prices This Year",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-17/china-s-leapmotor-says-no-plans-to-hike-prices-this-year-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6703,
-        "score": 0.9167
-      },
-      {
-        "title": "Bitcoin’s derivatives-led rally is already unraveling. Prices are back below $75,000",
-        "url": "https://www.coindesk.com/markets/2026/03/17/bitcoin-s-derivatives-led-rally-is-already-unraveling-prices-are-back-below-usd75-000",
-        "source": "CoinDesk",
-        "weight": 0.9406,
+        "title": "Global crypto market cap up 1.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Veteran Indian Banker Says New Tools Needed as Deposits Fizzle",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-17/veteran-indian-banker-says-new-tools-needed-as-deposits-fizzle",
+        "title": "Trump Demands Help With Hormuz; Iran Ramps Up Attacks | Horizons Middle East & Africa 3/17/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-17/horizons-middle-east-africa-3-17-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5403,
+        "weight": 0.6772,
         "score": -1.0
       },
       {
-        "title": "SEC seeks comment on crypto handling in OTC broker-dealer rule",
-        "url": "https://cointelegraph.com/news/sec-rule-broker-dealer-amendment-will-it-affect-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7441,
-        "score": -0.6333
+        "title": "RBA Raises Interest Rates in Back-to-Back Hike",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-17/rba-raises-interest-rates-in-back-to-back-hike-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.634,
+        "score": -0.9667
       },
       {
-        "title": "'Frantic' Markets Seek Clarity On Oil Supply",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-17/-frantic-markets-seek-clarity-on-oil-supply-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4766,
-        "score": -0.9333
+        "title": "XRP flips BNB as open interest builds back toward pre-crash levels",
+        "url": "https://www.coindesk.com/markets/2026/03/17/xrp-flips-bnb-as-open-interest-builds-back-toward-pre-crash-levels",
+        "source": "CoinDesk",
+        "weight": 0.9156,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5839702718560963,
-          "price_change_24h": 0.00013
+          "volume_mcap_ratio": 0.5506837008357915,
+          "price_change_24h": -0.00018
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.44589201718222987,
-          "price_change_24h": -0.01487
+          "volume_mcap_ratio": 0.4350665536285441,
+          "price_change_24h": -0.04977
         }
       ],
       "momentum_shifts": []
