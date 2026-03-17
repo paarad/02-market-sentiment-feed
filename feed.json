@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-17T02:44:15.535186+00:00",
+  "updated_at": "2026-03-17T05:23:48.292888+00:00",
   "indicators": {
-    "change24h": 0.073,
-    "vol": 0.223,
+    "change24h": 0.018,
+    "vol": 0.114,
     "fearGreed": 28,
-    "momentum": 1.0,
+    "momentum": 0.309,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5765,
-    "global_sentiment": 0.4492,
-    "combined_sentiment": 0.5532,
-    "confidence": 0.7779,
+    "crypto_sentiment": 0.5463,
+    "global_sentiment": 0.4889,
+    "combined_sentiment": 0.5338,
+    "confidence": 0.7612,
     "counts": {
-      "crypto": 54,
-      "global": 43
+      "crypto": 67,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 75417,
-      "btc_change_24h": 4.11,
-      "eth_price": 2358.85,
-      "eth_change_24h": 8.38,
+      "btc_price": 74249,
+      "btc_change_24h": 0.48,
+      "eth_price": 2311.48,
+      "eth_change_24h": 1.96,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 259999603852.0,
-        "high_activity_coins": 3
+        "volume_24h": 245627961539.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.22,
+        "btc_dominance": 58.16,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-03T13:14:14.131846+00:00",
-      "crypto": 0.4448,
-      "global": 0.449,
-      "combined": 0.4543,
-      "counts": {
-        "crypto": 57,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-03-03T16:58:34.687418+00:00",
       "crypto": 0.4177,
@@ -1008,6 +998,16 @@
         "crypto": 54,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-17T05:23:48.292888+00:00",
+      "crypto": 0.5463,
+      "global": 0.4889,
+      "combined": 0.5338,
+      "counts": {
+        "crypto": 67,
+        "global": 40
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Bitcoin just surged past $75,000. Derivatives seem to be driving the rally.",
         "url": "https://www.coindesk.com/markets/2026/03/17/bitcoin-just-surged-past-usd75-000-derivatives-are-driving-the-move",
         "source": "CoinDesk",
-        "weight": 0.9071,
+        "weight": 0.6672,
         "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 3.9% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "China's Leapmotor Says No Plans to Hike Prices This Year",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-17/china-s-leapmotor-says-no-plans-to-hike-prices-this-year-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6703,
+        "score": 0.9167
       },
       {
-        "title": "Bitcoin tops $74.5K but are pro traders turning bullish again?",
-        "url": "https://cointelegraph.com/news/bitcoin-tops-74-5k-but-are-pro-traders-turning-bullish-again?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4093,
-        "score": 0.8667
+        "title": "Bitcoin’s derivatives-led rally is already unraveling. Prices are back below $75,000",
+        "url": "https://www.coindesk.com/markets/2026/03/17/bitcoin-s-derivatives-led-rally-is-already-unraveling-prices-are-back-below-usd75-000",
+        "source": "CoinDesk",
+        "weight": 0.9406,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,40 +1039,35 @@
         "title": "Veteran Indian Banker Says New Tools Needed as Deposits Fizzle",
         "url": "https://www.bloomberg.com/news/articles/2026-03-17/veteran-indian-banker-says-new-tools-needed-as-deposits-fizzle",
         "source": "Bloomberg Markets",
-        "weight": 0.7347,
+        "weight": 0.5403,
         "score": -1.0
+      },
+      {
+        "title": "SEC seeks comment on crypto handling in OTC broker-dealer rule",
+        "url": "https://cointelegraph.com/news/sec-rule-broker-dealer-amendment-will-it-affect-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7441,
+        "score": -0.6333
       },
       {
         "title": "'Frantic' Markets Seek Clarity On Oil Supply",
         "url": "https://www.bloomberg.com/news/videos/2026-03-17/-frantic-markets-seek-clarity-on-oil-supply-video",
         "source": "Bloomberg Markets",
-        "weight": 0.648,
+        "weight": 0.4766,
         "score": -0.9333
-      },
-      {
-        "title": "Royal Bank Of Canada Flags S&P 500 Risk As Valuation Gap Emerges",
-        "url": "https://finance.yahoo.com/news/royal-bank-canada-flags-p-011305322.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6712,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6161244789179534,
-          "price_change_24h": -0.00701
+          "volume_mcap_ratio": 0.5839702718560963,
+          "price_change_24h": 0.00013
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.47657999302816273,
-          "price_change_24h": -0.05159
-        },
-        {
-          "symbol": "AAVE",
-          "volume_mcap_ratio": 0.32115041515911846,
-          "price_change_24h": 5.64345
+          "volume_mcap_ratio": 0.44589201718222987,
+          "price_change_24h": -0.01487
         }
       ],
       "momentum_shifts": []
