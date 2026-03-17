@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-16T20:48:32.421986+00:00",
+  "updated_at": "2026-03-17T02:44:15.535186+00:00",
   "indicators": {
-    "change24h": 0.074,
-    "vol": 0.234,
-    "fearGreed": 23,
+    "change24h": 0.073,
+    "vol": 0.223,
+    "fearGreed": 28,
     "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5144,
-    "global_sentiment": 0.4007,
-    "combined_sentiment": 0.5025,
-    "confidence": 0.809,
+    "crypto_sentiment": 0.5765,
+    "global_sentiment": 0.4492,
+    "combined_sentiment": 0.5532,
+    "confidence": 0.7779,
     "counts": {
-      "crypto": 70,
-      "global": 37
+      "crypto": 54,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 74064,
-      "btc_change_24h": 3.16,
-      "eth_price": 2338.55,
-      "eth_change_24h": 9.81,
+      "btc_price": 75417,
+      "btc_change_24h": 4.11,
+      "eth_price": 2358.85,
+      "eth_change_24h": 8.38,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.75,
       "fear_greed": {
-        "value": 23,
-        "classification": "Extreme Fear",
-        "trend": "stable"
+        "value": 28,
+        "classification": "Fear",
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 243338753531.0,
+        "volume_24h": 259999603852.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.95,
+        "btc_dominance": 58.22,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-03T08:53:01.220579+00:00",
-      "crypto": 0.4087,
-      "global": 0.4376,
-      "combined": 0.4264,
-      "counts": {
-        "crypto": 56,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-03-03T13:14:14.131846+00:00",
       "crypto": 0.4448,
@@ -1008,71 +998,81 @@
         "crypto": 70,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-03-17T02:44:15.535186+00:00",
+      "crypto": 0.5765,
+      "global": 0.4492,
+      "combined": 0.5532,
+      "counts": {
+        "crypto": 54,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dorchester Minerals, L.P. Announces Settlement Agreement",
-        "url": "https://finance.yahoo.com/news/dorchester-minerals-l-p-announces-200200159.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7314,
+        "title": "Bitcoin just surged past $75,000. Derivatives seem to be driving the rally.",
+        "url": "https://www.coindesk.com/markets/2026/03/17/bitcoin-just-surged-past-usd75-000-derivatives-are-driving-the-move",
+        "source": "CoinDesk",
+        "weight": 0.9071,
         "score": 1.0
       },
       {
-        "title": "Ether surges 10%, leading crypto rebound as ETF demand, Bitmine buying pick up",
-        "url": "https://www.coindesk.com/markets/2026/03/16/ether-surges-10-leading-crypto-rebound-as-etf-demand-bitmine-buying-pick-up",
-        "source": "CoinDesk",
-        "weight": 0.8495,
-        "score": 0.5333
-      },
-      {
-        "title": "Global crypto market cap up 3.8% — rally",
+        "title": "Global crypto market cap up 3.9% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
+      },
+      {
+        "title": "Bitcoin tops $74.5K but are pro traders turning bullish again?",
+        "url": "https://cointelegraph.com/news/bitcoin-tops-74-5k-but-are-pro-traders-turning-bullish-again?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4093,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Cuba Suffers Nationwide Blackout as Fuel Supplies Dwindle",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-16/cuba-reports-total-nationwide-blackout-amid-us-fuel-crunch",
+        "title": "Veteran Indian Banker Says New Tools Needed as Deposits Fizzle",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-17/veteran-indian-banker-says-new-tools-needed-as-deposits-fizzle",
         "source": "Bloomberg Markets",
-        "weight": 0.6022,
+        "weight": 0.7347,
+        "score": -1.0
+      },
+      {
+        "title": "'Frantic' Markets Seek Clarity On Oil Supply",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-17/-frantic-markets-seek-clarity-on-oil-supply-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.648,
         "score": -0.9333
       },
       {
-        "title": "Strait of Hormuz standoff puts supply of America's generic drug prescriptions at risk",
-        "url": "https://www.cnbc.com/2026/03/16/strait-of-hormuz-closure-generic-drug-prescriptions.html",
-        "source": "CNBC Markets",
-        "weight": 0.5831,
-        "score": -0.9333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Rise Late Afternoon",
-        "url": "https://finance.yahoo.com/news/sector-energy-stocks-rise-afternoon-195914656.html?.tsrc=rss",
+        "title": "Royal Bank Of Canada Flags S&P 500 Risk As Valuation Gap Emerges",
+        "url": "https://finance.yahoo.com/news/royal-bank-canada-flags-p-011305322.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7275,
-        "score": -0.6333
+        "weight": 0.6712,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.572687777965103,
-          "price_change_24h": -0.0095
+          "volume_mcap_ratio": 0.6161244789179534,
+          "price_change_24h": -0.00701
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.44622821847460814,
-          "price_change_24h": -0.01819
+          "volume_mcap_ratio": 0.47657999302816273,
+          "price_change_24h": -0.05159
         },
         {
           "symbol": "AAVE",
-          "volume_mcap_ratio": 0.34570810942536595,
-          "price_change_24h": 5.58123
+          "volume_mcap_ratio": 0.32115041515911846,
+          "price_change_24h": 5.64345
         }
       ],
       "momentum_shifts": []
