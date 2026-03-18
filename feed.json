@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-18T02:50:47.008793+00:00",
+  "updated_at": "2026-03-18T05:37:46.318617+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.121,
+    "change24h": 0.012,
+    "vol": 0.062,
     "fearGreed": 26,
-    "momentum": -0.201,
+    "momentum": 0.201,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4813,
-    "global_sentiment": 0.5138,
-    "combined_sentiment": 0.4871,
-    "confidence": 0.7546,
+    "crypto_sentiment": 0.4322,
+    "global_sentiment": 0.5522,
+    "combined_sentiment": 0.4535,
+    "confidence": 0.7452,
     "counts": {
-      "crypto": 53,
-      "global": 39
+      "crypto": 54,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 74403,
-      "btc_change_24h": -1.2,
-      "eth_price": 2335.31,
-      "eth_change_24h": -0.96,
+      "btc_price": 74091,
+      "btc_change_24h": -0.09,
+      "eth_price": 2325.61,
+      "eth_change_24h": 0.74,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 163908582052.0,
+        "volume_24h": 150066325919.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.06,
+        "btc_dominance": 58.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-04T13:13:04.195204+00:00",
-      "crypto": 0.5106,
-      "global": 0.4558,
-      "combined": 0.5043,
-      "counts": {
-        "crypto": 50,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-04T16:56:31.092406+00:00",
       "crypto": 0.4406,
@@ -1008,61 +998,71 @@
         "crypto": 53,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-18T05:37:46.318617+00:00",
+      "crypto": 0.4322,
+      "global": 0.5522,
+      "combined": 0.4535,
+      "counts": {
+        "crypto": 54,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China Firms Ramp Up Derivatives Hedging to Record as Yuan Surges",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-17/china-firms-ramp-up-derivatives-hedging-to-record-as-yuan-surges",
+        "title": "China’s AI Stocks Rise as Nvidia’s Huang Calls OpenClaw 'the Next ChatGPT'",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-18/china-s-openclaw-stocks-rise-as-nvidia-calls-it-the-next-chatgpt",
         "source": "Bloomberg Markets",
-        "weight": 0.5467,
-        "score": 1.0
-      },
-      {
-        "title": "Apollo Makes First Hire for Singapore’s $1 Billion Private Fund",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/apollo-makes-first-hire-for-singapore-s-1-billion-private-fund",
-        "source": "Bloomberg Markets",
-        "weight": 0.7222,
-        "score": 0.6667
-      },
-      {
-        "title": "SOL price signal tied to previous 142% rally flashes again: Are the bulls back?",
-        "url": "https://cointelegraph.com/news/sol-price-signal-tied-to-previous-142percent-rally-flashes-again-are-the-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3807,
+        "weight": 0.7617,
         "score": 0.8667
+      },
+      {
+        "title": "Japan's Mitsui OSK shares soar to record highs as activist investor Elliott builds 'significant' stake",
+        "url": "https://www.cnbc.com/2026/03/18/mitsui-osk-shares-jump-elliott-builds-position.html",
+        "source": "CNBC Markets",
+        "weight": 0.587,
+        "score": 0.8667
+      },
+      {
+        "title": "Stada Hunts for Major Consumer Health Deal After Record Profit",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-18/stada-hunts-for-major-consumer-health-deal-after-record-profit",
+        "source": "Bloomberg Markets",
+        "weight": 0.7439,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Democrats Press Meta Over Facial Recognition Plans for Smart Glasses",
+        "url": "https://decrypt.co/361477/democrats-press-meta-facial-recognition-plans-smart-glasses",
+        "source": "Decrypt",
+        "weight": 0.7348,
+        "score": -0.9667
+      },
+      {
         "title": "Bitrefill links Lazarus Group to employee laptop hack, stolen funds",
         "url": "https://cointelegraph.com/news/bitrefill-claims-lazarus-group-hacked-them-stole-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6605,
+        "weight": 0.4789,
         "score": -1.0
       },
       {
-        "title": "Top 2 S&P 500 Stocks to Watch This Week After Hims & Hers Stock's Surprise Move",
-        "url": "https://www.fool.com/investing/2026/03/17/top-sp-500-stocks-watch-after-hims-hers-surprise/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5332,
-        "score": -1.0
-      },
-      {
-        "title": "U.S. SEC issues first-ever definitions for what crypto assets are securities",
-        "url": "https://www.coindesk.com/policy/2026/03/17/u-s-sec-issues-first-ever-definitions-for-what-crypto-assets-are-securities",
-        "source": "CoinDesk",
-        "weight": 0.4787,
-        "score": -0.9667
+        "title": "Soy Futures Drop on Delayed Trump-Xi Meeting, Oil Price Decline",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-18/soy-futures-drop-on-delayed-trump-xi-meeting-oil-price-decline",
+        "source": "Bloomberg Markets",
+        "weight": 0.6848,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4014937493568233,
-          "price_change_24h": 0.02149
+          "volume_mcap_ratio": 0.35771899677588137,
+          "price_change_24h": 0.02024
         }
       ],
       "momentum_shifts": []
