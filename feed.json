@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-18T13:42:10.941275+00:00",
+  "updated_at": "2026-03-18T17:10:58.480978+00:00",
   "indicators": {
-    "change24h": -0.031,
-    "vol": 0.122,
+    "change24h": -0.056,
+    "vol": 0.216,
     "fearGreed": 26,
-    "momentum": -0.544,
+    "momentum": -0.974,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3455,
-    "global_sentiment": 0.6865,
-    "combined_sentiment": 0.3997,
-    "confidence": 0.7338,
+    "crypto_sentiment": 0.3964,
+    "global_sentiment": 0.5536,
+    "combined_sentiment": 0.4268,
+    "confidence": 0.7899,
     "counts": {
-      "crypto": 42,
-      "global": 46
+      "crypto": 61,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 72497,
-      "btc_change_24h": -1.85,
-      "eth_price": 2241.53,
-      "eth_change_24h": -4.06,
+      "btc_price": 71287,
+      "btc_change_24h": -3.91,
+      "eth_price": 2181.32,
+      "eth_change_24h": -6.23,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156739671605.0,
-        "high_activity_coins": 1
+        "volume_24h": 167067297616.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.99,
+        "btc_dominance": 57.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-04T20:39:35.281105+00:00",
-      "crypto": 0.5205,
-      "global": 0.4698,
-      "combined": 0.5129,
-      "counts": {
-        "crypto": 57,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-05T02:42:35.709123+00:00",
       "crypto": 0.5217,
@@ -1008,61 +998,76 @@
         "crypto": 42,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-03-18T17:10:58.480978+00:00",
+      "crypto": 0.3964,
+      "global": 0.5536,
+      "combined": 0.4268,
+      "counts": {
+        "crypto": 61,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Baron Opportunity Fund Sold Duolingo (DUOL) Due to Slowing Growth Trend",
-        "url": "https://finance.yahoo.com/news/baron-opportunity-fund-sold-duolingo-132756207.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7784,
-        "score": 1.0
+        "title": "Stripe-Backed Tempo Network Launches With Focus on AI Agent Payments",
+        "url": "https://decrypt.co/361573/stripe-backed-tempo-network-launches-ai-agent-payments",
+        "source": "Decrypt",
+        "weight": 0.8055,
+        "score": 0.9667
       },
       {
-        "title": "Baron Opportunity Fund Sold Its Stake in The Trade Desk (TTD) Due to Competitive Pressure",
-        "url": "https://finance.yahoo.com/news/baron-opportunity-fund-sold-stake-132637083.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7764,
-        "score": 1.0
+        "title": "Brazil Treasury Extends Record Intervention as Volatility Surges",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-18/brazil-treasury-extends-record-intervention-as-volatility-surges",
+        "source": "Bloomberg Markets",
+        "weight": 0.7162,
+        "score": 0.8667
       },
       {
-        "title": "What Makes Heartflow (HTFL) an AI Beneficiary?",
-        "url": "https://finance.yahoo.com/news/makes-heartflow-htfl-ai-beneficiary-132511942.html?.tsrc=rss",
+        "title": "Why Williams-Sonoma Stock Is the Top S&P 500 Gainer on Wednesday",
+        "url": "https://www.investopedia.com/why-williams-sonoma-stock-is-top-s-and-p-500-gainer-on-wednesday-wsm-11928898?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7742,
-        "score": 1.0
+        "weight": 0.6626,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Morning Minute: The SEC &#038; CFTC Declare 'Most Crypto Assets' Are Not Securities",
-        "url": "https://decrypt.co/361508/morning-minute-the-sec-cftc-declare-most-crypto-assets-are-not-securities",
-        "source": "Decrypt",
-        "weight": 0.7041,
+        "title": "Bitcoin tests fresh decoupling trade as tech correlation drops to 2018 lows",
+        "url": "https://cointelegraph.com/news/bitcoin-tests-fresh-decoupling-trade-tech-correlation-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7245,
         "score": -1.0
       },
       {
-        "title": "DHS nominee Markwayne Mullin gets Senate hearing Wednesday",
-        "url": "https://www.cnbc.com/2026/03/18/markwayne-mullin-dhs-confirmation-senate-immigration.html",
-        "source": "CNBC Markets",
-        "weight": 0.6995,
-        "score": -0.6333
+        "title": "SEC makes huge U-turn, declares crypto tokens are ‘digital commodities’ after years of legal battles",
+        "url": "https://cryptoslate.com/in-a-massive-u-turn-the-sec-declares-most-crypto-tokens-digital-commodities-after-years-of-legal-battles/",
+        "source": "CryptoSlate",
+        "weight": 0.6568,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 26 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Morning Minute: The SEC &#038; CFTC Declare 'Most Crypto Assets' Are Not Securities",
+        "url": "https://decrypt.co/361508/morning-minute-the-sec-cftc-declare-most-crypto-assets-are-not-securities",
+        "source": "Decrypt",
+        "weight": 0.471,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3720442197711151,
-          "price_change_24h": 0.00025
+          "volume_mcap_ratio": 0.3982474356129993,
+          "price_change_24h": 0.00398
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3132591262821997,
+          "price_change_24h": 0.02185
         }
       ],
       "momentum_shifts": []
