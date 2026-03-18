@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-18T08:59:15.161003+00:00",
+  "updated_at": "2026-03-18T13:42:10.941275+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.06,
+    "change24h": -0.031,
+    "vol": 0.122,
     "fearGreed": 26,
-    "momentum": -0.042,
-    "regime": "sideways",
+    "momentum": -0.544,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4327,
-    "global_sentiment": 0.5228,
-    "combined_sentiment": 0.4514,
-    "confidence": 0.7302,
+    "crypto_sentiment": 0.3455,
+    "global_sentiment": 0.6865,
+    "combined_sentiment": 0.3997,
+    "confidence": 0.7338,
     "counts": {
-      "crypto": 52,
-      "global": 45
+      "crypto": 42,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 74050,
-      "btc_change_24h": -0.18,
-      "eth_price": 2323.02,
-      "eth_change_24h": 0.13,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 72497,
+      "btc_change_24h": -1.85,
+      "eth_price": 2241.53,
+      "eth_change_24h": -4.06,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 141208687818.0,
+        "volume_24h": 156739671605.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.03,
+        "btc_dominance": 57.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-04T20:04:17.889009+00:00",
-      "crypto": 0.4953,
-      "global": 0.4707,
-      "combined": 0.494,
-      "counts": {
-        "crypto": 55,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-03-04T20:39:35.281105+00:00",
       "crypto": 0.5205,
@@ -1008,39 +998,56 @@
         "crypto": 52,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-03-18T13:42:10.941275+00:00",
+      "crypto": 0.3455,
+      "global": 0.6865,
+      "combined": 0.3997,
+      "counts": {
+        "crypto": 42,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "UK Greens Want Tax Rise on Oil, Wealth to Help Ease Energy Bills",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/uk-greens-want-tax-rise-on-oil-wealth-to-help-ease-energy-bills",
-        "source": "Bloomberg Markets",
-        "weight": 0.7518,
-        "score": 0.8667
+        "title": "Baron Opportunity Fund Sold Duolingo (DUOL) Due to Slowing Growth Trend",
+        "url": "https://finance.yahoo.com/news/baron-opportunity-fund-sold-duolingo-132756207.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7784,
+        "score": 1.0
       },
       {
-        "title": "Korea Stocks Extend Gains After Move to Ban Double Listings",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/korea-to-ban-double-listing-of-affiliates-to-boost-market-value",
-        "source": "Bloomberg Markets",
-        "weight": 0.5448,
-        "score": 0.9667
+        "title": "Baron Opportunity Fund Sold Its Stake in The Trade Desk (TTD) Due to Competitive Pressure",
+        "url": "https://finance.yahoo.com/news/baron-opportunity-fund-sold-stake-132637083.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7764,
+        "score": 1.0
       },
       {
-        "title": "China’s AI Stocks Rise as Nvidia’s Huang Calls OpenClaw 'the Next ChatGPT'",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/china-s-openclaw-stocks-rise-as-nvidia-calls-it-the-next-chatgpt",
-        "source": "Bloomberg Markets",
-        "weight": 0.5168,
-        "score": 0.8667
+        "title": "What Makes Heartflow (HTFL) an AI Beneficiary?",
+        "url": "https://finance.yahoo.com/news/makes-heartflow-htfl-ai-beneficiary-132511942.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7742,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Democrats Press Meta Over Facial Recognition Plans for Smart Glasses",
-        "url": "https://decrypt.co/361477/democrats-press-meta-facial-recognition-plans-smart-glasses",
+        "title": "Morning Minute: The SEC &#038; CFTC Declare 'Most Crypto Assets' Are Not Securities",
+        "url": "https://decrypt.co/361508/morning-minute-the-sec-cftc-declare-most-crypto-assets-are-not-securities",
         "source": "Decrypt",
-        "weight": 0.4985,
-        "score": -0.9667
+        "weight": 0.7041,
+        "score": -1.0
+      },
+      {
+        "title": "DHS nominee Markwayne Mullin gets Senate hearing Wednesday",
+        "url": "https://www.cnbc.com/2026/03/18/markwayne-mullin-dhs-confirmation-senate-immigration.html",
+        "source": "CNBC Markets",
+        "weight": 0.6995,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 26 (Fear) — bearish",
@@ -1048,21 +1055,14 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Gallarati: Nat Gas Recovery from Iran War to be Slow",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-18/gallarati-nat-gas-recovery-from-iran-war-to-be-slow-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6419,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34581178339359564,
-          "price_change_24h": 0.01315
+          "volume_mcap_ratio": 0.3720442197711151,
+          "price_change_24h": 0.00025
         }
       ],
       "momentum_shifts": []
