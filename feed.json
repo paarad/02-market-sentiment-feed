@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-19T05:24:51.070526+00:00",
+  "updated_at": "2026-03-19T08:53:44.117964+00:00",
   "indicators": {
-    "change24h": -0.057,
-    "vol": 0.174,
+    "change24h": -0.068,
+    "vol": 0.181,
     "fearGreed": 23,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3882,
-    "global_sentiment": 0.4506,
-    "combined_sentiment": 0.4121,
-    "confidence": 0.734,
+    "crypto_sentiment": 0.4527,
+    "global_sentiment": 0.4526,
+    "combined_sentiment": 0.4606,
+    "confidence": 0.7189,
     "counts": {
-      "crypto": 44,
-      "global": 47
+      "crypto": 43,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 70842,
-      "btc_change_24h": -4.52,
-      "eth_price": 2196.71,
-      "eth_change_24h": -5.64,
+      "btc_price": 70007,
+      "btc_change_24h": -5.53,
+      "eth_price": 2160.79,
+      "eth_change_24h": -7.04,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 182478029405.0,
+        "volume_24h": 193858440416.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.67,
+        "btc_dominance": 57.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-05T18:10:40.587632+00:00",
-      "crypto": 0.3766,
-      "global": 0.4534,
-      "combined": 0.4036,
-      "counts": {
-        "crypto": 56,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-03-05T20:23:19.227788+00:00",
       "crypto": 0.3948,
@@ -1008,52 +998,62 @@
         "crypto": 44,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-03-19T08:53:44.117964+00:00",
+      "crypto": 0.4527,
+      "global": 0.4526,
+      "combined": 0.4606,
+      "counts": {
+        "crypto": 43,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Morgan Stanley Says Sell Asian Stock Rally on Iran War Impact",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-19/morgan-stanley-says-sell-asian-stock-rally-on-iran-war-impact",
-        "source": "Bloomberg Markets",
-        "weight": 0.6568,
+        "title": "Crypto traders eye ‘bullish relief rally’ after Fed holds rates steady",
+        "url": "https://cointelegraph.com/news/crypto-relief-rally-us-federal-reserve-rates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5339,
         "score": 0.7333
       },
       {
-        "title": "India's Central Bank Ramps Up Key Tool to Defend Falling Rupee",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-19/inr-usd-indian-rupee-defense-spending-measure-nears-record-100-billion",
+        "title": "Powell Treading Careful Path as Oil Uncertainty Persists",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-19/powell-treading-careful-path-as-oil-uncertainty-persists-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7099,
-        "score": 0.6667
+        "weight": 0.6693,
+        "score": 0.5333
       },
       {
-        "title": "Xiaomi Shares Jump on AI Model Buzz, Upcoming SU7 Model Facelift",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-19/xiaomi-shares-jump-on-ai-model-buzz-upcoming-su7-model-facelift",
-        "source": "Bloomberg Markets",
-        "weight": 0.6423,
-        "score": 0.6667
+        "title": "Asia tech stocks sink as oil spike and Qatar attacks threaten chip supply chain",
+        "url": "https://www.cnbc.com/2026/03/19/tech-stocks-qatar-attack-semiconductor-supply-chain-lng-helium.html",
+        "source": "CNBC Markets",
+        "weight": 0.6538,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "What’s Breaking the $80 Billion Global Diamond Trade?",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-19/what-s-breaking-the-80-billion-global-diamond-trade-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6305,
-        "score": -1.0
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Bank of Japan Decision Puts Yen-160 Watch in Focus, Analysts Say",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-19/traders-eye-yen-s-160-level-boj-hawkish-overtures-analysts-say",
-        "source": "Bloomberg Markets",
-        "weight": 0.6739,
+        "title": "Bank of Japan keeps rates steady as expected, warns Iran war may push up inflation",
+        "url": "https://www.cnbc.com/2026/03/19/bank-of-japan-keeps-rates-steady-as-expected-warns-iran-war-may-push-up-inflation.html",
+        "source": "CNBC Markets",
+        "weight": 0.5907,
         "score": -0.6667
       },
       {
-        "title": "Inside India newsletter: Gold loans are thriving in India — and attracting global investors",
-        "url": "https://www.cnbc.com/2026/03/19/gold-loan-demand-rises-india.html",
-        "source": "CNBC Markets",
-        "weight": 0.6875,
+        "title": "Matsui Securities in Talks With Firms on Capital Tie-Up",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/matsui-securities-in-talks-with-finance-firms-on-capital-tie-up",
+        "source": "Bloomberg Markets",
+        "weight": 0.5953,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.434594286593917,
-          "price_change_24h": -0.01763
+          "volume_mcap_ratio": 0.4669347434420887,
+          "price_change_24h": -0.00622
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3609946648581869,
-          "price_change_24h": -0.00936
+          "volume_mcap_ratio": 0.3946018023108599,
+          "price_change_24h": -0.03681
         }
       ],
       "momentum_shifts": []
