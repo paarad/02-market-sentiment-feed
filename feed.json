@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-19T08:53:44.117964+00:00",
+  "updated_at": "2026-03-19T13:22:43.516568+00:00",
   "indicators": {
-    "change24h": -0.068,
-    "vol": 0.181,
+    "change24h": -0.044,
+    "vol": 0.133,
     "fearGreed": 23,
-    "momentum": -1.0,
+    "momentum": -0.766,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4527,
-    "global_sentiment": 0.4526,
-    "combined_sentiment": 0.4606,
-    "confidence": 0.7189,
+    "crypto_sentiment": 0.4092,
+    "global_sentiment": 0.4615,
+    "combined_sentiment": 0.4287,
+    "confidence": 0.803,
     "counts": {
-      "crypto": 43,
-      "global": 41
+      "crypto": 61,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 70007,
-      "btc_change_24h": -5.53,
-      "eth_price": 2160.79,
-      "eth_change_24h": -7.04,
+      "btc_price": 69386,
+      "btc_change_24h": -4.28,
+      "eth_price": 2131.04,
+      "eth_change_24h": -4.82,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 193858440416.0,
-        "high_activity_coins": 2
+        "volume_24h": 187502211655.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.59,
+        "btc_dominance": 57.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-05T20:23:19.227788+00:00",
-      "crypto": 0.3948,
-      "global": 0.3936,
-      "combined": 0.4123,
-      "counts": {
-        "crypto": 57,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-03-05T20:45:53.941876+00:00",
       "crypto": 0.3717,
@@ -1008,66 +998,81 @@
         "crypto": 43,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-19T13:22:43.516568+00:00",
+      "crypto": 0.4092,
+      "global": 0.4615,
+      "combined": 0.4287,
+      "counts": {
+        "crypto": 61,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Crypto traders eye ‘bullish relief rally’ after Fed holds rates steady",
-        "url": "https://cointelegraph.com/news/crypto-relief-rally-us-federal-reserve-rates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5339,
-        "score": 0.7333
+        "title": "The Market Is Selling Off But These 3 Oil and Gas ETFs Are Still Green",
+        "url": "https://247wallst.com/investing/2026/03/19/the-market-is-selling-off-but-these-3-oil-and-gas-etfs-are-still-green/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7233,
+        "score": 1.0
       },
       {
-        "title": "Powell Treading Careful Path as Oil Uncertainty Persists",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-19/powell-treading-careful-path-as-oil-uncertainty-persists-video",
+        "title": "Bitcoin’s biggest DeFi drawback under attack as OpNet unlocks smart contracts on mainnet",
+        "url": "https://www.coindesk.com/markets/2026/03/19/bitcoin-s-biggest-defi-drawback-under-attack-as-opnet-unlocks-smart-contracts-on-mainnet",
+        "source": "CoinDesk",
+        "weight": 0.8528,
+        "score": 0.6333
+      },
+      {
+        "title": "How Iran Has Effectively Closed the Strait of Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/strait-of-hormuz-as-iran-blocks-key-oil-shipping-route-can-naval-escorts-help",
         "source": "Bloomberg Markets",
-        "weight": 0.6693,
-        "score": 0.5333
-      },
-      {
-        "title": "Asia tech stocks sink as oil spike and Qatar attacks threaten chip supply chain",
-        "url": "https://www.cnbc.com/2026/03/19/tech-stocks-qatar-attack-semiconductor-supply-chain-lng-helium.html",
-        "source": "CNBC Markets",
-        "weight": 0.6538,
-        "score": 0.5333
+        "weight": 0.6886,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Venus’ XVS token plunges 9% as exploit leaves protocol with bad debt",
+        "url": "https://www.coindesk.com/markets/2026/03/19/venus-xvs-token-plunges-9-as-exploit-leaves-protocol-with-bad-debt",
+        "source": "CoinDesk",
+        "weight": 0.787,
+        "score": -1.0
       },
       {
-        "title": "Bank of Japan keeps rates steady as expected, warns Iran war may push up inflation",
-        "url": "https://www.cnbc.com/2026/03/19/bank-of-japan-keeps-rates-steady-as-expected-warns-iran-war-may-push-up-inflation.html",
-        "source": "CNBC Markets",
-        "weight": 0.5907,
-        "score": -0.6667
+        "title": "Hacked crypto tokens drop 61% on average and rarely recover, Immune report says",
+        "url": "https://cointelegraph.com/news/hacked-crypto-tokens-drop-61-on-average-and-rarely-recover-security-report-says-embargo-thursday?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7658,
+        "score": -1.0
       },
       {
-        "title": "Matsui Securities in Talks With Firms on Capital Tie-Up",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-19/matsui-securities-in-talks-with-finance-firms-on-capital-tie-up",
+        "title": "Aluminum Falls More Than 8% on LME, Biggest Drop Since 2018",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/aluminum-falls-more-than-8-on-lme-biggest-drop-since-2018",
         "source": "Bloomberg Markets",
-        "weight": 0.5953,
-        "score": -0.6333
+        "weight": 0.7502,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4669347434420887,
-          "price_change_24h": -0.00622
+          "volume_mcap_ratio": 0.45219471707593295,
+          "price_change_24h": -0.01191
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3946018023108599,
-          "price_change_24h": -0.03681
+          "symbol": "PAXG",
+          "volume_mcap_ratio": 0.3224143956190236,
+          "price_change_24h": -5.8098
+        },
+        {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.3221017120413049,
+          "price_change_24h": -5.41273
         }
       ],
       "momentum_shifts": []
