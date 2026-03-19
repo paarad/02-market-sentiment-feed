@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-18T20:48:18.709718+00:00",
+  "updated_at": "2026-03-19T02:52:13.123645+00:00",
   "indicators": {
-    "change24h": -0.055,
-    "vol": 0.184,
-    "fearGreed": 26,
-    "momentum": -0.958,
+    "change24h": -0.06,
+    "vol": 0.165,
+    "fearGreed": 23,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4164,
-    "global_sentiment": 0.3927,
-    "combined_sentiment": 0.4284,
-    "confidence": 0.8054,
+    "crypto_sentiment": 0.4065,
+    "global_sentiment": 0.407,
+    "combined_sentiment": 0.4221,
+    "confidence": 0.7498,
     "counts": {
-      "crypto": 57,
-      "global": 50
+      "crypto": 43,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 71189,
-      "btc_change_24h": -4.49,
-      "eth_price": 2181.55,
-      "eth_change_24h": -6.25,
+      "btc_price": 71104,
+      "btc_change_24h": -4.42,
+      "eth_price": 2199.32,
+      "eth_change_24h": -5.77,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 26,
-        "classification": "Fear",
+        "value": 23,
+        "classification": "Extreme Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 180702443767.0,
+        "volume_24h": 182592737129.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.83,
+        "btc_dominance": 57.75,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-05T08:54:31.451730+00:00",
-      "crypto": 0.5985,
-      "global": 0.5164,
-      "combined": 0.5753,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-05T13:16:54.690013+00:00",
       "crypto": 0.5155,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-03-19T02:52:13.123645+00:00",
+      "crypto": 0.4065,
+      "global": 0.407,
+      "combined": 0.4221,
+      "counts": {
+        "crypto": 43,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "As Global Oil Prices Skyrocket, US Crude Is Lagging Behind",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/as-global-oil-prices-skyrocket-us-crude-is-lagging-behind",
+        "title": "2 Must-See Graphs Explaining Why This Top Stock Is 4,300% Higher -- and Why It Can Keep Soaring",
+        "url": "https://www.fool.com/investing/2026/03/18/must-see-graphs-driving-top-stock-higher-cvna/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5018,
+        "score": 0.8667
+      },
+      {
+        "title": "China EV Maker Voyah Falls in HK Debut Without Fresh Funds",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-18/china-luxury-ev-maker-voyah-set-for-hk-debut-without-fresh-funds",
         "source": "Bloomberg Markets",
-        "weight": 0.7372,
-        "score": 0.8667
+        "weight": 0.5116,
+        "score": 0.6333
       },
       {
-        "title": "Oil prices top $107 after Iran threatens oil facilities in Saudi Arabia, UAE and Qatar",
-        "url": "https://www.cnbc.com/2026/03/18/oil-prices-brent-wti-uae-energy-attacks-us-crude-inventories-hormuz.html",
-        "source": "CNBC Markets",
-        "weight": 0.6433,
-        "score": 0.8667
-      },
-      {
-        "title": "Fairshake's $10 million Illinois misfire marks first big hitch in crypto political surge",
-        "url": "https://www.coindesk.com/news-analysis/2026/03/18/fairshake-s-usd10-million-illinois-misfire-marks-first-big-hitch-in-crypto-political-surge",
-        "source": "CoinDesk",
-        "weight": 0.9678,
+        "title": "Japan Stocks Decline After Oil Prices Surge, Worsening Sentiment",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-19/japan-stocks-fall-after-oil-price-surges-fed-holds-key-rate",
+        "source": "Bloomberg Markets",
+        "weight": 0.5939,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "SEC Chair explains why NFTs fall outside of securities laws",
-        "url": "https://cointelegraph.com/news/sec-chair-nfts-not-securities-explained?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Fed Chair Jerome Powell Just Said the Quiet Part Out Loud -- and These 8 Words Are Roiling Wall Street",
+        "url": "https://www.fool.com/investing/2026/03/18/fed-chair-jerome-powell-8-words-roil-wall-street/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6095,
+        "score": -0.9333
+      },
+      {
+        "title": "SEC gives go-ahead to Nasdaq for tokenized trading trial",
+        "url": "https://cointelegraph.com/news/sec-approves-nasdaq-tokenized-trading-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7565,
-        "score": -0.9667
-      },
-      {
-        "title": "Criminal Charges Amp Up Growing State Resistance to Kalshi",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-18/criminal-charges-amp-up-growing-state-resistance-to-kalshi",
-        "source": "Bloomberg Markets",
-        "weight": 0.6522,
-        "score": -1.0
-      },
-      {
-        "title": "SEC approves Nasdaq's move to support tokenized securities trading",
-        "url": "https://www.coindesk.com/policy/2026/03/18/sec-approves-nasdaq-s-move-to-allow-tokenized-securities-trading",
-        "source": "CoinDesk",
-        "weight": 0.9918,
+        "weight": 0.7901,
         "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4272948789522222,
-          "price_change_24h": -0.01202
+          "volume_mcap_ratio": 0.4295823575614769,
+          "price_change_24h": -0.0158
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3402592778265506,
-          "price_change_24h": 0.01105
+          "volume_mcap_ratio": 0.3076456002779993,
+          "price_change_24h": -0.00589
         }
       ],
       "momentum_shifts": []
