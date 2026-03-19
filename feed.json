@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-19T20:20:45.354670+00:00",
+  "updated_at": "2026-03-19T20:49:04.162234+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.104,
+    "change24h": -0.022,
+    "vol": 0.119,
     "fearGreed": 23,
-    "momentum": -0.341,
-    "regime": "bear",
+    "momentum": -0.393,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4549,
-    "global_sentiment": 0.4753,
-    "combined_sentiment": 0.4641,
-    "confidence": 0.8284,
+    "crypto_sentiment": 0.4602,
+    "global_sentiment": 0.4359,
+    "combined_sentiment": 0.4648,
+    "confidence": 0.8146,
     "counts": {
-      "crypto": 62,
-      "global": 49
+      "crypto": 61,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 70357,
-      "btc_change_24h": -0.7,
-      "eth_price": 2144.2,
-      "eth_change_24h": -1.36,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 70516,
+      "btc_change_24h": -0.9,
+      "eth_price": 2147.73,
+      "eth_change_24h": -1.47,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172700492784.0,
+        "volume_24h": 176449746454.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.82,
+        "btc_dominance": 57.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-06T05:12:24.694560+00:00",
-      "crypto": 0.2899,
-      "global": 0.4967,
-      "combined": 0.3422,
-      "counts": {
-        "crypto": 76,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-03-06T08:49:33.034374+00:00",
       "crypto": 0.3414,
@@ -1008,6 +998,16 @@
         "crypto": 62,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-03-19T20:49:04.162234+00:00",
+      "crypto": 0.4602,
+      "global": 0.4359,
+      "combined": 0.4648,
+      "counts": {
+        "crypto": 61,
+        "global": 41
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "Bitcoin bull market vibes emerge, but confirmation is missing: Glassnode",
         "url": "https://cointelegraph.com/news/bitcoin-bull-market-vibes-emerge-but-confirmation-is-missing-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6464,
+        "weight": 0.6121,
         "score": 0.8667
       },
       {
         "title": "Animoca invests in Ava Labs to boost Avalanche adoption in Asia, Middle East",
         "url": "https://cointelegraph.com/news/animoca-brands-invests-in-avax-partners-with-ava-labs-to-expand-avalanche-in-asia-and-middle-east?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.728,
+        "weight": 0.6894,
         "score": 0.6667
       },
       {
         "title": "XRP signals 20% price rally amid record Korean exchange withdrawals",
         "url": "https://cointelegraph.com/news/xrp-signals-20-percent-rally-record-korean-exchange-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5347,
+        "weight": 0.5063,
         "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Stock Market Today: Russell 2000 Leads As Market Claws Back Earlier Losses; Bank, Energy Stocks Up (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/c3e12ded-26ca-3572-9c97-c2d111ff86d8/stock-market-today%3A-russell.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7786,
+        "score": -0.6333
+      },
+      {
         "title": "Bitcoin prediction markets see 70% chance BTC price crashes to $55K in 2026",
         "url": "https://cointelegraph.com/news/bitcoin-prediction-markets-see-70-chance-btc-price-crashes-to-55k-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5197,
+        "weight": 0.4921,
         "score": -0.9667
       },
       {
         "title": "First Working Quantum Battery Proves Bigger Really Does Mean Faster",
         "url": "https://decrypt.co/361772/first-working-quantum-battery-csiro-australia",
         "source": "Decrypt",
-        "weight": 0.7881,
-        "score": -0.6333
-      },
-      {
-        "title": "Stock Market Today: Russell 2000 Leads As Market Claws Back Earlier Losses; Bank, Energy Stocks Up (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/c3e12ded-26ca-3572-9c97-c2d111ff86d8/stock-market-today%3A-russell.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7492,
+        "weight": 0.7463,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42438181494730726,
-          "price_change_24h": -0.00016
+          "volume_mcap_ratio": 0.4204851089101666,
+          "price_change_24h": 0.00524
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.39235219735044163,
-          "price_change_24h": -3.26372
+          "volume_mcap_ratio": 0.3873372889230801,
+          "price_change_24h": -2.97343
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.383283700759668,
-          "price_change_24h": 0.00835
+          "volume_mcap_ratio": 0.3811335212538718,
+          "price_change_24h": -0.03761
         }
       ],
       "momentum_shifts": []
