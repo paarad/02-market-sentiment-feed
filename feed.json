@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-19T20:49:04.162234+00:00",
+  "updated_at": "2026-03-20T02:42:58.549014+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.119,
-    "fearGreed": 23,
-    "momentum": -0.393,
-    "regime": "sideways",
+    "change24h": -0.025,
+    "vol": 0.084,
+    "fearGreed": 11,
+    "momentum": -0.437,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4602,
-    "global_sentiment": 0.4359,
-    "combined_sentiment": 0.4648,
-    "confidence": 0.8146,
+    "crypto_sentiment": 0.4727,
+    "global_sentiment": 0.4236,
+    "combined_sentiment": 0.4731,
+    "confidence": 0.7662,
     "counts": {
-      "crypto": 61,
-      "global": 41
+      "crypto": 51,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 70516,
-      "btc_change_24h": -0.9,
-      "eth_price": 2147.73,
-      "eth_change_24h": -1.47,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 70178,
+      "btc_change_24h": -1.48,
+      "eth_price": 2139.37,
+      "eth_change_24h": -2.95,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 23,
+        "value": 11,
         "classification": "Extreme Fear",
-        "trend": "improving"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176449746454.0,
+        "volume_24h": 177248552283.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.84,
+        "btc_dominance": 57.75,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-06T08:49:33.034374+00:00",
-      "crypto": 0.3414,
-      "global": 0.4755,
-      "combined": 0.379,
-      "counts": {
-        "crypto": 54,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-03-06T13:12:36.230945+00:00",
       "crypto": 0.4019,
@@ -1008,71 +998,81 @@
         "crypto": 61,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-20T02:42:58.549014+00:00",
+      "crypto": 0.4727,
+      "global": 0.4236,
+      "combined": 0.4731,
+      "counts": {
+        "crypto": 51,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin bull market vibes emerge, but confirmation is missing: Glassnode",
-        "url": "https://cointelegraph.com/news/bitcoin-bull-market-vibes-emerge-but-confirmation-is-missing-glassnode?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6121,
-        "score": 0.8667
+        "title": "Israel Will Not Strike Iranian Energy Sites After Trump Rebuke",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-19/israel-will-not-strike-iranian-energy-sites-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4747,
+        "score": 1.0
       },
       {
-        "title": "Animoca invests in Ava Labs to boost Avalanche adoption in Asia, Middle East",
-        "url": "https://cointelegraph.com/news/animoca-brands-invests-in-avax-partners-with-ava-labs-to-expand-avalanche-in-asia-and-middle-east?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6894,
+        "title": "Review & Preview: Fog of War",
+        "url": "https://finance.yahoo.com/m/9ac99141-c797-3b3b-a29e-6b087aa8b205/review-%26-preview%3A-fog-of-war.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5789,
+        "score": 0.5333
+      },
+      {
+        "title": "Retail is rushing into gold, but institutions are buying Bitcoin again – so why the split?",
+        "url": "https://cryptoslate.com/retail-rushed-into-gold-but-institutions-are-buying-bitcoin-again/",
+        "source": "CryptoSlate",
+        "weight": 0.4439,
         "score": 0.6667
-      },
-      {
-        "title": "XRP signals 20% price rally amid record Korean exchange withdrawals",
-        "url": "https://cointelegraph.com/news/xrp-signals-20-percent-rally-record-korean-exchange-withdrawals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5063,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Russell 2000 Leads As Market Claws Back Earlier Losses; Bank, Energy Stocks Up (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/c3e12ded-26ca-3572-9c97-c2d111ff86d8/stock-market-today%3A-russell.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7786,
-        "score": -0.6333
-      },
-      {
-        "title": "Bitcoin prediction markets see 70% chance BTC price crashes to $55K in 2026",
-        "url": "https://cointelegraph.com/news/bitcoin-prediction-markets-see-70-chance-btc-price-crashes-to-55k-in-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4921,
+        "title": "Oil falls as U.S. weighs releasing sanctioned Iranian crude to cool prices",
+        "url": "https://www.cnbc.com/2026/03/20/oil-wti-brent-us-weighs-releasing-sanctioned-iranian-crude.html",
+        "source": "CNBC Markets",
+        "weight": 0.7381,
         "score": -0.9667
       },
       {
-        "title": "First Working Quantum Battery Proves Bigger Really Does Mean Faster",
-        "url": "https://decrypt.co/361772/first-working-quantum-battery-csiro-australia",
-        "source": "Decrypt",
-        "weight": 0.7463,
-        "score": -0.6333
+        "title": "This Transportation Stock May Outperform the S&P 500 in 2026",
+        "url": "https://www.fool.com/investing/2026/03/19/this-transportation-stock-may-outperform-the-sp-50/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6885,
+        "score": -0.9667
+      },
+      {
+        "title": "Copper and Aluminum Rise as US, Israel Try to Reassure on War",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-20/copper-and-aluminum-rise-as-us-israel-try-to-reassure-on-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.7768,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.503768677927585,
+          "price_change_24h": -0.01559
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4204851089101666,
-          "price_change_24h": 0.00524
+          "volume_mcap_ratio": 0.4233861735695811,
+          "price_change_24h": -0.00733
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3873372889230801,
-          "price_change_24h": -2.97343
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3811335212538718,
-          "price_change_24h": -0.03761
+          "volume_mcap_ratio": 0.3787889176608828,
+          "price_change_24h": -3.18656
         }
       ],
       "momentum_shifts": []
