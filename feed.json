@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-20T05:17:58.097473+00:00",
+  "updated_at": "2026-03-20T08:52:26.840246+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.081,
+    "change24h": 0.008,
+    "vol": 0.061,
     "fearGreed": 11,
-    "momentum": -0.242,
-    "regime": "bear",
+    "momentum": 0.143,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4555,
-    "global_sentiment": 0.4284,
-    "combined_sentiment": 0.4607,
-    "confidence": 0.743,
+    "crypto_sentiment": 0.4315,
+    "global_sentiment": 0.3669,
+    "combined_sentiment": 0.4375,
+    "confidence": 0.7311,
     "counts": {
-      "crypto": 52,
-      "global": 38
+      "crypto": 51,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 70851,
-      "btc_change_24h": -0.04,
-      "eth_price": 2150.68,
-      "eth_change_24h": -2.13,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 71131,
+      "btc_change_24h": 1.6,
+      "eth_price": 2164.5,
+      "eth_change_24h": 0.09,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 171378334007.0,
-        "high_activity_coins": 4
+        "volume_24h": 166232737858.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.87,
+        "btc_dominance": 57.92,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-06T16:52:51.682987+00:00",
-      "crypto": 0.4304,
-      "global": 0.5035,
-      "combined": 0.4481,
-      "counts": {
-        "crypto": 57,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-06T20:01:46.330602+00:00",
       "crypto": 0.4374,
@@ -1008,52 +998,62 @@
         "crypto": 52,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-03-20T08:52:26.840246+00:00",
+      "crypto": 0.4315,
+      "global": 0.3669,
+      "combined": 0.4375,
+      "counts": {
+        "crypto": 51,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Could Investing $10,000 in VONG Make You a Millionaire?",
-        "url": "https://www.fool.com/investing/2026/03/20/could-investing-10000-in-vong-make-you-a-million/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7581,
+        "title": "Nvidia's Huang pitches AI tokens on top of salary as agents reshape how humans work",
+        "url": "https://www.cnbc.com/2026/03/20/nvidia-ai-agents-tokens-human-workers-engineer-jobs-unemployment-jensen-huang.html",
+        "source": "CNBC Markets",
+        "weight": 0.72,
         "score": 0.6667
       },
       {
-        "title": "Delton Shares Jump 106% in HK Debut After $421 Million Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-20/delton-shares-jump-106-in-hk-debut-after-421-million-listing",
-        "source": "Bloomberg Markets",
-        "weight": 0.6392,
-        "score": 0.6333
+        "title": "Global crypto market cap up 1.0% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Gemini shares surge 6% after hours on Q4 earnings",
-        "url": "https://cointelegraph.com/news/gemini-shares-up-after-hours-on-q4-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7087,
+        "title": "Rühl: US Almost Out of Options to Keep Oil Price Low",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-20/ruhl-us-almost-out-of-options-to-keep-oil-price-low-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6831,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Solana DApps revenue falls to 18-month low as SOL price risks $80 retest",
-        "url": "https://cointelegraph.com/news/solana-dapps-revenue-falls-to-18-month-low-as-sol-price-risks-80-retest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Novartis to Buy Breast Cancer Drug for as Much as $3 Billion",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-20/novartis-to-acquire-breast-cancer-drug-in-up-to-3-billion-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.637,
+        "score": -0.9333
+      },
+      {
+        "title": "Gemini sued over post-IPO strategy shift, declining stock price",
+        "url": "https://cointelegraph.com/news/gemini-sued-over-post-ipo-strategy-shift-declining-stock-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7147,
+        "weight": 0.5724,
         "score": -1.0
       },
       {
         "title": "Oil falls as U.S. weighs releasing sanctioned Iranian crude to cool prices",
         "url": "https://www.cnbc.com/2026/03/20/oil-wti-brent-us-weighs-releasing-sanctioned-iranian-crude.html",
         "source": "CNBC Markets",
-        "weight": 0.5477,
-        "score": -0.9667
-      },
-      {
-        "title": "This Transportation Stock May Outperform the S&P 500 in 2026",
-        "url": "https://www.fool.com/investing/2026/03/19/this-transportation-stock-may-outperform-the-sp-50/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5108,
+        "weight": 0.5634,
         "score": -0.9667
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.5364733366888309,
-          "price_change_24h": 0.04583
+          "volume_mcap_ratio": 0.520760149992427,
+          "price_change_24h": 0.0504
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4182051962351086,
-          "price_change_24h": -0.00651
+          "volume_mcap_ratio": 0.39435005580241006,
+          "price_change_24h": -0.00752
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3977153909309291,
-          "price_change_24h": -2.45729
+          "volume_mcap_ratio": 0.37199172411338827,
+          "price_change_24h": -0.11372
         }
       ],
       "momentum_shifts": []
