@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-20T16:54:34.871789+00:00",
+  "updated_at": "2026-03-20T20:02:34.421008+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.075,
+    "change24h": -0.002,
+    "vol": 0.079,
     "fearGreed": 11,
-    "momentum": 0.239,
+    "momentum": -0.034,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4347,
-    "global_sentiment": 0.5253,
-    "combined_sentiment": 0.4532,
-    "confidence": 0.7412,
+    "crypto_sentiment": 0.4489,
+    "global_sentiment": 0.437,
+    "combined_sentiment": 0.4564,
+    "confidence": 0.7501,
     "counts": {
-      "crypto": 62,
-      "global": 43
+      "crypto": 60,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 69674,
-      "btc_change_24h": 0.45,
-      "eth_price": 2132.97,
-      "eth_change_24h": 1.04,
+      "btc_price": 70139,
+      "btc_change_24h": -0.2,
+      "eth_price": 2132.48,
+      "eth_change_24h": -0.44,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 148099921306.0,
-        "high_activity_coins": 2
+        "volume_24h": 138668465590.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.64,
+        "btc_dominance": 57.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-07T02:32:47.908202+00:00",
-      "crypto": 0.4241,
-      "global": 0.4589,
-      "combined": 0.4397,
-      "counts": {
-        "crypto": 58,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-07T05:03:00.318091+00:00",
       "crypto": 0.4089,
@@ -1008,52 +998,62 @@
         "crypto": 62,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-20T20:02:34.421008+00:00",
+      "crypto": 0.4489,
+      "global": 0.437,
+      "combined": 0.4564,
+      "counts": {
+        "crypto": 60,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Visa (V) Remains a Key Player Powering Global Digital Payments Growth",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/visa-v-remains-key-player-151552373.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6615,
-        "score": 0.6667
-      },
-      {
-        "title": "How S&P Global (SPGI) Maintains Its Stronghold in the Global Credit Ratings Market?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-spgi-maintains-stronghold-150938935.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6536,
-        "score": 0.6667
+        "title": "Lula Says Petrobras, Pemex Could Partner on Oil Exploration",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-20/lula-says-petrobras-pemex-could-partner-on-oil-exploration",
+        "source": "Bloomberg Markets",
+        "weight": 0.6745,
+        "score": 0.5833
       },
       {
         "title": "CoinDesk 20 performance update: Aptos (APT) gains 6.3% as index rises",
         "url": "https://www.coindesk.com/coindesk-indices/2026/03/20/coindesk-20-performance-update-aptos-apt-gains-6-3-as-index-rises",
         "source": "CoinDesk",
-        "weight": 0.6526,
+        "weight": 0.4544,
         "score": 0.6667
+      },
+      {
+        "title": "Tim Cook’s China visit reinforces country’s importance to Apple as global frictions rise",
+        "url": "https://www.cnbc.com/2026/03/20/tim-cooks-china-visit-reinforces-countrys-importance-to-apple-.html",
+        "source": "CNBC Markets",
+        "weight": 0.5264,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "The S&P Falls Close to 1% As Oil Blasts Past $100 A Barrel",
-        "url": "https://247wallst.com/investing/2026/03/20/the-sp-falls-close-to-1-as-oil-blasts-past-100-a-barrel/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.675,
-        "score": -0.9667
-      },
-      {
-        "title": "What could happen to Social Security benefits in six years if Congress doesn’t act? It depends, experts say",
-        "url": "https://www.cnbc.com/2026/03/20/social-security-benefits-trust-fund.html",
+        "title": "Oil prices top $112 after Iraq declares force majeure, Kuwait refineries attacked",
+        "url": "https://www.cnbc.com/2026/03/20/oil-wti-brent-us-weighs-releasing-sanctioned-iranian-crude.html",
         "source": "CNBC Markets",
-        "weight": 0.7848,
+        "weight": 0.7875,
         "score": -0.6333
       },
       {
-        "title": "The Nasdaq Sinks As Super Micro AI Chip Smuggling to China Takes Center Stage | SMCI IXIC",
-        "url": "https://247wallst.com/investing/2026/03/20/the-nasdaq-sinks-as-super-micro-ai-chip-fraud-takes-center-stage-smci-ixic/?.tsrc=rss",
+        "title": "Stock Market Today: Dow Loses 500 Points; Supermicro Plunges, Fertilizer Names Wither (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/7ce5024f-1a12-3301-9c8d-4e57d56eda41/stock-market-today%3A-dow-loses.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6768,
+        "weight": 0.7362,
+        "score": -0.6667
+      },
+      {
+        "title": "Sector Update: Energy",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-194431837.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7727,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4994348623889367,
-          "price_change_24h": 0.01098
+          "volume_mcap_ratio": 0.4727674150887453,
+          "price_change_24h": 0.00187
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.349861738155392,
-          "price_change_24h": -0.0238
+          "volume_mcap_ratio": 0.3420334196869894,
+          "price_change_24h": -0.02347
+        },
+        {
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.3181715243707404,
+          "price_change_24h": -3.12242
         }
       ],
       "momentum_shifts": []
