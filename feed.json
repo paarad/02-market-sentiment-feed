@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-21T02:36:17.815459+00:00",
+  "updated_at": "2026-03-21T05:09:36.643006+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.068,
+    "change24h": 0.01,
+    "vol": 0.085,
     "fearGreed": 12,
-    "momentum": 0.245,
+    "momentum": 0.171,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3627,
+    "crypto_sentiment": 0.4323,
     "global_sentiment": 0.4992,
-    "combined_sentiment": 0.397,
-    "confidence": 0.6989,
+    "combined_sentiment": 0.4492,
+    "confidence": 0.6797,
     "counts": {
-      "crypto": 62,
+      "crypto": 46,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 70611,
-      "btc_change_24h": 0.68,
-      "eth_price": 2150.75,
-      "eth_change_24h": 0.65,
+      "btc_price": 70632,
+      "btc_change_24h": -0.23,
+      "eth_price": 2152.67,
+      "eth_change_24h": 0.19,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133571030786.0,
-        "high_activity_coins": 3
+        "volume_24h": 127385898078.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.82,
+        "btc_dominance": 57.81,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-07T13:02:07.279268+00:00",
-      "crypto": 0.4352,
-      "global": 0.4615,
-      "combined": 0.4482,
-      "counts": {
-        "crypto": 76,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-03-07T16:36:35.452701+00:00",
       "crypto": 0.4371,
@@ -1008,30 +998,40 @@
         "crypto": 62,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-03-21T05:09:36.643006+00:00",
+      "crypto": 0.4323,
+      "global": 0.4992,
+      "combined": 0.4492,
+      "counts": {
+        "crypto": 46,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Playnance’s G Coin turns launch week into a real-time growth test",
+        "url": "https://cryptoslate.com/playnances-g-coin-turns-launch-week-into-a-real-time-growth-test/",
+        "source": "CryptoSlate",
+        "weight": 0.5639,
+        "score": 0.6667
+      },
+      {
         "title": "Prentice Capital Fully Liquidates Position in Compass, According to Recent SEC Filing",
         "url": "https://www.fool.com/coverage/filings/2026/03/20/prentice-capital-fully-liquidates-position-in-compass-according-to-recent-sec-filing/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7112,
+        "weight": 0.5294,
         "score": 0.6667
       },
       {
         "title": "ESCO (ESE): Buy, Sell, or Hold Post Q4 Earnings?",
         "url": "https://finance.yahoo.com/markets/stocks/articles/esco-ese-buy-sell-hold-224725746.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5149,
+        "weight": 0.3833,
         "score": 0.8667
-      },
-      {
-        "title": "Why Opendoor (OPEN) Stock Is Trading Lower Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-opendoor-open-stock-trading-012225656.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6939,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,14 +1039,7 @@
         "title": "2 Services Stocks to Target This Week and 1 We Question",
         "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-target-week-000725221.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6006,
-        "score": -0.9667
-      },
-      {
-        "title": "Diesel Costs Become New Worry as Gallon Surpasses $5",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-20/diesel-costs-become-new-worry-as-gallon-surpasses-5-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4588,
+        "weight": 0.4471,
         "score": -0.9667
       },
       {
@@ -1055,24 +1048,26 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Diesel Costs Become New Worry as Gallon Surpasses $5",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-20/diesel-costs-become-new-worry-as-gallon-surpasses-5-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3415,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3361064273049699,
-          "price_change_24h": -0.02193
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.32325982252457824,
-          "price_change_24h": -0.01717
+          "volume_mcap_ratio": 0.30836767850659597,
+          "price_change_24h": -0.00605
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3167759622583103,
-          "price_change_24h": -3.76637
+          "volume_mcap_ratio": 0.302388960725501,
+          "price_change_24h": -4.49705
         }
       ],
       "momentum_shifts": []
