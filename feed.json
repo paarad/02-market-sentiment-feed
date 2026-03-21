@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-21T13:05:00.690259+00:00",
+  "updated_at": "2026-03-21T16:38:39.868379+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.053,
+    "change24h": 0.009,
+    "vol": 0.038,
     "fearGreed": 12,
-    "momentum": 0.143,
+    "momentum": 0.155,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3183,
-    "global_sentiment": 0.4379,
-    "combined_sentiment": 0.3585,
-    "confidence": 0.6194,
+    "crypto_sentiment": 0.4533,
+    "global_sentiment": 0.4839,
+    "combined_sentiment": 0.4636,
+    "confidence": 0.6388,
     "counts": {
-      "crypto": 46,
-      "global": 32
+      "crypto": 45,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 70698,
-      "btc_change_24h": 0.5,
-      "eth_price": 2156.62,
-      "eth_change_24h": 0.74,
+      "btc_price": 70451,
+      "btc_change_24h": 1.07,
+      "eth_price": 2150.22,
+      "eth_change_24h": 0.81,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 108806309997.0,
+        "volume_24h": 88419949850.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.84,
+        "btc_dominance": 57.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-07T20:33:48.128707+00:00",
-      "crypto": 0.4065,
-      "global": 0.4185,
-      "combined": 0.4231,
-      "counts": {
-        "crypto": 59,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-03-08T02:46:24.635418+00:00",
       "crypto": 0.3233,
@@ -1008,45 +998,48 @@
         "crypto": 46,
         "global": 32
       }
+    },
+    {
+      "ts": "2026-03-21T16:38:39.868379+00:00",
+      "crypto": 0.4533,
+      "global": 0.4839,
+      "combined": 0.4636,
+      "counts": {
+        "crypto": 45,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Jumps Late After Sell-Off As Trump Mulls 'Winding Down' Iran War",
-        "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/dow-jones-jumps-late-after.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7548,
-        "score": 0.3333
+        "title": "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state'",
+        "url": "https://cointelegraph.com/news/ethereum-25-rally-richest-eth-whale-return-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.9308,
+        "score": 1.0
       },
       {
-        "title": "Iran’s Strike on Diego Garcia Reveals Missile Range",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-21/iran-s-failed-diego-garcia-strike-is-show-of-missile-capability",
-        "source": "Bloomberg Markets",
-        "weight": 0.6719,
-        "score": 0.3333
-      },
-      {
-        "title": "Playnance’s G Coin turns launch week into a real-time growth test",
-        "url": "https://cryptoslate.com/playnances-g-coin-turns-launch-week-into-a-real-time-growth-test/",
-        "source": "CryptoSlate",
-        "weight": 0.2258,
+        "title": "Strategy Now Holds $54 Billion in Bitcoin—These Are Its Biggest Buys",
+        "url": "https://decrypt.co/292448/microstrategy-biggest-bitcoin-buys",
+        "source": "Decrypt",
+        "weight": 0.6358,
         "score": 0.6667
+      },
+      {
+        "title": "Walmart digital price labels are coming to every store shelf in U.S. by end of 2026",
+        "url": "https://www.cnbc.com/2026/03/21/walmart-digital-price-tags-will-be-in-every-us-store-by-end-of-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.6708,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "India’s Modi Stresses Need for Secure Shipping in Call With Iran",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-21/india-s-modi-stresses-need-for-secure-shipping-in-call-with-iran",
-        "source": "Bloomberg Markets",
-        "weight": 0.7211,
-        "score": -0.6333
-      },
-      {
-        "title": "Bitcoin mining difficulty falls 7.7% as miner pressure persists",
-        "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-drops-7-7-miner-pressure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7036,
+        "title": "Strategy set for second-biggest bitcoin buying quarter despite BTC price slide",
+        "url": "https://www.coindesk.com/markets/2026/03/21/strategy-set-for-second-biggest-bitcoin-buying-quarter-despite-btc-price-slide",
+        "source": "CoinDesk",
+        "weight": 0.8841,
         "score": -0.6333
       },
       {
@@ -1055,6 +1048,13 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "SEC Commissioner Hester Peirce on ETFs: 'We want to work with people on new products'",
+        "url": "https://www.cnbc.com/2026/03/21/crypto-tokenization-and-etfs-secs-peirce-indicates-openness.html",
+        "source": "CNBC Markets",
+        "weight": 0.6616,
+        "score": -0.6333
       }
     ],
     "market_movers": {
