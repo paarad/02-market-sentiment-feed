@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-22T19:57:30.799751+00:00",
+  "updated_at": "2026-03-22T20:36:29.878099+00:00",
   "indicators": {
     "change24h": -0.034,
-    "vol": 0.157,
+    "vol": 0.165,
     "fearGreed": 10,
-    "momentum": -0.589,
-    "regime": "sideways",
+    "momentum": -0.596,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2847,
-    "global_sentiment": 0.393,
-    "combined_sentiment": 0.3296,
-    "confidence": 0.6693,
+    "crypto_sentiment": 0.2635,
+    "global_sentiment": 0.4146,
+    "combined_sentiment": 0.3155,
+    "confidence": 0.6742,
     "counts": {
-      "crypto": 63,
+      "crypto": 50,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 68220,
-      "btc_change_24h": -3.07,
-      "eth_price": 2062.79,
-      "eth_change_24h": -4.14,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 68295,
+      "btc_change_24h": -3.06,
+      "eth_price": 2063.75,
+      "eth_change_24h": -4.23,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 111343114212.0,
+        "volume_24h": 111977890629.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-09T05:22:07.076982+00:00",
-      "crypto": 0.4946,
-      "global": 0.5432,
-      "combined": 0.4995,
-      "counts": {
-        "crypto": 52,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-09T08:54:56.685808+00:00",
       "crypto": 0.5434,
@@ -1008,53 +998,63 @@
         "crypto": 63,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-22T20:36:29.878099+00:00",
+      "crypto": 0.2635,
+      "global": 0.4146,
+      "combined": 0.3155,
+      "counts": {
+        "crypto": 50,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Poste Launches €10.8 Billion Offer to Delist Telecom Italia",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-22/poste-italiane-launches-10-8-billion-telecom-italia-bid",
+        "source": "Bloomberg Markets",
+        "weight": 0.6738,
+        "score": 0.9667
+      },
+      {
         "title": "Get Ready For Dow Jones Futures After Trump Threatens To 'Obliterate' Iran's Power Plants",
         "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/get-ready-for-dow-jones.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7911,
+        "weight": 0.7339,
         "score": 0.3333
       },
       {
         "title": "America Movil’s Claro to Buy Desktop SA in $750 Million Deal",
         "url": "https://www.bloomberg.com/news/articles/2026-03-22/america-movil-s-claro-to-buy-desktop-sa-in-750-million-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.7354,
-        "score": 0.3333
-      },
-      {
-        "title": "Poste Italiane Launches €10.8 Billion Telecom Italia Bid",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-22/poste-italiane-launches-10-8-billion-telecom-italia-bid",
-        "source": "Bloomberg Markets",
-        "weight": 0.7263,
+        "weight": 0.6822,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Why crypto hacks don’t end and continue even when the money is gone",
+        "url": "https://cryptoslate.com/crypto-hacks-dont-end-when-the-money-is-gone/",
+        "source": "CryptoSlate",
+        "weight": 0.7349,
+        "score": -0.7333
+      },
+      {
         "title": "The SEC explains how it's viewing a crypto security: State of Crypto",
         "url": "https://www.coindesk.com/policy/2026/03/22/the-sec-explains-how-it-s-viewing-a-crypto-security-state-of-crypto",
         "source": "CoinDesk",
-        "weight": 0.7975,
+        "weight": 0.7398,
         "score": -0.6333
       },
       {
         "title": "ICE agents will be deployed to U.S. airports on Monday: Homan",
         "url": "https://www.cnbc.com/2026/03/22/ice-agents-will-be-deployed-to-us-airports-on-monday-homan.html",
         "source": "CNBC Markets",
-        "weight": 0.7901,
+        "weight": 0.7329,
         "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 10 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
