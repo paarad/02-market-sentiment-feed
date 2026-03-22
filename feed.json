@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-22T08:44:07.257145+00:00",
+  "updated_at": "2026-03-22T13:07:17.596422+00:00",
   "indicators": {
-    "change24h": -0.036,
-    "vol": 0.099,
+    "change24h": -0.03,
+    "vol": 0.103,
     "fearGreed": 10,
-    "momentum": -0.625,
-    "regime": "bear",
+    "momentum": -0.524,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3084,
-    "global_sentiment": 0.3602,
-    "combined_sentiment": 0.3446,
-    "confidence": 0.6643,
+    "crypto_sentiment": 0.2207,
+    "global_sentiment": 0.3799,
+    "combined_sentiment": 0.2805,
+    "confidence": 0.6468,
     "counts": {
-      "crypto": 45,
-      "global": 34
+      "crypto": 46,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 68744,
-      "btc_change_24h": -2.65,
-      "eth_price": 2083.32,
-      "eth_change_24h": -3.24,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 68798,
+      "btc_change_24h": -2.71,
+      "eth_price": 2087.3,
+      "eth_change_24h": -3.21,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 100189846984.0,
+        "volume_24h": 108918540128.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.63,
+        "btc_dominance": 57.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-08T19:56:19.862434+00:00",
-      "crypto": 0.3252,
-      "global": 0.5735,
-      "combined": 0.3751,
-      "counts": {
-        "crypto": 50,
-        "global": 28
-      }
-    },
     {
       "ts": "2026-03-08T20:35:11.822315+00:00",
       "crypto": 0.3681,
@@ -1008,53 +998,63 @@
         "crypto": 45,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-03-22T13:07:17.596422+00:00",
+      "crypto": 0.2207,
+      "global": 0.3799,
+      "combined": 0.2805,
+      "counts": {
+        "crypto": 46,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stagflation: The word of the year for 2026 and why Bitcoiners need to know what it means",
-        "url": "https://cryptoslate.com/stagflation-the-word-of-the-year-for-2026-and-why-bitcoiners-need-to-know-what-it-means/",
-        "source": "CryptoSlate",
-        "weight": 0.7313,
-        "score": 0.3333
+        "title": "Walmart digital price labels are coming to every store shelf in U.S. by end of 2026",
+        "url": "https://www.cnbc.com/2026/03/21/walmart-digital-price-tags-will-be-in-every-us-store-by-end-of-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.5753,
+        "score": 0.5333
       },
       {
-        "title": "2 Soaring Stocks to Hold for the Next 20 Years",
-        "url": "https://www.fool.com/investing/2026/03/22/2-soaring-stocks-to-hold-for-the-next-20-years/?.tsrc=rss",
+        "title": "Dow Jones Futures: Trump Vows To 'Obliterate' Iran's Power Plants If Strait Of Hormuz Not Opened",
+        "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/dow-jones-futures%3A-trump-vows.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7139,
+        "weight": 0.7425,
         "score": 0.3333
       },
       {
-        "title": "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state'",
-        "url": "https://cointelegraph.com/news/ethereum-25-rally-richest-eth-whale-return-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.1451,
-        "score": 1.0
+        "title": "The price of menstrual products is skyrocketing from inflation, tariffs",
+        "url": "https://www.cnbc.com/2026/03/22/menstrual-products-tampons-feminine-care-prices-inflation.html",
+        "source": "CNBC Markets",
+        "weight": 0.7028,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "'Hawk Tuah' girl Hailey Welsh says memecoin implosion 'traumatized' her",
-        "url": "https://cointelegraph.com/news/hawk-tuah-hailey-welsh-memecoin-traumatized?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin risks 50% drop as BTC's positive correlation with US stocks grows",
+        "url": "https://cointelegraph.com/news/bitcoin-risks-50percent-drop-btc-positive-correlation-us-stocks-grows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7766,
+        "weight": 0.8628,
+        "score": -1.0
+      },
+      {
+        "title": "Bitcoin crashes to $68,000 as US threatens to “obliterate’ all Iranian power plants",
+        "url": "https://cryptoslate.com/bitcoin-crashes-to-68000-as-us-threatens-to-obliterate-all-iranian-power-plants/",
+        "source": "CryptoSlate",
+        "weight": 0.5495,
+        "score": -1.0
+      },
+      {
+        "title": "I’m a psychologist who studies couples: People in emotionally secure relationships do 5 things every day—that most neglect",
+        "url": "https://www.cnbc.com/2026/03/22/psychologist-who-studies-couples-people-in-emotionally-secure-relationships-do-5-things-every-day.html",
+        "source": "CNBC Markets",
+        "weight": 0.7685,
         "score": -0.6333
-      },
-      {
-        "title": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
-        "url": "https://cointelegraph.com/news/resolv-labs-stablecoin-depegs-attacker-mints-millions-of-tokens?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5689,
-        "score": -0.8333
-      },
-      {
-        "title": "Fear & Greed 10 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
