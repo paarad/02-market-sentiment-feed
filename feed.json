@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-21T20:35:25.486252+00:00",
+  "updated_at": "2026-03-22T02:52:50.190216+00:00",
   "indicators": {
-    "change24h": 0.013,
-    "vol": 0.046,
-    "fearGreed": 12,
-    "momentum": 0.236,
+    "change24h": -0.032,
+    "vol": 0.078,
+    "fearGreed": 10,
+    "momentum": -0.558,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4339,
-    "global_sentiment": 0.3726,
-    "combined_sentiment": 0.4398,
-    "confidence": 0.6343,
+    "crypto_sentiment": 0.3603,
+    "global_sentiment": 0.328,
+    "combined_sentiment": 0.3809,
+    "confidence": 0.5742,
     "counts": {
       "crypto": 44,
-      "global": 32
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 70454,
-      "btc_change_24h": 0.87,
-      "eth_price": 2154.76,
-      "eth_change_24h": 1.41,
+      "btc_price": 69266,
+      "btc_change_24h": -2.12,
+      "eth_price": 2101.49,
+      "eth_change_24h": -2.49,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 12,
+        "value": 10,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 75224042185.0,
+        "volume_24h": 95288086466.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.76,
+        "btc_dominance": 57.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-08T08:39:41.358330+00:00",
-      "crypto": 0.2119,
-      "global": 0.5136,
-      "combined": 0.2851,
-      "counts": {
-        "crypto": 56,
-        "global": 28
-      }
-    },
     {
       "ts": "2026-03-08T13:03:46.859242+00:00",
       "crypto": 0.2846,
@@ -1008,6 +998,16 @@
         "crypto": 44,
         "global": 32
       }
+    },
+    {
+      "ts": "2026-03-22T02:52:50.190216+00:00",
+      "crypto": 0.3603,
+      "global": 0.328,
+      "combined": 0.3809,
+      "counts": {
+        "crypto": 44,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,41 +1016,41 @@
         "title": "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state'",
         "url": "https://cointelegraph.com/news/ethereum-25-rally-richest-eth-whale-return-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.59,
+        "weight": 0.2853,
         "score": 1.0
+      },
+      {
+        "title": "Dow Jones Futures: Trump Vows To 'Obliterate' Iran's Power Plants If Strait Of Hormuz Not Opened",
+        "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/dow-jones-futures%3A-trump-vows.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7753,
+        "score": 0.3333
       },
       {
         "title": "Fed rate cut chance hits zero, threatening stagflation where Bitcoin thrives as a hedge against long term inflation",
         "url": "https://cryptoslate.com/fed-rate-cut-chance-hits-zero-threatening-stagflation-where-bitcoin-thrives-as-a-hedge-against-long-term-inflation/",
         "source": "CryptoSlate",
-        "weight": 0.7154,
-        "score": 0.6667
-      },
-      {
-        "title": "Strategy Now Holds $54 Billion in Bitcoin—These Are Its Biggest Buys",
-        "url": "https://decrypt.co/292448/microstrategy-biggest-bitcoin-buys",
-        "source": "Decrypt",
-        "weight": 0.403,
+        "weight": 0.3459,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "State Street, Voya Seek Shelter From Default Risk",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-21/state-street-voya-seek-shelter-from-default-risk-credit-weekly",
+        "title": "Cuba Suffers Second Blackout in a Week Amid Fuel Squeeze",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-22/cuba-suffers-second-blackout-in-a-week-amid-fuel-squeeze",
         "source": "Bloomberg Markets",
-        "weight": 0.6657,
-        "score": -0.9667
-      },
-      {
-        "title": "Trump threatens to deploy ICE agents to airports if DHS shutdown doesn't end, while Elon Musk offers to cover TSA agents' pay",
-        "url": "https://www.cnbc.com/2026/03/21/trump-ice-tsa-dhs.html",
-        "source": "CNBC Markets",
-        "weight": 0.7913,
+        "weight": 0.7351,
         "score": -0.6333
       },
       {
-        "title": "Fear & Greed 12 (Fear) — bearish",
+        "title": "DAFNA Capital Trims iShares Biotechnology ETF Within Broader Biotech Portfolio, According to Recent SEC Filing",
+        "url": "https://www.fool.com/coverage/filings/2026/03/21/dafna-capital-trims-ishares-biotechnology-etf-within-broader-biotech-portfolio-according-to-recent-sec-filing/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4535,
+        "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 10 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
