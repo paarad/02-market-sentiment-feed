@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-22T02:52:50.190216+00:00",
+  "updated_at": "2026-03-22T05:21:22.722839+00:00",
   "indicators": {
-    "change24h": -0.032,
-    "vol": 0.078,
+    "change24h": -0.028,
+    "vol": 0.07,
     "fearGreed": 10,
-    "momentum": -0.558,
-    "regime": "sideways",
+    "momentum": -0.483,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3603,
-    "global_sentiment": 0.328,
-    "combined_sentiment": 0.3809,
-    "confidence": 0.5742,
+    "crypto_sentiment": 0.341,
+    "global_sentiment": 0.3073,
+    "combined_sentiment": 0.3647,
+    "confidence": 0.5656,
     "counts": {
       "crypto": 44,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 69266,
+      "btc_price": 69229,
       "btc_change_24h": -2.12,
-      "eth_price": 2101.49,
-      "eth_change_24h": -2.49,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "eth_price": 2117.67,
+      "eth_change_24h": -1.75,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 95288086466.0,
+        "volume_24h": 98431003393.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.68,
+        "btc_dominance": 57.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-08T13:03:46.859242+00:00",
-      "crypto": 0.2846,
-      "global": 0.5573,
-      "combined": 0.3432,
-      "counts": {
-        "crypto": 67,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-03-08T16:38:18.620414+00:00",
       "crypto": 0.2709,
@@ -1008,6 +998,16 @@
         "crypto": 44,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-03-22T05:21:22.722839+00:00",
+      "crypto": 0.341,
+      "global": 0.3073,
+      "combined": 0.3647,
+      "counts": {
+        "crypto": 44,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state'",
         "url": "https://cointelegraph.com/news/ethereum-25-rally-richest-eth-whale-return-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.2853,
+        "weight": 0.2143,
         "score": 1.0
       },
       {
         "title": "Dow Jones Futures: Trump Vows To 'Obliterate' Iran's Power Plants If Strait Of Hormuz Not Opened",
         "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/dow-jones-futures%3A-trump-vows.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7753,
+        "weight": 0.6127,
         "score": 0.3333
       },
       {
         "title": "Fed rate cut chance hits zero, threatening stagflation where Bitcoin thrives as a hedge against long term inflation",
         "url": "https://cryptoslate.com/fed-rate-cut-chance-hits-zero-threatening-stagflation-where-bitcoin-thrives-as-a-hedge-against-long-term-inflation/",
         "source": "CryptoSlate",
-        "weight": 0.3459,
+        "weight": 0.2599,
         "score": 0.6667
       }
     ],
     "negative": [
-      {
-        "title": "Cuba Suffers Second Blackout in a Week Amid Fuel Squeeze",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-22/cuba-suffers-second-blackout-in-a-week-amid-fuel-squeeze",
-        "source": "Bloomberg Markets",
-        "weight": 0.7351,
-        "score": -0.6333
-      },
-      {
-        "title": "DAFNA Capital Trims iShares Biotechnology ETF Within Broader Biotech Portfolio, According to Recent SEC Filing",
-        "url": "https://www.fool.com/coverage/filings/2026/03/21/dafna-capital-trims-ishares-biotechnology-etf-within-broader-biotech-portfolio-according-to-recent-sec-filing/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4535,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Japan Says Not Considering Unilateral Talks With Iran on Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-22/japan-says-not-considering-unilateral-talks-with-iran-on-hormuz",
+        "source": "Bloomberg Markets",
+        "weight": 0.6287,
+        "score": -0.6333
+      },
+      {
+        "title": "Cuba Suffers Second Blackout in a Week Amid Fuel Squeeze",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-22/cuba-suffers-second-blackout-in-a-week-amid-fuel-squeeze",
+        "source": "Bloomberg Markets",
+        "weight": 0.5523,
+        "score": -0.6333
       }
     ],
     "market_movers": {
