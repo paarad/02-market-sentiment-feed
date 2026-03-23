@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-22T20:36:29.878099+00:00",
+  "updated_at": "2026-03-23T02:52:54.952897+00:00",
   "indicators": {
-    "change24h": -0.034,
-    "vol": 0.165,
-    "fearGreed": 10,
-    "momentum": -0.596,
-    "regime": "bear",
+    "change24h": -0.007,
+    "vol": 0.122,
+    "fearGreed": 8,
+    "momentum": -0.119,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2635,
-    "global_sentiment": 0.4146,
-    "combined_sentiment": 0.3155,
-    "confidence": 0.6742,
+    "crypto_sentiment": 0.2501,
+    "global_sentiment": 0.4061,
+    "combined_sentiment": 0.3047,
+    "confidence": 0.6415,
     "counts": {
-      "crypto": 50,
-      "global": 39
+      "crypto": 66,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 68295,
-      "btc_change_24h": -3.06,
-      "eth_price": 2063.75,
-      "eth_change_24h": -4.23,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 68216,
+      "btc_change_24h": -1.56,
+      "eth_price": 2059.43,
+      "eth_change_24h": -2.09,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 10,
+        "value": 8,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 111977890629.0,
+        "volume_24h": 108838345027.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.52,
+        "btc_dominance": 57.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-09T08:54:56.685808+00:00",
-      "crypto": 0.5434,
-      "global": 0.5264,
-      "combined": 0.5348,
-      "counts": {
-        "crypto": 50,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-03-09T13:20:53.018989+00:00",
       "crypto": 0.5282,
@@ -1008,6 +998,16 @@
         "crypto": 50,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-03-23T02:52:54.952897+00:00",
+      "crypto": 0.2501,
+      "global": 0.4061,
+      "combined": 0.3047,
+      "counts": {
+        "crypto": 66,
+        "global": 44
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Poste Launches €10.8 Billion Offer to Delist Telecom Italia",
         "url": "https://www.bloomberg.com/news/articles/2026-03-22/poste-italiane-launches-10-8-billion-telecom-italia-bid",
         "source": "Bloomberg Markets",
-        "weight": 0.6738,
+        "weight": 0.3264,
         "score": 0.9667
       },
       {
-        "title": "Get Ready For Dow Jones Futures After Trump Threatens To 'Obliterate' Iran's Power Plants",
-        "url": "https://finance.yahoo.com/m/4b986b69-078c-3b77-948f-5e9fc43f37c2/get-ready-for-dow-jones.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7339,
-        "score": 0.3333
+        "title": "Oil’s Surge Forces Latin America to Overhaul Its Energy Policies",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-22/oil-s-surge-forces-latin-america-to-overhaul-its-energy-policies",
+        "source": "Bloomberg Markets",
+        "weight": 0.4839,
+        "score": 0.5333
       },
       {
-        "title": "America Movil’s Claro to Buy Desktop SA in $750 Million Deal",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-22/america-movil-s-claro-to-buy-desktop-sa-in-750-million-deal",
+        "title": "Indian Insurers Boost State Bond Derivatives as Yields Climb",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-23/indian-insurers-boost-state-bond-derivatives-as-yields-climb",
         "source": "Bloomberg Markets",
-        "weight": 0.6822,
+        "weight": 0.6625,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Why crypto hacks don’t end and continue even when the money is gone",
-        "url": "https://cryptoslate.com/crypto-hacks-dont-end-when-the-money-is-gone/",
-        "source": "CryptoSlate",
-        "weight": 0.7349,
-        "score": -0.7333
+        "title": "Bitcoin Price Slides but Holds Up Better Than Stocks as Oil Shock Continues",
+        "url": "https://decrypt.co/361973/bitcoin-price-holds-up-better-stocks-oil-shock-continues",
+        "source": "Decrypt",
+        "weight": 0.6601,
+        "score": -0.6667
       },
       {
-        "title": "The SEC explains how it's viewing a crypto security: State of Crypto",
-        "url": "https://www.coindesk.com/policy/2026/03/22/the-sec-explains-how-it-s-viewing-a-crypto-security-state-of-crypto",
-        "source": "CoinDesk",
-        "weight": 0.7398,
-        "score": -0.6333
+        "title": "Fear & Greed 8 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "ICE agents will be deployed to U.S. airports on Monday: Homan",
-        "url": "https://www.cnbc.com/2026/03/22/ice-agents-will-be-deployed-to-us-airports-on-monday-homan.html",
-        "source": "CNBC Markets",
-        "weight": 0.7329,
-        "score": -0.6333
+        "title": "US stock futures fall after Trump issues 48-hr deadline on Iran",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-trump-005432755.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6369,
+        "score": -0.6667
       }
     ],
     "market_movers": {
