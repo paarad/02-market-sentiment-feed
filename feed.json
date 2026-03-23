@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-23T02:52:54.952897+00:00",
+  "updated_at": "2026-03-23T05:42:47.544411+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.122,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 8,
-    "momentum": -0.119,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2501,
-    "global_sentiment": 0.4061,
-    "combined_sentiment": 0.3047,
-    "confidence": 0.6415,
+    "crypto_sentiment": 0.2041,
+    "global_sentiment": 0.3236,
+    "combined_sentiment": 0.2634,
+    "confidence": 0.7064,
     "counts": {
-      "crypto": 66,
-      "global": 44
+      "crypto": 51,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 68216,
-      "btc_change_24h": -1.56,
-      "eth_price": 2059.43,
-      "eth_change_24h": -2.09,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 68631,
+      "btc_change_24h": -0.83,
+      "eth_price": 2062.83,
+      "eth_change_24h": -2.47,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 108838345027.0,
+        "volume_24h": 108807924408.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.51,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-09T13:20:53.018989+00:00",
-      "crypto": 0.5282,
-      "global": 0.6037,
-      "combined": 0.5298,
-      "counts": {
-        "crypto": 69,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-03-09T17:03:04.855371+00:00",
       "crypto": 0.5008,
@@ -1008,52 +998,62 @@
         "crypto": 66,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-23T05:42:47.544411+00:00",
+      "crypto": 0.2041,
+      "global": 0.3236,
+      "combined": 0.2634,
+      "counts": {
+        "crypto": 51,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Poste Launches €10.8 Billion Offer to Delist Telecom Italia",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-22/poste-italiane-launches-10-8-billion-telecom-italia-bid",
+        "title": "EFG Intl's Pradelli Says 'Very Positive' on Middle East",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-23/efg-intl-s-pradelli-says-very-positive-on-middle-east-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3264,
-        "score": 0.9667
-      },
-      {
-        "title": "Oil’s Surge Forces Latin America to Overhaul Its Energy Policies",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-22/oil-s-surge-forces-latin-america-to-overhaul-its-energy-policies",
-        "source": "Bloomberg Markets",
-        "weight": 0.4839,
-        "score": 0.5333
+        "weight": 0.6985,
+        "score": 0.3333
       },
       {
         "title": "Indian Insurers Boost State Bond Derivatives as Yields Climb",
         "url": "https://www.bloomberg.com/news/articles/2026-03-23/indian-insurers-boost-state-bond-derivatives-as-yields-climb",
         "source": "Bloomberg Markets",
-        "weight": 0.6625,
+        "weight": 0.4777,
+        "score": 0.3333
+      },
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as 4-week down spiral continues, Trump threatens Iran",
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-fall-as-4-week-down-spiral-continues-trump-threatens-iran-230122440.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3693,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Price Slides but Holds Up Better Than Stocks as Oil Shock Continues",
-        "url": "https://decrypt.co/361973/bitcoin-price-holds-up-better-stocks-oil-shock-continues",
-        "source": "Decrypt",
-        "weight": 0.6601,
+        "title": "Bitcoin holds $68,300 as gold crashes for a ninth day and Asian stocks drop",
+        "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-holds-usd68-300-as-gold-crashes-for-a-ninth-day-and-asian-stocks-drop",
+        "source": "CoinDesk",
+        "weight": 0.9121,
+        "score": -0.9667
+      },
+      {
+        "title": "XRP drops 3.7% as break below $1.40 signals renewed downside risk",
+        "url": "https://www.coindesk.com/markets/2026/03/23/xrp-drops-3-7-as-break-below-usd1-40-signals-renewed-downside-risk",
+        "source": "CoinDesk",
+        "weight": 1.1153,
         "score": -0.6667
       },
       {
-        "title": "Fear & Greed 8 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "US stock futures fall after Trump issues 48-hr deadline on Iran",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-trump-005432755.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6369,
+        "title": "Crypto, stocks fall as oil chops after Iran vows response to Trump threat",
+        "url": "https://cointelegraph.com/news/crypto-stocks-slip-oil-chops-iran-vows-retaliation-trump-threat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7273,
         "score": -0.6667
       }
     ],
