@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-23T09:06:33.536780+00:00",
+  "updated_at": "2026-03-23T13:24:29.583450+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.031,
+    "vol": 0.094,
     "fearGreed": 8,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.535,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2,
-    "global_sentiment": 0.4486,
-    "combined_sentiment": 0.247,
-    "confidence": 0.7171,
+    "crypto_sentiment": 0.4412,
+    "global_sentiment": 0.4717,
+    "combined_sentiment": 0.4535,
+    "confidence": 0.8016,
     "counts": {
-      "crypto": 55,
-      "global": 40
+      "crypto": 76,
+      "global": 52
     },
     "market_indicators": {
-      "btc_price": 68286,
-      "btc_change_24h": -0.8,
-      "eth_price": 2040.55,
-      "eth_change_24h": -2.35,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 70844,
+      "btc_change_24h": 3.01,
+      "eth_price": 2151.59,
+      "eth_change_24h": 3.17,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 123195119706.0,
-        "high_activity_coins": 2
+        "volume_24h": 171355087029.46,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.93,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-09T20:03:00.842094+00:00",
-      "crypto": 0.4976,
-      "global": 0.5617,
-      "combined": 0.5034,
-      "counts": {
-        "crypto": 57,
-        "global": 53
-      }
-    },
     {
       "ts": "2026-03-09T20:41:49.661965+00:00",
       "crypto": 0.5064,
@@ -1008,52 +998,62 @@
         "crypto": 55,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-23T13:24:29.583450+00:00",
+      "crypto": 0.4412,
+      "global": 0.4717,
+      "combined": 0.4535,
+      "counts": {
+        "crypto": 76,
+        "global": 52
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Laopu Gold Sales, Profit Beat as Gold Rally Fuels Demand",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-23/laopu-gold-sales-profit-beat-as-gold-rally-fuels-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.7588,
+        "title": "Stablecoins seen gaining from AI payments despite slow uptake: Bernstein",
+        "url": "https://cointelegraph.com/news/bernstein-agentic-ai-payments-stablecoin-demand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6617,
         "score": 1.0
       },
       {
-        "title": "India Swaps Turn More Aggressive on Rate Hikes, Boosting Yields",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-23/india-swaps-turn-more-aggressive-on-rate-hikes-boosting-yields",
+        "title": "Country Garden Sees Return to Profit on Debt Revamp Gain",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-23/country-garden-sees-return-to-profit-on-debt-revamp-gain",
         "source": "Bloomberg Markets",
-        "weight": 0.6091,
-        "score": 0.8667
+        "weight": 0.7645,
+        "score": 0.6667
       },
       {
-        "title": "Strategists Unfazed by War Expect European Stocks to Bounce",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-23/strategists-unfazed-by-war-expect-european-stocks-to-bounce",
+        "title": "Saudi Unicorn Ninja Said to Gauge IPO Appetite Despite Iran War",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-23/saudi-unicorn-ninja-said-to-gauge-ipo-appetite-despite-iran-war",
         "source": "Bloomberg Markets",
-        "weight": 0.764,
-        "score": 0.3333
+        "weight": 0.77,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
+        "title": "US Natural Gas Extends Losses on Warmer Outlook, Oil Price Drop",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-23/us-natural-gas-extends-losses-on-warmer-outlook-oil-price-drop",
+        "source": "Bloomberg Markets",
+        "weight": 0.761,
+        "score": -0.9667
+      },
+      {
+        "title": "What Sectors Are Not Getting Hit by the Market Sell-Off?",
+        "url": "https://www.fool.com/investing/2026/03/23/what-sectors-not-getting-hit-by-market-sell-off/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7273,
+        "score": -0.9667
+      },
+      {
         "title": "Prosecutors flag mail discrepancies in Sam Bankman-Fried’s retrial motion letter from prison",
         "url": "https://www.coindesk.com/policy/2026/03/23/prosecutors-flag-sam-bankman-fried-letter-sent-from-the-bay-area-not-prison",
         "source": "CoinDesk",
-        "weight": 0.9754,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin holds $68,300 as gold crashes for a ninth day and Asian stocks drop",
-        "url": "https://www.coindesk.com/markets/2026/03/23/bitcoin-holds-usd68-300-as-gold-crashes-for-a-ninth-day-and-asian-stocks-drop",
-        "source": "CoinDesk",
-        "weight": 0.6161,
-        "score": -0.9667
-      },
-      {
-        "title": "What to Expect From This Week's House Committee on Tokenization",
-        "url": "https://decrypt.co/361976/what-to-expect-this-weeks-house-committee-tokenization",
-        "source": "Decrypt",
-        "weight": 0.5761,
+        "weight": 0.5936,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,18 @@
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.46637397100310024,
-          "price_change_24h": -4.90315
+          "volume_mcap_ratio": 0.6539071960832592,
+          "price_change_24h": -1.21371
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.43871536241275405,
-          "price_change_24h": -5.35676
+          "volume_mcap_ratio": 0.6214168416839513,
+          "price_change_24h": -0.97936
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.4121500716171103,
+          "price_change_24h": -0.02715
         }
       ],
       "momentum_shifts": []
