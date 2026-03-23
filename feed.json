@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-23T20:23:58.501669+00:00",
+  "updated_at": "2026-03-23T20:45:41.463555+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.177,
+    "change24h": 0.037,
+    "vol": 0.17,
     "fearGreed": 8,
-    "momentum": 0.658,
+    "momentum": 0.644,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4301,
-    "global_sentiment": 0.5442,
-    "combined_sentiment": 0.4513,
-    "confidence": 0.7971,
+    "crypto_sentiment": 0.4304,
+    "global_sentiment": 0.4234,
+    "combined_sentiment": 0.4414,
+    "confidence": 0.79,
     "counts": {
-      "crypto": 70,
-      "global": 49
+      "crypto": 56,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 70756,
-      "btc_change_24h": 3.44,
-      "eth_price": 2160.0,
-      "eth_change_24h": 4.43,
+      "btc_price": 70902,
+      "btc_change_24h": 3.73,
+      "eth_price": 2162.77,
+      "eth_change_24h": 4.69,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 220342863877.66,
+        "volume_24h": 220744977265.66,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.86,
+        "btc_dominance": 57.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-10T05:12:42.041708+00:00",
-      "crypto": 0.5402,
-      "global": 0.4671,
-      "combined": 0.5274,
-      "counts": {
-        "crypto": 56,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-03-10T08:54:25.969356+00:00",
       "crypto": 0.4791,
@@ -1008,52 +998,62 @@
         "crypto": 70,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-03-23T20:45:41.463555+00:00",
+      "crypto": 0.4304,
+      "global": 0.4234,
+      "combined": 0.4414,
+      "counts": {
+        "crypto": 56,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Garden Stage Ltd Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/garden-stage-ltd-regains-compliance-203000289.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7762,
+        "score": 0.9667
+      },
+      {
         "title": "Oracle (ORCL) Stock Is Up, What You Need To Know",
         "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-stock-know-194935306.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7487,
+        "weight": 0.7181,
         "score": 1.0
       },
       {
-        "title": "AppLovin, Flywire, Agilysys, and CLEAR Secure Shares Are Soaring, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-flywire-agilysys-clear-secure-193435835.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7274,
-        "score": 0.8667
-      },
-      {
-        "title": "Datadog (DDOG) Stock Is Up, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-stock-know-192935393.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7205,
-        "score": 0.8667
+        "title": "Global crypto market cap up 3.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Stocks Rise, Oil Falls as Trump Eases Iran Threats: Markets Wrap",
+        "url": "https://finance.yahoo.com/news/traders-brace-turbulent-open-war-193000196.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7363,
+        "score": -1.0
+      },
+      {
         "title": "Sam Bankman-Fried Court Letter Under Scrutiny As Parents Call For Clemency",
         "url": "https://decrypt.co/362060/sam-bankman-fried-court-letter-under-scrutiny-as-parents-call-for-clemency",
         "source": "Decrypt",
-        "weight": 0.6635,
+        "weight": 0.6363,
         "score": -0.9667
       },
       {
-        "title": "LaGuardia Airport Open, But at Reduced Capacity for ‘Some Time,’ Sec. Duffy Says",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-23/laguardia-airport-open-but-at-reduced-capacity-duffy-video",
+        "title": "Citadel Securities Sees Markets Shifting to ‘Demand Destruction’",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-23/citadel-securities-sees-markets-shifting-to-demand-destruction",
         "source": "Bloomberg Markets",
-        "weight": 0.782,
-        "score": -0.6333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Higher Late Afternoon",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-higher-afternoon-200214327.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7672,
+        "weight": 0.7939,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.7635382109198865,
-          "price_change_24h": -1.74329
+          "volume_mcap_ratio": 0.7647175562273328,
+          "price_change_24h": -1.77333
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.6987351110143276,
-          "price_change_24h": -1.66868
+          "volume_mcap_ratio": 0.6942640714345333,
+          "price_change_24h": -1.68568
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5218353253459208,
-          "price_change_24h": -0.01752
+          "volume_mcap_ratio": 0.5202413625358132,
+          "price_change_24h": -0.01538
         }
       ],
       "momentum_shifts": []
