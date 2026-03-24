@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-24T05:25:36.651065+00:00",
+  "updated_at": "2026-03-24T09:00:24.377724+00:00",
   "indicators": {
-    "change24h": 0.021,
-    "vol": 0.111,
+    "change24h": 0.049,
+    "vol": 0.165,
     "fearGreed": 11,
-    "momentum": 0.362,
+    "momentum": 0.853,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4323,
-    "global_sentiment": 0.56,
-    "combined_sentiment": 0.4542,
-    "confidence": 0.7116,
+    "crypto_sentiment": 0.398,
+    "global_sentiment": 0.5421,
+    "combined_sentiment": 0.427,
+    "confidence": 0.7001,
     "counts": {
-      "crypto": 55,
-      "global": 46
+      "crypto": 51,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 70161,
-      "btc_change_24h": 2.14,
-      "eth_price": 2130.64,
-      "eth_change_24h": 3.18,
+      "btc_price": 70926,
+      "btc_change_24h": 3.64,
+      "eth_price": 2154.29,
+      "eth_change_24h": 5.16,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 201591755978.66,
+        "volume_24h": 199660417787.66,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.87,
+        "btc_dominance": 57.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-10T17:01:04.504613+00:00",
-      "crypto": 0.5121,
-      "global": 0.5604,
-      "combined": 0.5141,
-      "counts": {
-        "crypto": 58,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-03-10T20:03:26.485948+00:00",
       "crypto": 0.4608,
@@ -1008,71 +998,81 @@
         "crypto": 55,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-03-24T09:00:24.377724+00:00",
+      "crypto": 0.398,
+      "global": 0.5421,
+      "combined": 0.427,
+      "counts": {
+        "crypto": 51,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Mixue Reports 33% Jump in Profit Amid Bruising China Price War",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-24/mixue-reports-33-jump-in-profit-amid-bruising-china-price-war",
+        "title": "Temasek-Backed Manipal Hospitals Files for $1 Billion India IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-24/temasek-backed-manipal-hospitals-files-for-1-billion-india-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.7503,
-        "score": 0.6667
+        "weight": 0.6365,
+        "score": 0.9667
       },
       {
-        "title": "Global crypto market cap up 1.6% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Trump Delays Energy Strikes, Sets Five Days for Iran Talks | Horizons Middle East & Africa 3/24/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-24/horizons-middle-east-africa-3-24-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.695,
+        "score": 0.8667
       },
       {
-        "title": "United Rentals, Atkore, Novanta, EnerSys, and UFP Industries Stocks Trade Up, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/united-rentals-atkore-novanta-enersys-024435335.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5867,
-        "score": 0.6667
+        "title": "Aave DAO backs V4 mainnet plan in near-unanimous vote",
+        "url": "https://cointelegraph.com/news/aave-dao-backs-v4-deployment-near-unanimous-snapshot-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7517,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Balancer Labs shuts down 4 months after $100M+ exploit, protocol to continue",
-        "url": "https://cointelegraph.com/news/balancer-labs-shuts-down-protocol-continues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6049,
+        "title": "Balancer Labs will shut down as corporate entity became 'a liability' after $110 million exploit",
+        "url": "https://www.coindesk.com/tech/2026/03/24/balancer-labs-will-shut-down-as-corporate-entity-became-a-liability-after-usd110-million-exploit",
+        "source": "CoinDesk",
+        "weight": 0.7425,
         "score": -0.8333
       },
       {
-        "title": "India’s March private business activity slows to lowest since Oct 2022, missing forecasts",
-        "url": "https://www.cnbc.com/2026/03/24/india-pmi-march-hsbc-middle-east-conflict-rupee-oil.html",
-        "source": "CNBC Markets",
-        "weight": 0.7896,
+        "title": "German Private-Sector Activity Drops as Iran War Fuels Inflation",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-24/german-private-sector-activity-drops-as-iran-war-fuels-inflation",
+        "source": "Bloomberg Markets",
+        "weight": 0.7545,
         "score": -0.6333
       },
       {
-        "title": "Bangladesh Faces Slow Nuclear Start As Energy Crisis Deepens",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-24/bangladesh-faces-slow-nuclear-start-as-energy-crisis-deepens",
-        "source": "Bloomberg Markets",
-        "weight": 0.7442,
-        "score": -0.6667
+        "title": "Amazon faces further AWS disruption in the Middle East from Iran conflict",
+        "url": "https://www.cnbc.com/2026/03/24/amazon-aws-disruption-in-bahrain-iran.html",
+        "source": "CNBC Markets",
+        "weight": 0.7085,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.6776095942123256,
-          "price_change_24h": -0.86775
-        },
-        {
-          "symbol": "PAXG",
-          "volume_mcap_ratio": 0.6079067811654145,
-          "price_change_24h": -0.74489
+          "volume_mcap_ratio": 0.5236875131123871,
+          "price_change_24h": 3.28938
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4819308108664361,
-          "price_change_24h": -0.0061
+          "volume_mcap_ratio": 0.47234991249235303,
+          "price_change_24h": 0.00799
+        },
+        {
+          "symbol": "PAXG",
+          "volume_mcap_ratio": 0.4183108087671107,
+          "price_change_24h": 3.65627
         }
       ],
       "momentum_shifts": []
