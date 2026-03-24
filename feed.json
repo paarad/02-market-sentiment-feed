@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-23T20:45:41.463555+00:00",
+  "updated_at": "2026-03-24T02:44:24.682861+00:00",
   "indicators": {
-    "change24h": 0.037,
-    "vol": 0.17,
-    "fearGreed": 8,
-    "momentum": 0.644,
+    "change24h": 0.022,
+    "vol": 0.113,
+    "fearGreed": 11,
+    "momentum": 0.389,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4304,
-    "global_sentiment": 0.4234,
-    "combined_sentiment": 0.4414,
-    "confidence": 0.79,
+    "crypto_sentiment": 0.4554,
+    "global_sentiment": 0.5611,
+    "combined_sentiment": 0.4717,
+    "confidence": 0.7457,
     "counts": {
-      "crypto": 56,
+      "crypto": 70,
       "global": 43
     },
     "market_indicators": {
-      "btc_price": 70902,
-      "btc_change_24h": 3.73,
-      "eth_price": 2162.77,
-      "eth_change_24h": 4.69,
+      "btc_price": 70507,
+      "btc_change_24h": 3.24,
+      "eth_price": 2137.67,
+      "eth_change_24h": 3.6,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
-        "value": 8,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 220744977265.66,
+        "volume_24h": 201647196206.66,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.89,
+        "btc_dominance": 57.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-10T08:54:25.969356+00:00",
-      "crypto": 0.4791,
-      "global": 0.5416,
-      "combined": 0.4878,
-      "counts": {
-        "crypto": 70,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-03-10T13:17:57.967933+00:00",
       "crypto": 0.5064,
@@ -1008,52 +998,62 @@
         "crypto": 56,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-24T02:44:24.682861+00:00",
+      "crypto": 0.4554,
+      "global": 0.5611,
+      "combined": 0.4717,
+      "counts": {
+        "crypto": 70,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Garden Stage Ltd Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/garden-stage-ltd-regains-compliance-203000289.html?.tsrc=rss",
+        "title": "Viavi Solutions, Powell, Sterling, Energy Recovery, and Blink Charging Stocks Trade Up, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/viavi-solutions-powell-sterling-energy-022935270.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7762,
-        "score": 0.9667
+        "weight": 0.7775,
+        "score": 0.6667
       },
       {
-        "title": "Oracle (ORCL) Stock Is Up, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-stock-know-194935306.html?.tsrc=rss",
+        "title": "Trane Technologies, ATI, Comfort Systems, Stratasys, and Oshkosh Stocks Trade Up, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-ati-comfort-systems-021935826.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7181,
-        "score": 1.0
+        "weight": 0.7627,
+        "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 3.3% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Orion, nLIGHT, Quest Resource, AeroVironment, and Northwest Pipe Shares Are Soaring, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/orion-nlight-quest-aerovironment-northwest-021435301.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7553,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Stocks Rise, Oil Falls as Trump Eases Iran Threats: Markets Wrap",
-        "url": "https://finance.yahoo.com/news/traders-brace-turbulent-open-war-193000196.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7363,
-        "score": -1.0
+        "title": "Asia-Pacific shares advance as cooling oil prices calm war jitters",
+        "url": "https://www.cnbc.com/2026/03/24/asia-markets-live-updates-oil-nikkei-225-hang-seng-index-kospi.html",
+        "source": "CNBC Markets",
+        "weight": 0.7162,
+        "score": -0.6667
       },
       {
-        "title": "Sam Bankman-Fried Court Letter Under Scrutiny As Parents Call For Clemency",
-        "url": "https://decrypt.co/362060/sam-bankman-fried-court-letter-under-scrutiny-as-parents-call-for-clemency",
-        "source": "Decrypt",
-        "weight": 0.6363,
-        "score": -0.9667
-      },
-      {
-        "title": "Citadel Securities Sees Markets Shifting to ‘Demand Destruction’",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-23/citadel-securities-sees-markets-shifting-to-demand-destruction",
+        "title": "Vietnam, Russia Sign Nuclear Power Deal Amid Energy Pressure",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-24/vietnam-russia-sign-nuclear-power-deal-amid-energy-pressure",
         "source": "Bloomberg Markets",
-        "weight": 0.7939,
+        "weight": 0.7241,
+        "score": -0.6333
+      },
+      {
+        "title": "Senate approves Markwayne Mullin as next DHS secretary",
+        "url": "https://www.cnbc.com/2026/03/23/markwayne-mullin-trump-dhs-senate-confirmation.html",
+        "source": "CNBC Markets",
+        "weight": 0.7178,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.7647175562273328,
-          "price_change_24h": -1.77333
+          "volume_mcap_ratio": 0.6868028928867235,
+          "price_change_24h": -0.51405
         },
         {
           "symbol": "PAXG",
-          "volume_mcap_ratio": 0.6942640714345333,
-          "price_change_24h": -1.68568
+          "volume_mcap_ratio": 0.6188929126551277,
+          "price_change_24h": -0.42076
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5202413625358132,
-          "price_change_24h": -0.01538
+          "volume_mcap_ratio": 0.48651116932585736,
+          "price_change_24h": -0.00404
         }
       ],
       "momentum_shifts": []
