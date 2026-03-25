@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-25T08:59:22.408262+00:00",
+  "updated_at": "2026-03-25T13:27:21.055937+00:00",
   "indicators": {
-    "change24h": 0.023,
-    "vol": 0.155,
+    "change24h": 0.034,
+    "vol": 0.137,
     "fearGreed": 14,
-    "momentum": 0.407,
+    "momentum": 0.599,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3838,
-    "global_sentiment": 0.3585,
-    "combined_sentiment": 0.4011,
-    "confidence": 0.7099,
+    "crypto_sentiment": 0.4758,
+    "global_sentiment": 0.4305,
+    "combined_sentiment": 0.476,
+    "confidence": 0.7892,
     "counts": {
-      "crypto": 54,
-      "global": 33
+      "crypto": 56,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 71223,
-      "btc_change_24h": 0.42,
-      "eth_price": 2175.55,
-      "eth_change_24h": 0.99,
+      "btc_price": 71613,
+      "btc_change_24h": 1.45,
+      "eth_price": 2182.46,
+      "eth_change_24h": 1.52,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154414926023.66,
-        "high_activity_coins": 1
+        "volume_24h": 162292998822.66,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.86,
+        "btc_dominance": 57.92,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-11T20:04:55.822888+00:00",
-      "crypto": 0.374,
-      "global": 0.3995,
-      "combined": 0.3972,
-      "counts": {
-        "crypto": 48,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-03-11T20:43:46.192571+00:00",
       "crypto": 0.3919,
@@ -1008,61 +998,76 @@
         "crypto": 54,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-03-25T13:27:21.055937+00:00",
+      "crypto": 0.4758,
+      "global": 0.4305,
+      "combined": 0.476,
+      "counts": {
+        "crypto": 56,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP holds near $1.41 as range tightens, breakout setup builds",
-        "url": "https://www.coindesk.com/markets/2026/03/25/xrp-holds-near-usd1-41-as-range-tightens-breakout-setup-builds",
+        "title": "CoinDesk 20 performance update: Stellar (XLM) gains 6% as all constituents rise",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/03/25/coindesk-20-performance-update-stellar-xlm-gains-6-as-all-constituents-rise",
         "source": "CoinDesk",
-        "weight": 0.7299,
-        "score": 0.5333
-      },
-      {
-        "title": "Cardano price indicator that once preceded a 300% rally is back",
-        "url": "https://www.coindesk.com/markets/2026/03/25/cardano-price-indicator-that-once-preceded-a-300-rally-is-back",
-        "source": "CoinDesk",
-        "weight": 0.6394,
-        "score": 0.5333
+        "weight": 0.9958,
+        "score": 0.6667
       },
       {
         "title": "SK Hynix files confidentially for U.S. listing as it rides 'unprecedented growth' in memory market",
         "url": "https://www.cnbc.com/2026/03/25/sk-hynix-confidential-us-listing-adr-ai-memory.html",
         "source": "CNBC Markets",
-        "weight": 0.44,
+        "weight": 0.7833,
         "score": 0.6333
+      },
+      {
+        "title": "Global crypto market cap up 2.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Philippines Says It Can Intervene to Ensure Airlines Secure Fuel",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/philippines-says-it-can-intervene-to-ensure-airlines-secure-fuel",
-        "source": "Bloomberg Markets",
-        "weight": 0.769,
-        "score": -0.9667
-      },
-      {
-        "title": "HK’s Top Developer Gets $2.6 Billion Loan at Multi-Year Low Rate",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/hk-s-top-developer-gets-2-6-billion-loan-at-multi-year-low-rate",
-        "source": "Bloomberg Markets",
-        "weight": 0.7018,
-        "score": -0.9667
-      },
-      {
-        "title": "Prince Behind $490 Billion Private Bank Says Political Risk Rising",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/prince-behind-490-billion-lgt-says-political-risk-on-the-rise",
-        "source": "Bloomberg Markets",
-        "weight": 0.6443,
+        "title": "TruGolf Announces Reverse Stock Split",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trugolf-announces-reverse-stock-split-130000069.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.759,
         "score": -1.0
+      },
+      {
+        "title": "Paul Chan Tells Bloomberg Quality Listings Are Key",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-25/paul-chan-tells-bloomberg-quality-listings-are-key-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7267,
+        "score": -0.9667
+      },
+      {
+        "title": "1 Software Stock with Solid Fundamentals and 2 We Question",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/1-software-stock-solid-fundamentals-120330717.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6807,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3711897400286487,
-          "price_change_24h": 0.00035
+          "volume_mcap_ratio": 0.38828034827172747,
+          "price_change_24h": 0.00509
+        },
+        {
+          "symbol": "TAO",
+          "volume_mcap_ratio": 0.3062395535991324,
+          "price_change_24h": 16.39364
         }
       ],
       "momentum_shifts": []
