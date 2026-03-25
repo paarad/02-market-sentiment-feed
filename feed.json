@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-25T20:23:03.278560+00:00",
+  "updated_at": "2026-03-25T20:49:00.915131+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.105,
+    "change24h": 0.013,
+    "vol": 0.084,
     "fearGreed": 14,
-    "momentum": 0.377,
+    "momentum": 0.233,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4163,
-    "global_sentiment": 0.4707,
-    "combined_sentiment": 0.4348,
-    "confidence": 0.8064,
+    "crypto_sentiment": 0.4445,
+    "global_sentiment": 0.4431,
+    "combined_sentiment": 0.4536,
+    "confidence": 0.812,
     "counts": {
-      "crypto": 54,
-      "global": 41
+      "crypto": 55,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 70755,
-      "btc_change_24h": 1.34,
-      "eth_price": 2166.29,
-      "eth_change_24h": 1.3,
+      "btc_price": 70879,
+      "btc_change_24h": 1.3,
+      "eth_price": 2164.25,
+      "eth_change_24h": 0.87,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149452023366.66,
+        "volume_24h": 146200001550.66,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.74,
+        "btc_dominance": 57.79,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-12T05:18:03.577050+00:00",
-      "crypto": 0.3408,
-      "global": 0.5149,
-      "combined": 0.3819,
-      "counts": {
-        "crypto": 51,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-03-12T08:54:14.321624+00:00",
       "crypto": 0.3024,
@@ -1008,66 +998,76 @@
         "crypto": 54,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-03-25T20:49:00.915131+00:00",
+      "crypto": 0.4445,
+      "global": 0.4431,
+      "combined": 0.4536,
+      "counts": {
+        "crypto": 55,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tevogen Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tevogen-regains-compliance-nasdaq-minimum-182000672.html?.tsrc=rss",
+        "title": "How major US stock indexes fared Wednesday 3/25/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201712711.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6312,
-        "score": 0.9667
+        "weight": 0.7525,
+        "score": 0.6667
       },
       {
         "title": "Bitcoin price eyes breakout as EIA signals sub $80 oil path after 20% global supply shock starts easing",
         "url": "https://cryptoslate.com/bitcoin-price-eyes-breakout-as-eia-signals-sub-80-oil-path-after-20-global-supply-shock-starts-easing/",
         "source": "CryptoSlate",
-        "weight": 0.5148,
+        "weight": 0.4897,
         "score": 1.0
       },
       {
-        "title": "Investor sees 'Mag 7' deals; energy, consumer staples too rich",
-        "url": "https://finance.yahoo.com/video/investor-sees-mag-7-deals-200048176.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7664,
+        "title": "Bitcoin ‘compression’ outcome may send BTC to $80K: Analyst",
+        "url": "https://cointelegraph.com/news/bitcoin-compression-outcome-may-send-btc-to-dollar80k-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8706,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Elon Musk calls for Delaware judge to recuse herself in lawsuits, alleging bias",
+        "url": "https://www.cnbc.com/2026/03/25/elon-musk-calls-for-delaware-judge-to-recuse-in-cases-alleging-bias.html",
+        "source": "CNBC Markets",
+        "weight": 0.7845,
+        "score": -1.0
+      },
+      {
         "title": "SCHB vs. VTV: SCHB Targets Broad Market Reach, While VTV Focuses on Value",
         "url": "https://www.fool.com/coverage/etfs/2026/03/25/schb-vs-vtv-schb-targets-broad-market-reach-while-vtv-focuses-on-value/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7611,
+        "weight": 0.7239,
         "score": -0.9667
       },
       {
         "title": "Merck to Buy Terns for $6.7B to Grow in Blood Cancers",
         "url": "https://www.bloomberg.com/news/videos/2026-03-25/merck-to-buy-terns-for-6-7b-to-grow-in-blood-cancers-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6833,
+        "weight": 0.65,
         "score": -0.9333
-      },
-      {
-        "title": "Apollo’s Insurance Arm Vaults to Second-Biggest FHLB Borrower",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/apollo-s-insurance-arm-vaults-to-second-biggest-fhlb-borrower",
-        "source": "Bloomberg Markets",
-        "weight": 0.5791,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3569395763409265,
-          "price_change_24h": 0.00221
+          "volume_mcap_ratio": 0.3512964059433103,
+          "price_change_24h": 0.00164
         },
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.30749872344329643,
-          "price_change_24h": 4.81329
+          "volume_mcap_ratio": 0.309727215116454,
+          "price_change_24h": 4.42773
         }
       ],
       "momentum_shifts": []
