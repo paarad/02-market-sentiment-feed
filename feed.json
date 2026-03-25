@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-25T13:27:21.055937+00:00",
+  "updated_at": "2026-03-25T17:11:47.554882+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.137,
+    "change24h": 0.041,
+    "vol": 0.128,
     "fearGreed": 14,
-    "momentum": 0.599,
+    "momentum": 0.722,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4758,
-    "global_sentiment": 0.4305,
-    "combined_sentiment": 0.476,
-    "confidence": 0.7892,
+    "crypto_sentiment": 0.4913,
+    "global_sentiment": 0.5243,
+    "combined_sentiment": 0.4955,
+    "confidence": 0.8144,
     "counts": {
-      "crypto": 56,
-      "global": 44
+      "crypto": 60,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 71613,
-      "btc_change_24h": 1.45,
-      "eth_price": 2182.46,
-      "eth_change_24h": 1.52,
+      "btc_price": 71185,
+      "btc_change_24h": 2.89,
+      "eth_price": 2170.03,
+      "eth_change_24h": 2.57,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.75,
       "fear_greed": {
         "value": 14,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 162292998822.66,
+        "volume_24h": 148891307417.66,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.92,
+        "btc_dominance": 57.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-11T20:43:46.192571+00:00",
-      "crypto": 0.3919,
-      "global": 0.3679,
-      "combined": 0.4079,
-      "counts": {
-        "crypto": 50,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-12T02:44:06.078767+00:00",
       "crypto": 0.3677,
@@ -1008,66 +998,76 @@
         "crypto": 56,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-25T17:11:47.554882+00:00",
+      "crypto": 0.4913,
+      "global": 0.5243,
+      "combined": 0.4955,
+      "counts": {
+        "crypto": 60,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin price eyes breakout as EIA signals sub $80 oil path after 20% global supply shock starts easing",
+        "url": "https://cryptoslate.com/bitcoin-price-eyes-breakout-as-eia-signals-sub-80-oil-path-after-20-global-supply-shock-starts-easing/",
+        "source": "CryptoSlate",
+        "weight": 0.744,
+        "score": 1.0
+      },
+      {
+        "title": "UK’s Renewables Output Hits Record, Helping to Blunt Iran Shock",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-25/uk-s-renewables-output-hits-record-helping-to-blunt-iran-shock",
+        "source": "Bloomberg Markets",
+        "weight": 0.6369,
+        "score": 0.8667
+      },
+      {
         "title": "CoinDesk 20 performance update: Stellar (XLM) gains 6% as all constituents rise",
         "url": "https://www.coindesk.com/coindesk-indices/2026/03/25/coindesk-20-performance-update-stellar-xlm-gains-6-as-all-constituents-rise",
         "source": "CoinDesk",
-        "weight": 0.9958,
+        "weight": 0.6464,
         "score": 0.6667
-      },
-      {
-        "title": "SK Hynix files confidentially for U.S. listing as it rides 'unprecedented growth' in memory market",
-        "url": "https://www.cnbc.com/2026/03/25/sk-hynix-confidential-us-listing-adr-ai-memory.html",
-        "source": "CNBC Markets",
-        "weight": 0.7833,
-        "score": 0.6333
-      },
-      {
-        "title": "Global crypto market cap up 2.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "TruGolf Announces Reverse Stock Split",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/trugolf-announces-reverse-stock-split-130000069.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.759,
-        "score": -1.0
+        "title": "Merck to buy Terns Pharmaceuticals for $6.7 billion to boost cancer pipeline",
+        "url": "https://www.cnbc.com/2026/03/25/merck-buy-terns-pharmaceuticals-mrk-stock-boost-cancer-pipeline.html",
+        "source": "CNBC Markets",
+        "weight": 0.5952,
+        "score": -0.9333
       },
       {
-        "title": "Paul Chan Tells Bloomberg Quality Listings Are Key",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-25/paul-chan-tells-bloomberg-quality-listings-are-key-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7267,
-        "score": -0.9667
+        "title": "U.S. stock valuations point to near-term upside, Citadel strategist says",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-valuations-point-near-170142470.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7846,
+        "score": -0.6333
       },
       {
-        "title": "1 Software Stock with Solid Fundamentals and 2 We Question",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-software-stock-solid-fundamentals-120330717.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6807,
-        "score": -0.9667
+        "title": "Fear & Greed 14 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38828034827172747,
-          "price_change_24h": 0.00509
+          "volume_mcap_ratio": 0.36702894219467386,
+          "price_change_24h": 0.00276
         },
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.3062395535991324,
-          "price_change_24h": 16.39364
+          "volume_mcap_ratio": 0.313672188123741,
+          "price_change_24h": 15.49385
         }
       ],
       "momentum_shifts": []
