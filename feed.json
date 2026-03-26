@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-26T05:43:54.243287+00:00",
+  "updated_at": "2026-03-26T09:06:44.049178+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.088,
+    "change24h": -0.037,
+    "vol": 0.122,
     "fearGreed": 10,
-    "momentum": -0.331,
+    "momentum": -0.654,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4381,
-    "global_sentiment": 0.4391,
-    "combined_sentiment": 0.4485,
-    "confidence": 0.7232,
+    "crypto_sentiment": 0.4291,
+    "global_sentiment": 0.4543,
+    "combined_sentiment": 0.4431,
+    "confidence": 0.724,
     "counts": {
-      "crypto": 55,
-      "global": 35
+      "crypto": 57,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 70500,
-      "btc_change_24h": -0.97,
-      "eth_price": 2141.09,
-      "eth_change_24h": -1.43,
+      "btc_price": 69947,
+      "btc_change_24h": -1.9,
+      "eth_price": 2116.66,
+      "eth_change_24h": -2.84,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 131567872268.66,
+        "volume_24h": 132279776963.66,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.84,
+        "btc_dominance": 57.81,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-12T17:03:41.228957+00:00",
-      "crypto": 0.406,
-      "global": 0.5602,
-      "combined": 0.4345,
-      "counts": {
-        "crypto": 58,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-03-12T20:04:04.243809+00:00",
       "crypto": 0.4517,
@@ -1008,66 +998,76 @@
         "crypto": 55,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-03-26T09:06:44.049178+00:00",
+      "crypto": 0.4291,
+      "global": 0.4543,
+      "combined": 0.4431,
+      "counts": {
+        "crypto": 57,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Wall Street advances as investors bet on Mideast de-escalation",
-        "url": "https://finance.yahoo.com/video/wall-street-advances-investors-bet-224502406.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3571,
-        "score": 1.0
+        "title": "Hong Kong Bourse Plans Micro Futures on Hang Seng, Tech Index",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-26/hong-kong-bourse-plans-micro-futures-on-hang-seng-tech-index",
+        "source": "Bloomberg Markets",
+        "weight": 0.738,
+        "score": 0.6667
       },
       {
-        "title": "$18.6B in Bitcoin options expire Friday: Should traders prepare for $75K BTC?",
-        "url": "https://cointelegraph.com/news/18-6b-in-bitcoin-options-expire-friday-should-traders-prepare-for-75k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.526,
+        "title": "Some bitcoin indicators are still going the wrong way, challenging the bullish $70,000 holdout story",
+        "url": "https://www.coindesk.com/markets/2026/03/26/some-bitcoin-indicators-are-still-going-the-wrong-way-challenging-the-bullish-usd70-000-holdout-story",
+        "source": "CoinDesk",
+        "weight": 0.7146,
         "score": 0.5333
       },
       {
-        "title": "Meituan Hedges Get Costly as Price Wars Make Investors Cautious",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/meituan-hedges-get-costly-as-price-wars-make-investors-cautious",
-        "source": "Bloomberg Markets",
-        "weight": 0.3896,
-        "score": 0.6667
+        "title": "Wall Street advances as investors bet on Mideast de-escalation",
+        "url": "https://finance.yahoo.com/video/wall-street-advances-investors-bet-224502406.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.2417,
+        "score": 1.0
       }
     ],
     "negative": [
+      {
+        "title": "US & Iran Spar Over Talks & Trump-Xi To Hold Summit in May | Daybreak Europe 3/26/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-26/daybreak-europe-3-26-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7452,
+        "score": -0.9667
+      },
+      {
+        "title": "Fenbushi co-founder offers bounty to recover $42M lost in 2022 hack",
+        "url": "https://cointelegraph.com/news/fenbushi-co-founder-offers-bounty-to-recover-42m-lost-in-2022-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6741,
+        "score": -0.7333
+      },
       {
         "title": "Fear & Greed 10 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Arrowmark Financial Corp. Releases Month End Estimated Net Asset Value as of February 2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/arrowmark-financial-corp-releases-month-223900206.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.353,
-        "score": -0.9667
-      },
-      {
-        "title": "US lawmakers hash out tokenized securities concerns in latest hearing",
-        "url": "https://cointelegraph.com/news/us-lawmakers-tokenized-securities-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.299,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3285460674185059,
-          "price_change_24h": -0.0045
+          "volume_mcap_ratio": 0.32674921793882455,
+          "price_change_24h": -0.016
         },
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.3039886571107959,
-          "price_change_24h": 1.40772
+          "volume_mcap_ratio": 0.3026135986111176,
+          "price_change_24h": -2.02642
         }
       ],
       "momentum_shifts": []
