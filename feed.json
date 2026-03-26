@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-26T02:56:23.017428+00:00",
+  "updated_at": "2026-03-26T05:43:54.243287+00:00",
   "indicators": {
-    "change24h": -0.001,
-    "vol": 0.053,
+    "change24h": -0.019,
+    "vol": 0.088,
     "fearGreed": 10,
-    "momentum": -0.01,
-    "regime": "sideways",
+    "momentum": -0.331,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4509,
-    "global_sentiment": 0.399,
-    "combined_sentiment": 0.4547,
-    "confidence": 0.7404,
+    "crypto_sentiment": 0.4381,
+    "global_sentiment": 0.4391,
+    "combined_sentiment": 0.4485,
+    "confidence": 0.7232,
     "counts": {
-      "crypto": 69,
-      "global": 40
+      "crypto": 55,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 70857,
-      "btc_change_24h": 0.53,
-      "eth_price": 2147.47,
-      "eth_change_24h": -0.33,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "btc_price": 70500,
+      "btc_change_24h": -0.97,
+      "eth_price": 2141.09,
+      "eth_change_24h": -1.43,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133967432511.66,
-        "high_activity_coins": 1
+        "volume_24h": 131567872268.66,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.87,
+        "btc_dominance": 57.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-12T13:17:57.544488+00:00",
-      "crypto": 0.4312,
-      "global": 0.552,
-      "combined": 0.4527,
-      "counts": {
-        "crypto": 56,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-03-12T17:03:41.228957+00:00",
       "crypto": 0.406,
@@ -1008,61 +998,76 @@
         "crypto": 69,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-26T05:43:54.243287+00:00",
+      "crypto": 0.4381,
+      "global": 0.4391,
+      "combined": 0.4485,
+      "counts": {
+        "crypto": 55,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Hostplus' Sicilia on Investment Strategies",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-26/hostplus-sicilia-on-investment-strategies-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7543,
-        "score": 0.6667
-      },
-      {
         "title": "Wall Street advances as investors bet on Mideast de-escalation",
         "url": "https://finance.yahoo.com/video/wall-street-advances-investors-bet-224502406.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4931,
+        "weight": 0.3571,
         "score": 1.0
       },
       {
-        "title": "Invesco’s Top Fund Manager Sticks to Bearish Dollar Call Despite Surge",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-25/invesco-s-campmany-sticks-to-bearish-dollar-call-despite-surge",
+        "title": "$18.6B in Bitcoin options expire Friday: Should traders prepare for $75K BTC?",
+        "url": "https://cointelegraph.com/news/18-6b-in-bitcoin-options-expire-friday-should-traders-prepare-for-75k-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.526,
+        "score": 0.5333
+      },
+      {
+        "title": "Meituan Hedges Get Costly as Price Wars Make Investors Cautious",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-25/meituan-hedges-get-costly-as-price-wars-make-investors-cautious",
         "source": "Bloomberg Markets",
-        "weight": 0.5617,
-        "score": 0.8667
+        "weight": 0.3896,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "BOK Flags Financial Stability Risks as Iran War Fallout Persists",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-26/bok-flags-financial-stability-risks-as-iran-war-fallout-persists",
-        "source": "Bloomberg Markets",
-        "weight": 0.7177,
-        "score": -0.6667
+        "title": "Fear & Greed 10 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
         "title": "Arrowmark Financial Corp. Releases Month End Estimated Net Asset Value as of February 2026",
         "url": "https://finance.yahoo.com/markets/stocks/articles/arrowmark-financial-corp-releases-month-223900206.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4874,
+        "weight": 0.353,
         "score": -0.9667
       },
       {
-        "title": "Ex-Adviser: Japan Should Send Ships to Secure Hormuz",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-26/ex-adviser-japan-should-send-ships-to-secure-hormuz-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7182,
-        "score": -0.6333
+        "title": "US lawmakers hash out tokenized securities concerns in latest hearing",
+        "url": "https://cointelegraph.com/news/us-lawmakers-tokenized-securities-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.299,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.33199282265740376,
-          "price_change_24h": 0.0092
+          "volume_mcap_ratio": 0.3285460674185059,
+          "price_change_24h": -0.0045
+        },
+        {
+          "symbol": "TAO",
+          "volume_mcap_ratio": 0.3039886571107959,
+          "price_change_24h": 1.40772
         }
       ],
       "momentum_shifts": []
