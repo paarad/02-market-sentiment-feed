@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-26T20:42:01.396205+00:00",
+  "updated_at": "2026-03-27T03:17:38.123905+00:00",
   "indicators": {
-    "change24h": -0.046,
-    "vol": 0.116,
-    "fearGreed": 10,
-    "momentum": -0.797,
+    "change24h": -0.041,
+    "vol": 0.111,
+    "fearGreed": 13,
+    "momentum": -0.71,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4441,
-    "global_sentiment": 0.4497,
-    "combined_sentiment": 0.4539,
-    "confidence": 0.7994,
+    "crypto_sentiment": 0.3848,
+    "global_sentiment": 0.4437,
+    "combined_sentiment": 0.4089,
+    "confidence": 0.7492,
     "counts": {
-      "crypto": 46,
-      "global": 43
+      "crypto": 45,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 69150,
-      "btc_change_24h": -2.43,
-      "eth_price": 2069.93,
-      "eth_change_24h": -4.35,
+      "btc_price": 68724,
+      "btc_change_24h": -3.07,
+      "eth_price": 2060.68,
+      "eth_change_24h": -4.21,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 10,
+        "value": 13,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 167240431848.66,
+        "volume_24h": 165009572739.66,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.84,
+        "btc_dominance": 57.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-13T08:52:02.718831+00:00",
-      "crypto": 0.4478,
-      "global": 0.4995,
-      "combined": 0.4608,
-      "counts": {
-        "crypto": 61,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-03-13T13:15:45.922712+00:00",
       "crypto": 0.5505,
@@ -1008,66 +998,76 @@
         "crypto": 46,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-03-27T03:17:38.123905+00:00",
+      "crypto": 0.3848,
+      "global": 0.4437,
+      "combined": 0.4089,
+      "counts": {
+        "crypto": 45,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "OKX won’t rush IPO as exec warns poor listings hurt crypto industry",
-        "url": "https://www.coindesk.com/business/2026/03/26/okx-says-it-won-t-go-public-until-it-can-deliver-returns-to-investors",
-        "source": "CoinDesk",
-        "weight": 0.8742,
-        "score": 0.6333
-      },
-      {
-        "title": "Playnance G Coin shifts from breakout launch to utility test",
-        "url": "https://cryptoslate.com/playnance-g-coin-shifts-from-breakout-launch-to-utility-test/",
-        "source": "CryptoSlate",
-        "weight": 0.5432,
+        "title": "China’s Industrial Profits Jumped Before Iran War Disruption",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-27/china-s-industrial-profits-surged-in-early-2026-before-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.657,
         "score": 1.0
       },
       {
-        "title": "SpaceX Lines Up April Investor Briefings as IPO Questions Swirl",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-26/spacex-lines-up-april-investor-briefings-as-ipo-questions-swirl",
-        "source": "Bloomberg Markets",
-        "weight": 0.669,
+        "title": "SpaceX Plans April Investor Briefings as IPO Questions Swirl",
+        "url": "https://finance.yahoo.com/news/spacex-lines-april-investor-briefings-190907625.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.53,
         "score": 0.6333
+      },
+      {
+        "title": "China industrial profits surge 15% to start year, but oil price shock threatens outlook",
+        "url": "https://www.cnbc.com/2026/03/27/china-industrial-profits-jan-feb-surge-oil-price-shock-threatens-outlook.html",
+        "source": "CNBC Markets",
+        "weight": 0.7911,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "FTEC vs. SOXX: Which Tech ETF Is the Better Buy for Your Portfolio?",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/26/ftec-vs-soxx-which-tech-etf-is-the-better-buy-for-your-portfolio/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6908,
+        "title": "Australia’s Fuel Supply Secure in Near Term, Albanese Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-27/australia-s-fuel-supply-secure-in-near-term-albanese-says",
+        "source": "Bloomberg Markets",
+        "weight": 0.6063,
         "score": -0.9667
       },
       {
-        "title": "Banxico Resumes Monetary Easing Despite Price Pressures",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-26/banxico-resumes-monetary-easing-despite-rising-price-pressures",
-        "source": "Bloomberg Markets",
-        "weight": 0.6581,
-        "score": -1.0
+        "title": "Anthropic wins preliminary injunction in DOD fight as judge cites 'First Amendment retaliation'",
+        "url": "https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html",
+        "source": "CNBC Markets",
+        "weight": 0.716,
+        "score": -0.7333
       },
       {
-        "title": "A new US rule wiped $5B off Circle — but it may hurt Coinbase more",
-        "url": "https://cryptoslate.com/a-new-us-rule-wiped-5b-off-circle-but-it-may-hurt-coinbase-more/",
-        "source": "CryptoSlate",
-        "weight": 0.5547,
-        "score": -1.0
+        "title": "Ping An of China Prefers Short-Term Debt to Dodge Iran War Risk",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-27/ping-an-of-china-prefers-short-term-debt-to-dodge-iran-war-risk",
+        "source": "Bloomberg Markets",
+        "weight": 0.6626,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4184512091788872,
-          "price_change_24h": -0.01604
+          "volume_mcap_ratio": 0.41648701071552724,
+          "price_change_24h": -0.01904
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.32789845027269693,
-          "price_change_24h": -2.07271
+          "volume_mcap_ratio": 0.319248820309243,
+          "price_change_24h": -1.70774
         }
       ],
       "momentum_shifts": []
