@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-27T05:44:57.220469+00:00",
+  "updated_at": "2026-03-27T09:02:09.334367+00:00",
   "indicators": {
-    "change24h": -0.031,
-    "vol": 0.1,
+    "change24h": -0.027,
+    "vol": 0.094,
     "fearGreed": 13,
-    "momentum": -0.547,
+    "momentum": -0.468,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.361,
-    "global_sentiment": 0.497,
-    "combined_sentiment": 0.3955,
-    "confidence": 0.7545,
+    "crypto_sentiment": 0.3595,
+    "global_sentiment": 0.4669,
+    "combined_sentiment": 0.3919,
+    "confidence": 0.6981,
     "counts": {
-      "crypto": 46,
-      "global": 44
+      "crypto": 58,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 68579,
-      "btc_change_24h": -2.61,
-      "eth_price": 2058.18,
-      "eth_change_24h": -3.75,
+      "btc_price": 67873,
+      "btc_change_24h": -2.93,
+      "eth_price": 2046.75,
+      "eth_change_24h": -3.28,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 169580640314.66,
-        "high_activity_coins": 2
+        "volume_24h": 170307985086.66,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.68,
+        "btc_dominance": 57.55,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-13T16:51:00.960820+00:00",
-      "crypto": 0.5438,
-      "global": 0.5585,
-      "combined": 0.5377,
-      "counts": {
-        "crypto": 54,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-13T20:02:34.099821+00:00",
       "crypto": 0.6247,
@@ -1008,66 +998,71 @@
         "crypto": 46,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-27T09:02:09.334367+00:00",
+      "crypto": 0.3595,
+      "global": 0.4669,
+      "combined": 0.3919,
+      "counts": {
+        "crypto": 58,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "China’s Industrial Profits Jumped Before Iran War Disruption",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-27/china-s-industrial-profits-surged-in-early-2026-before-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.4947,
-        "score": 1.0
-      },
-      {
-        "title": "Copper Heads for First Weekly Gain Since Start of Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-27/copper-heads-for-first-weekly-gain-since-start-of-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.6281,
+        "title": "Foreign investors pull a record $12 billion from Indian stocks, sparked by Iran war",
+        "url": "https://www.cnbc.com/2026/03/27/indian-equities-foreign-investors-sell-12-billion-stocks.html",
+        "source": "CNBC Markets",
+        "weight": 0.7606,
         "score": 0.6667
       },
       {
-        "title": "VisionSys AI (VSA) Soars 140% After Exchange Non-Compliance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/visionsys-ai-vsa-soars-140-033658184.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6253,
-        "score": 0.5
+        "title": "Copper Heads for Its First Weekly Gain Since Start of Iran War",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-27/copper-heads-for-first-weekly-gain-since-start-of-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.4296,
+        "score": 0.6667
+      },
+      {
+        "title": "India takes a ‘huge hit’ on tax revenue to keep fuel prices from surging during the Iran war",
+        "url": "https://www.cnbc.com/2026/03/27/india-fuel-tax-cut-oil-prices-iran-war-impact.html",
+        "source": "CNBC Markets",
+        "weight": 0.7739,
+        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "US federal judge temporarily blocks Pentagon's Anthropic ban",
-        "url": "https://cointelegraph.com/news/us-court-temporarily-blocks-trump-supply-chain-risk-against-anthropic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7366,
-        "score": -0.6667
-      },
-      {
-        "title": "Is the Stock Market Going to Crash This Year? History Could Not Be Any Clearer on What Should Happen in 2026.",
-        "url": "https://www.fool.com/investing/2026/03/27/is-the-stock-market-going-to-crash-this-year-histo/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7625,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Tesla Stock Tries to Break 5-Week Losing Run. SpaceX IPO, Rosy Sales Estimates May Not Be Enough.",
+        "url": "https://finance.yahoo.com/m/e8cde464-d02e-352c-bc47-4032ade17336/tesla-stock-tries-to-break.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6699,
+        "score": -0.6333
+      },
+      {
+        "title": "US federal judge temporarily blocks Pentagon's Anthropic ban",
+        "url": "https://cointelegraph.com/news/us-court-temporarily-blocks-trump-supply-chain-risk-against-anthropic?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5039,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42352192182739923,
-          "price_change_24h": -0.0122
-        },
-        {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.31447781385564516,
-          "price_change_24h": -0.50286
+          "volume_mcap_ratio": 0.4140538517731965,
+          "price_change_24h": -0.01998
         }
       ],
       "momentum_shifts": []
