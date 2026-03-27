@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-27T17:01:24.398731+00:00",
+  "updated_at": "2026-03-27T20:19:24.871067+00:00",
   "indicators": {
-    "change24h": -0.035,
-    "vol": 0.118,
+    "change24h": -0.032,
+    "vol": 0.134,
     "fearGreed": 13,
-    "momentum": -0.611,
+    "momentum": -0.553,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3158,
-    "global_sentiment": 0.4555,
-    "combined_sentiment": 0.3582,
-    "confidence": 0.8034,
+    "crypto_sentiment": 0.3076,
+    "global_sentiment": 0.3096,
+    "combined_sentiment": 0.3398,
+    "confidence": 0.782,
     "counts": {
-      "crypto": 50,
-      "global": 54
+      "crypto": 64,
+      "global": 58
     },
     "market_indicators": {
-      "btc_price": 65950,
-      "btc_change_24h": -4.37,
-      "eth_price": 1985.97,
-      "eth_change_24h": -3.76,
+      "btc_price": 65975,
+      "btc_change_24h": -4.62,
+      "eth_price": 1990.44,
+      "eth_change_24h": -3.96,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 189857466567.66,
+        "volume_24h": 180836635445.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.21,
+        "btc_dominance": 57.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-14T02:40:18.856367+00:00",
-      "crypto": 0.5582,
-      "global": 0.4238,
-      "combined": 0.5373,
-      "counts": {
-        "crypto": 50,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-03-14T05:13:23.335529+00:00",
       "crypto": 0.5636,
@@ -1008,66 +998,76 @@
         "crypto": 50,
         "global": 54
       }
+    },
+    {
+      "ts": "2026-03-27T20:19:24.871067+00:00",
+      "crypto": 0.3076,
+      "global": 0.3096,
+      "combined": 0.3398,
+      "counts": {
+        "crypto": 64,
+        "global": 58
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Fiserv (FISV) Became the Biggest Detractor After Lowered Guidance and Accounting Concerns",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/fiserv-fisv-became-biggest-detractor-162443273.html?.tsrc=rss",
+        "title": "Assessing Coherent (COHR) Valuation After S&P 500 Inclusion And New AI-Focused Photonics Products",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-coherent-cohr-valuation-p-190351364.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7454,
-        "score": 1.0
+        "weight": 0.6917,
+        "score": 0.6667
       },
       {
-        "title": "Taiwan Semiconductor Manufacturing (TSM) Soared on Strong AI Chip Demand",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-manufacturing-tsm-soared-154500777.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6906,
-        "score": 1.0
+        "title": "Strategy is accelerating its crypto purchases as rivals sit on the sidelines",
+        "url": "https://www.cnbc.com/2026/03/27/strategy-is-accelerating-its-crypto-purchases-as-rivals-sit-on-the-sidelines.html",
+        "source": "CNBC Markets",
+        "weight": 0.7947,
+        "score": 0.3333
       },
       {
-        "title": "Micron Technology (MU) Shares Rallied More Than Triple In 2025",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-mu-shares-rallied-154214911.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6869,
-        "score": 1.0
+        "title": "TSA officers will start getting paychecks as early as Monday, DHS says",
+        "url": "https://www.cnbc.com/2026/03/27/tsa-dhs-paychecks-shutdown.html",
+        "source": "CNBC Markets",
+        "weight": 0.7858,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Stock Slump Deepens as Brent Crude Climbs",
-        "url": "https://www.wsj.com/articles/oil-climbs-higher-stock-recovery-fades-as-doubts-cloud-cease-fire-hopes-784ccfb6?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7589,
+        "title": "Epstein victims sue Google and the Trump administration over alleged disclosure of personal information",
+        "url": "https://www.cnbc.com/2026/03/27/jeffrey-epstein-victims-sue-trump-administration-google.html",
+        "source": "CNBC Markets",
+        "weight": 0.7671,
+        "score": -1.0
+      },
+      {
+        "title": "What the Iran War Reveals About China’s Global Role",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-27/wsw170a-what-the-iran-war-reveals-about-china-s-global-role",
+        "source": "Bloomberg Markets",
+        "weight": 0.7596,
         "score": -0.9667
       },
       {
-        "title": "AstraZeneca stock jumps after surprise trial win for lung disease drug where rivals have failed",
-        "url": "https://www.cnbc.com/2026/03/27/astrazeneca-stock-az-trial-lung-drug-shares-tozorakimab.html",
-        "source": "CNBC Markets",
-        "weight": 0.7792,
-        "score": -0.9333
-      },
-      {
-        "title": "Brightline Florida Said to Work With Adviser on Troubled Railroad’s Debt Talks",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-27/brightline-florida-said-to-work-with-adviser-on-troubled-railroad-s-debt-talks",
-        "source": "Bloomberg Markets",
-        "weight": 0.7535,
-        "score": -0.9333
+        "title": "The Stock Market’s Bottom Is Closer Than You Think",
+        "url": "https://finance.yahoo.com/m/4831894e-54bb-3035-892d-fa0d64c26e96/the-stock-market%E2%80%99s-bottom-is.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6999,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.45902039838117853,
-          "price_change_24h": 0.00484
+          "volume_mcap_ratio": 0.4414555047142504,
+          "price_change_24h": -0.01813
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3223753071453528,
-          "price_change_24h": 0.03881
+          "volume_mcap_ratio": 0.32679822867079084,
+          "price_change_24h": 0.01532
         }
       ],
       "momentum_shifts": []
