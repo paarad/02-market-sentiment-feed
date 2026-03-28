@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-27T20:49:06.635126+00:00",
+  "updated_at": "2026-03-28T02:48:23.397109+00:00",
   "indicators": {
-    "change24h": -0.037,
-    "vol": 0.14,
-    "fearGreed": 13,
-    "momentum": -0.642,
+    "change24h": -0.039,
+    "vol": 0.148,
+    "fearGreed": 12,
+    "momentum": -0.675,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3052,
-    "global_sentiment": 0.3074,
-    "combined_sentiment": 0.3378,
-    "confidence": 0.7795,
+    "crypto_sentiment": 0.2975,
+    "global_sentiment": 0.3062,
+    "combined_sentiment": 0.332,
+    "confidence": 0.699,
     "counts": {
-      "crypto": 48,
-      "global": 53
+      "crypto": 62,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 65913,
-      "btc_change_24h": -4.64,
-      "eth_price": 1981.83,
-      "eth_change_24h": -4.22,
+      "btc_price": 65951,
+      "btc_change_24h": -4.24,
+      "eth_price": 1984.55,
+      "eth_change_24h": -4.04,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.15,
       "fear_greed": {
-        "value": 13,
+        "value": 12,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 180231969826.0,
+        "volume_24h": 169766637669.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.23,
+        "btc_dominance": 57.26,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-14T08:45:34.301990+00:00",
-      "crypto": 0.4921,
-      "global": 0.4602,
-      "combined": 0.4908,
-      "counts": {
-        "crypto": 65,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-14T13:07:54.160181+00:00",
       "crypto": 0.5198,
@@ -1008,66 +998,76 @@
         "crypto": 48,
         "global": 53
       }
+    },
+    {
+      "ts": "2026-03-28T02:48:23.397109+00:00",
+      "crypto": 0.2975,
+      "global": 0.3062,
+      "combined": 0.332,
+      "counts": {
+        "crypto": 62,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones index enters correction territory after five weeks of losses",
-        "url": "https://www.cbsnews.com/news/stock-market-today-dow-sp500-drop-oil-prices-iran-war/?ftag=YHF4eb9d17&.tsrc=rss",
+        "title": "Canadian quantum stock Xanadu jumps in first day of trading on Nasdaq",
+        "url": "https://financialpost.com/technology/xanadu-quantum-technologies-stock-jumps-jumps-in-first-day-trading-on-nasdaq?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7812,
+        "weight": 0.5164,
+        "score": 0.6333
+      },
+      {
+        "title": "Ex-Mozambique Finance Minister in ICE Custody After Travel Snafu",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-27/ex-mozambique-finance-minister-in-ice-custody-after-travel-snafu",
+        "source": "Bloomberg Markets",
+        "weight": 0.5581,
         "score": 0.3333
       },
       {
-        "title": "Stocks sink, Wall Street's 'fear gauge' spikes as Iran war continues",
-        "url": "https://www.usatoday.com/story/money/2026/03/27/stock-correction-wall-street-down-trump-taco/89353015007/?.tsrc=rss",
+        "title": "Stock Market Today, March 27: Unity Software Surges on Vector AI Guidance",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/27/stock-market-today-march-27-unity-software-surges-on-vector-ai-guidance/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7766,
-        "score": 0.3333
-      },
-      {
-        "title": "US Equity Markets End Lower After Crude Oil Climbs Amid Unclear Middle East Situation",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201914762.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7553,
+        "weight": 0.4869,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Why Datadog (DDOG) Shares Are Falling Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-datadog-ddog-shares-falling-202508030.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7639,
-        "score": -0.9667
-      },
-      {
         "title": "TSA funding update: House GOP spikes DHS funding proposal, extending shutdown that's caused airport delays",
         "url": "https://www.cnbc.com/2026/03/27/dhs-tsa-shutdown-congress.html",
         "source": "CNBC Markets",
-        "weight": 0.7598,
+        "weight": 0.6807,
         "score": -0.9667
       },
       {
-        "title": "Epstein victims sue Google and the Trump administration over alleged disclosure of personal information",
-        "url": "https://www.cnbc.com/2026/03/27/jeffrey-epstein-victims-sue-trump-administration-google.html",
-        "source": "CNBC Markets",
-        "weight": 0.7244,
-        "score": -1.0
+        "title": "Is Lightfield’s AI-native CRM Challenge Reframing HubSpot’s (HUBS) Competitive Moat in Customer Data Control?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lightfield-ai-native-crm-challenge-020459203.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7359,
+        "score": -0.6333
+      },
+      {
+        "title": "US Signals to Allies No Immediate Plans for Iran Invasion",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-27/us-signals-to-allies-no-immediate-iran-invasion-plans-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4491,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4383677343783258,
-          "price_change_24h": -0.0141
+          "volume_mcap_ratio": 0.4168985677380332,
+          "price_change_24h": -0.01098
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3233494291896032,
-          "price_change_24h": -0.02432
+          "volume_mcap_ratio": 0.3160189267977881,
+          "price_change_24h": 0.02437
         }
       ],
       "momentum_shifts": []
