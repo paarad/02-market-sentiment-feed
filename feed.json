@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-28T13:10:52.083007+00:00",
+  "updated_at": "2026-03-28T16:42:33.319351+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.101,
+    "change24h": 0.036,
+    "vol": 0.105,
     "fearGreed": 12,
-    "momentum": 0.267,
+    "momentum": 0.628,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2674,
-    "global_sentiment": 0.3905,
-    "combined_sentiment": 0.3165,
-    "confidence": 0.6559,
+    "crypto_sentiment": 0.3486,
+    "global_sentiment": 0.3116,
+    "combined_sentiment": 0.3708,
+    "confidence": 0.6766,
     "counts": {
-      "crypto": 64,
-      "global": 35
+      "crypto": 66,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 66434,
-      "btc_change_24h": -0.12,
-      "eth_price": 1999.49,
-      "eth_change_24h": 0.51,
+      "btc_price": 66886,
+      "btc_change_24h": 1.47,
+      "eth_price": 2022.84,
+      "eth_change_24h": 1.92,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122603753812.0,
+        "volume_24h": 102616071435.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.26,
+        "btc_dominance": 57.27,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-14T20:36:37.627476+00:00",
-      "crypto": 0.4354,
-      "global": 0.322,
-      "combined": 0.4367,
-      "counts": {
-        "crypto": 45,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-03-15T03:18:39.881795+00:00",
       "crypto": 0.3687,
@@ -1008,53 +998,63 @@
         "crypto": 64,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-03-28T16:42:33.319351+00:00",
+      "crypto": 0.3486,
+      "global": 0.3116,
+      "combined": 0.3708,
+      "counts": {
+        "crypto": 66,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "A Paramount-Warner Bros. movie slate will need more animated features to compete with Disney and Universal",
         "url": "https://www.cnbc.com/2026/03/28/paramount-warner-bros-movie-slate-needs-animation.html",
         "source": "CNBC Markets",
-        "weight": 0.6218,
+        "weight": 0.4137,
         "score": 0.6667
       },
       {
         "title": "Oil Surge Elicits Tough Love From Trump’s Latin American Allies",
         "url": "https://www.bloomberg.com/news/articles/2026-03-28/oil-surge-elicits-tough-love-from-trump-s-latin-american-allies",
         "source": "Bloomberg Markets",
-        "weight": 0.7395,
+        "weight": 0.4919,
         "score": 0.5333
-      },
-      {
-        "title": "Here’s why Wall Street suddenly obsessed with tokenization – but on its own terms",
-        "url": "https://cryptoslate.com/heres-why-wall-street-suddenly-obsessed-with-tokenization-but-on-its-own-terms/",
-        "source": "CryptoSlate",
-        "weight": 0.6552,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Here's what next as Anthropic's most powerful AI model leaked via unsecured data cache",
-        "url": "https://www.coindesk.com/tech/2026/03/28/here-s-what-next-as-anthropic-s-most-powerful-ai-model-leaked-via-unsecured-data-cache",
-        "source": "CoinDesk",
-        "weight": 0.9793,
+        "title": "Warren Buffett's Berkshire Hathaway falls for a seventh straight day",
+        "url": "https://www.thestreet.com/investing/warren-buffetts-berkshire-hathaway-falls-for-a-seventh-straight-day?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5929,
+        "score": -0.9667
+      },
+      {
+        "title": "Is State Street's SPTM a Better U.S. Market ETF Than Vanguard's VTI?",
+        "url": "https://www.fool.com/coverage/etfs/2026/03/28/is-state-street-s-sptm-a-better-u-s-market-etf-than-vanguard-s-vti/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.74,
         "score": -0.6333
       },
       {
-        "title": "IMO Negotiating Evacuation Corridor for Seafarers",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-28/imo-negotiating-evacuation-corridor-for-seafarers-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7902,
+        "title": "Yemen's Houthis launch Israel strike, the first time since the U.S.-Israel war began",
+        "url": "https://www.cnbc.com/2026/03/28/yemens-houthis-launch-israel-strike-the-first-of-the-iran-war.html",
+        "source": "CNBC Markets",
+        "weight": 0.7388,
         "score": -0.6333
-      },
-      {
-        "title": "Warren probes China-based Bitmain over US security concerns: Report",
-        "url": "https://cointelegraph.com/news/warren-bitmain-us-security-concerns-probe-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5928,
-        "score": -0.8
       }
     ],
     "market_movers": {
