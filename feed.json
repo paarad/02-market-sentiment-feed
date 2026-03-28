@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-28T08:50:39.319572+00:00",
+  "updated_at": "2026-03-28T13:10:52.083007+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.091,
+    "change24h": 0.015,
+    "vol": 0.101,
     "fearGreed": 12,
-    "momentum": -0.161,
+    "momentum": 0.267,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2753,
-    "global_sentiment": 0.301,
-    "combined_sentiment": 0.3149,
-    "confidence": 0.6656,
+    "crypto_sentiment": 0.2674,
+    "global_sentiment": 0.3905,
+    "combined_sentiment": 0.3165,
+    "confidence": 0.6559,
     "counts": {
-      "crypto": 50,
-      "global": 45
+      "crypto": 64,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 66396,
-      "btc_change_24h": -2.08,
-      "eth_price": 2000.8,
-      "eth_change_24h": -2.11,
+      "btc_price": 66434,
+      "btc_change_24h": -0.12,
+      "eth_price": 1999.49,
+      "eth_change_24h": 0.51,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152006572146.0,
-        "high_activity_coins": 1
+        "volume_24h": 122603753812.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.24,
+        "btc_dominance": 57.26,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-14T19:58:39.426612+00:00",
-      "crypto": 0.4391,
-      "global": 0.3231,
-      "combined": 0.4396,
-      "counts": {
-        "crypto": 45,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-03-14T20:36:37.627476+00:00",
       "crypto": 0.4354,
@@ -1008,63 +998,67 @@
         "crypto": 50,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-03-28T13:10:52.083007+00:00",
+      "crypto": 0.2674,
+      "global": 0.3905,
+      "combined": 0.3165,
+      "counts": {
+        "crypto": 64,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "VOO vs. VOOG: Which Vanguard ETF Has More Upside in 2026?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/voo-vs-voog-vanguard-etf-083109303.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7705,
-        "score": 0.3333
+        "title": "A Paramount-Warner Bros. movie slate will need more animated features to compete with Disney and Universal",
+        "url": "https://www.cnbc.com/2026/03/28/paramount-warner-bros-movie-slate-needs-animation.html",
+        "source": "CNBC Markets",
+        "weight": 0.6218,
+        "score": 0.6667
       },
       {
-        "title": "Canadian quantum stock Xanadu jumps in first day of trading on Nasdaq",
-        "url": "https://financialpost.com/technology/xanadu-quantum-technologies-stock-jumps-jumps-in-first-day-trading-on-nasdaq?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2571,
-        "score": 0.6333
+        "title": "Oil Surge Elicits Tough Love From Trump’s Latin American Allies",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-28/oil-surge-elicits-tough-love-from-trump-s-latin-american-allies",
+        "source": "Bloomberg Markets",
+        "weight": 0.7395,
+        "score": 0.5333
       },
       {
-        "title": "Stablecoins will be crypto’s ‘ChatGPT moment’ for businesses: Ripple",
-        "url": "https://cointelegraph.com/news/stablecoins-will-be-cryptos-chatgpt-moment-ripple-garlinghouse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4106,
+        "title": "Here’s why Wall Street suddenly obsessed with tokenization – but on its own terms",
+        "url": "https://cryptoslate.com/heres-why-wall-street-suddenly-obsessed-with-tokenization-but-on-its-own-terms/",
+        "source": "CryptoSlate",
+        "weight": 0.6552,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Potential Bitcoin crash below $60K may delay recovery to 2027: Data",
-        "url": "https://cointelegraph.com/news/potential-bitcoin-crash-below-dollar60k-may-delay-recovery-to-2027-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Here's what next as Anthropic's most powerful AI model leaked via unsecured data cache",
+        "url": "https://www.coindesk.com/tech/2026/03/28/here-s-what-next-as-anthropic-s-most-powerful-ai-model-leaked-via-unsecured-data-cache",
+        "source": "CoinDesk",
+        "weight": 0.9793,
+        "score": -0.6333
+      },
+      {
+        "title": "IMO Negotiating Evacuation Corridor for Seafarers",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-28/imo-negotiating-evacuation-corridor-for-seafarers-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7902,
+        "score": -0.6333
+      },
+      {
+        "title": "Warren probes China-based Bitmain over US security concerns: Report",
+        "url": "https://cointelegraph.com/news/warren-bitmain-us-security-concerns-probe-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7257,
-        "score": -1.0
-      },
-      {
-        "title": "Epstein victims to get $72.5M from Bank of America settlement",
-        "url": "https://www.cnbc.com/2026/03/27/jeffrey-epstein-bank-of-america-lawsuit-settle.html",
-        "source": "CNBC Markets",
-        "weight": 0.4993,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 12 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "weight": 0.5928,
+        "score": -0.8
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3648316857739326,
-          "price_change_24h": -0.00579
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
