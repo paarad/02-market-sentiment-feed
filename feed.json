@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-28T16:42:33.319351+00:00",
+  "updated_at": "2026-03-28T20:01:46.533174+00:00",
   "indicators": {
-    "change24h": 0.036,
-    "vol": 0.105,
+    "change24h": 0.032,
+    "vol": 0.166,
     "fearGreed": 12,
-    "momentum": 0.628,
+    "momentum": 0.565,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3486,
-    "global_sentiment": 0.3116,
-    "combined_sentiment": 0.3708,
-    "confidence": 0.6766,
+    "crypto_sentiment": 0.3668,
+    "global_sentiment": 0.2986,
+    "combined_sentiment": 0.3833,
+    "confidence": 0.6721,
     "counts": {
-      "crypto": 66,
-      "global": 34
+      "crypto": 54,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 66886,
-      "btc_change_24h": 1.47,
-      "eth_price": 2022.84,
-      "eth_change_24h": 1.92,
+      "btc_price": 66863,
+      "btc_change_24h": 1.23,
+      "eth_price": 2019.15,
+      "eth_change_24h": 1.36,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 102616071435.0,
+        "volume_24h": 89183264494.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.27,
+        "btc_dominance": 57.3,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-15T03:18:39.881795+00:00",
-      "crypto": 0.3687,
-      "global": 0.3191,
-      "combined": 0.3864,
-      "counts": {
-        "crypto": 44,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-03-15T05:39:12.383234+00:00",
       "crypto": 0.4417,
@@ -1008,53 +998,63 @@
         "crypto": 66,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-03-28T20:01:46.533174+00:00",
+      "crypto": 0.3668,
+      "global": 0.2986,
+      "combined": 0.3833,
+      "counts": {
+        "crypto": 54,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.5% — rally",
+        "title": "Global crypto market cap up 1.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
+        "title": "Washington sues Kalshi as states ramp up legal pressure against prediction markets",
+        "url": "https://www.coindesk.com/policy/2026/03/28/washington-sues-kalshi-as-states-ramp-up-legal-pressure-against-prediction-markets",
+        "source": "CoinDesk",
+        "weight": 0.7667,
+        "score": 0.3333
+      },
+      {
         "title": "A Paramount-Warner Bros. movie slate will need more animated features to compete with Disney and Universal",
         "url": "https://www.cnbc.com/2026/03/28/paramount-warner-bros-movie-slate-needs-animation.html",
         "source": "CNBC Markets",
-        "weight": 0.4137,
+        "weight": 0.2819,
         "score": 0.6667
-      },
-      {
-        "title": "Oil Surge Elicits Tough Love From Trump’s Latin American Allies",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-28/oil-surge-elicits-tough-love-from-trump-s-latin-american-allies",
-        "source": "Bloomberg Markets",
-        "weight": 0.4919,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Warren Buffett's Berkshire Hathaway falls for a seventh straight day",
-        "url": "https://www.thestreet.com/investing/warren-buffetts-berkshire-hathaway-falls-for-a-seventh-straight-day?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5929,
-        "score": -0.9667
-      },
-      {
-        "title": "Is State Street's SPTM a Better U.S. Market ETF Than Vanguard's VTI?",
-        "url": "https://www.fool.com/coverage/etfs/2026/03/28/is-state-street-s-sptm-a-better-u-s-market-etf-than-vanguard-s-vti/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.74,
+        "title": "Kalshi secures license to offer margin trading to institutional investors",
+        "url": "https://www.coindesk.com/markets/2026/03/28/kalshi-secures-license-to-offer-margin-trading-to-institutional-investors",
+        "source": "CoinDesk",
+        "weight": 0.714,
         "score": -0.6333
       },
       {
         "title": "Yemen's Houthis launch Israel strike, the first time since the U.S.-Israel war began",
         "url": "https://www.cnbc.com/2026/03/28/yemens-houthis-launch-israel-strike-the-first-of-the-iran-war.html",
         "source": "CNBC Markets",
-        "weight": 0.7388,
+        "weight": 0.7067,
         "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 12 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
