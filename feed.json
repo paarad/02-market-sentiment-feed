@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-28T20:39:52.553983+00:00",
+  "updated_at": "2026-03-29T03:22:05.654712+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.173,
-    "fearGreed": 12,
-    "momentum": 0.668,
+    "change24h": 0.025,
+    "vol": 0.144,
+    "fearGreed": 9,
+    "momentum": 0.439,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4194,
-    "global_sentiment": 0.2986,
-    "combined_sentiment": 0.4227,
-    "confidence": 0.6884,
+    "crypto_sentiment": 0.3658,
+    "global_sentiment": 0.2898,
+    "combined_sentiment": 0.3819,
+    "confidence": 0.6095,
     "counts": {
-      "crypto": 54,
-      "global": 35
+      "crypto": 55,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 66916,
-      "btc_change_24h": 1.65,
-      "eth_price": 2022.07,
-      "eth_change_24h": 2.04,
+      "btc_price": 66982,
+      "btc_change_24h": 1.3,
+      "eth_price": 2013.99,
+      "eth_change_24h": 1.3,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.8,
       "fear_greed": {
-        "value": 12,
+        "value": 9,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 88099455504.0,
+        "volume_24h": 84250130002.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.3,
+        "btc_dominance": 57.42,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-15T08:48:27.167779+00:00",
-      "crypto": 0.5171,
-      "global": 0.478,
-      "combined": 0.511,
-      "counts": {
-        "crypto": 45,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-03-15T13:09:02.671477+00:00",
       "crypto": 0.4002,
@@ -1008,12 +998,22 @@
         "crypto": 54,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-03-29T03:22:05.654712+00:00",
+      "crypto": 0.3658,
+      "global": 0.2898,
+      "combined": 0.3819,
+      "counts": {
+        "crypto": 55,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.3% — rally",
+        "title": "Global crypto market cap up 1.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,38 +1023,38 @@
         "title": "Tokenized platform xStocks brings new private shares fund on-chain",
         "url": "https://cointelegraph.com/news/tokeniz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7173,
+        "weight": 0.3307,
         "score": 0.3333
       },
       {
         "title": "Washington sues Kalshi as states ramp up legal pressure against prediction markets",
         "url": "https://www.coindesk.com/policy/2026/03/28/washington-sues-kalshi-as-states-ramp-up-legal-pressure-against-prediction-markets",
         "source": "CoinDesk",
-        "weight": 0.7124,
+        "weight": 0.3284,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 12 (Fear) — bearish",
+        "title": "Canada proposes crypto political donation ban over foreign interference fears",
+        "url": "https://cointelegraph.com/news/canada-crypto-donation-deepfake-election-ban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.716,
+        "score": -0.9667
+      },
+      {
+        "title": "Fear & Greed 9 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "Kalshi secures license to offer margin trading to institutional investors",
-        "url": "https://www.coindesk.com/markets/2026/03/28/kalshi-secures-license-to-offer-margin-trading-to-institutional-investors",
-        "source": "CoinDesk",
-        "weight": 0.6635,
-        "score": -0.6333
-      },
-      {
-        "title": "Yemen's Houthis launch Israel strike, the first time since the U.S.-Israel war began",
-        "url": "https://www.cnbc.com/2026/03/28/yemens-houthis-launch-israel-strike-the-first-of-the-iran-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.6567,
-        "score": -0.6333
+        "title": "Two Australia States to Offer Free Transport as Fuel Prices Rise",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-29/two-australia-states-to-offer-free-transport-as-fuel-prices-rise",
+        "source": "Bloomberg Markets",
+        "weight": 0.6627,
+        "score": -0.3333
       }
     ],
     "market_movers": {
