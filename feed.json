@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-30T06:02:23.248435+00:00",
+  "updated_at": "2026-03-30T09:21:48.691687+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4717,
-    "global_sentiment": 0.3827,
-    "combined_sentiment": 0.469,
-    "confidence": 0.6656,
+    "crypto_sentiment": 0.3985,
+    "global_sentiment": 0.4757,
+    "combined_sentiment": 0.4218,
+    "confidence": 0.6446,
     "counts": {
-      "crypto": 55,
-      "global": 44
+      "crypto": 56,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 67451,
-      "btc_change_24h": 1.02,
-      "eth_price": 2046.78,
-      "eth_change_24h": 2.11,
+      "btc_price": 67562,
+      "btc_change_24h": 1.43,
+      "eth_price": 2058.09,
+      "eth_change_24h": 2.86,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 103992290014.0,
+        "volume_24h": 118304280159.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-16T17:11:18.080432+00:00",
-      "crypto": 0.5265,
-      "global": 0.396,
-      "combined": 0.5112,
-      "counts": {
-        "crypto": 55,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-03-16T20:21:42.801479+00:00",
       "crypto": 0.505,
@@ -1008,53 +998,63 @@
         "crypto": 55,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-30T09:21:48.691687+00:00",
+      "crypto": 0.3985,
+      "global": 0.4757,
+      "combined": 0.4218,
+      "counts": {
+        "crypto": 56,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Swiss Real Estate Scion Lauber Joins Rush to Access Retail Cash",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/swiss-real-estate-scion-lauber-joins-rush-to-access-retail-cash",
+        "title": "US, Israel Keep Up Strikes on Iran After Troops Arrive in Region",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/us-israel-keep-up-strikes-on-iran-with-no-end-of-war-in-sight",
         "source": "Bloomberg Markets",
-        "weight": 0.632,
-        "score": 0.9667
+        "weight": 0.7333,
+        "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 1.0% — rally",
+        "title": "Trump Talks Up Iran Deal Hopes; Proxy Attacks | Horizons Middle East & Africa 3/30/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-30/horizons-middle-east-africa-3-30-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7049,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 1.5% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Prediction market txs surge on geopolitical bets, media coverage",
-        "url": "https://cointelegraph.com/news/prediction-market-transactions-growth-march-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6031,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Ethereum price risks falling to $1.2K next, analyst warns",
+        "url": "https://cointelegraph.com/news/eth-price-risks-falling-to-1-2k-next-analysis-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5538,
+        "score": -1.0
+      },
+      {
+        "title": "3 Financials Stocks with Warning Signs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-financials-stocks-warning-signs-091018386.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7825,
+        "score": -0.6667
+      },
+      {
         "title": "Eli Lilly reaches $2.75 billion deal with Insilico to bring AI-developed drugs to the global market",
         "url": "https://www.cnbc.com/2026/03/29/eli-lilly-reaches-deal-to-bring-ai-developed-drugs-to-global-market.html",
         "source": "CNBC Markets",
-        "weight": 0.759,
+        "weight": 0.517,
         "score": -0.9333
-      },
-      {
-        "title": "BlackRock's Hambro on Why Investors Are Rotating Into Commodities",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-30/why-investors-are-rotating-into-commodities-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6324,
-        "score": -0.9667
-      },
-      {
-        "title": "Hyperliquid traders in Tokyo get 200-millisecond edge, Glassnode research shows",
-        "url": "https://www.coindesk.com/markets/2026/03/30/hyperliquid-traders-in-tokyo-get-200-millisecond-edge-glassnode-research-shows",
-        "source": "CoinDesk",
-        "weight": 0.9034,
-        "score": -0.6333
       }
     ],
     "market_movers": {
