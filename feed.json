@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-30T17:04:46.406848+00:00",
+  "updated_at": "2026-03-30T20:27:49.375165+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.11,
+    "change24h": 0.001,
+    "vol": 0.102,
     "fearGreed": 8,
-    "momentum": 0.428,
+    "momentum": 0.025,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3872,
-    "global_sentiment": 0.4596,
-    "combined_sentiment": 0.412,
-    "confidence": 0.7812,
+    "crypto_sentiment": 0.3951,
+    "global_sentiment": 0.3357,
+    "combined_sentiment": 0.4076,
+    "confidence": 0.7725,
     "counts": {
-      "crypto": 53,
-      "global": 40
+      "crypto": 50,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 67313,
-      "btc_change_24h": 1.34,
-      "eth_price": 2066.22,
-      "eth_change_24h": 3.55,
+      "btc_price": 66603,
+      "btc_change_24h": -0.06,
+      "eth_price": 2023.8,
+      "eth_change_24h": 0.99,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 138491372017.0,
+        "volume_24h": 147366433611.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.35,
+        "btc_dominance": 57.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-17T02:44:15.535186+00:00",
-      "crypto": 0.5765,
-      "global": 0.4492,
-      "combined": 0.5532,
-      "counts": {
-        "crypto": 54,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-03-17T05:23:48.292888+00:00",
       "crypto": 0.5463,
@@ -1008,61 +998,71 @@
         "crypto": 53,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-03-30T20:27:49.375165+00:00",
+      "crypto": 0.3951,
+      "global": 0.3357,
+      "combined": 0.4076,
+      "counts": {
+        "crypto": 50,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Churchill's Kencel on the State of Private Credit",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-30/churchill-s-kencel-on-the-state-of-private-credit-video",
+        "title": "US Crude Oil Settles Above $100 for First Time Since 2022",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/us-crude-oil-settles-above-100-for-first-time-since-2022",
         "source": "Bloomberg Markets",
-        "weight": 0.6461,
+        "weight": 0.6544,
         "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Dow Tests 45,000 as War Sends Oil to $110+ and the VIX Surges 50% in a Month",
+        "url": "https://247wallst.com/investing/2026/03/30/dow-tests-45000-as-war-sends-oil-to-110-and-the-vix-surges-50-in-a-month/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7573,
         "score": 0.5333
       },
       {
-        "title": "Higher gas prices could spell recession risks to some US consumers",
-        "url": "https://finance.yahoo.com/video/higher-gas-prices-could-spell-recession-risks-to-some-us-consumers-165309750.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7823,
+        "title": "Mideast War Boosts US Petrochemicals as Methanol Hits Four-Year High",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/mideast-war-boosts-us-petchems-as-methanol-hits-four-year-high",
+        "source": "Bloomberg Markets",
+        "weight": 0.5888,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Eli Lilly Ramps Up AI Ambitions With This $2.8 Billion Deal. What It Means for the Stock.",
-        "url": "https://finance.yahoo.com/m/2a2d0d33-52a3-332d-8d16-aa7e403885ec/eli-lilly-ramps-up-ai.html?.tsrc=rss",
+        "title": "Tesla Stock Rises. It’s Trying to End a 6-Week Losing Streak.",
+        "url": "https://finance.yahoo.com/m/8bc9b166-38f6-3efb-b3fa-8cf44c90fd06/tesla-stock-rises.-it%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6967,
-        "score": -0.9333
-      },
-      {
-        "title": "Ripple pushes a more private blockchain to banks and adds AI code checks as fears grow it could leave XRP price behind",
-        "url": "https://cryptoslate.com/ripple-pushes-a-more-private-blockchain-to-banks-and-adds-ai-code-checks-as-fears-grow-that-it-could-leave-xrp-behind/",
-        "source": "CryptoSlate",
-        "weight": 0.5734,
+        "weight": 0.782,
         "score": -1.0
       },
       {
-        "title": "3 Consumer Stocks That Fall Short",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-fall-short-163818135.html?.tsrc=rss",
+        "title": "Palo Alto shares pop as CEO Nikesh Arora buys stock for first time in years",
+        "url": "https://www.cnbc.com/2026/03/30/palo-alto-stock-nikesh-arora-buys-shares.html",
+        "source": "CNBC Markets",
+        "weight": 0.7623,
+        "score": -1.0
+      },
+      {
+        "title": "Treasuries Climb as Powell Eases Fed-Hike Jitters: Markets Wrap",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/investor-unease-builds-entering-war-193125656.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7602,
-        "score": -0.6667
+        "weight": 0.7598,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.32794429751968746,
-          "price_change_24h": 0.01313
+          "volume_mcap_ratio": 0.3521449860340907,
+          "price_change_24h": -0.00438
         }
       ],
       "momentum_shifts": []
