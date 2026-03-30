@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-30T20:27:49.375165+00:00",
+  "updated_at": "2026-03-30T20:55:07.104300+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.102,
+    "change24h": 0.0,
+    "vol": 0.094,
     "fearGreed": 8,
-    "momentum": 0.025,
+    "momentum": 0.007,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3951,
-    "global_sentiment": 0.3357,
-    "combined_sentiment": 0.4076,
-    "confidence": 0.7725,
+    "crypto_sentiment": 0.4127,
+    "global_sentiment": 0.332,
+    "combined_sentiment": 0.4205,
+    "confidence": 0.774,
     "counts": {
       "crypto": 50,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 66603,
-      "btc_change_24h": -0.06,
-      "eth_price": 2023.8,
-      "eth_change_24h": 0.99,
+      "btc_price": 66572,
+      "btc_change_24h": 0.07,
+      "eth_price": 2022.16,
+      "eth_change_24h": 1.14,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 147366433611.0,
+        "volume_24h": 144132382304.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.31,
+        "btc_dominance": 57.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-17T05:23:48.292888+00:00",
-      "crypto": 0.5463,
-      "global": 0.4889,
-      "combined": 0.5338,
-      "counts": {
-        "crypto": 67,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-17T09:00:39.803071+00:00",
       "crypto": 0.499,
@@ -1008,30 +998,40 @@
         "crypto": 50,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-03-30T20:55:07.104300+00:00",
+      "crypto": 0.4127,
+      "global": 0.332,
+      "combined": 0.4205,
+      "counts": {
+        "crypto": 50,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US Crude Oil Settles Above $100 for First Time Since 2022",
+        "title": "US Oil Closes Above $100 for First Time Since 2022 on Iran War",
         "url": "https://www.bloomberg.com/news/articles/2026-03-30/us-crude-oil-settles-above-100-for-first-time-since-2022",
         "source": "Bloomberg Markets",
-        "weight": 0.6544,
+        "weight": 0.6209,
         "score": 0.6667
       },
       {
         "title": "Dow Tests 45,000 as War Sends Oil to $110+ and the VIX Surges 50% in a Month",
         "url": "https://247wallst.com/investing/2026/03/30/dow-tests-45000-as-war-sends-oil-to-110-and-the-vix-surges-50-in-a-month/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7573,
+        "weight": 0.7185,
         "score": 0.5333
       },
       {
-        "title": "Mideast War Boosts US Petrochemicals as Methanol Hits Four-Year High",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/mideast-war-boosts-us-petchems-as-methanol-hits-four-year-high",
-        "source": "Bloomberg Markets",
-        "weight": 0.5888,
-        "score": 0.5333
+        "title": "Fed's Powell's comments sooth bond market, but oil continues rise, hitting crypto and stocks",
+        "url": "https://www.coindesk.com/markets/2026/03/30/fed-s-powell-s-comments-sooth-bond-market-but-oil-continues-rise-hitting-crypto-and-stocks",
+        "source": "CoinDesk",
+        "weight": 0.9493,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Tesla Stock Rises. It’s Trying to End a 6-Week Losing Streak.",
         "url": "https://finance.yahoo.com/m/8bc9b166-38f6-3efb-b3fa-8cf44c90fd06/tesla-stock-rises.-it%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.782,
+        "weight": 0.742,
         "score": -1.0
       },
       {
         "title": "Palo Alto shares pop as CEO Nikesh Arora buys stock for first time in years",
         "url": "https://www.cnbc.com/2026/03/30/palo-alto-stock-nikesh-arora-buys-shares.html",
         "source": "CNBC Markets",
-        "weight": 0.7623,
+        "weight": 0.7232,
         "score": -1.0
       },
       {
         "title": "Treasuries Climb as Powell Eases Fed-Hike Jitters: Markets Wrap",
         "url": "https://finance.yahoo.com/markets/commodities/articles/investor-unease-builds-entering-war-193125656.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7598,
+        "weight": 0.7209,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3521449860340907,
-          "price_change_24h": -0.00438
+          "volume_mcap_ratio": 0.35352722500451395,
+          "price_change_24h": -0.00954
         }
       ],
       "momentum_shifts": []
