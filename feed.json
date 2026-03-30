@@ -1,46 +1,46 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-29T20:41:05.699106+00:00",
+  "updated_at": "2026-03-30T03:25:10.288505+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.117,
-    "fearGreed": 9,
-    "momentum": -0.425,
-    "regime": "bear",
+    "change24h": 0.0,
+    "vol": 0.5,
+    "fearGreed": 8,
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4874,
-    "global_sentiment": 0.3762,
-    "combined_sentiment": 0.4803,
-    "confidence": 0.6665,
+    "crypto_sentiment": 0.4321,
+    "global_sentiment": 0.3976,
+    "combined_sentiment": 0.4406,
+    "confidence": 0.5882,
     "counts": {
-      "crypto": 67,
-      "global": 35
+      "crypto": 53,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 66611,
-      "btc_change_24h": -0.38,
-      "eth_price": 2002.29,
-      "eth_change_24h": -0.93,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 67125,
+      "btc_change_24h": 0.29,
+      "eth_price": 2033.84,
+      "eth_change_24h": 1.01,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
-        "value": 9,
+        "value": 8,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 74433432876.0,
+        "volume_24h": 96901095831.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.39,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-16T09:06:57.744970+00:00",
-      "crypto": 0.4439,
-      "global": 0.3935,
-      "combined": 0.449,
-      "counts": {
-        "crypto": 43,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-03-16T13:42:56.558287+00:00",
       "crypto": 0.5448,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-03-30T03:25:10.288505+00:00",
+      "crypto": 0.4321,
+      "global": 0.3976,
+      "combined": 0.4406,
+      "counts": {
+        "crypto": 53,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stablecoin payments go 'invisible' in Southeast Asia as crypto card business surges",
-        "url": "https://www.coindesk.com/business/2026/03/29/stablecoin-payments-go-invisible-in-southeast-asia-as-crypto-card-business-surges",
-        "source": "CoinDesk",
-        "weight": 0.8231,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin bullish bets hit a 28-month high on Bitfinex, and that's music to bears' ears",
-        "url": "https://www.coindesk.com/markets/2026/03/29/bitcoin-bullish-bets-hit-a-28-month-high-on-bitfinex-and-that-s-music-to-bears-ears",
-        "source": "CoinDesk",
-        "weight": 0.6657,
-        "score": 0.5333
-      },
-      {
-        "title": "Investor Unease Builds Entering War’s Fifth Week",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/investor-unease-builds-entering-war-s-fifth-week-markets-wrap",
+        "title": "India Forces Banks to Unwind Rupee Bets, Squeezing Short Sellers",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/india-unleashes-curbs-on-rupee-bets-as-intervention-costs-swell",
         "source": "Bloomberg Markets",
-        "weight": 0.6996,
-        "score": 0.3333
+        "weight": 0.571,
+        "score": 0.6667
+      },
+      {
+        "title": "Hong Kong IPO Revival Hits Snags, Raising Stakes for Big Deals",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/hong-kong-ipo-revival-hits-snags-raising-stakes-for-big-deals",
+        "source": "Bloomberg Markets",
+        "weight": 0.6052,
+        "score": 0.5333
+      },
+      {
+        "title": "Is S&P Global Inc. (SPGI) A Good Stock To Buy Now?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-inc-spgi-good-232257677.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5018,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Congress proposes removal of widely used Bitcoin tax loophole and giving it to regulated stablecoins",
-        "url": "https://cryptoslate.com/congress-to-remove-widely-used-bitcoin-tax-loophole-and-give-it-to-regulated-stablecoins/",
-        "source": "CryptoSlate",
-        "weight": 0.721,
+        "title": "Innovent Biologics Bullish on China Obesity Drug Outlook",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-30/innovent-biologics-bullish-on-china-obesity-drug-outlook-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7784,
+        "score": -0.9333
+      },
+      {
+        "title": "Global Oil Market in for a Shock: Fahmy",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-30/global-oil-market-in-for-a-shock-fahmy",
+        "source": "Bloomberg Markets",
+        "weight": 0.713,
         "score": -0.6333
       },
       {
-        "title": "Fear & Greed 9 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Apollo Pushes to Open a Second Headquarters in Florida or Texas",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-29/apollo-pushes-to-open-a-second-headquarters-in-florida-or-texas",
+        "title": "China Increases Overseas Investment Quota by Most Since 2021",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/china-adds-quota-for-overseas-investment-by-most-since-2021",
         "source": "Bloomberg Markets",
-        "weight": 0.6655,
+        "weight": 0.7101,
         "score": -0.6333
       }
     ],
