@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-31T03:16:35.634550+00:00",
+  "updated_at": "2026-03-31T05:47:38.721954+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.094,
+    "change24h": -0.01,
+    "vol": 0.102,
     "fearGreed": 11,
-    "momentum": 0.049,
+    "momentum": -0.17,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4701,
-    "global_sentiment": 0.5009,
-    "combined_sentiment": 0.4777,
-    "confidence": 0.7202,
+    "crypto_sentiment": 0.3849,
+    "global_sentiment": 0.4672,
+    "combined_sentiment": 0.4109,
+    "confidence": 0.7195,
     "counts": {
-      "crypto": 61,
-      "global": 36
+      "crypto": 48,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 67866,
-      "btc_change_24h": 1.25,
-      "eth_price": 2070.6,
-      "eth_change_24h": 1.97,
+      "btc_price": 67626,
+      "btc_change_24h": 0.33,
+      "eth_price": 2064.04,
+      "eth_change_24h": 0.83,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 145742834769.0,
+        "volume_24h": 145609454947.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.56,
+        "btc_dominance": 57.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-17T13:40:43.517631+00:00",
-      "crypto": 0.4793,
-      "global": 0.4857,
-      "combined": 0.4833,
-      "counts": {
-        "crypto": 48,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-17T17:11:51.502451+00:00",
       "crypto": 0.5393,
@@ -1008,61 +998,71 @@
         "crypto": 61,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-03-31T05:47:38.721954+00:00",
+      "crypto": 0.3849,
+      "global": 0.4672,
+      "combined": 0.4109,
+      "counts": {
+        "crypto": 48,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Iran War Turns Once-Hot Korean Stock Trade Into Poor Bet",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/iran-war-tensions-turn-once-hot-korean-stock-trade-into-poor-bet",
+        "title": "01.AI's Kai-Fu Lee on OpenClaw, China's AI Advances",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-31/01-ai-s-kai-fu-lee-on-openclaw-china-s-ai-advances-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4881,
-        "score": 1.0
+        "weight": 0.729,
+        "score": 0.8667
       },
       {
-        "title": "Stock Market Today, March 30: Micron Technology Falls on TurboQuant Shock",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-micron-technology-falls-on-turboquant-shock/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4638,
-        "score": 1.0
+        "title": "Japan Spot Power Surges to Three-Year High as War Boosts Fuels",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/japan-spot-power-surges-to-three-year-high-as-war-boosts-fuels",
+        "source": "Bloomberg Markets",
+        "weight": 0.6784,
+        "score": 0.8667
       },
       {
-        "title": "Emerging-Market Stocks Erase 2026 Gains on Iran War Shock",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/asian-stocks-wipe-out-2026-gains-as-war-drives-inflation-worries",
+        "title": "BlackRock to Launch Quant Fund Trading Singapore Stocks",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/blackrock-to-launch-quant-fund-trading-singapore-stocks",
         "source": "Bloomberg Markets",
-        "weight": 0.5646,
+        "weight": 0.7302,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Alleged $54M Uranium Finance hacker faces 30 years in prison",
-        "url": "https://cointelegraph.com/news/alleged-uranium-finance-hacker-54m-defi-exploit-indictment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6987,
+        "title": "Maryland man charged in $50 million Uranium Finance hack after U.S. seized $31 million in crypto",
+        "url": "https://www.coindesk.com/policy/2026/03/31/maryland-man-charged-in-usd50-million-uranium-finance-hack-after-u-s-seized-usd31-million-in-crypto",
+        "source": "CoinDesk",
+        "weight": 0.9723,
+        "score": -0.7333
+      },
+      {
+        "title": "Australia Walks Diplomatic Tightrope on Iran War",
+        "url": "https://www.bloomberg.com/news/videos/2026-03-31/australia-walks-diplomatic-tightrope-on-iran-war-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6847,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 11 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Fortress Plans to Restructure Discount Retailer Poundstretcher",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/fortress-plans-to-restructure-discount-retailer-poundstretcher",
-        "source": "Bloomberg Markets",
-        "weight": 0.4185,
-        "score": -0.9333
+        "title": "Alleged $54M Uranium Finance hacker faces 30 years in prison",
+        "url": "https://cointelegraph.com/news/alleged-uranium-finance-hacker-54m-defi-exploit-indictment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5223,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3435531373086481,
-          "price_change_24h": -0.00604
+          "volume_mcap_ratio": 0.35083154903849667,
+          "price_change_24h": -0.0094
         }
       ],
       "momentum_shifts": []
