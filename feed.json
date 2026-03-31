@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-31T17:07:17.725199+00:00",
+  "updated_at": "2026-03-31T20:26:38.864766+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.105,
+    "change24h": 0.013,
+    "vol": 0.113,
     "fearGreed": 11,
-    "momentum": -0.115,
+    "momentum": 0.234,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.334,
-    "global_sentiment": 0.643,
-    "combined_sentiment": 0.3874,
-    "confidence": 0.7953,
+    "crypto_sentiment": 0.4427,
+    "global_sentiment": 0.4011,
+    "combined_sentiment": 0.4488,
+    "confidence": 0.791,
     "counts": {
-      "crypto": 59,
-      "global": 44
+      "crypto": 42,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 67707,
-      "btc_change_24h": 0.67,
-      "eth_price": 2092.85,
-      "eth_change_24h": 1.41,
+      "btc_price": 67934,
+      "btc_change_24h": 2.0,
+      "eth_price": 2102.01,
+      "eth_change_24h": 3.87,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176449659194.0,
+        "volume_24h": 185392119494.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.48,
+        "btc_dominance": 57.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-18T02:50:47.008793+00:00",
-      "crypto": 0.4813,
-      "global": 0.5138,
-      "combined": 0.4871,
-      "counts": {
-        "crypto": 53,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-03-18T05:37:46.318617+00:00",
       "crypto": 0.4322,
@@ -1008,66 +998,76 @@
         "crypto": 59,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-03-31T20:26:38.864766+00:00",
+      "crypto": 0.4427,
+      "global": 0.4011,
+      "combined": 0.4488,
+      "counts": {
+        "crypto": 42,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow, Nasdaq Climb On Trump's Words; Biotech Soars (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/65c30b06-abf7-37a2-af14-6e12b4e02f94/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+        "title": "How major US stock indexes fared Tuesday 3/31/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202030310.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6973,
+        "weight": 0.7906,
         "score": 1.0
       },
       {
-        "title": "How Iran Is Leveraging Its Chokehold on the Strait of Hormuz",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/strait-of-hormuz-how-iran-is-blocking-shipping-route-despite-trump-s-threats",
-        "source": "Bloomberg Markets",
-        "weight": 0.7631,
-        "score": 0.6667
+        "title": "Bitcoin’s $10K range expected to hold until spot traders show up: Data",
+        "url": "https://cointelegraph.com/news/bitcoin-s-dollar10k-range-expected-to-hold-until-spot-traders-show-up-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6771,
+        "score": 1.0
       },
       {
-        "title": "Barrick Mining Corporation (B) Surged on Strong Gold Prices",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-corporation-b-surged-161659991.html?.tsrc=rss",
+        "title": "Dow skyrockets by over 1,100 points, stocks rally to end Q1 2026",
+        "url": "https://finance.yahoo.com/video/dow-skyrockets-by-over-1100-points-stocks-rally-to-end-q1-2026-200847906.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7261,
-        "score": 0.6667
+        "weight": 0.773,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Lilly to spend up to $7.8 billion to acquire Centessa, a maker of experimental sleep disorder drugs",
-        "url": "https://www.cnbc.com/2026/03/31/eli-lilly-to-acquire-centessa-and-sleep-disorder-drugs.html",
-        "source": "CNBC Markets",
-        "weight": 0.7805,
-        "score": -0.9333
+        "title": "Iran War Threatens to Wreck Trump Dream of Lower Interest Rates",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/iran-war-threatens-to-wreck-trump-dream-of-lower-interest-rates",
+        "source": "Bloomberg Markets",
+        "weight": 0.76,
+        "score": -1.0
       },
       {
-        "title": "CLARITY Act deadline in weeks could kill stablecoin earnings and push money into Bitcoin",
-        "url": "https://cryptoslate.com/clarity-act-deadline-in-weeks-could-kill-stablecoin-earnings-and-push-money-into-bitcoin/",
-        "source": "CryptoSlate",
-        "weight": 0.7469,
+        "title": "Sector Update: Energy Stocks Fall Late Afternoon",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-afternoon-200228665.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7636,
         "score": -0.9667
       },
       {
-        "title": "Stocks rise on peace hopes, oil mixed",
-        "url": "https://finance.yahoo.com/economy/policy/articles/oil-slips-stocks-rise-report-030425785.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6996,
-        "score": -0.9333
+        "title": "Fed’s Barr Flags Stablecoin Risks As Agencies Ready Rules",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/fed-s-barr-flags-stablecoin-risks-as-agencies-ready-rules",
+        "source": "Bloomberg Markets",
+        "weight": 0.6944,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4369694552950716,
-          "price_change_24h": -0.03312
+          "volume_mcap_ratio": 0.45859376731783735,
+          "price_change_24h": -0.00762
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3040866307579772,
-          "price_change_24h": -0.0379
+          "volume_mcap_ratio": 0.3228553191739859,
+          "price_change_24h": -0.01761
         }
       ],
       "momentum_shifts": []
