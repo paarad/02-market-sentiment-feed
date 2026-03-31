@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-30T20:55:07.104300+00:00",
+  "updated_at": "2026-03-31T03:16:35.634550+00:00",
   "indicators": {
-    "change24h": 0.0,
+    "change24h": 0.003,
     "vol": 0.094,
-    "fearGreed": 8,
-    "momentum": 0.007,
+    "fearGreed": 11,
+    "momentum": 0.049,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4127,
-    "global_sentiment": 0.332,
-    "combined_sentiment": 0.4205,
-    "confidence": 0.774,
+    "crypto_sentiment": 0.4701,
+    "global_sentiment": 0.5009,
+    "combined_sentiment": 0.4777,
+    "confidence": 0.7202,
     "counts": {
-      "crypto": 50,
-      "global": 38
+      "crypto": 61,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 66572,
-      "btc_change_24h": 0.07,
-      "eth_price": 2022.16,
-      "eth_change_24h": 1.14,
+      "btc_price": 67866,
+      "btc_change_24h": 1.25,
+      "eth_price": 2070.6,
+      "eth_change_24h": 1.97,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 8,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 144132382304.0,
+        "volume_24h": 145742834769.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.32,
+        "btc_dominance": 57.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-17T09:00:39.803071+00:00",
-      "crypto": 0.499,
-      "global": 0.4628,
-      "combined": 0.4961,
-      "counts": {
-        "crypto": 56,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-17T13:40:43.517631+00:00",
       "crypto": 0.4793,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-03-31T03:16:35.634550+00:00",
+      "crypto": 0.4701,
+      "global": 0.5009,
+      "combined": 0.4777,
+      "counts": {
+        "crypto": 61,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US Oil Closes Above $100 for First Time Since 2022 on Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-30/us-crude-oil-settles-above-100-for-first-time-since-2022",
+        "title": "Iran War Turns Once-Hot Korean Stock Trade Into Poor Bet",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/iran-war-tensions-turn-once-hot-korean-stock-trade-into-poor-bet",
         "source": "Bloomberg Markets",
-        "weight": 0.6209,
-        "score": 0.6667
+        "weight": 0.4881,
+        "score": 1.0
       },
       {
-        "title": "Dow Tests 45,000 as War Sends Oil to $110+ and the VIX Surges 50% in a Month",
-        "url": "https://247wallst.com/investing/2026/03/30/dow-tests-45000-as-war-sends-oil-to-110-and-the-vix-surges-50-in-a-month/?.tsrc=rss",
+        "title": "Stock Market Today, March 30: Micron Technology Falls on TurboQuant Shock",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-micron-technology-falls-on-turboquant-shock/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7185,
-        "score": 0.5333
+        "weight": 0.4638,
+        "score": 1.0
       },
       {
-        "title": "Fed's Powell's comments sooth bond market, but oil continues rise, hitting crypto and stocks",
-        "url": "https://www.coindesk.com/markets/2026/03/30/fed-s-powell-s-comments-sooth-bond-market-but-oil-continues-rise-hitting-crypto-and-stocks",
-        "source": "CoinDesk",
-        "weight": 0.9493,
-        "score": 0.3333
+        "title": "Emerging-Market Stocks Erase 2026 Gains on Iran War Shock",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/asian-stocks-wipe-out-2026-gains-as-war-drives-inflation-worries",
+        "source": "Bloomberg Markets",
+        "weight": 0.5646,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Tesla Stock Rises. It’s Trying to End a 6-Week Losing Streak.",
-        "url": "https://finance.yahoo.com/m/8bc9b166-38f6-3efb-b3fa-8cf44c90fd06/tesla-stock-rises.-it%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.742,
+        "title": "Alleged $54M Uranium Finance hacker faces 30 years in prison",
+        "url": "https://cointelegraph.com/news/alleged-uranium-finance-hacker-54m-defi-exploit-indictment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6987,
         "score": -1.0
       },
       {
-        "title": "Palo Alto shares pop as CEO Nikesh Arora buys stock for first time in years",
-        "url": "https://www.cnbc.com/2026/03/30/palo-alto-stock-nikesh-arora-buys-shares.html",
-        "source": "CNBC Markets",
-        "weight": 0.7232,
-        "score": -1.0
+        "title": "Fear & Greed 11 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Treasuries Climb as Powell Eases Fed-Hike Jitters: Markets Wrap",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/investor-unease-builds-entering-war-193125656.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7209,
-        "score": -1.0
+        "title": "Fortress Plans to Restructure Discount Retailer Poundstretcher",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-30/fortress-plans-to-restructure-discount-retailer-poundstretcher",
+        "source": "Bloomberg Markets",
+        "weight": 0.4185,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35352722500451395,
-          "price_change_24h": -0.00954
+          "volume_mcap_ratio": 0.3435531373086481,
+          "price_change_24h": -0.00604
         }
       ],
       "momentum_shifts": []
