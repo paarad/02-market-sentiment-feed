@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-31T13:49:55.042825+00:00",
+  "updated_at": "2026-03-31T17:07:17.725199+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.142,
+    "change24h": -0.007,
+    "vol": 0.105,
     "fearGreed": 11,
-    "momentum": -0.412,
-    "regime": "bear",
+    "momentum": -0.115,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3616,
-    "global_sentiment": 0.5256,
-    "combined_sentiment": 0.3983,
-    "confidence": 0.7933,
+    "crypto_sentiment": 0.334,
+    "global_sentiment": 0.643,
+    "combined_sentiment": 0.3874,
+    "confidence": 0.7953,
     "counts": {
       "crypto": 59,
-      "global": 46
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 67225,
-      "btc_change_24h": -0.64,
-      "eth_price": 2069.5,
-      "eth_change_24h": 0.07,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 67707,
+      "btc_change_24h": 0.67,
+      "eth_price": 2092.85,
+      "eth_change_24h": 1.41,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 164956866442.0,
+        "volume_24h": 176449659194.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.41,
+        "btc_dominance": 57.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-17T20:49:29.782269+00:00",
-      "crypto": 0.558,
-      "global": 0.3802,
-      "combined": 0.5335,
-      "counts": {
-        "crypto": 51,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-18T02:50:47.008793+00:00",
       "crypto": 0.4813,
@@ -1008,66 +998,76 @@
         "crypto": 59,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-03-31T17:07:17.725199+00:00",
+      "crypto": 0.334,
+      "global": 0.643,
+      "combined": 0.3874,
+      "counts": {
+        "crypto": 59,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Barclays Predicts Growing Treasury Market Will Need Bailouts",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/barclays-predicts-growing-treasury-market-will-need-bailouts",
-        "source": "Bloomberg Markets",
-        "weight": 0.7773,
-        "score": 0.8667
-      },
-      {
-        "title": "Leveraged ETF Winners Amid S&P 500's Fifth Straight Weekly Loss",
-        "url": "https://finance.yahoo.com/markets/options/articles/leveraged-etf-winners-amid-p-120000048.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow, Nasdaq Climb On Trump's Words; Biotech Soars (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/65c30b06-abf7-37a2-af14-6e12b4e02f94/stock-market-today%3A-dow%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6474,
-        "score": 0.8667
+        "weight": 0.6973,
+        "score": 1.0
       },
       {
-        "title": "Euro zone inflation smashes through ECB target to 2.5% in March as energy costs soar",
-        "url": "https://www.cnbc.com/2026/03/31/euro-zone-inflation-smashes-through-ecb-target-to-2point5percent-.html",
-        "source": "CNBC Markets",
-        "weight": 0.5141,
-        "score": 1.0
+        "title": "How Iran Is Leveraging Its Chokehold on the Strait of Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/strait-of-hormuz-how-iran-is-blocking-shipping-route-despite-trump-s-threats",
+        "source": "Bloomberg Markets",
+        "weight": 0.7631,
+        "score": 0.6667
+      },
+      {
+        "title": "Barrick Mining Corporation (B) Surged on Strong Gold Prices",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/barrick-mining-corporation-b-surged-161659991.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7261,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Israel Squandering Opportunity in Lebanon, Analyst Warns",
-        "url": "https://www.bloomberg.com/news/videos/2026-03-31/israel-squandering-opportunity-in-lebanon-analyst-says-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6737,
+        "title": "Lilly to spend up to $7.8 billion to acquire Centessa, a maker of experimental sleep disorder drugs",
+        "url": "https://www.cnbc.com/2026/03/31/eli-lilly-to-acquire-centessa-and-sleep-disorder-drugs.html",
+        "source": "CNBC Markets",
+        "weight": 0.7805,
+        "score": -0.9333
+      },
+      {
+        "title": "CLARITY Act deadline in weeks could kill stablecoin earnings and push money into Bitcoin",
+        "url": "https://cryptoslate.com/clarity-act-deadline-in-weeks-could-kill-stablecoin-earnings-and-push-money-into-bitcoin/",
+        "source": "CryptoSlate",
+        "weight": 0.7469,
         "score": -0.9667
       },
       {
-        "title": "Private Credit Poses ‘Chain Reaction’ Risk to US, DZ Bank Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/private-credit-poses-chain-reaction-risk-to-us-dz-bank-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6658,
-        "score": -0.9667
-      },
-      {
-        "title": "Crypto dispute over Resupply exploit lands in Singapore harassment court",
-        "url": "https://cointelegraph.com/news/singapore-court-curve-dispute-resupply-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7074,
-        "score": -0.8333
+        "title": "Stocks rise on peace hopes, oil mixed",
+        "url": "https://finance.yahoo.com/economy/policy/articles/oil-slips-stocks-rise-report-030425785.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6996,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4023479805141915,
-          "price_change_24h": -0.01403
+          "volume_mcap_ratio": 0.4369694552950716,
+          "price_change_24h": -0.03312
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.30465933047637417,
-          "price_change_24h": -0.07386
+          "volume_mcap_ratio": 0.3040866307579772,
+          "price_change_24h": -0.0379
         }
       ],
       "momentum_shifts": []
