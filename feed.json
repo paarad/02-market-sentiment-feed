@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-01T05:59:36.452180+00:00",
+  "updated_at": "2026-04-01T09:16:40.372687+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.08,
+    "change24h": 0.032,
+    "vol": 0.116,
     "fearGreed": 8,
-    "momentum": 0.317,
+    "momentum": 0.557,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4827,
-    "global_sentiment": 0.5534,
-    "combined_sentiment": 0.4915,
-    "confidence": 0.7124,
+    "crypto_sentiment": 0.4107,
+    "global_sentiment": 0.5503,
+    "combined_sentiment": 0.4372,
+    "confidence": 0.6875,
     "counts": {
-      "crypto": 55,
-      "global": 45
+      "crypto": 41,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 68402,
-      "btc_change_24h": 1.16,
-      "eth_price": 2122.28,
-      "eth_change_24h": 2.91,
+      "btc_price": 68456,
+      "btc_change_24h": 2.92,
+      "eth_price": 2132.31,
+      "eth_change_24h": 5.04,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190735862510.0,
+        "volume_24h": 194471741051.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-18T17:10:58.480978+00:00",
-      "crypto": 0.3964,
-      "global": 0.5536,
-      "combined": 0.4268,
-      "counts": {
-        "crypto": 61,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-03-18T20:21:12.457653+00:00",
       "crypto": 0.4051,
@@ -1008,61 +998,71 @@
         "crypto": 55,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-04-01T09:16:40.372687+00:00",
+      "crypto": 0.4107,
+      "global": 0.5503,
+      "combined": 0.4372,
+      "counts": {
+        "crypto": 41,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "European Stock Futures Jump on Optimism For Iran War Conclusion",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/european-stock-futures-jump-on-optimism-for-iran-war-conclusion",
+        "title": "Euphoria in Global Stocks Masks Angst Over Oil Price Impact",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/global-stock-euphoria-masks-underlying-angst-over-oil-prices",
         "source": "Bloomberg Markets",
-        "weight": 0.7886,
+        "weight": 0.6649,
+        "score": 1.0
+      },
+      {
+        "title": "War Talk Turns Bullish — Heard on the Street Tuesday Recap",
+        "url": "https://finance.yahoo.com/m/e47e5bba-e151-3c11-a57a-623b502c51a5/war-talk-turns-bullish-%E2%80%94.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6463,
         "score": 0.8667
       },
       {
-        "title": "Why Is Palantir Technologies (PLTR) Stock Rocketing Higher Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-technologies-pltr-stock-034119654.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.613,
-        "score": 0.9167
-      },
-      {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Asian Stocks Rally Most in a Year on Hopes Iran War May End",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/asian-stocks-rally-most-in-a-year-on-hopes-iran-war-may-end-mnfocuch",
+        "source": "Bloomberg Markets",
+        "weight": 0.5899,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Real Chance of Prolonged Iran Conflict: UBS Analyst",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-01/real-chance-of-prolonged-iran-conflict-ubs-analyst-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.623,
-        "score": -0.9667
+        "title": "Why didn’t Google’s new quantum research focus on banking or nuclear codes instead of Bitcoin?",
+        "url": "https://cryptoslate.com/why-didnt-googles-new-quantum-research-focus-on-banking-or-nuclear-codes-instead-of-bitcoin/",
+        "source": "CryptoSlate",
+        "weight": 0.735,
+        "score": -0.6667
       },
       {
-        "title": "Is Iran War Nearing Its End? | The China Show 4/1/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-01/the-china-show-4-1-2026-video",
+        "title": "Three Teens Facing Terrorism Charges Over BofA Bombing Attempt",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/three-teens-facing-terrorism-charges-over-bofa-bombing-attempt",
         "source": "Bloomberg Markets",
-        "weight": 0.7568,
+        "weight": 0.7402,
         "score": -0.6333
       },
       {
-        "title": "Fear & Greed 8 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "France and Japan Defense Chiefs Pledge Cooperation in Pacific",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/france-and-japan-defense-chiefs-pledge-cooperation-in-pacific",
+        "source": "Bloomberg Markets",
+        "weight": 0.7225,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4571317185596484,
-          "price_change_24h": 0.00203
+          "volume_mcap_ratio": 0.46292227159662686,
+          "price_change_24h": 0.04738
         }
       ],
       "momentum_shifts": []
