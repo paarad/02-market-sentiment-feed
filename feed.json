@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-03-31T20:51:27.201808+00:00",
+  "updated_at": "2026-04-01T03:29:06.912433+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.109,
-    "fearGreed": 11,
-    "momentum": 0.272,
+    "change24h": 0.002,
+    "vol": 0.075,
+    "fearGreed": 8,
+    "momentum": 0.034,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.443,
-    "global_sentiment": 0.4448,
-    "combined_sentiment": 0.4527,
-    "confidence": 0.7842,
+    "crypto_sentiment": 0.4359,
+    "global_sentiment": 0.5845,
+    "combined_sentiment": 0.459,
+    "confidence": 0.7348,
     "counts": {
       "crypto": 42,
-      "global": 40
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 68111,
-      "btc_change_24h": 2.29,
-      "eth_price": 2105.18,
-      "eth_change_24h": 4.07,
+      "btc_price": 67886,
+      "btc_change_24h": 0.15,
+      "eth_price": 2096.32,
+      "eth_change_24h": 1.5,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 11,
+        "value": 8,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190918105568.0,
-        "high_activity_coins": 2
+        "volume_24h": 179548002408.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-18T08:59:15.161003+00:00",
-      "crypto": 0.4327,
-      "global": 0.5228,
-      "combined": 0.4514,
-      "counts": {
-        "crypto": 52,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-03-18T13:42:10.941275+00:00",
       "crypto": 0.3455,
@@ -1008,66 +998,71 @@
         "crypto": 42,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-01T03:29:06.912433+00:00",
+      "crypto": 0.4359,
+      "global": 0.5845,
+      "combined": 0.459,
+      "counts": {
+        "crypto": 42,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Tuesday 3/31/2026",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202030310.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7537,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin’s $10K range expected to hold until spot traders show up: Data",
-        "url": "https://cointelegraph.com/news/bitcoin-s-dollar10k-range-expected-to-hold-until-spot-traders-show-up-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin, stocks soar as markets respond to chance of US and Israel-Iran war ending",
+        "url": "https://cointelegraph.com/news/bitcoin-stocks-soar-as-markets-respond-to-chance-of-us-and-israel-iran-war-ending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6455,
+        "weight": 0.5688,
         "score": 1.0
       },
       {
-        "title": "Dow skyrockets by over 1,100 points, stocks rally to end Q1 2026",
-        "url": "https://finance.yahoo.com/video/dow-skyrockets-by-over-1100-points-stocks-rally-to-end-q1-2026-200847906.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7369,
+        "title": "Subprime Lender Goeasy Sees Elevated Writeoffs Before Business Improves",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/subprime-lender-goeasy-sees-elevated-writeoffs-before-business-improves",
+        "source": "Bloomberg Markets",
+        "weight": 0.6556,
         "score": 0.8667
+      },
+      {
+        "title": "Bitcoin snaps five-month losing streak",
+        "url": "https://finance.yahoo.com/news/bitcoin-snaps-five-month-losing-streak-020352265.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6789,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Iran War Threatens to Wreck Trump Dream of Lower Interest Rates",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/iran-war-threatens-to-wreck-trump-dream-of-lower-interest-rates",
+        "title": "War Fails to Dent Malaysian Shipper’s IPO, Expansion Plans",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-31/war-fails-to-dent-malaysian-shipper-s-ipo-expansion-plans",
         "source": "Bloomberg Markets",
-        "weight": 0.7245,
-        "score": -1.0
+        "weight": 0.4765,
+        "score": -0.9333
       },
       {
-        "title": "Sector Update: Energy Stocks Fall Late Afternoon",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-afternoon-200228665.html?.tsrc=rss",
+        "title": "How XRP Price Is Navigating War Volatility in 2026",
+        "url": "https://beincrypto.com/xrp-price-war-volatility-analysis-2026/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.728,
-        "score": -0.9667
+        "weight": 0.7371,
+        "score": -0.6
       },
       {
-        "title": "Fed’s Barr Flags Stablecoin Risks As Agencies Ready Rules",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/fed-s-barr-flags-stablecoin-risks-as-agencies-ready-rules",
-        "source": "Bloomberg Markets",
-        "weight": 0.662,
-        "score": -1.0
+        "title": "Fear & Greed 8 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4602237207902298,
-          "price_change_24h": -0.0066
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3086478763502249,
-          "price_change_24h": -0.0322
+          "volume_mcap_ratio": 0.4360711922017706,
+          "price_change_24h": -0.00339
         }
       ],
       "momentum_shifts": []
