@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-01T03:29:06.912433+00:00",
+  "updated_at": "2026-04-01T05:59:36.452180+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.075,
+    "change24h": 0.018,
+    "vol": 0.08,
     "fearGreed": 8,
-    "momentum": 0.034,
+    "momentum": 0.317,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4359,
-    "global_sentiment": 0.5845,
-    "combined_sentiment": 0.459,
-    "confidence": 0.7348,
+    "crypto_sentiment": 0.4827,
+    "global_sentiment": 0.5534,
+    "combined_sentiment": 0.4915,
+    "confidence": 0.7124,
     "counts": {
-      "crypto": 42,
-      "global": 49
+      "crypto": 55,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 67886,
-      "btc_change_24h": 0.15,
-      "eth_price": 2096.32,
-      "eth_change_24h": 1.5,
+      "btc_price": 68402,
+      "btc_change_24h": 1.16,
+      "eth_price": 2122.28,
+      "eth_change_24h": 2.91,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 179548002408.0,
+        "volume_24h": 190735862510.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.48,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-18T13:42:10.941275+00:00",
-      "crypto": 0.3455,
-      "global": 0.6865,
-      "combined": 0.3997,
-      "counts": {
-        "crypto": 42,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-03-18T17:10:58.480978+00:00",
       "crypto": 0.3964,
@@ -1008,46 +998,56 @@
         "crypto": 42,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-04-01T05:59:36.452180+00:00",
+      "crypto": 0.4827,
+      "global": 0.5534,
+      "combined": 0.4915,
+      "counts": {
+        "crypto": 55,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin, stocks soar as markets respond to chance of US and Israel-Iran war ending",
-        "url": "https://cointelegraph.com/news/bitcoin-stocks-soar-as-markets-respond-to-chance-of-us-and-israel-iran-war-ending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5688,
-        "score": 1.0
-      },
-      {
-        "title": "Subprime Lender Goeasy Sees Elevated Writeoffs Before Business Improves",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/subprime-lender-goeasy-sees-elevated-writeoffs-before-business-improves",
+        "title": "European Stock Futures Jump on Optimism For Iran War Conclusion",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/european-stock-futures-jump-on-optimism-for-iran-war-conclusion",
         "source": "Bloomberg Markets",
-        "weight": 0.6556,
+        "weight": 0.7886,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin snaps five-month losing streak",
-        "url": "https://finance.yahoo.com/news/bitcoin-snaps-five-month-losing-streak-020352265.html?.tsrc=rss",
+        "title": "Why Is Palantir Technologies (PLTR) Stock Rocketing Higher Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-palantir-technologies-pltr-stock-034119654.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6789,
+        "weight": 0.613,
+        "score": 0.9167
+      },
+      {
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "War Fails to Dent Malaysian Shipper’s IPO, Expansion Plans",
-        "url": "https://www.bloomberg.com/news/articles/2026-03-31/war-fails-to-dent-malaysian-shipper-s-ipo-expansion-plans",
+        "title": "Real Chance of Prolonged Iran Conflict: UBS Analyst",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-01/real-chance-of-prolonged-iran-conflict-ubs-analyst-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4765,
-        "score": -0.9333
+        "weight": 0.623,
+        "score": -0.9667
       },
       {
-        "title": "How XRP Price Is Navigating War Volatility in 2026",
-        "url": "https://beincrypto.com/xrp-price-war-volatility-analysis-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7371,
-        "score": -0.6
+        "title": "Is Iran War Nearing Its End? | The China Show 4/1/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-01/the-china-show-4-1-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7568,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 8 (Fear) — bearish",
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4360711922017706,
-          "price_change_24h": -0.00339
+          "volume_mcap_ratio": 0.4571317185596484,
+          "price_change_24h": 0.00203
         }
       ],
       "momentum_shifts": []
