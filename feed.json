@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-01T20:27:07.820663+00:00",
+  "updated_at": "2026-04-01T20:54:11.956670+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.095,
+    "change24h": 0.006,
+    "vol": 0.091,
     "fearGreed": 8,
-    "momentum": 0.139,
+    "momentum": 0.112,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4378,
-    "global_sentiment": 0.4454,
+    "crypto_sentiment": 0.4357,
+    "global_sentiment": 0.4648,
     "combined_sentiment": 0.4488,
-    "confidence": 0.7842,
+    "confidence": 0.7747,
     "counts": {
-      "crypto": 39,
-      "global": 47
+      "crypto": 38,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 68098,
-      "btc_change_24h": 0.26,
-      "eth_price": 2138.05,
-      "eth_change_24h": 1.75,
+      "btc_price": 68210,
+      "btc_change_24h": 0.11,
+      "eth_price": 2144.27,
+      "eth_change_24h": 1.85,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 173499792820.0,
+        "volume_24h": 175073160639.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.39,
+        "btc_dominance": 57.42,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-19T05:24:51.070526+00:00",
-      "crypto": 0.3882,
-      "global": 0.4506,
-      "combined": 0.4121,
-      "counts": {
-        "crypto": 44,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-03-19T08:53:44.117964+00:00",
       "crypto": 0.4527,
@@ -1008,29 +998,39 @@
         "crypto": 39,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-04-01T20:54:11.956670+00:00",
+      "crypto": 0.4357,
+      "global": 0.4648,
+      "combined": 0.4488,
+      "counts": {
+        "crypto": 38,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Reasons NOVT is Risky and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-novt-risky-1-195926236.html?.tsrc=rss",
+        "title": "3 Reasons Investors Love Northern Oil and Gas (NOG)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-northern-203926879.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7585,
-        "score": 0.6667
+        "weight": 0.7776,
+        "score": 0.8667
       },
       {
         "title": "Elon Musk’s SpaceX Files Confidentially for Record-Breaking $1.75 Trillion IPO",
         "url": "https://decrypt.co/363074/elon-musk-spacex-files-ipo",
         "source": "Decrypt",
-        "weight": 0.727,
+        "weight": 0.6901,
         "score": 0.6333
       },
       {
         "title": "Price predictions 4/1: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
         "url": "https://cointelegraph.com/news/price-predictions-4-1-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.787,
+        "weight": 0.747,
         "score": 0.5333
       }
     ],
@@ -1039,30 +1039,30 @@
         "title": "Sector Update: Energy Stocks Fall Wednesday",
         "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-wednesday-200921736.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7731,
-        "score": -0.9667
-      },
-      {
-        "title": "Sector Update: Energy",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-194935404.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7442,
+        "weight": 0.7338,
         "score": -0.9667
       },
       {
         "title": "Solana DeFi Exchange Drift Protocol Exploited, Upwards of $285 Million Stolen",
         "url": "https://decrypt.co/363087/solana-drift-protocol-exploited-285-million",
         "source": "Decrypt",
-        "weight": 0.8282,
+        "weight": 0.7861,
         "score": -0.8333
+      },
+      {
+        "title": "Eli Lilly opposes push to pass Trump's drug pricing deals into law, CEO says",
+        "url": "https://www.cnbc.com/2026/04/01/eli-lilly-opposes-trump-mfn-drug-pricing-law-ceo-ricks-says.html",
+        "source": "CNBC Markets",
+        "weight": 0.5988,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41670467295194147,
-          "price_change_24h": 0.06964
+          "volume_mcap_ratio": 0.417730897235151,
+          "price_change_24h": 0.07415
         }
       ],
       "momentum_shifts": []
