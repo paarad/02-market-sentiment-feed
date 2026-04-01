@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-01T09:16:40.372687+00:00",
+  "updated_at": "2026-04-01T13:53:33.068813+00:00",
   "indicators": {
-    "change24h": 0.032,
-    "vol": 0.116,
+    "change24h": 0.02,
+    "vol": 0.087,
     "fearGreed": 8,
-    "momentum": 0.557,
+    "momentum": 0.342,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4107,
-    "global_sentiment": 0.5503,
-    "combined_sentiment": 0.4372,
-    "confidence": 0.6875,
+    "crypto_sentiment": 0.5281,
+    "global_sentiment": 0.5475,
+    "combined_sentiment": 0.525,
+    "confidence": 0.7628,
     "counts": {
-      "crypto": 41,
-      "global": 39
+      "crypto": 54,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 68456,
-      "btc_change_24h": 2.92,
-      "eth_price": 2132.31,
-      "eth_change_24h": 5.04,
+      "btc_price": 68053,
+      "btc_change_24h": 1.13,
+      "eth_price": 2115.74,
+      "eth_change_24h": 2.01,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 194471741051.0,
+        "volume_24h": 195123734046.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.52,
+        "btc_dominance": 57.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-18T20:21:12.457653+00:00",
-      "crypto": 0.4051,
-      "global": 0.4115,
-      "combined": 0.4215,
-      "counts": {
-        "crypto": 40,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-03-18T20:48:18.709718+00:00",
       "crypto": 0.4164,
@@ -1008,61 +998,71 @@
         "crypto": 41,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-04-01T13:53:33.068813+00:00",
+      "crypto": 0.5281,
+      "global": 0.5475,
+      "combined": 0.525,
+      "counts": {
+        "crypto": 54,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Euphoria in Global Stocks Masks Angst Over Oil Price Impact",
+        "title": "Bitcoin traders cheer April’s historic gains, yet one Fed calendar date could flip this rally overnight",
+        "url": "https://cryptoslate.com/bitcoin-traders-cheer-aprils-historic-gains-yet-one-fed-calendar-date-could-flip-this-rally-overnight/",
+        "source": "CryptoSlate",
+        "weight": 0.5143,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Global Stocks Rally Masks Angst Over Impact of Oil Prices",
         "url": "https://www.bloomberg.com/news/articles/2026-04-01/global-stock-euphoria-masks-underlying-angst-over-oil-prices",
         "source": "Bloomberg Markets",
-        "weight": 0.6649,
+        "weight": 0.3902,
         "score": 1.0
-      },
-      {
-        "title": "War Talk Turns Bullish — Heard on the Street Tuesday Recap",
-        "url": "https://finance.yahoo.com/m/e47e5bba-e151-3c11-a57a-623b502c51a5/war-talk-turns-bullish-%E2%80%94.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6463,
-        "score": 0.8667
-      },
-      {
-        "title": "Asian Stocks Rally Most in a Year on Hopes Iran War May End",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/asian-stocks-rally-most-in-a-year-on-hopes-iran-war-may-end-mnfocuch",
-        "source": "Bloomberg Markets",
-        "weight": 0.5899,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Why didn’t Google’s new quantum research focus on banking or nuclear codes instead of Bitcoin?",
-        "url": "https://cryptoslate.com/why-didnt-googles-new-quantum-research-focus-on-banking-or-nuclear-codes-instead-of-bitcoin/",
-        "source": "CryptoSlate",
-        "weight": 0.735,
+        "title": "Mexico Pension Giant Afore Sura Sees Banamex Deal as One of Many in Sector",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/mexico-pension-giant-afore-sura-sees-banamex-deal-as-one-of-many-in-sector-cio",
+        "source": "Bloomberg Markets",
+        "weight": 0.6811,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin’s crashes are shrinking, and Wall Street is starting to notice",
+        "url": "https://www.coindesk.com/markets/2026/04/01/bitcoin-s-crashes-are-shrinking-and-wall-street-is-starting-to-notice",
+        "source": "CoinDesk",
+        "weight": 0.9009,
+        "score": -0.6333
+      },
+      {
+        "title": "Fed’s Musalem Says Current Rate Likely Appropriate for Some Time",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/fed-s-musalem-says-current-rate-likely-appropriate-for-some-time",
+        "source": "Bloomberg Markets",
+        "weight": 0.7285,
         "score": -0.6667
-      },
-      {
-        "title": "Three Teens Facing Terrorism Charges Over BofA Bombing Attempt",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/three-teens-facing-terrorism-charges-over-bofa-bombing-attempt",
-        "source": "Bloomberg Markets",
-        "weight": 0.7402,
-        "score": -0.6333
-      },
-      {
-        "title": "France and Japan Defense Chiefs Pledge Cooperation in Pacific",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/france-and-japan-defense-chiefs-pledge-cooperation-in-pacific",
-        "source": "Bloomberg Markets",
-        "weight": 0.7225,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46292227159662686,
-          "price_change_24h": 0.04738
+          "volume_mcap_ratio": 0.4679459577282366,
+          "price_change_24h": 0.04863
         }
       ],
       "momentum_shifts": []
