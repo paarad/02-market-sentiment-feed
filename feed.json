@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-02T02:54:09.069929+00:00",
+  "updated_at": "2026-04-02T05:44:20.790799+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.089,
+    "change24h": -0.047,
+    "vol": 0.129,
     "fearGreed": 12,
-    "momentum": -0.38,
-    "regime": "sideways",
+    "momentum": -0.831,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4131,
-    "global_sentiment": 0.5592,
-    "combined_sentiment": 0.4397,
-    "confidence": 0.712,
+    "crypto_sentiment": 0.4045,
+    "global_sentiment": 0.5313,
+    "combined_sentiment": 0.431,
+    "confidence": 0.7031,
     "counts": {
-      "crypto": 39,
-      "global": 49
+      "crypto": 54,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 66819,
-      "btc_change_24h": -1.12,
-      "eth_price": 2072.04,
-      "eth_change_24h": -0.74,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 66555,
+      "btc_change_24h": -2.83,
+      "eth_price": 2048.84,
+      "eth_change_24h": -3.57,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176253004999.0,
+        "volume_24h": 183365697492.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.38,
+        "btc_dominance": 57.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-19T13:22:43.516568+00:00",
-      "crypto": 0.4092,
-      "global": 0.4615,
-      "combined": 0.4287,
-      "counts": {
-        "crypto": 61,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-03-19T17:03:43.681808+00:00",
       "crypto": 0.4438,
@@ -1008,6 +998,16 @@
         "crypto": 39,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-04-02T05:44:20.790799+00:00",
+      "crypto": 0.4045,
+      "global": 0.5313,
+      "combined": 0.431,
+      "counts": {
+        "crypto": 54,
+        "global": 45
+      }
     }
   ],
   "drivers": {
@@ -1016,32 +1016,25 @@
         "title": "Trump Says Hormuz Will ‘Open Up Naturally’ — Markets Disagree",
         "url": "https://beincrypto.com/trump-says-hormuz-will-open-up-naturally-markets-disagree/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7026,
+        "weight": 0.5063,
         "score": 1.0
       },
       {
         "title": "Wall Street ends higher on speculation about end to Iran war",
         "url": "https://finance.yahoo.com/video/wall-street-ends-higher-speculation-225332860.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5034,
+        "weight": 0.3627,
         "score": 1.0
       },
       {
-        "title": "Fuel Prices for UK Motorists Rose by Record in March on Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/fuel-prices-for-uk-motorists-rose-by-record-in-march-on-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.5107,
-        "score": 0.8667
+        "title": "Dow Jones Futures Fall, Oil Prices Jump As Trump Vows To Hit Iran 'Hard'; Tesla Deliveries Due",
+        "url": "https://finance.yahoo.com/m/3da6cf31-d26b-33c0-9201-f36bc06c01ca/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7551,
+        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Korea Offshore Bond Sales Jump to $24 Billion as Maturities Loom",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-01/korea-offshore-bond-sales-jump-to-24-billion-as-maturities-loom",
-        "source": "Bloomberg Markets",
-        "weight": 0.5097,
-        "score": -1.0
-      },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,19 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "Danny Funt Details 'Whole New Ballgame' of Online Sports Gambling in 'Everybody Loses'",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-01/new-book-details-whole-new-ballgame-of-sports-gambling-video",
+        "title": "Treasuries Fall as Trump’s Iran Threats Add to Inflation Concern",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-02/treasuries-fall-as-trump-s-iran-threats-add-to-inflation-concern",
         "source": "Bloomberg Markets",
-        "weight": 0.4475,
-        "score": -0.9333
+        "weight": 0.5961,
+        "score": -0.6667
+      },
+      {
+        "title": "China’s Industrial Hub Eyes Coal, Nuclear As Iran War Upends Gas",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-02/china-s-industrial-hub-eyes-coal-nuclear-as-iran-war-upends-gas",
+        "source": "Bloomberg Markets",
+        "weight": 0.5951,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4141584164829901,
-          "price_change_24h": 0.07185
+          "volume_mcap_ratio": 0.4311483637527518,
+          "price_change_24h": 0.06654
         }
       ],
       "momentum_shifts": []
