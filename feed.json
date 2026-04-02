@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-02T17:03:19.230207+00:00",
+  "updated_at": "2026-04-02T20:20:13.549216+00:00",
   "indicators": {
-    "change24h": -0.053,
-    "vol": 0.149,
+    "change24h": 1.0,
+    "vol": 1.0,
     "fearGreed": 12,
-    "momentum": -0.931,
-    "regime": "bear",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3428,
-    "global_sentiment": 0.3854,
-    "combined_sentiment": 0.3726,
-    "confidence": 0.8236,
+    "crypto_sentiment": 0.2738,
+    "global_sentiment": 0.4282,
+    "combined_sentiment": 0.3244,
+    "confidence": 0.806,
     "counts": {
-      "crypto": 66,
-      "global": 38
+      "crypto": 55,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 66961,
-      "btc_change_24h": -3.06,
-      "eth_price": 2059.66,
-      "eth_change_24h": -4.71,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "btc_price": 66937,
+      "btc_change_24h": -1.62,
+      "eth_price": 2068.28,
+      "eth_change_24h": -3.18,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 182838405311.0,
+        "volume_24h": 178943903445.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.57,
+        "btc_dominance": 57.22,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-20T02:42:58.549014+00:00",
-      "crypto": 0.4727,
-      "global": 0.4236,
-      "combined": 0.4731,
-      "counts": {
-        "crypto": 51,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-20T05:17:58.097473+00:00",
       "crypto": 0.4555,
@@ -1008,61 +998,71 @@
         "crypto": 66,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-02T20:20:13.549216+00:00",
+      "crypto": 0.2738,
+      "global": 0.4282,
+      "combined": 0.3244,
+      "counts": {
+        "crypto": 55,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ethereum Founder Vitalik Buterin Details His 'Private' and 'Secure' AI Setup",
-        "url": "https://decrypt.co/363128/ethereu-founder-vitalik-buterin-details-private-secure-ai-setup",
-        "source": "Decrypt",
-        "weight": 0.7596,
-        "score": 0.5833
-      },
-      {
-        "title": "Here's Why You Should Add NeuroPace Stock to Your Portfolio Now",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-add-neuropace-stock-152200442.html?.tsrc=rss",
+        "title": "Marvell Technology (MRVL): Buy, Sell, or Hold Post Q4 Earnings?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-buy-sell-200820095.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6582,
-        "score": 0.6667
+        "weight": 0.7819,
+        "score": 0.8667
       },
       {
-        "title": "Coinbase receives conditional approval for US trust charter",
-        "url": "https://cointelegraph.com/news/coinbase-conditional-approval-national-trust-charter-occ?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7107,
-        "score": 0.5833
+        "title": "Verastem Oncology Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/verastem-oncology-announces-inducement-grants-200500187.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7769,
+        "score": 0.6333
+      },
+      {
+        "title": "Trump Threatens to Escalate Iran War But Says End Is Very Close",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-02/trump-threatens-to-escalate-iran-war-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.64,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "North Koreans hackers likely behind $286 million Drift Protocol exploit: Elliptic",
-        "url": "https://www.coindesk.com/business/2026/04/02/north-koreans-hackers-likely-behind-the-usd286-million-drift-protocol-exploit-elliptic",
+        "title": "Here’s why bitcoin’s drop below $68,000 raises the risk of a crash under $60,000",
+        "url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
         "source": "CoinDesk",
-        "weight": 0.7747,
+        "weight": 0.8049,
         "score": -1.0
       },
       {
-        "title": "Coinbase Gets Conditional Approval From Banking Regulator—But Isn't Launching a Bank",
-        "url": "https://decrypt.co/363155/coinbase-conditional-approval-banking-regulator-isnt-launching-bank",
+        "title": "Drift Protocol's $285 Million Exploit on Solana Raises Questions Over DeFi Security",
+        "url": "https://decrypt.co/363176/drift-protocol-285-million-exploit-solana-defi-security",
         "source": "Decrypt",
-        "weight": 0.783,
+        "weight": 0.7349,
         "score": -0.9667
       },
       {
-        "title": "Bitcoin hits weekly low on oil fears as analyst teases $10K BTC price target",
-        "url": "https://cointelegraph.com/news/bitcoin-weekly-low-oil-fears-analyst-teases-10k-btc-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7289,
-        "score": -1.0
+        "title": "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
+        "url": "https://www.cnbc.com/2026/04/02/trump-pharmaceutical-tariffs-100percent.html",
+        "source": "CNBC Markets",
+        "weight": 0.749,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43164250168007545,
-          "price_change_24h": 0.01069
+          "volume_mcap_ratio": 0.42424743142735394,
+          "price_change_24h": 0.0212
         }
       ],
       "momentum_shifts": []
