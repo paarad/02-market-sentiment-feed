@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-01T20:54:11.956670+00:00",
+  "updated_at": "2026-04-02T02:54:09.069929+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.091,
-    "fearGreed": 8,
-    "momentum": 0.112,
+    "change24h": -0.022,
+    "vol": 0.089,
+    "fearGreed": 12,
+    "momentum": -0.38,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4357,
-    "global_sentiment": 0.4648,
-    "combined_sentiment": 0.4488,
-    "confidence": 0.7747,
+    "crypto_sentiment": 0.4131,
+    "global_sentiment": 0.5592,
+    "combined_sentiment": 0.4397,
+    "confidence": 0.712,
     "counts": {
-      "crypto": 38,
-      "global": 42
+      "crypto": 39,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 68210,
-      "btc_change_24h": 0.11,
-      "eth_price": 2144.27,
-      "eth_change_24h": 1.85,
+      "btc_price": 66819,
+      "btc_change_24h": -1.12,
+      "eth_price": 2072.04,
+      "eth_change_24h": -0.74,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 8,
+        "value": 12,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 175073160639.0,
+        "volume_24h": 176253004999.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.42,
+        "btc_dominance": 57.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-19T08:53:44.117964+00:00",
-      "crypto": 0.4527,
-      "global": 0.4526,
-      "combined": 0.4606,
-      "counts": {
-        "crypto": 43,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-03-19T13:22:43.516568+00:00",
       "crypto": 0.4092,
@@ -1008,52 +998,62 @@
         "crypto": 38,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-02T02:54:09.069929+00:00",
+      "crypto": 0.4131,
+      "global": 0.5592,
+      "combined": 0.4397,
+      "counts": {
+        "crypto": 39,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Reasons Investors Love Northern Oil and Gas (NOG)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-northern-203926879.html?.tsrc=rss",
+        "title": "Trump Says Hormuz Will ‘Open Up Naturally’ — Markets Disagree",
+        "url": "https://beincrypto.com/trump-says-hormuz-will-open-up-naturally-markets-disagree/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7776,
+        "weight": 0.7026,
+        "score": 1.0
+      },
+      {
+        "title": "Wall Street ends higher on speculation about end to Iran war",
+        "url": "https://finance.yahoo.com/video/wall-street-ends-higher-speculation-225332860.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5034,
+        "score": 1.0
+      },
+      {
+        "title": "Fuel Prices for UK Motorists Rose by Record in March on Iran War",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/fuel-prices-for-uk-motorists-rose-by-record-in-march-on-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.5107,
         "score": 0.8667
-      },
-      {
-        "title": "Elon Musk’s SpaceX Files Confidentially for Record-Breaking $1.75 Trillion IPO",
-        "url": "https://decrypt.co/363074/elon-musk-spacex-files-ipo",
-        "source": "Decrypt",
-        "weight": 0.6901,
-        "score": 0.6333
-      },
-      {
-        "title": "Price predictions 4/1: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "url": "https://cointelegraph.com/news/price-predictions-4-1-btc-eth-bnb-xrp-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.747,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Sector Update: Energy Stocks Fall Wednesday",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-wednesday-200921736.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7338,
-        "score": -0.9667
+        "title": "Korea Offshore Bond Sales Jump to $24 Billion as Maturities Loom",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-01/korea-offshore-bond-sales-jump-to-24-billion-as-maturities-loom",
+        "source": "Bloomberg Markets",
+        "weight": 0.5097,
+        "score": -1.0
       },
       {
-        "title": "Solana DeFi Exchange Drift Protocol Exploited, Upwards of $285 Million Stolen",
-        "url": "https://decrypt.co/363087/solana-drift-protocol-exploited-285-million",
-        "source": "Decrypt",
-        "weight": 0.7861,
-        "score": -0.8333
+        "title": "Fear & Greed 12 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Eli Lilly opposes push to pass Trump's drug pricing deals into law, CEO says",
-        "url": "https://www.cnbc.com/2026/04/01/eli-lilly-opposes-trump-mfn-drug-pricing-law-ceo-ricks-says.html",
-        "source": "CNBC Markets",
-        "weight": 0.5988,
+        "title": "Danny Funt Details 'Whole New Ballgame' of Online Sports Gambling in 'Everybody Loses'",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-01/new-book-details-whole-new-ballgame-of-sports-gambling-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4475,
         "score": -0.9333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.417730897235151,
-          "price_change_24h": 0.07415
+          "volume_mcap_ratio": 0.4141584164829901,
+          "price_change_24h": 0.07185
         }
       ],
       "momentum_shifts": []
