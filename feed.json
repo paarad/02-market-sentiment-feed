@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-02T20:41:52.030337+00:00",
+  "updated_at": "2026-04-03T02:56:24.693733+00:00",
   "indicators": {
-    "change24h": 1.0,
-    "vol": 1.0,
-    "fearGreed": 12,
-    "momentum": 1.0,
+    "change24h": -0.007,
+    "vol": 0.062,
+    "fearGreed": 9,
+    "momentum": -0.128,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2731,
-    "global_sentiment": 0.4433,
-    "combined_sentiment": 0.3251,
-    "confidence": 0.8004,
+    "crypto_sentiment": 0.3534,
+    "global_sentiment": 0.4816,
+    "combined_sentiment": 0.3886,
+    "confidence": 0.722,
     "counts": {
-      "crypto": 54,
-      "global": 36
+      "crypto": 53,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 67074,
-      "btc_change_24h": -1.55,
-      "eth_price": 2073.3,
-      "eth_change_24h": -3.08,
+      "btc_price": 66487,
+      "btc_change_24h": -0.59,
+      "eth_price": 2050.19,
+      "eth_change_24h": -1.15,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.25,
+      "market_breadth": 0.45,
       "fear_greed": {
-        "value": 12,
+        "value": 9,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 179086651306.0,
+        "volume_24h": 144940133014.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.22,
+        "btc_dominance": 57.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-20T08:52:26.840246+00:00",
-      "crypto": 0.4315,
-      "global": 0.3669,
-      "combined": 0.4375,
-      "counts": {
-        "crypto": 51,
-        "global": 32
-      }
-    },
     {
       "ts": "2026-03-20T13:15:47.640631+00:00",
       "crypto": 0.4078,
@@ -1008,61 +998,71 @@
         "crypto": 54,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-04-03T02:56:24.693733+00:00",
+      "crypto": 0.3534,
+      "global": 0.4816,
+      "combined": 0.3886,
+      "counts": {
+        "crypto": 53,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Marvell Technology (MRVL): Buy, Sell, or Hold Post Q4 Earnings?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-buy-sell-200820095.html?.tsrc=rss",
+        "title": "Big Tech firms back new x402 Foundation to advance agentic AI adoption",
+        "url": "https://cointelegraph.com/news/big-tech-companies-join-x402-protocol-agentic-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6729,
+        "score": 0.6667
+      },
+      {
+        "title": "Market Storylines: Fueling Swings, Market Off-Ramps + Quarter-End Flows",
+        "url": "https://finance.yahoo.com/video/market-storylines-fueling-swings-market-224449419.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.75,
+        "weight": 0.4928,
         "score": 0.8667
       },
       {
-        "title": "Verastem Oncology Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/verastem-oncology-announces-inducement-grants-200500187.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Stock Market Resilient As Oil Prices Spike, Tesla Slumps; Jobs Report On Tap",
+        "url": "https://finance.yahoo.com/m/f9bb3669-1120-3897-b122-ec93fc17a8e6/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7452,
-        "score": 0.6333
-      },
-      {
-        "title": "Trump Threatens to Escalate Iran War But Says End Is Very Close",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-02/trump-threatens-to-escalate-iran-war-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6138,
-        "score": 0.6667
+        "weight": 0.7586,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Here’s why bitcoin’s drop below $68,000 raises the risk of a crash under $60,000",
-        "url": "https://www.coindesk.com/markets/2026/04/02/here-s-why-bitcoin-s-drop-below-usd68-000-puts-it-at-risk-of-a-crash-under-usd60-000",
-        "source": "CoinDesk",
-        "weight": 0.772,
-        "score": -1.0
+        "title": "Fear & Greed 9 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Trump fires Attorney General Pam Bondi",
-        "url": "https://www.cnbc.com/2026/04/02/trump-pam-bondi-attorney-general-lee-zeldin.html",
-        "source": "CNBC Markets",
-        "weight": 0.7862,
-        "score": -0.9667
+        "title": "VDC vs. IYK: Vanguard's Structural Advantage and IYK's Defensive Twist",
+        "url": "https://www.fool.com/coverage/etfs/2026/04/02/vdc-vs-iyk-vanguard-s-structural-advantage-and-iyk-s-defensive-twist/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6518,
+        "score": -0.6333
       },
       {
-        "title": "Trump administration sets up to 100% tariffs on some imported drugs, with many companies exempt",
-        "url": "https://www.cnbc.com/2026/04/02/trump-pharmaceutical-tariffs-100percent.html",
+        "title": "Tiger Woods called Trump after DUI crash, he told cop on bodycam video",
+        "url": "https://www.cnbc.com/2026/04/02/tiger-woods-trump-call-dui-crash-video.html",
         "source": "CNBC Markets",
-        "weight": 0.7954,
-        "score": -0.9333
+        "weight": 0.6337,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42532294594664244,
-          "price_change_24h": 0.01278
+          "volume_mcap_ratio": 0.355343742924697,
+          "price_change_24h": 0.00306
         }
       ],
       "momentum_shifts": []
