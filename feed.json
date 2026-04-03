@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-03T05:44:54.932446+00:00",
+  "updated_at": "2026-04-03T09:03:58.511833+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.055,
+    "change24h": 0.012,
+    "vol": 0.069,
     "fearGreed": 9,
-    "momentum": 0.249,
+    "momentum": 0.218,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3605,
-    "global_sentiment": 0.4875,
-    "combined_sentiment": 0.3944,
-    "confidence": 0.6911,
+    "crypto_sentiment": 0.3405,
+    "global_sentiment": 0.5018,
+    "combined_sentiment": 0.3805,
+    "confidence": 0.6625,
     "counts": {
-      "crypto": 51,
-      "global": 41
+      "crypto": 52,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 66737,
-      "btc_change_24h": 0.26,
-      "eth_price": 2060.65,
-      "eth_change_24h": 0.59,
+      "btc_price": 66969,
+      "btc_change_24h": 0.89,
+      "eth_price": 2061.78,
+      "eth_change_24h": 0.89,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 143003291980.0,
+        "volume_24h": 135818607699.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.34,
+        "btc_dominance": 57.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-20T16:54:34.871789+00:00",
-      "crypto": 0.4347,
-      "global": 0.5253,
-      "combined": 0.4532,
-      "counts": {
-        "crypto": 62,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-03-20T20:02:34.421008+00:00",
       "crypto": 0.4489,
@@ -1008,40 +998,43 @@
         "crypto": 51,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-04-03T09:03:58.511833+00:00",
+      "crypto": 0.3405,
+      "global": 0.5018,
+      "combined": 0.3805,
+      "counts": {
+        "crypto": 52,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Oil prices surge while Asian share prices rise moderately",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-prices-surge-while-asian-042653040.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4692,
+        "score": 0.8667
+      },
+      {
         "title": "Tokyo Steel Shares Soar as Oasis Stake Sparks Restructuring Hope",
         "url": "https://www.bloomberg.com/news/articles/2026-04-03/tokyo-steel-shares-soar-as-oasis-stake-sparks-restructuring-hope-mnidp7i2",
         "source": "Bloomberg Markets",
-        "weight": 0.658,
+        "weight": 0.4485,
         "score": 0.5333
       },
       {
-        "title": "Big Tech firms back new x402 Foundation to advance agentic AI adoption",
-        "url": "https://cointelegraph.com/news/big-tech-companies-join-x402-protocol-agentic-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4865,
-        "score": 0.6667
-      },
-      {
-        "title": "Market Storylines: Fueling Swings, Market Off-Ramps + Quarter-End Flows",
-        "url": "https://finance.yahoo.com/video/market-storylines-fueling-swings-market-224449419.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3563,
-        "score": 0.8667
+        "title": "Asia-Pacific markets mostly rise in Easter trade on hopes for Hormuz reopening",
+        "url": "https://www.cnbc.com/2026/04/03/asia-markets-live-hormuz-iran-oil-prices-nikkei-225.html",
+        "source": "CNBC Markets",
+        "weight": 0.6803,
+        "score": 0.3333
       }
     ],
     "negative": [
-      {
-        "title": "Tokenization makes finance more efficient but introduces risks: IMF",
-        "url": "https://cointelegraph.com/news/imf-tokenization-improves-finance-but-introduces-other-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6711,
-        "score": -0.6667
-      },
       {
         "title": "Fear & Greed 9 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,19 +1043,26 @@
         "score": -0.5333
       },
       {
-        "title": "VDC vs. IYK: Vanguard's Structural Advantage and IYK's Defensive Twist",
-        "url": "https://www.fool.com/coverage/etfs/2026/04/02/vdc-vs-iyk-vanguard-s-structural-advantage-and-iyk-s-defensive-twist/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4712,
-        "score": -0.6333
+        "title": "Tokenization makes finance more efficient but introduces risks: IMF",
+        "url": "https://cointelegraph.com/news/imf-tokenization-improves-finance-but-introduces-other-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4575,
+        "score": -0.6667
+      },
+      {
+        "title": "Bitcoin is the financial Easter Bunny this weekend as markets close Friday amid critical jobs report",
+        "url": "https://cryptoslate.com/bitcoin-is-the-financial-easter-bunny-this-weekend-as-markets-close-friday-amid-critical-jobs-report/",
+        "source": "CryptoSlate",
+        "weight": 0.7307,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3425677276977807,
-          "price_change_24h": 0.01175
+          "volume_mcap_ratio": 0.3270555998219784,
+          "price_change_24h": -0.00089
         }
       ],
       "momentum_shifts": []
