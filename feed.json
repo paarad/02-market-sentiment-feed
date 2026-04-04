@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-03T20:45:29.327117+00:00",
+  "updated_at": "2026-04-04T02:47:07.051440+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.082,
-    "fearGreed": 9,
-    "momentum": 0.053,
+    "change24h": 0.005,
+    "vol": 0.067,
+    "fearGreed": 11,
+    "momentum": 0.094,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3145,
-    "global_sentiment": 0.5524,
-    "combined_sentiment": 0.3653,
-    "confidence": 0.7505,
+    "crypto_sentiment": 0.3547,
+    "global_sentiment": 0.3554,
+    "combined_sentiment": 0.379,
+    "confidence": 0.6689,
     "counts": {
-      "crypto": 53,
-      "global": 33
+      "crypto": 68,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 66899,
-      "btc_change_24h": -0.16,
-      "eth_price": 2053.74,
-      "eth_change_24h": -0.79,
+      "btc_price": 66829,
+      "btc_change_24h": 0.73,
+      "eth_price": 2048.87,
+      "eth_change_24h": 0.19,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 9,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 95099199380.0,
+        "volume_24h": 86857016551.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.4,
+        "btc_dominance": 57.41,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-21T08:42:00.791936+00:00",
-      "crypto": 0.3897,
-      "global": 0.5076,
-      "combined": 0.4179,
-      "counts": {
-        "crypto": 46,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-21T13:05:00.690259+00:00",
       "crypto": 0.3183,
@@ -1008,53 +998,63 @@
         "crypto": 53,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-04-04T02:47:07.051440+00:00",
+      "crypto": 0.3547,
+      "global": 0.3554,
+      "combined": 0.379,
+      "counts": {
+        "crypto": 68,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Meet the Monster Stock That Continues to Crush the Market",
-        "url": "https://www.fool.com/investing/2026/04/03/meet-the-monster-stock-that-continues-to-crush-the/?.tsrc=rss",
+        "title": "3 S&P 500 Stocks with Solid Fundamentals",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-p-500-stocks-solid-234850246.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6104,
-        "score": 0.6667
+        "weight": 0.5676,
+        "score": 0.3333
       },
       {
         "title": "3 Bank Stocks That Fall Short",
         "url": "https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-fall-short-200450113.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7398,
+        "weight": 0.3687,
         "score": 0.5
       },
       {
-        "title": "3 Bank Stocks with Open Questions",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-open-questions-193250741.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6956,
-        "score": 0.5
+        "title": "Ethereum Foundation nearly reaches 70,000 staked ETH goal",
+        "url": "https://cointelegraph.com/news/ethereum-foundation-nearly-reaches-70000-staked-eth-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5232,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC",
-        "url": "https://www.coindesk.com/business/2026/04/03/circle-under-fire-after-usd285-million-drift-hack-over-inaction-to-freeze-stolen-usdc",
-        "source": "CoinDesk",
-        "weight": 0.8207,
-        "score": -1.0
+        "title": "1 Healthcare Stock on Our Watchlist and 2 We Find Risky",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/1-healthcare-stock-watchlist-2-235650906.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5764,
+        "score": -0.9667
       },
       {
-        "title": "Decentralized Email Service Dmail to Shut Down, Token Hits New Low",
-        "url": "https://decrypt.co/363289/decentralized-email-service-dmail-shut-down-token-new-low",
-        "source": "Decrypt",
-        "weight": 0.5813,
-        "score": -0.9333
+        "title": "3 Internet Stocks Worth Your Attention",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-internet-stocks-worth-attention-214050810.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4436,
+        "score": -0.9667
       },
       {
-        "title": "Circle under fire as $230M in stolen USDC flows unblocked days after freezing legitimate accounts",
-        "url": "https://cryptoslate.com/circle-usdc-drift-hack-freeze-controversy/",
-        "source": "CryptoSlate",
-        "weight": 0.4907,
-        "score": -1.0
+        "title": "Fear & Greed 11 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
