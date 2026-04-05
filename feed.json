@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-05T08:53:53.200483+00:00",
+  "updated_at": "2026-04-05T13:13:28.155987+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.056,
+    "change24h": -0.009,
+    "vol": 0.091,
     "fearGreed": 12,
-    "momentum": -0.09,
-    "regime": "bear",
+    "momentum": -0.152,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2432,
-    "global_sentiment": 0.4602,
-    "combined_sentiment": 0.3041,
-    "confidence": 0.5376,
+    "crypto_sentiment": 0.2347,
+    "global_sentiment": 0.5409,
+    "combined_sentiment": 0.3044,
+    "confidence": 0.6232,
     "counts": {
-      "crypto": 54,
+      "crypto": 56,
       "global": 28
     },
     "market_indicators": {
-      "btc_price": 66871,
-      "btc_change_24h": -0.07,
-      "eth_price": 2037.18,
-      "eth_change_24h": -0.62,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 66813,
+      "btc_change_24h": -0.42,
+      "eth_price": 2029.46,
+      "eth_change_24h": -1.0,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 68809055119.0,
+        "volume_24h": 70395243029.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.51,
+        "btc_dominance": 57.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-22T19:57:30.799751+00:00",
-      "crypto": 0.2847,
-      "global": 0.393,
-      "combined": 0.3296,
-      "counts": {
-        "crypto": 63,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-03-22T20:36:29.878099+00:00",
       "crypto": 0.2635,
@@ -1008,39 +998,56 @@
         "crypto": 54,
         "global": 28
       }
+    },
+    {
+      "ts": "2026-04-05T13:13:28.155987+00:00",
+      "crypto": 0.2347,
+      "global": 0.5409,
+      "combined": 0.3044,
+      "counts": {
+        "crypto": 56,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Danantara Advances Asset Manager Merger With $159 Million Deal",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-05/danantara-advances-asset-manager-merger-with-159-million-deal",
+        "title": "Chinese Bonds Near Inflection Point as Inflation Outlook Shifts",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-05/chinese-bonds-near-inflection-point-as-inflation-outlook-shifts",
         "source": "Bloomberg Markets",
-        "weight": 0.5104,
+        "weight": 0.6945,
+        "score": 0.6667
+      },
+      {
+        "title": "Anthropic launches PAC amid tensions with Trump administration over AI policy",
+        "url": "https://cointelegraph.com/news/anthropic-launches-pac-ai-policy-tensions-washington?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4464,
         "score": 0.3333
       },
       {
-        "title": "GPT-5.4 Pro jumps to 150 IQ on MESNA Norway test as OpenAI breaks its own record",
-        "url": "https://cryptoslate.com/gpt-5-4-iq-150-ai-capability-economic-impact/",
-        "source": "CryptoSlate",
-        "weight": 0.155,
-        "score": 1.0
-      },
-      {
-        "title": "If a Stock Market Crash Is Coming, These 3 Investing Moves Are Crucial Right Now",
-        "url": "https://www.fool.com/investing/2026/04/04/if-a-stock-market-crash-is-coming-these-3-investin/?.tsrc=rss",
+        "title": "AI and tech companies drive Hong Kong listings to five-year high",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/400-gains-ai-stocks-help-040013901.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.1874,
-        "score": 0.3333
+        "weight": 0.2757,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Drift Protocol $280M exploit took 'months of deliberate preparation'",
-        "url": "https://cointelegraph.com/news/drift-protocol-exploit-preparation-preliminary-findings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6432,
-        "score": -1.0
+        "title": "Drift says $270 million exploit was a six-month North Korean intelligence operation",
+        "url": "https://www.coindesk.com/markets/2026/04/05/drift-says-usd270-million-exploit-was-a-six-month-north-korean-intelligence-operation",
+        "source": "CoinDesk",
+        "weight": 0.8986,
+        "score": -0.8333
+      },
+      {
+        "title": "Circle’s USDC freeze power faces fresh scrutiny after wallets were blocked while stolen funds moved",
+        "url": "https://cryptoslate.com/circle-usdc-freeze-power-scrutiny-wallets-stolen-funds/",
+        "source": "CryptoSlate",
+        "weight": 0.7113,
+        "score": -0.6667
       },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
@@ -1048,13 +1055,6 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Bitcoin's $1.3 trillion security race: Key initiatives aimed at quantum-proofing the world's largest blockchain",
-        "url": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain",
-        "source": "CoinDesk",
-        "weight": 0.5379,
-        "score": -0.6333
       }
     ],
     "market_movers": {
