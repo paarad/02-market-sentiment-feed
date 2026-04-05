@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-05T03:24:22.104460+00:00",
+  "updated_at": "2026-04-05T05:47:49.736117+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.046,
+    "change24h": 0.002,
+    "vol": 0.062,
     "fearGreed": 12,
-    "momentum": 0.123,
+    "momentum": 0.041,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3716,
-    "global_sentiment": 0.4262,
-    "combined_sentiment": 0.3976,
-    "confidence": 0.4798,
+    "crypto_sentiment": 0.3151,
+    "global_sentiment": 0.4598,
+    "combined_sentiment": 0.3579,
+    "confidence": 0.5292,
     "counts": {
-      "crypto": 53,
+      "crypto": 54,
       "global": 29
     },
     "market_indicators": {
-      "btc_price": 67141,
-      "btc_change_24h": 0.44,
-      "eth_price": 2057.75,
-      "eth_change_24h": 0.34,
+      "btc_price": 67076,
+      "btc_change_24h": 0.25,
+      "eth_price": 2052.43,
+      "eth_change_24h": -0.03,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 70491008152.0,
+        "volume_24h": 63391704346.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.46,
+        "btc_dominance": 57.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-22T13:07:17.596422+00:00",
-      "crypto": 0.2207,
-      "global": 0.3799,
-      "combined": 0.2805,
-      "counts": {
-        "crypto": 46,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-03-22T16:39:14.478206+00:00",
       "crypto": 0.2589,
@@ -1008,33 +998,50 @@
         "crypto": 53,
         "global": 29
       }
+    },
+    {
+      "ts": "2026-04-05T05:47:49.736117+00:00",
+      "crypto": 0.3151,
+      "global": 0.4598,
+      "combined": 0.3579,
+      "counts": {
+        "crypto": 54,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Danantara Advances Asset Manager Merger With $159 Million Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-05/danantara-advances-asset-manager-merger-with-159-million-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.7302,
+        "score": 0.3333
+      },
+      {
         "title": "GPT-5.4 Pro jumps to 150 IQ on MESNA Norway test as OpenAI breaks its own record",
         "url": "https://cryptoslate.com/gpt-5-4-iq-150-ai-capability-economic-impact/",
         "source": "CryptoSlate",
-        "weight": 0.2924,
+        "weight": 0.2218,
         "score": 1.0
       },
       {
         "title": "If a Stock Market Crash Is Coming, These 3 Investing Moves Are Crucial Right Now",
         "url": "https://www.fool.com/investing/2026/04/04/if-a-stock-market-crash-is-coming-these-3-investin/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3534,
+        "weight": 0.2681,
         "score": 0.3333
-      },
-      {
-        "title": "U.S.-Iran war 'tax' begins to hit American businesses and consumers",
-        "url": "https://www.cnbc.com/2026/04/04/us-iran-war-gas-prices-diesel-jet-fuel-economy-consumer-tax.html",
-        "source": "CNBC Markets",
-        "weight": 0.1562,
-        "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "Bitcoin's $1.3 trillion security race: Key initiatives aimed at quantum-proofing the world's largest blockchain",
+        "url": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain",
+        "source": "CoinDesk",
+        "weight": 0.7696,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Bloomberg This Weekend 04/04/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-04/bloomberg-this-weekend-04-04-2026-video",
+        "title": "Italy Sets Jet Fuel Limits at Some Airports on Supply Shortage",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-05/italy-sets-jet-fuel-limits-at-some-airports-on-supply-shortage",
         "source": "Bloomberg Markets",
-        "weight": 0.2323,
-        "score": -0.6333
-      },
-      {
-        "title": "NATO's Rutte to Meet With Trump Next Week",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-04/nato-s-rutte-to-meet-with-trump-next-week-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.2193,
-        "score": -0.6333
+        "weight": 0.735,
+        "score": -0.3333
       }
     ],
     "market_movers": {
