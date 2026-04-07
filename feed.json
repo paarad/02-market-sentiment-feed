@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-07T03:17:34.193141+00:00",
+  "updated_at": "2026-04-07T05:49:40.622782+00:00",
   "indicators": {
     "change24h": -0.016,
-    "vol": 0.129,
+    "vol": 0.145,
     "fearGreed": 11,
     "momentum": -0.281,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4728,
-    "global_sentiment": 0.4281,
-    "combined_sentiment": 0.4736,
-    "confidence": 0.6955,
+    "crypto_sentiment": 0.4375,
+    "global_sentiment": 0.4384,
+    "combined_sentiment": 0.448,
+    "confidence": 0.7286,
     "counts": {
-      "crypto": 49,
-      "global": 39
+      "crypto": 50,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 68702,
-      "btc_change_24h": -0.6,
-      "eth_price": 2106.86,
-      "eth_change_24h": -1.18,
+      "btc_price": 68651,
+      "btc_change_24h": -0.72,
+      "eth_price": 2104.59,
+      "eth_change_24h": -1.14,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154294265865.0,
+        "volume_24h": 149008160794.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-24T13:40:22.941762+00:00",
-      "crypto": 0.3841,
-      "global": 0.5076,
-      "combined": 0.4137,
-      "counts": {
-        "crypto": 50,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-24T17:08:33.608792+00:00",
       "crypto": 0.4485,
@@ -1008,46 +998,49 @@
         "crypto": 49,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-04-07T05:49:40.622782+00:00",
+      "crypto": 0.4375,
+      "global": 0.4384,
+      "combined": 0.448,
+      "counts": {
+        "crypto": 50,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Samsung shares rise nearly 5% as profit seen jumping 8-fold on AI chip boom",
+        "title": "XRP slips to $1.31 after failed breakout as liquidity dries up",
+        "url": "https://www.coindesk.com/markets/2026/04/07/xrp-slips-to-usd1-31-after-failed-breakout-as-liquidity-dries-up",
+        "source": "CoinDesk",
+        "weight": 1.1822,
+        "score": 0.5333
+      },
+      {
+        "title": "Samsung shares rise after profit seen jumping 8-fold on AI chip boom",
         "url": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
         "source": "CNBC Markets",
-        "weight": 0.7378,
+        "weight": 0.6458,
         "score": 0.6667
       },
       {
-        "title": "Oil prices extend gains as Trump reaffirms Tuesday deadline for bombarding Iran's power plants, bridges",
-        "url": "https://www.cnbc.com/2026/04/07/crude-oil-prices-today-iran-war-strait-hormuz-tuesday-deadline.html",
-        "source": "CNBC Markets",
-        "weight": 0.7938,
-        "score": 0.3333
-      },
-      {
-        "title": "Stock Market Today, April 6: Kosmos Energy Rises to 52-Week High as Shares Outpace Analyst Targets",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/06/stock-market-today-april-6-kosmos-energy-rises-to-52-week-high-as-shares-outpace-analyst-targets/?.tsrc=rss",
+        "title": "Asian shares are mixed ahead of Trump's deadline for Iran to reopen oil route",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-ahead-trumps-032533183.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4472,
+        "weight": 0.6061,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Taiwan Pivots to Coal Power as War Disrupts Global LNG Market",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/taiwan-pivots-to-coal-power-as-war-disrupts-global-lng-market",
-        "source": "Bloomberg Markets",
-        "weight": 0.7611,
+        "title": "SEC close to putting out 'reg crypto' for fundraising questions, Chair Atkins says",
+        "url": "https://www.coindesk.com/policy/2026/04/07/sec-close-to-putting-out-reg-crypto-for-fundraising-questions-chair-atkins-says",
+        "source": "CoinDesk",
+        "weight": 0.8083,
         "score": -0.6333
-      },
-      {
-        "title": "Yuan May Dodge Seasonal Slump on Iran War Resilience, Economy",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/yuan-to-dodge-seasonal-slump-on-iran-war-resilience-economy",
-        "source": "Bloomberg Markets",
-        "weight": 0.4872,
-        "score": -0.9667
       },
       {
         "title": "Fear & Greed 11 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Iran Amplifies LNG Shortage by Blocking Passages Through Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/iran-amplifies-lng-shortage-by-blocking-passages-through-hormuz",
+        "source": "Bloomberg Markets",
+        "weight": 0.6242,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3666183833017574,
-          "price_change_24h": 0.02564
+          "volume_mcap_ratio": 0.3553746525367966,
+          "price_change_24h": 0.02516
         }
       ],
       "momentum_shifts": []
