@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-07T17:09:47.297120+00:00",
+  "updated_at": "2026-04-07T20:27:35.953029+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.09,
+    "change24h": -0.013,
+    "vol": 0.07,
     "fearGreed": 11,
-    "momentum": -0.483,
-    "regime": "bear",
+    "momentum": -0.231,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3148,
-    "global_sentiment": 0.3928,
-    "combined_sentiment": 0.3522,
-    "confidence": 0.7985,
+    "crypto_sentiment": 0.3058,
+    "global_sentiment": 0.4683,
+    "combined_sentiment": 0.3517,
+    "confidence": 0.8065,
     "counts": {
-      "crypto": 53,
-      "global": 36
+      "crypto": 54,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 68303,
-      "btc_change_24h": -1.88,
-      "eth_price": 2086.08,
-      "eth_change_24h": -2.43,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 69322,
+      "btc_change_24h": -0.87,
+      "eth_price": 2114.48,
+      "eth_change_24h": -1.76,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 147794514279.0,
+        "volume_24h": 158888563193.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.86,
+        "btc_dominance": 57.97,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-25T02:49:22.627531+00:00",
-      "crypto": 0.4039,
-      "global": 0.4188,
-      "combined": 0.4212,
-      "counts": {
-        "crypto": 71,
-        "global": 30
-      }
-    },
     {
       "ts": "2026-03-25T05:25:40.184950+00:00",
       "crypto": 0.4527,
@@ -1008,61 +998,71 @@
         "crypto": 53,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-04-07T20:27:35.953029+00:00",
+      "crypto": 0.3058,
+      "global": 0.4683,
+      "combined": 0.3517,
+      "counts": {
+        "crypto": 54,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Trump Accounts put Robinhood in front of the next generation of investors, says CEO Vlad Tenev",
-        "url": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
-        "source": "CNBC Markets",
-        "weight": 0.6825,
-        "score": 0.9167
+        "title": "2 Reasons to Like MGY and 1 to Stay Skeptical",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-mgy-1-stay-185350863.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6679,
+        "score": 0.8667
       },
       {
-        "title": "CME Group expands crypto futures with Avalanche and Sui contracts",
-        "url": "https://cointelegraph.com/news/cme-group-launch-avalanche-sui-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5724,
-        "score": 0.9167
+        "title": "3 Big Reasons to Love Cactus (WHD)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-big-reasons-love-cactus-184550747.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6576,
+        "score": 0.6667
       },
       {
-        "title": "Inside Operation Atlantic’s push to disrupt crypto scams in real time",
-        "url": "https://cointelegraph.com/explained/operation-atlantic-crypto-scam-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4627,
-        "score": 0.5833
+        "title": "Brent Oil Hits Record $144 a Barrel in Key Physical Market",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/key-real-world-oil-price-soars-to-highest-level-on-record",
+        "source": "Bloomberg Markets",
+        "weight": 0.6447,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Macro Traders Slump Most in March as War Squeezes Hedge Funds",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/macro-traders-slump-most-in-march-as-war-squeezes-hedge-funds",
+        "source": "Bloomberg Markets",
+        "weight": 0.781,
+        "score": -1.0
+      },
+      {
+        "title": "Solana Foundation to Help Secure DeFi Protocols Following $285 Million Drift Hack",
+        "url": "https://decrypt.co/363521/solana-foundation-help-secure-defi-protocols-285-million-drift-hack",
+        "source": "Decrypt",
+        "weight": 0.6538,
+        "score": -1.0
+      },
+      {
         "title": "XRP losses are forcing late buyers out, turning every bounce into a new sell zone",
         "url": "https://cryptoslate.com/xrp-losses-trapped-buyers-sell-rebounds/",
         "source": "CryptoSlate",
-        "weight": 0.7955,
+        "weight": 0.5435,
         "score": -1.0
-      },
-      {
-        "title": "Why Matt Maley is Nervous about Private Credit",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-07/why-matt-maley-is-nervous-about-private-credit-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6029,
-        "score": -1.0
-      },
-      {
-        "title": "3 Reasons to Avoid ESAB and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-esab-1-165350781.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7758,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3595358632451338,
-          "price_change_24h": -0.01052
+          "volume_mcap_ratio": 0.3815707482159292,
+          "price_change_24h": -0.01161
         }
       ],
       "momentum_shifts": []
