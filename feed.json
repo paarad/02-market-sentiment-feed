@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-06T20:47:45.044130+00:00",
+  "updated_at": "2026-04-07T03:17:34.193141+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.12,
-    "fearGreed": 13,
-    "momentum": 0.606,
-    "regime": "sideways",
+    "change24h": -0.016,
+    "vol": 0.129,
+    "fearGreed": 11,
+    "momentum": -0.281,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5187,
-    "global_sentiment": 0.4551,
-    "combined_sentiment": 0.5103,
-    "confidence": 0.7851,
+    "crypto_sentiment": 0.4728,
+    "global_sentiment": 0.4281,
+    "combined_sentiment": 0.4736,
+    "confidence": 0.6955,
     "counts": {
-      "crypto": 50,
-      "global": 40
+      "crypto": 49,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 69904,
-      "btc_change_24h": 3.37,
-      "eth_price": 2150.63,
-      "eth_change_24h": 3.92,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 68702,
+      "btc_change_24h": -0.6,
+      "eth_price": 2106.86,
+      "eth_change_24h": -1.18,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 13,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165542169615.0,
+        "volume_24h": 154294265865.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.02,
+        "btc_dominance": 57.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-24T09:00:24.377724+00:00",
-      "crypto": 0.398,
-      "global": 0.5421,
-      "combined": 0.427,
-      "counts": {
-        "crypto": 51,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-03-24T13:40:22.941762+00:00",
       "crypto": 0.3841,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-07T03:17:34.193141+00:00",
+      "crypto": 0.4728,
+      "global": 0.4281,
+      "combined": 0.4736,
+      "counts": {
+        "crypto": 49,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US Crude Exports Test Limits as Shipping Constraints Mount",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-06/us-crude-exports-test-limits-as-shipping-constraints-mount",
-        "source": "Bloomberg Markets",
-        "weight": 0.5481,
-        "score": 1.0
-      },
-      {
-        "title": "3 Reasons RNR is Risky and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-rnr-risky-1-201151514.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7466,
+        "title": "Samsung shares rise nearly 5% as profit seen jumping 8-fold on AI chip boom",
+        "url": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
+        "source": "CNBC Markets",
+        "weight": 0.7378,
         "score": 0.6667
       },
       {
-        "title": "Oil Climbs, Stocks Whipsaw After Trump’s Warning: Markets Wrap",
-        "url": "https://finance.yahoo.com/news/trading-open-shadowed-trump-escalation-200039071.html?.tsrc=rss",
+        "title": "Oil prices extend gains as Trump reaffirms Tuesday deadline for bombarding Iran's power plants, bridges",
+        "url": "https://www.cnbc.com/2026/04/07/crude-oil-prices-today-iran-war-strait-hormuz-tuesday-deadline.html",
+        "source": "CNBC Markets",
+        "weight": 0.7938,
+        "score": 0.3333
+      },
+      {
+        "title": "Stock Market Today, April 6: Kosmos Energy Rises to 52-Week High as Shares Outpace Analyst Targets",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/04/06/stock-market-today-april-6-kosmos-energy-rises-to-52-week-high-as-shares-outpace-analyst-targets/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7385,
-        "score": 0.6667
+        "weight": 0.4472,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "3 Consumer Stocks That Concern Us",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-concern-us-201151160.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7466,
+        "title": "Taiwan Pivots to Coal Power as War Disrupts Global LNG Market",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/taiwan-pivots-to-coal-power-as-war-disrupts-global-lng-market",
+        "source": "Bloomberg Markets",
+        "weight": 0.7611,
+        "score": -0.6333
+      },
+      {
+        "title": "Yuan May Dodge Seasonal Slump on Iran War Resilience, Economy",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-06/yuan-to-dodge-seasonal-slump-on-iran-war-resilience-economy",
+        "source": "Bloomberg Markets",
+        "weight": 0.4872,
         "score": -0.9667
       },
       {
-        "title": "Stock Of The Day In Buy Zone, Leads Industry Despite Supersmall Market",
-        "url": "https://finance.yahoo.com/m/c123d0aa-0508-360b-add5-b7527aff9d94/stock-of-the-day-in-buy-zone%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7689,
-        "score": -0.9333
-      },
-      {
-        "title": "FDA declines to issue specific guidance on health programs' foreign drug imports",
-        "url": "https://www.cnbc.com/2026/04/06/fda-says-foreign-drug.html",
-        "source": "CNBC Markets",
-        "weight": 0.5129,
-        "score": -1.0
+        "title": "Fear & Greed 11 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3973375242970391,
-          "price_change_24h": 0.01835
+          "volume_mcap_ratio": 0.3666183833017574,
+          "price_change_24h": 0.02564
         }
       ],
       "momentum_shifts": []
