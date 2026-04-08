@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-08T13:49:37.593783+00:00",
+  "updated_at": "2026-04-08T17:13:08.738551+00:00",
   "indicators": {
-    "change24h": 0.096,
-    "vol": 0.383,
+    "change24h": 0.08,
+    "vol": 0.328,
     "fearGreed": 17,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4905,
-    "global_sentiment": 0.5578,
-    "combined_sentiment": 0.4977,
-    "confidence": 0.7749,
+    "crypto_sentiment": 0.5138,
+    "global_sentiment": 0.5594,
+    "combined_sentiment": 0.5153,
+    "confidence": 0.7973,
     "counts": {
-      "crypto": 53,
-      "global": 42
+      "crypto": 51,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 71884,
-      "btc_change_24h": 5.36,
-      "eth_price": 2241.14,
-      "eth_change_24h": 7.94,
+      "btc_price": 71753,
+      "btc_change_24h": 5.05,
+      "eth_price": 2225.26,
+      "eth_change_24h": 6.85,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 202834665785.0,
+        "volume_24h": 211828577415.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.14,
+        "btc_dominance": 58.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-25T20:49:00.915131+00:00",
-      "crypto": 0.4445,
-      "global": 0.4431,
-      "combined": 0.4536,
-      "counts": {
-        "crypto": 55,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-03-26T02:56:23.017428+00:00",
       "crypto": 0.4509,
@@ -1008,66 +998,76 @@
         "crypto": 53,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-08T17:13:08.738551+00:00",
+      "crypto": 0.5138,
+      "global": 0.5594,
+      "combined": 0.5153,
+      "counts": {
+        "crypto": 51,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "The Ensign Group (ENSG): Buy, Sell, or Hold Post Q4 Earnings?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ensign-group-ensg-buy-sell-132547812.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7641,
+        "title": "RWA network Pharos lands a $1 billion valuation in $44M funding round ahead of mainnet debut",
+        "url": "https://www.coindesk.com/business/2026/04/08/pharos-raises-usd44-million-in-series-a-to-power-real-world-asset-tokenization",
+        "source": "CoinDesk",
+        "weight": 0.7459,
+        "score": 0.9667
+      },
+      {
+        "title": "Alphabet, Meta, Amazon, Nvidia lead tech rally after Trump announces ceasefire with Iran",
+        "url": "https://www.cnbc.com/2026/04/08/alphabet-nvidia-microsoft-tech-stocks-iran-ceasefire.html",
+        "source": "CNBC Markets",
+        "weight": 0.7211,
         "score": 0.8667
       },
       {
-        "title": "Why Bitcoin’s $72k breakout started before Trump’s ceasefire post in the craziest trading day in years",
-        "url": "https://cryptoslate.com/hour-by-hour-how-oil-fell-below-100-a-barrel-as-bitcoin-broke-71k-in-surreal-night-of-afterhours-trading/",
-        "source": "CryptoSlate",
-        "weight": 0.5409,
-        "score": 1.0
-      },
-      {
-        "title": "South Africa Leads Rebound in Emerging Markets Hit By Iran Conflict",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-08/south-africa-leads-em-rebound-as-de-escalation-trade-takes-hold",
+        "title": "Activist Investors Surge in Volatile Markets",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-08/activist-investors-surge-in-volatile-markets-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5271,
+        "weight": 0.6524,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Indian Households See Inflation Spiking Over Next Few Months",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-08/indian-households-see-inflation-spiking-over-next-few-months",
-        "source": "Bloomberg Markets",
-        "weight": 0.7075,
-        "score": -0.6667
-      },
-      {
-        "title": "South Korea tightens crypto withdrawal-delay exemptions after scam losses",
-        "url": "https://cointelegraph.com/news/south-korea-tightens-crypto-withdrawal-delay-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin fades three-week highs as BTC price shrugs off Iran war ceasefire",
+        "url": "https://cointelegraph.com/news/bitcoin-fades-three-week-highs-btc-price-shrugs-off-iran-war-ceasefire?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6965,
-        "score": -0.6667
+        "weight": 0.7208,
+        "score": -0.9333
       },
       {
-        "title": "Fear & Greed 17 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Venezuela Boosts Dollar Sales to Stem Bolívar Slide Post-Maduro",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-08/venezuela-boosts-dollar-sales-to-stem-bolivar-slide-post-maduro",
+        "source": "Bloomberg Markets",
+        "weight": 0.6856,
+        "score": -0.9667
+      },
+      {
+        "title": "After the $285M Drift hack, new Solana scare shows crypto’s next security risk may already be inside",
+        "url": "https://cryptoslate.com/drift-hack-stabble-crypto-insider-risk/",
+        "source": "CryptoSlate",
+        "weight": 0.5364,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.46752687619571187,
-          "price_change_24h": 0.00143
+          "volume_mcap_ratio": 0.4876653374465519,
+          "price_change_24h": 0.02567
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4157484603470278,
-          "price_change_24h": -0.09764
+          "volume_mcap_ratio": 0.4290776207950625,
+          "price_change_24h": -0.05228
         }
       ],
       "momentum_shifts": []
