@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-07T20:56:36.101423+00:00",
+  "updated_at": "2026-04-08T03:19:30.915927+00:00",
   "indicators": {
-    "change24h": -0.012,
-    "vol": 0.073,
-    "fearGreed": 11,
-    "momentum": -0.212,
+    "change24h": 0.053,
+    "vol": 0.168,
+    "fearGreed": 17,
+    "momentum": 0.919,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3055,
-    "global_sentiment": 0.4599,
-    "combined_sentiment": 0.3508,
-    "confidence": 0.7986,
+    "crypto_sentiment": 0.3615,
+    "global_sentiment": 0.4858,
+    "combined_sentiment": 0.3949,
+    "confidence": 0.7658,
     "counts": {
-      "crypto": 53,
-      "global": 44
+      "crypto": 55,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 69202,
-      "btc_change_24h": -0.9,
-      "eth_price": 2112.22,
-      "eth_change_24h": -1.72,
+      "btc_price": 71320,
+      "btc_change_24h": 3.83,
+      "eth_price": 2233.95,
+      "eth_change_24h": 6.1,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.7,
       "fear_greed": {
-        "value": 11,
+        "value": 17,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160517362349.0,
-        "high_activity_coins": 1
+        "volume_24h": 204758218862.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.95,
+        "btc_dominance": 58.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-25T08:59:22.408262+00:00",
-      "crypto": 0.3838,
-      "global": 0.3585,
-      "combined": 0.4011,
-      "counts": {
-        "crypto": 54,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-03-25T13:27:21.055937+00:00",
       "crypto": 0.4758,
@@ -1008,61 +998,76 @@
         "crypto": 53,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-04-08T03:19:30.915927+00:00",
+      "crypto": 0.3615,
+      "global": 0.4858,
+      "combined": 0.3949,
+      "counts": {
+        "crypto": 55,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "‘Freak Out’ Indicator Soars to Record as War Spurs Trader Angst",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/freak-indicator-soars-record-war-201626474.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7405,
-        "score": 0.6667
-      },
-      {
-        "title": "Brent Oil Hits Record $144 a Barrel in Key Physical Market",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/key-real-world-oil-price-soars-to-highest-level-on-record",
+        "title": "Japan’s Nikkei Surges as US-Iran Ceasefire Boosts Risk Appetite",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-07/japan-stocks-set-to-gain-after-trump-agrees-to-iran-ceasefire",
         "source": "Bloomberg Markets",
-        "weight": 0.6097,
-        "score": 0.6667
+        "weight": 0.4972,
+        "score": 0.8667
       },
       {
-        "title": "Trump Accounts put Robinhood in front of the next generation of investors, says CEO Vlad Tenev",
-        "url": "https://www.cnbc.com/2026/04/07/trump-accounts-put-robinhood-in-front-of-the-next-generation-of-investors-says-ceo-vlad-tenev.html",
-        "source": "CNBC Markets",
-        "weight": 0.441,
-        "score": 0.9167
+        "title": "Global crypto market cap up 3.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Bitcoin vaults past $72,000 as U.S. stock futures surge on a two‑week U.S.–Iran ceasefire",
+        "url": "https://www.coindesk.com/markets/2026/04/08/bitcoin-u-s-stock-futures-surge-on-a-two-week-u-s-iran-ceasefire",
+        "source": "CoinDesk",
+        "weight": 0.6723,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Macro Traders Slump Most in March as War Squeezes Hedge Funds",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/macro-traders-slump-most-in-march-as-war-squeezes-hedge-funds",
+        "title": "CBA's Dhar on US-Iran Ceasefire, Impact on Commodities",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-08/cba-s-dhar-on-us-iran-ceasefire-impact-on-commodities-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7385,
+        "weight": 0.6738,
+        "score": -0.9667
+      },
+      {
+        "title": "Elon Musk seeks ouster of OpenAI CEO Sam Altman as part of lawsuit",
+        "url": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
+        "source": "CNBC Markets",
+        "weight": 0.5185,
         "score": -1.0
       },
       {
-        "title": "Solana Foundation to Help Secure DeFi Protocols Following $285 Million Drift Hack",
-        "url": "https://decrypt.co/363521/solana-foundation-help-secure-defi-protocols-285-million-drift-hack",
-        "source": "Decrypt",
-        "weight": 0.6183,
-        "score": -1.0
-      },
-      {
-        "title": "Bond Investors Brace for Selloff as Trump’s Iran Deadline Nears",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-07/bond-investors-brace-for-selloff-as-trump-s-iran-deadline-nears",
-        "source": "Bloomberg Markets",
-        "weight": 0.7748,
-        "score": -0.6667
+        "title": "Fear & Greed 17 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38525410804309584,
-          "price_change_24h": -0.01142
+          "volume_mcap_ratio": 0.48733543794687195,
+          "price_change_24h": -0.0081
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.34376096028249487,
+          "price_change_24h": -0.05147
         }
       ],
       "momentum_shifts": []
