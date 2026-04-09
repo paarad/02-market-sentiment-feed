@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-09T20:33:50.949039+00:00",
+  "updated_at": "2026-04-09T20:59:00.155064+00:00",
   "indicators": {
-    "change24h": 0.04,
-    "vol": 0.258,
+    "change24h": 0.042,
+    "vol": 0.283,
     "fearGreed": 14,
-    "momentum": 0.693,
+    "momentum": 0.736,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5179,
-    "global_sentiment": 0.442,
-    "combined_sentiment": 0.5086,
-    "confidence": 0.7974,
+    "crypto_sentiment": 0.5178,
+    "global_sentiment": 0.4496,
+    "combined_sentiment": 0.5092,
+    "confidence": 0.7913,
     "counts": {
       "crypto": 64,
-      "global": 46
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 72327,
-      "btc_change_24h": 1.24,
-      "eth_price": 2218.5,
-      "eth_change_24h": 0.17,
+      "btc_price": 72376,
+      "btc_change_24h": 1.42,
+      "eth_price": 2213.11,
+      "eth_change_24h": 0.16,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.8,
       "fear_greed": {
         "value": 14,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 140163689623.0,
+        "volume_24h": 140671733274.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.39,
+        "btc_dominance": 58.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-27T05:44:57.220469+00:00",
-      "crypto": 0.361,
-      "global": 0.497,
-      "combined": 0.3955,
-      "counts": {
-        "crypto": 46,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-03-27T09:02:09.334367+00:00",
       "crypto": 0.3595,
@@ -1008,30 +998,40 @@
         "crypto": 64,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-09T20:59:00.155064+00:00",
+      "crypto": 0.5178,
+      "global": 0.4496,
+      "combined": 0.5092,
+      "counts": {
+        "crypto": 64,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Dow Jones Futures: Stocks Extend Rally On Iran War News, Amazon; CPI Inflation, Nvidia Chipmaker Due",
+        "url": "https://finance.yahoo.com/m/a772792b-e0e1-3b25-9240-2743359e10ad/dow-jones-futures%3A-stocks.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7759,
+        "score": 0.8667
+      },
+      {
         "title": "Three reasons why Ether traders expect ETH to hold above $1.8K",
         "url": "https://cointelegraph.com/news/three-reasons-why-ether-traders-expect-eth-to-hold-above-dollar1-8k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6186,
+        "weight": 0.5894,
         "score": 1.0
       },
       {
         "title": "Automatic U.S. military draft registration planned by December, filing shows",
         "url": "https://www.cnbc.com/2026/04/09/military-draft-registration-automatic-iran-war.html",
         "source": "CNBC Markets",
-        "weight": 0.7553,
+        "weight": 0.7196,
         "score": 0.6667
-      },
-      {
-        "title": "ETH valuation metric hits level not seen since 2022: Is rally to $2.5K next?",
-        "url": "https://cointelegraph.com/news/eth-valuation-metric-hits-level-not-seen-since-2022-is-rally-to-dollar2-5k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8985,
-        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,35 +1039,35 @@
         "title": "Amazon CEO Jassy defends $200 billion AI spend: \"We're not going to be conservative\"",
         "url": "https://www.cnbc.com/2026/04/09/amazon-ceo-andy-jassy-ai-spending.html",
         "source": "CNBC Markets",
-        "weight": 0.7615,
+        "weight": 0.7255,
         "score": -0.9333
       },
       {
         "title": "U.S. Treasury to loop in crypto sector on hacker warnings shared with traditional firms",
         "url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms",
         "source": "CoinDesk",
-        "weight": 0.6693,
+        "weight": 0.6377,
         "score": -1.0
       },
       {
-        "title": "OpenAI Plans Advanced Cybersecurity Product—With 'Trusted Access' Only",
-        "url": "https://decrypt.co/363858/openai-cyber-model-anthropic-mythos",
-        "source": "Decrypt",
-        "weight": 0.8402,
-        "score": -0.6333
+        "title": "SS&C (SSNC): Buy, Sell, or Hold Post Q4 Earnings?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ss-c-ssnc-buy-sell-203747265.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.768,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.32954212303259695,
-          "price_change_24h": 2.11526
+          "volume_mcap_ratio": 0.3326876596845224,
+          "price_change_24h": 3.34572
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3201344220953896,
-          "price_change_24h": 0.00221
+          "volume_mcap_ratio": 0.32290178465941793,
+          "price_change_24h": 0.00786
         }
       ],
       "momentum_shifts": []
