@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-08T20:54:11.248386+00:00",
+  "updated_at": "2026-04-09T02:55:17.379092+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.112,
-    "fearGreed": 17,
-    "momentum": 0.352,
+    "change24h": -0.027,
+    "vol": 0.118,
+    "fearGreed": 14,
+    "momentum": -0.474,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.471,
-    "global_sentiment": 0.5119,
-    "combined_sentiment": 0.4793,
-    "confidence": 0.8146,
+    "crypto_sentiment": 0.4132,
+    "global_sentiment": 0.4727,
+    "combined_sentiment": 0.4326,
+    "confidence": 0.7339,
     "counts": {
-      "crypto": 52,
-      "global": 40
+      "crypto": 65,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 71327,
-      "btc_change_24h": 3.05,
-      "eth_price": 2208.63,
-      "eth_change_24h": 4.52,
+      "btc_price": 71158,
+      "btc_change_24h": -0.23,
+      "eth_price": 2184.17,
+      "eth_change_24h": -2.31,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 17,
+        "value": 14,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 205234889185.0,
+        "volume_24h": 156572617204.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.24,
+        "btc_dominance": 58.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-26T09:06:44.049178+00:00",
-      "crypto": 0.4291,
-      "global": 0.4543,
-      "combined": 0.4431,
-      "counts": {
-        "crypto": 57,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-03-26T13:44:40.320748+00:00",
       "crypto": 0.4402,
@@ -1008,66 +998,76 @@
         "crypto": 52,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-09T02:55:17.379092+00:00",
+      "crypto": 0.4132,
+      "global": 0.4727,
+      "combined": 0.4326,
+      "counts": {
+        "crypto": 65,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Twilio, Toast, and Flywire Shares Skyrocket, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-toast-flywire-shares-skyrocket-024547803.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7855,
+        "score": 0.8667
+      },
+      {
+        "title": "Dow Jones Futures Fall, Oil Prices Rise After Iran Ceasefire Rally. Google, Nvidia Partner Lead 7 New Buys",
+        "url": "https://finance.yahoo.com/m/886a3928-a288-3e96-a307-30ead2d0498b/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7845,
+        "score": 0.5333
+      },
+      {
         "title": "Price predictions 4/8: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
         "url": "https://cointelegraph.com/news/price-predictions-4-8-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7705,
+        "weight": 0.3844,
         "score": 1.0
-      },
-      {
-        "title": "Big Tree Cloud Holdings Limited Announces Transfer of Listing to Nasdaq Capital Market",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/big-tree-cloud-holdings-limited-201500075.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7419,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market Today: Dow Rallies 1,300 Points Amid Iran Ceasefire; This Chip Stock Breaks Out (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/c9240d23-e72c-3dc7-b480-3c3cfd25afe1/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7633,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "BTG Deal to Buy Digimais Said to Get Support from Insurance Fund",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-08/btg-deal-to-buy-digimais-said-to-get-support-from-insurance-fund",
-        "source": "Bloomberg Markets",
-        "weight": 0.7703,
-        "score": -1.0
+        "title": "'Poorly run, piece of ice': Trump targets Greenland again as Iran war deepens NATO rift",
+        "url": "https://www.cnbc.com/2026/04/09/trump-greenland-nato-rift-iran-war-deepens.html",
+        "source": "CNBC Markets",
+        "weight": 0.7831,
+        "score": -0.6333
       },
       {
-        "title": "Bitcoin’s rebound may be fragile as Wall Street warns Hormuz disruption is not really over",
-        "url": "https://cryptoslate.com/ceasefire-calmed-hormuz-panic-bitcoin-still-faces-oil-risk/",
-        "source": "CryptoSlate",
-        "weight": 0.738,
-        "score": -1.0
+        "title": "Fear & Greed 14 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Higher Oil Costs to Mute Some Dealmaking: Zimmer",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-08/higher-oil-costs-to-mute-some-dealmaking-zimmer-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7411,
-        "score": -0.9667
+        "title": "Anthropic loses appeals court bid to temporarily block Pentagon blacklisting",
+        "url": "https://www.cnbc.com/2026/04/08/anthropic-pentagon-court-ruling-supply-chain-risk.html",
+        "source": "CNBC Markets",
+        "weight": 0.5622,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4718545115846219,
-          "price_change_24h": 0.01442
+          "volume_mcap_ratio": 0.36265719993142126,
+          "price_change_24h": 0.01038
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.40544808836386886,
-          "price_change_24h": -0.08024
+          "volume_mcap_ratio": 0.3308331485841188,
+          "price_change_24h": -0.02898
         }
       ],
       "momentum_shifts": []
