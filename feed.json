@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-09T14:03:54.127498+00:00",
+  "updated_at": "2026-04-09T17:15:41.474445+00:00",
   "indicators": {
-    "change24h": -0.032,
-    "vol": 0.127,
+    "change24h": 0.006,
+    "vol": 0.057,
     "fearGreed": 14,
-    "momentum": -0.555,
-    "regime": "bear",
+    "momentum": 0.105,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3526,
-    "global_sentiment": 0.5249,
-    "combined_sentiment": 0.3915,
-    "confidence": 0.7923,
+    "crypto_sentiment": 0.4439,
+    "global_sentiment": 0.454,
+    "combined_sentiment": 0.4541,
+    "confidence": 0.7932,
     "counts": {
-      "crypto": 55,
-      "global": 40
+      "crypto": 64,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 70743,
-      "btc_change_24h": -1.29,
-      "eth_price": 2163.87,
-      "eth_change_24h": -3.33,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 72440,
+      "btc_change_24h": 0.98,
+      "eth_price": 2222.39,
+      "eth_change_24h": -0.07,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 130198992798.0,
-        "high_activity_coins": 0
+        "volume_24h": 136773011040.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.27,
+        "btc_dominance": 58.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-26T20:42:01.396205+00:00",
-      "crypto": 0.4441,
-      "global": 0.4497,
-      "combined": 0.4539,
-      "counts": {
-        "crypto": 46,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-03-27T03:17:38.123905+00:00",
       "crypto": 0.3848,
@@ -1008,57 +998,73 @@
         "crypto": 55,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-09T17:15:41.474445+00:00",
+      "crypto": 0.4439,
+      "global": 0.454,
+      "combined": 0.4541,
+      "counts": {
+        "crypto": 64,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nvidia Shares Near Level Where Technical Traders See a Breakout",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/nvidia-shares-near-level-where-technical-traders-see-a-breakout",
-        "source": "Bloomberg Markets",
-        "weight": 0.5367,
+        "title": "Three reasons why Ether traders expect ETH to hold above $1.8K",
+        "url": "https://cointelegraph.com/news/three-reasons-why-ether-traders-expect-eth-to-hold-above-dollar1-8k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.906,
         "score": 1.0
       },
       {
-        "title": "Stock Market Today: Dow Drops On Fragile Ceasefire, Hot Inflation Data; CoreWeave Jumps (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/999afe85-e68f-35c3-bbb7-873b11646595/stock-market-today%3A-dow-drops.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7814,
-        "score": 0.5333
+        "title": "Gold Boom Drives Record Mining Profits",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-09/gold-boom-drives-record-mining-profits-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6927,
+        "score": 1.0
       },
       {
-        "title": "Google expands partnership with Intel for AI chips",
-        "url": "https://www.cnbc.com/2026/04/09/google-expands-partnership-with-intel-for-ai-chips-.html",
+        "title": "Automatic U.S. military draft registration planned by December, filing shows",
+        "url": "https://www.cnbc.com/2026/04/09/military-draft-registration-automatic-iran-war.html",
         "source": "CNBC Markets",
-        "weight": 0.7074,
-        "score": 0.5833
+        "weight": 0.793,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Depot discloses $3.7M BTC theft in cybersecurity breach",
-        "url": "https://cointelegraph.com/news/bitcoin-depot-3-7m-cybersecurity-breach-customer-data-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7761,
+        "title": "U.S. Treasury to loop in crypto sector on hacker warnings shared with traditional firms",
+        "url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms",
+        "source": "CoinDesk",
+        "weight": 0.9802,
         "score": -1.0
       },
       {
         "title": "Amazon CEO Jassy defends $200 billion AI spend: \"We're not going to be conservative\"",
         "url": "https://www.cnbc.com/2026/04/09/amazon-ceo-andy-jassy-ai-spending.html",
         "source": "CNBC Markets",
-        "weight": 0.7964,
+        "weight": 0.7123,
         "score": -0.9333
       },
       {
-        "title": "Strategy made nearly $2 billion on Bitcoin this year but SEC filing hides a far bigger number",
-        "url": "https://cryptoslate.com/strategy-says-it-made-1-7-billion-on-bitcoin-this-year/",
-        "source": "CryptoSlate",
-        "weight": 0.7494,
-        "score": -0.9
+        "title": "Bitcoin Depot discloses $3.7M BTC theft in cybersecurity breach",
+        "url": "https://cointelegraph.com/news/bitcoin-depot-3-7m-cybersecurity-breach-customer-data-safe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5365,
+        "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3149507404227933,
+          "price_change_24h": -0.00335
+        }
+      ],
       "momentum_shifts": []
     }
   },
