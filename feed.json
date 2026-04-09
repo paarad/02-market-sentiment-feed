@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-09T02:55:17.379092+00:00",
+  "updated_at": "2026-04-09T05:52:22.480169+00:00",
   "indicators": {
-    "change24h": -0.027,
-    "vol": 0.118,
+    "change24h": -0.032,
+    "vol": 0.126,
     "fearGreed": 14,
-    "momentum": -0.474,
-    "regime": "sideways",
+    "momentum": -0.566,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4132,
-    "global_sentiment": 0.4727,
-    "combined_sentiment": 0.4326,
-    "confidence": 0.7339,
+    "crypto_sentiment": 0.3632,
+    "global_sentiment": 0.5823,
+    "combined_sentiment": 0.4043,
+    "confidence": 0.7216,
     "counts": {
-      "crypto": 65,
-      "global": 41
+      "crypto": 50,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 71158,
-      "btc_change_24h": -0.23,
-      "eth_price": 2184.17,
-      "eth_change_24h": -2.31,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 70930,
+      "btc_change_24h": -1.16,
+      "eth_price": 2182.65,
+      "eth_change_24h": -2.68,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156572617204.0,
+        "volume_24h": 151157074189.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.31,
+        "btc_dominance": 58.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-26T13:44:40.320748+00:00",
-      "crypto": 0.4402,
-      "global": 0.4683,
-      "combined": 0.4525,
-      "counts": {
-        "crypto": 50,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-03-26T17:11:48.240908+00:00",
       "crypto": 0.4219,
@@ -1008,38 +998,55 @@
         "crypto": 65,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-04-09T05:52:22.480169+00:00",
+      "crypto": 0.3632,
+      "global": 0.5823,
+      "combined": 0.4043,
+      "counts": {
+        "crypto": 50,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Twilio, Toast, and Flywire Shares Skyrocket, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-toast-flywire-shares-skyrocket-024547803.html?.tsrc=rss",
+        "title": "Why American Express Global Business Travel (GBTG) Stock Is Up Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-american-express-global-business-032547986.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7855,
+        "weight": 0.6033,
+        "score": 1.0
+      },
+      {
+        "title": "Why Are Shopify (SHOP) Shares Soaring Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-shopify-shop-shares-soaring-034147798.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6221,
         "score": 0.8667
       },
       {
-        "title": "Dow Jones Futures Fall, Oil Prices Rise After Iran Ceasefire Rally. Google, Nvidia Partner Lead 7 New Buys",
-        "url": "https://finance.yahoo.com/m/886a3928-a288-3e96-a307-30ead2d0498b/dow-jones-futures-fall%2C-oil.html?.tsrc=rss",
+        "title": "Why Is Upland Software (UPLD) Stock Rocketing Higher Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-upland-software-upld-stock-033347087.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7845,
-        "score": 0.5333
-      },
-      {
-        "title": "Price predictions 4/8: BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ADA, BCH, LINK",
-        "url": "https://cointelegraph.com/news/price-predictions-4-8-btc-eth-xrp-bnb-sol-doge-hype-ada-bch-link?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3844,
-        "score": 1.0
+        "weight": 0.6126,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "'Poorly run, piece of ice': Trump targets Greenland again as Iran war deepens NATO rift",
-        "url": "https://www.cnbc.com/2026/04/09/trump-greenland-nato-rift-iran-war-deepens.html",
+        "title": "When Will Shipping Resume in the Strait of Hormuz?",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-09/when-will-shipping-resume-in-the-strait-of-hormuz-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6606,
+        "score": -0.9667
+      },
+      {
+        "title": "From war to weather: A 'super El Niño' event poses fresh risks to global food costs",
+        "url": "https://www.cnbc.com/2026/04/09/el-nino-food-risks-iran-war-fertilizer-weather.html",
         "source": "CNBC Markets",
-        "weight": 0.7831,
+        "weight": 0.7249,
         "score": -0.6333
       },
       {
@@ -1048,26 +1055,19 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Anthropic loses appeals court bid to temporarily block Pentagon blacklisting",
-        "url": "https://www.cnbc.com/2026/04/08/anthropic-pentagon-court-ruling-supply-chain-risk.html",
-        "source": "CNBC Markets",
-        "weight": 0.5622,
-        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36265719993142126,
-          "price_change_24h": 0.01038
+          "volume_mcap_ratio": 0.3490966693068105,
+          "price_change_24h": 0.01094
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3308331485841188,
-          "price_change_24h": -0.02898
+          "volume_mcap_ratio": 0.33443949164441317,
+          "price_change_24h": 0.00731
         }
       ],
       "momentum_shifts": []
