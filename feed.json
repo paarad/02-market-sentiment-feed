@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-10T16:57:08.468213+00:00",
+  "updated_at": "2026-04-10T20:19:27.453300+00:00",
   "indicators": {
-    "change24h": 0.031,
-    "vol": 0.219,
+    "change24h": 0.011,
+    "vol": 0.08,
     "fearGreed": 16,
-    "momentum": 0.551,
+    "momentum": 0.189,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3949,
-    "global_sentiment": 0.5319,
-    "combined_sentiment": 0.4238,
-    "confidence": 0.7815,
+    "crypto_sentiment": 0.368,
+    "global_sentiment": 0.4645,
+    "combined_sentiment": 0.3981,
+    "confidence": 0.7682,
     "counts": {
-      "crypto": 68,
-      "global": 38
+      "crypto": 67,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 72935,
-      "btc_change_24h": 1.25,
-      "eth_price": 2243.7,
-      "eth_change_24h": 1.67,
+      "btc_price": 73264,
+      "btc_change_24h": 1.39,
+      "eth_price": 2254.31,
+      "eth_change_24h": 1.52,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154339548654.0,
+        "volume_24h": 150743789408.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.57,
+        "btc_dominance": 58.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-28T02:48:23.397109+00:00",
-      "crypto": 0.2975,
-      "global": 0.3062,
-      "combined": 0.332,
-      "counts": {
-        "crypto": 62,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-03-28T05:23:27.573569+00:00",
       "crypto": 0.3263,
@@ -1008,66 +998,76 @@
         "crypto": 68,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-10T20:19:27.453300+00:00",
+      "crypto": 0.368,
+      "global": 0.4645,
+      "combined": 0.3981,
+      "counts": {
+        "crypto": 67,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "The magic word for digital assets adoption and success: choice",
-        "url": "https://www.coindesk.com/opinion/2026/04/10/the-magic-word-for-digital-assets-adoption-and-success-choice",
-        "source": "CoinDesk",
-        "weight": 0.8455,
-        "score": 0.6667
-      },
-      {
-        "title": "Zcash Could Rise to $420 After 62% Weekly Price Spike, Traders Predict",
-        "url": "https://decrypt.co/363946/zcash-could-rise-420-after-62-weekly-price-spike-traders-predict",
-        "source": "Decrypt",
-        "weight": 0.8142,
-        "score": 0.6667
-      },
-      {
-        "title": "Stock Market Today: Nasdaq Rises In Mixed Trade; Nvidia Stretching Win Streak (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4ee0e1e2-41cf-353b-8d26-7dc9317db118/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "Fastenal Earnings Due With S&P 500 Stock In Buy Zone",
+        "url": "https://finance.yahoo.com/m/fc699eed-48ef-37bc-9cf9-b9446265142d/fastenal-earnings-due-with.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7707,
-        "score": 0.6667
+        "weight": 0.7848,
+        "score": 0.8667
+      },
+      {
+        "title": "Treasuries Fall as Inflation Data Erode Fed Rate-Cut Wager",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-10/bonds-fall-as-inflation-data-erode-fed-rate-cut-wager-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6338,
+        "score": 1.0
+      },
+      {
+        "title": "Trump praises Palantir, YouTube to raise premium prices",
+        "url": "https://finance.yahoo.com/video/trump-praises-palantir-youtube-to-raise-premium-prices-184949894.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6732,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks",
-        "url": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
-        "source": "CNBC Markets",
-        "weight": 0.7567,
+        "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date March 31, 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-end-month-open-200500785.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.778,
+        "score": -0.9667
+      },
+      {
+        "title": "Bank of Canada, Major Lenders Meet on Anthropic AI Cyber Risk",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/bank-of-canada-major-lenders-meet-on-anthropic-ai-cyber-risk",
+        "source": "Bloomberg Markets",
+        "weight": 0.7234,
         "score": -1.0
       },
       {
-        "title": "Powell, Bessent Warn Banks About Security Risks From Anthropic's Mythos AI: Bloomberg",
-        "url": "https://decrypt.co/363927/powell-bessent-warn-banks-security-anthropic-mythos-ai",
-        "source": "Decrypt",
-        "weight": 0.7402,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin miner fees are close to zero as cost to mine nears $80,000 with difficulty about to drop 5%",
-        "url": "https://cryptoslate.com/bitcoin-miner-fees-near-zero-as-cost-to-mine-nears-80000-with-difficulty-about-to-drop-5/",
-        "source": "CryptoSlate",
-        "weight": 0.4803,
-        "score": -1.0
+        "title": "Winklevoss Twins’ $330 Million Gemini Loans in Focus After Rout",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/winklevoss-twins-330-million-gemini-loans-in-focus-after-rout",
+        "source": "Bloomberg Markets",
+        "weight": 0.7183,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.5867346706548968,
-          "price_change_24h": -19.01775
+          "volume_mcap_ratio": 0.5473000513612967,
+          "price_change_24h": -21.20802
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35175572978028824,
-          "price_change_24h": 0.00581
+          "volume_mcap_ratio": 0.34191613056950837,
+          "price_change_24h": 0.01921
         }
       ],
       "momentum_shifts": []
