@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-09T20:59:00.155064+00:00",
+  "updated_at": "2026-04-10T03:27:56.408316+00:00",
   "indicators": {
-    "change24h": 0.042,
-    "vol": 0.283,
-    "fearGreed": 14,
-    "momentum": 0.736,
+    "change24h": 0.041,
+    "vol": 0.253,
+    "fearGreed": 16,
+    "momentum": 0.725,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5178,
-    "global_sentiment": 0.4496,
-    "combined_sentiment": 0.5092,
-    "confidence": 0.7913,
+    "crypto_sentiment": 0.4504,
+    "global_sentiment": 0.4989,
+    "combined_sentiment": 0.4627,
+    "confidence": 0.7608,
     "counts": {
-      "crypto": 64,
-      "global": 48
+      "crypto": 68,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 72376,
-      "btc_change_24h": 1.42,
-      "eth_price": 2213.11,
-      "eth_change_24h": 0.16,
+      "btc_price": 71872,
+      "btc_change_24h": 1.37,
+      "eth_price": 2185.43,
+      "eth_change_24h": 0.32,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
-        "value": 14,
+        "value": 16,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 140671733274.0,
+        "volume_24h": 150457034467.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.43,
+        "btc_dominance": 58.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-27T09:02:09.334367+00:00",
-      "crypto": 0.3595,
-      "global": 0.4669,
-      "combined": 0.3919,
-      "counts": {
-        "crypto": 58,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-27T13:22:41.319874+00:00",
       "crypto": 0.3204,
@@ -1008,66 +998,76 @@
         "crypto": 64,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-04-10T03:27:56.408316+00:00",
+      "crypto": 0.4504,
+      "global": 0.4989,
+      "combined": 0.4627,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Stocks Extend Rally On Iran War News, Amazon; CPI Inflation, Nvidia Chipmaker Due",
-        "url": "https://finance.yahoo.com/m/a772792b-e0e1-3b25-9240-2743359e10ad/dow-jones-futures%3A-stocks.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7759,
+        "title": "Fast Retailing shares soar to record high after the Uniqlo owner lifts profit forecast",
+        "url": "https://www.cnbc.com/2026/04/10/uniqlo-fast-retailing-sharesprofit-outlook.html",
+        "source": "CNBC Markets",
+        "weight": 0.6487,
         "score": 0.8667
       },
       {
-        "title": "Three reasons why Ether traders expect ETH to hold above $1.8K",
-        "url": "https://cointelegraph.com/news/three-reasons-why-ether-traders-expect-eth-to-hold-above-dollar1-8k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5894,
+        "title": "Uniqlo Owner Shares Rise to Record on Global Profit Outlook",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/uniqlo-s-owner-shares-hit-record-after-boosting-profit-outlook",
+        "source": "Bloomberg Markets",
+        "weight": 0.5543,
         "score": 1.0
       },
       {
-        "title": "Automatic U.S. military draft registration planned by December, filing shows",
-        "url": "https://www.cnbc.com/2026/04/09/military-draft-registration-automatic-iran-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.7196,
-        "score": 0.6667
+        "title": "CATL Short Sellers at Risk of Squeeze on Earnings Surprise",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-10/catl-short-sellers-at-risk-of-squeeze-on-earnings-surprise",
+        "source": "Bloomberg Markets",
+        "weight": 0.5616,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Amazon CEO Jassy defends $200 billion AI spend: \"We're not going to be conservative\"",
-        "url": "https://www.cnbc.com/2026/04/09/amazon-ceo-andy-jassy-ai-spending.html",
-        "source": "CNBC Markets",
-        "weight": 0.7255,
-        "score": -0.9333
+        "title": "Atlantic Council: US-Iran Truce Become a Rorschach Test",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-10/atlantic-council-us-iran-truce-become-a-rorschach-test",
+        "source": "Bloomberg Markets",
+        "weight": 0.7353,
+        "score": -0.6333
       },
       {
-        "title": "U.S. Treasury to loop in crypto sector on hacker warnings shared with traditional firms",
-        "url": "https://www.coindesk.com/policy/2026/04/09/u-s-treasury-to-loop-in-crypto-sector-on-hacker-warnings-shared-with-traditional-firms",
-        "source": "CoinDesk",
-        "weight": 0.6377,
-        "score": -1.0
+        "title": "'AI Should Advance Mankind, Not Destroy It': Why Florida Is Taking Aim at OpenAI",
+        "url": "https://decrypt.co/363880/ai-advance-mankind-not-destroy-why-florida-investigating-openai",
+        "source": "Decrypt",
+        "weight": 0.4496,
+        "score": -0.9667
       },
       {
-        "title": "SS&C (SSNC): Buy, Sell, or Hold Post Q4 Earnings?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ss-c-ssnc-buy-sell-203747265.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.768,
-        "score": -0.6667
+        "title": "Fear & Greed 16 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.3326876596845224,
-          "price_change_24h": 3.34572
+          "volume_mcap_ratio": 0.5373303869689989,
+          "price_change_24h": -11.29666
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.32290178465941793,
-          "price_change_24h": 0.00786
+          "volume_mcap_ratio": 0.3440231882013389,
+          "price_change_24h": 0.00304
         }
       ],
       "momentum_shifts": []
