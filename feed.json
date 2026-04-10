@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-10T13:26:54.178874+00:00",
+  "updated_at": "2026-04-10T16:57:08.468213+00:00",
   "indicators": {
-    "change24h": 0.045,
-    "vol": 0.306,
+    "change24h": 0.031,
+    "vol": 0.219,
     "fearGreed": 16,
-    "momentum": 0.781,
+    "momentum": 0.551,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3945,
-    "global_sentiment": 0.599,
-    "combined_sentiment": 0.4291,
-    "confidence": 0.7633,
+    "crypto_sentiment": 0.3949,
+    "global_sentiment": 0.5319,
+    "combined_sentiment": 0.4238,
+    "confidence": 0.7815,
     "counts": {
-      "crypto": 67,
-      "global": 37
+      "crypto": 68,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 72265,
-      "btc_change_24h": 1.6,
-      "eth_price": 2220.72,
-      "eth_change_24h": 1.93,
+      "btc_price": 72935,
+      "btc_change_24h": 1.25,
+      "eth_price": 2243.7,
+      "eth_change_24h": 1.67,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153964194052.0,
+        "volume_24h": 154339548654.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.46,
+        "btc_dominance": 58.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-27T20:49:06.635126+00:00",
-      "crypto": 0.3052,
-      "global": 0.3074,
-      "combined": 0.3378,
-      "counts": {
-        "crypto": 48,
-        "global": 53
-      }
-    },
     {
       "ts": "2026-03-28T02:48:23.397109+00:00",
       "crypto": 0.2975,
@@ -1008,29 +998,39 @@
         "crypto": 67,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-04-10T16:57:08.468213+00:00",
+      "crypto": 0.3949,
+      "global": 0.5319,
+      "combined": 0.4238,
+      "counts": {
+        "crypto": 68,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today: Dow Wavers On Surprise CPI Inflation Data; Nvidia Chipmaker TSMC Jumps (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/4ee0e1e2-41cf-353b-8d26-7dc9317db118/stock-market-today%3A-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7862,
+        "title": "The magic word for digital assets adoption and success: choice",
+        "url": "https://www.coindesk.com/opinion/2026/04/10/the-magic-word-for-digital-assets-adoption-and-success-choice",
+        "source": "CoinDesk",
+        "weight": 0.8455,
         "score": 0.6667
       },
       {
-        "title": "The Nasdaq Turns Green, But The CPI Release Could Rock Markets Today",
-        "url": "https://247wallst.com/investing/2026/04/10/the-nasdaq-turns-green-but-the-cpi-release-could-rock-markets-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7536,
+        "title": "Zcash Could Rise to $420 After 62% Weekly Price Spike, Traders Predict",
+        "url": "https://decrypt.co/363946/zcash-could-rise-420-after-62-weekly-price-spike-traders-predict",
+        "source": "Decrypt",
+        "weight": 0.8142,
         "score": 0.6667
       },
       {
-        "title": "CPI Inflation Better Than Feared But Oil Prices Are Still High; S&P 500 Futures Rise (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/5f04aff7-1c20-30a8-af1c-23682244ea9d/cpi-inflation-better-than.html?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Rises In Mixed Trade; Nvidia Stretching Win Streak (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/4ee0e1e2-41cf-353b-8d26-7dc9317db118/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7426,
+        "weight": 0.7707,
         "score": 0.6667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Powell, Bessent discussed Anthropic's Mythos AI cyber threat with major U.S. banks",
         "url": "https://www.cnbc.com/2026/04/10/powell-bessent-us-bank-ceos-anthropic-mythos-ai-cyber.html",
         "source": "CNBC Markets",
-        "weight": 0.7961,
+        "weight": 0.7567,
+        "score": -1.0
+      },
+      {
+        "title": "Powell, Bessent Warn Banks About Security Risks From Anthropic's Mythos AI: Bloomberg",
+        "url": "https://decrypt.co/363927/powell-bessent-warn-banks-security-anthropic-mythos-ai",
+        "source": "Decrypt",
+        "weight": 0.7402,
         "score": -1.0
       },
       {
         "title": "Bitcoin miner fees are close to zero as cost to mine nears $80,000 with difficulty about to drop 5%",
         "url": "https://cryptoslate.com/bitcoin-miner-fees-near-zero-as-cost-to-mine-nears-80000-with-difficulty-about-to-drop-5/",
         "source": "CryptoSlate",
-        "weight": 0.72,
-        "score": -1.0
-      },
-      {
-        "title": "Aethir halts bridge exploit, promises compensation after $90K loss",
-        "url": "https://cointelegraph.com/news/aethir-bridge-exploit-halt-user-compensation-90k-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6015,
+        "weight": 0.4803,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.6807931152016771,
-          "price_change_24h": -19.03145
+          "volume_mcap_ratio": 0.5867346706548968,
+          "price_change_24h": -19.01775
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35224397230271287,
-          "price_change_24h": 0.01515
+          "volume_mcap_ratio": 0.35175572978028824,
+          "price_change_24h": 0.00581
         }
       ],
       "momentum_shifts": []
