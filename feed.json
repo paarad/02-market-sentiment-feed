@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-11T16:47:21.224438+00:00",
+  "updated_at": "2026-04-11T20:02:18.398388+00:00",
   "indicators": {
-    "change24h": -0.0,
-    "vol": 0.05,
+    "change24h": 0.007,
+    "vol": 0.079,
     "fearGreed": 15,
-    "momentum": -0.001,
+    "momentum": 0.124,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2761,
-    "global_sentiment": 0.4457,
-    "combined_sentiment": 0.3275,
-    "confidence": 0.5713,
+    "crypto_sentiment": 0.3213,
+    "global_sentiment": 0.4762,
+    "combined_sentiment": 0.364,
+    "confidence": 0.6517,
     "counts": {
       "crypto": 60,
-      "global": 40
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 73134,
-      "btc_change_24h": 0.47,
-      "eth_price": 2264.51,
-      "eth_change_24h": 1.06,
+      "btc_price": 73677,
+      "btc_change_24h": 0.59,
+      "eth_price": 2315.79,
+      "eth_change_24h": 2.75,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.65,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 95765625160.0,
+        "volume_24h": 97729839426.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.54,
+        "btc_dominance": 58.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-29T03:22:05.654712+00:00",
-      "crypto": 0.3658,
-      "global": 0.2898,
-      "combined": 0.3819,
-      "counts": {
-        "crypto": 55,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-03-29T05:46:14.442707+00:00",
       "crypto": 0.2927,
@@ -1008,53 +998,63 @@
         "crypto": 60,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-11T20:02:18.398388+00:00",
+      "crypto": 0.3213,
+      "global": 0.4762,
+      "combined": 0.364,
+      "counts": {
+        "crypto": 60,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Cathie Wood buys $11 million of tumbling megacap tech stock",
+        "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-11-million-of-tumbling-megacap-tech-stock-palantir-pltr?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7275,
+        "score": 0.5333
+      },
+      {
+        "title": "UBS quietly resets outlook on AI software giant",
+        "url": "https://www.thestreet.com/investing/stocks/ubs-quietly-resets-outlook-on-ai-software-giant?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6864,
+        "score": 0.5333
+      },
+      {
         "title": "Why Monday, April 13 Begins A Critical Week For The Stock Market Rally",
         "url": "https://finance.yahoo.com/m/9dd369de-da08-3a4f-be86-0de28f943925/why-monday%2C-april-13-begins-a.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5135,
+        "weight": 0.3528,
         "score": 1.0
-      },
-      {
-        "title": "Jim Cramer Discusses the AI Impact on Salesforce and SaaS Models",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-ai-impact-153429645.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6953,
-        "score": 0.5333
-      },
-      {
-        "title": "Stocks gain on Iran ceasefire, plus 3 more things that drove last week's market",
-        "url": "https://www.cnbc.com/2026/04/11/stocks-gain-on-iran-ceasefire-plus-3-things-that-drove-last-weeks-market.html",
-        "source": "CNBC Markets",
-        "weight": 0.6951,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Bitcoin signals potential seller exhaustion as realized losses decline",
+        "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-signals-potential-seller-exhaustion-as-realized-losses-decline",
+        "source": "CoinDesk",
+        "weight": 0.7902,
+        "score": -0.6667
+      },
+      {
+        "title": "Crypto crashed six months ago: Have markets improved, or are bears still in charge?",
+        "url": "https://cointelegraph.com/news/crypto-crashed-six-months-ago-have-markets-improved-or-are-bears-still-in-charge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7569,
+        "score": -0.6333
+      },
+      {
         "title": "Not All the Signals Are Bearish Under President Donald Trump — Here’s What Bulls Are Watching",
         "url": "https://247wallst.com/investing/2026/04/11/not-all-the-signals-are-bearish-under-president-donald-trump-heres-what-bulls-are-watching/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7583,
+        "weight": 0.521,
         "score": -0.8667
-      },
-      {
-        "title": "Goldman Sachs drops a bombshell on software stocks",
-        "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-drops-a-bombshell-on-software-stocks?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7782,
-        "score": -0.6
-      },
-      {
-        "title": "Fear & Greed 15 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
