@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-11T05:35:22.269994+00:00",
+  "updated_at": "2026-04-11T08:54:45.000111+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.068,
+    "change24h": 0.014,
+    "vol": 0.097,
     "fearGreed": 15,
-    "momentum": 0.086,
+    "momentum": 0.253,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3826,
-    "global_sentiment": 0.399,
-    "combined_sentiment": 0.4036,
-    "confidence": 0.6131,
+    "crypto_sentiment": 0.4584,
+    "global_sentiment": 0.4244,
+    "combined_sentiment": 0.4625,
+    "confidence": 0.6192,
     "counts": {
-      "crypto": 65,
-      "global": 36
+      "crypto": 64,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 72848,
-      "btc_change_24h": 0.86,
-      "eth_price": 2236.82,
-      "eth_change_24h": 1.66,
+      "btc_price": 72702,
+      "btc_change_24h": 1.62,
+      "eth_price": 2234.46,
+      "eth_change_24h": 2.31,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133938903782.0,
-        "high_activity_coins": 3
+        "volume_24h": 129201295870.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.57,
+        "btc_dominance": 58.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-28T16:42:33.319351+00:00",
-      "crypto": 0.3486,
-      "global": 0.3116,
-      "combined": 0.3708,
-      "counts": {
-        "crypto": 66,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-03-28T20:01:46.533174+00:00",
       "crypto": 0.3668,
@@ -1008,30 +998,40 @@
         "crypto": 65,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-04-11T08:54:45.000111+00:00",
+      "crypto": 0.4584,
+      "global": 0.4244,
+      "combined": 0.4625,
+      "counts": {
+        "crypto": 64,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "Ford, Applied Digital, U Power, Block And Alphabet: Why These 5 Stocks Are On Investors' Radars Today",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ford-applied-digital-u-power-233104188.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3967,
+        "weight": 0.2702,
         "score": 1.0
       },
       {
         "title": "IOI Properties Files REIT Listing That May Raise $500 Million",
         "url": "https://www.bloomberg.com/news/articles/2026-04-11/ioi-properties-files-reit-listing-that-may-raise-500-million",
         "source": "Bloomberg Markets",
-        "weight": 0.5903,
+        "weight": 0.4021,
         "score": 0.6333
-      },
-      {
-        "title": "Trump Promised Cheap Beef — The Cattle Trade Crushed The S&P 500 For Years",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/trump-promised-cheap-beef-cattle-033109445.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6298,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,15 +1039,8 @@
         "title": "African Development Bank on Continent's Water Future",
         "url": "https://www.bloomberg.com/news/videos/2026-04-11/african-development-bank-on-continent-s-water-future-video",
         "source": "Bloomberg Markets",
-        "weight": 0.751,
+        "weight": 0.5116,
         "score": -0.9667
-      },
-      {
-        "title": "Starmer Plots Higher UK Defense Spending in Bid to Save His Job",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-11/starmer-plots-higher-uk-defense-spending-in-bid-to-save-his-job",
-        "source": "Bloomberg Markets",
-        "weight": 0.7473,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 15 (Fear) — bearish",
@@ -1055,26 +1048,17 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Starmer Plots Higher UK Defense Spending in Bid to Save His Job",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-11/starmer-plots-higher-uk-defense-spending-in-bid-to-save-his-job",
+        "source": "Bloomberg Markets",
+        "weight": 0.5091,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "TAO",
-          "volume_mcap_ratio": 0.31539802366203384,
-          "price_change_24h": -1.44348
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.31204583388220447,
-          "price_change_24h": 0.03573
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.309496401802988,
-          "price_change_24h": -0.02659
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
