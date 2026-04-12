@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-12T08:58:41.874670+00:00",
+  "updated_at": "2026-04-12T13:16:42.899956+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.11,
+    "change24h": -0.025,
+    "vol": 0.105,
     "fearGreed": 16,
-    "momentum": -0.416,
-    "regime": "sideways",
+    "momentum": -0.437,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3588,
-    "global_sentiment": 0.4275,
-    "combined_sentiment": 0.3881,
-    "confidence": 0.5863,
+    "crypto_sentiment": 0.3566,
+    "global_sentiment": 0.4126,
+    "combined_sentiment": 0.3852,
+    "confidence": 0.6399,
     "counts": {
-      "crypto": 63,
-      "global": 33
+      "crypto": 64,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 71625,
-      "btc_change_24h": -1.49,
-      "eth_price": 2214.15,
-      "eth_change_24h": -0.9,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 71041,
+      "btc_change_24h": -2.26,
+      "eth_price": 2193.42,
+      "eth_change_24h": -1.98,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 112891058445.0,
+        "volume_24h": 115850967562.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.38,
+        "btc_dominance": 58.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-29T20:01:36.501934+00:00",
-      "crypto": 0.5272,
-      "global": 0.3493,
-      "combined": 0.5079,
-      "counts": {
-        "crypto": 53,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-29T20:41:05.699106+00:00",
       "crypto": 0.4874,
@@ -1008,33 +998,50 @@
         "crypto": 63,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-04-12T13:16:42.899956+00:00",
+      "crypto": 0.3566,
+      "global": 0.4126,
+      "combined": 0.3852,
+      "counts": {
+        "crypto": 64,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ether Machine scraps SPAC merger with Dynamix, citing market conditions",
-        "url": "https://cointelegraph.com/news/ether-machine-spac-ethm-cancelled-dynamix-merger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6839,
+        "title": "Why Monday, April 13 Begins A Critical Week For The Stock Market Rally",
+        "url": "https://finance.yahoo.com/m/9dd369de-da08-3a4f-be86-0de28f943925/why-monday%2C-april-13-begins-a.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7751,
+        "score": 1.0
+      },
+      {
+        "title": "There’s a Way to Make Bitcoin Safe From Quantum Without a Fork, Researchers Say",
+        "url": "https://decrypt.co/364092/quantum-safe-bitcoin-transactions-without-fork",
+        "source": "Decrypt",
+        "weight": 0.8247,
         "score": 0.3333
       },
       {
-        "title": "Global Dividend ETFs Are Crushing the S&P 500. 3 ETFs With Yields Above 5%",
-        "url": "https://finance.yahoo.com/m/e2fd92db-5665-3b2a-8957-13719aa62de3/global-dividend-etfs-are.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5671,
+        "title": "Peru Casting Ballots for President, Bicameral Congress in Bid for Stability",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-12/peru-voting-for-president-bicameral-congress-in-bid-for-stability",
+        "source": "Bloomberg Markets",
+        "weight": 0.7104,
         "score": 0.3333
-      },
-      {
-        "title": "Cathie Wood buys $11 million of tumbling megacap tech stock",
-        "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-11-million-of-tumbling-megacap-tech-stock-palantir-pltr?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1632,
-        "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Nation's Top Banks Set to Release Earnings After Tough Quarter",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-12/top-banks-set-to-release-earnings-after-tough-quarter-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.747,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 16 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,26 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "XRP drops to $1.33 as bitcoin weakness pulls down majors",
-        "url": "https://www.coindesk.com/markets/2026/04/12/xrp-drops-to-usd1-33-as-bitcoin-weakness-pulls-down-majors",
-        "source": "CoinDesk",
-        "weight": 0.8464,
-        "score": -0.3333
-      },
-      {
-        "title": "Global crypto market cap down -1.2% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
+        "title": "The Second Year of President Donald Trump’s Term Has a Pattern — Here’s What It Means for Stocks",
+        "url": "https://247wallst.com/investing/2026/04/12/the-second-year-of-president-donald-trumps-term-has-a-pattern-heres-what-it-means-for-stocks/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6313,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3166506010128451,
-          "price_change_24h": -0.00645
+          "volume_mcap_ratio": 0.3289711685374182,
+          "price_change_24h": -0.01565
         }
       ],
       "momentum_shifts": []
