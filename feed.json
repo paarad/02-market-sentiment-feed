@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-11T20:42:13.366925+00:00",
+  "updated_at": "2026-04-12T03:31:39.637551+00:00",
   "indicators": {
-    "change24h": 0.001,
-    "vol": 0.085,
-    "fearGreed": 15,
-    "momentum": 0.015,
-    "regime": "sideways",
+    "change24h": -0.027,
+    "vol": 0.099,
+    "fearGreed": 16,
+    "momentum": -0.47,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.32,
-    "global_sentiment": 0.4432,
-    "combined_sentiment": 0.3603,
-    "confidence": 0.6408,
+    "crypto_sentiment": 0.3278,
+    "global_sentiment": 0.4171,
+    "combined_sentiment": 0.3639,
+    "confidence": 0.6065,
     "counts": {
-      "crypto": 60,
-      "global": 41
+      "crypto": 63,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 73327,
-      "btc_change_24h": 0.22,
-      "eth_price": 2294.49,
-      "eth_change_24h": 2.14,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 71752,
+      "btc_change_24h": -1.74,
+      "eth_price": 2221.04,
+      "eth_change_24h": -1.21,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 15,
+        "value": 16,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 96565915646.0,
+        "volume_24h": 109138933839.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.48,
+        "btc_dominance": 58.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-29T08:51:38.175970+00:00",
-      "crypto": 0.2867,
-      "global": 0.2599,
-      "combined": 0.32,
-      "counts": {
-        "crypto": 54,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-03-29T13:11:32.233495+00:00",
       "crypto": 0.3808,
@@ -1008,6 +998,16 @@
         "crypto": 60,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-04-12T03:31:39.637551+00:00",
+      "crypto": 0.3278,
+      "global": 0.4171,
+      "combined": 0.3639,
+      "counts": {
+        "crypto": 63,
+        "global": 38
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Cathie Wood buys $11 million of tumbling megacap tech stock",
         "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-11-million-of-tumbling-megacap-tech-stock-palantir-pltr?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6737,
+        "weight": 0.3063,
         "score": 0.5333
       },
       {
         "title": "UBS quietly resets outlook on AI software giant",
         "url": "https://www.thestreet.com/investing/stocks/ubs-quietly-resets-outlook-on-ai-software-giant?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6357,
+        "weight": 0.289,
         "score": 0.5333
       },
       {
         "title": "Why Monday, April 13 Begins A Critical Week For The Stock Market Rally",
         "url": "https://finance.yahoo.com/m/9dd369de-da08-3a4f-be86-0de28f943925/why-monday%2C-april-13-begins-a.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3267,
+        "weight": 0.1485,
         "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 16 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Wells Fargo has a stark message on big bank stocks",
         "url": "https://www.thestreet.com/investing/stocks/wells-fargo-has-a-stark-message-on-big-bank-stocks?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7859,
+        "weight": 0.3573,
         "score": -0.9667
       },
       {
-        "title": "Bitcoin signals potential seller exhaustion as realized losses decline",
-        "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-signals-potential-seller-exhaustion-as-realized-losses-decline",
+        "title": "Bitcoin and other cryptos fall as U.S., Iranian negotiators fail to reach war resolution",
+        "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
         "source": "CoinDesk",
-        "weight": 0.7317,
-        "score": -0.6667
-      },
-      {
-        "title": "Crypto crashed six months ago: Have markets improved, or are bears still in charge?",
-        "url": "https://cointelegraph.com/news/crypto-crashed-six-months-ago-have-markets-improved-or-are-bears-still-in-charge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7009,
-        "score": -0.6333
+        "weight": 0.8465,
+        "score": -0.3333
       }
     ],
     "market_movers": {
