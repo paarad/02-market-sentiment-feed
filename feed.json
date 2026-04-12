@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-12T03:31:39.637551+00:00",
+  "updated_at": "2026-04-12T05:58:30.614516+00:00",
   "indicators": {
-    "change24h": -0.027,
-    "vol": 0.099,
+    "change24h": -0.021,
+    "vol": 0.103,
     "fearGreed": 16,
-    "momentum": -0.47,
+    "momentum": -0.364,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3278,
-    "global_sentiment": 0.4171,
-    "combined_sentiment": 0.3639,
-    "confidence": 0.6065,
+    "crypto_sentiment": 0.3165,
+    "global_sentiment": 0.4309,
+    "combined_sentiment": 0.3566,
+    "confidence": 0.6037,
     "counts": {
       "crypto": 63,
-      "global": 38
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 71752,
-      "btc_change_24h": -1.74,
-      "eth_price": 2221.04,
-      "eth_change_24h": -1.21,
+      "btc_price": 71749,
+      "btc_change_24h": -1.38,
+      "eth_price": 2218.71,
+      "eth_change_24h": -0.68,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 16,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109138933839.0,
-        "high_activity_coins": 0
+        "volume_24h": 111210049425.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.38,
+        "btc_dominance": 58.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-29T13:11:32.233495+00:00",
-      "crypto": 0.3808,
-      "global": 0.3444,
-      "combined": 0.3977,
-      "counts": {
-        "crypto": 54,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-03-29T16:44:06.595831+00:00",
       "crypto": 0.5,
@@ -1008,6 +998,16 @@
         "crypto": 63,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-12T05:58:30.614516+00:00",
+      "crypto": 0.3165,
+      "global": 0.4309,
+      "combined": 0.3566,
+      "counts": {
+        "crypto": 63,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Cathie Wood buys $11 million of tumbling megacap tech stock",
         "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-11-million-of-tumbling-megacap-tech-stock-palantir-pltr?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3063,
+        "weight": 0.2308,
         "score": 0.5333
       },
       {
         "title": "UBS quietly resets outlook on AI software giant",
         "url": "https://www.thestreet.com/investing/stocks/ubs-quietly-resets-outlook-on-ai-software-giant?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.289,
+        "weight": 0.2178,
         "score": 0.5333
       },
       {
         "title": "Why Monday, April 13 Begins A Critical Week For The Stock Market Rally",
         "url": "https://finance.yahoo.com/m/9dd369de-da08-3a4f-be86-0de28f943925/why-monday%2C-april-13-begins-a.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.1485,
+        "weight": 0.1119,
         "score": 1.0
       }
     ],
@@ -1043,22 +1043,28 @@
         "score": -0.5333
       },
       {
-        "title": "Wells Fargo has a stark message on big bank stocks",
-        "url": "https://www.thestreet.com/investing/stocks/wells-fargo-has-a-stark-message-on-big-bank-stocks?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3573,
-        "score": -0.9667
+        "title": "XRP drops to $1.33 as bitcoin weakness pulls down majors",
+        "url": "https://www.coindesk.com/markets/2026/04/12/xrp-drops-to-usd1-33-as-bitcoin-weakness-pulls-down-majors",
+        "source": "CoinDesk",
+        "weight": 1.1975,
+        "score": -0.3333
       },
       {
-        "title": "Bitcoin and other cryptos fall as U.S., Iranian negotiators fail to reach war resolution",
-        "url": "https://www.coindesk.com/markets/2026/04/11/bitcoin-and-other-cryptos-fall-as-u-s-iranian-negotiators-fail-to-reach-war-resolution",
-        "source": "CoinDesk",
-        "weight": 0.8465,
+        "title": "Global crypto market cap down -1.1% — selloff",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": -0.3333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.30168162611581595,
+          "price_change_24h": -0.02179
+        }
+      ],
       "momentum_shifts": []
     }
   },
