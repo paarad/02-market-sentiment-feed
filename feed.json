@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-13T03:38:10.155817+00:00",
+  "updated_at": "2026-04-13T06:21:45.468631+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2698,
-    "global_sentiment": 0.4849,
-    "combined_sentiment": 0.3261,
-    "confidence": 0.5659,
+    "crypto_sentiment": 0.45,
+    "global_sentiment": 0.5385,
+    "combined_sentiment": 0.4657,
+    "confidence": 0.6373,
     "counts": {
-      "crypto": 62,
-      "global": 44
+      "crypto": 64,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 71009,
-      "btc_change_24h": -0.93,
-      "eth_price": 2193.66,
-      "eth_change_24h": -1.08,
+      "btc_price": 71036,
+      "btc_change_24h": -0.9,
+      "eth_price": 2198.03,
+      "eth_change_24h": -0.94,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 105200908542.0,
-        "high_activity_coins": 1
+        "volume_24h": 103543054421.0,
+        "high_activity_coins": 0
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-30T13:50:45.675636+00:00",
-      "crypto": 0.4711,
-      "global": 0.5361,
-      "combined": 0.4813,
-      "counts": {
-        "crypto": 47,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-30T17:04:46.406848+00:00",
       "crypto": 0.3872,
@@ -1008,6 +998,16 @@
         "crypto": 62,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-04-13T06:21:45.468631+00:00",
+      "crypto": 0.45,
+      "global": 0.5385,
+      "combined": 0.4657,
+      "counts": {
+        "crypto": 64,
+        "global": 40
+      }
     }
   ],
   "drivers": {
@@ -1016,38 +1016,31 @@
         "title": "Tech Fundraising Drives Record Convertible Bond Sales in Taiwan",
         "url": "https://www.bloomberg.com/news/articles/2026-04-13/tech-fundraising-drives-record-convertible-bond-sales-in-taiwan",
         "source": "Bloomberg Markets",
-        "weight": 0.7451,
+        "weight": 0.5438,
         "score": 0.8667
       },
       {
-        "title": "Asia markets open lower as oil surges after U.S. moves to blockade Iran ports",
-        "url": "https://www.cnbc.com/2026/04/13/asia-pacific-market-us-iran-talks-blockade-oil-prices.html",
-        "source": "CNBC Markets",
-        "weight": 0.6368,
-        "score": 0.5333
+        "title": "Aave DAO approves $25M funding grant, token allocation for Aave Labs",
+        "url": "https://cointelegraph.com/news/aave-dao-approves-25m-funding-aave-labs-aave-will-win-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6299,
+        "score": 0.6667
       },
       {
-        "title": "China’s Victory Giant Seeks Up to $2.2 Billion in Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing",
+        "title": "Oil Surges, Stocks Drop on Trump’s Plan to Block Hormuz",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-13/oil-surges-stocks-drop-on-us-plan-to-blockade-hormuz-video",
         "source": "Bloomberg Markets",
-        "weight": 0.434,
-        "score": 0.6333
+        "weight": 0.7454,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Retail Investors Double Down on India Stocks, Foreigners Flee Amid War Jitters",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-13/foreign-outflows-from-india-stocks-at-record-failed-iran-talks-add-to-risks",
+        "title": "Emerging Assets Slide as US Hormuz Blockade Saps Risk Sentiment",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-13/emerging-assets-slide-as-us-hormuz-blockade-saps-risk-sentiment",
         "source": "Bloomberg Markets",
-        "weight": 0.7248,
+        "weight": 0.6552,
         "score": -0.6667
-      },
-      {
-        "title": "Chinese Rare Earth Companies Jump After Quarterly Price Hike",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-13/chinese-rare-earth-companies-jump-after-quarterly-price-hike",
-        "source": "Bloomberg Markets",
-        "weight": 0.7396,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
@@ -1055,16 +1048,17 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Researchers discover malicious AI agent routers that can steal crypto",
+        "url": "https://cointelegraph.com/news/researchers-discover-malicious-ai-agent-routers-that-can-steal-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5293,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.303044471338593,
-          "price_change_24h": -0.02812
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
