@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-13T17:12:28.511366+00:00",
+  "updated_at": "2026-04-13T20:37:25.158187+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.116,
+    "change24h": 0.027,
+    "vol": 0.104,
     "fearGreed": 12,
-    "momentum": 0.282,
+    "momentum": 0.473,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3817,
-    "global_sentiment": 0.461,
-    "combined_sentiment": 0.408,
-    "confidence": 0.7921,
+    "crypto_sentiment": 0.3441,
+    "global_sentiment": 0.5275,
+    "combined_sentiment": 0.3854,
+    "confidence": 0.8151,
     "counts": {
-      "crypto": 68,
-      "global": 46
+      "crypto": 74,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 72258,
-      "btc_change_24h": 1.84,
-      "eth_price": 2227.38,
-      "eth_change_24h": 1.76,
+      "btc_price": 73217,
+      "btc_change_24h": 2.89,
+      "eth_price": 2257.48,
+      "eth_change_24h": 2.49,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 140897636834.0,
+        "volume_24h": 164283102392.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.42,
+        "btc_dominance": 58.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-31T03:16:35.634550+00:00",
-      "crypto": 0.4701,
-      "global": 0.5009,
-      "combined": 0.4777,
-      "counts": {
-        "crypto": 61,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-03-31T05:47:38.721954+00:00",
       "crypto": 0.3849,
@@ -1008,52 +998,62 @@
         "crypto": 68,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-13T20:37:25.158187+00:00",
+      "crypto": 0.3441,
+      "global": 0.5275,
+      "combined": 0.3854,
+      "counts": {
+        "crypto": 74,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Treasury yields edge higher as surging oil and blockade of Iran cloud inflation outlook",
-        "url": "https://www.cnbc.com/2026/04/13/treasury-yields-up-as-collapse-of-iran-talks-clouds-inflation-outlook.html",
-        "source": "CNBC Markets",
-        "weight": 0.7484,
+        "title": "3 Reasons Investors Love Diamondback Energy (FANG)",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/3-reasons-investors-love-diamondback-192401435.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6946,
+        "score": 0.8667
+      },
+      {
+        "title": "How major US stock indexes fared Monday 4/13/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202218505.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.777,
         "score": 0.6667
       },
       {
-        "title": "Data Centers Offer a Potential $10 Billion Windfall for Insurers",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-13/data-centers-offer-a-potential-10-billion-windfall-for-insurers",
-        "source": "Bloomberg Markets",
-        "weight": 0.7462,
-        "score": 0.6667
-      },
-      {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "This little-known token just posted a 6,000% rally — and traders are trying to figure out why",
+        "url": "https://www.coindesk.com/markets/2026/04/13/this-little-known-token-just-posted-a-6-000-rally-and-traders-are-trying-to-figure-out-why",
+        "source": "CoinDesk",
+        "weight": 0.9678,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "The Fed is building competition for XRP’s core payments use case into the FedNow banking system",
+        "url": "https://cryptoslate.com/the-fed-is-building-competition-for-xrps-core-payments-pitch-into-the-fednow-banking-system/",
+        "source": "CryptoSlate",
+        "weight": 0.8149,
+        "score": -0.9667
+      },
+      {
         "title": "Circle CEO says he won’t freeze USDC without a court order even as hackers walk away with millions",
         "url": "https://www.coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
         "source": "CoinDesk",
-        "weight": 0.8336,
+        "weight": 0.5618,
         "score": -1.0
       },
       {
         "title": "Crypto Hacker Mints $1.1 Billion in Polkadot via Ethereum Bridge, But Can Only Cash Out $237K",
         "url": "https://decrypt.co/364131/crypto-hacker-mints-billion-polkadot-ethereum-bridge-cashes-out-237k",
         "source": "Decrypt",
-        "weight": 0.7536,
-        "score": -1.0
-      },
-      {
-        "title": "Polkadot Hyperbridge April Fools’ joke comes true as over 1 Billion fake DOT tokens were minted on Ethereum",
-        "url": "https://cryptoslate.com/polkadot-hyperbridge-april-fools-joke-comes-true-as-over-1-billion-fake-dot-tokens-were-minted-on-ethereum/",
-        "source": "CryptoSlate",
-        "weight": 0.7396,
+        "weight": 0.5079,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.31828183372917834,
-          "price_change_24h": 0.00079
+          "volume_mcap_ratio": 0.37369117420749265,
+          "price_change_24h": 0.01535
         }
       ],
       "momentum_shifts": []
