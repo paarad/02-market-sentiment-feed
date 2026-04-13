@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-13T13:57:50.870280+00:00",
+  "updated_at": "2026-04-13T17:12:28.511366+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.016,
+    "vol": 0.116,
     "fearGreed": 12,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.282,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4672,
-    "global_sentiment": 0.4609,
-    "combined_sentiment": 0.4722,
-    "confidence": 0.7469,
+    "crypto_sentiment": 0.3817,
+    "global_sentiment": 0.461,
+    "combined_sentiment": 0.408,
+    "confidence": 0.7921,
     "counts": {
-      "crypto": 61,
-      "global": 45
+      "crypto": 68,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 71561,
-      "btc_change_24h": 0.92,
-      "eth_price": 2206.07,
-      "eth_change_24h": 0.83,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 72258,
+      "btc_change_24h": 1.84,
+      "eth_price": 2227.38,
+      "eth_change_24h": 1.76,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 114617332554.0,
-        "high_activity_coins": 0
+        "volume_24h": 140897636834.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.42,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-30T20:55:07.104300+00:00",
-      "crypto": 0.4127,
-      "global": 0.332,
-      "combined": 0.4205,
-      "counts": {
-        "crypto": 50,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-03-31T03:16:35.634550+00:00",
       "crypto": 0.4701,
@@ -1008,57 +998,73 @@
         "crypto": 61,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-04-13T17:12:28.511366+00:00",
+      "crypto": 0.3817,
+      "global": 0.461,
+      "combined": 0.408,
+      "counts": {
+        "crypto": 68,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "U.S. stocks set to sink, oil prices rise amid Trump's blockade plan",
-        "url": "https://www.cbsnews.com/news/oil-prices-stock-market-trump-blockade-strait-of-hormuz-iran/?ftag=YHF4eb9d17&.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6948,
+        "title": "Treasury yields edge higher as surging oil and blockade of Iran cloud inflation outlook",
+        "url": "https://www.cnbc.com/2026/04/13/treasury-yields-up-as-collapse-of-iran-talks-clouds-inflation-outlook.html",
+        "source": "CNBC Markets",
+        "weight": 0.7484,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin anchors near $70,000 as RAVE's 3,400% surge signals speculative froth",
-        "url": "https://www.coindesk.com/daybook-us/2026/04/13/bitcoin-anchors-near-usd70-000-as-rave-s-3-400-surge-signals-speculative-froth",
-        "source": "CoinDesk",
-        "weight": 0.7383,
+        "title": "Data Centers Offer a Potential $10 Billion Windfall for Insurers",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-13/data-centers-offer-a-potential-10-billion-windfall-for-insurers",
+        "source": "Bloomberg Markets",
+        "weight": 0.7462,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
-      },
-      {
-        "title": "Crypto ETPs see $1.1B inflows, strongest gains since January",
-        "url": "https://cointelegraph.com/news/crypto-etp-1-1-billion-inflows-strongest-gains-january?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5756,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Drugmaker Leo Pharma Is Said to Pick Banks for Copenhagen IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-13/drugmaker-leo-pharma-is-said-to-pick-banks-for-copenhagen-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.7368,
+        "title": "Circle CEO says he won’t freeze USDC without a court order even as hackers walk away with millions",
+        "url": "https://www.coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
+        "source": "CoinDesk",
+        "weight": 0.8336,
         "score": -1.0
       },
       {
-        "title": "Two Traders Convicted in Paris Over $23 Million Insider Coup",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-13/two-traders-convicted-in-paris-over-a-23-million-insider-coup",
-        "source": "Bloomberg Markets",
-        "weight": 0.6658,
-        "score": -0.9667
+        "title": "Crypto Hacker Mints $1.1 Billion in Polkadot via Ethereum Bridge, But Can Only Cash Out $237K",
+        "url": "https://decrypt.co/364131/crypto-hacker-mints-billion-polkadot-ethereum-bridge-cashes-out-237k",
+        "source": "Decrypt",
+        "weight": 0.7536,
+        "score": -1.0
       },
       {
-        "title": "HSBC Said to Lose Second Dubai Bond Banker to Wall Street Rival",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-13/hsbc-said-to-lose-second-dubai-bond-banker-to-wall-street-rival",
-        "source": "Bloomberg Markets",
-        "weight": 0.6411,
-        "score": -0.9667
+        "title": "Polkadot Hyperbridge April Fools’ joke comes true as over 1 Billion fake DOT tokens were minted on Ethereum",
+        "url": "https://cryptoslate.com/polkadot-hyperbridge-april-fools-joke-comes-true-as-over-1-billion-fake-dot-tokens-were-minted-on-ethereum/",
+        "source": "CryptoSlate",
+        "weight": 0.7396,
+        "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.31828183372917834,
+          "price_change_24h": 0.00079
+        }
+      ],
       "momentum_shifts": []
     }
   },
