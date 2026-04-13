@@ -1,46 +1,46 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-12T20:45:41.414915+00:00",
+  "updated_at": "2026-04-13T03:38:10.155817+00:00",
   "indicators": {
-    "change24h": -0.036,
-    "vol": 0.12,
-    "fearGreed": 16,
-    "momentum": -0.624,
-    "regime": "bear",
+    "change24h": 0.0,
+    "vol": 0.5,
+    "fearGreed": 12,
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2798,
-    "global_sentiment": 0.3491,
-    "combined_sentiment": 0.3222,
-    "confidence": 0.6748,
+    "crypto_sentiment": 0.2698,
+    "global_sentiment": 0.4849,
+    "combined_sentiment": 0.3261,
+    "confidence": 0.5659,
     "counts": {
       "crypto": 62,
-      "global": 43
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 71367,
-      "btc_change_24h": -2.76,
-      "eth_price": 2213.11,
-      "eth_change_24h": -3.69,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 71009,
+      "btc_change_24h": -0.93,
+      "eth_price": 2193.66,
+      "eth_change_24h": -1.08,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
-        "value": 16,
+        "value": 12,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 111182153327.0,
+        "volume_24h": 105200908542.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.24,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-30T09:21:48.691687+00:00",
-      "crypto": 0.3985,
-      "global": 0.4757,
-      "combined": 0.4218,
-      "counts": {
-        "crypto": 56,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-03-30T13:50:45.675636+00:00",
       "crypto": 0.4711,
@@ -1008,49 +998,59 @@
         "crypto": 62,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-04-13T03:38:10.155817+00:00",
+      "crypto": 0.2698,
+      "global": 0.4849,
+      "combined": 0.3261,
+      "counts": {
+        "crypto": 62,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Why Monday, April 13 Begins A Critical Week For The Stock Market Rally",
-        "url": "https://finance.yahoo.com/m/9dd369de-da08-3a4f-be86-0de28f943925/why-monday%2C-april-13-begins-a.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3265,
-        "score": 1.0
+        "title": "Tech Fundraising Drives Record Convertible Bond Sales in Taiwan",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-13/tech-fundraising-drives-record-convertible-bond-sales-in-taiwan",
+        "source": "Bloomberg Markets",
+        "weight": 0.7451,
+        "score": 0.8667
       },
       {
-        "title": "Magnificent 7 stocks are splitting again: Chart of the Day",
-        "url": "https://finance.yahoo.com/news/magnificent-7-stocks-are-splitting-again-chart-of-the-day-173828916.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5579,
+        "title": "Asia markets open lower as oil surges after U.S. moves to blockade Iran ports",
+        "url": "https://www.cnbc.com/2026/04/13/asia-pacific-market-us-iran-talks-blockade-oil-prices.html",
+        "source": "CNBC Markets",
+        "weight": 0.6368,
         "score": 0.5333
       },
       {
-        "title": "I Don't Use the Term \"Generational Buying Opportunity\" Lightly. Here's Why It Applies to This Beaten-Down Tech Stock.",
-        "url": "https://www.fool.com/investing/2026/04/12/generational-buying-opportunity-broadcom-stock/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6378,
-        "score": 0.3333
+        "title": "China’s Victory Giant Seeks Up to $2.2 Billion in Hong Kong Listing",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-12/china-s-victory-giant-seeks-up-to-2-2-billion-in-hong-kong-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.434,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Justin Sun calls out WLFI, platform threatens lawsuit in response",
-        "url": "https://cointelegraph.com/news/justin-sun-wlfi-platform-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6199,
-        "score": -1.0
-      },
-      {
-        "title": "Banks rate Strategy a ‘buy’ while collecting $274M to issue stock for its Bitcoin purchases",
-        "url": "https://cryptoslate.com/why-wall-street-keeps-cheering-strategy-while-getting-paid-to-fund-it/",
-        "source": "CryptoSlate",
-        "weight": 0.687,
+        "title": "Retail Investors Double Down on India Stocks, Foreigners Flee Amid War Jitters",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-04-13/foreign-outflows-from-india-stocks-at-record-failed-iran-talks-add-to-risks",
+        "source": "Bloomberg Markets",
+        "weight": 0.7248,
         "score": -0.6667
       },
       {
-        "title": "Fear & Greed 16 (Fear) — bearish",
+        "title": "Chinese Rare Earth Companies Jump After Quarterly Price Hike",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-13/chinese-rare-earth-companies-jump-after-quarterly-price-hike",
+        "source": "Bloomberg Markets",
+        "weight": 0.7396,
+        "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 12 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3085330615778687,
-          "price_change_24h": -0.04847
+          "volume_mcap_ratio": 0.303044471338593,
+          "price_change_24h": -0.02812
         }
       ],
       "momentum_shifts": []
