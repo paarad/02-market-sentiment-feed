@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-14T14:01:27.820358+00:00",
+  "updated_at": "2026-04-14T17:17:31.393269+00:00",
   "indicators": {
-    "change24h": 0.062,
-    "vol": 0.162,
+    "change24h": 0.033,
+    "vol": 0.102,
     "fearGreed": 21,
-    "momentum": 1.0,
+    "momentum": 0.585,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5167,
-    "global_sentiment": 0.5852,
-    "combined_sentiment": 0.5197,
-    "confidence": 0.8191,
+    "crypto_sentiment": 0.5294,
+    "global_sentiment": 0.5451,
+    "combined_sentiment": 0.5258,
+    "confidence": 0.8165,
     "counts": {
-      "crypto": 79,
-      "global": 45
+      "crypto": 73,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 75532,
-      "btc_change_24h": 5.59,
-      "eth_price": 2392.01,
-      "eth_change_24h": 8.34,
+      "btc_price": 74846,
+      "btc_change_24h": 3.43,
+      "eth_price": 2339.7,
+      "eth_change_24h": 5.02,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 226286351840.0,
+        "volume_24h": 246624741768.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.67,
+        "btc_dominance": 58.73,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-03-31T20:51:27.201808+00:00",
-      "crypto": 0.443,
-      "global": 0.4448,
-      "combined": 0.4527,
-      "counts": {
-        "crypto": 42,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-01T03:29:06.912433+00:00",
       "crypto": 0.4359,
@@ -1008,66 +998,76 @@
         "crypto": 79,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-04-14T17:17:31.393269+00:00",
+      "crypto": 0.5294,
+      "global": 0.5451,
+      "combined": 0.5258,
+      "counts": {
+        "crypto": 73,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin surges on $650 million short squeeze, passing $76,000 as US inflation numbers fuels risk asset rally",
+        "url": "https://cryptoslate.com/bitcoin-surges-on-650-million-short-squeeze-passing-76000-as-us-inflation-numbers-fuels-risk-asset-rally/",
+        "source": "CryptoSlate",
+        "weight": 0.7257,
+        "score": 0.9
+      },
+      {
+        "title": "Circle 'Exploring' Arc Network Token Launch, Proof-of-Stake Shift: CEO",
+        "url": "https://decrypt.co/364295/circle-exploring-arc-network-token-proof-stake-shift-ceo",
+        "source": "Decrypt",
+        "weight": 0.6426,
+        "score": 0.9667
+      },
+      {
         "title": "Bitcoin rises to one-month high above $75,000 as analysts eye major breakout",
         "url": "https://www.coindesk.com/markets/2026/04/14/bitcoin-hits-usd75-000-for-first-time-since-early-february-but-will-it-hold-and-what-it-means-if-it-does",
         "source": "CoinDesk",
-        "weight": 0.8526,
-        "score": 0.8667
-      },
-      {
-        "title": "3 Big Reasons to Love Blue Bird (BLBD)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-big-reasons-love-blue-132603839.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7473,
-        "score": 0.8667
-      },
-      {
-        "title": "3 Reasons We Love Mueller Water Products (MWA)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-love-mueller-water-131003421.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7246,
+        "weight": 0.5846,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Wall Street Balances Growth and Uncertainty",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-14/wall-street-balances-growth-and-uncertainty-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7663,
+        "title": "CLARITY Act faces a 2 week deadline as Senate gridlock and bank pressure threaten freeze out until 2030",
+        "url": "https://cryptoslate.com/crypto-industry-races-to-pass-clarity-act-before-2026-midterm/",
+        "source": "CryptoSlate",
+        "weight": 0.6526,
         "score": -1.0
       },
       {
-        "title": "Web3 hacks cost $482M in Q1 as phishing drives majority of losses: Hacken",
-        "url": "https://cointelegraph.com/news/web3-hacks-cost-464-million-in-q1-hacken?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4699,
-        "score": -1.0
+        "title": "TD, BMO to Act as Market Makers for New Credit Futures Contract",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-14/td-bmo-to-act-as-market-makers-for-new-credit-futures-contract",
+        "source": "Bloomberg Markets",
+        "weight": 0.6585,
+        "score": -0.9667
       },
       {
-        "title": "I Was ‘Madame Due Process,’ Ex-OPEC Head Says At Bribery Trial",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-14/i-was-madame-due-process-ex-opec-head-says-at-bribery-trial",
-        "source": "Bloomberg Markets",
-        "weight": 0.7369,
-        "score": -0.6333
+        "title": "Jamie Dimon says Anthropic's Mythos reveals 'a lot more vulnerabilities' for cyberattacks",
+        "url": "https://www.cnbc.com/2026/04/14/jamie-dimon-anthropic-mythos-vulnerabilities-cyber-attacks.html",
+        "source": "CNBC Markets",
+        "weight": 0.7531,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5238973192916916,
-          "price_change_24h": 0.01928
+          "volume_mcap_ratio": 0.568966876242758,
+          "price_change_24h": 0.01416
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.38737947867975103,
-          "price_change_24h": 0.06689
+          "volume_mcap_ratio": 0.41267397411753753,
+          "price_change_24h": 0.00228
         }
       ],
       "momentum_shifts": []
