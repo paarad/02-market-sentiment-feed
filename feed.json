@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-16T06:07:29.345814+00:00",
+  "updated_at": "2026-04-16T09:26:29.992659+00:00",
   "indicators": {
-    "change24h": 0.031,
-    "vol": 0.119,
+    "change24h": 0.026,
+    "vol": 0.143,
     "fearGreed": 23,
-    "momentum": 0.54,
+    "momentum": 0.447,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.61,
-    "global_sentiment": 0.5983,
-    "combined_sentiment": 0.5907,
-    "confidence": 0.7779,
+    "crypto_sentiment": 0.6077,
+    "global_sentiment": 0.5106,
+    "combined_sentiment": 0.5817,
+    "confidence": 0.7706,
     "counts": {
-      "crypto": 72,
-      "global": 48
+      "crypto": 74,
+      "global": 51
     },
     "market_indicators": {
-      "btc_price": 75052,
-      "btc_change_24h": 1.45,
-      "eth_price": 2357.44,
-      "eth_change_24h": 1.68,
+      "btc_price": 74890,
+      "btc_change_24h": 1.26,
+      "eth_price": 2347.51,
+      "eth_change_24h": 1.15,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 157059642702.0,
+        "volume_24h": 155042968647.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.63,
+        "btc_dominance": 58.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-02T17:03:19.230207+00:00",
-      "crypto": 0.3428,
-      "global": 0.3854,
-      "combined": 0.3726,
-      "counts": {
-        "crypto": 66,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-02T20:20:13.549216+00:00",
       "crypto": 0.2738,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-04-16T09:26:29.992659+00:00",
+      "crypto": 0.6077,
+      "global": 0.5106,
+      "combined": 0.5817,
+      "counts": {
+        "crypto": 74,
+        "global": 51
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dry-Bulk Shipping Rates Hit Four-Month Peak on Capesize Demand",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-16/dry-bulk-shipping-rates-hit-four-month-peak-on-capesize-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.6651,
-        "score": 0.8667
+        "title": "Stock Futures Rise After S&P 500, Nasdaq Hit Record Highs",
+        "url": "https://finance.yahoo.com/m/b9c4c168-4dca-3b71-9d53-63ee06d75a35/stock-futures-rise-after-s%26p.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6603,
+        "score": 1.0
       },
       {
-        "title": "TSMC first-quarter profit rises 58%, beats estimates as AI demand fuels record run",
-        "url": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+        "title": "Asian Stocks Advance on U.S.-Iran Deal Hopes",
+        "url": "https://finance.yahoo.com/m/241cceb2-c40e-31bf-954d-1ac66953f96f/asian-stocks-advance-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5509,
+        "score": 1.0
+      },
+      {
+        "title": "China economic growth accelerates to 5% in first quarter — but Iran war clouds outlook",
+        "url": "https://www.cnbc.com/2026/04/16/china-gdp-growth-first-quarter-exports-property-retail-sales-iran-war.html",
         "source": "CNBC Markets",
-        "weight": 0.7985,
+        "weight": 0.7867,
         "score": 0.6667
-      },
-      {
-        "title": "Bitcoin rally is taking a breather near $75,000. Onchain data shows why",
-        "url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-rally-is-taking-a-breather-near-usd75-000-onchain-data-shows-why",
-        "source": "CoinDesk",
-        "weight": 0.9564,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Treasury Secretary Scott Bessent is preparing banks to collect citizenship data",
-        "url": "https://www.cnbc.com/2026/04/15/banks-citizenship-data-collection-customer-accounts.html",
+        "title": "Iran war drags India’s goods exports 7% lower in March — more pain ahead",
+        "url": "https://www.cnbc.com/2026/04/16/india-goods-exports-march-drop-more-pain-ahead.html",
         "source": "CNBC Markets",
-        "weight": 0.3125,
+        "weight": 0.6724,
         "score": -0.9667
       },
       {
-        "title": "Private Credit's Biggest User Is in an Even Worse Place",
-        "url": "https://www.bloomberg.com/opinion/articles/2026-04-16/private-equity-is-in-a-worse-place-than-private-credit-on-ai-threat",
+        "title": "South Korea to pilot tokenized deposits for government spending",
+        "url": "https://cointelegraph.com/news/south-korea-pilot-tokenized-deposits-government-spending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7471,
+        "score": -0.6333
+      },
+      {
+        "title": "Half-Full Tanker Heading to Japan Highlights Scramble for Oil",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/half-full-tanker-heading-to-japan-highlights-scramble-for-oil",
         "source": "Bloomberg Markets",
-        "weight": 0.7889,
-        "score": -0.3333
+        "weight": 0.7167,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35652611860273636,
-          "price_change_24h": -0.01501
+          "volume_mcap_ratio": 0.36189673038460146,
+          "price_change_24h": -0.01091
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3215718303072052,
-          "price_change_24h": 0.02555
+          "volume_mcap_ratio": 0.3100392765201889,
+          "price_change_24h": 0.07433
         }
       ],
       "momentum_shifts": []
