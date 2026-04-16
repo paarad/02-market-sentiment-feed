@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-16T09:26:29.992659+00:00",
+  "updated_at": "2026-04-16T14:03:55.499802+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.143,
+    "change24h": 0.031,
+    "vol": 0.321,
     "fearGreed": 23,
-    "momentum": 0.447,
+    "momentum": 0.549,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6077,
-    "global_sentiment": 0.5106,
-    "combined_sentiment": 0.5817,
-    "confidence": 0.7706,
+    "crypto_sentiment": 0.5175,
+    "global_sentiment": 0.5841,
+    "combined_sentiment": 0.5201,
+    "confidence": 0.779,
     "counts": {
-      "crypto": 74,
-      "global": 51
+      "crypto": 66,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 74890,
-      "btc_change_24h": 1.26,
-      "eth_price": 2347.51,
-      "eth_change_24h": 1.15,
+      "btc_price": 73713,
+      "btc_change_24h": -0.39,
+      "eth_price": 2305.01,
+      "eth_change_24h": -0.9,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 155042968647.0,
+        "volume_24h": 165053546647.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.57,
+        "btc_dominance": 58.33,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-02T20:20:13.549216+00:00",
-      "crypto": 0.2738,
-      "global": 0.4282,
-      "combined": 0.3244,
-      "counts": {
-        "crypto": 55,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-04-02T20:41:52.030337+00:00",
       "crypto": 0.2731,
@@ -1008,66 +998,76 @@
         "crypto": 74,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-04-16T14:03:55.499802+00:00",
+      "crypto": 0.5175,
+      "global": 0.5841,
+      "combined": 0.5201,
+      "counts": {
+        "crypto": 66,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Futures Rise After S&P 500, Nasdaq Hit Record Highs",
-        "url": "https://finance.yahoo.com/m/b9c4c168-4dca-3b71-9d53-63ee06d75a35/stock-futures-rise-after-s%26p.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6603,
-        "score": 1.0
+        "title": "Stock Rally Leaves Options Traders Readying for a Tech Rebound",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/stock-rally-leaves-options-traders-readying-for-a-tech-rebound",
+        "source": "Bloomberg Markets",
+        "weight": 0.6548,
+        "score": 0.8667
       },
       {
-        "title": "Asian Stocks Advance on U.S.-Iran Deal Hopes",
-        "url": "https://finance.yahoo.com/m/241cceb2-c40e-31bf-954d-1ac66953f96f/asian-stocks-advance-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5509,
-        "score": 1.0
+        "title": "Stock Rally Advances on Iran Ceasefire Hopes, Labor Optimism",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/stock-rally-advances-on-iran-ceasefire-hopes-labor-optimism",
+        "source": "Bloomberg Markets",
+        "weight": 0.774,
+        "score": 0.6667
       },
       {
-        "title": "China economic growth accelerates to 5% in first quarter — but Iran war clouds outlook",
-        "url": "https://www.cnbc.com/2026/04/16/china-gdp-growth-first-quarter-exports-property-retail-sales-iran-war.html",
-        "source": "CNBC Markets",
-        "weight": 0.7867,
+        "title": "Billionaire Dangote Boosts Jet Fuel to Europe as War Hits Supply",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/billionaire-dangote-boosts-jet-fuel-to-europe-as-war-hits-supply",
+        "source": "Bloomberg Markets",
+        "weight": 0.7261,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Iran war drags India’s goods exports 7% lower in March — more pain ahead",
-        "url": "https://www.cnbc.com/2026/04/16/india-goods-exports-march-drop-more-pain-ahead.html",
+        "title": "Treasury Secretary Scott Bessent is preparing banks to collect citizenship data",
+        "url": "https://www.cnbc.com/2026/04/15/banks-citizenship-data-collection-customer-accounts.html",
         "source": "CNBC Markets",
-        "weight": 0.6724,
+        "weight": 0.7471,
         "score": -0.9667
       },
       {
-        "title": "South Korea to pilot tokenized deposits for government spending",
-        "url": "https://cointelegraph.com/news/south-korea-pilot-tokenized-deposits-government-spending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7471,
-        "score": -0.6333
+        "title": "BofA says era of higher earnings, lower valuations has begun",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-says-era-higher-earnings-125407874.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6994,
+        "score": -0.9667
       },
       {
-        "title": "Half-Full Tanker Heading to Japan Highlights Scramble for Oil",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-16/half-full-tanker-heading-to-japan-highlights-scramble-for-oil",
-        "source": "Bloomberg Markets",
-        "weight": 0.7167,
-        "score": -0.6333
+        "title": "Morning Minute: Bitcoin Devs Propose New Quantum Solution",
+        "url": "https://decrypt.co/364570/morning-minute-bitcoin-devs-propose-new-quantum-solution",
+        "source": "Decrypt",
+        "weight": 0.6751,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36189673038460146,
-          "price_change_24h": -0.01091
+          "volume_mcap_ratio": 0.38093521197660035,
+          "price_change_24h": -0.00872
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3100392765201889,
-          "price_change_24h": 0.07433
+          "volume_mcap_ratio": 0.33315047318114743,
+          "price_change_24h": 0.11969
         }
       ],
       "momentum_shifts": []
