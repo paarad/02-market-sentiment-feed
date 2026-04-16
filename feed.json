@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-16T17:22:42.634468+00:00",
+  "updated_at": "2026-04-16T20:33:11.612489+00:00",
   "indicators": {
-    "change24h": 0.037,
-    "vol": 0.437,
+    "change24h": 0.052,
+    "vol": 0.43,
     "fearGreed": 23,
-    "momentum": 0.651,
+    "momentum": 0.906,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5002,
-    "global_sentiment": 0.4039,
-    "combined_sentiment": 0.4922,
-    "confidence": 0.7823,
+    "crypto_sentiment": 0.5082,
+    "global_sentiment": 0.5198,
+    "combined_sentiment": 0.5078,
+    "confidence": 0.7738,
     "counts": {
-      "crypto": 67,
-      "global": 37
+      "crypto": 65,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 74117,
-      "btc_change_24h": 0.16,
-      "eth_price": 2319.52,
-      "eth_change_24h": -1.02,
+      "btc_price": 75162,
+      "btc_change_24h": 0.47,
+      "eth_price": 2350.77,
+      "eth_change_24h": -0.48,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "regime_strength": 1.0,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181819902572.0,
+        "volume_24h": 186662428229.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.32,
+        "btc_dominance": 58.39,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-03T02:56:24.693733+00:00",
-      "crypto": 0.3534,
-      "global": 0.4816,
-      "combined": 0.3886,
-      "counts": {
-        "crypto": 53,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-04-03T05:44:54.932446+00:00",
       "crypto": 0.3605,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-04-16T20:33:11.612489+00:00",
+      "crypto": 0.5082,
+      "global": 0.5198,
+      "combined": 0.5078,
+      "counts": {
+        "crypto": 65,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin slides back below $74,000 as breakout to higher levels fails again",
-        "url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-slides-back-below-usd74-000-as-breakout-to-higher-levels-fails-again",
-        "source": "CoinDesk",
-        "weight": 0.7407,
+        "title": "OceanPal Inc. Regains Nasdaq Compliance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oceanpal-inc-regains-nasdaq-compliance-200000510.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7505,
+        "score": 0.9667
+      },
+      {
+        "title": "1 Services Stock for Long-Term Investors and 2 We Ignore",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/1-services-stock-long-term-193827615.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.72,
+        "score": 1.0
+      },
+      {
+        "title": "Stephanie Guild on Sector Performance Amid Speculative Stock Surges",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-16/guild-on-sector-performance-amid-speculative-stock-surge-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7007,
         "score": 0.8667
-      },
-      {
-        "title": "Retail Traders Look Past War Angst and Race Back Into Stocks",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-16/retail-traders-look-past-war-angst-and-race-back-into-stocks",
-        "source": "Bloomberg Markets",
-        "weight": 0.7123,
-        "score": 0.6667
-      },
-      {
-        "title": "Madison Air Up 16% After Biggest US Industrial IPO Since ‘99",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-16/madison-air-jumps-19-after-biggest-us-industrial-ipo-since-1999",
-        "source": "Bloomberg Markets",
-        "weight": 0.7496,
-        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Oil Producers, Shipowners in Standoff Over Who Takes Hormuz Risk",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-16/oil-producers-shipowners-in-standoff-over-who-takes-hormuz-risk",
-        "source": "Bloomberg Markets",
-        "weight": 0.7129,
-        "score": -1.0
-      },
-      {
-        "title": "Polkadot-Ethereum Bridge Hack Losses Were 10x Worse Than Reported, Team Admits",
-        "url": "https://decrypt.co/364588/polkadot-ethereum-bridge-hack-losses-10x-worse-team-admits",
+        "title": "Your AI Chats Can Be Used Against You in Court—Law Firms Are Scrambling",
+        "url": "https://decrypt.co/364653/your-ai-chats-against-you-court-law-firms-scrambling",
         "source": "Decrypt",
-        "weight": 0.682,
+        "weight": 0.6875,
         "score": -1.0
       },
       {
-        "title": "Israel and Lebanon agree to 10-day ceasefire, Trump says",
-        "url": "https://www.cnbc.com/2026/04/16/trump-israel-lebanon-ceasefire-iran-war.html",
+        "title": "See Pivot In Gold Trading: Suki Cooper",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-16/see-pivot-in-gold-trading-suki-cooper-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6467,
+        "score": -1.0
+      },
+      {
+        "title": "ICE agent charged with assault by Minnesota prosecutors, arrest warrant issued",
+        "url": "https://www.cnbc.com/2026/04/16/ice-agent-assault-charge-minnesota-minneapolis.html",
         "source": "CNBC Markets",
-        "weight": 0.7013,
+        "weight": 0.5946,
         "score": -0.9667
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41859663310211254,
-          "price_change_24h": -0.0027
+          "volume_mcap_ratio": 0.43527718255749304,
+          "price_change_24h": -0.0096
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.377551099498513,
-          "price_change_24h": 0.11418
+          "volume_mcap_ratio": 0.37124811412822895,
+          "price_change_24h": 0.03168
         }
       ],
       "momentum_shifts": []
