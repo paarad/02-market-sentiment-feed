@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-16T03:33:46.641532+00:00",
+  "updated_at": "2026-04-16T06:07:29.345814+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.088,
+    "change24h": 0.031,
+    "vol": 0.119,
     "fearGreed": 23,
-    "momentum": 0.428,
+    "momentum": 0.54,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5779,
-    "global_sentiment": 0.5832,
-    "combined_sentiment": 0.5654,
-    "confidence": 0.7544,
+    "crypto_sentiment": 0.61,
+    "global_sentiment": 0.5983,
+    "combined_sentiment": 0.5907,
+    "confidence": 0.7779,
     "counts": {
-      "crypto": 70,
-      "global": 46
+      "crypto": 72,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 75022,
-      "btc_change_24h": 0.93,
-      "eth_price": 2361.23,
-      "eth_change_24h": 1.42,
+      "btc_price": 75052,
+      "btc_change_24h": 1.45,
+      "eth_price": 2357.44,
+      "eth_change_24h": 1.68,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 154272929479.0,
-        "high_activity_coins": 1
+        "volume_24h": 157059642702.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.62,
+        "btc_dominance": 58.63,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-02T13:43:43.503483+00:00",
-      "crypto": 0.2962,
-      "global": 0.4776,
-      "combined": 0.3452,
-      "counts": {
-        "crypto": 62,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-04-02T17:03:19.230207+00:00",
       "crypto": 0.3428,
@@ -1008,40 +998,43 @@
         "crypto": 70,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-16T06:07:29.345814+00:00",
+      "crypto": 0.61,
+      "global": 0.5983,
+      "combined": 0.5907,
+      "counts": {
+        "crypto": 72,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Daikin shares jump 14% after activist investor Elliott pushes for reforms",
-        "url": "https://www.cnbc.com/2026/04/16/daikin-shares-jump-elliott-activist-investment-valuation-gap-nikkei225.html",
-        "source": "CNBC Markets",
-        "weight": 0.6732,
+        "title": "Dry-Bulk Shipping Rates Hit Four-Month Peak on Capesize Demand",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/dry-bulk-shipping-rates-hit-four-month-peak-on-capesize-demand",
+        "source": "Bloomberg Markets",
+        "weight": 0.6651,
         "score": 0.8667
       },
       {
-        "title": "China economic growth accelerates to 5% in first quarter, beating expectations, on robust exports",
-        "url": "https://www.cnbc.com/2026/04/16/china-gdp-growth-first-quarter-exports-property-retail-sales-iran-war.html",
+        "title": "TSMC first-quarter profit rises 58%, beats estimates as AI demand fuels record run",
+        "url": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
         "source": "CNBC Markets",
-        "weight": 0.7364,
+        "weight": 0.7985,
         "score": 0.6667
       },
       {
-        "title": "China’s Foreign Exchange Purchases Hit Record High in March",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-16/chinese-banks-sold-record-amount-of-fx-to-corporates-in-march",
-        "source": "Bloomberg Markets",
-        "weight": 0.5482,
-        "score": 0.8667
+        "title": "Bitcoin rally is taking a breather near $75,000. Onchain data shows why",
+        "url": "https://www.coindesk.com/markets/2026/04/16/bitcoin-rally-is-taking-a-breather-near-usd75-000-onchain-data-shows-why",
+        "source": "CoinDesk",
+        "weight": 0.9564,
+        "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "HSBC’s George Sees Prolonged Energy Market Volatility",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-16/hsbc-s-george-sees-prolonged-energy-market-volatility-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6741,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1053,16 +1046,28 @@
         "title": "Treasury Secretary Scott Bessent is preparing banks to collect citizenship data",
         "url": "https://www.cnbc.com/2026/04/15/banks-citizenship-data-collection-customer-accounts.html",
         "source": "CNBC Markets",
-        "weight": 0.4201,
+        "weight": 0.3125,
         "score": -0.9667
+      },
+      {
+        "title": "Private Credit's Biggest User Is in an Even Worse Place",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-04-16/private-equity-is-in-a-worse-place-than-private-credit-on-ai-threat",
+        "source": "Bloomberg Markets",
+        "weight": 0.7889,
+        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3530571104869376,
-          "price_change_24h": -0.00818
+          "volume_mcap_ratio": 0.35652611860273636,
+          "price_change_24h": -0.01501
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3215718303072052,
+          "price_change_24h": 0.02555
         }
       ],
       "momentum_shifts": []
