@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-17T03:29:33.371958+00:00",
+  "updated_at": "2026-04-17T06:08:08.477878+00:00",
   "indicators": {
-    "change24h": 0.039,
-    "vol": 0.47,
+    "change24h": 0.036,
+    "vol": 0.524,
     "fearGreed": 21,
-    "momentum": 0.675,
+    "momentum": 0.63,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4455,
-    "global_sentiment": 0.5686,
-    "combined_sentiment": 0.4649,
-    "confidence": 0.728,
+    "crypto_sentiment": 0.4117,
+    "global_sentiment": 0.5894,
+    "combined_sentiment": 0.4412,
+    "confidence": 0.7417,
     "counts": {
-      "crypto": 64,
-      "global": 47
+      "crypto": 66,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 74723,
-      "btc_change_24h": -0.44,
-      "eth_price": 2328.28,
-      "eth_change_24h": -1.42,
+      "btc_price": 74738,
+      "btc_change_24h": -0.45,
+      "eth_price": 2323.23,
+      "eth_change_24h": -1.53,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 182015630101.0,
-        "high_activity_coins": 2
+        "volume_24h": 175382653180.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.38,
+        "btc_dominance": 58.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-03T13:19:47.684064+00:00",
-      "crypto": 0.3714,
-      "global": 0.5002,
-      "combined": 0.4035,
-      "counts": {
-        "crypto": 52,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-04-03T16:51:03.516468+00:00",
       "crypto": 0.3705,
@@ -1008,66 +998,71 @@
         "crypto": 64,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-04-17T06:08:08.477878+00:00",
+      "crypto": 0.4117,
+      "global": 0.5894,
+      "combined": 0.4412,
+      "counts": {
+        "crypto": 66,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "XRP leads bitcoin and ether on weekly gains, but muted volume keeps breakout in check",
+        "url": "https://www.coindesk.com/markets/2026/04/17/xrp-leads-bitcoin-and-ether-on-weekly-gains-but-muted-volume-keeps-breakout-in-check",
+        "source": "CoinDesk",
+        "weight": 1.0209,
+        "score": 0.8667
+      },
+      {
         "title": "London Metals Index at Record High on Aluminum ‘Black Hole’ Fear",
         "url": "https://www.bloomberg.com/news/articles/2026-04-17/london-metals-index-at-record-high-on-aluminum-black-hole-fear",
         "source": "Bloomberg Markets",
-        "weight": 0.7534,
+        "weight": 0.5551,
         "score": 1.0
       },
       {
         "title": "Bitcoin eyes $90K as whales absorb 20x daily BTC supply in 30 days",
         "url": "https://cointelegraph.com/news/bitcoin-eyes-dollar90k-as-whales-absorb-20x-daily-btc-supply-in-30-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6413,
+        "weight": 0.4725,
         "score": 1.0
-      },
-      {
-        "title": "2 Reasons to Sell MUR and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-sell-mur-1-232227224.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4971,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "The U.S. government moves $606,000 in bitcoin linked to the 2016 Bitfinex hack to Coinbase",
+        "url": "https://www.coindesk.com/markets/2026/04/17/the-u-s-government-moves-usd606-000-in-bitcoin-linked-to-the-2016-bitfinex-hack-to-coinbase",
+        "source": "CoinDesk",
+        "weight": 0.8824,
+        "score": -0.7333
+      },
+      {
         "title": "Ex-Treasury chief warns of US bond crash, calls for contingency plan",
         "url": "https://cointelegraph.com/news/ex-treasury-chief-warns-us-treasurys-crash-calls-emergency-debt-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7412,
+        "weight": 0.5462,
         "score": -1.0
       },
       {
         "title": "ICE agent charged with assault by Minnesota prosecutors, arrest warrant issued",
         "url": "https://www.cnbc.com/2026/04/16/ice-agent-assault-charge-minnesota-minneapolis.html",
         "source": "CNBC Markets",
-        "weight": 0.752,
+        "weight": 0.5542,
         "score": -0.9667
-      },
-      {
-        "title": "Stablecoin issuer Circle faces lawsuit over $280M Drift Protocol hack",
-        "url": "https://cointelegraph.com/news/circle-faces-class-action-lawsuit-after-drift-protocol-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6421,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4245341193698308,
-          "price_change_24h": -0.00605
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.32700205040378966,
-          "price_change_24h": 0.03478
+          "volume_mcap_ratio": 0.40789160063098406,
+          "price_change_24h": -0.00154
         }
       ],
       "momentum_shifts": []
