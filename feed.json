@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-17T13:46:55.899883+00:00",
+  "updated_at": "2026-04-17T17:00:01.330112+00:00",
   "indicators": {
-    "change24h": 0.044,
-    "vol": 0.136,
+    "change24h": 0.067,
+    "vol": 0.165,
     "fearGreed": 21,
-    "momentum": 0.777,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4908,
-    "global_sentiment": 0.5088,
-    "combined_sentiment": 0.4938,
-    "confidence": 0.7893,
+    "crypto_sentiment": 0.5005,
+    "global_sentiment": 0.4616,
+    "combined_sentiment": 0.4971,
+    "confidence": 0.7925,
     "counts": {
       "crypto": 70,
-      "global": 51
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 76856,
-      "btc_change_24h": 3.19,
-      "eth_price": 2417.31,
-      "eth_change_24h": 3.6,
+      "btc_price": 77875,
+      "btc_change_24h": 4.93,
+      "eth_price": 2451.4,
+      "eth_change_24h": 5.79,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 209995777831.0,
+        "volume_24h": 227502595464.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.56,
+        "btc_dominance": 58.76,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-03T20:45:29.327117+00:00",
-      "crypto": 0.3145,
-      "global": 0.5524,
-      "combined": 0.3653,
-      "counts": {
-        "crypto": 53,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-04-04T02:47:07.051440+00:00",
       "crypto": 0.3547,
@@ -1008,71 +998,81 @@
         "crypto": 70,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-04-17T17:00:01.330112+00:00",
+      "crypto": 0.5005,
+      "global": 0.4616,
+      "combined": 0.4971,
+      "counts": {
+        "crypto": 70,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Back in the black: Strategy’s returns to profit on bitcoin holdings after $76,000 surge",
+        "title": "Back in the black: Strategy surges 8% as bitcoin's rise to $77,000 puts holdings in profit",
         "url": "https://www.coindesk.com/markets/2026/04/17/strategy-back-in-profit-as-bitcoin-hits-two-and-a-half-month-high-above-usd76-300",
         "source": "CoinDesk",
-        "weight": 0.9829,
+        "weight": 0.6778,
+        "score": 1.0
+      },
+      {
+        "title": "Chevron Drags On Dow's Rally As Oil Price Sinks; Here Are The Biggest Losers",
+        "url": "https://finance.yahoo.com/m/88189bdc-d917-356e-a467-c08ffe64733f/chevron-drags-on-dow%27s-rally.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7452,
         "score": 0.8667
       },
       {
-        "title": "3 Reasons We’re Fans of Texas Pacific Land (TPL)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-fans-texas-pacific-133607635.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7835,
-        "score": 0.8667
-      },
-      {
-        "title": "3 Reasons Investors Love United Therapeutics (UTHR)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-united-130407935.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7367,
-        "score": 0.8667
+        "title": "S&amp;P 500 Heads Toward Best Month Since 2020 on Hope for War’s End",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/stocks-rally-as-oil-plunges-on-reopening-of-hormuz-strait",
+        "source": "Bloomberg Markets",
+        "weight": 0.5487,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Circle Hit With Class Action Lawsuit Over $285M Drift Protocol Hack",
-        "url": "https://decrypt.co/364710/circle-hit-with-class-action-lawsuit-over-285m-drift-protocol-hack",
+        "title": "QQQ vs. IWO: Big Tech Dominance or Small-Cap Potential?",
+        "url": "https://www.fool.com/coverage/etfs/2026/04/17/qqq-vs-iwo-big-tech-dominance-or-small-cap-potential/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.693,
+        "score": -0.9667
+      },
+      {
+        "title": "US Government Moves Bitcoin Tied to $9 Billion Bitfinex Hack",
+        "url": "https://decrypt.co/364730/us-government-moves-bitcoin-9-billion-bitfinex-hack",
         "source": "Decrypt",
-        "weight": 0.629,
-        "score": -1.0
+        "weight": 0.8299,
+        "score": -0.7333
       },
       {
-        "title": "Tether uses $127M Drift rescue to challenge Circle’s grip on Solana payments",
-        "url": "https://cryptoslate.com/tether-uses-127m-drift-rescue-to-challenge-circles-grip-on-solana-payments/",
-        "source": "CryptoSlate",
-        "weight": 0.5769,
+        "title": "Telegram CEO Durov warns EU age-verification app could enable wider tracking",
+        "url": "https://cointelegraph.com/news/eu-age-app-verification-surveillance-risk-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5191,
         "score": -1.0
-      },
-      {
-        "title": "Paramount-Warner Merger Will 'Desecrate America': Kirsten Vangsness",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-17/paramount-warner-deal-will-desecrate-america-vangsness-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7764,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.48310795052152083,
-          "price_change_24h": 0.00945
+          "volume_mcap_ratio": 0.5222768595794618,
+          "price_change_24h": 0.02239
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.4576731819998107,
-          "price_change_24h": 0.99221
+          "volume_mcap_ratio": 0.45136538482561706,
+          "price_change_24h": 1.53023
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.34296258369448335,
-          "price_change_24h": 0.01234
+          "volume_mcap_ratio": 0.3358258025805355,
+          "price_change_24h": 0.01731
         }
       ],
       "momentum_shifts": []
