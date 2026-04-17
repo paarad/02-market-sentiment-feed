@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-16T20:56:53.964892+00:00",
+  "updated_at": "2026-04-17T03:29:33.371958+00:00",
   "indicators": {
-    "change24h": 0.049,
-    "vol": 0.428,
-    "fearGreed": 23,
-    "momentum": 0.861,
+    "change24h": 0.039,
+    "vol": 0.47,
+    "fearGreed": 21,
+    "momentum": 0.675,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4784,
-    "global_sentiment": 0.5533,
-    "combined_sentiment": 0.4882,
-    "confidence": 0.7761,
+    "crypto_sentiment": 0.4455,
+    "global_sentiment": 0.5686,
+    "combined_sentiment": 0.4649,
+    "confidence": 0.728,
     "counts": {
-      "crypto": 66,
-      "global": 51
+      "crypto": 64,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 75192,
-      "btc_change_24h": 0.46,
-      "eth_price": 2348.53,
-      "eth_change_24h": -0.64,
+      "btc_price": 74723,
+      "btc_change_24h": -0.44,
+      "eth_price": 2328.28,
+      "eth_change_24h": -1.42,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.5,
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 23,
+        "value": 21,
         "classification": "Extreme Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 188534726763.0,
+        "volume_24h": 182015630101.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.41,
+        "btc_dominance": 58.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-03T09:03:58.511833+00:00",
-      "crypto": 0.3405,
-      "global": 0.5018,
-      "combined": 0.3805,
-      "counts": {
-        "crypto": 52,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-04-03T13:19:47.684064+00:00",
       "crypto": 0.3714,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-04-17T03:29:33.371958+00:00",
+      "crypto": 0.4455,
+      "global": 0.5686,
+      "combined": 0.4649,
+      "counts": {
+        "crypto": 64,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "OceanPal Inc. Regains Nasdaq Compliance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/oceanpal-inc-regains-nasdaq-compliance-200000510.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.717,
-        "score": 0.9667
-      },
-      {
-        "title": "1 Services Stock for Long-Term Investors and 2 We Ignore",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-services-stock-long-term-193827615.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6878,
+        "title": "London Metals Index at Record High on Aluminum ‘Black Hole’ Fear",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/london-metals-index-at-record-high-on-aluminum-black-hole-fear",
+        "source": "Bloomberg Markets",
+        "weight": 0.7534,
         "score": 1.0
       },
       {
-        "title": "Stephanie Guild on Sector Performance Amid Speculative Stock Surges",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-16/guild-on-sector-performance-amid-speculative-stock-surge-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6694,
+        "title": "Bitcoin eyes $90K as whales absorb 20x daily BTC supply in 30 days",
+        "url": "https://cointelegraph.com/news/bitcoin-eyes-dollar90k-as-whales-absorb-20x-daily-btc-supply-in-30-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6413,
+        "score": 1.0
+      },
+      {
+        "title": "2 Reasons to Sell MUR and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-sell-mur-1-232227224.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4971,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Russian Crypto Exchange Grinex Halts Trading, Alleging $13M Exploit by 'Western Special Services'",
-        "url": "https://decrypt.co/364656/russian-crypto-exchange-grinex-halts-trading-13m-exploit",
-        "source": "Decrypt",
-        "weight": 0.8159,
-        "score": -0.8333
-      },
-      {
-        "title": "Your AI Chats Can Be Used Against You in Court—Law Firms Are Scrambling",
-        "url": "https://decrypt.co/364653/your-ai-chats-against-you-court-law-firms-scrambling",
-        "source": "Decrypt",
-        "weight": 0.6568,
+        "title": "Ex-Treasury chief warns of US bond crash, calls for contingency plan",
+        "url": "https://cointelegraph.com/news/ex-treasury-chief-warns-us-treasurys-crash-calls-emergency-debt-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7412,
         "score": -1.0
       },
       {
         "title": "ICE agent charged with assault by Minnesota prosecutors, arrest warrant issued",
         "url": "https://www.cnbc.com/2026/04/16/ice-agent-assault-charge-minnesota-minneapolis.html",
         "source": "CNBC Markets",
-        "weight": 0.5681,
+        "weight": 0.752,
         "score": -0.9667
+      },
+      {
+        "title": "Stablecoin issuer Circle faces lawsuit over $280M Drift Protocol hack",
+        "url": "https://cointelegraph.com/news/circle-faces-class-action-lawsuit-after-drift-protocol-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6421,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.436807084953959,
-          "price_change_24h": -0.00601
+          "volume_mcap_ratio": 0.4245341193698308,
+          "price_change_24h": -0.00605
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3905204111935905,
-          "price_change_24h": 0.07957
+          "volume_mcap_ratio": 0.32700205040378966,
+          "price_change_24h": 0.03478
         }
       ],
       "momentum_shifts": []
