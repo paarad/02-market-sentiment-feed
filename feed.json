@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-17T20:27:59.922019+00:00",
+  "updated_at": "2026-04-17T20:55:09.511189+00:00",
   "indicators": {
-    "change24h": 0.021,
-    "vol": 0.086,
+    "change24h": 0.022,
+    "vol": 0.088,
     "fearGreed": 21,
-    "momentum": 0.375,
+    "momentum": 0.382,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4734,
-    "global_sentiment": 0.432,
-    "combined_sentiment": 0.4744,
-    "confidence": 0.8057,
+    "crypto_sentiment": 0.4856,
+    "global_sentiment": 0.4393,
+    "combined_sentiment": 0.4842,
+    "confidence": 0.8081,
     "counts": {
       "crypto": 73,
-      "global": 42
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 77454,
-      "btc_change_24h": 3.0,
-      "eth_price": 2430.76,
-      "eth_change_24h": 3.35,
+      "btc_price": 77332,
+      "btc_change_24h": 2.84,
+      "eth_price": 2425.94,
+      "eth_change_24h": 3.3,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 224071341460.0,
+        "volume_24h": 225026591894.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.77,
+        "btc_dominance": 58.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-04T05:23:49.398536+00:00",
-      "crypto": 0.3487,
-      "global": 0.3554,
-      "combined": 0.3745,
-      "counts": {
-        "crypto": 68,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-04T08:51:44.040375+00:00",
       "crypto": 0.2881,
@@ -1008,6 +998,16 @@
         "crypto": 73,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-17T20:55:09.511189+00:00",
+      "crypto": 0.4856,
+      "global": 0.4393,
+      "combined": 0.4842,
+      "counts": {
+        "crypto": 73,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Dow jumps 800 points, S&P 500 at new record, Nasdaq gains 6.8% this week",
         "url": "https://finance.yahoo.com/video/dow-jumps-800-points-sp-500-at-new-record-nasdaq-gains-68-this-week-201120267.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7747,
+        "weight": 0.7353,
+        "score": 1.0
+      },
+      {
+        "title": "Dow Rallies 860 Points. Nasdaq Cements Longest Win Streak Since 1992.",
+        "url": "https://finance.yahoo.com/m/0cee2b1d-d208-3800-818f-20587538bc89/dow-rallies-860-points..html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7216,
         "score": 1.0
       },
       {
         "title": "Ether accumulation wallet balances increased by 33%: Is a rally to $3K next?",
         "url": "https://cointelegraph.com/news/ether-accumulation-wallet-balances-increased-by-33percent-is-a-rally-to-dollar3k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6947,
+        "weight": 0.6593,
         "score": 1.0
-      },
-      {
-        "title": "Sam Altman’s World project launches major upgrade to fight deepfakes and bots",
-        "url": "https://www.coindesk.com/tech/2026/04/17/sam-altman-s-world-project-launches-major-upgrade-to-fight-deepfakes-and-bots",
-        "source": "CoinDesk",
-        "weight": 0.7383,
-        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Uruguay Central Bank Chief Sees Better Growth in First Quarter",
         "url": "https://www.bloomberg.com/news/articles/2026-04-17/uruguay-central-bank-chief-sees-better-growth-in-first-quarter",
         "source": "Bloomberg Markets",
-        "weight": 0.7684,
+        "weight": 0.7293,
         "score": -1.0
       },
       {
         "title": "Sector Update: Energy Stocks Fall Late Afternoon",
         "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-afternoon-200447491.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.765,
+        "weight": 0.7261,
         "score": -0.9667
       },
       {
         "title": "Crypto censorship resistance is questioned as major fight breaks out over who gets to freeze your digital dollars",
         "url": "https://cryptoslate.com/crypto-censorship-resistance-is-questioned-as-fight-breaks-out-over-who-gets-to-freeze-your-digital-dollars/",
         "source": "CryptoSlate",
-        "weight": 0.6585,
+        "weight": 0.6249,
         "score": -1.0
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.519242370569051,
-          "price_change_24h": 0.01348
+          "volume_mcap_ratio": 0.5222563793637937,
+          "price_change_24h": 0.01737
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.44593900956429683,
-          "price_change_24h": 1.17226
+          "volume_mcap_ratio": 0.4456564606770423,
+          "price_change_24h": 0.89851
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.32387939574088725,
-          "price_change_24h": 0.03778
+          "volume_mcap_ratio": 0.331909451067641,
+          "price_change_24h": 0.02695
         }
       ],
       "momentum_shifts": []
