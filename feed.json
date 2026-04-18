@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-18T05:44:24.953048+00:00",
+  "updated_at": "2026-04-18T08:59:14.140164+00:00",
   "indicators": {
-    "change24h": 0.093,
-    "vol": 0.703,
+    "change24h": 0.067,
+    "vol": 0.692,
     "fearGreed": 26,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5466,
-    "global_sentiment": 0.4376,
-    "combined_sentiment": 0.5297,
-    "confidence": 0.6972,
+    "crypto_sentiment": 0.4908,
+    "global_sentiment": 0.4457,
+    "combined_sentiment": 0.4886,
+    "confidence": 0.6738,
     "counts": {
-      "crypto": 69,
-      "global": 38
+      "crypto": 70,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 77164,
-      "btc_change_24h": 3.35,
-      "eth_price": 2407.79,
-      "eth_change_24h": 3.69,
+      "btc_price": 76762,
+      "btc_change_24h": 1.35,
+      "eth_price": 2380.67,
+      "eth_change_24h": 1.09,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 244962772604.0,
-        "high_activity_coins": 3
+        "volume_24h": 255692924817.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.71,
+        "btc_dominance": 58.74,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-04T16:44:57.708702+00:00",
-      "crypto": 0.2664,
-      "global": 0.4246,
-      "combined": 0.3185,
-      "counts": {
-        "crypto": 53,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-04-04T20:01:27.063474+00:00",
       "crypto": 0.4053,
@@ -1008,33 +998,50 @@
         "crypto": 69,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-18T08:59:14.140164+00:00",
+      "crypto": 0.4908,
+      "global": 0.4457,
+      "combined": 0.4886,
+      "counts": {
+        "crypto": 70,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
-        "url": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
-        "source": "CoinDesk",
-        "weight": 1.0907,
-        "score": 0.5333
-      },
-      {
-        "title": "Global crypto market cap up 2.9% — rally",
+        "title": "Global crypto market cap up 1.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
+        "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
+        "url": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
+        "source": "CoinDesk",
+        "weight": 0.7495,
+        "score": 0.5333
+      },
+      {
         "title": "Review & Preview: The Nasdaq’s Historic Week",
         "url": "https://finance.yahoo.com/m/f239e7f2-7979-3861-93ae-17c93e8cd7e6/review-%26-preview%3A-the.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4082,
+        "weight": 0.2805,
         "score": 1.0
       }
     ],
     "negative": [
+      {
+        "title": "SEC charges Donald Basile in $16M crypto fraud tied to ‘insured’ token",
+        "url": "https://cointelegraph.com/news/sec-donald-basile-16m-crypto-fraud-insured-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6772,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 26 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1046,33 +1053,16 @@
         "title": "Wall Street Week | Paulson on Iran War, Energy Market Disruptions, Copper Supply Strain, Tax Debate",
         "url": "https://www.bloomberg.com/news/videos/2026-04-17/wall-street-week-copper-supply-strain-us-tax-debate-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3782,
+        "weight": 0.2599,
         "score": -0.9667
-      },
-      {
-        "title": "Belgium Gets Cut by Moody’s in Reproof at Failure to Cut Debt",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/belgium-gets-cut-by-moody-s-in-reproof-at-failure-to-cut-debt",
-        "source": "Bloomberg Markets",
-        "weight": 0.2846,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.571949548330564,
-          "price_change_24h": 0.01307
-        },
-        {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.37469289952098345,
-          "price_change_24h": 0.60342
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.301018300262819,
-          "price_change_24h": 0.00865
+          "volume_mcap_ratio": 0.6028425177306282,
+          "price_change_24h": 0.00814
         }
       ],
       "momentum_shifts": []
