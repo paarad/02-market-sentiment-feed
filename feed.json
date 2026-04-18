@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-18T13:17:13.283636+00:00",
+  "updated_at": "2026-04-18T16:51:47.173510+00:00",
   "indicators": {
-    "change24h": -0.012,
-    "vol": 0.279,
+    "change24h": -0.048,
+    "vol": 0.146,
     "fearGreed": 26,
-    "momentum": -0.201,
+    "momentum": -0.838,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3514,
-    "global_sentiment": 0.4704,
-    "combined_sentiment": 0.3861,
-    "confidence": 0.6889,
+    "crypto_sentiment": 0.4858,
+    "global_sentiment": 0.3828,
+    "combined_sentiment": 0.4796,
+    "confidence": 0.6838,
     "counts": {
       "crypto": 72,
-      "global": 43
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 76148,
-      "btc_change_24h": -0.86,
-      "eth_price": 2355.17,
-      "eth_change_24h": -2.23,
+      "btc_price": 75948,
+      "btc_change_24h": -2.53,
+      "eth_price": 2360.95,
+      "eth_change_24h": -3.78,
       "market_regime": "bear",
-      "regime_strength": 0.4,
+      "regime_strength": 0.6,
       "market_breadth": 0.15,
       "fear_greed": {
         "value": 26,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 250555004153.0,
+        "volume_24h": 209811211482.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.79,
+        "btc_dominance": 58.77,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-04T20:40:58.018639+00:00",
-      "crypto": 0.403,
-      "global": 0.4245,
-      "combined": 0.421,
-      "counts": {
-        "crypto": 67,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-04-05T03:24:22.104460+00:00",
       "crypto": 0.3716,
@@ -1008,61 +998,71 @@
         "crypto": 72,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-04-18T16:51:47.173510+00:00",
+      "crypto": 0.4858,
+      "global": 0.3828,
+      "combined": 0.4796,
+      "counts": {
+        "crypto": 72,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Morning Brief: The future of Netflix is now",
-        "url": "https://finance.yahoo.com/news/morning-brief-the-future-of-netflix-is-now-100051740.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5481,
-        "score": 0.8667
+        "title": "Binance and Biget to probe RAVE’s 4,500% token surge as claims of insider-orchestrated rally grow",
+        "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
+        "source": "CoinDesk",
+        "weight": 0.9904,
+        "score": 1.0
       },
       {
-        "title": "Stocks Jump in Face of Uncertainty Over Strait of Hormuz",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-18/stocks-jump-in-face-of-uncertainty-over-strait-of-hormuz-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.725,
-        "score": 0.6
+        "title": "Dow Jones Futures: Tehran Says Hormuz 'Under Strict Control'; U.S. Eyes Boarding Iran-Tied Ships",
+        "url": "https://finance.yahoo.com/m/2e86a733-79d1-31a8-aaf2-9bbf4acaa122/dow-jones-futures%3A-tehran.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7238,
+        "score": 0.5333
       },
       {
-        "title": "Dividend Stocks Are Beating the Market in 2026. Here Is Why That Makes Sense Right Now.",
-        "url": "https://www.fool.com/investing/2026/04/18/dividend-stocks-beat-market-2026-why-schd/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5687,
-        "score": 0.6667
+        "title": "US Bitcoin ETFs pull in $664M in largest daily inflow since January, because Iran reopened Hormuz for a few hours",
+        "url": "https://cryptoslate.com/bitcoin-etfs-pull-in-664-million-after-strait-of-hormuz-reopened/",
+        "source": "CryptoSlate",
+        "weight": 0.6415,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Iran Claims ‘Strict Control’ of Strait of Hormuz",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-18/iran-claims-strict-control-of-strait-of-hormuz-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6039,
+        "score": -0.9667
+      },
+      {
+        "title": "Peace Deal Uncertain as Iran Says Strait of Hormuz is Shut",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-18/peace-deal-uncertain-iran-says-strait-of-hormuz-is-shut-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5617,
+        "score": -0.9667
+      },
+      {
         "title": "OpenAI's New AI Model Rosalind Could Shave Years Off Drug Discovery. You Probably Can't Use It",
         "url": "https://decrypt.co/364783/openai-gpt-rosalind-drug-discovery-life-sciences-model",
         "source": "Decrypt",
-        "weight": 0.8239,
+        "weight": 0.5451,
         "score": -0.9333
-      },
-      {
-        "title": "Hank Paulson on Iran War, Inflation, and Market Risk",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-18/hank-paulson-on-iran-war-inflation-and-market-risk-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6952,
-        "score": -0.9667
-      },
-      {
-        "title": "Hank Paulson Says the US Will Weather Iran War Fallout Better Than Anyone Else",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-18/hank-paulson-says-the-us-will-weather-iran-war-fallout-better-than-anyone-else",
-        "source": "Bloomberg Markets",
-        "weight": 0.6895,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6027396968767985,
-          "price_change_24h": -0.00931
+          "volume_mcap_ratio": 0.5175530049186108,
+          "price_change_24h": -0.01953
         }
       ],
       "momentum_shifts": []
