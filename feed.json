@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-17T20:55:09.511189+00:00",
+  "updated_at": "2026-04-18T03:17:40.717591+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.088,
-    "fearGreed": 21,
-    "momentum": 0.382,
+    "change24h": 0.089,
+    "vol": 0.716,
+    "fearGreed": 26,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4856,
-    "global_sentiment": 0.4393,
-    "combined_sentiment": 0.4842,
-    "confidence": 0.8081,
+    "crypto_sentiment": 0.5106,
+    "global_sentiment": 0.4376,
+    "combined_sentiment": 0.5028,
+    "confidence": 0.7221,
     "counts": {
-      "crypto": 73,
-      "global": 47
+      "crypto": 71,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 77332,
-      "btc_change_24h": 2.84,
-      "eth_price": 2425.94,
-      "eth_change_24h": 3.3,
+      "btc_price": 77256,
+      "btc_change_24h": 3.4,
+      "eth_price": 2417.18,
+      "eth_change_24h": 3.75,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
-        "value": 21,
-        "classification": "Extreme Fear",
+        "value": 26,
+        "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 225026591894.0,
+        "volume_24h": 239945211533.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.78,
+        "btc_dominance": 58.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-04T08:51:44.040375+00:00",
-      "crypto": 0.2881,
-      "global": 0.4023,
-      "combined": 0.3329,
-      "counts": {
-        "crypto": 56,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-04T13:11:35.328127+00:00",
       "crypto": 0.2673,
@@ -1008,71 +998,81 @@
         "crypto": 73,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-04-18T03:17:40.717591+00:00",
+      "crypto": 0.5106,
+      "global": 0.4376,
+      "combined": 0.5028,
+      "counts": {
+        "crypto": 71,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow jumps 800 points, S&P 500 at new record, Nasdaq gains 6.8% this week",
-        "url": "https://finance.yahoo.com/video/dow-jumps-800-points-sp-500-at-new-record-nasdaq-gains-68-this-week-201120267.html?.tsrc=rss",
+        "title": "Review & Preview: The Nasdaq’s Historic Week",
+        "url": "https://finance.yahoo.com/m/f239e7f2-7979-3861-93ae-17c93e8cd7e6/review-%26-preview%3A-the.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7353,
+        "weight": 0.5415,
         "score": 1.0
       },
       {
-        "title": "Dow Rallies 860 Points. Nasdaq Cements Longest Win Streak Since 1992.",
-        "url": "https://finance.yahoo.com/m/0cee2b1d-d208-3800-818f-20587538bc89/dow-rallies-860-points..html?.tsrc=rss",
+        "title": "Strait Up — Heard on the Street Friday Recap",
+        "url": "https://finance.yahoo.com/m/ea1d2ffe-1738-325e-8ab1-df2222f9bfd0/strait-up-%E2%80%94-heard-on-the.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7216,
+        "weight": 0.4546,
         "score": 1.0
       },
       {
-        "title": "Ether accumulation wallet balances increased by 33%: Is a rally to $3K next?",
-        "url": "https://cointelegraph.com/news/ether-accumulation-wallet-balances-increased-by-33percent-is-a-rally-to-dollar3k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6593,
-        "score": 1.0
+        "title": "Global crypto market cap up 2.9% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Uruguay Central Bank Chief Sees Better Growth in First Quarter",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/uruguay-central-bank-chief-sees-better-growth-in-first-quarter",
+        "title": "Wall Street Week | Paulson on Iran War, Energy Market Disruptions, Copper Supply Strain, Tax Debate",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-17/wall-street-week-copper-supply-strain-us-tax-debate-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7293,
-        "score": -1.0
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Late Afternoon",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-afternoon-200447491.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7261,
+        "weight": 0.5016,
         "score": -0.9667
       },
       {
-        "title": "Crypto censorship resistance is questioned as major fight breaks out over who gets to freeze your digital dollars",
-        "url": "https://cryptoslate.com/crypto-censorship-resistance-is-questioned-as-fight-breaks-out-over-who-gets-to-freeze-your-digital-dollars/",
-        "source": "CryptoSlate",
-        "weight": 0.6249,
-        "score": -1.0
+        "title": "Fear & Greed 26 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Belgium Gets Cut by Moody’s in Reproof at Failure to Cut Debt",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-17/belgium-gets-cut-by-moody-s-in-reproof-at-failure-to-cut-debt",
+        "source": "Bloomberg Markets",
+        "weight": 0.3775,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5222563793637937,
-          "price_change_24h": 0.01737
+          "volume_mcap_ratio": 0.5574317968506531,
+          "price_change_24h": 0.01262
         },
         {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.4456564606770423,
-          "price_change_24h": 0.89851
+          "volume_mcap_ratio": 0.4147908080063716,
+          "price_change_24h": 0.83861
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.331909451067641,
-          "price_change_24h": 0.02695
+          "volume_mcap_ratio": 0.30670946930996557,
+          "price_change_24h": 0.02829
         }
       ],
       "momentum_shifts": []
