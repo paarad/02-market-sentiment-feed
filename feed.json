@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-18T08:59:14.140164+00:00",
+  "updated_at": "2026-04-18T13:17:13.283636+00:00",
   "indicators": {
-    "change24h": 0.067,
-    "vol": 0.692,
+    "change24h": -0.012,
+    "vol": 0.279,
     "fearGreed": 26,
-    "momentum": 1.0,
-    "regime": "sideways",
+    "momentum": -0.201,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4908,
-    "global_sentiment": 0.4457,
-    "combined_sentiment": 0.4886,
-    "confidence": 0.6738,
+    "crypto_sentiment": 0.3514,
+    "global_sentiment": 0.4704,
+    "combined_sentiment": 0.3861,
+    "confidence": 0.6889,
     "counts": {
-      "crypto": 70,
-      "global": 37
+      "crypto": 72,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 76762,
-      "btc_change_24h": 1.35,
-      "eth_price": 2380.67,
-      "eth_change_24h": 1.09,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.6,
+      "btc_price": 76148,
+      "btc_change_24h": -0.86,
+      "eth_price": 2355.17,
+      "eth_change_24h": -2.23,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 255692924817.0,
+        "volume_24h": 250555004153.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.74,
+        "btc_dominance": 58.79,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-04T20:01:27.063474+00:00",
-      "crypto": 0.4053,
-      "global": 0.3848,
-      "combined": 0.4194,
-      "counts": {
-        "crypto": 53,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-04-04T20:40:58.018639+00:00",
       "crypto": 0.403,
@@ -1008,52 +998,62 @@
         "crypto": 70,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-04-18T13:17:13.283636+00:00",
+      "crypto": 0.3514,
+      "global": 0.4704,
+      "combined": 0.3861,
+      "counts": {
+        "crypto": 72,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
-        "url": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
-        "source": "CoinDesk",
-        "weight": 0.7495,
-        "score": 0.5333
-      },
-      {
-        "title": "Review & Preview: The Nasdaq’s Historic Week",
-        "url": "https://finance.yahoo.com/m/f239e7f2-7979-3861-93ae-17c93e8cd7e6/review-%26-preview%3A-the.html?.tsrc=rss",
+        "title": "Morning Brief: The future of Netflix is now",
+        "url": "https://finance.yahoo.com/news/morning-brief-the-future-of-netflix-is-now-100051740.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2805,
-        "score": 1.0
+        "weight": 0.5481,
+        "score": 0.8667
+      },
+      {
+        "title": "Stocks Jump in Face of Uncertainty Over Strait of Hormuz",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-18/stocks-jump-in-face-of-uncertainty-over-strait-of-hormuz-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.725,
+        "score": 0.6
+      },
+      {
+        "title": "Dividend Stocks Are Beating the Market in 2026. Here Is Why That Makes Sense Right Now.",
+        "url": "https://www.fool.com/investing/2026/04/18/dividend-stocks-beat-market-2026-why-schd/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5687,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "SEC charges Donald Basile in $16M crypto fraud tied to ‘insured’ token",
-        "url": "https://cointelegraph.com/news/sec-donald-basile-16m-crypto-fraud-insured-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6772,
-        "score": -0.6333
+        "title": "OpenAI's New AI Model Rosalind Could Shave Years Off Drug Discovery. You Probably Can't Use It",
+        "url": "https://decrypt.co/364783/openai-gpt-rosalind-drug-discovery-life-sciences-model",
+        "source": "Decrypt",
+        "weight": 0.8239,
+        "score": -0.9333
       },
       {
-        "title": "Fear & Greed 26 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Wall Street Week | Paulson on Iran War, Energy Market Disruptions, Copper Supply Strain, Tax Debate",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-17/wall-street-week-copper-supply-strain-us-tax-debate-video",
+        "title": "Hank Paulson on Iran War, Inflation, and Market Risk",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-18/hank-paulson-on-iran-war-inflation-and-market-risk-video",
         "source": "Bloomberg Markets",
-        "weight": 0.2599,
+        "weight": 0.6952,
+        "score": -0.9667
+      },
+      {
+        "title": "Hank Paulson Says the US Will Weather Iran War Fallout Better Than Anyone Else",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-04-18/hank-paulson-says-the-us-will-weather-iran-war-fallout-better-than-anyone-else",
+        "source": "Bloomberg Markets",
+        "weight": 0.6895,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6028425177306282,
-          "price_change_24h": 0.00814
+          "volume_mcap_ratio": 0.6027396968767985,
+          "price_change_24h": -0.00931
         }
       ],
       "momentum_shifts": []
