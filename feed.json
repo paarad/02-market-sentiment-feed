@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-19T13:17:26.672393+00:00",
+  "updated_at": "2026-04-19T16:51:41.587991+00:00",
   "indicators": {
-    "change24h": -0.03,
-    "vol": 0.352,
+    "change24h": -0.005,
+    "vol": 0.08,
     "fearGreed": 27,
-    "momentum": -0.521,
+    "momentum": -0.095,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2,
-    "global_sentiment": 0.4728,
-    "combined_sentiment": 0.2587,
-    "confidence": 0.587,
+    "crypto_sentiment": 0.4159,
+    "global_sentiment": 0.4957,
+    "combined_sentiment": 0.4365,
+    "confidence": 0.6539,
     "counts": {
-      "crypto": 70,
+      "crypto": 69,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 75762,
-      "btc_change_24h": -0.44,
-      "eth_price": 2336.69,
-      "eth_change_24h": -0.78,
+      "btc_price": 75608,
+      "btc_change_24h": -0.38,
+      "eth_price": 2321.31,
+      "eth_change_24h": -1.64,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 157207753915.0,
+        "volume_24h": 176367709945.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.87,
+        "btc_dominance": 58.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-05T20:41:48.524358+00:00",
-      "crypto": 0.2,
-      "global": 0.4896,
-      "combined": 0.2485,
-      "counts": {
-        "crypto": 54,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-04-06T03:27:18.043128+00:00",
       "crypto": 0.2914,
@@ -1008,46 +998,49 @@
         "crypto": 70,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-04-19T16:51:41.587991+00:00",
+      "crypto": 0.4159,
+      "global": 0.4957,
+      "combined": 0.4365,
+      "counts": {
+        "crypto": 69,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Inside the rise of wrench attacks against crypto holders and how France has become the focus",
+        "url": "https://www.coindesk.com/business/2026/04/19/inside-the-rise-of-wrench-attacks-against-crypto-holders-and-how-france-has-become-the-focus",
+        "source": "CoinDesk",
+        "weight": 0.7185,
+        "score": 0.6667
+      },
+      {
         "title": "Blue Origin Launches With First Reused Booster",
         "url": "https://www.bloomberg.com/news/videos/2026-04-19/blue-origin-launches-with-first-reused-booster-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7205,
+        "weight": 0.477,
         "score": 1.0
       },
       {
-        "title": "S&P 500 at 7,000: 7 investing rules you must now live by",
-        "url": "https://finance.yahoo.com/news/sp-500-at-7000-7-investing-rules-you-must-now-live-by-123015841.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7305,
-        "score": 0.5333
-      },
-      {
-        "title": "Stock market records, Iran updates, and Tesla earnings: What to watch this week",
-        "url": "https://finance.yahoo.com/news/stock-market-records-iran-updates-and-tesla-earnings-what-to-watch-this-week-115312657.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6802,
-        "score": 0.3333
+        "title": "Hormuz Shipping Traffic Grinds to a Halt as Tensions Deepen",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-19/hormuz-shipping-traffic-grinds-to-a-halt-as-tensions-deepen",
+        "source": "Bloomberg Markets",
+        "weight": 0.4944,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "China’s Orient Securities Deal to Create $86 Billion Brokerage",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-19/china-s-orient-securities-deal-to-create-86-billion-brokerage",
-        "source": "Bloomberg Markets",
-        "weight": 0.5525,
-        "score": -0.9667
-      },
-      {
-        "title": "White House tells “greedy” banks to “move on” from CLARITY Act stablecoin yield fight",
-        "url": "https://cryptoslate.com/white-house-tells-greedy-banks-to-move-on-from-clarity-act-stablecoin-yield-fight/",
-        "source": "CryptoSlate",
-        "weight": 0.5333,
-        "score": -0.9667
+        "title": "Aave sees $6 billion deposit drop as Kelp hack exposes structural risk for DeFi lender",
+        "url": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
+        "source": "CoinDesk",
+        "weight": 0.801,
+        "score": -1.0
       },
       {
         "title": "Fear & Greed 27 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Fmr. Secretary of Defense Esper: \"It's Gonna Be Hard To Get a Deal Done\"",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-19/fmr-sod-esper-it-s-gonna-be-hard-to-get-a-deal-done-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6479,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3873406589742223,
-          "price_change_24h": 0.01018
+          "volume_mcap_ratio": 0.43186872790859493,
+          "price_change_24h": 0.00056
         }
       ],
       "momentum_shifts": []
