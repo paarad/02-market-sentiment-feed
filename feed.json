@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-19T09:01:18.415255+00:00",
+  "updated_at": "2026-04-19T13:17:26.672393+00:00",
   "indicators": {
-    "change24h": -0.047,
-    "vol": 0.329,
+    "change24h": -0.03,
+    "vol": 0.352,
     "fearGreed": 27,
-    "momentum": -0.826,
-    "regime": "bear",
+    "momentum": -0.521,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2301,
-    "global_sentiment": 0.4552,
-    "combined_sentiment": 0.2939,
-    "confidence": 0.5808,
+    "crypto_sentiment": 0.2,
+    "global_sentiment": 0.4728,
+    "combined_sentiment": 0.2587,
+    "confidence": 0.587,
     "counts": {
-      "crypto": 72,
-      "global": 38
+      "crypto": 70,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 75259,
-      "btc_change_24h": -1.81,
-      "eth_price": 2318.82,
-      "eth_change_24h": -2.51,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
+      "btc_price": 75762,
+      "btc_change_24h": -0.44,
+      "eth_price": 2336.69,
+      "eth_change_24h": -0.78,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
       "market_breadth": 0.35,
       "fear_greed": {
         "value": 27,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152350142077.0,
+        "volume_24h": 157207753915.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 58.83,
+        "btc_dominance": 58.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-05T20:01:35.710847+00:00",
-      "crypto": 0.2,
-      "global": 0.5172,
-      "combined": 0.2506,
-      "counts": {
-        "crypto": 54,
-        "global": 28
-      }
-    },
     {
       "ts": "2026-04-05T20:41:48.524358+00:00",
       "crypto": 0.2,
@@ -1008,61 +998,71 @@
         "crypto": 72,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-19T13:17:26.672393+00:00",
+      "crypto": 0.2,
+      "global": 0.4728,
+      "combined": 0.2587,
+      "counts": {
+        "crypto": 70,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Wall Street Is Slashing Stock Market Targets Over the Iran War. They've Been Wrong 5 of the Past 6 Years.",
-        "url": "https://www.fool.com/investing/2026/04/19/wall-street-is-slashing-stock-market-targets-over/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5377,
-        "score": 0.3333
-      },
-      {
-        "title": "Forget Timing the Market: Just Buy These 3 Growth Stocks and Hold Forever",
-        "url": "https://www.fool.com/investing/2026/04/19/forget-timing-the-market-just-buy-these-3-growth-s/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4654,
-        "score": 0.3333
-      },
-      {
-        "title": "Binance and Bitget to probe RAVE’s 4,500% token surge as claims of insider-orchestrated rally grow",
-        "url": "https://www.coindesk.com/business/2026/04/18/binance-and-biget-to-probe-rave-s-4-500-token-surge-as-claims-of-insider-orchestrated-rally-grow",
-        "source": "CoinDesk",
-        "weight": 0.1531,
+        "title": "Blue Origin Launches With First Reused Booster",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-19/blue-origin-launches-with-first-reused-booster-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7205,
         "score": 1.0
+      },
+      {
+        "title": "S&P 500 at 7,000: 7 investing rules you must now live by",
+        "url": "https://finance.yahoo.com/news/sp-500-at-7000-7-investing-rules-you-must-now-live-by-123015841.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7305,
+        "score": 0.5333
+      },
+      {
+        "title": "Stock market records, Iran updates, and Tesla earnings: What to watch this week",
+        "url": "https://finance.yahoo.com/news/stock-market-records-iran-updates-and-tesla-earnings-what-to-watch-this-week-115312657.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6802,
+        "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "China’s Orient Securities Deal to Create $86 Billion Brokerage",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-19/china-s-orient-securities-deal-to-create-86-billion-brokerage",
+        "source": "Bloomberg Markets",
+        "weight": 0.5525,
+        "score": -0.9667
+      },
+      {
+        "title": "White House tells “greedy” banks to “move on” from CLARITY Act stablecoin yield fight",
+        "url": "https://cryptoslate.com/white-house-tells-greedy-banks-to-move-on-from-clarity-act-stablecoin-yield-fight/",
+        "source": "CryptoSlate",
+        "weight": 0.5333,
+        "score": -0.9667
+      },
       {
         "title": "Fear & Greed 27 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Caitlyn Jenner escapes memecoin lawsuit as judge says token not a security",
-        "url": "https://cointelegraph.com/news/caitlyn-jenner-escapes-memecoin-lawsuit-judge-says-token-not-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4087,
-        "score": -1.0
-      },
-      {
-        "title": "Charles Schwab, Citadel Securities weigh entering prediction markets",
-        "url": "https://cointelegraph.com/news/charles-schwab-citadel-securities-weighing-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5418,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3733926480407591,
-          "price_change_24h": 0.00785
+          "volume_mcap_ratio": 0.3873406589742223,
+          "price_change_24h": 0.01018
         }
       ],
       "momentum_shifts": []
