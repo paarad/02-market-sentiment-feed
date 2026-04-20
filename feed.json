@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-20T10:04:36.445846+00:00",
+  "updated_at": "2026-04-20T14:00:36.251628+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.01,
+    "vol": 0.147,
     "fearGreed": 29,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.169,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2,
-    "global_sentiment": 0.5263,
-    "combined_sentiment": 0.2656,
-    "confidence": 0.7019,
+    "crypto_sentiment": 0.3048,
+    "global_sentiment": 0.4568,
+    "combined_sentiment": 0.35,
+    "confidence": 0.7907,
     "counts": {
-      "crypto": 69,
-      "global": 46
+      "crypto": 73,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 75202,
-      "btc_change_24h": 0.18,
-      "eth_price": 2312.95,
-      "eth_change_24h": 0.03,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 75289,
+      "btc_change_24h": -0.83,
+      "eth_price": 2313.16,
+      "eth_change_24h": -1.1,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166496396911.0,
+        "volume_24h": 161283038784.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.87,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-06T20:24:21.072969+00:00",
-      "crypto": 0.5099,
-      "global": 0.4519,
-      "combined": 0.5034,
-      "counts": {
-        "crypto": 50,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-04-06T20:47:45.044130+00:00",
       "crypto": 0.5187,
@@ -1008,66 +998,76 @@
         "crypto": 69,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-20T14:00:36.251628+00:00",
+      "crypto": 0.3048,
+      "global": 0.4568,
+      "combined": 0.35,
+      "counts": {
+        "crypto": 73,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Goldman’s Snider Says Narrow Earnings Strength Fuels Stock Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/goldman-s-snider-says-narrow-earnings-strength-fuels-stock-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.7384,
+        "title": "Bitcoin is rallying as flagship conference approaches, data shows the gains rarely last",
+        "url": "https://www.coindesk.com/markets/2026/04/18/bitcoin-is-rallying-as-flagship-conference-approaches-data-shows-the-gains-rarely-last",
+        "source": "CoinDesk",
+        "weight": 0.6594,
         "score": 0.8667
       },
       {
-        "title": "Strait Up — Heard on the Street Weekly Recap",
-        "url": "https://finance.yahoo.com/m/45a91e6d-dbc0-3ec7-ba38-9c8326856255/strait-up-%E2%80%94-heard-on-the.html?.tsrc=rss",
+        "title": "Airlines Face Massive Fare Surge: Analyst",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-20/airlines-face-massive-fare-surge-analyst-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7817,
+        "score": 0.6667
+      },
+      {
+        "title": "Oil Prices Jump As U.S. Seizes Ship, Iran Takes Harder Line; S&P 500 Futures Fall",
+        "url": "https://finance.yahoo.com/m/b5a5c0d4-0b24-3a29-8481-6b52438409cc/oil-prices-jump-as-u.s..html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6296,
-        "score": 1.0
-      },
-      {
-        "title": "Hedge Funds Turn Bullish on Cotton for First Time in Two Years",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/hedge-funds-turn-bullish-on-cotton-for-first-time-in-two-years",
-        "source": "Bloomberg Markets",
-        "weight": 0.5502,
-        "score": 0.8667
+        "weight": 0.7817,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "DeFi users pull $10 billion out of the market as $292 million exploit sparks bank-run optics",
-        "url": "https://cryptoslate.com/defi-users-pull-out-10-billion-from-market-as-292-million-exploit-sparks-bank-run-optics/",
-        "source": "CryptoSlate",
-        "weight": 0.5736,
+        "title": "Banks Rejected By Supreme Court in Muni Bond Price-Fixing Case",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/banks-rejected-by-supreme-court-in-muni-bond-price-fixing-case",
+        "source": "Bloomberg Markets",
+        "weight": 0.7589,
         "score": -1.0
       },
       {
-        "title": "William Hill Owner in Takeover Talks With Bally’s Intralot",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/william-hill-owner-evoke-in-takeover-talks-with-bally-s-intralot",
-        "source": "Bloomberg Markets",
-        "weight": 0.5714,
-        "score": -0.9333
+        "title": "Six years after “DeFi Summer” is the sun already setting on the decentralized finance revolution?",
+        "url": "https://cryptoslate.com/six-years-after-defi-summer-is-the-sun-already-setting-on-the-decentralized-finance-revolution/",
+        "source": "CryptoSlate",
+        "weight": 0.7291,
+        "score": -1.0
       },
       {
-        "title": "BofA’s Raedler Warns Equity Markets Too Optimistic Amid 20-Year Low Risk Premium",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/bofa-s-raedler-warns-equity-markets-too-optimistic-amid-20-year-low-risk-premium",
-        "source": "Bloomberg Markets",
-        "weight": 0.7574,
-        "score": -0.6667
+        "title": "Bitcoin drops from recent highs as traders watch CME gap, DeFi hack fallout",
+        "url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-drops-from-recent-highs-as-traders-watch-cme-gap-defi-hack-fallout",
+        "source": "CoinDesk",
+        "weight": 0.6945,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "MNT",
-          "volume_mcap_ratio": 0.8505629600458533,
-          "price_change_24h": -3.96409
+          "volume_mcap_ratio": 0.9637455216092966,
+          "price_change_24h": -5.25285
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38368590831468347,
-          "price_change_24h": -0.00658
+          "volume_mcap_ratio": 0.3672997159041193,
+          "price_change_24h": 0.01195
         }
       ],
       "momentum_shifts": []
