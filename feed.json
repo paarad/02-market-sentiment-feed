@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-20T03:37:55.780905+00:00",
+  "updated_at": "2026-04-20T06:22:08.904246+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.14,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 29,
-    "momentum": -0.4,
-    "regime": "bear",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2149,
-    "global_sentiment": 0.5684,
-    "combined_sentiment": 0.2919,
-    "confidence": 0.637,
+    "crypto_sentiment": 0.2,
+    "global_sentiment": 0.5189,
+    "combined_sentiment": 0.2562,
+    "confidence": 0.712,
     "counts": {
-      "crypto": 71,
-      "global": 42
+      "crypto": 72,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 74512,
-      "btc_change_24h": -1.44,
-      "eth_price": 2280.66,
-      "eth_change_24h": -2.65,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 74386,
+      "btc_change_24h": -1.37,
+      "eth_price": 2273.46,
+      "eth_change_24h": -2.45,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 192211683429.0,
+        "volume_24h": 168908099409.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.78,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-06T13:25:37.857135+00:00",
-      "crypto": 0.4872,
-      "global": 0.4708,
-      "combined": 0.488,
-      "counts": {
-        "crypto": 48,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-04-06T16:58:07.822513+00:00",
       "crypto": 0.5029,
@@ -1008,66 +998,76 @@
         "crypto": 71,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-20T06:22:08.904246+00:00",
+      "crypto": 0.2,
+      "global": 0.5189,
+      "combined": 0.2562,
+      "counts": {
+        "crypto": 72,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "World’s Most Expensive Broking Stock Faces Earnings Test After Doubling",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/world-s-most-expensive-broking-stock-faces-earnings-test-after-doubling",
-        "source": "Bloomberg Markets",
-        "weight": 0.6253,
-        "score": 0.8667
-      },
-      {
-        "title": "Hong Kong Exchange Tightens Rules to Avoid Auditor Shopping",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/hong-kong-exchange-tightens-rules-to-avoid-auditor-shopping",
-        "source": "Bloomberg Markets",
-        "weight": 0.6057,
-        "score": 0.5833
-      },
-      {
-        "title": "Korean Stocks Erase War Loss as Chipmakers Rise on AI Resurgence",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/korean-stocks-erase-war-loss-as-chipmakers-rise-on-ai-resurgence",
-        "source": "Bloomberg Markets",
-        "weight": 0.6521,
+        "title": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
+        "url": "https://www.cnbc.com/2026/04/19/oil-price-iran-war-strait-hormuz-tanker.html",
+        "source": "CNBC Markets",
+        "weight": 0.6551,
         "score": 0.5333
+      },
+      {
+        "title": "Iran War Deepens China’s Dependence on the US for Niche Gas",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/iran-war-deepens-china-s-dependence-on-the-us-for-niche-gas",
+        "source": "Bloomberg Markets",
+        "weight": 0.7106,
+        "score": 0.3333
+      },
+      {
+        "title": "Polymarket in talks to raise $400M at a $15B valuation: Report",
+        "url": "https://cointelegraph.com/news/polymarket-seeking-400-million-raise-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6939,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "China’s Government Urges ‘Every Effort’ to Curb Solar Capacity",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/china-s-government-urges-every-effort-to-curb-solar-capacity",
-        "source": "Bloomberg Markets",
-        "weight": 0.7211,
-        "score": -1.0
+        "title": "The quantum gap: Why Bitcoin and Ethereum are taking different paths on security",
+        "url": "https://cointelegraph.com/explained/bitcoin-and-ethereum-quantum-threat-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7634,
+        "score": -0.9667
       },
       {
-        "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
-        "url": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+        "title": "LayerZero blames Kelp's setup for $290 million exploit, attributes it to North Korea's Lazarus",
+        "url": "https://www.coindesk.com/tech/2026/04/20/layerzero-blames-kelp-s-setup-for-usd290-million-exploit-attributes-it-to-north-korea-s-lazarus",
         "source": "CoinDesk",
-        "weight": 0.8084,
-        "score": -0.7333
+        "weight": 0.8569,
+        "score": -0.8333
       },
       {
-        "title": "Indian Stocks’ Rally Faces Test as Oil Jumps on Renewed US-Iran Tensions",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-20/oil-s-surge-on-renewed-us-iran-tensions-poses-a-threat-to-nifty-s-two-week-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.7251,
-        "score": -0.6333
+        "title": "Hackers impersonated eth.limo team to hijack its domain: Post-mortem",
+        "url": "https://cointelegraph.com/news/eth-limo-domain-hijack-dnssec-social-engineering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6798,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "MNT",
-          "volume_mcap_ratio": 0.6686545663636442,
-          "price_change_24h": -4.94097
+          "volume_mcap_ratio": 0.7315817896111982,
+          "price_change_24h": -6.44062
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4566114274183447,
-          "price_change_24h": -0.00361
+          "volume_mcap_ratio": 0.39375983164810596,
+          "price_change_24h": -0.01323
         }
       ],
       "momentum_shifts": []
