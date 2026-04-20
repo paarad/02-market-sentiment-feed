@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-20T06:22:08.904246+00:00",
+  "updated_at": "2026-04-20T10:04:36.445846+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -12,18 +12,18 @@
   },
   "summary": {
     "crypto_sentiment": 0.2,
-    "global_sentiment": 0.5189,
-    "combined_sentiment": 0.2562,
-    "confidence": 0.712,
+    "global_sentiment": 0.5263,
+    "combined_sentiment": 0.2656,
+    "confidence": 0.7019,
     "counts": {
-      "crypto": 72,
-      "global": 40
+      "crypto": 69,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 74386,
-      "btc_change_24h": -1.37,
-      "eth_price": 2273.46,
-      "eth_change_24h": -2.45,
+      "btc_price": 75202,
+      "btc_change_24h": 0.18,
+      "eth_price": 2312.95,
+      "eth_change_24h": 0.03,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168908099409.0,
+        "volume_24h": 166496396911.0,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-06T16:58:07.822513+00:00",
-      "crypto": 0.5029,
-      "global": 0.487,
-      "combined": 0.5011,
-      "counts": {
-        "crypto": 50,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-04-06T20:24:21.072969+00:00",
       "crypto": 0.5099,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-20T10:04:36.445846+00:00",
+      "crypto": 0.2,
+      "global": 0.5263,
+      "combined": 0.2656,
+      "counts": {
+        "crypto": 69,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-        "url": "https://www.cnbc.com/2026/04/19/oil-price-iran-war-strait-hormuz-tanker.html",
-        "source": "CNBC Markets",
-        "weight": 0.6551,
-        "score": 0.5333
-      },
-      {
-        "title": "Iran War Deepens China’s Dependence on the US for Niche Gas",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/iran-war-deepens-china-s-dependence-on-the-us-for-niche-gas",
+        "title": "Goldman’s Snider Says Narrow Earnings Strength Fuels Stock Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/goldman-s-snider-says-narrow-earnings-strength-fuels-stock-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.7106,
-        "score": 0.3333
+        "weight": 0.7384,
+        "score": 0.8667
       },
       {
-        "title": "Polymarket in talks to raise $400M at a $15B valuation: Report",
-        "url": "https://cointelegraph.com/news/polymarket-seeking-400-million-raise-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6939,
-        "score": 0.3333
+        "title": "Strait Up — Heard on the Street Weekly Recap",
+        "url": "https://finance.yahoo.com/m/45a91e6d-dbc0-3ec7-ba38-9c8326856255/strait-up-%E2%80%94-heard-on-the.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6296,
+        "score": 1.0
+      },
+      {
+        "title": "Hedge Funds Turn Bullish on Cotton for First Time in Two Years",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/hedge-funds-turn-bullish-on-cotton-for-first-time-in-two-years",
+        "source": "Bloomberg Markets",
+        "weight": 0.5502,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "The quantum gap: Why Bitcoin and Ethereum are taking different paths on security",
-        "url": "https://cointelegraph.com/explained/bitcoin-and-ethereum-quantum-threat-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7634,
-        "score": -0.9667
-      },
-      {
-        "title": "LayerZero blames Kelp's setup for $290 million exploit, attributes it to North Korea's Lazarus",
-        "url": "https://www.coindesk.com/tech/2026/04/20/layerzero-blames-kelp-s-setup-for-usd290-million-exploit-attributes-it-to-north-korea-s-lazarus",
-        "source": "CoinDesk",
-        "weight": 0.8569,
-        "score": -0.8333
-      },
-      {
-        "title": "Hackers impersonated eth.limo team to hijack its domain: Post-mortem",
-        "url": "https://cointelegraph.com/news/eth-limo-domain-hijack-dnssec-social-engineering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6798,
+        "title": "DeFi users pull $10 billion out of the market as $292 million exploit sparks bank-run optics",
+        "url": "https://cryptoslate.com/defi-users-pull-out-10-billion-from-market-as-292-million-exploit-sparks-bank-run-optics/",
+        "source": "CryptoSlate",
+        "weight": 0.5736,
         "score": -1.0
+      },
+      {
+        "title": "William Hill Owner in Takeover Talks With Bally’s Intralot",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/william-hill-owner-evoke-in-takeover-talks-with-bally-s-intralot",
+        "source": "Bloomberg Markets",
+        "weight": 0.5714,
+        "score": -0.9333
+      },
+      {
+        "title": "BofA’s Raedler Warns Equity Markets Too Optimistic Amid 20-Year Low Risk Premium",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/bofa-s-raedler-warns-equity-markets-too-optimistic-amid-20-year-low-risk-premium",
+        "source": "Bloomberg Markets",
+        "weight": 0.7574,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "MNT",
-          "volume_mcap_ratio": 0.7315817896111982,
-          "price_change_24h": -6.44062
+          "volume_mcap_ratio": 0.8505629600458533,
+          "price_change_24h": -3.96409
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39375983164810596,
-          "price_change_24h": -0.01323
+          "volume_mcap_ratio": 0.38368590831468347,
+          "price_change_24h": -0.00658
         }
       ],
       "momentum_shifts": []
