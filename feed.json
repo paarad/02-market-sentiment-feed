@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-21T06:07:35.801718+00:00",
+  "updated_at": "2026-04-21T09:45:45.208900+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.073,
+    "change24h": 0.036,
+    "vol": 0.195,
     "fearGreed": 33,
-    "momentum": 0.447,
+    "momentum": 0.626,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4242,
-    "global_sentiment": 0.5689,
-    "combined_sentiment": 0.4489,
-    "confidence": 0.7329,
+    "crypto_sentiment": 0.3301,
+    "global_sentiment": 0.3677,
+    "combined_sentiment": 0.3616,
+    "confidence": 0.776,
     "counts": {
-      "crypto": 73,
-      "global": 43
+      "crypto": 75,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 75786,
-      "btc_change_24h": 1.9,
-      "eth_price": 2312.16,
-      "eth_change_24h": 1.65,
+      "btc_price": 76304,
+      "btc_change_24h": 1.48,
+      "eth_price": 2324.59,
+      "eth_change_24h": 0.52,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172452903323.0,
+        "volume_24h": 165774532286.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.96,
+        "btc_dominance": 59.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-07T17:09:47.297120+00:00",
-      "crypto": 0.3148,
-      "global": 0.3928,
-      "combined": 0.3522,
-      "counts": {
-        "crypto": 53,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-04-07T20:27:35.953029+00:00",
       "crypto": 0.3058,
@@ -1008,66 +998,76 @@
         "crypto": 73,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-04-21T09:45:45.208900+00:00",
+      "crypto": 0.3301,
+      "global": 0.3677,
+      "combined": 0.3616,
+      "counts": {
+        "crypto": 75,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Indian Debt Funds Cut Hedges as Oil Risks Inflate Rate-Hike Bets",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-21/indian-debt-funds-cut-hedges-as-oil-risks-inflate-rate-hike-bets",
-        "source": "Bloomberg Markets",
-        "weight": 0.7073,
-        "score": 1.0
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
         "title": "Bitcoin reclaims $75,000 as Iran ceasefire talks advance, equities rally resumes",
         "url": "https://www.coindesk.com/markets/2026/04/21/bitcoin-reclaims-usd75-000-as-iran-ceasefire-talks-advance-equities-rally-resumes",
         "source": "CoinDesk",
-        "weight": 0.9592,
+        "weight": 0.6302,
         "score": 0.5333
       },
       {
-        "title": "Global crypto market cap up 1.2% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Gunvor CEO Pedersen Says Törnqvist Loan Isn’t Barrier To Growth",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-21/gunvor-ceo-pedersen-says-tornqvist-loan-isn-t-barrier-to-growth",
+        "source": "Bloomberg Markets",
+        "weight": 0.7315,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Aave risk manager models 2 bad debt scenarios from Kelp DAO exploit",
-        "url": "https://cointelegraph.com/news/aave-s-risk-manager-shares-2-scenarios-to-allocate-losses-from-kelp-dao-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6037,
+        "title": "KelpDAO hackers are laundering millions in stolen crypto, data show",
+        "url": "https://www.coindesk.com/business/2026/04/21/data-shows-the-kelpdao-hackers-are-already-laundering-millions-in-stolen-crypto",
+        "source": "CoinDesk",
+        "weight": 0.9383,
+        "score": -0.7333
+      },
+      {
+        "title": "Arbitrum freezes $71 million in ether tied to Kelp DAO exploit",
+        "url": "https://www.coindesk.com/markets/2026/04/21/arbitrum-freezes-usd71-million-in-ether-tied-to-kelp-dao-exploit",
+        "source": "CoinDesk",
+        "weight": 0.6422,
         "score": -1.0
       },
       {
-        "title": "Pakistan’s Bid to Mediate US‑Iran Talks Amid Uncertainty",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-21/pakistan-s-bid-to-mediate-us-iran-talks-amid-uncertainty-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7544,
-        "score": -0.6333
-      },
-      {
-        "title": "What to Expect From Apple's Incoming CEO John Ternus | The China Show 4/21/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-21/the-china-show-4-21-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7163,
-        "score": -0.6333
+        "title": "JPMorgan expands $1.5 trillion economic security splurge into Europe",
+        "url": "https://www.cnbc.com/2026/04/21/jpmorgan-chase-security-defense-spending-ai-europe-uk-dimon.html",
+        "source": "CNBC Markets",
+        "weight": 0.6391,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "MNT",
-          "volume_mcap_ratio": 0.6603083802562433,
-          "price_change_24h": 3.63551
+          "volume_mcap_ratio": 0.5522802212394438,
+          "price_change_24h": 2.87893
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.375458213953009,
-          "price_change_24h": 0.00911
+          "volume_mcap_ratio": 0.3630516464523567,
+          "price_change_24h": -0.00645
         }
       ],
       "momentum_shifts": []
