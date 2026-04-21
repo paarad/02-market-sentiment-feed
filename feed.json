@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-20T20:56:51.908840+00:00",
+  "updated_at": "2026-04-21T03:30:32.371578+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.087,
-    "fearGreed": 29,
-    "momentum": 0.474,
+    "change24h": 0.02,
+    "vol": 0.078,
+    "fearGreed": 33,
+    "momentum": 0.355,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3847,
-    "global_sentiment": 0.594,
-    "combined_sentiment": 0.4214,
-    "confidence": 0.7845,
+    "crypto_sentiment": 0.367,
+    "global_sentiment": 0.6501,
+    "combined_sentiment": 0.4127,
+    "confidence": 0.693,
     "counts": {
-      "crypto": 72,
-      "global": 42
+      "crypto": 71,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 76303,
-      "btc_change_24h": 2.16,
-      "eth_price": 2336.43,
-      "eth_change_24h": 2.36,
+      "btc_price": 75648,
+      "btc_change_24h": 1.47,
+      "eth_price": 2306.75,
+      "eth_change_24h": 1.1,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 29,
+        "value": 33,
         "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 185697355392.0,
+        "volume_24h": 172332033813.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.06,
+        "btc_dominance": 58.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-07T09:13:05.508375+00:00",
-      "crypto": 0.4076,
-      "global": 0.5503,
-      "combined": 0.4349,
-      "counts": {
-        "crypto": 50,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-04-07T13:47:24.197184+00:00",
       "crypto": 0.3377,
@@ -1008,52 +998,62 @@
         "crypto": 72,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-21T03:30:32.371578+00:00",
+      "crypto": 0.367,
+      "global": 0.6501,
+      "combined": 0.4127,
+      "counts": {
+        "crypto": 71,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Monday 4/20/2026",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201750026.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7421,
-        "score": 1.0
-      },
-      {
-        "title": "3 Services Stocks We Find Risky",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-services-stocks-risky-194132005.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.692,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market’s Rally to Record High Masks Weak Building Blocks",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/stock-market-s-rally-to-record-high-masks-weak-building-blocks",
+        "title": "Chinese Copper Output Hits Record on Tailwind From Sulfuric Acid",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-21/chinese-copper-output-hits-record-on-tailwind-from-sulfuric-acid",
         "source": "Bloomberg Markets",
-        "weight": 0.731,
+        "weight": 0.7371,
+        "score": 0.6667
+      },
+      {
+        "title": "AI Boom Propels Kospi to Record as Tech Giants Defy War Jitters",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-21/south-korean-shares-refresh-record-as-ai-optimism-extends",
+        "source": "Bloomberg Markets",
+        "weight": 0.5487,
         "score": 0.8667
+      },
+      {
+        "title": "Victory Giant Surges in Debut After Biggest Hong Kong Listing This Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-20/nvidia-supplier-victory-giant-set-for-debut-after-biggest-hk-listing-this-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.4752,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin bounces above $76,000 as DeFi suffers $14 billion exodus after KelpDAO hack",
-        "url": "https://www.coindesk.com/markets/2026/04/20/bitcoin-bounces-above-usd76-000-as-defi-suffers-usd14-billion-exodus-after-kelpdao-hack",
+        "title": "Aave could face up to $230 million in losses after Kelp DAO bridge exploit triggers DeFi chaos",
+        "url": "https://www.coindesk.com/tech/2026/04/20/aave-could-face-up-to-usd230-million-in-losses-after-kelp-dao-bridge-exploit-triggers-defi-chaos",
         "source": "CoinDesk",
-        "weight": 0.9933,
-        "score": -0.7333
-      },
-      {
-        "title": "BofA Says Buy US Treasuries That Have Lagged Broader Iran Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-20/bofa-says-buy-us-treasuries-that-have-lagged-broader-iran-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.5573,
+        "weight": 0.4748,
         "score": -1.0
       },
       {
-        "title": "Is VRIG Worth a Look? Auour Investments Thinks So, Initiating a $7.4 Million Stake",
-        "url": "https://www.fool.com/coverage/filings/2026/04/20/is-vrig-worth-a-look-auour-investments-thinks-so-initiating-a-usd7-4-million-stake/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7142,
+        "title": "Fear & Greed 33 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Labor Secretary Lori Chavez-DeRemer leaves Trump cabinet, Keith Sonderling takes over",
+        "url": "https://www.cnbc.com/2026/04/20/labor-secretary-lori-chavez-deremer-resignation-keith-sonderling.html",
+        "source": "CNBC Markets",
+        "weight": 0.5564,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "MNT",
-          "volume_mcap_ratio": 0.8002143013765813,
-          "price_change_24h": -1.11197
+          "volume_mcap_ratio": 0.6673555760857021,
+          "price_change_24h": 2.11861
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41003596280551313,
-          "price_change_24h": 0.00356
+          "volume_mcap_ratio": 0.3728440153050072,
+          "price_change_24h": 0.00478
         }
       ],
       "momentum_shifts": []
