@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-22T06:04:50.721208+00:00",
+  "updated_at": "2026-04-22T09:43:05.363994+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.163,
+    "change24h": 0.034,
+    "vol": 0.124,
     "fearGreed": 32,
-    "momentum": 0.61,
+    "momentum": 0.6,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4159,
-    "global_sentiment": 0.5431,
-    "combined_sentiment": 0.4405,
-    "confidence": 0.7401,
+    "crypto_sentiment": 0.4793,
+    "global_sentiment": 0.4622,
+    "combined_sentiment": 0.4813,
+    "confidence": 0.7446,
     "counts": {
-      "crypto": 62,
-      "global": 39
+      "crypto": 64,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 77964,
-      "btc_change_24h": 2.88,
-      "eth_price": 2393.17,
-      "eth_change_24h": 3.5,
+      "btc_price": 78163,
+      "btc_change_24h": 2.44,
+      "eth_price": 2392.96,
+      "eth_change_24h": 2.94,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 32,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 181672459977.0,
+        "volume_24h": 179709057470.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.25,
+        "btc_dominance": 59.3,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-08T17:13:08.738551+00:00",
-      "crypto": 0.5138,
-      "global": 0.5594,
-      "combined": 0.5153,
-      "counts": {
-        "crypto": 51,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-04-08T20:25:18.568410+00:00",
       "crypto": 0.4921,
@@ -1008,61 +998,71 @@
         "crypto": 62,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-04-22T09:43:05.363994+00:00",
+      "crypto": 0.4793,
+      "global": 0.4622,
+      "combined": 0.4813,
+      "counts": {
+        "crypto": 64,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin price surges to $78k even as oil rises again creating new setup – what you need to know",
+        "url": "https://cryptoslate.com/bitcoin-price-surges-to-78k-even-as-oil-rises-again-creating-new-setup-what-you-need-to-know/",
+        "source": "CryptoSlate",
+        "weight": 0.6843,
+        "score": 1.0
+      },
+      {
+        "title": "Bitcoin's 'Coinbase premium' just posted its longest bullish streak since October's record high of $126,000",
+        "url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-s-coinbase-premium-just-posted-its-longest-bullish-streak-since-october-s-record-high-of-usd126-000",
+        "source": "CoinDesk",
+        "weight": 0.6818,
+        "score": 0.8667
+      },
+      {
         "title": "Why Is The Crypto Market Up Today?",
         "url": "https://beincrypto.com/why-is-the-crypto-market-up-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.682,
+        "weight": 0.448,
         "score": 1.0
-      },
-      {
-        "title": "Traders Push Korea Leveraged Bets to Record as Chip Stocks Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-22/traders-push-korea-leveraged-bets-to-record-as-chip-stocks-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.5778,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 2.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Justin Sun sues World Liberty Financial over token lockup",
-        "url": "https://cointelegraph.com/news/justin-sun-sues-world-liberty-financial-token-freeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6657,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 32 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Chinese Regulator Promotes Floating-Rate Bonds to Manage Risks",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-22/chinese-regulator-promotes-floating-rate-bonds-to-manage-risks",
+        "title": "China Wind Turbine Maker Eyes Spain for Factory After UK Snub",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-22/china-wind-turbine-maker-eyes-spain-for-factory-after-uk-snub",
         "source": "Bloomberg Markets",
-        "weight": 0.6096,
-        "score": -0.6667
+        "weight": 0.6926,
+        "score": -0.9667
+      },
+      {
+        "title": "Another DeFi protocol loses millions in hack days after KelpDAO breach",
+        "url": "https://www.coindesk.com/markets/2026/04/22/another-defi-protocol-loses-millions-in-hack-days-after-kelpdao-breach",
+        "source": "CoinDesk",
+        "weight": 0.7978,
+        "score": -0.7333
+      },
+      {
+        "title": "Privacy protocol Umbra shuts front end to stifle Kelp exploiters",
+        "url": "https://cointelegraph.com/news/privacy-protocol-umbra-shuts-front-end-in-attempt-to-stifle-kelp-exploiters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5321,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40341313283369995,
-          "price_change_24h": -0.03085
+          "volume_mcap_ratio": 0.40098059492230764,
+          "price_change_24h": -0.00701
         }
       ],
       "momentum_shifts": []
