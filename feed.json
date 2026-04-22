@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-22T03:28:35.624120+00:00",
+  "updated_at": "2026-04-22T06:04:50.721208+00:00",
   "indicators": {
-    "change24h": 0.031,
-    "vol": 0.159,
+    "change24h": 0.035,
+    "vol": 0.163,
     "fearGreed": 32,
-    "momentum": 0.54,
+    "momentum": 0.61,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3414,
-    "global_sentiment": 0.4995,
-    "combined_sentiment": 0.381,
-    "confidence": 0.7394,
+    "crypto_sentiment": 0.4159,
+    "global_sentiment": 0.5431,
+    "combined_sentiment": 0.4405,
+    "confidence": 0.7401,
     "counts": {
       "crypto": 62,
       "global": 39
     },
     "market_indicators": {
-      "btc_price": 77529,
-      "btc_change_24h": 2.49,
-      "eth_price": 2365.97,
-      "eth_change_24h": 2.57,
+      "btc_price": 77964,
+      "btc_change_24h": 2.88,
+      "eth_price": 2393.17,
+      "eth_change_24h": 3.5,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 32,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165297800806.0,
+        "volume_24h": 181672459977.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.24,
+        "btc_dominance": 59.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-08T13:49:37.593783+00:00",
-      "crypto": 0.4905,
-      "global": 0.5578,
-      "combined": 0.4977,
-      "counts": {
-        "crypto": 53,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-04-08T17:13:08.738551+00:00",
       "crypto": 0.5138,
@@ -1008,61 +998,71 @@
         "crypto": 62,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-04-22T06:04:50.721208+00:00",
+      "crypto": 0.4159,
+      "global": 0.5431,
+      "combined": 0.4405,
+      "counts": {
+        "crypto": 62,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Japan's Nikkei 225 rises to record high as Trump extends Iran ceasefire",
-        "url": "https://www.cnbc.com/2026/04/22/asia-pacific-markets-today-live-updates-nikkei-225-kospi-hang-seng-index.html",
-        "source": "CNBC Markets",
-        "weight": 0.7206,
-        "score": 0.6667
+        "title": "Why Is The Crypto Market Up Today?",
+        "url": "https://beincrypto.com/why-is-the-crypto-market-up-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.682,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 1.8% — rally",
+        "title": "Traders Push Korea Leveraged Bets to Record as Chip Stocks Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-22/traders-push-korea-leveraged-bets-to-record-as-chip-stocks-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.5778,
+        "score": 1.0
+      },
+      {
+        "title": "Global crypto market cap up 2.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "China’s ‘National Team’ Cut ETF Stakes Below 20% Disclosure Mark",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-22/china-s-national-team-retreats-as-key-etf-holder-after-selling",
-        "source": "Bloomberg Markets",
-        "weight": 0.7133,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "IBKR Q1 2026 Earnings Transcript",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/04/21/ibkr-q1-2026-earnings-transcript/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7042,
+        "title": "Justin Sun sues World Liberty Financial over token lockup",
+        "url": "https://cointelegraph.com/news/justin-sun-sues-world-liberty-financial-token-freeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6657,
+        "score": -1.0
+      },
+      {
+        "title": "Fear & Greed 32 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Chinese Regulator Promotes Floating-Rate Bonds to Manage Risks",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-22/chinese-regulator-promotes-floating-rate-bonds-to-manage-risks",
+        "source": "Bloomberg Markets",
+        "weight": 0.6096,
         "score": -0.6667
-      },
-      {
-        "title": "Judge dismisses Kash Patel's defamation lawsuit over claim he frequented 'nightclubs'",
-        "url": "https://www.cnbc.com/2026/04/21/kash-patel-fbi-defamation-lawsuit-figliuzzi-dismissed.html",
-        "source": "CNBC Markets",
-        "weight": 0.6372,
-        "score": -0.7333
-      },
-      {
-        "title": "Anthropic's Claude Mythos AI Finds 271 Vulnerabilities in Firefox—Yes, It's Seriously Powerful",
-        "url": "https://decrypt.co/365099/anthropic-claude-mythos-ai-271-vulnerabilities-firefox-seriously-powerful",
-        "source": "Decrypt",
-        "weight": 0.726,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36791746439564604,
-          "price_change_24h": -0.01269
+          "volume_mcap_ratio": 0.40341313283369995,
+          "price_change_24h": -0.03085
         }
       ],
       "momentum_shifts": []
