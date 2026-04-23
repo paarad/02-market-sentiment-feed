@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-22T21:03:05.422304+00:00",
+  "updated_at": "2026-04-23T03:32:01.449930+00:00",
   "indicators": {
-    "change24h": 0.021,
-    "vol": 0.116,
-    "fearGreed": 32,
-    "momentum": 0.373,
+    "change24h": -0.013,
+    "vol": 0.144,
+    "fearGreed": 46,
+    "momentum": -0.232,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.421,
-    "global_sentiment": 0.4878,
-    "combined_sentiment": 0.4397,
-    "confidence": 0.8152,
+    "crypto_sentiment": 0.4604,
+    "global_sentiment": 0.4942,
+    "combined_sentiment": 0.4698,
+    "confidence": 0.749,
     "counts": {
-      "crypto": 72,
-      "global": 40
+      "crypto": 69,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 78486,
-      "btc_change_24h": 3.67,
-      "eth_price": 2393.94,
-      "eth_change_24h": 3.37,
+      "btc_price": 77657,
+      "btc_change_24h": 0.27,
+      "eth_price": 2337.18,
+      "eth_change_24h": -0.98,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 32,
+        "value": 46,
         "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187295658790.0,
+        "volume_24h": 184772991880.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.49,
+        "btc_dominance": 59.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-09T09:18:33.597313+00:00",
-      "crypto": 0.4033,
-      "global": 0.5276,
-      "combined": 0.4298,
-      "counts": {
-        "crypto": 51,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-04-09T14:03:54.127498+00:00",
       "crypto": 0.3526,
@@ -1008,66 +998,76 @@
         "crypto": 72,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-23T03:32:01.449930+00:00",
+      "crypto": 0.4604,
+      "global": 0.4942,
+      "combined": 0.4698,
+      "counts": {
+        "crypto": 69,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Wednesday 4/22/2026",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202837350.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7486,
+        "title": "SK Hynix posts record first-quarter profit, in line with estimates as memory prices climb",
+        "url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html",
+        "source": "CNBC Markets",
+        "weight": 0.7321,
         "score": 1.0
       },
       {
-        "title": "Alphabet Inc. (GOOGL)’s Google Partners with Cadence to Advance Chip Development",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/alphabet-inc-googl-google-partners-205249439.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7843,
-        "score": 0.5833
+        "title": "Bitcoin chases monthly high above $80K as nearly all BTC price metrics turn bullish",
+        "url": "https://cointelegraph.com/news/bitcoin-chases-monthly-high-above-dollar80k-as-nearly-all-btc-price-metrics-turn-bullish?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6024,
+        "score": 1.0
       },
       {
-        "title": "Bitcoin only 21 days away from real bull market rally? Shorts pile in just as spot demand starts pushing back",
-        "url": "https://cryptoslate.com/bitcoin-21-days-true-bull-market-rally-shorts-pile-in-just-spot-demand-pushing-back/",
-        "source": "CryptoSlate",
-        "weight": 0.4981,
-        "score": 0.8667
+        "title": "Four reasons why the crypto market is rallying today: Will bulls maintain control?",
+        "url": "https://cointelegraph.com/news/four-reasons-why-the-crypto-market-is-rallying-today-will-bulls-maintain-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5635,
+        "score": 0.9
       }
     ],
     "negative": [
       {
-        "title": "Head of Bolivian State Oil Company Quits After Less Than a Month",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-22/head-of-bolivian-state-oil-company-ypfb-quits-after-less-than-a-month",
+        "title": "SoftBank Seeks $10 Billion Loan Backed by OpenAI Shares",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-23/softbank-seeks-10-billion-loan-backed-by-openai-shares-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7105,
-        "score": -0.9333
+        "weight": 0.7599,
+        "score": -0.9667
       },
       {
-        "title": "Justin Sun Alleges Trump's World Liberty Threatened to Burn His WLFI Tokens",
-        "url": "https://decrypt.co/365141/justin-sun-alleges-trump-world-liberty-threatened-burn-wlfi-tokens",
-        "source": "Decrypt",
-        "weight": 0.5933,
+        "title": "Tokyo Condo Prices Fall Two Months in Row in Sign Boom May Fade",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-23/tokyo-condo-prices-fall-two-months-in-row-in-sign-boom-may-fade",
+        "source": "Bloomberg Markets",
+        "weight": 0.6722,
+        "score": -0.9667
+      },
+      {
+        "title": "Gold Falls as US-Iran Maritime Standoff Heightens Inflation Risk",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-22/gold-steadies-as-hormuz-standoff-keeps-inflation-risk-high",
+        "source": "Bloomberg Markets",
+        "weight": 0.4563,
         "score": -1.0
-      },
-      {
-        "title": "Broadcom Inc. (AVGO) Extends AI Reach with VMware Tanzu Platform for Enterprise AI",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/broadcom-inc-avgo-extends-ai-205406222.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7863,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4205394809189228,
-          "price_change_24h": -0.00508
+          "volume_mcap_ratio": 0.41760070102761293,
+          "price_change_24h": 0.00518
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3914208678362585,
-          "price_change_24h": -0.00057
+          "volume_mcap_ratio": 0.3304223222336794,
+          "price_change_24h": 0.01121
         }
       ],
       "momentum_shifts": []
