@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-23T20:39:37.417983+00:00",
+  "updated_at": "2026-04-23T20:59:31.988971+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.071,
+    "change24h": -0.012,
+    "vol": 0.066,
     "fearGreed": 46,
-    "momentum": -0.26,
+    "momentum": -0.214,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4454,
-    "global_sentiment": 0.4581,
-    "combined_sentiment": 0.4556,
-    "confidence": 0.8037,
+    "crypto_sentiment": 0.416,
+    "global_sentiment": 0.4582,
+    "combined_sentiment": 0.4335,
+    "confidence": 0.8053,
     "counts": {
       "crypto": 57,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 77889,
-      "btc_change_24h": -0.83,
-      "eth_price": 2322.61,
-      "eth_change_24h": -3.04,
+      "btc_price": 77885,
+      "btc_change_24h": -0.72,
+      "eth_price": 2323.53,
+      "eth_change_24h": -2.87,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168477857344.0,
-        "high_activity_coins": 2
+        "volume_24h": 167544827813.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.57,
+        "btc_dominance": 59.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-10T06:02:34.328581+00:00",
-      "crypto": 0.5364,
-      "global": 0.5195,
-      "combined": 0.529,
-      "counts": {
-        "crypto": 68,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-04-10T09:18:31.320476+00:00",
       "crypto": 0.5072,
@@ -1008,6 +998,16 @@
         "crypto": 57,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-23T20:59:31.988971+00:00",
+      "crypto": 0.416,
+      "global": 0.4582,
+      "combined": 0.4335,
+      "counts": {
+        "crypto": 57,
+        "global": 46
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "These 3 Ethereum metrics favor an ETH price rally to $6K",
         "url": "https://cointelegraph.com/markets/these-3-ethereum-metrics-favor-eth-price-rally-to-6k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6062,
+        "weight": 0.5834,
         "score": 1.0
       },
       {
         "title": "Figure shares sink 9% as $1B lending milestone meets market volatility",
         "url": "https://cointelegraph.com/news/figure-shares-sink-9-as-1b-lending-milestone-meets-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5716,
+        "weight": 0.5501,
         "score": 1.0
       },
       {
         "title": "Dyne Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
         "url": "https://finance.yahoo.com/sectors/healthcare/articles/dyne-therapeutics-reports-inducement-grants-200500144.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7484,
+        "weight": 0.7203,
         "score": 0.6333
       }
     ],
     "negative": [
       {
+        "title": "Aave rallies DeFi partners to contain fallout from $292 million KelpDAO hack",
+        "url": "https://www.coindesk.com/business/2026/04/23/aave-rallies-defi-partners-to-contain-fallout-from-usd292-million-kelpdao-hack",
+        "source": "CoinDesk",
+        "weight": 0.9866,
+        "score": -1.0
+      },
+      {
         "title": "Jane Street Seeks Dismissal of Terraform Insider-Trading Suit",
         "url": "https://www.bloomberg.com/news/articles/2026-04-23/jane-street-seeks-dismissal-of-terraform-insider-trading-suit",
         "source": "Bloomberg Markets",
-        "weight": 0.7133,
+        "weight": 0.6865,
         "score": -1.0
       },
       {
         "title": "Trump administration moves to reclassify cannabis in major shift that could expand research",
         "url": "https://www.cnbc.com/2026/04/23/trump-administration-reclassifies-cannabis.html",
         "source": "CNBC Markets",
-        "weight": 0.738,
-        "score": -0.9333
-      },
-      {
-        "title": "Regeneron inks drug pricing deal with Trump, will offer new hearing-loss therapy for free",
-        "url": "https://www.cnbc.com/2026/04/23/regeneron-inks-drug-pricing-deal-with-trump-will-offer-hearing-loss-therapy-for-free.html",
-        "source": "CNBC Markets",
-        "weight": 0.7233,
+        "weight": 0.7103,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3869236007131841,
-          "price_change_24h": 9e-05
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3062847848386567,
-          "price_change_24h": -0.00275
+          "volume_mcap_ratio": 0.38719280629439357,
+          "price_change_24h": -0.00734
         }
       ],
       "momentum_shifts": []
