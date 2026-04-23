@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-23T17:26:48.809383+00:00",
+  "updated_at": "2026-04-23T20:39:37.417983+00:00",
   "indicators": {
-    "change24h": -0.021,
-    "vol": 0.081,
+    "change24h": -0.015,
+    "vol": 0.071,
     "fearGreed": 46,
-    "momentum": -0.36,
-    "regime": "bear",
+    "momentum": -0.26,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3502,
-    "global_sentiment": 0.4373,
-    "combined_sentiment": 0.3824,
-    "confidence": 0.8028,
+    "crypto_sentiment": 0.4454,
+    "global_sentiment": 0.4581,
+    "combined_sentiment": 0.4556,
+    "confidence": 0.8037,
     "counts": {
       "crypto": 57,
-      "global": 38
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 77677,
-      "btc_change_24h": -1.54,
-      "eth_price": 2311.75,
-      "eth_change_24h": -3.44,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 77889,
+      "btc_change_24h": -0.83,
+      "eth_price": 2322.61,
+      "eth_change_24h": -3.04,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160774603777.0,
-        "high_activity_coins": 1
+        "volume_24h": 168477857344.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.56,
+        "btc_dominance": 59.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-10T03:27:56.408316+00:00",
-      "crypto": 0.4504,
-      "global": 0.4989,
-      "combined": 0.4627,
-      "counts": {
-        "crypto": 68,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-04-10T06:02:34.328581+00:00",
       "crypto": 0.5364,
@@ -1008,61 +998,76 @@
         "crypto": 57,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-23T20:39:37.417983+00:00",
+      "crypto": 0.4454,
+      "global": 0.4581,
+      "combined": 0.4556,
+      "counts": {
+        "crypto": 57,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "U.S.-Iran war evolves into naval standoff over Strait of Hormuz after both countries seize ships",
-        "url": "https://www.cnbc.com/2026/04/23/iran-war-strait-hormuz-tanker-traffic-oil.html",
-        "source": "CNBC Markets",
-        "weight": 0.784,
-        "score": 0.6667
+        "title": "These 3 Ethereum metrics favor an ETH price rally to $6K",
+        "url": "https://cointelegraph.com/markets/these-3-ethereum-metrics-favor-eth-price-rally-to-6k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6062,
+        "score": 1.0
       },
       {
-        "title": "Why EV Demand Is Stronger Than It Looks",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-23/why-ev-demand-stronger-than-it-looks-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5784,
-        "score": 0.8667
+        "title": "Figure shares sink 9% as $1B lending milestone meets market volatility",
+        "url": "https://cointelegraph.com/news/figure-shares-sink-9-as-1b-lending-milestone-meets-market-volatility?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5716,
+        "score": 1.0
       },
       {
-        "title": "Rogers’ Spending Cut Plan Prompts Two Analysts to Boost Ratings",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-23/rogers-spending-cut-plan-prompts-two-analysts-to-boost-ratings",
-        "source": "Bloomberg Markets",
-        "weight": 0.6752,
-        "score": 0.6667
+        "title": "Dyne Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/dyne-therapeutics-reports-inducement-grants-200500144.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7484,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "3 Reasons to Sell RGR and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-rgr-1-170923117.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7736,
-        "score": -0.9333
-      },
-      {
-        "title": "Founder of Solana Token Launchpad Believe Arrested on Assault, Strangulation Charges",
-        "url": "https://decrypt.co/365292/founder-solana-token-launchpad-believe-arrested",
-        "source": "Decrypt",
-        "weight": 0.6987,
+        "title": "Jane Street Seeks Dismissal of Terraform Insider-Trading Suit",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-23/jane-street-seeks-dismissal-of-terraform-insider-trading-suit",
+        "source": "Bloomberg Markets",
+        "weight": 0.7133,
         "score": -1.0
       },
       {
-        "title": "These Stocks Are Today’s Movers: Tesla, IBM, Oklo, ServiceNow, United Rentals, and More",
-        "url": "https://finance.yahoo.com/m/cd80125f-b7e1-38af-b110-5ed88170123d/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7089,
-        "score": -0.9667
+        "title": "Trump administration moves to reclassify cannabis in major shift that could expand research",
+        "url": "https://www.cnbc.com/2026/04/23/trump-administration-reclassifies-cannabis.html",
+        "source": "CNBC Markets",
+        "weight": 0.738,
+        "score": -0.9333
+      },
+      {
+        "title": "Regeneron inks drug pricing deal with Trump, will offer new hearing-loss therapy for free",
+        "url": "https://www.cnbc.com/2026/04/23/regeneron-inks-drug-pricing-deal-with-trump-will-offer-hearing-loss-therapy-for-free.html",
+        "source": "CNBC Markets",
+        "weight": 0.7233,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36892186066084376,
-          "price_change_24h": 0.01773
+          "volume_mcap_ratio": 0.3869236007131841,
+          "price_change_24h": 9e-05
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3062847848386567,
+          "price_change_24h": -0.00275
         }
       ],
       "momentum_shifts": []
