@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-23T14:02:01.089987+00:00",
+  "updated_at": "2026-04-23T17:26:48.809383+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.121,
+    "change24h": -0.021,
+    "vol": 0.081,
     "fearGreed": 46,
-    "momentum": -0.493,
+    "momentum": -0.36,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3947,
-    "global_sentiment": 0.3897,
-    "combined_sentiment": 0.4118,
-    "confidence": 0.7911,
+    "crypto_sentiment": 0.3502,
+    "global_sentiment": 0.4373,
+    "combined_sentiment": 0.3824,
+    "confidence": 0.8028,
     "counts": {
-      "crypto": 71,
-      "global": 37
+      "crypto": 57,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 77527,
-      "btc_change_24h": -1.71,
-      "eth_price": 2320.1,
-      "eth_change_24h": -4.13,
+      "btc_price": 77677,
+      "btc_change_24h": -1.54,
+      "eth_price": 2311.75,
+      "eth_change_24h": -3.44,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 169312594607.0,
-        "high_activity_coins": 2
+        "volume_24h": 160774603777.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.49,
+        "btc_dominance": 59.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-09T20:59:00.155064+00:00",
-      "crypto": 0.5178,
-      "global": 0.4496,
-      "combined": 0.5092,
-      "counts": {
-        "crypto": 64,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-04-10T03:27:56.408316+00:00",
       "crypto": 0.4504,
@@ -1008,66 +998,71 @@
         "crypto": 71,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-04-23T17:26:48.809383+00:00",
+      "crypto": 0.3502,
+      "global": 0.4373,
+      "combined": 0.3824,
+      "counts": {
+        "crypto": 57,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "S&P 500 Stocks: Equipment Giant Flashes Buy Signal On Earnings",
-        "url": "https://finance.yahoo.com/m/ee0f7a6a-fa74-34e9-810b-531cbee9c16b/s%26p-500-stocks%3A-equipment.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6758,
-        "score": 1.0
-      },
-      {
-        "title": "S&P 500 Retreats but Holds 7100 on Fresh Mideast Escalation as Earnings Kick Off",
-        "url": "https://247wallst.com/investing/2026/04/23/sp-500-retreats-but-holds-7100-on-fresh-mideast-escalation-as-earnings-kick-off/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.754,
+        "title": "U.S.-Iran war evolves into naval standoff over Strait of Hormuz after both countries seize ships",
+        "url": "https://www.cnbc.com/2026/04/23/iran-war-strait-hormuz-tanker-traffic-oil.html",
+        "source": "CNBC Markets",
+        "weight": 0.784,
         "score": 0.6667
       },
       {
-        "title": "U.S. stocks seen easing after rally to record highs: Dow Jones, S&P, Nasdaq, Wall Street Futures",
-        "url": "https://investorshub.advfn.com/market-news/article/27157/u-s-stocks-seen-easing-after-rally-to-record-highs-dow-jones-sp-nasdaq-wall-street-futures?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7402,
+        "title": "Why EV Demand Is Stronger Than It Looks",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-23/why-ev-demand-stronger-than-it-looks-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5784,
+        "score": 0.8667
+      },
+      {
+        "title": "Rogers’ Spending Cut Plan Prompts Two Analysts to Boost Ratings",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-23/rogers-spending-cut-plan-prompts-two-analysts-to-boost-ratings",
+        "source": "Bloomberg Markets",
+        "weight": 0.6752,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Kelp DAO exploiter launders nearly all 75,700 in stolen ETH through THORchain",
-        "url": "https://conpletus.cointelegraph.com/news/kelp-dao-hacker-launders-75-700-eth-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8818,
+        "title": "3 Reasons to Sell RGR and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-rgr-1-170923117.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7736,
+        "score": -0.9333
+      },
+      {
+        "title": "Founder of Solana Token Launchpad Believe Arrested on Assault, Strangulation Charges",
+        "url": "https://decrypt.co/365292/founder-solana-token-launchpad-believe-arrested",
+        "source": "Decrypt",
+        "weight": 0.6987,
         "score": -1.0
       },
       {
-        "title": "Which Is the Better Vanguard ETF, VYM or VIG?",
-        "url": "https://www.fool.com/coverage/etfs/2026/04/23/which-is-the-better-vanguard-etf-vym-or-vig/?.tsrc=rss",
+        "title": "These Stocks Are Today’s Movers: Tesla, IBM, Oklo, ServiceNow, United Rentals, and More",
+        "url": "https://finance.yahoo.com/m/cd80125f-b7e1-38af-b110-5ed88170123d/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7609,
+        "weight": 0.7089,
         "score": -0.9667
-      },
-      {
-        "title": "Apollo’s Ingenico Starts Talks With Lenders on ‘Untenable’ Debt",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-23/apollo-s-ingenico-starts-talks-with-lenders-on-untenable-debt",
-        "source": "Bloomberg Markets",
-        "weight": 0.7771,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3873596813932692,
-          "price_change_24h": -0.00448
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.38308059597730604,
-          "price_change_24h": 0.00109
+          "volume_mcap_ratio": 0.36892186066084376,
+          "price_change_24h": 0.01773
         }
       ],
       "momentum_shifts": []
