@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-23T06:11:12.491606+00:00",
+  "updated_at": "2026-04-23T09:50:33.080978+00:00",
   "indicators": {
-    "change24h": -0.02,
-    "vol": 0.114,
+    "change24h": -0.025,
+    "vol": 0.156,
     "fearGreed": 46,
-    "momentum": -0.342,
-    "regime": "sideways",
+    "momentum": -0.433,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5198,
-    "global_sentiment": 0.513,
-    "combined_sentiment": 0.5159,
-    "confidence": 0.7572,
+    "crypto_sentiment": 0.4846,
+    "global_sentiment": 0.506,
+    "combined_sentiment": 0.4889,
+    "confidence": 0.5236,
     "counts": {
-      "crypto": 56,
-      "global": 46
+      "crypto": 34,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 78236,
-      "btc_change_24h": 0.35,
-      "eth_price": 2354.0,
-      "eth_change_24h": -1.59,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 77646,
+      "btc_change_24h": -0.51,
+      "eth_price": 2318.05,
+      "eth_change_24h": -2.92,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 170396331287.0,
+        "volume_24h": 170528264320.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.56,
+        "btc_dominance": 59.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-09T17:15:41.474445+00:00",
-      "crypto": 0.4439,
-      "global": 0.454,
-      "combined": 0.4541,
-      "counts": {
-        "crypto": 64,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-04-09T20:33:50.949039+00:00",
       "crypto": 0.5179,
@@ -1008,66 +998,76 @@
         "crypto": 56,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-23T09:50:33.080978+00:00",
+      "crypto": 0.4846,
+      "global": 0.506,
+      "combined": 0.4889,
+      "counts": {
+        "crypto": 34,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ether taker volume rises by 72% as traders target ETH liquidity gap at $2.6K",
-        "url": "https://cointelegraph.com/news/ether-taker-volume-rises-by-72percent-as-traders-target-eth-liquidity-gap-at-dollar2-6k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8169,
-        "score": 0.8667
-      },
-      {
-        "title": "SK Hynix posts record first-quarter profit, in line with estimates as memory prices climb",
-        "url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html",
-        "source": "CNBC Markets",
-        "weight": 0.5388,
-        "score": 1.0
-      },
-      {
-        "title": "Dine Brands and First Watch Shares Are Soaring, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dine-brands-first-watch-shares-043723205.html?.tsrc=rss",
+        "title": "Markets Dive From Record Highs Amid Fresh Iran Tensions. Stock Futures Drop.",
+        "url": "https://finance.yahoo.com/m/49bd747f-cef4-3df4-a6c4-ea6baa49075c/markets-dive-from-record.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6678,
-        "score": 0.6667
+        "weight": 0.7443,
+        "score": 0.7
+      },
+      {
+        "title": "Bitcoin Price Rises, Defying Iran Tensions Hitting Stocks. Ethereum, XRP Fall.",
+        "url": "https://finance.yahoo.com/m/0898907b-16a3-3d2d-9871-dd977487e9ef/bitcoin-price-rises%2C-defying.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7895,
+        "score": 0.5333
+      },
+      {
+        "title": "Taiwan to Ease Limits on Active Funds’ Investments in TSMC",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-23/taiwan-to-ease-limits-on-active-funds-investments-in-tsmc",
+        "source": "Bloomberg Markets",
+        "weight": 0.7702,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Phishing, deepfakes, supply chain attacks to fuel 2026's biggest crypto hacks: CertiK",
-        "url": "https://cointelegraph.com/news/phishing-deepfakes-supply-chain-attacks-to-fuel-2026-s-biggest-crypto-hacks-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6359,
-        "score": -1.0
+        "title": "Roche CEO laments Swiss franc strength as drugmaker doubles down on U.S. investment",
+        "url": "https://www.cnbc.com/2026/04/23/roche-stock-earnings-q1-ceo-swiss-franc-us-investment.html",
+        "source": "CNBC Markets",
+        "weight": 0.7944,
+        "score": -0.9333
       },
       {
-        "title": "SoftBank Seeks $10 Billion Loan Backed by OpenAI Shares",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-23/softbank-seeks-10-billion-loan-backed-by-openai-shares-video",
+        "title": "PwC Pays $166 Million to Settle HK Evergrande Audit Probe",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-23/pwc-agrees-to-pay-166-million-to-close-evergrande-probe-in-hk",
         "source": "Bloomberg Markets",
-        "weight": 0.5593,
+        "weight": 0.7091,
         "score": -0.9667
       },
       {
-        "title": "Indonesia Rupiah Falls Most in Seven Months on Rising Oil Prices",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-23/idr-usd-indonesia-rupiah-falls-most-in-seven-months-on-rising-oil-prices",
+        "title": "Euro-Area Business Activity Shrinks on Iran War Impact",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-23/euro-area-business-activity-shrinks-on-iran-war-impact-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6061,
-        "score": -0.6667
+        "weight": 0.708,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3927275540778814,
-          "price_change_24h": 0.02348
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.4238535249893952,
+          "price_change_24h": -0.01878
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.30987962752369974,
-          "price_change_24h": 0.04429
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3921070535633659,
+          "price_change_24h": 0.00857
         }
       ],
       "momentum_shifts": []
