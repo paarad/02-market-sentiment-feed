@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-24T03:34:22.762998+00:00",
+  "updated_at": "2026-04-24T06:15:21.320725+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.074,
+    "change24h": 0.004,
+    "vol": 0.064,
     "fearGreed": 39,
-    "momentum": 0.141,
+    "momentum": 0.069,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4242,
-    "global_sentiment": 0.3402,
-    "combined_sentiment": 0.4299,
-    "confidence": 0.7368,
+    "crypto_sentiment": 0.4459,
+    "global_sentiment": 0.4156,
+    "combined_sentiment": 0.4524,
+    "confidence": 0.7128,
     "counts": {
-      "crypto": 57,
-      "global": 39
+      "crypto": 55,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 77644,
-      "btc_change_24h": -0.01,
-      "eth_price": 2304.61,
-      "eth_change_24h": -1.38,
+      "btc_price": 77920,
+      "btc_change_24h": -0.37,
+      "eth_price": 2313.49,
+      "eth_change_24h": -1.68,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.55,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153169446989.0,
+        "volume_24h": 151458529255.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.54,
+        "btc_dominance": 59.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-10T13:26:54.178874+00:00",
-      "crypto": 0.3945,
-      "global": 0.599,
-      "combined": 0.4291,
-      "counts": {
-        "crypto": 67,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-04-10T16:57:08.468213+00:00",
       "crypto": 0.3949,
@@ -1008,61 +998,71 @@
         "crypto": 57,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-04-24T06:15:21.320725+00:00",
+      "crypto": 0.4459,
+      "global": 0.4156,
+      "combined": 0.4524,
+      "counts": {
+        "crypto": 55,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "TSMC Shares Surge as Taiwan Lifts Single-Stock Limit for Funds",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-24/tsmc-shares-surge-as-taiwan-lifts-single-stock-limit-for-funds",
-        "source": "Bloomberg Markets",
-        "weight": 0.7111,
-        "score": 0.6667
-      },
-      {
-        "title": "Critical Bitcoin trend change in works, but analysts say daily close above $80K required",
-        "url": "https://cointelegraph.com/markets/critical-bitcoin-trend-change-in-works-but-analysts-say-daily-close-above-dollar80k-required?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6556,
+        "title": "Bitcoin rally is stalling as Japanese inflation adds to Iran war–driven market jitters",
+        "url": "https://www.coindesk.com/markets/2026/04/24/bitcoin-rally-is-stalling-as-japan-macro-adds-to-iran-war-driven-market-jitters",
+        "source": "CoinDesk",
+        "weight": 0.8674,
         "score": 0.5333
       },
       {
-        "title": "These 3 Ethereum metrics favor an ETH price rally to $6K",
-        "url": "https://cointelegraph.com/markets/these-3-ethereum-metrics-favor-eth-price-rally-to-6k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2728,
-        "score": 1.0
+        "title": "Volkswagen's Cisek on China Business",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-24/volkswagen-s-cisek-on-china-business-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6943,
+        "score": 0.5833
+      },
+      {
+        "title": "South Africa's Karoo Region Bets on Pistachio Boom",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-24/south-africa-s-karoo-region-bets-on-pistachio-boom-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6921,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 39 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "China's FAW on Modernization and Expansion Plans",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-24/china-s-faw-on-modernization-and-expansion-plans-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6643,
+        "score": -0.6333
+      },
+      {
         "title": "ITOT vs. VTV: Here's How a Total Stock Market ETF Compares to Value Stocks",
         "url": "https://www.fool.com/coverage/etfs/2026/04/23/itot-vs-vtv-here-s-how-a-total-stock-market-etf-compares-to-value-stocks/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5546,
+        "weight": 0.4068,
         "score": -0.9667
-      },
-      {
-        "title": "2 Healthcare Stocks Worth Your Attention and 1 We Ignore",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/2-healthcare-stocks-worth-attention-234123699.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5108,
-        "score": -0.9333
-      },
-      {
-        "title": "Aave rallies DeFi partners to contain fallout from $292 million KelpDAO hack",
-        "url": "https://www.coindesk.com/business/2026/04/23/aave-rallies-defi-partners-to-contain-fallout-from-usd292-million-kelpdao-hack",
-        "source": "CoinDesk",
-        "weight": 0.4613,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3458574612098998,
-          "price_change_24h": 0.00094
+          "volume_mcap_ratio": 0.34391934233011334,
+          "price_change_24h": -0.00473
         }
       ],
       "momentum_shifts": []
