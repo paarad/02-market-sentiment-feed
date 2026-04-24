@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-24T20:30:18.115490+00:00",
+  "updated_at": "2026-04-24T20:57:42.599082+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.126,
+    "change24h": 0.012,
+    "vol": 0.118,
     "fearGreed": 39,
-    "momentum": 0.187,
+    "momentum": 0.211,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3882,
-    "global_sentiment": 0.3718,
-    "combined_sentiment": 0.4054,
-    "confidence": 0.7621,
+    "crypto_sentiment": 0.3447,
+    "global_sentiment": 0.4335,
+    "combined_sentiment": 0.378,
+    "confidence": 0.7731,
     "counts": {
-      "crypto": 48,
-      "global": 42
+      "crypto": 49,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 77560,
-      "btc_change_24h": -0.41,
-      "eth_price": 2317.69,
-      "eth_change_24h": -0.19,
+      "btc_price": 77693,
+      "btc_change_24h": -0.26,
+      "eth_price": 2326.02,
+      "eth_change_24h": 0.09,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 39,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 127251448702.0,
+        "volume_24h": 128096719803.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.44,
+        "btc_dominance": 59.43,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-11T05:35:22.269994+00:00",
-      "crypto": 0.3826,
-      "global": 0.399,
-      "combined": 0.4036,
-      "counts": {
-        "crypto": 65,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-04-11T08:54:45.000111+00:00",
       "crypto": 0.4584,
@@ -1008,53 +998,63 @@
         "crypto": 48,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-24T20:57:42.599082+00:00",
+      "crypto": 0.3447,
+      "global": 0.4335,
+      "combined": 0.378,
+      "counts": {
+        "crypto": 49,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Nvidia stock closes at record, pushing market cap past $5 trillion",
+        "url": "https://www.cnbc.com/2026/04/24/nvidia-stock-closes-at-record-pushing-market-cap-past-5-trillion.html",
+        "source": "CNBC Markets",
+        "weight": 0.7861,
+        "score": 0.8667
+      },
+      {
         "title": "Solana confirms a bullish signal, which last sparked 100% SOL price gains",
         "url": "https://cointelegraph.com/markets/solana-confirms-bullish-signal-last-sparked-100-sol-price-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5963,
+        "weight": 0.5656,
         "score": 0.9
       },
       {
         "title": "S&P 500, Nasdaq Mark Four-Week Streaks With Record Highs. Earnings Next Week Will Test the Rally.",
         "url": "https://finance.yahoo.com/m/5de2d8d4-8971-3de8-aa5d-f029d477d080/s%26p-500%2C-nasdaq-mark.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7588,
+        "weight": 0.7198,
         "score": 0.6667
-      },
-      {
-        "title": "Bayview Acquisition Corp Announces Favorable Nasdaq Listing Decision",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bayview-acquisition-corp-announces-favorable-201500055.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7768,
-        "score": 0.6333
       }
     ],
     "negative": [
       {
+        "title": "Trump DOJ Backs Elon Musk's xAI in Fight Over Colorado AI Bias Law",
+        "url": "https://decrypt.co/365504/trump-doj-backs-elon-musk-xai-colorado-ai-bias-law",
+        "source": "Decrypt",
+        "weight": 0.806,
+        "score": -1.0
+      },
+      {
         "title": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 15, 2026",
         "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-mid-month-open-200500992.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.762,
+        "weight": 0.7228,
         "score": -0.9667
       },
       {
         "title": "Sector Update: Energy Stocks Softer Late Afternoon",
         "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-softer-afternoon-200113880.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7564,
+        "weight": 0.7175,
         "score": -0.9667
-      },
-      {
-        "title": "Analysis: The threat to the Fed's independence isn't over",
-        "url": "https://www.cnbc.com/2026/04/24/fed-kevin-warsh-jerome-powell.html",
-        "source": "CNBC Markets",
-        "weight": 0.71,
-        "score": -1.0
       }
     ],
     "market_movers": {
