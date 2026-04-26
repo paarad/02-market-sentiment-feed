@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-26T20:22:50.257312+00:00",
+  "updated_at": "2026-04-26T20:49:36.601514+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.085,
+    "change24h": 0.019,
+    "vol": 0.093,
     "fearGreed": 33,
-    "momentum": 0.319,
+    "momentum": 0.335,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.29,
-    "global_sentiment": 0.5001,
-    "combined_sentiment": 0.3425,
-    "confidence": 0.5927,
+    "crypto_sentiment": 0.4471,
+    "global_sentiment": 0.4921,
+    "combined_sentiment": 0.4597,
+    "confidence": 0.655,
     "counts": {
-      "crypto": 53,
-      "global": 34
+      "crypto": 54,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 78181,
-      "btc_change_24h": 0.97,
-      "eth_price": 2365.93,
-      "eth_change_24h": 2.34,
+      "btc_price": 78350,
+      "btc_change_24h": 1.2,
+      "eth_price": 2367.23,
+      "eth_change_24h": 2.38,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153176778729.0,
+        "volume_24h": 153478967483.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.49,
+        "btc_dominance": 59.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-13T06:21:45.468631+00:00",
-      "crypto": 0.45,
-      "global": 0.5385,
-      "combined": 0.4657,
-      "counts": {
-        "crypto": 64,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-13T10:02:01.439626+00:00",
       "crypto": 0.4108,
@@ -1008,30 +998,40 @@
         "crypto": 53,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-04-26T20:49:36.601514+00:00",
+      "crypto": 0.4471,
+      "global": 0.4921,
+      "combined": 0.4597,
+      "counts": {
+        "crypto": 54,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Strategy's Michael Saylor again hints at impending BTC purchase",
+        "url": "https://cointelegraph.com/news/strategy-michael-saylor-bitcoin-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8881,
+        "score": 1.0
+      },
+      {
         "title": "Record-Setting Momentum Rally Is Drawing Doubters",
         "url": "https://www.bloomberg.com/news/articles/2026-04-26/record-setting-momentum-rally-is-drawing-doubters-markets-wrap",
         "source": "Bloomberg Markets",
-        "weight": 0.7656,
+        "weight": 0.7271,
         "score": 0.6
       },
       {
-        "title": "Cathie Wood sells $75M of surging semiconductor stock",
-        "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-75-of-surging-semiconductor-stock-amd?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5594,
-        "score": 0.6667
-      },
-      {
-        "title": "Big Tech’s $16 Trillion Earnings Week Is Make-Or-Break for Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-26/big-tech-s-16-trillion-earnings-week-is-make-or-break-for-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.341,
-        "score": 0.8667
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,30 +1039,30 @@
         "title": "Aave raises nearly 80% of the $200 million it needs to cover bad debt left by Kelp DAO exploit",
         "url": "https://www.coindesk.com/business/2026/04/26/aave-raises-nearly-80-of-the-usd200-million-it-needs-to-cover-bad-debt-left-by-kelp-dao-exploit",
         "source": "CoinDesk",
-        "weight": 0.6278,
+        "weight": 0.5962,
         "score": -0.8333
+      },
+      {
+        "title": "Trump presses his case for White House ballroom following press dinner shooting",
+        "url": "https://www.cnbc.com/2026/04/26/trump-presses-case-for-white-house-ballroom-following-shooting.html",
+        "source": "CNBC Markets",
+        "weight": 0.7642,
+        "score": -0.6333
       },
       {
         "title": "Why DeFi isn't dead despite massive exploits and $13 billion investor exodus",
         "url": "https://www.coindesk.com/business/2026/04/26/why-defi-isn-t-dead-despite-massive-exploits-and-usd13-billion-investor-exodus",
         "source": "CoinDesk",
-        "weight": 0.6029,
+        "weight": 0.5726,
         "score": -0.8333
-      },
-      {
-        "title": "Sen. Tillis Expected to Clear Way for Warsh as Fed Chair",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-26/sen-tillis-expected-to-clear-way-for-warsh-as-fed-chair-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4367,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5892290295098604,
-          "price_change_24h": -0.00784
+          "volume_mcap_ratio": 0.5846164275187944,
+          "price_change_24h": -0.00555
         }
       ],
       "momentum_shifts": []
