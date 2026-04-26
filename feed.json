@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-26T16:54:21.065001+00:00",
+  "updated_at": "2026-04-26T20:22:50.257312+00:00",
   "indicators": {
-    "change24h": 0.013,
-    "vol": 0.096,
+    "change24h": 0.018,
+    "vol": 0.085,
     "fearGreed": 33,
-    "momentum": 0.221,
+    "momentum": 0.319,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2963,
-    "global_sentiment": 0.3879,
-    "combined_sentiment": 0.3379,
-    "confidence": 0.6557,
+    "crypto_sentiment": 0.29,
+    "global_sentiment": 0.5001,
+    "combined_sentiment": 0.3425,
+    "confidence": 0.5927,
     "counts": {
-      "crypto": 69,
+      "crypto": 53,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 78040,
-      "btc_change_24h": 0.81,
-      "eth_price": 2346.49,
-      "eth_change_24h": 1.58,
+      "btc_price": 78181,
+      "btc_change_24h": 0.97,
+      "eth_price": 2365.93,
+      "eth_change_24h": 2.34,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 68103545292.0,
-        "high_activity_coins": 0
+        "volume_24h": 153176778729.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.52,
+        "btc_dominance": 59.49,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-13T03:38:10.155817+00:00",
-      "crypto": 0.2698,
-      "global": 0.4849,
-      "combined": 0.3261,
-      "counts": {
-        "crypto": 62,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-04-13T06:21:45.468631+00:00",
       "crypto": 0.45,
@@ -1008,30 +998,40 @@
         "crypto": 69,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-04-26T20:22:50.257312+00:00",
+      "crypto": 0.29,
+      "global": 0.5001,
+      "combined": 0.3425,
+      "counts": {
+        "crypto": 53,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Record-Setting Momentum Rally Is Drawing Doubters",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-26/record-setting-momentum-rally-is-drawing-doubters-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.7656,
+        "score": 0.6
+      },
+      {
+        "title": "Cathie Wood sells $75M of surging semiconductor stock",
+        "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-75-of-surging-semiconductor-stock-amd?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5594,
+        "score": 0.6667
+      },
+      {
         "title": "Big Tech’s $16 Trillion Earnings Week Is Make-Or-Break for Rally",
         "url": "https://www.bloomberg.com/news/articles/2026-04-26/big-tech-s-16-trillion-earnings-week-is-make-or-break-for-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.5095,
+        "weight": 0.341,
         "score": 0.8667
-      },
-      {
-        "title": "Purple ube’s viral rise is turning a Filipino staple into a global trend — but supplies are tightening",
-        "url": "https://www.cnbc.com/2026/04/26/ube-purple-yam-viral-trend-philippines-supply-crunch.html",
-        "source": "CNBC Markets",
-        "weight": 0.5467,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin whales build long positions as funding stays deeply negative",
-        "url": "https://www.coindesk.com/markets/2026/04/26/bitcoin-whales-build-long-positions-as-funding-stays-deeply-negative",
-        "source": "CoinDesk",
-        "weight": 0.7339,
-        "score": 0.3333
       }
     ],
     "negative": [
@@ -1039,26 +1039,32 @@
         "title": "Aave raises nearly 80% of the $200 million it needs to cover bad debt left by Kelp DAO exploit",
         "url": "https://www.coindesk.com/business/2026/04/26/aave-raises-nearly-80-of-the-usd200-million-it-needs-to-cover-bad-debt-left-by-kelp-dao-exploit",
         "source": "CoinDesk",
-        "weight": 0.9378,
+        "weight": 0.6278,
         "score": -0.8333
       },
       {
         "title": "Why DeFi isn't dead despite massive exploits and $13 billion investor exodus",
         "url": "https://www.coindesk.com/business/2026/04/26/why-defi-isn-t-dead-despite-massive-exploits-and-usd13-billion-investor-exodus",
         "source": "CoinDesk",
-        "weight": 0.9006,
+        "weight": 0.6029,
         "score": -0.8333
       },
       {
         "title": "Sen. Tillis Expected to Clear Way for Warsh as Fed Chair",
         "url": "https://www.bloomberg.com/news/videos/2026-04-26/sen-tillis-expected-to-clear-way-for-warsh-as-fed-chair-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6524,
+        "weight": 0.4367,
         "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.5892290295098604,
+          "price_change_24h": -0.00784
+        }
+      ],
       "momentum_shifts": []
     }
   },
