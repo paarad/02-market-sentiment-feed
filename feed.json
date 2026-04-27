@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-27T10:23:39.400556+00:00",
+  "updated_at": "2026-04-27T14:12:58.731268+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.003,
+    "vol": 0.083,
     "fearGreed": 47,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.049,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5681,
-    "global_sentiment": 0.3719,
-    "combined_sentiment": 0.5404,
-    "confidence": 0.5847,
+    "crypto_sentiment": 0.4878,
+    "global_sentiment": 0.6014,
+    "combined_sentiment": 0.4993,
+    "confidence": 0.744,
     "counts": {
-      "crypto": 47,
-      "global": 36
+      "crypto": 50,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 77822,
-      "btc_change_24h": -0.27,
-      "eth_price": 2321.41,
-      "eth_change_24h": -0.58,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 77809,
+      "btc_change_24h": -0.16,
+      "eth_price": 2312.21,
+      "eth_change_24h": -1.0,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126528458354.0,
-        "high_activity_coins": 0
+        "volume_24h": 135362806142.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 59.63,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-13T20:37:25.158187+00:00",
-      "crypto": 0.3441,
-      "global": 0.5275,
-      "combined": 0.3854,
-      "counts": {
-        "crypto": 74,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-04-13T21:02:30.469839+00:00",
       "crypto": 0.3576,
@@ -1008,57 +998,73 @@
         "crypto": 47,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-04-27T14:12:58.731268+00:00",
+      "crypto": 0.4878,
+      "global": 0.6014,
+      "combined": 0.4993,
+      "counts": {
+        "crypto": 50,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Toast (TOST) Announces Partnership With Alicart",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/toast-tost-announces-partnership-alicart-071039267.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5517,
-        "score": 0.5833
-      },
-      {
-        "title": "Bitcoin pulls back from 12-week high as Iran rally hits seller wall at $79,400",
-        "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-from-12-week-high-as-iran-rally-hits-seller-wall-at-usd79-400",
-        "source": "CoinDesk",
-        "weight": 0.5876,
-        "score": 0.5333
-      },
-      {
-        "title": "Purple ube’s viral rise is turning a Filipino staple into a global trend — but supplies are tightening",
-        "url": "https://www.cnbc.com/2026/04/26/ube-purple-yam-viral-trend-philippines-supply-crunch.html",
+        "title": "More apartments, more deals: Why nearly 40% of landlords are offering concessions right now",
+        "url": "https://www.cnbc.com/2026/04/27/why-nearly-landlords-are-offering-concessions-right-now.html",
         "source": "CNBC Markets",
-        "weight": 0.5744,
-        "score": 0.5333
+        "weight": 0.6561,
+        "score": 1.0
+      },
+      {
+        "title": "S&P 500 Holding Pattern: Mag 7 Earnings Collide With Oil Surge and Fed Fears",
+        "url": "https://247wallst.com/investing/2026/04/27/sp-500-holding-pattern-mag-7-earnings-collide-with-oil-surge-and-fed-fears/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7241,
+        "score": 0.8667
+      },
+      {
+        "title": "France Charges 88, Including Minors, in Crypto ‘Wrench Attack’ Crackdown",
+        "url": "https://decrypt.co/365596/france-charges-88-including-minors-in-crypto-wrench-attack-crackdown",
+        "source": "Decrypt",
+        "weight": 0.6172,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Alnylam Pharmaceuticals (ALNY) Advances Diabetes Drug Into Phase 2 Trial",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/alnylam-pharmaceuticals-alny-advances-diabetes-071041238.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5517,
-        "score": -0.9333
+        "title": "ETH price up 10% in April, so why is Ethereum Foundation selling?",
+        "url": "https://cointelegraph.com/markets/eth-price-up-10-in-april-so-why-is-ethereum-foundation-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.742,
+        "score": -0.8667
       },
       {
-        "title": "Daiwa to Buy Orix Bank for $2.3 Billion in Lending Expansion",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-27/daiwa-to-buy-orix-bank-for-2-3-billion-in-lending-expansion",
-        "source": "Bloomberg Markets",
-        "weight": 0.5243,
+        "title": "Latest $290M exploit hit DeFi so hard it forced Aave onto Solana as part of rescue efforts",
+        "url": "https://cryptoslate.com/latest-290m-exploit-hit-defi-so-hard-it-forced-aave-onto-solana-as-part-of-rescue-efforts/",
+        "source": "CryptoSlate",
+        "weight": 0.7317,
+        "score": -0.8333
+      },
+      {
+        "title": "Bitcoin flash crashes below $78,000 at Europe market open with nearly $295 million in crypto liquidations",
+        "url": "https://cryptoslate.com/bitcoin-flash-crashes-below-78000-at-europe-market-open-with-nearly-295-million-in-crypto-liquidations/",
+        "source": "CryptoSlate",
+        "weight": 0.5794,
         "score": -0.9667
-      },
-      {
-        "title": "India’s Refiners Are Absorbing the Hefty Cost of the Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-27/india-s-refiners-are-absorbing-the-hefty-cost-of-the-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.7054,
-        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3103052016028177,
+          "price_change_24h": -0.01739
+        }
+      ],
       "momentum_shifts": []
     }
   },
