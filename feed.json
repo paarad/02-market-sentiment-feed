@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-27T14:12:58.731268+00:00",
+  "updated_at": "2026-04-27T17:27:02.908009+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.083,
+    "change24h": -0.02,
+    "vol": 0.086,
     "fearGreed": 47,
-    "momentum": -0.049,
-    "regime": "sideways",
+    "momentum": -0.345,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4878,
-    "global_sentiment": 0.6014,
-    "combined_sentiment": 0.4993,
-    "confidence": 0.744,
+    "crypto_sentiment": 0.4746,
+    "global_sentiment": 0.3737,
+    "combined_sentiment": 0.4704,
+    "confidence": 0.7653,
     "counts": {
-      "crypto": 50,
-      "global": 42
+      "crypto": 53,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 77809,
-      "btc_change_24h": -0.16,
-      "eth_price": 2312.21,
-      "eth_change_24h": -1.0,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 76821,
+      "btc_change_24h": -1.56,
+      "eth_price": 2286.96,
+      "eth_change_24h": -2.56,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 135362806142.0,
+        "volume_24h": 158306623221.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.63,
+        "btc_dominance": 59.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-13T21:02:30.469839+00:00",
-      "crypto": 0.3576,
-      "global": 0.5189,
-      "combined": 0.3948,
-      "counts": {
-        "crypto": 72,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-04-14T03:27:44.481335+00:00",
       "crypto": 0.4075,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-04-27T17:27:02.908009+00:00",
+      "crypto": 0.4746,
+      "global": 0.3737,
+      "combined": 0.4704,
+      "counts": {
+        "crypto": 53,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "More apartments, more deals: Why nearly 40% of landlords are offering concessions right now",
-        "url": "https://www.cnbc.com/2026/04/27/why-nearly-landlords-are-offering-concessions-right-now.html",
-        "source": "CNBC Markets",
-        "weight": 0.6561,
-        "score": 1.0
+        "title": "Bitcoin is climbing on thin volume, leaving rally vulnerable to macro shock",
+        "url": "https://www.coindesk.com/markets/2026/04/27/bitcoin-is-climbing-on-thin-volume-leaving-this-rally-vulnerable-to-macro-shock",
+        "source": "CoinDesk",
+        "weight": 0.8827,
+        "score": 0.8667
       },
       {
-        "title": "S&P 500 Holding Pattern: Mag 7 Earnings Collide With Oil Surge and Fed Fears",
-        "url": "https://247wallst.com/investing/2026/04/27/sp-500-holding-pattern-mag-7-earnings-collide-with-oil-surge-and-fed-fears/?.tsrc=rss",
+        "title": "3 Services Stocks That Concern Us",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-services-stocks-concern-us-162055127.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7241,
-        "score": 0.8667
+        "weight": 0.7044,
+        "score": 0.6667
       },
       {
-        "title": "France Charges 88, Including Minors, in Crypto ‘Wrench Attack’ Crackdown",
-        "url": "https://decrypt.co/365596/france-charges-88-including-minors-in-crypto-wrench-attack-crackdown",
-        "source": "Decrypt",
-        "weight": 0.6172,
-        "score": 0.8667
+        "title": "Haas Boss on F1 US Boom",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-27/haas-boss-on-f1-us-boom-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6833,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "ETH price up 10% in April, so why is Ethereum Foundation selling?",
-        "url": "https://cointelegraph.com/markets/eth-price-up-10-in-april-so-why-is-ethereum-foundation-selling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.742,
-        "score": -0.8667
+        "title": "Italy’s Angelini Said to Explore Catalyst Pharma Acquisition",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-27/italy-s-angelini-said-to-explore-acquisition-of-catalyst-pharma",
+        "source": "Bloomberg Markets",
+        "weight": 0.6823,
+        "score": -0.9333
       },
       {
-        "title": "Latest $290M exploit hit DeFi so hard it forced Aave onto Solana as part of rescue efforts",
-        "url": "https://cryptoslate.com/latest-290m-exploit-hit-defi-so-hard-it-forced-aave-onto-solana-as-part-of-rescue-efforts/",
-        "source": "CryptoSlate",
-        "weight": 0.7317,
-        "score": -0.8333
+        "title": "The Real Rare Earth Crisis: Processing",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-27/the-real-rare-earth-crisis-processing-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6229,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin flash crashes below $78,000 at Europe market open with nearly $295 million in crypto liquidations",
-        "url": "https://cryptoslate.com/bitcoin-flash-crashes-below-78000-at-europe-market-open-with-nearly-295-million-in-crypto-liquidations/",
-        "source": "CryptoSlate",
-        "weight": 0.5794,
-        "score": -0.9667
+        "title": "India Changes Bank Loan-Loss Rules to Align With Global Norms",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-27/india-changes-bank-loan-loss-rules-to-align-with-global-norms",
+        "source": "Bloomberg Markets",
+        "weight": 0.6173,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3103052016028177,
-          "price_change_24h": -0.01739
+          "volume_mcap_ratio": 0.35936040932993496,
+          "price_change_24h": -0.01769
         }
       ],
       "momentum_shifts": []
