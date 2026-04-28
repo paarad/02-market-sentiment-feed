@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-28T20:51:41.900045+00:00",
+  "updated_at": "2026-04-28T21:12:20.310981+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.1,
+    "change24h": -0.005,
+    "vol": 0.092,
     "fearGreed": 33,
-    "momentum": -0.114,
+    "momentum": -0.093,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3612,
-    "global_sentiment": 0.4508,
-    "combined_sentiment": 0.3918,
-    "confidence": 0.8085,
+    "crypto_sentiment": 0.3609,
+    "global_sentiment": 0.3936,
+    "combined_sentiment": 0.3868,
+    "confidence": 0.8045,
     "counts": {
       "crypto": 52,
-      "global": 44
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 76435,
-      "btc_change_24h": -0.7,
-      "eth_price": 2297.62,
-      "eth_change_24h": 0.26,
+      "btc_price": 76402,
+      "btc_change_24h": -0.6,
+      "eth_price": 2293.15,
+      "eth_change_24h": 0.19,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126998541747.61,
+        "volume_24h": 126698338143.61,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.35,
+        "btc_dominance": 59.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-15T03:26:27.103989+00:00",
-      "crypto": 0.5446,
-      "global": 0.4466,
-      "combined": 0.529,
-      "counts": {
-        "crypto": 73,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-04-15T06:04:37.479372+00:00",
       "crypto": 0.4946,
@@ -1008,29 +998,39 @@
         "crypto": 52,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-04-28T21:12:20.310981+00:00",
+      "crypto": 0.3609,
+      "global": 0.3936,
+      "combined": 0.3868,
+      "counts": {
+        "crypto": 52,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bond Traders Ramp Up Wagers Hedging for 5% Yields as Oil Surges",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/bond-traders-ramp-up-wagers-hedging-for-5-yields-as-oil-surges",
+        "source": "Bloomberg Markets",
+        "weight": 0.7389,
+        "score": 1.0
+      },
+      {
         "title": "How major US stock indexes fared Tuesday 4/28/2026",
         "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-201416617.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7444,
+        "weight": 0.7154,
         "score": 1.0
       },
       {
         "title": "Big Tech Led the Market’s April Rally. It’s About to Be Tested.",
         "url": "https://finance.yahoo.com/m/3f3f1538-1c27-3ae3-9532-39e1e90669a1/big-tech-led-the-market%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6478,
-        "score": 0.8667
-      },
-      {
-        "title": "Budget Fears Weigh on Defense Stocks Ahead of Hegseth Testimony",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/budget-fears-weigh-on-defense-stocks-ahead-of-hegseth-testimony",
-        "source": "Bloomberg Markets",
-        "weight": 0.5724,
+        "weight": 0.6225,
         "score": 0.8667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Robinhood stock shrugs off a 47% crash in crypto revenue thanks to a massive surge in event betting",
         "url": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
         "source": "CoinDesk",
-        "weight": 0.9554,
+        "weight": 0.9182,
         "score": -1.0
       },
       {
         "title": "TD Securities’ Nixon Leaves for National Bank Fixed Income Sales",
         "url": "https://www.bloomberg.com/news/articles/2026-04-28/td-securities-nixon-leaves-for-national-bank-fixed-income-sales",
         "source": "Bloomberg Markets",
-        "weight": 0.6192,
+        "weight": 0.5951,
         "score": -0.9667
       },
       {
         "title": "Bitcoin Coinbase Premium turns negative as BTC price drops, weekly losses top $829M",
         "url": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-flashes-red-in-three-weeks-as-weekly-losses-top-793m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.863,
+        "weight": 0.8293,
         "score": -0.6667
       }
     ],
