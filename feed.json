@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-28T10:22:08.813287+00:00",
+  "updated_at": "2026-04-28T17:51:47.568637+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.116,
+    "change24h": -0.013,
+    "vol": 0.123,
     "fearGreed": 33,
-    "momentum": -0.416,
-    "regime": "bear",
+    "momentum": -0.235,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4305,
-    "global_sentiment": 0.5126,
-    "combined_sentiment": 0.4489,
-    "confidence": 0.7247,
+    "crypto_sentiment": 0.3766,
+    "global_sentiment": 0.3477,
+    "combined_sentiment": 0.3947,
+    "confidence": 0.8193,
     "counts": {
-      "crypto": 55,
-      "global": 40
+      "crypto": 53,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 76520,
-      "btc_change_24h": -1.68,
-      "eth_price": 2282.68,
-      "eth_change_24h": -1.64,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 76170,
+      "btc_change_24h": -0.76,
+      "eth_price": 2291.43,
+      "eth_change_24h": 0.14,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 33,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 132096953039.61,
-        "high_activity_coins": 1
+        "volume_24h": 128637591648.61,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.44,
+        "btc_dominance": 59.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-14T20:39:10.028638+00:00",
-      "crypto": 0.5532,
-      "global": 0.5431,
-      "combined": 0.5435,
-      "counts": {
-        "crypto": 73,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-14T21:02:10.961790+00:00",
       "crypto": 0.5512,
@@ -1008,63 +998,67 @@
         "crypto": 55,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-28T17:51:47.568637+00:00",
+      "crypto": 0.3766,
+      "global": 0.3477,
+      "combined": 0.3947,
+      "counts": {
+        "crypto": 53,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "BP Stock Rises After Huge Jump in Profit. What It Means for Exxon and Chevron.",
-        "url": "https://finance.yahoo.com/m/342a3325-b203-3dfe-bbdb-ec6e8adcd526/bp-stock-rises-after-huge.html?.tsrc=rss",
+        "title": "Trump Says He Has 'All The Cards' As Iran Talks Halt: Brent Crude Jumps To $107, Dow Futures Slip 52 Points",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/trump-says-cards-iran-talks-163108572.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6597,
+        "weight": 0.6849,
         "score": 1.0
       },
       {
-        "title": "Tullow Shares Soar as West African Oil Brings Record Price",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/tullow-shares-soar-as-west-african-oil-brings-record-price",
+        "title": "Wheat Highest Since 2024 as Drought, Fertilizer Costs Hit Supply",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/wheat-highest-since-2024-as-drought-fertilizer-costs-hit-supply",
         "source": "Bloomberg Markets",
-        "weight": 0.7326,
+        "weight": 0.7467,
         "score": 0.8667
       },
       {
-        "title": "Swiss Fund Topping 95% of Peers Sees Room for Oil Stocks to Run",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-28/swiss-fund-topping-95-of-peers-sees-room-for-oil-stocks-to-run",
-        "source": "Bloomberg Markets",
-        "weight": 0.6451,
-        "score": 0.8667
+        "title": "Polymarket reportedly seeking CFTC approval to reopen main exchange to U.S. traders",
+        "url": "https://www.coindesk.com/policy/2026/04/28/polymarket-seeks-cftc-approval-to-reopen-main-exchange-to-u-s-traders",
+        "source": "CoinDesk",
+        "weight": 0.8626,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Novartis CEO warns reality of Trump's drug pricing policy will set in over 'the next 18 months'",
-        "url": "https://www.cnbc.com/2026/04/28/novartis-ceo-stock-earnings-mfn-trump-drug-pricing-policy.html",
+        "title": "Cancer Drug Developer Erasca Sinks by Record 55% After Patient Death",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/cancer-drug-developer-erasca-sinks-by-record-55-after-patient-death",
+        "source": "Bloomberg Markets",
+        "weight": 0.7579,
+        "score": -1.0
+      },
+      {
+        "title": "JetBlue is full steam ahead on Fort Lauderdale, regardless of Spirit's fate",
+        "url": "https://www.cnbc.com/2026/04/28/jetblue-fort-lauderdale-flights.html",
         "source": "CNBC Markets",
-        "weight": 0.7953,
-        "score": -0.9333
+        "weight": 0.7684,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 33 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "GD Stock Gets Attention After New Submarine Program Award",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/gd-stock-gets-attention-submarine-081338318.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6246,
-        "score": -0.6333
+        "title": "Red-State AGs Call Out Credit-Rating Companies Over ESG Policy",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-28/red-state-ags-call-out-credit-rating-companies-over-esg-policy",
+        "source": "Bloomberg Markets",
+        "weight": 0.7431,
+        "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3050411174566158,
-          "price_change_24h": -0.01272
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
