@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-29T03:48:48.929847+00:00",
+  "updated_at": "2026-04-29T06:29:21.569297+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.078,
+    "change24h": 0.009,
+    "vol": 0.054,
     "fearGreed": 26,
-    "momentum": 0.083,
+    "momentum": 0.153,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3792,
-    "global_sentiment": 0.4235,
-    "combined_sentiment": 0.403,
-    "confidence": 0.7255,
+    "crypto_sentiment": 0.3784,
+    "global_sentiment": 0.4536,
+    "combined_sentiment": 0.405,
+    "confidence": 0.7502,
     "counts": {
-      "crypto": 55,
-      "global": 41
+      "crypto": 56,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 76994,
-      "btc_change_24h": 0.26,
-      "eth_price": 2311.6,
-      "eth_change_24h": 1.05,
+      "btc_price": 77090,
+      "btc_change_24h": 0.28,
+      "eth_price": 2327.88,
+      "eth_change_24h": 1.85,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 127459561301.61,
-        "high_activity_coins": 0
+        "volume_24h": 132089555792.61,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.46,
+        "btc_dominance": 59.44,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-15T09:42:17.515729+00:00",
-      "crypto": 0.4542,
-      "global": 0.4881,
-      "combined": 0.4647,
-      "counts": {
-        "crypto": 71,
-        "global": 52
-      }
-    },
     {
       "ts": "2026-04-15T13:54:53.696229+00:00",
       "crypto": 0.4734,
@@ -1008,57 +998,73 @@
         "crypto": 55,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-04-29T06:29:21.569297+00:00",
+      "crypto": 0.3784,
+      "global": 0.4536,
+      "combined": 0.405,
+      "counts": {
+        "crypto": 56,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Pentagon AI chief confirms DOD's expanded use of Google, says reliance on one model 'never a good thing'",
-        "url": "https://www.cnbc.com/2026/04/28/pentagon-ai-chief-confirms-work-with-google-after-anthropic-blacklist.html",
-        "source": "CNBC Markets",
-        "weight": 0.7533,
+        "title": "S.Korea SME & Startup Ministry on Domestic Growth",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-29/s-korea-sme-startup-ministry-on-domestic-growth-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7189,
+        "score": 0.6667
+      },
+      {
+        "title": "China Fighter Jet Giant’s Sales Surge After India-Pakistan Clash",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/china-fighter-jet-giant-s-sales-surge-after-india-pakistan-clash",
+        "source": "Bloomberg Markets",
+        "weight": 0.6041,
+        "score": 0.6667
+      },
+      {
+        "title": "Chinese Truckmaker XCMG Auto Is Said to Consider $500 Million Hong Kong IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/chinese-truckmaker-xcmg-auto-is-said-to-consider-500-million-hong-kong-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.6009,
         "score": 0.6333
-      },
-      {
-        "title": "Harsh Indian Summer Switches on Aircon, Drinks and Power Stocks",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-04-29/ac-firms-beverage-makers-rally-as-summer-gets-harsher-maruti-misses-estimates",
-        "source": "Bloomberg Markets",
-        "weight": 0.7093,
-        "score": 0.5333
-      },
-      {
-        "title": "AI Rally Ripples Through Chip Supply Chain, Minting New Winners",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/ai-rally-ripples-through-chip-supply-chain-minting-new-winners",
-        "source": "Bloomberg Markets",
-        "weight": 0.6488,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Australia’s New South Wales to Open New Gas Exploration Sites for First Time in a Decade",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/australian-state-allows-new-gas-exploration-for-first-time-in-decade",
+        "title": "Aston Martin Posts Another Loss as Turnaround Effort Stalls",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/aston-martin-posts-another-loss-as-turnaround-effort-stalls",
         "source": "Bloomberg Markets",
-        "weight": 0.7387,
-        "score": -0.9667
-      },
-      {
-        "title": "Albanese Says Australia Won’t Undermine Natural Gas Export Contracts",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/albanese-says-australia-won-t-undermine-natural-gas-export-contracts",
-        "source": "Bloomberg Markets",
-        "weight": 0.6038,
+        "weight": 0.7826,
         "score": -1.0
       },
       {
-        "title": "Korea Ramps Up Private Credit Scrutiny to Gauge Vulnerabilities",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/korea-ramps-up-private-credit-scrutiny-to-gauge-vulnerabilities",
+        "title": "Deutsche Bank CFO Says Trading Business Started Well in April",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/deutsche-bank-cfo-says-trading-business-started-well-in-april",
         "source": "Bloomberg Markets",
-        "weight": 0.6156,
+        "weight": 0.7201,
         "score": -0.9667
+      },
+      {
+        "title": "CFTC pulls Wisconsin into fight over prediction market jurisdiction",
+        "url": "https://cointelegraph.com/news/cftc-sues-wisconsin-over-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7096,
+        "score": -0.7333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.30549426221105214,
+          "price_change_24h": -0.00604
+        }
+      ],
       "momentum_shifts": []
     }
   },
