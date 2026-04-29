@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-29T14:20:13.834893+00:00",
+  "updated_at": "2026-04-29T17:43:43.516294+00:00",
   "indicators": {
-    "change24h": 0.01,
-    "vol": 0.121,
+    "change24h": -0.006,
+    "vol": 0.092,
     "fearGreed": 26,
-    "momentum": 0.178,
-    "regime": "sideways",
+    "momentum": -0.113,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3074,
-    "global_sentiment": 0.4071,
-    "combined_sentiment": 0.3478,
-    "confidence": 0.7732,
+    "crypto_sentiment": 0.4064,
+    "global_sentiment": 0.4633,
+    "combined_sentiment": 0.4268,
+    "confidence": 0.7944,
     "counts": {
-      "crypto": 71,
-      "global": 43
+      "crypto": 68,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 76635,
-      "btc_change_24h": 0.79,
-      "eth_price": 2299.32,
-      "eth_change_24h": 1.23,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "btc_price": 75922,
+      "btc_change_24h": -0.33,
+      "eth_price": 2272.44,
+      "eth_change_24h": -0.8,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 146437869426.0,
+        "volume_24h": 153999008257.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.45,
+        "btc_dominance": 59.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-15T20:31:04.615157+00:00",
-      "crypto": 0.4894,
-      "global": 0.4716,
-      "combined": 0.4897,
-      "counts": {
-        "crypto": 69,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-04-15T21:00:02.650596+00:00",
       "crypto": 0.5065,
@@ -1008,66 +998,76 @@
         "crypto": 71,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-04-29T17:43:43.516294+00:00",
+      "crypto": 0.4064,
+      "global": 0.4633,
+      "combined": 0.4268,
+      "counts": {
+        "crypto": 68,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "80 Seconds of Big Tech Earnings Will Decide Stock Market’s Fate",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/80-seconds-big-tech-earnings-090007149.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7511,
-        "score": 0.6667
+        "title": "Dogecoin leads pre-FOMC rally with 12% gains: Is DOGE price headed to $0.33?",
+        "url": "https://cointelegraph.com/markets/dogecoin-leads-pre-fomc-rally-with-12-gains-is-033-doge-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8082,
+        "score": 0.8667
       },
       {
-        "title": "US Core Capital Goods Orders Rise by Most in Nearly Six Years",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-29/us-core-capital-goods-orders-rise-sharply-in-march-video",
+        "title": "Bitcoin surges alongside oil as BTC price finally decouples from the war narrative… until US markets opened",
+        "url": "https://cryptoslate.com/bitcoin-surges-alongside-oil-as-price-finally-decouples-from-war-narrative-until-us-markets-open/",
+        "source": "CryptoSlate",
+        "weight": 0.6694,
+        "score": 0.8667
+      },
+      {
+        "title": "US Oil Exports Hit Record as Iran War Energy Crunch Deepens",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/us-crude-exports-surge-to-record-above-6-million-barrels-a-day",
         "source": "Bloomberg Markets",
-        "weight": 0.7101,
-        "score": 0.6667
-      },
-      {
-        "title": "CoinDesk 20 performance update: Litecoin (LTC) gains 2.4%, leading index higher",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/04/29/coindesk-20-performance-update-litecoin-ltc-gains-2-4-leading-index-higher",
-        "source": "CoinDesk",
-        "weight": 0.8891,
-        "score": 0.3333
+        "weight": 0.5626,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Dow Slips Ahead Of Fed Decision, Powell; Robinhood Sinks On Earnings (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/e3652675-afe0-328b-9e2e-987e4785dbf7/stock-market-today%3A-dow-slips.html?.tsrc=rss",
+        "title": "OpenAI Sued Over Failure to Warn Police Before Tumbler Ridge Mass Shooting",
+        "url": "https://decrypt.co/365986/openai-sued-failure-warn-police-tumbler-ridge-mass-shooting",
+        "source": "Decrypt",
+        "weight": 0.7501,
+        "score": -1.0
+      },
+      {
+        "title": "Stock Market Today: Nasdaq Falls Ahead of Fed Call, Powell; Alphabet, Amazon Earnings Loom (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/e3652675-afe0-328b-9e2e-987e4785dbf7/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.754,
+        "weight": 0.7735,
         "score": -0.9667
       },
       {
-        "title": "DeFi shaken by $292 million hack, but showing resilience, Standard Chartered says",
-        "url": "https://www.coindesk.com/business/2026/04/29/defi-shaken-by-usd292-million-hack-but-showing-resilience-standard-chartered-says",
-        "source": "CoinDesk",
-        "weight": 0.8495,
-        "score": -0.7333
-      },
-      {
-        "title": "Securitize, Computershare open path for $70 trillion U.S. stocks to move onchain",
-        "url": "https://www.coindesk.com/business/2026/04/29/securitize-computershare-open-path-for-usd70-trillion-u-s-stocks-to-move-onchain",
-        "source": "CoinDesk",
-        "weight": 0.8336,
-        "score": -0.6333
+        "title": "Chips or the Whole Tech Stack? SOXX and VGT Offer Very Different Approaches",
+        "url": "https://www.fool.com/coverage/etfs/2026/04/29/chips-or-the-whole-tech-stack-soxx-and-vgt-offer-very-different-approaches/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7135,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TON",
-          "volume_mcap_ratio": 0.3850278802459775,
-          "price_change_24h": 2.45997
+          "volume_mcap_ratio": 0.3577007155672287,
+          "price_change_24h": 2.13513
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3357033144524632,
-          "price_change_24h": -0.01079
+          "volume_mcap_ratio": 0.356883560437241,
+          "price_change_24h": -0.0246
         }
       ],
       "momentum_shifts": []
