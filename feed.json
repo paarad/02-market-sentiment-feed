@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-29T10:12:40.434165+00:00",
+  "updated_at": "2026-04-29T14:20:13.834893+00:00",
   "indicators": {
-    "change24h": 0.031,
-    "vol": 0.158,
+    "change24h": 0.01,
+    "vol": 0.121,
     "fearGreed": 26,
-    "momentum": 0.535,
+    "momentum": 0.178,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3758,
-    "global_sentiment": 0.4771,
-    "combined_sentiment": 0.405,
-    "confidence": 0.6701,
+    "crypto_sentiment": 0.3074,
+    "global_sentiment": 0.4071,
+    "combined_sentiment": 0.3478,
+    "confidence": 0.7732,
     "counts": {
-      "crypto": 51,
-      "global": 46
+      "crypto": 71,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 77748,
-      "btc_change_24h": 1.6,
-      "eth_price": 2341.58,
-      "eth_change_24h": 2.6,
+      "btc_price": 76635,
+      "btc_change_24h": 0.79,
+      "eth_price": 2299.32,
+      "eth_change_24h": 1.23,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 137199898990.0,
-        "high_activity_coins": 1
+        "volume_24h": 146437869426.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.49,
+        "btc_dominance": 59.45,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-15T17:14:03.061501+00:00",
-      "crypto": 0.4075,
-      "global": 0.4755,
-      "combined": 0.4286,
-      "counts": {
-        "crypto": 70,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-04-15T20:31:04.615157+00:00",
       "crypto": 0.4894,
@@ -1008,6 +998,16 @@
         "crypto": 51,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-04-29T14:20:13.834893+00:00",
+      "crypto": 0.3074,
+      "global": 0.4071,
+      "combined": 0.3478,
+      "counts": {
+        "crypto": 71,
+        "global": 43
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,58 @@
         "title": "80 Seconds of Big Tech Earnings Will Decide Stock Market’s Fate",
         "url": "https://finance.yahoo.com/markets/stocks/articles/80-seconds-big-tech-earnings-090007149.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6957,
+        "weight": 0.7511,
         "score": 0.6667
       },
       {
-        "title": "China’s Mega Banks Ramp Up Profit Growth in First Quarter",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/china-s-mega-banks-post-increased-profits-in-first-quarter",
+        "title": "US Core Capital Goods Orders Rise by Most in Nearly Six Years",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-29/us-core-capital-goods-orders-rise-sharply-in-march-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6817,
+        "weight": 0.7101,
         "score": 0.6667
       },
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "CoinDesk 20 performance update: Litecoin (LTC) gains 2.4%, leading index higher",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/04/29/coindesk-20-performance-update-litecoin-ltc-gains-2-4-leading-index-higher",
+        "source": "CoinDesk",
+        "weight": 0.8891,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "CLARITY’s delay to test Wall Street’s $6.6 trillion stablecoin warning which is at odds with White House view",
-        "url": "https://cryptoslate.com/claritys-delay-to-test-wall-streets-6-6-trillion-stablecoin-warning-which-is-at-odds-with-white-house/",
-        "source": "CryptoSlate",
-        "weight": 0.6527,
-        "score": -1.0
+        "title": "Stock Market Today: Dow Slips Ahead Of Fed Decision, Powell; Robinhood Sinks On Earnings (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/e3652675-afe0-328b-9e2e-987e4785dbf7/stock-market-today%3A-dow-slips.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.754,
+        "score": -0.9667
       },
       {
-        "title": "Ardian Helps Canada’s Largest Pensions Exit Buyout Funds",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-29/france-s-ardian-helps-canada-s-largest-pensions-exit-buyout-funds",
-        "source": "Bloomberg Markets",
-        "weight": 0.7807,
+        "title": "DeFi shaken by $292 million hack, but showing resilience, Standard Chartered says",
+        "url": "https://www.coindesk.com/business/2026/04/29/defi-shaken-by-usd292-million-hack-but-showing-resilience-standard-chartered-says",
+        "source": "CoinDesk",
+        "weight": 0.8495,
+        "score": -0.7333
+      },
+      {
+        "title": "Securitize, Computershare open path for $70 trillion U.S. stocks to move onchain",
+        "url": "https://www.coindesk.com/business/2026/04/29/securitize-computershare-open-path-for-usd70-trillion-u-s-stocks-to-move-onchain",
+        "source": "CoinDesk",
+        "weight": 0.8336,
         "score": -0.6333
-      },
-      {
-        "title": "Iran War: Trump Warns of Extended Hormuz Blockade: WSJ | Daybreak Europe 4/29/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-29/daybreak-europe-4-29-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7198,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "TON",
+          "volume_mcap_ratio": 0.3850278802459775,
+          "price_change_24h": 2.45997
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3172916847439174,
-          "price_change_24h": -0.00157
+          "volume_mcap_ratio": 0.3357033144524632,
+          "price_change_24h": -0.01079
         }
       ],
       "momentum_shifts": []
