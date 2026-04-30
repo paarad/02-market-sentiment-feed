@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-30T17:38:29.449089+00:00",
+  "updated_at": "2026-04-30T20:43:52.579102+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.126,
+    "change24h": 0.025,
+    "vol": 0.172,
     "fearGreed": 29,
-    "momentum": 0.209,
+    "momentum": 0.442,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4884,
-    "global_sentiment": 0.519,
-    "combined_sentiment": 0.4929,
-    "confidence": 0.7897,
+    "crypto_sentiment": 0.4334,
+    "global_sentiment": 0.5151,
+    "combined_sentiment": 0.4513,
+    "confidence": 0.7607,
     "counts": {
-      "crypto": 59,
-      "global": 44
+      "crypto": 57,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 76148,
-      "btc_change_24h": 0.32,
-      "eth_price": 2255.71,
-      "eth_change_24h": -0.72,
+      "btc_price": 76478,
+      "btc_change_24h": 1.0,
+      "eth_price": 2264.44,
+      "eth_change_24h": 0.96,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 140629423022.0,
-        "high_activity_coins": 1
+        "volume_24h": 124252599985.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.48,
+        "btc_dominance": 59.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-16T20:56:53.964892+00:00",
-      "crypto": 0.4784,
-      "global": 0.5533,
-      "combined": 0.4882,
-      "counts": {
-        "crypto": 66,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-04-17T03:29:33.371958+00:00",
       "crypto": 0.4455,
@@ -1008,63 +998,67 @@
         "crypto": 59,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-04-30T20:43:52.579102+00:00",
+      "crypto": 0.4334,
+      "global": 0.5151,
+      "combined": 0.4513,
+      "counts": {
+        "crypto": 57,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tesla Hits a Milestone With Semi Truck Production. The Stock Is Up.",
-        "url": "https://finance.yahoo.com/m/0ff71aae-94d7-357f-9d91-567bf67ed422/tesla-hits-a-milestone-with.html?.tsrc=rss",
+        "title": "How major US stock indexes fared Thursday 4/30/2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-201719608.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6931,
-        "score": 0.6667
+        "weight": 0.7601,
+        "score": 1.0
       },
       {
-        "title": "HederaCon 2026 comes to Miami Beach on May 4 — Last chance to join leaders in tokenization and digital finance",
-        "url": "https://cointelegraph.com/press-releases/hederacon-2026-comes-to-miami-beach-on-may-4-last-chance-to-join-leaders-in-tokenization-and-digital-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6607,
-        "score": 0.6667
+        "title": "US Equity Indexes Jump as Earnings Help Trigger Broad-Based Rally",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-earnings-194126505.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7094,
+        "score": 1.0
       },
       {
-        "title": "CoinDesk 20 performance update: Aptos (APT) gains 4.4% as nearly all assets rise",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/04/30/coindesk-20-performance-update-aptos-apt-gains-4-4-as-nearly-all-assets-rise",
-        "source": "CoinDesk",
-        "weight": 0.6137,
-        "score": 0.6667
+        "title": "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
+        "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
+        "source": "CNBC Markets",
+        "weight": 0.6746,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Eli Lilly Stock Jumps on Earnings Beat as Zepbound and Mounjaro Sales Skyrocket",
+        "url": "https://finance.yahoo.com/m/22cea4b6-aa5a-37d2-9669-74a9b90b423f/eli-lilly-stock-jumps-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7524,
+        "score": -0.9333
+      },
+      {
+        "title": "How Ketamine Spawned a $1.7 Billion J&J Blockbuster Drug",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-30/how-ketamine-spawned-a-1-7-billion-j-j-blockbuster-drug-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7353,
+        "score": -0.9333
+      },
+      {
         "title": "House strips MAHA-hated pesticide provisions from farm bill",
         "url": "https://www.cnbc.com/2026/04/30/congress-house-maha-pesticide-farm-bill-roundup-bayer-glyphosate.html",
         "source": "CNBC Markets",
-        "weight": 0.7855,
+        "weight": 0.5497,
         "score": -1.0
-      },
-      {
-        "title": "Senator Warren questions Commerce Secretary Lutnick on Tether loan to family",
-        "url": "https://www.coindesk.com/policy/2026/04/30/senator-warren-questions-commerce-secretary-lutnick-on-tether-loan-to-family",
-        "source": "CoinDesk",
-        "weight": 0.94,
-        "score": -0.6333
-      },
-      {
-        "title": "FDA proposes excluding Novo, Lilly weight loss drugs from bulk compounding list in win for the companies",
-        "url": "https://www.cnbc.com/2026/04/30/fda-novo-lilly-glp-1s-compounding.html",
-        "source": "CNBC Markets",
-        "weight": 0.5922,
-        "score": -0.9333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.32286373766354887,
-          "price_change_24h": -0.01108
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
