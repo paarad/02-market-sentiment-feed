@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-29T21:13:03.349012+00:00",
+  "updated_at": "2026-04-30T03:49:48.789813+00:00",
   "indicators": {
-    "change24h": -0.016,
-    "vol": 0.092,
-    "fearGreed": 26,
-    "momentum": -0.274,
+    "change24h": -0.01,
+    "vol": 0.12,
+    "fearGreed": 29,
+    "momentum": -0.175,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4184,
-    "global_sentiment": 0.5197,
-    "combined_sentiment": 0.4405,
-    "confidence": 0.8029,
+    "crypto_sentiment": 0.3851,
+    "global_sentiment": 0.5147,
+    "combined_sentiment": 0.415,
+    "confidence": 0.7238,
     "counts": {
-      "crypto": 66,
-      "global": 38
+      "crypto": 50,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 75711,
-      "btc_change_24h": -0.84,
-      "eth_price": 2242.51,
-      "eth_change_24h": -2.11,
+      "btc_price": 75876,
+      "btc_change_24h": -1.46,
+      "eth_price": 2253.02,
+      "eth_change_24h": -2.52,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.15,
       "fear_greed": {
-        "value": 26,
+        "value": 29,
         "classification": "Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 169159233805.0,
+        "volume_24h": 171059314099.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.41,
+        "btc_dominance": 59.4,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-16T06:07:29.345814+00:00",
-      "crypto": 0.61,
-      "global": 0.5983,
-      "combined": 0.5907,
-      "counts": {
-        "crypto": 72,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-04-16T09:26:29.992659+00:00",
       "crypto": 0.6077,
@@ -1008,66 +998,76 @@
         "crypto": 66,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-04-30T03:49:48.789813+00:00",
+      "crypto": 0.3851,
+      "global": 0.5147,
+      "combined": 0.415,
+      "counts": {
+        "crypto": 50,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Microsoft beats on top and bottom lines with 40% Azure growth",
-        "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+        "title": "Samsung profit surges over eightfold to beat estimates as AI boom fuels memory chip crunch",
+        "url": "https://www.cnbc.com/2026/04/30/samsung-q1-earnings-ai-memory-chip-demand-profit-record.html",
         "source": "CNBC Markets",
-        "weight": 0.799,
+        "weight": 0.759,
         "score": 0.6667
       },
       {
-        "title": "Bitmine (BMNR) Identifies the Perfect Wartime Store of Value",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-bmnr-identifies-perfect-wartime-202908214.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7351,
-        "score": 0.6667
+        "title": "Brent crude hits wartime high, soaring past $123, as U.S. military to reportedly brief Trump on action against Iran",
+        "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
+        "source": "CNBC Markets",
+        "weight": 0.7956,
+        "score": 0.5333
       },
       {
-        "title": "Dogecoin leads pre-FOMC rally with 12% gains: Is DOGE price headed to $0.33?",
-        "url": "https://cointelegraph.com/markets/dogecoin-leads-pre-fomc-rally-with-12-gains-is-033-doge-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5401,
+        "title": "AI-Led Rally in Asia Stocks Masks Deeper Damage from Iran War",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-29/ai-led-rally-in-asia-stocks-masks-deeper-damage-from-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.4579,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Key Senator Pushes for Vote on Clarity Act—But Hurdles Remain",
-        "url": "https://decrypt.co/366090/key-senator-clarity-act-vote-hurdles-remain",
-        "source": "Decrypt",
-        "weight": 0.7851,
-        "score": -0.6667
+        "title": "US Urged to Turn ‘Rhetoric Into Reality’ on Pacific Fuel Supply",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-30/us-urged-to-turn-rhetoric-into-reality-on-pacific-fuel-supply",
+        "source": "Bloomberg Markets",
+        "weight": 0.5872,
+        "score": -0.9667
       },
       {
-        "title": "OpenAI Sued Over Failure to Warn Police Before Tumbler Ridge Mass Shooting",
-        "url": "https://decrypt.co/365986/openai-sued-failure-warn-police-tumbler-ridge-mass-shooting",
-        "source": "Decrypt",
-        "weight": 0.5013,
-        "score": -1.0
-      },
-      {
-        "title": "TSX Closer: The Index Falls For a Fifth-Straight Session as the Bank of Canada Stands Pat",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tsx-closer-index-falls-fifth-201647645.html?.tsrc=rss",
+        "title": "IJJ vs. IWN: Which iShares Value ETF Is the Better Buy for Investors?",
+        "url": "https://www.fool.com/coverage/etfs/2026/04/29/ijj-vs-iwn-which-ishares-value-etf-is-the-better-buy-for-investors/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7179,
-        "score": -0.6333
+        "weight": 0.5854,
+        "score": -0.9667
+      },
+      {
+        "title": "Bitcoin futures signal caution as long-to-short ratio signals positioning shift",
+        "url": "https://cointelegraph.com/markets/bitcoin-futures-signal-caution-long-to-short-ratio?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5368,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3879011380324092,
-          "price_change_24h": -0.02824
+          "volume_mcap_ratio": 0.3906657582953934,
+          "price_change_24h": -0.0243
         },
         {
           "symbol": "TON",
-          "volume_mcap_ratio": 0.3482475538459008,
-          "price_change_24h": 1.00306
+          "volume_mcap_ratio": 0.33498669793557695,
+          "price_change_24h": 0.25158
         }
       ],
       "momentum_shifts": []
