@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-30T06:33:07.588987+00:00",
+  "updated_at": "2026-04-30T10:13:07.972777+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.108,
+    "change24h": -0.023,
+    "vol": 0.125,
     "fearGreed": 29,
-    "momentum": -0.329,
+    "momentum": -0.401,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3998,
-    "global_sentiment": 0.4622,
-    "combined_sentiment": 0.4217,
-    "confidence": 0.7085,
+    "crypto_sentiment": 0.3856,
+    "global_sentiment": 0.5103,
+    "combined_sentiment": 0.4151,
+    "confidence": 0.6864,
     "counts": {
-      "crypto": 49,
-      "global": 34
+      "crypto": 48,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 75660,
-      "btc_change_24h": -1.81,
-      "eth_price": 2246.26,
-      "eth_change_24h": -3.48,
+      "btc_price": 76095,
+      "btc_change_24h": -2.1,
+      "eth_price": 2262.89,
+      "eth_change_24h": -3.41,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.25,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 167047636130.0,
-        "high_activity_coins": 2
+        "volume_24h": 158378659878.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.39,
+        "btc_dominance": 59.42,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-16T14:03:55.499802+00:00",
-      "crypto": 0.5175,
-      "global": 0.5841,
-      "combined": 0.5201,
-      "counts": {
-        "crypto": 66,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-04-16T17:22:42.634468+00:00",
       "crypto": 0.5002,
@@ -1008,52 +998,62 @@
         "crypto": 49,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-04-30T10:13:07.972777+00:00",
+      "crypto": 0.3856,
+      "global": 0.5103,
+      "combined": 0.4151,
+      "counts": {
+        "crypto": 48,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Glencore’s Traders Score Big Profits as War Rattles Energy Markets",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-30/glencore-s-traders-score-big-profits-as-war-roils-energy-markets",
-        "source": "Bloomberg Markets",
-        "weight": 0.7664,
+        "title": "Brent pares gains after hitting 4-year highs as report stokes worries of U.S. military action against Iran",
+        "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
+        "source": "CNBC Markets",
+        "weight": 0.7299,
         "score": 0.8667
       },
       {
-        "title": "Trump Argues UAE’s OPEC Exit Could Lower Energy Prices",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-30/trump-argues-uae-s-opec-exit-could-lower-energy-prices-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6826,
+        "title": "Samsung profit surges over eightfold to beat estimates as AI boom fuels memory chip crunch",
+        "url": "https://www.cnbc.com/2026/04/30/samsung-q1-earnings-ai-memory-chip-demand-profit-record.html",
+        "source": "CNBC Markets",
+        "weight": 0.5896,
         "score": 0.6667
       },
       {
-        "title": "Corn Extends Gains as War Premium Ignites Broad Crops Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-30/corn-extends-gains-as-war-premium-ignites-broad-crops-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.6197,
-        "score": 0.6667
+        "title": "Tech earnings, oil spike and Fed decision drive market moves: Dow Jones, S&P, Nasdaq, Wall Street Futures",
+        "url": "https://investorshub.advfn.com/market-news/article/27521/tech-earnings-oil-spike-and-fed-decision-drive-market-moves-dow-jones-sp-nasdaq-wall-street-futures?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7265,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Credit Agricole Results Weighed Down by Fixed Income Weakness",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-30/credit-agricole-results-weighed-down-by-fixed-income-weakness",
-        "source": "Bloomberg Markets",
-        "weight": 0.6702,
-        "score": -1.0
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Credit Buffers in Focus as Traders Await Australian Bank Results",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-30/credit-buffers-in-focus-as-traders-await-australian-bank-results",
-        "source": "Bloomberg Markets",
-        "weight": 0.6723,
-        "score": -0.9667
+        "title": "Private credit fears loom large over Europe’s banks this earnings season",
+        "url": "https://www.cnbc.com/2026/04/30/private-credit-risk-banks-europe-earnings-barclays-ubs-debt-santander.html",
+        "source": "CNBC Markets",
+        "weight": 0.6064,
+        "score": -0.6667
       },
       {
-        "title": "Malaysia Working on Securing Fuel Supply Beyond June",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-30/malaysia-working-on-securing-fuel-supply-beyond-june-video",
+        "title": "Fed's Hawkish Tilt, Iran Concerns Weigh on Markets | The China Show 4/30/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-30/the-china-show-4-30-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6977,
+        "weight": 0.6196,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3799399186586156,
-          "price_change_24h": -0.0321
-        },
-        {
-          "symbol": "TON",
-          "volume_mcap_ratio": 0.31102252002312614,
-          "price_change_24h": -0.58152
+          "volume_mcap_ratio": 0.3618879880370265,
+          "price_change_24h": -0.03386
         }
       ],
       "momentum_shifts": []
