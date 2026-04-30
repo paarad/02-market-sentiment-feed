@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-30T10:13:07.972777+00:00",
+  "updated_at": "2026-04-30T14:13:55.014340+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.125,
+    "change24h": 0.001,
+    "vol": 0.108,
     "fearGreed": 29,
-    "momentum": -0.401,
-    "regime": "bear",
+    "momentum": 0.022,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3856,
-    "global_sentiment": 0.5103,
-    "combined_sentiment": 0.4151,
-    "confidence": 0.6864,
+    "crypto_sentiment": 0.4569,
+    "global_sentiment": 0.5767,
+    "combined_sentiment": 0.4741,
+    "confidence": 0.7599,
     "counts": {
-      "crypto": 48,
+      "crypto": 46,
       "global": 40
     },
     "market_indicators": {
-      "btc_price": 76095,
-      "btc_change_24h": -2.1,
-      "eth_price": 2262.89,
-      "eth_change_24h": -3.41,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 76321,
+      "btc_change_24h": -0.31,
+      "eth_price": 2260.05,
+      "eth_change_24h": -1.56,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158378659878.0,
+        "volume_24h": 155156093644.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.42,
+        "btc_dominance": 59.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-16T17:22:42.634468+00:00",
-      "crypto": 0.5002,
-      "global": 0.4039,
-      "combined": 0.4922,
-      "counts": {
-        "crypto": 67,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-04-16T20:33:11.612489+00:00",
       "crypto": 0.5082,
@@ -1008,52 +998,62 @@
         "crypto": 48,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-04-30T14:13:55.014340+00:00",
+      "crypto": 0.4569,
+      "global": 0.5767,
+      "combined": 0.4741,
+      "counts": {
+        "crypto": 46,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Brent pares gains after hitting 4-year highs as report stokes worries of U.S. military action against Iran",
-        "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
-        "source": "CNBC Markets",
-        "weight": 0.7299,
-        "score": 0.8667
-      },
-      {
-        "title": "Samsung profit surges over eightfold to beat estimates as AI boom fuels memory chip crunch",
-        "url": "https://www.cnbc.com/2026/04/30/samsung-q1-earnings-ai-memory-chip-demand-profit-record.html",
-        "source": "CNBC Markets",
-        "weight": 0.5896,
+        "title": "CoinDesk 20 performance update: Aptos (APT) gains 4.4% as nearly all assets rise",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/04/30/coindesk-20-performance-update-aptos-apt-gains-4-4-as-nearly-all-assets-rise",
+        "source": "CoinDesk",
+        "weight": 0.91,
         "score": 0.6667
       },
       {
-        "title": "Tech earnings, oil spike and Fed decision drive market moves: Dow Jones, S&P, Nasdaq, Wall Street Futures",
-        "url": "https://investorshub.advfn.com/market-news/article/27521/tech-earnings-oil-spike-and-fed-decision-drive-market-moves-dow-jones-sp-nasdaq-wall-street-futures?.tsrc=rss",
+        "title": "'No Signal For Resolution' As US Mulls Iran Military Options",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-30/ing-s-patterson-on-massive-repricing-in-oil-market-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6674,
+        "score": 0.8667
+      },
+      {
+        "title": "Fed Inflation Gauge Hits 2-Year High As AI Boosts GDP; S&P 500 Rises (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/6d5d28d5-16b9-39f8-bdd5-f3edc188a938/fed-inflation-gauge-hits.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7265,
-        "score": 0.5333
+        "weight": 0.7546,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 29 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Crypto hack losses top $630M in April, highest since February 2025",
+        "url": "https://cointelegraph.com/news/crypto-hacks-cause-630m-losses-in-april-highest-since-february-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6039,
+        "score": -1.0
       },
       {
-        "title": "Private credit fears loom large over Europe’s banks this earnings season",
-        "url": "https://www.cnbc.com/2026/04/30/private-credit-risk-banks-europe-earnings-barclays-ubs-debt-santander.html",
-        "source": "CNBC Markets",
-        "weight": 0.6064,
-        "score": -0.6667
+        "title": "US seized $500M in Iranian crypto assets, Treasury secretary says",
+        "url": "https://cointelegraph.com/news/us-seized-500m-in-iranian-crypto-assets-treasury-secretary-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5744,
+        "score": -0.9667
       },
       {
-        "title": "Fed's Hawkish Tilt, Iran Concerns Weigh on Markets | The China Show 4/30/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-30/the-china-show-4-30-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6196,
+        "title": "Stock Market Today: Dow Rises After Inflation Data; Caterpillar Soars Past Entry, Meta Plunges (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/aaff38c8-782f-358a-8e64-6e77c0120435/stock-market-today%3A-dow-rises.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7972,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3618879880370265,
-          "price_change_24h": -0.03386
+          "volume_mcap_ratio": 0.3516275993288688,
+          "price_change_24h": -0.02957
         }
       ],
       "momentum_shifts": []
