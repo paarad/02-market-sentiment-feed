@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-01T20:35:11.659061+00:00",
+  "updated_at": "2026-05-01T21:00:40.645615+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.163,
+    "change24h": 0.02,
+    "vol": 0.136,
     "fearGreed": 26,
-    "momentum": 0.473,
+    "momentum": 0.355,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4995,
-    "global_sentiment": 0.4969,
-    "combined_sentiment": 0.4994,
-    "confidence": 0.7765,
+    "crypto_sentiment": 0.5134,
+    "global_sentiment": 0.5496,
+    "combined_sentiment": 0.5142,
+    "confidence": 0.7799,
     "counts": {
-      "crypto": 54,
-      "global": 42
+      "crypto": 68,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 78135,
-      "btc_change_24h": 2.16,
-      "eth_price": 2298.78,
-      "eth_change_24h": 1.53,
+      "btc_price": 77859,
+      "btc_change_24h": 1.82,
+      "eth_price": 2284.37,
+      "eth_change_24h": 0.92,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 132867681456.0,
+        "volume_24h": 133724632553.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.86,
+        "btc_dominance": 59.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-17T20:55:09.511189+00:00",
-      "crypto": 0.4856,
-      "global": 0.4393,
-      "combined": 0.4842,
-      "counts": {
-        "crypto": 73,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-04-18T03:17:40.717591+00:00",
       "crypto": 0.5106,
@@ -1008,29 +998,39 @@
         "crypto": 54,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-01T21:00:40.645615+00:00",
+      "crypto": 0.5134,
+      "global": 0.5496,
+      "combined": 0.5142,
+      "counts": {
+        "crypto": 68,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Nasdaq Tops 25,000. Tech Is Back In Control.",
+        "url": "https://finance.yahoo.com/m/800fe5c4-ed3b-3499-989a-deb0e50c256a/nasdaq-tops-25%2C000.-tech-is.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7143,
+        "score": 1.0
+      },
+      {
         "title": "XRP sentiment hits 2-year high, but why is price stuck?",
         "url": "https://cointelegraph.com/markets/xrp-sentiment-hits-2-year-high-but-why-is-price-stuck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8342,
+        "weight": 0.7943,
         "score": 0.8667
-      },
-      {
-        "title": "Apple Growth Engine Powers Ahead | Open Interest 5/1/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-01/open-interest-5-1-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6054,
-        "score": 1.0
       },
       {
         "title": "Paramount Skydance Stock Pops After Double Upgrade. Why Morgan Stanley Analyst Says It’s the ‘Riskiest’ Call.",
         "url": "https://finance.yahoo.com/m/342ffb8f-1b66-317f-b85b-63b65fb595d8/paramount-skydance-stock-pops.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6433,
+        "weight": 0.727,
         "score": 0.8667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Roblox shares plummet 18% as child safety measures weigh on bookings",
         "url": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html",
         "source": "CNBC Markets",
-        "weight": 0.7496,
+        "weight": 0.7137,
         "score": -1.0
       },
       {
         "title": "Ethereum Foundation Sells $23 Million More in ETH to Tom Lee's BitMine",
         "url": "https://decrypt.co/366385/ethereum-foundation-sells-23-million-more-eth-tom-lee-bitmine",
         "source": "Decrypt",
-        "weight": 0.8416,
+        "weight": 0.8013,
         "score": -0.6333
       },
       {
         "title": "US Economic Resilience Lowers Rate Cut Odds, Private Credit Fears | Real Yield 5/1/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-05-01/real-yield-5-1-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7652,
+        "weight": 0.7286,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3062266115896883,
-          "price_change_24h": 0.02861
+          "volume_mcap_ratio": 0.31051862219846105,
+          "price_change_24h": 0.0283
         }
       ],
       "momentum_shifts": []
