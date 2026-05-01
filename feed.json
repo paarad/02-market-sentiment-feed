@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-01T09:52:56.233912+00:00",
+  "updated_at": "2026-05-01T13:42:58.175149+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.103,
+    "change24h": 0.027,
+    "vol": 0.096,
     "fearGreed": 26,
-    "momentum": 0.206,
+    "momentum": 0.476,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5423,
-    "global_sentiment": 0.5615,
-    "combined_sentiment": 0.5368,
-    "confidence": 0.7329,
+    "crypto_sentiment": 0.524,
+    "global_sentiment": 0.5962,
+    "combined_sentiment": 0.526,
+    "confidence": 0.7758,
     "counts": {
-      "crypto": 49,
-      "global": 48
+      "crypto": 55,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 77194,
-      "btc_change_24h": 1.41,
-      "eth_price": 2280.16,
-      "eth_change_24h": 0.77,
+      "btc_price": 78169,
+      "btc_change_24h": 2.14,
+      "eth_price": 2309.21,
+      "eth_change_24h": 1.86,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 26,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113825903271.0,
+        "volume_24h": 118102293267.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.68,
+        "btc_dominance": 59.85,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-17T13:46:55.899883+00:00",
-      "crypto": 0.4908,
-      "global": 0.5088,
-      "combined": 0.4938,
-      "counts": {
-        "crypto": 70,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-04-17T17:00:01.330112+00:00",
       "crypto": 0.5005,
@@ -1008,53 +998,63 @@
         "crypto": 49,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-05-01T13:42:58.175149+00:00",
+      "crypto": 0.524,
+      "global": 0.5962,
+      "combined": 0.526,
+      "counts": {
+        "crypto": 55,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Futures Rise as Strong Earnings Season Rolls On",
-        "url": "https://finance.yahoo.com/m/9a26981a-3129-3eb7-95d2-5212f9721944/stock-futures-rise-as-strong.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6355,
-        "score": 1.0
-      },
-      {
-        "title": "Ooredoo CEO: Zero Interruptions Due to Regional Crisis",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-01/ooredoo-ceo-zero-interruptions-due-to-regional-crisis-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5351,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin’s surge to $77K pressures shorts, but absent spot and long leverage caps rallies",
-        "url": "https://cointelegraph.com/markets/bitcoins-surge-through-77k-pressures-shorts-but-absent-spot-and-long-leverage-cap-rallies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Did Dogecoin bottom first? DOGE price poised for 20% gains as whales return",
+        "url": "https://cointelegraph.com/markets/dogecoin-targets-20-gains-as-doge-whale-holdings-reach-new-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4861,
+        "weight": 0.8548,
         "score": 1.0
+      },
+      {
+        "title": "US Premarket Movers for May 1, 2026",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-01/us-stock-futures-today-amgen-apple-moderna-roblox-sandisk",
+        "source": "Bloomberg Markets",
+        "weight": 0.6388,
+        "score": 0.8667
+      },
+      {
+        "title": "5 Large-Cap Momentum Stocks to Buy in May After a Fabulous April",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/5-large-cap-momentum-stocks-113500245.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6253,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Iran War: Trump Says Blockade Having 'Incredible' Effect | Daybreak Europe 05/01/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-01/daybreak-europe-5-01-2026-video",
+        "title": "Moderna CEO on Earnings, Flu Shots and Skin Cancer Trials",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-01/moderna-ceo-on-earnings-flu-shots-skin-cancer-trials-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5576,
-        "score": -0.9667
+        "weight": 0.7859,
+        "score": -0.9333
       },
       {
-        "title": "DeFi protocol Carrot becomes first casualty of $285M Drift exploit",
-        "url": "https://cointelegraph.com/news/defi-protocol-carrot-becomes-first-casualty-of-285m-drift-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5605,
-        "score": -0.8333
+        "title": "Senators Warren, Wyden Quiz Commerce Secretary Lutnick Over Tether Loan to Children’s Trust",
+        "url": "https://decrypt.co/366312/senators-warren-wyden-quiz-commerce-secretary-lutnick-over-tether-loan-to-childrens-trust",
+        "source": "Decrypt",
+        "weight": 0.8314,
+        "score": -0.6333
       },
       {
-        "title": "Jane Fraser Turned Citigroup Inside Out. Now Comes the Hard Part.",
-        "url": "https://finance.yahoo.com/m/766780ff-6704-3089-98b2-e14edab1ecfa/jane-fraser-turned-citigroup.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4551,
-        "score": -0.9667
+        "title": "Video shows Cole Allen scouting hotel, storming checkpoint in alleged Trump assassination attempt",
+        "url": "https://www.cnbc.com/2026/04/30/cole-allen-video-trump-attempted-assassination-pirro.html",
+        "source": "CNBC Markets",
+        "weight": 0.7947,
+        "score": -0.6333
       }
     ],
     "market_movers": {
