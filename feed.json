@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-04-30T21:08:11.559124+00:00",
+  "updated_at": "2026-05-01T04:01:03.954862+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.167,
-    "fearGreed": 29,
-    "momentum": 0.462,
+    "change24h": 0.021,
+    "vol": 0.129,
+    "fearGreed": 26,
+    "momentum": 0.361,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4327,
-    "global_sentiment": 0.5494,
-    "combined_sentiment": 0.4536,
-    "confidence": 0.7534,
+    "crypto_sentiment": 0.4759,
+    "global_sentiment": 0.5401,
+    "combined_sentiment": 0.4852,
+    "confidence": 0.6989,
     "counts": {
-      "crypto": 42,
-      "global": 48
+      "crypto": 58,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 76478,
-      "btc_change_24h": 1.11,
-      "eth_price": 2262.67,
-      "eth_change_24h": 0.94,
+      "btc_price": 77092,
+      "btc_change_24h": 1.63,
+      "eth_price": 2281.95,
+      "eth_change_24h": 1.37,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.7,
       "fear_greed": {
-        "value": 29,
+        "value": 26,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122759634767.0,
+        "volume_24h": 114372706825.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.54,
+        "btc_dominance": 59.62,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-17T06:08:08.477878+00:00",
-      "crypto": 0.4117,
-      "global": 0.5894,
-      "combined": 0.4412,
-      "counts": {
-        "crypto": 66,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-04-17T09:25:22.461166+00:00",
       "crypto": 0.3803,
@@ -1008,53 +998,63 @@
         "crypto": 42,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-05-01T04:01:03.954862+00:00",
+      "crypto": 0.4759,
+      "global": 0.5401,
+      "combined": 0.4852,
+      "counts": {
+        "crypto": 58,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Thursday 4/30/2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-201719608.html?.tsrc=rss",
+        "title": "USA Rare Earth (USAR) Climbs 18% — Here’s What Propelled The Stock",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-climbs-034856747.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7254,
+        "weight": 0.7815,
         "score": 1.0
       },
       {
-        "title": "US Equity Indexes Jump as Earnings Help Trigger Broad-Based Rally",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-jump-earnings-194126505.html?.tsrc=rss",
+        "title": "Review & Preview: Partying Like It’s 2020",
+        "url": "https://finance.yahoo.com/m/f73af0ac-99de-3424-a5fd-2e52e3eb3fb4/review-%26-preview%3A-partying.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6769,
+        "weight": 0.4981,
         "score": 1.0
       },
       {
-        "title": "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
-        "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
-        "source": "CNBC Markets",
-        "weight": 0.6438,
+        "title": "Cathie Wood buys $14.1 million of megacap tech stock",
+        "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-14-1-million-of-megacap-tech-stock-alphabet-goog?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5058,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Eli Lilly Stock Jumps on Earnings Beat as Zepbound and Mounjaro Sales Skyrocket",
-        "url": "https://finance.yahoo.com/m/22cea4b6-aa5a-37d2-9669-74a9b90b423f/eli-lilly-stock-jumps-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.718,
-        "score": -0.9333
-      },
-      {
-        "title": "How Ketamine Spawned a $1.7 Billion J&J Blockbuster Drug",
-        "url": "https://www.bloomberg.com/news/videos/2026-04-30/how-ketamine-spawned-a-1-7-billion-j-j-blockbuster-drug-video",
+        "title": "Antidepressant Maker Seaport Raises $255 Million in Upsized IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-01/antidepressant-maker-seaport-raises-255-million-in-upsized-ipo",
         "source": "Bloomberg Markets",
-        "weight": 0.7016,
+        "weight": 0.6312,
         "score": -0.9333
       },
       {
-        "title": "House strips MAHA-hated pesticide provisions from farm bill",
-        "url": "https://www.cnbc.com/2026/04/30/congress-house-maha-pesticide-farm-bill-roundup-bayer-glyphosate.html",
-        "source": "CNBC Markets",
-        "weight": 0.5246,
-        "score": -1.0
+        "title": "Seaport Therapeutics Said to Raise $255 Million in IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-30/seaport-therapeutics-said-to-raise-255-million-in-upsized-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.472,
+        "score": -0.9333
+      },
+      {
+        "title": "Fear & Greed 26 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
