@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-02T09:14:04.495348+00:00",
+  "updated_at": "2026-05-02T13:26:49.219639+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.135,
+    "change24h": 0.006,
+    "vol": 0.112,
     "fearGreed": 39,
-    "momentum": 0.307,
+    "momentum": 0.097,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5635,
-    "global_sentiment": 0.4168,
-    "combined_sentiment": 0.5407,
-    "confidence": 0.665,
+    "crypto_sentiment": 0.4841,
+    "global_sentiment": 0.4986,
+    "combined_sentiment": 0.4879,
+    "confidence": 0.6514,
     "counts": {
       "crypto": 57,
-      "global": 39
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 78284,
-      "btc_change_24h": 1.27,
-      "eth_price": 2304.63,
-      "eth_change_24h": 0.87,
+      "btc_price": 78292,
+      "btc_change_24h": 0.02,
+      "eth_price": 2308.18,
+      "eth_change_24h": 0.03,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 39,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 119442793938.0,
+        "volume_24h": 103140290071.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.91,
+        "btc_dominance": 59.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-18T13:17:13.283636+00:00",
-      "crypto": 0.3514,
-      "global": 0.4704,
-      "combined": 0.3861,
-      "counts": {
-        "crypto": 72,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-04-18T16:51:47.173510+00:00",
       "crypto": 0.4858,
@@ -1008,53 +998,63 @@
         "crypto": 57,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-05-02T13:26:49.219639+00:00",
+      "crypto": 0.4841,
+      "global": 0.4986,
+      "combined": 0.4879,
+      "counts": {
+        "crypto": 57,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin rally extends, yet BTC options price only 25% chance of $84K in May",
-        "url": "https://cointelegraph.com/markets/bitcoin-rally-extends-yet-btc-options-price-only-25-chance-of-84k-in-may?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5687,
+        "title": "This Tech Billionaire's Net Worth Crossed $300 Billion In April On AI Rally As Elon Musk Stays Richest In The World",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tech-billionaires-net-worth-crossed-123211761.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7201,
         "score": 1.0
       },
       {
-        "title": "Bitcoin’s next breakout will depend on whether investors treat $80K as relief, resistance, or the start of a new recovery",
-        "url": "https://cryptoslate.com/bitcoins-next-breakout-will-depend-on-whether-investors-treat-80k-as-relief-resistance-or-the-start-of-a-new-recovery/",
+        "title": "The crypto IPO wave has one big problem: Bitcoin is still in charge",
+        "url": "https://cryptoslate.com/the-crypto-ipo-wave-has-one-big-problem-bitcoin-is-still-in-charge/",
         "source": "CryptoSlate",
-        "weight": 0.6514,
-        "score": 0.8667
+        "weight": 0.7127,
+        "score": 0.8333
       },
       {
-        "title": "Global crypto market cap up 1.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Jerome Powell's Fed years were an everything rally: Chart of the Day",
+        "url": "https://finance.yahoo.com/markets/article/jerome-powells-fed-years-were-an-everything-rally-chart-of-the-day-130000116.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7597,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "India's Woes Bigger Than Any One Political Figure, Amitav Ghosh Says",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-02/india-s-woes-bigger-than-one-figure-amitav-ghosh-says-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7034,
+        "title": "The $292M crypto hack exposed DeFi's weak spots. Here’s what must change, insiders say",
+        "url": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say",
+        "source": "CoinDesk",
+        "weight": 0.9497,
+        "score": -0.7333
+      },
+      {
+        "title": "Weight loss and hair loss: The growing hair treatment market from GLP-1s",
+        "url": "https://www.cnbc.com/2026/05/02/hair-loss-glp-1s.html",
+        "source": "CNBC Markets",
+        "weight": 0.6769,
         "score": -1.0
       },
       {
-        "title": "Bitcoin doesn’t need a fresh narrative to reclaim $100K: Analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-doesnt-need-a-fresh-narrative-to-reclaim-100k-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5627,
-        "score": -1.0
-      },
-      {
-        "title": "India-Linked Tanker Laden With Cooking Fuel Attempts Hormuz Exit",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-02/india-linked-tanker-laden-with-cooking-fuel-attempts-hormuz-exit",
+        "title": "Iran Juggles Oil Cuts and Storage Strain to Resist US Blockade",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-02/iran-juggles-oil-cuts-and-storage-strain-to-resist-us-blockade",
         "source": "Bloomberg Markets",
-        "weight": 0.5299,
-        "score": -0.9333
+        "weight": 0.7222,
+        "score": -0.6333
       }
     ],
     "market_movers": {
