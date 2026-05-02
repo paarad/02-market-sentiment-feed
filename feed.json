@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-02T16:58:25.614700+00:00",
+  "updated_at": "2026-05-02T20:25:52.223297+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.051,
+    "change24h": 0.006,
+    "vol": 0.047,
     "fearGreed": 39,
-    "momentum": 0.065,
+    "momentum": 0.098,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4301,
-    "global_sentiment": 0.4384,
-    "combined_sentiment": 0.4425,
-    "confidence": 0.6821,
+    "crypto_sentiment": 0.4109,
+    "global_sentiment": 0.514,
+    "combined_sentiment": 0.4343,
+    "confidence": 0.6561,
     "counts": {
       "crypto": 58,
-      "global": 40
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 78450,
-      "btc_change_24h": 0.25,
-      "eth_price": 2309.43,
-      "eth_change_24h": 0.3,
+      "btc_price": 78418,
+      "btc_change_24h": 0.33,
+      "eth_price": 2310.05,
+      "eth_change_24h": 0.44,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 39,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 80358471773.0,
+        "volume_24h": 71708942339.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.9,
+        "btc_dominance": 59.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-18T20:18:04.059816+00:00",
-      "crypto": 0.3933,
-      "global": 0.3408,
-      "combined": 0.4067,
-      "counts": {
-        "crypto": 74,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-18T20:45:51.495443+00:00",
       "crypto": 0.3926,
@@ -1008,53 +998,63 @@
         "crypto": 58,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-05-02T20:25:52.223297+00:00",
+      "crypto": 0.4109,
+      "global": 0.514,
+      "combined": 0.4343,
+      "counts": {
+        "crypto": 58,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "This Tech Billionaire's Net Worth Crossed $300 Billion In April On AI Rally As Elon Musk Stays Richest In The World",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tech-billionaires-net-worth-crossed-123211761.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4791,
-        "score": 1.0
+        "title": "Aegon, Barclays Say Prepare for Market Pain",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-02/aegon-barclays-say-prepare-for-market-pain-credit-weekly",
+        "source": "Bloomberg Markets",
+        "weight": 0.6781,
+        "score": 0.5333
       },
       {
         "title": "Is This a Stock Market Melt-Up? Here Are Ways to Tell",
         "url": "https://www.bloomberg.com/news/articles/2026-05-02/is-this-a-stock-market-melt-up-here-are-ways-to-tell",
         "source": "Bloomberg Markets",
-        "weight": 0.6011,
+        "weight": 0.4032,
         "score": 0.6667
       },
       {
         "title": "The crypto IPO wave has one big problem: Bitcoin is still in charge",
         "url": "https://cryptoslate.com/the-crypto-ipo-wave-has-one-big-problem-bitcoin-is-still-in-charge/",
         "source": "CryptoSlate",
-        "weight": 0.4742,
+        "weight": 0.3181,
         "score": 0.8333
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 39 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks",
         "url": "https://www.cnbc.com/2026/05/02/iran-war-airfare-travel-airlines-plane-tickets-when-to-buy.html",
         "source": "CNBC Markets",
-        "weight": 0.607,
+        "weight": 0.4071,
         "score": -1.0
       },
       {
         "title": "Jane Fraser Turned Citigroup Inside Out. Now Comes the Hard Part.",
         "url": "https://finance.yahoo.com/m/766780ff-6704-3089-98b2-e14edab1ecfa/jane-fraser-turned-citigroup.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5977,
+        "weight": 0.4009,
         "score": -0.9667
-      },
-      {
-        "title": "The $292M crypto hack exposed DeFi's weak spots. Here’s what must change, insiders say",
-        "url": "https://www.coindesk.com/business/2026/05/02/the-usd292m-crypto-hack-exposed-defi-s-weak-spots-here-s-what-must-change-insiders-say",
-        "source": "CoinDesk",
-        "weight": 0.6319,
-        "score": -0.7333
       }
     ],
     "market_movers": {
