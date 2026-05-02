@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-01T21:00:40.645615+00:00",
+  "updated_at": "2026-05-02T03:34:20.237440+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.136,
-    "fearGreed": 26,
-    "momentum": 0.355,
+    "change24h": 0.016,
+    "vol": 0.156,
+    "fearGreed": 39,
+    "momentum": 0.282,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5134,
-    "global_sentiment": 0.5496,
-    "combined_sentiment": 0.5142,
-    "confidence": 0.7799,
+    "crypto_sentiment": 0.5039,
+    "global_sentiment": 0.5214,
+    "combined_sentiment": 0.5047,
+    "confidence": 0.6952,
     "counts": {
-      "crypto": 68,
-      "global": 39
+      "crypto": 55,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 77859,
-      "btc_change_24h": 1.82,
-      "eth_price": 2284.37,
-      "eth_change_24h": 0.92,
+      "btc_price": 78359,
+      "btc_change_24h": 1.51,
+      "eth_price": 2304.85,
+      "eth_change_24h": 0.84,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
-        "value": 26,
+        "value": 39,
         "classification": "Fear",
-        "trend": "declining"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133724632553.0,
-        "high_activity_coins": 1
+        "volume_24h": 127792868609.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.84,
+        "btc_dominance": 59.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-18T03:17:40.717591+00:00",
-      "crypto": 0.5106,
-      "global": 0.4376,
-      "combined": 0.5028,
-      "counts": {
-        "crypto": 71,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-18T05:44:24.953048+00:00",
       "crypto": 0.5466,
@@ -1008,63 +998,67 @@
         "crypto": 68,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-05-02T03:34:20.237440+00:00",
+      "crypto": 0.5039,
+      "global": 0.5214,
+      "combined": 0.5047,
+      "counts": {
+        "crypto": 55,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nasdaq Tops 25,000. Tech Is Back In Control.",
-        "url": "https://finance.yahoo.com/m/800fe5c4-ed3b-3499-989a-deb0e50c256a/nasdaq-tops-25%2C000.-tech-is.html?.tsrc=rss",
+        "title": "Why Iradimed Stock Topped the Market Today",
+        "url": "https://www.fool.com/investing/2026/05/01/why-iradimed-stock-topped-the-market-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7143,
+        "weight": 0.5381,
         "score": 1.0
+      },
+      {
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
         "title": "XRP sentiment hits 2-year high, but why is price stuck?",
         "url": "https://cointelegraph.com/markets/xrp-sentiment-hits-2-year-high-but-why-is-price-stuck?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7943,
-        "score": 0.8667
-      },
-      {
-        "title": "Paramount Skydance Stock Pops After Double Upgrade. Why Morgan Stanley Analyst Says It’s the ‘Riskiest’ Call.",
-        "url": "https://finance.yahoo.com/m/342ffb8f-1b66-317f-b85b-63b65fb595d8/paramount-skydance-stock-pops.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.727,
+        "weight": 0.3722,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Roblox shares plummet 18% as child safety measures weigh on bookings",
-        "url": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html",
-        "source": "CNBC Markets",
-        "weight": 0.7137,
+        "title": "Fear & Greed 39 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "LA’s Television City Studio Lot Faces Sale Forced by Lenders",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-01/deutsche-bank-forcing-hackman-to-shed-la-area-tv-and-movie-lots",
+        "source": "Bloomberg Markets",
+        "weight": 0.3846,
         "score": -1.0
       },
       {
-        "title": "Ethereum Foundation Sells $23 Million More in ETH to Tom Lee's BitMine",
-        "url": "https://decrypt.co/366385/ethereum-foundation-sells-23-million-more-eth-tom-lee-bitmine",
-        "source": "Decrypt",
-        "weight": 0.8013,
-        "score": -0.6333
-      },
-      {
-        "title": "US Economic Resilience Lowers Rate Cut Odds, Private Credit Fears | Real Yield 5/1/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-01/real-yield-5-1-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7286,
-        "score": -0.6333
+        "title": "Roblox shares plummet 18% as child safety measures weigh on bookings",
+        "url": "https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html",
+        "source": "CNBC Markets",
+        "weight": 0.3345,
+        "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.31051862219846105,
-          "price_change_24h": 0.0283
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
