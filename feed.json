@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-03T17:00:22.119155+00:00",
+  "updated_at": "2026-05-03T20:26:09.621329+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.105,
+    "change24h": 0.013,
+    "vol": 0.093,
     "fearGreed": 47,
-    "momentum": 0.214,
+    "momentum": 0.22,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3177,
-    "global_sentiment": 0.6339,
-    "combined_sentiment": 0.3744,
-    "confidence": 0.6525,
+    "crypto_sentiment": 0.4031,
+    "global_sentiment": 0.5591,
+    "combined_sentiment": 0.4323,
+    "confidence": 0.6224,
     "counts": {
-      "crypto": 54,
-      "global": 35
+      "crypto": 68,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 78671,
-      "btc_change_24h": 0.3,
-      "eth_price": 2327.98,
-      "eth_change_24h": 0.84,
+      "btc_price": 78807,
+      "btc_change_24h": 0.5,
+      "eth_price": 2333.67,
+      "eth_change_24h": 1.02,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 74482466778.0,
+        "volume_24h": 75298697846.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.88,
+        "btc_dominance": 59.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-19T20:19:01.648837+00:00",
-      "crypto": 0.266,
-      "global": 0.5344,
-      "combined": 0.3274,
-      "counts": {
-        "crypto": 69,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-04-19T20:47:34.258326+00:00",
       "crypto": 0.2657,
@@ -1008,53 +998,63 @@
         "crypto": 54,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-05-03T20:26:09.621329+00:00",
+      "crypto": 0.4031,
+      "global": 0.5591,
+      "combined": 0.4323,
+      "counts": {
+        "crypto": 68,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bond Traders Look to Treasury Refunding, Fed Speakers and Jobs",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-03/bond-traders-look-to-treasury-refunding-fed-speakers-and-jobs",
+        "source": "Bloomberg Markets",
+        "weight": 0.6777,
+        "score": 0.6667
+      },
+      {
+        "title": "AI Is Driving the Market: J.P. Morgan Picks 2 Stocks With Direct Exposure",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-driving-market-j-p-180000969.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6038,
+        "score": 0.6667
+      },
+      {
         "title": "US Navy Taps AI Firm to Clear Iranian Mines in Strait of Hormuz",
         "url": "https://www.bloomberg.com/news/videos/2026-05-03/us-navy-taps-ai-firm-to-clear-mines-in-strait-of-hormuz-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5464,
-        "score": 1.0
-      },
-      {
-        "title": "Small caps steal the spotlight as S&P 500 rally masks weak breadth",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/small-caps-steal-spotlight-p-131328381.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5168,
-        "score": 1.0
-      },
-      {
-        "title": "Bill Ackman's 'Concentrated Conviction' Turned $10K Into $460K— He Says 'Long Term' Investors Always Win",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-concentrated-conviction-turned-123116218.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4765,
+        "weight": 0.3676,
         "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "North Korea's Crypto Hack Playbook Won't Work on Canton Network, Says Digital Asset CEO",
-        "url": "https://decrypt.co/366086/north-korea-crypto-hack-playbook-wont-work-canton-ceo",
-        "source": "Decrypt",
-        "weight": 0.719,
-        "score": -0.7333
-      },
-      {
-        "title": "Pirro reveals new Trump attack evidence; Cole Allen challenges 'suicide precautions'",
+        "title": "Pirro reveals new Trump attack evidence; Cole Allen removed from 'suicide precautions'",
         "url": "https://www.cnbc.com/2026/05/03/trump-assassination-cole-allen-suicide-pirro.html",
         "source": "CNBC Markets",
-        "weight": 0.7719,
+        "weight": 0.6751,
         "score": -0.6333
       },
       {
         "title": "A Tether-linked billionaire poured £22M into UK politics – Now new donation rules may close the door",
         "url": "https://cryptoslate.com/a-tether-linked-billionaire-poured-22m-into-uk-politics-now-new-donation-rules-may-close-the-door/",
         "source": "CryptoSlate",
-        "weight": 0.7084,
+        "weight": 0.4767,
         "score": -0.6667
+      },
+      {
+        "title": "U.S. voters don't trust Trump administration to oversee crypto sector, CoinDesk poll finds",
+        "url": "https://www.coindesk.com/policy/2026/05/03/u-s-voters-don-t-trust-trump-administration-to-oversee-crypto-sector-coindesk-poll-finds",
+        "source": "CoinDesk",
+        "weight": 0.4754,
+        "score": -0.6333
       }
     ],
     "market_movers": {
