@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-03T09:25:46.514562+00:00",
+  "updated_at": "2026-05-03T13:37:52.273226+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.076,
+    "change24h": 0.017,
+    "vol": 0.122,
     "fearGreed": 47,
-    "momentum": 0.107,
+    "momentum": 0.291,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4021,
-    "global_sentiment": 0.4593,
-    "combined_sentiment": 0.4232,
-    "confidence": 0.4239,
+    "crypto_sentiment": 0.3752,
+    "global_sentiment": 0.6189,
+    "combined_sentiment": 0.4163,
+    "confidence": 0.5511,
     "counts": {
-      "crypto": 57,
-      "global": 35
+      "crypto": 69,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 78461,
-      "btc_change_24h": 0.21,
-      "eth_price": 2311.36,
-      "eth_change_24h": 0.27,
+      "btc_price": 78655,
+      "btc_change_24h": 0.46,
+      "eth_price": 2325.91,
+      "eth_change_24h": 0.86,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 70303031201.0,
+        "volume_24h": 73138773071.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.89,
+        "btc_dominance": 59.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-19T13:17:26.672393+00:00",
-      "crypto": 0.2,
-      "global": 0.4728,
-      "combined": 0.2587,
-      "counts": {
-        "crypto": 70,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-04-19T16:51:41.587991+00:00",
       "crypto": 0.4159,
@@ -1008,53 +998,63 @@
         "crypto": 57,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-05-03T13:37:52.273226+00:00",
+      "crypto": 0.3752,
+      "global": 0.6189,
+      "combined": 0.4163,
+      "counts": {
+        "crypto": 69,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Vietnam Inflation Quickens as Iran War Raises Energy Costs",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-03/vietnam-inflation-quickens-as-iran-war-drives-up-energy-costs",
-        "source": "Bloomberg Markets",
-        "weight": 0.345,
-        "score": 0.5333
-      },
-      {
-        "title": "South African Wine Estates Become Focus for Global Buyers",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-03/south-african-wine-estates-are-targeted-by-global-buyers-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.482,
-        "score": 0.3333
-      },
-      {
-        "title": "These Are April's 2 Hottest AI Stocks. Should You Buy Them in May?",
-        "url": "https://www.barchart.com/story/news/1665590/these-are-april-s-2-hottest-ai-stocks-should-you-buy-them-in-may?.tsrc=rss",
+        "title": "Small caps steal the spotlight as S&P 500 rally masks weak breadth",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/small-caps-steal-spotlight-p-131328381.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.1008,
+        "weight": 0.7633,
         "score": 1.0
+      },
+      {
+        "title": "Bill Ackman's 'Concentrated Conviction' Turned $10K Into $460K— He Says 'Long Term' Investors Always Win",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-concentrated-conviction-turned-123116218.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7037,
+        "score": 1.0
+      },
+      {
+        "title": "OPEC+ Agrees Symbolic Quota Hike as UAE Touts Oil Investment",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-03/opec-agrees-to-symbolic-june-quota-increase-delegates-say",
+        "source": "Bloomberg Markets",
+        "weight": 0.5548,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Warren Buffett's Successor, Greg Abel, Just Perpetuated the Oracle of Omaha's $195 Billion Warning to Wall Street -- and It's Terrible News for Stocks",
-        "url": "https://www.fool.com/investing/2026/05/03/warren-buffett-abel-195-billion-warning-wall-st/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6835,
+        "title": "Mike Cagney’s second act: Turning blockchain into Wall Street’s new plumbing",
+        "url": "https://www.coindesk.com/business/2026/05/03/mike-cagney-s-second-act-turning-blockchain-into-wall-street-s-new-plumbing",
+        "source": "CoinDesk",
+        "weight": 0.9297,
         "score": -0.6333
       },
       {
-        "title": "Crypto industry will be ‘just fine’ if CLARITY Act doesn’t pass: Chris Perkins",
-        "url": "https://cointelegraph.com/news/crypto-industry-will-be-just-fine-if-clarity-act-doesnt-pass-chris-perkins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "New York forces Uphold to pay $5M over fraudulent crypto investment scheme",
+        "url": "https://cointelegraph.com/news/new-york-forces-uphold-to-pay-5m-over-fraudulent-crypto-investment-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5291,
-        "score": -0.6333
+        "weight": 0.4651,
+        "score": -0.9667
       },
       {
-        "title": "Stock Market Investors Just Got an Urgent Warning From Fed Chair Jerome Powell",
-        "url": "https://www.fool.com/investing/2026/05/03/stock-market-investors-warning-fed-jerome-powell/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7213,
-        "score": -0.3333
+        "title": "The Energy Source Hiding Beneath Your Feet",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-03/the-energy-source-hiding-beneath-your-feet-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.668,
+        "score": -0.6333
       }
     ],
     "market_movers": {
