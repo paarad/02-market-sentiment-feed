@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-02T20:51:51.492775+00:00",
+  "updated_at": "2026-05-03T03:56:20.137751+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.046,
-    "fearGreed": 39,
-    "momentum": 0.189,
+    "change24h": -0.002,
+    "vol": 0.032,
+    "fearGreed": 47,
+    "momentum": -0.038,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4092,
-    "global_sentiment": 0.514,
-    "combined_sentiment": 0.433,
-    "confidence": 0.6475,
+    "crypto_sentiment": 0.5038,
+    "global_sentiment": 0.5254,
+    "combined_sentiment": 0.505,
+    "confidence": 0.425,
     "counts": {
-      "crypto": 57,
+      "crypto": 43,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 78410,
-      "btc_change_24h": 0.79,
-      "eth_price": 2310.13,
-      "eth_change_24h": 1.19,
+      "btc_price": 78192,
+      "btc_change_24h": -0.31,
+      "eth_price": 2301.55,
+      "eth_change_24h": -0.14,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 39,
-        "classification": "Fear",
+        "value": 47,
+        "classification": "Neutral",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 69473686813.0,
+        "volume_24h": 71864522665.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.87,
+        "btc_dominance": 59.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-19T03:36:23.191762+00:00",
-      "crypto": 0.2851,
-      "global": 0.3812,
-      "combined": 0.3289,
-      "counts": {
-        "crypto": 71,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-19T06:03:30.267004+00:00",
       "crypto": 0.2292,
@@ -1008,53 +998,63 @@
         "crypto": 57,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-05-03T03:56:20.137751+00:00",
+      "crypto": 0.5038,
+      "global": 0.5254,
+      "combined": 0.505,
+      "counts": {
+        "crypto": 43,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Aegon, Barclays Say Prepare for Market Pain",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-02/aegon-barclays-say-prepare-for-market-pain-credit-weekly",
+        "title": "Vietnam Inflation Quickens as Iran War Raises Energy Costs",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-03/vietnam-inflation-quickens-as-iran-war-drives-up-energy-costs",
         "source": "Bloomberg Markets",
-        "weight": 0.645,
+        "weight": 0.6506,
         "score": 0.5333
       },
       {
-        "title": "Is This a Stock Market Melt-Up? Here Are Ways to Tell",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-02/is-this-a-stock-market-melt-up-here-are-ways-to-tell",
-        "source": "Bloomberg Markets",
-        "weight": 0.3835,
-        "score": 0.6667
+        "title": "These Are April's 2 Hottest AI Stocks. Should You Buy Them in May?",
+        "url": "https://www.barchart.com/story/news/1665590/these-are-april-s-2-hottest-ai-stocks-should-you-buy-them-in-may?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.1901,
+        "score": 1.0
       },
       {
-        "title": "The crypto IPO wave has one big problem: Bitcoin is still in charge",
-        "url": "https://cryptoslate.com/the-crypto-ipo-wave-has-one-big-problem-bitcoin-is-still-in-charge/",
-        "source": "CryptoSlate",
-        "weight": 0.3025,
-        "score": 0.8333
+        "title": "US CISA adds ‘insane’ Linux Copy Fail flaw to watch list",
+        "url": "https://cointelegraph.com/news/linux-copy-fail-a-trivially-exploitable-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4584,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 39 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "This High-Yield Emerging Funds ETF Offers International Diversification",
+        "url": "https://247wallst.com/investing/2026/05/02/this-high-yield-emerging-funds-etf-offers-international-diversification/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6464,
+        "score": -0.3333
+      },
+      {
+        "title": "Japan’s Katayama Declines to Comment on FX Intervention For Now",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-03/japan-s-katayama-declines-to-comment-on-fx-intervention-for-now",
+        "source": "Bloomberg Markets",
+        "weight": 0.5618,
+        "score": -0.3333
       },
       {
         "title": "Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks",
         "url": "https://www.cnbc.com/2026/05/02/iran-war-airfare-travel-airlines-plane-tickets-when-to-buy.html",
         "source": "CNBC Markets",
-        "weight": 0.3872,
+        "weight": 0.171,
         "score": -1.0
-      },
-      {
-        "title": "Jane Fraser Turned Citigroup Inside Out. Now Comes the Hard Part.",
-        "url": "https://finance.yahoo.com/m/766780ff-6704-3089-98b2-e14edab1ecfa/jane-fraser-turned-citigroup.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3813,
-        "score": -0.9667
       }
     ],
     "market_movers": {
