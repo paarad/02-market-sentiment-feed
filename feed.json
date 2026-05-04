@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-04T17:46:44.689289+00:00",
+  "updated_at": "2026-05-04T20:51:28.346300+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.077,
+    "change24h": 0.009,
+    "vol": 0.052,
     "fearGreed": 40,
-    "momentum": 0.307,
+    "momentum": 0.153,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4367,
-    "global_sentiment": 0.436,
-    "combined_sentiment": 0.4472,
-    "confidence": 0.8274,
+    "crypto_sentiment": 0.4056,
+    "global_sentiment": 0.4374,
+    "combined_sentiment": 0.424,
+    "confidence": 0.7915,
     "counts": {
-      "crypto": 58,
-      "global": 45
+      "crypto": 70,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 80284,
-      "btc_change_24h": 1.94,
-      "eth_price": 2367.46,
-      "eth_change_24h": 1.56,
+      "btc_price": 79961,
+      "btc_change_24h": 1.38,
+      "eth_price": 2350.15,
+      "eth_change_24h": 0.89,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.7,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 208418977892.0,
+        "volume_24h": 215113256731.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.15,
+        "btc_dominance": 60.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-20T20:28:56.899639+00:00",
-      "crypto": 0.406,
-      "global": 0.5623,
-      "combined": 0.4347,
-      "counts": {
-        "crypto": 72,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-04-20T20:56:51.908840+00:00",
       "crypto": 0.3847,
@@ -1008,61 +998,71 @@
         "crypto": 58,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-04T20:51:28.346300+00:00",
+      "crypto": 0.4056,
+      "global": 0.4374,
+      "combined": 0.424,
+      "counts": {
+        "crypto": 70,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "The \"Magnificent Seven\" Have a Combined Market Cap of Just Under $23 Trillion. Is Now the Time to Diversify Outside of Tech?",
+        "url": "https://www.fool.com/investing/2026/05/04/the-magnificent-seven-have-a-combined-market-cap-o/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7107,
+        "score": 0.7333
+      },
+      {
+        "title": "Palantir tops estimates on 85% revenue growth, fastest expansion since market debut in 2020",
+        "url": "https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.7417,
+        "score": 0.6667
+      },
+      {
         "title": "Bitcoin in ‘disbelief rally’ as traders spot $84K BTC price target",
         "url": "https://cointelegraph.com/markets/bitcoin-in-disbelief-rally-as-traders-eye-84k-btc-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6309,
+        "weight": 0.442,
         "score": 0.8667
-      },
-      {
-        "title": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
-        "url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
-        "source": "CoinDesk",
-        "weight": 0.9766,
-        "score": 0.5333
-      },
-      {
-        "title": "Stock Market Today, May 4: Strait of Hormuz Tensions Weigh on Stocks at Midday",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/04/stock-market-today-may-4-strait-of-hormuz-tensions-weigh-on-stocks-at-midday/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7402,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "UAE Issues Alert as Iran Claims Strike on US Warship",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-04/uae-issues-alert-as-iran-claims-strike-on-us-warship-video",
+        "title": "SEC and Elon Musk agree to settle lawsuit over Twitter buyout in 2022",
+        "url": "https://www.cnbc.com/2026/05/04/sec-and-elon-musk-agree-to-settle-lawsuit-over-twitter-buyout-in-2022.html",
+        "source": "CNBC Markets",
+        "weight": 0.7774,
+        "score": -1.0
+      },
+      {
+        "title": "SEC Investigating Alleged Fraud in Private Credit, Atkins Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/sec-investigating-alleged-fraud-in-private-credit-atkins-says",
         "source": "Bloomberg Markets",
-        "weight": 0.7684,
-        "score": -1.0
+        "weight": 0.7259,
+        "score": -0.9667
       },
       {
-        "title": "Texas Residents Sue MARA Holdings Over Bitcoin Mining Noise",
-        "url": "https://decrypt.co/366654/texas-lawsuit-mara-holdings-bitcoin-mining-noise",
-        "source": "Decrypt",
-        "weight": 0.7646,
+        "title": "SEC Drops Accounting Fraud Case Against Ex-Iconix CEO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/sec-drops-accounting-fraud-case-against-ex-iconix-ceo",
+        "source": "Bloomberg Markets",
+        "weight": 0.651,
         "score": -1.0
-      },
-      {
-        "title": "FDA Reports Liver Failure in Patient Taking Eli Lilly’s Foundayo",
-        "url": "https://finance.yahoo.com/m/6af872c3-bcc8-3992-bc9c-08fee56e6b41/fda-reports-liver-failure-in.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7241,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.47068921529742463,
-          "price_change_24h": 0.00726
+          "volume_mcap_ratio": 0.4823215895775441,
+          "price_change_24h": 0.00392
         }
       ],
       "momentum_shifts": []
