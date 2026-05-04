@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-04T03:53:37.185799+00:00",
+  "updated_at": "2026-05-04T06:46:22.510069+00:00",
   "indicators": {
-    "change24h": 0.042,
-    "vol": 0.145,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 40,
-    "momentum": 0.74,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4115,
-    "global_sentiment": 0.4777,
-    "combined_sentiment": 0.4318,
-    "confidence": 0.5966,
+    "crypto_sentiment": 0.5788,
+    "global_sentiment": 0.4708,
+    "combined_sentiment": 0.5567,
+    "confidence": 0.6476,
     "counts": {
-      "crypto": 58,
-      "global": 36
+      "crypto": 56,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 80183,
-      "btc_change_24h": 2.55,
-      "eth_price": 2383.72,
-      "eth_change_24h": 3.58,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "btc_price": 79751,
+      "btc_change_24h": 2.06,
+      "eth_price": 2364.16,
+      "eth_change_24h": 2.72,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 40,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113029796162.0,
+        "volume_24h": 130443317688.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 60.05,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-20T06:22:08.904246+00:00",
-      "crypto": 0.2,
-      "global": 0.5189,
-      "combined": 0.2562,
-      "counts": {
-        "crypto": 72,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-20T10:04:36.445846+00:00",
       "crypto": 0.2,
@@ -1008,53 +998,63 @@
         "crypto": 58,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-05-04T06:46:22.510069+00:00",
+      "crypto": 0.5788,
+      "global": 0.4708,
+      "combined": 0.5567,
+      "counts": {
+        "crypto": 56,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Dogecoin jumps 4% to lead gains among majors as bitcoin zooms higher",
+        "url": "https://www.coindesk.com/markets/2026/05/04/dogecoin-jumps-4-to-lead-gains-among-majors-as-bitcoin-zooms-higher",
+        "source": "CoinDesk",
+        "weight": 0.7765,
+        "score": 0.6667
+      },
+      {
+        "title": "XRP zooms above $1.40 on rising volume, putting focus on further breakout",
+        "url": "https://www.coindesk.com/markets/2026/05/04/xrp-zooms-above-usd1-40-on-rising-volume-putting-focus-on-further-breakout",
+        "source": "CoinDesk",
+        "weight": 0.9415,
         "score": 0.5333
       },
       {
-        "title": "Seoul, Taipei hit records as Asian stocks track Wall St tech rally",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-taipei-hit-records-asian-032149912.html?.tsrc=rss",
+        "title": "Veeva Systems (VEEV) Is Up 6.9% After S&P 500 Addition and GC Transition News",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-systems-veev-6-9-061141757.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7525,
-        "score": 0.5333
-      },
-      {
-        "title": "Emerging-Market Stocks Rise to Record High on Tech Boost",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-04/em-stocks-rise-to-record-high-on-tech-boost-currencies-gain",
-        "source": "Bloomberg Markets",
-        "weight": 0.7011,
-        "score": 0.3333
+        "weight": 0.7483,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Gold Steady With Focus on US Hormuz Plan And Iran Peace Talks",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-03/gold-steady-with-focus-on-hormuz-reopening-iran-peace-talks",
+        "title": "Quant Fund Sees Hungary Finance Revival as Orban Era Is Ending",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/quant-fund-sees-hungary-finance-revival-as-orban-era-is-ending",
         "source": "Bloomberg Markets",
-        "weight": 0.4444,
+        "weight": 0.6518,
         "score": -0.9667
       },
       {
-        "title": "Fear & Greed 40 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Asian Stocks Hit Record as Iran Fears Ease | The China Show 5/4/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-04/the-china-show-5-4-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7271,
+        "score": -0.6333
       },
       {
-        "title": "Pirro reveals new Trump attack evidence; Cole Allen removed from 'suicide precautions'",
-        "url": "https://www.cnbc.com/2026/05/03/trump-assassination-cole-allen-suicide-pirro.html",
+        "title": "World Cup prize pool nears $900 million as FIFA boosts payouts. Here’s who gets what",
+        "url": "https://www.cnbc.com/2026/05/04/fifa-world-cup-team-payouts-ticket-prices.html",
         "source": "CNBC Markets",
-        "weight": 0.4953,
-        "score": -0.6333
+        "weight": 0.7474,
+        "score": -0.6
       }
     ],
     "market_movers": {
