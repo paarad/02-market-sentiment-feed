@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-04T06:46:22.510069+00:00",
+  "updated_at": "2026-05-04T10:20:13.281770+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
@@ -11,19 +11,19 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.5788,
-    "global_sentiment": 0.4708,
-    "combined_sentiment": 0.5567,
-    "confidence": 0.6476,
+    "crypto_sentiment": 0.4855,
+    "global_sentiment": 0.4487,
+    "combined_sentiment": 0.4849,
+    "confidence": 0.6145,
     "counts": {
-      "crypto": 56,
-      "global": 42
+      "crypto": 54,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 79751,
-      "btc_change_24h": 2.06,
-      "eth_price": 2364.16,
-      "eth_change_24h": 2.72,
+      "btc_price": 78505,
+      "btc_change_24h": 0.06,
+      "eth_price": 2322.93,
+      "eth_change_24h": 0.44,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 130443317688.0,
-        "high_activity_coins": 0
+        "volume_24h": 149551419251.0,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-20T10:04:36.445846+00:00",
-      "crypto": 0.2,
-      "global": 0.5263,
-      "combined": 0.2656,
-      "counts": {
-        "crypto": 69,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-04-20T14:00:36.251628+00:00",
       "crypto": 0.3048,
@@ -1008,57 +998,73 @@
         "crypto": 56,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-04T10:20:13.281770+00:00",
+      "crypto": 0.4855,
+      "global": 0.4487,
+      "combined": 0.4849,
+      "counts": {
+        "crypto": 54,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dogecoin jumps 4% to lead gains among majors as bitcoin zooms higher",
-        "url": "https://www.coindesk.com/markets/2026/05/04/dogecoin-jumps-4-to-lead-gains-among-majors-as-bitcoin-zooms-higher",
-        "source": "CoinDesk",
-        "weight": 0.7765,
-        "score": 0.6667
-      },
-      {
-        "title": "XRP zooms above $1.40 on rising volume, putting focus on further breakout",
-        "url": "https://www.coindesk.com/markets/2026/05/04/xrp-zooms-above-usd1-40-on-rising-volume-putting-focus-on-further-breakout",
-        "source": "CoinDesk",
-        "weight": 0.9415,
-        "score": 0.5333
-      },
-      {
-        "title": "Veeva Systems (VEEV) Is Up 6.9% After S&P 500 Addition and GC Transition News",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-systems-veev-6-9-061141757.html?.tsrc=rss",
+        "title": "Seoul, Taipei hit records as Asian stocks track Wall St tech rally",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-taipei-hit-records-asian-032149912.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7483,
-        "score": 0.6667
+        "weight": 0.6354,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Futures Grind Higher as Record-Breaking Rally Rolls On",
+        "url": "https://finance.yahoo.com/m/551adfb4-434b-308d-b69b-0b3cb1c32b3d/stock-futures-grind-higher-as.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5869,
+        "score": 1.0
+      },
+      {
+        "title": "AI Chipmakers in Korea, Taiwan Drive Asian Stocks to Record",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-chipmakers-korea-taiwan-drive-063820107.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.717,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Quant Fund Sees Hungary Finance Revival as Orban Era Is Ending",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-04/quant-fund-sees-hungary-finance-revival-as-orban-era-is-ending",
+        "title": "Bank of America Didn’t ‘Wall-Cross’ Segantii Before Esprit Block",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/bank-of-america-didn-t-wall-cross-segantii-before-esprit-block",
         "source": "Bloomberg Markets",
-        "weight": 0.6518,
+        "weight": 0.7567,
         "score": -0.9667
       },
       {
-        "title": "Asian Stocks Hit Record as Iran Fears Ease | The China Show 5/4/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-04/the-china-show-5-4-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7271,
-        "score": -0.6333
+        "title": "US law firm attempts to block transfer of frozen ETH from Kelp exploit",
+        "url": "https://cointelegraph.com/news/law-firm-tries-to-claim-kelp-exploit-eth-because-clients-owed-by-dprk?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7728,
+        "score": -0.8333
       },
       {
-        "title": "World Cup prize pool nears $900 million as FIFA boosts payouts. Here’s who gets what",
-        "url": "https://www.cnbc.com/2026/05/04/fifa-world-cup-team-payouts-ticket-prices.html",
-        "source": "CNBC Markets",
-        "weight": 0.7474,
-        "score": -0.6
+        "title": "World’s Rich Boost Conflict-Economy Bets as Asset Prices Surge",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-04/world-s-super-rich-boost-conflict-economy-wagers-amid-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.64,
+        "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.33708126470441224,
+          "price_change_24h": -0.01184
+        }
+      ],
       "momentum_shifts": []
     }
   },
