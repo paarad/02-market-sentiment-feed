@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-04T14:20:06.876641+00:00",
+  "updated_at": "2026-05-04T17:46:44.689289+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.018,
+    "vol": 0.077,
     "fearGreed": 40,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.307,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4814,
-    "global_sentiment": 0.4289,
-    "combined_sentiment": 0.4801,
-    "confidence": 0.7826,
+    "crypto_sentiment": 0.4367,
+    "global_sentiment": 0.436,
+    "combined_sentiment": 0.4472,
+    "confidence": 0.8274,
     "counts": {
-      "crypto": 53,
+      "crypto": 58,
       "global": 45
     },
     "market_indicators": {
-      "btc_price": 79009,
-      "btc_change_24h": 0.43,
-      "eth_price": 2341.21,
-      "eth_change_24h": 0.75,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 80284,
+      "btc_change_24h": 1.94,
+      "eth_price": 2367.46,
+      "eth_change_24h": 1.56,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 40,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 171087511723.0,
+        "volume_24h": 208418977892.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 60.15,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-20T17:14:08.475578+00:00",
-      "crypto": 0.3784,
-      "global": 0.5429,
-      "combined": 0.4124,
-      "counts": {
-        "crypto": 72,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-04-20T20:28:56.899639+00:00",
       "crypto": 0.406,
@@ -1008,6 +998,16 @@
         "crypto": 53,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-04T17:46:44.689289+00:00",
+      "crypto": 0.4367,
+      "global": 0.436,
+      "combined": 0.4472,
+      "counts": {
+        "crypto": 58,
+        "global": 45
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "Bitcoin in ‘disbelief rally’ as traders spot $84K BTC price target",
         "url": "https://cointelegraph.com/markets/bitcoin-in-disbelief-rally-as-traders-eye-84k-btc-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.9391,
+        "weight": 0.6309,
         "score": 0.8667
       },
       {
-        "title": "Seoul, Taipei hit records on tech rally",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/seoul-taipei-hit-records-asian-032149912.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7598,
-        "score": 1.0
+        "title": "Circle, Coinbase lead crypto stocks rally amid Clarity Act progress, bitcoin hitting $80,000",
+        "url": "https://www.coindesk.com/markets/2026/05/04/circle-coinbase-lead-crypto-stock-rally-amid-clarity-act-progress-bitcoin-above-usd80-000",
+        "source": "CoinDesk",
+        "weight": 0.9766,
+        "score": 0.5333
       },
       {
-        "title": "S&P 500 Faces Oil-Fueled Sell-off Pressure in Possible Return to Merger Monday Deal",
-        "url": "https://247wallst.com/investing/2026/05/04/sp-500-faces-oil-fueled-sell-off-pressure-in-possible-return-to-merger-monday-deal/?.tsrc=rss",
+        "title": "Stock Market Today, May 4: Strait of Hormuz Tensions Weigh on Stocks at Midday",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/04/stock-market-today-may-4-strait-of-hormuz-tensions-weigh-on-stocks-at-midday/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7075,
-        "score": 1.0
+        "weight": 0.7402,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Trump-affiliated World Liberty sues Justin Sun for 'defamation' after Tron creator's lawsuit",
-        "url": "https://www.coindesk.com/policy/2026/05/04/trump-affiliated-world-liberty-sues-justin-sun-for-defamation-after-tron-creator-s-lawsuit",
-        "source": "CoinDesk",
-        "weight": 0.8998,
-        "score": -1.0
-      },
-      {
-        "title": "Surprise Rate Hold Upends Colombia’s Markets Weeks Before Vote",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-04/surprise-rate-hold-upends-colombia-s-markets-weeks-before-vote",
+        "title": "UAE Issues Alert as Iran Claims Strike on US Warship",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-04/uae-issues-alert-as-iran-claims-strike-on-us-warship-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7603,
-        "score": -0.9667
+        "weight": 0.7684,
+        "score": -1.0
       },
       {
-        "title": "SEC delays prediction market ETFs over mechanics and risk concerns: Report",
-        "url": "https://cointelegraph.com/news/prediction-market-etf-sec-delay-mechanics-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7334,
+        "title": "Texas Residents Sue MARA Holdings Over Bitcoin Mining Noise",
+        "url": "https://decrypt.co/366654/texas-lawsuit-mara-holdings-bitcoin-mining-noise",
+        "source": "Decrypt",
+        "weight": 0.7646,
         "score": -1.0
+      },
+      {
+        "title": "FDA Reports Liver Failure in Patient Taking Eli Lilly’s Foundayo",
+        "url": "https://finance.yahoo.com/m/6af872c3-bcc8-3992-bc9c-08fee56e6b41/fda-reports-liver-failure-in.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7241,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39274188360396467,
-          "price_change_24h": -0.00239
+          "volume_mcap_ratio": 0.47068921529742463,
+          "price_change_24h": 0.00726
         }
       ],
       "momentum_shifts": []
