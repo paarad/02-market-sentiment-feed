@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-05T14:13:00.726731+00:00",
+  "updated_at": "2026-05-05T17:43:10.032941+00:00",
   "indicators": {
-    "change24h": 0.043,
-    "vol": 0.126,
+    "change24h": 0.028,
+    "vol": 0.122,
     "fearGreed": 50,
-    "momentum": 0.752,
+    "momentum": 0.489,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.6046,
-    "global_sentiment": 0.4345,
-    "combined_sentiment": 0.573,
-    "confidence": 0.8039,
+    "crypto_sentiment": 0.5913,
+    "global_sentiment": 0.5707,
+    "combined_sentiment": 0.5743,
+    "confidence": 0.8153,
     "counts": {
-      "crypto": 60,
-      "global": 40
+      "crypto": 54,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 81254,
-      "btc_change_24h": 3.03,
-      "eth_price": 2387.55,
-      "eth_change_24h": 2.11,
+      "btc_price": 81295,
+      "btc_change_24h": 1.18,
+      "eth_price": 2361.7,
+      "eth_change_24h": -0.21,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168210584681.0,
+        "volume_24h": 149058420693.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.26,
+        "btc_dominance": 60.32,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-21T17:11:16.104434+00:00",
-      "crypto": 0.3386,
-      "global": 0.4784,
-      "combined": 0.3772,
-      "counts": {
-        "crypto": 71,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-04-21T20:34:08.646701+00:00",
       "crypto": 0.3116,
@@ -1008,61 +998,71 @@
         "crypto": 60,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-05-05T17:43:10.032941+00:00",
+      "crypto": 0.5913,
+      "global": 0.5707,
+      "combined": 0.5743,
+      "counts": {
+        "crypto": 54,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin absorbed $200 million profit-taking at $80,000 in a bullish sign for BTC",
-        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-absorbed-usd200-million-profit-taking-at-usd80-000-in-a-bullish-sign-for-btc",
-        "source": "CoinDesk",
-        "weight": 1.0357,
-        "score": 0.8667
-      },
-      {
-        "title": "S&P 500 Rises on Big Tech Bump, Corporate Profits and Oil Price Relief",
-        "url": "https://247wallst.com/investing/2026/05/05/sp-500-rises-on-big-tech-bump-corporate-profits-and-oil-price-relief/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7312,
+        "title": "Bitcoin sellers take profits above $80,000, but ETF demand keeps $90,000 rally hopes alive",
+        "url": "https://cryptoslate.com/bitcoin-sellers-take-profits-above-80000-but-etf-demand-keeps-90000-rally-hopes-alive/",
+        "source": "CryptoSlate",
+        "weight": 0.6524,
         "score": 1.0
       },
       {
-        "title": "Bitcoin rally breaks from US stock market as mixed macro data creates bullish setup for BTC",
-        "url": "https://cryptoslate.com/bitcoin-breaks-from-us-stock-market-as-mixed-macro-data-creates-bullish-setup-for-btc/",
-        "source": "CryptoSlate",
-        "weight": 0.7965,
-        "score": 0.7333
+        "title": "Intel soars 14% on report of Apple chip talks, hits new all-time high",
+        "url": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html",
+        "source": "CNBC Markets",
+        "weight": 0.6927,
+        "score": 0.8667
+      },
+      {
+        "title": "Bitcoin absorbed $200 million profit-taking at $80,000 in a bullish sign for BTC",
+        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-absorbed-usd200-million-profit-taking-at-usd80-000-in-a-bullish-sign-for-btc",
+        "source": "CoinDesk",
+        "weight": 0.691,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Ecuador Looks to Tap Global Debt Markets Again Amid Oil Jump",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-05/ecuador-looks-to-tap-global-debt-markets-again-amid-oil-jump",
-        "source": "Bloomberg Markets",
-        "weight": 0.7209,
-        "score": -0.9667
+        "title": "FDA commissioner defends agency's drug approval decisions after wave of backlash",
+        "url": "https://www.cnbc.com/2026/05/05/fda-commissioner-marty-makary-defends-himself-under-pressure-.html",
+        "source": "CNBC Markets",
+        "weight": 0.6614,
+        "score": -0.9333
       },
       {
-        "title": "Aave says creditors are trying to seize stolen ETH before victims get their $71M back",
-        "url": "https://cryptoslate.com/aave-says-creditors-are-trying-to-seize-stolen-eth-before-victims-get-their-71m-back/",
-        "source": "CryptoSlate",
-        "weight": 0.7174,
-        "score": -0.8333
-      },
-      {
-        "title": "Ripple to Share North Korean Threat Intelligence With Crypto Industry",
-        "url": "https://decrypt.co/366751/ripple-to-share-north-korean-threat-intelligence-with-crypto-industry",
+        "title": "Crypto Whale Sues Coinbase Alleging Exchange Refuses to Return Stolen Funds",
+        "url": "https://decrypt.co/366823/crypto-whale-sues-coinbase-alleging-exchange-refuses-return-stolen-funds",
         "source": "Decrypt",
-        "weight": 0.5824,
-        "score": -1.0
+        "weight": 0.7812,
+        "score": -0.7333
+      },
+      {
+        "title": "SEC is close to ending mandatory quarterly earnings reports that Trump called for",
+        "url": "https://www.cnbc.com/2026/05/05/sec-is-close-to-ending-mandatory-quarterly-earnings-reports-that-trump-called-for.html",
+        "source": "CNBC Markets",
+        "weight": 0.7776,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38081227171058074,
-          "price_change_24h": 0.01563
+          "volume_mcap_ratio": 0.3407857867265397,
+          "price_change_24h": 0.00569
         }
       ],
       "momentum_shifts": []
