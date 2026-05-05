@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-05T17:43:10.032941+00:00",
+  "updated_at": "2026-05-05T20:44:21.370566+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.122,
+    "change24h": 0.058,
+    "vol": 0.245,
     "fearGreed": 50,
-    "momentum": 0.489,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5913,
-    "global_sentiment": 0.5707,
-    "combined_sentiment": 0.5743,
-    "confidence": 0.8153,
+    "crypto_sentiment": 0.495,
+    "global_sentiment": 0.4496,
+    "combined_sentiment": 0.492,
+    "confidence": 0.8298,
     "counts": {
-      "crypto": 54,
-      "global": 50
+      "crypto": 73,
+      "global": 54
     },
     "market_indicators": {
-      "btc_price": 81295,
-      "btc_change_24h": 1.18,
-      "eth_price": 2361.7,
-      "eth_change_24h": -0.21,
+      "btc_price": 81674,
+      "btc_change_24h": 2.22,
+      "eth_price": 2385.65,
+      "eth_change_24h": 1.58,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 50,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149058420693.0,
+        "volume_24h": 149560243264.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.32,
+        "btc_dominance": 60.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-21T20:34:08.646701+00:00",
-      "crypto": 0.3116,
-      "global": 0.474,
-      "combined": 0.3565,
-      "counts": {
-        "crypto": 63,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-04-21T21:00:18.609338+00:00",
       "crypto": 0.343,
@@ -1008,61 +998,71 @@
         "crypto": 54,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-05-05T20:44:21.370566+00:00",
+      "crypto": 0.495,
+      "global": 0.4496,
+      "combined": 0.492,
+      "counts": {
+        "crypto": 73,
+        "global": 54
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin sellers take profits above $80,000, but ETF demand keeps $90,000 rally hopes alive",
-        "url": "https://cryptoslate.com/bitcoin-sellers-take-profits-above-80000-but-etf-demand-keeps-90000-rally-hopes-alive/",
-        "source": "CryptoSlate",
-        "weight": 0.6524,
+        "title": "How major US stock indexes fared Tuesday 5/5/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201556844.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7574,
         "score": 1.0
       },
       {
-        "title": "Intel soars 14% on report of Apple chip talks, hits new all-time high",
-        "url": "https://www.cnbc.com/2026/05/05/intel-intc-stock-apple-talks-report.html",
-        "source": "CNBC Markets",
-        "weight": 0.6927,
-        "score": 0.8667
+        "title": "Nasdaq Rides Chip Stocks to Record High",
+        "url": "https://finance.yahoo.com/m/164a5092-eb0f-3dd7-95f6-77d41082e035/nasdaq-rides-chip-stocks-to.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7368,
+        "score": 1.0
       },
       {
-        "title": "Bitcoin absorbed $200 million profit-taking at $80,000 in a bullish sign for BTC",
-        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-absorbed-usd200-million-profit-taking-at-usd80-000-in-a-bullish-sign-for-btc",
+        "title": "Bitcoin extends gains to $81,500 as tokenization push lifts Bullish, Galaxy, Centrifuge",
+        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-extends-gains-to-usd81-500-as-tokenization-push-lifts-bullish-galaxy-centrifuge",
         "source": "CoinDesk",
-        "weight": 0.691,
+        "weight": 0.8059,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "FDA commissioner defends agency's drug approval decisions after wave of backlash",
-        "url": "https://www.cnbc.com/2026/05/05/fda-commissioner-marty-makary-defends-himself-under-pressure-.html",
-        "source": "CNBC Markets",
-        "weight": 0.6614,
-        "score": -0.9333
-      },
-      {
-        "title": "Crypto Whale Sues Coinbase Alleging Exchange Refuses to Return Stolen Funds",
-        "url": "https://decrypt.co/366823/crypto-whale-sues-coinbase-alleging-exchange-refuses-return-stolen-funds",
-        "source": "Decrypt",
-        "weight": 0.7812,
+        "title": "Kelp claims that LayerZero approved the setup it blamed for $292 million bridge hack",
+        "url": "https://www.coindesk.com/web3/2026/05/05/kelp-claims-that-layerzero-approved-the-setup-it-blamed-for-usd292-million-bridge-hack",
+        "source": "CoinDesk",
+        "weight": 0.9575,
         "score": -0.7333
       },
       {
-        "title": "SEC is close to ending mandatory quarterly earnings reports that Trump called for",
-        "url": "https://www.cnbc.com/2026/05/05/sec-is-close-to-ending-mandatory-quarterly-earnings-reports-that-trump-called-for.html",
-        "source": "CNBC Markets",
-        "weight": 0.7776,
-        "score": -0.6333
+        "title": "Dow Gains 400 Points. Nasdaq Heads for Record Close.",
+        "url": "https://finance.yahoo.com/m/54ff3cf0-5e31-3dd0-8930-686425b16497/dow-gains-400-points.-nasdaq.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7002,
+        "score": -1.0
+      },
+      {
+        "title": "Drift outlines a recovery plan for users after $295 million DPRK-linked exploit",
+        "url": "https://www.coindesk.com/business/2026/05/05/drift-outlines-a-recovery-plan-for-users-after-usd295-million-dprk-linked-exploit",
+        "source": "CoinDesk",
+        "weight": 0.8137,
+        "score": -0.8333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3407857867265397,
-          "price_change_24h": 0.00569
+          "volume_mcap_ratio": 0.3392984555988038,
+          "price_change_24h": 0.00729
         }
       ],
       "momentum_shifts": []
