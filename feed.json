@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-04T21:13:57.919798+00:00",
+  "updated_at": "2026-05-05T03:34:49.889294+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.06,
-    "fearGreed": 40,
-    "momentum": 0.204,
+    "change24h": 0.003,
+    "vol": 0.058,
+    "fearGreed": 50,
+    "momentum": 0.052,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4252,
-    "global_sentiment": 0.4266,
-    "combined_sentiment": 0.4378,
-    "confidence": 0.7941,
+    "crypto_sentiment": 0.5186,
+    "global_sentiment": 0.5495,
+    "combined_sentiment": 0.5181,
+    "confidence": 0.7158,
     "counts": {
-      "crypto": 57,
-      "global": 45
+      "crypto": 54,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 80117,
-      "btc_change_24h": 1.41,
-      "eth_price": 2356.32,
-      "eth_change_24h": 1.05,
+      "btc_price": 80751,
+      "btc_change_24h": 0.85,
+      "eth_price": 2376.06,
+      "eth_change_24h": -0.22,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 40,
-        "classification": "Fear",
+        "value": 50,
+        "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 214769508308.0,
+        "volume_24h": 182667682302.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.15,
+        "btc_dominance": 60.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-21T03:30:32.371578+00:00",
-      "crypto": 0.367,
-      "global": 0.6501,
-      "combined": 0.4127,
-      "counts": {
-        "crypto": 71,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-04-21T06:07:35.801718+00:00",
       "crypto": 0.4242,
@@ -1008,61 +998,71 @@
         "crypto": 57,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-05T03:34:49.889294+00:00",
+      "crypto": 0.5186,
+      "global": 0.5495,
+      "combined": 0.5181,
+      "counts": {
+        "crypto": 54,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Palantir tops estimates on 85% revenue growth, fastest expansion since market debut in 2020",
-        "url": "https://www.cnbc.com/2026/05/04/palantir-pltr-q1-earnings-report-2026.html",
-        "source": "CNBC Markets",
-        "weight": 0.798,
-        "score": 0.6667
+        "title": "Bitcoin tests $80,000 as Asia’s bid fades and Hong Kong AI IPOs surge",
+        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-tests-usd80-000-as-asia-s-bid-fades-and-hong-kong-ai-ipos-surge",
+        "source": "CoinDesk",
+        "weight": 0.8419,
+        "score": 0.5333
       },
       {
-        "title": "S&P 500, Nasdaq Retreat From Record, Oil Jumps Amid Renewed US-Iran Tensions",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-retreat-record-204438005.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7561,
-        "score": 0.6667
+        "title": "Bitcoin turns risk on as stocks hit new highs and miner profits rise: Is $85K BTC next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-turns-risk-on-as-stocks-hit-new-highs-and-miner-profits-rise-is-85k-btc-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5926,
+        "score": 0.7
       },
       {
-        "title": "Stock Market Today: Dow Dives As Trump Calls On Key Ally; Warren Buffett Gives This Warning (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/68a7ae61-7710-373a-aaa2-a40e3ac796c7/stock-market-today%3A-dow-dives.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7559,
-        "score": 0.6667
+        "title": "Star Sports Jumps 204% as Hong Kong Debut Frenzy Extends",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-05/star-sports-jumps-204-as-hong-kong-debut-frenzy-extends",
+        "source": "Bloomberg Markets",
+        "weight": 0.7553,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Bank of America issues blunt warning to Wall Street on stock market",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-issues-blunt-warning-to-wall-street-on-stock-market?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.487,
+        "score": -0.8
+      },
+      {
+        "title": "Dow Jones Futures: Iran Attacks Spark Stock Market Losses; Palantir Slides On Earnings",
+        "url": "https://finance.yahoo.com/m/3d2a97f4-a6fb-34ca-8055-7af58ef956c6/dow-jones-futures%3A-iran.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5655,
+        "score": -0.6667
+      },
+      {
         "title": "SEC and Elon Musk agree to settle lawsuit over Twitter buyout in 2022",
         "url": "https://www.cnbc.com/2026/05/04/sec-and-elon-musk-agree-to-settle-lawsuit-over-twitter-buyout-in-2022.html",
         "source": "CNBC Markets",
-        "weight": 0.7678,
+        "weight": 0.3688,
         "score": -1.0
-      },
-      {
-        "title": "The Oil Squeeze Is Hitting Consumers Harder Than Investors. What That Means for Home Depot and Other Discretionary Stocks.",
-        "url": "https://finance.yahoo.com/m/54902619-c4e2-37c3-a2b7-32dee0163b1d/the-oil-squeeze-is-hitting.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7224,
-        "score": -0.9667
-      },
-      {
-        "title": "SEC Investigating Alleged Fraud in Private Credit, Atkins Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-04/sec-investigating-alleged-fraud-in-private-credit-atkins-says",
-        "source": "Bloomberg Markets",
-        "weight": 0.6951,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.48172314160889945,
-          "price_change_24h": 0.00042
+          "volume_mcap_ratio": 0.4133910459849003,
+          "price_change_24h": 0.00458
         }
       ],
       "momentum_shifts": []
