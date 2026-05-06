@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-06T14:32:24.679140+00:00",
+  "updated_at": "2026-05-06T17:47:01.066579+00:00",
   "indicators": {
     "change24h": 0.079,
-    "vol": 0.597,
+    "vol": 0.605,
     "fearGreed": 46,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4673,
-    "global_sentiment": 0.5533,
-    "combined_sentiment": 0.4799,
-    "confidence": 0.7916,
+    "crypto_sentiment": 0.4354,
+    "global_sentiment": 0.5344,
+    "combined_sentiment": 0.4544,
+    "confidence": 0.7997,
     "counts": {
-      "crypto": 51,
-      "global": 46
+      "crypto": 65,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 81686,
-      "btc_change_24h": 0.33,
-      "eth_price": 2365.95,
-      "eth_change_24h": -0.78,
+      "btc_price": 81500,
+      "btc_change_24h": 0.24,
+      "eth_price": 2351.51,
+      "eth_change_24h": -0.47,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.7,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 46,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187631907050.0,
+        "volume_24h": 189900870627.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.12,
+        "btc_dominance": 60.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-22T17:09:55.760270+00:00",
-      "crypto": 0.4272,
-      "global": 0.4679,
-      "combined": 0.4427,
-      "counts": {
-        "crypto": 69,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-04-22T20:37:07.062078+00:00",
       "crypto": 0.4203,
@@ -1008,61 +998,71 @@
         "crypto": 51,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-06T17:47:01.066579+00:00",
+      "crypto": 0.4354,
+      "global": 0.5344,
+      "combined": 0.4544,
+      "counts": {
+        "crypto": 65,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Disney Stock Surges On Earnings Beat, Streaming Profits Boom",
-        "url": "https://finance.yahoo.com/m/31e66a58-8ce6-32e6-bc14-33ceee48704b/disney-stock-surges-on.html?.tsrc=rss",
+        "title": "The space ETFs prepping for liftoff ahead of SpaceX IPO",
+        "url": "https://finance.yahoo.com/video/space-etfs-prepping-liftoff-ahead-161500971.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7274,
-        "score": 1.0
+        "weight": 0.6701,
+        "score": 0.8667
       },
       {
-        "title": "Nasdaq Hits Fresh Highs After AMD Earnings. The Dot-Com Bubble Parallels Keep Popping Up.",
-        "url": "https://finance.yahoo.com/m/4a664149-688d-311d-9dea-d71d563dfe98/nasdaq-hits-fresh-highs-after.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Up 1% On U.S.-Iran Deal Hopes; Berkshire Hathaway Holding Soars (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/30c7c2fe-7e37-38ea-b929-d4cbc4dc6ff5/stock-market-today%3A-dow-up-1%25.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7257,
-        "score": 1.0
+        "weight": 0.7796,
+        "score": 0.6667
       },
       {
         "title": "Zcash price may hit $800 as $2.7B hedge fund reveals ‘significant position’ in ZEC",
         "url": "https://cointelegraph.com/markets/zcash-price-eyes-40-rally-as-27b-hedge-fund-reveals-significant-position-in-zec?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6931,
+        "weight": 0.4765,
         "score": 1.0
       }
     ],
     "negative": [
       {
+        "title": "Sector Update: Energy",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-171934944.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7588,
+        "score": -0.9667
+      },
+      {
         "title": "Zcash bets turn into second-largest liquidations behind bitcoin as ZEC rockets 30%",
         "url": "https://www.coindesk.com/markets/2026/05/06/zcash-bets-turn-into-second-largest-liquidations-behind-bitcoin-as-zec-rockets-30",
         "source": "CoinDesk",
-        "weight": 0.827,
+        "weight": 0.5685,
         "score": -0.9667
       },
       {
-        "title": "Poland Holds Rates as Iran Energy Shock Stokes Inflation",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-06/poland-holds-rates-as-iran-energy-shock-stokes-inflation",
-        "source": "Bloomberg Markets",
-        "weight": 0.6656,
-        "score": -0.9667
-      },
-      {
-        "title": "Coinbase faces lawsuit over frozen funds from $55M crypto theft",
-        "url": "https://cointelegraph.com/news/coinbase-sued-for-withholding-frozen-crypto-linked-to-55m-defi-saver-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6008,
-        "score": -1.0
+        "title": "Microsoft Corporation (MSFT) Slid Amid Broad-Based Sell-Off in Software Companies",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-slid-amid-151116770.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5927,
+        "score": -0.8
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4278478642156483,
-          "price_change_24h": -0.00477
+          "volume_mcap_ratio": 0.4330345746338878,
+          "price_change_24h": -0.00742
         }
       ],
       "momentum_shifts": []
