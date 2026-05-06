@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-05T21:08:51.406914+00:00",
+  "updated_at": "2026-05-06T03:50:10.813296+00:00",
   "indicators": {
-    "change24h": 0.065,
-    "vol": 0.332,
-    "fearGreed": 50,
-    "momentum": 1.0,
+    "change24h": 0.048,
+    "vol": 0.325,
+    "fearGreed": 46,
+    "momentum": 0.847,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4956,
-    "global_sentiment": 0.4379,
-    "combined_sentiment": 0.4915,
-    "confidence": 0.8232,
+    "crypto_sentiment": 0.47,
+    "global_sentiment": 0.6265,
+    "combined_sentiment": 0.4881,
+    "confidence": 0.7697,
     "counts": {
-      "crypto": 59,
-      "global": 48
+      "crypto": 74,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 81653,
-      "btc_change_24h": 1.98,
-      "eth_price": 2384.33,
-      "eth_change_24h": 1.23,
+      "btc_price": 81527,
+      "btc_change_24h": 0.81,
+      "eth_price": 2375.46,
+      "eth_change_24h": -0.3,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 50,
-        "classification": "Neutral",
+        "value": 46,
+        "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 151412914400.0,
+        "volume_24h": 160980482731.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.22,
+        "btc_dominance": 60.18,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-22T03:28:35.624120+00:00",
-      "crypto": 0.3414,
-      "global": 0.4995,
-      "combined": 0.381,
-      "counts": {
-        "crypto": 62,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-04-22T06:04:50.721208+00:00",
       "crypto": 0.4159,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-05-06T03:50:10.813296+00:00",
+      "crypto": 0.47,
+      "global": 0.6265,
+      "combined": 0.4881,
+      "counts": {
+        "crypto": 74,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Tuesday 5/5/2026",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201556844.html?.tsrc=rss",
+        "title": "AI boom drives a rally in buying of tech shares, pushing South Korea's Kospi to a record",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-drives-rally-buying-033138176.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7225,
+        "weight": 0.7719,
         "score": 1.0
       },
       {
-        "title": "Nasdaq Rides Chip Stocks to Record High",
-        "url": "https://finance.yahoo.com/m/164a5092-eb0f-3dd7-95f6-77d41082e035/nasdaq-rides-chip-stocks-to.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7028,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin extends gains to $81,500 as tokenization push lifts Bullish, Galaxy, Centrifuge",
-        "url": "https://www.coindesk.com/markets/2026/05/05/bitcoin-extends-gains-to-usd81-500-as-tokenization-push-lifts-bullish-galaxy-centrifuge",
-        "source": "CoinDesk",
-        "weight": 0.7687,
+        "title": "Samsung hits $1 trillion valuation as AI rally lifts shares over 10%",
+        "url": "https://www.cnbc.com/2026/05/06/samsung-electronics-ai-chip-rally-kospi-record-1-trillion.html",
+        "source": "CNBC Markets",
+        "weight": 0.6484,
         "score": 0.8667
+      },
+      {
+        "title": "China’s Tech Gauge Jumps to Record High on AI-Fueled Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-06/china-s-tech-gauge-jumps-to-record-high-on-ai-fueled-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.7648,
+        "score": 0.7
       }
     ],
     "negative": [
       {
-        "title": "Kelp claims that LayerZero approved the setup it blamed for $292 million bridge hack",
-        "url": "https://www.coindesk.com/web3/2026/05/05/kelp-claims-that-layerzero-approved-the-setup-it-blamed-for-usd292-million-bridge-hack",
+        "title": "Citi exec says fragmented crypto systems risk repeating old banking problems",
+        "url": "https://www.coindesk.com/business/2026/05/05/citi-exec-says-fragmented-crypto-systems-risk-repeating-old-banking-problems",
         "source": "CoinDesk",
-        "weight": 0.9134,
-        "score": -0.7333
-      },
-      {
-        "title": "Dow Gains 400 Points. Nasdaq Heads for Record Close.",
-        "url": "https://finance.yahoo.com/m/54ff3cf0-5e31-3dd0-8930-686425b16497/dow-gains-400-points.-nasdaq.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.668,
+        "weight": 0.4745,
         "score": -1.0
       },
       {
-        "title": "Drift outlines a recovery plan for users after $295 million DPRK-linked exploit",
-        "url": "https://www.coindesk.com/business/2026/05/05/drift-outlines-a-recovery-plan-for-users-after-usd295-million-dprk-linked-exploit",
+        "title": "E.SUN Financial Holding Earns 12th Consecutive Inclusion in Dow Jones Best-in-Class Indices",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/e-sun-financial-holding-earns-010000324.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5765,
+        "score": -0.6333
+      },
+      {
+        "title": "Kelp claims that LayerZero approved the setup it blamed for $292 million bridge hack",
+        "url": "https://www.coindesk.com/web3/2026/05/05/kelp-claims-that-layerzero-approved-the-setup-it-blamed-for-usd292-million-bridge-hack",
         "source": "CoinDesk",
-        "weight": 0.7762,
-        "score": -0.8333
+        "weight": 0.4218,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3429734414442387,
-          "price_change_24h": 0.00514
+          "volume_mcap_ratio": 0.3640101968755051,
+          "price_change_24h": 0.00581
         }
       ],
       "momentum_shifts": []
