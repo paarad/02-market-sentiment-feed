@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-07T06:44:11.629605+00:00",
+  "updated_at": "2026-05-07T10:30:50.834365+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.465,
+    "change24h": -0.016,
+    "vol": 0.281,
     "fearGreed": 47,
-    "momentum": 0.47,
-    "regime": "sideways",
+    "momentum": -0.285,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4184,
-    "global_sentiment": 0.5119,
-    "combined_sentiment": 0.4398,
-    "confidence": 0.694,
+    "crypto_sentiment": 0.3761,
+    "global_sentiment": 0.6107,
+    "combined_sentiment": 0.4163,
+    "confidence": 0.7216,
     "counts": {
-      "crypto": 47,
-      "global": 43
+      "crypto": 46,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 81307,
-      "btc_change_24h": -0.12,
-      "eth_price": 2333.73,
-      "eth_change_24h": -1.47,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "btc_price": 80656,
+      "btc_change_24h": -1.8,
+      "eth_price": 2320.39,
+      "eth_change_24h": -3.7,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 178585025988.0,
+        "volume_24h": 168066801358.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.08,
+        "btc_dominance": 59.96,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-23T09:50:33.080978+00:00",
-      "crypto": 0.4846,
-      "global": 0.506,
-      "combined": 0.4889,
-      "counts": {
-        "crypto": 34,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-04-23T14:02:01.089987+00:00",
       "crypto": 0.3947,
@@ -1008,61 +998,71 @@
         "crypto": 47,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-07T10:30:50.834365+00:00",
+      "crypto": 0.3761,
+      "global": 0.6107,
+      "combined": 0.4163,
+      "counts": {
+        "crypto": 46,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Shell Says Profit Rises as Iran War Boosts Oil Price, Trade",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-07/shell-says-profits-rise-as-iran-war-boosts-trading-and-oil-price",
-        "source": "Bloomberg Markets",
-        "weight": 0.7418,
+        "title": "Bitcoin, Ethereum, XRP Fall. Why Even Iran Peace Hopes Can’t Break the Crypto Crisis.",
+        "url": "https://finance.yahoo.com/m/72808d9f-48e5-30d1-878c-913772ec0692/bitcoin%2C-ethereum%2C-xrp-fall..html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.8216,
+        "score": 0.8667
+      },
+      {
+        "title": "S&P 500, Nasdaq Build on Record Highs as Earnings and Iran Hopes Continue to Boost Markets",
+        "url": "https://finance.yahoo.com/m/35a3feb6-d89b-3cc9-8a6d-92d1acc4fc38/s%26p-500%2C-nasdaq-build-on.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.651,
         "score": 1.0
       },
       {
-        "title": "Shell tops profit estimates as Iran war boosts oil price, cuts share buybacks",
-        "url": "https://www.cnbc.com/2026/05/07/oil-giant-shell-tops-quarterly-profit-estimates-as-iran-war-drives-price-surge.html",
-        "source": "CNBC Markets",
-        "weight": 0.7863,
-        "score": 0.6667
-      },
-      {
-        "title": "Nikkei 225 Tops 62,000 as Major Japanese Stocks Post Double-Digit Gains",
-        "url": "https://beincrypto.com/nikkei-225-record-japan-stocks-rally/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5677,
-        "score": 0.8667
+        "title": "Shell Profit Rises as Oil Volatility Boosts Trading Unit",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-07/shell-profit-rises-as-oil-volatility-boosts-trading-unit-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6128,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Intrum to Raise $812 Million of Equity Capital to Trim Debt",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-07/intrum-to-raise-812-million-of-equity-capital-to-boost-finances",
-        "source": "Bloomberg Markets",
-        "weight": 0.6756,
-        "score": -0.9333
+        "title": "Safety first: Why Adam Back says Bitcoin is winning the 'DeFi security war'",
+        "url": "https://www.coindesk.com/tech/2026/05/07/safety-first-why-adam-back-says-bitcoin-is-winning-the-defi-security-war",
+        "source": "CoinDesk",
+        "weight": 0.985,
+        "score": -0.6333
+      },
+      {
+        "title": "TrustedVolumes hit by $6.7M exploit as 1inch denies breach",
+        "url": "https://cointelegraph.com/news/1inch-fusion-resolver-trusted-volumes-floats-bounty-after-67m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7306,
+        "score": -0.8333
       },
       {
         "title": "Aave liquidates Kelp DAO hacker's rsETH positions on Ethereum, Arbitrum",
         "url": "https://cointelegraph.com/news/aave-liquidates-kelp-dao-hackers-rseth-stash-ethereum-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6659,
+        "weight": 0.4304,
         "score": -0.7333
-      },
-      {
-        "title": "Europe’s Worst Earnings Are Coming From Luxury and Auto Sectors",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-07/europe-s-worst-earnings-are-coming-from-luxury-and-auto-sectors",
-        "source": "Bloomberg Markets",
-        "weight": 0.6738,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4074961279031055,
-          "price_change_24h": 0.01028
+          "volume_mcap_ratio": 0.3808254107460151,
+          "price_change_24h": 0.00452
         }
       ],
       "momentum_shifts": []
