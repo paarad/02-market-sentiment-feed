@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-07T10:30:50.834365+00:00",
+  "updated_at": "2026-05-07T14:34:12.947311+00:00",
   "indicators": {
     "change24h": -0.016,
-    "vol": 0.281,
+    "vol": 0.146,
     "fearGreed": 47,
-    "momentum": -0.285,
+    "momentum": -0.273,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3761,
-    "global_sentiment": 0.6107,
-    "combined_sentiment": 0.4163,
-    "confidence": 0.7216,
+    "crypto_sentiment": 0.4876,
+    "global_sentiment": 0.5035,
+    "combined_sentiment": 0.491,
+    "confidence": 0.8069,
     "counts": {
-      "crypto": 46,
-      "global": 47
+      "crypto": 53,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 80656,
-      "btc_change_24h": -1.8,
-      "eth_price": 2320.39,
-      "eth_change_24h": -3.7,
+      "btc_price": 80309,
+      "btc_change_24h": -1.73,
+      "eth_price": 2303.56,
+      "eth_change_24h": -2.7,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.2,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168066801358.0,
+        "volume_24h": 149611185725.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.96,
+        "btc_dominance": 59.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-23T14:02:01.089987+00:00",
-      "crypto": 0.3947,
-      "global": 0.3897,
-      "combined": 0.4118,
-      "counts": {
-        "crypto": 71,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-04-23T17:26:48.809383+00:00",
       "crypto": 0.3502,
@@ -1008,61 +998,71 @@
         "crypto": 46,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-05-07T14:34:12.947311+00:00",
+      "crypto": 0.4876,
+      "global": 0.5035,
+      "combined": 0.491,
+      "counts": {
+        "crypto": 53,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin, Ethereum, XRP Fall. Why Even Iran Peace Hopes Can’t Break the Crypto Crisis.",
-        "url": "https://finance.yahoo.com/m/72808d9f-48e5-30d1-878c-913772ec0692/bitcoin%2C-ethereum%2C-xrp-fall..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.8216,
+        "title": "Bitcoin tests Bollinger Bands breakout as creator flips bullish on BTC",
+        "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-tests-bollinger-bands-breakout-as-creator-flips-bullish-on-btc",
+        "source": "CoinDesk",
+        "weight": 1.1432,
+        "score": 0.7333
+      },
+      {
+        "title": "Zcash just exploded 40% – and the privacy coin rally is no longer just a crypto-native trade",
+        "url": "https://cryptoslate.com/zcash-just-exploded-40-and-the-privacy-coin-rally-is-no-longer-just-a-crypto-native-trade/",
+        "source": "CryptoSlate",
+        "weight": 0.5739,
         "score": 0.8667
       },
       {
-        "title": "S&P 500, Nasdaq Build on Record Highs as Earnings and Iran Hopes Continue to Boost Markets",
-        "url": "https://finance.yahoo.com/m/35a3feb6-d89b-3cc9-8a6d-92d1acc4fc38/s%26p-500%2C-nasdaq-build-on.html?.tsrc=rss",
+        "title": "S&P 500 Gains Unleashed on Chip Stock Strength, Falling Oil and Return to Optimism",
+        "url": "https://247wallst.com/investing/2026/05/07/sp-500-gains-unleashed-on-chip-stock-strength-falling-oil-and-return-to-optimism/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.651,
-        "score": 1.0
-      },
-      {
-        "title": "Shell Profit Rises as Oil Volatility Boosts Trading Unit",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-07/shell-profit-rises-as-oil-volatility-boosts-trading-unit-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6128,
-        "score": 1.0
+        "weight": 0.6968,
+        "score": 0.7
       }
     ],
     "negative": [
       {
-        "title": "Safety first: Why Adam Back says Bitcoin is winning the 'DeFi security war'",
-        "url": "https://www.coindesk.com/tech/2026/05/07/safety-first-why-adam-back-says-bitcoin-is-winning-the-defi-security-war",
-        "source": "CoinDesk",
-        "weight": 0.985,
-        "score": -0.6333
+        "title": "The Takeaways From McDonald's, Shake Shack and Whirlpool Earnings",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-07/the-takeaways-from-mcdonald-s-shake-shack-and-whirlpool-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7322,
+        "score": -1.0
       },
       {
-        "title": "TrustedVolumes hit by $6.7M exploit as 1inch denies breach",
-        "url": "https://cointelegraph.com/news/1inch-fusion-resolver-trusted-volumes-floats-bounty-after-67m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7306,
-        "score": -0.8333
+        "title": "Kushner-Backed Israeli Firm Moves to Defend Its Brightline Bonds",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-07/kushner-backed-israeli-firm-moves-to-defend-its-brightline-bonds",
+        "source": "Bloomberg Markets",
+        "weight": 0.7819,
+        "score": -0.9333
       },
       {
-        "title": "Aave liquidates Kelp DAO hacker's rsETH positions on Ethereum, Arbitrum",
-        "url": "https://cointelegraph.com/news/aave-liquidates-kelp-dao-hackers-rseth-stash-ethereum-arbitrum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4304,
-        "score": -0.7333
+        "title": "McDonald's CEO says consumer spending could be 'getting a little bit worse'",
+        "url": "https://www.cnbc.com/2026/05/07/mcdonalds-mcd-q1-2026-earnings.html",
+        "source": "CNBC Markets",
+        "weight": 0.7876,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3808254107460151,
-          "price_change_24h": 0.00452
+          "volume_mcap_ratio": 0.33959597241031675,
+          "price_change_24h": 0.01086
         }
       ],
       "momentum_shifts": []
