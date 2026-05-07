@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-07T20:50:54.734859+00:00",
+  "updated_at": "2026-05-07T21:10:05.971837+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.175,
+    "change24h": -0.024,
+    "vol": 0.151,
     "fearGreed": 47,
-    "momentum": -0.247,
+    "momentum": -0.418,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4581,
-    "global_sentiment": 0.3577,
-    "combined_sentiment": 0.4567,
-    "confidence": 0.7911,
+    "crypto_sentiment": 0.4533,
+    "global_sentiment": 0.3383,
+    "combined_sentiment": 0.4515,
+    "confidence": 0.7831,
     "counts": {
-      "crypto": 49,
-      "global": 44
+      "crypto": 48,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 79987,
-      "btc_change_24h": -1.65,
-      "eth_price": 2290.04,
-      "eth_change_24h": -2.37,
+      "btc_price": 79701,
+      "btc_change_24h": -2.17,
+      "eth_price": 2284.32,
+      "eth_change_24h": -2.86,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.15,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161171660472.0,
+        "volume_24h": 163018456667.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.91,
+        "btc_dominance": 59.89,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-23T20:59:31.988971+00:00",
-      "crypto": 0.416,
-      "global": 0.4582,
-      "combined": 0.4335,
-      "counts": {
-        "crypto": 57,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-04-24T03:34:22.762998+00:00",
       "crypto": 0.4242,
@@ -1008,29 +998,39 @@
         "crypto": 49,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-05-07T21:10:05.971837+00:00",
+      "crypto": 0.4533,
+      "global": 0.3383,
+      "combined": 0.4515,
+      "counts": {
+        "crypto": 48,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "S&P 500's 10% Surge Pushes Sentiment Toward Manic Territory",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500s-10-surge-pushes-180916828.html?.tsrc=rss",
+        "title": "Global stocks mostly fall as US rally shows signs of fatigue",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/tokyo-leads-asia-stock-surge-030138355.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.586,
-        "score": 0.8667
+        "weight": 0.7672,
+        "score": 0.6667
       },
       {
         "title": "The great derivatives disconnect: Why 'negative' funding is actually a bullish signal for Bitcoin",
         "url": "https://www.coindesk.com/business/2026/05/07/the-great-derivatives-disconnect-why-negative-funding-is-actually-a-bullish-signal-for-bitcoin",
         "source": "CoinDesk",
-        "weight": 0.5607,
+        "weight": 0.5403,
         "score": 0.8667
       },
       {
         "title": "Bitcoin tests Bollinger Bands breakout as creator flips bullish on BTC",
         "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-tests-bollinger-bands-breakout-as-creator-flips-bullish-on-btc",
         "source": "CoinDesk",
-        "weight": 0.5535,
+        "weight": 0.5334,
         "score": 0.7333
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "IMF Warns AI Will Supercharge Cyberattacks on Global Financial System",
         "url": "https://decrypt.co/367178/imf-warns-ai-supercharge-cyberattacks-global-financial-system",
         "source": "Decrypt",
-        "weight": 0.7478,
+        "weight": 0.7207,
         "score": -0.9667
       },
       {
         "title": "Sector Update: Energy Stocks Slide Late Afternoon",
         "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-slide-afternoon-195330959.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7163,
+        "weight": 0.6903,
         "score": -1.0
       },
       {
         "title": "Mexico Faces Trade Trouble With Trump. Stocks Are Still Up.",
         "url": "https://finance.yahoo.com/m/d680ced7-76a0-3c95-b12a-fefc7a21c0bf/mexico-faces-trade-trouble.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7074,
+        "weight": 0.6817,
         "score": -0.9333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3683347529380474,
-          "price_change_24h": -0.00018
+          "volume_mcap_ratio": 0.37059793917221046,
+          "price_change_24h": -0.00378
         }
       ],
       "momentum_shifts": []
