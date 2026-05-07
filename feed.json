@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-06T21:16:28.500912+00:00",
+  "updated_at": "2026-05-07T03:48:55.010516+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.326,
-    "fearGreed": 46,
-    "momentum": 0.495,
+    "change24h": 0.025,
+    "vol": 0.492,
+    "fearGreed": 47,
+    "momentum": 0.431,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4068,
-    "global_sentiment": 0.5032,
-    "combined_sentiment": 0.4304,
-    "confidence": 0.7839,
+    "crypto_sentiment": 0.4111,
+    "global_sentiment": 0.481,
+    "combined_sentiment": 0.4317,
+    "confidence": 0.6902,
     "counts": {
-      "crypto": 62,
-      "global": 36
+      "crypto": 46,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 81360,
-      "btc_change_24h": -0.26,
-      "eth_price": 2348.4,
-      "eth_change_24h": -1.24,
+      "btc_price": 80933,
+      "btc_change_24h": -0.73,
+      "eth_price": 2322.36,
+      "eth_change_24h": -2.24,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 46,
-        "classification": "Fear",
+        "value": 47,
+        "classification": "Neutral",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 187519029613.0,
+        "volume_24h": 179528688596.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 60.07,
+        "btc_dominance": 60.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-23T03:32:01.449930+00:00",
-      "crypto": 0.4604,
-      "global": 0.4942,
-      "combined": 0.4698,
-      "counts": {
-        "crypto": 69,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-04-23T06:11:12.491606+00:00",
       "crypto": 0.5198,
@@ -1008,61 +998,71 @@
         "crypto": 62,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-05-07T03:48:55.010516+00:00",
+      "crypto": 0.4111,
+      "global": 0.481,
+      "combined": 0.4317,
+      "counts": {
+        "crypto": 46,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Wednesday 5/6/2026",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201743683.html?.tsrc=rss",
+        "title": "Nikkei 225 Tops 62,000 as Major Japan Stocks Post Double-Digit Gains",
+        "url": "https://beincrypto.com/nikkei-225-record-japan-stocks-rally/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7144,
-        "score": 1.0
+        "weight": 0.7956,
+        "score": 0.8667
       },
       {
-        "title": "Disney Stock Surges On Results, Streaming Profits Boom. Warner Bros. Misses Views.",
-        "url": "https://finance.yahoo.com/m/31e66a58-8ce6-32e6-bc14-33ceee48704b/disney-stock-surges-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7106,
-        "score": 1.0
+        "title": "SoftBank shares surge over 16% as Japan tech-fueled rally lifts Nikkei 225 to record highs",
+        "url": "https://www.cnbc.com/2026/05/07/japan-softbank-tech-shares-nikkei-to-record-high.html",
+        "source": "CNBC Markets",
+        "weight": 0.765,
+        "score": 0.8667
       },
       {
-        "title": "Stock Market Today: Nasdaq, S&P 500 Hit New Highs On U.S.-Iran Hopes; Cathie Wood Sells Advanced Micro, CoreWeave (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/30c7c2fe-7e37-38ea-b929-d4cbc4dc6ff5/stock-market-today%3A-nasdaq%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7217,
-        "score": 0.6667
+        "title": "Japan’s Nikkei Hits Intraday Record High on US-Iran Deal Hopes",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-06/japan-stocks-set-to-jump-at-market-reopen-on-iran-deal-optimism",
+        "source": "Bloomberg Markets",
+        "weight": 0.449,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Sector Update: Energy",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-194737994.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6742,
-        "score": -0.9667
+        "title": "Chinese Creditors Turn to Hong Kong Courts to Enforce Rulings",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-07/chinese-creditors-turn-to-hong-kong-courts-to-enforce-rulings",
+        "source": "Bloomberg Markets",
+        "weight": 0.5148,
+        "score": -0.9333
       },
       {
-        "title": "Ondo, JPMorgan, Mastercard and Ripple Team to Settle Tokenized Treasuries on XRP Ledger",
-        "url": "https://decrypt.co/367033/ondo-jpmorgan-mastercard-ripple-settle-tokenized-treasuries-xrp-ledger",
-        "source": "Decrypt",
-        "weight": 0.7734,
-        "score": -0.6333
+        "title": "RBNZ’s Frequent Remit Adjustments Risk Policy Error, OECD Warns",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-07/rbnz-s-frequent-remit-adjustments-risk-policy-error-oecd-warns",
+        "source": "Bloomberg Markets",
+        "weight": 0.5779,
+        "score": -0.6667
       },
       {
-        "title": "Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal",
-        "url": "https://www.cnbc.com/2026/05/06/us-iran-peace-deal-nuclear-moratorium.html",
+        "title": "Japan's Nikkei 225 tops 62,000 for the first time as Asia markets look past Trump’s Iran threats",
+        "url": "https://www.cnbc.com/2026/05/07/asia-pacific-markets-today-live-updates-nikkei-225-kospi-hang-seng-index.html",
         "source": "CNBC Markets",
-        "weight": 0.7696,
-        "score": -0.6333
+        "weight": 0.619,
+        "score": -0.6
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.42820199565581435,
-          "price_change_24h": -0.00178
+          "volume_mcap_ratio": 0.4075455861797062,
+          "price_change_24h": 0.00258
         }
       ],
       "momentum_shifts": []
