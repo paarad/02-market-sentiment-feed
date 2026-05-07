@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-07T17:54:02.852157+00:00",
+  "updated_at": "2026-05-07T20:50:54.734859+00:00",
   "indicators": {
-    "change24h": -0.02,
-    "vol": 0.15,
+    "change24h": -0.014,
+    "vol": 0.175,
     "fearGreed": 47,
-    "momentum": -0.344,
+    "momentum": -0.247,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4923,
-    "global_sentiment": 0.5028,
-    "combined_sentiment": 0.4945,
-    "confidence": 0.8042,
+    "crypto_sentiment": 0.4581,
+    "global_sentiment": 0.3577,
+    "combined_sentiment": 0.4567,
+    "confidence": 0.7911,
     "counts": {
-      "crypto": 50,
-      "global": 43
+      "crypto": 49,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 79883,
-      "btc_change_24h": -1.89,
-      "eth_price": 2292.26,
-      "eth_change_24h": -2.47,
+      "btc_price": 79987,
+      "btc_change_24h": -1.65,
+      "eth_price": 2290.04,
+      "eth_change_24h": -2.37,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158168671692.0,
+        "volume_24h": 161171660472.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.84,
+        "btc_dominance": 59.91,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-23T20:39:37.417983+00:00",
-      "crypto": 0.4454,
-      "global": 0.4581,
-      "combined": 0.4556,
-      "counts": {
-        "crypto": 57,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-04-23T20:59:31.988971+00:00",
       "crypto": 0.416,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-07T20:50:54.734859+00:00",
+      "crypto": 0.4581,
+      "global": 0.3577,
+      "combined": 0.4567,
+      "counts": {
+        "crypto": 49,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "The great derivatives disconnect: Why 'negative' funding is actually a bullish signal for Bitcoin",
-        "url": "https://www.coindesk.com/business/2026/05/07/the-great-derivatives-disconnect-why-negative-funding-is-actually-a-bullish-signal-for-bitcoin",
-        "source": "CoinDesk",
-        "weight": 0.7881,
+        "title": "S&P 500's 10% Surge Pushes Sentiment Toward Manic Territory",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500s-10-surge-pushes-180916828.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.586,
         "score": 0.8667
       },
       {
-        "title": "Quanta Stock Climbs 36% in a Month: Should You Buy Now or Wait?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-stock-climbs-36-month-160000293.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6423,
-        "score": 1.0
+        "title": "The great derivatives disconnect: Why 'negative' funding is actually a bullish signal for Bitcoin",
+        "url": "https://www.coindesk.com/business/2026/05/07/the-great-derivatives-disconnect-why-negative-funding-is-actually-a-bullish-signal-for-bitcoin",
+        "source": "CoinDesk",
+        "weight": 0.5607,
+        "score": 0.8667
       },
       {
         "title": "Bitcoin tests Bollinger Bands breakout as creator flips bullish on BTC",
         "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-tests-bollinger-bands-breakout-as-creator-flips-bullish-on-btc",
         "source": "CoinDesk",
-        "weight": 0.7781,
+        "weight": 0.5535,
         "score": 0.7333
       }
     ],
     "negative": [
       {
-        "title": "Citadel Securities Clearing Own Stock Options in Break From BofA",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-07/citadel-securities-clearing-own-stock-options-in-break-from-bofa",
-        "source": "Bloomberg Markets",
-        "weight": 0.6558,
+        "title": "IMF Warns AI Will Supercharge Cyberattacks on Global Financial System",
+        "url": "https://decrypt.co/367178/imf-warns-ai-supercharge-cyberattacks-global-financial-system",
+        "source": "Decrypt",
+        "weight": 0.7478,
         "score": -0.9667
       },
       {
-        "title": "Shake Shack shares crater 30% after burger chain reports operating loss",
-        "url": "https://www.cnbc.com/2026/05/07/shake-shack-shak-shares-drop-earnings-report.html",
-        "source": "CNBC Markets",
-        "weight": 0.7957,
-        "score": -0.7333
+        "title": "Sector Update: Energy Stocks Slide Late Afternoon",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-slide-afternoon-195330959.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7163,
+        "score": -1.0
       },
       {
-        "title": "The stablecoin queue: 20 banks and tech giants are waiting to issue tokens with Anchorage Digital",
-        "url": "https://www.coindesk.com/business/2026/05/07/anchorage-says-it-has-a-pipeline-of-up-to-20-big-firms-looking-to-issue-stablecoins",
-        "source": "CoinDesk",
-        "weight": 0.8616,
-        "score": -0.6667
+        "title": "Mexico Faces Trade Trouble With Trump. Stocks Are Still Up.",
+        "url": "https://finance.yahoo.com/m/d680ced7-76a0-3c95-b12a-fefc7a21c0bf/mexico-faces-trade-trouble.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7074,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3623723128932478,
-          "price_change_24h": 0.00719
+          "volume_mcap_ratio": 0.3683347529380474,
+          "price_change_24h": -0.00018
         }
       ],
       "momentum_shifts": []
