@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-08T09:45:48.032040+00:00",
+  "updated_at": "2026-05-08T14:05:25.794911+00:00",
   "indicators": {
-    "change24h": -0.019,
-    "vol": 0.105,
+    "change24h": -0.007,
+    "vol": 0.128,
     "fearGreed": 38,
-    "momentum": -0.338,
+    "momentum": -0.117,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4944,
-    "global_sentiment": 0.4877,
-    "combined_sentiment": 0.4947,
-    "confidence": 0.7551,
+    "crypto_sentiment": 0.3946,
+    "global_sentiment": 0.5255,
+    "combined_sentiment": 0.4231,
+    "confidence": 0.7864,
     "counts": {
-      "crypto": 67,
-      "global": 41
+      "crypto": 63,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 79850,
-      "btc_change_24h": -1.27,
-      "eth_price": 2285.34,
-      "eth_change_24h": -1.83,
+      "btc_price": 79778,
+      "btc_change_24h": -0.84,
+      "eth_price": 2278.76,
+      "eth_change_24h": -1.41,
       "market_regime": "bear",
       "regime_strength": 0.4,
       "market_breadth": 0.25,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 157558660923.0,
+        "volume_24h": 160225817887.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.89,
+        "btc_dominance": 59.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-24T13:54:51.026703+00:00",
-      "crypto": 0.36,
-      "global": 0.6615,
-      "combined": 0.4085,
-      "counts": {
-        "crypto": 50,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-04-24T17:06:21.790945+00:00",
       "crypto": 0.3612,
@@ -1008,52 +998,62 @@
         "crypto": 67,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-08T14:05:25.794911+00:00",
+      "crypto": 0.3946,
+      "global": 0.5255,
+      "combined": 0.4231,
+      "counts": {
+        "crypto": 63,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Record French Solar Power Output Pushes Prices Below Zero",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-08/french-solar-power-output-hits-record-pushing-prices-below-zero",
+        "source": "Bloomberg Markets",
+        "weight": 0.6251,
+        "score": 0.8667
+      },
+      {
         "title": "S&P 500 call options volume surges to record $2.6 trillion. Here's what it means for bitcoin",
         "url": "https://www.coindesk.com/markets/2026/05/08/s-and-p-500-call-options-volume-surges-to-record-usd2-6-trillion-here-s-what-it-means-for-bitcoin",
         "source": "CoinDesk",
-        "weight": 0.952,
+        "weight": 0.5775,
         "score": 0.8667
       },
       {
         "title": "Bitcoin slips below $80,000: Why the 'Trump rally' is hitting a wall of profit-taking",
         "url": "https://www.coindesk.com/markets/2026/05/08/bitcoin-s-usd80k-breakout-fizzles-as-analysts-split-on-whether-rally-has-legs",
         "source": "CoinDesk",
-        "weight": 0.8547,
+        "weight": 0.5184,
         "score": 0.8667
-      },
-      {
-        "title": "M&amp;G’s Fedeli Shifts to Cheaper Stocks After Tech’s Rapid Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/m-g-s-fedeli-shifts-to-cheaper-stocks-after-tech-s-rapid-rally",
-        "source": "Bloomberg Markets",
-        "weight": 0.6567,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Cloudflare Stock Tumbles. An Earnings Beat Wasn’t Enough.",
-        "url": "https://finance.yahoo.com/m/a1484422-7dd5-3a3e-a999-0522ea1048b2/cloudflare-stock-tumbles.-an.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6589,
+        "title": "Mantle tokenholders approve 30K ETH Aave credit facility after rsETH exploit",
+        "url": "https://cointelegraph.com/news/mantle-tokenholders-aave-credit-facility-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7016,
+        "score": -0.8333
+      },
+      {
+        "title": "Tether freezes over $500M of USDT in 30 days, BlockSec data shows",
+        "url": "https://cointelegraph.com/news/tether-freezes-over-500m-usdt-30-days-blocksec-data-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5345,
         "score": -0.9667
       },
       {
-        "title": "Fear & Greed 38 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Mariana Mazzucato Thinks We Need More Moonshots | Odd Lots",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-08/mariana-mazzucato-thinks-we-need-more-moonshots-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6702,
+        "title": "A cloud computing stock is soaring 16%. Here’s what’s driving the rally",
+        "url": "https://www.cnbc.com/2026/05/08/akamai-stock-ai-cloud-infrastructure-deal.html",
+        "source": "CNBC Markets",
+        "weight": 0.794,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36473718645649283,
-          "price_change_24h": -0.00116
+          "volume_mcap_ratio": 0.36379223134181093,
+          "price_change_24h": -0.0107
         }
       ],
       "momentum_shifts": []
