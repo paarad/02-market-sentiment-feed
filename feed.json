@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-08T17:25:40.764048+00:00",
+  "updated_at": "2026-05-08T20:41:20.483695+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.083,
+    "change24h": 0.018,
+    "vol": 0.132,
     "fearGreed": 38,
-    "momentum": 0.255,
+    "momentum": 0.32,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4158,
-    "global_sentiment": 0.5342,
-    "combined_sentiment": 0.4397,
-    "confidence": 0.8261,
+    "crypto_sentiment": 0.3911,
+    "global_sentiment": 0.525,
+    "combined_sentiment": 0.4204,
+    "confidence": 0.8333,
     "counts": {
-      "crypto": 59,
+      "crypto": 65,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 79930,
-      "btc_change_24h": 0.29,
-      "eth_price": 2297.55,
-      "eth_change_24h": 0.4,
+      "btc_price": 80219,
+      "btc_change_24h": 0.38,
+      "eth_price": 2309.58,
+      "eth_change_24h": 0.89,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.8,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 150281094455.0,
+        "volume_24h": 152822502499.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.79,
+        "btc_dominance": 59.74,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-24T20:30:18.115490+00:00",
-      "crypto": 0.3882,
-      "global": 0.3718,
-      "combined": 0.4054,
-      "counts": {
-        "crypto": 48,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-04-24T20:57:42.599082+00:00",
       "crypto": 0.3447,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-05-08T20:41:20.483695+00:00",
+      "crypto": 0.3911,
+      "global": 0.525,
+      "combined": 0.4204,
+      "counts": {
+        "crypto": 65,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Jobs Surge As AI Stocks Wobble | Open Interest 5/8/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-08/open-interest-5-8-2026-video",
+        "title": "How major US stock indexes fared Friday 5/8/2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202137441.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7702,
+        "score": 0.6667
+      },
+      {
+        "title": "Stocks Hit Record High on Jobs as Chipmakers Surge",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-08/stocks-hit-record-high-on-jobs-as-chipmakers-surge-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7464,
-        "score": 1.0
+        "weight": 0.7563,
+        "score": 0.6667
       },
       {
-        "title": "Bitcoin bulls battle for $80K control as US jobs data delivers surprise",
-        "url": "https://cointelegraph.com/markets/bitcoin-bulls-battle-80k-control-us-jobs-data-delivers-surprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7031,
-        "score": 0.8667
-      },
-      {
-        "title": "Strategy's MSTR stock signals 80% rally potential despite Q1 loss",
-        "url": "https://cointelegraph.com/markets/strategys-mstr-stock-signals-80-percent-rally-despite-q1-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7456,
-        "score": 0.7333
+        "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/ocular-therapeutix-reports-inducement-grants-200500687.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7459,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Kelp DAO exploit prompts DeFi protocols to rethink oracle providers",
-        "url": "https://cointelegraph.com/news/kelp-dao-exploit-prompts-defi-protocols-rethink-oracle-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Price predictions 5/8: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
+        "url": "https://cointelegraph.com/markets/price-predictions-58-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5892,
-        "score": -1.0
-      },
-      {
-        "title": "Australian police seize $4.1M in Bitcoin tied to darknet market",
-        "url": "https://cointelegraph.com/news/australian-police-seize-41m-bitcoin-largest-dark-net-bust?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5352,
+        "weight": 0.7957,
         "score": -0.9333
       },
       {
-        "title": "Next week’s CLARITY Act markup could fall apart over Trump family crypto ethics fight",
-        "url": "https://cryptoslate.com/next-weeks-clarity-act-markup-could-fall-apart-over-trump-family-crypto-ethics-fight/",
-        "source": "CryptoSlate",
-        "weight": 0.7218,
-        "score": -0.6667
+        "title": "AI agents fueled a frenzy of startup building at the Consensus Miami EasyA hackathon",
+        "url": "https://www.coindesk.com/tech/2026/05/08/ai-agents-fueled-a-frenzy-of-startup-building-at-the-consensus-miami-easya-hackathon",
+        "source": "CoinDesk",
+        "weight": 0.8427,
+        "score": -0.7333
+      },
+      {
+        "title": "German Banks Look to Offload Troubled Loan on LA Office Tower",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-08/german-banks-look-to-offload-troubled-loan-on-la-office-tower",
+        "source": "Bloomberg Markets",
+        "weight": 0.5821,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.344706793173577,
-          "price_change_24h": -0.0035
+          "volume_mcap_ratio": 0.3497949619235006,
+          "price_change_24h": 0.00352
         }
       ],
       "momentum_shifts": []
