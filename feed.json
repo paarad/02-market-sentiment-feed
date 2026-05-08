@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-08T20:41:20.483695+00:00",
+  "updated_at": "2026-05-08T21:08:58.185775+00:00",
   "indicators": {
-    "change24h": 0.018,
-    "vol": 0.132,
+    "change24h": 0.024,
+    "vol": 0.143,
     "fearGreed": 38,
-    "momentum": 0.32,
+    "momentum": 0.415,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3911,
-    "global_sentiment": 0.525,
-    "combined_sentiment": 0.4204,
-    "confidence": 0.8333,
+    "crypto_sentiment": 0.4097,
+    "global_sentiment": 0.4926,
+    "combined_sentiment": 0.4317,
+    "confidence": 0.8318,
     "counts": {
       "crypto": 65,
       "global": 44
     },
     "market_indicators": {
-      "btc_price": 80219,
-      "btc_change_24h": 0.38,
-      "eth_price": 2309.58,
-      "eth_change_24h": 0.89,
+      "btc_price": 80163,
+      "btc_change_24h": 0.6,
+      "eth_price": 2307.28,
+      "eth_change_24h": 1.04,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.8,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152822502499.0,
+        "volume_24h": 152337282017.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-24T20:57:42.599082+00:00",
-      "crypto": 0.3447,
-      "global": 0.4335,
-      "combined": 0.378,
-      "counts": {
-        "crypto": 49,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-04-25T03:18:43.628298+00:00",
       "crypto": 0.4054,
@@ -1008,30 +998,40 @@
         "crypto": 65,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-05-08T21:08:58.185775+00:00",
+      "crypto": 0.4097,
+      "global": 0.4926,
+      "combined": 0.4317,
+      "counts": {
+        "crypto": 65,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "S&P 500 Rides Sixth Week of Gains to Record Close",
+        "url": "https://finance.yahoo.com/m/fc1166a9-1764-3317-b9e3-da05186b51d9/s%26p-500-rides-sixth-week-of.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7177,
+        "score": 0.8667
+      },
+      {
+        "title": "Coinbase rebounds as altcoins surge with bitcoin holding above $80,000",
+        "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-rebounds-as-altcoins-surge-with-bitcoin-holding-above-usd80-000",
+        "source": "CoinDesk",
+        "weight": 0.9818,
+        "score": 0.5333
+      },
+      {
         "title": "How major US stock indexes fared Friday 5/8/2026",
         "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202137441.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7702,
+        "weight": 0.7303,
         "score": 0.6667
-      },
-      {
-        "title": "Stocks Hit Record High on Jobs as Chipmakers Surge",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-08/stocks-hit-record-high-on-jobs-as-chipmakers-surge-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7563,
-        "score": 0.6667
-      },
-      {
-        "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/ocular-therapeutix-reports-inducement-grants-200500687.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7459,
-        "score": 0.6333
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Price predictions 5/8: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
         "url": "https://cointelegraph.com/markets/price-predictions-58-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7957,
+        "weight": 0.7545,
         "score": -0.9333
       },
       {
         "title": "AI agents fueled a frenzy of startup building at the Consensus Miami EasyA hackathon",
         "url": "https://www.coindesk.com/tech/2026/05/08/ai-agents-fueled-a-frenzy-of-startup-building-at-the-consensus-miami-easya-hackathon",
         "source": "CoinDesk",
-        "weight": 0.8427,
+        "weight": 0.7991,
         "score": -0.7333
       },
       {
         "title": "German Banks Look to Offload Troubled Loan on LA Office Tower",
         "url": "https://www.bloomberg.com/news/articles/2026-05-08/german-banks-look-to-offload-troubled-loan-on-la-office-tower",
         "source": "Bloomberg Markets",
-        "weight": 0.5821,
+        "weight": 0.5519,
         "score": -0.9333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3497949619235006,
-          "price_change_24h": 0.00352
+          "volume_mcap_ratio": 0.34756530877111186,
+          "price_change_24h": 0.00343
         }
       ],
       "momentum_shifts": []
