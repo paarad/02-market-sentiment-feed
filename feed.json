@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-08T03:39:45.909476+00:00",
+  "updated_at": "2026-05-08T06:03:21.841765+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.135,
+    "change24h": -0.022,
+    "vol": 0.124,
     "fearGreed": 38,
-    "momentum": -0.229,
-    "regime": "sideways",
+    "momentum": -0.388,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3932,
-    "global_sentiment": 0.4373,
-    "combined_sentiment": 0.4147,
-    "confidence": 0.728,
+    "crypto_sentiment": 0.4006,
+    "global_sentiment": 0.4582,
+    "combined_sentiment": 0.422,
+    "confidence": 0.7333,
     "counts": {
-      "crypto": 50,
-      "global": 42
+      "crypto": 65,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 79607,
-      "btc_change_24h": -1.67,
-      "eth_price": 2279.82,
-      "eth_change_24h": -1.78,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 79477,
+      "btc_change_24h": -1.93,
+      "eth_price": 2272.56,
+      "eth_change_24h": -2.46,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 38,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158830161335.0,
+        "volume_24h": 160165122314.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.84,
+        "btc_dominance": 59.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-24T06:15:21.320725+00:00",
-      "crypto": 0.4459,
-      "global": 0.4156,
-      "combined": 0.4524,
-      "counts": {
-        "crypto": 55,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-24T09:50:22.810230+00:00",
       "crypto": 0.4861,
@@ -1008,46 +998,49 @@
         "crypto": 50,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-08T06:03:21.841765+00:00",
+      "crypto": 0.4006,
+      "global": 0.4582,
+      "combined": 0.422,
+      "counts": {
+        "crypto": 65,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "IREN inks AI infrastructure deal with Nvidia",
-        "url": "https://www.cnbc.com/2026/05/07/iren-stock-ai-infrastructure-nvidia.html",
-        "source": "CNBC Markets",
-        "weight": 0.4926,
-        "score": 0.5833
+        "title": "ChinaAMC to Accelerate Tokenization Growth",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-08/chinaamc-to-accelerate-tokenization-growth-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6427,
+        "score": 0.6667
       },
       {
-        "title": "Australia’s Battery Boom Starts to Crowd Lucrative Power Trade",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/australia-s-battery-boom-starts-to-crowd-lucrative-power-trade",
+        "title": "Trump Warns Iran: Sign New Deal Fast or Face More Fire",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-08/trump-warns-iran-sign-new-deal-fast-or-face-more-fire-video",
         "source": "Bloomberg Markets",
-        "weight": 0.72,
-        "score": 0.3333
+        "weight": 0.758,
+        "score": 0.5333
       },
       {
-        "title": "Adani Energy Stocks Emerge as Proxy for India’s AI Trade",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-05-08/ai-trade-turns-adani-s-energy-stocks-into-india-proxy-play-mowbagsr",
-        "source": "Bloomberg Markets",
-        "weight": 0.7192,
+        "title": "Bitcoin slips to $79,000, DOGE leads majors losses as negative funding rates set 10-year record",
+        "url": "https://www.coindesk.com/markets/2026/05/08/bitcoin-slips-to-usd79-000-doge-leads-majors-losses-as-negative-funding-rates-set-10-year-record",
+        "source": "CoinDesk",
+        "weight": 1.0631,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Australia Moves to Toughen Pension Funds’ Performance Scorecard",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/australia-moves-to-toughen-pension-funds-performance-scorecard",
+        "title": "Why China's Rare Earths Grip Is Hard to Break",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-08/why-china-s-rare-earths-grip-is-hard-to-break-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5384,
-        "score": -0.9667
-      },
-      {
-        "title": "VDC and RSPS Take Different Routes to the Same Sector",
-        "url": "https://www.fool.com/coverage/etfs/2026/05/07/vdc-and-rsps-take-different-routes-to-the-same-sector/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4899,
-        "score": -0.9667
+        "weight": 0.7283,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 38 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Markets Debate If Japan Sold Treasuries When Intervening in Yen",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-08/markets-debate-if-japan-sold-treasuries-when-intervening-in-yen",
+        "source": "Bloomberg Markets",
+        "weight": 0.6078,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36630862293752886,
-          "price_change_24h": 0.00295
+          "volume_mcap_ratio": 0.36218820666238344,
+          "price_change_24h": -0.0037
         }
       ],
       "momentum_shifts": []
