@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-07T21:10:05.971837+00:00",
+  "updated_at": "2026-05-08T03:39:45.909476+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.151,
-    "fearGreed": 47,
-    "momentum": -0.418,
-    "regime": "bear",
+    "change24h": -0.013,
+    "vol": 0.135,
+    "fearGreed": 38,
+    "momentum": -0.229,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4533,
-    "global_sentiment": 0.3383,
-    "combined_sentiment": 0.4515,
-    "confidence": 0.7831,
+    "crypto_sentiment": 0.3932,
+    "global_sentiment": 0.4373,
+    "combined_sentiment": 0.4147,
+    "confidence": 0.728,
     "counts": {
-      "crypto": 48,
-      "global": 43
+      "crypto": 50,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 79701,
-      "btc_change_24h": -2.17,
-      "eth_price": 2284.32,
-      "eth_change_24h": -2.86,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 79607,
+      "btc_change_24h": -1.67,
+      "eth_price": 2279.82,
+      "eth_change_24h": -1.78,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
-        "value": 47,
-        "classification": "Neutral",
-        "trend": "improving"
+        "value": 38,
+        "classification": "Fear",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 163018456667.0,
+        "volume_24h": 158830161335.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.89,
+        "btc_dominance": 59.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-24T03:34:22.762998+00:00",
-      "crypto": 0.4242,
-      "global": 0.3402,
-      "combined": 0.4299,
-      "counts": {
-        "crypto": 57,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-04-24T06:15:21.320725+00:00",
       "crypto": 0.4459,
@@ -1008,61 +998,71 @@
         "crypto": 48,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-08T03:39:45.909476+00:00",
+      "crypto": 0.3932,
+      "global": 0.4373,
+      "combined": 0.4147,
+      "counts": {
+        "crypto": 50,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global stocks mostly fall as US rally shows signs of fatigue",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/tokyo-leads-asia-stock-surge-030138355.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7672,
-        "score": 0.6667
+        "title": "IREN inks AI infrastructure deal with Nvidia",
+        "url": "https://www.cnbc.com/2026/05/07/iren-stock-ai-infrastructure-nvidia.html",
+        "source": "CNBC Markets",
+        "weight": 0.4926,
+        "score": 0.5833
       },
       {
-        "title": "The great derivatives disconnect: Why 'negative' funding is actually a bullish signal for Bitcoin",
-        "url": "https://www.coindesk.com/business/2026/05/07/the-great-derivatives-disconnect-why-negative-funding-is-actually-a-bullish-signal-for-bitcoin",
-        "source": "CoinDesk",
-        "weight": 0.5403,
-        "score": 0.8667
+        "title": "Australia’s Battery Boom Starts to Crowd Lucrative Power Trade",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-08/australia-s-battery-boom-starts-to-crowd-lucrative-power-trade",
+        "source": "Bloomberg Markets",
+        "weight": 0.72,
+        "score": 0.3333
       },
       {
-        "title": "Bitcoin tests Bollinger Bands breakout as creator flips bullish on BTC",
-        "url": "https://www.coindesk.com/markets/2026/05/07/bitcoin-tests-bollinger-bands-breakout-as-creator-flips-bullish-on-btc",
-        "source": "CoinDesk",
-        "weight": 0.5334,
-        "score": 0.7333
+        "title": "Adani Energy Stocks Emerge as Proxy for India’s AI Trade",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-08/ai-trade-turns-adani-s-energy-stocks-into-india-proxy-play-mowbagsr",
+        "source": "Bloomberg Markets",
+        "weight": 0.7192,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "IMF Warns AI Will Supercharge Cyberattacks on Global Financial System",
-        "url": "https://decrypt.co/367178/imf-warns-ai-supercharge-cyberattacks-global-financial-system",
-        "source": "Decrypt",
-        "weight": 0.7207,
+        "title": "Australia Moves to Toughen Pension Funds’ Performance Scorecard",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-08/australia-moves-to-toughen-pension-funds-performance-scorecard",
+        "source": "Bloomberg Markets",
+        "weight": 0.5384,
         "score": -0.9667
       },
       {
-        "title": "Sector Update: Energy Stocks Slide Late Afternoon",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-slide-afternoon-195330959.html?.tsrc=rss",
+        "title": "VDC and RSPS Take Different Routes to the Same Sector",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/07/vdc-and-rsps-take-different-routes-to-the-same-sector/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6903,
-        "score": -1.0
+        "weight": 0.4899,
+        "score": -0.9667
       },
       {
-        "title": "Mexico Faces Trade Trouble With Trump. Stocks Are Still Up.",
-        "url": "https://finance.yahoo.com/m/d680ced7-76a0-3c95-b12a-fefc7a21c0bf/mexico-faces-trade-trouble.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6817,
-        "score": -0.9333
+        "title": "Fear & Greed 38 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37059793917221046,
-          "price_change_24h": -0.00378
+          "volume_mcap_ratio": 0.36630862293752886,
+          "price_change_24h": 0.00295
         }
       ],
       "momentum_shifts": []
