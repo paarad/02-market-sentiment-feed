@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-08T14:05:25.794911+00:00",
+  "updated_at": "2026-05-08T17:25:40.764048+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.128,
+    "change24h": 0.015,
+    "vol": 0.083,
     "fearGreed": 38,
-    "momentum": -0.117,
-    "regime": "bear",
+    "momentum": 0.255,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3946,
-    "global_sentiment": 0.5255,
-    "combined_sentiment": 0.4231,
-    "confidence": 0.7864,
+    "crypto_sentiment": 0.4158,
+    "global_sentiment": 0.5342,
+    "combined_sentiment": 0.4397,
+    "confidence": 0.8261,
     "counts": {
-      "crypto": 63,
-      "global": 39
+      "crypto": 59,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 79778,
-      "btc_change_24h": -0.84,
-      "eth_price": 2278.76,
-      "eth_change_24h": -1.41,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 79930,
+      "btc_change_24h": 0.29,
+      "eth_price": 2297.55,
+      "eth_change_24h": 0.4,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 38,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160225817887.0,
+        "volume_24h": 150281094455.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.88,
+        "btc_dominance": 59.79,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-24T17:06:21.790945+00:00",
-      "crypto": 0.3612,
-      "global": 0.4318,
-      "combined": 0.3903,
-      "counts": {
-        "crypto": 50,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-04-24T20:30:18.115490+00:00",
       "crypto": 0.3882,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-05-08T17:25:40.764048+00:00",
+      "crypto": 0.4158,
+      "global": 0.5342,
+      "combined": 0.4397,
+      "counts": {
+        "crypto": 59,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Record French Solar Power Output Pushes Prices Below Zero",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/french-solar-power-output-hits-record-pushing-prices-below-zero",
+        "title": "Jobs Surge As AI Stocks Wobble | Open Interest 5/8/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-08/open-interest-5-8-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6251,
+        "weight": 0.7464,
+        "score": 1.0
+      },
+      {
+        "title": "Bitcoin bulls battle for $80K control as US jobs data delivers surprise",
+        "url": "https://cointelegraph.com/markets/bitcoin-bulls-battle-80k-control-us-jobs-data-delivers-surprise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7031,
         "score": 0.8667
       },
       {
-        "title": "S&P 500 call options volume surges to record $2.6 trillion. Here's what it means for bitcoin",
-        "url": "https://www.coindesk.com/markets/2026/05/08/s-and-p-500-call-options-volume-surges-to-record-usd2-6-trillion-here-s-what-it-means-for-bitcoin",
-        "source": "CoinDesk",
-        "weight": 0.5775,
-        "score": 0.8667
-      },
-      {
-        "title": "Bitcoin slips below $80,000: Why the 'Trump rally' is hitting a wall of profit-taking",
-        "url": "https://www.coindesk.com/markets/2026/05/08/bitcoin-s-usd80k-breakout-fizzles-as-analysts-split-on-whether-rally-has-legs",
-        "source": "CoinDesk",
-        "weight": 0.5184,
-        "score": 0.8667
+        "title": "Strategy's MSTR stock signals 80% rally potential despite Q1 loss",
+        "url": "https://cointelegraph.com/markets/strategys-mstr-stock-signals-80-percent-rally-despite-q1-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7456,
+        "score": 0.7333
       }
     ],
     "negative": [
       {
-        "title": "Mantle tokenholders approve 30K ETH Aave credit facility after rsETH exploit",
-        "url": "https://cointelegraph.com/news/mantle-tokenholders-aave-credit-facility-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Kelp DAO exploit prompts DeFi protocols to rethink oracle providers",
+        "url": "https://cointelegraph.com/news/kelp-dao-exploit-prompts-defi-protocols-rethink-oracle-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7016,
-        "score": -0.8333
+        "weight": 0.5892,
+        "score": -1.0
       },
       {
-        "title": "Tether freezes over $500M of USDT in 30 days, BlockSec data shows",
-        "url": "https://cointelegraph.com/news/tether-freezes-over-500m-usdt-30-days-blocksec-data-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Australian police seize $4.1M in Bitcoin tied to darknet market",
+        "url": "https://cointelegraph.com/news/australian-police-seize-41m-bitcoin-largest-dark-net-bust?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5345,
-        "score": -0.9667
+        "weight": 0.5352,
+        "score": -0.9333
       },
       {
-        "title": "A cloud computing stock is soaring 16%. Here’s what’s driving the rally",
-        "url": "https://www.cnbc.com/2026/05/08/akamai-stock-ai-cloud-infrastructure-deal.html",
-        "source": "CNBC Markets",
-        "weight": 0.794,
-        "score": -0.6333
+        "title": "Next week’s CLARITY Act markup could fall apart over Trump family crypto ethics fight",
+        "url": "https://cryptoslate.com/next-weeks-clarity-act-markup-could-fall-apart-over-trump-family-crypto-ethics-fight/",
+        "source": "CryptoSlate",
+        "weight": 0.7218,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36379223134181093,
-          "price_change_24h": -0.0107
+          "volume_mcap_ratio": 0.344706793173577,
+          "price_change_24h": -0.0035
         }
       ],
       "momentum_shifts": []
