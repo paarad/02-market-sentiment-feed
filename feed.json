@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-09T13:41:12.814971+00:00",
+  "updated_at": "2026-05-09T17:02:01.880683+00:00",
   "indicators": {
-    "change24h": 0.029,
-    "vol": 0.132,
+    "change24h": 0.016,
+    "vol": 0.114,
     "fearGreed": 38,
-    "momentum": 0.515,
+    "momentum": 0.276,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4013,
-    "global_sentiment": 0.5031,
-    "combined_sentiment": 0.4262,
-    "confidence": 0.6873,
+    "crypto_sentiment": 0.3021,
+    "global_sentiment": 0.4481,
+    "combined_sentiment": 0.3473,
+    "confidence": 0.7257,
     "counts": {
-      "crypto": 85,
-      "global": 42
+      "crypto": 69,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 80370,
-      "btc_change_24h": 0.72,
-      "eth_price": 2313.98,
-      "eth_change_24h": 1.66,
+      "btc_price": 80618,
+      "btc_change_24h": 0.98,
+      "eth_price": 2319.97,
+      "eth_change_24h": 1.2,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 38,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 119986416157.0,
+        "volume_24h": 107801629159.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.74,
+        "btc_dominance": 59.81,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-25T16:53:36.408586+00:00",
-      "crypto": 0.4271,
-      "global": 0.3627,
-      "combined": 0.4339,
-      "counts": {
-        "crypto": 52,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-04-25T20:21:53.363350+00:00",
       "crypto": 0.4025,
@@ -1008,53 +998,63 @@
         "crypto": 85,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-09T17:02:01.880683+00:00",
+      "crypto": 0.3021,
+      "global": 0.4481,
+      "combined": 0.3473,
+      "counts": {
+        "crypto": 69,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Iran War Is Draining World’s Oil Buffer at an Unprecedented Pace",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-09/iran-war-is-draining-world-s-oil-buffer-at-unprecedented-pace",
-        "source": "Bloomberg Markets",
-        "weight": 0.6975,
-        "score": 0.6667
-      },
-      {
-        "title": "TON price doubles after Telegram made a move critics say cuts against crypto’s core promise",
-        "url": "https://cryptoslate.com/ton-price-doubles-after-telegram-made-a-move-critics-say-cuts-against-cryptos-core-promise/",
-        "source": "CryptoSlate",
-        "weight": 0.4272,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 1.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Iran War Is Draining World’s Oil Buffer at an Unprecedented Pace",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-09/iran-war-is-draining-world-s-oil-buffer-at-unprecedented-pace",
+        "source": "Bloomberg Markets",
+        "weight": 0.4738,
+        "score": 0.6667
+      },
+      {
+        "title": "The Best Trade of the Month Wasn’t Crypto or Oil, It Was Potatoes",
+        "url": "https://beincrypto.com/best-trade-of-the-month-not-crypto-oil-stocks/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5635,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Oof! The Federal Reserve's May Inflation Forecast Is In, and Things Just Got Uglier for Wall Street.",
-        "url": "https://www.fool.com/investing/2026/05/09/oof-fed-may-inflation-forecast-is-in-ugly-wall-st/?.tsrc=rss",
+        "title": "Why a 2017 Linux bug is now a major concern for the crypto industry",
+        "url": "https://cointelegraph.com/features/copy-fail-linux-vulnerability-crypto-security?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6701,
+        "score": -1.0
+      },
+      {
+        "title": "Materials sector positioned to gain from AI spending, defense growth and housing demand, says BofA",
+        "url": "https://investorshub.advfn.com/market-news/article/28067/materials-sector-positioned-to-gain-from-ai-spending-defense-growth-and-housing-demand-says-bofa?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7769,
+        "weight": 0.6485,
         "score": -0.9667
       },
       {
-        "title": "Court lets Arbitrum DAO to transfer $71M in ETH tied to North Korea hack to Aave",
-        "url": "https://cointelegraph.com/news/court-lets-arbitrum-dao-to-transfer-71m-in-eth-tied-to-north-korea-hack-to-aave?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7205,
-        "score": -0.7333
-      },
-      {
-        "title": "Fear & Greed 38 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "LayerZero says it ‘made a mistake’ in $292 Million Kelp exploit",
+        "url": "https://www.coindesk.com/tech/2026/05/09/layerzero-says-it-made-a-mistake-in-usd292-million-kelp-exploit",
+        "source": "CoinDesk",
+        "weight": 0.6951,
+        "score": -0.8333
       }
     ],
     "market_movers": {
