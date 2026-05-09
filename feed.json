@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-08T21:08:58.185775+00:00",
+  "updated_at": "2026-05-09T03:41:08.661044+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.143,
+    "change24h": 0.048,
+    "vol": 0.179,
     "fearGreed": 38,
-    "momentum": 0.415,
+    "momentum": 0.836,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4097,
-    "global_sentiment": 0.4926,
-    "combined_sentiment": 0.4317,
-    "confidence": 0.8318,
+    "crypto_sentiment": 0.4033,
+    "global_sentiment": 0.5734,
+    "combined_sentiment": 0.4336,
+    "confidence": 0.7658,
     "counts": {
-      "crypto": 65,
-      "global": 44
+      "crypto": 69,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 80163,
-      "btc_change_24h": 0.6,
-      "eth_price": 2307.28,
-      "eth_change_24h": 1.04,
+      "btc_price": 80341,
+      "btc_change_24h": 0.9,
+      "eth_price": 2314.15,
+      "eth_change_24h": 1.49,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.8,
       "fear_greed": {
         "value": 38,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152337282017.0,
-        "high_activity_coins": 1
+        "volume_24h": 143592674708.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.74,
+        "btc_dominance": 59.64,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-25T03:18:43.628298+00:00",
-      "crypto": 0.4054,
-      "global": 0.4407,
-      "combined": 0.4241,
-      "counts": {
-        "crypto": 64,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-04-25T05:52:14.810799+00:00",
       "crypto": 0.4548,
@@ -1008,61 +998,76 @@
         "crypto": 65,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-05-09T03:41:08.661044+00:00",
+      "crypto": 0.4033,
+      "global": 0.5734,
+      "combined": 0.4336,
+      "counts": {
+        "crypto": 69,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "S&P 500 Rides Sixth Week of Gains to Record Close",
-        "url": "https://finance.yahoo.com/m/fc1166a9-1764-3317-b9e3-da05186b51d9/s%26p-500-rides-sixth-week-of.html?.tsrc=rss",
+        "title": "Franklin Templeton’s bold S&P 500 call stuns Wall Street",
+        "url": "https://www.thestreet.com/investing/franklin-templetons-bold-sp-500-call-stuns-wall-street?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7177,
-        "score": 0.8667
+        "weight": 0.7016,
+        "score": 1.0
       },
       {
-        "title": "Coinbase rebounds as altcoins surge with bitcoin holding above $80,000",
-        "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-rebounds-as-altcoins-surge-with-bitcoin-holding-above-usd80-000",
-        "source": "CoinDesk",
-        "weight": 0.9818,
+        "title": "Global crypto market cap up 1.4% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "How major US stock indexes fared Friday 5/8/2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202137441.html?.tsrc=rss",
+        "title": "Review & Preview: Still Going Strong",
+        "url": "https://finance.yahoo.com/m/9afcc302-2d56-3271-a5ce-fe7fd92eac0c/review-%26-preview%3A-still-going.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7303,
+        "weight": 0.5176,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 38 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Estonia's FSA issues investor warning about Zondacrypto",
+        "url": "https://cointelegraph.com/news/estonia-fsa-investor-warning-zondacrypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3949,
+        "score": -1.0
+      },
+      {
         "title": "Price predictions 5/8: BTC, ETH, BNB, XRP, SOL, DOGE, HYPE, ADA, ZEC, BCH",
         "url": "https://cointelegraph.com/markets/price-predictions-58-btc-eth-bnb-xrp-sol-doge-hype-ada-zec-bch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7545,
-        "score": -0.9333
-      },
-      {
-        "title": "AI agents fueled a frenzy of startup building at the Consensus Miami EasyA hackathon",
-        "url": "https://www.coindesk.com/tech/2026/05/08/ai-agents-fueled-a-frenzy-of-startup-building-at-the-consensus-miami-easya-hackathon",
-        "source": "CoinDesk",
-        "weight": 0.7991,
-        "score": -0.7333
-      },
-      {
-        "title": "German Banks Look to Offload Troubled Loan on LA Office Tower",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-08/german-banks-look-to-offload-troubled-loan-on-la-office-tower",
-        "source": "Bloomberg Markets",
-        "weight": 0.5519,
+        "weight": 0.3546,
         "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "ONDO",
+          "volume_mcap_ratio": 0.35344507497350924,
+          "price_change_24h": 24.05957
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34756530877111186,
-          "price_change_24h": 0.00343
+          "volume_mcap_ratio": 0.32922413685679736,
+          "price_change_24h": 0.00733
         }
       ],
       "momentum_shifts": []
