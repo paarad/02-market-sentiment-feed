@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-10T03:58:01.427649+00:00",
+  "updated_at": "2026-05-10T06:39:05.792516+00:00",
   "indicators": {
     "change24h": -0.013,
-    "vol": 0.062,
+    "vol": 0.071,
     "fearGreed": 47,
-    "momentum": -0.226,
-    "regime": "bear",
+    "momentum": -0.23,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2275,
-    "global_sentiment": 0.5634,
-    "combined_sentiment": 0.3009,
-    "confidence": 0.5478,
+    "crypto_sentiment": 0.3146,
+    "global_sentiment": 0.6049,
+    "combined_sentiment": 0.3697,
+    "confidence": 0.5339,
     "counts": {
-      "crypto": 65,
+      "crypto": 66,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 80789,
-      "btc_change_24h": 0.51,
-      "eth_price": 2327.4,
-      "eth_change_24h": 0.52,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 80667,
+      "btc_change_24h": 0.54,
+      "eth_price": 2328.19,
+      "eth_change_24h": 0.55,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 47,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 85638132936.0,
+        "volume_24h": 80790882103.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.82,
+        "btc_dominance": 59.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-26T06:12:55.908551+00:00",
-      "crypto": 0.3671,
-      "global": 0.3399,
-      "combined": 0.387,
-      "counts": {
-        "crypto": 68,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-04-26T09:08:42.101160+00:00",
       "crypto": 0.2966,
@@ -1008,29 +998,39 @@
         "crypto": 65,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-10T06:39:05.792516+00:00",
+      "crypto": 0.3146,
+      "global": 0.6049,
+      "combined": 0.3697,
+      "counts": {
+        "crypto": 66,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Aramco Profit Tops Estimates After War-Driven Oil Price Rise",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/aramco-profit-climbs-as-war-driven-oil-rise-offsets-export-hit",
+        "source": "Bloomberg Markets",
+        "weight": 0.6761,
+        "score": 0.6667
+      },
+      {
         "title": "Trump Says 'Jobs & 401-K's' Are Booming, President Touts Stock Market At 'All-Time High'",
         "url": "https://finance.yahoo.com/markets/stocks/articles/trump-says-jobs-401-ks-003101845.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.537,
+        "weight": 0.3938,
         "score": 1.0
       },
       {
         "title": "Australia to Tackle ‘Unacceptable’ Housing Market, Chalmers Says",
         "url": "https://www.bloomberg.com/news/articles/2026-05-09/australia-to-tackle-unacceptable-housing-market-chalmers-says",
         "source": "Bloomberg Markets",
-        "weight": 0.5024,
-        "score": 0.6667
-      },
-      {
-        "title": "AMD Stock Is Up 320% Over the Past Year. Should Investors Shift Their Attention Away From Nvidia?",
-        "url": "https://www.fool.com/investing/2026/05/09/amd-stock-is-up-320-over-the-past-year-should-inve/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4962,
+        "weight": 0.3684,
         "score": 0.6667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Second Bitcoin ETF issuer predicts BTC hitting $1M – but cuts timeline to within the next US Presidential term",
         "url": "https://cryptoslate.com/bitcoin-etf-issuer-vaneck-predicts-bitcoin-hitting-1m-during-the-next-presidential-term/",
         "source": "CryptoSlate",
-        "weight": 0.3194,
+        "weight": 0.2343,
         "score": -0.9667
       },
       {
         "title": "What Chevron’s CEO Just Said About Global ‘Supply Outages’ Could Derail Trump’s Economic Momentum",
         "url": "https://247wallst.com/investing/2026/05/09/what-chevrons-ceo-just-said-about-global-supply-outages-could-derail-trumps-economic-momentum/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3628,
+        "weight": 0.2661,
         "score": -0.6667
       },
       {
         "title": "Australian Police Seize Millions in Bitcoin From Alleged Darknet Marketplace Operator",
         "url": "https://decrypt.co/367363/australian-police-seize-millions-bitcoin-darknet-marketplace-operator",
         "source": "Decrypt",
-        "weight": 0.2508,
+        "weight": 0.1839,
         "score": -0.9333
       }
     ],
