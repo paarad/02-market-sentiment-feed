@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-11T21:05:16.759753+00:00",
+  "updated_at": "2026-05-11T21:22:33.902599+00:00",
   "indicators": {
-    "change24h": 0.02,
-    "vol": 0.101,
+    "change24h": 0.017,
+    "vol": 0.095,
     "fearGreed": 48,
-    "momentum": 0.344,
+    "momentum": 0.305,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5414,
-    "global_sentiment": 0.4697,
-    "combined_sentiment": 0.5285,
-    "confidence": 0.7636,
+    "crypto_sentiment": 0.5099,
+    "global_sentiment": 0.4414,
+    "combined_sentiment": 0.5025,
+    "confidence": 0.7598,
     "counts": {
-      "crypto": 46,
-      "global": 35
+      "crypto": 60,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 81819,
-      "btc_change_24h": 1.17,
-      "eth_price": 2338.84,
-      "eth_change_24h": 0.34,
+      "btc_price": 81690,
+      "btc_change_24h": 1.13,
+      "eth_price": 2338.06,
+      "eth_change_24h": 0.24,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160435639152.0,
+        "volume_24h": 159289461452.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.87,
+        "btc_dominance": 59.84,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-27T20:43:25.398491+00:00",
-      "crypto": 0.4936,
-      "global": 0.4901,
-      "combined": 0.4944,
-      "counts": {
-        "crypto": 53,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-04-27T21:09:58.708252+00:00",
       "crypto": 0.4846,
@@ -1008,6 +998,16 @@
         "crypto": 46,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-05-11T21:22:33.902599+00:00",
+      "crypto": 0.5099,
+      "global": 0.4414,
+      "combined": 0.5025,
+      "counts": {
+        "crypto": 60,
+        "global": 36
+      }
     }
   ],
   "drivers": {
@@ -1016,58 +1016,58 @@
         "title": "How major US stock indexes fared Monday 5/11/2026",
         "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201956764.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7331,
+        "weight": 0.7091,
         "score": 1.0
       },
       {
         "title": "Bitcoin ‘golden cross’ appears for the first time since 2023: Will BTC price rally?",
         "url": "https://cointelegraph.com/markets/bitcoin-golden-cross-appears-first-time-since-2023-will-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6405,
+        "weight": 0.6195,
         "score": 1.0
       },
       {
         "title": "Major Solana Upgrade Alpenglow Begins Testing Ahead of Full Rollout",
         "url": "https://decrypt.co/367470/solana-alpenglow-upgrade-begins-testing-ahead-full-rollout",
         "source": "Decrypt",
-        "weight": 0.649,
+        "weight": 0.6278,
         "score": 0.9667
       }
     ],
     "negative": [
       {
+        "title": "3 Healthcare Stocks We Steer Clear Of",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/3-healthcare-stocks-steer-clear-210855824.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7793,
+        "score": -0.9333
+      },
+      {
         "title": "Hims Sales Miss on Rising Competition for Weight-Loss Drugs",
         "url": "https://www.bloomberg.com/news/articles/2026-05-11/hims-sales-miss-on-rising-competition-for-weight-loss-drugs",
         "source": "Bloomberg Markets",
-        "weight": 0.7446,
+        "weight": 0.7202,
         "score": -1.0
       },
       {
         "title": "Dow Jones Futures: AI, Chip Stocks Thrive Despite Oil Prices, Trump Comments; CPI Inflation Due",
         "url": "https://finance.yahoo.com/m/0994977b-17f2-37cd-920f-ab04cf3be305/dow-jones-futures%3A-ai%2C-chip.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7811,
+        "weight": 0.7556,
         "score": -0.9333
-      },
-      {
-        "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 30, 2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-end-month-open-200500119.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7123,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3563378865361836,
-          "price_change_24h": -0.011
+          "volume_mcap_ratio": 0.35332496704524813,
+          "price_change_24h": -0.01199
         },
         {
           "symbol": "SUI",
-          "volume_mcap_ratio": 0.35123137579776953,
-          "price_change_24h": -3.32809
+          "volume_mcap_ratio": 0.3462310103152696,
+          "price_change_24h": -3.3004
         }
       ],
       "momentum_shifts": []
