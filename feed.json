@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-11T17:59:25.753202+00:00",
+  "updated_at": "2026-05-11T21:05:16.759753+00:00",
   "indicators": {
-    "change24h": -0.014,
-    "vol": 0.131,
+    "change24h": 0.02,
+    "vol": 0.101,
     "fearGreed": 48,
-    "momentum": -0.247,
+    "momentum": 0.344,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3867,
-    "global_sentiment": 0.4589,
-    "combined_sentiment": 0.4116,
-    "confidence": 0.7197,
+    "crypto_sentiment": 0.5414,
+    "global_sentiment": 0.4697,
+    "combined_sentiment": 0.5285,
+    "confidence": 0.7636,
     "counts": {
       "crypto": 46,
-      "global": 29
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 81903,
-      "btc_change_24h": 0.56,
-      "eth_price": 2337.07,
-      "eth_change_24h": -1.08,
+      "btc_price": 81819,
+      "btc_change_24h": 1.17,
+      "eth_price": 2338.84,
+      "eth_change_24h": 0.34,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 48,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 166183517634.0,
+        "volume_24h": 160435639152.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.9,
+        "btc_dominance": 59.87,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-27T17:27:02.908009+00:00",
-      "crypto": 0.4746,
-      "global": 0.3737,
-      "combined": 0.4704,
-      "counts": {
-        "crypto": 53,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-04-27T20:43:25.398491+00:00",
       "crypto": 0.4936,
@@ -1008,66 +998,76 @@
         "crypto": 46,
         "global": 29
       }
+    },
+    {
+      "ts": "2026-05-11T21:05:16.759753+00:00",
+      "crypto": 0.5414,
+      "global": 0.4697,
+      "combined": 0.5285,
+      "counts": {
+        "crypto": 46,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Lumentum Stock Soars as AI Optical Networking Rally Resumes",
-        "url": "https://finance.yahoo.com/m/73d0d7e0-e126-3167-9e9d-cbd44db61bfa/lumentum-stock-soars-as-ai.html?.tsrc=rss",
+        "title": "How major US stock indexes fared Monday 5/11/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201956764.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6696,
+        "weight": 0.7331,
         "score": 1.0
       },
       {
-        "title": "Tech Is Keeping the Stock Market Afloat. Why There Could Be a Pullback on the Horizon.",
-        "url": "https://finance.yahoo.com/m/1c81c498-d665-3055-b548-e7d9f3463f21/tech-is-keeping-the-stock.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6357,
-        "score": 1.0
-      },
-      {
-        "title": "XRP metrics line up bull signals for ‘full-scale rally’ to $2",
-        "url": "https://cointelegraph.com/markets/xrp-metrics-line-up-bull-signals-full-scale-rally-2-dollars?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin ‘golden cross’ appears for the first time since 2023: Will BTC price rally?",
+        "url": "https://cointelegraph.com/markets/bitcoin-golden-cross-appears-first-time-since-2023-will-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5253,
+        "weight": 0.6405,
         "score": 1.0
+      },
+      {
+        "title": "Major Solana Upgrade Alpenglow Begins Testing Ahead of Full Rollout",
+        "url": "https://decrypt.co/367470/solana-alpenglow-upgrade-begins-testing-ahead-full-rollout",
+        "source": "Decrypt",
+        "weight": 0.649,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "Kash Patel Touts AI Overhaul of FBI Crime-Fighting Operations",
-        "url": "https://decrypt.co/367431/kash-patel-ai-overhaul-fbi-crime-fighting-operations",
-        "source": "Decrypt",
-        "weight": 0.7686,
+        "title": "Hims Sales Miss on Rising Competition for Weight-Loss Drugs",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/hims-sales-miss-on-rising-competition-for-weight-loss-drugs",
+        "source": "Bloomberg Markets",
+        "weight": 0.7446,
         "score": -1.0
       },
       {
-        "title": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
-        "url": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
-        "source": "CNBC Markets",
-        "weight": 0.7989,
-        "score": -0.7333
+        "title": "Dow Jones Futures: AI, Chip Stocks Thrive Despite Oil Prices, Trump Comments; CPI Inflation Due",
+        "url": "https://finance.yahoo.com/m/0994977b-17f2-37cd-920f-ab04cf3be305/dow-jones-futures%3A-ai%2C-chip.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7811,
+        "score": -0.9333
       },
       {
-        "title": "Sector Update: Energy",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-173815029.html?.tsrc=rss",
+        "title": "Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 30, 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-end-month-open-200500119.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.768,
-        "score": -0.6333
+        "weight": 0.7123,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "SUI",
-          "volume_mcap_ratio": 0.45732266177664277,
-          "price_change_24h": -0.93178
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3563378865361836,
+          "price_change_24h": -0.011
         },
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.37159066279561065,
-          "price_change_24h": -0.01905
+          "symbol": "SUI",
+          "volume_mcap_ratio": 0.35123137579776953,
+          "price_change_24h": -3.32809
         }
       ],
       "momentum_shifts": []
