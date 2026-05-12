@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-12T10:38:10.618598+00:00",
+  "updated_at": "2026-05-12T14:40:03.379292+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.115,
+    "change24h": -0.012,
+    "vol": 0.095,
     "fearGreed": 49,
-    "momentum": -0.196,
-    "regime": "bear",
+    "momentum": -0.204,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4346,
-    "global_sentiment": 0.4977,
-    "combined_sentiment": 0.4507,
-    "confidence": 0.7681,
+    "crypto_sentiment": 0.3672,
+    "global_sentiment": 0.464,
+    "combined_sentiment": 0.3974,
+    "confidence": 0.8223,
     "counts": {
-      "crypto": 57,
-      "global": 37
+      "crypto": 75,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 80639,
-      "btc_change_24h": -0.5,
-      "eth_price": 2285.64,
-      "eth_change_24h": -2.0,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 80616,
+      "btc_change_24h": -0.14,
+      "eth_price": 2272.15,
+      "eth_change_24h": -1.73,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 49,
         "classification": "Neutral",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 130716925984.0,
-        "high_activity_coins": 0
+        "volume_24h": 137001599006.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.79,
+        "btc_dominance": 59.91,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-28T10:22:08.813287+00:00",
-      "crypto": 0.4305,
-      "global": 0.5126,
-      "combined": 0.4489,
-      "counts": {
-        "crypto": 55,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-28T17:51:47.568637+00:00",
       "crypto": 0.3766,
@@ -1008,57 +998,73 @@
         "crypto": 57,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-05-12T14:40:03.379292+00:00",
+      "crypto": 0.3672,
+      "global": 0.464,
+      "combined": 0.3974,
+      "counts": {
+        "crypto": 75,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Asia's trillion-dollar titans are powering — and distorting — its fastest growing stock markets",
-        "url": "https://www.cnbc.com/2026/05/12/tsmc-samsung-sk-hynixs-south-korea-taiwan-stocks-ai-chipmakers-concentration-risk.html",
-        "source": "CNBC Markets",
-        "weight": 0.4039,
+        "title": "2 Services Stocks to Research Further and 1 We Question",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-research-further-142055122.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7711,
         "score": 1.0
       },
       {
-        "title": "Exploring Three High Growth Tech Stocks in Global Markets",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/exploring-three-high-growth-tech-093808348.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7127,
-        "score": 0.5333
+        "title": "XRP price has the bullish signal traders wanted, but one Bitcoin level could wreck it",
+        "url": "https://cryptoslate.com/xrp-price-has-the-bullish-signal-traders-wanted-but-one-bitcoin-level-could-wreck-it/",
+        "source": "CryptoSlate",
+        "weight": 0.6426,
+        "score": 1.0
       },
       {
-        "title": "Ethereum Foundation hits ‘Glamsterdam’ milestones, names new protocol leads",
-        "url": "https://cointelegraph.com/news/ethereum-foundation-hits-glamsterdam-milestones-names-new-protocol-leads?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.532,
+        "title": "Novo Nordisk says high-dose Wegovy helped some patients lose nearly 28% of their weight",
+        "url": "https://www.cnbc.com/2026/05/12/healthy-returns-novo-nordisk-releases-new-high-dose-wegovy-data.html",
+        "source": "CNBC Markets",
+        "weight": 0.7606,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "CleanSpark shares slide after reporting $378M fiscal second quarter loss",
-        "url": "https://cointelegraph.com/news/cleanspark-posts-378m-in-quarterly-losses-largely-driven-by-bitcoin-price-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7555,
-        "score": -1.0
-      },
-      {
-        "title": "Tele Columbus Creditors Unite Ahead of Potential Debt Talks",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-12/tele-columbus-creditors-unite-ahead-of-potential-debt-talks",
-        "source": "Bloomberg Markets",
-        "weight": 0.7292,
-        "score": -1.0
-      },
-      {
-        "title": "Binance says AI-powered security has thwarted $10B in fraud since 2025",
-        "url": "https://cointelegraph.com/news/binance-ai-powered-security-stopped-10b-fraud-since-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.549,
+        "title": "Elliptic raises $120 million backed by Nasdaq, Deutsche Bank as AI reshapes crypto security",
+        "url": "https://www.coindesk.com/business/2026/05/12/elliptic-raises-usd120-million-backed-by-nasdaq-deutsche-bank-as-ai-reshapes-crypto-security",
+        "source": "CoinDesk",
+        "weight": 0.8738,
         "score": -0.9667
+      },
+      {
+        "title": "Roaring Kitty-linked RKC memecoin crashes as developer cashes out $729K",
+        "url": "https://cointelegraph.com/news/memecoin-dev-cashes-out-729k-gamestop-orchestrators-x-post?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7184,
+        "score": -1.0
+      },
+      {
+        "title": "Washington insider warns US defeat in Iran now “likely” – adding a new macro risk for Bitcoin",
+        "url": "https://cryptoslate.com/washingtons-warning-that-iran-has-defeated-the-us-has-just-handed-bitcoin-a-new-macro-signal/",
+        "source": "CryptoSlate",
+        "weight": 0.6253,
+        "score": -1.0
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.30509905669968745,
+          "price_change_24h": 0.00201
+        }
+      ],
       "momentum_shifts": []
     }
   },
