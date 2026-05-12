@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-11T21:22:33.902599+00:00",
+  "updated_at": "2026-05-12T03:52:24.772678+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.095,
-    "fearGreed": 48,
-    "momentum": 0.305,
+    "change24h": -0.001,
+    "vol": 0.107,
+    "fearGreed": 49,
+    "momentum": -0.01,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5099,
-    "global_sentiment": 0.4414,
-    "combined_sentiment": 0.5025,
-    "confidence": 0.7598,
+    "crypto_sentiment": 0.6048,
+    "global_sentiment": 0.4518,
+    "combined_sentiment": 0.5745,
+    "confidence": 0.6819,
     "counts": {
-      "crypto": 60,
-      "global": 36
+      "crypto": 47,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 81690,
-      "btc_change_24h": 1.13,
-      "eth_price": 2338.06,
-      "eth_change_24h": 0.24,
+      "btc_price": 81047,
+      "btc_change_24h": 0.41,
+      "eth_price": 2308.19,
+      "eth_change_24h": -0.92,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.6,
       "fear_greed": {
-        "value": 48,
+        "value": 49,
         "classification": "Neutral",
-        "trend": "stable"
+        "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 159289461452.0,
-        "high_activity_coins": 2
+        "volume_24h": 132209518663.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.84,
+        "btc_dominance": 59.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-27T21:09:58.708252+00:00",
-      "crypto": 0.4846,
-      "global": 0.5314,
-      "combined": 0.4911,
-      "counts": {
-        "crypto": 53,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-04-28T03:51:26.825794+00:00",
       "crypto": 0.4178,
@@ -1008,68 +998,67 @@
         "crypto": 60,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-05-12T03:52:24.772678+00:00",
+      "crypto": 0.6048,
+      "global": 0.4518,
+      "combined": 0.5745,
+      "counts": {
+        "crypto": 47,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Monday 5/11/2026",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201956764.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7091,
-        "score": 1.0
-      },
-      {
-        "title": "Bitcoin ‘golden cross’ appears for the first time since 2023: Will BTC price rally?",
-        "url": "https://cointelegraph.com/markets/bitcoin-golden-cross-appears-first-time-since-2023-will-btc-price-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin funding rates turn positive: Is a BTC rally to $85K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rates-turn-positive-is-a-btc-rally-to-85k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6195,
+        "weight": 0.839,
+        "score": 0.8667
+      },
+      {
+        "title": "Solana ETF inflows show demand returning as traders eye SOL rally to $120",
+        "url": "https://cointelegraph.com/markets/solana-etf-inflows-demand-returns-as-traders-eye-120?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4756,
         "score": 1.0
       },
       {
-        "title": "Major Solana Upgrade Alpenglow Begins Testing Ahead of Full Rollout",
-        "url": "https://decrypt.co/367470/solana-alpenglow-upgrade-begins-testing-ahead-full-rollout",
-        "source": "Decrypt",
-        "weight": 0.6278,
-        "score": 0.9667
+        "title": "Stock Market Today, May 11: Rocket Lab Surges After Record Revenue and Strong Q2 Outlook",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-rocket-lab-surges-after-record-revenue-and-strong-q2-outlook/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4307,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "3 Healthcare Stocks We Steer Clear Of",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/3-healthcare-stocks-steer-clear-210855824.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7793,
+        "title": "Gold Steady as Shares Uptick Counters Hormuz, Inflation Concerns",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/gold-steady-as-traders-track-hormuz-stalemate-inflation-risks",
+        "source": "Bloomberg Markets",
+        "weight": 0.4308,
         "score": -0.9333
       },
       {
-        "title": "Hims Sales Miss on Rising Competition for Weight-Loss Drugs",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/hims-sales-miss-on-rising-competition-for-weight-loss-drugs",
+        "title": "Ackman’s Pershing Seeks to Toss Suit Over Howard Hughes Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/ackman-s-pershing-seeks-to-toss-suit-over-howard-hughes-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.7202,
+        "weight": 0.389,
         "score": -1.0
       },
       {
-        "title": "Dow Jones Futures: AI, Chip Stocks Thrive Despite Oil Prices, Trump Comments; CPI Inflation Due",
-        "url": "https://finance.yahoo.com/m/0994977b-17f2-37cd-920f-ab04cf3be305/dow-jones-futures%3A-ai%2C-chip.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7556,
-        "score": -0.9333
+        "title": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
+        "url": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+        "source": "CNBC Markets",
+        "weight": 0.4832,
+        "score": -0.7333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.35332496704524813,
-          "price_change_24h": -0.01199
-        },
-        {
-          "symbol": "SUI",
-          "volume_mcap_ratio": 0.3462310103152696,
-          "price_change_24h": -3.3004
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
