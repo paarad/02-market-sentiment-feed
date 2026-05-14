@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-14T14:29:59.292741+00:00",
+  "updated_at": "2026-05-14T17:59:21.916198+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.172,
+    "change24h": 0.05,
+    "vol": 0.198,
     "fearGreed": 34,
-    "momentum": 0.429,
+    "momentum": 0.868,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4753,
-    "global_sentiment": 0.527,
-    "combined_sentiment": 0.4837,
-    "confidence": 0.8146,
+    "crypto_sentiment": 0.534,
+    "global_sentiment": 0.587,
+    "combined_sentiment": 0.5327,
+    "confidence": 0.8313,
     "counts": {
-      "crypto": 55,
-      "global": 40
+      "crypto": 57,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 80067,
-      "btc_change_24h": 0.3,
-      "eth_price": 2263.29,
-      "eth_change_24h": -0.23,
+      "btc_price": 81705,
+      "btc_change_24h": 2.81,
+      "eth_price": 2308.98,
+      "eth_change_24h": 2.25,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 138507275093.0,
+        "volume_24h": 158382997132.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.72,
+        "btc_dominance": 59.95,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-30T14:13:55.014340+00:00",
-      "crypto": 0.4569,
-      "global": 0.5767,
-      "combined": 0.4741,
-      "counts": {
-        "crypto": 46,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-30T17:38:29.449089+00:00",
       "crypto": 0.4884,
@@ -1008,61 +998,71 @@
         "crypto": 55,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-05-14T17:59:21.916198+00:00",
+      "crypto": 0.534,
+      "global": 0.587,
+      "combined": 0.5327,
+      "counts": {
+        "crypto": 57,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin keeps rallying mid-month – Is Saylor using Strategy’s STRC funding loop to pump BTC?",
-        "url": "https://cryptoslate.com/bitcoin-keeps-rallying-mid-month-and-it-might-be-because-of-strategys-11-5-strc-funding-loop/",
-        "source": "CryptoSlate",
-        "weight": 0.8269,
-        "score": 0.8667
+        "title": "XRP whale wallets hit all-time highs: Will it push price above $1.50?",
+        "url": "https://cointelegraph.com/markets/xrp-whale-wallets-all-time-highs-will-it-push-price-above-1-50?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8265,
+        "score": 1.0
       },
       {
-        "title": "IP Strategy Regains Compliance with Nasdaq Continued Listing Standards",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ip-strategy-regains-compliance-nasdaq-131700782.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6951,
-        "score": 0.9667
+        "title": "Financial Times’ Martin Wolf on the “Terrifying” Power That the US Wields",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-14/financial-times-martin-wolf-on-the-terrifying-power-that-the-us-wields",
+        "source": "Bloomberg Markets",
+        "weight": 0.6585,
+        "score": 1.0
       },
       {
-        "title": "Tech stocks rally rolls on as US-China talks underway",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-mixed-trump-xi-030500436.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7412,
+        "title": "Nvidia Gains 20% in Seven Days, Nearing $6 Trillion Market Value",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/nvidia-gains-20-in-seven-days-nearing-6-trillion-market-value",
+        "source": "Bloomberg Markets",
+        "weight": 0.7351,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "US Natural Gas Rally Lifted Antero Resources Corporation (AR) in Q1",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/us-natural-gas-rally-lifted-141816774.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7821,
-        "score": -0.8
-      },
-      {
-        "title": "Here’s Why Aristotle Core Equity Fund Bets on Tempus AI (TEM), a Healthcare Technology Company",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/why-aristotle-core-equity-fund-141237600.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7737,
-        "score": -0.8
-      },
-      {
         "title": "U.S. can hold AI talks with China because ‘we are in the lead,’ Bessent tells CNBC as nations plan safety protocol",
         "url": "https://www.cnbc.com/2026/05/14/us-china-ai-rules-bessent-us-lead.html",
         "source": "CNBC Markets",
-        "weight": 0.5362,
+        "weight": 0.542,
         "score": -0.9667
+      },
+      {
+        "title": "Emeth Value Capital Opens Hefty $6 Million Shift4 Payments Position",
+        "url": "https://www.fool.com/coverage/filings/2026/05/14/emeth-value-capital-opens-hefty-usd6-million-shift4-payments-position/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7451,
+        "score": -0.6333
+      },
+      {
+        "title": "Technology Helps S&P 500, Nasdaq Composite Scale New Peaks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/technology-helps-p-500-nasdaq-163252536.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6773,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3121133621375595,
-          "price_change_24h": -0.0046
+          "volume_mcap_ratio": 0.35874298375098007,
+          "price_change_24h": 0.02227
         }
       ],
       "momentum_shifts": []
