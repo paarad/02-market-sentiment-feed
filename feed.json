@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-14T17:59:21.916198+00:00",
+  "updated_at": "2026-05-14T20:59:31.953397+00:00",
   "indicators": {
-    "change24h": 0.05,
-    "vol": 0.198,
+    "change24h": 0.049,
+    "vol": 0.196,
     "fearGreed": 34,
-    "momentum": 0.868,
+    "momentum": 0.862,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.534,
-    "global_sentiment": 0.587,
-    "combined_sentiment": 0.5327,
-    "confidence": 0.8313,
+    "crypto_sentiment": 0.4768,
+    "global_sentiment": 0.5987,
+    "combined_sentiment": 0.4908,
+    "confidence": 0.8116,
     "counts": {
-      "crypto": 57,
-      "global": 43
+      "crypto": 56,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 81705,
-      "btc_change_24h": 2.81,
-      "eth_price": 2308.98,
-      "eth_change_24h": 2.25,
+      "btc_price": 81366,
+      "btc_change_24h": 2.14,
+      "eth_price": 2297.0,
+      "eth_change_24h": 1.54,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 158382997132.0,
+        "volume_24h": 167838873530.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.95,
+        "btc_dominance": 59.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-30T17:38:29.449089+00:00",
-      "crypto": 0.4884,
-      "global": 0.519,
-      "combined": 0.4929,
-      "counts": {
-        "crypto": 59,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-04-30T20:43:52.579102+00:00",
       "crypto": 0.4334,
@@ -1008,61 +998,71 @@
         "crypto": 57,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-14T20:59:31.953397+00:00",
+      "crypto": 0.4768,
+      "global": 0.5987,
+      "combined": 0.4908,
+      "counts": {
+        "crypto": 56,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP whale wallets hit all-time highs: Will it push price above $1.50?",
-        "url": "https://cointelegraph.com/markets/xrp-whale-wallets-all-time-highs-will-it-push-price-above-1-50?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8265,
+        "title": "Tech stocks rally rolls on as US-China talks underway",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-mixed-trump-xi-030500436.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.747,
         "score": 1.0
       },
       {
-        "title": "Financial Times’ Martin Wolf on the “Terrifying” Power That the US Wields",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-14/financial-times-martin-wolf-on-the-terrifying-power-that-the-us-wields",
+        "title": "JPMorgan Portfolio Manager Sees AI, Retail Risks for High-Grade Debt Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/jpmorgan-s-doyle-sees-ai-retail-risks-for-high-grade-debt-rally",
         "source": "Bloomberg Markets",
-        "weight": 0.6585,
+        "weight": 0.736,
         "score": 1.0
       },
       {
-        "title": "Nvidia Gains 20% in Seven Days, Nearing $6 Trillion Market Value",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-14/nvidia-gains-20-in-seven-days-nearing-6-trillion-market-value",
-        "source": "Bloomberg Markets",
-        "weight": 0.7351,
-        "score": 0.8667
+        "title": "reAlpha (NASDAQ: AIRE) Regains Compliance with Nasdaq Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/realpha-nasdaq-aire-regains-compliance-201500198.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7343,
+        "score": 0.9667
       }
     ],
     "negative": [
       {
-        "title": "U.S. can hold AI talks with China because ‘we are in the lead,’ Bessent tells CNBC as nations plan safety protocol",
-        "url": "https://www.cnbc.com/2026/05/14/us-china-ai-rules-bessent-us-lead.html",
+        "title": "Crypto losses from North Korea hackers in 2025 rose 51% YoY: Report",
+        "url": "https://cointelegraph.com/news/losses-dprk-hacks-2025-rose-51-year-over-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6371,
+        "score": -1.0
+      },
+      {
+        "title": "Some short sellers are seeing opportunity in this tech mania. How they're spotting fake AI stocks",
+        "url": "https://www.cnbc.com/2026/05/14/some-short-sellers-are-seeing-opportunity-in-this-tech-mania-how-theyre-spotting-fake-ai-stocks.html",
         "source": "CNBC Markets",
-        "weight": 0.542,
-        "score": -0.9667
+        "weight": 0.6061,
+        "score": -0.8667
       },
       {
-        "title": "Emeth Value Capital Opens Hefty $6 Million Shift4 Payments Position",
-        "url": "https://www.fool.com/coverage/filings/2026/05/14/emeth-value-capital-opens-hefty-usd6-million-shift4-payments-position/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7451,
-        "score": -0.6333
-      },
-      {
-        "title": "Technology Helps S&P 500, Nasdaq Composite Scale New Peaks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/technology-helps-p-500-nasdaq-163252536.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6773,
-        "score": -0.6333
+        "title": "Kraken to Migrate Wrapped Bitcoin Tech to Chainlink as LayerZero Exodus Expands",
+        "url": "https://decrypt.co/367880/kraken-migrate-wrapped-bitcoin-chainlink-layerzero-exodus",
+        "source": "Decrypt",
+        "weight": 0.6131,
+        "score": -0.8333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35874298375098007,
-          "price_change_24h": 0.02227
+          "volume_mcap_ratio": 0.3789646956234615,
+          "price_change_24h": 0.03214
         }
       ],
       "momentum_shifts": []
