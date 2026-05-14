@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-13T21:40:16.239862+00:00",
+  "updated_at": "2026-05-14T03:59:50.983337+00:00",
   "indicators": {
-    "change24h": -0.026,
-    "vol": 0.146,
-    "fearGreed": 42,
-    "momentum": -0.46,
-    "regime": "sideways",
+    "change24h": -0.046,
+    "vol": 0.188,
+    "fearGreed": 34,
+    "momentum": -0.799,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4097,
-    "global_sentiment": 0.5388,
-    "combined_sentiment": 0.4355,
-    "confidence": 0.7978,
+    "crypto_sentiment": 0.3814,
+    "global_sentiment": 0.478,
+    "combined_sentiment": 0.4092,
+    "confidence": 0.7216,
     "counts": {
-      "crypto": 50,
-      "global": 50
+      "crypto": 66,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 79444,
-      "btc_change_24h": -1.37,
-      "eth_price": 2256.04,
-      "eth_change_24h": -1.25,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
+      "btc_price": 78973,
+      "btc_change_24h": -2.74,
+      "eth_price": 2240.05,
+      "eth_change_24h": -2.65,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
       "market_breadth": 0.3,
       "fear_greed": {
-        "value": 42,
+        "value": 34,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 162076806295.0,
+        "volume_24h": 164206382034.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.72,
+        "btc_dominance": 59.65,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-29T21:13:03.349012+00:00",
-      "crypto": 0.4184,
-      "global": 0.5197,
-      "combined": 0.4405,
-      "counts": {
-        "crypto": 66,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-04-30T03:49:48.789813+00:00",
       "crypto": 0.3851,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-05-14T03:59:50.983337+00:00",
+      "crypto": 0.3814,
+      "global": 0.478,
+      "combined": 0.4092,
+      "counts": {
+        "crypto": 66,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "1 Healthcare Stock with Competitive Advantages and 2 We Brush Off",
-        "url": "https://finance.yahoo.com/news/1-healthcare-stock-competitive-advantages-204455286.html?.tsrc=rss",
+        "title": "Cisco, Nokia, Ford, Quantum Cyber And Nebius Group: Why These 5 Stocks Are On Investors' Radars Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-nokia-ford-quantum-cyber-013532687.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7191,
-        "score": 1.0
+        "weight": 0.6059,
+        "score": 0.6667
       },
       {
-        "title": "Cisco's stock pops 15% on surging AI orders, as company says it's cutting almost 4,000 jobs",
+        "title": "Trump Set To Meet Xi Jinping After President Arrives In Beijing: Dow Futures Gain 120 Points, Asian Markets Spike",
+        "url": "https://finance.yahoo.com/economy/policy/articles/trump-set-meet-xi-jinping-012328725.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.592,
+        "score": 0.6667
+      },
+      {
+        "title": "Cisco's stock pops 17% on surging AI orders, as company says it's cutting almost 4,000 jobs",
         "url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
         "source": "CNBC Markets",
-        "weight": 0.7235,
-        "score": 0.8667
-      },
-      {
-        "title": "Accenture, Roper Technologies, and 8 More Beaten-Down Stocks Worth Considering",
-        "url": "https://finance.yahoo.com/m/1aa2dcc8-a8b5-3efe-981d-c774c4409651/accenture%2C-roper.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6495,
+        "weight": 0.4519,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Global financial crisis fears grow as bond yields hit 1998 levels and Bitcoin drops below $80,000",
-        "url": "https://cryptoslate.com/global-financial-crisis-bond-yields-bitcoin/",
-        "source": "CryptoSlate",
-        "weight": 0.5156,
-        "score": -1.0
+        "title": "Qantas Boss Vanessa Hudson Turns Screw on Ailing Air New Zealand",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-14/qantas-boss-vanessa-hudson-turns-screw-on-ailing-air-new-zealand",
+        "source": "Bloomberg Markets",
+        "weight": 0.6803,
+        "score": -0.9333
       },
       {
-        "title": "Ethereum app builder Consensys has delayed its potential IPO until fall",
-        "url": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall",
-        "source": "CoinDesk",
-        "weight": 0.7372,
-        "score": -0.6667
-      },
-      {
-        "title": "US Equity Indexes Mixed as Communication Services, Tech Help Outweigh Impact of Hot Producer Prices",
-        "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-communication-210032980.html?.tsrc=rss",
+        "title": "Billionaire Marc Rowan Just Warned Stock Market Investors. History Says Buy This Stock Now.",
+        "url": "https://www.fool.com/investing/2026/05/13/billionaire-warns-market-correction-buy-berkshire/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7411,
-        "score": -0.6333
+        "weight": 0.5881,
+        "score": -0.9333
+      },
+      {
+        "title": "India Bans Sugar Exports Through September to Protect Supply",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-13/india-bans-sugar-exports-until-end-september-to-protect-supply",
+        "source": "Bloomberg Markets",
+        "weight": 0.5028,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37226654199099635,
-          "price_change_24h": -0.02303
+          "volume_mcap_ratio": 0.3846004859968277,
+          "price_change_24h": -0.01852
         }
       ],
       "momentum_shifts": []
