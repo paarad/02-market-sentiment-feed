@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-14T10:26:30.662984+00:00",
+  "updated_at": "2026-05-14T14:29:59.292741+00:00",
   "indicators": {
-    "change24h": -0.024,
+    "change24h": 0.025,
     "vol": 0.172,
     "fearGreed": 34,
-    "momentum": -0.429,
-    "regime": "bear",
+    "momentum": 0.429,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3752,
-    "global_sentiment": 0.5644,
-    "combined_sentiment": 0.4117,
-    "confidence": 0.7176,
+    "crypto_sentiment": 0.4753,
+    "global_sentiment": 0.527,
+    "combined_sentiment": 0.4837,
+    "confidence": 0.8146,
     "counts": {
-      "crypto": 65,
-      "global": 50
+      "crypto": 55,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 79648,
-      "btc_change_24h": -1.67,
-      "eth_price": 2262.03,
-      "eth_change_24h": -2.07,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 80067,
+      "btc_change_24h": 0.3,
+      "eth_price": 2263.29,
+      "eth_change_24h": -0.23,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 145343881201.0,
+        "volume_24h": 138507275093.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-30T10:13:07.972777+00:00",
-      "crypto": 0.3856,
-      "global": 0.5103,
-      "combined": 0.4151,
-      "counts": {
-        "crypto": 48,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-04-30T14:13:55.014340+00:00",
       "crypto": 0.4569,
@@ -1008,61 +998,71 @@
         "crypto": 65,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-05-14T14:29:59.292741+00:00",
+      "crypto": 0.4753,
+      "global": 0.527,
+      "combined": 0.4837,
+      "counts": {
+        "crypto": 55,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Reliance Global Group Announces Reverse Stock Split",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/reliance-global-group-announces-reverse-100000117.html?.tsrc=rss",
+        "title": "Bitcoin keeps rallying mid-month – Is Saylor using Strategy’s STRC funding loop to pump BTC?",
+        "url": "https://cryptoslate.com/bitcoin-keeps-rallying-mid-month-and-it-might-be-because-of-strategys-11-5-strc-funding-loop/",
+        "source": "CryptoSlate",
+        "weight": 0.8269,
+        "score": 0.8667
+      },
+      {
+        "title": "IP Strategy Regains Compliance with Nasdaq Continued Listing Standards",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ip-strategy-regains-compliance-nasdaq-131700782.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7602,
+        "weight": 0.6951,
         "score": 0.9667
       },
       {
-        "title": "Markets Pop as Record-Breaking Tech Rally Rages On as Trump Trip Stokes China Hopes",
-        "url": "https://finance.yahoo.com/m/55f4609d-c9b8-3e14-87a1-15051520194a/markets-pop-as.html?.tsrc=rss",
+        "title": "Tech stocks rally rolls on as US-China talks underway",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-mixed-trump-xi-030500436.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6881,
-        "score": 1.0
-      },
-      {
-        "title": "The S&P 500's earnings boom is facing a bond market warning: Chart of the Day",
-        "url": "https://finance.yahoo.com/markets/article/the-sp-500s-earnings-boom-is-facing-a-bond-market-warning-chart-of-the-day-100000591.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7602,
+        "weight": 0.7412,
         "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "US Natural Gas Rally Lifted Antero Resources Corporation (AR) in Q1",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/us-natural-gas-rally-lifted-141816774.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7821,
+        "score": -0.8
+      },
+      {
+        "title": "Here’s Why Aristotle Core Equity Fund Bets on Tempus AI (TEM), a Healthcare Technology Company",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/why-aristotle-core-equity-fund-141237600.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7737,
+        "score": -0.8
+      },
+      {
         "title": "U.S. can hold AI talks with China because ‘we are in the lead,’ Bessent tells CNBC as nations plan safety protocol",
         "url": "https://www.cnbc.com/2026/05/14/us-china-ai-rules-bessent-us-lead.html",
         "source": "CNBC Markets",
-        "weight": 0.7981,
+        "weight": 0.5362,
         "score": -0.9667
-      },
-      {
-        "title": "BitGo posts wider Q1 loss despite revenue more than doubling",
-        "url": "https://cointelegraph.com/news/bitgo-posts-38b-in-revenue-but-losses-double-amid-bitcoin-decline-ipo-costs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6974,
-        "score": -0.6667
-      },
-      {
-        "title": "NY judge pushes back hearing for Aave’s bid to unfreeze $71M in ETH",
-        "url": "https://cointelegraph.com/news/judge-delays-aaves-emergency-bid-to-unfreeze-71m-hacked-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6653,
-        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.33087900956097127,
-          "price_change_24h": -0.00496
+          "volume_mcap_ratio": 0.3121133621375595,
+          "price_change_24h": -0.0046
         }
       ],
       "momentum_shifts": []
