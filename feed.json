@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-15T10:32:59.530772+00:00",
+  "updated_at": "2026-05-15T14:23:55.862021+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.241,
+    "change24h": -0.03,
+    "vol": 0.154,
     "fearGreed": 43,
-    "momentum": 0.429,
-    "regime": "sideways",
+    "momentum": -0.522,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4014,
-    "global_sentiment": 0.5006,
-    "combined_sentiment": 0.4261,
-    "confidence": 0.7344,
+    "crypto_sentiment": 0.4758,
+    "global_sentiment": 0.4367,
+    "combined_sentiment": 0.4765,
+    "confidence": 0.7924,
     "counts": {
-      "crypto": 68,
-      "global": 44
+      "crypto": 58,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 80516,
-      "btc_change_24h": 1.16,
-      "eth_price": 2254.56,
-      "eth_change_24h": -0.25,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "btc_price": 79156,
+      "btc_change_24h": -1.29,
+      "eth_price": 2220.67,
+      "eth_change_24h": -2.03,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 43,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 176798695479.0,
+        "volume_24h": 192505563647.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.87,
+        "btc_dominance": 59.75,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-01T09:52:56.233912+00:00",
-      "crypto": 0.5423,
-      "global": 0.5615,
-      "combined": 0.5368,
-      "counts": {
-        "crypto": 49,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-05-01T13:42:58.175149+00:00",
       "crypto": 0.524,
@@ -1008,30 +998,40 @@
         "crypto": 68,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-05-15T14:23:55.862021+00:00",
+      "crypto": 0.4758,
+      "global": 0.4367,
+      "combined": 0.4765,
+      "counts": {
+        "crypto": 58,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Why SocGen's Albert Edwards Sees Double-Digit Inflation Coming Back | Odd Lots",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-15/why-edwards-sees-double-digit-inflation-coming-back-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6116,
+        "title": "XRP gives back gains after Senate crypto bill sparks 5% rally",
+        "url": "https://www.coindesk.com/markets/2026/05/15/xrp-gives-back-gains-after-senate-crypto-bill-sparks-5-rally",
+        "source": "CoinDesk",
+        "weight": 1.0568,
         "score": 0.8667
       },
       {
-        "title": "The stock market rally has history on its side — and one big dot-com caveat: Chart of the Day",
-        "url": "https://finance.yahoo.com/markets/article/the-stock-market-rally-has-history-on-its-side--and-one-big-dot-com-caveat-chart-of-the-day-100000031.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7508,
-        "score": 0.5333
+        "title": "Starbucks to lay off 300 U.S. employees, shutter some regional support offices",
+        "url": "https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html",
+        "source": "CNBC Markets",
+        "weight": 0.7905,
+        "score": 0.6667
       },
       {
-        "title": "India, UAE Agree to Strategic Defense Partnership Framework",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-15/india-s-modi-condemns-attacks-on-uae-during-abu-dhabi-visit",
-        "source": "Bloomberg Markets",
-        "weight": 0.6485,
-        "score": 0.5833
+        "title": "HYPE jumps as Coinbase and Circle back Hyperliquid’s stablecoin model",
+        "url": "https://cryptoslate.com/hype-jumps-as-coinbase-and-circle-back-hyperliquids-stablecoin-model/",
+        "source": "CryptoSlate",
+        "weight": 0.4831,
+        "score": 1.0
       }
     ],
     "negative": [
@@ -1039,30 +1039,30 @@
         "title": "Thorchain halts trading after $10 million cross-chain exploit, RUNE token drops 12%",
         "url": "https://www.coindesk.com/tech/2026/05/15/thorchain-halts-trading-after-usd10-million-cross-chain-exploit-rune-token-drops-12",
         "source": "CoinDesk",
-        "weight": 0.9776,
+        "weight": 0.6267,
         "score": -1.0
       },
       {
-        "title": "Kraken joins LayerZero exodus as it switches to Chainlink CCIP",
-        "url": "https://cointelegraph.com/news/kraken-joins-layerzero-exodus-switching-chainlink-ccip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5422,
-        "score": -0.8333
+        "title": "Adani Nears End Of US Legal Troubles",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-15/adani-nears-end-of-us-legal-troubles-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5998,
+        "score": -0.9667
       },
       {
-        "title": "Billionaire Gautam Adani and nephew agree to pay $18 million in SEC settlement over fraud allegations",
-        "url": "https://www.cnbc.com/2026/05/15/us-sec-settlement-gautam-adani-sagar-adani-fraud-case.html",
-        "source": "CNBC Markets",
-        "weight": 0.4467,
-        "score": -1.0
+        "title": "Gemini Stock Jumps on Revenue Rise, $100M Bitcoin Investment From Winklevoss Capital",
+        "url": "https://decrypt.co/367978/gemini-stock-jumps-revenue-rise-100m-bitcoin-investment-winklevoss",
+        "source": "Decrypt",
+        "weight": 0.8302,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.39520033947880745,
-          "price_change_24h": 0.0188
+          "volume_mcap_ratio": 0.42908150523307304,
+          "price_change_24h": -0.01073
         }
       ],
       "momentum_shifts": []
