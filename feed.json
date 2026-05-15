@@ -1,41 +1,41 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-14T21:15:40.653344+00:00",
+  "updated_at": "2026-05-15T04:04:46.473528+00:00",
   "indicators": {
-    "change24h": 0.055,
-    "vol": 0.201,
-    "fearGreed": 34,
-    "momentum": 0.958,
+    "change24h": 0.059,
+    "vol": 0.309,
+    "fearGreed": 43,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4866,
-    "global_sentiment": 0.5897,
-    "combined_sentiment": 0.4974,
-    "confidence": 0.8138,
+    "crypto_sentiment": 0.4327,
+    "global_sentiment": 0.4758,
+    "combined_sentiment": 0.4475,
+    "confidence": 0.7257,
     "counts": {
-      "crypto": 57,
-      "global": 50
+      "crypto": 58,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 81343,
-      "btc_change_24h": 2.47,
-      "eth_price": 2294.31,
-      "eth_change_24h": 1.68,
+      "btc_price": 80954,
+      "btc_change_24h": 2.48,
+      "eth_price": 2269.39,
+      "eth_change_24h": 1.29,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.85,
       "fear_greed": {
-        "value": 34,
+        "value": 43,
         "classification": "Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 168641249427.0,
-        "high_activity_coins": 1
+        "volume_24h": 172815184400.0,
+        "high_activity_coins": 2
       },
       "dominance": {
         "btc_dominance": 59.88,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-04-30T21:08:11.559124+00:00",
-      "crypto": 0.4327,
-      "global": 0.5494,
-      "combined": 0.4536,
-      "counts": {
-        "crypto": 42,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-05-01T04:01:03.954862+00:00",
       "crypto": 0.4759,
@@ -1008,61 +998,76 @@
         "crypto": 57,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-05-15T04:04:46.473528+00:00",
+      "crypto": 0.4327,
+      "global": 0.4758,
+      "combined": 0.4475,
+      "counts": {
+        "crypto": 58,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tech stocks rally rolls on as US-China talks underway",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-markets-mixed-trump-xi-030500436.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7241,
-        "score": 1.0
-      },
-      {
-        "title": "JPMorgan Portfolio Manager Sees AI, Retail Risks for High-Grade Debt Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-14/jpmorgan-s-doyle-sees-ai-retail-risks-for-high-grade-debt-rally",
+        "title": "Why Stock Rally Is Losing Momentum",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-15/why-stock-rally-is-losing-momentum-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7135,
+        "weight": 0.6843,
         "score": 1.0
       },
       {
-        "title": "reAlpha (NASDAQ: AIRE) Regains Compliance with Nasdaq Minimum Bid Price Requirement",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/realpha-nasdaq-aire-regains-compliance-201500198.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7118,
-        "score": 0.9667
+        "title": "Chinese Steel Mill Profitability at Highest Level Since August",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-15/chinese-steel-mill-profitability-at-highest-level-since-august",
+        "source": "Bloomberg Markets",
+        "weight": 0.7548,
+        "score": 0.6667
+      },
+      {
+        "title": "Global crypto market cap up 2.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Blackstone, KKR to Take Over Dental Firm After Slashing 70% Debt",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-14/blackstone-kkr-to-take-over-dental-firm-after-slashing-70-debt",
-        "source": "Bloomberg Markets",
-        "weight": 0.7755,
-        "score": -0.9333
-      },
-      {
-        "title": "Crypto losses from North Korea hackers in 2025 rose 51% YoY: Report",
-        "url": "https://cointelegraph.com/news/losses-dprk-hacks-2025-rose-51-year-over-year?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6176,
+        "title": "Billionaire Gautam Adani and nephew agree to pay $18 million in SEC settlement over fraud allegations",
+        "url": "https://www.cnbc.com/2026/05/15/us-sec-settlement-gautam-adani-sagar-adani-fraud-case.html",
+        "source": "CNBC Markets",
+        "weight": 0.7938,
         "score": -1.0
       },
       {
-        "title": "Some short sellers are seeing opportunity in this tech mania. How they're spotting fake AI stocks",
-        "url": "https://www.cnbc.com/2026/05/14/some-short-sellers-are-seeing-opportunity-in-this-tech-mania-how-theyre-spotting-fake-ai-stocks.html",
-        "source": "CNBC Markets",
-        "weight": 0.5875,
-        "score": -0.8667
+        "title": "Trump and Xi Begin Second Day of Talks",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-15/trump-and-xi-begin-second-day-of-talks-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7838,
+        "score": -0.6333
+      },
+      {
+        "title": "iShares S&P 500 ETF vs. Russell 2000 Growth: Is Large-Cap Stability or Small-Cap Growth the Better Buy?",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/14/ishares-s-and-p-500-etf-vs-russell-2000-growth-is-large-cap-stability-or-small-cap-growth-the-better-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4999,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.37859274970053863,
-          "price_change_24h": 0.02862
+          "volume_mcap_ratio": 0.38510378843216225,
+          "price_change_24h": 0.01642
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3012993063849797,
+          "price_change_24h": 0.10172
         }
       ],
       "momentum_shifts": []
