@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-16T09:46:59.996330+00:00",
+  "updated_at": "2026-05-16T13:47:32.008767+00:00",
   "indicators": {
-    "change24h": -0.068,
-    "vol": 0.163,
+    "change24h": -0.048,
+    "vol": 0.139,
     "fearGreed": 31,
-    "momentum": -1.0,
+    "momentum": -0.844,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4727,
-    "global_sentiment": 0.4661,
-    "combined_sentiment": 0.4767,
-    "confidence": 0.6182,
+    "crypto_sentiment": 0.4216,
+    "global_sentiment": 0.527,
+    "combined_sentiment": 0.4434,
+    "confidence": 0.6221,
     "counts": {
-      "crypto": 53,
-      "global": 34
+      "crypto": 52,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 78123,
-      "btc_change_24h": -2.85,
-      "eth_price": 2175.71,
-      "eth_change_24h": -3.47,
+      "btc_price": 77864,
+      "btc_change_24h": -1.54,
+      "eth_price": 2176.3,
+      "eth_change_24h": -2.27,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.05,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 31,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 134286871671.0,
-        "high_activity_coins": 1
+        "volume_24h": 128865869801.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.8,
+        "btc_dominance": 59.73,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-02T09:14:04.495348+00:00",
-      "crypto": 0.5635,
-      "global": 0.4168,
-      "combined": 0.5407,
-      "counts": {
-        "crypto": 57,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-05-02T13:26:49.219639+00:00",
       "crypto": 0.4841,
@@ -1008,33 +998,50 @@
         "crypto": 53,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-05-16T13:47:32.008767+00:00",
+      "crypto": 0.4216,
+      "global": 0.527,
+      "combined": 0.4434,
+      "counts": {
+        "crypto": 52,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Sharplink CEO points out 3 catalysts for Ethereum's price to surge higher",
-        "url": "https://cointelegraph.com/news/sharplink-ceo-points-out-these-3-catalysts-for-ethereum-to-reach-new-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.732,
+        "title": "Jefferies Says AI Rally Remains Supported by Strong Earnings Growth",
+        "url": "https://investorshub.advfn.com/market-news/article/28480/jefferies-says-ai-rally-remains-supported-by-strong-earnings-growth?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5346,
+        "score": 0.8667
+      },
+      {
+        "title": "Bond Selloff Threatens to Knock AI Stock Frenzy Off Course",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/bond-selloff-threatens-to-knock-ai-stock-frenzy-off-course",
+        "source": "Bloomberg Markets",
+        "weight": 0.775,
         "score": 0.5333
       },
       {
-        "title": "US CLARITY Act brings ‘major spike of euphoria’ to Bitcoin: Santiment",
-        "url": "https://cointelegraph.com/news/us-clarity-act-brings-major-spike-of-euphoria-to-bitcoin-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.334,
-        "score": 1.0
-      },
-      {
-        "title": "Cerebras Soared 68% in Its First Day of Trading. After This Explosive IPO, Is It Too Late to Buy the Stock?",
-        "url": "https://www.fool.com/investing/2026/05/16/cerebras-soared-is-it-too-late-to-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6805,
+        "title": "XRP beat bitcoin gains as CLARITY Act advanced, but a real bullrun still needs Congress",
+        "url": "https://www.coindesk.com/markets/2026/05/15/xrp-beat-bitcoin-gains-as-clarity-act-advanced-but-a-real-bullrun-still-needs-congress",
+        "source": "CoinDesk",
+        "weight": 0.9208,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "The $293 million KelpDAO hack shows why DeFi is finally being forced to grow up",
+        "url": "https://www.coindesk.com/tech/2026/05/16/the-usd293-million-kelpdao-hack-shows-why-defi-is-finally-being-forced-to-grow-up",
+        "source": "CoinDesk",
+        "weight": 0.9125,
+        "score": -0.7333
+      },
       {
         "title": "Fear & Greed 31 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,14 +1050,7 @@
         "score": -0.5333
       },
       {
-        "title": "FDA shuffles top drug, biologics leaders in latest shakeup",
-        "url": "https://www.cnbc.com/2026/05/15/fda-shuffles-top-drug-biologics-leaders-in-latest-leadership-shakeup.html",
-        "source": "CNBC Markets",
-        "weight": 0.3145,
-        "score": -0.9333
-      },
-      {
-        "title": "Global crypto market cap down -2.9% — selloff",
+        "title": "Global crypto market cap down -1.2% — selloff",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1058,13 +1058,7 @@
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3028154235117756,
-          "price_change_24h": -0.02472
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
