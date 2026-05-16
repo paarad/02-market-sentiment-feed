@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-16T17:05:58.320251+00:00",
+  "updated_at": "2026-05-16T20:30:51.685830+00:00",
   "indicators": {
-    "change24h": -0.045,
-    "vol": 0.159,
+    "change24h": -0.029,
+    "vol": 0.124,
     "fearGreed": 31,
-    "momentum": -0.782,
+    "momentum": -0.512,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.345,
-    "global_sentiment": 0.5213,
-    "combined_sentiment": 0.3855,
-    "confidence": 0.6425,
+    "crypto_sentiment": 0.2911,
+    "global_sentiment": 0.523,
+    "combined_sentiment": 0.3452,
+    "confidence": 0.6068,
     "counts": {
-      "crypto": 52,
-      "global": 34
+      "crypto": 50,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 78217,
-      "btc_change_24h": -1.32,
-      "eth_price": 2175.63,
-      "eth_change_24h": -2.37,
+      "btc_price": 78242,
+      "btc_change_24h": -1.12,
+      "eth_price": 2180.96,
+      "eth_change_24h": -1.8,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 31,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109966535713.0,
+        "volume_24h": 103471407522.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.78,
+        "btc_dominance": 59.76,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-02T16:58:25.614700+00:00",
-      "crypto": 0.4301,
-      "global": 0.4384,
-      "combined": 0.4425,
-      "counts": {
-        "crypto": 58,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-05-02T20:25:52.223297+00:00",
       "crypto": 0.4109,
@@ -1008,6 +998,16 @@
         "crypto": 52,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-05-16T20:30:51.685830+00:00",
+      "crypto": 0.2911,
+      "global": 0.523,
+      "combined": 0.3452,
+      "counts": {
+        "crypto": 50,
+        "global": 33
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "3 Reasons to Sell R and 1 Stock to Buy Instead",
         "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-r-1-162855541.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7449,
+        "weight": 0.5021,
         "score": 0.8667
       },
       {
-        "title": "Jefferies Says AI Rally Remains Supported by Strong Earnings Growth",
-        "url": "https://investorshub.advfn.com/market-news/article/28480/jefferies-says-ai-rally-remains-supported-by-strong-earnings-growth?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3648,
-        "score": 0.8667
+        "title": "Global Inventory Race Intensifies in Shadow of the Iran War",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-16/global-inventory-race-intensifies-in-shadow-of-the-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.7538,
+        "score": 0.3333
       },
       {
         "title": "Bond Selloff Threatens to Knock AI Stock Frenzy Off Course",
         "url": "https://www.bloomberg.com/news/articles/2026-05-16/bond-selloff-threatens-to-knock-ai-stock-frenzy-off-course",
         "source": "Bloomberg Markets",
-        "weight": 0.5289,
+        "weight": 0.3565,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "THORChain exploit turns emergency chain halt into a DeFi trust test",
+        "url": "https://cryptoslate.com/thorchain-exploit-defi-halt-trust-test/",
+        "source": "CryptoSlate",
+        "weight": 0.5203,
+        "score": -1.0
+      },
+      {
         "title": "Crypto users are choosing juicy yields over protection, putting billions at risk of hacks",
         "url": "https://www.coindesk.com/business/2026/05/16/crypto-users-are-choosing-juicy-yields-over-protection-putting-billions-at-risk-of-hacks",
         "source": "CoinDesk",
-        "weight": 0.699,
+        "weight": 0.4712,
         "score": -1.0
       },
       {
-        "title": "Wall Street Week | Dalio's Warning, AI Arms Race, China Powers Ahead, NYC Tax Standoff",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.576,
-        "score": -1.0
-      },
-      {
-        "title": "Bitcoin ETF flows reverse as US funds shed $1B amid inflation fears",
-        "url": "https://cryptoslate.com/bitcoin-etf-flows-reverse-1b-outflows-inflation-fears/",
-        "source": "CryptoSlate",
-        "weight": 0.5251,
-        "score": -1.0
+        "title": "Fear & Greed 31 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
