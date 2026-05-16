@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-16T13:47:32.008767+00:00",
+  "updated_at": "2026-05-16T17:05:58.320251+00:00",
   "indicators": {
-    "change24h": -0.048,
-    "vol": 0.139,
+    "change24h": -0.045,
+    "vol": 0.159,
     "fearGreed": 31,
-    "momentum": -0.844,
+    "momentum": -0.782,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4216,
-    "global_sentiment": 0.527,
-    "combined_sentiment": 0.4434,
-    "confidence": 0.6221,
+    "crypto_sentiment": 0.345,
+    "global_sentiment": 0.5213,
+    "combined_sentiment": 0.3855,
+    "confidence": 0.6425,
     "counts": {
       "crypto": 52,
-      "global": 32
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 77864,
-      "btc_change_24h": -1.54,
-      "eth_price": 2176.3,
-      "eth_change_24h": -2.27,
+      "btc_price": 78217,
+      "btc_change_24h": -1.32,
+      "eth_price": 2175.63,
+      "eth_change_24h": -2.37,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.2,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128865869801.0,
+        "volume_24h": 109966535713.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.73,
+        "btc_dominance": 59.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-02T13:26:49.219639+00:00",
-      "crypto": 0.4841,
-      "global": 0.4986,
-      "combined": 0.4879,
-      "counts": {
-        "crypto": 57,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-02T16:58:25.614700+00:00",
       "crypto": 0.4301,
@@ -1008,53 +998,63 @@
         "crypto": 52,
         "global": 32
       }
+    },
+    {
+      "ts": "2026-05-16T17:05:58.320251+00:00",
+      "crypto": 0.345,
+      "global": 0.5213,
+      "combined": 0.3855,
+      "counts": {
+        "crypto": 52,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "3 Reasons to Sell R and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-r-1-162855541.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7449,
+        "score": 0.8667
+      },
+      {
         "title": "Jefferies Says AI Rally Remains Supported by Strong Earnings Growth",
         "url": "https://investorshub.advfn.com/market-news/article/28480/jefferies-says-ai-rally-remains-supported-by-strong-earnings-growth?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5346,
+        "weight": 0.3648,
         "score": 0.8667
       },
       {
         "title": "Bond Selloff Threatens to Knock AI Stock Frenzy Off Course",
         "url": "https://www.bloomberg.com/news/articles/2026-05-16/bond-selloff-threatens-to-knock-ai-stock-frenzy-off-course",
         "source": "Bloomberg Markets",
-        "weight": 0.775,
+        "weight": 0.5289,
         "score": 0.5333
-      },
-      {
-        "title": "XRP beat bitcoin gains as CLARITY Act advanced, but a real bullrun still needs Congress",
-        "url": "https://www.coindesk.com/markets/2026/05/15/xrp-beat-bitcoin-gains-as-clarity-act-advanced-but-a-real-bullrun-still-needs-congress",
-        "source": "CoinDesk",
-        "weight": 0.9208,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "The $293 million KelpDAO hack shows why DeFi is finally being forced to grow up",
-        "url": "https://www.coindesk.com/tech/2026/05/16/the-usd293-million-kelpdao-hack-shows-why-defi-is-finally-being-forced-to-grow-up",
+        "title": "Crypto users are choosing juicy yields over protection, putting billions at risk of hacks",
+        "url": "https://www.coindesk.com/business/2026/05/16/crypto-users-are-choosing-juicy-yields-over-protection-putting-billions-at-risk-of-hacks",
         "source": "CoinDesk",
-        "weight": 0.9125,
-        "score": -0.7333
+        "weight": 0.699,
+        "score": -1.0
       },
       {
-        "title": "Fear & Greed 31 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Wall Street Week | Dalio's Warning, AI Arms Race, China Powers Ahead, NYC Tax Standoff",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-16/wall-street-week-dalio-s-warning-nyc-tax-standoff-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.576,
+        "score": -1.0
       },
       {
-        "title": "Global crypto market cap down -1.2% — selloff",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": -0.3333
+        "title": "Bitcoin ETF flows reverse as US funds shed $1B amid inflation fears",
+        "url": "https://cryptoslate.com/bitcoin-etf-flows-reverse-1b-outflows-inflation-fears/",
+        "source": "CryptoSlate",
+        "weight": 0.5251,
+        "score": -1.0
       }
     ],
     "market_movers": {
