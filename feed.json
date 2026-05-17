@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-17T13:47:10.020716+00:00",
+  "updated_at": "2026-05-17T17:04:34.424385+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.099,
+    "change24h": 0.011,
+    "vol": 0.112,
     "fearGreed": 27,
-    "momentum": 0.456,
+    "momentum": 0.199,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2467,
-    "global_sentiment": 0.5791,
-    "combined_sentiment": 0.3166,
-    "confidence": 0.5746,
+    "crypto_sentiment": 0.242,
+    "global_sentiment": 0.5688,
+    "combined_sentiment": 0.3122,
+    "confidence": 0.5242,
     "counts": {
-      "crypto": 62,
-      "global": 28
+      "crypto": 61,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 78235,
-      "btc_change_24h": 0.47,
-      "eth_price": 2192.76,
-      "eth_change_24h": 0.77,
+      "btc_price": 77950,
+      "btc_change_24h": -0.33,
+      "eth_price": 2181.26,
+      "eth_change_24h": 0.28,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 71787800720.0,
+        "volume_24h": 68957150425.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-03T09:25:46.514562+00:00",
-      "crypto": 0.4021,
-      "global": 0.4593,
-      "combined": 0.4232,
-      "counts": {
-        "crypto": 57,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-05-03T13:37:52.273226+00:00",
       "crypto": 0.3752,
@@ -1008,40 +998,43 @@
         "crypto": 62,
         "global": 28
       }
+    },
+    {
+      "ts": "2026-05-17T17:04:34.424385+00:00",
+      "crypto": 0.242,
+      "global": 0.5688,
+      "combined": 0.3122,
+      "counts": {
+        "crypto": 61,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Tech Bubble Fear Lures Investors to Hedge With Exotic Options",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/tech-bubble-fear-lures-investors-to-hedge-with-exotic-options",
+        "source": "Bloomberg Markets",
+        "weight": 0.5607,
+        "score": 0.8667
+      },
+      {
         "title": "Goldman Sachs Says Strong Q1 Earnings Momentum Is Supporting Fresh S&P 500 Highs",
         "url": "https://investorshub.advfn.com/market-news/article/28484/goldman-sachs-says-strong-q1-earnings-momentum-is-supporting-fresh-sp-500-highs?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6496,
+        "weight": 0.4442,
         "score": 1.0
       },
       {
-        "title": "Volatile Chipmaker Stocks Emerge as Key Driver of S&amp;P 500 Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/volatile-chipmaker-stocks-emerge-as-key-driver-of-s-p-500-rally",
+        "title": "NVIDIA Earnings Anticipated Amid Supply Constraints and China Uncertainty",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/nvidia-earnings-anticipated-on-wednesday-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7305,
-        "score": 0.5333
-      },
-      {
-        "title": "G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure",
-        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
-        "source": "CNBC Markets",
-        "weight": 0.6693,
+        "weight": 0.6158,
         "score": 0.5333
       }
     ],
     "negative": [
-      {
-        "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
-        "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
-        "source": "CoinDesk",
-        "weight": 0.7851,
-        "score": -0.6333
-      },
       {
         "title": "Fear & Greed 27 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1050,10 +1043,17 @@
         "score": -0.5333
       },
       {
-        "title": "Wall Street’s fight with Hyperliquid could decide who controls 24/7 markets",
-        "url": "https://cryptoslate.com/hyperliquid-oil-perps-wall-street-24-7-trading/",
-        "source": "CryptoSlate",
-        "weight": 0.5603,
+        "title": "Rep. Clarke on Impact of Supreme Court's Redistricting Decision",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-17/rep-clarke-we-need-to-take-a-look-at-the-supreme-court-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.636,
+        "score": -0.6333
+      },
+      {
+        "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
+        "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+        "source": "CoinDesk",
+        "weight": 0.5369,
         "score": -0.6333
       }
     ],
