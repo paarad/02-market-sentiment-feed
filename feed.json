@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-17T09:53:30.325337+00:00",
+  "updated_at": "2026-05-17T13:47:10.020716+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.096,
+    "change24h": 0.026,
+    "vol": 0.099,
     "fearGreed": 27,
-    "momentum": 0.379,
+    "momentum": 0.456,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2208,
-    "global_sentiment": 0.5334,
-    "combined_sentiment": 0.2934,
-    "confidence": 0.5362,
+    "crypto_sentiment": 0.2467,
+    "global_sentiment": 0.5791,
+    "combined_sentiment": 0.3166,
+    "confidence": 0.5746,
     "counts": {
-      "crypto": 63,
-      "global": 30
+      "crypto": 62,
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 78136,
-      "btc_change_24h": 0.05,
-      "eth_price": 2188.48,
-      "eth_change_24h": 0.67,
+      "btc_price": 78235,
+      "btc_change_24h": 0.47,
+      "eth_price": 2192.76,
+      "eth_change_24h": 0.77,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 80940378375.0,
+        "volume_24h": 71787800720.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.69,
+        "btc_dominance": 59.7,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-03T06:32:37.424999+00:00",
-      "crypto": 0.5038,
-      "global": 0.5488,
-      "combined": 0.5069,
-      "counts": {
-        "crypto": 43,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-05-03T09:25:46.514562+00:00",
       "crypto": 0.4021,
@@ -1008,33 +998,50 @@
         "crypto": 63,
         "global": 30
       }
+    },
+    {
+      "ts": "2026-05-17T13:47:10.020716+00:00",
+      "crypto": 0.2467,
+      "global": 0.5791,
+      "combined": 0.3166,
+      "counts": {
+        "crypto": 62,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Bank Stocks That Concern Us",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-concern-us-031655505.html?.tsrc=rss",
+        "title": "Goldman Sachs Says Strong Q1 Earnings Momentum Is Supporting Fresh S&P 500 Highs",
+        "url": "https://investorshub.advfn.com/market-news/article/28484/goldman-sachs-says-strong-q1-earnings-momentum-is-supporting-fresh-sp-500-highs?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3728,
-        "score": 0.5
+        "weight": 0.6496,
+        "score": 1.0
       },
       {
-        "title": "2 Services Stocks for Long-Term Investors and 1 Facing Headwinds",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-long-term-055655708.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5073,
-        "score": 0.3333
+        "title": "Volatile Chipmaker Stocks Emerge as Key Driver of S&amp;P 500 Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/volatile-chipmaker-stocks-emerge-as-key-driver-of-s-p-500-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.7305,
+        "score": 0.5333
       },
       {
-        "title": "Integer Holdings (ITGR): Buy, Sell, or Hold Post Q1 Earnings?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/integer-holdings-itgr-buy-sell-052455767.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.477,
-        "score": 0.3333
+        "title": "G7 finance ministers to meet amid warning of economic consequences of prolonged Strait of Hormuz closure",
+        "url": "https://www.cnbc.com/2026/05/17/opening-strait-of-hormuz-is-of-utmost-importance-eurogroup-head.html",
+        "source": "CNBC Markets",
+        "weight": 0.6693,
+        "score": 0.5333
       }
     ],
     "negative": [
+      {
+        "title": "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts",
+        "url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+        "source": "CoinDesk",
+        "weight": 0.7851,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 27 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "A major bank just moved its stablecoin strategy into Wall Street’s hidden financing machine",
-        "url": "https://cryptoslate.com/societe-generale-stablecoins-canton-repo-collateral/",
+        "title": "Wall Street’s fight with Hyperliquid could decide who controls 24/7 markets",
+        "url": "https://cryptoslate.com/hyperliquid-oil-perps-wall-street-24-7-trading/",
         "source": "CryptoSlate",
-        "weight": 0.5757,
-        "score": -0.6667
-      },
-      {
-        "title": "Malaysia Unveils Measures to Help Airlines Hit by Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.3578,
-        "score": -0.9333
+        "weight": 0.5603,
+        "score": -0.6333
       }
     ],
     "market_movers": {
