@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-16T20:57:55.173979+00:00",
+  "updated_at": "2026-05-17T04:05:04.278151+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.11,
-    "fearGreed": 31,
-    "momentum": -0.497,
-    "regime": "bear",
+    "change24h": -0.025,
+    "vol": 0.1,
+    "fearGreed": 27,
+    "momentum": -0.438,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2903,
-    "global_sentiment": 0.523,
-    "combined_sentiment": 0.3446,
-    "confidence": 0.5995,
+    "crypto_sentiment": 0.2342,
+    "global_sentiment": 0.4614,
+    "combined_sentiment": 0.2974,
+    "confidence": 0.5314,
     "counts": {
-      "crypto": 50,
-      "global": 33
+      "crypto": 51,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 78216,
-      "btc_change_24h": -1.09,
-      "eth_price": 2180.54,
-      "eth_change_24h": -1.72,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 78009,
+      "btc_change_24h": -1.32,
+      "eth_price": 2181.55,
+      "eth_change_24h": -2.03,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 31,
+        "value": 27,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 102825621979.0,
+        "volume_24h": 99872041845.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.76,
+        "btc_dominance": 59.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-02T20:51:51.492775+00:00",
-      "crypto": 0.4092,
-      "global": 0.514,
-      "combined": 0.433,
-      "counts": {
-        "crypto": 57,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-05-03T03:56:20.137751+00:00",
       "crypto": 0.5038,
@@ -1008,53 +998,63 @@
         "crypto": 50,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-05-17T04:05:04.278151+00:00",
+      "crypto": 0.2342,
+      "global": 0.4614,
+      "combined": 0.2974,
+      "counts": {
+        "crypto": 51,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Reasons to Sell R and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-r-1-162855541.html?.tsrc=rss",
+        "title": "3 Bank Stocks That Concern Us",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-concern-us-031655505.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4766,
-        "score": 0.8667
+        "weight": 0.7292,
+        "score": 0.5
       },
       {
-        "title": "Global Inventory Race Intensifies in Shadow of the Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/global-inventory-race-intensifies-in-shadow-of-the-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.7156,
+        "title": "Jim Cramer has a stark message on the stock market for 2026.",
+        "url": "https://www.thestreet.com/investing/stocks/jim-cramer-has-a-stark-message-on-the-stock-market-for-2026?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.502,
+        "score": 0.6667
+      },
+      {
+        "title": "3 Reasons to Avoid OMCL and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-omcl-1-012455917.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5877,
         "score": 0.3333
-      },
-      {
-        "title": "Bond Selloff Threatens to Knock AI Stock Frenzy Off Course",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-16/bond-selloff-threatens-to-knock-ai-stock-frenzy-off-course",
-        "source": "Bloomberg Markets",
-        "weight": 0.3384,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "THORChain exploit turns emergency chain halt into a DeFi trust test",
-        "url": "https://cryptoslate.com/thorchain-exploit-defi-halt-trust-test/",
-        "source": "CryptoSlate",
-        "weight": 0.4938,
-        "score": -1.0
+        "title": "Malaysia Unveils Measures to Help Airlines Hit by Iran War",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-17/malaysia-unveils-measures-to-help-airlines-hit-by-iran-war",
+        "source": "Bloomberg Markets",
+        "weight": 0.6997,
+        "score": -0.9333
       },
       {
-        "title": "Crypto users are choosing juicy yields over protection, putting billions at risk of hacks",
-        "url": "https://www.coindesk.com/business/2026/05/16/crypto-users-are-choosing-juicy-yields-over-protection-putting-billions-at-risk-of-hacks",
-        "source": "CoinDesk",
-        "weight": 0.4472,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 31 (Fear) — bearish",
+        "title": "Fear & Greed 27 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "STRC preferred stock investors are mispricing major 'dislocation' risk: Analyst",
+        "url": "https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4369,
+        "score": -0.9667
       }
     ],
     "market_movers": {
