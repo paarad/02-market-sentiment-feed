@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-18T11:49:58.512487+00:00",
+  "updated_at": "2026-05-18T15:48:53.224787+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.036,
+    "vol": 0.187,
     "fearGreed": 28,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.636,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3192,
-    "global_sentiment": 0.4067,
-    "combined_sentiment": 0.3566,
-    "confidence": 0.7634,
+    "crypto_sentiment": 0.4018,
+    "global_sentiment": 0.6082,
+    "combined_sentiment": 0.4353,
+    "confidence": 0.8266,
     "counts": {
-      "crypto": 56,
-      "global": 41
+      "crypto": 75,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 77221,
-      "btc_change_24h": -1.47,
-      "eth_price": 2132.8,
-      "eth_change_24h": -2.65,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 76295,
+      "btc_change_24h": -2.2,
+      "eth_price": 2106.34,
+      "eth_change_24h": -3.62,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 119934215097.0,
-        "high_activity_coins": 0
+        "volume_24h": 150863191769.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 59.62,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-04T03:53:37.185799+00:00",
-      "crypto": 0.4115,
-      "global": 0.4777,
-      "combined": 0.4318,
-      "counts": {
-        "crypto": 58,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-05-04T06:46:22.510069+00:00",
       "crypto": 0.5788,
@@ -1008,57 +998,73 @@
         "crypto": 56,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-18T15:48:53.224787+00:00",
+      "crypto": 0.4018,
+      "global": 0.6082,
+      "combined": 0.4353,
+      "counts": {
+        "crypto": 75,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AFX launches sovereign Layer 1, providing an optimized execution environment for on-chain perp DEXes",
-        "url": "https://cointelegraph.com/press-releases/afx-launches-sovereign-layer-1-providing-an-optimized-execution-environment-for-on-chain-perp-dexes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Hyperliquid eyes 55% price rise after Silicon Valley investor's 'massive HYPE buy'",
+        "url": "https://cointelegraph.com/markets/hyperliquid-eyes-55-price-rise-silicon-valley-investors-massive-hype-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6858,
-        "score": 0.9667
+        "weight": 0.7431,
+        "score": 1.0
       },
       {
-        "title": "Musk Wants to Get SpaceX IPO Underway 'Pretty Soon'",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-18/musk-wants-to-get-spacex-ipo-underway-pretty-soon-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6702,
-        "score": 0.6333
-      },
-      {
-        "title": "Treasury yields rise as inflation fears drive global bond rout",
-        "url": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html",
+        "title": "The EU will cut growth outlook, raise inflation forecast as Iran war drives 'stagflationary shock'",
+        "url": "https://www.cnbc.com/2026/05/18/eu-stagflation-shock-iran-war-oil-prices.html",
         "source": "CNBC Markets",
-        "weight": 0.6604,
-        "score": 0.5333
+        "weight": 0.7156,
+        "score": 0.6667
+      },
+      {
+        "title": "TKO Group (TKO) Announces Multi-Year Arizona Events Partnership",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tko-group-tko-announces-multi-151700890.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7524,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Regeneron Stock Sinks as Key Melanoma Drug Trial Fails to Beat Merck’s Keytruda",
-        "url": "https://finance.yahoo.com/m/eb2f0280-1528-3050-a0c9-16fdda669e83/regeneron-stock-sinks-as-key.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7878,
-        "score": -0.9333
-      },
-      {
-        "title": "European LNG Imports Extend April’s Drop as Flows to Asia Climb",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/european-lng-imports-extend-april-s-drop-as-flows-to-asia-climb",
+        "title": "Ryanair Gains on Narrower Net Loss; Regeneron Melanoma Trial Failure | Stock Movers",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-18/ryanair-narrower-net-loss-regeneron-melanoma-trial-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7047,
-        "score": -0.9667
+        "weight": 0.7519,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin slides below $77,000 as Trump’s Iran warning rattles risk assets",
-        "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-below-usd77-000-as-trump-s-iran-warning-rattles-risk-assets",
+        "title": "Vitalik Buterin says AI 'formal verification' could actually make crypto much more secure",
+        "url": "https://www.coindesk.com/tech/2026/05/18/vitalik-buterin-says-ai-formal-verification-could-actually-make-crypto-much-more-secure",
         "source": "CoinDesk",
-        "weight": 0.8913,
+        "weight": 0.8426,
+        "score": -0.6333
+      },
+      {
+        "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) drops 13% as all assets decline",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/05/18/coindesk-20-performance-update-bitcoin-cash-bch-drops-13-as-all-assets-decline",
+        "source": "CoinDesk",
+        "weight": 0.7459,
         "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3396174396917598,
+          "price_change_24h": -0.006
+        }
+      ],
       "momentum_shifts": []
     }
   },
