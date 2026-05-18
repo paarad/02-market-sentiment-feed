@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-18T04:18:03.423454+00:00",
+  "updated_at": "2026-05-18T11:49:58.512487+00:00",
   "indicators": {
-    "change24h": -0.011,
-    "vol": 0.189,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 28,
-    "momentum": -0.19,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2835,
-    "global_sentiment": 0.4903,
-    "combined_sentiment": 0.3368,
-    "confidence": 0.6002,
+    "crypto_sentiment": 0.3192,
+    "global_sentiment": 0.4067,
+    "combined_sentiment": 0.3566,
+    "confidence": 0.7634,
     "counts": {
-      "crypto": 49,
-      "global": 47
+      "crypto": 56,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 76973,
-      "btc_change_24h": -1.37,
-      "eth_price": 2120.24,
-      "eth_change_24h": -2.86,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 77221,
+      "btc_change_24h": -1.47,
+      "eth_price": 2132.8,
+      "eth_change_24h": -2.65,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 97280154564.0,
+        "volume_24h": 119934215097.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.66,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-03T20:54:21.292693+00:00",
-      "crypto": 0.4031,
-      "global": 0.5632,
-      "combined": 0.4326,
-      "counts": {
-        "crypto": 54,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-05-04T03:53:37.185799+00:00",
       "crypto": 0.4115,
@@ -1008,53 +998,63 @@
         "crypto": 49,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-05-18T11:49:58.512487+00:00",
+      "crypto": 0.3192,
+      "global": 0.4067,
+      "combined": 0.3566,
+      "counts": {
+        "crypto": 56,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Chipmaker CXMT Reports Eightfold Jump in Sales on Path to IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/chipmaker-cxmt-reports-eightfold-jump-in-sales-on-path-to-ipo",
+        "title": "AFX launches sovereign Layer 1, providing an optimized execution environment for on-chain perp DEXes",
+        "url": "https://cointelegraph.com/press-releases/afx-launches-sovereign-layer-1-providing-an-optimized-execution-environment-for-on-chain-perp-dexes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6858,
+        "score": 0.9667
+      },
+      {
+        "title": "Musk Wants to Get SpaceX IPO Underway 'Pretty Soon'",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-18/musk-wants-to-get-spacex-ipo-underway-pretty-soon-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6931,
-        "score": 0.6667
+        "weight": 0.6702,
+        "score": 0.6333
       },
       {
-        "title": "Hub Group (HUBG): Buy, Sell, or Hold Post Q3 Earnings?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hub-group-hubg-buy-sell-011655429.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5644,
-        "score": 0.6667
-      },
-      {
-        "title": "3 Reasons to Sell REGN and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-regn-1-010055095.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5473,
-        "score": 0.6667
+        "title": "Treasury yields rise as inflation fears drive global bond rout",
+        "url": "https://www.cnbc.com/2026/05/18/treasury-yields-inflation-bond-rout-oil.html",
+        "source": "CNBC Markets",
+        "weight": 0.6604,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Hedge Funds Ramp Up Bearish Sterling Bets on Andy Burnham Risk",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/hedge-funds-ramp-up-bearish-sterling-bets-on-andy-burnham-risk",
-        "source": "Bloomberg Markets",
-        "weight": 0.7232,
-        "score": -1.0
+        "title": "Regeneron Stock Sinks as Key Melanoma Drug Trial Fails to Beat Merck’s Keytruda",
+        "url": "https://finance.yahoo.com/m/eb2f0280-1528-3050-a0c9-16fdda669e83/regeneron-stock-sinks-as-key.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7878,
+        "score": -0.9333
       },
       {
-        "title": "Chinese Oil Refiners Slash Output After Crude Imports Plunge",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/chinese-oil-refiners-slash-output-after-crude-imports-plunge",
+        "title": "European LNG Imports Extend April’s Drop as Flows to Asia Climb",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/european-lng-imports-extend-april-s-drop-as-flows-to-asia-climb",
         "source": "Bloomberg Markets",
-        "weight": 0.636,
+        "weight": 0.7047,
         "score": -0.9667
       },
       {
-        "title": "Evergrande Liquidators Pursue Claims Against PwC in HK Court",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/evergrande-liquidators-pursue-claims-against-pwc-in-hk-court",
-        "source": "Bloomberg Markets",
-        "weight": 0.513,
-        "score": -1.0
+        "title": "Bitcoin slides below $77,000 as Trump’s Iran warning rattles risk assets",
+        "url": "https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-below-usd77-000-as-trump-s-iran-warning-rattles-risk-assets",
+        "source": "CoinDesk",
+        "weight": 0.8913,
+        "score": -0.6667
       }
     ],
     "market_movers": {
