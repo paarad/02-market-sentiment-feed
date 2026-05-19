@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-19T18:10:07.542525+00:00",
+  "updated_at": "2026-05-19T21:07:01.823242+00:00",
   "indicators": {
-    "change24h": 0.016,
-    "vol": 0.176,
+    "change24h": 0.004,
+    "vol": 0.104,
     "fearGreed": 25,
-    "momentum": 0.278,
+    "momentum": 0.067,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3219,
-    "global_sentiment": 0.4313,
-    "combined_sentiment": 0.3607,
-    "confidence": 0.7959,
+    "crypto_sentiment": 0.3812,
+    "global_sentiment": 0.3752,
+    "combined_sentiment": 0.4005,
+    "confidence": 0.7736,
     "counts": {
-      "crypto": 53,
-      "global": 41
+      "crypto": 64,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 76825,
-      "btc_change_24h": 0.48,
-      "eth_price": 2115.01,
-      "eth_change_24h": 0.62,
+      "btc_price": 76932,
+      "btc_change_24h": 0.16,
+      "eth_price": 2116.16,
+      "eth_change_24h": -0.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 129144711293.0,
+        "volume_24h": 118266768251.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.66,
+        "btc_dominance": 59.72,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-05T06:23:53.988316+00:00",
-      "crypto": 0.5811,
-      "global": 0.4824,
-      "combined": 0.5594,
-      "counts": {
-        "crypto": 55,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-05-05T10:08:14.322550+00:00",
       "crypto": 0.5931,
@@ -1008,52 +998,62 @@
         "crypto": 53,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-19T21:07:01.823242+00:00",
+      "crypto": 0.3812,
+      "global": 0.3752,
+      "combined": 0.4005,
+      "counts": {
+        "crypto": 64,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nvidia shares set for $350 billion price swing after earnings, options show",
-        "url": "https://finance.yahoo.com/markets/options/articles/nvidia-shares-set-350-billion-172752881.html?.tsrc=rss",
+        "title": "US Equity Indexes Slide as Treasury Yields Surge Amid Trump's Warning to Iran in Event of No Peace Deal",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-treasury-195707991.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7375,
+        "weight": 0.6992,
         "score": 0.8667
       },
       {
-        "title": "2026 CNBC Disruptor 50 list: Why Anthropic was No. 1 in this year's rankings",
-        "url": "https://www.cnbc.com/2026/05/19/2026-cnbc-disruptor-50-rankings-anthropic-no-1.html",
-        "source": "CNBC Markets",
-        "weight": 0.7223,
-        "score": 0.6667
+        "title": "Bitcoin Miners Emerge as Unlikely Power Brokers in AI Infrastructure Race, Says Bernstein",
+        "url": "https://decrypt.co/368381/bitcoin-miners-unlikely-power-brokers-ai-infrastructure-race-bernstein",
+        "source": "Decrypt",
+        "weight": 0.7125,
+        "score": 0.5333
       },
       {
-        "title": "Live markets: Bitcoin gives up $77,000 as interest rates continue surge, stocks continue slump",
-        "url": "https://www.coindesk.com/tech/2026/05/19/live-markets-bitcoin-hangs-near-usd77-000-as-interest-rates-continue-to-surge",
-        "source": "CoinDesk",
-        "weight": 0.6359,
-        "score": 0.5333
+        "title": "Senator Warren questions OCC chief on approval of ‘ineligible’ crypto trust charters",
+        "url": "https://cointelegraph.com/news/elizabeth-warren-seeks-occ-communications-crypto-trust-charters-eyeing-trump-links?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5228,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin price risks slide toward $70,000 as $76,000 support weakens",
-        "url": "https://cryptoslate.com/bitcoin-price-70000-slide-76000-support/",
-        "source": "CryptoSlate",
-        "weight": 0.7155,
-        "score": -1.0
+        "title": "Trump's past tax returns get protection from IRS enforcement under 'lawfare' fund settlement",
+        "url": "https://www.cnbc.com/2026/05/19/trump-taxes-irs-doj-fund.html",
+        "source": "CNBC Markets",
+        "weight": 0.7904,
+        "score": -0.9
       },
       {
-        "title": "Why This Vanguard ETF May Be a Safer Option for Long-Term Investors Than Tracking the S&P 500 Right Now",
-        "url": "https://www.fool.com/investing/2026/05/19/why-this-vanguard-etf-may-be-a-safer-option-for-lo/?.tsrc=rss",
+        "title": "S&P 500 Falls While Bond Yields Rise. It's an Ugly Combo.",
+        "url": "https://finance.yahoo.com/m/f009b8e6-2dbb-36bf-beb8-1b4987f42473/s%26p-500-falls-while-bond.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6856,
-        "score": -1.0
+        "weight": 0.7079,
+        "score": -0.9667
       },
       {
-        "title": "Canaan Shares Plunge as CEO Says Middle East Conflict Is Clouding Outlook for Bitcoin Miners",
-        "url": "https://decrypt.co/368365/canaan-shares-plunge-ceo-middle-east-conflict-clouding-outlook-bitcoin-miners",
-        "source": "Decrypt",
-        "weight": 0.6882,
+        "title": "The Upside of Nvidia’s 3-Day Losing Streak",
+        "url": "https://finance.yahoo.com/m/782c315c-43f5-3ae3-9cdc-c0a095f7b4d7/the-upside-of-nvidia%E2%80%99s-3-day.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6831,
         "score": -0.9667
       }
     ],
