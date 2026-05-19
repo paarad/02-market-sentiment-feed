@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-19T21:07:01.823242+00:00",
+  "updated_at": "2026-05-19T21:26:11.824915+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.104,
+    "change24h": 0.0,
+    "vol": 0.095,
     "fearGreed": 25,
-    "momentum": 0.067,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3812,
-    "global_sentiment": 0.3752,
-    "combined_sentiment": 0.4005,
-    "confidence": 0.7736,
+    "crypto_sentiment": 0.3759,
+    "global_sentiment": 0.3704,
+    "combined_sentiment": 0.3962,
+    "confidence": 0.7776,
     "counts": {
-      "crypto": 64,
-      "global": 46
+      "crypto": 51,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 76932,
-      "btc_change_24h": 0.16,
-      "eth_price": 2116.16,
-      "eth_change_24h": -0.06,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 76970,
+      "btc_change_24h": 0.0,
+      "eth_price": 2117.33,
+      "eth_change_24h": -0.44,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118266768251.0,
+        "volume_24h": 117964228718.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.72,
+        "btc_dominance": 59.71,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-05T10:08:14.322550+00:00",
-      "crypto": 0.5931,
-      "global": 0.487,
-      "combined": 0.5688,
-      "counts": {
-        "crypto": 71,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-05-05T14:13:00.726731+00:00",
       "crypto": 0.6046,
@@ -1008,6 +998,16 @@
         "crypto": 64,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-19T21:26:11.824915+00:00",
+      "crypto": 0.3759,
+      "global": 0.3704,
+      "combined": 0.3962,
+      "counts": {
+        "crypto": 51,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "US Equity Indexes Slide as Treasury Yields Surge Amid Trump's Warning to Iran in Event of No Peace Deal",
         "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-treasury-195707991.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6992,
+        "weight": 0.6739,
         "score": 0.8667
       },
       {
         "title": "Bitcoin Miners Emerge as Unlikely Power Brokers in AI Infrastructure Race, Says Bernstein",
         "url": "https://decrypt.co/368381/bitcoin-miners-unlikely-power-brokers-ai-infrastructure-race-bernstein",
         "source": "Decrypt",
-        "weight": 0.7125,
+        "weight": 0.6867,
         "score": 0.5333
       },
       {
         "title": "Senator Warren questions OCC chief on approval of ‘ineligible’ crypto trust charters",
         "url": "https://cointelegraph.com/news/elizabeth-warren-seeks-occ-communications-crypto-trust-charters-eyeing-trump-links?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5228,
+        "weight": 0.5039,
         "score": 0.5833
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Trump's past tax returns get protection from IRS enforcement under 'lawfare' fund settlement",
         "url": "https://www.cnbc.com/2026/05/19/trump-taxes-irs-doj-fund.html",
         "source": "CNBC Markets",
-        "weight": 0.7904,
+        "weight": 0.7618,
         "score": -0.9
       },
       {
         "title": "S&P 500 Falls While Bond Yields Rise. It's an Ugly Combo.",
         "url": "https://finance.yahoo.com/m/f009b8e6-2dbb-36bf-beb8-1b4987f42473/s%26p-500-falls-while-bond.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7079,
+        "weight": 0.6823,
         "score": -0.9667
       },
       {
         "title": "The Upside of Nvidia’s 3-Day Losing Streak",
         "url": "https://finance.yahoo.com/m/782c315c-43f5-3ae3-9cdc-c0a095f7b4d7/the-upside-of-nvidia%E2%80%99s-3-day.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6831,
+        "weight": 0.6584,
         "score": -0.9667
       }
     ],
