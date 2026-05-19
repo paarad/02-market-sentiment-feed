@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-18T21:18:55.731179+00:00",
+  "updated_at": "2026-05-19T04:12:43.622454+00:00",
   "indicators": {
-    "change24h": -0.033,
-    "vol": 0.166,
-    "fearGreed": 28,
-    "momentum": -0.578,
-    "regime": "bear",
+    "change24h": 0.012,
+    "vol": 0.152,
+    "fearGreed": 25,
+    "momentum": 0.208,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3309,
-    "global_sentiment": 0.3956,
-    "combined_sentiment": 0.3645,
-    "confidence": 0.8044,
+    "crypto_sentiment": 0.3391,
+    "global_sentiment": 0.4279,
+    "combined_sentiment": 0.3733,
+    "confidence": 0.718,
     "counts": {
-      "crypto": 57,
+      "crypto": 55,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 76875,
-      "btc_change_24h": -1.73,
-      "eth_price": 2122.1,
-      "eth_change_24h": -3.01,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 76840,
+      "btc_change_24h": -0.16,
+      "eth_price": 2133.92,
+      "eth_change_24h": 0.63,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
-        "value": 28,
-        "classification": "Fear",
+        "value": 25,
+        "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 177315047626.0,
+        "volume_24h": 157821350655.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.65,
+        "btc_dominance": 59.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-04T17:46:44.689289+00:00",
-      "crypto": 0.4367,
-      "global": 0.436,
-      "combined": 0.4472,
-      "counts": {
-        "crypto": 58,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-05-04T20:51:28.346300+00:00",
       "crypto": 0.4056,
@@ -1008,66 +998,76 @@
         "crypto": 57,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-19T04:12:43.622454+00:00",
+      "crypto": 0.3391,
+      "global": 0.4279,
+      "combined": 0.3733,
+      "counts": {
+        "crypto": 55,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Mexico Signs Deal for Floating Gas Plant to Meet Yucatan Demand",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/mexico-signs-deal-for-floating-gas-plant-to-meet-yucatan-demand",
-        "source": "Bloomberg Markets",
-        "weight": 0.6415,
-        "score": 1.0
-      },
-      {
-        "title": "Believer in International Diversification: Kellert",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-18/believer-in-international-diversification-kellert-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6043,
+        "title": "After U.S. SEC, Treasury and Justice Department offer billionaire Gautam Adani legal relief",
+        "url": "https://www.cnbc.com/2026/05/19/adani-treasury-justice-department-sec-settlement.html",
+        "source": "CNBC Markets",
+        "weight": 0.7846,
         "score": 0.6667
       },
       {
-        "title": "Hyperliquid eyes 55% price rise after Silicon Valley investor's 'massive HYPE buy'",
-        "url": "https://cointelegraph.com/markets/hyperliquid-eyes-55-price-rise-silicon-valley-investors-massive-hype-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3936,
-        "score": 1.0
+        "title": "Japan's economy grows at annualized 2.1% rate in first quarter, beating expectations",
+        "url": "https://www.cnbc.com/2026/05/19/japan-first-quarter-gdp-economy-inflation-energy.html",
+        "source": "CNBC Markets",
+        "weight": 0.7455,
+        "score": 0.6667
+      },
+      {
+        "title": "Google I/O primer: Alphabet's AI showcase is its chance to wow Wall Street",
+        "url": "https://www.cnbc.com/2026/05/18/google-i-o-alphabet-ai-wall-street.html",
+        "source": "CNBC Markets",
+        "weight": 0.5566,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Swan Bitcoin Hit With Nearly $1 Billion Lawsuit Over Prime Trust Collapse",
-        "url": "https://decrypt.co/368244/swan-bitcoin-nearly-1-billion-lawsuit-prime-trust-collapse",
-        "source": "Decrypt",
-        "weight": 0.7143,
-        "score": -1.0
-      },
-      {
-        "title": "Trump pivots to midterms, affordability after China summit as Iran war persists",
-        "url": "https://www.cnbc.com/2026/05/18/trump-hegseth-economy-2026-election-midterms-iran-china.html",
-        "source": "CNBC Markets",
-        "weight": 0.7467,
-        "score": -0.9333
-      },
-      {
-        "title": "US Regulators Poised to Reshape Secret Ratings Process for Banks",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-18/us-regulators-poised-to-reshape-secret-ratings-process-for-banks",
+        "title": "India Raises Fuel Prices Again as Iran War Squeezes Refiners",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/india-raises-fuel-prices-again-as-iran-war-squeezes-refiners",
         "source": "Bloomberg Markets",
-        "weight": 0.6417,
+        "weight": 0.6837,
         "score": -0.9667
+      },
+      {
+        "title": "Iron Ore Falls to Two-Week Low on China Steel Demand Concerns",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/iron-ore-falls-to-two-week-low-on-china-steel-demand-concerns",
+        "source": "Bloomberg Markets",
+        "weight": 0.7036,
+        "score": -0.6667
+      },
+      {
+        "title": "Asian shares trade mixed and Kospi falls nearly 4% as oil prices keep swinging",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-trade-mixed-kospi-031957855.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7227,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3982708091837488,
-          "price_change_24h": -0.02081
+          "volume_mcap_ratio": 0.3548346035440423,
+          "price_change_24h": -0.02193
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3468853757667634,
-          "price_change_24h": -0.00914
+          "volume_mcap_ratio": 0.32669442358186895,
+          "price_change_24h": -0.08475
         }
       ],
       "momentum_shifts": []
