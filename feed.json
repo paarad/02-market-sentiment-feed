@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-19T21:26:11.824915+00:00",
+  "updated_at": "2026-05-20T04:13:23.071278+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.095,
-    "fearGreed": 25,
-    "momentum": 0.0,
+    "change24h": -0.013,
+    "vol": 0.081,
+    "fearGreed": 27,
+    "momentum": -0.234,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3759,
-    "global_sentiment": 0.3704,
-    "combined_sentiment": 0.3962,
-    "confidence": 0.7776,
+    "crypto_sentiment": 0.4062,
+    "global_sentiment": 0.4933,
+    "combined_sentiment": 0.4291,
+    "confidence": 0.7139,
     "counts": {
-      "crypto": 51,
-      "global": 47
+      "crypto": 52,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 76970,
-      "btc_change_24h": 0.0,
-      "eth_price": 2117.33,
-      "eth_change_24h": -0.44,
+      "btc_price": 76702,
+      "btc_change_24h": -0.18,
+      "eth_price": 2110.74,
+      "eth_change_24h": -1.1,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 25,
-        "classification": "Extreme Fear",
+        "value": 27,
+        "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 117964228718.0,
+        "volume_24h": 111995679078.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.71,
+        "btc_dominance": 59.69,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-05T14:13:00.726731+00:00",
-      "crypto": 0.6046,
-      "global": 0.4345,
-      "combined": 0.573,
-      "counts": {
-        "crypto": 60,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-05-05T17:43:10.032941+00:00",
       "crypto": 0.5913,
@@ -1008,53 +998,63 @@
         "crypto": 51,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-05-20T04:13:23.071278+00:00",
+      "crypto": 0.4062,
+      "global": 0.4933,
+      "combined": 0.4291,
+      "counts": {
+        "crypto": 52,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "US Equity Indexes Slide as Treasury Yields Surge Amid Trump's Warning to Iran in Event of No Peace Deal",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-slide-treasury-195707991.html?.tsrc=rss",
+        "title": "Tel Aviv Stock Exchange Ltd (TVAVF) Q1 2026 Earnings Call Highlights: Record Revenue and ...",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tel-aviv-stock-exchange-ltd-010029547.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6739,
+        "weight": 0.5518,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin Miners Emerge as Unlikely Power Brokers in AI Infrastructure Race, Says Bernstein",
-        "url": "https://decrypt.co/368381/bitcoin-miners-unlikely-power-brokers-ai-infrastructure-race-bernstein",
-        "source": "Decrypt",
-        "weight": 0.6867,
-        "score": 0.5333
+        "title": "Singapore inks AI deals with Google, OpenAI as ChatGPT-maker commits $234 million to local ecosystem",
+        "url": "https://www.cnbc.com/2026/05/20/singapore-google-openai-ai-partnerships-lab-investment-chatgpt-ai-agents-atxsummit-mddi.html",
+        "source": "CNBC Markets",
+        "weight": 0.7374,
+        "score": 0.5833
       },
       {
-        "title": "Senator Warren questions OCC chief on approval of ‘ineligible’ crypto trust charters",
-        "url": "https://cointelegraph.com/news/elizabeth-warren-seeks-occ-communications-crypto-trust-charters-eyeing-trump-links?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5039,
-        "score": 0.5833
+        "title": "Searchlight Capital Exits Uniti Group Stake, According to Recent SEC Filing",
+        "url": "https://www.fool.com/coverage/filings/2026/05/19/searchlight-capital-exits-uniti-group-stake-according-to-recent-sec-filing/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6297,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Trump's past tax returns get protection from IRS enforcement under 'lawfare' fund settlement",
-        "url": "https://www.cnbc.com/2026/05/19/trump-taxes-irs-doj-fund.html",
-        "source": "CNBC Markets",
-        "weight": 0.7618,
-        "score": -0.9
+        "title": "Industrial Metals Slide as Inflation Fears Fuel Bearish Mood",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/industrial-metals-slide-as-inflation-fears-fuel-bearish-mood",
+        "source": "Bloomberg Markets",
+        "weight": 0.765,
+        "score": -1.0
       },
       {
-        "title": "S&P 500 Falls While Bond Yields Rise. It's an Ugly Combo.",
-        "url": "https://finance.yahoo.com/m/f009b8e6-2dbb-36bf-beb8-1b4987f42473/s%26p-500-falls-while-bond.html?.tsrc=rss",
+        "title": "Asia stocks slide on inflation fears as yields surge",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-slide-inflation-fears-025900589.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6823,
-        "score": -0.9667
+        "weight": 0.6933,
+        "score": -0.6667
       },
       {
-        "title": "The Upside of Nvidia’s 3-Day Losing Streak",
-        "url": "https://finance.yahoo.com/m/782c315c-43f5-3ae3-9cdc-c0a095f7b4d7/the-upside-of-nvidia%E2%80%99s-3-day.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6584,
-        "score": -0.9667
+        "title": "BofA Sees Three Catalysts That Could Turn It Bullish on Yen",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-20/bofa-sees-three-catalysts-that-could-turn-it-bullish-on-yen",
+        "source": "Bloomberg Markets",
+        "weight": 0.6996,
+        "score": -0.6333
       }
     ],
     "market_movers": {
