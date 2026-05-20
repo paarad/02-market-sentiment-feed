@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-20T04:13:23.071278+00:00",
+  "updated_at": "2026-05-20T11:13:07.339980+00:00",
   "indicators": {
-    "change24h": -0.013,
-    "vol": 0.081,
+    "change24h": 0.009,
+    "vol": 0.085,
     "fearGreed": 27,
-    "momentum": -0.234,
-    "regime": "bear",
+    "momentum": 0.15,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4062,
-    "global_sentiment": 0.4933,
-    "combined_sentiment": 0.4291,
-    "confidence": 0.7139,
+    "crypto_sentiment": 0.4075,
+    "global_sentiment": 0.5236,
+    "combined_sentiment": 0.4326,
+    "confidence": 0.7204,
     "counts": {
-      "crypto": 52,
-      "global": 45
+      "crypto": 51,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 76702,
-      "btc_change_24h": -0.18,
-      "eth_price": 2110.74,
-      "eth_change_24h": -1.1,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 77449,
+      "btc_change_24h": 0.68,
+      "eth_price": 2128.86,
+      "eth_change_24h": 0.58,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 111995679078.0,
+        "volume_24h": 109235365404.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.69,
+        "btc_dominance": 59.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-05T17:43:10.032941+00:00",
-      "crypto": 0.5913,
-      "global": 0.5707,
-      "combined": 0.5743,
-      "counts": {
-        "crypto": 54,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-05-05T20:44:21.370566+00:00",
       "crypto": 0.495,
@@ -1008,53 +998,63 @@
         "crypto": 52,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-20T11:13:07.339980+00:00",
+      "crypto": 0.4075,
+      "global": 0.5236,
+      "combined": 0.4326,
+      "counts": {
+        "crypto": 51,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tel Aviv Stock Exchange Ltd (TVAVF) Q1 2026 Earnings Call Highlights: Record Revenue and ...",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tel-aviv-stock-exchange-ltd-010029547.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5518,
-        "score": 0.8667
+        "title": "Xi Steps Up Call to End Iran War, SpaceX’s Mega-IPO Bank Lineup | The Opening Trade 5/20/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-20/the-opening-trade-5-20-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6862,
+        "score": 0.9667
       },
       {
-        "title": "Singapore inks AI deals with Google, OpenAI as ChatGPT-maker commits $234 million to local ecosystem",
-        "url": "https://www.cnbc.com/2026/05/20/singapore-google-openai-ai-partnerships-lab-investment-chatgpt-ai-agents-atxsummit-mddi.html",
-        "source": "CNBC Markets",
-        "weight": 0.7374,
-        "score": 0.5833
+        "title": "OpenAI launches overseas AI lab in Singapore with $234M commitment",
+        "url": "https://cointelegraph.com/news/openai-launches-overseas-ai-lab-singapore-234m-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6387,
+        "score": 0.9167
       },
       {
-        "title": "Searchlight Capital Exits Uniti Group Stake, According to Recent SEC Filing",
-        "url": "https://www.fool.com/coverage/filings/2026/05/19/searchlight-capital-exits-uniti-group-stake-according-to-recent-sec-filing/?.tsrc=rss",
+        "title": "These Stocks Are Today’s Movers: Micron, Intel, Lowe’s, Nvidia, Cava, and More",
+        "url": "https://finance.yahoo.com/m/186e861b-3dde-3ee2-9264-a51c054b2236/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6297,
+        "weight": 0.7153,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Industrial Metals Slide as Inflation Fears Fuel Bearish Mood",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/industrial-metals-slide-as-inflation-fears-fuel-bearish-mood",
-        "source": "Bloomberg Markets",
-        "weight": 0.765,
-        "score": -1.0
+        "title": "Target beats Wall Street estimates, hikes sales outlook as shoppers start to return",
+        "url": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html",
+        "source": "CNBC Markets",
+        "weight": 0.7967,
+        "score": -0.9333
       },
       {
-        "title": "Asia stocks slide on inflation fears as yields surge",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-slide-inflation-fears-025900589.html?.tsrc=rss",
+        "title": "U.S. futures steady as investors monitor Iran conflict and await Nvidia results: Dow Jones, S&P, Nasdaq, Wall Street",
+        "url": "https://investorshub.advfn.com/market-news/article/28693/u-s-futures-steady-as-investors-monitor-iran-conflict-and-await-nvidia-results-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6933,
-        "score": -0.6667
+        "weight": 0.6986,
+        "score": -0.9667
       },
       {
-        "title": "BofA Sees Three Catalysts That Could Turn It Bullish on Yen",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/bofa-sees-three-catalysts-that-could-turn-it-bullish-on-yen",
-        "source": "Bloomberg Markets",
-        "weight": 0.6996,
-        "score": -0.6333
+        "title": "Non-dollar stablecoins are struggling to crack 0.5% of market share",
+        "url": "https://www.coindesk.com/markets/2026/05/20/non-dollar-stablecoins-are-struggling-to-crack-0-5-of-market-share",
+        "source": "CoinDesk",
+        "weight": 0.5617,
+        "score": -0.9333
       }
     ],
     "market_movers": {
