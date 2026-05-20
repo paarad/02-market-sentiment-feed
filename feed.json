@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-20T11:13:07.339980+00:00",
+  "updated_at": "2026-05-20T15:41:36.236542+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.085,
+    "change24h": 0.035,
+    "vol": 0.188,
     "fearGreed": 27,
-    "momentum": 0.15,
+    "momentum": 0.605,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4075,
-    "global_sentiment": 0.5236,
-    "combined_sentiment": 0.4326,
-    "confidence": 0.7204,
+    "crypto_sentiment": 0.3836,
+    "global_sentiment": 0.5277,
+    "combined_sentiment": 0.415,
+    "confidence": 0.7832,
     "counts": {
-      "crypto": 51,
-      "global": 43
+      "crypto": 68,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 77449,
-      "btc_change_24h": 0.68,
-      "eth_price": 2128.86,
-      "eth_change_24h": 0.58,
+      "btc_price": 77410,
+      "btc_change_24h": 1.3,
+      "eth_price": 2133.21,
+      "eth_change_24h": 1.19,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "regime_strength": 1.0,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 27,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109235365404.0,
+        "volume_24h": 114589146381.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.8,
+        "btc_dominance": 59.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-05T20:44:21.370566+00:00",
-      "crypto": 0.495,
-      "global": 0.4496,
-      "combined": 0.492,
-      "counts": {
-        "crypto": 73,
-        "global": 54
-      }
-    },
     {
       "ts": "2026-05-05T21:08:51.406914+00:00",
       "crypto": 0.4956,
@@ -1008,52 +998,62 @@
         "crypto": 51,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-20T15:41:36.236542+00:00",
+      "crypto": 0.3836,
+      "global": 0.5277,
+      "combined": 0.415,
+      "counts": {
+        "crypto": 68,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Xi Steps Up Call to End Iran War, SpaceX’s Mega-IPO Bank Lineup | The Opening Trade 5/20/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-20/the-opening-trade-5-20-2026-video",
+        "title": "Target Delivers Biggest Sales Gain in Four Years",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-20/target-delivers-biggest-sales-gain-in-four-years-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6862,
-        "score": 0.9667
+        "weight": 0.5533,
+        "score": 1.0
       },
       {
-        "title": "OpenAI launches overseas AI lab in Singapore with $234M commitment",
-        "url": "https://cointelegraph.com/news/openai-launches-overseas-ai-lab-singapore-234m-commitment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Fireblocks launches agentic payment support, joins x402 Foundation",
+        "url": "https://cointelegraph.com/news/fireblocks-launches-agent-payment-support-for-ai-agents?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6387,
-        "score": 0.9167
+        "weight": 0.6579,
+        "score": 0.6667
       },
       {
-        "title": "These Stocks Are Today’s Movers: Micron, Intel, Lowe’s, Nvidia, Cava, and More",
-        "url": "https://finance.yahoo.com/m/186e861b-3dde-3ee2-9264-a51c054b2236/these-stocks-are-today%E2%80%99s.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7153,
-        "score": 0.6667
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Ethereum traders warn of a ‘nasty’ ETH price drop if $2K support breaks",
+        "url": "https://cointelegraph.com/markets/ethereum-traders-warn-of-a-nasty-eth-price-drop-if-2k-breaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8708,
+        "score": -1.0
+      },
+      {
+        "title": "Eli Lilly accuses church bishops, businessmen of fraud in Trulicity drug rebate scheme",
+        "url": "https://www.cnbc.com/2026/05/20/eli-lilly-lawsuit-rebate-fraud-pentecostal-church-leaders.html",
+        "source": "CNBC Markets",
+        "weight": 0.7357,
+        "score": -1.0
+      },
+      {
         "title": "Target beats Wall Street estimates, hikes sales outlook as shoppers start to return",
         "url": "https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html",
         "source": "CNBC Markets",
-        "weight": 0.7967,
-        "score": -0.9333
-      },
-      {
-        "title": "U.S. futures steady as investors monitor Iran conflict and await Nvidia results: Dow Jones, S&P, Nasdaq, Wall Street",
-        "url": "https://investorshub.advfn.com/market-news/article/28693/u-s-futures-steady-as-investors-monitor-iran-conflict-and-await-nvidia-results-dow-jones-sp-nasdaq-wall-street?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6986,
-        "score": -0.9667
-      },
-      {
-        "title": "Non-dollar stablecoins are struggling to crack 0.5% of market share",
-        "url": "https://www.coindesk.com/markets/2026/05/20/non-dollar-stablecoins-are-struggling-to-crack-0-5-of-market-share",
-        "source": "CoinDesk",
-        "weight": 0.5617,
+        "weight": 0.6739,
         "score": -0.9333
       }
     ],
