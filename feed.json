@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-21T15:42:45.064682+00:00",
+  "updated_at": "2026-05-21T18:05:23.424712+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.291,
+    "change24h": 0.033,
+    "vol": 0.202,
     "fearGreed": 29,
-    "momentum": 0.531,
+    "momentum": 0.574,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3811,
-    "global_sentiment": 0.5675,
-    "combined_sentiment": 0.4164,
-    "confidence": 0.8179,
+    "crypto_sentiment": 0.4008,
+    "global_sentiment": 0.4978,
+    "combined_sentiment": 0.4254,
+    "confidence": 0.8163,
     "counts": {
       "crypto": 63,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 77116,
-      "btc_change_24h": -0.32,
-      "eth_price": 2128.19,
-      "eth_change_24h": -0.22,
+      "btc_price": 77720,
+      "btc_change_24h": 0.32,
+      "eth_price": 2143.08,
+      "eth_change_24h": 0.25,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122528331197.0,
+        "volume_24h": 126181624170.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.52,
+        "btc_dominance": 59.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-06T20:58:21.440287+00:00",
-      "crypto": 0.4135,
-      "global": 0.4992,
-      "combined": 0.435,
-      "counts": {
-        "crypto": 50,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-05-06T21:16:28.500912+00:00",
       "crypto": 0.4068,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-21T18:05:23.424712+00:00",
+      "crypto": 0.4008,
+      "global": 0.4978,
+      "combined": 0.4254,
+      "counts": {
+        "crypto": 63,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Rhode Fuels Elf Surge",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-21/rhode-fuels-elf-surge-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7874,
+        "title": "Kraken moves closer to UAE launch after Dubai regulatory approval",
+        "url": "https://cointelegraph.com/news/kraken-uae-vara-approval-ahead-of-full-region-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.476,
         "score": 1.0
       },
       {
-        "title": "Walmart Reports Solid Sales Growth; Deere Gets Construction Boost | Stock Movers",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-21/walmart-reports-sales-growth-deere-s-construction-boost-video",
+        "title": "Stellantis Plots $70 Billion Turnaround on Brand Reset",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-21/stellantis-plots-70-billion-turnaround-on-brand-reset",
         "source": "Bloomberg Markets",
-        "weight": 0.7483,
-        "score": 1.0
+        "weight": 0.7154,
+        "score": 0.6
       },
       {
-        "title": "Jet Fuel’s War Surge Vindicates Airlines Who Stuck With Hedging",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-21/jet-fuel-s-war-surge-vindicates-airlines-who-stuck-with-hedging",
-        "source": "Bloomberg Markets",
-        "weight": 0.7267,
-        "score": 1.0
+        "title": "Bitcoin due '5%+' move as analysis stays bullish on BTC price outlook",
+        "url": "https://cointelegraph.com/markets/bitcoin-due-5-move-as-analysis-stays-bullish-on-btc-price-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7401,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Gold Declines as Traders Weigh Rate Path After US-Iran Standoff",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-21/gold-declines-as-traders-weigh-rate-path-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7733,
+        "score": -1.0
+      },
+      {
         "title": "Crypto prediction markets are turning into dangerous national security risks, and Congress wants to ban them",
         "url": "https://www.coindesk.com/business/2026/05/21/crypto-prediction-markets-are-turning-into-dangerous-national-security-risks-and-congress-wants-to-ban-them",
         "source": "CoinDesk",
-        "weight": 0.9924,
+        "weight": 0.7541,
         "score": -1.0
       },
       {
         "title": "Why DeFi Keeps Losing Millions to Exploits",
         "url": "https://decrypt.co/368591/why-defi-keeps-losing-millions-to-exploits",
         "source": "Decrypt",
-        "weight": 0.6989,
+        "weight": 0.531,
         "score": -1.0
-      },
-      {
-        "title": "Walmart Stock Falls As Dow Giant Guides Low Amid High Gas Prices",
-        "url": "https://finance.yahoo.com/m/346302b0-49a9-3fa4-9112-2d36282d5c1c/walmart-stock-falls-as-dow.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7212,
-        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.463926067713161,
-          "price_change_24h": 0.03216
+          "volume_mcap_ratio": 0.46044036433350316,
+          "price_change_24h": -0.01813
         }
       ],
       "momentum_shifts": []
