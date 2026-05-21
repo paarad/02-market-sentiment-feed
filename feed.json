@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-20T22:00:51.971350+00:00",
+  "updated_at": "2026-05-21T04:21:56.885149+00:00",
   "indicators": {
-    "change24h": 0.046,
-    "vol": 0.275,
-    "fearGreed": 27,
-    "momentum": 0.813,
+    "change24h": 0.064,
+    "vol": 0.307,
+    "fearGreed": 29,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3856,
-    "global_sentiment": 0.4218,
-    "combined_sentiment": 0.4077,
-    "confidence": 0.7865,
+    "crypto_sentiment": 0.4131,
+    "global_sentiment": 0.4266,
+    "combined_sentiment": 0.4287,
+    "confidence": 0.741,
     "counts": {
       "crypto": 58,
-      "global": 43
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 77449,
-      "btc_change_24h": 0.9,
-      "eth_price": 2129.37,
-      "eth_change_24h": 0.93,
+      "btc_price": 77909,
+      "btc_change_24h": 1.53,
+      "eth_price": 2142.89,
+      "eth_change_24h": 1.47,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.95,
       "fear_greed": {
-        "value": 27,
+        "value": 29,
         "classification": "Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 119457173685.0,
+        "volume_24h": 122790170189.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-06T10:24:10.272158+00:00",
-      "crypto": 0.4686,
-      "global": 0.4542,
-      "combined": 0.4726,
-      "counts": {
-        "crypto": 71,
-        "global": 52
-      }
-    },
     {
       "ts": "2026-05-06T14:32:24.679140+00:00",
       "crypto": 0.4673,
@@ -1008,61 +998,71 @@
         "crypto": 58,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-21T04:21:56.885149+00:00",
+      "crypto": 0.4131,
+      "global": 0.4266,
+      "combined": 0.4287,
+      "counts": {
+        "crypto": 58,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Emerging markets could soar this year, says CIO",
-        "url": "https://finance.yahoo.com/video/emerging-markets-could-soar-says-204141643.html?.tsrc=rss",
+        "title": "Global crypto market cap up 1.6% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Why Micron Stock Jumped Today",
+        "url": "https://www.fool.com/investing/2026/05/20/why-micron-stock-jumped-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6869,
+        "weight": 0.4256,
         "score": 0.8667
       },
       {
-        "title": "Dyne Therapeutics Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/dyne-therapeutics-reports-inducement-grants-213000814.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7538,
-        "score": 0.6333
-      },
-      {
-        "title": "SpaceX Files for IPO on Nasdaq Under SPCX Symbol",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-20/spacex-files-for-ipo-on-nasdaq-under-spcx-symbol-video",
+        "title": "SpaceX IPO Turns Nvidia Into a sNoozefest",
+        "url": "https://www.bloomberg.com/opinion/newsletters/2026-05-21/spacex-ipo-turns-nvidia-into-a-snoozefest",
         "source": "Bloomberg Markets",
-        "weight": 0.7251,
-        "score": 0.6333
+        "weight": 0.7874,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Moody’s Cuts Mexico Credit Rating to One Notch Above Junk",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-20/moody-s-cuts-mexico-credit-rating-as-fiscal-pressures-mount",
-        "source": "Bloomberg Markets",
-        "weight": 0.6902,
-        "score": -0.9667
-      },
-      {
-        "title": "US Treasury Sanctions Sinaloa Cartel Over Crypto-Fueled Fentanyl Trafficking",
-        "url": "https://decrypt.co/368532/us-treasury-sanctions-sinaloa-cartel-crypto-fueled-fentanyl-trafficking",
-        "source": "Decrypt",
-        "weight": 0.6663,
-        "score": -0.9333
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Late Afternoon",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-afternoon-200327133.html?.tsrc=rss",
+        "title": "1 Software Stock Worth Your Attention and 2 We Find Risky",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/1-software-stock-worth-attention-033255142.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6381,
-        "score": -0.9667
+        "weight": 0.7279,
+        "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 29 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Mamdani fires back at Bezos over Queens teacher tax remark",
+        "url": "https://www.cnbc.com/2026/05/20/bezos-mamdani-queens-income-tax-teachers-pay.html",
+        "source": "CNBC Markets",
+        "weight": 0.6171,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.33946963838581384,
-          "price_change_24h": 0.03357
+          "volume_mcap_ratio": 0.4677527766363071,
+          "price_change_24h": 0.02597
         }
       ],
       "momentum_shifts": []
