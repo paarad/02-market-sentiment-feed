@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-21T21:17:56.355109+00:00",
+  "updated_at": "2026-05-21T21:41:40.655936+00:00",
   "indicators": {
     "change24h": 0.021,
-    "vol": 0.169,
+    "vol": 0.166,
     "fearGreed": 29,
-    "momentum": 0.375,
+    "momentum": 0.368,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3669,
-    "global_sentiment": 0.4612,
-    "combined_sentiment": 0.397,
-    "confidence": 0.7989,
+    "crypto_sentiment": 0.3665,
+    "global_sentiment": 0.4857,
+    "combined_sentiment": 0.3987,
+    "confidence": 0.7939,
     "counts": {
-      "crypto": 72,
-      "global": 46
+      "crypto": 58,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 77696,
-      "btc_change_24h": 0.08,
-      "eth_price": 2136.42,
-      "eth_change_24h": 0.1,
+      "btc_price": 77668,
+      "btc_change_24h": 0.14,
+      "eth_price": 2135.35,
+      "eth_change_24h": 0.22,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 127923462487.0,
+        "volume_24h": 127081764688.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.58,
+        "btc_dominance": 59.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-07T03:48:55.010516+00:00",
-      "crypto": 0.4111,
-      "global": 0.481,
-      "combined": 0.4317,
-      "counts": {
-        "crypto": 46,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-05-07T06:44:11.629605+00:00",
       "crypto": 0.4184,
@@ -1008,29 +998,39 @@
         "crypto": 72,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-21T21:41:40.655936+00:00",
+      "crypto": 0.3665,
+      "global": 0.4857,
+      "combined": 0.3987,
+      "counts": {
+        "crypto": 58,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Mortgage Rates Hit Highest Since August as War Fans Inflation",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-21/mortgage-rates-hit-highest-since-august-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5662,
-        "score": 0.8667
-      },
-      {
-        "title": "Are investors more concerned with Iran than Nvidia's Q1 earnings?",
-        "url": "https://finance.yahoo.com/video/are-investors-more-concerned-with-iran-than-nvidias-q1-earnings-193135672.html?.tsrc=rss",
+        "title": "Zillow Stock Is Lagging Behind. A Fight Between Real Estate Companies Over Home Listings Isn’t Helping.",
+        "url": "https://finance.yahoo.com/m/77803c80-e1f0-3045-ab45-d56b8e90ef5c/zillow-stock-is-lagging.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6519,
-        "score": 0.6667
+        "weight": 0.7326,
+        "score": 0.9667
       },
       {
-        "title": "Has the NYC Ferry Righted the Ship?",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-21/has-the-nyc-ferry-righted-the-ship",
+        "title": "IBM Pushes Dow to First Record Since February",
+        "url": "https://finance.yahoo.com/m/683e2084-5d53-3de0-82e8-359782f1bbc8/ibm-pushes-dow-to-first.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6682,
+        "score": 1.0
+      },
+      {
+        "title": "What to Know About the SpaceX IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-21/spacex-ipo-ai-plans-starlink-growth-and-risks",
         "source": "Bloomberg Markets",
-        "weight": 0.6135,
+        "weight": 0.7874,
         "score": 0.6667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Miner Perpetua Resources secures $2.9 billion U.S. loan for Idaho gold, antimony project",
         "url": "https://www.cnbc.com/2026/05/21/miner-perpetua-resources-secures-2point9-billion-us-loan-for-idaho-gold-antimony-project.html",
         "source": "CNBC Markets",
-        "weight": 0.7002,
+        "weight": 0.6689,
         "score": -0.9667
       },
       {
         "title": "Walmart Stock Falls As Dow Giant Guides Low Amid High Gas Prices",
         "url": "https://finance.yahoo.com/m/346302b0-49a9-3fa4-9112-2d36282d5c1c/walmart-stock-falls-as-dow.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7127,
+        "weight": 0.6809,
         "score": -0.9333
       },
       {
         "title": "Inflation Fears Weigh On Economic Data, Gold Declines | Bloomberg Markets 5/21/2026",
         "url": "https://www.bloomberg.com/news/videos/2026-05-21/bloomberg-markets-5-21-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5702,
+        "weight": 0.5447,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.44757052232489797,
-          "price_change_24h": 0.00927
+          "volume_mcap_ratio": 0.45022105828059883,
+          "price_change_24h": 0.01765
         }
       ],
       "momentum_shifts": []
