@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-21T18:05:23.424712+00:00",
+  "updated_at": "2026-05-21T21:17:56.355109+00:00",
   "indicators": {
-    "change24h": 0.033,
-    "vol": 0.202,
+    "change24h": 0.021,
+    "vol": 0.169,
     "fearGreed": 29,
-    "momentum": 0.574,
+    "momentum": 0.375,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4008,
-    "global_sentiment": 0.4978,
-    "combined_sentiment": 0.4254,
-    "confidence": 0.8163,
+    "crypto_sentiment": 0.3669,
+    "global_sentiment": 0.4612,
+    "combined_sentiment": 0.397,
+    "confidence": 0.7989,
     "counts": {
-      "crypto": 63,
+      "crypto": 72,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 77720,
-      "btc_change_24h": 0.32,
-      "eth_price": 2143.08,
-      "eth_change_24h": 0.25,
+      "btc_price": 77696,
+      "btc_change_24h": 0.08,
+      "eth_price": 2136.42,
+      "eth_change_24h": 0.1,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.9,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126181624170.0,
+        "volume_24h": 127923462487.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.59,
+        "btc_dominance": 59.58,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-06T21:16:28.500912+00:00",
-      "crypto": 0.4068,
-      "global": 0.5032,
-      "combined": 0.4304,
-      "counts": {
-        "crypto": 62,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-05-07T03:48:55.010516+00:00",
       "crypto": 0.4111,
@@ -1008,61 +998,71 @@
         "crypto": 63,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-21T21:17:56.355109+00:00",
+      "crypto": 0.3669,
+      "global": 0.4612,
+      "combined": 0.397,
+      "counts": {
+        "crypto": 72,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Kraken moves closer to UAE launch after Dubai regulatory approval",
-        "url": "https://cointelegraph.com/news/kraken-uae-vara-approval-ahead-of-full-region-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.476,
-        "score": 1.0
-      },
-      {
-        "title": "Stellantis Plots $70 Billion Turnaround on Brand Reset",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-21/stellantis-plots-70-billion-turnaround-on-brand-reset",
+        "title": "Mortgage Rates Hit Highest Since August as War Fans Inflation",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-21/mortgage-rates-hit-highest-since-august-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7154,
-        "score": 0.6
+        "weight": 0.5662,
+        "score": 0.8667
       },
       {
-        "title": "Bitcoin due '5%+' move as analysis stays bullish on BTC price outlook",
-        "url": "https://cointelegraph.com/markets/bitcoin-due-5-move-as-analysis-stays-bullish-on-btc-price-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7401,
-        "score": 0.5333
+        "title": "Are investors more concerned with Iran than Nvidia's Q1 earnings?",
+        "url": "https://finance.yahoo.com/video/are-investors-more-concerned-with-iran-than-nvidias-q1-earnings-193135672.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6519,
+        "score": 0.6667
+      },
+      {
+        "title": "Has the NYC Ferry Righted the Ship?",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-21/has-the-nyc-ferry-righted-the-ship",
+        "source": "Bloomberg Markets",
+        "weight": 0.6135,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Gold Declines as Traders Weigh Rate Path After US-Iran Standoff",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-21/gold-declines-as-traders-weigh-rate-path-video",
+        "title": "Miner Perpetua Resources secures $2.9 billion U.S. loan for Idaho gold, antimony project",
+        "url": "https://www.cnbc.com/2026/05/21/miner-perpetua-resources-secures-2point9-billion-us-loan-for-idaho-gold-antimony-project.html",
+        "source": "CNBC Markets",
+        "weight": 0.7002,
+        "score": -0.9667
+      },
+      {
+        "title": "Walmart Stock Falls As Dow Giant Guides Low Amid High Gas Prices",
+        "url": "https://finance.yahoo.com/m/346302b0-49a9-3fa4-9112-2d36282d5c1c/walmart-stock-falls-as-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7127,
+        "score": -0.9333
+      },
+      {
+        "title": "Inflation Fears Weigh On Economic Data, Gold Declines | Bloomberg Markets 5/21/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-21/bloomberg-markets-5-21-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7733,
-        "score": -1.0
-      },
-      {
-        "title": "Crypto prediction markets are turning into dangerous national security risks, and Congress wants to ban them",
-        "url": "https://www.coindesk.com/business/2026/05/21/crypto-prediction-markets-are-turning-into-dangerous-national-security-risks-and-congress-wants-to-ban-them",
-        "source": "CoinDesk",
-        "weight": 0.7541,
-        "score": -1.0
-      },
-      {
-        "title": "Why DeFi Keeps Losing Millions to Exploits",
-        "url": "https://decrypt.co/368591/why-defi-keeps-losing-millions-to-exploits",
-        "source": "Decrypt",
-        "weight": 0.531,
-        "score": -1.0
+        "weight": 0.5702,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.46044036433350316,
-          "price_change_24h": -0.01813
+          "volume_mcap_ratio": 0.44757052232489797,
+          "price_change_24h": 0.00927
         }
       ],
       "momentum_shifts": []
