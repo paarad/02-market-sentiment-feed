@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-22T04:17:01.284701+00:00",
+  "updated_at": "2026-05-22T10:56:15.470830+00:00",
   "indicators": {
-    "change24h": -0.005,
-    "vol": 0.116,
+    "change24h": 0.006,
+    "vol": 0.097,
     "fearGreed": 28,
-    "momentum": -0.095,
+    "momentum": 0.101,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.405,
-    "global_sentiment": 0.5316,
-    "combined_sentiment": 0.4314,
-    "confidence": 0.7104,
+    "crypto_sentiment": 0.3497,
+    "global_sentiment": 0.5396,
+    "combined_sentiment": 0.3906,
+    "confidence": 0.7801,
     "counts": {
-      "crypto": 73,
-      "global": 41
+      "crypto": 62,
+      "global": 54
     },
     "market_indicators": {
-      "btc_price": 77799,
-      "btc_change_24h": -0.15,
-      "eth_price": 2138.35,
-      "eth_change_24h": -0.22,
+      "btc_price": 77215,
+      "btc_change_24h": 0.07,
+      "eth_price": 2120.82,
+      "eth_change_24h": 0.39,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118349360454.0,
+        "volume_24h": 114363084545.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.62,
+        "btc_dominance": 59.59,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-07T10:30:50.834365+00:00",
-      "crypto": 0.3761,
-      "global": 0.6107,
-      "combined": 0.4163,
-      "counts": {
-        "crypto": 46,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-05-07T14:34:12.947311+00:00",
       "crypto": 0.4876,
@@ -1008,61 +998,71 @@
         "crypto": 73,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-22T10:56:15.470830+00:00",
+      "crypto": 0.3497,
+      "global": 0.5396,
+      "combined": 0.3906,
+      "counts": {
+        "crypto": 62,
+        "global": 54
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX scrubs test flight of massive Starship rocket, will retry Friday",
-        "url": "https://www.cnbc.com/2026/05/21/spacex-plans-12th-test-flight-of-massive-starship-rocket-as-ipo-looms.html",
-        "source": "CNBC Markets",
-        "weight": 0.481,
-        "score": 1.0
-      },
-      {
-        "title": "Guzman y Gomez shares surge as much as 20% after fast-food chain says it will exit U.S. market",
-        "url": "https://www.cnbc.com/2026/05/22/guzman-y-gomez-us-exit-australia-focus.html",
-        "source": "CNBC Markets",
-        "weight": 0.6113,
+        "title": "Ark Invest buys $12.5 million of Bullish stock in four days",
+        "url": "https://www.coindesk.com/markets/2026/05/22/ark-invest-buys-usd12-5-million-of-bullish-stock-in-four-days",
+        "source": "CoinDesk",
+        "weight": 0.9795,
         "score": 0.5333
       },
       {
-        "title": "Ross Raises Forecasts Amid Sales Surge, Record Same-Store Growth",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-21/ross-raises-forecasts-amid-sales-surge-record-same-store-growth",
+        "title": "OHB and KNDS Weigh Tweaks to Share Sale Timetables to Avoid SpaceX",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/ohb-knds-weigh-tweaks-to-share-sale-timetables-to-avoid-spacex",
         "source": "Bloomberg Markets",
-        "weight": 0.4515,
+        "weight": 0.7752,
         "score": 0.6667
+      },
+      {
+        "title": "Bitcoin price record 90-day uptrend 'resembles bull market rally:' New analysis",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-record-90-day-uptrend-resembles-bull-market-rally-new-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5836,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Miner Perpetua Resources secures $2.9 billion U.S. loan for Idaho gold, antimony project",
-        "url": "https://www.cnbc.com/2026/05/21/miner-perpetua-resources-secures-2point9-billion-us-loan-for-idaho-gold-antimony-project.html",
-        "source": "CNBC Markets",
-        "weight": 0.4854,
-        "score": -0.9667
+        "title": "ZachXBT flags $520K Polymarket exploit on Polygon, team says funds are safe",
+        "url": "https://www.coindesk.com/markets/2026/05/22/zachxbt-flags-usd520k-polymarket-exploit-on-polygon-team-says-funds-are-safe",
+        "source": "CoinDesk",
+        "weight": 0.8633,
+        "score": -0.8333
       },
       {
-        "title": "SoftBank Group extends scorching rally with shares in OpenAI, Arm-backer surging over 11%",
-        "url": "https://www.cnbc.com/2026/05/22/softbank-extends-scorching-rally-surging-over-12percent-as-investors-crowd-into-ai-trade.html",
-        "source": "CNBC Markets",
-        "weight": 0.6978,
-        "score": -0.6333
+        "title": "Verus bridge exploiter returns $8.5M after bounty offer",
+        "url": "https://cointelegraph.com/news/verus-bridge-hacker-returns-85m-eth-28m-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6803,
+        "score": -1.0
       },
       {
-        "title": "Fear & Greed 28 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "China Restricts Chemical Exports to US in Fentanyl Crackdown",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/china-restricts-chemical-exports-to-us-in-fentanyl-crackdown",
+        "source": "Bloomberg Markets",
+        "weight": 0.5567,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.33960614424126095,
-          "price_change_24h": -0.02095
+          "symbol": "NEAR",
+          "volume_mcap_ratio": 0.35573408299234055,
+          "price_change_24h": 29.91518
         }
       ],
       "momentum_shifts": []
