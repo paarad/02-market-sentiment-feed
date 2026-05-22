@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-22T20:59:40.752144+00:00",
+  "updated_at": "2026-05-22T21:17:10.368171+00:00",
   "indicators": {
-    "change24h": -0.047,
-    "vol": 0.173,
+    "change24h": -0.045,
+    "vol": 0.165,
     "fearGreed": 28,
-    "momentum": -0.817,
+    "momentum": -0.783,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3851,
-    "global_sentiment": 0.4866,
-    "combined_sentiment": 0.4127,
-    "confidence": 0.7968,
+    "crypto_sentiment": 0.3804,
+    "global_sentiment": 0.4736,
+    "combined_sentiment": 0.4081,
+    "confidence": 0.8002,
     "counts": {
       "crypto": 54,
-      "global": 48
+      "global": 51
     },
     "market_indicators": {
-      "btc_price": 75887,
-      "btc_change_24h": -2.24,
-      "eth_price": 2070.78,
+      "btc_price": 75899,
+      "btc_change_24h": -2.32,
+      "eth_price": 2070.42,
       "eth_change_24h": -3.08,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 127484406129.0,
-        "high_activity_coins": 1
+        "volume_24h": 140613141588.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.57,
+        "btc_dominance": 59.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-07T21:10:05.971837+00:00",
-      "crypto": 0.4533,
-      "global": 0.3383,
-      "combined": 0.4515,
-      "counts": {
-        "crypto": 48,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-08T03:39:45.909476+00:00",
       "crypto": 0.3932,
@@ -1008,6 +998,16 @@
         "crypto": 54,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-05-22T21:17:10.368171+00:00",
+      "crypto": 0.3804,
+      "global": 0.4736,
+      "combined": 0.4081,
+      "counts": {
+        "crypto": 54,
+        "global": 51
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Stock Market Today: S&P 500, Nasdaq Score Weekly Wins As Dow Logs Record High",
         "url": "https://finance.yahoo.com/m/516024ad-d294-3dad-b22d-f5dd551580a2/stock-market-today%3A-s%26p-500%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7761,
+        "weight": 0.7504,
         "score": 0.6667
       },
       {
         "title": "NEAR protocol leads AI token rally with a 50% pump: Is $5 NEAR price next?",
         "url": "https://cointelegraph.com/markets/near-protocol-leads-ai-token-rally-with-a-50-pump-is-5-near-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5057,
+        "weight": 0.489,
         "score": 1.0
       },
       {
         "title": "Futu, Up Fintech Options Surged Before Crackdown Sparked Slump",
         "url": "https://www.bloomberg.com/news/articles/2026-05-22/futu-up-fintech-options-surged-before-crackdown-sparked-slump",
         "source": "Bloomberg Markets",
-        "weight": 0.5009,
+        "weight": 0.4843,
         "score": 1.0
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "New lawsuits against Trump's DOJ 'lawfare' fund",
         "url": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
         "source": "CNBC Markets",
-        "weight": 0.7945,
+        "weight": 0.7783,
         "score": -0.9
       },
       {
         "title": "SEC Delays Plan Allowing for Crypto Versions of US Stocks",
         "url": "https://www.bloomberg.com/news/articles/2026-05-22/sec-delays-plan-allowing-for-crypto-versions-of-us-stocks",
         "source": "Bloomberg Markets",
-        "weight": 0.6043,
+        "weight": 0.5842,
         "score": -0.9667
       },
       {
         "title": "SEC Delays Tokenized Stocks Innovation Exemption Amid Concerns: Bloomberg",
         "url": "https://decrypt.co/368855/sec-delays-tokenized-stocks-innovation-exemption-amid-concerns-bloomberg",
         "source": "Decrypt",
-        "weight": 0.8289,
+        "weight": 0.8014,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.47441509568852963,
-          "price_change_24h": 8.19228
+          "volume_mcap_ratio": 0.5590050485231571,
+          "price_change_24h": 7.75035
+        },
+        {
+          "symbol": "ONDO",
+          "volume_mcap_ratio": 0.4043643024926557,
+          "price_change_24h": -7.17672
         }
       ],
       "momentum_shifts": []
