@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-22T14:52:35.043794+00:00",
+  "updated_at": "2026-05-22T17:57:57.196870+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.101,
+    "change24h": -0.03,
+    "vol": 0.133,
     "fearGreed": 28,
-    "momentum": -0.107,
-    "regime": "sideways",
+    "momentum": -0.526,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3544,
-    "global_sentiment": 0.5087,
-    "combined_sentiment": 0.3915,
-    "confidence": 0.7927,
+    "crypto_sentiment": 0.3974,
+    "global_sentiment": 0.5382,
+    "combined_sentiment": 0.4262,
+    "confidence": 0.8054,
     "counts": {
-      "crypto": 74,
-      "global": 43
+      "crypto": 57,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 76709,
-      "btc_change_24h": -0.25,
-      "eth_price": 2116.22,
-      "eth_change_24h": -0.04,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 76705,
+      "btc_change_24h": -1.51,
+      "eth_price": 2118.28,
+      "eth_change_24h": -1.35,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 115211115483.0,
+        "volume_24h": 110113752556.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.48,
+        "btc_dominance": 59.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-07T17:54:02.852157+00:00",
-      "crypto": 0.4923,
-      "global": 0.5028,
-      "combined": 0.4945,
-      "counts": {
-        "crypto": 50,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-07T20:50:54.734859+00:00",
       "crypto": 0.4581,
@@ -1008,52 +998,62 @@
         "crypto": 74,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-22T17:57:57.196870+00:00",
+      "crypto": 0.3974,
+      "global": 0.5382,
+      "combined": 0.4262,
+      "counts": {
+        "crypto": 57,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Financial, Tech Stocks Propel Canadian Benchmark to Record",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/financial-tech-stocks-propel-canadian-benchmark-to-record",
-        "source": "Bloomberg Markets",
-        "weight": 0.7319,
-        "score": 0.6667
+        "title": "NEAR protocol leads AI token rally with a 50% pump: Is $5 NEAR price next?",
+        "url": "https://cointelegraph.com/markets/near-protocol-leads-ai-token-rally-with-a-50-pump-is-5-near-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7176,
+        "score": 1.0
       },
       {
-        "title": "CoinDesk 20 performance update: NEAR surges 19.4% as index trades flat",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/05/22/coindesk-20-performance-update-near-surges-19-4-as-index-trades-flat",
-        "source": "CoinDesk",
-        "weight": 0.8283,
-        "score": 0.5333
+        "title": "Futu, Up Fintech Options Surged Before Crackdown Sparked Slump",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/futu-up-fintech-options-surged-before-crackdown-sparked-slump",
+        "source": "Bloomberg Markets",
+        "weight": 0.7108,
+        "score": 1.0
       },
       {
-        "title": "S&amp;P 500 on Track for Strongest Earnings Growth Since 2021",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/s-p-500-on-track-for-strongest-earnings-growth-since-2021",
-        "source": "Bloomberg Markets",
-        "weight": 0.6441,
-        "score": 0.6667
+        "title": "$25,000 in XRP vs $25,000 in S&P 500: Backtested Returns Over 5 Years",
+        "url": "https://247wallst.com/investing/2026/05/22/25000-in-xrp-vs-25000-in-sp-500-backtested-returns-over-5-years/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7686,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
+        "title": "Retail’s K-Shaped Economy",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-22/retail-s-k-shaped-economy-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6501,
+        "score": -0.9333
+      },
+      {
         "title": "Trump defends DOJ fund after Senate Republicans push back",
         "url": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
         "source": "CNBC Markets",
-        "weight": 0.7964,
+        "weight": 0.5816,
         "score": -0.9
       },
       {
         "title": "DeFi hacks shake institutional confidence as risks outpace yields",
         "url": "https://cointelegraph.com/features/defi-hacks-institutional-confidence-risks-outpace-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7118,
-        "score": -1.0
-      },
-      {
-        "title": "Polymarket suffers live POL drain as team rules out feared contract exploit",
-        "url": "https://cryptoslate.com/polymarket-private-key-compromise/",
-        "source": "CryptoSlate",
-        "weight": 0.6987,
+        "weight": 0.4981,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.4037557658511223,
-          "price_change_24h": 28.44778
+          "volume_mcap_ratio": 0.42100783663258295,
+          "price_change_24h": 17.49589
         }
       ],
       "momentum_shifts": []
