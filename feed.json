@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-22T17:57:57.196870+00:00",
+  "updated_at": "2026-05-22T20:59:40.752144+00:00",
   "indicators": {
-    "change24h": -0.03,
-    "vol": 0.133,
+    "change24h": -0.047,
+    "vol": 0.173,
     "fearGreed": 28,
-    "momentum": -0.526,
+    "momentum": -0.817,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3974,
-    "global_sentiment": 0.5382,
-    "combined_sentiment": 0.4262,
-    "confidence": 0.8054,
+    "crypto_sentiment": 0.3851,
+    "global_sentiment": 0.4866,
+    "combined_sentiment": 0.4127,
+    "confidence": 0.7968,
     "counts": {
-      "crypto": 57,
-      "global": 41
+      "crypto": 54,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 76705,
-      "btc_change_24h": -1.51,
-      "eth_price": 2118.28,
-      "eth_change_24h": -1.35,
+      "btc_price": 75887,
+      "btc_change_24h": -2.24,
+      "eth_price": 2070.78,
+      "eth_change_24h": -3.08,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "regime_strength": 0.6,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 110113752556.0,
+        "volume_24h": 127484406129.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.52,
+        "btc_dominance": 59.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-07T20:50:54.734859+00:00",
-      "crypto": 0.4581,
-      "global": 0.3577,
-      "combined": 0.4567,
-      "counts": {
-        "crypto": 49,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-07T21:10:05.971837+00:00",
       "crypto": 0.4533,
@@ -1008,61 +998,71 @@
         "crypto": 57,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-22T20:59:40.752144+00:00",
+      "crypto": 0.3851,
+      "global": 0.4866,
+      "combined": 0.4127,
+      "counts": {
+        "crypto": 54,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Stock Market Today: S&P 500, Nasdaq Score Weekly Wins As Dow Logs Record High",
+        "url": "https://finance.yahoo.com/m/516024ad-d294-3dad-b22d-f5dd551580a2/stock-market-today%3A-s%26p-500%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7761,
+        "score": 0.6667
+      },
+      {
         "title": "NEAR protocol leads AI token rally with a 50% pump: Is $5 NEAR price next?",
         "url": "https://cointelegraph.com/markets/near-protocol-leads-ai-token-rally-with-a-50-pump-is-5-near-price-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7176,
+        "weight": 0.5057,
         "score": 1.0
       },
       {
         "title": "Futu, Up Fintech Options Surged Before Crackdown Sparked Slump",
         "url": "https://www.bloomberg.com/news/articles/2026-05-22/futu-up-fintech-options-surged-before-crackdown-sparked-slump",
         "source": "Bloomberg Markets",
-        "weight": 0.7108,
+        "weight": 0.5009,
         "score": 1.0
-      },
-      {
-        "title": "$25,000 in XRP vs $25,000 in S&P 500: Backtested Returns Over 5 Years",
-        "url": "https://247wallst.com/investing/2026/05/22/25000-in-xrp-vs-25000-in-sp-500-backtested-returns-over-5-years/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7686,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Retail’s K-Shaped Economy",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-22/retail-s-k-shaped-economy-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6501,
-        "score": -0.9333
-      },
-      {
-        "title": "Trump defends DOJ fund after Senate Republicans push back",
+        "title": "New lawsuits against Trump's DOJ 'lawfare' fund",
         "url": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
         "source": "CNBC Markets",
-        "weight": 0.5816,
+        "weight": 0.7945,
         "score": -0.9
       },
       {
-        "title": "DeFi hacks shake institutional confidence as risks outpace yields",
-        "url": "https://cointelegraph.com/features/defi-hacks-institutional-confidence-risks-outpace-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4981,
-        "score": -1.0
+        "title": "SEC Delays Plan Allowing for Crypto Versions of US Stocks",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/sec-delays-plan-allowing-for-crypto-versions-of-us-stocks",
+        "source": "Bloomberg Markets",
+        "weight": 0.6043,
+        "score": -0.9667
+      },
+      {
+        "title": "SEC Delays Tokenized Stocks Innovation Exemption Amid Concerns: Bloomberg",
+        "url": "https://decrypt.co/368855/sec-delays-tokenized-stocks-innovation-exemption-amid-concerns-bloomberg",
+        "source": "Decrypt",
+        "weight": 0.8289,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.42100783663258295,
-          "price_change_24h": 17.49589
+          "volume_mcap_ratio": 0.47441509568852963,
+          "price_change_24h": 8.19228
         }
       ],
       "momentum_shifts": []
