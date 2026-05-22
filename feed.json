@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-22T10:56:15.470830+00:00",
+  "updated_at": "2026-05-22T14:52:35.043794+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.097,
+    "change24h": -0.006,
+    "vol": 0.101,
     "fearGreed": 28,
-    "momentum": 0.101,
+    "momentum": -0.107,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3497,
-    "global_sentiment": 0.5396,
-    "combined_sentiment": 0.3906,
-    "confidence": 0.7801,
+    "crypto_sentiment": 0.3544,
+    "global_sentiment": 0.5087,
+    "combined_sentiment": 0.3915,
+    "confidence": 0.7927,
     "counts": {
-      "crypto": 62,
-      "global": 54
+      "crypto": 74,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 77215,
-      "btc_change_24h": 0.07,
-      "eth_price": 2120.82,
-      "eth_change_24h": 0.39,
+      "btc_price": 76709,
+      "btc_change_24h": -0.25,
+      "eth_price": 2116.22,
+      "eth_change_24h": -0.04,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 114363084545.0,
+        "volume_24h": 115211115483.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.59,
+        "btc_dominance": 59.48,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-07T14:34:12.947311+00:00",
-      "crypto": 0.4876,
-      "global": 0.5035,
-      "combined": 0.491,
-      "counts": {
-        "crypto": 53,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-05-07T17:54:02.852157+00:00",
       "crypto": 0.4923,
@@ -1008,61 +998,71 @@
         "crypto": 62,
         "global": 54
       }
+    },
+    {
+      "ts": "2026-05-22T14:52:35.043794+00:00",
+      "crypto": 0.3544,
+      "global": 0.5087,
+      "combined": 0.3915,
+      "counts": {
+        "crypto": 74,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ark Invest buys $12.5 million of Bullish stock in four days",
-        "url": "https://www.coindesk.com/markets/2026/05/22/ark-invest-buys-usd12-5-million-of-bullish-stock-in-four-days",
-        "source": "CoinDesk",
-        "weight": 0.9795,
-        "score": 0.5333
-      },
-      {
-        "title": "OHB and KNDS Weigh Tweaks to Share Sale Timetables to Avoid SpaceX",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/ohb-knds-weigh-tweaks-to-share-sale-timetables-to-avoid-spacex",
+        "title": "Financial, Tech Stocks Propel Canadian Benchmark to Record",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/financial-tech-stocks-propel-canadian-benchmark-to-record",
         "source": "Bloomberg Markets",
-        "weight": 0.7752,
+        "weight": 0.7319,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin price record 90-day uptrend 'resembles bull market rally:' New analysis",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-record-90-day-uptrend-resembles-bull-market-rally-new-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5836,
-        "score": 0.8667
+        "title": "CoinDesk 20 performance update: NEAR surges 19.4% as index trades flat",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/05/22/coindesk-20-performance-update-near-surges-19-4-as-index-trades-flat",
+        "source": "CoinDesk",
+        "weight": 0.8283,
+        "score": 0.5333
+      },
+      {
+        "title": "S&amp;P 500 on Track for Strongest Earnings Growth Since 2021",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-22/s-p-500-on-track-for-strongest-earnings-growth-since-2021",
+        "source": "Bloomberg Markets",
+        "weight": 0.6441,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "ZachXBT flags $520K Polymarket exploit on Polygon, team says funds are safe",
-        "url": "https://www.coindesk.com/markets/2026/05/22/zachxbt-flags-usd520k-polymarket-exploit-on-polygon-team-says-funds-are-safe",
-        "source": "CoinDesk",
-        "weight": 0.8633,
-        "score": -0.8333
+        "title": "Trump defends DOJ fund after Senate Republicans push back",
+        "url": "https://www.cnbc.com/2026/05/22/trump-doj-fund-republicans.html",
+        "source": "CNBC Markets",
+        "weight": 0.7964,
+        "score": -0.9
       },
       {
-        "title": "Verus bridge exploiter returns $8.5M after bounty offer",
-        "url": "https://cointelegraph.com/news/verus-bridge-hacker-returns-85m-eth-28m-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "DeFi hacks shake institutional confidence as risks outpace yields",
+        "url": "https://cointelegraph.com/features/defi-hacks-institutional-confidence-risks-outpace-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6803,
+        "weight": 0.7118,
         "score": -1.0
       },
       {
-        "title": "China Restricts Chemical Exports to US in Fentanyl Crackdown",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-22/china-restricts-chemical-exports-to-us-in-fentanyl-crackdown",
-        "source": "Bloomberg Markets",
-        "weight": 0.5567,
-        "score": -0.9333
+        "title": "Polymarket suffers live POL drain as team rules out feared contract exploit",
+        "url": "https://cryptoslate.com/polymarket-private-key-compromise/",
+        "source": "CryptoSlate",
+        "weight": 0.6987,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.35573408299234055,
-          "price_change_24h": 29.91518
+          "volume_mcap_ratio": 0.4037557658511223,
+          "price_change_24h": 28.44778
         }
       ],
       "momentum_shifts": []
