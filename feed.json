@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-23T06:39:54.653754+00:00",
+  "updated_at": "2026-05-23T09:59:54.655493+00:00",
   "indicators": {
-    "change24h": -0.051,
-    "vol": 0.152,
+    "change24h": -0.069,
+    "vol": 0.184,
     "fearGreed": 28,
-    "momentum": -0.884,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3727,
-    "global_sentiment": 0.5861,
-    "combined_sentiment": 0.4117,
-    "confidence": 0.6632,
+    "crypto_sentiment": 0.3542,
+    "global_sentiment": 0.5808,
+    "combined_sentiment": 0.3974,
+    "confidence": 0.6292,
     "counts": {
-      "crypto": 68,
+      "crypto": 54,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 75351,
-      "btc_change_24h": -2.56,
-      "eth_price": 2060.0,
-      "eth_change_24h": -3.04,
+      "btc_price": 74600,
+      "btc_change_24h": -3.4,
+      "eth_price": 2025.83,
+      "eth_change_24h": -4.53,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126523657991.0,
-        "high_activity_coins": 1
+        "volume_24h": 186739308597.78,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 59.51,
+        "btc_dominance": 59.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-08T09:45:48.032040+00:00",
-      "crypto": 0.4944,
-      "global": 0.4877,
-      "combined": 0.4947,
-      "counts": {
-        "crypto": 67,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-08T14:05:25.794911+00:00",
       "crypto": 0.3946,
@@ -1008,30 +998,40 @@
         "crypto": 68,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-23T09:59:54.655493+00:00",
+      "crypto": 0.3542,
+      "global": 0.5808,
+      "combined": 0.3974,
+      "counts": {
+        "crypto": 54,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "3 Bank Stocks We Find Risky",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-bank-stocks-risky-094055002.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7713,
+        "score": 0.5
+      },
+      {
         "title": "Dow Jones Futures: Stock Market Rebounds To Highs; Tesla, These Five AI Plays Are At Buy Points",
         "url": "https://finance.yahoo.com/m/879072fd-2d18-3074-b2ec-2e92c37a571e/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4677,
+        "weight": 0.3182,
         "score": 0.8667
       },
       {
-        "title": "Here's Why I Wouldn't Touch Ondas With a 10‑Foot Pole After This Parabolic Run",
-        "url": "https://www.fool.com/investing/2026/05/22/heres-why-i-wouldnt-touch-ondas-with-a-10foot-pole/?.tsrc=rss",
+        "title": "2 S&P 500 Stocks with Promising Prospects and 1 Facing Challenges",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-p-500-stocks-promising-082855911.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5139,
-        "score": 0.5333
-      },
-      {
-        "title": "1 Reason to Avoid LMAT and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-reason-avoid-lmat-1-234055667.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3571,
-        "score": 0.6667
+        "weight": 0.6714,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,26 +1043,36 @@
         "score": -0.5333
       },
       {
-        "title": "Global crypto market cap down -2.4% — selloff",
+        "title": "Global crypto market cap down -3.3% — selloff",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": -0.3333
       },
       {
-        "title": "New Zealand to Invest in Drones, Fleet to Shield Maritime Routes",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-23/new-zealand-to-invest-in-drones-fleet-to-shield-maritime-routes",
-        "source": "Bloomberg Markets",
-        "weight": 0.3964,
-        "score": -0.6333
+        "title": "SPHD Pays Monthly Income Without Fail Since 2012; Here’s What Could Break the Streak",
+        "url": "https://247wallst.com/investing/2026/05/23/sphd-pays-monthly-income-without-fail-since-2012-heres-what-could-break-the-streak/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7563,
+        "score": -0.3
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.35082209543401466,
-          "price_change_24h": -4.8032
+          "volume_mcap_ratio": 0.6316509547838196,
+          "price_change_24h": -8.0347
+        },
+        {
+          "symbol": "ONDO",
+          "volume_mcap_ratio": 0.607688570817683,
+          "price_change_24h": -7.76104
+        },
+        {
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.5317148834463319,
+          "price_change_24h": -7.73127
         }
       ],
       "momentum_shifts": []
