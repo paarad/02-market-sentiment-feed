@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-23T13:52:35.337025+00:00",
+  "updated_at": "2026-05-23T20:33:00.492670+00:00",
   "indicators": {
-    "change24h": -0.067,
-    "vol": 0.213,
+    "change24h": 0.006,
+    "vol": 0.14,
     "fearGreed": 28,
-    "momentum": -1.0,
-    "regime": "bear",
+    "momentum": 0.099,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.396,
-    "global_sentiment": 0.478,
-    "combined_sentiment": 0.4202,
-    "confidence": 0.6202,
+    "crypto_sentiment": 0.431,
+    "global_sentiment": 0.6102,
+    "combined_sentiment": 0.4575,
+    "confidence": 0.6048,
     "counts": {
       "crypto": 55,
-      "global": 45
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 75038,
-      "btc_change_24h": -2.72,
-      "eth_price": 2041.39,
-      "eth_change_24h": -3.98,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "btc_price": 75961,
+      "btc_change_24h": 0.21,
+      "eth_price": 2078.02,
+      "eth_change_24h": 0.5,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 172772141998.78,
-        "high_activity_coins": 3
+        "volume_24h": 118659215981.31,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.52,
+        "btc_dominance": 59.53,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-08T17:25:40.764048+00:00",
-      "crypto": 0.4158,
-      "global": 0.5342,
-      "combined": 0.4397,
-      "counts": {
-        "crypto": 59,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-08T20:41:20.483695+00:00",
       "crypto": 0.3911,
@@ -1008,6 +998,16 @@
         "crypto": 55,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-23T20:33:00.492670+00:00",
+      "crypto": 0.431,
+      "global": 0.6102,
+      "combined": 0.4575,
+      "counts": {
+        "crypto": 55,
+        "global": 35
+      }
     }
   ],
   "drivers": {
@@ -1016,44 +1016,44 @@
         "title": "SpaceX Starship Deploys Mock Satellites in Successful Test",
         "url": "https://www.bloomberg.com/news/videos/2026-05-23/spacex-starship-successfully-deploys-mock-satellites-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7127,
+        "weight": 0.3297,
         "score": 1.0
+      },
+      {
+        "title": "Move Over Stubborn Inflation, Trump’s Bull Market Hits Record Highs Again",
+        "url": "https://247wallst.com/investing/2026/05/23/move-over-stubborn-inflation-trumps-bull-market-hits-record-highs-again/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4672,
+        "score": 0.6667
       },
       {
         "title": "HYPE’s path to $100 runs through Hyperliquid becoming crypto’s on-chain Wall Street platform",
         "url": "https://cryptoslate.com/hypes-path-to-100-runs-through-hyperliquid-becoming-cryptos-on-chain-wall-street-platform/",
         "source": "CryptoSlate",
-        "weight": 0.6046,
+        "weight": 0.2797,
         "score": 1.0
-      },
-      {
-        "title": "Dow Jones Futures: Stock Market Rebounds To Highs; Tesla, These Five AI Plays Are At Buy Points",
-        "url": "https://finance.yahoo.com/m/879072fd-2d18-3074-b2ec-2e92c37a571e/dow-jones-futures%3A-stock.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.603,
-        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "How $700,000 Spread Across Four Preferred Stock ETFs Generates $42,000 a Year Even When the Stock Market Stalls",
-        "url": "https://247wallst.com/personal-finance/2026/05/23/how-700000-spread-across-four-preferred-stock-etfs-generates-42000-a-year-even-when-the-stock-market-stalls/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7514,
-        "score": -0.9667
+        "title": "Bitcoin price drop below $75K exposes the demand fracture behind crypto’s $941M liquidation wave",
+        "url": "https://cryptoslate.com/bitcoin-price-drop-below-75k-exposes-the-demand-fracture-behind-cryptos-941m-liquidation-wave/",
+        "source": "CryptoSlate",
+        "weight": 0.4858,
+        "score": -1.0
       },
       {
-        "title": "The Sectors Leading the Market Into the Final Days of May",
-        "url": "https://www.fool.com/investing/2026/05/23/the-sectors-leading-the-market-into-the-final-days/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.73,
-        "score": -0.9667
+        "title": "Fear & Greed 28 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "SPDR Oil Gas ETF or Invesco Solar ETF: Which is the Smarter Energy ETF to Buy?",
-        "url": "https://www.fool.com/coverage/etfs/2026/05/23/spdr-oil-gas-etf-or-invesco-solar-etf-which-is-the-smarter-energy-etf-to-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.609,
+        "title": "Bank of England’s 24/7 settlement plan shows where tokenized finance can enter core markets",
+        "url": "https://cryptoslate.com/bank-of-englands-24-7-settlement-plan-shows-where-tokenized-finance-can-enter-core-markets/",
+        "source": "CryptoSlate",
+        "weight": 0.3524,
         "score": -0.9667
       }
     ],
@@ -1061,18 +1061,8 @@
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.5413096750139861,
-          "price_change_24h": -8.54881
-        },
-        {
-          "symbol": "UNI",
-          "volume_mcap_ratio": 0.49540058440481893,
-          "price_change_24h": -9.05492
-        },
-        {
-          "symbol": "DOT",
-          "volume_mcap_ratio": 0.45670603536205445,
-          "price_change_24h": -7.40253
+          "volume_mcap_ratio": 0.314579076903463,
+          "price_change_24h": 15.39005
         }
       ],
       "momentum_shifts": []
