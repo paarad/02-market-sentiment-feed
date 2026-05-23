@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-23T20:33:00.492670+00:00",
+  "updated_at": "2026-05-23T21:01:16.813645+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.14,
+    "change24h": 0.032,
+    "vol": 0.191,
     "fearGreed": 28,
-    "momentum": 0.099,
+    "momentum": 0.566,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.431,
-    "global_sentiment": 0.6102,
-    "combined_sentiment": 0.4575,
-    "confidence": 0.6048,
+    "crypto_sentiment": 0.4815,
+    "global_sentiment": 0.6107,
+    "combined_sentiment": 0.4954,
+    "confidence": 0.6201,
     "counts": {
       "crypto": 55,
       "global": 35
     },
     "market_indicators": {
-      "btc_price": 75961,
-      "btc_change_24h": 0.21,
-      "eth_price": 2078.02,
-      "eth_change_24h": 0.5,
+      "btc_price": 77181,
+      "btc_change_24h": 1.65,
+      "eth_price": 2142.7,
+      "eth_change_24h": 3.48,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118659215981.31,
+        "volume_24h": 129066904591.31,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.53,
+        "btc_dominance": 59.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-08T20:41:20.483695+00:00",
-      "crypto": 0.3911,
-      "global": 0.525,
-      "combined": 0.4204,
-      "counts": {
-        "crypto": 65,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-08T21:08:58.185775+00:00",
       "crypto": 0.4097,
@@ -1008,30 +998,40 @@
         "crypto": 55,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-05-23T21:01:16.813645+00:00",
+      "crypto": 0.4815,
+      "global": 0.6107,
+      "combined": 0.4954,
+      "counts": {
+        "crypto": 55,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "SpaceX Starship Deploys Mock Satellites in Successful Test",
         "url": "https://www.bloomberg.com/news/videos/2026-05-23/spacex-starship-successfully-deploys-mock-satellites-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3297,
+        "weight": 0.3122,
         "score": 1.0
       },
       {
         "title": "Move Over Stubborn Inflation, Trump’s Bull Market Hits Record Highs Again",
         "url": "https://247wallst.com/investing/2026/05/23/move-over-stubborn-inflation-trumps-bull-market-hits-record-highs-again/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4672,
+        "weight": 0.4424,
         "score": 0.6667
-      },
-      {
-        "title": "HYPE’s path to $100 runs through Hyperliquid becoming crypto’s on-chain Wall Street platform",
-        "url": "https://cryptoslate.com/hypes-path-to-100-runs-through-hyperliquid-becoming-cryptos-on-chain-wall-street-platform/",
-        "source": "CryptoSlate",
-        "weight": 0.2797,
-        "score": 1.0
       }
     ],
     "negative": [
@@ -1039,7 +1039,7 @@
         "title": "Bitcoin price drop below $75K exposes the demand fracture behind crypto’s $941M liquidation wave",
         "url": "https://cryptoslate.com/bitcoin-price-drop-below-75k-exposes-the-demand-fracture-behind-cryptos-941m-liquidation-wave/",
         "source": "CryptoSlate",
-        "weight": 0.4858,
+        "weight": 0.4601,
         "score": -1.0
       },
       {
@@ -1053,7 +1053,7 @@
         "title": "Bank of England’s 24/7 settlement plan shows where tokenized finance can enter core markets",
         "url": "https://cryptoslate.com/bank-of-englands-24-7-settlement-plan-shows-where-tokenized-finance-can-enter-core-markets/",
         "source": "CryptoSlate",
-        "weight": 0.3524,
+        "weight": 0.3337,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.314579076903463,
-          "price_change_24h": 15.39005
+          "volume_mcap_ratio": 0.3187506069511167,
+          "price_change_24h": 13.37253
         }
       ],
       "momentum_shifts": []
