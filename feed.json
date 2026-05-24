@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-24T17:11:44.910077+00:00",
+  "updated_at": "2026-05-24T20:36:34.127439+00:00",
   "indicators": {
-    "change24h": 0.046,
-    "vol": 0.206,
+    "change24h": 0.015,
+    "vol": 0.177,
     "fearGreed": 25,
-    "momentum": 0.8,
+    "momentum": 0.27,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2003,
-    "global_sentiment": 0.4057,
-    "combined_sentiment": 0.2673,
-    "confidence": 0.6513,
+    "crypto_sentiment": 0.2027,
+    "global_sentiment": 0.4363,
+    "combined_sentiment": 0.2717,
+    "confidence": 0.6376,
     "counts": {
-      "crypto": 55,
-      "global": 33
+      "crypto": 67,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 76609,
-      "btc_change_24h": 1.66,
-      "eth_price": 2102.26,
-      "eth_change_24h": 2.05,
+      "btc_price": 76576,
+      "btc_change_24h": 0.01,
+      "eth_price": 2092.06,
+      "eth_change_24h": -0.98,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109056998845.31,
+        "volume_24h": 101411391237.31,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 59.56,
+        "btc_dominance": 59.61,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-09T13:41:12.814971+00:00",
-      "crypto": 0.4013,
-      "global": 0.5031,
-      "combined": 0.4262,
-      "counts": {
-        "crypto": 85,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-05-09T17:02:01.880683+00:00",
       "crypto": 0.3021,
@@ -1008,30 +998,40 @@
         "crypto": 55,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-05-24T20:36:34.127439+00:00",
+      "crypto": 0.2027,
+      "global": 0.4363,
+      "combined": 0.2717,
+      "counts": {
+        "crypto": 67,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Strategy Now Holds $65 Billion in Bitcoin—These Are Its Biggest BTC Buys",
+        "url": "https://decrypt.co/292448/microstrategy-biggest-bitcoin-buys",
+        "source": "Decrypt",
+        "weight": 0.8358,
+        "score": 0.6667
+      },
+      {
+        "title": "Why Arm Stock Skyrocketed This Week",
+        "url": "https://www.fool.com/investing/2026/05/24/why-arm-stock-skyrocketed-this-week/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5623,
         "score": 0.5333
       },
       {
         "title": "Why IPO mania could signal top of the market",
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-ipo-mania-could-signal-110007452.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3911,
+        "weight": 0.2637,
         "score": 0.9667
-      },
-      {
-        "title": "Stocks and earnings surge, and Iran deal may be imminent: What to watch this week",
-        "url": "https://finance.yahoo.com/news/stocks-and-earnings-surge-and-iran-deal-may-be-imminent-what-to-watch-this-week-114338066.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4253,
-        "score": 0.6667
       }
     ],
     "negative": [
@@ -1039,22 +1039,22 @@
         "title": "Ethereum’s selloff tests whether its neutrality-first model can defend ETH’s value amid Foundation ‘brain drain’",
         "url": "https://cryptoslate.com/ethereum-market-sentiment-turns-negative-amid-foundation-brain-drain-and-price-struggles/",
         "source": "CryptoSlate",
-        "weight": 0.889,
+        "weight": 0.5993,
+        "score": -1.0
+      },
+      {
+        "title": "FTX law firm Fenwick & West to pay $54M to victims in settlement",
+        "url": "https://cointelegraph.com/news/law-firm-fenwick-west-54m-ftx-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5985,
         "score": -1.0
       },
       {
         "title": "Tom Lee’s Ethereum portfolio down $7.35B as ETH price outlook worsens",
         "url": "https://cointelegraph.com/markets/tom-lees-ethereum-portfolio-sitting-on-73b-in-unrealized-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7567,
+        "weight": 0.5101,
         "score": -1.0
-      },
-      {
-        "title": "Rubio Invites India’s Modi to Visit White House as Ties Improve",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-24/rubio-invites-india-s-modi-to-visit-white-house-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6814,
-        "score": -0.9667
       }
     ],
     "market_movers": {
