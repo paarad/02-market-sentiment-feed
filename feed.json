@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-24T10:00:53.333294+00:00",
+  "updated_at": "2026-05-24T13:49:28.322429+00:00",
   "indicators": {
-    "change24h": 0.076,
-    "vol": 0.23,
+    "change24h": 0.069,
+    "vol": 0.259,
     "fearGreed": 25,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,19 +11,19 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3534,
-    "global_sentiment": 0.6112,
-    "combined_sentiment": 0.3993,
-    "confidence": 0.5784,
+    "crypto_sentiment": 0.3057,
+    "global_sentiment": 0.6089,
+    "combined_sentiment": 0.3633,
+    "confidence": 0.6015,
     "counts": {
-      "crypto": 57,
-      "global": 40
+      "crypto": 56,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 76925,
-      "btc_change_24h": 3.12,
-      "eth_price": 2120.68,
-      "eth_change_24h": 4.7,
+      "btc_price": 76876,
+      "btc_change_24h": 2.55,
+      "eth_price": 2115.66,
+      "eth_change_24h": 3.64,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.85,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 108696249820.31,
+        "volume_24h": 113517936607.31,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.54,
+        "btc_dominance": 59.56,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-09T06:22:13.116593+00:00",
-      "crypto": 0.38,
-      "global": 0.5869,
-      "combined": 0.4173,
-      "counts": {
-        "crypto": 70,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-05-09T09:25:35.011089+00:00",
       "crypto": 0.4154,
@@ -1008,61 +998,71 @@
         "crypto": 57,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-05-24T13:49:28.322429+00:00",
+      "crypto": 0.3057,
+      "global": 0.6089,
+      "combined": 0.3633,
+      "counts": {
+        "crypto": 56,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 3.0% — rally",
+        "title": "Why IPO mania could signal top of the market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-ipo-mania-could-signal-110007452.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5774,
+        "score": 0.9667
+      },
+      {
+        "title": "Global crypto market cap up 2.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Is This S&P 500 Dividend Stock a Smart Buy in 2026?",
-        "url": "https://www.fool.com/investing/2026/05/24/is-this-sp-500-dividend-stock-a-smart-buy-in-2026/?.tsrc=rss",
+        "title": "Stocks and earnings surge, and Iran deal may be imminent: What to watch this week",
+        "url": "https://finance.yahoo.com/news/stocks-and-earnings-surge-and-iran-deal-may-be-imminent-what-to-watch-this-week-114338066.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.64,
-        "score": 0.3333
-      },
-      {
-        "title": "Knowles, Crane NXT, and QuinStreet Shares Skyrocket, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/knowles-crane-nxt-quinstreet-shares-024455523.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3456,
-        "score": 0.3333
+        "weight": 0.6279,
+        "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "Gunman Killed by Secret Service After Firing Near White House",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-24/gunman-killed-by-secret-service-near-white-house-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7297,
+        "score": -0.6333
+      },
+      {
+        "title": "BitMine’s $126M Ethereum buy sets up a Russell index test tied to $12.2T in assets",
+        "url": "https://cryptoslate.com/bitmines-126m-ethereum-buy-sets-up-a-russell-index-test-tied-to-12-2t-in-assets/",
+        "source": "CryptoSlate",
+        "weight": 0.6888,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 25 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Euro and USD stablecoins depeg amid ongoing $2.8M StablR exploit",
-        "url": "https://cointelegraph.com/news/euro-and-usd-stablecoins-depeg-amid-ongoing-28m-stablr-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4832,
-        "score": -0.8333
-      },
-      {
-        "title": "Bitcoin’s Fed cut trade flips as bond market turns into the risk",
-        "url": "https://cryptoslate.com/bitcoins-fed-cut-trade-flips-as-bond-market-turns-into-the-risk/",
-        "source": "CryptoSlate",
-        "weight": 0.7194,
-        "score": -0.3333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.32403736217388396,
-          "price_change_24h": 13.82007
+          "volume_mcap_ratio": 0.31736075741562736,
+          "price_change_24h": 15.70489
         }
       ],
       "momentum_shifts": []
