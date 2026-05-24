@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-24T13:49:28.322429+00:00",
+  "updated_at": "2026-05-24T17:11:44.910077+00:00",
   "indicators": {
-    "change24h": 0.069,
-    "vol": 0.259,
+    "change24h": 0.046,
+    "vol": 0.206,
     "fearGreed": 25,
-    "momentum": 1.0,
+    "momentum": 0.8,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3057,
-    "global_sentiment": 0.6089,
-    "combined_sentiment": 0.3633,
-    "confidence": 0.6015,
+    "crypto_sentiment": 0.2003,
+    "global_sentiment": 0.4057,
+    "combined_sentiment": 0.2673,
+    "confidence": 0.6513,
     "counts": {
-      "crypto": 56,
-      "global": 34
+      "crypto": 55,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 76876,
-      "btc_change_24h": 2.55,
-      "eth_price": 2115.66,
-      "eth_change_24h": 3.64,
+      "btc_price": 76609,
+      "btc_change_24h": 1.66,
+      "eth_price": 2102.26,
+      "eth_change_24h": 2.05,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.85,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113517936607.31,
-        "high_activity_coins": 1
+        "volume_24h": 109056998845.31,
+        "high_activity_coins": 0
       },
       "dominance": {
         "btc_dominance": 59.56,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-09T09:25:35.011089+00:00",
-      "crypto": 0.4154,
-      "global": 0.5393,
-      "combined": 0.4399,
-      "counts": {
-        "crypto": 85,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-05-09T13:41:12.814971+00:00",
       "crypto": 0.4013,
@@ -1008,63 +998,67 @@
         "crypto": 56,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-05-24T17:11:44.910077+00:00",
+      "crypto": 0.2003,
+      "global": 0.4057,
+      "combined": 0.2673,
+      "counts": {
+        "crypto": 55,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Why IPO mania could signal top of the market",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-ipo-mania-could-signal-110007452.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5774,
-        "score": 0.9667
-      },
-      {
-        "title": "Global crypto market cap up 2.2% — rally",
+        "title": "Global crypto market cap up 1.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
+        "title": "Why IPO mania could signal top of the market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-ipo-mania-could-signal-110007452.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3911,
+        "score": 0.9667
+      },
+      {
         "title": "Stocks and earnings surge, and Iran deal may be imminent: What to watch this week",
         "url": "https://finance.yahoo.com/news/stocks-and-earnings-surge-and-iran-deal-may-be-imminent-what-to-watch-this-week-114338066.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6279,
+        "weight": 0.4253,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Gunman Killed by Secret Service After Firing Near White House",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-24/gunman-killed-by-secret-service-near-white-house-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7297,
-        "score": -0.6333
-      },
-      {
-        "title": "BitMine’s $126M Ethereum buy sets up a Russell index test tied to $12.2T in assets",
-        "url": "https://cryptoslate.com/bitmines-126m-ethereum-buy-sets-up-a-russell-index-test-tied-to-12-2t-in-assets/",
+        "title": "Ethereum’s selloff tests whether its neutrality-first model can defend ETH’s value amid Foundation ‘brain drain’",
+        "url": "https://cryptoslate.com/ethereum-market-sentiment-turns-negative-amid-foundation-brain-drain-and-price-struggles/",
         "source": "CryptoSlate",
-        "weight": 0.6888,
-        "score": -0.6333
+        "weight": 0.889,
+        "score": -1.0
       },
       {
-        "title": "Fear & Greed 25 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Tom Lee’s Ethereum portfolio down $7.35B as ETH price outlook worsens",
+        "url": "https://cointelegraph.com/markets/tom-lees-ethereum-portfolio-sitting-on-73b-in-unrealized-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7567,
+        "score": -1.0
+      },
+      {
+        "title": "Rubio Invites India’s Modi to Visit White House as Ties Improve",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-24/rubio-invites-india-s-modi-to-visit-white-house-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6814,
+        "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "NEAR",
-          "volume_mcap_ratio": 0.31736075741562736,
-          "price_change_24h": 15.70489
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
