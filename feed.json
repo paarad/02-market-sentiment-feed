@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-23T21:01:16.813645+00:00",
+  "updated_at": "2026-05-24T04:15:44.934981+00:00",
   "indicators": {
     "change24h": 0.032,
-    "vol": 0.191,
-    "fearGreed": 28,
-    "momentum": 0.566,
+    "vol": 0.146,
+    "fearGreed": 25,
+    "momentum": 0.559,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4815,
-    "global_sentiment": 0.6107,
-    "combined_sentiment": 0.4954,
-    "confidence": 0.6201,
+    "crypto_sentiment": 0.414,
+    "global_sentiment": 0.6343,
+    "combined_sentiment": 0.4467,
+    "confidence": 0.5636,
     "counts": {
       "crypto": 55,
-      "global": 35
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 77181,
-      "btc_change_24h": 1.65,
-      "eth_price": 2142.7,
-      "eth_change_24h": 3.48,
+      "btc_price": 76726,
+      "btc_change_24h": 1.56,
+      "eth_price": 2119.42,
+      "eth_change_24h": 2.47,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
-        "value": 28,
-        "classification": "Fear",
+        "value": 25,
+        "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 129066904591.31,
+        "volume_24h": 126979135949.31,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.54,
+        "btc_dominance": 59.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-08T21:08:58.185775+00:00",
-      "crypto": 0.4097,
-      "global": 0.4926,
-      "combined": 0.4317,
-      "counts": {
-        "crypto": 65,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-09T03:41:08.661044+00:00",
       "crypto": 0.4033,
@@ -1008,61 +998,71 @@
         "crypto": 55,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-05-24T04:15:44.934981+00:00",
+      "crypto": 0.414,
+      "global": 0.6343,
+      "combined": 0.4467,
+      "counts": {
+        "crypto": 55,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.7% — rally",
+        "title": "Global crypto market cap up 1.6% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "SpaceX Starship Deploys Mock Satellites in Successful Test",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-23/spacex-starship-successfully-deploys-mock-satellites-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3122,
-        "score": 1.0
+        "title": "Knowles, Crane NXT, and QuinStreet Shares Skyrocket, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/knowles-crane-nxt-quinstreet-shares-024455523.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6716,
+        "score": 0.3333
       },
       {
-        "title": "Move Over Stubborn Inflation, Trump’s Bull Market Hits Record Highs Again",
-        "url": "https://247wallst.com/investing/2026/05/23/move-over-stubborn-inflation-trumps-bull-market-hits-record-highs-again/?.tsrc=rss",
+        "title": "Diebold Nixdorf, TD SYNNEX, and Brady Shares Skyrocket, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/diebold-nixdorf-td-synnex-brady-024455536.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4424,
-        "score": 0.6667
+        "weight": 0.6716,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin price drop below $75K exposes the demand fracture behind crypto’s $941M liquidation wave",
-        "url": "https://cryptoslate.com/bitcoin-price-drop-below-75k-exposes-the-demand-fracture-behind-cryptos-941m-liquidation-wave/",
-        "source": "CryptoSlate",
-        "weight": 0.4601,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 28 (Fear) — bearish",
+        "title": "Fear & Greed 25 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "Bank of England’s 24/7 settlement plan shows where tokenized finance can enter core markets",
-        "url": "https://cryptoslate.com/bank-of-englands-24-7-settlement-plan-shows-where-tokenized-finance-can-enter-core-markets/",
-        "source": "CryptoSlate",
-        "weight": 0.3337,
-        "score": -0.9667
+        "title": "Better Financial Sector ETF: Vanguard's VFH vs. State Street's XLF",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/23/better-financial-sector-etf-vanguard-s-vfh-vs-state-street-s-xlf/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6403,
+        "score": -0.6333
+      },
+      {
+        "title": "70% of all crypto wrench attacks happen in France: Report",
+        "url": "https://cointelegraph.com/news/70-crypto-wrench-attacks-happen-france?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4418,
+        "score": -0.7333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.3187506069511167,
-          "price_change_24h": 13.37253
+          "volume_mcap_ratio": 0.3460140232614389,
+          "price_change_24h": 12.14352
         }
       ],
       "momentum_shifts": []
