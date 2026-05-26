@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-26T18:33:08.319871+00:00",
+  "updated_at": "2026-05-26T21:20:21.480744+00:00",
   "indicators": {
-    "change24h": 0.008,
-    "vol": 0.635,
+    "change24h": 0.014,
+    "vol": 0.695,
     "fearGreed": 34,
-    "momentum": 0.148,
+    "momentum": 0.252,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.465,
-    "global_sentiment": 0.4997,
-    "combined_sentiment": 0.4737,
-    "confidence": 0.8092,
+    "crypto_sentiment": 0.439,
+    "global_sentiment": 0.5474,
+    "combined_sentiment": 0.4582,
+    "confidence": 0.7819,
     "counts": {
-      "crypto": 62,
-      "global": 49
+      "crypto": 48,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 75977,
-      "btc_change_24h": -2.03,
-      "eth_price": 2072.64,
-      "eth_change_24h": -2.63,
+      "btc_price": 75853,
+      "btc_change_24h": -1.8,
+      "eth_price": 2070.19,
+      "eth_change_24h": -1.79,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 147735166668.0,
-        "high_activity_coins": 2
+        "volume_24h": 153177754179.0,
+        "high_activity_coins": 3
       },
       "dominance": {
         "btc_dominance": 59.48,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-11T04:08:43.314059+00:00",
-      "crypto": 0.2233,
-      "global": 0.4199,
-      "combined": 0.2858,
-      "counts": {
-        "crypto": 58,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-11T11:31:16.597517+00:00",
       "crypto": 0.2637,
@@ -1008,66 +998,81 @@
         "crypto": 62,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-05-26T21:20:21.480744+00:00",
+      "crypto": 0.439,
+      "global": 0.5474,
+      "combined": 0.4582,
+      "counts": {
+        "crypto": 48,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "MSG Sports Shares Rally to Record as Knicks Reach NBA Finals",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/msg-sports-shares-rally-to-record-as-knicks-reach-nba-finals",
-        "source": "Bloomberg Markets",
-        "weight": 0.6754,
-        "score": 0.8667
-      },
-      {
-        "title": "Dow Hits Fresh Record High as Iran Easing Hopes Lift Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/dow-hits-fresh-record-high-164749641.html?.tsrc=rss",
+        "title": "S&P 500 Hits Another High on Back of 5-Day Chip Stock Rally",
+        "url": "https://finance.yahoo.com/m/cd6c1775-7c51-32dd-a9c8-ee3e807df858/s%26p-500-hits-another-high-on.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6532,
+        "weight": 0.7045,
         "score": 0.8667
       },
       {
-        "title": "Democratic AGs snub Vance's anti-fraud roundtable at White House after late invite",
-        "url": "https://www.cnbc.com/2026/05/26/vance-fraud-democrats-attorney-general-white-house.html",
-        "source": "CNBC Markets",
-        "weight": 0.7851,
-        "score": 0.5333
+        "title": "What happens when crypto traders can bet on CPI, Fed cuts, and oil 24/7?",
+        "url": "https://cryptoslate.com/what-happens-crypto-traders-cpi-fed-cuts-oil-24-7/",
+        "source": "CryptoSlate",
+        "weight": 0.6133,
+        "score": 0.9167
+      },
+      {
+        "title": "How major US stock indexes fared Tuesday 5/26/2026",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202208222.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7152,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Sector Update: Energy Stocks Fall Tuesday Afternoon",
-        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-fall-tuesday-180030031.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7513,
-        "score": -1.0
-      },
-      {
-        "title": "AutoZone & Ferrari Slide; Eli Lilly Announces Acquisitions | Stock Movers",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-26/autozone-ferrari-slide-lilly-edges-up-stock-movers-video",
+        "title": "Farmers Feel Squeeze From Higher Fuel Costs, Fertilizer Shortages",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-26/farmers-feel-squeeze-on-fuel-costs-fertilizer-shortages-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5039,
-        "score": -1.0
+        "weight": 0.6396,
+        "score": -0.9333
       },
       {
-        "title": "The next big DeFi exploit will start before the code is deployed",
-        "url": "https://cryptoslate.com/the-next-big-defi-exploit-will-start-before-the-code-is-deployed/",
-        "source": "CryptoSlate",
-        "weight": 0.5982,
+        "title": "UK authorities sanction HTX crypto exchange over support for Russia",
+        "url": "https://cointelegraph.com/news/uk-sanctions-htx-huobi-russia-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5888,
         "score": -0.8333
+      },
+      {
+        "title": "Fear & Greed 34 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.37848664391255005,
-          "price_change_24h": -3.17695
+          "volume_mcap_ratio": 0.3530457790747398,
+          "price_change_24h": -5.08502
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3326789750586039,
-          "price_change_24h": -0.06146
+          "volume_mcap_ratio": 0.3442629400605725,
+          "price_change_24h": -0.04131
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3102934385225096,
+          "price_change_24h": -0.01662
         }
       ],
       "momentum_shifts": []
