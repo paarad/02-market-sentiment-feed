@@ -1,41 +1,41 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-25T21:16:32.554122+00:00",
+  "updated_at": "2026-05-26T04:12:51.771369+00:00",
   "indicators": {
     "change24h": 0.0,
     "vol": 0.5,
-    "fearGreed": 30,
+    "fearGreed": 34,
     "momentum": 0.0,
     "regime": "unknown",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4791,
-    "global_sentiment": 0.5283,
-    "combined_sentiment": 0.4867,
-    "confidence": 0.7331,
+    "crypto_sentiment": 0.4928,
+    "global_sentiment": 0.4465,
+    "combined_sentiment": 0.4902,
+    "confidence": 0.6614,
     "counts": {
-      "crypto": 63,
-      "global": 45
+      "crypto": 60,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 77287,
-      "btc_change_24h": 0.89,
-      "eth_price": 2109.88,
-      "eth_change_24h": 0.75,
+      "btc_price": 76555,
+      "btc_change_24h": -0.51,
+      "eth_price": 2088.56,
+      "eth_change_24h": -0.16,
       "market_regime": "unknown",
       "regime_strength": 0.0,
       "market_breadth": 0,
       "fear_greed": {
-        "value": 30,
+        "value": 34,
         "classification": "Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 101267589060.31,
-        "high_activity_coins": 0
+        "volume_24h": 98832216706.31,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-10T17:02:37.050125+00:00",
-      "crypto": 0.3029,
-      "global": 0.3871,
-      "combined": 0.3428,
-      "counts": {
-        "crypto": 61,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-05-10T20:31:12.974842+00:00",
       "crypto": 0.2233,
@@ -1008,57 +998,73 @@
         "crypto": 63,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-26T04:12:51.771369+00:00",
+      "crypto": 0.4928,
+      "global": 0.4465,
+      "combined": 0.4902,
+      "counts": {
+        "crypto": 60,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin volatility falls to 8-month low: Is a BTC breakout imminent?",
+        "url": "https://cointelegraph.com/markets/bitcoin-volatility-falls-to-8-month-low-is-a-btc-breakout-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8339,
+        "score": 0.7333
+      },
+      {
+        "title": "Bitcoin holds $77K as stocks rally, global tensions cool: Are BTC bulls back?",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-77k-as-stocks-rally-global-tensions-cool-are-btc-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7038,
+        "score": 0.5333
+      },
+      {
         "title": "NEAR price rally gains momentum as cross-chain product activity fuels further 15% jump",
         "url": "https://www.coindesk.com/markets/2026/05/25/near-price-rally-gains-momentum-as-cross-chain-product-activity-fuels-further-15-jump",
         "source": "CoinDesk",
-        "weight": 0.6574,
+        "weight": 0.2949,
         "score": 1.0
-      },
-      {
-        "title": "UAE-linked ADI Chain gains Ledger support amid stablecoin growth",
-        "url": "https://cointelegraph.com/news/ledger-integrates-uae-backed-adi-token-as-gulf-blockchain-infrastructure-expands?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5805,
-        "score": 1.0
-      },
-      {
-        "title": "Tether’s Georgia stablecoin plan moves early on national payment rails",
-        "url": "https://cryptoslate.com/tether-georgia-stablecoin-plan/",
-        "source": "CryptoSlate",
-        "weight": 0.6745,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 30 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "Ethereum whale opens $100M short as Vitalik Buterin vows to 'sell less ETH'",
-        "url": "https://cointelegraph.com/markets/ethereum-whale-opens-100m-short-as-vitalik-buterin-vows-to-sell-less-eth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Kelp DAO says rsETH restored 5 weeks after $293M protocol hack",
+        "url": "https://cointelegraph.com/news/kelpdao-says-rseth-restored-5-weeks-after-protocol-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.425,
-        "score": -1.0
+        "weight": 0.7143,
+        "score": -0.7333
       },
       {
-        "title": "Vigilant ECB Hasn’t Yet Seen Second-Round Effects, Villeroy Says",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-25/vigilant-ecb-hasn-t-yet-seen-second-round-effects-villeroy-says",
+        "title": "BOJ Deputy Chief Underlines Proper Policy as Key for Bond Yields",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/boj-deputy-chief-underlines-proper-policy-as-key-for-bond-yields",
         "source": "Bloomberg Markets",
-        "weight": 0.5415,
+        "weight": 0.6987,
+        "score": -0.6667
+      },
+      {
+        "title": "China Coking Coal Prices Extend Gains After Shanxi Mine Disaster",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-coking-coal-prices-extend-gains-after-shanxi-mine-disaster",
+        "source": "Bloomberg Markets",
+        "weight": 0.699,
         "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "NEAR",
+          "volume_mcap_ratio": 0.31543282249269433,
+          "price_change_24h": 16.47896
+        }
+      ],
       "momentum_shifts": []
     }
   },
