@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-26T21:20:21.480744+00:00",
+  "updated_at": "2026-05-26T21:51:44.680368+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.695,
+    "change24h": 0.017,
+    "vol": 0.682,
     "fearGreed": 34,
-    "momentum": 0.252,
-    "regime": "bear",
+    "momentum": 0.304,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.439,
-    "global_sentiment": 0.5474,
-    "combined_sentiment": 0.4582,
-    "confidence": 0.7819,
+    "crypto_sentiment": 0.4377,
+    "global_sentiment": 0.5288,
+    "combined_sentiment": 0.4557,
+    "confidence": 0.774,
     "counts": {
-      "crypto": 48,
+      "crypto": 62,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 75853,
-      "btc_change_24h": -1.8,
-      "eth_price": 2070.19,
-      "eth_change_24h": -1.79,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 75908,
+      "btc_change_24h": -1.75,
+      "eth_price": 2074.81,
+      "eth_change_24h": -1.63,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153177754179.0,
+        "volume_24h": 153951915067.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 59.48,
+        "btc_dominance": 59.46,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-11T11:31:16.597517+00:00",
-      "crypto": 0.2637,
-      "global": 0.5129,
-      "combined": 0.3238,
-      "counts": {
-        "crypto": 48,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-05-11T15:27:48.984250+00:00",
       "crypto": 0.4626,
@@ -1008,71 +998,81 @@
         "crypto": 48,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-05-26T21:51:44.680368+00:00",
+      "crypto": 0.4377,
+      "global": 0.5288,
+      "combined": 0.4557,
+      "counts": {
+        "crypto": 62,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "S&P 500 Hits Another High on Back of 5-Day Chip Stock Rally",
-        "url": "https://finance.yahoo.com/m/cd6c1775-7c51-32dd-a9c8-ee3e807df858/s%26p-500-hits-another-high-on.html?.tsrc=rss",
+        "title": "Stock Market Today, May 26: Soaring Tech Stocks Push S&P 500 and Nasdaq to New Highs",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/26/stock-market-today-may-26-soaring-tech-stocks-push-s-and-p-500-and-nasdaq-to-new-highs/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7045,
+        "weight": 0.7774,
         "score": 0.8667
       },
       {
         "title": "What happens when crypto traders can bet on CPI, Fed cuts, and oil 24/7?",
         "url": "https://cryptoslate.com/what-happens-crypto-traders-cpi-fed-cuts-oil-24-7/",
         "source": "CryptoSlate",
-        "weight": 0.6133,
+        "weight": 0.5774,
         "score": 0.9167
       },
       {
         "title": "How major US stock indexes fared Tuesday 5/26/2026",
         "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202208222.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7152,
+        "weight": 0.6732,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Kardigan Files for IPO to Fund Cardiovascular Disease Treatment",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/kardigan-files-for-ipo-to-fund-cardiovascular-disease-treatment",
+        "source": "Bloomberg Markets",
+        "weight": 0.7761,
+        "score": -0.9333
+      },
+      {
         "title": "Farmers Feel Squeeze From Higher Fuel Costs, Fertilizer Shortages",
         "url": "https://www.bloomberg.com/news/videos/2026-05-26/farmers-feel-squeeze-on-fuel-costs-fertilizer-shortages-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6396,
+        "weight": 0.6021,
         "score": -0.9333
       },
       {
         "title": "UK authorities sanction HTX crypto exchange over support for Russia",
         "url": "https://cointelegraph.com/news/uk-sanctions-htx-huobi-russia-support?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5888,
+        "weight": 0.5542,
         "score": -0.8333
-      },
-      {
-        "title": "Fear & Greed 34 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.3530457790747398,
-          "price_change_24h": -5.08502
+          "volume_mcap_ratio": 0.35271825821954617,
+          "price_change_24h": -4.56507
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3442629400605725,
-          "price_change_24h": -0.04131
+          "volume_mcap_ratio": 0.34569871990380624,
+          "price_change_24h": -0.04461
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3102934385225096,
-          "price_change_24h": -0.01662
+          "volume_mcap_ratio": 0.30876965829481423,
+          "price_change_24h": -0.00454
         }
       ],
       "momentum_shifts": []
