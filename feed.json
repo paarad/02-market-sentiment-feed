@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-26T04:12:51.771369+00:00",
+  "updated_at": "2026-05-26T15:57:21.111801+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.029,
+    "vol": 0.146,
     "fearGreed": 34,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.515,
+    "regime": "bear",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4928,
-    "global_sentiment": 0.4465,
-    "combined_sentiment": 0.4902,
-    "confidence": 0.6614,
+    "crypto_sentiment": 0.4879,
+    "global_sentiment": 0.4676,
+    "combined_sentiment": 0.4883,
+    "confidence": 0.7992,
     "counts": {
-      "crypto": 60,
-      "global": 36
+      "crypto": 49,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 76555,
-      "btc_change_24h": -0.51,
-      "eth_price": 2088.56,
-      "eth_change_24h": -0.16,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 76223,
+      "btc_change_24h": -1.72,
+      "eth_price": 2077.59,
+      "eth_change_24h": -2.26,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.05,
       "fear_greed": {
         "value": 34,
         "classification": "Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 98832216706.31,
+        "volume_24h": 128912902444.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 59.52,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-10T20:31:12.974842+00:00",
-      "crypto": 0.2233,
-      "global": 0.4417,
-      "combined": 0.2876,
-      "counts": {
-        "crypto": 59,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-10T20:56:47.624664+00:00",
       "crypto": 0.2233,
@@ -1008,61 +998,71 @@
         "crypto": 60,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-05-26T15:57:21.111801+00:00",
+      "crypto": 0.4879,
+      "global": 0.4676,
+      "combined": 0.4883,
+      "counts": {
+        "crypto": 49,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin volatility falls to 8-month low: Is a BTC breakout imminent?",
-        "url": "https://cointelegraph.com/markets/bitcoin-volatility-falls-to-8-month-low-is-a-btc-breakout-imminent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8339,
-        "score": 0.7333
-      },
-      {
-        "title": "Bitcoin holds $77K as stocks rally, global tensions cool: Are BTC bulls back?",
-        "url": "https://cointelegraph.com/markets/bitcoin-holds-77k-as-stocks-rally-global-tensions-cool-are-btc-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7038,
-        "score": 0.5333
-      },
-      {
-        "title": "NEAR price rally gains momentum as cross-chain product activity fuels further 15% jump",
-        "url": "https://www.coindesk.com/markets/2026/05/25/near-price-rally-gains-momentum-as-cross-chain-product-activity-fuels-further-15-jump",
-        "source": "CoinDesk",
-        "weight": 0.2949,
+        "title": "The Stock Market Just Saw One of Its Best 8-Week Stretches Ever. What Normally Happens Next Will Surprise You.",
+        "url": "https://247wallst.com/investing/2026/05/26/the-stock-market-just-saw-one-of-its-best-8-week-stretches-ever-what-normally-happens-next-will-surprise-you/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7277,
         "score": 1.0
+      },
+      {
+        "title": "Micron, Rocket Lab, and These Stocks Explain Today’s Market",
+        "url": "https://finance.yahoo.com/m/287024c2-672b-3229-a877-053fd36f28c5/micron%2C-rocket-lab%2C-and-these.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6697,
+        "score": 1.0
+      },
+      {
+        "title": "Trump’s 2026 Bull Market is Really Just an Nvidia Rally",
+        "url": "https://247wallst.com/investing/2026/05/26/trumps-2026-bull-market-is-really-just-an-nvidia-rally/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7253,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Kelp DAO says rsETH restored 5 weeks after $293M protocol hack",
-        "url": "https://cointelegraph.com/news/kelpdao-says-rseth-restored-5-weeks-after-protocol-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7143,
-        "score": -0.7333
+        "title": "AutoZone & Ferrari Slide; Eli Lilly Announces Acquisitions | Stock Movers",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-26/autozone-ferrari-slide-lilly-edges-up-stock-movers-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6802,
+        "score": -1.0
       },
       {
-        "title": "BOJ Deputy Chief Underlines Proper Policy as Key for Bond Yields",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/boj-deputy-chief-underlines-proper-policy-as-key-for-bond-yields",
+        "title": "Lilly’s One-Time Cholesterol Shot",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-26/lilly-s-one-time-cholesterol-shot-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6987,
-        "score": -0.6667
+        "weight": 0.7186,
+        "score": -0.9333
       },
       {
-        "title": "China Coking Coal Prices Extend Gains After Shanxi Mine Disaster",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/china-coking-coal-prices-extend-gains-after-shanxi-mine-disaster",
+        "title": "Lilly Gets Back Into the Vaccine Business With New Deals",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-26/lilly-gets-back-into-the-vaccine-business-with-new-deals-video",
         "source": "Bloomberg Markets",
-        "weight": 0.699,
-        "score": -0.6333
+        "weight": 0.6911,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.31543282249269433,
-          "price_change_24h": 16.47896
+          "volume_mcap_ratio": 0.3692748904509579,
+          "price_change_24h": 1.5855
         }
       ],
       "momentum_shifts": []
