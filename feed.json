@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-27T04:25:59.494945+00:00",
+  "updated_at": "2026-05-27T11:44:01.869258+00:00",
   "indicators": {
-    "change24h": 0.025,
-    "vol": 0.662,
+    "change24h": 0.044,
+    "vol": 0.933,
     "fearGreed": 25,
-    "momentum": 0.439,
+    "momentum": 0.767,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4381,
-    "global_sentiment": 0.6214,
-    "combined_sentiment": 0.4637,
-    "confidence": 0.7201,
+    "crypto_sentiment": 0.4022,
+    "global_sentiment": 0.5377,
+    "combined_sentiment": 0.4298,
+    "confidence": 0.7782,
     "counts": {
-      "crypto": 50,
-      "global": 44
+      "crypto": 70,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 75414,
-      "btc_change_24h": -1.58,
-      "eth_price": 2062.39,
-      "eth_change_24h": -1.34,
+      "btc_price": 75719,
+      "btc_change_24h": -1.85,
+      "eth_price": 2079.27,
+      "eth_change_24h": -1.91,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "regime_strength": 1.0,
+      "market_breadth": 0.35,
       "fear_greed": {
         "value": 25,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153019908860.0,
-        "high_activity_coins": 3
+        "volume_24h": 146014051963.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.41,
+        "btc_dominance": 59.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-11T17:59:25.753202+00:00",
-      "crypto": 0.3867,
-      "global": 0.4589,
-      "combined": 0.4116,
-      "counts": {
-        "crypto": 46,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-05-11T21:05:16.759753+00:00",
       "crypto": 0.5414,
@@ -1008,71 +998,76 @@
         "crypto": 50,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-05-27T11:44:01.869258+00:00",
+      "crypto": 0.4022,
+      "global": 0.5377,
+      "combined": 0.4298,
+      "counts": {
+        "crypto": 70,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Asian shares are mostly higher, tracking Wall Street's fresh records, and oil prices fall",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-higher-tracking-033124113.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7202,
-        "score": 1.0
-      },
-      {
-        "title": "Global Aluminum Rally Could Draw Record Exports From China",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/global-aluminum-rally-could-draw-record-exports-from-china",
-        "source": "Bloomberg Markets",
-        "weight": 0.7315,
+        "title": "Foot Locker returns to growth but weighs on Dick's Sporting Goods as earnings miss",
+        "url": "https://www.cnbc.com/2026/05/27/dicks-sporting-goods-dks-earnings-q1-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.7704,
         "score": 0.8667
       },
       {
-        "title": "China industrial profits jump 24.7% in April, fastest gain in over two years despite headwinds",
-        "url": "https://www.cnbc.com/2026/05/27/china-april-industrial-profits-growth.html",
-        "source": "CNBC Markets",
-        "weight": 0.7049,
+        "title": "Traders once again prefer dollars over bitcoin. USDT, USDC dominance rises.",
+        "url": "https://www.coindesk.com/daybook-us/2026/05/27/traders-once-again-prefer-dollars-over-bitcoin-usdt-usdc-dominance-rises",
+        "source": "CoinDesk",
+        "weight": 0.9822,
         "score": 0.6667
+      },
+      {
+        "title": "Crypto exchange HTX rejects U.K. sanction allegations, says it refused ruble stablecoin listing",
+        "url": "https://www.coindesk.com/markets/2026/05/27/crypto-exchange-htx-rejects-u-k-sanction-allegations-says-it-refused-ruble-stablecoin-listing",
+        "source": "CoinDesk",
+        "weight": 0.8155,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 25 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Investec Raises $43 Million in Debut Loss-Absorbing Debt Issue",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/investec-raises-43-million-in-debut-loss-absorbing-debt-issue",
+        "source": "Bloomberg Markets",
+        "weight": 0.7437,
+        "score": -1.0
       },
       {
-        "title": "Kardigan Files for IPO to Fund Cardiovascular Disease Treatment",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-26/kardigan-files-for-ipo-to-fund-cardiovascular-disease-treatment",
-        "source": "Bloomberg Markets",
-        "weight": 0.3633,
-        "score": -0.9333
+        "title": "DeFi isn't safe anymore because AI is becoming 'superhuman' at hacking, security chief warns",
+        "url": "https://www.coindesk.com/tech/2026/05/27/openzeppelin-ceo-says-ai-makes-defi-unsafe-as-over-usd1-billion-hacked-from-defi-in-last-year",
+        "source": "CoinDesk",
+        "weight": 0.7173,
+        "score": -1.0
       },
       {
-        "title": "Astellas Pharma Shares Fall After Unveiling Five-Year Plan",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/astellas-pharma-shares-fall-after-unveiling-five-year-plan",
-        "source": "Bloomberg Markets",
-        "weight": 0.5487,
-        "score": -0.6
+        "title": "South Korea charges CATFI memecoin operators in first DEX rug-pull case: Report",
+        "url": "https://cointelegraph.com/news/south-korea-first-arrest-memecoin-rug-pull-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7145,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "NEAR",
-          "volume_mcap_ratio": 0.36381741562287423,
-          "price_change_24h": -10.19406
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34848116861310674,
-          "price_change_24h": -0.04025
+          "volume_mcap_ratio": 0.3310943841452036,
+          "price_change_24h": -0.02792
         },
         {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.32822519357448626,
-          "price_change_24h": -0.02074
+          "symbol": "NEAR",
+          "volume_mcap_ratio": 0.31810445421641165,
+          "price_change_24h": -14.82336
         }
       ],
       "momentum_shifts": []
