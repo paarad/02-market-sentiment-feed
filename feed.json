@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-27T11:44:01.869258+00:00",
+  "updated_at": "2026-05-27T16:01:25.165511+00:00",
   "indicators": {
-    "change24h": 0.044,
-    "vol": 0.933,
+    "change24h": 0.01,
+    "vol": 0.359,
     "fearGreed": 25,
-    "momentum": 0.767,
+    "momentum": 0.17,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4022,
-    "global_sentiment": 0.5377,
-    "combined_sentiment": 0.4298,
-    "confidence": 0.7782,
+    "crypto_sentiment": 0.3605,
+    "global_sentiment": 0.4543,
+    "combined_sentiment": 0.3916,
+    "confidence": 0.8189,
     "counts": {
-      "crypto": 70,
-      "global": 43
+      "crypto": 53,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 75719,
-      "btc_change_24h": -1.85,
-      "eth_price": 2079.27,
-      "eth_change_24h": -1.91,
+      "btc_price": 75194,
+      "btc_change_24h": -1.51,
+      "eth_price": 2067.74,
+      "eth_change_24h": -0.79,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
+      "regime_strength": 0.8,
       "market_breadth": 0.35,
       "fear_greed": {
         "value": 25,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 146014051963.0,
+        "volume_24h": 148558157802.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.38,
+        "btc_dominance": 59.22,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-11T21:05:16.759753+00:00",
-      "crypto": 0.5414,
-      "global": 0.4697,
-      "combined": 0.5285,
-      "counts": {
-        "crypto": 46,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-05-11T21:22:33.902599+00:00",
       "crypto": 0.5099,
@@ -1008,52 +998,62 @@
         "crypto": 70,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-27T16:01:25.165511+00:00",
+      "crypto": 0.3605,
+      "global": 0.4543,
+      "combined": 0.3916,
+      "counts": {
+        "crypto": 53,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Foot Locker returns to growth but weighs on Dick's Sporting Goods as earnings miss",
-        "url": "https://www.cnbc.com/2026/05/27/dicks-sporting-goods-dks-earnings-q1-2026.html",
-        "source": "CNBC Markets",
-        "weight": 0.7704,
+        "title": "Short Sellers Are Betting Record Amounts Against Stocks. But the Market is Rallying On a Potential Deal Between Trump and Iran.",
+        "url": "https://247wallst.com/investing/2026/05/27/short-sellers-are-betting-record-amounts-against-stocks-but-the-market-is-rallying-on-a-potential-deal-between-trump-and-iran/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7316,
+        "score": 1.0
+      },
+      {
+        "title": "The Dow Is Leading. Wall Street Is Selling Winners and Buying Losers.",
+        "url": "https://finance.yahoo.com/m/4cea5982-41c5-3029-86ea-622cc16d03b6/the-dow-is-leading.-wall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7458,
         "score": 0.8667
       },
       {
-        "title": "Traders once again prefer dollars over bitcoin. USDT, USDC dominance rises.",
-        "url": "https://www.coindesk.com/daybook-us/2026/05/27/traders-once-again-prefer-dollars-over-bitcoin-usdt-usdc-dominance-rises",
-        "source": "CoinDesk",
-        "weight": 0.9822,
-        "score": 0.6667
-      },
-      {
-        "title": "Crypto exchange HTX rejects U.K. sanction allegations, says it refused ruble stablecoin listing",
-        "url": "https://www.coindesk.com/markets/2026/05/27/crypto-exchange-htx-rejects-u-k-sanction-allegations-says-it-refused-ruble-stablecoin-listing",
-        "source": "CoinDesk",
-        "weight": 0.8155,
-        "score": 0.6333
+        "title": "Foot Locker returns to growth but weighs on Dick's Sporting Goods as earnings miss",
+        "url": "https://www.cnbc.com/2026/05/27/dicks-sporting-goods-dks-earnings-q1-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.5661,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Investec Raises $43 Million in Debut Loss-Absorbing Debt Issue",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/investec-raises-43-million-in-debut-loss-absorbing-debt-issue",
-        "source": "Bloomberg Markets",
-        "weight": 0.7437,
-        "score": -1.0
+        "title": "GLP-1 Drugs Powered IHE's Big Year. IXJ Is Playing a Longer Game.",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/27/glp-1-drugs-powered-ihe-s-big-year-ixj-is-playing-a-longer-game/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7642,
+        "score": -0.9667
       },
       {
-        "title": "DeFi isn't safe anymore because AI is becoming 'superhuman' at hacking, security chief warns",
-        "url": "https://www.coindesk.com/tech/2026/05/27/openzeppelin-ceo-says-ai-makes-defi-unsafe-as-over-usd1-billion-hacked-from-defi-in-last-year",
-        "source": "CoinDesk",
-        "weight": 0.7173,
-        "score": -1.0
+        "title": "Bond Markets Are Testing the New Fed Chair. The Stock Rally Could Hinge on the Outcome.",
+        "url": "https://finance.yahoo.com/m/67e88fea-5b0c-3361-b165-d8d542a6cfdd/bond-markets-are-testing-the.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7662,
+        "score": -0.9333
       },
       {
-        "title": "South Korea charges CATFI memecoin operators in first DEX rug-pull case: Report",
-        "url": "https://cointelegraph.com/news/south-korea-first-arrest-memecoin-rug-pull-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7145,
+        "title": "Ethereum’s privacy push faces a 12-month deadline as markets reward privacy-first assets",
+        "url": "https://cryptoslate.com/ethereums-privacy-push-12-month-deadline-markets-reward-privacy-first/",
+        "source": "CryptoSlate",
+        "weight": 0.6868,
         "score": -1.0
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3310943841452036,
-          "price_change_24h": -0.02792
+          "volume_mcap_ratio": 0.33619136073573885,
+          "price_change_24h": -0.04226
         },
         {
-          "symbol": "NEAR",
-          "volume_mcap_ratio": 0.31810445421641165,
-          "price_change_24h": -14.82336
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.31236969779878454,
+          "price_change_24h": -0.05678
         }
       ],
       "momentum_shifts": []
