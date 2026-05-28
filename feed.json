@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-27T22:01:55.993561+00:00",
+  "updated_at": "2026-05-28T04:16:11.640861+00:00",
   "indicators": {
-    "change24h": 0.006,
-    "vol": 0.406,
-    "fearGreed": 25,
-    "momentum": 0.109,
-    "regime": "sideways",
+    "change24h": -0.022,
+    "vol": 0.395,
+    "fearGreed": 22,
+    "momentum": -0.389,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3459,
-    "global_sentiment": 0.4437,
-    "combined_sentiment": 0.3797,
-    "confidence": 0.7931,
+    "crypto_sentiment": 0.3637,
+    "global_sentiment": 0.5134,
+    "combined_sentiment": 0.3989,
+    "confidence": 0.7334,
     "counts": {
-      "crypto": 49,
-      "global": 35
+      "crypto": 50,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 74317,
-      "btc_change_24h": -2.03,
-      "eth_price": 2015.92,
-      "eth_change_24h": -2.72,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 72980,
+      "btc_change_24h": -3.25,
+      "eth_price": 1976.63,
+      "eth_change_24h": -4.17,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
-        "value": 25,
+        "value": 22,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 138692171615.0,
+        "volume_24h": 161814854806.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.23,
+        "btc_dominance": 59.13,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-12T06:41:28.502553+00:00",
-      "crypto": 0.5208,
-      "global": 0.5609,
-      "combined": 0.5207,
-      "counts": {
-        "crypto": 51,
-        "global": 33
-      }
-    },
     {
       "ts": "2026-05-12T10:38:10.618598+00:00",
       "crypto": 0.4346,
@@ -1008,61 +998,71 @@
         "crypto": 49,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-05-28T04:16:11.640861+00:00",
+      "crypto": 0.3637,
+      "global": 0.5134,
+      "combined": 0.3989,
+      "counts": {
+        "crypto": 50,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Three Charts Capturing Micron’s Record Rise to $1 Trillion",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/three-charts-capturing-micron-s-record-rise-to-1-trillion",
-        "source": "Bloomberg Markets",
-        "weight": 0.5801,
+        "title": "Analyst who predicted Micron rally has new message",
+        "url": "https://www.thestreet.com/investing/stocks/analyst-who-predicted-micron-rally-has-new-message?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5731,
         "score": 1.0
       },
       {
-        "title": "2 Reasons to Buy FedEx Stock Now, According to J.P. Morgan",
-        "url": "https://finance.yahoo.com/m/574208e1-fef2-3bbb-a150-f150235bab60/2-reasons-to-buy-fedex-stock.html?.tsrc=rss",
+        "title": "Wall St posts record closing highs despite pause in AI rally",
+        "url": "https://finance.yahoo.com/video/wall-st-posts-record-closing-225347299.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6885,
-        "score": 0.6667
+        "weight": 0.43,
+        "score": 0.95
       },
       {
-        "title": "Stocks are rallying despite the Iran war and stubborn inflation. Here's why.",
-        "url": "https://www.cbsnews.com/news/stock-market-high-nvidia-ai-economic-divide/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6797,
-        "score": 0.6667
+        "title": "PacSun 'Co-Creating' Brand to Reach Gen Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-27/pacsun-co-creating-brand-to-reach-gen-z-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3968,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "The 'K-Shaped' Economy Is Here: What Walmart And Ralph Lauren Just Revealed About The American Consumer",
-        "url": "https://finance.yahoo.com/economy/articles/k-shaped-economy-walmart-ralph-203032309.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6709,
-        "score": -0.9333
+        "title": "Fear & Greed 22 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Low-income households face ‘remarkable’ rise in food insecurity in K-shaped economy: New York Fed",
-        "url": "https://www.cnbc.com/2026/05/27/new-york-fed-food-insecurity-worsens-amid-k-shaped-economic-divide.html",
-        "source": "CNBC Markets",
-        "weight": 0.5793,
-        "score": -0.9667
+        "title": "Gold Extends Losses as US Strikes Dampen Iran Peace Talk Hopes",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-27/gold-holds-losses-as-us-iran-impasse-keeps-inflation-risk-high",
+        "source": "Bloomberg Markets",
+        "weight": 0.4572,
+        "score": -0.6667
       },
       {
-        "title": "SOXX vs. XLK: How Semiconductor Stocks Compare to Broader Tech Industry Diversification",
-        "url": "https://www.fool.com/coverage/etfs/2026/05/27/soxx-vs-xlk-how-semiconductor-stocks-compare-to-broader-tech-industry-diversification/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7802,
-        "score": -0.6333
+        "title": "Bitcoin miner inflows to Binance soar as BTC struggles to hold uptrend: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-miner-inflows-rise-to-20k-on-binance-can-btc-hold-its-daily-uptrend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4691,
+        "score": -0.6
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.31316528578125313,
-          "price_change_24h": -0.0135
+          "volume_mcap_ratio": 0.3656224321509505,
+          "price_change_24h": -0.01309
         }
       ],
       "momentum_shifts": []
