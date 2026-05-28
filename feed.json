@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-28T04:16:11.640861+00:00",
+  "updated_at": "2026-05-28T11:43:59.358183+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.395,
+    "change24h": -0.068,
+    "vol": 0.285,
     "fearGreed": 22,
-    "momentum": -0.389,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3637,
-    "global_sentiment": 0.5134,
-    "combined_sentiment": 0.3989,
-    "confidence": 0.7334,
+    "crypto_sentiment": 0.3093,
+    "global_sentiment": 0.4883,
+    "combined_sentiment": 0.356,
+    "confidence": 0.7454,
     "counts": {
       "crypto": 50,
-      "global": 37
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 72980,
-      "btc_change_24h": -3.25,
-      "eth_price": 1976.63,
-      "eth_change_24h": -4.17,
+      "btc_price": 73284,
+      "btc_change_24h": -3.2,
+      "eth_price": 1986.55,
+      "eth_change_24h": -4.46,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 161814854806.0,
-        "high_activity_coins": 1
+        "volume_24h": 170412713428.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.13,
+        "btc_dominance": 59.27,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-12T10:38:10.618598+00:00",
-      "crypto": 0.4346,
-      "global": 0.4977,
-      "combined": 0.4507,
-      "counts": {
-        "crypto": 57,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-05-12T14:40:03.379292+00:00",
       "crypto": 0.3672,
@@ -1008,61 +998,76 @@
         "crypto": 50,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-05-28T11:43:59.358183+00:00",
+      "crypto": 0.3093,
+      "global": 0.4883,
+      "combined": 0.356,
+      "counts": {
+        "crypto": 50,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Analyst who predicted Micron rally has new message",
-        "url": "https://www.thestreet.com/investing/stocks/analyst-who-predicted-micron-rally-has-new-message?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5731,
-        "score": 1.0
-      },
-      {
-        "title": "Wall St posts record closing highs despite pause in AI rally",
-        "url": "https://finance.yahoo.com/video/wall-st-posts-record-closing-225347299.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.43,
-        "score": 0.95
-      },
-      {
-        "title": "PacSun 'Co-Creating' Brand to Reach Gen Z",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-27/pacsun-co-creating-brand-to-reach-gen-z-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3968,
+        "title": "Rally in chip stocks becomes the most hated in history. Here's the data",
+        "url": "https://www.cnbc.com/2026/05/28/rally-in-chip-stocks-becomes-the-most-hated-in-history-heres-the-data.html",
+        "source": "CNBC Markets",
+        "weight": 0.7176,
         "score": 0.8667
+      },
+      {
+        "title": "Stocks are rallying despite the Iran war and stubborn inflation. Here's why.",
+        "url": "https://www.cbsnews.com/news/stock-market-high-nvidia-ai-economic-divide/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7821,
+        "score": 0.6667
+      },
+      {
+        "title": "Nomura Raises Annual Profit Target 50% After Record Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-28/nomura-raises-annual-profit-target-50-after-record-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.4769,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 22 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Two Things SpaceX Just Admitted Ahead of Its IPO That Wall Street Doesn’t Want You to Read",
+        "url": "https://247wallst.com/investing/2026/05/28/two-things-spacex-just-admitted-ahead-of-its-ipo-that-wall-street-doesnt-want-you-to-read/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.778,
+        "score": -0.9667
       },
       {
-        "title": "Gold Extends Losses as US Strikes Dampen Iran Peace Talk Hopes",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-27/gold-holds-losses-as-us-iran-impasse-keeps-inflation-risk-high",
-        "source": "Bloomberg Markets",
-        "weight": 0.4572,
-        "score": -0.6667
+        "title": "Markets Fall From Record Highs as U.S. and Iran Trade Strikes. Stock Futures Drop.",
+        "url": "https://finance.yahoo.com/m/f8afe3da-ebb4-3695-8cae-1b98b73a3d9e/markets-fall-from-record.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6643,
+        "score": -1.0
       },
       {
-        "title": "Bitcoin miner inflows to Binance soar as BTC struggles to hold uptrend: Is $70K next?",
-        "url": "https://cointelegraph.com/markets/bitcoin-miner-inflows-rise-to-20k-on-binance-can-btc-hold-its-daily-uptrend?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "BIS Project Agorá shows tokenized payments can settle in seconds",
+        "url": "https://cointelegraph.com/news/bis-40-banks-test-tokenized-system-cross-border-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4691,
-        "score": -0.6
+        "weight": 0.6411,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3656224321509505,
-          "price_change_24h": -0.01309
+          "volume_mcap_ratio": 0.38189440456540685,
+          "price_change_24h": -0.01994
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3497336327320628,
+          "price_change_24h": -0.06039
         }
       ],
       "momentum_shifts": []
