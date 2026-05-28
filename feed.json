@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-28T11:43:59.358183+00:00",
+  "updated_at": "2026-05-28T16:15:52.461346+00:00",
   "indicators": {
-    "change24h": -0.068,
-    "vol": 0.285,
+    "change24h": -0.026,
+    "vol": 0.435,
     "fearGreed": 22,
-    "momentum": -1.0,
+    "momentum": -0.464,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3093,
-    "global_sentiment": 0.4883,
-    "combined_sentiment": 0.356,
-    "confidence": 0.7454,
+    "crypto_sentiment": 0.3926,
+    "global_sentiment": 0.5838,
+    "combined_sentiment": 0.4264,
+    "confidence": 0.8084,
     "counts": {
       "crypto": 50,
-      "global": 43
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 73284,
-      "btc_change_24h": -3.2,
-      "eth_price": 1986.55,
-      "eth_change_24h": -4.46,
+      "btc_price": 72938,
+      "btc_change_24h": -2.98,
+      "eth_price": 1991.86,
+      "eth_change_24h": -3.7,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 170412713428.0,
+        "volume_24h": 169389132627.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.27,
+        "btc_dominance": 59.03,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-12T14:40:03.379292+00:00",
-      "crypto": 0.3672,
-      "global": 0.464,
-      "combined": 0.3974,
-      "counts": {
-        "crypto": 75,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-12T18:05:15.272876+00:00",
       "crypto": 0.3169,
@@ -1008,66 +998,76 @@
         "crypto": 50,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-05-28T16:15:52.461346+00:00",
+      "crypto": 0.3926,
+      "global": 0.5838,
+      "combined": 0.4264,
+      "counts": {
+        "crypto": 50,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Rally in chip stocks becomes the most hated in history. Here's the data",
-        "url": "https://www.cnbc.com/2026/05/28/rally-in-chip-stocks-becomes-the-most-hated-in-history-heres-the-data.html",
-        "source": "CNBC Markets",
-        "weight": 0.7176,
-        "score": 0.8667
-      },
-      {
-        "title": "Stocks are rallying despite the Iran war and stubborn inflation. Here's why.",
-        "url": "https://www.cbsnews.com/news/stock-market-high-nvidia-ai-economic-divide/?.tsrc=rss",
+        "title": "Oil Prices Fall As U.S., Iran May End 'Game Of Chicken'; S&P 500 Rises",
+        "url": "https://finance.yahoo.com/m/6db5ffe6-477f-320a-85df-81d6b9784fb8/oil-prices-fall-as-u.s.%2C-iran.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7821,
-        "score": 0.6667
+        "weight": 0.717,
+        "score": 1.0
       },
       {
-        "title": "Nomura Raises Annual Profit Target 50% After Record Year",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-28/nomura-raises-annual-profit-target-50-after-record-year",
+        "title": "Dollar Falls Against Major Peers on Report of US-Iran Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-28/dollar-falls-against-major-peers-on-report-of-us-iran-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.4769,
-        "score": 1.0
+        "weight": 0.7069,
+        "score": 0.9167
+      },
+      {
+        "title": "Snowflake, Micron, Unusual Machines, and More Stocks That Explain the Market Today",
+        "url": "https://finance.yahoo.com/m/bf8a1a7c-7d2a-3ee4-96b7-c9c69a4e73e7/snowflake%2C-micron%2C-unusual.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6351,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Two Things SpaceX Just Admitted Ahead of Its IPO That Wall Street Doesn’t Want You to Read",
-        "url": "https://247wallst.com/investing/2026/05/28/two-things-spacex-just-admitted-ahead-of-its-ipo-that-wall-street-doesnt-want-you-to-read/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.778,
-        "score": -0.9667
-      },
-      {
-        "title": "Markets Fall From Record Highs as U.S. and Iran Trade Strikes. Stock Futures Drop.",
-        "url": "https://finance.yahoo.com/m/f8afe3da-ebb4-3695-8cae-1b98b73a3d9e/markets-fall-from-record.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6643,
+        "title": "XRP drops to 16-week lows: Can price fall below $1?",
+        "url": "https://cointelegraph.com/markets/xrp-drops-to-a-16-week-lows-can-price-fall-below-1-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7113,
         "score": -1.0
       },
       {
-        "title": "BIS Project Agorá shows tokenized payments can settle in seconds",
-        "url": "https://cointelegraph.com/news/bis-40-banks-test-tokenized-system-cross-border-payment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6411,
+        "title": "Consumer Sector ETFs: XLY Offers Deeper Liquidity, While FDIS Provides Broader Diversification",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/28/consumer-sector-etfs-xly-offers-deeper-liquidity-while-fdis-provides-broader-diversification/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6401,
         "score": -0.9667
+      },
+      {
+        "title": "Bit Digital bought $20 million ETH for first time since October before 15% plunge",
+        "url": "https://www.coindesk.com/business/2026/05/27/bit-digital-bought-usd20-million-eth-for-first-time-since-october-before-15-plunge",
+        "source": "CoinDesk",
+        "weight": 0.8678,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38189440456540685,
-          "price_change_24h": -0.01994
+          "volume_mcap_ratio": 0.37438032281249917,
+          "price_change_24h": -0.01612
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3497336327320628,
-          "price_change_24h": -0.06039
+          "volume_mcap_ratio": 0.3030449483846288,
+          "price_change_24h": -0.02895
         }
       ],
       "momentum_shifts": []
