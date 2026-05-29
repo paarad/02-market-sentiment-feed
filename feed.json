@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-29T04:18:06.603246+00:00",
+  "updated_at": "2026-05-29T11:35:00.069580+00:00",
   "indicators": {
-    "change24h": 0.019,
-    "vol": 0.322,
+    "change24h": 0.038,
+    "vol": 0.283,
     "fearGreed": 23,
-    "momentum": 0.338,
+    "momentum": 0.659,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3533,
-    "global_sentiment": 0.5438,
-    "combined_sentiment": 0.3936,
-    "confidence": 0.7221,
+    "crypto_sentiment": 0.3818,
+    "global_sentiment": 0.5383,
+    "combined_sentiment": 0.4146,
+    "confidence": 0.7258,
     "counts": {
       "crypto": 52,
       "global": 50
     },
     "market_indicators": {
-      "btc_price": 73142,
-      "btc_change_24h": 0.32,
-      "eth_price": 1997.87,
-      "eth_change_24h": 1.21,
+      "btc_price": 73447,
+      "btc_change_24h": 0.29,
+      "eth_price": 2007.01,
+      "eth_change_24h": 1.09,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139372757064.0,
-        "high_activity_coins": 2
+        "volume_24h": 126903393360.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.08,
+        "btc_dominance": 59.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-13T04:00:59.622052+00:00",
-      "crypto": 0.3637,
-      "global": 0.4798,
-      "combined": 0.3961,
-      "counts": {
-        "crypto": 67,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-05-13T10:36:24.661748+00:00",
       "crypto": 0.3638,
@@ -1008,66 +998,71 @@
         "crypto": 52,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-05-29T11:35:00.069580+00:00",
+      "crypto": 0.3818,
+      "global": 0.5383,
+      "combined": 0.4146,
+      "counts": {
+        "crypto": 52,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dollar’s Monthly Rise Leaves Strategists Wary of Further Gains",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-29/dollar-s-monthly-rise-leaves-strategists-wary-of-further-gains",
-        "source": "Bloomberg Markets",
-        "weight": 0.5246,
-        "score": 0.8667
-      },
-      {
-        "title": "New Zealand Firms Slightly Less Gloomy as Costs Remain Elevated",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-29/new-zealand-firms-slightly-less-gloomy-as-costs-remain-elevated",
-        "source": "Bloomberg Markets",
-        "weight": 0.5807,
-        "score": 0.6667
-      },
-      {
-        "title": "Stock Market Today, May 28: Super Micro Computer Jumps After Collaboration With Taiwanese Authorities Thwarts Illegal Export Attempt",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/28/stock-market-today-may-28-super-micro-computer-jumps-after-collaboration-with-taiwanese-authorities-thwarts-illegal-export-attempt/?.tsrc=rss",
+        "title": "Robo.ai Inc. Has Regained Compliance with the Nasdaq Minimum Bid Price Requirement",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/robo-ai-inc-regained-compliance-095900567.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3838,
+        "weight": 0.665,
+        "score": 0.9667
+      },
+      {
+        "title": "Stock Futures Rise as Market Chases 9-Week Winning Run",
+        "url": "https://finance.yahoo.com/m/79140056-1754-39f5-9290-8aacaff010e0/stock-futures-rise-as-market.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6144,
         "score": 1.0
+      },
+      {
+        "title": "Nasdaq, S&P 500 Futures Rise Amid Iran Ceasefire Talks, Dell AI Rally: Why HPE, NOW, SMCI, ASTS, GME Are In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-rise-iran-ceasefire-dell-hpe-asts-smci-gme-stocks-to-watch/cZgS1WsRetw?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.583,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "DxSale drained for $7.3M in BNB Chain liquidity exploit",
+        "url": "https://cointelegraph.com/news/memecoin-platform-dxsale-drained-73m-1400-lps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8679,
+        "score": -1.0
       },
       {
-        "title": "Ferdinand Marcos Jr Addresses Spat with VP Duterte",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-29/ferdinand-marcos-jr-addresses-spat-with-vp-duterte-video",
+        "title": "BOE May Bear Temporary Above-Target Inflation to Support UK, Bailey Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-may-bear-temporary-inflation-to-support-uk-bailey-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6514,
-        "score": -0.6333
+        "weight": 0.6799,
+        "score": -0.9667
       },
       {
-        "title": "Asia markets rise as investors weigh Iran military activity against signs of temporary U.S.-Iran deal",
-        "url": "https://www.cnbc.com/2026/05/29/asia-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50-csi-300.html",
-        "source": "CNBC Markets",
-        "weight": 0.6538,
-        "score": -0.6
+        "title": "New lawsuit claims Satoshi Nakamoto’s Bitcoin is “Lost Property” worth under $10 per wallet",
+        "url": "https://cryptoslate.com/new-lawsuit-claims-satoshi-nakamotos-bitcoin-is-lost-property-worth-under-10-per-wallet/",
+        "source": "CryptoSlate",
+        "weight": 0.5062,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3803083006291228,
-          "price_change_24h": 0.03948
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3120256550006691,
-          "price_change_24h": 0.01672
+          "volume_mcap_ratio": 0.40291673625160745,
+          "price_change_24h": 0.01861
         }
       ],
       "momentum_shifts": []
