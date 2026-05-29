@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-29T15:58:51.590462+00:00",
+  "updated_at": "2026-05-29T18:40:07.988240+00:00",
   "indicators": {
-    "change24h": 0.039,
-    "vol": 0.214,
+    "change24h": 0.012,
+    "vol": 0.182,
     "fearGreed": 23,
-    "momentum": 0.678,
+    "momentum": 0.217,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.396,
-    "global_sentiment": 0.5332,
-    "combined_sentiment": 0.4247,
-    "confidence": 0.7925,
+    "crypto_sentiment": 0.3905,
+    "global_sentiment": 0.5433,
+    "combined_sentiment": 0.4215,
+    "confidence": 0.7733,
     "counts": {
-      "crypto": 69,
-      "global": 45
+      "crypto": 67,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 73710,
-      "btc_change_24h": 1.27,
-      "eth_price": 2027.34,
-      "eth_change_24h": 2.04,
+      "btc_price": 73701,
+      "btc_change_24h": 0.28,
+      "eth_price": 2021.33,
+      "eth_change_24h": 0.08,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 131851448538.0,
-        "high_activity_coins": 1
+        "volume_24h": 135956904815.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.04,
+        "btc_dominance": 59.05,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-13T14:50:16.132122+00:00",
-      "crypto": 0.4371,
-      "global": 0.462,
-      "combined": 0.4497,
-      "counts": {
-        "crypto": 47,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-05-13T18:06:28.760673+00:00",
       "crypto": 0.4374,
@@ -1008,29 +998,39 @@
         "crypto": 69,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-05-29T18:40:07.988240+00:00",
+      "crypto": 0.3905,
+      "global": 0.5433,
+      "combined": 0.4215,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Oil falls further, stocks mixed on US-Iran truce prospects",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-surge-oil-falls-030939720.html?.tsrc=rss",
+        "title": "3 Healthcare Stocks We Think Twice About",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/3-healthcare-stocks-think-twice-182438346.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6342,
+        "weight": 0.7765,
         "score": 1.0
       },
       {
-        "title": "BlackRock Scales Back Equities After ‘Generational’ Earnings",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-29/blackrock-scales-back-equities-after-generational-earnings",
-        "source": "Bloomberg Markets",
-        "weight": 0.6721,
+        "title": "Why Is The US Stock Market Up Today?",
+        "url": "https://beincrypto.com/why-us-stock-market-is-up-today/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7043,
         "score": 0.8667
       },
       {
-        "title": "Dell stock skyrockets 32%, heads for best day ever as AI server revenue soars",
-        "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
-        "source": "CNBC Markets",
-        "weight": 0.7866,
+        "title": "3 Reasons ITW is Risky and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-itw-risky-1-174438445.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7189,
         "score": 0.6667
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Live markets: Bitcoin shrugs off early decline, but two-month winning streak is in jeopardy",
         "url": "https://www.coindesk.com/markets/2026/05/29/live-markets-bitcoin-slides-further-putting-two-month-winning-streak-in-jeopardy",
         "source": "CoinDesk",
-        "weight": 0.8772,
+        "weight": 0.6431,
         "score": -1.0
       },
       {
-        "title": "DxSale drained for $7.3M in BNB Chain liquidity exploit",
-        "url": "https://cointelegraph.com/news/memecoin-platform-dxsale-drained-73m-1400-lps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5222,
-        "score": -1.0
+        "title": "U.S. regulator says 24/7 trading is great for crypto, may not be fit for other sectors",
+        "url": "https://www.coindesk.com/policy/2026/05/29/u-s-regulator-says-24-7-trading-is-great-for-crypto-may-not-be-fit-for-other-sectors",
+        "source": "CoinDesk",
+        "weight": 0.7779,
+        "score": -0.6333
       },
       {
-        "title": "Buy Or Sell Microsoft Stock At $425?",
-        "url": "https://www.trefis.com/articles/600803/buy-or-sell-microsoft-stock-at-425/2026-05-29?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6546,
+        "title": "BOE's Bailey Sees 'Signs of Strains' in Private Credit",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-sees-signs-of-strains-in-private-credit-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7171,
         "score": -0.6667
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.441115888219084,
-          "price_change_24h": 0.00644
+          "volume_mcap_ratio": 0.4319664715701913,
+          "price_change_24h": 0.00621
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3050594964731317,
+          "price_change_24h": 0.012
         }
       ],
       "momentum_shifts": []
