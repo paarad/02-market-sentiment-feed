@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-28T22:00:49.155443+00:00",
+  "updated_at": "2026-05-29T04:18:06.603246+00:00",
   "indicators": {
-    "change24h": 0.017,
-    "vol": 0.469,
-    "fearGreed": 22,
-    "momentum": 0.301,
+    "change24h": 0.019,
+    "vol": 0.322,
+    "fearGreed": 23,
+    "momentum": 0.338,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3689,
-    "global_sentiment": 0.5573,
-    "combined_sentiment": 0.4065,
-    "confidence": 0.8092,
+    "crypto_sentiment": 0.3533,
+    "global_sentiment": 0.5438,
+    "combined_sentiment": 0.3936,
+    "confidence": 0.7221,
     "counts": {
-      "crypto": 55,
-      "global": 51
+      "crypto": 52,
+      "global": 50
     },
     "market_indicators": {
-      "btc_price": 73740,
-      "btc_change_24h": -0.78,
-      "eth_price": 2018.18,
-      "eth_change_24h": 0.02,
+      "btc_price": 73142,
+      "btc_change_24h": 0.32,
+      "eth_price": 1997.87,
+      "eth_change_24h": 1.21,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 22,
+        "value": 23,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 164396467573.0,
+        "volume_24h": 139372757064.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.1,
+        "btc_dominance": 59.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-12T21:24:06.333184+00:00",
-      "crypto": 0.367,
-      "global": 0.4715,
-      "combined": 0.3979,
-      "counts": {
-        "crypto": 54,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-05-13T04:00:59.622052+00:00",
       "crypto": 0.3637,
@@ -1008,66 +998,76 @@
         "crypto": 55,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-05-29T04:18:06.603246+00:00",
+      "crypto": 0.3533,
+      "global": 0.5438,
+      "combined": 0.3936,
+      "counts": {
+        "crypto": 52,
+        "global": 50
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Snowflake, Unusual Machines, Nvidia, and More Stocks That Explain the Market Today",
-        "url": "https://finance.yahoo.com/m/bf8a1a7c-7d2a-3ee4-96b7-c9c69a4e73e7/snowflake%2C-unusual-machines%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6834,
-        "score": 1.0
+        "title": "Dollar’s Monthly Rise Leaves Strategists Wary of Further Gains",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/dollar-s-monthly-rise-leaves-strategists-wary-of-further-gains",
+        "source": "Bloomberg Markets",
+        "weight": 0.5246,
+        "score": 0.8667
       },
       {
-        "title": "Stock Market Today: Nasdaq Leads Rise To Record Highs On Iran Deal Hopes; Drone Stocks Fly High",
-        "url": "https://finance.yahoo.com/m/89986015-d42e-3d91-9468-8d525466b89c/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6776,
+        "title": "New Zealand Firms Slightly Less Gloomy as Costs Remain Elevated",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/new-zealand-firms-slightly-less-gloomy-as-costs-remain-elevated",
+        "source": "Bloomberg Markets",
+        "weight": 0.5807,
         "score": 0.6667
       },
       {
-        "title": "Can the OpenAI and Anthropic IPOs Live Up to Expectations?",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-28/can-openai-and-anthropic-ipos-live-up-to-expectations",
-        "source": "Bloomberg Markets",
-        "weight": 0.7118,
-        "score": 0.6333
+        "title": "Stock Market Today, May 28: Super Micro Computer Jumps After Collaboration With Taiwanese Authorities Thwarts Illegal Export Attempt",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/28/stock-market-today-may-28-super-micro-computer-jumps-after-collaboration-with-taiwanese-authorities-thwarts-illegal-export-attempt/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.3838,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Crypto trading firm FalconX confidentially files with SEC for IPO, hires bankers",
-        "url": "https://www.coindesk.com/business/2026/05/28/crypto-trading-firm-falconx-confidentially-files-with-sec-for-ipo-hires-bankers",
-        "source": "CoinDesk",
-        "weight": 0.7828,
-        "score": -0.9667
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "SpaceX Fever Accelerates Space ETFs, Weakness In Crypto ETF Flows | ETF IQ 5/28/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-28/etf-iq-5-28-2026-video",
+        "title": "Ferdinand Marcos Jr Addresses Spat with VP Duterte",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-29/ferdinand-marcos-jr-addresses-spat-with-vp-duterte-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6129,
-        "score": -0.9667
+        "weight": 0.6514,
+        "score": -0.6333
       },
       {
-        "title": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules",
-        "url": "https://www.coindesk.com/business/2026/05/28/unicredit-warns-europe-may-struggle-to-contain-crypto-bank-crisis-under-mica-rules",
-        "source": "CoinDesk",
-        "weight": 0.5501,
-        "score": -1.0
+        "title": "Asia markets rise as investors weigh Iran military activity against signs of temporary U.S.-Iran deal",
+        "url": "https://www.cnbc.com/2026/05/29/asia-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50-csi-300.html",
+        "source": "CNBC Markets",
+        "weight": 0.6538,
+        "score": -0.6
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.372872223224972,
-          "price_change_24h": 0.00336
+          "volume_mcap_ratio": 0.3803083006291228,
+          "price_change_24h": 0.03948
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3660281081211588,
-          "price_change_24h": 0.01164
+          "volume_mcap_ratio": 0.3120256550006691,
+          "price_change_24h": 0.01672
         }
       ],
       "momentum_shifts": []
