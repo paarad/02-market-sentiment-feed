@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-29T11:35:00.069580+00:00",
+  "updated_at": "2026-05-29T15:58:51.590462+00:00",
   "indicators": {
-    "change24h": 0.038,
-    "vol": 0.283,
+    "change24h": 0.039,
+    "vol": 0.214,
     "fearGreed": 23,
-    "momentum": 0.659,
+    "momentum": 0.678,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3818,
-    "global_sentiment": 0.5383,
-    "combined_sentiment": 0.4146,
-    "confidence": 0.7258,
+    "crypto_sentiment": 0.396,
+    "global_sentiment": 0.5332,
+    "combined_sentiment": 0.4247,
+    "confidence": 0.7925,
     "counts": {
-      "crypto": 52,
-      "global": 50
+      "crypto": 69,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 73447,
-      "btc_change_24h": 0.29,
-      "eth_price": 2007.01,
-      "eth_change_24h": 1.09,
+      "btc_price": 73710,
+      "btc_change_24h": 1.27,
+      "eth_price": 2027.34,
+      "eth_change_24h": 2.04,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 126903393360.0,
+        "volume_24h": 131851448538.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 59.11,
+        "btc_dominance": 59.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-13T10:36:24.661748+00:00",
-      "crypto": 0.3638,
-      "global": 0.4253,
-      "combined": 0.3917,
-      "counts": {
-        "crypto": 54,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-05-13T14:50:16.132122+00:00",
       "crypto": 0.4371,
@@ -1008,61 +998,71 @@
         "crypto": 52,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-05-29T15:58:51.590462+00:00",
+      "crypto": 0.396,
+      "global": 0.5332,
+      "combined": 0.4247,
+      "counts": {
+        "crypto": 69,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Robo.ai Inc. Has Regained Compliance with the Nasdaq Minimum Bid Price Requirement",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/robo-ai-inc-regained-compliance-095900567.html?.tsrc=rss",
+        "title": "Oil falls further, stocks mixed on US-Iran truce prospects",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-surge-oil-falls-030939720.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.665,
-        "score": 0.9667
-      },
-      {
-        "title": "Stock Futures Rise as Market Chases 9-Week Winning Run",
-        "url": "https://finance.yahoo.com/m/79140056-1754-39f5-9290-8aacaff010e0/stock-futures-rise-as-market.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6144,
+        "weight": 0.6342,
         "score": 1.0
       },
       {
-        "title": "Nasdaq, S&P 500 Futures Rise Amid Iran Ceasefire Talks, Dell AI Rally: Why HPE, NOW, SMCI, ASTS, GME Are In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-rise-iran-ceasefire-dell-hpe-asts-smci-gme-stocks-to-watch/cZgS1WsRetw?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.583,
-        "score": 0.5333
+        "title": "BlackRock Scales Back Equities After ‘Generational’ Earnings",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/blackrock-scales-back-equities-after-generational-earnings",
+        "source": "Bloomberg Markets",
+        "weight": 0.6721,
+        "score": 0.8667
+      },
+      {
+        "title": "Dell stock skyrockets 32%, heads for best day ever as AI server revenue soars",
+        "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+        "source": "CNBC Markets",
+        "weight": 0.7866,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Live markets: Bitcoin shrugs off early decline, but two-month winning streak is in jeopardy",
+        "url": "https://www.coindesk.com/markets/2026/05/29/live-markets-bitcoin-slides-further-putting-two-month-winning-streak-in-jeopardy",
+        "source": "CoinDesk",
+        "weight": 0.8772,
+        "score": -1.0
+      },
+      {
         "title": "DxSale drained for $7.3M in BNB Chain liquidity exploit",
         "url": "https://cointelegraph.com/news/memecoin-platform-dxsale-drained-73m-1400-lps?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8679,
+        "weight": 0.5222,
         "score": -1.0
       },
       {
-        "title": "BOE May Bear Temporary Above-Target Inflation to Support UK, Bailey Says",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-may-bear-temporary-inflation-to-support-uk-bailey-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6799,
-        "score": -0.9667
-      },
-      {
-        "title": "New lawsuit claims Satoshi Nakamoto’s Bitcoin is “Lost Property” worth under $10 per wallet",
-        "url": "https://cryptoslate.com/new-lawsuit-claims-satoshi-nakamotos-bitcoin-is-lost-property-worth-under-10-per-wallet/",
-        "source": "CryptoSlate",
-        "weight": 0.5062,
-        "score": -1.0
+        "title": "Buy Or Sell Microsoft Stock At $425?",
+        "url": "https://www.trefis.com/articles/600803/buy-or-sell-microsoft-stock-at-425/2026-05-29?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6546,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.40291673625160745,
-          "price_change_24h": 0.01861
+          "volume_mcap_ratio": 0.441115888219084,
+          "price_change_24h": 0.00644
         }
       ],
       "momentum_shifts": []
