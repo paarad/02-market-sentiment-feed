@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-29T18:40:07.988240+00:00",
+  "updated_at": "2026-05-29T21:28:13.675469+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.182,
+    "change24h": 0.017,
+    "vol": 0.278,
     "fearGreed": 23,
-    "momentum": 0.217,
+    "momentum": 0.293,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3905,
-    "global_sentiment": 0.5433,
-    "combined_sentiment": 0.4215,
-    "confidence": 0.7733,
+    "crypto_sentiment": 0.3922,
+    "global_sentiment": 0.547,
+    "combined_sentiment": 0.4231,
+    "confidence": 0.7811,
     "counts": {
-      "crypto": 67,
-      "global": 41
+      "crypto": 55,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 73701,
-      "btc_change_24h": 0.28,
-      "eth_price": 2021.33,
-      "eth_change_24h": 0.08,
+      "btc_price": 73490,
+      "btc_change_24h": -0.19,
+      "eth_price": 2010.74,
+      "eth_change_24h": -0.42,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 135956904815.0,
+        "volume_24h": 137819072719.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.05,
+        "btc_dominance": 59.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-13T18:06:28.760673+00:00",
-      "crypto": 0.4374,
-      "global": 0.552,
-      "combined": 0.4574,
-      "counts": {
-        "crypto": 48,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-05-13T21:10:58.935269+00:00",
       "crypto": 0.393,
@@ -1008,66 +998,76 @@
         "crypto": 67,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-29T21:28:13.675469+00:00",
+      "crypto": 0.3922,
+      "global": 0.547,
+      "combined": 0.4231,
+      "counts": {
+        "crypto": 55,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Healthcare Stocks We Think Twice About",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/3-healthcare-stocks-think-twice-182438346.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7765,
-        "score": 1.0
+        "title": "What to Know About the SpaceX IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/what-to-know-about-the-spacex-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.5872,
+        "score": 0.9667
       },
       {
-        "title": "Why Is The US Stock Market Up Today?",
-        "url": "https://beincrypto.com/why-us-stock-market-is-up-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7043,
-        "score": 0.8667
-      },
-      {
-        "title": "3 Reasons ITW is Risky and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-itw-risky-1-174438445.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7189,
+        "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
+        "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
+        "source": "CNBC Markets",
+        "weight": 0.6887,
         "score": 0.6667
+      },
+      {
+        "title": "Wall Street's Equity Benchmarks Close Out May at Record Highs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-apos-equity-benchmarks-205130144.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7454,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Live markets: Bitcoin shrugs off early decline, but two-month winning streak is in jeopardy",
-        "url": "https://www.coindesk.com/markets/2026/05/29/live-markets-bitcoin-slides-further-putting-two-month-winning-streak-in-jeopardy",
-        "source": "CoinDesk",
-        "weight": 0.6431,
-        "score": -1.0
+        "title": "EasyJet Draws Takeover Interest From Investment Firm Castlelake",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/castlelake-considers-making-offer-to-buy-uk-s-easyjet",
+        "source": "Bloomberg Markets",
+        "weight": 0.5943,
+        "score": -0.9333
       },
       {
-        "title": "U.S. regulator says 24/7 trading is great for crypto, may not be fit for other sectors",
-        "url": "https://www.coindesk.com/policy/2026/05/29/u-s-regulator-says-24-7-trading-is-great-for-crypto-may-not-be-fit-for-other-sectors",
-        "source": "CoinDesk",
-        "weight": 0.7779,
+        "title": "Treasury Secretary Bessent Says US Has 'Grabbed' $1 Billion in Crypto From Iran",
+        "url": "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran",
+        "source": "Decrypt",
+        "weight": 0.7755,
         "score": -0.6333
       },
       {
-        "title": "BOE's Bailey Sees 'Signs of Strains' in Private Credit",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-29/boe-s-bailey-sees-signs-of-strains-in-private-credit-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7171,
-        "score": -0.6667
+        "title": "S&P 500 Posts Monthly Gain to New High, Ninth Straight Weekly Rise",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-monthly-gain-204516218.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7365,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.4319664715701913,
-          "price_change_24h": 0.00621
+          "volume_mcap_ratio": 0.3891721296090965,
+          "price_change_24h": 0.03372
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3050594964731317,
-          "price_change_24h": 0.012
+          "volume_mcap_ratio": 0.304443735589647,
+          "price_change_24h": 0.01439
         }
       ],
       "momentum_shifts": []
