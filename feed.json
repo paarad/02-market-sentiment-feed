@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-30T10:05:58.976256+00:00",
+  "updated_at": "2026-05-30T13:55:22.384937+00:00",
   "indicators": {
-    "change24h": 0.031,
-    "vol": 0.256,
+    "change24h": 0.052,
+    "vol": 0.352,
     "fearGreed": 23,
-    "momentum": 0.541,
+    "momentum": 0.905,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4133,
-    "global_sentiment": 0.4917,
-    "combined_sentiment": 0.4343,
-    "confidence": 0.6395,
+    "crypto_sentiment": 0.378,
+    "global_sentiment": 0.3586,
+    "combined_sentiment": 0.3967,
+    "confidence": 0.654,
     "counts": {
-      "crypto": 57,
-      "global": 42
+      "crypto": 56,
+      "global": 29
     },
     "market_indicators": {
-      "btc_price": 73504,
-      "btc_change_24h": -0.14,
-      "eth_price": 2014.23,
-      "eth_change_24h": 0.16,
+      "btc_price": 73678,
+      "btc_change_24h": 0.93,
+      "eth_price": 2016.64,
+      "eth_change_24h": 1.07,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 124907495291.0,
-        "high_activity_coins": 1
+        "volume_24h": 118420425682.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.9,
+        "btc_dominance": 58.93,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-14T06:50:54.382365+00:00",
-      "crypto": 0.3897,
-      "global": 0.5133,
-      "combined": 0.4184,
-      "counts": {
-        "crypto": 50,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-05-14T10:26:30.662984+00:00",
       "crypto": 0.3752,
@@ -1008,38 +998,55 @@
         "crypto": 57,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-05-30T13:55:22.384937+00:00",
+      "crypto": 0.378,
+      "global": 0.3586,
+      "combined": 0.3967,
+      "counts": {
+        "crypto": 56,
+        "global": 29
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin, ether, XRP, dogecoin lag a nine-week stocks rally as ETF demand cools",
-        "url": "https://www.coindesk.com/markets/2026/05/30/bitcoin-ether-xrp-dogecoin-lag-a-nine-week-stocks-rally-as-etf-demand-cools",
-        "source": "CoinDesk",
-        "weight": 0.7211,
+        "title": "Global crypto market cap up 1.0% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "MiniMax Eyes China Listing, Takes on AI Rivals Like DeepSeek",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-30/minimax-plans-china-ipo-as-it-eyes-local-rivals-like-deepseek",
-        "source": "Bloomberg Markets",
-        "weight": 0.434,
-        "score": 0.6333
+        "title": "Bitcoin, ether, XRP, dogecoin lag a nine-week stocks rally as ETF demand cools",
+        "url": "https://www.coindesk.com/markets/2026/05/30/bitcoin-ether-xrp-dogecoin-lag-a-nine-week-stocks-rally-as-etf-demand-cools",
+        "source": "CoinDesk",
+        "weight": 0.4637,
+        "score": 0.5333
       },
       {
-        "title": "The Fed’s rate lever is breaking as bond markets stop following its lead",
-        "url": "https://cryptoslate.com/fed-interest-rate-lever-is-breaking/",
-        "source": "CryptoSlate",
-        "weight": 0.6638,
+        "title": "Meta has struggled at selling anything other than ads. Will AI be different?",
+        "url": "https://www.cnbc.com/2026/05/30/meta-struggled-selling-anything-other-than-ads-will-ai-be-different.html",
+        "source": "CNBC Markets",
+        "weight": 0.6407,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "US has seized nearly $1 billion in Iranian crypto, Treasury secretary says",
-        "url": "https://cointelegraph.com/news/us-has-seized-nearly-1-billion-in-iranian-crypto-treasury-secretary-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6757,
+        "title": "What Is an AI Prompt Injection Attack? The Hidden Threat Hijacking Your Chatbots",
+        "url": "https://decrypt.co/resources/what-is-ai-prompt-injection-attack",
+        "source": "Decrypt",
+        "weight": 0.7656,
+        "score": -1.0
+      },
+      {
+        "title": "Hegseth Reaffirms US Commitment to Pacific Allies",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-30/hegseth-reaffirms-us-commitment-to-pacific-allies-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7756,
         "score": -0.6333
       },
       {
@@ -1048,23 +1055,10 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Australia's Defense Minister Marles on Hormuz Uncertainty",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-30/australia-s-marles-on-hormuz-uncertainty-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6277,
-        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "XLM",
-          "volume_mcap_ratio": 0.3004881925205863,
-          "price_change_24h": 14.32804
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
