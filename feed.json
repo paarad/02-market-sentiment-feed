@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-30T13:55:22.384937+00:00",
+  "updated_at": "2026-05-30T17:16:37.800818+00:00",
   "indicators": {
-    "change24h": 0.052,
-    "vol": 0.352,
+    "change24h": 0.027,
+    "vol": 0.298,
     "fearGreed": 23,
-    "momentum": 0.905,
+    "momentum": 0.468,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.378,
-    "global_sentiment": 0.3586,
-    "combined_sentiment": 0.3967,
-    "confidence": 0.654,
+    "crypto_sentiment": 0.2502,
+    "global_sentiment": 0.4467,
+    "combined_sentiment": 0.3082,
+    "confidence": 0.6334,
     "counts": {
-      "crypto": 56,
-      "global": 29
+      "crypto": 55,
+      "global": 28
     },
     "market_indicators": {
-      "btc_price": 73678,
-      "btc_change_24h": 0.93,
-      "eth_price": 2016.64,
-      "eth_change_24h": 1.07,
+      "btc_price": 73801,
+      "btc_change_24h": -0.46,
+      "eth_price": 2023.12,
+      "eth_change_24h": -0.75,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.7,
+      "regime_strength": 0.8,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118420425682.0,
+        "volume_24h": 94959465091.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.93,
+        "btc_dominance": 58.8,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-14T10:26:30.662984+00:00",
-      "crypto": 0.3752,
-      "global": 0.5644,
-      "combined": 0.4117,
-      "counts": {
-        "crypto": 65,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-05-14T14:29:59.292741+00:00",
       "crypto": 0.4753,
@@ -1008,46 +998,56 @@
         "crypto": 56,
         "global": 29
       }
+    },
+    {
+      "ts": "2026-05-30T17:16:37.800818+00:00",
+      "crypto": 0.2502,
+      "global": 0.4467,
+      "combined": 0.3082,
+      "counts": {
+        "crypto": 55,
+        "global": 28
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.0% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "History Says the S&P 500’s 9-Week Rally Is Rare. It May Be Even Rarer Than You Think",
+        "url": "https://247wallst.com/investing/2026/05/30/history-says-the-sp-500s-9-week-rally-is-rare-it-may-be-even-rarer-than-you-think/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6019,
+        "score": 0.7
       },
       {
-        "title": "Bitcoin, ether, XRP, dogecoin lag a nine-week stocks rally as ETF demand cools",
-        "url": "https://www.coindesk.com/markets/2026/05/30/bitcoin-ether-xrp-dogecoin-lag-a-nine-week-stocks-rally-as-etf-demand-cools",
-        "source": "CoinDesk",
-        "weight": 0.4637,
-        "score": 0.5333
+        "title": "Bank of America resets Marvell stock price target after earnings",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-raises-marvell-stock-price-target-after-earnings?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6553,
+        "score": 0.3333
       },
       {
-        "title": "Meta has struggled at selling anything other than ads. Will AI be different?",
-        "url": "https://www.cnbc.com/2026/05/30/meta-struggled-selling-anything-other-than-ads-will-ai-be-different.html",
-        "source": "CNBC Markets",
-        "weight": 0.6407,
+        "title": "This Millennial University President Sees Running Grambling State Like an Enterprise",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-30/lemelle-running-grambling-state-like-an-enterprise-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.65,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "What Is an AI Prompt Injection Attack? The Hidden Threat Hijacking Your Chatbots",
-        "url": "https://decrypt.co/resources/what-is-ai-prompt-injection-attack",
-        "source": "Decrypt",
-        "weight": 0.7656,
+        "title": "Wall Street’s trillion-dollar dilemma: Why AI-powered hackers are keeping big banks off the blockchain",
+        "url": "https://www.coindesk.com/business/2026/05/28/defi-vulnerabilities-are-tradfi-biggest-blocker-as-protocols-hit-by-near-daily-exploits-certik",
+        "source": "CoinDesk",
+        "weight": 0.7687,
         "score": -1.0
       },
       {
-        "title": "Hegseth Reaffirms US Commitment to Pacific Allies",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-30/hegseth-reaffirms-us-commitment-to-pacific-allies-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7756,
-        "score": -0.6333
+        "title": "What Is an AI Prompt Injection Attack? The Hidden Threat Hijacking Your Chatbots",
+        "url": "https://decrypt.co/resources/what-is-ai-prompt-injection-attack",
+        "source": "Decrypt",
+        "weight": 0.5196,
+        "score": -1.0
       },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
