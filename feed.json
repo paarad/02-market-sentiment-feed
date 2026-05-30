@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-30T20:38:49.535628+00:00",
+  "updated_at": "2026-05-30T21:08:27.364291+00:00",
   "indicators": {
-    "change24h": 0.028,
-    "vol": 0.186,
+    "change24h": 0.026,
+    "vol": 0.183,
     "fearGreed": 23,
-    "momentum": 0.494,
+    "momentum": 0.45,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2373,
+    "crypto_sentiment": 0.3073,
     "global_sentiment": 0.4828,
-    "combined_sentiment": 0.3016,
-    "confidence": 0.6202,
+    "combined_sentiment": 0.354,
+    "confidence": 0.6516,
     "counts": {
-      "crypto": 54,
+      "crypto": 55,
       "global": 30
     },
     "market_indicators": {
-      "btc_price": 73853,
-      "btc_change_24h": 0.34,
-      "eth_price": 2024.38,
-      "eth_change_24h": 0.34,
+      "btc_price": 73867,
+      "btc_change_24h": 0.32,
+      "eth_price": 2024.63,
+      "eth_change_24h": 0.41,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 86905740393.0,
+        "volume_24h": 86306104432.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.77,
+        "btc_dominance": 58.78,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-14T17:59:21.916198+00:00",
-      "crypto": 0.534,
-      "global": 0.587,
-      "combined": 0.5327,
-      "counts": {
-        "crypto": 57,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-14T20:59:31.953397+00:00",
       "crypto": 0.4768,
@@ -1008,29 +998,39 @@
         "crypto": 54,
         "global": 30
       }
+    },
+    {
+      "ts": "2026-05-30T21:08:27.364291+00:00",
+      "crypto": 0.3073,
+      "global": 0.4828,
+      "combined": 0.354,
+      "counts": {
+        "crypto": 55,
+        "global": 30
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "History Says the S&P 500’s 9-Week Rally Is Rare. It May Be Even Rarer Than You Think",
         "url": "https://247wallst.com/investing/2026/05/30/history-says-the-sp-500s-9-week-rally-is-rare-it-may-be-even-rarer-than-you-think/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4078,
+        "weight": 0.3852,
         "score": 0.7
       },
       {
         "title": "Brazil Extends Measures to Limit Fuel Price Hikes by Two Months",
         "url": "https://www.bloomberg.com/news/articles/2026-05-30/brazil-extends-measures-to-limit-fuel-price-hikes-by-two-months",
         "source": "Bloomberg Markets",
-        "weight": 0.7253,
-        "score": 0.3333
-      },
-      {
-        "title": "Paramount Is Pulling Every Lever to Sell LBO Debt",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-30/paramount-is-pulling-every-lever-to-sell-lbo-debt-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.6614,
+        "weight": 0.685,
         "score": 0.3333
       }
     ],
@@ -1039,15 +1039,8 @@
         "title": "Wall Street’s trillion-dollar dilemma: Why AI-powered hackers are keeping big banks off the blockchain",
         "url": "https://www.coindesk.com/business/2026/05/28/defi-vulnerabilities-are-tradfi-biggest-blocker-as-protocols-hit-by-near-daily-exploits-certik",
         "source": "CoinDesk",
-        "weight": 0.5208,
+        "weight": 0.4919,
         "score": -1.0
-      },
-      {
-        "title": "SEC sues Texas man over $12.3 million alleged crypto scheme built on fake AI trading bots",
-        "url": "https://www.coindesk.com/business/2026/05/30/sec-sues-texas-man-over-usd12-3-million-alleged-crypto-scheme-built-on-fake-ai-trading-bots",
-        "source": "CoinDesk",
-        "weight": 0.6919,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
@@ -1055,6 +1048,13 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "SEC sues Texas man over $12.3 million alleged crypto scheme built on fake AI trading bots",
+        "url": "https://www.coindesk.com/business/2026/05/30/sec-sues-texas-man-over-usd12-3-million-alleged-crypto-scheme-built-on-fake-ai-trading-bots",
+        "source": "CoinDesk",
+        "weight": 0.6536,
+        "score": -0.6333
       }
     ],
     "market_movers": {
