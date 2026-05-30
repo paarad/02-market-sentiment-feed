@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-29T21:57:11.692616+00:00",
+  "updated_at": "2026-05-30T04:03:14.816412+00:00",
   "indicators": {
-    "change24h": 0.014,
-    "vol": 0.26,
+    "change24h": 0.077,
+    "vol": 0.614,
     "fearGreed": 23,
-    "momentum": 0.242,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3916,
-    "global_sentiment": 0.5548,
-    "combined_sentiment": 0.4233,
-    "confidence": 0.7716,
+    "crypto_sentiment": 0.3802,
+    "global_sentiment": 0.4827,
+    "combined_sentiment": 0.4087,
+    "confidence": 0.6638,
     "counts": {
       "crypto": 55,
-      "global": 41
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 73338,
-      "btc_change_24h": -0.54,
-      "eth_price": 2006.87,
-      "eth_change_24h": -0.56,
+      "btc_price": 73466,
+      "btc_change_24h": 0.28,
+      "eth_price": 2014.96,
+      "eth_change_24h": 0.68,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 137163064823.0,
+        "volume_24h": 137138067882.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 59.02,
+        "btc_dominance": 58.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-13T21:40:16.239862+00:00",
-      "crypto": 0.4097,
-      "global": 0.5388,
-      "combined": 0.4355,
-      "counts": {
-        "crypto": 50,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-05-14T03:59:50.983337+00:00",
       "crypto": 0.3814,
@@ -1008,52 +998,62 @@
         "crypto": 55,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-05-30T04:03:14.816412+00:00",
+      "crypto": 0.3802,
+      "global": 0.4827,
+      "combined": 0.4087,
+      "counts": {
+        "crypto": 55,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today, May 29: Markets Extend Gains as Dell Soars 33%",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/29/stock-market-today-may-29-markets-extend-gains-as-dell-soars-33/?.tsrc=rss",
+        "title": "Review & Preview: The Nasdaq’s Best 2 Months in Decades",
+        "url": "https://finance.yahoo.com/m/89517dcf-bdf3-3ed0-aa23-99f15b85b822/review-%26-preview%3A-the.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7714,
+        "weight": 0.496,
         "score": 0.8667
       },
       {
-        "title": "Dell stock skyrockets 32% for its best day ever as AI server revenue soars",
-        "url": "https://www.cnbc.com/2026/05/29/dell-stock-earnings-ai-servers.html",
-        "source": "CNBC Markets",
-        "weight": 0.6514,
-        "score": 0.6667
+        "title": "Asia Rice Surges 20% in May as War and Weather Threaten Output",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-29/asia-rice-surges-20-in-may-as-war-and-weather-threaten-output",
+        "source": "Bloomberg Markets",
+        "weight": 0.4462,
+        "score": 0.9
       },
       {
-        "title": "Wall Street's Equity Benchmarks Close Out May at Record Highs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-apos-equity-benchmarks-205130144.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7049,
-        "score": 0.5333
+        "title": "Wall Street Week | Britain’s Debt Problem, Poland’s Economic Boom",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-29/wall-street-week-britain-s-debt-problem-poland-s-boom-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4578,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "EasyJet Draws Takeover Interest From Investment Firm Castlelake",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-29/castlelake-considers-making-offer-to-buy-uk-s-easyjet",
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Hegseth Takes Swipe at European Defense Partners",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-30/hegseth-takes-swipe-at-european-defense-partners-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5621,
-        "score": -0.9333
+        "weight": 0.6729,
+        "score": -0.6333
       },
       {
-        "title": "Postal Service proposes requiring states to provide mail-in ballot voter lists",
-        "url": "https://www.cnbc.com/2026/05/29/postal-service-mail-in-ballot-voter-lists-trump.html",
-        "source": "CNBC Markets",
-        "weight": 0.7843,
-        "score": -0.6667
-      },
-      {
-        "title": "Treasury Secretary Bessent Says US Has 'Grabbed' $1 Billion in Crypto From Iran",
-        "url": "https://decrypt.co/369522/treasurys-bessent-says-us-grabbed-1-billion-crypto-iran",
-        "source": "Decrypt",
-        "weight": 0.7335,
+        "title": "Hegseth Speaks at Shangri-La Dialogue  (Full)",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-30/hegseth-speaks-at-shangri-la-dialogue-full-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6267,
         "score": -0.6333
       }
     ],
@@ -1061,13 +1061,13 @@
       "high_activity": [
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.36528735850144295,
-          "price_change_24h": 0.01655
+          "volume_mcap_ratio": 0.3177937805350004,
+          "price_change_24h": 0.0336
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.30443866600292246,
-          "price_change_24h": 0.01528
+          "volume_mcap_ratio": 0.30455279319279205,
+          "price_change_24h": 0.0203
         }
       ],
       "momentum_shifts": []
