@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-31T04:38:47.750529+00:00",
+  "updated_at": "2026-05-31T10:20:58.408047+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.348,
+    "change24h": 0.01,
+    "vol": 0.191,
     "fearGreed": 28,
-    "momentum": 0.207,
+    "momentum": 0.173,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3459,
-    "global_sentiment": 0.4699,
-    "combined_sentiment": 0.3819,
-    "confidence": 0.5611,
+    "crypto_sentiment": 0.4032,
+    "global_sentiment": 0.51,
+    "combined_sentiment": 0.4283,
+    "confidence": 0.5536,
     "counts": {
-      "crypto": 56,
+      "crypto": 55,
       "global": 33
     },
     "market_indicators": {
-      "btc_price": 74070,
-      "btc_change_24h": 1.2,
-      "eth_price": 2030.29,
-      "eth_change_24h": 1.37,
+      "btc_price": 73712,
+      "btc_change_24h": 0.23,
+      "eth_price": 2016.2,
+      "eth_change_24h": -0.06,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.6,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 80586574401.0,
+        "volume_24h": 77845460619.95,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.7,
+        "btc_dominance": 58.69,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-14T21:15:40.653344+00:00",
-      "crypto": 0.4866,
-      "global": 0.5897,
-      "combined": 0.4974,
-      "counts": {
-        "crypto": 57,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-05-15T04:04:46.473528+00:00",
       "crypto": 0.4327,
@@ -1008,53 +998,63 @@
         "crypto": 56,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-05-31T10:20:58.408047+00:00",
+      "crypto": 0.4032,
+      "global": 0.51,
+      "combined": 0.4283,
+      "counts": {
+        "crypto": 55,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Hyperliquid’s HYPE rally is bigger than a new all-time high",
+        "url": "https://cryptoslate.com/hyperliquid-hype-rally-etf-cftc-perps/",
+        "source": "CryptoSlate",
+        "weight": 0.7073,
+        "score": 0.8667
       },
       {
-        "title": "Nvidia’s latest product is a game-changer",
-        "url": "https://www.thestreet.com/investing/stocks/nvidias-latest-product-is-a-game-changer?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.528,
-        "score": 0.3333
+        "title": "Bitcoin sentiment reaches most ‘lopsided positive’ ratio for 2026: Santiment",
+        "url": "https://cointelegraph.com/news/crypto-sentiment-reaches-most-lopsided-positive-ratio-for-2026-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.486,
+        "score": 0.8667
       },
       {
-        "title": "Cathie Wood dumps $12 million in surging tech stock",
-        "url": "https://www.thestreet.com/crypto/markets/cathie-wood-sells-12-million-in-surging-stock?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4249,
-        "score": 0.3333
+        "title": "Saudi Contractor’s Owners Seek Up To $800 Million in Riyadh IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/saudi-contractor-s-owners-seek-up-to-800-million-in-riyadh-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.5323,
+        "score": 0.6333
       }
     ],
     "negative": [
+      {
+        "title": "Cosmos-based Gravity Bridge halts bridge after reported $5.4M exploit",
+        "url": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6811,
+        "score": -1.0
+      },
+      {
+        "title": "Singapore’s CapitaLand Sheds 10% of China Staff Amid Downturn",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/singapore-s-capitaland-sheds-10-of-china-staff-amid-downturn",
+        "source": "Bloomberg Markets",
+        "weight": 0.6828,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Philippines Seeks Closer Ties With China's Adversaries",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6309,
-        "score": -0.6333
-      },
-      {
-        "title": "Wall Street’s trillion-dollar dilemma: Why AI-powered hackers are keeping big banks off the blockchain",
-        "url": "https://www.coindesk.com/business/2026/05/28/defi-vulnerabilities-are-tradfi-biggest-blocker-as-protocols-hit-by-near-daily-exploits-certik",
-        "source": "CoinDesk",
-        "weight": 0.2067,
-        "score": -1.0
       }
     ],
     "market_movers": {
