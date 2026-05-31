@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-31T17:16:23.300586+00:00",
+  "updated_at": "2026-05-31T20:42:13.988458+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.085,
+    "change24h": -0.009,
+    "vol": 0.11,
     "fearGreed": 28,
-    "momentum": -0.269,
-    "regime": "sideways",
+    "momentum": -0.152,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.402,
-    "global_sentiment": 0.3524,
-    "combined_sentiment": 0.4142,
-    "confidence": 0.6197,
+    "crypto_sentiment": 0.4412,
+    "global_sentiment": 0.3477,
+    "combined_sentiment": 0.4432,
+    "confidence": 0.6117,
     "counts": {
-      "crypto": 57,
+      "crypto": 56,
       "global": 31
     },
     "market_indicators": {
-      "btc_price": 73416,
-      "btc_change_24h": -0.53,
-      "eth_price": 1997.77,
-      "eth_change_24h": -1.25,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 73582,
+      "btc_change_24h": -0.34,
+      "eth_price": 2000.74,
+      "eth_change_24h": -1.14,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 75967485605.28,
+        "volume_24h": 75706692483.28,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-15T14:23:55.862021+00:00",
-      "crypto": 0.4758,
-      "global": 0.4367,
-      "combined": 0.4765,
-      "counts": {
-        "crypto": 58,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-05-15T17:48:09.154941+00:00",
       "crypto": 0.4795,
@@ -1008,29 +998,39 @@
         "crypto": 57,
         "global": 31
       }
+    },
+    {
+      "ts": "2026-05-31T20:42:13.988458+00:00",
+      "crypto": 0.4412,
+      "global": 0.3477,
+      "combined": 0.4432,
+      "counts": {
+        "crypto": 56,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Kraken ‘plans’ regulated perp contracts as rivals are quick off the blocks",
+        "url": "https://cointelegraph.com/news/kraken-plans-regulated-perp-contracts-as-rivals-are-quick-off-the-blocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5633,
+        "score": 0.5833
+      },
+      {
         "title": "How a disputed $1 billion claim became a powerful weapon against prediction markets",
         "url": "https://cryptoslate.com/how-a-disputed-1-billion-claim-became-a-powerful-weapon-against-prediction-markets/",
         "source": "CryptoSlate",
-        "weight": 0.5832,
-        "score": 0.6667
-      },
-      {
-        "title": "Will higher treasury yields threaten the market’s climb?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/higher-treasury-yields-threaten-market-121509684.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4479,
+        "weight": 0.3924,
         "score": 0.6667
       },
       {
         "title": "Bitcoin preps 3% May downside, but US PMI data may boost BTC price",
         "url": "https://cointelegraph.com/markets/bitcoin-price-preps-3-may-downside-as-us-pmi-data-preps-potential-btc-price-boost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8945,
+        "weight": 0.6018,
         "score": 0.3333
       }
     ],
@@ -1039,22 +1039,22 @@
         "title": "First Trust (MISL) vs. ARK (ARKX): Which Space and Aerospace ETF Reigns Supreme?",
         "url": "https://www.fool.com/coverage/etfs/2026/05/31/first-trust-misl-vs-ark-arkx-which-space-and-aerospace-etf-reigns-supreme/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7635,
+        "weight": 0.5137,
         "score": -0.9667
       },
       {
-        "title": "How Stellar became part of DTCC's tokenization push for Wall Street securities onchain",
-        "url": "https://www.coindesk.com/business/2026/05/31/how-stellar-became-part-of-dtcc-s-tokenization-push-for-wall-street-securities-onchain",
-        "source": "CoinDesk",
-        "weight": 0.9689,
+        "title": "This Chinese Education Company Generated $1.4 Billion in Revenue. Why Did a Fund Sell 826,670 Shares?",
+        "url": "https://www.fool.com/coverage/filings/2026/05/31/this-chinese-education-company-generated-usd1-4-billion-in-revenue-why-did-a-fund-sell-826-670-shares/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6796,
         "score": -0.6333
       },
       {
-        "title": "Ukraine’s Drone Warfare Redefines Battlefield Dynamics",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-31/ukraine-s-drone-warfare-redefines-battlefield-dynamics-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6317,
-        "score": -0.9667
+        "title": "Fear & Greed 28 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
