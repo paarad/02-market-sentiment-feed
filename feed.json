@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-30T21:08:27.364291+00:00",
+  "updated_at": "2026-05-31T04:38:47.750529+00:00",
   "indicators": {
-    "change24h": 0.026,
-    "vol": 0.183,
-    "fearGreed": 23,
-    "momentum": 0.45,
+    "change24h": 0.012,
+    "vol": 0.348,
+    "fearGreed": 28,
+    "momentum": 0.207,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3073,
-    "global_sentiment": 0.4828,
-    "combined_sentiment": 0.354,
-    "confidence": 0.6516,
+    "crypto_sentiment": 0.3459,
+    "global_sentiment": 0.4699,
+    "combined_sentiment": 0.3819,
+    "confidence": 0.5611,
     "counts": {
-      "crypto": 55,
-      "global": 30
+      "crypto": 56,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 73867,
-      "btc_change_24h": 0.32,
-      "eth_price": 2024.63,
-      "eth_change_24h": 0.41,
+      "btc_price": 74070,
+      "btc_change_24h": 1.2,
+      "eth_price": 2030.29,
+      "eth_change_24h": 1.37,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.6,
       "fear_greed": {
-        "value": 23,
-        "classification": "Extreme Fear",
-        "trend": "declining"
+        "value": 28,
+        "classification": "Fear",
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 86306104432.0,
+        "volume_24h": 80586574401.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.78,
+        "btc_dominance": 58.7,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-14T20:59:31.953397+00:00",
-      "crypto": 0.4768,
-      "global": 0.5987,
-      "combined": 0.4908,
-      "counts": {
-        "crypto": 56,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-05-14T21:15:40.653344+00:00",
       "crypto": 0.4866,
@@ -1008,53 +998,63 @@
         "crypto": 55,
         "global": 30
       }
+    },
+    {
+      "ts": "2026-05-31T04:38:47.750529+00:00",
+      "crypto": 0.3459,
+      "global": 0.4699,
+      "combined": 0.3819,
+      "counts": {
+        "crypto": 56,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.2% — rally",
+        "title": "Global crypto market cap up 1.4% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "History Says the S&P 500’s 9-Week Rally Is Rare. It May Be Even Rarer Than You Think",
-        "url": "https://247wallst.com/investing/2026/05/30/history-says-the-sp-500s-9-week-rally-is-rare-it-may-be-even-rarer-than-you-think/?.tsrc=rss",
+        "title": "Nvidia’s latest product is a game-changer",
+        "url": "https://www.thestreet.com/investing/stocks/nvidias-latest-product-is-a-game-changer?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3852,
-        "score": 0.7
+        "weight": 0.528,
+        "score": 0.3333
       },
       {
-        "title": "Brazil Extends Measures to Limit Fuel Price Hikes by Two Months",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-30/brazil-extends-measures-to-limit-fuel-price-hikes-by-two-months",
-        "source": "Bloomberg Markets",
-        "weight": 0.685,
+        "title": "Cathie Wood dumps $12 million in surging tech stock",
+        "url": "https://www.thestreet.com/crypto/markets/cathie-wood-sells-12-million-in-surging-stock?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4249,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Wall Street’s trillion-dollar dilemma: Why AI-powered hackers are keeping big banks off the blockchain",
-        "url": "https://www.coindesk.com/business/2026/05/28/defi-vulnerabilities-are-tradfi-biggest-blocker-as-protocols-hit-by-near-daily-exploits-certik",
-        "source": "CoinDesk",
-        "weight": 0.4919,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 23 (Fear) — bearish",
+        "title": "Fear & Greed 28 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
       },
       {
-        "title": "SEC sues Texas man over $12.3 million alleged crypto scheme built on fake AI trading bots",
-        "url": "https://www.coindesk.com/business/2026/05/30/sec-sues-texas-man-over-usd12-3-million-alleged-crypto-scheme-built-on-fake-ai-trading-bots",
-        "source": "CoinDesk",
-        "weight": 0.6536,
+        "title": "Philippines Seeks Closer Ties With China's Adversaries",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6309,
         "score": -0.6333
+      },
+      {
+        "title": "Wall Street’s trillion-dollar dilemma: Why AI-powered hackers are keeping big banks off the blockchain",
+        "url": "https://www.coindesk.com/business/2026/05/28/defi-vulnerabilities-are-tradfi-biggest-blocker-as-protocols-hit-by-near-daily-exploits-certik",
+        "source": "CoinDesk",
+        "weight": 0.2067,
+        "score": -1.0
       }
     ],
     "market_movers": {
