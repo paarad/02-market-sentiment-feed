@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-31T10:20:58.408047+00:00",
+  "updated_at": "2026-05-31T14:00:39.516178+00:00",
   "indicators": {
-    "change24h": 0.01,
-    "vol": 0.191,
+    "change24h": 0.013,
+    "vol": 0.159,
     "fearGreed": 28,
-    "momentum": 0.173,
+    "momentum": 0.222,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4032,
-    "global_sentiment": 0.51,
-    "combined_sentiment": 0.4283,
-    "confidence": 0.5536,
+    "crypto_sentiment": 0.3394,
+    "global_sentiment": 0.4979,
+    "combined_sentiment": 0.3793,
+    "confidence": 0.5339,
     "counts": {
-      "crypto": 55,
-      "global": 33
+      "crypto": 54,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 73712,
-      "btc_change_24h": 0.23,
-      "eth_price": 2016.2,
-      "eth_change_24h": -0.06,
+      "btc_price": 73763,
+      "btc_change_24h": 0.05,
+      "eth_price": 2017.83,
+      "eth_change_24h": 0.0,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 77845460619.95,
+        "volume_24h": 77010473985.28,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.69,
+        "btc_dominance": 58.67,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-15T04:04:46.473528+00:00",
-      "crypto": 0.4327,
-      "global": 0.4758,
-      "combined": 0.4475,
-      "counts": {
-        "crypto": 58,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-05-15T10:32:59.530772+00:00",
       "crypto": 0.4014,
@@ -1008,30 +998,40 @@
         "crypto": 55,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-05-31T14:00:39.516178+00:00",
+      "crypto": 0.3394,
+      "global": 0.4979,
+      "combined": 0.3793,
+      "counts": {
+        "crypto": 54,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Will higher treasury yields threaten the market’s climb?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/higher-treasury-yields-threaten-market-121509684.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6529,
+        "score": 0.6667
+      },
+      {
         "title": "Hyperliquid’s HYPE rally is bigger than a new all-time high",
         "url": "https://cryptoslate.com/hyperliquid-hype-rally-etf-cftc-perps/",
         "source": "CryptoSlate",
-        "weight": 0.7073,
+        "weight": 0.4633,
         "score": 0.8667
       },
       {
-        "title": "Bitcoin sentiment reaches most ‘lopsided positive’ ratio for 2026: Santiment",
-        "url": "https://cointelegraph.com/news/crypto-sentiment-reaches-most-lopsided-positive-ratio-for-2026-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.486,
-        "score": 0.8667
-      },
-      {
-        "title": "Saudi Contractor’s Owners Seek Up To $800 Million in Riyadh IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/saudi-contractor-s-owners-seek-up-to-800-million-in-riyadh-ipo",
+        "title": "AI Bubble Debate Gets Real as Chip Stocks Rally Turns Historic",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/ai-bubble-debate-gets-real-as-chip-stocks-rally-turns-historic",
         "source": "Bloomberg Markets",
-        "weight": 0.5323,
-        "score": 0.6333
+        "weight": 0.712,
+        "score": 0.5333
       }
     ],
     "negative": [
@@ -1039,15 +1039,8 @@
         "title": "Cosmos-based Gravity Bridge halts bridge after reported $5.4M exploit",
         "url": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6811,
+        "weight": 0.4462,
         "score": -1.0
-      },
-      {
-        "title": "Singapore’s CapitaLand Sheds 10% of China Staff Amid Downturn",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/singapore-s-capitaland-sheds-10-of-china-staff-amid-downturn",
-        "source": "Bloomberg Markets",
-        "weight": 0.6828,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
@@ -1055,6 +1048,13 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "The US says it grabbed Iran’s crypto in a $1B seizure – will it end up in Trump’s Bitcoin Reserve?",
+        "url": "https://cryptoslate.com/the-us-says-it-grabbed-irans-crypto-in-a-1b-seizure-will-it-end-up-in-trumps-bitcoin-reserve/",
+        "source": "CryptoSlate",
+        "weight": 0.6011,
+        "score": -0.6333
       }
     ],
     "market_movers": {
