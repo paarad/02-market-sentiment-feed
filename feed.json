@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-31T20:42:13.988458+00:00",
+  "updated_at": "2026-05-31T21:08:47.147016+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.11,
+    "change24h": -0.006,
+    "vol": 0.12,
     "fearGreed": 28,
-    "momentum": -0.152,
-    "regime": "bear",
+    "momentum": -0.106,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4412,
-    "global_sentiment": 0.3477,
-    "combined_sentiment": 0.4432,
-    "confidence": 0.6117,
+    "crypto_sentiment": 0.4393,
+    "global_sentiment": 0.3675,
+    "combined_sentiment": 0.4434,
+    "confidence": 0.6045,
     "counts": {
       "crypto": 56,
       "global": 31
     },
     "market_indicators": {
-      "btc_price": 73582,
+      "btc_price": 73620,
       "btc_change_24h": -0.34,
-      "eth_price": 2000.74,
-      "eth_change_24h": -1.14,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "eth_price": 2002.87,
+      "eth_change_24h": -1.08,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 75706692483.28,
+        "volume_24h": 74766085669.28,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-15T17:48:09.154941+00:00",
-      "crypto": 0.4795,
-      "global": 0.4593,
-      "combined": 0.4813,
-      "counts": {
-        "crypto": 69,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-15T20:43:50.311310+00:00",
       "crypto": 0.4755,
@@ -1008,6 +998,16 @@
         "crypto": 56,
         "global": 31
       }
+    },
+    {
+      "ts": "2026-05-31T21:08:47.147016+00:00",
+      "crypto": 0.4393,
+      "global": 0.3675,
+      "combined": 0.4434,
+      "counts": {
+        "crypto": 56,
+        "global": 31
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Kraken ‘plans’ regulated perp contracts as rivals are quick off the blocks",
         "url": "https://cointelegraph.com/news/kraken-plans-regulated-perp-contracts-as-rivals-are-quick-off-the-blocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.5633,
+        "weight": 0.5352,
         "score": 0.5833
       },
       {
         "title": "How a disputed $1 billion claim became a powerful weapon against prediction markets",
         "url": "https://cryptoslate.com/how-a-disputed-1-billion-claim-became-a-powerful-weapon-against-prediction-markets/",
         "source": "CryptoSlate",
-        "weight": 0.3924,
+        "weight": 0.3728,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin preps 3% May downside, but US PMI data may boost BTC price",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-preps-3-may-downside-as-us-pmi-data-preps-potential-btc-price-boost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6018,
-        "score": 0.3333
+        "title": "SpaceX’s IPO Forces Wall Street to Reorganize Around It",
+        "url": "https://www.bloomberg.com/news/features/2026-05-31/spacex-s-ipo-led-by-elon-musk-forces-index-funds-and-retail-to-change-the-rules",
+        "source": "Bloomberg Markets",
+        "weight": 0.7868,
+        "score": 0.3
       }
     ],
     "negative": [
@@ -1039,15 +1039,8 @@
         "title": "First Trust (MISL) vs. ARK (ARKX): Which Space and Aerospace ETF Reigns Supreme?",
         "url": "https://www.fool.com/coverage/etfs/2026/05/31/first-trust-misl-vs-ark-arkx-which-space-and-aerospace-etf-reigns-supreme/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5137,
+        "weight": 0.4881,
         "score": -0.9667
-      },
-      {
-        "title": "This Chinese Education Company Generated $1.4 Billion in Revenue. Why Did a Fund Sell 826,670 Shares?",
-        "url": "https://www.fool.com/coverage/filings/2026/05/31/this-chinese-education-company-generated-usd1-4-billion-in-revenue-why-did-a-fund-sell-826-670-shares/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6796,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 28 (Fear) — bearish",
@@ -1055,6 +1048,13 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "This Chinese Education Company Generated $1.4 Billion in Revenue. Why Did a Fund Sell 826,670 Shares?",
+        "url": "https://www.fool.com/coverage/filings/2026/05/31/this-chinese-education-company-generated-usd1-4-billion-in-revenue-why-did-a-fund-sell-826-670-shares/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6457,
+        "score": -0.6333
       }
     ],
     "market_movers": {
