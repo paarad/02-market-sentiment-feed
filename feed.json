@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-05-31T14:00:39.516178+00:00",
+  "updated_at": "2026-05-31T17:16:23.300586+00:00",
   "indicators": {
-    "change24h": 0.013,
-    "vol": 0.159,
+    "change24h": -0.015,
+    "vol": 0.085,
     "fearGreed": 28,
-    "momentum": 0.222,
+    "momentum": -0.269,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3394,
-    "global_sentiment": 0.4979,
-    "combined_sentiment": 0.3793,
-    "confidence": 0.5339,
+    "crypto_sentiment": 0.402,
+    "global_sentiment": 0.3524,
+    "combined_sentiment": 0.4142,
+    "confidence": 0.6197,
     "counts": {
-      "crypto": 54,
-      "global": 34
+      "crypto": 57,
+      "global": 31
     },
     "market_indicators": {
-      "btc_price": 73763,
-      "btc_change_24h": 0.05,
-      "eth_price": 2017.83,
-      "eth_change_24h": 0.0,
+      "btc_price": 73416,
+      "btc_change_24h": -0.53,
+      "eth_price": 1997.77,
+      "eth_change_24h": -1.25,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 28,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 77010473985.28,
+        "volume_24h": 75967485605.28,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 58.67,
+        "btc_dominance": 58.77,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-15T10:32:59.530772+00:00",
-      "crypto": 0.4014,
-      "global": 0.5006,
-      "combined": 0.4261,
-      "counts": {
-        "crypto": 68,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-15T14:23:55.862021+00:00",
       "crypto": 0.4758,
@@ -1008,53 +998,63 @@
         "crypto": 54,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-05-31T17:16:23.300586+00:00",
+      "crypto": 0.402,
+      "global": 0.3524,
+      "combined": 0.4142,
+      "counts": {
+        "crypto": 57,
+        "global": 31
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Will higher treasury yields threaten the market’s climb?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/higher-treasury-yields-threaten-market-121509684.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6529,
+        "title": "How a disputed $1 billion claim became a powerful weapon against prediction markets",
+        "url": "https://cryptoslate.com/how-a-disputed-1-billion-claim-became-a-powerful-weapon-against-prediction-markets/",
+        "source": "CryptoSlate",
+        "weight": 0.5832,
         "score": 0.6667
       },
       {
-        "title": "Hyperliquid’s HYPE rally is bigger than a new all-time high",
-        "url": "https://cryptoslate.com/hyperliquid-hype-rally-etf-cftc-perps/",
-        "source": "CryptoSlate",
-        "weight": 0.4633,
-        "score": 0.8667
+        "title": "Will higher treasury yields threaten the market’s climb?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/higher-treasury-yields-threaten-market-121509684.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4479,
+        "score": 0.6667
       },
       {
-        "title": "AI Bubble Debate Gets Real as Chip Stocks Rally Turns Historic",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-31/ai-bubble-debate-gets-real-as-chip-stocks-rally-turns-historic",
-        "source": "Bloomberg Markets",
-        "weight": 0.712,
-        "score": 0.5333
+        "title": "Bitcoin preps 3% May downside, but US PMI data may boost BTC price",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-preps-3-may-downside-as-us-pmi-data-preps-potential-btc-price-boost?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8945,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Cosmos-based Gravity Bridge halts bridge after reported $5.4M exploit",
-        "url": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4462,
-        "score": -1.0
+        "title": "First Trust (MISL) vs. ARK (ARKX): Which Space and Aerospace ETF Reigns Supreme?",
+        "url": "https://www.fool.com/coverage/etfs/2026/05/31/first-trust-misl-vs-ark-arkx-which-space-and-aerospace-etf-reigns-supreme/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7635,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 28 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "The US says it grabbed Iran’s crypto in a $1B seizure – will it end up in Trump’s Bitcoin Reserve?",
-        "url": "https://cryptoslate.com/the-us-says-it-grabbed-irans-crypto-in-a-1b-seizure-will-it-end-up-in-trumps-bitcoin-reserve/",
-        "source": "CryptoSlate",
-        "weight": 0.6011,
+        "title": "How Stellar became part of DTCC's tokenization push for Wall Street securities onchain",
+        "url": "https://www.coindesk.com/business/2026/05/31/how-stellar-became-part-of-dtcc-s-tokenization-push-for-wall-street-securities-onchain",
+        "source": "CoinDesk",
+        "weight": 0.9689,
         "score": -0.6333
+      },
+      {
+        "title": "Ukraine’s Drone Warfare Redefines Battlefield Dynamics",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/ukraine-s-drone-warfare-redefines-battlefield-dynamics-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6317,
+        "score": -0.9667
       }
     ],
     "market_movers": {
