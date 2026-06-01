@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-01T20:21:10.044212+00:00",
+  "updated_at": "2026-06-01T22:25:51.909341+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.154,
+    "change24h": -0.037,
+    "vol": 0.143,
     "fearGreed": 29,
-    "momentum": -0.11,
-    "regime": "sideways",
+    "momentum": -0.65,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3221,
-    "global_sentiment": 0.5431,
-    "combined_sentiment": 0.3702,
-    "confidence": 0.7658,
+    "crypto_sentiment": 0.3524,
+    "global_sentiment": 0.5226,
+    "combined_sentiment": 0.3912,
+    "confidence": 0.7797,
     "counts": {
-      "crypto": 53,
-      "global": 45
+      "crypto": 54,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 71519,
-      "btc_change_24h": -2.84,
-      "eth_price": 2001.36,
-      "eth_change_24h": 0.02,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "btc_price": 71081,
+      "btc_change_24h": -3.63,
+      "eth_price": 1992.98,
+      "eth_change_24h": -0.65,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 29,
         "classification": "Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 180406066607.0,
+        "volume_24h": 183525106477.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 58.09,
+        "btc_dominance": 58.04,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-16T06:27:24.465241+00:00",
-      "crypto": 0.4444,
-      "global": 0.3965,
-      "combined": 0.4497,
-      "counts": {
-        "crypto": 54,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-05-16T09:46:59.996330+00:00",
       "crypto": 0.4727,
@@ -1008,66 +998,76 @@
         "crypto": 53,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-06-01T22:25:51.909341+00:00",
+      "crypto": 0.3524,
+      "global": 0.5226,
+      "combined": 0.3912,
+      "counts": {
+        "crypto": 54,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Retail Traders Shut Out of SpaceX IPO Are Finding Ways In",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-01/retail-traders-shut-out-of-spacex-ipo-finding-ways-in-video",
+        "title": "Dogecoin gains Paxos support in push for broader institutional adoption",
+        "url": "https://cointelegraph.com/news/paxos-doge-support-dogecoin-broader-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7484,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today, June 1: Hewlett Packard Enterprise Jumps After Beating Revenue and Earnings Forecasts",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/01/stock-market-today-june-1-hewlett-packard-enterprise-jumps-after-beating-revenue-and-earnings-forecasts/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.684,
+        "score": 0.6667
+      },
+      {
+        "title": "Can the OpenAI and Anthropic IPOs Live Up to Expectations?",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/can-openai-and-anthropic-ipos-live-up-to-expectations",
         "source": "Bloomberg Markets",
-        "weight": 0.7604,
-        "score": 0.6667
-      },
-      {
-        "title": "3 Reasons to Avoid PII and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-pii-1-191251397.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7014,
-        "score": 0.6667
-      },
-      {
-        "title": "3 Reasons to Sell FLG and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-flg-1-184051998.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6595,
-        "score": 0.6667
+        "weight": 0.6806,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "U.S. Health Care Depth or Global Industry Reach? VHT vs. IXJ",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/01/u-s-health-care-depth-or-global-industry-reach-vht-vs-ixj/?.tsrc=rss",
+        "title": "Oil Holds Gains, US Futures Slip on War Confusion: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-01/oil-holds-gains-us-futures-slip-on-war-confusion-markets-wrap",
+        "source": "Bloomberg Markets",
+        "weight": 0.7795,
+        "score": -0.6
+      },
+      {
+        "title": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+        "url": "https://finance.yahoo.com/m/7bb1373a-f262-3051-99f7-aac8a66931b3/dow-jones-futures%3A-broadcom%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7229,
-        "score": -1.0
+        "weight": 0.7307,
+        "score": -0.6333
       },
       {
         "title": "Sell Coinbase Before Derivatives Squeeze Crypto Giant, Says Compass Point",
         "url": "https://decrypt.co/369651/sell-coinbase-before-derivatives-squeeze-crypto-giant-compass-point",
         "source": "Decrypt",
-        "weight": 0.6746,
+        "weight": 0.5306,
         "score": -0.8667
-      },
-      {
-        "title": "Crypto funds suffer second-largest outflows of 2026 while XRP and HYPE attract inflows",
-        "url": "https://www.coindesk.com/markets/2026/06/01/crypto-funds-suffer-second-largest-outflows-of-2026-while-xrp-and-hype-attract-inflows",
-        "source": "CoinDesk",
-        "weight": 0.9128,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.40606038519671983,
-          "price_change_24h": 0.01845
+          "volume_mcap_ratio": 0.41564750830479275,
+          "price_change_24h": 0.01441
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3444843830021168,
-          "price_change_24h": -0.00274
+          "volume_mcap_ratio": 0.3449720822904725,
+          "price_change_24h": 0.00703
         }
       ],
       "momentum_shifts": []
