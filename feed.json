@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-01T22:25:51.909341+00:00",
+  "updated_at": "2026-06-02T04:46:52.698821+00:00",
   "indicators": {
-    "change24h": -0.037,
-    "vol": 0.143,
-    "fearGreed": 29,
-    "momentum": -0.65,
-    "regime": "bear",
+    "change24h": -0.032,
+    "vol": 0.189,
+    "fearGreed": 23,
+    "momentum": -0.564,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3524,
-    "global_sentiment": 0.5226,
-    "combined_sentiment": 0.3912,
-    "confidence": 0.7797,
+    "crypto_sentiment": 0.3376,
+    "global_sentiment": 0.5329,
+    "combined_sentiment": 0.3809,
+    "confidence": 0.7007,
     "counts": {
-      "crypto": 54,
-      "global": 43
+      "crypto": 67,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 71081,
-      "btc_change_24h": -3.63,
-      "eth_price": 1992.98,
-      "eth_change_24h": -0.65,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 70906,
+      "btc_change_24h": -3.28,
+      "eth_price": 1998.51,
+      "eth_change_24h": 0.21,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 29,
-        "classification": "Fear",
+        "value": 23,
+        "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 183525106477.0,
-        "high_activity_coins": 2
+        "volume_24h": 189304340429.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 58.04,
+        "btc_dominance": 57.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-16T09:46:59.996330+00:00",
-      "crypto": 0.4727,
-      "global": 0.4661,
-      "combined": 0.4767,
-      "counts": {
-        "crypto": 53,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-05-16T13:47:32.008767+00:00",
       "crypto": 0.4216,
@@ -1008,66 +998,81 @@
         "crypto": 54,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-06-02T04:46:52.698821+00:00",
+      "crypto": 0.3376,
+      "global": 0.5329,
+      "combined": 0.3809,
+      "counts": {
+        "crypto": 67,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dogecoin gains Paxos support in push for broader institutional adoption",
-        "url": "https://cointelegraph.com/news/paxos-doge-support-dogecoin-broader-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7484,
-        "score": 1.0
-      },
-      {
-        "title": "Stock Market Today, June 1: Hewlett Packard Enterprise Jumps After Beating Revenue and Earnings Forecasts",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/01/stock-market-today-june-1-hewlett-packard-enterprise-jumps-after-beating-revenue-and-earnings-forecasts/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.684,
+        "title": "China’s Solar Industry Launches Space Alliance With Few Details",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-02/china-s-solar-industry-launches-space-alliance-with-few-details",
+        "source": "Bloomberg Markets",
+        "weight": 0.7565,
         "score": 0.6667
       },
       {
-        "title": "Can the OpenAI and Anthropic IPOs Live Up to Expectations?",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/can-openai-and-anthropic-ipos-live-up-to-expectations",
+        "title": "Arm CEO Haas on Agentic AI and Taiwan's Ecosystem",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-02/arm-ceo-haas-on-agentic-ai-and-taiwan-s-ecosystem-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6806,
-        "score": 0.6333
+        "weight": 0.7375,
+        "score": 0.6667
+      },
+      {
+        "title": "Asian shares mostly slip as latest fighting undermines the US-Iran ceasefire.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-slip-latest-033821366.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7011,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Oil Holds Gains, US Futures Slip on War Confusion: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-01/oil-holds-gains-us-futures-slip-on-war-confusion-markets-wrap",
+        "title": "Billionaire Kazakh Brokerage CEO Gets SEC Enforcement Warning",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-02/billionaire-kazakh-brokerage-ceo-gets-sec-enforcement-warning",
         "source": "Bloomberg Markets",
-        "weight": 0.7795,
-        "score": -0.6
+        "weight": 0.5247,
+        "score": -0.9667
       },
       {
-        "title": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
-        "url": "https://finance.yahoo.com/m/7bb1373a-f262-3051-99f7-aac8a66931b3/dow-jones-futures%3A-broadcom%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7307,
+        "title": "Trump administration proposes 25% tariff on Brazilian goods over unfair trade practices",
+        "url": "https://www.cnbc.com/2026/06/02/trump-proposes-25-tariff-on-brazil.html",
+        "source": "CNBC Markets",
+        "weight": 0.7829,
         "score": -0.6333
       },
       {
-        "title": "Sell Coinbase Before Derivatives Squeeze Crypto Giant, Says Compass Point",
-        "url": "https://decrypt.co/369651/sell-coinbase-before-derivatives-squeeze-crypto-giant-compass-point",
-        "source": "Decrypt",
-        "weight": 0.5306,
-        "score": -0.8667
+        "title": "Poland Set to Hold Interest Rates After Inflation Pressure Cools",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-02/poland-set-to-hold-interest-rates-after-inflation-pressure-cools",
+        "source": "Bloomberg Markets",
+        "weight": 0.731,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41564750830479275,
-          "price_change_24h": 0.01441
+          "volume_mcap_ratio": 0.4343395711190439,
+          "price_change_24h": -0.01221
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3449720822904725,
-          "price_change_24h": 0.00703
+          "volume_mcap_ratio": 0.39236483884035156,
+          "price_change_24h": -0.06134
+        },
+        {
+          "symbol": "NEAR",
+          "volume_mcap_ratio": 0.31082674375495867,
+          "price_change_24h": 15.95142
         }
       ],
       "momentum_shifts": []
