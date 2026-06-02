@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-02T12:11:19.844641+00:00",
+  "updated_at": "2026-06-02T19:48:28.539886+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.657,
+    "change24h": -0.018,
+    "vol": 0.885,
     "fearGreed": 23,
-    "momentum": 0.16,
-    "regime": "sideways",
+    "momentum": -0.322,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3615,
-    "global_sentiment": 0.4893,
-    "combined_sentiment": 0.3953,
-    "confidence": 0.737,
+    "crypto_sentiment": 0.3548,
+    "global_sentiment": 0.5931,
+    "combined_sentiment": 0.3989,
+    "confidence": 0.7688,
     "counts": {
-      "crypto": 65,
-      "global": 49
+      "crypto": 45,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 69371,
-      "btc_change_24h": -3.59,
-      "eth_price": 1976.44,
-      "eth_change_24h": 0.18,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 66826,
+      "btc_change_24h": -6.47,
+      "eth_price": 1898.23,
+      "eth_change_24h": -5.2,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 190283542631.0,
+        "volume_24h": 208260538761.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.62,
+        "btc_dominance": 57.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-16T17:05:58.320251+00:00",
-      "crypto": 0.345,
-      "global": 0.5213,
-      "combined": 0.3855,
-      "counts": {
-        "crypto": 52,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-05-16T20:30:51.685830+00:00",
       "crypto": 0.2911,
@@ -1008,71 +998,81 @@
         "crypto": 65,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-06-02T19:48:28.539886+00:00",
+      "crypto": 0.3548,
+      "global": 0.5931,
+      "combined": 0.3989,
+      "counts": {
+        "crypto": 45,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX Is Heading to the Nasdaq Under the Ticker SPCX. James Altucher Explains the Road Ahead.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-heading-nasdaq-under-ticker-120000201.html?.tsrc=rss",
+        "title": "Broadcom Stock Heads for Record Close. It’s Getting a Double Boost From Google and Marvell.",
+        "url": "https://finance.yahoo.com/m/259aa33d-7708-34ac-8464-c336a0f9da33/broadcom-stock-heads-for.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7827,
-        "score": 0.6333
+        "weight": 0.6891,
+        "score": 1.0
       },
       {
-        "title": "Bitcoin’s $300K gold pattern now depends on whether Iran’s oil shock rewrites the Fed path",
-        "url": "https://cryptoslate.com/bitcoins-300k-gold-pattern-now-depends-on-whether-irans-oil-shock-rewrites-the-fed-path/",
-        "source": "CryptoSlate",
-        "weight": 0.6695,
-        "score": 0.6667
-      },
-      {
-        "title": "US Premarket Movers for June 2, 2026",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-02/us-stock-futures-today-alphabet-fulcrum-hp-enterprise-marvell",
+        "title": "Alphabet's $80 Billion AI Power Move | Open Interest 6/2/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-02/open-interest-6-2-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7674,
-        "score": 0.5333
+        "weight": 0.6115,
+        "score": 1.0
+      },
+      {
+        "title": "Stock Market Today: Dow Improves As Cisco Hits A High; Microsoft Sinks (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/e9a1df49-5d6a-3354-98ff-6a1e7c41f5e4/stock-market-today%3A-dow.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7493,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Sheinbaum Leans on Private Investors to Fix Blackout-Prone Grid",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-02/sheinbaum-leans-on-private-investors-to-fix-blackout-prone-grid",
-        "source": "Bloomberg Markets",
-        "weight": 0.7827,
-        "score": -1.0
-      },
-      {
-        "title": "Victoria Secret shares spike 40% after big earnings beat, raised sales outlook",
-        "url": "https://www.cnbc.com/2026/06/02/victorias-secret-vsxy-earnings-q1-2026.html",
-        "source": "CNBC Markets",
-        "weight": 0.7967,
-        "score": -0.6333
-      },
-      {
-        "title": "Crypto treasury inflows fall to lowest level since 2024",
-        "url": "https://cointelegraph.com/news/crypto-treasury-inflows-may-lowest-october-2024?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin gets new $50K target after BTC price crashes 6% in a day",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-50k-target-after-btc-price-crashes-6-in-a-day?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7073,
+        "weight": 0.7705,
+        "score": -0.9667
+      },
+      {
+        "title": "How Low Can Home Depot Stock Go?",
+        "url": "https://www.trefis.com/articles/601028/how-low-can-home-depot-stock-go/2026-06-02?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7175,
         "score": -0.6667
+      },
+      {
+        "title": "President Trump Signs AI Executive Order After Delaying It Over China Concerns",
+        "url": "https://decrypt.co/369740/president-trump-signs-ai-executive-order-delaying-china-concerns",
+        "source": "Decrypt",
+        "weight": 0.7014,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.43057612879613955,
-          "price_change_24h": -0.02932
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3478478020040475,
-          "price_change_24h": -0.05208
+          "volume_mcap_ratio": 0.4846500303627296,
+          "price_change_24h": -0.02658
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.32922056134270883,
-          "price_change_24h": 15.77862
+          "volume_mcap_ratio": 0.34981067427005713,
+          "price_change_24h": -3.7207
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3363521359387636,
+          "price_change_24h": -0.01901
         }
       ],
       "momentum_shifts": []
@@ -1080,5 +1080,31 @@
   },
   "notes": {
     "warnings": []
+  },
+  "daily_recap": {
+    "date": "2026-06-02",
+    "period": "24h",
+    "summary": {
+      "crypto_avg": 0.3619,
+      "crypto_high": 0.4432,
+      "crypto_low": 0.3221,
+      "global_avg": 0.5375,
+      "global_high": 0.5931,
+      "global_low": 0.4893,
+      "combined_avg": 0.3996,
+      "combined_high": 0.461,
+      "combined_low": 0.3702
+    },
+    "market_indicators_24h": {
+      "change24h": -0.018,
+      "vol": 0.885,
+      "fearGreed": 23,
+      "momentum": -0.322,
+      "regime": "bear",
+      "activity": 0.6,
+      "dominance": "btc"
+    },
+    "entries_count": 6,
+    "generated_at": "2026-06-02T19:48:28.539886+00:00"
   }
 }
