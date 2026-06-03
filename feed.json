@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-03T22:16:39.753372+00:00",
+  "updated_at": "2026-06-03T22:29:52.065911+00:00",
   "indicators": {
-    "change24h": 0.002,
+    "change24h": -0.009,
     "vol": 0.252,
     "fearGreed": 11,
-    "momentum": 0.037,
+    "momentum": -0.157,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2558,
-    "global_sentiment": 0.5295,
-    "combined_sentiment": 0.3193,
-    "confidence": 0.774,
+    "crypto_sentiment": 0.2506,
+    "global_sentiment": 0.5402,
+    "combined_sentiment": 0.3163,
+    "confidence": 0.7695,
     "counts": {
-      "crypto": 47,
+      "crypto": 46,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 65172,
-      "btc_change_24h": -2.69,
-      "eth_price": 1833.75,
-      "eth_change_24h": -2.57,
+      "btc_price": 65062,
+      "btc_change_24h": -3.33,
+      "eth_price": 1828.05,
+      "eth_change_24h": -3.9,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 382908798433.0,
+        "volume_24h": 383206278679.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.0,
+        "btc_dominance": 56.99,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-17T20:33:56.537715+00:00",
-      "crypto": 0.2789,
-      "global": 0.5047,
-      "combined": 0.3346,
-      "counts": {
-        "crypto": 48,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-05-17T21:01:35.205212+00:00",
       "crypto": 0.278,
@@ -1008,6 +998,16 @@
         "crypto": 47,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-06-03T22:29:52.065911+00:00",
+      "crypto": 0.2506,
+      "global": 0.5402,
+      "combined": 0.3163,
+      "counts": {
+        "crypto": 46,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Wall Street Snaps Record Rally Amid Re-Escalation in Middle East Conflict",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-snaps-record-rally-203227293.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6546,
+        "weight": 0.6381,
         "score": 0.8667
       },
       {
         "title": "Vanguard index product becomes first ETF to top $1 trillion in assets",
         "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-index-product-becomes-first-214421721.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7517,
+        "weight": 0.7329,
         "score": 0.6667
       },
       {
         "title": "SpaceX Seeks $75 Billion in Record IPO to Fund AI, Launch",
         "url": "https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-record-ipo-plan-to-fund-ai-launch",
         "source": "Bloomberg Markets",
-        "weight": 0.6725,
+        "weight": 0.6557,
         "score": 0.6333
       }
     ],
@@ -1039,21 +1039,21 @@
         "title": "Price predictions 6/3: BTC, ETH, BNB, XRP, SOL, HYPE, DOGE, ZEC, ADA, XLM",
         "url": "https://cointelegraph.com/markets/price-predictions-63-btc-eth-bnb-xrp-sol-hype-doge-zec-ada-xlm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8378,
+        "weight": 0.8167,
         "score": -0.6667
       },
       {
         "title": "Bitmine's Ethereum bet nears $9 billion loss as ether falls below $1,800",
         "url": "https://www.coindesk.com/markets/2026/06/03/bitmine-s-ethereum-bet-nears-usd9-billion-loss-as-ether-falls-below-usd1-800",
         "source": "CoinDesk",
-        "weight": 0.8204,
+        "weight": 0.7998,
         "score": -0.6667
       },
       {
         "title": "Why Ethereum Could Tank Another 25% Before Finding a Bottom: Analysis",
         "url": "https://decrypt.co/369926/ethereum-eth-price-25-percent-bottom-technical-analysis",
         "source": "Decrypt",
-        "weight": 0.5514,
+        "weight": 0.5376,
         "score": -0.9667
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.411205131313693,
-          "price_change_24h": 0.00916
+          "volume_mcap_ratio": 1.4144145280404345,
+          "price_change_24h": 0.00803
         },
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4974529082111708,
-          "price_change_24h": 33.92946
+          "volume_mcap_ratio": 0.5079650180624287,
+          "price_change_24h": 33.74205
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.37066232123869325,
-          "price_change_24h": 8.57678
+          "volume_mcap_ratio": 0.37154896448582087,
+          "price_change_24h": 7.24523
         }
       ],
       "momentum_shifts": []
