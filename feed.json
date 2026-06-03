@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-03T04:56:47.668020+00:00",
+  "updated_at": "2026-06-03T12:46:31.877438+00:00",
   "indicators": {
-    "change24h": -0.072,
-    "vol": 0.269,
+    "change24h": -0.027,
+    "vol": 0.205,
     "fearGreed": 11,
-    "momentum": -1.0,
-    "regime": "bear",
+    "momentum": -0.464,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3398,
-    "global_sentiment": 0.4856,
-    "combined_sentiment": 0.3786,
-    "confidence": 0.7243,
+    "crypto_sentiment": 0.364,
+    "global_sentiment": 0.4078,
+    "combined_sentiment": 0.3903,
+    "confidence": 0.7955,
     "counts": {
-      "crypto": 47,
-      "global": 40
+      "crypto": 56,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 66214,
-      "btc_change_24h": -6.33,
-      "eth_price": 1839.62,
-      "eth_change_24h": -7.76,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "btc_price": 66845,
+      "btc_change_24h": -3.3,
+      "eth_price": 1869.17,
+      "eth_change_24h": -5.41,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 236197512950.0,
+        "volume_24h": 257370315878.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.37,
+        "btc_dominance": 57.35,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-17T09:53:30.325337+00:00",
-      "crypto": 0.2208,
-      "global": 0.5334,
-      "combined": 0.2934,
-      "counts": {
-        "crypto": 63,
-        "global": 30
-      }
-    },
     {
       "ts": "2026-05-17T13:47:10.020716+00:00",
       "crypto": 0.2467,
@@ -1008,71 +998,81 @@
         "crypto": 47,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-06-03T12:46:31.877438+00:00",
+      "crypto": 0.364,
+      "global": 0.4078,
+      "combined": 0.3903,
+      "counts": {
+        "crypto": 56,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Guinea’s Simandou Iron Exports Surge Six Months After First Ore",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-03/guinea-s-simandou-iron-exports-surge-six-months-after-first-ore",
-        "source": "Bloomberg Markets",
-        "weight": 0.6228,
-        "score": 0.8667
-      },
-      {
-        "title": "Goldman Lifts Kospi Target to 12,000, Upgrades Taiwan to Buy",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-03/goldman-lifts-kospi-target-to-12-000-upgrades-taiwan-to-buy",
-        "source": "Bloomberg Markets",
-        "weight": 0.6916,
-        "score": 0.6667
-      },
-      {
-        "title": "Cathie Wood buys $67 million of surging semiconductor stock",
-        "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-67-million-of-nvidia-nvda?.tsrc=rss",
+        "title": "What's Happening With Coherent Stock?",
+        "url": "https://www.trefis.com/articles/601271/whats-happening-with-coherent-stock/2026-06-03?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.519,
-        "score": 0.8667
+        "weight": 0.7557,
+        "score": 1.0
+      },
+      {
+        "title": "UK's financial watchdog cracks down on Premier League crypto partnerships",
+        "url": "https://www.coindesk.com/policy/2026/06/03/uk-s-financial-watchdog-cracks-down-on-premier-league-crypto-partnerships",
+        "source": "CoinDesk",
+        "weight": 0.753,
+        "score": 0.5833
+      },
+      {
+        "title": "UK Regulator Warns Soccer Clubs Over Unauthorized Crypto Sponsorship Deals",
+        "url": "https://decrypt.co/369835/uk-regulator-warns-soccer-clubs-over-unauthorized-crypto-sponsorship-deals",
+        "source": "Decrypt",
+        "weight": 0.7082,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Pompeo, Markets React to US Tariffs Over Alleged Forced Labor",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-03/pompeo-markets-react-to-us-tariffs-over-forced-labor-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7676,
-        "score": -0.9667
-      },
-      {
-        "title": "Raizen to Submit Plan to Creditors for $13 Billion Debt Overhaul",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-03/raizen-to-submit-plan-to-creditors-for-13-billion-debt-overhaul",
-        "source": "Bloomberg Markets",
-        "weight": 0.5288,
-        "score": -0.9333
-      },
-      {
-        "title": "MGK Owns Today's Winners. SLYG Is Betting on Tomorrow's.",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/02/mgk-owns-today-s-winners-slyg-is-betting-on-tomorrow-s/?.tsrc=rss",
+        "title": "HDV vs. FDVV: One of These High-Dividend ETFs Has a Surprising Secret",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/03/hdv-vs-fdvv-one-of-these-high-dividend-etfs-has-a-surprising-secret/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4928,
+        "weight": 0.7323,
         "score": -0.9667
+      },
+      {
+        "title": "DeFi won't win over big banks until it fixes its hacking problem, executives say",
+        "url": "https://www.coindesk.com/business/2026/06/02/defi-won-t-win-over-big-banks-until-it-fixes-its-hacking-problem-executives-say",
+        "source": "CoinDesk",
+        "weight": 0.6628,
+        "score": -1.0
+      },
+      {
+        "title": "Bitcoin's crash to $65K triggers $1.8B in crypto liquidations",
+        "url": "https://cointelegraph.com/markets/bitcoins-crash-to-65k-triggers-18b-in-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6378,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5244787368741182,
-          "price_change_24h": 0.0426
+          "volume_mcap_ratio": 0.6697326060639786,
+          "price_change_24h": 0.00029
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.36774795216327066,
-          "price_change_24h": 0.01732
+          "volume_mcap_ratio": 0.3958874749396526,
+          "price_change_24h": 0.0224
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.3296151369538953,
-          "price_change_24h": 4.69156
+          "volume_mcap_ratio": 0.3456273796227303,
+          "price_change_24h": 9.54845
         }
       ],
       "momentum_shifts": []
