@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-04T18:24:20.593374+00:00",
+  "updated_at": "2026-06-04T21:18:56.211774+00:00",
   "indicators": {
-    "change24h": -0.073,
-    "vol": 0.233,
+    "change24h": -0.063,
+    "vol": 0.278,
     "fearGreed": 12,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,34 +11,34 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4074,
-    "global_sentiment": 0.5278,
-    "combined_sentiment": 0.4329,
-    "confidence": 0.7967,
+    "crypto_sentiment": 0.4063,
+    "global_sentiment": 0.48,
+    "combined_sentiment": 0.428,
+    "confidence": 0.7844,
     "counts": {
-      "crypto": 65,
-      "global": 47
+      "crypto": 51,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 63363,
-      "btc_change_24h": -3.61,
-      "eth_price": 1766.12,
-      "eth_change_24h": -3.04,
+      "btc_price": 63671,
+      "btc_change_24h": -2.73,
+      "eth_price": 1774.9,
+      "eth_change_24h": -1.31,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
-        "level": "medium",
-        "volume_24h": 396554786077.0,
-        "high_activity_coins": 6
+        "level": "low",
+        "volume_24h": 336553819392.0,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.0,
+        "btc_dominance": 57.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-18T18:05:11.164018+00:00",
-      "crypto": 0.3708,
-      "global": 0.4659,
-      "combined": 0.4003,
-      "counts": {
-        "crypto": 71,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-05-18T20:57:30.996849+00:00",
       "crypto": 0.3343,
@@ -1008,52 +998,62 @@
         "crypto": 65,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-06-04T21:18:56.211774+00:00",
+      "crypto": 0.4063,
+      "global": 0.48,
+      "combined": 0.428,
+      "counts": {
+        "crypto": 51,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Nasdaq Ticks Higher. Dow Climbs More Than 800 Points in Broad Rally.",
-        "url": "https://finance.yahoo.com/m/46908f5f-425d-3ff9-bef0-efe540aa5971/nasdaq-ticks-higher.-dow.html?.tsrc=rss",
+        "title": "Dow Jones Hits High, AI Stocks Shrug Off Broadcom, Ciena Sell-Offs; Jobs Report Looms",
+        "url": "https://finance.yahoo.com/m/24ee26d7-b02a-37d3-9e51-fec9bcb33482/dow-jones-hits-high%2C-ai.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7685,
-        "score": 1.0
+        "weight": 0.7874,
+        "score": 0.6667
       },
       {
-        "title": "The Stock Market Has Been Here Precisely Once Before. Buckle Up as Kevin Warsh Tries to Land the Plane",
-        "url": "https://247wallst.com/investing/2026/06/04/the-stock-market-has-been-here-precisely-once-before-buckle-up-as-kevin-warsh-tries-to-land-the-plane/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.69,
-        "score": 1.0
+        "title": "Quantinuum closes flat in Nasdaq debut, after upsized offering",
+        "url": "https://www.cnbc.com/2026/06/04/quantinuum-qnt-stock-first-trade-ipo.html",
+        "source": "CNBC Markets",
+        "weight": 0.7174,
+        "score": 0.6333
       },
       {
-        "title": "3 Reasons AIR Has Explosive Upside Potential",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-air-explosive-upside-174930747.html?.tsrc=rss",
+        "title": "Palantir Stock Dips Amid Google Cloud Deal, AIPCon 10 Announcements",
+        "url": "https://finance.yahoo.com/m/fabcadc9-647d-3307-b2e0-7c598dddf836/palantir-stock-dips-amid.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7481,
-        "score": 0.8667
+        "weight": 0.7363,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Stock Market Today: Nasdaq Erases Losses, Dow Up 800 Points; Ciena Slammed As Oil Play Defies Drop (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/08ccf06e-fffb-32a8-93f0-e2cbe5bd4e6d/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "title": "Professional investors dumped 52K BTC worth of ETFs in Q1, filings show",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-ownership-shifts-hedge-funds-sell-banks-buy-coinshares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8145,
+        "score": -0.6667
+      },
+      {
+        "title": "2 Top ETFs to Play the Energy Boom",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/04/2-top-etfs-to-play-the-energy-boom/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7467,
-        "score": -0.9667
+        "weight": 0.7654,
+        "score": -0.6333
       },
       {
-        "title": "Broadcom Sparks AI Rally Fears | Open Interest 6/4/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-04/open-interest-6-4-2026-video",
+        "title": "Private Credit Deterioration Slow, Contained: Robson",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-04/private-credit-deterioration-slow-contained-robson-video",
         "source": "Bloomberg Markets",
-        "weight": 0.71,
-        "score": -0.9
-      },
-      {
-        "title": "'Dr. Doom'-backed Atlas Capital CEO says bitcoin could crash 70% before reaching $500,000",
-        "url": "https://www.coindesk.com/markets/2026/06/04/dr-doom-backed-atlas-capital-ceo-says-bitcoin-could-crash-70-before-reaching-usd500-000",
-        "source": "CoinDesk",
-        "weight": 0.9838,
+        "weight": 0.7437,
         "score": -0.6333
       }
     ],
@@ -1061,18 +1061,18 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.3024337332141387,
-          "price_change_24h": 0.01272
+          "volume_mcap_ratio": 1.0029573118109676,
+          "price_change_24h": 0.02864
         },
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.9313150223183163,
-          "price_change_24h": 11.13576
+          "volume_mcap_ratio": 0.7422975826454502,
+          "price_change_24h": 3.72827
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.3989352115483446,
-          "price_change_24h": -14.58704
+          "volume_mcap_ratio": 0.38979869660723676,
+          "price_change_24h": -20.23006
         }
       ],
       "momentum_shifts": []
