@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-03T22:29:52.065911+00:00",
+  "updated_at": "2026-06-04T04:49:41.293133+00:00",
   "indicators": {
-    "change24h": -0.009,
-    "vol": 0.252,
-    "fearGreed": 11,
-    "momentum": -0.157,
+    "change24h": -0.011,
+    "vol": 0.236,
+    "fearGreed": 12,
+    "momentum": -0.19,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2506,
-    "global_sentiment": 0.5402,
-    "combined_sentiment": 0.3163,
-    "confidence": 0.7695,
+    "crypto_sentiment": 0.2367,
+    "global_sentiment": 0.3558,
+    "combined_sentiment": 0.2905,
+    "confidence": 0.7152,
     "counts": {
-      "crypto": 46,
-      "global": 34
+      "crypto": 45,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 65062,
-      "btc_change_24h": -3.33,
-      "eth_price": 1828.05,
-      "eth_change_24h": -3.9,
+      "btc_price": 64308,
+      "btc_change_24h": -3.15,
+      "eth_price": 1804.85,
+      "eth_change_24h": -2.1,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.3,
       "fear_greed": {
-        "value": 11,
+        "value": 12,
         "classification": "Extreme Fear",
-        "trend": "stable"
+        "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 383206278679.0,
+        "volume_24h": 478605879869.0,
         "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 56.99,
+        "btc_dominance": 56.91,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-17T21:01:35.205212+00:00",
-      "crypto": 0.278,
-      "global": 0.5047,
-      "combined": 0.3339,
-      "counts": {
-        "crypto": 48,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-05-18T04:18:03.423454+00:00",
       "crypto": 0.2835,
@@ -1008,71 +998,81 @@
         "crypto": 46,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-06-04T04:49:41.293133+00:00",
+      "crypto": 0.2367,
+      "global": 0.3558,
+      "combined": 0.2905,
+      "counts": {
+        "crypto": 45,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Wall Street Snaps Record Rally Amid Re-Escalation in Middle East Conflict",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-snaps-record-rally-203227293.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6381,
+        "title": "Nomura's Wang Thinks Asia Chips Rally Mostly Justified",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-04/nomura-s-wang-thinks-asia-chips-rally-mostly-justified-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7882,
         "score": 0.8667
       },
       {
-        "title": "Vanguard index product becomes first ETF to top $1 trillion in assets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-index-product-becomes-first-214421721.html?.tsrc=rss",
+        "title": "Asian shares retreat as US stocks halt their record-breaking rally, while oil prices fall back",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-retreat-us-stocks-032322864.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7329,
+        "weight": 0.6775,
         "score": 0.6667
       },
       {
-        "title": "SpaceX Seeks $75 Billion in Record IPO to Fund AI, Launch",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-record-ipo-plan-to-fund-ai-launch",
+        "title": "Elon Musk to Retain 84% Voting Control After SpaceX IPO",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-04/elon-musk-to-retain-84-voting-control-after-spacex-ipo-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6557,
-        "score": 0.6333
+        "weight": 0.6555,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Price predictions 6/3: BTC, ETH, BNB, XRP, SOL, HYPE, DOGE, ZEC, ADA, XLM",
-        "url": "https://cointelegraph.com/markets/price-predictions-63-btc-eth-bnb-xrp-sol-hype-doge-zec-ada-xlm?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8167,
+        "title": "SoftBank’s OpenAI bet and rising debt are raising liquidity crunch concerns",
+        "url": "https://www.cnbc.com/2026/06/04/softbank-openai-liquidity-crunch-arm-son.html",
+        "source": "CNBC Markets",
+        "weight": 0.7602,
         "score": -0.6667
       },
       {
-        "title": "Bitmine's Ethereum bet nears $9 billion loss as ether falls below $1,800",
-        "url": "https://www.coindesk.com/markets/2026/06/03/bitmine-s-ethereum-bet-nears-usd9-billion-loss-as-ether-falls-below-usd1-800",
+        "title": "Live Markets: Bitcoin crashes to $62,000 as billions of longs get liquidated",
+        "url": "https://www.coindesk.com/tech/2026/06/03/live-markets-bitcoin-crashes-to-usd62-000-as-billions-of-longs-get-liquidated",
         "source": "CoinDesk",
-        "weight": 0.7998,
-        "score": -0.6667
+        "weight": 0.7369,
+        "score": -0.6333
       },
       {
-        "title": "Why Ethereum Could Tank Another 25% Before Finding a Bottom: Analysis",
-        "url": "https://decrypt.co/369926/ethereum-eth-price-25-percent-bottom-technical-analysis",
-        "source": "Decrypt",
-        "weight": 0.5376,
-        "score": -0.9667
+        "title": "CFTC follows SEC in scrapping ‘no-deny’ policy for settlements",
+        "url": "https://cointelegraph.com/news/cftc-follows-sec-in-scrapping-no-deny-rule-for-settlements?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6848,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 1.4144145280404345,
-          "price_change_24h": 0.00803
+          "volume_mcap_ratio": 1.836365078306108,
+          "price_change_24h": 0.02195
         },
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.5079650180624287,
-          "price_change_24h": 33.74205
+          "volume_mcap_ratio": 0.6080390898833009,
+          "price_change_24h": 28.33339
         },
         {
           "symbol": "NEAR",
-          "volume_mcap_ratio": 0.37154896448582087,
-          "price_change_24h": 7.24523
+          "volume_mcap_ratio": 0.3878947604448515,
+          "price_change_24h": -5.71531
         }
       ],
       "momentum_shifts": []
