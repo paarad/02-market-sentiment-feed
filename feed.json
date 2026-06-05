@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-05T11:33:22.469006+00:00",
+  "updated_at": "2026-06-05T15:19:14.963932+00:00",
   "indicators": {
-    "change24h": -0.053,
-    "vol": 0.228,
+    "change24h": -0.152,
+    "vol": 0.562,
     "fearGreed": 12,
-    "momentum": -0.936,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3509,
-    "global_sentiment": 0.577,
-    "combined_sentiment": 0.3946,
-    "confidence": 0.718,
+    "crypto_sentiment": 0.281,
+    "global_sentiment": 0.414,
+    "combined_sentiment": 0.3286,
+    "confidence": 0.7877,
     "counts": {
-      "crypto": 50,
-      "global": 50
+      "crypto": 51,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 62338,
-      "btc_change_24h": -0.2,
-      "eth_price": 1673.57,
-      "eth_change_24h": -4.22,
+      "btc_price": 60619,
+      "btc_change_24h": -5.41,
+      "eth_price": 1586.19,
+      "eth_change_24h": -10.84,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
-        "level": "medium",
-        "volume_24h": 217876662388.0,
-        "high_activity_coins": 6
+        "level": "low",
+        "volume_24h": 234441485754.0,
+        "high_activity_coins": 5
       },
       "dominance": {
-        "btc_dominance": 57.44,
+        "btc_dominance": 57.25,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-19T11:27:14.497156+00:00",
-      "crypto": 0.2615,
-      "global": 0.5505,
-      "combined": 0.3253,
-      "counts": {
-        "crypto": 55,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-19T15:39:47.973776+00:00",
       "crypto": 0.3577,
@@ -1008,71 +998,81 @@
         "crypto": 50,
         "global": 50
       }
+    },
+    {
+      "ts": "2026-06-05T15:19:14.963932+00:00",
+      "crypto": 0.281,
+      "global": 0.414,
+      "combined": 0.3286,
+      "counts": {
+        "crypto": 51,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "2 Services Stocks to Consider Right Now and 1 We Question",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-consider-now-112814266.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7921,
-        "score": 0.6667
+        "title": "SpaceX IPO Is Said to Draw More Orders Than Shares Available",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-05/spacex-s-75-billion-ipo-draws-more-orders-than-shares-available",
+        "source": "Bloomberg Markets",
+        "weight": 0.746,
+        "score": 0.9667
       },
       {
-        "title": "The Tech Download: Anthropic’s IPO sets up first big test of AI boom valuations",
-        "url": "https://www.cnbc.com/2026/06/05/tech-download-anthropic-ipo-ai-valuations.html",
-        "source": "CNBC Markets",
-        "weight": 0.7502,
-        "score": 0.6333
+        "title": "Bitcoin needs one more thing to happen to spark BTC price 'rally:' Analysis",
+        "url": "https://cointelegraph.com/markets/bitcoin-needs-one-more-thing-to-happen-to-spark-btc-price-rally-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7342,
+        "score": 0.5333
       },
       {
-        "title": "Ocular Therapeutix™ Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/ocular-therapeutix-reports-inducement-grants-110000501.html?.tsrc=rss",
+        "title": "How to invest in Elon Musk’s SpaceX IPO – and whether you should",
+        "url": "https://uk.finance.yahoo.com/news/invest-elon-musk-spacex-ipo-140914587.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7502,
-        "score": 0.6333
+        "weight": 0.6991,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin plunges to near $62,000 as the AI trade unwinds, HYPE falls 14%",
-        "url": "https://www.coindesk.com/markets/2026/06/05/bitcoin-plunges-to-near-usd62-000-as-the-ai-trade-unwinds-hype-falls-14",
+        "title": "XRP falls toward $1.10 as liquidation-driven selloff pushes token to multi-month lows",
+        "url": "https://www.coindesk.com/markets/2026/06/05/xrp-falls-toward-usd1-10-as-liquidation-driven-selloff-pushes-token-to-multi-month-lows",
         "source": "CoinDesk",
-        "weight": 0.535,
+        "weight": 1.1411,
+        "score": -1.0
+      },
+      {
+        "title": "Dividend ETFs: SCHD Boasts a Larger Dividend Yield, While VIG Has Lower Fees",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/05/schwab-vs-vanguard-dividend-etfs-yield-volatility-growth-compared/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7702,
         "score": -0.9667
       },
       {
-        "title": "Schneider Electric Sponsor Spotlight",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-05/schneider-electric-sponsor-spotlight-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6982,
-        "score": -0.7333
-      },
-      {
-        "title": "How the Strait of Hormuz standoff flipped the energy security debate",
-        "url": "https://www.cnbc.com/2026/06/05/iran-war-strait-of-hormuz-renewables-oil-gas.html",
-        "source": "CNBC Markets",
-        "weight": 0.7041,
-        "score": -0.6333
+        "title": "Growth ETFs: VONG Has Delivered Excellent Returns, But VBK Provides More Diversification",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/05/growth-etfs-vong-has-delivered-excellent-returns-but-vbk-provides-more-diversification/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.697,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.999086794079057,
-          "price_change_24h": 10.7811
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.46576726275628577,
-          "price_change_24h": 0.03831
+          "volume_mcap_ratio": 0.9974897994336115,
+          "price_change_24h": -14.49455
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.4608778172358341,
-          "price_change_24h": -41.10513
+          "volume_mcap_ratio": 0.5228289148586629,
+          "price_change_24h": -37.98494
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.5059428127548079,
+          "price_change_24h": 0.02961
         }
       ],
       "momentum_shifts": []
