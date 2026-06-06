@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-06T17:20:41.642262+00:00",
+  "updated_at": "2026-06-06T20:46:36.973111+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.271,
+    "change24h": -0.025,
+    "vol": 0.224,
     "fearGreed": 12,
-    "momentum": -0.035,
+    "momentum": -0.443,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3314,
-    "global_sentiment": 0.4426,
-    "combined_sentiment": 0.3688,
-    "confidence": 0.6954,
+    "crypto_sentiment": 0.3231,
+    "global_sentiment": 0.416,
+    "combined_sentiment": 0.3603,
+    "confidence": 0.6473,
     "counts": {
-      "crypto": 67,
-      "global": 39
+      "crypto": 54,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 60674,
-      "btc_change_24h": -0.22,
-      "eth_price": 1559.69,
-      "eth_change_24h": -1.95,
+      "btc_price": 60706,
+      "btc_change_24h": -1.03,
+      "eth_price": 1557.91,
+      "eth_change_24h": -2.67,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 191954252597.0,
+        "volume_24h": 153551932188.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-20T18:24:41.752374+00:00",
-      "crypto": 0.3922,
-      "global": 0.4542,
-      "combined": 0.4153,
-      "counts": {
-        "crypto": 55,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-20T21:25:16.842165+00:00",
       "crypto": 0.4015,
@@ -1008,6 +998,16 @@
         "crypto": 67,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-06-06T20:46:36.973111+00:00",
+      "crypto": 0.3231,
+      "global": 0.416,
+      "combined": 0.3603,
+      "counts": {
+        "crypto": 54,
+        "global": 36
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Bitcoin Has Dumped All of Its Gains Since Trump Was Reelected—And Then Some",
         "url": "https://decrypt.co/370235/bitcoin-dumped-gains-since-trump-reelected-then-some",
         "source": "Decrypt",
-        "weight": 0.727,
+        "weight": 0.489,
         "score": 0.5333
       },
       {
         "title": "Dow Jones Futures: What To Do As Market Rally Faces First Real Test; SpaceX IPO, Apple, Oracle Loom",
         "url": "https://finance.yahoo.com/m/4e57fd62-a165-35ac-ab25-3c8bcc828d3c/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6691,
+        "weight": 0.4501,
         "score": 0.5333
       },
       {
         "title": "Michael Saylor’s rallying cry: Bitcoin needs four forces to win",
         "url": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
         "source": "CoinDesk",
-        "weight": 0.6054,
+        "weight": 0.4072,
         "score": 0.5333
       }
     ],
@@ -1039,15 +1039,8 @@
         "title": "Satoshi-era bitcoin at center of $285 billion lawsuit moves after 14 years",
         "url": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years",
         "source": "CoinDesk",
-        "weight": 0.6413,
+        "weight": 0.4314,
         "score": -1.0
-      },
-      {
-        "title": "Bitcoin most oversold since 2020 crash: Can BTC rebound to $70K next?",
-        "url": "https://cointelegraph.com/markets/bitcoin-most-oversold-since-2020-crash-can-btc-rebound-to-70k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8328,
-        "score": -0.6333
       },
       {
         "title": "Fear & Greed 12 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "Bitcoin most oversold since 2020 crash: Can BTC rebound to $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-most-oversold-since-2020-crash-can-btc-rebound-to-70k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5602,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.41563192468877735,
-          "price_change_24h": 0.02101
+          "volume_mcap_ratio": 0.34508749894997154,
+          "price_change_24h": -0.00056
         }
       ],
       "momentum_shifts": []
