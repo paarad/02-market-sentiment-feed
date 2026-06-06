@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-05T21:38:38.682068+00:00",
+  "updated_at": "2026-06-06T04:07:06.981701+00:00",
   "indicators": {
-    "change24h": -0.1,
-    "vol": 0.384,
+    "change24h": -0.083,
+    "vol": 0.241,
     "fearGreed": 12,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2993,
-    "global_sentiment": 0.5267,
-    "combined_sentiment": 0.3517,
-    "confidence": 0.7883,
+    "crypto_sentiment": 0.3091,
+    "global_sentiment": 0.4919,
+    "combined_sentiment": 0.3562,
+    "confidence": 0.7105,
     "counts": {
       "crypto": 52,
-      "global": 51
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 61680,
-      "btc_change_24h": -2.56,
-      "eth_price": 1612.1,
-      "eth_change_24h": -8.57,
+      "btc_price": 60549,
+      "btc_change_24h": -3.59,
+      "eth_price": 1555.31,
+      "eth_change_24h": -10.0,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.25,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "medium",
-        "volume_24h": 296500737971.0,
-        "high_activity_coins": 7
+        "volume_24h": 292068043696.0,
+        "high_activity_coins": 6
       },
       "dominance": {
-        "btc_dominance": 57.51,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-19T21:26:11.824915+00:00",
-      "crypto": 0.3759,
-      "global": 0.3704,
-      "combined": 0.3962,
-      "counts": {
-        "crypto": 51,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-05-20T04:13:23.071278+00:00",
       "crypto": 0.4062,
@@ -1008,71 +998,81 @@
         "crypto": 52,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-06-06T04:07:06.981701+00:00",
+      "crypto": 0.3091,
+      "global": 0.4919,
+      "combined": 0.3562,
+      "counts": {
+        "crypto": 52,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX and Other Mega IPOs May Wait Years to Join the S&P 500",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-other-mega-ipos-may-203911463.html?.tsrc=rss",
+        "title": "Marvell Joins S&P 500 As AI Data Center Story Gains Traction",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-joins-p-500-ai-031211444.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7135,
+        "weight": 0.7197,
         "score": 1.0
       },
       {
         "title": "Earnings and AI-Driven CapEx as Key to Sustained Gains",
         "url": "https://www.bloomberg.com/news/videos/2026-06-05/earnings-and-ai-driven-capex-as-key-to-sustained-gains-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6947,
+        "weight": 0.3288,
         "score": 1.0
       },
       {
-        "title": "Marvell to join S&P 500 after AI boom helps chipmaker pass profitability test",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-join-p-500-ai-212422827.html?.tsrc=rss",
+        "title": "Why Palantir Stock Sank Today",
+        "url": "https://www.fool.com/investing/2026/06/05/why-palantir-stock-sank-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7783,
-        "score": 0.8667
+        "weight": 0.5161,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "XRP falls toward $1.10 as liquidation-driven selloff pushes token to multi-month lows",
-        "url": "https://www.coindesk.com/markets/2026/06/05/xrp-falls-toward-usd1-10-as-liquidation-driven-selloff-pushes-token-to-multi-month-lows",
-        "source": "CoinDesk",
-        "weight": 0.5496,
+        "title": "ETH falls to 13-month low on Zcash bug news and Bitcoin drop to sub-$60K: Is $1.4K next?",
+        "url": "https://cointelegraph.com/markets/eth-falls-to-13-month-low-on-zcash-bug-news-and-bitcoin-drop-to-sub-60k-is-14k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4906,
         "score": -1.0
       },
       {
-        "title": "Why diehard bitcoin purists aren’t sweating the massive price crash that wiped out $200 billion",
-        "url": "https://www.coindesk.com/markets/2026/06/05/why-diehard-bitcoin-purists-aren-t-sweating-the-massive-price-crash-that-wiped-out-usd200-billion",
-        "source": "CoinDesk",
-        "weight": 0.7766,
-        "score": -0.6333
+        "title": "Fear & Greed 12 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Which Is the Better iShares Small-Cap Value ETF, the Morningstar-Indexed ISCV or Russell 2000-Based IWN?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/05/which-is-the-better-ishares-small-cap-value-etf-the-morningstar-indexed-iscv-or-russell-2000-based-iwn/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7756,
+        "title": "Second US Screwworm Case Confirmed in Texas by USDA",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-06/usda-confirms-second-us-screwworm-case-in-texas",
+        "source": "Bloomberg Markets",
+        "weight": 0.5236,
         "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "WLD",
-          "volume_mcap_ratio": 0.7940891813845806,
-          "price_change_24h": -0.70208
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.6391232976199831,
-          "price_change_24h": 0.04769
+          "volume_mcap_ratio": 0.6334793854588447,
+          "price_change_24h": 0.07648
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.5771803288286756,
-          "price_change_24h": -22.44981
+          "volume_mcap_ratio": 0.5338050320410672,
+          "price_change_24h": -12.09097
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.42587895560582495,
+          "price_change_24h": 0.06504
         }
       ],
       "momentum_shifts": []
