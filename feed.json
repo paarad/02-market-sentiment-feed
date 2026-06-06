@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-06T10:11:54.698399+00:00",
+  "updated_at": "2026-06-06T13:59:01.636010+00:00",
   "indicators": {
-    "change24h": -0.05,
-    "vol": 0.266,
+    "change24h": -0.003,
+    "vol": 0.334,
     "fearGreed": 12,
-    "momentum": -0.881,
-    "regime": "bear",
+    "momentum": -0.045,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2473,
-    "global_sentiment": 0.3705,
-    "combined_sentiment": 0.2997,
-    "confidence": 0.6648,
+    "crypto_sentiment": 0.2695,
+    "global_sentiment": 0.479,
+    "combined_sentiment": 0.3254,
+    "confidence": 0.6387,
     "counts": {
-      "crypto": 52,
-      "global": 47
+      "crypto": 51,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 60650,
-      "btc_change_24h": -3.28,
-      "eth_price": 1557.83,
-      "eth_change_24h": -7.03,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
+      "btc_price": 60755,
+      "btc_change_24h": -0.01,
+      "eth_price": 1556.06,
+      "eth_change_24h": -3.86,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
       "market_breadth": 0.3,
       "fear_greed": {
         "value": 12,
@@ -33,12 +33,12 @@
         "trend": "declining"
       },
       "activity": {
-        "level": "medium",
-        "volume_24h": 264170195601.0,
-        "high_activity_coins": 6
+        "level": "low",
+        "volume_24h": 247503649783.0,
+        "high_activity_coins": 4
       },
       "dominance": {
-        "btc_dominance": 57.54,
+        "btc_dominance": 57.51,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-20T11:13:07.339980+00:00",
-      "crypto": 0.4075,
-      "global": 0.5236,
-      "combined": 0.4326,
-      "counts": {
-        "crypto": 51,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-20T15:41:36.236542+00:00",
       "crypto": 0.3836,
@@ -1008,38 +998,55 @@
         "crypto": 52,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-06-06T13:59:01.636010+00:00",
+      "crypto": 0.2695,
+      "global": 0.479,
+      "combined": 0.3254,
+      "counts": {
+        "crypto": 51,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Marvell Joins S&P 500 As AI Data Center Story Gains Traction",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-joins-p-500-ai-031211444.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3565,
-        "score": 1.0
+        "title": "Michael Saylor’s rallying cry: Bitcoin needs four forces to win",
+        "url": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
+        "source": "CoinDesk",
+        "weight": 0.8926,
+        "score": 0.5333
       },
       {
-        "title": "Fed Chair Kevin Warsh Will Face 2 Key Tests in His First 100 Days -- Trump and Inflation -- and He's Virtually Certain to Fail One of Them",
-        "url": "https://www.fool.com/investing/2026/06/06/fed-kevin-warsh-2-tests-trump-inflation-fail-one/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6524,
-        "score": 0.3333
+        "title": "Macro Soothsayers, Stock Analysts See Vastly Different Markets",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-06/macro-soothsayers-stock-analysts-see-vastly-different-markets",
+        "source": "Bloomberg Markets",
+        "weight": 0.7141,
+        "score": 0.5333
       },
       {
-        "title": "Why Palantir Stock Sank Today",
-        "url": "https://www.fool.com/investing/2026/06/05/why-palantir-stock-sank-today/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2557,
+        "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses",
+        "url": "https://www.cnbc.com/2026/06/06/wall-streets-fear-gauge-punches-back-as-the-crash-up-in-chip-stocks-finally-reverses.html",
+        "source": "CNBC Markets",
+        "weight": 0.712,
         "score": 0.5333
       }
     ],
     "negative": [
       {
+        "title": "Satoshi-era bitcoin at center of $285 billion lawsuit moves after 14 years",
+        "url": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years",
+        "source": "CoinDesk",
+        "weight": 0.9456,
+        "score": -1.0
+      },
+      {
         "title": "WLD plunges 20% as Hayes dumps token a day after saying he would keep holding it",
         "url": "https://www.coindesk.com/markets/2026/06/06/wld-plunges-20-as-hayes-dumps-token-a-day-after-saying-he-would-keep-holding-it",
         "source": "CoinDesk",
-        "weight": 0.8149,
+        "weight": 0.5262,
         "score": -0.9667
       },
       {
@@ -1048,31 +1055,24 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "China’s Regulator to Deepen Focus on Returns in Fund Overhaul",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-06/china-s-regulator-to-deepen-focus-on-returns-in-fund-overhaul",
-        "source": "Bloomberg Markets",
-        "weight": 0.6713,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.5709159593273881,
-          "price_change_24h": 0.03009
+          "volume_mcap_ratio": 0.5391546107353676,
+          "price_change_24h": 0.03398
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.39343613671057504,
-          "price_change_24h": 0.07656
+          "volume_mcap_ratio": 0.37000508090895673,
+          "price_change_24h": 0.09836
         },
         {
           "symbol": "ZEC",
-          "volume_mcap_ratio": 0.34508667512425917,
-          "price_change_24h": 6.66717
+          "volume_mcap_ratio": 0.336056310042971,
+          "price_change_24h": 16.70817
         }
       ],
       "momentum_shifts": []
