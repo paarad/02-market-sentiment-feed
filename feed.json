@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-07T14:09:21.704740+00:00",
+  "updated_at": "2026-06-07T17:24:52.974733+00:00",
   "indicators": {
-    "change24h": 0.052,
-    "vol": 0.246,
+    "change24h": 0.069,
+    "vol": 0.25,
     "fearGreed": 12,
-    "momentum": 0.918,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3997,
-    "global_sentiment": 0.4672,
-    "combined_sentiment": 0.4221,
-    "confidence": 0.5746,
+    "crypto_sentiment": 0.3378,
+    "global_sentiment": 0.4523,
+    "combined_sentiment": 0.3744,
+    "confidence": 0.6298,
     "counts": {
       "crypto": 54,
       "global": 41
     },
     "market_indicators": {
-      "btc_price": 61745,
-      "btc_change_24h": 1.3,
-      "eth_price": 1619.21,
-      "eth_change_24h": 3.63,
+      "btc_price": 62277,
+      "btc_change_24h": 2.73,
+      "eth_price": 1635.97,
+      "eth_change_24h": 4.97,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.85,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 121925285501.0,
-        "high_activity_coins": 0
+        "volume_24h": 121432446294.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.36,
+        "btc_dominance": 57.38,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-21T15:42:45.064682+00:00",
-      "crypto": 0.3811,
-      "global": 0.5675,
-      "combined": 0.4164,
-      "counts": {
-        "crypto": 63,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-05-21T18:05:23.424712+00:00",
       "crypto": 0.4008,
@@ -1008,6 +998,16 @@
         "crypto": 54,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-07T17:24:52.974733+00:00",
+      "crypto": 0.3378,
+      "global": 0.4523,
+      "combined": 0.3744,
+      "counts": {
+        "crypto": 54,
+        "global": 41
+      }
     }
   ],
   "drivers": {
@@ -1016,49 +1016,55 @@
         "title": "Is the Caribbean the Next Space Race Battleground?",
         "url": "https://www.bloomberg.com/news/videos/2026-06-07/is-the-caribbean-the-next-space-race-battleground-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6295,
+        "weight": 0.432,
         "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 3.2% — rally",
+        "title": "Global crypto market cap up 3.1% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Dow Jones Futures Loom After Stock Market Sell-Off; SpaceX IPO, Apple, Oracle Loom",
-        "url": "https://finance.yahoo.com/m/4e57fd62-a165-35ac-ab25-3c8bcc828d3c/dow-jones-futures-loom-after.html?.tsrc=rss",
+        "title": "The S&P 500 Wiped Out $1.4 Trillion in Market Cap After Red-Hot Jobs Report. Here’s Why",
+        "url": "https://247wallst.com/investing/2026/06/07/the-sp-500-wiped-out-1-4-trillion-in-market-cap-after-red-hot-jobs-report-heres-why/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6408,
-        "score": 0.5333
+        "weight": 0.5796,
+        "score": 0.7
       }
     ],
     "negative": [
       {
+        "title": "DeFi’s old hack vectors are fading – But the new risk can hit six chains at once",
+        "url": "https://cryptoslate.com/defis-old-hacks-are-fading-the-new-risk-can-hit-six-chains-at-once/",
+        "source": "CryptoSlate",
+        "weight": 0.7301,
+        "score": -1.0
+      },
+      {
+        "title": "Brazil Budget Freeze Grounds Aircraft Approval Process",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-07/brazil-budget-freeze-grounds-aircraft-approval-process",
+        "source": "Bloomberg Markets",
+        "weight": 0.7223,
+        "score": -0.6667
+      },
+      {
         "title": "VWO vs. EEM: One Emerging Markets ETF Costs 10X More. Is It Worth It?",
         "url": "https://www.fool.com/coverage/etfs/2026/06/07/vwo-vs-eem-one-emerging-markets-etf-costs-10x-more-is-it-worth-it/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7073,
+        "weight": 0.4854,
         "score": -0.9667
-      },
-      {
-        "title": "Defense Spending Is Surging. MISL Bets on Tech. ITA Bets on Tradition.",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/07/defense-spending-is-surging-misl-bets-on-tech-ita-bets-on-tradition/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6735,
-        "score": -0.9667
-      },
-      {
-        "title": "GE Sees Potential For More China Deals After Trump-Xi Meeting",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-07/ge-sees-potential-more-china-deals-after-may-s-trump-xi-meeting",
-        "source": "Bloomberg Markets",
-        "weight": 0.7818,
-        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "WLD",
+          "volume_mcap_ratio": 0.38664388544167033,
+          "price_change_24h": 22.63378
+        }
+      ],
       "momentum_shifts": []
     }
   },
