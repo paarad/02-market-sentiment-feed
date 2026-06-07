@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-07T04:43:32.346078+00:00",
+  "updated_at": "2026-06-07T10:33:17.015101+00:00",
   "indicators": {
-    "change24h": 0.083,
-    "vol": 0.263,
+    "change24h": 0.079,
+    "vol": 0.202,
     "fearGreed": 12,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.403,
-    "global_sentiment": 0.3968,
-    "combined_sentiment": 0.4186,
-    "confidence": 0.5474,
+    "crypto_sentiment": 0.4294,
+    "global_sentiment": 0.4406,
+    "combined_sentiment": 0.4421,
+    "confidence": 0.4806,
     "counts": {
       "crypto": 69,
-      "global": 37
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 61742,
-      "btc_change_24h": 3.24,
-      "eth_price": 1596.06,
-      "eth_change_24h": 4.93,
+      "btc_price": 62513,
+      "btc_change_24h": 3.62,
+      "eth_price": 1634.27,
+      "eth_change_24h": 5.7,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128056432702.0,
+        "volume_24h": 122272168502.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.52,
+        "btc_dominance": 57.54,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-21T04:21:56.885149+00:00",
-      "crypto": 0.4131,
-      "global": 0.4266,
-      "combined": 0.4287,
-      "counts": {
-        "crypto": 58,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-05-21T11:32:02.336943+00:00",
       "crypto": 0.5254,
@@ -1008,30 +998,40 @@
         "crypto": 69,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-06-07T10:33:17.015101+00:00",
+      "crypto": 0.4294,
+      "global": 0.4406,
+      "combined": 0.4421,
+      "counts": {
+        "crypto": 69,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.4% — rally",
+        "title": "Global crypto market cap up 3.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Bitcoin Has Dumped All of Its Gains Since Trump Was Reelected—And Then Some",
-        "url": "https://decrypt.co/370235/bitcoin-dumped-gains-since-trump-reelected-then-some",
-        "source": "Decrypt",
-        "weight": 0.1952,
-        "score": 0.5333
+        "title": "South Korea Unveils Measures to Stem Won Slide, Curb Speculation",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-07/south-korea-unveils-measures-to-stem-won-slide-curb-speculation",
+        "source": "Bloomberg Markets",
+        "weight": 0.6778,
+        "score": 0.3333
       },
       {
-        "title": "Dow Jones Futures: What To Do As Market Rally Faces First Real Test; SpaceX IPO, Apple, Oracle Loom",
-        "url": "https://finance.yahoo.com/m/4e57fd62-a165-35ac-ab25-3c8bcc828d3c/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.1797,
-        "score": 0.5333
+        "title": "Kosovo Seeks to End Impasse With Snap Election: What to Watch",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-07/kosovo-seeks-to-end-impasse-with-snap-election-what-to-watch",
+        "source": "Bloomberg Markets",
+        "weight": 0.4211,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,18 +1043,18 @@
         "score": -0.5333
       },
       {
+        "title": "Prediction: SpaceX Will Be 19% of This Low-Cost Vanguard ETF Before the End of 2026",
+        "url": "https://www.fool.com/investing/2026/06/07/prediction-spacex-will-be-19-of-this-low-cost-vang/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4376,
+        "score": -0.6333
+      },
+      {
         "title": "Bank of America resets Broadcom stock price target after earnings",
         "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-broadcom-stock-price-target-after-earnings?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6984,
+        "weight": 0.3562,
         "score": -0.3
-      },
-      {
-        "title": "China’s PBOC Adds Gold Again as Bullion Remains Under Pressure",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-07/china-s-pboc-adds-gold-again-as-bullion-remains-under-pressure",
-        "source": "Bloomberg Markets",
-        "weight": 0.606,
-        "score": -0.3333
       }
     ],
     "market_movers": {
