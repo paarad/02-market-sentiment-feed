@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-07T20:52:45.912537+00:00",
+  "updated_at": "2026-06-07T21:19:18.488713+00:00",
   "indicators": {
-    "change24h": 0.062,
-    "vol": 0.291,
+    "change24h": 0.056,
+    "vol": 0.318,
     "fearGreed": 12,
-    "momentum": 1.0,
+    "momentum": 0.983,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3046,
-    "global_sentiment": 0.5478,
-    "combined_sentiment": 0.3575,
-    "confidence": 0.5987,
+    "crypto_sentiment": 0.3224,
+    "global_sentiment": 0.5487,
+    "combined_sentiment": 0.3709,
+    "confidence": 0.616,
     "counts": {
-      "crypto": 51,
+      "crypto": 52,
       "global": 35
     },
     "market_indicators": {
-      "btc_price": 61877,
-      "btc_change_24h": 1.94,
-      "eth_price": 1628.21,
-      "eth_change_24h": 4.53,
+      "btc_price": 61872,
+      "btc_change_24h": 1.72,
+      "eth_price": 1628.72,
+      "eth_change_24h": 4.45,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122593678709.0,
-        "high_activity_coins": 0
+        "volume_24h": 122211035927.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.35,
+        "btc_dominance": 57.36,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-21T21:17:56.355109+00:00",
-      "crypto": 0.3669,
-      "global": 0.4612,
-      "combined": 0.397,
-      "counts": {
-        "crypto": 72,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-05-21T21:41:40.655936+00:00",
       "crypto": 0.3665,
@@ -1008,12 +998,22 @@
         "crypto": 51,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-06-07T21:19:18.488713+00:00",
+      "crypto": 0.3224,
+      "global": 0.5487,
+      "combined": 0.3709,
+      "counts": {
+        "crypto": 52,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.0% — rally",
+        "title": "Global crypto market cap up 2.2% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
@@ -1023,14 +1023,14 @@
         "title": "Dow Jones Futures Due As Iran Attacks Israel; Market Rally Faces First Real Test",
         "url": "https://finance.yahoo.com/m/4e57fd62-a165-35ac-ab25-3c8bcc828d3c/dow-jones-futures-due-as-iran.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7784,
+        "weight": 0.7719,
         "score": 0.5333
       },
       {
         "title": "Bond Traders Bet on a CPI Surge That Bolsters Case for Fed Pivot",
         "url": "https://www.bloomberg.com/news/articles/2026-06-07/bond-traders-bet-on-a-cpi-surge-that-bolsters-case-for-fed-pivot",
         "source": "Bloomberg Markets",
-        "weight": 0.6439,
+        "weight": 0.6118,
         "score": 0.5333
       }
     ],
@@ -1039,14 +1039,14 @@
         "title": "Ethereum’s $1,500 test shows how quickly Wall Street’s crypto trade has turned",
         "url": "https://cryptoslate.com/ethereums-1500-test-shows-how-quickly-wall-streets-crypto-trade-has-turned/",
         "source": "CryptoSlate",
-        "weight": 0.6281,
+        "weight": 0.5968,
         "score": -0.9667
       },
       {
         "title": "DeFi’s old hack vectors are fading – But the new risk can hit six chains at once",
         "url": "https://cryptoslate.com/defis-old-hacks-are-fading-the-new-risk-can-hit-six-chains-at-once/",
         "source": "CryptoSlate",
-        "weight": 0.4893,
+        "weight": 0.4649,
         "score": -1.0
       },
       {
@@ -1058,7 +1058,13 @@
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "WLD",
+          "volume_mcap_ratio": 0.38342733002297125,
+          "price_change_24h": 14.0943
+        }
+      ],
       "momentum_shifts": []
     }
   },
