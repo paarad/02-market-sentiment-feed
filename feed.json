@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-06T21:10:23.813971+00:00",
+  "updated_at": "2026-06-07T04:43:32.346078+00:00",
   "indicators": {
-    "change24h": -0.028,
-    "vol": 0.261,
+    "change24h": 0.083,
+    "vol": 0.263,
     "fearGreed": 12,
-    "momentum": -0.483,
-    "regime": "bear",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3223,
-    "global_sentiment": 0.4225,
-    "combined_sentiment": 0.3603,
-    "confidence": 0.6392,
+    "crypto_sentiment": 0.403,
+    "global_sentiment": 0.3968,
+    "combined_sentiment": 0.4186,
+    "confidence": 0.5474,
     "counts": {
-      "crypto": 54,
-      "global": 35
+      "crypto": 69,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 60707,
-      "btc_change_24h": -1.8,
-      "eth_price": 1557.97,
-      "eth_change_24h": -3.34,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.1,
+      "btc_price": 61742,
+      "btc_change_24h": 3.24,
+      "eth_price": 1596.06,
+      "eth_change_24h": 4.93,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152608517609.0,
-        "high_activity_coins": 1
+        "volume_24h": 128056432702.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.48,
+        "btc_dominance": 57.52,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-20T22:00:51.971350+00:00",
-      "crypto": 0.3856,
-      "global": 0.4218,
-      "combined": 0.4077,
-      "counts": {
-        "crypto": 58,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-21T04:21:56.885149+00:00",
       "crypto": 0.4131,
@@ -1008,29 +998,39 @@
         "crypto": 54,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-06-07T04:43:32.346078+00:00",
+      "crypto": 0.403,
+      "global": 0.3968,
+      "combined": 0.4186,
+      "counts": {
+        "crypto": 69,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.4% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "Bitcoin Has Dumped All of Its Gains Since Trump Was Reelected—And Then Some",
         "url": "https://decrypt.co/370235/bitcoin-dumped-gains-since-trump-reelected-then-some",
         "source": "Decrypt",
-        "weight": 0.4671,
+        "weight": 0.1952,
         "score": 0.5333
       },
       {
         "title": "Dow Jones Futures: What To Do As Market Rally Faces First Real Test; SpaceX IPO, Apple, Oracle Loom",
         "url": "https://finance.yahoo.com/m/4e57fd62-a165-35ac-ab25-3c8bcc828d3c/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4299,
-        "score": 0.5333
-      },
-      {
-        "title": "Michael Saylor’s rallying cry: Bitcoin needs four forces to win",
-        "url": "https://www.coindesk.com/markets/2026/06/06/michael-saylor-s-rallying-cry-bitcoin-needs-four-forces-to-win",
-        "source": "CoinDesk",
-        "weight": 0.389,
+        "weight": 0.1797,
         "score": 0.5333
       }
     ],
@@ -1043,28 +1043,22 @@
         "score": -0.5333
       },
       {
-        "title": "Satoshi-era bitcoin at center of $285 billion lawsuit moves after 14 years",
-        "url": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years",
-        "source": "CoinDesk",
-        "weight": 0.4121,
-        "score": -1.0
+        "title": "Bank of America resets Broadcom stock price target after earnings",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-broadcom-stock-price-target-after-earnings?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6984,
+        "score": -0.3
       },
       {
-        "title": "Bitcoin most oversold since 2020 crash: Can BTC rebound to $70K next?",
-        "url": "https://cointelegraph.com/markets/bitcoin-most-oversold-since-2020-crash-can-btc-rebound-to-70k-next?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5352,
-        "score": -0.6333
+        "title": "China’s PBOC Adds Gold Again as Bullion Remains Under Pressure",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-07/china-s-pboc-adds-gold-again-as-bullion-remains-under-pressure",
+        "source": "Bloomberg Markets",
+        "weight": 0.606,
+        "score": -0.3333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.33481627455255036,
-          "price_change_24h": -0.00013
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
