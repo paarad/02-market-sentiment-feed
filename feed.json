@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-08T04:48:31.594086+00:00",
+  "updated_at": "2026-06-08T12:39:08.305389+00:00",
   "indicators": {
-    "change24h": 0.033,
-    "vol": 0.211,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 8,
-    "momentum": 0.58,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3277,
-    "global_sentiment": 0.4272,
-    "combined_sentiment": 0.3647,
-    "confidence": 0.5985,
+    "crypto_sentiment": 0.3979,
+    "global_sentiment": 0.4112,
+    "combined_sentiment": 0.4161,
+    "confidence": 0.7336,
     "counts": {
-      "crypto": 52,
-      "global": 40
+      "crypto": 64,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 62773,
-      "btc_change_24h": 1.62,
-      "eth_price": 1659.86,
-      "eth_change_24h": 4.03,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "btc_price": 63377,
+      "btc_change_24h": 2.49,
+      "eth_price": 1683.35,
+      "eth_change_24h": 4.17,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 144561458968.0,
-        "high_activity_coins": 2
+        "volume_24h": 139927487757.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.52,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-22T04:17:01.284701+00:00",
-      "crypto": 0.405,
-      "global": 0.5316,
-      "combined": 0.4314,
-      "counts": {
-        "crypto": 73,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-22T10:56:15.470830+00:00",
       "crypto": 0.3497,
@@ -1008,66 +998,71 @@
         "crypto": 52,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-06-08T12:39:08.305389+00:00",
+      "crypto": 0.3979,
+      "global": 0.4112,
+      "combined": 0.4161,
+      "counts": {
+        "crypto": 64,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "ASX Penny Stocks To Watch In June 2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asx-penny-stocks-watch-june-030603737.html?.tsrc=rss",
+        "title": "AI IPO Wave Could Add $4 Trillion As Markets Face Supply Test",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-ipo-wave-could-add-121705508.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6567,
-        "score": 0.6667
+        "weight": 0.7667,
+        "score": 0.9667
       },
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "Bitcoin holds steady after Sunday's rally, though full-fledged reversal may take longer",
+        "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-holds-steady-after-sunday-s-rally-though-full-fledged-reversal-may-take-longer",
+        "source": "CoinDesk",
+        "weight": 0.8267,
         "score": 0.5333
       },
       {
-        "title": "Japanese Pension Fund Proxies Buy Record Foreign Bonds in May",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-08/japanese-pension-fund-proxies-buy-record-foreign-bonds-in-may",
+        "title": "Vimeo Parent Bending Spoons Files for US IPO Showing Sales Jump",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-08/vimeo-parent-bending-spoons-files-for-us-ipo-showing-sales-jump",
         "source": "Bloomberg Markets",
-        "weight": 0.6267,
-        "score": 0.6667
+        "weight": 0.6878,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin falls back below $63,000 as Iran-Israel trade strikes and Korean stocks crash",
-        "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-recedes-to-usd63-000-as-iran-israel-trade-strikes-and-korean-stocks-crash",
-        "source": "CoinDesk",
-        "weight": 0.95,
+        "title": "2 of the Most Trusted Total Market ETFs Go Head to Head: VTI vs. SPTM",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/08/2-of-the-most-trusted-total-market-etfs-go-head-to-head-vti-vs-sptm/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7237,
         "score": -0.9667
       },
       {
-        "title": "ECB Risks Repeating 2011 Mistake With Rate Hike, Economists Warn",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-08/ecb-risks-repeating-2011-mistake-with-rate-hike-economists-warn",
-        "source": "Bloomberg Markets",
-        "weight": 0.75,
-        "score": -0.6667
+        "title": "Weight loss drug maker sinks 25% after new safety data spooks investors",
+        "url": "https://www.cnbc.com/2026/06/08/weight-loss-drug-stock-zealand-pharma-data-ada.html",
+        "source": "CNBC Markets",
+        "weight": 0.6969,
+        "score": -1.0
       },
       {
-        "title": "The Korean Stock Market Just Crashed Sunday Night. Will the Nasdaq Follow Tomorrow?",
-        "url": "https://247wallst.com/investing/2026/06/08/the-korean-stock-market-just-crashed-sunday-night-will-the-nasdaq-follow-tomorrow/?.tsrc=rss",
+        "title": "FTXG vs. PBJ: Same Pantry, Same Fee, but the 5-Year Returns Tell a Different Story",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/08/ftxg-vs-pbj-same-pantry-same-fee-but-the-5-year-returns-tell-a-different-story/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7419,
-        "score": -0.6333
+        "weight": 0.6943,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "WLD",
-          "volume_mcap_ratio": 0.36476487771087257,
-          "price_change_24h": 3.56642
-        },
-        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3166796624014372,
-          "price_change_24h": -0.01303
+          "volume_mcap_ratio": 0.30529980227779924,
+          "price_change_24h": -0.0281
         }
       ],
       "momentum_shifts": []
