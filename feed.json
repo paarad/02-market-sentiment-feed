@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-08T21:27:50.301462+00:00",
+  "updated_at": "2026-06-08T21:55:49.333990+00:00",
   "indicators": {
-    "change24h": 0.069,
-    "vol": 0.209,
+    "change24h": 0.074,
+    "vol": 0.223,
     "fearGreed": 8,
     "momentum": 1.0,
     "regime": "sideways",
@@ -11,22 +11,22 @@
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4555,
-    "global_sentiment": 0.3281,
-    "combined_sentiment": 0.4523,
-    "confidence": 0.719,
+    "crypto_sentiment": 0.4559,
+    "global_sentiment": 0.3784,
+    "combined_sentiment": 0.4568,
+    "confidence": 0.7104,
     "counts": {
-      "crypto": 44,
-      "global": 41
+      "crypto": 43,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 63681,
-      "btc_change_24h": 3.1,
-      "eth_price": 1708.36,
-      "eth_change_24h": 4.93,
+      "btc_price": 63734,
+      "btc_change_24h": 3.39,
+      "eth_price": 1706.64,
+      "eth_change_24h": 4.79,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156625902165.0,
+        "volume_24h": 157772022403.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.47,
+        "btc_dominance": 57.5,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-22T17:57:57.196870+00:00",
-      "crypto": 0.3974,
-      "global": 0.5382,
-      "combined": 0.4262,
-      "counts": {
-        "crypto": 57,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-22T20:59:40.752144+00:00",
       "crypto": 0.3851,
@@ -1008,6 +998,16 @@
         "crypto": 44,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-08T21:55:49.333990+00:00",
+      "crypto": 0.4559,
+      "global": 0.3784,
+      "combined": 0.4568,
+      "counts": {
+        "crypto": 43,
+        "global": 38
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "Stock Market Today: Nasdaq Ends Higher In Recovery Move, Dow Dips; Apple Sinks On AI News",
         "url": "https://finance.yahoo.com/m/4666804e-2154-3599-9b27-c294f072946f/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7335,
+        "weight": 0.695,
         "score": 1.0
       },
       {
-        "title": "Why Nasdaq is Surging Today",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nasdaq-surging-today-201116804.html?.tsrc=rss",
+        "title": "Stock Market Today, June 8: Intel Surges on Reported Google AI Chip Foundry Order",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/08/stock-market-today-june-8-intel-surges-on-reported-google-ai-chip-foundry-order/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6903,
-        "score": 1.0
+        "weight": 0.7521,
+        "score": 0.8667
       },
       {
         "title": "Ingredion CEO Says Tate & Lyle Deal Creates Powerhouse",
         "url": "https://www.bloomberg.com/news/videos/2026-06-08/ingredion-ceo-says-tate-lyle-deal-creates-powerhouse-video",
         "source": "Bloomberg Markets",
-        "weight": 0.7865,
+        "weight": 0.7452,
         "score": 0.6333
       }
     ],
@@ -1039,35 +1039,35 @@
         "title": "US Removes Amazon Satellite Launch Deadline Amid Rocket Shortage",
         "url": "https://www.bloomberg.com/news/articles/2026-06-08/us-removes-amazon-satellite-launch-deadline-amid-rocket-shortage",
         "source": "Bloomberg Markets",
-        "weight": 0.6658,
+        "weight": 0.6309,
         "score": -1.0
-      },
-      {
-        "title": "BofA Warns It’s Time to ‘Take Profits’ as Red Flags Multiply",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-warns-time-profits-red-170459030.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.686,
-        "score": -0.9667
       },
       {
         "title": "First Brands Wins Second Chance to Pursue Liquidation Proposal",
         "url": "https://www.bloomberg.com/news/articles/2026-06-08/first-brands-wins-second-chance-to-pursue-liquidation-proposal",
         "source": "Bloomberg Markets",
-        "weight": 0.6898,
+        "weight": 0.6536,
         "score": -0.7833
+      },
+      {
+        "title": "OpenAI confidentially files for IPO, prepping Wall Street for mega AI debut",
+        "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
+        "source": "CNBC Markets",
+        "weight": 0.7746,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.5144252599725438,
-          "price_change_24h": 8.72752
+          "volume_mcap_ratio": 0.36863861285000515,
+          "price_change_24h": 10.16599
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3474875706956266,
-          "price_change_24h": 0.00422
+          "volume_mcap_ratio": 0.3481418749799955,
+          "price_change_24h": 0.0039
         }
       ],
       "momentum_shifts": []
