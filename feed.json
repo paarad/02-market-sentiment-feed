@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-08T12:39:08.305389+00:00",
+  "updated_at": "2026-06-08T18:29:25.334584+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.035,
+    "vol": 0.19,
     "fearGreed": 8,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.617,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3979,
-    "global_sentiment": 0.4112,
-    "combined_sentiment": 0.4161,
-    "confidence": 0.7336,
+    "crypto_sentiment": 0.437,
+    "global_sentiment": 0.4592,
+    "combined_sentiment": 0.4493,
+    "confidence": 0.728,
     "counts": {
-      "crypto": 64,
+      "crypto": 44,
       "global": 42
     },
     "market_indicators": {
-      "btc_price": 63377,
-      "btc_change_24h": 2.49,
-      "eth_price": 1683.35,
-      "eth_change_24h": 4.17,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 63570,
+      "btc_change_24h": 2.21,
+      "eth_price": 1685.97,
+      "eth_change_24h": 3.3,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139927487757.0,
-        "high_activity_coins": 1
+        "volume_24h": 157713782948.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.52,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-22T10:56:15.470830+00:00",
-      "crypto": 0.3497,
-      "global": 0.5396,
-      "combined": 0.3906,
-      "counts": {
-        "crypto": 62,
-        "global": 54
-      }
-    },
     {
       "ts": "2026-05-22T14:52:35.043794+00:00",
       "crypto": 0.3544,
@@ -1008,61 +998,76 @@
         "crypto": 64,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-08T18:29:25.334584+00:00",
+      "crypto": 0.437,
+      "global": 0.4592,
+      "combined": 0.4493,
+      "counts": {
+        "crypto": 44,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AI IPO Wave Could Add $4 Trillion As Markets Face Supply Test",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-ipo-wave-could-add-121705508.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7667,
-        "score": 0.9667
-      },
-      {
-        "title": "Bitcoin holds steady after Sunday's rally, though full-fledged reversal may take longer",
-        "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-holds-steady-after-sunday-s-rally-though-full-fledged-reversal-may-take-longer",
-        "source": "CoinDesk",
-        "weight": 0.8267,
-        "score": 0.5333
-      },
-      {
-        "title": "Vimeo Parent Bending Spoons Files for US IPO Showing Sales Jump",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-08/vimeo-parent-bending-spoons-files-for-us-ipo-showing-sales-jump",
+        "title": "SpaceX IPO Countdown Begins | Open Interest 6/8/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-08/open-interest-6-8-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6878,
+        "weight": 0.6993,
+        "score": 0.8667
+      },
+      {
+        "title": "Zepto Publicly Files for Planned $1 Billion India IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-08/zepto-publicly-files-for-planned-1-billion-india-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.7291,
         "score": 0.6333
+      },
+      {
+        "title": "IDT Stock Gains Post Q3 Earnings as Growth Segments Boost Profit",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/idt-stock-gains-post-q3-171400944.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6919,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "2 of the Most Trusted Total Market ETFs Go Head to Head: VTI vs. SPTM",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/08/2-of-the-most-trusted-total-market-etfs-go-head-to-head-vti-vs-sptm/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7237,
+        "title": "BofA Warns It’s Time to ‘Take Profits’ as Red Flags Multiply",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-08/bofa-warns-it-s-time-to-take-profits-as-red-flags-multiply",
+        "source": "Bloomberg Markets",
+        "weight": 0.68,
         "score": -0.9667
       },
       {
-        "title": "Weight loss drug maker sinks 25% after new safety data spooks investors",
+        "title": "Weight loss drug maker sinks 23% after new safety data spooks investors",
         "url": "https://www.cnbc.com/2026/06/08/weight-loss-drug-stock-zealand-pharma-data-ada.html",
         "source": "CNBC Markets",
-        "weight": 0.6969,
+        "weight": 0.5812,
         "score": -1.0
       },
       {
-        "title": "FTXG vs. PBJ: Same Pantry, Same Fee, but the 5-Year Returns Tell a Different Story",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/08/ftxg-vs-pbj-same-pantry-same-fee-but-the-5-year-returns-tell-a-different-story/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6943,
-        "score": -0.9667
+        "title": "SpaceX IPO Fuels Space Economy Buzz",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-08/spacex-ipo-fuels-space-economy-buzz-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5962,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
+          "symbol": "WLD",
+          "volume_mcap_ratio": 0.4320690961432114,
+          "price_change_24h": 14.3012
+        },
+        {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.30529980227779924,
-          "price_change_24h": -0.0281
+          "volume_mcap_ratio": 0.34534602700380707,
+          "price_change_24h": -0.00917
         }
       ],
       "momentum_shifts": []
