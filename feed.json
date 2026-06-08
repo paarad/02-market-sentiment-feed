@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-08T18:29:25.334584+00:00",
+  "updated_at": "2026-06-08T21:27:50.301462+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.19,
+    "change24h": 0.069,
+    "vol": 0.209,
     "fearGreed": 8,
-    "momentum": 0.617,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.437,
-    "global_sentiment": 0.4592,
-    "combined_sentiment": 0.4493,
-    "confidence": 0.728,
+    "crypto_sentiment": 0.4555,
+    "global_sentiment": 0.3281,
+    "combined_sentiment": 0.4523,
+    "confidence": 0.719,
     "counts": {
       "crypto": 44,
-      "global": 42
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 63570,
-      "btc_change_24h": 2.21,
-      "eth_price": 1685.97,
-      "eth_change_24h": 3.3,
+      "btc_price": 63681,
+      "btc_change_24h": 3.1,
+      "eth_price": 1708.36,
+      "eth_change_24h": 4.93,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.95,
       "fear_greed": {
         "value": 8,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 157713782948.0,
+        "volume_24h": 156625902165.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.52,
+        "btc_dominance": 57.47,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-22T14:52:35.043794+00:00",
-      "crypto": 0.3544,
-      "global": 0.5087,
-      "combined": 0.3915,
-      "counts": {
-        "crypto": 74,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-22T17:57:57.196870+00:00",
       "crypto": 0.3974,
@@ -1008,66 +998,76 @@
         "crypto": 44,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-08T21:27:50.301462+00:00",
+      "crypto": 0.4555,
+      "global": 0.3281,
+      "combined": 0.4523,
+      "counts": {
+        "crypto": 44,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX IPO Countdown Begins | Open Interest 6/8/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-08/open-interest-6-8-2026-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6993,
-        "score": 0.8667
-      },
-      {
-        "title": "Zepto Publicly Files for Planned $1 Billion India IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-08/zepto-publicly-files-for-planned-1-billion-india-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.7291,
-        "score": 0.6333
-      },
-      {
-        "title": "IDT Stock Gains Post Q3 Earnings as Growth Segments Boost Profit",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/idt-stock-gains-post-q3-171400944.html?.tsrc=rss",
+        "title": "Stock Market Today: Nasdaq Ends Higher In Recovery Move, Dow Dips; Apple Sinks On AI News",
+        "url": "https://finance.yahoo.com/m/4666804e-2154-3599-9b27-c294f072946f/stock-market-today%3A-nasdaq.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6919,
-        "score": 0.6667
+        "weight": 0.7335,
+        "score": 1.0
+      },
+      {
+        "title": "Why Nasdaq is Surging Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-nasdaq-surging-today-201116804.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6903,
+        "score": 1.0
+      },
+      {
+        "title": "Ingredion CEO Says Tate & Lyle Deal Creates Powerhouse",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-08/ingredion-ceo-says-tate-lyle-deal-creates-powerhouse-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7865,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "BofA Warns It’s Time to ‘Take Profits’ as Red Flags Multiply",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-08/bofa-warns-it-s-time-to-take-profits-as-red-flags-multiply",
+        "title": "US Removes Amazon Satellite Launch Deadline Amid Rocket Shortage",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-08/us-removes-amazon-satellite-launch-deadline-amid-rocket-shortage",
         "source": "Bloomberg Markets",
-        "weight": 0.68,
-        "score": -0.9667
-      },
-      {
-        "title": "Weight loss drug maker sinks 23% after new safety data spooks investors",
-        "url": "https://www.cnbc.com/2026/06/08/weight-loss-drug-stock-zealand-pharma-data-ada.html",
-        "source": "CNBC Markets",
-        "weight": 0.5812,
+        "weight": 0.6658,
         "score": -1.0
       },
       {
-        "title": "SpaceX IPO Fuels Space Economy Buzz",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-08/spacex-ipo-fuels-space-economy-buzz-video",
+        "title": "BofA Warns It’s Time to ‘Take Profits’ as Red Flags Multiply",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-warns-time-profits-red-170459030.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.686,
+        "score": -0.9667
+      },
+      {
+        "title": "First Brands Wins Second Chance to Pursue Liquidation Proposal",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-08/first-brands-wins-second-chance-to-pursue-liquidation-proposal",
         "source": "Bloomberg Markets",
-        "weight": 0.5962,
-        "score": -0.9333
+        "weight": 0.6898,
+        "score": -0.7833
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4320690961432114,
-          "price_change_24h": 14.3012
+          "volume_mcap_ratio": 0.5144252599725438,
+          "price_change_24h": 8.72752
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.34534602700380707,
-          "price_change_24h": -0.00917
+          "volume_mcap_ratio": 0.3474875706956266,
+          "price_change_24h": 0.00422
         }
       ],
       "momentum_shifts": []
