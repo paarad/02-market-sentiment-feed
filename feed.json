@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-09T11:23:17.684908+00:00",
+  "updated_at": "2026-06-09T15:22:30.987066+00:00",
   "indicators": {
-    "change24h": 0.002,
-    "vol": 0.17,
+    "change24h": -0.033,
+    "vol": 0.184,
     "fearGreed": 10,
-    "momentum": 0.039,
-    "regime": "sideways",
+    "momentum": -0.573,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3353,
-    "global_sentiment": 0.3789,
-    "combined_sentiment": 0.3664,
-    "confidence": 0.6977,
+    "crypto_sentiment": 0.267,
+    "global_sentiment": 0.4642,
+    "combined_sentiment": 0.3222,
+    "confidence": 0.7197,
     "counts": {
-      "crypto": 44,
-      "global": 44
+      "crypto": 40,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 62482,
-      "btc_change_24h": -1.75,
-      "eth_price": 1666.46,
-      "eth_change_24h": -1.49,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 61566,
+      "btc_change_24h": -3.84,
+      "eth_price": 1649.1,
+      "eth_change_24h": -2.91,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 136367898000.0,
-        "high_activity_coins": 2
+        "volume_24h": 130604719899.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.35,
+        "btc_dominance": 57.18,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-23T03:55:43.694159+00:00",
-      "crypto": 0.3822,
-      "global": 0.6119,
-      "combined": 0.421,
-      "counts": {
-        "crypto": 55,
-        "global": 48
-      }
-    },
     {
       "ts": "2026-05-23T06:39:54.653754+00:00",
       "crypto": 0.3727,
@@ -1008,52 +998,62 @@
         "crypto": 44,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-06-09T15:22:30.987066+00:00",
+      "crypto": 0.267,
+      "global": 0.4642,
+      "combined": 0.3222,
+      "counts": {
+        "crypto": 40,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin's bounce isn't a bullish revival, with anything from $68,000 to $80,000 seen as a marker",
-        "url": "https://www.coindesk.com/daybook-us/2026/06/09/bitcoin-s-bounce-isn-t-a-bullish-revival-with-anything-from-usd68-000-to-usd80-000-seen-as-a-marker",
-        "source": "CoinDesk",
-        "weight": 0.9878,
-        "score": 0.5333
-      },
-      {
-        "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Firm Jobs Data And Yields",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080731843.html?.tsrc=rss",
+        "title": "3 Reasons We Love RBC Bearings (RBC)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-love-rbc-bearings-142214340.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5488,
+        "weight": 0.7123,
         "score": 0.8667
       },
       {
-        "title": "Philippines’ PLDT Seeks Up to $400 Million From REIT Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-09/philippines-pldt-seeks-up-to-400-million-from-reit-listing",
-        "source": "Bloomberg Markets",
-        "weight": 0.6929,
-        "score": 0.6333
+        "title": "Standex (SXI): Buy, Sell, or Hold Post Q1 Earnings?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/standex-sxi-buy-sell-hold-135014020.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6698,
+        "score": 0.8667
+      },
+      {
+        "title": "Acushnet (GOLF): Buy, Sell, or Hold Post Q1 Earnings?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/acushnet-golf-buy-sell-hold-135814363.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6802,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Stocks Extend Rally in AI-Led Rebound; Trump Says Peace Talks on Track | Bloomberg Brief 6/9/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-09/bloomberg-brief-6-9-2026-video",
+        "title": "Kenya Retains Benchmark Interest Rate for Second Time",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-09/kenya-retains-benchmark-interest-rate-for-second-time",
         "source": "Bloomberg Markets",
-        "weight": 0.7768,
+        "weight": 0.7393,
         "score": -0.9667
       },
       {
-        "title": "Blackstone Is Buying Up SRTs as Banks Rush to Hedge Loan Risks",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-09/blackstone-is-buying-up-srts-as-banks-rush-to-hedge-loan-risks",
-        "source": "Bloomberg Markets",
-        "weight": 0.7124,
-        "score": -1.0
+        "title": "Humanity's $36 million exploit tied to compromised laptop hosting a 'multisig' wallet",
+        "url": "https://www.coindesk.com/tech/2026/06/09/humanity-s-usd36-million-exploit-happened-because-a-multisig-wallet-lived-on-one-laptop",
+        "source": "CoinDesk",
+        "weight": 0.6799,
+        "score": -0.8333
       },
       {
-        "title": "Nuvalent shares surge 39% after UK's GSK agrees to buy the cancer drugmaker for $10.6 billion",
-        "url": "https://www.cnbc.com/2026/06/09/gsk-in-talks-to-acquire-nuvalent-for-more-than-9-billion.html",
+        "title": "The space race is coming for pharma: Why drug development is heading to lower Earth orbit",
+        "url": "https://www.cnbc.com/2026/06/09/space-race-pharma-spacex-varda-redwire-drug-development-orbit.html",
         "source": "CNBC Markets",
-        "weight": 0.6999,
+        "weight": 0.5236,
         "score": -0.9333
       }
     ],
@@ -1061,13 +1061,8 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.3741522834902802,
-          "price_change_24h": 9.17432
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3060371334493273,
-          "price_change_24h": 0.02781
+          "volume_mcap_ratio": 0.5473892081598835,
+          "price_change_24h": 8.4531
         }
       ],
       "momentum_shifts": []
