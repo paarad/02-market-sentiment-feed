@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-09T04:10:48.675399+00:00",
+  "updated_at": "2026-06-09T11:23:17.684908+00:00",
   "indicators": {
-    "change24h": 0.004,
-    "vol": 0.11,
+    "change24h": 0.002,
+    "vol": 0.17,
     "fearGreed": 10,
-    "momentum": 0.075,
+    "momentum": 0.039,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3899,
-    "global_sentiment": 0.4041,
-    "combined_sentiment": 0.4094,
-    "confidence": 0.6461,
+    "crypto_sentiment": 0.3353,
+    "global_sentiment": 0.3789,
+    "combined_sentiment": 0.3664,
+    "confidence": 0.6977,
     "counts": {
       "crypto": 44,
-      "global": 42
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 62790,
-      "btc_change_24h": -0.19,
-      "eth_price": 1666.72,
-      "eth_change_24h": -0.04,
+      "btc_price": 62482,
+      "btc_change_24h": -1.75,
+      "eth_price": 1666.46,
+      "eth_change_24h": -1.49,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 10,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139965400462.0,
+        "volume_24h": 136367898000.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.5,
+        "btc_dominance": 57.35,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-22T21:17:10.368171+00:00",
-      "crypto": 0.3804,
-      "global": 0.4736,
-      "combined": 0.4081,
-      "counts": {
-        "crypto": 54,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-05-23T03:55:43.694159+00:00",
       "crypto": 0.3822,
@@ -1008,66 +998,76 @@
         "crypto": 44,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-09T11:23:17.684908+00:00",
+      "crypto": 0.3353,
+      "global": 0.3789,
+      "combined": 0.3664,
+      "counts": {
+        "crypto": 44,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "S&P 500, Nasdaq end up as chipmakers rebound",
-        "url": "https://finance.yahoo.com/video/p-500-nasdaq-end-chipmakers-230859275.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4474,
-        "score": 1.0
-      },
-      {
-        "title": "Morgan Stanley Sees LNG Upside Risks as Asian Demand Picks Up",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-09/morgan-stanley-sees-lng-upside-risks-as-asian-demand-picks-up",
-        "source": "Bloomberg Markets",
-        "weight": 0.5151,
-        "score": 0.6667
-      },
-      {
-        "title": "Popular tech stock surges after new data center announcement",
-        "url": "https://www.thestreet.com/crypto/markets/popular-tech-stock-surges-after-new-data-center-announcement?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5228,
+        "title": "Bitcoin's bounce isn't a bullish revival, with anything from $68,000 to $80,000 seen as a marker",
+        "url": "https://www.coindesk.com/daybook-us/2026/06/09/bitcoin-s-bounce-isn-t-a-bullish-revival-with-anything-from-usd68-000-to-usd80-000-seen-as-a-marker",
+        "source": "CoinDesk",
+        "weight": 0.9878,
         "score": 0.5333
+      },
+      {
+        "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Firm Jobs Data And Yields",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080731843.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5488,
+        "score": 0.8667
+      },
+      {
+        "title": "Philippines’ PLDT Seeks Up to $400 Million From REIT Listing",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-09/philippines-pldt-seeks-up-to-400-million-from-reit-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.6929,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Humanity Protocol token falls 85% amid $30M private key exploit",
-        "url": "https://cointelegraph.com/news/humanity-h-token-tanks-85-following-30m-private-key-compromise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7349,
+        "title": "Stocks Extend Rally in AI-Led Rebound; Trump Says Peace Talks on Track | Bloomberg Brief 6/9/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-09/bloomberg-brief-6-9-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7768,
+        "score": -0.9667
+      },
+      {
+        "title": "Blackstone Is Buying Up SRTs as Banks Rush to Hedge Loan Risks",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-09/blackstone-is-buying-up-srts-as-banks-rush-to-hedge-loan-risks",
+        "source": "Bloomberg Markets",
+        "weight": 0.7124,
         "score": -1.0
       },
       {
-        "title": "Genesco, Kontoor Brands, and Crocs Shares Are Soaring, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/genesco-kontoor-brands-crocs-shares-015750547.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6193,
-        "score": -0.8
-      },
-      {
-        "title": "fuboTV, Xponential Fitness, and Funko Shares Skyrocket, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/fubotv-xponential-fitness-funko-shares-014950594.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6098,
-        "score": -0.8
+        "title": "Nuvalent shares surge 39% after UK's GSK agrees to buy the cancer drugmaker for $10.6 billion",
+        "url": "https://www.cnbc.com/2026/06/09/gsk-in-talks-to-acquire-nuvalent-for-more-than-9-billion.html",
+        "source": "CNBC Markets",
+        "weight": 0.6999,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.37431738087364125,
-          "price_change_24h": 1.66409
+          "volume_mcap_ratio": 0.3741522834902802,
+          "price_change_24h": 9.17432
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3109969314165852,
-          "price_change_24h": 0.00133
+          "volume_mcap_ratio": 0.3060371334493273,
+          "price_change_24h": 0.02781
         }
       ],
       "momentum_shifts": []
