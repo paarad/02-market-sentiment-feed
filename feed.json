@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-10T11:43:36.200976+00:00",
+  "updated_at": "2026-06-10T15:54:28.568898+00:00",
   "indicators": {
-    "change24h": -0.04,
-    "vol": 0.312,
+    "change24h": 0.027,
+    "vol": 0.27,
     "fearGreed": 9,
-    "momentum": -0.706,
-    "regime": "bear",
+    "momentum": 0.466,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2936,
-    "global_sentiment": 0.5086,
-    "combined_sentiment": 0.3459,
-    "confidence": 0.7211,
+    "crypto_sentiment": 0.3589,
+    "global_sentiment": 0.5667,
+    "combined_sentiment": 0.3997,
+    "confidence": 0.781,
     "counts": {
       "crypto": 46,
-      "global": 46
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 60960,
-      "btc_change_24h": -2.64,
-      "eth_price": 1618.59,
-      "eth_change_24h": -3.12,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.35,
+      "btc_price": 62366,
+      "btc_change_24h": 1.83,
+      "eth_price": 1645.73,
+      "eth_change_24h": 0.39,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 135446002255.0,
-        "high_activity_coins": 2
+        "volume_24h": 133166942642.0,
+        "high_activity_coins": 1
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-24T04:15:44.934981+00:00",
-      "crypto": 0.414,
-      "global": 0.6343,
-      "combined": 0.4467,
-      "counts": {
-        "crypto": 55,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-05-24T10:00:53.333294+00:00",
       "crypto": 0.3534,
@@ -1008,66 +998,71 @@
         "crypto": 46,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-06-10T15:54:28.568898+00:00",
+      "crypto": 0.3589,
+      "global": 0.5667,
+      "combined": 0.3997,
+      "counts": {
+        "crypto": 46,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "2 Services Stocks to Own for Decades and 1 We Ignore",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/2-services-stocks-own-decades-105728160.html?.tsrc=rss",
+        "title": "3 Reasons to Avoid CMI and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-cmi-1-152928944.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.732,
-        "score": 1.0
+        "weight": 0.7624,
+        "score": 0.8667
       },
       {
-        "title": "Tech Stock Selloff Rages On After U.S. Attacks Iran. Stock Futures Dive.",
-        "url": "https://finance.yahoo.com/m/54163461-6baa-3af7-a396-ad71c687af32/tech-stock-selloff-rages-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6712,
-        "score": 0.8
+        "title": "Tenev says Robinhood won underwriter approval as crypto markets front-run mega IPOs",
+        "url": "https://cointelegraph.com/news/robinhood-secures-underwriter-status-crypto-front-mega-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6847,
+        "score": 0.9167
       },
       {
-        "title": "Trump says Iran will 'pay the price' and claims they have 'taken too long' to agree to a deal",
-        "url": "https://www.cnbc.com/2026/06/10/trump-iran-talks.html",
-        "source": "CNBC Markets",
-        "weight": 0.7866,
+        "title": "Inflation Could Be Nearing Its Peak. The Fed's Work May Not Be Over.",
+        "url": "https://finance.yahoo.com/m/b13002d1-9006-3ad9-981b-0c256f3ccc75/inflation-could-be-nearing.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7193,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Japan's three largest banks aim for joint stablecoin issue by March",
-        "url": "https://www.coindesk.com/business/2026/06/10/japan-s-three-largest-banks-aim-for-joint-stablecoin-issue-by-march",
+        "title": "Wall Street is buying DeFi tokens again, even as everyone worries the code is unsafe",
+        "url": "https://cryptoslate.com/wall-street-is-buying-defi-tokens-again-even-as-everyone-worries-the-code-is-unsafe/",
+        "source": "CryptoSlate",
+        "weight": 0.5521,
+        "score": -1.0
+      },
+      {
+        "title": "CoinDesk 20 performance update: Index drops 1.4% as all constituents decline",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/06/10/coindesk-20-performance-update-index-drops-1-4-as-all-constituents-decline",
         "source": "CoinDesk",
-        "weight": 0.7315,
+        "weight": 0.7473,
         "score": -0.6667
       },
       {
-        "title": "ISCB vs. BBSC: Which Small-Cap ETF Is the Better Buy for Long-Term Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/10/iscb-vs-bbsc-which-small-cap-etf-is-the-better-buy-for-long-term-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.753,
+        "title": "Humanity Protocol’s H crash exposes the private keys behind its ZK identity pitch",
+        "url": "https://cryptoslate.com/humanity-protocols-h-crash-exposes-the-private-keys-behind-its-zk-identity-pitch/",
+        "source": "CryptoSlate",
+        "weight": 0.7377,
         "score": -0.6333
-      },
-      {
-        "title": "Fear & Greed 9 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4189859080610182,
-          "price_change_24h": -6.21699
-        },
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.3018858042827364,
-          "price_change_24h": -0.02205
+          "volume_mcap_ratio": 0.4038959099780193,
+          "price_change_24h": -4.9291
         }
       ],
       "momentum_shifts": []
