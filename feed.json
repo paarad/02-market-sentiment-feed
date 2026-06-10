@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-10T15:54:28.568898+00:00",
+  "updated_at": "2026-06-10T18:34:57.886621+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.27,
+    "change24h": -0.019,
+    "vol": 0.172,
     "fearGreed": 9,
-    "momentum": 0.466,
-    "regime": "sideways",
+    "momentum": -0.333,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3589,
-    "global_sentiment": 0.5667,
-    "combined_sentiment": 0.3997,
-    "confidence": 0.781,
+    "crypto_sentiment": 0.3239,
+    "global_sentiment": 0.5397,
+    "combined_sentiment": 0.3713,
+    "confidence": 0.7842,
     "counts": {
       "crypto": 46,
-      "global": 41
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 62366,
-      "btc_change_24h": 1.83,
-      "eth_price": 1645.73,
-      "eth_change_24h": 0.39,
-      "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "btc_price": 61902,
+      "btc_change_24h": 0.33,
+      "eth_price": 1632.24,
+      "eth_change_24h": -1.03,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 9,
         "classification": "Extreme Fear",
@@ -34,8 +34,8 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133166942642.0,
-        "high_activity_coins": 1
+        "volume_24h": 118379381118.0,
+        "high_activity_coins": 0
       },
       "dominance": {
         "btc_dominance": 0,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-24T10:00:53.333294+00:00",
-      "crypto": 0.3534,
-      "global": 0.6112,
-      "combined": 0.3993,
-      "counts": {
-        "crypto": 57,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-05-24T13:49:28.322429+00:00",
       "crypto": 0.3057,
@@ -1008,63 +998,67 @@
         "crypto": 46,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-10T18:34:57.886621+00:00",
+      "crypto": 0.3239,
+      "global": 0.5397,
+      "combined": 0.3713,
+      "counts": {
+        "crypto": 46,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Reasons to Avoid CMI and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-cmi-1-152928944.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7624,
-        "score": 0.8667
+        "title": "Stocks Under Pressure as SpaceX Mania Grows | Open Interest 6/10/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-10/open-interest-6-10-2026-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7171,
+        "score": 1.0
+      },
+      {
+        "title": "SpaceX IPO Draws Billions in Orders",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-10/spacex-ipo-draws-billions-in-orders-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7302,
+        "score": 0.6333
       },
       {
         "title": "Tenev says Robinhood won underwriter approval as crypto markets front-run mega IPOs",
         "url": "https://cointelegraph.com/news/robinhood-secures-underwriter-status-crypto-front-mega-ipo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.6847,
+        "weight": 0.5027,
         "score": 0.9167
-      },
-      {
-        "title": "Inflation Could Be Nearing Its Peak. The Fed's Work May Not Be Over.",
-        "url": "https://finance.yahoo.com/m/b13002d1-9006-3ad9-981b-0c256f3ccc75/inflation-could-be-nearing.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7193,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Wall Street is buying DeFi tokens again, even as everyone worries the code is unsafe",
-        "url": "https://cryptoslate.com/wall-street-is-buying-defi-tokens-again-even-as-everyone-worries-the-code-is-unsafe/",
-        "source": "CryptoSlate",
-        "weight": 0.5521,
+        "title": "Anchorage backs Treasury’s GENIUS AML rules, seeks secondary-market sanctions clarity",
+        "url": "https://cointelegraph.com/news/anchorage-backs-treasurys-genius-aml-rules-seeks-secondary-market-sanctions-clarity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6925,
         "score": -1.0
       },
       {
-        "title": "CoinDesk 20 performance update: Index drops 1.4% as all constituents decline",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/06/10/coindesk-20-performance-update-index-drops-1-4-as-all-constituents-decline",
-        "source": "CoinDesk",
-        "weight": 0.7473,
-        "score": -0.6667
+        "title": "Sen. Warren calls on SEC to delay SpaceX IPO, flagging concerns about valuation and governance",
+        "url": "https://www.cnbc.com/2026/06/10/spacex-elizabeth-warren-elon-musk-sec-ipo.html",
+        "source": "CNBC Markets",
+        "weight": 0.6573,
+        "score": -0.9667
       },
       {
-        "title": "Humanity Protocol’s H crash exposes the private keys behind its ZK identity pitch",
-        "url": "https://cryptoslate.com/humanity-protocols-h-crash-exposes-the-private-keys-behind-its-zk-identity-pitch/",
-        "source": "CryptoSlate",
-        "weight": 0.7377,
+        "title": "Sector Update: Energy Stocks Rise Wednesday Afternoon",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-rise-wednesday-174334677.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7246,
         "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "WLD",
-          "volume_mcap_ratio": 0.4038959099780193,
-          "price_change_24h": -4.9291
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
