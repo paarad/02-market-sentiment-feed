@@ -1,46 +1,46 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-09T21:53:24.708268+00:00",
+  "updated_at": "2026-06-10T04:21:51.587320+00:00",
   "indicators": {
-    "change24h": -0.043,
-    "vol": 0.277,
-    "fearGreed": 10,
-    "momentum": -0.757,
+    "change24h": -0.023,
+    "vol": 0.266,
+    "fearGreed": 9,
+    "momentum": -0.408,
     "regime": "bear",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2757,
-    "global_sentiment": 0.4226,
-    "combined_sentiment": 0.3253,
-    "confidence": 0.7345,
+    "crypto_sentiment": 0.2446,
+    "global_sentiment": 0.4367,
+    "combined_sentiment": 0.3032,
+    "confidence": 0.6461,
     "counts": {
-      "crypto": 53,
-      "global": 41
+      "crypto": 40,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 61764,
-      "btc_change_24h": -3.08,
-      "eth_price": 1649.74,
-      "eth_change_24h": -3.33,
+      "btc_price": 61483,
+      "btc_change_24h": -2.15,
+      "eth_price": 1630.3,
+      "eth_change_24h": -2.25,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
-        "value": 10,
+        "value": 9,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 145256686234.0,
+        "volume_24h": 138881834015.0,
         "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.28,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-23T20:33:00.492670+00:00",
-      "crypto": 0.431,
-      "global": 0.6102,
-      "combined": 0.4575,
-      "counts": {
-        "crypto": 55,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-05-23T21:01:16.813645+00:00",
       "crypto": 0.4815,
@@ -1008,66 +998,76 @@
         "crypto": 53,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-10T04:21:51.587320+00:00",
+      "crypto": 0.2446,
+      "global": 0.4367,
+      "combined": 0.3032,
+      "counts": {
+        "crypto": 40,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "HyOrc Corporation Retains Stonegate Capital Partners to Lead Investor Outreach and Support Nasdaq Uplisting Strategy",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hyorc-corporation-retains-stonegate-capital-205100241.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7094,
-        "score": 0.6333
-      },
-      {
-        "title": "Can the OpenAI and Anthropic IPOs Live Up to Expectations?",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-09/openai-and-anthropic-ipos-will-put-ai-enthusiasm-to-the-test",
+        "title": "Hong Kong Dollar Carry Trade Appeal Dims as Funding Costs Climb",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-10/hong-kong-dollar-carry-trade-appeal-dims-as-funding-costs-climb",
         "source": "Bloomberg Markets",
-        "weight": 0.4791,
-        "score": 0.6333
+        "weight": 0.714,
+        "score": 0.6667
       },
       {
-        "title": "As LIV Golf faces a Saudi funding cliff, CEO says to take PIF 'at their word'",
-        "url": "https://www.cnbc.com/2026/06/09/liv-golf-ceo-pif-funding-cliff.html",
+        "title": "US Launches Iran Strikes After Helicopter Is Downed",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-09/us-launches-iran-strikes-after-helicopter-is-downed-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.48,
+        "score": 0.6667
+      },
+      {
+        "title": "China May wholesale inflation hits near 4-year high on Iran war-led higher input costs, AI boom",
+        "url": "https://www.cnbc.com/2026/06/10/china-cpi-ppi-inflation-may-consumer-prices-producer-oil-iran-war-ai-tech-.html",
         "source": "CNBC Markets",
-        "weight": 0.7988,
+        "weight": 0.787,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Which Energy ETF Should You Buy: State Street Energy or iShares Clean Energy?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/09/which-energy-etf-should-you-buy-state-street-energy-etf-or-ishares-clean-energy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6657,
+        "title": "Hong Kong Will Inspire China’s Confidence on Capital Flows, Says City’s Financial Secretary",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-10/hk-will-inspire-china-s-confidence-on-capital-flows-says-chan",
+        "source": "Bloomberg Markets",
+        "weight": 0.6422,
         "score": -0.9667
       },
       {
-        "title": "Chile Finance Minister Backs Off Key Budget Goal as Debt Rises",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-09/chile-finance-minister-backs-off-key-budget-goal",
+        "title": "Japan’s 30-Year Bond Sale Draws Weakest Demand Since June 2025",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-10/japan-s-30-year-bond-sale-sees-weakest-demand-in-a-year",
         "source": "Bloomberg Markets",
-        "weight": 0.6172,
-        "score": -0.9333
+        "weight": 0.7377,
+        "score": -0.6667
       },
       {
-        "title": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
-        "url": "https://www.coindesk.com/business/2026/06/09/securitize-ceo-says-tokenized-stocks-could-unlock-a-usd5-trillion-crypto-market",
-        "source": "CoinDesk",
-        "weight": 0.7877,
-        "score": -0.6333
+        "title": "Drugmaker Parabilis Raises $745 Million in US IPO, Placement",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-10/drugmaker-parabilis-raises-745-million-in-us-ipo-placement",
+        "source": "Bloomberg Markets",
+        "weight": 0.5115,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.34300945610457495,
-          "price_change_24h": -0.61103
+          "volume_mcap_ratio": 0.4321321043839848,
+          "price_change_24h": 2.53839
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3293392121861735,
-          "price_change_24h": -0.02554
+          "volume_mcap_ratio": 0.3105593428175035,
+          "price_change_24h": -0.0255
         }
       ],
       "momentum_shifts": []
