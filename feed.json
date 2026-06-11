@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-11T12:14:29.712506+00:00",
+  "updated_at": "2026-06-11T18:50:43.471764+00:00",
   "indicators": {
-    "change24h": 0.047,
-    "vol": 0.185,
+    "change24h": 0.056,
+    "vol": 0.201,
     "fearGreed": 12,
-    "momentum": 0.815,
+    "momentum": 0.975,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3804,
-    "global_sentiment": 0.4603,
-    "combined_sentiment": 0.407,
-    "confidence": 0.7285,
+    "crypto_sentiment": 0.4544,
+    "global_sentiment": 0.4326,
+    "combined_sentiment": 0.4602,
+    "confidence": 0.7625,
     "counts": {
-      "crypto": 49,
-      "global": 42
+      "crypto": 50,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 63096,
-      "btc_change_24h": 3.2,
-      "eth_price": 1660.48,
-      "eth_change_24h": 2.34,
+      "btc_price": 63475,
+      "btc_change_24h": 2.8,
+      "eth_price": 1683.9,
+      "eth_change_24h": 3.51,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.7,
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 121800155651.0,
+        "volume_24h": 123123107014.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-25T04:26:37.356094+00:00",
-      "crypto": 0.2,
-      "global": 0.3855,
-      "combined": 0.213,
-      "counts": {
-        "crypto": 51,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-05-25T11:57:09.543776+00:00",
       "crypto": 0.2,
@@ -1008,52 +998,62 @@
         "crypto": 49,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-11T18:50:43.471764+00:00",
+      "crypto": 0.4544,
+      "global": 0.4326,
+      "combined": 0.4602,
+      "counts": {
+        "crypto": 50,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.7% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Coinbase eyes World Cup boost as prediction markets surge: Bernstein",
+        "url": "https://cointelegraph.com/news/coinbase-world-cup-prediction-market-boost-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7215,
+        "score": 0.8667
       },
       {
-        "title": "Software Stock Reversal Has Traders Bracing for More Pain Ahead",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/software-stock-reversal-has-traders-bracing-for-more-pain-ahead",
-        "source": "Bloomberg Markets",
-        "weight": 0.7315,
-        "score": 0.5333
-      },
-      {
-        "title": "1 Services Stock to Keep an Eye On and 2 That Underwhelm",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-services-stock-keep-eye-102537193.html?.tsrc=rss",
+        "title": "S&P 500 Pops 1.2% after Trump Says He No Longer Plans Iran Strikes Tonight",
+        "url": "https://finance.yahoo.com/m/e7742e01-4d7c-306e-b784-c9e7223e08f3/s%26p-500-pops-1.2%25-after-trump.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6487,
-        "score": 0.5
+        "weight": 0.6936,
+        "score": 0.6667
+      },
+      {
+        "title": "Senseonics Expands Eversense 365 Ecosystem With Welldoc Partnership",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/senseonics-expands-eversense-365-ecosystem-170600419.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6539,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "AI models led to a ‘vulnerability apocalypse’ in crypto security: Immunefi CEO",
-        "url": "https://cointelegraph.com/news/frontier-ai-models-vulnerability-apocalypse-crypto-security-immunefi-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7807,
-        "score": -0.8333
+        "title": "Muni Market Operating Efficiently: BofA's McQueen",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-11/muni-market-operating-efficiently-bofa-s-mcqueen-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.789,
+        "score": -0.9667
       },
       {
-        "title": "Heart Health Biotech Kardigan Seeks $373.3 Million in US IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/heart-health-biotech-kardigan-seeks-373-3-million-in-us-ipo",
-        "source": "Bloomberg Markets",
-        "weight": 0.667,
-        "score": -0.9333
+        "title": "Hurco Stock Gains Post Q2 Earnings as Orders and Margins Improve",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hurco-stock-gains-post-q2-165100602.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6353,
+        "score": -0.9667
       },
       {
-        "title": "Emerging-Market Stocks Drop as Chinese E-Commerce Joins AI Slide",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/emerging-market-stocks-drop-as-chinese-e-commerce-joins-ai-slide",
-        "source": "Bloomberg Markets",
-        "weight": 0.5917,
+        "title": "Banks Say Stablecoin Rules Should Cover Secondary Markets",
+        "url": "https://decrypt.co/370752/banks-say-stablecoin-rules-should-cover-secondary-markets",
+        "source": "Decrypt",
+        "weight": 0.5487,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4109913662446472,
-          "price_change_24h": 2.76174
+          "volume_mcap_ratio": 0.536445209978896,
+          "price_change_24h": 13.27275
         }
       ],
       "momentum_shifts": []
