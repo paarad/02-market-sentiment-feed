@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-11T18:50:43.471764+00:00",
+  "updated_at": "2026-06-11T21:50:40.440882+00:00",
   "indicators": {
-    "change24h": 0.056,
-    "vol": 0.201,
+    "change24h": 0.072,
+    "vol": 0.266,
     "fearGreed": 12,
-    "momentum": 0.975,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4544,
-    "global_sentiment": 0.4326,
-    "combined_sentiment": 0.4602,
-    "confidence": 0.7625,
+    "crypto_sentiment": 0.4613,
+    "global_sentiment": 0.5145,
+    "combined_sentiment": 0.4722,
+    "confidence": 0.7537,
     "counts": {
       "crypto": 50,
-      "global": 47
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 63475,
-      "btc_change_24h": 2.8,
-      "eth_price": 1683.9,
-      "eth_change_24h": 3.51,
+      "btc_price": 63495,
+      "btc_change_24h": 3.74,
+      "eth_price": 1678.63,
+      "eth_change_24h": 4.32,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.8,
+      "regime_strength": 1.0,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 123123107014.0,
+        "volume_24h": 124049865870.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-25T11:57:09.543776+00:00",
-      "crypto": 0.2,
-      "global": 0.4731,
-      "combined": 0.2695,
-      "counts": {
-        "crypto": 62,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-25T15:25:24.801054+00:00",
       "crypto": 0.3014,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-06-11T21:50:40.440882+00:00",
+      "crypto": 0.4613,
+      "global": 0.5145,
+      "combined": 0.4722,
+      "counts": {
+        "crypto": 50,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Coinbase eyes World Cup boost as prediction markets surge: Bernstein",
-        "url": "https://cointelegraph.com/news/coinbase-world-cup-prediction-market-boost-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7215,
-        "score": 0.8667
-      },
-      {
-        "title": "S&P 500 Pops 1.2% after Trump Says He No Longer Plans Iran Strikes Tonight",
-        "url": "https://finance.yahoo.com/m/e7742e01-4d7c-306e-b784-c9e7223e08f3/s%26p-500-pops-1.2%25-after-trump.html?.tsrc=rss",
+        "title": "Stock Market Today, June 11: Oracle Falls After AI Spending Guidance Sparks Cash Flow Concerns",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/11/stock-market-today-june-11-oracle-falls-after-ai-spending-guidance-sparks-cash-flow-concerns/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6936,
+        "weight": 0.7679,
         "score": 0.6667
       },
       {
-        "title": "Senseonics Expands Eversense 365 Ecosystem With Welldoc Partnership",
-        "url": "https://finance.yahoo.com/sectors/healthcare/articles/senseonics-expands-eversense-365-ecosystem-170600419.html?.tsrc=rss",
+        "title": "Stock Market Today, June 11: Coupang Jumps After Privacy Fine Lands Below Worst Case Fears",
+        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/11/stock-market-today-june-11-coupang-jumps-after-privacy-fine-lands-below-worst-case-fears/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6539,
+        "weight": 0.7363,
+        "score": 0.6667
+      },
+      {
+        "title": "SpaceX IPO Raises $75 Billion in Biggest Debut of All Time",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-11/spacex-ipo-raises-75-billion-in-record-debut-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6853,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "The next DeFi drain could come from legacy contracts everyone forgot",
+        "url": "https://cryptoslate.com/legacy-defi-contracts-exploit-risk/",
+        "source": "CryptoSlate",
+        "weight": 0.551,
+        "score": -1.0
+      },
+      {
         "title": "Muni Market Operating Efficiently: BofA's McQueen",
         "url": "https://www.bloomberg.com/news/videos/2026-06-11/muni-market-operating-efficiently-bofa-s-mcqueen-video",
         "source": "Bloomberg Markets",
-        "weight": 0.789,
+        "weight": 0.558,
         "score": -0.9667
       },
       {
-        "title": "Hurco Stock Gains Post Q2 Earnings as Orders and Margins Improve",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/hurco-stock-gains-post-q2-165100602.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Soars 900 Points As Trump Axes Attack Plans; Caterpillar, Space Names Rally",
+        "url": "https://finance.yahoo.com/m/e9c5167f-16a6-32fd-b276-bbc46132689a/stock-market-today%3A-dow-soars.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6353,
-        "score": -0.9667
-      },
-      {
-        "title": "Banks Say Stablecoin Rules Should Cover Secondary Markets",
-        "url": "https://decrypt.co/370752/banks-say-stablecoin-rules-should-cover-secondary-markets",
-        "source": "Decrypt",
-        "weight": 0.5487,
-        "score": -1.0
+        "weight": 0.7329,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.536445209978896,
-          "price_change_24h": 13.27275
+          "volume_mcap_ratio": 0.55524262932093,
+          "price_change_24h": 14.94842
         }
       ],
       "momentum_shifts": []
