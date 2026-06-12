@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-12T04:46:44.483044+00:00",
+  "updated_at": "2026-06-12T11:48:52.706267+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.172,
+    "change24h": 0.026,
+    "vol": 0.17,
     "fearGreed": 12,
-    "momentum": 0.615,
+    "momentum": 0.453,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4078,
-    "global_sentiment": 0.6102,
-    "combined_sentiment": 0.44,
-    "confidence": 0.6754,
+    "crypto_sentiment": 0.4238,
+    "global_sentiment": 0.453,
+    "combined_sentiment": 0.4389,
+    "confidence": 0.7528,
     "counts": {
-      "crypto": 51,
-      "global": 51
+      "crypto": 53,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 63637,
-      "btc_change_24h": 1.54,
-      "eth_price": 1676.5,
-      "eth_change_24h": 1.29,
+      "btc_price": 63757,
+      "btc_change_24h": 1.13,
+      "eth_price": 1673.91,
+      "eth_change_24h": 0.78,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118248370650.0,
+        "volume_24h": 120551737133.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.79,
+        "btc_dominance": 57.81,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-25T20:52:37.012103+00:00",
-      "crypto": 0.4545,
-      "global": 0.5297,
-      "combined": 0.4684,
-      "counts": {
-        "crypto": 62,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-05-25T21:16:32.554122+00:00",
       "crypto": 0.4791,
@@ -1008,61 +998,71 @@
         "crypto": 51,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-06-12T11:48:52.706267+00:00",
+      "crypto": 0.4238,
+      "global": 0.453,
+      "combined": 0.4389,
+      "counts": {
+        "crypto": 53,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.4% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Stock Futures Surge Ahead of SpaceX Trading Debut After Iran Boost",
+        "url": "https://finance.yahoo.com/m/b3f49879-ff0c-306a-a7b0-a93340218127/stock-futures-surge-ahead-of.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6596,
+        "score": 1.0
       },
       {
-        "title": "Gap and Sally Beauty Stocks Trade Up, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/gap-sally-beauty-stocks-trade-013737767.html?.tsrc=rss",
+        "title": "Exclusive-South Korea's SK Hynix to opt for Nasdaq for planned US listing, sources say",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-south-koreas-sk-hynix-112739431.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5558,
-        "score": 0.6667
+        "weight": 0.768,
+        "score": 0.8333
       },
       {
-        "title": "OneWater, CarMax, and Dillard's Shares Skyrocket, What You Need To Know",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/onewater-carmax-dillards-shares-skyrocket-012937678.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5473,
-        "score": 0.6667
+        "title": "Ripple chases AI’s machine economy as XRPL stablecoins near $1 billion",
+        "url": "https://cryptoslate.com/ripple-chases-ais-machine-economy-as-xrpl-stablecoins-near-1-billion/",
+        "source": "CryptoSlate",
+        "weight": 0.7175,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Fear & Greed 12 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "FNCL vs. KBWB: Broad Financial Exposure vs. a Concentrated Bank ETF -- Which Is the Better Buy?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/12/fncl-vs-kbwb-broad-financial-exposure-vs-a-concentrated-bank-etf-which-is-the-better-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7444,
+        "score": -0.9667
       },
       {
-        "title": "Big Tech crash, oil volatility rattles markets: Will Bitcoin hold above $60K?",
-        "url": "https://cointelegraph.com/markets/big-tech-crash-oil-volatility-rattles-markets-will-bitcoin-hold-above-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4094,
+        "title": "Global Penny Stocks To Watch In June 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/global-penny-stocks-watch-june-100511928.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6552,
         "score": -1.0
       },
       {
-        "title": "Corporate Profits Hit Record High Versus India’s Economy Even as Stocks Struggle",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-06-12/india-corporate-profits-grow-faster-than-gdp-in-fiscal-2026",
-        "source": "Bloomberg Markets",
-        "weight": 0.6386,
-        "score": -0.6333
+        "title": "Crypto scammers exploit World Cup ticket demand, TRM warns",
+        "url": "https://cointelegraph.com/news/trm-world-cup-crypto-scams-fake-tickets-betting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6395,
+        "score": -0.8333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "WLD",
-          "volume_mcap_ratio": 0.5104056351704882,
-          "price_change_24h": 8.2112
+          "symbol": "XAUT",
+          "volume_mcap_ratio": 0.42750223648904206,
+          "price_change_24h": 2.77266
         }
       ],
       "momentum_shifts": []
