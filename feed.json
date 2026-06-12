@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-11T22:05:33.858826+00:00",
+  "updated_at": "2026-06-12T04:46:44.483044+00:00",
   "indicators": {
-    "change24h": 0.078,
-    "vol": 0.267,
+    "change24h": 0.035,
+    "vol": 0.172,
     "fearGreed": 12,
-    "momentum": 1.0,
+    "momentum": 0.615,
     "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4387,
-    "global_sentiment": 0.5062,
-    "combined_sentiment": 0.4545,
-    "confidence": 0.7588,
+    "crypto_sentiment": 0.4078,
+    "global_sentiment": 0.6102,
+    "combined_sentiment": 0.44,
+    "confidence": 0.6754,
     "counts": {
-      "crypto": 50,
-      "global": 46
+      "crypto": 51,
+      "global": 51
     },
     "market_indicators": {
-      "btc_price": 63528,
-      "btc_change_24h": 3.84,
-      "eth_price": 1678.42,
-      "eth_change_24h": 4.49,
+      "btc_price": 63637,
+      "btc_change_24h": 1.54,
+      "eth_price": 1676.5,
+      "eth_change_24h": 1.29,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
+      "regime_strength": 1.0,
       "market_breadth": 0.8,
       "fear_greed": {
         "value": 12,
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122234889622.0,
+        "volume_24h": 118248370650.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.79,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-25T17:48:59.914228+00:00",
-      "crypto": 0.4246,
-      "global": 0.6466,
-      "combined": 0.4556,
-      "counts": {
-        "crypto": 50,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-05-25T20:52:37.012103+00:00",
       "crypto": 0.4545,
@@ -1008,61 +998,71 @@
         "crypto": 50,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-06-12T04:46:44.483044+00:00",
+      "crypto": 0.4078,
+      "global": 0.6102,
+      "combined": 0.44,
+      "counts": {
+        "crypto": 51,
+        "global": 51
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today, June 11: Oracle Falls After AI Spending Guidance Sparks Cash Flow Concerns",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/11/stock-market-today-june-11-oracle-falls-after-ai-spending-guidance-sparks-cash-flow-concerns/?.tsrc=rss",
+        "title": "Global crypto market cap up 1.4% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
+        "title": "Gap and Sally Beauty Stocks Trade Up, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/gap-sally-beauty-stocks-trade-013737767.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7462,
+        "weight": 0.5558,
         "score": 0.6667
       },
       {
-        "title": "Stock Market Today, June 11: Coupang Jumps After Privacy Fine Lands Below Worst Case Fears",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/11/stock-market-today-june-11-coupang-jumps-after-privacy-fine-lands-below-worst-case-fears/?.tsrc=rss",
+        "title": "OneWater, CarMax, and Dillard's Shares Skyrocket, What You Need To Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/onewater-carmax-dillards-shares-skyrocket-012937678.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7155,
-        "score": 0.6667
-      },
-      {
-        "title": "SpaceX IPO Raises $75 Billion in Biggest Debut of All Time",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-11/spacex-ipo-raises-75-billion-in-record-debut-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6659,
+        "weight": 0.5473,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin Must Prepare for Quantum Threat Now, Coinbase Says",
-        "url": "https://decrypt.co/370851/bitcoin-quantum-threat-now-coinbase",
-        "source": "Decrypt",
-        "weight": 0.8251,
-        "score": -0.6667
+        "title": "Fear & Greed 12 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "The next DeFi drain could come from legacy contracts everyone forgot",
-        "url": "https://cryptoslate.com/legacy-defi-contracts-exploit-risk/",
-        "source": "CryptoSlate",
-        "weight": 0.5354,
+        "title": "Big Tech crash, oil volatility rattles markets: Will Bitcoin hold above $60K?",
+        "url": "https://cointelegraph.com/markets/big-tech-crash-oil-volatility-rattles-markets-will-bitcoin-hold-above-60k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4094,
         "score": -1.0
       },
       {
-        "title": "Muni Market Operating Efficiently: BofA's McQueen",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-11/muni-market-operating-efficiently-bofa-s-mcqueen-video",
+        "title": "Corporate Profits Hit Record High Versus India’s Economy Even as Stocks Struggle",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-12/india-corporate-profits-grow-faster-than-gdp-in-fiscal-2026",
         "source": "Bloomberg Markets",
-        "weight": 0.5422,
-        "score": -0.9667
+        "weight": 0.6386,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4567138611587902,
-          "price_change_24h": 14.75474
+          "volume_mcap_ratio": 0.5104056351704882,
+          "price_change_24h": 8.2112
         }
       ],
       "momentum_shifts": []
