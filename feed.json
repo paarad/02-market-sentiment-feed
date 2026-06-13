@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-13T20:53:52.964385+00:00",
+  "updated_at": "2026-06-13T21:21:45.665208+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.08,
+    "change24h": 0.004,
+    "vol": 0.094,
     "fearGreed": 13,
-    "momentum": 0.122,
+    "momentum": 0.061,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3986,
+    "crypto_sentiment": 0.443,
     "global_sentiment": 0.4391,
-    "combined_sentiment": 0.4189,
-    "confidence": 0.6424,
+    "combined_sentiment": 0.4522,
+    "confidence": 0.6528,
     "counts": {
-      "crypto": 53,
+      "crypto": 68,
       "global": 37
     },
     "market_indicators": {
-      "btc_price": 64231,
-      "btc_change_24h": 1.32,
-      "eth_price": 1675.02,
-      "eth_change_24h": 0.78,
+      "btc_price": 64219,
+      "btc_change_24h": 1.08,
+      "eth_price": 1675.94,
+      "eth_change_24h": 0.58,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 69384709907.0,
+        "volume_24h": 68460694723.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-27T21:28:54.316698+00:00",
-      "crypto": 0.3539,
-      "global": 0.4798,
-      "combined": 0.3887,
-      "counts": {
-        "crypto": 49,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-05-27T22:01:55.993561+00:00",
       "crypto": 0.3459,
@@ -1008,29 +998,39 @@
         "crypto": 53,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-06-13T21:21:45.665208+00:00",
+      "crypto": 0.443,
+      "global": 0.4391,
+      "combined": 0.4522,
+      "counts": {
+        "crypto": 68,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
+      },
+      {
         "title": "Bloom Energy’s S&P 500 Buzz Meets Renewed Wyoming AI Project Progress",
         "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-p-500-buzz-200938721.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7347,
+        "weight": 0.6963,
         "score": 0.3333
       },
       {
         "title": "US Government Orders Anthropic to Pull Claude Fable, Mythos AI Models",
         "url": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
         "source": "Decrypt",
-        "weight": 0.7143,
-        "score": 0.3333
-      },
-      {
-        "title": "CLO ETFs Boom on Higher Rates, Private Debt Woes",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-13/clo-etfs-boom-on-higher-rates-private-debt-woes-credit-weekly",
-        "source": "Bloomberg Markets",
-        "weight": 0.6425,
+        "weight": 0.677,
         "score": 0.3333
       }
     ],
@@ -1039,15 +1039,8 @@
         "title": "Crypto’s next billion-dollar hacker may move at superhuman speed",
         "url": "https://www.coindesk.com/tech/2026/06/13/crypto-s-next-billion-dollar-hacker-may-move-at-superhuman-speed",
         "source": "CoinDesk",
-        "weight": 0.7155,
+        "weight": 0.6781,
         "score": -0.7333
-      },
-      {
-        "title": "US export order removes Anthropic Mythos model access fueling crypto bets on AI that is beyond government reach",
-        "url": "https://cryptoslate.com/us-anthropic-fable-mythos-crackdown-fuels-crypto-bet-on-ai-that-is-beyond-government-reach/",
-        "source": "CryptoSlate",
-        "weight": 0.46,
-        "score": -0.9667
       },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
@@ -1055,14 +1048,21 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "US export order removes Anthropic Mythos model access fueling crypto bets on AI that is beyond government reach",
+        "url": "https://cryptoslate.com/us-anthropic-fable-mythos-crackdown-fuels-crypto-bet-on-ai-that-is-beyond-government-reach/",
+        "source": "CryptoSlate",
+        "weight": 0.436,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4338647954059983,
-          "price_change_24h": 7.82823
+          "volume_mcap_ratio": 0.42971185436224313,
+          "price_change_24h": 7.55669
         }
       ],
       "momentum_shifts": []
