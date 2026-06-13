@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-12T21:55:35.112981+00:00",
+  "updated_at": "2026-06-13T04:25:29.908638+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.134,
-    "fearGreed": 12,
-    "momentum": -0.266,
+    "change24h": -0.023,
+    "vol": 0.128,
+    "fearGreed": 13,
+    "momentum": -0.4,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3832,
-    "global_sentiment": 0.4977,
-    "combined_sentiment": 0.4122,
-    "confidence": 0.7507,
+    "crypto_sentiment": 0.3243,
+    "global_sentiment": 0.4338,
+    "combined_sentiment": 0.3627,
+    "confidence": 0.687,
     "counts": {
-      "crypto": 56,
-      "global": 38
+      "crypto": 59,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 63441,
-      "btc_change_24h": -0.05,
-      "eth_price": 1663.61,
-      "eth_change_24h": -0.82,
+      "btc_price": 63524,
+      "btc_change_24h": -0.27,
+      "eth_price": 1665.15,
+      "eth_change_24h": -0.6,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.45,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 12,
+        "value": 13,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 165934924430.0,
-        "high_activity_coins": 3
+        "volume_24h": 110702843774.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.82,
+        "btc_dominance": 57.86,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-26T21:20:21.480744+00:00",
-      "crypto": 0.439,
-      "global": 0.5474,
-      "combined": 0.4582,
-      "counts": {
-        "crypto": 48,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-05-26T21:51:44.680368+00:00",
       "crypto": 0.4377,
@@ -1008,71 +998,76 @@
         "crypto": 56,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-06-13T04:25:29.908638+00:00",
+      "crypto": 0.3243,
+      "global": 0.4338,
+      "combined": 0.3627,
+      "counts": {
+        "crypto": 59,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bitcoin rally to $70K builds as orderbook structure highlights traders’ confidence",
+        "url": "https://cointelegraph.com/markets/bitcoin-data-points-to-a-relief-rally-as-order-book-demand-targets-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.4637,
+        "score": 1.0
+      },
+      {
+        "title": "Wall Street ends higher as SpaceX's market debut dominates",
+        "url": "https://finance.yahoo.com/video/wall-street-ends-higher-spacexs-224935382.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.419,
+        "score": 1.0
+      },
+      {
         "title": "Paramount-WBD merger wins approval from DOJ",
         "url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
         "source": "CNBC Markets",
-        "weight": 0.7943,
+        "weight": 0.4226,
         "score": 0.9167
-      },
-      {
-        "title": "Stock Market Today: Dow Ends Higher On Iran Deal Hopes; SpaceX Rockets 19% In Debut",
-        "url": "https://finance.yahoo.com/m/3ab863ee-d132-3549-8208-e6dd679a6a25/stock-market-today%3A-dow-ends.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7276,
-        "score": 0.6667
-      },
-      {
-        "title": "Indexes Settle Higher as SpaceX Soars in Trading Debut",
-        "url": "https://www.wsj.com/finance/stocks/oil-falls-u-s-futures-rise-after-trump-calls-off-iran-strikes-5552ae7f?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7119,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin price faces new risk as big buyers lose conviction",
-        "url": "https://cryptoslate.com/bitcoin-price-faces-new-risk-as-big-buyers-lose-conviction/",
-        "source": "CryptoSlate",
-        "weight": 0.486,
+        "title": "ETH futures flash bearish signal, but stakers’ resilience points to underlying strength",
+        "url": "https://cointelegraph.com/markets/eth-futures-flash-bearish-signal-but-stakers-resilience-points-to-underlying-strength?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8529,
         "score": -1.0
       },
       {
-        "title": "Fixing the Social Security Problem Can't Wait, Says Jack Lew",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-12/fmr-treasury-sec-lew-discusses-fixing-social-security-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5794,
-        "score": -0.8
+        "title": "Anthropic suspends access to Fable 5, Mythos 5, citing US directive",
+        "url": "https://cointelegraph.com/news/anthropic-suspends-access-to-fable-mythos-citing-us-directive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.65,
+        "score": -0.9667
       },
       {
-        "title": "SpaceX, Tesla Merger A 'Forgone Conclusion,' Says Ross Gerber",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-12/spacex-tesla-merger-a-forgone-conclusion-says-gerber-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6833,
-        "score": -0.6667
+        "title": "Which Is the Better Broad-Market ETF, Schwab's SCHB or State Street's SPTM?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/12/which-is-the-better-broad-market-etf-schwab-s-schb-or-state-street-s-sptm/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6215,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.5300392535443977,
-          "price_change_24h": 0.04379
-        },
-        {
           "symbol": "XAUT",
-          "volume_mcap_ratio": 0.3618901419123229,
-          "price_change_24h": 0.24671
+          "volume_mcap_ratio": 0.33407678877375435,
+          "price_change_24h": 0.67348
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3159061466127098,
-          "price_change_24h": 0.1147
+          "volume_mcap_ratio": 0.3106655247054452,
+          "price_change_24h": 0.20938
         }
       ],
       "momentum_shifts": []
