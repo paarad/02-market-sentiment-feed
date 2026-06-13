@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-13T14:15:32.822127+00:00",
+  "updated_at": "2026-06-13T17:38:40.645777+00:00",
   "indicators": {
-    "change24h": -0.004,
-    "vol": 0.171,
+    "change24h": -0.002,
+    "vol": 0.089,
     "fearGreed": 13,
-    "momentum": -0.075,
+    "momentum": -0.042,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3809,
-    "global_sentiment": 0.4692,
-    "combined_sentiment": 0.4081,
-    "confidence": 0.6037,
+    "crypto_sentiment": 0.3907,
+    "global_sentiment": 0.4293,
+    "combined_sentiment": 0.4121,
+    "confidence": 0.6167,
     "counts": {
-      "crypto": 67,
-      "global": 41
+      "crypto": 52,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 64131,
-      "btc_change_24h": 1.26,
-      "eth_price": 1679.51,
-      "eth_change_24h": 0.99,
+      "btc_price": 64074,
+      "btc_change_24h": 0.42,
+      "eth_price": 1677.02,
+      "eth_change_24h": 0.46,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 89640853897.0,
+        "volume_24h": 73750399051.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-27T11:44:01.869258+00:00",
-      "crypto": 0.4022,
-      "global": 0.5377,
-      "combined": 0.4298,
-      "counts": {
-        "crypto": 70,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-05-27T16:01:25.165511+00:00",
       "crypto": 0.3605,
@@ -1008,6 +998,16 @@
         "crypto": 67,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-13T17:38:40.645777+00:00",
+      "crypto": 0.3907,
+      "global": 0.4293,
+      "combined": 0.4121,
+      "counts": {
+        "crypto": 52,
+        "global": 40
+      }
     }
   ],
   "drivers": {
@@ -1016,31 +1016,38 @@
         "title": "Dow Jones Futures: The Next Test For Market — And SpaceX; Five Stocks In Buy Areas",
         "url": "https://finance.yahoo.com/m/41879e00-88f3-34d4-8429-39e5c21c3e38/dow-jones-futures%3A-the-next.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7145,
+        "weight": 0.6255,
         "score": 0.5333
       },
       {
-        "title": "Stock Market Week Ahead: Keep An Eye On The Little Things",
-        "url": "https://finance.yahoo.com/m/95ab553b-2c40-3146-ac79-763d991ec23f/stock-market-week-ahead%3A-keep.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.77,
+        "title": "Bitcoin rises above $64,000 after Pakistan prime minister says Iran peace deal is near",
+        "url": "https://www.coindesk.com/markets/2026/06/13/bitcoin-rises-above-usd64-000-after-pakistan-prime-minister-says-iran-peace-deal-is-near",
+        "source": "CoinDesk",
+        "weight": 0.8543,
         "score": 0.3333
       },
       {
-        "title": "Nvidia Stock Just Did Something for the First Time in More Than 5 Years. Here's What History Says Happens Next.",
-        "url": "https://www.fool.com/investing/2026/06/13/nvidia-stock-just-did-this-for-the-first-time-in-x/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.712,
+        "title": "What drove the stock market last week — before and after SpaceX's historic IPO",
+        "url": "https://www.cnbc.com/2026/06/13/what-drove-the-stock-market-last-week-before-and-after-spacexs-historic-ipo.html",
+        "source": "CNBC Markets",
+        "weight": 0.7091,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Drugmakers race to find a place in the next wave of obesity drugs",
-        "url": "https://www.cnbc.com/2026/06/13/glp-1s-lilly-novo-pfizer-look-to-new-weight-loss-drugs.html",
-        "source": "CNBC Markets",
-        "weight": 0.6163,
-        "score": -0.9333
+        "title": "US export order removes Anthropic Mythos model access fueling crypto bets on AI that is beyond government reach",
+        "url": "https://cryptoslate.com/us-anthropic-fable-mythos-crackdown-fuels-crypto-bet-on-ai-that-is-beyond-government-reach/",
+        "source": "CryptoSlate",
+        "weight": 0.6699,
+        "score": -0.9667
+      },
+      {
+        "title": "As World Cup Begins, Health Officials Issue Warnings Amid Measles Outbreak",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-13/health-officials-warn-of-measles-outbreak-at-world-cup-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5812,
+        "score": -0.8
       },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
@@ -1048,21 +1055,14 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "MGK vs. IWO: Which Growth ETF Is the Better Buy for Investors in 2026?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/13/mgk-vs-iwo-which-growth-etf-is-the-better-buy-for-investors-in-2026/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5656,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.3770464350148853,
-          "price_change_24h": 6.31657
+          "volume_mcap_ratio": 0.4297518751662614,
+          "price_change_24h": 6.21434
         }
       ],
       "momentum_shifts": []
