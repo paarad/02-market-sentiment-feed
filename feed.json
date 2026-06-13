@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-13T04:25:29.908638+00:00",
+  "updated_at": "2026-06-13T10:34:16.320297+00:00",
   "indicators": {
-    "change24h": -0.023,
-    "vol": 0.128,
+    "change24h": -0.015,
+    "vol": 0.177,
     "fearGreed": 13,
-    "momentum": -0.4,
+    "momentum": -0.259,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3243,
-    "global_sentiment": 0.4338,
-    "combined_sentiment": 0.3627,
-    "confidence": 0.687,
+    "crypto_sentiment": 0.3589,
+    "global_sentiment": 0.4197,
+    "combined_sentiment": 0.3875,
+    "confidence": 0.6174,
     "counts": {
-      "crypto": 59,
-      "global": 36
+      "crypto": 57,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 63524,
-      "btc_change_24h": -0.27,
-      "eth_price": 1665.15,
-      "eth_change_24h": -0.6,
+      "btc_price": 63761,
+      "btc_change_24h": 0.23,
+      "eth_price": 1673.27,
+      "eth_change_24h": -0.02,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 110702843774.0,
-        "high_activity_coins": 2
+        "volume_24h": 96264617316.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.86,
+        "btc_dominance": 57.83,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-26T21:51:44.680368+00:00",
-      "crypto": 0.4377,
-      "global": 0.5288,
-      "combined": 0.4557,
-      "counts": {
-        "crypto": 62,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-05-27T04:25:59.494945+00:00",
       "crypto": 0.4381,
@@ -1008,66 +998,71 @@
         "crypto": 59,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-06-13T10:34:16.320297+00:00",
+      "crypto": 0.3589,
+      "global": 0.4197,
+      "combined": 0.3875,
+      "counts": {
+        "crypto": 57,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Legacy sportsbooks are chasing prediction markets that already trade billions each month",
+        "url": "https://cryptoslate.com/legacy-sportsbooks-are-chasing-prediction-markets-that-already-trade-billions-each-month/",
+        "source": "CryptoSlate",
+        "weight": 0.744,
+        "score": 0.3333
+      },
+      {
         "title": "Bitcoin rally to $70K builds as orderbook structure highlights traders’ confidence",
         "url": "https://cointelegraph.com/markets/bitcoin-data-points-to-a-relief-rally-as-order-book-demand-targets-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4637,
+        "weight": 0.2279,
         "score": 1.0
       },
       {
         "title": "Wall Street ends higher as SpaceX's market debut dominates",
         "url": "https://finance.yahoo.com/video/wall-street-ends-higher-spacexs-224935382.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.419,
+        "weight": 0.206,
         "score": 1.0
-      },
-      {
-        "title": "Paramount-WBD merger wins approval from DOJ",
-        "url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
-        "source": "CNBC Markets",
-        "weight": 0.4226,
-        "score": 0.9167
       }
     ],
     "negative": [
       {
+        "title": "Former ECB Rate-Setter Muller Reports for Duty as Volunteer Cop",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/former-ecb-rate-setter-muller-reports-for-duty-as-volunteer-cop",
+        "source": "Bloomberg Markets",
+        "weight": 0.6672,
+        "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 13 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "ETH futures flash bearish signal, but stakers’ resilience points to underlying strength",
         "url": "https://cointelegraph.com/markets/eth-futures-flash-bearish-signal-but-stakers-resilience-points-to-underlying-strength?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.8529,
+        "weight": 0.4193,
         "score": -1.0
-      },
-      {
-        "title": "Anthropic suspends access to Fable 5, Mythos 5, citing US directive",
-        "url": "https://cointelegraph.com/news/anthropic-suspends-access-to-fable-mythos-citing-us-directive?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.65,
-        "score": -0.9667
-      },
-      {
-        "title": "Which Is the Better Broad-Market ETF, Schwab's SCHB or State Street's SPTM?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/12/which-is-the-better-broad-market-etf-schwab-s-schb-or-state-street-s-sptm/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6215,
-        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
-          "symbol": "XAUT",
-          "volume_mcap_ratio": 0.33407678877375435,
-          "price_change_24h": 0.67348
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3106655247054452,
-          "price_change_24h": 0.20938
+          "symbol": "WLD",
+          "volume_mcap_ratio": 0.3697781809578604,
+          "price_change_24h": 1.58992
         }
       ],
       "momentum_shifts": []
