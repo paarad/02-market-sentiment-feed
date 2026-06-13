@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-13T17:38:40.645777+00:00",
+  "updated_at": "2026-06-13T20:53:52.964385+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.089,
+    "change24h": 0.007,
+    "vol": 0.08,
     "fearGreed": 13,
-    "momentum": -0.042,
+    "momentum": 0.122,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3907,
-    "global_sentiment": 0.4293,
-    "combined_sentiment": 0.4121,
-    "confidence": 0.6167,
+    "crypto_sentiment": 0.3986,
+    "global_sentiment": 0.4391,
+    "combined_sentiment": 0.4189,
+    "confidence": 0.6424,
     "counts": {
-      "crypto": 52,
-      "global": 40
+      "crypto": 53,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 64074,
-      "btc_change_24h": 0.42,
-      "eth_price": 1677.02,
-      "eth_change_24h": 0.46,
+      "btc_price": 64231,
+      "btc_change_24h": 1.32,
+      "eth_price": 1675.02,
+      "eth_change_24h": 0.78,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 73750399051.0,
+        "volume_24h": 69384709907.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-27T16:01:25.165511+00:00",
-      "crypto": 0.3605,
-      "global": 0.4543,
-      "combined": 0.3916,
-      "counts": {
-        "crypto": 53,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-05-27T21:28:54.316698+00:00",
       "crypto": 0.3539,
@@ -1008,46 +998,56 @@
         "crypto": 52,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-06-13T20:53:52.964385+00:00",
+      "crypto": 0.3986,
+      "global": 0.4391,
+      "combined": 0.4189,
+      "counts": {
+        "crypto": 53,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: The Next Test For Market — And SpaceX; Five Stocks In Buy Areas",
-        "url": "https://finance.yahoo.com/m/41879e00-88f3-34d4-8429-39e5c21c3e38/dow-jones-futures%3A-the-next.html?.tsrc=rss",
+        "title": "Bloom Energy’s S&P 500 Buzz Meets Renewed Wyoming AI Project Progress",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-p-500-buzz-200938721.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6255,
-        "score": 0.5333
-      },
-      {
-        "title": "Bitcoin rises above $64,000 after Pakistan prime minister says Iran peace deal is near",
-        "url": "https://www.coindesk.com/markets/2026/06/13/bitcoin-rises-above-usd64-000-after-pakistan-prime-minister-says-iran-peace-deal-is-near",
-        "source": "CoinDesk",
-        "weight": 0.8543,
+        "weight": 0.7347,
         "score": 0.3333
       },
       {
-        "title": "What drove the stock market last week — before and after SpaceX's historic IPO",
-        "url": "https://www.cnbc.com/2026/06/13/what-drove-the-stock-market-last-week-before-and-after-spacexs-historic-ipo.html",
-        "source": "CNBC Markets",
-        "weight": 0.7091,
+        "title": "US Government Orders Anthropic to Pull Claude Fable, Mythos AI Models",
+        "url": "https://decrypt.co/371027/us-government-orders-anthropic-pull-claude-fable-mythos-ai-models",
+        "source": "Decrypt",
+        "weight": 0.7143,
+        "score": 0.3333
+      },
+      {
+        "title": "CLO ETFs Boom on Higher Rates, Private Debt Woes",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-13/clo-etfs-boom-on-higher-rates-private-debt-woes-credit-weekly",
+        "source": "Bloomberg Markets",
+        "weight": 0.6425,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Crypto’s next billion-dollar hacker may move at superhuman speed",
+        "url": "https://www.coindesk.com/tech/2026/06/13/crypto-s-next-billion-dollar-hacker-may-move-at-superhuman-speed",
+        "source": "CoinDesk",
+        "weight": 0.7155,
+        "score": -0.7333
+      },
+      {
         "title": "US export order removes Anthropic Mythos model access fueling crypto bets on AI that is beyond government reach",
         "url": "https://cryptoslate.com/us-anthropic-fable-mythos-crackdown-fuels-crypto-bet-on-ai-that-is-beyond-government-reach/",
         "source": "CryptoSlate",
-        "weight": 0.6699,
+        "weight": 0.46,
         "score": -0.9667
-      },
-      {
-        "title": "As World Cup Begins, Health Officials Issue Warnings Amid Measles Outbreak",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-13/health-officials-warn-of-measles-outbreak-at-world-cup-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5812,
-        "score": -0.8
       },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4297518751662614,
-          "price_change_24h": 6.21434
+          "volume_mcap_ratio": 0.4338647954059983,
+          "price_change_24h": 7.82823
         }
       ],
       "momentum_shifts": []
