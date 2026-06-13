@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-13T10:34:16.320297+00:00",
+  "updated_at": "2026-06-13T14:15:32.822127+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.177,
+    "change24h": -0.004,
+    "vol": 0.171,
     "fearGreed": 13,
-    "momentum": -0.259,
+    "momentum": -0.075,
     "regime": "sideways",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3589,
-    "global_sentiment": 0.4197,
-    "combined_sentiment": 0.3875,
-    "confidence": 0.6174,
+    "crypto_sentiment": 0.3809,
+    "global_sentiment": 0.4692,
+    "combined_sentiment": 0.4081,
+    "confidence": 0.6037,
     "counts": {
-      "crypto": 57,
-      "global": 37
+      "crypto": 67,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 63761,
-      "btc_change_24h": 0.23,
-      "eth_price": 1673.27,
-      "eth_change_24h": -0.02,
+      "btc_price": 64131,
+      "btc_change_24h": 1.26,
+      "eth_price": 1679.51,
+      "eth_change_24h": 0.99,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 96264617316.0,
+        "volume_24h": 89640853897.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.83,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-27T04:25:59.494945+00:00",
-      "crypto": 0.4381,
-      "global": 0.6214,
-      "combined": 0.4637,
-      "counts": {
-        "crypto": 50,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-05-27T11:44:01.869258+00:00",
       "crypto": 0.4022,
@@ -1008,39 +998,49 @@
         "crypto": 57,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-06-13T14:15:32.822127+00:00",
+      "crypto": 0.3809,
+      "global": 0.4692,
+      "combined": 0.4081,
+      "counts": {
+        "crypto": 67,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Legacy sportsbooks are chasing prediction markets that already trade billions each month",
-        "url": "https://cryptoslate.com/legacy-sportsbooks-are-chasing-prediction-markets-that-already-trade-billions-each-month/",
-        "source": "CryptoSlate",
-        "weight": 0.744,
+        "title": "Dow Jones Futures: The Next Test For Market — And SpaceX; Five Stocks In Buy Areas",
+        "url": "https://finance.yahoo.com/m/41879e00-88f3-34d4-8429-39e5c21c3e38/dow-jones-futures%3A-the-next.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7145,
+        "score": 0.5333
+      },
+      {
+        "title": "Stock Market Week Ahead: Keep An Eye On The Little Things",
+        "url": "https://finance.yahoo.com/m/95ab553b-2c40-3146-ac79-763d991ec23f/stock-market-week-ahead%3A-keep.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.77,
         "score": 0.3333
       },
       {
-        "title": "Bitcoin rally to $70K builds as orderbook structure highlights traders’ confidence",
-        "url": "https://cointelegraph.com/markets/bitcoin-data-points-to-a-relief-rally-as-order-book-demand-targets-70k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2279,
-        "score": 1.0
-      },
-      {
-        "title": "Wall Street ends higher as SpaceX's market debut dominates",
-        "url": "https://finance.yahoo.com/video/wall-street-ends-higher-spacexs-224935382.html?.tsrc=rss",
+        "title": "Nvidia Stock Just Did Something for the First Time in More Than 5 Years. Here's What History Says Happens Next.",
+        "url": "https://www.fool.com/investing/2026/06/13/nvidia-stock-just-did-this-for-the-first-time-in-x/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.206,
-        "score": 1.0
+        "weight": 0.712,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Former ECB Rate-Setter Muller Reports for Duty as Volunteer Cop",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-13/former-ecb-rate-setter-muller-reports-for-duty-as-volunteer-cop",
-        "source": "Bloomberg Markets",
-        "weight": 0.6672,
-        "score": -0.6667
+        "title": "Drugmakers race to find a place in the next wave of obesity drugs",
+        "url": "https://www.cnbc.com/2026/06/13/glp-1s-lilly-novo-pfizer-look-to-new-weight-loss-drugs.html",
+        "source": "CNBC Markets",
+        "weight": 0.6163,
+        "score": -0.9333
       },
       {
         "title": "Fear & Greed 13 (Fear) — bearish",
@@ -1050,19 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "ETH futures flash bearish signal, but stakers’ resilience points to underlying strength",
-        "url": "https://cointelegraph.com/markets/eth-futures-flash-bearish-signal-but-stakers-resilience-points-to-underlying-strength?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4193,
-        "score": -1.0
+        "title": "MGK vs. IWO: Which Growth ETF Is the Better Buy for Investors in 2026?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/13/mgk-vs-iwo-which-growth-etf-is-the-better-buy-for-investors-in-2026/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5656,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.3697781809578604,
-          "price_change_24h": 1.58992
+          "volume_mcap_ratio": 0.3770464350148853,
+          "price_change_24h": 6.31657
         }
       ],
       "momentum_shifts": []
