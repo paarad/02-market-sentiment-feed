@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-14T20:53:25.725630+00:00",
+  "updated_at": "2026-06-14T21:20:50.126454+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.091,
+    "change24h": 0.001,
+    "vol": 0.079,
     "fearGreed": 18,
-    "momentum": -0.111,
-    "regime": "bear",
+    "momentum": 0.012,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3523,
+    "crypto_sentiment": 0.351,
     "global_sentiment": 0.4186,
-    "combined_sentiment": 0.3824,
-    "confidence": 0.6052,
+    "combined_sentiment": 0.3815,
+    "confidence": 0.5964,
     "counts": {
-      "crypto": 68,
+      "crypto": 55,
       "global": 34
     },
     "market_indicators": {
-      "btc_price": 64013,
-      "btc_change_24h": -0.34,
-      "eth_price": 1670.47,
-      "eth_change_24h": -0.27,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 64681,
+      "btc_change_24h": 0.7,
+      "eth_price": 1685.97,
+      "eth_change_24h": 0.58,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 65844227902.0,
+        "volume_24h": 68102430750.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.97,
+        "btc_dominance": 58.03,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-28T22:00:49.155443+00:00",
-      "crypto": 0.3689,
-      "global": 0.5573,
-      "combined": 0.4065,
-      "counts": {
-        "crypto": 55,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-05-29T04:18:06.603246+00:00",
       "crypto": 0.3533,
@@ -1008,6 +998,16 @@
         "crypto": 68,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-06-14T21:20:50.126454+00:00",
+      "crypto": 0.351,
+      "global": 0.4186,
+      "combined": 0.3815,
+      "counts": {
+        "crypto": 55,
+        "global": 34
+      }
     }
   ],
   "drivers": {
@@ -1016,21 +1016,21 @@
         "title": "HYPE ETFs quietly pulled $161M in one month as Wall Street buys crypto’s on-chain exchange bet",
         "url": "https://cryptoslate.com/hype-etfs-quietly-pulled-161m-in-one-month-as-wall-street-buys-cryptos-on-chain-exchange-bet/",
         "source": "CryptoSlate",
-        "weight": 0.6091,
+        "weight": 0.5778,
         "score": 0.6667
       },
       {
         "title": "Equity Funding Squeeze Driven By AI Rally, SpaceX IPO Stretches Banks",
         "url": "https://www.bloomberg.com/news/articles/2026-06-14/s-p-500-funding-squeeze-driven-by-ai-rally-spacex-ipo-stretches-banks",
         "source": "Bloomberg Markets",
-        "weight": 0.3609,
+        "weight": 0.3423,
         "score": 1.0
       },
       {
         "title": "SpaceX and OpenAI Are Ending Wall Street’s Era of Stock Scarcity",
         "url": "https://www.bloomberg.com/news/features/2026-06-14/spacex-open-ai-anthropic-ipos-have-wall-street-bullish-on-equities-again",
         "source": "Bloomberg Markets",
-        "weight": 0.6434,
+        "weight": 0.6103,
         "score": 0.3333
       }
     ],
@@ -1039,7 +1039,7 @@
         "title": "Bitcoin could crash to $48,000, if this historical pattern is triggered",
         "url": "https://www.coindesk.com/markets/2026/06/14/bitcoin-could-crash-to-usd48-000-if-this-historical-pattern-is-triggered",
         "source": "CoinDesk",
-        "weight": 0.8314,
+        "weight": 0.7886,
         "score": -0.6333
       },
       {
@@ -1053,7 +1053,7 @@
         "title": "Compressed Timeline for US-Iran Nuclear Deal Could Lead to Later Unraveling",
         "url": "https://www.bloomberg.com/news/videos/2026-06-14/timeline-for-us-iran-deal-could-lead-to-later-unraveling-video",
         "source": "Bloomberg Markets",
-        "weight": 0.3371,
+        "weight": 0.3198,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.30390549537431544,
-          "price_change_24h": 0.29421
+          "volume_mcap_ratio": 0.3066578645351686,
+          "price_change_24h": 1.07719
         }
       ],
       "momentum_shifts": []
