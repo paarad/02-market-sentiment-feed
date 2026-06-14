@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-14T04:52:53.441735+00:00",
+  "updated_at": "2026-06-14T10:52:23.265123+00:00",
   "indicators": {
-    "change24h": 0.012,
-    "vol": 0.082,
+    "change24h": 0.007,
+    "vol": 0.113,
     "fearGreed": 18,
-    "momentum": 0.215,
+    "momentum": 0.119,
     "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4334,
-    "global_sentiment": 0.4635,
-    "combined_sentiment": 0.447,
-    "confidence": 0.5649,
+    "crypto_sentiment": 0.3824,
+    "global_sentiment": 0.4097,
+    "combined_sentiment": 0.4043,
+    "confidence": 0.5137,
     "counts": {
-      "crypto": 68,
+      "crypto": 55,
       "global": 38
     },
     "market_indicators": {
-      "btc_price": 64337,
-      "btc_change_24h": 1.2,
-      "eth_price": 1676.89,
-      "eth_change_24h": 0.66,
+      "btc_price": 64521,
+      "btc_change_24h": 1.07,
+      "eth_price": 1673.6,
+      "eth_change_24h": 0.01,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 73012801907.0,
+        "volume_24h": 72664979259.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 58.07,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-28T04:16:11.640861+00:00",
-      "crypto": 0.3637,
-      "global": 0.5134,
-      "combined": 0.3989,
-      "counts": {
-        "crypto": 50,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-05-28T11:43:59.358183+00:00",
       "crypto": 0.3093,
@@ -1008,39 +998,49 @@
         "crypto": 68,
         "global": 38
       }
+    },
+    {
+      "ts": "2026-06-14T10:52:23.265123+00:00",
+      "crypto": 0.3824,
+      "global": 0.4097,
+      "combined": 0.4043,
+      "counts": {
+        "crypto": 55,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "SpaceX Surge Further Boosts Saudi Billionaire Prince’s Fortune",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/spacex-surge-further-boosts-saudi-billionaire-prince-s-fortune",
+        "source": "Bloomberg Markets",
+        "weight": 0.5456,
         "score": 0.5333
       },
       {
         "title": "Adobe's CFO Jumps Ship To Marvell For 'Once-In-A-Generation' AI Expansion",
         "url": "https://finance.yahoo.com/markets/stocks/articles/adobes-cfo-jumps-ship-marvell-213152665.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.3422,
+        "weight": 0.1713,
         "score": 1.0
       },
       {
-        "title": "South Korea’s World-Beating Stock Market Eyes Its MSCI Moment",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-14/world-s-hottest-stock-market-turns-attention-to-msci-moment",
-        "source": "Bloomberg Markets",
-        "weight": 0.4552,
-        "score": 0.3333
+        "title": "Bitcoin price challenges $64,000 weekend wall – needing a breakout or risk a deeper correction",
+        "url": "https://cryptoslate.com/bitcoin-price-challenges-64000-weekend-wall-needing-a-breakout-or-risk-a-deeper-correction/",
+        "source": "CryptoSlate",
+        "weight": 0.7141,
+        "score": 0.2
       }
     ],
     "negative": [
       {
-        "title": "VTI vs. VTV: Which of These Ultra-Popular Vanguard ETFs Is the Better Investment Right Now?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/13/vti-vs-vtv-which-of-these-ultra-popular-vanguard-etfs-is-the-better-investment-right-now/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5483,
-        "score": -0.9667
+        "title": "Wall Street Is Gaining Access to New Catastrophe Models to Help Predict Wars",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/wall-street-gets-access-to-new-catastrophe-models-to-predict-wars",
+        "source": "Bloomberg Markets",
+        "weight": 0.6443,
+        "score": -0.6667
       },
       {
         "title": "Fear & Greed 18 (Fear) — bearish",
@@ -1050,19 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "Amazon warning triggered US crackdown on Anthropic AI models: Reports",
-        "url": "https://cointelegraph.com/news/amazon-warning-triggered-us-crackdown-on-anthropic-ai-models-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.691,
-        "score": -0.3333
+        "title": "VTI vs. VTV: Which of These Ultra-Popular Vanguard ETFs Is the Better Investment Right Now?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/13/vti-vs-vtv-which-of-these-ultra-popular-vanguard-etfs-is-the-better-investment-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.2744,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.4276573869174691,
-          "price_change_24h": 3.45992
+          "volume_mcap_ratio": 0.4319915112200123,
+          "price_change_24h": 2.71845
         }
       ],
       "momentum_shifts": []
