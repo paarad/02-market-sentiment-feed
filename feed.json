@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-14T17:25:55.031268+00:00",
+  "updated_at": "2026-06-14T20:53:25.725630+00:00",
   "indicators": {
-    "change24h": -0.007,
-    "vol": 0.097,
+    "change24h": -0.006,
+    "vol": 0.091,
     "fearGreed": 18,
-    "momentum": -0.126,
-    "regime": "sideways",
+    "momentum": -0.111,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3277,
-    "global_sentiment": 0.4048,
-    "combined_sentiment": 0.3629,
-    "confidence": 0.6175,
+    "crypto_sentiment": 0.3523,
+    "global_sentiment": 0.4186,
+    "combined_sentiment": 0.3824,
+    "confidence": 0.6052,
     "counts": {
-      "crypto": 70,
-      "global": 35
+      "crypto": 68,
+      "global": 34
     },
     "market_indicators": {
-      "btc_price": 63898,
-      "btc_change_24h": -0.21,
-      "eth_price": 1664.38,
-      "eth_change_24h": -0.71,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 64013,
+      "btc_change_24h": -0.34,
+      "eth_price": 1670.47,
+      "eth_change_24h": -0.27,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 65117569071.0,
+        "volume_24h": 65844227902.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.95,
+        "btc_dominance": 57.97,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-28T21:45:40.283438+00:00",
-      "crypto": 0.3692,
-      "global": 0.55,
-      "combined": 0.406,
-      "counts": {
-        "crypto": 55,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-05-28T22:00:49.155443+00:00",
       "crypto": 0.3689,
@@ -1008,39 +998,49 @@
         "crypto": 70,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-06-14T20:53:25.725630+00:00",
+      "crypto": 0.3523,
+      "global": 0.4186,
+      "combined": 0.3824,
+      "counts": {
+        "crypto": 68,
+        "global": 34
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "HYPE ETFs quietly pulled $161M in one month as Wall Street buys crypto’s on-chain exchange bet",
+        "url": "https://cryptoslate.com/hype-etfs-quietly-pulled-161m-in-one-month-as-wall-street-buys-cryptos-on-chain-exchange-bet/",
+        "source": "CryptoSlate",
+        "weight": 0.6091,
+        "score": 0.6667
+      },
+      {
         "title": "Equity Funding Squeeze Driven By AI Rally, SpaceX IPO Stretches Banks",
         "url": "https://www.bloomberg.com/news/articles/2026-06-14/s-p-500-funding-squeeze-driven-by-ai-rally-spacex-ipo-stretches-banks",
         "source": "Bloomberg Markets",
-        "weight": 0.5381,
+        "weight": 0.3609,
         "score": 1.0
       },
       {
-        "title": "Aerodrome is turning liquidity into a prediction market with its biggest upgrade yet",
-        "url": "https://www.coindesk.com/tech/2026/06/12/aerodrome-is-turning-liquidity-into-a-prediction-market-with-its-biggest-upgrade-yet",
-        "source": "CoinDesk",
-        "weight": 0.7551,
-        "score": 0.3333
-      },
-      {
-        "title": "IDC, Vision Near Deal to Save Century-Old African Sugar Mills",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-14/idc-vision-near-deal-to-save-century-old-african-sugar-mills",
+        "title": "SpaceX and OpenAI Are Ending Wall Street’s Era of Stock Scarcity",
+        "url": "https://www.bloomberg.com/news/features/2026-06-14/spacex-open-ai-anthropic-ipos-have-wall-street-bullish-on-equities-again",
         "source": "Bloomberg Markets",
-        "weight": 0.7312,
+        "weight": 0.6434,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Compressed Timeline for US-Iran Nuclear Deal Could Lead to Later Unraveling",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-14/timeline-for-us-iran-deal-could-lead-to-later-unraveling-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.5027,
-        "score": -1.0
+        "title": "Bitcoin could crash to $48,000, if this historical pattern is triggered",
+        "url": "https://www.coindesk.com/markets/2026/06/14/bitcoin-could-crash-to-usd48-000-if-this-historical-pattern-is-triggered",
+        "source": "CoinDesk",
+        "weight": 0.8314,
+        "score": -0.6333
       },
       {
         "title": "Fear & Greed 18 (Fear) — bearish",
@@ -1050,19 +1050,19 @@
         "score": -0.5333
       },
       {
-        "title": "SEC's big swing to clear tokenization path isn't likely to get resilience of full rule",
-        "url": "https://www.coindesk.com/news-analysis/2026/06/12/sec-s-big-swing-to-clear-tokenization-path-isn-t-likely-to-get-resilience-of-full-rule",
-        "source": "CoinDesk",
-        "weight": 0.6727,
-        "score": -0.6333
+        "title": "Compressed Timeline for US-Iran Nuclear Deal Could Lead to Later Unraveling",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-14/timeline-for-us-iran-deal-could-lead-to-later-unraveling-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3371,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.3111308483510072,
-          "price_change_24h": 0.02115
+          "volume_mcap_ratio": 0.30390549537431544,
+          "price_change_24h": 0.29421
         }
       ],
       "momentum_shifts": []
