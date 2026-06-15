@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-15T05:09:44.376370+00:00",
+  "updated_at": "2026-06-15T14:29:57.729346+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.117,
+    "vol": 0.423,
     "fearGreed": 20,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 1.0,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4207,
-    "global_sentiment": 0.5112,
-    "combined_sentiment": 0.4415,
-    "confidence": 0.5981,
+    "crypto_sentiment": 0.5056,
+    "global_sentiment": 0.5359,
+    "combined_sentiment": 0.5072,
+    "confidence": 0.7469,
     "counts": {
-      "crypto": 70,
-      "global": 30
+      "crypto": 56,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 65595,
-      "btc_change_24h": 1.92,
-      "eth_price": 1715.19,
-      "eth_change_24h": 2.2,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 66478,
+      "btc_change_24h": 3.54,
+      "eth_price": 1809.78,
+      "eth_change_24h": 8.64,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 97516933950.0,
-        "high_activity_coins": 1
+        "volume_24h": 149586225288.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.83,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-29T11:35:00.069580+00:00",
-      "crypto": 0.3818,
-      "global": 0.5383,
-      "combined": 0.4146,
-      "counts": {
-        "crypto": 52,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-05-29T15:58:51.590462+00:00",
       "crypto": 0.396,
@@ -1008,52 +998,62 @@
         "crypto": 70,
         "global": 30
       }
+    },
+    {
+      "ts": "2026-06-15T14:29:57.729346+00:00",
+      "crypto": 0.5056,
+      "global": 0.5359,
+      "combined": 0.5072,
+      "counts": {
+        "crypto": 56,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Zhipu Shares Surge 48% After JPMorgan Picks Company as AI Winner",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-15/zhipu-shares-surge-48-after-jpmorgan-raises-price-target",
-        "source": "Bloomberg Markets",
-        "weight": 0.5414,
-        "score": 0.8667
+        "title": "Flex Soars 241% in a Year: Should Investors Still Buy the Stock?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/flex-soars-241-investors-still-131600683.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6938,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 1.8% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
+        "title": "‘Crypto spring’ is here, says one analyst after bitcoin's key signals turn bullish",
+        "url": "https://www.coindesk.com/markets/2026/06/15/crypto-spring-is-here-says-one-analyst-after-bitcoin-s-key-signals-turn-bullish",
+        "source": "CoinDesk",
+        "weight": 0.9749,
         "score": 0.5333
       },
       {
-        "title": "XRP climbs 4% above $1.18 as traders test next resistance zone",
-        "url": "https://www.coindesk.com/markets/2026/06/15/xrp-climbs-4-above-usd1-18-as-traders-test-next-resistance-zone",
-        "source": "CoinDesk",
-        "weight": 1.1024,
-        "score": 0.3333
+        "title": "SpaceX stock gains: What its IPO signals about its future success",
+        "url": "https://finance.yahoo.com/video/spacex-stock-gains-what-its-ipo-signals-about-its-future-success-135149957.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7433,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin mining difficulty drops 10% in 11th largest downward adjustment",
-        "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-drops-10-in-11th-largest-downward-adjustment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7217,
-        "score": -0.9667
+        "title": "Bond Market Reacts Cautiously to Iran Deal",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-15/bond-market-reacts-cautiously-to-iran-deal-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5925,
+        "score": -1.0
       },
       {
-        "title": "Failed SpaceX IPO Allocation Prompts Korea to Widen Mirae Review",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-15/failed-spacex-ipo-allocation-prompts-wider-mirae-review-in-korea",
-        "source": "Bloomberg Markets",
-        "weight": 0.676,
-        "score": -0.9667
+        "title": "Did Tether just freeze $72M in USDT with no link to a hack in Monero money laundering sting?",
+        "url": "https://cryptoslate.com/did-tether-just-freeze-72m-in-usdt-with-link-to-hack-in-monero-money-laundering-sting/",
+        "source": "CryptoSlate",
+        "weight": 0.5463,
+        "score": -1.0
       },
       {
-        "title": "CSIS' Cahill on US-Iran Deal Impact on Energy",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-15/csis-cahill-on-us-iran-deal-impact-on-energy",
-        "source": "Bloomberg Markets",
-        "weight": 0.685,
+        "title": "Sen. Warren asks Trump if administration plans to raise Social Security retirement age",
+        "url": "https://www.cnbc.com/2026/06/15/warren-trump-social-security-retirement-age.html",
+        "source": "CNBC Markets",
+        "weight": 0.6866,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,13 @@
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.40657542668194935,
-          "price_change_24h": 19.47414
+          "volume_mcap_ratio": 0.5458822266590403,
+          "price_change_24h": 23.76938
+        },
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3800085778257948,
+          "price_change_24h": -0.01663
         }
       ],
       "momentum_shifts": []
