@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-16T19:42:10.647811+00:00",
+  "updated_at": "2026-06-16T22:02:38.579542+00:00",
   "indicators": {
-    "change24h": -0.022,
-    "vol": 0.208,
+    "change24h": -0.012,
+    "vol": 0.168,
     "fearGreed": 23,
-    "momentum": -0.393,
+    "momentum": -0.215,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5807,
-    "global_sentiment": 0.516,
-    "combined_sentiment": 0.5619,
-    "confidence": 0.7413,
+    "crypto_sentiment": 0.5355,
+    "global_sentiment": 0.545,
+    "combined_sentiment": 0.5304,
+    "confidence": 0.745,
     "counts": {
-      "crypto": 43,
-      "global": 43
+      "crypto": 40,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 65571,
-      "btc_change_24h": -1.65,
-      "eth_price": 1796.21,
-      "eth_change_24h": -1.74,
+      "btc_price": 65692,
+      "btc_change_24h": -1.09,
+      "eth_price": 1793.36,
+      "eth_change_24h": -1.02,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 125723787695.0,
-        "high_activity_coins": 2
+        "volume_24h": 123479373106.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.66,
+        "btc_dominance": 57.7,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-30T13:55:22.384937+00:00",
-      "crypto": 0.378,
-      "global": 0.3586,
-      "combined": 0.3967,
-      "counts": {
-        "crypto": 56,
-        "global": 29
-      }
-    },
     {
       "ts": "2026-05-30T17:16:37.800818+00:00",
       "crypto": 0.2502,
@@ -1008,66 +998,81 @@
         "crypto": 43,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-06-16T22:02:38.579542+00:00",
+      "crypto": 0.5355,
+      "global": 0.545,
+      "combined": 0.5304,
+      "counts": {
+        "crypto": 40,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX is trading like a $2T meme stock after its record IPO",
-        "url": "https://cryptoslate.com/spacex-is-trading-like-a-meme-stock-after-its-record-ipo/",
-        "source": "CryptoSlate",
-        "weight": 0.6601,
+        "title": "Tokenized asset market tops $43B as institutions accelerate blockchain adoption",
+        "url": "https://cointelegraph.com/news/tokenized-rwa-market-tops-43b-wall-street-pushes-deeper-onchain?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.7025,
         "score": 0.8667
       },
       {
-        "title": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.8597,
-        "score": 0.5333
+        "title": "Damodaran: AI Shaky, High-Potential Business for SpaceX",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-16/damodaran-controlling-ai-winner-could-be-worth-5t-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6893,
+        "score": 0.8667
       },
       {
-        "title": "The Dow Is Above 52,000. It's Only Been 12 Days Since It Hit 51,000.",
-        "url": "https://finance.yahoo.com/m/63e8bbfb-76f0-38f8-b133-f8fa1d475c31/the-dow-is-above-52%2C000.-it%27s.html?.tsrc=rss",
+        "title": "Boeing (BA): Buy, Sell, or Hold Post Q1 Earnings?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-buy-sell-hold-214504752.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6835,
+        "weight": 0.7734,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "SpaceX gets assist from DOJ in effort to toss NAACP air pollution lawsuit",
+        "title": "Here is why Strategy's dividend-paying crypto stock is crashing to near-historic lows",
+        "url": "https://www.coindesk.com/markets/2026/06/16/here-is-why-strategy-s-dividend-paying-crypto-stock-is-crashing-to-near-historic-lows",
+        "source": "CoinDesk",
+        "weight": 0.985,
+        "score": -0.6333
+      },
+      {
+        "title": "DOJ assists Musk's xAI in NAACP air pollution suit, asks court to toss case",
         "url": "https://www.cnbc.com/2026/06/16/usdepartment-of-justice-calls-for-dismissal-of-naacp-xai-lawsuit-.html",
         "source": "CNBC Markets",
-        "weight": 0.7028,
+        "weight": 0.7347,
         "score": -0.7333
       },
       {
-        "title": "Brightline Bondholders Grant Extension on Debt Payment",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-16/brightline-bondholders-grant-two-week-extension-on-debt-payment",
-        "source": "Bloomberg Markets",
-        "weight": 0.4759,
-        "score": -1.0
-      },
-      {
-        "title": "Citadel Securities Sees Risk of Fed Starting Hiking in September",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-16/citadel-securities-sees-risk-of-fed-starting-hiking-in-september",
-        "source": "Bloomberg Markets",
-        "weight": 0.7281,
-        "score": -0.6333
+        "title": "Solstice’s Ryan Day on why sustainable DeFi yield depends on business fundamentals, not token incentives",
+        "url": "https://cryptoslate.com/solstices-ryan-day-on-why-sustainable-defi-yield-depends-on-business-fundamentals-not-token-incentives/",
+        "source": "CryptoSlate",
+        "weight": 0.7045,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.5953144369675784,
-          "price_change_24h": 12.08326
+          "volume_mcap_ratio": 0.6057020822284103,
+          "price_change_24h": 9.29069
+        },
+        {
+          "symbol": "UNI",
+          "volume_mcap_ratio": 0.31264366032499624,
+          "price_change_24h": 16.99752
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.3188623344852427,
-          "price_change_24h": -0.02685
+          "volume_mcap_ratio": 0.31183681243895034,
+          "price_change_24h": -0.02608
         }
       ],
       "momentum_shifts": []
