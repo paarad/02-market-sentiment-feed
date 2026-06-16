@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-15T22:23:15.213806+00:00",
+  "updated_at": "2026-06-16T05:12:45.454130+00:00",
   "indicators": {
-    "change24h": 0.081,
-    "vol": 0.304,
-    "fearGreed": 20,
-    "momentum": 1.0,
+    "change24h": 0.046,
+    "vol": 0.268,
+    "fearGreed": 23,
+    "momentum": 0.811,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5068,
-    "global_sentiment": 0.6409,
-    "combined_sentiment": 0.5168,
-    "confidence": 0.7319,
+    "crypto_sentiment": 0.5181,
+    "global_sentiment": 0.4531,
+    "combined_sentiment": 0.5097,
+    "confidence": 0.6502,
     "counts": {
-      "crypto": 53,
-      "global": 37
+      "crypto": 50,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 66337,
-      "btc_change_24h": 1.75,
-      "eth_price": 1807.48,
-      "eth_change_24h": 4.91,
+      "btc_price": 65951,
+      "btc_change_24h": 0.47,
+      "eth_price": 1762.2,
+      "eth_change_24h": 2.63,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "regime_strength": 1.0,
+      "market_breadth": 0.65,
       "fear_greed": {
-        "value": 20,
+        "value": 23,
         "classification": "Extreme Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 196277760811.0,
+        "volume_24h": 190839054267.0,
         "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.8,
+        "btc_dominance": 57.88,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-29T21:57:11.692616+00:00",
-      "crypto": 0.3916,
-      "global": 0.5548,
-      "combined": 0.4233,
-      "counts": {
-        "crypto": 55,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-05-30T04:03:14.816412+00:00",
       "crypto": 0.3802,
@@ -1008,71 +998,81 @@
         "crypto": 53,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-06-16T05:12:45.454130+00:00",
+      "crypto": 0.5181,
+      "global": 0.4531,
+      "combined": 0.5097,
+      "counts": {
+        "crypto": 50,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market Today, June 15: JetBlue Airways Rises After Raising Second-Quarter Unit-Revenue Outlook",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/15/stock-market-today-june-15-jetblue-airways-rises-after-raising-second-quarter-unit-revenue-outlook/?.tsrc=rss",
+        "title": "AllianzGI Trims Bullish Yuan Bet, Turns Neutral After Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-16/allianzgi-trims-bullish-yuan-bet-turns-neutral-after-rally",
+        "source": "Bloomberg Markets",
+        "weight": 0.505,
+        "score": 1.0
+      },
+      {
+        "title": "Why Palantir Stock Soared Today",
+        "url": "https://www.fool.com/investing/2026/06/15/why-palantir-stock-soared-today/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6992,
+        "weight": 0.5404,
         "score": 0.8667
       },
       {
-        "title": "Stock Market Today, June 15: American Airlines Group Jumps After Oil Prices Drop on U.S.-Iran Peace Agreement",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/06/15/stock-market-today-june-15-american-airlines-group-jumps-after-oil-prices-drop-on-u-s-iran-peace-agreement/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6939,
-        "score": 0.6667
-      },
-      {
-        "title": "SpaceX Stock Began Trading. What’s Ahead for It This Week.",
-        "url": "https://finance.yahoo.com/m/d18fc8ee-f845-3650-bd98-d3bb7022cb55/spacex-stock-began-trading..html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6596,
-        "score": 0.6667
+        "title": "Qualcomm CEO says AI agents will replace apps — as chip giant works on 40 new AI-powered devices",
+        "url": "https://www.cnbc.com/2026/06/16/qualcomm-ceo-ai-devices-agents.html",
+        "source": "CNBC Markets",
+        "weight": 0.7937,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Anthropic Faces Lawsuit Over Allegedly Misleading Claude AI Pricing",
-        "url": "https://decrypt.co/371201/anthropic-lawsuit-allegedly-misleading-claude-ai-pricing",
-        "source": "Decrypt",
-        "weight": 0.5099,
-        "score": -1.0
+        "title": "Biotech IPO window is opening but big pharma M&A still sets the pace, top bankers tell CNBC",
+        "url": "https://www.cnbc.com/2026/06/16/biotech-deals-ipo-pharma-dealmaking-2026.html",
+        "source": "CNBC Markets",
+        "weight": 0.7806,
+        "score": -0.9333
       },
       {
-        "title": "Fear & Greed 20 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "China’s Consumer Spending Drop Imperils Growth",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-16/china-s-consumer-spending-drop-imperils-growth-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6044,
+        "score": -0.9667
       },
       {
-        "title": "CFTC hires SEC crypto task force adviser with blockchain forensics chops",
-        "url": "https://cointelegraph.com/news/sec-crypto-adviser-cftc-blockchain-forensics?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5858,
-        "score": -0.6333
+        "title": "Biocon's Mazumdar-Shaw Says Firm On Track To Be Top Insulin Maker",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-16/founder-biocon-aiming-to-become-top-insulin-maker-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.532,
+        "score": -0.9333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.6615979007751298,
-          "price_change_24h": 18.31001
+          "volume_mcap_ratio": 0.6102105785249676,
+          "price_change_24h": 0.30672
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.579362465545968,
-          "price_change_24h": 0.0102
+          "volume_mcap_ratio": 0.5735171247761851,
+          "price_change_24h": -0.00092
         },
         {
           "symbol": "USD1",
-          "volume_mcap_ratio": 0.33628646412296026,
-          "price_change_24h": 0.01351
+          "volume_mcap_ratio": 0.32979748113454926,
+          "price_change_24h": -0.00673
         }
       ],
       "momentum_shifts": []
