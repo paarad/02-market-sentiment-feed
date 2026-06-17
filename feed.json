@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-17T04:55:11.324255+00:00",
+  "updated_at": "2026-06-17T12:21:51.115693+00:00",
   "indicators": {
-    "change24h": 0.015,
-    "vol": 0.154,
+    "change24h": -0.046,
+    "vol": 0.143,
     "fearGreed": 22,
-    "momentum": 0.263,
-    "regime": "sideways",
+    "momentum": -0.802,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.613,
-    "global_sentiment": 0.4548,
-    "combined_sentiment": 0.581,
-    "confidence": 0.6892,
+    "crypto_sentiment": 0.5107,
+    "global_sentiment": 0.5052,
+    "combined_sentiment": 0.5085,
+    "confidence": 0.7325,
     "counts": {
-      "crypto": 41,
-      "global": 35
+      "crypto": 46,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 65896,
-      "btc_change_24h": 0.1,
-      "eth_price": 1794.9,
-      "eth_change_24h": 1.96,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "btc_price": 64718,
+      "btc_change_24h": -2.75,
+      "eth_price": 1757.21,
+      "eth_change_24h": -3.33,
+      "market_regime": "bear",
+      "regime_strength": 0.6,
+      "market_breadth": 0.2,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 117573120707.0,
-        "high_activity_coins": 3
+        "volume_24h": 113626637470.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.72,
+        "btc_dominance": 57.57,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-30T21:08:27.364291+00:00",
-      "crypto": 0.3073,
-      "global": 0.4828,
-      "combined": 0.354,
-      "counts": {
-        "crypto": 55,
-        "global": 30
-      }
-    },
     {
       "ts": "2026-05-31T04:38:47.750529+00:00",
       "crypto": 0.3459,
@@ -1008,71 +998,76 @@
         "crypto": 41,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-06-17T12:21:51.115693+00:00",
+      "crypto": 0.5107,
+      "global": 0.5052,
+      "combined": 0.5085,
+      "counts": {
+        "crypto": 46,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "XRP gives back breakout gains, slipping below $1.23 on heavy selling",
-        "url": "https://www.coindesk.com/markets/2026/06/17/xrp-gives-back-breakout-gains-slipping-below-usd1-23-on-heavy-selling",
-        "source": "CoinDesk",
-        "weight": 1.1649,
+        "title": "Nasdaq Futures Rising as Iran Peace Deal Boosts the Market Ahead of Fed Decision",
+        "url": "https://finance.yahoo.com/m/ffddf02b-f57c-37b0-ace1-05420670e3cf/nasdaq-futures-rising-as-iran.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6481,
+        "score": 1.0
+      },
+      {
+        "title": "3 Reasons to Sell CVSA and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-cvsa-1-102051076.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6337,
         "score": 0.8667
       },
       {
-        "title": "Lingyi Seeks to Raise Up to $1.1 Billion in Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-17/lingyi-seeks-to-raise-up-to-1-1-billion-in-hong-kong-listing",
+        "title": "Stocks Rise Ahead of Fed Decision; US-Iran MOU Details; G7 Summit | Bloomberg Brief 6/17/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-17/bloomberg-brief-6-17-2026-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6139,
-        "score": 0.6333
-      },
-      {
-        "title": "Uniswap jumps 22% and altcoins rip while bitcoin stalls before the Fed",
-        "url": "https://www.coindesk.com/markets/2026/06/17/uniswap-jumps-22-and-altcoins-rip-while-bitcoin-stalls-before-the-fed",
-        "source": "CoinDesk",
-        "weight": 0.9632,
-        "score": 0.3333
+        "weight": 0.748,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Still See More Upside to Tech Trade: JPMorgan Asset Management",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-17/still-more-upside-to-tech-trade-jpmorgan-am-video",
+        "title": "EIB's Calviño Says Brexit Divided Europe's Capital Markets",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-17/brexit-led-to-eu-s-capital-market-inertia-eib-s-calvino-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6413,
-        "score": -0.6667
+        "weight": 0.6671,
+        "score": -1.0
       },
       {
-        "title": "China’s Regulator to Support Launch of Active ETF Products",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-17/china-s-regulator-to-support-launch-of-active-etf-products",
-        "source": "Bloomberg Markets",
-        "weight": 0.6746,
-        "score": -0.6333
+        "title": "Which Banking ETF Is Better, Fidelity's Broader FNCL or iShares IAT's Regional Bank Focus?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/17/which-banking-etf-is-better-fidelity-s-broader-fncl-or-ishares-iat-s-regional-bank-focus/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6563,
+        "score": -0.9667
       },
       {
-        "title": "Fear & Greed 22 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Bitcoin is setting up 'meaningful floors' in $60K–$70K range: Analyst",
+        "url": "https://cointelegraph.com/markets/bitcoin-is-setting-up-meaningful-floors-in-60k70k-range-analyst?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.6862,
+        "score": -0.8667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.5989381571722169,
-          "price_change_24h": 14.69303
+          "volume_mcap_ratio": 0.5082758508636103,
+          "price_change_24h": 1.18259
         },
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.3168305659587795,
-          "price_change_24h": 25.29761
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.30059599893631495,
-          "price_change_24h": -0.0376
+          "volume_mcap_ratio": 0.4711171873800489,
+          "price_change_24h": 8.89433
         }
       ],
       "momentum_shifts": []
