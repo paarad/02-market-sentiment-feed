@@ -1,46 +1,46 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-17T22:06:33.719946+00:00",
+  "updated_at": "2026-06-18T04:46:09.807076+00:00",
   "indicators": {
-    "change24h": -0.037,
-    "vol": 0.155,
-    "fearGreed": 22,
-    "momentum": -0.65,
+    "change24h": -0.04,
+    "vol": 0.208,
+    "fearGreed": 15,
+    "momentum": -0.706,
     "regime": "bear",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4526,
-    "global_sentiment": 0.4441,
-    "combined_sentiment": 0.4598,
-    "confidence": 0.7141,
+    "crypto_sentiment": 0.4486,
+    "global_sentiment": 0.5175,
+    "combined_sentiment": 0.4629,
+    "confidence": 0.6796,
     "counts": {
-      "crypto": 55,
-      "global": 34
+      "crypto": 41,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 63997,
-      "btc_change_24h": -2.61,
-      "eth_price": 1730.54,
-      "eth_change_24h": -3.53,
+      "btc_price": 63826,
+      "btc_change_24h": -3.23,
+      "eth_price": 1731.35,
+      "eth_change_24h": -3.67,
       "market_regime": "bear",
       "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 22,
+        "value": 15,
         "classification": "Extreme Fear",
-        "trend": "improving"
+        "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 132046620858.0,
-        "high_activity_coins": 2
+        "volume_24h": 133232826765.0,
+        "high_activity_coins": 3
       },
       "dominance": {
-        "btc_dominance": 57.53,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-05-31T17:16:23.300586+00:00",
-      "crypto": 0.402,
-      "global": 0.3524,
-      "combined": 0.4142,
-      "counts": {
-        "crypto": 57,
-        "global": 31
-      }
-    },
     {
       "ts": "2026-05-31T20:42:13.988458+00:00",
       "crypto": 0.4412,
@@ -1008,66 +998,81 @@
         "crypto": 55,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-06-18T04:46:09.807076+00:00",
+      "crypto": 0.4486,
+      "global": 0.5175,
+      "combined": 0.4629,
+      "counts": {
+        "crypto": 41,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX Surge Could Be Worth Billions for FTX—Will Creditors Benefit?",
-        "url": "https://decrypt.co/371474/spacex-surge-worth-billions-ftx-will-creditors-benefit",
-        "source": "Decrypt",
-        "weight": 0.7861,
-        "score": 0.8667
+        "title": "Shanghai Jiaotong University’s Zhu Ning on PBOC Policy",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-18/shanghai-jiaotong-university-s-zhu-ning-on-pboc-policy-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.731,
+        "score": 1.0
       },
       {
-        "title": "Defense contractors would be barred from buying back their stock in bill approved by Senate panel",
-        "url": "https://www.cnbc.com/2026/06/17/defense-contractors-stock-buybacks-senate-warren-trump.html",
-        "source": "CNBC Markets",
-        "weight": 0.7579,
-        "score": 0.5833
+        "title": "India's Biggest Exchange NSE Eyes IPO",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-18/india-s-biggest-exchange-nse-eyes-ipo-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6712,
+        "score": 0.9667
       },
       {
-        "title": "Tesla Stock Is Down. An Argentina Charger Deal Won’t Help.",
-        "url": "https://finance.yahoo.com/m/cdac9ce2-e9ac-3d9b-988e-30c9581d65b7/tesla-stock-is-down.-an.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6416,
+        "title": "CME chief executive says company plans to sue CFTC after perpetual futures approval",
+        "url": "https://www.coindesk.com/policy/2026/06/17/cme-chief-executive-says-company-plans-to-sue-cftc-after-perpetual-futures-approval",
+        "source": "CoinDesk",
+        "weight": 0.888,
         "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Oaktree Private Credit Fund Redemptions Drop Below Key 5% Limit",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-17/oaktree-private-credit-fund-redemptions-drop-below-key-5-limit",
-        "source": "Bloomberg Markets",
-        "weight": 0.6691,
-        "score": -0.9667
-      },
-      {
-        "title": "J&J Has No Plans to Enter Obesity Drugs Market, CEO Says",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-17/j-j-is-focused-on-cancer-not-obesity-drugs-ceo-says-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6,
-        "score": -1.0
-      },
-      {
-        "title": "Fear & Greed 22 (Fear) — bearish",
+        "title": "Fear & Greed 15 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
+      },
+      {
+        "title": "France to Phase Out Non-Quantum Encryption as Bitcoin Security Concerns Grow",
+        "url": "https://decrypt.co/371487/france-phase-out-non-quantum-encryption-bitcoin-security-concerns-grow",
+        "source": "Decrypt",
+        "weight": 0.5202,
+        "score": -0.6333
+      },
+      {
+        "title": "Making Sense of the Evolving Earnings Picture",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/making-sense-evolving-earnings-picture-004000168.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.498,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.51870759134759,
-          "price_change_24h": -3.84502
+          "volume_mcap_ratio": 0.47455035843405524,
+          "price_change_24h": -6.91957
         },
         {
           "symbol": "UNI",
-          "volume_mcap_ratio": 0.4615120100039528,
-          "price_change_24h": -1.72842
+          "volume_mcap_ratio": 0.42048084408747705,
+          "price_change_24h": -11.99
+        },
+        {
+          "symbol": "ASTER",
+          "volume_mcap_ratio": 0.3096838818100282,
+          "price_change_24h": -1.55353
         }
       ],
       "momentum_shifts": []
