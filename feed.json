@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-18T15:41:35.004457+00:00",
+  "updated_at": "2026-06-18T18:29:51.323238+00:00",
   "indicators": {
-    "change24h": -0.047,
-    "vol": 0.197,
+    "change24h": -0.058,
+    "vol": 0.208,
     "fearGreed": 15,
-    "momentum": -0.816,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4519,
-    "global_sentiment": 0.4952,
-    "combined_sentiment": 0.4635,
-    "confidence": 0.7461,
+    "crypto_sentiment": 0.4116,
+    "global_sentiment": 0.4882,
+    "combined_sentiment": 0.4327,
+    "confidence": 0.7404,
     "counts": {
-      "crypto": 41,
-      "global": 43
+      "crypto": 39,
+      "global": 53
     },
     "market_indicators": {
-      "btc_price": 62869,
-      "btc_change_24h": -3.89,
-      "eth_price": 1710.21,
-      "eth_change_24h": -3.07,
+      "btc_price": 62826,
+      "btc_change_24h": -3.85,
+      "eth_price": 1685.23,
+      "eth_change_24h": -4.55,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.15,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 139035053711.0,
+        "volume_24h": 138484466535.0,
         "high_activity_coins": 2
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-01T05:00:23.372319+00:00",
-      "crypto": 0.3548,
-      "global": 0.5496,
-      "combined": 0.3953,
-      "counts": {
-        "crypto": 58,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-06-01T13:43:40.211743+00:00",
       "crypto": 0.4432,
@@ -1008,66 +998,76 @@
         "crypto": 41,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-06-18T18:29:51.323238+00:00",
+      "crypto": 0.4116,
+      "global": 0.4882,
+      "combined": 0.4327,
+      "counts": {
+        "crypto": 39,
+        "global": 53
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Intel gains 8% after Trump says company will partner with Apple on U.S. chip design",
+        "title": "Record $21 Billion Water Bonds Sold With Trump Budget Cuts Ahead",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-18/record-21-billion-water-bonds-sold-with-trump-budget-cuts-ahead",
+        "source": "Bloomberg Markets",
+        "weight": 0.6811,
+        "score": 1.0
+      },
+      {
+        "title": "Intel gains 10% after Trump says company will partner with Apple on U.S. chip design",
         "url": "https://www.cnbc.com/2026/06/18/trump-intel-apple-chip-design-deal.html",
         "source": "CNBC Markets",
-        "weight": 0.7914,
+        "weight": 0.6623,
         "score": 0.8667
       },
       {
-        "title": "QuantumScape Stock Jumps on Honda Solid-State Battery Agreement",
-        "url": "https://finance.yahoo.com/m/49be7d72-4d33-3519-8f15-67b4c1c85160/quantumscape-stock-jumps-on.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6655,
-        "score": 0.9167
-      },
-      {
-        "title": "Stocks Join Bonds Higher as US-Iran Deal Sinks Oil",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-18/stocks-join-bonds-higher-as-us-iran-deal-sinks-oil-video",
+        "title": "Paramount-Warner’s ‘Too Low’ Deal Odds Leave Room for Arb Profit",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-18/paramount-warner-s-too-low-deal-odds-leave-room-for-arb-profit",
         "source": "Bloomberg Markets",
-        "weight": 0.7321,
-        "score": 0.6667
+        "weight": 0.6056,
+        "score": 0.9167
       }
     ],
     "negative": [
       {
-        "title": "Iran Deal Leaves Questions: Paggi",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-18/iran-deal-leaves-questions-paggi-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7856,
+        "title": "CME Group sues CFTC over crypto perpetual futures",
+        "url": "https://cointelegraph.com/news/cme-group-cftc-lawsuit-perpetual-futures-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.7298,
         "score": -1.0
       },
       {
-        "title": "Trump bid to fire Fed's Lisa Cook cost her more than $1M in legal, security costs: Filing",
-        "url": "https://www.cnbc.com/2026/06/18/trump-federal-reserve-lisa-cook-security-filing.html",
-        "source": "CNBC Markets",
-        "weight": 0.7939,
-        "score": -0.6333
+        "title": "Sector Update: Energy Stocks Fall Thursday Afternoon",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-thursday-174504048.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7339,
+        "score": -0.9667
       },
       {
-        "title": "Why Accenture Stock Is Sinking 15% After Earnings and a Big Acquisition",
-        "url": "https://finance.yahoo.com/m/b5228123-8aad-37e2-9ce1-62132fc031f8/why-accenture-stock-is.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7202,
-        "score": -0.6667
+        "title": "Iran Deal Leaves Questions: Paggi",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-18/iran-deal-leaves-questions-paggi-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5682,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "WLD",
-          "volume_mcap_ratio": 0.6929819793665426,
-          "price_change_24h": -4.95849
+          "volume_mcap_ratio": 0.6384677088805457,
+          "price_change_24h": -6.47156
         },
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3075415732014274,
-          "price_change_24h": -0.02746
+          "volume_mcap_ratio": 0.3097984362678145,
+          "price_change_24h": -0.14376
         }
       ],
       "momentum_shifts": []
