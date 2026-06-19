@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-19T12:13:56.325627+00:00",
+  "updated_at": "2026-06-19T18:03:38.880863+00:00",
   "indicators": {
-    "change24h": -0.052,
-    "vol": 0.149,
+    "change24h": 0.003,
+    "vol": 0.141,
     "fearGreed": 14,
-    "momentum": -0.917,
-    "regime": "bear",
+    "momentum": 0.057,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3344,
-    "global_sentiment": 0.4054,
-    "combined_sentiment": 0.3679,
-    "confidence": 0.7047,
+    "crypto_sentiment": 0.2658,
+    "global_sentiment": 0.2888,
+    "combined_sentiment": 0.3067,
+    "confidence": 0.7221,
     "counts": {
-      "crypto": 58,
-      "global": 45
+      "crypto": 43,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 62591,
-      "btc_change_24h": -2.11,
-      "eth_price": 1690.59,
-      "eth_change_24h": -3.04,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.2,
+      "btc_price": 63099,
+      "btc_change_24h": 0.9,
+      "eth_price": 1702.4,
+      "eth_change_24h": 1.55,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.65,
       "fear_greed": {
         "value": 14,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 117260314438.0,
+        "volume_24h": 97896557089.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-02T12:11:19.844641+00:00",
-      "crypto": 0.3615,
-      "global": 0.4893,
-      "combined": 0.3953,
-      "counts": {
-        "crypto": 65,
-        "global": 49
-      }
-    },
     {
       "ts": "2026-06-02T19:48:28.539886+00:00",
       "crypto": 0.3548,
@@ -1008,53 +998,63 @@
         "crypto": 58,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-06-19T18:03:38.880863+00:00",
+      "crypto": 0.2658,
+      "global": 0.2888,
+      "combined": 0.3067,
+      "counts": {
+        "crypto": 43,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "The S&P 500's Dividend Yield Is Down to Around 1%. Buy This 5%-Yielding Pipeline Stock to Boost Your Passive Income.",
+        "url": "https://www.fool.com/investing/2026/06/19/the-sp-500s-dividend-yield-is-down-to-around-1-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6616,
+        "score": 0.5333
+      },
+      {
+        "title": "Kalshi in early IPO talks with investment banks: Report",
+        "url": "https://cointelegraph.com/news/kalshi-early-ipo-talks-investment-banks-report?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.4858,
+        "score": 0.6333
+      },
+      {
         "title": "Bitcoin activity nears record highs on microtransaction surge",
         "url": "https://cointelegraph.com/news/bitcoin-activity-nears-record-highs-on-microtransaction-surge?utm_source=rss&utm_medium=rss&utm_campaign=rss",
         "source": "CoinTelegraph",
-        "weight": 0.568,
+        "weight": 0.2897,
         "score": 0.8667
-      },
-      {
-        "title": "Russia threatens escalation after Ukraine hits Moscow with largest-ever drone attack",
-        "url": "https://www.cnbc.com/2026/06/19/russia-ukraine-moscow-drone-attack-trump.html",
-        "source": "CNBC Markets",
-        "weight": 0.6498,
-        "score": 0.6667
-      },
-      {
-        "title": "3 Reasons to Avoid GIC and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-gic-1-093258122.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5868,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "VB vs. ISCB: Which Small-Cap ETF Is the Better Buy for Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/19/vb-vs-iscb-which-small-cap-etf-is-the-better-buy-for-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7073,
-        "score": -0.9667
-      },
-      {
-        "title": "Stocks Slide as Iran Nuclear Talks Hit Early Snag: Markets Wrap",
+        "title": "Stocks Stall as Iran Nuclear Talks Hit Early Snag: Markets Wrap",
         "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-slide-focus-shifts-iran-080450531.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.682,
+        "weight": 0.7272,
         "score": -1.0
       },
       {
-        "title": "Seth Klarman on Counter Narratives",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-19/seth-klarman-on-counter-narratives-video",
+        "title": "Global Stocks End Strong Week on Cautious Note",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-19/global-stocks-end-strong-week-on-cautious-note-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5524,
-        "score": -0.9667
+        "weight": 0.6568,
+        "score": -1.0
+      },
+      {
+        "title": "STRC’s plunge puts Saylor’s Bitcoin dividend machine under pressure",
+        "url": "https://cryptoslate.com/strcs-plunge-puts-saylors-bitcoin-dividend-machine-under-pressure/",
+        "source": "CryptoSlate",
+        "weight": 0.6092,
+        "score": -1.0
       }
     ],
     "market_movers": {
