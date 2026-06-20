@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-20T10:36:44.854876+00:00",
+  "updated_at": "2026-06-20T14:19:44.632780+00:00",
   "indicators": {
-    "change24h": 0.035,
-    "vol": 0.139,
+    "change24h": 0.004,
+    "vol": 0.097,
     "fearGreed": 23,
-    "momentum": 0.604,
+    "momentum": 0.067,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3458,
-    "global_sentiment": 0.4023,
-    "combined_sentiment": 0.3762,
-    "confidence": 0.5332,
+    "crypto_sentiment": 0.216,
+    "global_sentiment": 0.3008,
+    "combined_sentiment": 0.2704,
+    "confidence": 0.4547,
     "counts": {
-      "crypto": 42,
-      "global": 39
+      "crypto": 40,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 63584,
-      "btc_change_24h": 1.93,
-      "eth_price": 1724.89,
-      "eth_change_24h": 2.24,
+      "btc_price": 63196,
+      "btc_change_24h": 0.26,
+      "eth_price": 1708.36,
+      "eth_change_24h": 0.58,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 79865344839.0,
+        "volume_24h": 71872514877.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-03T12:46:31.877438+00:00",
-      "crypto": 0.364,
-      "global": 0.4078,
-      "combined": 0.3903,
-      "counts": {
-        "crypto": 56,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-06-03T19:53:41.444996+00:00",
       "crypto": 0.2628,
@@ -1008,53 +998,63 @@
         "crypto": 42,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-06-20T14:19:44.632780+00:00",
+      "crypto": 0.216,
+      "global": 0.3008,
+      "combined": 0.2704,
+      "counts": {
+        "crypto": 40,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
         "title": "The Trump Bull Market Is Near Its Tipping Point, According to More Than 150 Years of History",
         "url": "https://www.fool.com/investing/2026/06/20/trump-bull-market-tipping-point-150-years-history/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.622,
+        "weight": 0.4048,
         "score": 0.5333
+      },
+      {
+        "title": "Iraq Tells Oil Fields to Start Lifting Output After US-Iran Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-20/iraq-tells-oil-fields-to-start-lifting-output-after-us-iran-deal",
+        "source": "Bloomberg Markets",
+        "weight": 0.6175,
+        "score": 0.3333
       },
       {
         "title": "Is Bitzero Holdings (CNSX:AIBZ.U) Quietly Recasting Its AI Edge With This Norway Lease Deal?",
         "url": "https://finance.yahoo.com/technology/ai/articles/bitzero-holdings-cnsx-aibz-u-071043643.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.538,
+        "weight": 0.3502,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "SCHD vs. HDV: Which Dividend ETF Is the Better Buy for Long-Term Investors?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/20/schd-vs-hdv-which-dividend-etf-is-the-better-buy-for-long-term-investors/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5462,
+        "score": -0.9667
+      },
+      {
+        "title": "Scott Galloway says GLP-1 drugs are a 'silver bullet' for America's woes, if we're not 'stupid enough' to get in the way",
+        "url": "https://finance.yahoo.com/healthcare/articles/scott-galloway-says-glp-1-104000091.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.524,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 23 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.5325,
-        "score": -0.6333
-      },
-      {
-        "title": "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
-        "url": "https://www.cnbc.com/2026/06/20/south-korea-tech-samsung-sk-hynix-bonus-bank-of-korea.html",
-        "source": "CNBC Markets",
-        "weight": 0.6636,
-        "score": -0.3333
       }
     ],
     "market_movers": {
