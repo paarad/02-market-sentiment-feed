@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-19T21:13:53.652304+00:00",
+  "updated_at": "2026-06-20T04:18:38.062272+00:00",
   "indicators": {
-    "change24h": -0.015,
-    "vol": 0.153,
-    "fearGreed": 14,
-    "momentum": -0.261,
+    "change24h": 0.004,
+    "vol": 0.128,
+    "fearGreed": 23,
+    "momentum": 0.076,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2707,
-    "global_sentiment": 0.2772,
-    "combined_sentiment": 0.3094,
-    "confidence": 0.6903,
+    "crypto_sentiment": 0.3406,
+    "global_sentiment": 0.2974,
+    "combined_sentiment": 0.3636,
+    "confidence": 0.5875,
     "counts": {
       "crypto": 43,
-      "global": 37
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 63185,
-      "btc_change_24h": 0.47,
-      "eth_price": 1706.19,
-      "eth_change_24h": 0.21,
+      "btc_price": 63395,
+      "btc_change_24h": 0.99,
+      "eth_price": 1706.76,
+      "eth_change_24h": 0.48,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
-        "value": 14,
+        "value": 23,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 91083772057.0,
+        "volume_24h": 83963950410.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-02T22:25:10.158047+00:00",
-      "crypto": 0.3806,
-      "global": 0.6881,
-      "combined": 0.4262,
-      "counts": {
-        "crypto": 45,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-06-03T04:56:47.668020+00:00",
       "crypto": 0.3398,
@@ -1008,53 +998,63 @@
         "crypto": 43,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-06-20T04:18:38.062272+00:00",
+      "crypto": 0.3406,
+      "global": 0.2974,
+      "combined": 0.3636,
+      "counts": {
+        "crypto": 43,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures Fall; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
-        "url": "https://finance.yahoo.com/m/aa0411a1-2ba1-3057-bff9-1381bd5225f7/dow-jones-futures-fall%3B.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.779,
-        "score": 0.3333
-      },
-      {
-        "title": "The S&P 500's Dividend Yield Is Down to Around 1%. Buy This 5%-Yielding Pipeline Stock to Boost Your Passive Income.",
-        "url": "https://www.fool.com/investing/2026/06/19/the-sp-500s-dividend-yield-is-down-to-around-1-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4587,
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Kalshi in early IPO talks with investment banks: Report",
-        "url": "https://cointelegraph.com/news/kalshi-early-ipo-talks-investment-banks-report?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.3368,
-        "score": 0.6333
+        "title": "Dow Jones Futures Fall; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
+        "url": "https://finance.yahoo.com/m/aa0411a1-2ba1-3057-bff9-1381bd5225f7/dow-jones-futures-fall%3B.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6536,
+        "score": 0.3333
+      },
+      {
+        "title": "Is MGM Resorts International Stock Outperforming the S&P 500?",
+        "url": "https://www.barchart.com/story/news/2558604/is-mgm-resorts-international-stock-outperforming-the-s-p-500?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.2211,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Stocks Stall as Iran Nuclear Talks Hit Early Snag: Markets Wrap",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-slide-focus-shifts-iran-080450531.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7064,
-        "score": -1.0
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "Value Investing Legend Seth Klarman: Masters in Business",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-19/value-investing-legend-seth-klarman-masters-in-business-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3439,
+        "score": -0.9667
       },
       {
         "title": "DOJ rebuffs judge's request to put in writing it won't move forward with 'anti-weaponization' fund",
         "url": "https://www.cnbc.com/2026/06/19/doj-anti-weaponization-fund-trump.html",
         "source": "CNBC Markets",
-        "weight": 0.6819,
+        "weight": 0.4275,
         "score": -0.7333
-      },
-      {
-        "title": "Global Stocks End Strong Week on Cautious Note",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-19/global-stocks-end-strong-week-on-cautious-note-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4553,
-        "score": -1.0
       }
     ],
     "market_movers": {
