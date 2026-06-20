@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-20T17:40:08.620828+00:00",
+  "updated_at": "2026-06-20T20:55:59.150861+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.108,
+    "change24h": 0.017,
+    "vol": 0.1,
     "fearGreed": 23,
-    "momentum": 0.184,
+    "momentum": 0.293,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2,
-    "global_sentiment": 0.2436,
-    "combined_sentiment": 0.2054,
-    "confidence": 0.5103,
+    "crypto_sentiment": 0.3471,
+    "global_sentiment": 0.2348,
+    "combined_sentiment": 0.3632,
+    "confidence": 0.5366,
     "counts": {
-      "crypto": 40,
-      "global": 41
+      "crypto": 54,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 63773,
-      "btc_change_24h": 1.27,
-      "eth_price": 1723.31,
-      "eth_change_24h": 1.43,
+      "btc_price": 63843,
+      "btc_change_24h": 1.02,
+      "eth_price": 1728.29,
+      "eth_change_24h": 1.22,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 72712185094.0,
+        "volume_24h": 72775917772.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-03T22:16:39.753372+00:00",
-      "crypto": 0.2558,
-      "global": 0.5295,
-      "combined": 0.3193,
-      "counts": {
-        "crypto": 47,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-06-03T22:29:52.065911+00:00",
       "crypto": 0.2506,
@@ -1008,53 +998,63 @@
         "crypto": 40,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-20T20:55:59.150861+00:00",
+      "crypto": 0.3471,
+      "global": 0.2348,
+      "combined": 0.3632,
+      "counts": {
+        "crypto": 54,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "HYPE, JTO and WLD wins are looking more like exceptions than an altcoin season signal",
+        "url": "https://cryptoslate.com/hype-jto-and-wld-wins-are-looking-more-like-exceptions-than-a-market-turn/",
+        "source": "CryptoSlate",
+        "weight": 0.694,
+        "score": 1.0
+      },
+      {
         "title": "The Trump Bull Market Is Near Its Tipping Point, According to More Than 150 Years of History",
         "url": "https://www.fool.com/investing/2026/06/20/trump-bull-market-tipping-point-150-years-history/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.2752,
+        "weight": 0.1888,
         "score": 0.5333
       },
       {
         "title": "Iraq Tells Oil Fields to Start Lifting Output After US-Iran Deal",
         "url": "https://www.bloomberg.com/news/articles/2026-06-20/iraq-tells-oil-fields-to-start-lifting-output-after-us-iran-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.4198,
-        "score": 0.3333
-      },
-      {
-        "title": "Is Bitzero Holdings (CNSX:AIBZ.U) Quietly Recasting Its AI Edge With This Norway Lease Deal?",
-        "url": "https://finance.yahoo.com/technology/ai/articles/bitzero-holdings-cnsx-aibz-u-071043643.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2381,
+        "weight": 0.2879,
         "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
         "title": "Bitcoin shrugged off Japan’s rate hike – The bigger liquidity test came from Washington",
         "url": "https://cryptoslate.com/bitcoin-shrugged-off-japans-rate-hike-the-bigger-liquidity-test-came-from-washington/",
         "source": "CryptoSlate",
-        "weight": 0.6373,
+        "weight": 0.4371,
         "score": -0.9333
       },
       {
-        "title": "South Africa’s Kganyago Warns Inflation Expectations Are Rising",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-20/south-africa-central-bank-warns-it-must-act-on-rising-price-expectations",
-        "source": "Bloomberg Markets",
-        "weight": 0.5767,
-        "score": -0.9667
-      },
-      {
-        "title": "Bank ETF Showdown: Invesco Crushes iShares",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/20/bank-etf-showdown-invesco-crushes-ishares/?.tsrc=rss",
+        "title": "Enel Chile (ENIC) Among the Best Undervalued Penny Stocks, Here’s What You Need to Know",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/enel-chile-enic-among-best-185409319.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5442,
-        "score": -0.9667
+        "weight": 0.6327,
+        "score": -0.6333
       }
     ],
     "market_movers": {
