@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-21T05:02:20.492201+00:00",
+  "updated_at": "2026-06-21T11:21:08.066474+00:00",
   "indicators": {
-    "change24h": 0.011,
-    "vol": 0.085,
+    "change24h": -0.003,
+    "vol": 0.095,
     "fearGreed": 23,
-    "momentum": 0.198,
+    "momentum": -0.058,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.4542,
-    "global_sentiment": 0.3099,
-    "combined_sentiment": 0.4498,
-    "confidence": 0.4972,
+    "crypto_sentiment": 0.2141,
+    "global_sentiment": 0.333,
+    "combined_sentiment": 0.2717,
+    "confidence": 0.5027,
     "counts": {
       "crypto": 39,
-      "global": 43
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 64214,
-      "btc_change_24h": 1.1,
-      "eth_price": 1731.6,
-      "eth_change_24h": 1.11,
+      "btc_price": 64125,
+      "btc_change_24h": 0.73,
+      "eth_price": 1720.33,
+      "eth_change_24h": -0.34,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.5,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 73862748778.0,
+        "volume_24h": 73302094956.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-04T11:20:17.782062+00:00",
-      "crypto": 0.3146,
-      "global": 0.4677,
-      "combined": 0.3582,
-      "counts": {
-        "crypto": 50,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-06-04T15:32:21.750669+00:00",
       "crypto": 0.3655,
@@ -1008,53 +998,63 @@
         "crypto": 39,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-06-21T11:21:08.066474+00:00",
+      "crypto": 0.2141,
+      "global": 0.333,
+      "combined": 0.2717,
+      "counts": {
+        "crypto": 39,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Aluminum’s War Shock Blunted by Dark Transits and Chinese Supply",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-21/aluminum-s-war-shock-blunted-by-dark-transits-and-chinese-supply",
+        "source": "Bloomberg Markets",
+        "weight": 0.7681,
+        "score": 0.5333
+      },
+      {
+        "title": "The Pullback Created Bargains: Dirt Cheap Consumer Stocks Worth Buying With $5,000 Today",
+        "url": "https://www.fool.com/investing/2026/06/21/the-pullback-created-bargains-dirt-cheap-consumer/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.403,
+        "score": 0.3333
+      },
+      {
         "title": "HYPE, JTO and WLD wins are looking more like exceptions than an altcoin season signal",
         "url": "https://cryptoslate.com/hype-jto-and-wld-wins-are-looking-more-like-exceptions-than-a-market-turn/",
         "source": "CryptoSlate",
-        "weight": 0.2721,
+        "weight": 0.1312,
         "score": 1.0
-      },
-      {
-        "title": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.7517,
-        "score": 0.3333
-      },
-      {
-        "title": "Swiss Voters Set to Reject Stricter Neutrality, Early Poll Shows",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-21/swiss-voters-set-to-reject-stricter-neutrality-early-poll-shows",
-        "source": "Bloomberg Markets",
-        "weight": 0.6321,
-        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "A Stock Trader’s Guide to Navigating a Rare ‘Super El Niño’",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-21/a-stock-trader-s-guide-to-navigating-a-rare-super-el-nino",
-        "source": "Bloomberg Markets",
-        "weight": 0.447,
+        "title": "Amid the Power Boom, Should You Buy a Clean Energy ETF or a Nuclear and Uranium ETF?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/21/amid-the-power-boom-should-you-buy-a-clean-energy-etf-or-a-nuclear-and-uranium-etf/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7622,
+        "score": -0.9667
+      },
+      {
+        "title": "Turkish lira stablecoins show why Europe’s regulated euro tokens may struggle",
+        "url": "https://cryptoslate.com/turkish-lira-stablecoins-euro-token-demand/",
+        "source": "CryptoSlate",
+        "weight": 0.6776,
         "score": -1.0
       },
       {
-        "title": "Fear & Greed 23 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
-      },
-      {
-        "title": "U.S. Real Estate Leaders or Global Property Markets? XLRE vs. RWO",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/20/u-s-real-estate-leaders-or-global-property-markets-xlre-vs-rwo/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.3452,
-        "score": -0.9667
+        "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
+        "url": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
+        "source": "CoinDesk",
+        "weight": 0.6197,
+        "score": -0.8333
       }
     ],
     "market_movers": {
