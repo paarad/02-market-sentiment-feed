@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-21T11:21:08.066474+00:00",
+  "updated_at": "2026-06-21T14:25:11.135969+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.095,
+    "change24h": 0.0,
+    "vol": 0.5,
     "fearGreed": 23,
-    "momentum": -0.058,
-    "regime": "sideways",
+    "momentum": 0.0,
+    "regime": "unknown",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2141,
-    "global_sentiment": 0.333,
-    "combined_sentiment": 0.2717,
-    "confidence": 0.5027,
+    "crypto_sentiment": 0.2758,
+    "global_sentiment": 0.3606,
+    "combined_sentiment": 0.3202,
+    "confidence": 0.5962,
     "counts": {
-      "crypto": 39,
-      "global": 40
+      "crypto": 42,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 64125,
-      "btc_change_24h": 0.73,
-      "eth_price": 1720.33,
-      "eth_change_24h": -0.34,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 63967,
+      "btc_change_24h": 1.11,
+      "eth_price": 1720.83,
+      "eth_change_24h": 0.6,
+      "market_regime": "unknown",
+      "regime_strength": 0.0,
+      "market_breadth": 0,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 73302094956.0,
+        "volume_24h": 73621920338.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-04T15:32:21.750669+00:00",
-      "crypto": 0.3655,
-      "global": 0.4009,
-      "combined": 0.3909,
-      "counts": {
-        "crypto": 48,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-06-04T18:24:20.593374+00:00",
       "crypto": 0.4074,
@@ -1008,6 +998,16 @@
         "crypto": 39,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-06-21T14:25:11.135969+00:00",
+      "crypto": 0.2758,
+      "global": 0.3606,
+      "combined": 0.3202,
+      "counts": {
+        "crypto": 42,
+        "global": 37
+      }
     }
   ],
   "drivers": {
@@ -1016,45 +1016,45 @@
         "title": "Aluminum’s War Shock Blunted by Dark Transits and Chinese Supply",
         "url": "https://www.bloomberg.com/news/articles/2026-06-21/aluminum-s-war-shock-blunted-by-dark-transits-and-chinese-supply",
         "source": "Bloomberg Markets",
-        "weight": 0.7681,
+        "weight": 0.5389,
         "score": 0.5333
       },
       {
-        "title": "The Pullback Created Bargains: Dirt Cheap Consumer Stocks Worth Buying With $5,000 Today",
-        "url": "https://www.fool.com/investing/2026/06/21/the-pullback-created-bargains-dirt-cheap-consumer/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.403,
+        "title": "Republicans buy crypto more than Democrats, data shows — what's driving the divide",
+        "url": "https://www.cnbc.com/2026/06/21/republicans-democrats-crypto-bitcoin-use.html",
+        "source": "CNBC Markets",
+        "weight": 0.7194,
         "score": 0.3333
       },
       {
-        "title": "HYPE, JTO and WLD wins are looking more like exceptions than an altcoin season signal",
-        "url": "https://cryptoslate.com/hype-jto-and-wld-wins-are-looking-more-like-exceptions-than-a-market-turn/",
-        "source": "CryptoSlate",
-        "weight": 0.1312,
-        "score": 1.0
+        "title": "Global X's MLPX or Alerian's AMLP: Which Energy Infrastructure ETF Is the Better Long-Term Buy?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/21/global-x-s-mlpx-or-alerian-s-amlp-which-energy-infrastructure-etf-is-the-better-long-term-buy/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6661,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "US and Iranian Negotiators Begin Talks in Switzerland",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-21/us-and-iranian-negotiators-begin-talks-in-switzerland-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5905,
+        "score": -1.0
+      },
+      {
         "title": "Amid the Power Boom, Should You Buy a Clean Energy ETF or a Nuclear and Uranium ETF?",
         "url": "https://www.fool.com/coverage/etfs/2026/06/21/amid-the-power-boom-should-you-buy-a-clean-energy-etf-or-a-nuclear-and-uranium-etf/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7622,
+        "weight": 0.5348,
         "score": -0.9667
       },
       {
         "title": "Turkish lira stablecoins show why Europe’s regulated euro tokens may struggle",
         "url": "https://cryptoslate.com/turkish-lira-stablecoins-euro-token-demand/",
         "source": "CryptoSlate",
-        "weight": 0.6776,
+        "weight": 0.4754,
         "score": -1.0
-      },
-      {
-        "title": "Ethereum's biggest 'sandwich' bot drained of $7.5 million in ironic exploit",
-        "url": "https://www.coindesk.com/tech/2026/06/21/ethereum-s-biggest-sandwich-bot-drained-of-usd7-5-million-in-ironic-exploit",
-        "source": "CoinDesk",
-        "weight": 0.6197,
-        "score": -0.8333
       }
     ],
     "market_movers": {
