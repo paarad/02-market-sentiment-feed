@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-22T05:11:34.569189+00:00",
+  "updated_at": "2026-06-22T13:40:08.285426+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.027,
+    "vol": 0.066,
     "fearGreed": 20,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.48,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.362,
-    "global_sentiment": 0.507,
-    "combined_sentiment": 0.397,
-    "confidence": 0.5885,
+    "crypto_sentiment": 0.4475,
+    "global_sentiment": 0.4216,
+    "combined_sentiment": 0.4541,
+    "confidence": 0.7367,
     "counts": {
-      "crypto": 27,
-      "global": 39
+      "crypto": 35,
+      "global": 37
     },
     "market_indicators": {
-      "btc_price": 64158,
-      "btc_change_24h": -0.03,
-      "eth_price": 1734.72,
-      "eth_change_24h": 0.28,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 65218,
+      "btc_change_24h": 1.95,
+      "eth_price": 1772.87,
+      "eth_change_24h": 3.0,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 79875713197.0,
+        "volume_24h": 100067154626.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.8,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-05T11:33:22.469006+00:00",
-      "crypto": 0.3509,
-      "global": 0.577,
-      "combined": 0.3946,
-      "counts": {
-        "crypto": 50,
-        "global": 50
-      }
-    },
     {
       "ts": "2026-06-05T15:19:14.963932+00:00",
       "crypto": 0.281,
@@ -1008,53 +998,63 @@
         "crypto": 27,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-06-22T13:40:08.285426+00:00",
+      "crypto": 0.4475,
+      "global": 0.4216,
+      "combined": 0.4541,
+      "counts": {
+        "crypto": 35,
+        "global": 37
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Olympian Eileen GU on Her Motivations for Success",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-22/olympian-eileen-gu-on-her-motivations-for-success-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6713,
-        "score": 0.9167
+        "title": "Beat the Market the Zacks Way: F5, Atlanticus, Starbucks in Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/beat-market-zacks-way-f5-120600507.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6674,
+        "score": 1.0
       },
       {
-        "title": "Chinese AI Stocks Rally on Demand Optimism and Policy Support",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-22/chinese-ai-stocks-rally-on-demand-optimism-and-policy-support",
-        "source": "Bloomberg Markets",
-        "weight": 0.7847,
-        "score": 0.6667
-      },
-      {
-        "title": "Bitcoin holds near $64,000 as US-Iran talks progress but crypto sits out the rally",
-        "url": "https://www.coindesk.com/markets/2026/06/22/bitcoin-holds-near-usd64-000-as-us-iran-talks-progress-but-crypto-sits-out-the-rally",
+        "title": "As bitcoin, altcoin prices gain, derivatives signal skepticism over a sustained rally",
+        "url": "https://www.coindesk.com/markets/2026/06/22/as-bitcoin-altcoin-prices-gain-derivatives-signal-skepticism-over-a-sustained-rally",
         "source": "CoinDesk",
-        "weight": 0.9757,
+        "weight": 0.7427,
+        "score": 0.8667
+      },
+      {
+        "title": "Global crypto market cap up 1.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Vanguard VBR vs. iShares IJJ: Is a Small-Cap or Mid-Cap ETF the Better Buy for Investors?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/21/vanguard-vbr-vs-ishares-ijj-is-a-small-cap-or-mid-cap-etf-the-better-buy-for-investors/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7238,
-        "score": -0.9667
-      },
-      {
-        "title": "Will the Stock Market Crash in 2026? History Shows This Is the Smartest Way to Prepare.",
-        "url": "https://www.fool.com/investing/2026/06/22/will-the-stock-market-crash-in-2026-history-shows/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7244,
-        "score": -0.6333
-      },
-      {
-        "title": "Bitcoin treasury companies in Europe struggle with shareholder cost issues",
-        "url": "https://cryptoslate.com/bitcoin-treasury-companies-europe-shareholder-cost/",
-        "source": "CryptoSlate",
-        "weight": 0.4577,
+        "title": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.5797,
         "score": -1.0
+      },
+      {
+        "title": "JPMorgan’s Lipikhina Sees Europe Stocks Lagging Despite Oil Drop",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/jpmorgan-s-lipikhina-sees-europe-stocks-lagging-despite-oil-drop",
+        "source": "Bloomberg Markets",
+        "weight": 0.5298,
+        "score": -1.0
+      },
+      {
+        "title": "Taiko halts its Ethereum layer-2 network after a bridge exploit, token dives",
+        "url": "https://www.coindesk.com/tech/2026/06/22/taiko-halts-its-ethereum-layer-2-network-after-a-bridge-exploit-token-dives-10",
+        "source": "CoinDesk",
+        "weight": 0.6096,
+        "score": -0.8333
       }
     ],
     "market_movers": {
