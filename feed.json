@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-22T19:35:44.853468+00:00",
+  "updated_at": "2026-06-22T21:50:00.979252+00:00",
   "indicators": {
-    "change24h": -0.003,
-    "vol": 0.135,
+    "change24h": 0.01,
+    "vol": 0.189,
     "fearGreed": 20,
-    "momentum": -0.057,
+    "momentum": 0.167,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4305,
-    "global_sentiment": 0.4618,
-    "combined_sentiment": 0.4447,
-    "confidence": 0.7545,
+    "crypto_sentiment": 0.404,
+    "global_sentiment": 0.3226,
+    "combined_sentiment": 0.4132,
+    "confidence": 0.7659,
     "counts": {
       "crypto": 39,
-      "global": 47
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 64333,
-      "btc_change_24h": 0.27,
-      "eth_price": 1732.5,
-      "eth_change_24h": -0.03,
+      "btc_price": 64179,
+      "btc_change_24h": 0.52,
+      "eth_price": 1729.72,
+      "eth_change_24h": 0.59,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "market_breadth": 0.5,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 115277180035.0,
+        "volume_24h": 113772404655.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.73,
+        "btc_dominance": 57.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-05T18:01:35.427102+00:00",
-      "crypto": 0.2858,
-      "global": 0.451,
-      "combined": 0.3352,
-      "counts": {
-        "crypto": 51,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-05T21:11:44.475012+00:00",
       "crypto": 0.2996,
@@ -1008,53 +998,63 @@
         "crypto": 39,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-06-22T21:50:00.979252+00:00",
+      "crypto": 0.404,
+      "global": 0.3226,
+      "combined": 0.4132,
+      "counts": {
+        "crypto": 39,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AtkinsRealis Gains on Canada’s Expanded Nuclear Strategy",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-22/atkinsrealis-gains-on-canada-s-expanded-nuclear-strategy",
-        "source": "Bloomberg Markets",
-        "weight": 0.5067,
-        "score": 1.0
-      },
-      {
-        "title": "3 Reasons We’re Fans of Philip Morris (PM)",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-fans-philip-morris-174719839.html?.tsrc=rss",
+        "title": "Russell 2000 Closes Above 3000 Level. Smaller Stocks Crushed Big Tech Again.",
+        "url": "https://finance.yahoo.com/m/a52f02c8-4ecc-3c36-8346-83230586948f/russell-2000-closes-above.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6493,
+        "weight": 0.7362,
         "score": 0.6667
       },
       {
-        "title": "SpaceX stock falls 14%, pacing for third-straight day of losses after red-hot IPO start",
+        "title": "SpaceX stock tanks 16%, extending slump following post-IPO rally",
         "url": "https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html",
         "source": "CNBC Markets",
-        "weight": 0.7954,
+        "weight": 0.6602,
         "score": 0.5333
+      },
+      {
+        "title": "Ric Edelman says crypto’s biggest growth story is happening off the price chart",
+        "url": "https://www.coindesk.com/markets/2026/06/22/ric-edelman-says-crypto-s-biggest-growth-story-is-happening-off-the-price-chart",
+        "source": "CoinDesk",
+        "weight": 0.9059,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "The Nasdaq Keeps Falling. The Rotation From Big Tech Continues.",
-        "url": "https://finance.yahoo.com/m/a16a0cdb-a5e1-36b6-8e89-56ddc14568dc/the-nasdaq-keeps-falling.-the.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.646,
-        "score": -1.0
-      },
-      {
-        "title": "'Reward for failure': Investor support for Target Chair Brian Cornell falls to lowest level ever",
-        "url": "https://www.cnbc.com/2026/06/22/target-brian-cornell-shareholder-support.html",
-        "source": "CNBC Markets",
-        "weight": 0.6597,
+        "title": "Vimeo Parent Bending Spoons, Backers Seek $1.62 Billion in IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-22/vimeo-parent-bending-spoons-backers-seek-1-62-billion-in-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.785,
         "score": -0.9333
       },
       {
-        "title": "SpaceX kicks off bond sale days after record IPO, discloses over $100 billion cash pile",
-        "url": "https://www.cnbc.com/2026/06/22/spacex-spcx-bond-sale-ipo.html",
-        "source": "CNBC Markets",
-        "weight": 0.7412,
-        "score": -0.6333
+        "title": "Dow Jones Futures: Tech Stocks Tumble As SpaceX Plunges; Amazon, Alphabet, Nvidia Sell Off",
+        "url": "https://finance.yahoo.com/m/f11416f8-c834-35f7-baf0-31b6803875a2/dow-jones-futures%3A-tech.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7461,
+        "score": -0.9667
+      },
+      {
+        "title": "ArrowMark Financial Corp. Releases Month End Estimated Net Asset Value as of May 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/arrowmark-financial-corp-releases-month-210000490.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7266,
+        "score": -0.9667
       }
     ],
     "market_movers": {
