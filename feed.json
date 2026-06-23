@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-23T11:24:08.071046+00:00",
+  "updated_at": "2026-06-23T15:15:37.155181+00:00",
   "indicators": {
-    "change24h": -0.051,
-    "vol": 0.269,
+    "change24h": -0.061,
+    "vol": 0.255,
     "fearGreed": 23,
-    "momentum": -0.895,
+    "momentum": -1.0,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3539,
-    "global_sentiment": 0.2838,
-    "combined_sentiment": 0.3724,
-    "confidence": 0.7505,
+    "crypto_sentiment": 0.2744,
+    "global_sentiment": 0.4706,
+    "combined_sentiment": 0.3283,
+    "confidence": 0.7652,
     "counts": {
-      "crypto": 42,
-      "global": 45
+      "crypto": 43,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 62473,
-      "btc_change_24h": -2.68,
-      "eth_price": 1659.68,
-      "eth_change_24h": -5.05,
+      "btc_price": 62276,
+      "btc_change_24h": -4.21,
+      "eth_price": 1654.96,
+      "eth_change_24h": -5.66,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.1,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 122952232935.0,
+        "volume_24h": 117985458109.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-06T10:11:54.698399+00:00",
-      "crypto": 0.2473,
-      "global": 0.3705,
-      "combined": 0.2997,
-      "counts": {
-        "crypto": 52,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-06-06T13:59:01.636010+00:00",
       "crypto": 0.2695,
@@ -1008,52 +998,62 @@
         "crypto": 42,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-06-23T15:15:37.155181+00:00",
+      "crypto": 0.2744,
+      "global": 0.4706,
+      "combined": 0.3283,
+      "counts": {
+        "crypto": 43,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "SpaceX stock climbs 2% after falling below $150 debut price",
+        "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html",
+        "source": "CNBC Markets",
+        "weight": 0.742,
+        "score": 1.0
+      },
+      {
         "title": "Ripple targets EU, wins preliminary MiCA approval from Luxembourg financial regulator",
         "url": "https://www.coindesk.com/policy/2026/06/23/ripple-targets-eu-wins-preliminary-mica-approval-from-luxembourg-financial-regulator",
         "source": "CoinDesk",
-        "weight": 0.8793,
+        "weight": 0.5631,
         "score": 0.9167
       },
       {
-        "title": "Ethereum breakaway developers turn a funding gap into a fight over who steers the network",
-        "url": "https://cryptoslate.com/ethereums-post-foundation-era-is-starting-with-an-eth-value-bet/",
-        "source": "CryptoSlate",
-        "weight": 0.571,
-        "score": 1.0
-      },
-      {
-        "title": "1 Services Stock to Target This Week and 2 Facing Headwinds",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-services-stock-target-week-081646236.html?.tsrc=rss",
+        "title": "ASML Holding N.V. (ASML) Reported Strong Returns in Q1",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-n-v-asml-140330804.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5577,
-        "score": 1.0
+        "weight": 0.6963,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Tech rout intensifies as sell-off grips global stocks",
-        "url": "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html",
-        "source": "CNBC Markets",
-        "weight": 0.7853,
+        "title": "The SEC delayed tokenizing stocks, and here’s why that’s a relief",
+        "url": "https://www.coindesk.com/opinion/2026/06/23/the-sec-delayed-tokenizing-stocks-and-here-s-why-that-s-a-relief",
+        "source": "CoinDesk",
+        "weight": 0.8674,
         "score": -0.9667
       },
       {
-        "title": "Which High Dividend ETF Is Better, Vanguard's VYM or Fidelity's FDVV?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/23/which-high-dividend-etf-is-better-vanguard-s-vym-or-fidelity-s-fdvv/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7831,
-        "score": -0.9667
+        "title": "Evercore’s Emanuel Says Earnings Will Rescue Tech From Selloff",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/evercore-s-emanuel-says-earnings-will-rescue-tech-from-selloff",
+        "source": "Bloomberg Markets",
+        "weight": 0.6473,
+        "score": -1.0
       },
       {
-        "title": "THORChain resumes trading more than a month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.6809,
+        "title": "Macklem Warns Over-Investment in US Poses Financial Risks",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/macklem-warns-over-investment-in-us-poses-global-financial-risks",
+        "source": "Bloomberg Markets",
+        "weight": 0.6466,
         "score": -1.0
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.44589593523227455,
-          "price_change_24h": -5.59823
+          "volume_mcap_ratio": 0.43555081096952586,
+          "price_change_24h": -6.45665
         }
       ],
       "momentum_shifts": []
