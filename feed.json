@@ -1,9 +1,9 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-23T15:15:37.155181+00:00",
+  "updated_at": "2026-06-23T18:04:51.892402+00:00",
   "indicators": {
-    "change24h": -0.061,
-    "vol": 0.255,
+    "change24h": -0.06,
+    "vol": 0.222,
     "fearGreed": 23,
     "momentum": -1.0,
     "regime": "bear",
@@ -11,22 +11,22 @@
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2744,
-    "global_sentiment": 0.4706,
-    "combined_sentiment": 0.3283,
-    "confidence": 0.7652,
+    "crypto_sentiment": 0.3086,
+    "global_sentiment": 0.4365,
+    "combined_sentiment": 0.3511,
+    "confidence": 0.7952,
     "counts": {
-      "crypto": 43,
-      "global": 44
+      "crypto": 46,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 62276,
-      "btc_change_24h": -4.21,
-      "eth_price": 1654.96,
-      "eth_change_24h": -5.66,
+      "btc_price": 62340,
+      "btc_change_24h": -3.52,
+      "eth_price": 1657.66,
+      "eth_change_24h": -4.85,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 23,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 117985458109.0,
+        "volume_24h": 116071414407.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-06T13:59:01.636010+00:00",
-      "crypto": 0.2695,
-      "global": 0.479,
-      "combined": 0.3254,
-      "counts": {
-        "crypto": 51,
-        "global": 45
-      }
-    },
     {
       "ts": "2026-06-06T17:20:41.642262+00:00",
       "crypto": 0.3314,
@@ -1008,61 +998,71 @@
         "crypto": 43,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-06-23T18:04:51.892402+00:00",
+      "crypto": 0.3086,
+      "global": 0.4365,
+      "combined": 0.3511,
+      "counts": {
+        "crypto": 46,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX stock climbs 2% after falling below $150 debut price",
+        "title": "SpaceX stock climbs 6%, rebounding from three-day losing streak",
         "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html",
         "source": "CNBC Markets",
-        "weight": 0.742,
+        "weight": 0.7158,
         "score": 1.0
+      },
+      {
+        "title": "Ethereum Foundation Cuts 20% of Workforce in 'Leaner' Reorganization",
+        "url": "https://decrypt.co/371864/ethereum-foundation-cuts-20-of-workforce-in-leaner-reorganization",
+        "source": "Decrypt",
+        "weight": 0.6185,
+        "score": 0.6667
       },
       {
         "title": "Ripple targets EU, wins preliminary MiCA approval from Luxembourg financial regulator",
         "url": "https://www.coindesk.com/policy/2026/06/23/ripple-targets-eu-wins-preliminary-mica-approval-from-luxembourg-financial-regulator",
         "source": "CoinDesk",
-        "weight": 0.5631,
+        "weight": 0.4065,
         "score": 0.9167
-      },
-      {
-        "title": "ASML Holding N.V. (ASML) Reported Strong Returns in Q1",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-n-v-asml-140330804.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6963,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "Meta is developing a prediction market app called ‘Arena’ as sector booms: NYT",
+        "url": "https://www.coindesk.com/markets/2026/06/23/meta-is-developing-a-prediction-market-app-called-arena-as-sector-booms-nyt",
+        "source": "CoinDesk",
+        "weight": 0.9803,
+        "score": -0.6333
+      },
+      {
+        "title": "Elizabeth Warren once said CBDCs have a “great promise” – Now she’s helping block it",
+        "url": "https://cryptoslate.com/elizabeth-warren-said-cbdcs-great-promise-shes-helping-block-it/",
+        "source": "CryptoSlate",
+        "weight": 0.6081,
+        "score": -1.0
+      },
+      {
         "title": "The SEC delayed tokenizing stocks, and here’s why that’s a relief",
         "url": "https://www.coindesk.com/opinion/2026/06/23/the-sec-delayed-tokenizing-stocks-and-here-s-why-that-s-a-relief",
         "source": "CoinDesk",
-        "weight": 0.8674,
+        "weight": 0.6262,
         "score": -0.9667
-      },
-      {
-        "title": "Evercore’s Emanuel Says Earnings Will Rescue Tech From Selloff",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-23/evercore-s-emanuel-says-earnings-will-rescue-tech-from-selloff",
-        "source": "Bloomberg Markets",
-        "weight": 0.6473,
-        "score": -1.0
-      },
-      {
-        "title": "Macklem Warns Over-Investment in US Poses Financial Risks",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-23/macklem-warns-over-investment-in-us-poses-global-financial-risks",
-        "source": "Bloomberg Markets",
-        "weight": 0.6466,
-        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.43555081096952586,
-          "price_change_24h": -6.45665
+          "volume_mcap_ratio": 0.42754944646961324,
+          "price_change_24h": -6.53352
         }
       ],
       "momentum_shifts": []
