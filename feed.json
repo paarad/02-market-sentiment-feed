@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-23T18:04:51.892402+00:00",
+  "updated_at": "2026-06-23T21:19:40.448189+00:00",
   "indicators": {
-    "change24h": -0.06,
-    "vol": 0.222,
+    "change24h": -0.055,
+    "vol": 0.163,
     "fearGreed": 23,
-    "momentum": -1.0,
+    "momentum": -0.96,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3086,
-    "global_sentiment": 0.4365,
-    "combined_sentiment": 0.3511,
-    "confidence": 0.7952,
+    "crypto_sentiment": 0.3204,
+    "global_sentiment": 0.4596,
+    "combined_sentiment": 0.362,
+    "confidence": 0.7916,
     "counts": {
-      "crypto": 46,
-      "global": 33
+      "crypto": 47,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 62340,
-      "btc_change_24h": -3.52,
-      "eth_price": 1657.66,
-      "eth_change_24h": -4.85,
+      "btc_price": 62425,
+      "btc_change_24h": -2.91,
+      "eth_price": 1663.09,
+      "eth_change_24h": -4.05,
       "market_regime": "bear",
       "regime_strength": 0.6,
       "market_breadth": 0.15,
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 116071414407.0,
+        "volume_24h": 114535311140.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-06T17:20:41.642262+00:00",
-      "crypto": 0.3314,
-      "global": 0.4426,
-      "combined": 0.3688,
-      "counts": {
-        "crypto": 67,
-        "global": 39
-      }
-    },
     {
       "ts": "2026-06-06T20:46:36.973111+00:00",
       "crypto": 0.3231,
@@ -1008,61 +998,71 @@
         "crypto": 46,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-06-23T21:19:40.448189+00:00",
+      "crypto": 0.3204,
+      "global": 0.4596,
+      "combined": 0.362,
+      "counts": {
+        "crypto": 47,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX stock climbs 6%, rebounding from three-day losing streak",
+        "title": "SpaceX closes nearly 1% higher, snapping three-day losing streak",
         "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html",
         "source": "CNBC Markets",
-        "weight": 0.7158,
+        "weight": 0.6941,
         "score": 1.0
       },
       {
-        "title": "Ethereum Foundation Cuts 20% of Workforce in 'Leaner' Reorganization",
-        "url": "https://decrypt.co/371864/ethereum-foundation-cuts-20-of-workforce-in-leaner-reorganization",
-        "source": "Decrypt",
-        "weight": 0.6185,
+        "title": "You Need $210,000 a Year to Join America’s Top 10%. Here’s Why That Number Keeps Rising.",
+        "url": "https://247wallst.com/personal-finance/2026/06/23/you-need-210000-a-year-to-join-americas-top-10-heres-why-that-number-keeps-rising/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7324,
         "score": 0.6667
       },
       {
-        "title": "Ripple targets EU, wins preliminary MiCA approval from Luxembourg financial regulator",
-        "url": "https://www.coindesk.com/policy/2026/06/23/ripple-targets-eu-wins-preliminary-mica-approval-from-luxembourg-financial-regulator",
-        "source": "CoinDesk",
-        "weight": 0.4065,
-        "score": 0.9167
+        "title": "Senate backs Iran war powers resolution as GOP pressure grows on Trump's deal to end war",
+        "url": "https://www.cnbc.com/2026/06/23/thune-congress-vote-trump-iran-deal.html",
+        "source": "CNBC Markets",
+        "weight": 0.7583,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "Meta is developing a prediction market app called ‘Arena’ as sector booms: NYT",
-        "url": "https://www.coindesk.com/markets/2026/06/23/meta-is-developing-a-prediction-market-app-called-arena-as-sector-booms-nyt",
-        "source": "CoinDesk",
-        "weight": 0.9803,
-        "score": -0.6333
-      },
-      {
-        "title": "Elizabeth Warren once said CBDCs have a “great promise” – Now she’s helping block it",
-        "url": "https://cryptoslate.com/elizabeth-warren-said-cbdcs-great-promise-shes-helping-block-it/",
+        "title": "Crypto users told to pull funds after Ethereum L2 bridge failure exposes rollup exit risk",
+        "url": "https://cryptoslate.com/crypto-users-told-to-pull-funds-after-bridge-failure-exposes-rollup-exit-risk/",
         "source": "CryptoSlate",
-        "weight": 0.6081,
+        "weight": 0.7368,
         "score": -1.0
       },
       {
-        "title": "The SEC delayed tokenizing stocks, and here’s why that’s a relief",
-        "url": "https://www.coindesk.com/opinion/2026/06/23/the-sec-delayed-tokenizing-stocks-and-here-s-why-that-s-a-relief",
-        "source": "CoinDesk",
-        "weight": 0.6262,
-        "score": -0.9667
+        "title": "Wall Street Buys Staples and Sells Chips, Sending Nasdaq Down 2%",
+        "url": "https://finance.yahoo.com/m/23785669-1315-3d75-8af4-ba144bb54784/wall-street-buys-staples-and.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6877,
+        "score": -1.0
+      },
+      {
+        "title": "Crypto’s Clarity Act Has a New Enemy: Catholic Leaders",
+        "url": "https://decrypt.co/371923/crypto-clarity-act-new-enemy-catholic-leaders",
+        "source": "Decrypt",
+        "weight": 0.8358,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.42754944646961324,
-          "price_change_24h": -6.53352
+          "volume_mcap_ratio": 0.41988754761800134,
+          "price_change_24h": -5.31545
         }
       ],
       "momentum_shifts": []
