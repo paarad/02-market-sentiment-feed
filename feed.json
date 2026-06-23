@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-22T22:08:51.404468+00:00",
+  "updated_at": "2026-06-23T04:08:06.955568+00:00",
   "indicators": {
     "change24h": 0.013,
-    "vol": 0.181,
-    "fearGreed": 20,
-    "momentum": 0.23,
+    "vol": 0.201,
+    "fearGreed": 23,
+    "momentum": 0.234,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4036,
-    "global_sentiment": 0.3268,
-    "combined_sentiment": 0.4132,
-    "confidence": 0.761,
+    "crypto_sentiment": 0.4149,
+    "global_sentiment": 0.3717,
+    "combined_sentiment": 0.4255,
+    "confidence": 0.7007,
     "counts": {
       "crypto": 39,
-      "global": 41
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 64258,
-      "btc_change_24h": 1.01,
-      "eth_price": 1731.89,
-      "eth_change_24h": 1.01,
+      "btc_price": 64004,
+      "btc_change_24h": 0.2,
+      "eth_price": 1728.84,
+      "eth_change_24h": -0.08,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "market_breadth": 0.6,
       "fear_greed": {
-        "value": 20,
+        "value": 23,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 114733270054.0,
+        "volume_24h": 103914688118.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.69,
+        "btc_dominance": 57.63,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-05T21:38:38.682068+00:00",
-      "crypto": 0.2993,
-      "global": 0.5267,
-      "combined": 0.3517,
-      "counts": {
-        "crypto": 52,
-        "global": 51
-      }
-    },
     {
       "ts": "2026-06-06T04:07:06.981701+00:00",
       "crypto": 0.3091,
@@ -1008,52 +998,62 @@
         "crypto": 39,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-23T04:08:06.955568+00:00",
+      "crypto": 0.4149,
+      "global": 0.3717,
+      "combined": 0.4255,
+      "counts": {
+        "crypto": 39,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Russell 2000 Closes Above 3000 Level. Smaller Stocks Crushed Big Tech Again.",
-        "url": "https://finance.yahoo.com/m/a52f02c8-4ecc-3c36-8346-83230586948f/russell-2000-closes-above.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.71,
+        "title": "Circle K Owner’s Fuel Profits Soar Despite Weak Demand in Europe",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/circle-k-owner-couche-tard-s-atd-gasoline-profits-surge-despite-drop-in-demand",
+        "source": "Bloomberg Markets",
+        "weight": 0.6766,
         "score": 0.6667
       },
       {
-        "title": "SpaceX stock tanks 16%, extending slump following post-IPO rally",
-        "url": "https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html",
-        "source": "CNBC Markets",
-        "weight": 0.6367,
-        "score": 0.5333
+        "title": "CR New Energy’s Record IPO Gets Strong Retail Demand in Shenzhen",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/cr-new-energy-s-record-ipo-gets-strong-retail-demand-in-shenzhen",
+        "source": "Bloomberg Markets",
+        "weight": 0.7094,
+        "score": 0.6333
       },
       {
-        "title": "Ric Edelman says crypto’s biggest growth story is happening off the price chart",
-        "url": "https://www.coindesk.com/markets/2026/06/22/ric-edelman-says-crypto-s-biggest-growth-story-is-happening-off-the-price-chart",
-        "source": "CoinDesk",
-        "weight": 0.8736,
-        "score": 0.3333
+        "title": "Korean Stocks Fall More Than 4% From Record High on Tech Selloff",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff",
+        "source": "Bloomberg Markets",
+        "weight": 0.6649,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Vimeo Parent Bending Spoons, Backers Seek $1.62 Billion in IPO",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-22/vimeo-parent-bending-spoons-backers-seek-1-62-billion-in-ipo",
+        "title": "SBP Group Eyes Innovation as It Shifts Beyond Generics",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-23/sbp-group-eyes-innovation-as-it-shifts-beyond-generics-video",
         "source": "Bloomberg Markets",
-        "weight": 0.757,
-        "score": -0.9333
+        "weight": 0.7642,
+        "score": -1.0
+      },
+      {
+        "title": "SK Hynix ETF’s Assets Soar to $17 Billion, Biggest in Hong Kong",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/hynix-etf-topples-hong-kong-tracker-fund-with-17-billion-assets",
+        "source": "Bloomberg Markets",
+        "weight": 0.6953,
+        "score": -0.9667
       },
       {
         "title": "Dow Jones Futures: Tech Stocks Tumble As SpaceX Plunges; Amazon, Alphabet, Nvidia Sell Off",
         "url": "https://finance.yahoo.com/m/f11416f8-c834-35f7-baf0-31b6803875a2/dow-jones-futures%3A-tech.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7195,
-        "score": -0.9667
-      },
-      {
-        "title": "ArrowMark Financial Corp. Releases Month End Estimated Net Asset Value as of May 2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/arrowmark-financial-corp-releases-month-210000490.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7007,
+        "weight": 0.6265,
         "score": -0.9667
       }
     ],
