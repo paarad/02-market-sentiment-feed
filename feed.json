@@ -1,31 +1,31 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-24T14:46:26.031191+00:00",
+  "updated_at": "2026-06-24T18:01:28.990169+00:00",
   "indicators": {
-    "change24h": 0.005,
-    "vol": 0.421,
+    "change24h": -0.047,
+    "vol": 0.256,
     "fearGreed": 17,
-    "momentum": 0.092,
+    "momentum": -0.829,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.332,
-    "global_sentiment": 0.4973,
-    "combined_sentiment": 0.3738,
-    "confidence": 0.7697,
+    "crypto_sentiment": 0.2533,
+    "global_sentiment": 0.4575,
+    "combined_sentiment": 0.3114,
+    "confidence": 0.7968,
     "counts": {
-      "crypto": 59,
-      "global": 42
+      "crypto": 45,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 61051,
-      "btc_change_24h": -2.28,
-      "eth_price": 1645.87,
-      "eth_change_24h": -0.92,
+      "btc_price": 59359,
+      "btc_change_24h": -4.78,
+      "eth_price": 1559.72,
+      "eth_change_24h": -5.91,
       "market_regime": "bear",
-      "regime_strength": 0.4,
+      "regime_strength": 0.6,
       "market_breadth": 0.15,
       "fear_greed": {
         "value": 17,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 100373293101.0,
+        "volume_24h": 128116688662.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.16,
+        "btc_dominance": 57.09,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-07T14:09:21.704740+00:00",
-      "crypto": 0.3997,
-      "global": 0.4672,
-      "combined": 0.4221,
-      "counts": {
-        "crypto": 54,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-06-07T17:24:52.974733+00:00",
       "crypto": 0.3378,
@@ -1008,53 +998,63 @@
         "crypto": 59,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-24T18:01:28.990169+00:00",
+      "crypto": 0.2533,
+      "global": 0.4575,
+      "combined": 0.3114,
+      "counts": {
+        "crypto": 45,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "SK Hynix Caps Come-From-Behind AI Success With US Stock Listing",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/sk-hynix-looks-to-raise-29-4-billion-with-new-us-lising",
+        "source": "Bloomberg Markets",
+        "weight": 0.259,
+        "score": 0.9667
+      },
+      {
         "title": "Wendy’s Soars 42% Following Viral Reddit Post",
         "url": "https://www.bloomberg.com/news/articles/2026-06-24/wendy-s-surges-37-as-post-rallies-memers-around-burger-chain",
         "source": "Bloomberg Markets",
-        "weight": 0.6632,
+        "weight": 0.4555,
         "score": 0.5333
       },
       {
-        "title": "Ethereum Foundation cuts 20% of staff as ETH sinks 44% YTD despite record usage",
-        "url": "https://cryptoslate.com/ethereum-foundation-cuts-20-of-staff-as-eth-sinks-44-ytd-despite-record-usage/",
-        "source": "CryptoSlate",
-        "weight": 0.4626,
-        "score": 0.6667
-      },
-      {
-        "title": "CoinDesk 20 performance update: Aave (AAVE) gains 5.9% as index moves higher",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/06/24/coindesk-20-performance-update-aave-aave-gains-5-9-as-index-moves-higher",
-        "source": "CoinDesk",
-        "weight": 0.8467,
+        "title": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal",
+        "url": "https://www.cnbc.com/2026/06/24/oil-tanker-strait-hormuz-iran-deal.html",
+        "source": "CNBC Markets",
+        "weight": 0.7196,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "DeFi TVL drops 39% in 2026 amid market downturn and record hack activity",
-        "url": "https://cointelegraph.com/news/defi-tvl-falls-39-2026-erases-45b-value?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.7525,
+        "title": "SecondFi loses $2.4 million in Cardano wallet exploit",
+        "url": "https://www.coindesk.com/business/2026/06/24/secondfi-loses-usd2-4-million-in-cardano-wallet-exploit-with-up-to-usd20-million-at-risk",
+        "source": "CoinDesk",
+        "weight": 0.7699,
         "score": -1.0
       },
       {
-        "title": "Democrats see midterm hope in reliably red Iowa as Trump approval ratings sag",
-        "url": "https://www.cnbc.com/2026/06/24/election-2026-iowa-trump-approval-democrats.html",
-        "source": "CNBC Markets",
-        "weight": 0.7307,
-        "score": -0.9333
+        "title": "Oil Slides to Pre-War Lows, Breaking Its Grip on Wall Street",
+        "url": "https://finance.yahoo.com/m/9a0f7043-7af5-31fb-aed9-9b80c0c7a2ab/oil-slides-to-pre-war-lows%2C.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7765,
+        "score": -0.9667
       },
       {
-        "title": "How memecoin marketing moved from online speculation to real-world risk",
-        "url": "https://cointelegraph.com/learn/pump-fun-go-bounty-memecoin-risks?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.7751,
-        "score": -0.8333
+        "title": "Sector Update: Energy",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-173232966.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7566,
+        "score": -0.9667
       }
     ],
     "market_movers": {
