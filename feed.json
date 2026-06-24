@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-24T04:11:19.792176+00:00",
+  "updated_at": "2026-06-24T10:56:57.849986+00:00",
   "indicators": {
-    "change24h": -0.053,
-    "vol": 0.154,
+    "change24h": 0.002,
+    "vol": 0.061,
     "fearGreed": 17,
-    "momentum": -0.921,
-    "regime": "bear",
+    "momentum": 0.03,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3199,
-    "global_sentiment": 0.3846,
-    "combined_sentiment": 0.3553,
-    "confidence": 0.7105,
+    "crypto_sentiment": 0.3783,
+    "global_sentiment": 0.4432,
+    "combined_sentiment": 0.404,
+    "confidence": 0.7061,
     "counts": {
-      "crypto": 45,
-      "global": 35
+      "crypto": 55,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 62577,
-      "btc_change_24h": -2.18,
-      "eth_price": 1662.84,
-      "eth_change_24h": -3.8,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "btc_price": 62407,
+      "btc_change_24h": 0.23,
+      "eth_price": 1662.57,
+      "eth_change_24h": 0.71,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 113006881234.0,
-        "high_activity_coins": 1
+        "volume_24h": 91360875241.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.57,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-07T04:43:32.346078+00:00",
-      "crypto": 0.403,
-      "global": 0.3968,
-      "combined": 0.4186,
-      "counts": {
-        "crypto": 69,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-06-07T10:33:17.015101+00:00",
       "crypto": 0.4294,
@@ -1008,63 +998,67 @@
         "crypto": 45,
         "global": 35
       }
+    },
+    {
+      "ts": "2026-06-24T10:56:57.849986+00:00",
+      "crypto": 0.3783,
+      "global": 0.4432,
+      "combined": 0.404,
+      "counts": {
+        "crypto": 55,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "AirPods Maker Luxshare Gauges Interest for $3 Billion Hong Kong Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/airpods-maker-luxshare-said-to-gauge-interest-for-3-billion-hong-kong-listing",
-        "source": "Bloomberg Markets",
-        "weight": 0.6745,
-        "score": 0.6333
-      },
-      {
-        "title": "Sanrio Shares Seesaw After Full-Year Forecast Beats Estimate",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/sanrio-shares-seesaw-after-full-year-forecast-beats-estimate",
-        "source": "Bloomberg Markets",
-        "weight": 0.5744,
+        "title": "Ethereum Foundation cuts 20% of staff as ETH sinks 44% YTD despite record usage",
+        "url": "https://cryptoslate.com/ethereum-foundation-cuts-20-of-staff-as-eth-sinks-44-ytd-despite-record-usage/",
+        "source": "CryptoSlate",
+        "weight": 0.7196,
         "score": 0.6667
       },
       {
-        "title": "SpaceX closes nearly 1% higher, snapping three-day losing streak",
-        "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html",
-        "source": "CNBC Markets",
-        "weight": 0.3142,
-        "score": 1.0
+        "title": "S.Korea chip giant SK hynix seeks $29 bn in Nasdaq listing: regulatory filing",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/korea-chip-giant-sk-hynix-095930760.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7162,
+        "score": 0.6333
+      },
+      {
+        "title": "SK Hynix Seeks $29 Billion With US Listing to Fund AI Boom",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/sk-hynix-looks-to-raise-29-4-billion-with-new-us-lising",
+        "source": "Bloomberg Markets",
+        "weight": 0.5866,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "$170M Ether longs liquidated as crypto market tumbles: Is ETH doomed?",
-        "url": "https://cointelegraph.com/markets/170m-ether-positions-liquidated-as-crypto-market-tumbles-is-eth-doomed?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.4837,
-        "score": -1.0
-      },
-      {
-        "title": "Gold Drops Below $4,100 as Tech Selloff, Inflation Hit Sentiment",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation",
-        "source": "Bloomberg Markets",
-        "weight": 0.4833,
-        "score": -1.0
-      },
-      {
-        "title": "Review & Preview: AI Jitters",
-        "url": "https://finance.yahoo.com/m/b6dedebc-86c9-3507-a6fb-d5726362de0a/review-%26-preview%3A-ai-jitters.html?.tsrc=rss",
+        "title": "3 Insurance Stocks We’re Skeptical Of",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-insurance-stocks-skeptical-084025831.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4884,
-        "score": -0.9667
+        "weight": 0.615,
+        "score": -1.0
+      },
+      {
+        "title": "Gold Pressured by Stronger Dollar, Rate-Hike Concerns",
+        "url": "https://finance.yahoo.com/m/09fa0d72-c96f-36e8-a9b1-ccf19fccdc6f/gold-pressured-by-stronger.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5971,
+        "score": -1.0
+      },
+      {
+        "title": "Stock Futures Rebound as Wall Street Reels From Brutal Tech Selloff",
+        "url": "https://finance.yahoo.com/m/e2ae77a8-af89-37df-9fb7-a436bb8b6ffa/stock-futures-rebound-as-wall.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7501,
+        "score": -0.6667
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "TAO",
-          "volume_mcap_ratio": 0.39029014897665065,
-          "price_change_24h": -2.5504
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
