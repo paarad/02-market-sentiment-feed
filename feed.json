@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-24T18:01:28.990169+00:00",
+  "updated_at": "2026-06-24T21:12:55.064777+00:00",
   "indicators": {
-    "change24h": -0.047,
-    "vol": 0.256,
+    "change24h": -0.034,
+    "vol": 0.107,
     "fearGreed": 17,
-    "momentum": -0.829,
+    "momentum": -0.596,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2533,
-    "global_sentiment": 0.4575,
-    "combined_sentiment": 0.3114,
-    "confidence": 0.7968,
+    "crypto_sentiment": 0.2673,
+    "global_sentiment": 0.4705,
+    "combined_sentiment": 0.323,
+    "confidence": 0.7819,
     "counts": {
       "crypto": 45,
-      "global": 46
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 59359,
-      "btc_change_24h": -4.78,
-      "eth_price": 1559.72,
-      "eth_change_24h": -5.91,
+      "btc_price": 60730,
+      "btc_change_24h": -2.73,
+      "eth_price": 1607.44,
+      "eth_change_24h": -3.33,
       "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "regime_strength": 0.4,
+      "market_breadth": 0.1,
       "fear_greed": {
         "value": 17,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128116688662.0,
-        "high_activity_coins": 0
+        "volume_24h": 146290584556.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.09,
+        "btc_dominance": 57.26,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-07T17:24:52.974733+00:00",
-      "crypto": 0.3378,
-      "global": 0.4523,
-      "combined": 0.3744,
-      "counts": {
-        "crypto": 54,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-06-07T20:52:45.912537+00:00",
       "crypto": 0.3046,
@@ -1008,57 +998,73 @@
         "crypto": 45,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-06-24T21:12:55.064777+00:00",
+      "crypto": 0.2673,
+      "global": 0.4705,
+      "combined": 0.323,
+      "counts": {
+        "crypto": 45,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SK Hynix Caps Come-From-Behind AI Success With US Stock Listing",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/sk-hynix-looks-to-raise-29-4-billion-with-new-us-lising",
-        "source": "Bloomberg Markets",
-        "weight": 0.259,
-        "score": 0.9667
-      },
-      {
-        "title": "Wendy’s Soars 42% Following Viral Reddit Post",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-24/wendy-s-surges-37-as-post-rallies-memers-around-burger-chain",
-        "source": "Bloomberg Markets",
-        "weight": 0.4555,
+        "title": "Upheaval at the Ethereum Foundation has some of crypto’s biggest names feeling bullish",
+        "url": "https://www.coindesk.com/tech/2026/06/24/upheaval-at-the-ethereum-foundation-has-some-of-crypto-s-biggest-names-feeling-bullish",
+        "source": "CoinDesk",
+        "weight": 0.8568,
         "score": 0.5333
       },
       {
-        "title": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal",
-        "url": "https://www.cnbc.com/2026/06/24/oil-tanker-strait-hormuz-iran-deal.html",
+        "title": "Micron stock jumps 12% as soaring prices from memory crunch lead to quadrupling of revenue",
+        "url": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
         "source": "CNBC Markets",
-        "weight": 0.7196,
-        "score": 0.3333
+        "weight": 0.7986,
+        "score": 0.5333
+      },
+      {
+        "title": "Dow Jones Futures Rise As Micron Jumps On Earnings, Lifting Sandisk, AI Stocks; Fed Inflation Data Due",
+        "url": "https://finance.yahoo.com/m/62ac79cc-8e88-3711-aacd-1efa7c03c79f/dow-jones-futures-rise-as.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7855,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "SecondFi loses $2.4 million in Cardano wallet exploit",
-        "url": "https://www.coindesk.com/business/2026/06/24/secondfi-loses-usd2-4-million-in-cardano-wallet-exploit-with-up-to-usd20-million-at-risk",
-        "source": "CoinDesk",
-        "weight": 0.7699,
-        "score": -1.0
-      },
-      {
-        "title": "Oil Slides to Pre-War Lows, Breaking Its Grip on Wall Street",
-        "url": "https://finance.yahoo.com/m/9a0f7043-7af5-31fb-aed9-9b80c0c7a2ab/oil-slides-to-pre-war-lows%2C.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7765,
+        "title": "FTX exec’s wife scheduled for November trial on campaign finance charges",
+        "url": "https://cointelegraph.com/news/ftx-exec-wife-november-trial-campaign-finance-charges?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.791,
         "score": -0.9667
       },
       {
-        "title": "Sector Update: Energy",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-173232966.html?.tsrc=rss",
+        "title": "Apollomics Receives Nasdaq Deficiency Notice Regarding Minimum Market Value Requirement and Updates Rights for Vebreltinib (APL-101) in Asia",
+        "url": "https://finance.yahoo.com/healthcare/articles/apollomics-receives-nasdaq-deficiency-notice-201500175.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7566,
+        "weight": 0.7156,
+        "score": -0.9333
+      },
+      {
+        "title": "Sector Update: Energy Stocks Decline Late Afternoon",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-afternoon-195210783.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6848,
         "score": -0.9667
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3270920533212211,
+          "price_change_24h": -0.02995
+        }
+      ],
       "momentum_shifts": []
     }
   },
