@@ -1,40 +1,40 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-23T21:46:18.788501+00:00",
+  "updated_at": "2026-06-24T04:11:19.792176+00:00",
   "indicators": {
-    "change24h": -0.047,
-    "vol": 0.141,
-    "fearGreed": 23,
-    "momentum": -0.815,
+    "change24h": -0.053,
+    "vol": 0.154,
+    "fearGreed": 17,
+    "momentum": -0.921,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3101,
-    "global_sentiment": 0.4298,
-    "combined_sentiment": 0.3517,
-    "confidence": 0.793,
+    "crypto_sentiment": 0.3199,
+    "global_sentiment": 0.3846,
+    "combined_sentiment": 0.3553,
+    "confidence": 0.7105,
     "counts": {
-      "crypto": 48,
-      "global": 42
+      "crypto": 45,
+      "global": 35
     },
     "market_indicators": {
-      "btc_price": 62541,
-      "btc_change_24h": -2.49,
-      "eth_price": 1664.85,
-      "eth_change_24h": -3.65,
+      "btc_price": 62577,
+      "btc_change_24h": -2.18,
+      "eth_price": 1662.84,
+      "eth_change_24h": -3.8,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "market_breadth": 0.1,
       "fear_greed": {
-        "value": 23,
+        "value": 17,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 115152616727.0,
+        "volume_24h": 113006881234.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-06T21:10:23.813971+00:00",
-      "crypto": 0.3223,
-      "global": 0.4225,
-      "combined": 0.3603,
-      "counts": {
-        "crypto": 54,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-06-07T04:43:32.346078+00:00",
       "crypto": 0.403,
@@ -1008,61 +998,71 @@
         "crypto": 48,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-24T04:11:19.792176+00:00",
+      "crypto": 0.3199,
+      "global": 0.3846,
+      "combined": 0.3553,
+      "counts": {
+        "crypto": 45,
+        "global": 35
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX closes nearly 1% higher, snapping three-day losing streak",
-        "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html",
-        "source": "CNBC Markets",
-        "weight": 0.6594,
-        "score": 1.0
+        "title": "AirPods Maker Luxshare Gauges Interest for $3 Billion Hong Kong Listing",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/airpods-maker-luxshare-said-to-gauge-interest-for-3-billion-hong-kong-listing",
+        "source": "Bloomberg Markets",
+        "weight": 0.6745,
+        "score": 0.6333
       },
       {
-        "title": "You Need $210,000 a Year to Join America’s Top 10%. Here’s Why That Number Keeps Rising.",
-        "url": "https://247wallst.com/personal-finance/2026/06/23/you-need-210000-a-year-to-join-americas-top-10-heres-why-that-number-keeps-rising/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6958,
+        "title": "Sanrio Shares Seesaw After Full-Year Forecast Beats Estimate",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/sanrio-shares-seesaw-after-full-year-forecast-beats-estimate",
+        "source": "Bloomberg Markets",
+        "weight": 0.5744,
         "score": 0.6667
       },
       {
-        "title": "Senate backs Iran war powers resolution as GOP pressure grows on Trump's deal to end war",
-        "url": "https://www.cnbc.com/2026/06/23/thune-congress-vote-trump-iran-deal.html",
+        "title": "SpaceX closes nearly 1% higher, snapping three-day losing streak",
+        "url": "https://www.cnbc.com/2026/06/23/spacex-stock-tech-sell-off.html",
         "source": "CNBC Markets",
-        "weight": 0.7204,
-        "score": 0.5833
+        "weight": 0.3142,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "Black-Market Peptides Fuel a Multibillion-Dollar Gold Rush",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-23/illegal-peptides-fuel-a-multibillion-dollar-gold-rush-video",
+        "title": "$170M Ether longs liquidated as crypto market tumbles: Is ETH doomed?",
+        "url": "https://cointelegraph.com/markets/170m-ether-positions-liquidated-as-crypto-market-tumbles-is-eth-doomed?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.4837,
+        "score": -1.0
+      },
+      {
+        "title": "Gold Drops Below $4,100 as Tech Selloff, Inflation Hit Sentiment",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation",
         "source": "Bloomberg Markets",
-        "weight": 0.7762,
+        "weight": 0.4833,
         "score": -1.0
       },
       {
-        "title": "Crypto users told to pull funds after Ethereum L2 bridge failure exposes rollup exit risk",
-        "url": "https://cryptoslate.com/crypto-users-told-to-pull-funds-after-bridge-failure-exposes-rollup-exit-risk/",
-        "source": "CryptoSlate",
-        "weight": 0.7,
-        "score": -1.0
-      },
-      {
-        "title": "Wall Street Buys Staples and Sells Chips, Sending Nasdaq Down 2%",
-        "url": "https://finance.yahoo.com/m/23785669-1315-3d75-8af4-ba144bb54784/wall-street-buys-staples-and.html?.tsrc=rss",
+        "title": "Review & Preview: AI Jitters",
+        "url": "https://finance.yahoo.com/m/b6dedebc-86c9-3507-a6fb-d5726362de0a/review-%26-preview%3A-ai-jitters.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6533,
-        "score": -1.0
+        "weight": 0.4884,
+        "score": -0.9667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "TAO",
-          "volume_mcap_ratio": 0.41839713056589295,
-          "price_change_24h": -4.6869
+          "volume_mcap_ratio": 0.39029014897665065,
+          "price_change_24h": -2.5504
         }
       ],
       "momentum_shifts": []
