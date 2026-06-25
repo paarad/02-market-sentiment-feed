@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-25T14:45:47.101977+00:00",
+  "updated_at": "2026-06-25T18:18:54.200541+00:00",
   "indicators": {
-    "change24h": -0.055,
-    "vol": 0.149,
+    "change24h": 0.019,
+    "vol": 0.24,
     "fearGreed": 12,
-    "momentum": -0.956,
-    "regime": "bear",
+    "momentum": 0.333,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3172,
-    "global_sentiment": 0.5636,
-    "combined_sentiment": 0.3682,
-    "confidence": 0.76,
+    "crypto_sentiment": 0.2763,
+    "global_sentiment": 0.5025,
+    "combined_sentiment": 0.3324,
+    "confidence": 0.7653,
     "counts": {
-      "crypto": 59,
-      "global": 43
+      "crypto": 41,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 59385,
-      "btc_change_24h": -2.7,
-      "eth_price": 1564.73,
-      "eth_change_24h": -4.9,
-      "market_regime": "bear",
-      "regime_strength": 0.6,
-      "market_breadth": 0.15,
+      "btc_price": 59377,
+      "btc_change_24h": -0.38,
+      "eth_price": 1564.97,
+      "eth_change_24h": -0.36,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 177846325733.0,
+        "volume_24h": 162320027436.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.14,
+        "btc_dominance": 57.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-08T18:29:25.334584+00:00",
-      "crypto": 0.437,
-      "global": 0.4592,
-      "combined": 0.4493,
-      "counts": {
-        "crypto": 44,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-08T21:27:50.301462+00:00",
       "crypto": 0.4555,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-06-25T18:18:54.200541+00:00",
+      "crypto": 0.2763,
+      "global": 0.5025,
+      "combined": 0.3324,
+      "counts": {
+        "crypto": 41,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "PCE Inflation Data, Falling Oil Prices Calm Fed Fears (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/896abac0-a8fa-3ccb-8e79-8e962cd85022/pce-inflation-data%2C-falling.html?.tsrc=rss",
+        "title": "Should You Buy Virtu Financial Stock Now? Key Factors to Consider",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/buy-virtu-financial-stock-now-165500247.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7585,
-        "score": 1.0
+        "weight": 0.6807,
+        "score": 0.8667
       },
       {
-        "title": "CoinDesk 20 performance update: AAVE gains 10.1% as index rises",
-        "url": "https://www.coindesk.com/coindesk-indices/2026/06/25/coindesk-20-performance-update-aave-gains-10-1-as-index-rises",
-        "source": "CoinDesk",
-        "weight": 0.8403,
+        "title": "3 Reasons to Avoid PII and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-pii-1-180950422.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7862,
         "score": 0.6667
       },
       {
-        "title": "US Premarket Movers for June 25, 2026",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-25/us-stock-futures-today-ars-bio-techne-micron-qualcomm-wendy-s",
-        "source": "Bloomberg Markets",
-        "weight": 0.5694,
+        "title": "Bitcoin Is Paying the Price for the End of the Dollar Debasement Trade",
+        "url": "https://finance.yahoo.com/m/63f57230-e7c5-3738-8313-e58448eb04d1/bitcoin-is-paying-the-price.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6029,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Europe’s defense stocks are sliding again. Here’s what’s worrying investors",
-        "url": "https://www.cnbc.com/2026/06/25/rheinmetall-defense-stocks-germany-f126.html",
-        "source": "CNBC Markets",
-        "weight": 0.6772,
-        "score": -0.9667
-      },
-      {
-        "title": "Bitcoin crash below $60,000 triggers $1 billion loss as markets now price Fed rate hike by October",
-        "url": "https://cryptoslate.com/bitcoin-crash-below-60000-triggers-1-billion-loss-as-markets-now-price-fed-rate-hike-by-october/",
+        "title": "Bitcoin’s bear market struggle is killing crypto jobs but fueling a $10 billion Wall Street-backed M&A boom",
+        "url": "https://cryptoslate.com/bitcoins-bear-market-struggle-is-killing-crypto-jobs-but-fueling-a-10-billion-wall-street-backed-ma-boom/",
         "source": "CryptoSlate",
-        "weight": 0.6486,
+        "weight": 0.6577,
         "score": -1.0
       },
       {
-        "title": "BofA’s Raedler Says Defensives Ready to Roar if AI Trade Falters",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-25/bofa-s-raedler-says-defensives-ready-to-roar-if-ai-trade-falters",
-        "source": "Bloomberg Markets",
-        "weight": 0.5425,
+        "title": "Vanguard Small-Cap Value vs iShares Russell 2000 Value: Which ETF Is the Better Buy Right Now?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/25/vanguard-small-cap-value-vs-ishares-russell-2000-value-which-etf-is-the-better-buy-right-now/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6327,
         "score": -0.9667
+      },
+      {
+        "title": "Bitcoin drop to $58K brings out bears: Is BTC’s next stop below $50K?",
+        "url": "https://cointelegraph.com/markets/bitcoin-under-60k-activates-multiple-setups-with-54k-btc-price-target?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.9348,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.4015997743269145,
-          "price_change_24h": 0.00161
+          "volume_mcap_ratio": 0.36334648433340255,
+          "price_change_24h": -0.00322
         }
       ],
       "momentum_shifts": []
