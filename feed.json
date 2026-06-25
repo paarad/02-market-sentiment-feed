@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-25T10:48:18.905530+00:00",
+  "updated_at": "2026-06-25T14:45:47.101977+00:00",
   "indicators": {
-    "change24h": -0.021,
-    "vol": 0.082,
+    "change24h": -0.055,
+    "vol": 0.149,
     "fearGreed": 12,
-    "momentum": -0.371,
+    "momentum": -0.956,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3141,
-    "global_sentiment": 0.4707,
-    "combined_sentiment": 0.3581,
-    "confidence": 0.7087,
+    "crypto_sentiment": 0.3172,
+    "global_sentiment": 0.5636,
+    "combined_sentiment": 0.3682,
+    "confidence": 0.76,
     "counts": {
-      "crypto": 62,
-      "global": 45
+      "crypto": 59,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 61267,
-      "btc_change_24h": -1.93,
-      "eth_price": 1633.22,
-      "eth_change_24h": -1.79,
+      "btc_price": 59385,
+      "btc_change_24h": -2.7,
+      "eth_price": 1564.73,
+      "eth_change_24h": -4.9,
       "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "regime_strength": 0.6,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 160031733612.0,
+        "volume_24h": 177846325733.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.41,
+        "btc_dominance": 57.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-08T12:39:08.305389+00:00",
-      "crypto": 0.3979,
-      "global": 0.4112,
-      "combined": 0.4161,
-      "counts": {
-        "crypto": 64,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-08T18:29:25.334584+00:00",
       "crypto": 0.437,
@@ -1008,52 +998,62 @@
         "crypto": 62,
         "global": 45
       }
+    },
+    {
+      "ts": "2026-06-25T14:45:47.101977+00:00",
+      "crypto": 0.3172,
+      "global": 0.5636,
+      "combined": 0.3682,
+      "counts": {
+        "crypto": 59,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Futures Surge as Micron Earnings Revive AI Trade",
-        "url": "https://finance.yahoo.com/m/4394e961-8725-3814-ab9b-ab76e8e0e166/stock-futures-surge-as-micron.html?.tsrc=rss",
+        "title": "PCE Inflation Data, Falling Oil Prices Calm Fed Fears (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/896abac0-a8fa-3ccb-8e79-8e962cd85022/pce-inflation-data%2C-falling.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6295,
+        "weight": 0.7585,
         "score": 1.0
       },
       {
-        "title": "Micron delivers blowout earnings, surges 16% and deals crypto bulls a blow",
-        "url": "https://www.coindesk.com/markets/2026/06/25/micron-delivers-blowout-earnings-surges-16-and-deals-crypto-bulls-a-blow",
+        "title": "CoinDesk 20 performance update: AAVE gains 10.1% as index rises",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/06/25/coindesk-20-performance-update-aave-gains-10-1-as-index-rises",
         "source": "CoinDesk",
-        "weight": 0.9145,
-        "score": 0.5333
+        "weight": 0.8403,
+        "score": 0.6667
       },
       {
-        "title": "US Stock Market Today S&P 500 Futures Edge Higher On Cooler Yields Data",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-market-today-p-080908518.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5888,
-        "score": 0.6667
+        "title": "US Premarket Movers for June 25, 2026",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/us-stock-futures-today-ars-bio-techne-micron-qualcomm-wendy-s",
+        "source": "Bloomberg Markets",
+        "weight": 0.5694,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "AI IPO Wealth Seen Bolstering Luxury Industry Hurt by Iran War",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-25/ai-ipo-wealth-seen-bolstering-luxury-industry-hurt-by-iran-war",
-        "source": "Bloomberg Markets",
-        "weight": 0.7289,
-        "score": -0.9333
-      },
-      {
-        "title": "Defense stocks slide again, as Germany’s naval U-turn shakes confidence in Europe’s rearmament boom",
+        "title": "Europe’s defense stocks are sliding again. Here’s what’s worrying investors",
         "url": "https://www.cnbc.com/2026/06/25/rheinmetall-defense-stocks-germany-f126.html",
         "source": "CNBC Markets",
-        "weight": 0.6643,
+        "weight": 0.6772,
         "score": -0.9667
       },
       {
-        "title": "On-chain data says Bitcoin price at $60k is cheap, but buyers are still nervous",
-        "url": "https://cryptoslate.com/on-chain-data-says-bitcoin-at-60k-is-cheap-but-buyers-are-still-nervous/",
+        "title": "Bitcoin crash below $60,000 triggers $1 billion loss as markets now price Fed rate hike by October",
+        "url": "https://cryptoslate.com/bitcoin-crash-below-60000-triggers-1-billion-loss-as-markets-now-price-fed-rate-hike-by-october/",
         "source": "CryptoSlate",
-        "weight": 0.6456,
+        "weight": 0.6486,
+        "score": -1.0
+      },
+      {
+        "title": "BofA’s Raedler Says Defensives Ready to Roar if AI Trade Falters",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/bofa-s-raedler-says-defensives-ready-to-roar-if-ai-trade-falters",
+        "source": "Bloomberg Markets",
+        "weight": 0.5425,
         "score": -0.9667
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3600511111440827,
-          "price_change_24h": -0.00295
+          "volume_mcap_ratio": 0.4015997743269145,
+          "price_change_24h": 0.00161
         }
       ],
       "momentum_shifts": []
