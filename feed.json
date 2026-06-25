@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-25T18:18:54.200541+00:00",
+  "updated_at": "2026-06-25T21:18:16.044918+00:00",
   "indicators": {
-    "change24h": 0.019,
-    "vol": 0.24,
+    "change24h": -0.013,
+    "vol": 0.245,
     "fearGreed": 12,
-    "momentum": 0.333,
-    "regime": "sideways",
+    "momentum": -0.233,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2763,
-    "global_sentiment": 0.5025,
-    "combined_sentiment": 0.3324,
-    "confidence": 0.7653,
+    "crypto_sentiment": 0.2907,
+    "global_sentiment": 0.5068,
+    "combined_sentiment": 0.3436,
+    "confidence": 0.7806,
     "counts": {
-      "crypto": 41,
-      "global": 47
+      "crypto": 44,
+      "global": 45
     },
     "market_indicators": {
-      "btc_price": 59377,
-      "btc_change_24h": -0.38,
-      "eth_price": 1564.97,
-      "eth_change_24h": -0.36,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.55,
+      "btc_price": 59503,
+      "btc_change_24h": -2.02,
+      "eth_price": 1561.65,
+      "eth_change_24h": -2.86,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 162320027436.0,
+        "volume_24h": 150628832764.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.06,
+        "btc_dominance": 57.16,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-08T21:27:50.301462+00:00",
-      "crypto": 0.4555,
-      "global": 0.3281,
-      "combined": 0.4523,
-      "counts": {
-        "crypto": 44,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-06-08T21:55:49.333990+00:00",
       "crypto": 0.4559,
@@ -1008,61 +998,71 @@
         "crypto": 41,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-06-25T21:18:16.044918+00:00",
+      "crypto": 0.2907,
+      "global": 0.5068,
+      "combined": 0.3436,
+      "counts": {
+        "crypto": 44,
+        "global": 45
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Should You Buy Virtu Financial Stock Now? Key Factors to Consider",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/buy-virtu-financial-stock-now-165500247.html?.tsrc=rss",
+        "title": "Dow Jones Futures: Stock Market Sends Mixed Signals; Micron's Gain Is Apple's Pain",
+        "url": "https://finance.yahoo.com/m/39030516-de91-329d-8d9d-9e91b632c186/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6807,
-        "score": 0.8667
+        "weight": 0.7758,
+        "score": 1.0
       },
       {
-        "title": "3 Reasons to Avoid PII and 1 Stock to Buy Instead",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-pii-1-180950422.html?.tsrc=rss",
+        "title": "Climb Global Solutions Appoints Peter Bell to its Board of Directors",
+        "url": "https://finance.yahoo.com/technology/articles/climb-global-solutions-appoints-peter-203000259.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7862,
-        "score": 0.6667
+        "weight": 0.729,
+        "score": 0.9667
       },
       {
-        "title": "Bitcoin Is Paying the Price for the End of the Dollar Debasement Trade",
-        "url": "https://finance.yahoo.com/m/63f57230-e7c5-3738-8313-e58448eb04d1/bitcoin-is-paying-the-price.html?.tsrc=rss",
+        "title": "3 Reasons USFD is Risky and 1 Stock to Buy Instead",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-usfd-risky-1-194550854.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6029,
+        "weight": 0.6696,
         "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin’s bear market struggle is killing crypto jobs but fueling a $10 billion Wall Street-backed M&A boom",
-        "url": "https://cryptoslate.com/bitcoins-bear-market-struggle-is-killing-crypto-jobs-but-fueling-a-10-billion-wall-street-backed-ma-boom/",
-        "source": "CryptoSlate",
-        "weight": 0.6577,
+        "title": "Bitcoin bounces off new 2026 price lows: Will US stock weakness push BTC lower?",
+        "url": "https://cointelegraph.com/markets/bitcoin-bounces-off-new-2026-price-lows-will-us-stock-weakness-push-btc-lower?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "source": "CoinTelegraph",
+        "weight": 0.9319,
+        "score": -0.8667
+      },
+      {
+        "title": "6-26-2025: AI Crosscurrents, Broadening Rally + Small Caps Rise",
+        "url": "https://finance.yahoo.com/video/6-26-2025-ai-crosscurrents-202324460.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7198,
         "score": -1.0
       },
       {
-        "title": "Vanguard Small-Cap Value vs iShares Russell 2000 Value: Which ETF Is the Better Buy Right Now?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/25/vanguard-small-cap-value-vs-ishares-russell-2000-value-which-etf-is-the-better-buy-right-now/?.tsrc=rss",
+        "title": "Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date June 15, 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-announces-mid-month-open-200500832.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6327,
+        "weight": 0.6947,
         "score": -0.9667
-      },
-      {
-        "title": "Bitcoin drop to $58K brings out bears: Is BTC’s next stop below $50K?",
-        "url": "https://cointelegraph.com/markets/bitcoin-under-60k-activates-multiple-setups-with-54k-btc-price-target?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-        "source": "CoinTelegraph",
-        "weight": 0.9348,
-        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.36334648433340255,
-          "price_change_24h": -0.00322
+          "volume_mcap_ratio": 0.34109010883171526,
+          "price_change_24h": -0.01698
         }
       ],
       "momentum_shifts": []
