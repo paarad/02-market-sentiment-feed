@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-26T04:18:01.122771+00:00",
+  "updated_at": "2026-06-26T10:56:14.083340+00:00",
   "indicators": {
-    "change24h": -0.008,
-    "vol": 0.251,
+    "change24h": -0.029,
+    "vol": 0.209,
     "fearGreed": 13,
-    "momentum": -0.144,
-    "regime": "sideways",
+    "momentum": -0.506,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2964,
-    "global_sentiment": 0.3519,
-    "combined_sentiment": 0.3349,
-    "confidence": 0.6854,
+    "crypto_sentiment": 0.3059,
+    "global_sentiment": 0.5131,
+    "combined_sentiment": 0.3555,
+    "confidence": 0.7217,
     "counts": {
-      "crypto": 42,
-      "global": 36
+      "crypto": 49,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 59871,
-      "btc_change_24h": -1.39,
-      "eth_price": 1553.72,
-      "eth_change_24h": -3.81,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.35,
+      "btc_price": 59286,
+      "btc_change_24h": -3.15,
+      "eth_price": 1545.95,
+      "eth_change_24h": -5.41,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 162868153665.0,
+        "volume_24h": 174052622504.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.28,
+        "btc_dominance": 57.06,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-09T11:23:17.684908+00:00",
-      "crypto": 0.3353,
-      "global": 0.3789,
-      "combined": 0.3664,
-      "counts": {
-        "crypto": 44,
-        "global": 44
-      }
-    },
     {
       "ts": "2026-06-09T15:22:30.987066+00:00",
       "crypto": 0.267,
@@ -1008,6 +998,16 @@
         "crypto": 42,
         "global": 36
       }
+    },
+    {
+      "ts": "2026-06-26T10:56:14.083340+00:00",
+      "crypto": 0.3059,
+      "global": 0.5131,
+      "combined": 0.3555,
+      "counts": {
+        "crypto": 49,
+        "global": 42
+      }
     }
   ],
   "drivers": {
@@ -1016,53 +1016,53 @@
         "title": "Dow Jones Futures Fall, Techs Tumble After Mixed Market Signals; What To Do Now",
         "url": "https://finance.yahoo.com/m/39030516-de91-329d-8d9d-9e91b632c186/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.786,
+        "weight": 0.7801,
         "score": 1.0
       },
       {
-        "title": "Apple Supplier Lingyi Rises in HK After $1.1 Billion Debut",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-25/apple-supplier-lingyi-set-for-hk-debut-after-1-1b-offering",
+        "title": "AI Is Splitting Tech Stocks Into Winners and Losers",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-26/ai-is-splitting-tech-stocks-into-winners-and-losers",
         "source": "Bloomberg Markets",
-        "weight": 0.4337,
-        "score": 0.6333
+        "weight": 0.7584,
+        "score": 0.5333
       },
       {
-        "title": "Hong Kong Dollar Hits 10-Month Low as Fed View Buoys Greenback",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-26/hong-kong-dollar-hits-10-month-low-as-fed-view-buoys-greenback",
-        "source": "Bloomberg Markets",
-        "weight": 0.6746,
-        "score": 0.3333
+        "title": "3 Consumer Stocks with Warning Signs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-warning-signs-081625468.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5881,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Korean Stocks Tumble 9% on Chip Selloff, Triggers Trading Halt",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-26/korean-stocks-slump-6-as-chipmakers-hit-by-renewed-sellolff",
-        "source": "Bloomberg Markets",
-        "weight": 0.6662,
-        "score": -1.0
+        "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
+        "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
+        "source": "CoinDesk",
+        "weight": 0.9315,
+        "score": -0.6333
       },
       {
-        "title": "SoftBank sinks 12% as Asia tech rout tracks declines in the U.S.",
-        "url": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html",
-        "source": "CNBC Markets",
-        "weight": 0.5783,
-        "score": -1.0
+        "title": "European Gas Prices Fluctuate as Traders Monitor Hormuz Risk",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/european-natural-gas-edges-higher-as-traders-monitor-hormuz-risk",
+        "source": "Bloomberg Markets",
+        "weight": 0.486,
+        "score": -0.9667
       },
       {
-        "title": "Aluminum Heads for Fourth Weekly Drop on Mideast Supply Return",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-26/aluminum-heads-for-fourth-weekly-drop-on-mideast-supply-return",
-        "source": "Bloomberg Markets",
-        "weight": 0.7292,
-        "score": -0.6667
+        "title": "Fear & Greed 13 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3737244949388113,
-          "price_change_24h": 0.00808
+          "volume_mcap_ratio": 0.38654050891121494,
+          "price_change_24h": -0.02031
         }
       ],
       "momentum_shifts": []
