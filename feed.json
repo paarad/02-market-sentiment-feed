@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-26T10:56:14.083340+00:00",
+  "updated_at": "2026-06-26T14:38:31.012307+00:00",
   "indicators": {
-    "change24h": -0.029,
-    "vol": 0.209,
+    "change24h": 0.02,
+    "vol": 0.147,
     "fearGreed": 13,
-    "momentum": -0.506,
-    "regime": "bear",
+    "momentum": 0.352,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3059,
-    "global_sentiment": 0.5131,
-    "combined_sentiment": 0.3555,
-    "confidence": 0.7217,
+    "crypto_sentiment": 0.317,
+    "global_sentiment": 0.3862,
+    "combined_sentiment": 0.3532,
+    "confidence": 0.7236,
     "counts": {
-      "crypto": 49,
-      "global": 42
+      "crypto": 58,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 59286,
-      "btc_change_24h": -3.15,
-      "eth_price": 1545.95,
-      "eth_change_24h": -5.41,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.15,
+      "btc_price": 59589,
+      "btc_change_24h": -0.07,
+      "eth_price": 1557.24,
+      "eth_change_24h": -0.74,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 174052622504.0,
+        "volume_24h": 159170176969.0,
         "high_activity_coins": 1
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-09T15:22:30.987066+00:00",
-      "crypto": 0.267,
-      "global": 0.4642,
-      "combined": 0.3222,
-      "counts": {
-        "crypto": 40,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-06-09T18:13:33.889152+00:00",
       "crypto": 0.2762,
@@ -1008,61 +998,71 @@
         "crypto": 49,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-06-26T14:38:31.012307+00:00",
+      "crypto": 0.317,
+      "global": 0.3862,
+      "combined": 0.3532,
+      "counts": {
+        "crypto": 58,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures Fall, Techs Tumble After Mixed Market Signals; What To Do Now",
-        "url": "https://finance.yahoo.com/m/39030516-de91-329d-8d9d-9e91b632c186/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7801,
+        "title": "Leverage Surge Amplifying Downside Market Moves, NewEdge CIO Dawson Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-26/leverage-surge-amplifying-downside-moves-cameron-dawson-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5468,
         "score": 1.0
       },
       {
-        "title": "AI Is Splitting Tech Stocks Into Winners and Losers",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-06-26/ai-is-splitting-tech-stocks-into-winners-and-losers",
-        "source": "Bloomberg Markets",
-        "weight": 0.7584,
-        "score": 0.5333
+        "title": "CoinDesk 20 performance update: AAVE jumps 8.9%, leading index higher",
+        "url": "https://www.coindesk.com/coindesk-indices/2026/06/26/coindesk-20-performance-update-aave-jumps-8-9-leading-index-higher",
+        "source": "CoinDesk",
+        "weight": 0.8635,
+        "score": 0.3333
       },
       {
-        "title": "3 Consumer Stocks with Warning Signs",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-warning-signs-081625468.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5881,
-        "score": 0.6667
+        "title": "Jeremy Grantham says this is 'the most expensive market in 'American history'",
+        "url": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
+        "source": "CNBC Markets",
+        "weight": 0.7963,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Binance tells EU users it will no longer provide services after failing to secure MiCA license",
-        "url": "https://www.coindesk.com/policy/2026/06/26/binance-tells-eu-users-it-will-no-longer-provide-services-after-failing-to-secure-mica-license",
-        "source": "CoinDesk",
-        "weight": 0.9315,
-        "score": -0.6333
-      },
-      {
-        "title": "European Gas Prices Fluctuate as Traders Monitor Hormuz Risk",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-26/european-natural-gas-edges-higher-as-traders-monitor-hormuz-risk",
+        "title": "Oil Heads for Weekly Decline Despite Hormuz Ship Attack",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-26/oil-heads-for-weekly-decline-despite-hormuz-ship-attack-video",
         "source": "Bloomberg Markets",
-        "weight": 0.486,
-        "score": -0.9667
+        "weight": 0.7764,
+        "score": -0.6667
       },
       {
-        "title": "Fear & Greed 13 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
+        "title": "Oil Prices Might Keep Falling Into 2027, Strategist Amoroso Says",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-26/oil-may-keep-falling-into-2027-strategist-amoroso-says-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7167,
+        "score": -0.6667
+      },
+      {
+        "title": "Chips Are Falling. The Rest of the Market Is Still Cruising",
+        "url": "https://finance.yahoo.com/m/936fab8d-ef1e-3322-a6ae-f791bd41e728/chips-are-falling.-the-rest.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7468,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.38654050891121494,
-          "price_change_24h": -0.02031
+          "volume_mcap_ratio": 0.3498566083811437,
+          "price_change_24h": 0.00266
         }
       ],
       "momentum_shifts": []
