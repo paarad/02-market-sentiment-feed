@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-26T17:56:33.358522+00:00",
+  "updated_at": "2026-06-26T21:09:31.651816+00:00",
   "indicators": {
-    "change24h": 0.022,
-    "vol": 0.155,
+    "change24h": 0.029,
+    "vol": 0.17,
     "fearGreed": 13,
-    "momentum": 0.386,
+    "momentum": 0.506,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3274,
-    "global_sentiment": 0.4354,
-    "combined_sentiment": 0.3652,
-    "confidence": 0.765,
+    "crypto_sentiment": 0.2714,
+    "global_sentiment": 0.4084,
+    "combined_sentiment": 0.3209,
+    "confidence": 0.7759,
     "counts": {
-      "crypto": 59,
-      "global": 34
+      "crypto": 47,
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 59938,
-      "btc_change_24h": 0.68,
-      "eth_price": 1580.19,
-      "eth_change_24h": 0.56,
+      "btc_price": 59634,
+      "btc_change_24h": 0.32,
+      "eth_price": 1567.87,
+      "eth_change_24h": 0.46,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.65,
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 13,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 153411880876.0,
-        "high_activity_coins": 1
+        "volume_24h": 151678609087.0,
+        "high_activity_coins": 2
       },
       "dominance": {
-        "btc_dominance": 57.02,
+        "btc_dominance": 57.0,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-09T21:24:54.285206+00:00",
-      "crypto": 0.276,
-      "global": 0.3928,
-      "combined": 0.323,
-      "counts": {
-        "crypto": 39,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-09T21:53:24.708268+00:00",
       "crypto": 0.2757,
@@ -1008,61 +998,76 @@
         "crypto": 59,
         "global": 34
       }
+    },
+    {
+      "ts": "2026-06-26T21:09:31.651816+00:00",
+      "crypto": 0.2714,
+      "global": 0.4084,
+      "combined": 0.3209,
+      "counts": {
+        "crypto": 47,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "3 Consumer Stocks That Fall Short",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-stocks-fall-short-163225171.html?.tsrc=rss",
+        "title": "Breakout Watch: This Firm Helps Nvidia, TSM And Intel Bring AI Ideas To Market",
+        "url": "https://finance.yahoo.com/m/4502cac3-1011-334f-a373-0fc7ac8d7481/breakout-watch%3A-this-firm.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6804,
-        "score": 0.7
+        "weight": 0.7042,
+        "score": 0.5333
       },
       {
         "title": "Strategy's Saylor Acknowledges 'Volatility Test' as STRC Hits New Low on Bitcoin Weakness",
         "url": "https://decrypt.co/372189/strategy-saylor-volatility-test-strc-new-low-bitcoin-weakness",
         "source": "Decrypt",
-        "weight": 0.6457,
+        "weight": 0.4453,
         "score": 0.6667
       },
       {
-        "title": "SocGen Raises S&P 500 Target Again",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/socgen-raises-p-500-target-172538237.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7538,
-        "score": 0.5333
+        "title": "Former Ethereum Foundation leader warns of funding gap as governance shifts",
+        "url": "https://www.coindesk.com/markets/2026/06/26/former-ethereum-foundation-leader-warns-of-funding-gap-as-governance-shifts",
+        "source": "CoinDesk",
+        "weight": 0.7467,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "SEC, CFTC seek input on unified portfolio margin rules across securities and derivatives",
-        "url": "https://cointelegraph.com/news/sec-cftc-portfolio-margin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7802,
+        "title": "Linux Foundation, Tech Giants Launch Akrites to Defend Open Source Against AI-Powered Attacks",
+        "url": "https://decrypt.co/372244/linux-foundation-tech-giants-akrites-defend-open-source-ai-attacks",
+        "source": "Decrypt",
+        "weight": 0.6932,
         "score": -0.9667
       },
       {
-        "title": "Meta's flurry of AI initiatives this month hasn't helped lift the stock. What will?",
-        "url": "https://www.cnbc.com/2026/06/26/metas-flurry-of-ai-initiatives-this-month-hasnt-helped-lift-the-stock-what-will.html",
-        "source": "CNBC Markets",
-        "weight": 0.7826,
-        "score": -0.9333
+        "title": "SEC, CFTC seek input on unified portfolio margin rules across securities and derivatives",
+        "url": "https://cointelegraph.com/news/sec-cftc-portfolio-margin-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5381,
+        "score": -0.9667
       },
       {
-        "title": "US senators push to end CFTC ‘assault’ on state oversight of prediction markets",
-        "url": "https://cointelegraph.com/news/us-senators-cftc-assault-state-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6524,
-        "score": -0.7333
+        "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
+        "url": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
+        "source": "Decrypt",
+        "weight": 0.8151,
+        "score": -0.6333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3384836890796455,
-          "price_change_24h": 0.002
+          "volume_mcap_ratio": 0.33621743129851434,
+          "price_change_24h": 0.01251
+        },
+        {
+          "symbol": "USD1",
+          "volume_mcap_ratio": 0.3108467097852297,
+          "price_change_24h": 0.04787
         }
       ],
       "momentum_shifts": []
