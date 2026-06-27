@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-26T21:24:18.325673+00:00",
+  "updated_at": "2026-06-27T04:04:46.018413+00:00",
   "indicators": {
     "change24h": 0.027,
-    "vol": 0.163,
-    "fearGreed": 13,
-    "momentum": 0.474,
+    "vol": 0.154,
+    "fearGreed": 15,
+    "momentum": 0.465,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3037,
-    "global_sentiment": 0.4241,
-    "combined_sentiment": 0.3464,
-    "confidence": 0.7284,
+    "crypto_sentiment": 0.3565,
+    "global_sentiment": 0.431,
+    "combined_sentiment": 0.3866,
+    "confidence": 0.6936,
     "counts": {
-      "crypto": 27,
-      "global": 40
+      "crypto": 62,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 59724,
-      "btc_change_24h": 0.37,
-      "eth_price": 1571.7,
-      "eth_change_24h": 0.65,
+      "btc_price": 60252,
+      "btc_change_24h": 0.75,
+      "eth_price": 1579.62,
+      "eth_change_24h": 1.77,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
-        "value": 13,
+        "value": 15,
         "classification": "Extreme Fear",
         "trend": "declining"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 152345603556.0,
-        "high_activity_coins": 2
+        "volume_24h": 131679059334.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.02,
+        "btc_dominance": 57.14,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-10T04:21:51.587320+00:00",
-      "crypto": 0.2446,
-      "global": 0.4367,
-      "combined": 0.3032,
-      "counts": {
-        "crypto": 40,
-        "global": 37
-      }
-    },
     {
       "ts": "2026-06-10T11:43:36.200976+00:00",
       "crypto": 0.2936,
@@ -1008,68 +998,67 @@
         "crypto": 27,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-06-27T04:04:46.018413+00:00",
+      "crypto": 0.3565,
+      "global": 0.431,
+      "combined": 0.3866,
+      "counts": {
+        "crypto": 62,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "TNL Mediagene Receives Nasdaq Delisting Determination and Plans to Request Hearing",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tnl-mediagene-receives-nasdaq-delisting-210000448.html?.tsrc=rss",
+        "title": "SpaceX set to join Nasdaq 100, paving way for wave of passive buying",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/spacex-set-join-nasdaq-100-001521435.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7634,
-        "score": 0.6333
+        "weight": 0.5143,
+        "score": 1.0
       },
       {
-        "title": "Breakout Watch: This Firm Helps Nvidia, TSM And Intel Bring AI Ideas To Market",
-        "url": "https://finance.yahoo.com/m/4502cac3-1011-334f-a373-0fc7ac8d7481/breakout-watch%3A-this-firm.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6845,
+        "title": "SOL reclaims $72, but onchain data flags weakening momentum",
+        "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8281,
         "score": 0.5333
       },
       {
-        "title": "Strategy's Saylor Acknowledges 'Volatility Test' as STRC Hits New Low on Bitcoin Weakness",
-        "url": "https://decrypt.co/372189/strategy-saylor-volatility-test-strc-new-low-bitcoin-weakness",
-        "source": "Decrypt",
-        "weight": 0.4329,
-        "score": 0.6667
+        "title": "How Investors Are Reacting To Cboe Global Markets (CBOE) Launching XSP Binary Options Prediction Suite",
+        "url": "https://finance.yahoo.com/markets/options/articles/investors-reacting-cboe-global-markets-020625255.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.637,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Linux Foundation, Tech Giants Launch Akrites to Defend Open Source Against AI-Powered Attacks",
-        "url": "https://decrypt.co/372244/linux-foundation-tech-giants-akrites-defend-open-source-ai-attacks",
-        "source": "Decrypt",
-        "weight": 0.6738,
-        "score": -0.9667
+        "title": "Fear & Greed 15 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
-        "url": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
-        "source": "Decrypt",
-        "weight": 0.7922,
-        "score": -0.6333
-      },
-      {
-        "title": "Rotation Continues As Security Software Stocks Make Comeback",
-        "url": "https://finance.yahoo.com/m/386f12a8-9883-3afe-8fdd-32e89f80c3d8/rotation-continues-as.html?.tsrc=rss",
+        "title": "Enphase Just Found A New Story To Tell",
+        "url": "https://www.trefis.com/articles/603812/enphase-just-found-a-new-story-to-tell/2026-06-26?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7263,
+        "weight": 0.6574,
         "score": -0.6333
+      },
+      {
+        "title": "Alternative Soda Brands Taking Over Beverage Markets",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-26/alternative-soda-brands-taking-over-beverage-markets-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.3735,
+        "score": -0.9333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.33672864441304684,
-          "price_change_24h": 0.02649
-        },
-        {
-          "symbol": "USD1",
-          "volume_mcap_ratio": 0.3111873371338224,
-          "price_change_24h": 0.02141
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
