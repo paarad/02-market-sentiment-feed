@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-27T04:04:46.018413+00:00",
+  "updated_at": "2026-06-27T10:16:09.439496+00:00",
   "indicators": {
-    "change24h": 0.027,
-    "vol": 0.154,
+    "change24h": 0.017,
+    "vol": 0.089,
     "fearGreed": 15,
-    "momentum": 0.465,
+    "momentum": 0.304,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3565,
-    "global_sentiment": 0.431,
-    "combined_sentiment": 0.3866,
-    "confidence": 0.6936,
+    "crypto_sentiment": 0.4139,
+    "global_sentiment": 0.4156,
+    "combined_sentiment": 0.4284,
+    "confidence": 0.6802,
     "counts": {
-      "crypto": 62,
-      "global": 32
+      "crypto": 51,
+      "global": 33
     },
     "market_indicators": {
-      "btc_price": 60252,
-      "btc_change_24h": 0.75,
-      "eth_price": 1579.62,
-      "eth_change_24h": 1.77,
+      "btc_price": 60375,
+      "btc_change_24h": 1.12,
+      "eth_price": 1581.38,
+      "eth_change_24h": 1.94,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.75,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 131679059334.0,
+        "volume_24h": 108416709082.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.14,
+        "btc_dominance": 57.23,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-10T11:43:36.200976+00:00",
-      "crypto": 0.2936,
-      "global": 0.5086,
-      "combined": 0.3459,
-      "counts": {
-        "crypto": 46,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-06-10T15:54:28.568898+00:00",
       "crypto": 0.3589,
@@ -1008,53 +998,63 @@
         "crypto": 62,
         "global": 32
       }
+    },
+    {
+      "ts": "2026-06-27T10:16:09.439496+00:00",
+      "crypto": 0.4139,
+      "global": 0.4156,
+      "combined": 0.4284,
+      "counts": {
+        "crypto": 51,
+        "global": 33
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SpaceX set to join Nasdaq 100, paving way for wave of passive buying",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/spacex-set-join-nasdaq-100-001521435.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.5143,
-        "score": 1.0
-      },
-      {
-        "title": "SOL reclaims $72, but onchain data flags weakening momentum",
-        "url": "https://cointelegraph.com/markets/sol-reclaims-72-but-onchain-data-flags-weakening-momentum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.8281,
+        "title": "Global crypto market cap up 1.7% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "How Investors Are Reacting To Cboe Global Markets (CBOE) Launching XSP Binary Options Prediction Suite",
-        "url": "https://finance.yahoo.com/markets/options/articles/investors-reacting-cboe-global-markets-020625255.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.637,
-        "score": 0.6333
+        "title": "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto",
+        "url": "https://www.coindesk.com/markets/2026/06/27/ripple-ceo-stays-bullish-on-bitcoin-but-says-saylor-s-strategy-has-hurt-crypto",
+        "source": "CoinDesk",
+        "weight": 0.7673,
+        "score": 0.5333
+      },
+      {
+        "title": "Africa CDC Calls for More Ebola Funding",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-27/africa-cdc-calls-for-more-ebola-funding-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.4376,
+        "score": 0.6667
       }
     ],
     "negative": [
+      {
+        "title": "Bangladesh Gets $1 Billion World Bank Fertilizer, Food Loans",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/bangladesh-gets-1-billion-world-bank-fertilizer-food-loans",
+        "source": "Bloomberg Markets",
+        "weight": 0.663,
+        "score": -0.9667
+      },
+      {
+        "title": "Outdated bank rules may keep crypto outside the banks now allowed to hold it",
+        "url": "https://cryptoslate.com/outdated-bank-rules-may-keep-crypto-outside-the-banks-now-allowed-to-hold-it/",
+        "source": "CryptoSlate",
+        "weight": 0.4581,
+        "score": -1.0
+      },
       {
         "title": "Fear & Greed 15 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Enphase Just Found A New Story To Tell",
-        "url": "https://www.trefis.com/articles/603812/enphase-just-found-a-new-story-to-tell/2026-06-26?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6574,
-        "score": -0.6333
-      },
-      {
-        "title": "Alternative Soda Brands Taking Over Beverage Markets",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-26/alternative-soda-brands-taking-over-beverage-markets-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.3735,
-        "score": -0.9333
       }
     ],
     "market_movers": {
