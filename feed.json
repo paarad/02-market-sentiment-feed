@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-27T17:17:55.021303+00:00",
+  "updated_at": "2026-06-27T20:43:43.140771+00:00",
   "indicators": {
-    "change24h": -0.006,
-    "vol": 0.075,
+    "change24h": -0.008,
+    "vol": 0.105,
     "fearGreed": 15,
-    "momentum": -0.102,
+    "momentum": -0.134,
     "regime": "sideways",
     "activity": 0.6,
-    "dominance": "btc"
+    "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2992,
-    "global_sentiment": 0.392,
-    "combined_sentiment": 0.3404,
-    "confidence": 0.6853,
+    "crypto_sentiment": 0.305,
+    "global_sentiment": 0.3843,
+    "combined_sentiment": 0.3441,
+    "confidence": 0.6832,
     "counts": {
       "crypto": 50,
-      "global": 41
+      "global": 40
     },
     "market_indicators": {
-      "btc_price": 60429,
-      "btc_change_24h": 0.73,
-      "eth_price": 1592.42,
-      "eth_change_24h": 0.65,
+      "btc_price": 60181,
+      "btc_change_24h": 1.02,
+      "eth_price": 1579.29,
+      "eth_change_24h": 0.76,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "market_breadth": 0.45,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 71799583389.0,
+        "volume_24h": 62393993779.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.21,
-        "alt_season_score": 0.0,
-        "season": "btc_dominance"
+        "btc_dominance": 0,
+        "alt_season_score": 0,
+        "season": "unknown"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-10T21:46:32.457975+00:00",
-      "crypto": 0.3145,
-      "global": 0.4688,
-      "combined": 0.3583,
-      "counts": {
-        "crypto": 63,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-06-10T22:10:02.123607+00:00",
       "crypto": 0.3066,
@@ -1008,53 +998,63 @@
         "crypto": 50,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-06-27T20:43:43.140771+00:00",
+      "crypto": 0.305,
+      "global": 0.3843,
+      "combined": 0.3441,
+      "counts": {
+        "crypto": 50,
+        "global": 40
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "DCG-backed Yuma launches fund offering institutional exposure to Bittensor",
+        "url": "https://cointelegraph.com/news/yuma-bittensor-fund-institutional-tao-decentralized-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.5832,
+        "score": 0.6667
+      },
+      {
         "title": "Bank of America resets Micron stock price target after earnings",
         "url": "https://www.thestreet.com/investing/stocks/bank-of-america-raises-micron-stock-price-target-after-earnings?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.5869,
+        "weight": 0.3949,
         "score": 0.6667
       },
       {
         "title": "Eli Lilly Leads 5 Stocks Near Buy Points As The Market Rally Rotates",
         "url": "https://finance.yahoo.com/m/9b394fd4-1738-3c9f-a781-d07c4935a3c6/eli-lilly-leads-5-stocks-near.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4342,
+        "weight": 0.2922,
         "score": 0.8667
-      },
-      {
-        "title": "Brutal Heat Wave Scorches Europe, Raising Climate Inflation Concerns",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-27/brutal-heat-wave-scorches-europe-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.4534,
-        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Polymarket hack updated to $3.1 million days after the platform promised users full refunds",
-        "url": "https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds",
-        "source": "CoinDesk",
-        "weight": 0.7009,
-        "score": -0.7333
-      },
-      {
-        "title": "Vanguard Total Bond Market ETF Tops iShares 3-7 Year Treasury Bond ETF on Yield and Cost. Does That make BND a Buy?",
-        "url": "https://www.fool.com/coverage/etfs/2026/06/27/vanguard-total-bond-market-etf-tops-ishares-3-7-year-treasury-bond-etf-on-yield-and-cost-does-that-make-bnd-a-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7017,
+        "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
+        "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.8293,
         "score": -0.6667
       },
       {
-        "title": "Coinbase and OKX try to lure in Binance’s EU users after it failed to secure a MiCA license",
-        "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license",
-        "source": "CoinDesk",
-        "weight": 0.6988,
-        "score": -0.6333
+        "title": "Fear & Greed 15 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "The UK softened stablecoin rules, but may still be capping its own market",
+        "url": "https://cryptoslate.com/the-uk-softened-stablecoin-rules-but-may-still-be-capping-its-own-market/",
+        "source": "CryptoSlate",
+        "weight": 0.5748,
+        "score": -0.6667
       }
     ],
     "market_movers": {
