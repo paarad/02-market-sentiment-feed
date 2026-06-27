@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-27T13:57:36.295718+00:00",
+  "updated_at": "2026-06-27T17:17:55.021303+00:00",
   "indicators": {
-    "change24h": 0.019,
-    "vol": 0.072,
+    "change24h": -0.006,
+    "vol": 0.075,
     "fearGreed": 15,
-    "momentum": 0.336,
+    "momentum": -0.102,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.2961,
-    "global_sentiment": 0.4012,
-    "combined_sentiment": 0.3388,
-    "confidence": 0.6767,
+    "crypto_sentiment": 0.2992,
+    "global_sentiment": 0.392,
+    "combined_sentiment": 0.3404,
+    "confidence": 0.6853,
     "counts": {
-      "crypto": 51,
-      "global": 39
+      "crypto": 50,
+      "global": 41
     },
     "market_indicators": {
-      "btc_price": 60465,
-      "btc_change_24h": 0.69,
-      "eth_price": 1588.5,
-      "eth_change_24h": 1.48,
+      "btc_price": 60429,
+      "btc_change_24h": 0.73,
+      "eth_price": 1592.42,
+      "eth_change_24h": 0.65,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "regime_strength": 0.8,
+      "market_breadth": 0.4,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 90039782996.0,
+        "volume_24h": 71799583389.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.23,
+        "btc_dominance": 57.21,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-10T18:34:57.886621+00:00",
-      "crypto": 0.3239,
-      "global": 0.5397,
-      "combined": 0.3713,
-      "counts": {
-        "crypto": 46,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-06-10T21:46:32.457975+00:00",
       "crypto": 0.3145,
@@ -1008,52 +998,62 @@
         "crypto": 51,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-06-27T17:17:55.021303+00:00",
+      "crypto": 0.2992,
+      "global": 0.392,
+      "combined": 0.3404,
+      "counts": {
+        "crypto": 50,
+        "global": 41
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Bank of America resets Micron stock price target after earnings",
+        "url": "https://www.thestreet.com/investing/stocks/bank-of-america-raises-micron-stock-price-target-after-earnings?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.5869,
+        "score": 0.6667
+      },
+      {
         "title": "Eli Lilly Leads 5 Stocks Near Buy Points As The Market Rally Rotates",
         "url": "https://finance.yahoo.com/m/9b394fd4-1738-3c9f-a781-d07c4935a3c6/eli-lilly-leads-5-stocks-near.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6386,
+        "weight": 0.4342,
         "score": 0.8667
       },
       {
         "title": "Brutal Heat Wave Scorches Europe, Raising Climate Inflation Concerns",
         "url": "https://www.bloomberg.com/news/videos/2026-06-27/brutal-heat-wave-scorches-europe-video",
         "source": "Bloomberg Markets",
-        "weight": 0.6668,
+        "weight": 0.4534,
         "score": 0.6667
-      },
-      {
-        "title": "Ripple CEO stays bullish on bitcoin but says Saylor's strategy has hurt crypto",
-        "url": "https://www.coindesk.com/markets/2026/06/27/ripple-ceo-stays-bullish-on-bitcoin-but-says-saylor-s-strategy-has-hurt-crypto",
-        "source": "CoinDesk",
-        "weight": 0.5009,
-        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Why Krugman Thinks We Need Chinese Auto Tariffs",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-27/why-krugman-thinks-we-need-chinese-auto-tariffs-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.643,
-        "score": -1.0
+        "title": "Polymarket hack updated to $3.1 million days after the platform promised users full refunds",
+        "url": "https://www.coindesk.com/markets/2026/06/27/polymarket-hack-updated-to-usd3-1-million-days-after-the-platform-promised-users-full-refunds",
+        "source": "CoinDesk",
+        "weight": 0.7009,
+        "score": -0.7333
       },
       {
-        "title": "SecondFi targets two-week recovery after Cardano wallet exploit",
-        "url": "https://cointelegraph.com/news/secondfi-two-week-recovery-cardano-wallet-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.639,
-        "score": -1.0
-      },
-      {
-        "title": "Stock Market Week Ahead: Rotating, For Now, Away From The AI Boom",
-        "url": "https://finance.yahoo.com/m/55d47acd-a329-3ca6-96aa-8fd097a26a6e/stock-market-week-ahead%3A.html?.tsrc=rss",
+        "title": "Vanguard Total Bond Market ETF Tops iShares 3-7 Year Treasury Bond ETF on Yield and Cost. Does That make BND a Buy?",
+        "url": "https://www.fool.com/coverage/etfs/2026/06/27/vanguard-total-bond-market-etf-tops-ishares-3-7-year-treasury-bond-etf-on-yield-and-cost-does-that-make-bnd-a-buy/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7707,
+        "weight": 0.7017,
+        "score": -0.6667
+      },
+      {
+        "title": "Coinbase and OKX try to lure in Binance’s EU users after it failed to secure a MiCA license",
+        "url": "https://www.coindesk.com/business/2026/06/27/coinbase-and-okx-try-to-lure-in-binance-s-450m-eu-users-after-failing-to-secure-a-mica-license",
+        "source": "CoinDesk",
+        "weight": 0.6988,
         "score": -0.6333
       }
     ],
