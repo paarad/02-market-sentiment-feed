@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-28T10:31:25.373119+00:00",
+  "updated_at": "2026-06-28T14:03:57.215714+00:00",
   "indicators": {
-    "change24h": -0.017,
-    "vol": 0.105,
+    "change24h": -0.02,
+    "vol": 0.109,
     "fearGreed": 18,
-    "momentum": -0.305,
-    "regime": "bear",
+    "momentum": -0.35,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2306,
-    "global_sentiment": 0.5291,
-    "combined_sentiment": 0.3004,
-    "confidence": 0.5485,
+    "crypto_sentiment": 0.2285,
+    "global_sentiment": 0.3761,
+    "combined_sentiment": 0.2861,
+    "confidence": 0.5785,
     "counts": {
-      "crypto": 49,
-      "global": 46
+      "crypto": 50,
+      "global": 48
     },
     "market_indicators": {
-      "btc_price": 60039,
-      "btc_change_24h": -0.49,
-      "eth_price": 1572.17,
-      "eth_change_24h": -0.53,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.25,
+      "btc_price": 59999,
+      "btc_change_24h": -0.72,
+      "eth_price": 1577.78,
+      "eth_change_24h": -0.62,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.3,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 60904151869.0,
+        "volume_24h": 60908238908.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-11T18:50:43.471764+00:00",
-      "crypto": 0.4544,
-      "global": 0.4326,
-      "combined": 0.4602,
-      "counts": {
-        "crypto": 50,
-        "global": 47
-      }
-    },
     {
       "ts": "2026-06-11T21:50:40.440882+00:00",
       "crypto": 0.4613,
@@ -1008,39 +998,56 @@
         "crypto": 49,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-06-28T14:03:57.215714+00:00",
+      "crypto": 0.2285,
+      "global": 0.3761,
+      "combined": 0.2861,
+      "counts": {
+        "crypto": 50,
+        "global": 48
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
+        "title": "Binance posts over $400M in weekly net outflows as MiCA deadline nears",
+        "url": "https://cointelegraph.com/news/binance-400m-weekly-net-outflows-mica-deadline-nears?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.62,
+        "score": 0.3333
+      },
+      {
         "title": "Capex boom threatens to crowd out buybacks, key equity demand driver",
         "url": "https://finance.yahoo.com/markets/stocks/articles/capex-boom-threatens-crowd-buybacks-023214326.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.318,
+        "weight": 0.2112,
         "score": 0.7
       },
       {
-        "title": "Boeing (BA) Wins $2B MUOS Satellite Contract",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-wins-2b-muos-000705590.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2404,
-        "score": 0.6667
-      },
-      {
-        "title": "Sydney Home Auction Activity Weakens as Costs, Tax Changes Weigh",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-28/sydney-home-auction-activity-weakens-as-costs-tax-changes-weigh",
+        "title": "Panama Canal Sees Revenue Boost Amid Iran Conflict",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-28/panama-canal-sees-revenue-boost-amid-iran-conflict-video",
         "source": "Bloomberg Markets",
-        "weight": 0.4636,
-        "score": 0.3333
+        "weight": 0.603,
+        "score": 0.2
       }
     ],
     "negative": [
       {
-        "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss",
-        "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss",
-        "source": "CoinDesk",
-        "weight": 0.6797,
-        "score": -0.6667
+        "title": "XRP investors capitulate at fastest pace since the 2022 crypto crash amid slide to $1",
+        "url": "https://cryptoslate.com/xrp-investors-capitulate-at-fastest-pace-since-the-2022-crypto-crash-amid-slide-to-1/",
+        "source": "CryptoSlate",
+        "weight": 0.7163,
+        "score": -0.9667
+      },
+      {
+        "title": "By The Way: Interesting Headlines You May Have Missed",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-28/by-the-way-interesting-headlines-you-may-have-missed-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6978,
+        "score": -0.7333
       },
       {
         "title": "Fear & Greed 18 (Fear) — bearish",
@@ -1048,13 +1055,6 @@
         "source": "Fear&Greed",
         "weight": 0.8,
         "score": -0.5333
-      },
-      {
-        "title": "Base post-mortem reveals sequencer bug behind back-to-back outages",
-        "url": "https://cointelegraph.com/news/base-post-mortem-reveals-sequencer-bug-behind-back-to-back-outages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4342,
-        "score": -0.9667
       }
     ],
     "market_movers": {
