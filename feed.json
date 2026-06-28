@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-28T14:03:57.215714+00:00",
+  "updated_at": "2026-06-28T17:20:04.925071+00:00",
   "indicators": {
-    "change24h": -0.02,
-    "vol": 0.109,
+    "change24h": -0.022,
+    "vol": 0.097,
     "fearGreed": 18,
-    "momentum": -0.35,
-    "regime": "sideways",
+    "momentum": -0.386,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.2285,
-    "global_sentiment": 0.3761,
-    "combined_sentiment": 0.2861,
-    "confidence": 0.5785,
+    "crypto_sentiment": 0.295,
+    "global_sentiment": 0.3533,
+    "combined_sentiment": 0.334,
+    "confidence": 0.6538,
     "counts": {
-      "crypto": 50,
-      "global": 48
+      "crypto": 52,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 59999,
-      "btc_change_24h": -0.72,
-      "eth_price": 1577.78,
-      "eth_change_24h": -0.62,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 59546,
+      "btc_change_24h": -1.58,
+      "eth_price": 1568.25,
+      "eth_change_24h": -1.62,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 60908238908.0,
+        "volume_24h": 61789336943.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-11T21:50:40.440882+00:00",
-      "crypto": 0.4613,
-      "global": 0.5145,
-      "combined": 0.4722,
-      "counts": {
-        "crypto": 50,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-06-11T22:05:33.858826+00:00",
       "crypto": 0.4387,
@@ -1008,53 +998,63 @@
         "crypto": 50,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-06-28T17:20:04.925071+00:00",
+      "crypto": 0.295,
+      "global": 0.3533,
+      "combined": 0.334,
+      "counts": {
+        "crypto": 52,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Binance posts over $400M in weekly net outflows as MiCA deadline nears",
-        "url": "https://cointelegraph.com/news/binance-400m-weekly-net-outflows-mica-deadline-nears?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Will Bitcoin price recover in July?",
+        "url": "https://cointelegraph.com/markets/will-bitcoin-price-recover-in-july?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.62,
-        "score": 0.3333
+        "weight": 0.703,
+        "score": 0.5333
       },
       {
-        "title": "Capex boom threatens to crowd out buybacks, key equity demand driver",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/capex-boom-threatens-crowd-buybacks-023214326.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2112,
-        "score": 0.7
-      },
-      {
-        "title": "Panama Canal Sees Revenue Boost Amid Iran Conflict",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-28/panama-canal-sees-revenue-boost-amid-iran-conflict-video",
+        "title": "Leverage That Fueled US Stock Rally Becomes a Growing Concern",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/leverage-that-fueled-us-stock-rally-becomes-a-growing-concern",
         "source": "Bloomberg Markets",
-        "weight": 0.603,
-        "score": 0.2
+        "weight": 0.5442,
+        "score": 0.5333
+      },
+      {
+        "title": "Can USMCA Survive Trump’s Second Term?",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-28/can-usmca-survive-trump-s-second-term-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.5485,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
+        "title": "The Uphill Battle Facing Revitalizing Dulles Airport",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-28/the-uphill-battle-facing-revitalizing-dulles-airport-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6757,
+        "score": -1.0
+      },
+      {
+        "title": "America can't get enough of protein. The dairy industry can't keep up",
+        "url": "https://www.cnbc.com/2026/06/28/america-cant-get-enough-protein-the-dairy-industry-cant-keep-up.html",
+        "source": "CNBC Markets",
+        "weight": 0.6274,
+        "score": -0.9333
+      },
+      {
         "title": "XRP investors capitulate at fastest pace since the 2022 crypto crash amid slide to $1",
         "url": "https://cryptoslate.com/xrp-investors-capitulate-at-fastest-pace-since-the-2022-crypto-crash-amid-slide-to-1/",
         "source": "CryptoSlate",
-        "weight": 0.7163,
+        "weight": 0.491,
         "score": -0.9667
-      },
-      {
-        "title": "By The Way: Interesting Headlines You May Have Missed",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-28/by-the-way-interesting-headlines-you-may-have-missed-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6978,
-        "score": -0.7333
-      },
-      {
-        "title": "Fear & Greed 18 (Fear) — bearish",
-        "url": "https://alternative.me/crypto/fear-and-greed-index/",
-        "source": "Fear&Greed",
-        "weight": 0.8,
-        "score": -0.5333
       }
     ],
     "market_movers": {
