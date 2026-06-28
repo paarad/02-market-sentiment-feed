@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-28T04:26:33.278013+00:00",
+  "updated_at": "2026-06-28T10:31:25.373119+00:00",
   "indicators": {
-    "change24h": -0.032,
-    "vol": 0.199,
+    "change24h": -0.017,
+    "vol": 0.105,
     "fearGreed": 18,
-    "momentum": -0.551,
-    "regime": "sideways",
+    "momentum": -0.305,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "mixed"
   },
   "summary": {
-    "crypto_sentiment": 0.3204,
-    "global_sentiment": 0.5941,
-    "combined_sentiment": 0.3731,
-    "confidence": 0.5985,
+    "crypto_sentiment": 0.2306,
+    "global_sentiment": 0.5291,
+    "combined_sentiment": 0.3004,
+    "confidence": 0.5485,
     "counts": {
-      "crypto": 50,
+      "crypto": 49,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 60142,
-      "btc_change_24h": -0.3,
-      "eth_price": 1572.94,
-      "eth_change_24h": -0.49,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.3,
+      "btc_price": 60039,
+      "btc_change_24h": -0.49,
+      "eth_price": 1572.17,
+      "eth_change_24h": -0.53,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.25,
       "fear_greed": {
         "value": 18,
         "classification": "Extreme Fear",
@@ -34,7 +34,7 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 60209803623.0,
+        "volume_24h": 60904151869.0,
         "high_activity_coins": 0
       },
       "dominance": {
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-11T12:14:29.712506+00:00",
-      "crypto": 0.3804,
-      "global": 0.4603,
-      "combined": 0.407,
-      "counts": {
-        "crypto": 49,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-11T18:50:43.471764+00:00",
       "crypto": 0.4544,
@@ -1008,6 +998,16 @@
         "crypto": 50,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-06-28T10:31:25.373119+00:00",
+      "crypto": 0.2306,
+      "global": 0.5291,
+      "combined": 0.3004,
+      "counts": {
+        "crypto": 49,
+        "global": 46
+      }
     }
   ],
   "drivers": {
@@ -1016,25 +1016,32 @@
         "title": "Capex boom threatens to crowd out buybacks, key equity demand driver",
         "url": "https://finance.yahoo.com/markets/stocks/articles/capex-boom-threatens-crowd-buybacks-023214326.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6419,
+        "weight": 0.318,
         "score": 0.7
       },
       {
         "title": "Boeing (BA) Wins $2B MUOS Satellite Contract",
         "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-wins-2b-muos-000705590.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.4854,
+        "weight": 0.2404,
         "score": 0.6667
       },
       {
-        "title": "Bitcoin unspent transaction outputs signal capitulation underway: analyst",
-        "url": "https://cointelegraph.com/news/bitcoin-unspent-transaction-outputs-signal-capitulation-underway-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.6656,
+        "title": "Sydney Home Auction Activity Weakens as Costs, Tax Changes Weigh",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-28/sydney-home-auction-activity-weakens-as-costs-tax-changes-weigh",
+        "source": "Bloomberg Markets",
+        "weight": 0.4636,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Bitcoin falls below $60,000, on track for a rare back-to-back quarterly loss",
+        "url": "https://www.coindesk.com/markets/2026/06/28/bitcoin-falls-below-usd60-000-on-track-for-a-rare-back-to-back-quarterly-loss",
+        "source": "CoinDesk",
+        "weight": 0.6797,
+        "score": -0.6667
+      },
       {
         "title": "Fear & Greed 18 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Bitcoin faces fresh capitulation risk as 50K BTC moved at a loss",
-        "url": "https://cointelegraph.com/markets/bitcoin-faces-fresh-capitulation-risk-as-50k-btc-moves-at-a-loss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Base post-mortem reveals sequencer bug behind back-to-back outages",
+        "url": "https://cointelegraph.com/news/base-post-mortem-reveals-sequencer-bug-behind-back-to-back-outages?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.3402,
-        "score": -0.6667
-      },
-      {
-        "title": "Fidelity rebuts claims Bitcoin becomes less secure after halvings",
-        "url": "https://cointelegraph.com/news/fidelity-bitcoin-long-term-security-halvings-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.3341,
-        "score": -0.6333
+        "weight": 0.4342,
+        "score": -0.9667
       }
     ],
     "market_movers": {
