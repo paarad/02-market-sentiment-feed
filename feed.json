@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-29T18:13:41.658072+00:00",
+  "updated_at": "2026-06-29T21:12:34.409666+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.146,
+    "change24h": 0.036,
+    "vol": 0.172,
     "fearGreed": 12,
-    "momentum": 0.596,
+    "momentum": 0.627,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3639,
-    "global_sentiment": 0.4153,
-    "combined_sentiment": 0.3909,
-    "confidence": 0.7758,
+    "crypto_sentiment": 0.3978,
+    "global_sentiment": 0.4693,
+    "combined_sentiment": 0.4208,
+    "confidence": 0.7556,
     "counts": {
-      "crypto": 64,
-      "global": 39
+      "crypto": 50,
+      "global": 44
     },
     "market_indicators": {
-      "btc_price": 60408,
-      "btc_change_24h": 1.4,
-      "eth_price": 1624.82,
-      "eth_change_24h": 3.4,
+      "btc_price": 60250,
+      "btc_change_24h": 1.1,
+      "eth_price": 1613.54,
+      "eth_change_24h": 2.89,
       "market_regime": "sideways",
       "regime_strength": 1.0,
       "market_breadth": 0.75,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128085919859.0,
-        "high_activity_coins": 0
+        "volume_24h": 133153311522.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.03,
+        "btc_dominance": 57.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-12T21:20:12.976396+00:00",
-      "crypto": 0.3841,
-      "global": 0.476,
-      "combined": 0.4111,
-      "counts": {
-        "crypto": 56,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-06-12T21:55:35.112981+00:00",
       "crypto": 0.3832,
@@ -1008,57 +998,73 @@
         "crypto": 64,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-06-29T21:12:34.409666+00:00",
+      "crypto": 0.3978,
+      "global": 0.4693,
+      "combined": 0.4208,
+      "counts": {
+        "crypto": 50,
+        "global": 44
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Alphabet shares jump after joining Dow Jones Industrial Average",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-shares-jump-joining-dow-174856455.html?.tsrc=rss",
+        "title": "Tech rebound lifts Dow to record, yen hits 40-year low against dollar",
+        "url": "https://finance.yahoo.com/markets/articles/stocks-mixed-oil-rises-us-024127017.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7628,
+        "weight": 0.7474,
+        "score": 1.0
+      },
+      {
+        "title": "SpaceX bulls are back betting on huge, fast gains as Rocket Lab surges",
+        "url": "https://www.cnbc.com/2026/06/29/spacex-bulls-are-back-betting-on-huge-fast-gains-as-rocket-lab-surges.html",
+        "source": "CNBC Markets",
+        "weight": 0.7117,
         "score": 0.8667
       },
       {
-        "title": "Global crypto market cap up 1.5% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
-      },
-      {
-        "title": "Yen Hits 40-Year Low in Historic Slide That’s Rattled Japan",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/yen-jpy-usd-hits-four-decade-low-in-historic-slide-that-s-rattled-japan",
-        "source": "Bloomberg Markets",
-        "weight": 0.5002,
+        "title": "Stock Market Today: Dow Rises To Record; Cathie Wood Buys This Software Stock Amid 46% Dive",
+        "url": "https://finance.yahoo.com/m/f09e44e5-75d2-3d24-a413-c960372d4f03/stock-market-today%3A-dow-rises.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7561,
         "score": 0.6667
       }
     ],
     "negative": [
       {
+        "title": "BofA to Pay SEC $7.5 Million Over Reporting Lapse Allegations",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/bofa-to-pay-sec-7-5-million-over-reporting-lapse-allegations",
+        "source": "Bloomberg Markets",
+        "weight": 0.6792,
+        "score": -0.9667
+      },
+      {
         "title": "Private keys, not smart contracts, caused 40% of crypto's $16 billion hack losses. Here's whats being done.",
         "url": "https://www.coindesk.com/tech/2026/06/29/private-keys-not-smart-contracts-caused-40-of-crypto-s-usd16-billion-hack-losses-here-s-whats-being-done",
         "source": "CoinDesk",
-        "weight": 0.7515,
+        "weight": 0.5325,
         "score": -1.0
       },
       {
         "title": "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
         "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html",
         "source": "CNBC Markets",
-        "weight": 0.7351,
+        "weight": 0.5209,
         "score": -1.0
-      },
-      {
-        "title": "JPMorgan Struggles to Find Demand for Oil Driller’s 15% Loan",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/jpmorgan-struggles-to-find-demand-for-oil-driller-s-15-loan",
-        "source": "Bloomberg Markets",
-        "weight": 0.7761,
-        "score": -0.9333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.3052812792015081,
+          "price_change_24h": -0.01298
+        }
+      ],
       "momentum_shifts": []
     }
   },
