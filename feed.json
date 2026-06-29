@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-29T12:39:34.183553+00:00",
+  "updated_at": "2026-06-29T18:13:41.658072+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": 0.034,
+    "vol": 0.146,
     "fearGreed": 12,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": 0.596,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3433,
-    "global_sentiment": 0.3853,
-    "combined_sentiment": 0.3729,
-    "confidence": 0.7301,
+    "crypto_sentiment": 0.3639,
+    "global_sentiment": 0.4153,
+    "combined_sentiment": 0.3909,
+    "confidence": 0.7758,
     "counts": {
-      "crypto": 52,
-      "global": 40
+      "crypto": 64,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 60093,
-      "btc_change_24h": -0.13,
-      "eth_price": 1579.63,
-      "eth_change_24h": -0.04,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 60408,
+      "btc_change_24h": 1.4,
+      "eth_price": 1624.82,
+      "eth_change_24h": 3.4,
+      "market_regime": "sideways",
+      "regime_strength": 1.0,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 12,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 97709566288.0,
+        "volume_24h": 128085919859.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.03,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-12T18:12:15.283595+00:00",
-      "crypto": 0.4132,
-      "global": 0.455,
-      "combined": 0.4311,
-      "counts": {
-        "crypto": 57,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-06-12T21:20:12.976396+00:00",
       "crypto": 0.3841,
@@ -1008,52 +998,62 @@
         "crypto": 52,
         "global": 40
       }
+    },
+    {
+      "ts": "2026-06-29T18:13:41.658072+00:00",
+      "crypto": 0.3639,
+      "global": 0.4153,
+      "combined": 0.3909,
+      "counts": {
+        "crypto": 64,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tesla Stock Rises as EV Maker Deepens Ties With SpaceX",
-        "url": "https://finance.yahoo.com/m/b62ece38-acf4-3584-ada5-64b8026aa242/tesla-stock-rises-as-ev-maker.html?.tsrc=rss",
+        "title": "Alphabet shares jump after joining Dow Jones Industrial Average",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-shares-jump-joining-dow-174856455.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6798,
-        "score": 0.6667
+        "weight": 0.7628,
+        "score": 0.8667
       },
       {
-        "title": "Robinhood Shares Gain as June Trading Activity Reaches New Highs (HOOD)",
-        "url": "https://investorshub.advfn.com/market-news/article/31075/robinhood-shares-gain-as-june-trading-activity-reaches-new-highs-hood?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.643,
-        "score": 0.6667
+        "title": "Global crypto market cap up 1.5% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Dow, Nasdaq and S&P stock futures point higher as uneasy Iran truce holds",
-        "url": "https://www.proactiveinvestors.com/companies/news/1094647/dow-nasdaq-and-s-p-stock-futures-point-higher-as-uneasy-iran-truce-holds-1094647.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7119,
-        "score": 0.3333
+        "title": "Yen Hits 40-Year Low in Historic Slide That’s Rattled Japan",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/yen-jpy-usd-hits-four-decade-low-in-historic-slide-that-s-rattled-japan",
+        "source": "Bloomberg Markets",
+        "weight": 0.5002,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Stocks Have Risen So Far This Year. Here's What Experts Say the Second Half of 2026 Could Bring",
-        "url": "https://www.investopedia.com/what-to-expect-from-stocks-in-the-second-half-2026-11990867?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6416,
-        "score": -0.9667
+        "title": "Private keys, not smart contracts, caused 40% of crypto's $16 billion hack losses. Here's whats being done.",
+        "url": "https://www.coindesk.com/tech/2026/06/29/private-keys-not-smart-contracts-caused-40-of-crypto-s-usd16-billion-hack-losses-here-s-whats-being-done",
+        "source": "CoinDesk",
+        "weight": 0.7515,
+        "score": -1.0
       },
       {
-        "title": "Ukraine Takes $8.3M in Seized Crypto Under State Management in a First",
-        "url": "https://decrypt.co/372279/ukraine-takes-8-3m-in-seized-crypto-under-state-management-in-a-first",
-        "source": "Decrypt",
-        "weight": 0.6864,
-        "score": -0.7333
+        "title": "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
+        "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html",
+        "source": "CNBC Markets",
+        "weight": 0.7351,
+        "score": -1.0
       },
       {
-        "title": "Godiva’s Japan Lenders Agree on Nine-Month Loan Extension",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/godiva-japan-lenders-said-to-agree-on-nine-month-loan-extension",
+        "title": "JPMorgan Struggles to Find Demand for Oil Driller’s 15% Loan",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/jpmorgan-struggles-to-find-demand-for-oil-driller-s-15-loan",
         "source": "Bloomberg Markets",
-        "weight": 0.5007,
+        "weight": 0.7761,
         "score": -0.9333
       }
     ],
