@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-30T14:33:17.413914+00:00",
+  "updated_at": "2026-06-30T18:04:25.451634+00:00",
   "indicators": {
-    "change24h": 0.007,
-    "vol": 0.136,
+    "change24h": -0.034,
+    "vol": 0.11,
     "fearGreed": 15,
-    "momentum": 0.131,
-    "regime": "sideways",
+    "momentum": -0.591,
+    "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4168,
-    "global_sentiment": 0.4985,
-    "combined_sentiment": 0.4375,
-    "confidence": 0.7516,
+    "crypto_sentiment": 0.415,
+    "global_sentiment": 0.4514,
+    "combined_sentiment": 0.4322,
+    "confidence": 0.7464,
     "counts": {
-      "crypto": 44,
-      "global": 43
+      "crypto": 45,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 58861,
-      "btc_change_24h": -1.09,
-      "eth_price": 1570.23,
-      "eth_change_24h": -0.1,
-      "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.4,
+      "btc_price": 58353,
+      "btc_change_24h": -3.26,
+      "eth_price": 1569.48,
+      "eth_change_24h": -3.37,
+      "market_regime": "bear",
+      "regime_strength": 0.4,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 15,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 121659404793.0,
+        "volume_24h": 116697671771.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.84,
+        "btc_dominance": 56.68,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-13T17:38:40.645777+00:00",
-      "crypto": 0.3907,
-      "global": 0.4293,
-      "combined": 0.4121,
-      "counts": {
-        "crypto": 52,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-06-13T20:53:52.964385+00:00",
       "crypto": 0.3986,
@@ -1008,53 +998,63 @@
         "crypto": 44,
         "global": 43
       }
+    },
+    {
+      "ts": "2026-06-30T18:04:25.451634+00:00",
+      "crypto": 0.415,
+      "global": 0.4514,
+      "combined": 0.4322,
+      "counts": {
+        "crypto": 45,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Schwab CEO on Why They Keep Fees Low",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-30/schwab-ceo-on-why-they-keep-fees-low-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7658,
+        "title": "Market Indexes Close Out June With a Tech-Fueled Tuesday Rally",
+        "url": "https://www.fool.com/investing/2026/06/30/market-indexes-close-out-june-with-a-tech-rally/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7507,
         "score": 1.0
       },
       {
-        "title": "CME Launches New Beef Contracts as US Cattle Prices Surge",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-30/cme-launches-beef-trim-trading-as-us-cattle-herd-roils-prices",
-        "source": "Bloomberg Markets",
-        "weight": 0.6686,
-        "score": 0.8667
+        "title": "Nasdaq Soars 1.3% as the Market Rally Broadens",
+        "url": "https://finance.yahoo.com/m/28e26e4d-c3c6-3ba1-86c0-fde1a43373b5/nasdaq-soars-1.3%25-as-the.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6978,
+        "score": 1.0
       },
       {
-        "title": "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
-        "url": "https://www.coindesk.com/tech/2026/06/30/metamask-launches-money-account-with-stablecoin-yield-and-spending-in-one-wallet",
-        "source": "CoinDesk",
-        "weight": 0.9379,
-        "score": 0.3333
+        "title": "Business use of stablecoins set for growth surge: Cybrid report",
+        "url": "https://cointelegraph.com/news/42-of-businesses-surveyed-use-stablecoins-for-cross-border-payments-cybrid-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6728,
+        "score": 1.0
       }
     ],
     "negative": [
       {
-        "title": "UK ‘Minded to Intervene’ in Paramount’s Warner Bros. Deal Over Media Ownership Concerns",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-30/uk-minded-to-intervene-in-paramount-s-deal-for-warner-bros",
-        "source": "Bloomberg Markets",
-        "weight": 0.7219,
-        "score": -0.9667
-      },
-      {
-        "title": "What the Yen’s Massive Breakdown Means for the US Stock Market",
-        "url": "https://finance.yahoo.com/m/b4399816-198f-3be9-89d1-866239192579/what-the-yen%E2%80%99s-massive.html?.tsrc=rss",
+        "title": "A $1.6 Trillion Disruption: Why Wall Street Is Worried About a SpaceX Phone",
+        "url": "https://finance.yahoo.com/m/e4640daa-eb40-3139-acd3-f9679d4d14fd/a-%241.6-trillion-disruption%3A.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7206,
-        "score": -0.9
+        "weight": 0.667,
+        "score": -1.0
       },
       {
-        "title": "JPMorgan warns rushed US crypto rules could create market loopholes as Senate races toward July CLARITY Act vote",
-        "url": "https://cryptoslate.com/jpmorgan-warns-rushed-us-crypto-rules-could-create-market-loopholes-as-senate-races-toward-july-clarity-act-vote/",
-        "source": "CryptoSlate",
-        "weight": 0.6462,
-        "score": -0.9667
+        "title": "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
+        "url": "https://www.coindesk.com/policy/2026/06/30/sec-giving-novel-etfs-a-rethink-as-it-opens-comment-period-on-overhauling-u-s-rules",
+        "source": "CoinDesk",
+        "weight": 0.9763,
+        "score": -0.6333
+      },
+      {
+        "title": "Sector Update: Energy Stocks Softer Tuesday Afternoon",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-softer-tuesday-174701963.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7736,
+        "score": -0.6333
       }
     ],
     "market_movers": {
