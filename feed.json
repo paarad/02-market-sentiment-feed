@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-29T21:39:06.190359+00:00",
+  "updated_at": "2026-06-30T04:12:38.133523+00:00",
   "indicators": {
-    "change24h": 0.041,
-    "vol": 0.192,
-    "fearGreed": 12,
-    "momentum": 0.722,
+    "change24h": 0.016,
+    "vol": 0.153,
+    "fearGreed": 15,
+    "momentum": 0.272,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3984,
-    "global_sentiment": 0.497,
-    "combined_sentiment": 0.4236,
-    "confidence": 0.7489,
+    "crypto_sentiment": 0.3397,
+    "global_sentiment": 0.5908,
+    "combined_sentiment": 0.3874,
+    "confidence": 0.6852,
     "counts": {
-      "crypto": 50,
-      "global": 46
+      "crypto": 46,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 60326,
-      "btc_change_24h": 1.18,
-      "eth_price": 1616.51,
-      "eth_change_24h": 3.0,
+      "btc_price": 59369,
+      "btc_change_24h": -0.76,
+      "eth_price": 1578.89,
+      "eth_change_24h": 0.08,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.45,
       "fear_greed": {
-        "value": 12,
+        "value": 15,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 133941866564.0,
-        "high_activity_coins": 1
+        "volume_24h": 123742508638.0,
+        "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.02,
+        "btc_dominance": 56.94,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-13T04:25:29.908638+00:00",
-      "crypto": 0.3243,
-      "global": 0.4338,
-      "combined": 0.3627,
-      "counts": {
-        "crypto": 59,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-06-13T10:34:16.320297+00:00",
       "crypto": 0.3589,
@@ -1008,63 +998,67 @@
         "crypto": 50,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-06-30T04:12:38.133523+00:00",
+      "crypto": 0.3397,
+      "global": 0.5908,
+      "combined": 0.3874,
+      "counts": {
+        "crypto": 46,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Tech rebound lifts Dow to record, yen hits 40-year low against dollar",
-        "url": "https://finance.yahoo.com/markets/articles/stocks-mixed-oil-rises-us-024127017.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7102,
-        "score": 1.0
-      },
-      {
-        "title": "SpaceX bulls are back betting on huge, fast gains as Rocket Lab surges",
-        "url": "https://www.cnbc.com/2026/06/29/spacex-bulls-are-back-betting-on-huge-fast-gains-as-rocket-lab-surges.html",
-        "source": "CNBC Markets",
-        "weight": 0.6763,
+        "title": "China Broker Stocks Eye Best Month Since October on Trading Boom",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-30/china-broker-stocks-eye-best-month-since-october-on-trading-boom",
+        "source": "Bloomberg Markets",
+        "weight": 0.6845,
         "score": 0.8667
       },
       {
-        "title": "Goldman Sachs doubles down on stock market outlook for 2026",
-        "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-doubles-down-on-stock-market-outlook-for-2026-sp500?.tsrc=rss",
+        "title": "Taiwan Dollar Set to Face Pressure From Record Dividend Payouts",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-29/taiwan-dollar-set-to-face-pressure-from-record-dividend-payouts",
+        "source": "Bloomberg Markets",
+        "weight": 0.4382,
+        "score": 1.0
+      },
+      {
+        "title": "Dow Jones Futures: Stock Market Rallies On U.S.-Iran News; Alphabet, Rocket Lab, SpaceX, Tesla Are Big Winners",
+        "url": "https://finance.yahoo.com/m/02713b99-a5a4-39e9-afeb-b3b70009bd95/dow-jones-futures%3A-stock.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7463,
-        "score": 0.6667
+        "weight": 0.7787,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "BofA to Pay SEC $7.5 Million Over Reporting Lapse Allegations",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-29/bofa-to-pay-sec-7-5-million-over-reporting-lapse-allegations",
+        "title": "Indonesia Capital Flight Caps Most-Profitable Bank’s Wealth Push",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-30/indonesia-capital-flight-caps-most-profitable-bank-s-wealth-push",
         "source": "Bloomberg Markets",
-        "weight": 0.6454,
+        "weight": 0.7269,
         "score": -0.9667
       },
       {
-        "title": "Private keys, not smart contracts, caused 40% of crypto's $16 billion hack losses. Here's whats being done.",
-        "url": "https://www.coindesk.com/tech/2026/06/29/private-keys-not-smart-contracts-caused-40-of-crypto-s-usd16-billion-hack-losses-here-s-whats-being-done",
-        "source": "CoinDesk",
-        "weight": 0.506,
-        "score": -1.0
+        "title": "Morgan Stanley Warns of Oil Glut and Cuts Forecasts on Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-30/morgan-stanley-cuts-oil-forecasts-on-fast-return-of-hormuz-flows",
+        "source": "Bloomberg Markets",
+        "weight": 0.5019,
+        "score": -0.9667
       },
       {
-        "title": "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
-        "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html",
-        "source": "CNBC Markets",
-        "weight": 0.495,
-        "score": -1.0
+        "title": "SEC wins $5.4M judgment in NanoBit crypto fraud case",
+        "url": "https://cointelegraph.com/news/sec-wins-54m-judgment-in-nanobit-crypto-fraud-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7044,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [
-        {
-          "symbol": "USDT",
-          "volume_mcap_ratio": 0.305757855605064,
-          "price_change_24h": -0.01119
-        }
-      ],
+      "high_activity": [],
       "momentum_shifts": []
     }
   },
