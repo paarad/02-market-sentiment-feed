@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-01T14:50:20.213716+00:00",
+  "updated_at": "2026-07-01T18:03:52.995594+00:00",
   "indicators": {
-    "change24h": 0.043,
-    "vol": 0.313,
+    "change24h": 0.06,
+    "vol": 0.302,
     "fearGreed": 11,
-    "momentum": 0.757,
+    "momentum": 1.0,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4378,
-    "global_sentiment": 0.5523,
-    "combined_sentiment": 0.4577,
-    "confidence": 0.7675,
+    "crypto_sentiment": 0.4438,
+    "global_sentiment": 0.4903,
+    "combined_sentiment": 0.4571,
+    "confidence": 0.8057,
     "counts": {
-      "crypto": 40,
-      "global": 51
+      "crypto": 47,
+      "global": 46
     },
     "market_indicators": {
-      "btc_price": 59571,
-      "btc_change_24h": 1.84,
-      "eth_price": 1597.46,
-      "eth_change_24h": 2.3,
+      "btc_price": 60105,
+      "btc_change_24h": 3.06,
+      "eth_price": 1621.26,
+      "eth_change_24h": 3.34,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 11,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 127786592820.0,
+        "volume_24h": 128194232081.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.94,
+        "btc_dominance": 57.02,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-14T17:25:55.031268+00:00",
-      "crypto": 0.3277,
-      "global": 0.4048,
-      "combined": 0.3629,
-      "counts": {
-        "crypto": 70,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-06-14T20:53:25.725630+00:00",
       "crypto": 0.3523,
@@ -1008,53 +998,63 @@
         "crypto": 40,
         "global": 51
       }
+    },
+    {
+      "ts": "2026-07-01T18:03:52.995594+00:00",
+      "crypto": 0.4438,
+      "global": 0.4903,
+      "combined": 0.4571,
+      "counts": {
+        "crypto": 47,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Stock Market News for July 1, 2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-1-133400519.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6906,
+        "title": "Ethereum backers launch nonprofit to lead institutional adoption efforts",
+        "url": "https://cointelegraph.com/news/ethereum-institutional-nonprofit-launches-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.68,
         "score": 1.0
       },
       {
-        "title": "SIFCO Stock Gains 64% in the Past 3 Months: What's Behind the Rally?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sifco-stock-gains-64-past-132600729.html?.tsrc=rss",
+        "title": "A Third-Quarter Tech Rotation: Meta Advances While Semiconductor Stocks Slide",
+        "url": "https://finance.yahoo.com/m/69326f48-c159-3b31-90cf-695aef8ef555/a-third-quarter-tech.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6801,
-        "score": 1.0
+        "weight": 0.702,
+        "score": 0.6667
       },
       {
-        "title": "Ethereum gets a new nonprofit focused on institutional adoption",
-        "url": "https://www.coindesk.com/tech/2026/07/01/ethereum-gets-a-new-nonprofit-focused-on-institutional-adoption",
-        "source": "CoinDesk",
-        "weight": 0.8763,
+        "title": "U.S. Creates 1,200 Millionaires Per Day",
+        "url": "https://247wallst.com/investing/2026/07/01/u-s-creates-1200-millionaires-per-day/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.697,
         "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Tokenized Google stock inflated 7,700% in rare DeFi lending exploit",
-        "url": "https://www.coindesk.com/tech/2026/07/01/tokenized-google-stock-inflated-7-700-in-rare-defi-lending-exploit",
-        "source": "CoinDesk",
-        "weight": 0.8605,
-        "score": -0.8333
-      },
-      {
-        "title": "What's next for Bitcoin and stocks? Analysts see a volatile second half",
-        "url": "https://www.coindesk.com/markets/2026/06/30/what-s-next-for-bitcoin-and-stocks-analysts-see-a-volatile-second-half",
-        "source": "CoinDesk",
-        "weight": 0.8086,
-        "score": -0.6333
-      },
-      {
-        "title": "Private payrolls rose by 98,000 in June, less than expected, ADP reports",
-        "url": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html",
+        "title": "GM reports 4.2% decline in Q2 U.S. sales as EV demand falls",
+        "url": "https://www.cnbc.com/2026/07/01/q2-auto-sales-gm-stellantis-toyota-hyundai.html",
         "source": "CNBC Markets",
-        "weight": 0.7002,
-        "score": -0.6333
+        "weight": 0.6003,
+        "score": -0.9667
+      },
+      {
+        "title": "SEC and CFTC crypto plans face new risk from Supreme Court ruling",
+        "url": "https://cryptoslate.com/sec-and-cftc-crypto-plans-face-new-risk-from-supreme-court-ruling/",
+        "source": "CryptoSlate",
+        "weight": 0.5267,
+        "score": -0.9667
+      },
+      {
+        "title": "ECB’s Stournaras Sees Smaller Likelihood of Further Rate Hike",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-01/ecb-s-stournaras-sees-smaller-likelihood-of-further-rate-hike",
+        "source": "Bloomberg Markets",
+        "weight": 0.7621,
+        "score": -0.6667
       }
     ],
     "market_movers": {
