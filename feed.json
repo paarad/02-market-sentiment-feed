@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-01T18:03:52.995594+00:00",
+  "updated_at": "2026-07-01T21:11:53.711052+00:00",
   "indicators": {
-    "change24h": 0.06,
-    "vol": 0.302,
+    "change24h": 0.043,
+    "vol": 0.194,
     "fearGreed": 11,
-    "momentum": 1.0,
+    "momentum": 0.758,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4438,
-    "global_sentiment": 0.4903,
-    "combined_sentiment": 0.4571,
-    "confidence": 0.8057,
+    "crypto_sentiment": 0.4757,
+    "global_sentiment": 0.4685,
+    "combined_sentiment": 0.4792,
+    "confidence": 0.8031,
     "counts": {
-      "crypto": 47,
-      "global": 46
+      "crypto": 48,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 60105,
-      "btc_change_24h": 3.06,
-      "eth_price": 1621.26,
-      "eth_change_24h": 3.34,
+      "btc_price": 60190,
+      "btc_change_24h": 2.89,
+      "eth_price": 1618.13,
+      "eth_change_24h": 2.99,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.8,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 128194232081.0,
+        "volume_24h": 127489340861.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.02,
+        "btc_dominance": 57.07,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-14T20:53:25.725630+00:00",
-      "crypto": 0.3523,
-      "global": 0.4186,
-      "combined": 0.3824,
-      "counts": {
-        "crypto": 68,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-06-14T21:20:50.126454+00:00",
       "crypto": 0.351,
@@ -1008,53 +998,63 @@
         "crypto": 47,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-07-01T21:11:53.711052+00:00",
+      "crypto": 0.4757,
+      "global": 0.4685,
+      "combined": 0.4792,
+      "counts": {
+        "crypto": 48,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Ethereum backers launch nonprofit to lead institutional adoption efforts",
-        "url": "https://cointelegraph.com/news/ethereum-institutional-nonprofit-launches-institutional-adoption?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.68,
+        "title": "REalloys Announces Partnership to Operate on US Army Base",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-01/realloys-announces-deal-to-operate-on-us-army-base-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.7706,
+        "score": 0.9167
+      },
+      {
+        "title": "Palantir Stock Jumps After Nvidia Deal, Michael Burry Pulls Back Bearish Bet",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-stock-jumps-nvidia-deal-200357855.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7019,
         "score": 1.0
       },
       {
-        "title": "A Third-Quarter Tech Rotation: Meta Advances While Semiconductor Stocks Slide",
-        "url": "https://finance.yahoo.com/m/69326f48-c159-3b31-90cf-695aef8ef555/a-third-quarter-tech.html?.tsrc=rss",
+        "title": "Michael Burry Is Shorting the Dow’s Hottest AI Stock",
+        "url": "https://finance.yahoo.com/m/a3570905-0c6f-3135-864d-b43fd66571e5/michael-burry-is-shorting-the.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.702,
-        "score": 0.6667
-      },
-      {
-        "title": "U.S. Creates 1,200 Millionaires Per Day",
-        "url": "https://247wallst.com/investing/2026/07/01/u-s-creates-1200-millionaires-per-day/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.697,
-        "score": 0.6667
+        "weight": 0.7101,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "GM reports 4.2% decline in Q2 U.S. sales as EV demand falls",
-        "url": "https://www.cnbc.com/2026/07/01/q2-auto-sales-gm-stellantis-toyota-hyundai.html",
+        "title": "Vicore Pharma to Commence Trading in the United States on the Nasdaq Stock Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/vicore-pharma-commence-trading-united-205000872.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.767,
+        "score": -0.9333
+      },
+      {
+        "title": "US Equity Markets End Lower as Technology Sector Slides",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-202951397.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7378,
+        "score": -0.9667
+      },
+      {
+        "title": "Meta's plan to launch a cloud business eases the biggest overhang on the stock",
+        "url": "https://www.cnbc.com/2026/07/01/metas-plan-to-launch-a-cloud-business-eases-the-biggest-overhang-on-the-stock.html",
         "source": "CNBC Markets",
-        "weight": 0.6003,
-        "score": -0.9667
-      },
-      {
-        "title": "SEC and CFTC crypto plans face new risk from Supreme Court ruling",
-        "url": "https://cryptoslate.com/sec-and-cftc-crypto-plans-face-new-risk-from-supreme-court-ruling/",
-        "source": "CryptoSlate",
-        "weight": 0.5267,
-        "score": -0.9667
-      },
-      {
-        "title": "ECB’s Stournaras Sees Smaller Likelihood of Further Rate Hike",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-01/ecb-s-stournaras-sees-smaller-likelihood-of-further-rate-hike",
-        "source": "Bloomberg Markets",
-        "weight": 0.7621,
-        "score": -0.6667
+        "weight": 0.6446,
+        "score": -1.0
       }
     ],
     "market_movers": {
