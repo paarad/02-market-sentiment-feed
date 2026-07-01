@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-06-30T21:41:47.681459+00:00",
+  "updated_at": "2026-07-01T04:41:13.830023+00:00",
   "indicators": {
-    "change24h": -0.024,
-    "vol": 0.236,
-    "fearGreed": 15,
-    "momentum": -0.425,
-    "regime": "bear",
+    "change24h": 0.02,
+    "vol": 0.268,
+    "fearGreed": 11,
+    "momentum": 0.357,
+    "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3764,
-    "global_sentiment": 0.4198,
-    "combined_sentiment": 0.4006,
-    "confidence": 0.7556,
+    "crypto_sentiment": 0.3509,
+    "global_sentiment": 0.4485,
+    "combined_sentiment": 0.3839,
+    "confidence": 0.6571,
     "counts": {
-      "crypto": 57,
-      "global": 37
+      "crypto": 39,
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 58558,
-      "btc_change_24h": -3.0,
-      "eth_price": 1569.75,
-      "eth_change_24h": -3.02,
-      "market_regime": "bear",
-      "regime_strength": 0.4,
-      "market_breadth": 0.2,
+      "btc_price": 59174,
+      "btc_change_24h": -0.61,
+      "eth_price": 1591.93,
+      "eth_change_24h": 0.29,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.55,
       "fear_greed": {
-        "value": 15,
+        "value": 11,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 118844009548.0,
+        "volume_24h": 125957336393.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.75,
+        "btc_dominance": 56.81,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-14T04:52:53.441735+00:00",
-      "crypto": 0.4334,
-      "global": 0.4635,
-      "combined": 0.447,
-      "counts": {
-        "crypto": 68,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-06-14T10:52:23.265123+00:00",
       "crypto": 0.3824,
@@ -1008,53 +998,63 @@
         "crypto": 57,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-07-01T04:41:13.830023+00:00",
+      "crypto": 0.3509,
+      "global": 0.4485,
+      "combined": 0.3839,
+      "counts": {
+        "crypto": 39,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "How major US stock indexes fared Tuesday 6/30/2026",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/major-us-stock-indexes-fared-202054681.html?.tsrc=rss",
+        "title": "Dow Jones Futures Fall, Bloom Energy Soars Late; SpaceX's First Buy Point",
+        "url": "https://finance.yahoo.com/m/62d97296-c021-3216-8366-b2927f9c377c/dow-jones-futures-fall%2C-bloom.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6846,
-        "score": 1.0
+        "weight": 0.6745,
+        "score": 0.5333
       },
       {
-        "title": "The Lower Income Consumer Has Felt Inflation The Most Says Suzuki",
-        "url": "https://www.bloomberg.com/news/videos/2026-06-30/s-p-500-climbs-at-end-of-best-quarter-since-2020-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6113,
-        "score": 1.0
+        "title": "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported",
+        "url": "https://www.cnbc.com/2026/07/01/iran-us-mou-negotiation-war-oil-exports-strait-of-hormuz-.html",
+        "source": "CNBC Markets",
+        "weight": 0.6482,
+        "score": 0.5333
       },
       {
-        "title": "What's Happening With AXON Stock?",
-        "url": "https://www.trefis.com/articles/605147/whats-happening-with-axon-stock-2/2026-06-30?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7096,
-        "score": 0.6667
+        "title": "Why Asia still struggles to create its own mega-IPOs like SpaceX",
+        "url": "https://www.cnbc.com/2026/07/01/-china-korea-hong-kong-and-india-struggle-to-create-mega-ipos.html",
+        "source": "CNBC Markets",
+        "weight": 0.5174,
+        "score": 0.6333
       }
     ],
     "negative": [
       {
-        "title": "Binance, Changpeng Zhao Sued for $200M by British Investors: Reuters",
-        "url": "https://decrypt.co/372452/binance-changpeng-zhao-sued-200-million-british-investors-reuters",
-        "source": "Decrypt",
-        "weight": 0.8093,
+        "title": "Chinese Inverter Maker Sungrow Plunges 20% on Potential US Ban",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-01/chinese-inverter-maker-sungrow-plunges-20-on-potential-us-ban",
+        "source": "Bloomberg Markets",
+        "weight": 0.6644,
         "score": -1.0
       },
       {
-        "title": "Anthropic launches AI drug discovery program, joining tech giants in betting on healthcare",
-        "url": "https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science.html",
-        "source": "CNBC Markets",
-        "weight": 0.7781,
+        "title": "Vimeo Parent Bending Spoons, Backers Raise $1.68 Billion in IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-01/vimeo-parent-bending-spoons-backers-raise-1-68-billion-in-ipo",
+        "source": "Bloomberg Markets",
+        "weight": 0.4703,
         "score": -0.9333
       },
       {
-        "title": "SEC seeks public comment on regulating next generation of ETFs",
-        "url": "https://cointelegraph.com/news/sec-seeks-public-comment-on-regulating-novel-etfs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.7087,
-        "score": -0.9667
+        "title": "Fear & Greed 11 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
