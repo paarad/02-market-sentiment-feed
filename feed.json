@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-02T14:19:38.976844+00:00",
+  "updated_at": "2026-07-02T17:57:08.168312+00:00",
   "indicators": {
-    "change24h": 0.055,
-    "vol": 0.183,
+    "change24h": 0.036,
+    "vol": 0.138,
     "fearGreed": 19,
-    "momentum": 0.967,
+    "momentum": 0.623,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.5249,
-    "global_sentiment": 0.5867,
-    "combined_sentiment": 0.5259,
-    "confidence": 0.8094,
+    "crypto_sentiment": 0.4606,
+    "global_sentiment": 0.515,
+    "combined_sentiment": 0.4717,
+    "confidence": 0.8052,
     "counts": {
-      "crypto": 55,
+      "crypto": 56,
       "global": 46
     },
     "market_indicators": {
-      "btc_price": 61848,
-      "btc_change_24h": 3.17,
-      "eth_price": 1711.26,
-      "eth_change_24h": 6.14,
+      "btc_price": 61643,
+      "btc_change_24h": 2.51,
+      "eth_price": 1695.68,
+      "eth_change_24h": 4.57,
       "market_regime": "sideways",
-      "regime_strength": 0.8,
-      "market_breadth": 0.9,
+      "regime_strength": 1.0,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 19,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 156811732246.0,
+        "volume_24h": 150998063576.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.14,
+        "btc_dominance": 57.17,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-15T22:08:33.950765+00:00",
-      "crypto": 0.5068,
-      "global": 0.6581,
-      "combined": 0.5183,
-      "counts": {
-        "crypto": 53,
-        "global": 36
-      }
-    },
     {
       "ts": "2026-06-15T22:23:15.213806+00:00",
       "crypto": 0.5068,
@@ -1008,61 +998,71 @@
         "crypto": 55,
         "global": 46
       }
+    },
+    {
+      "ts": "2026-07-02T17:57:08.168312+00:00",
+      "crypto": 0.4606,
+      "global": 0.515,
+      "combined": 0.4717,
+      "counts": {
+        "crypto": 56,
+        "global": 46
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "India Plans to Expand Oil Reserves to Guard Against Price Spikes",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/india-plans-to-expand-oil-reserves-to-guard-against-price-spikes",
-        "source": "Bloomberg Markets",
-        "weight": 0.7679,
-        "score": 0.9167
-      },
-      {
         "title": "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
         "url": "https://www.cnbc.com/2026/07/02/stock-market-gains-new-millionaires-ubs.html",
         "source": "CNBC Markets",
-        "weight": 0.7703,
+        "weight": 0.7148,
         "score": 0.8667
       },
       {
-        "title": "Robinhood’s expanding crypto bet meets a faster-moving prediction market boom",
-        "url": "https://cryptoslate.com/robinhoods-expanding-crypto-bet-meets-a-faster-moving-prediction-market-boom/",
-        "source": "CryptoSlate",
-        "weight": 0.5578,
-        "score": 0.9667
+        "title": "3 Reasons Investors Love HEICO (HEI)",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-investors-love-heico-174024578.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7746,
+        "score": 0.6667
+      },
+      {
+        "title": "Prison Phone Company Aventiv Clears Hurdle for Lenders’ Takeover",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/prison-phone-company-aventiv-clears-hurdle-for-lenders-takeover",
+        "source": "Bloomberg Markets",
+        "weight": 0.7656,
+        "score": 0.5833
       }
     ],
     "negative": [
       {
-        "title": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI",
-        "url": "https://www.coindesk.com/markets/2026/07/02/a-struggling-nasdaq-listed-company-that-tried-to-copy-saylor-s-bitcoin-playbook-is-completely-dumping-crypto-for-ai",
-        "source": "CoinDesk",
-        "weight": 0.7795,
+        "title": "House lawmakers approved a bipartisan bill to protect older adults from financial fraud. Here's what to know",
+        "url": "https://www.cnbc.com/2026/07/02/lawmakers-approved-bipartisan-bill-to-battle-fraud-among-older-adults.html",
+        "source": "CNBC Markets",
+        "weight": 0.7157,
+        "score": -0.8333
+      },
+      {
+        "title": "Mystery owner challenges the $200B ‘lost’ Satoshi Bitcoin claim in New York court",
+        "url": "https://cryptoslate.com/a-mystery-owner-challenges-the-lost-satoshi-bitcoin-claim/",
+        "source": "CryptoSlate",
+        "weight": 0.5334,
         "score": -1.0
       },
       {
-        "title": "CoreWeave Junk Bonds Drop as Investors Question AI Boom",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/coreweave-junk-bonds-slide-further-as-investors-question-ai-boom",
-        "source": "Bloomberg Markets",
-        "weight": 0.6297,
-        "score": -0.9667
-      },
-      {
-        "title": "Tesla deliveries jump 25% over last year, blowing past expectations",
-        "url": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html",
-        "source": "CNBC Markets",
-        "weight": 0.7678,
-        "score": -0.6333
+        "title": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI",
+        "url": "https://www.coindesk.com/markets/2026/07/02/a-struggling-nasdaq-listed-company-that-tried-to-copy-saylor-s-bitcoin-playbook-is-completely-dumping-crypto-for-ai",
+        "source": "CoinDesk",
+        "weight": 0.5128,
+        "score": -1.0
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3624749545611827,
-          "price_change_24h": 0.00881
+          "volume_mcap_ratio": 0.35303373933286764,
+          "price_change_24h": 0.0082
         }
       ],
       "momentum_shifts": []
