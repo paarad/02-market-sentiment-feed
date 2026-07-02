@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-02T20:45:16.638600+00:00",
+  "updated_at": "2026-07-02T21:16:10.772524+00:00",
   "indicators": {
-    "change24h": 0.039,
-    "vol": 0.164,
+    "change24h": 0.034,
+    "vol": 0.142,
     "fearGreed": 19,
-    "momentum": 0.69,
+    "momentum": 0.588,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3891,
-    "global_sentiment": 0.4149,
-    "combined_sentiment": 0.4098,
-    "confidence": 0.8016,
+    "crypto_sentiment": 0.3854,
+    "global_sentiment": 0.4016,
+    "combined_sentiment": 0.4058,
+    "confidence": 0.8007,
     "counts": {
-      "crypto": 58,
-      "global": 49
+      "crypto": 59,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 61311,
-      "btc_change_24h": 2.11,
-      "eth_price": 1696.35,
-      "eth_change_24h": 5.09,
+      "btc_price": 61470,
+      "btc_change_24h": 1.82,
+      "eth_price": 1702.12,
+      "eth_change_24h": 5.0,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.75,
+      "market_breadth": 0.8,
       "fear_greed": {
         "value": 19,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149584697050.0,
+        "volume_24h": 149399083295.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-16T05:12:45.454130+00:00",
-      "crypto": 0.5181,
-      "global": 0.4531,
-      "combined": 0.5097,
-      "counts": {
-        "crypto": 50,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-06-16T12:59:52.900663+00:00",
       "crypto": 0.6371,
@@ -1008,6 +998,16 @@
         "crypto": 58,
         "global": 49
       }
+    },
+    {
+      "ts": "2026-07-02T21:16:10.772524+00:00",
+      "crypto": 0.3854,
+      "global": 0.4016,
+      "combined": 0.4058,
+      "counts": {
+        "crypto": 59,
+        "global": 47
+      }
     }
   ],
   "drivers": {
@@ -1016,22 +1016,22 @@
         "title": "Mdxhealth Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency",
         "url": "https://finance.yahoo.com/markets/stocks/articles/mdxhealth-announces-receipt-nasdaq-notification-200000578.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7332,
+        "weight": 0.6909,
         "score": 0.6333
+      },
+      {
+        "title": "Global crypto market cap up 1.3% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
         "title": "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
         "url": "https://www.cnbc.com/2026/07/02/stock-market-gains-new-millionaires-ubs.html",
         "source": "CNBC Markets",
-        "weight": 0.5171,
+        "weight": 0.4872,
         "score": 0.8667
-      },
-      {
-        "title": "Spotify Challenges Prediction Markets After Song Chart Rigging",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/spotify-challenges-prediction-markets-after-song-chart-rigging",
-        "source": "Bloomberg Markets",
-        "weight": 0.7317,
-        "score": 0.5833
       }
     ],
     "negative": [
@@ -1039,21 +1039,21 @@
         "title": "Wall Street Bets Rallying Markets Will Absorb Every Market Blow",
         "url": "https://www.bloomberg.com/news/articles/2026-07-02/wall-street-bets-rallying-markets-will-absorb-every-market-blow",
         "source": "Bloomberg Markets",
-        "weight": 0.7588,
+        "weight": 0.715,
         "score": -1.0
       },
       {
-        "title": "Iran’s Floating Oil Hoard Swells",
-        "url": "https://www.bloomberg.com/news/videos/2026-07-02/iran-s-floating-oil-hoard-swells-video",
+        "title": "Private Credit Is Betting on Consumer Debt at a Precarious Time",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-02/private-credit-is-betting-on-consumer-debt-video",
         "source": "Bloomberg Markets",
-        "weight": 0.5808,
-        "score": -0.9333
+        "weight": 0.7793,
+        "score": -0.6667
       },
       {
         "title": "Securitize tokenizes $295 million of its own stock on Solana and Avalanche amid NYSE debut",
         "url": "https://www.coindesk.com/business/2026/07/02/securitize-tokenizes-usd295-million-of-its-own-stock-on-solana-and-avalanche-amid-nyse-debut",
         "source": "CoinDesk",
-        "weight": 0.8166,
+        "weight": 0.7694,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3517059401898622,
-          "price_change_24h": 0.01871
+          "volume_mcap_ratio": 0.35108989361860504,
+          "price_change_24h": 0.0133
         }
       ],
       "momentum_shifts": []
