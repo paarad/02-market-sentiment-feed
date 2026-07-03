@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-03T14:24:08.425313+00:00",
+  "updated_at": "2026-07-03T17:39:59.365560+00:00",
   "indicators": {
-    "change24h": 0.024,
-    "vol": 0.118,
+    "change24h": 0.041,
+    "vol": 0.171,
     "fearGreed": 21,
-    "momentum": 0.424,
+    "momentum": 0.723,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3291,
-    "global_sentiment": 0.3737,
-    "combined_sentiment": 0.3613,
-    "confidence": 0.7241,
+    "crypto_sentiment": 0.3354,
+    "global_sentiment": 0.468,
+    "combined_sentiment": 0.3739,
+    "confidence": 0.7472,
     "counts": {
-      "crypto": 53,
-      "global": 39
+      "crypto": 69,
+      "global": 43
     },
     "market_indicators": {
-      "btc_price": 61766,
-      "btc_change_24h": 0.11,
-      "eth_price": 1730.15,
-      "eth_change_24h": 1.41,
+      "btc_price": 62181,
+      "btc_change_24h": 0.86,
+      "eth_price": 1736.64,
+      "eth_change_24h": 2.45,
       "market_regime": "sideways",
-      "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "regime_strength": 0.8,
+      "market_breadth": 0.9,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 109188929223.0,
+        "volume_24h": 99448041135.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 56.98,
+        "btc_dominance": 57.08,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-17T04:55:11.324255+00:00",
-      "crypto": 0.613,
-      "global": 0.4548,
-      "combined": 0.581,
-      "counts": {
-        "crypto": 41,
-        "global": 35
-      }
-    },
     {
       "ts": "2026-06-17T12:21:51.115693+00:00",
       "crypto": 0.5107,
@@ -1008,53 +998,63 @@
         "crypto": 53,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-07-03T17:39:59.365560+00:00",
+      "crypto": 0.3354,
+      "global": 0.468,
+      "combined": 0.3739,
+      "counts": {
+        "crypto": 69,
+        "global": 43
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin rally hinges on whether the Fed buys into the weak jobs report after bad miss",
-        "url": "https://cryptoslate.com/bitcoin-rally-hinges-on-whether-the-fed-buys-into-the-weak-jobs-report-after-bad-miss/",
-        "source": "CryptoSlate",
-        "weight": 0.5118,
+        "title": "Constellium Up 56.5% YTD & Counting: Buy Now or Wait for a Dip?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/constellium-56-5-ytd-counting-153900845.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6338,
         "score": 0.8667
       },
       {
-        "title": "This 65-Year Dividend Streak Nearly Broke. Here Is Why It Keeps Rising",
-        "url": "https://247wallst.com/investing/2026/07/03/this-65-year-dividend-streak-nearly-broke-here-is-why-it-keeps-rising/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7426,
-        "score": 0.3333
+        "title": "Global crypto market cap up 1.1% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
+        "score": 0.5333
       },
       {
-        "title": "Dow Jones Futures Fall Techs Rise After Tesla, Sandisk, AI Stocks Dive; Apple, Robinhood Flash Buy Signals",
-        "url": "https://finance.yahoo.com/m/c5c7ee9b-1c12-3518-9e81-d4125388c16f/dow-jones-futures-fall-techs.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7417,
-        "score": 0.3333
+        "title": "Bitcoin rally hinges on whether the Fed buys into the weak jobs report after bad miss",
+        "url": "https://cryptoslate.com/bitcoin-rally-hinges-on-whether-the-fed-buys-into-the-weak-jobs-report-after-bad-miss/",
+        "source": "CryptoSlate",
+        "weight": 0.351,
+        "score": 0.8667
       }
     ],
     "negative": [
       {
-        "title": "iCON Infrastructure to Buy Northern Fiber in Rescue Deal",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-03/icon-infrastructure-to-buy-northern-fiber-in-rescue-deal",
-        "source": "Bloomberg Markets",
-        "weight": 0.6216,
-        "score": -0.9333
-      },
-      {
-        "title": "Bitcoin whales send 49,000 BTC to exchanges as $60K rebound shows signs of weakness",
-        "url": "https://cryptoslate.com/bitcoin-whales-send-49000-btc-to-exchanges-as-60k-rebound-shows-signs-of-weakness/",
-        "source": "CryptoSlate",
-        "weight": 0.8686,
+        "title": "Donald Trump says ‘nothing wrong’ with $1.4B crypto windfall while in office",
+        "url": "https://cointelegraph.com/news/donald-trump-crypto-investments-president-profit-office?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.7371,
         "score": -0.6667
       },
       {
-        "title": "Defendant files to dismiss New York lawsuit seeking ownership of 39,069 Bitcoin wallets",
-        "url": "https://cointelegraph.com/news/defendant-dismiss-new-york-lawsuit-bitcoin-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5509,
-        "score": -1.0
+        "title": "ECB’s Nagel Stresses Need for Vigilance at Next Rate Decision",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-03/ecb-s-nagel-stresses-need-for-vigilance-at-next-rate-decision",
+        "source": "Bloomberg Markets",
+        "weight": 0.6723,
+        "score": -0.6667
+      },
+      {
+        "title": "Fear & Greed 21 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
