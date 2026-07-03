@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-02T21:16:10.772524+00:00",
+  "updated_at": "2026-07-03T03:54:40.439585+00:00",
   "indicators": {
-    "change24h": 0.034,
-    "vol": 0.142,
-    "fearGreed": 19,
-    "momentum": 0.588,
+    "change24h": 0.03,
+    "vol": 0.14,
+    "fearGreed": 21,
+    "momentum": 0.525,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3854,
-    "global_sentiment": 0.4016,
-    "combined_sentiment": 0.4058,
-    "confidence": 0.8007,
+    "crypto_sentiment": 0.3939,
+    "global_sentiment": 0.4202,
+    "combined_sentiment": 0.4137,
+    "confidence": 0.7328,
     "counts": {
-      "crypto": 59,
-      "global": 47
+      "crypto": 58,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 61470,
-      "btc_change_24h": 1.82,
-      "eth_price": 1702.12,
-      "eth_change_24h": 5.0,
+      "btc_price": 61297,
+      "btc_change_24h": 0.65,
+      "eth_price": 1703.92,
+      "eth_change_24h": 4.1,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.8,
+      "market_breadth": 0.75,
       "fear_greed": {
-        "value": 19,
+        "value": 21,
         "classification": "Extreme Fear",
         "trend": "stable"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 149399083295.0,
+        "volume_24h": 137345678357.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.08,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-16T12:59:52.900663+00:00",
-      "crypto": 0.6371,
-      "global": 0.5464,
-      "combined": 0.6067,
-      "counts": {
-        "crypto": 41,
-        "global": 40
-      }
-    },
     {
       "ts": "2026-06-16T19:42:10.647811+00:00",
       "crypto": 0.5807,
@@ -1008,61 +998,71 @@
         "crypto": 59,
         "global": 47
       }
+    },
+    {
+      "ts": "2026-07-03T03:54:40.439585+00:00",
+      "crypto": 0.3939,
+      "global": 0.4202,
+      "combined": 0.4137,
+      "counts": {
+        "crypto": 58,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Mdxhealth Announces Receipt of Nasdaq Notification Regarding Minimum Bid Price Deficiency",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mdxhealth-announces-receipt-nasdaq-notification-200000578.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6909,
-        "score": 0.6333
-      },
-      {
-        "title": "Global crypto market cap up 1.3% — rally",
+        "title": "Global crypto market cap up 1.0% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Stock market gains minted nearly 1 million new millionaires in 2025, new UBS report says",
-        "url": "https://www.cnbc.com/2026/07/02/stock-market-gains-new-millionaires-ubs.html",
+        "title": "Venezuela quake toll climbs to 2,595 as damage estimates mount after strongest tremor in a century",
+        "url": "https://www.cnbc.com/2026/07/03/venezuela-earthquakes-death-toll-rises-rescue-efforts-continue.html",
         "source": "CNBC Markets",
-        "weight": 0.4872,
-        "score": 0.8667
+        "weight": 0.7874,
+        "score": 0.3333
+      },
+      {
+        "title": "Traders Brace for Yen Swings as Holiday Intervention Risk Looms",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-03/traders-brace-for-yen-swings-as-holiday-intervention-risk-looms",
+        "source": "Bloomberg Markets",
+        "weight": 0.7795,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "Wall Street Bets Rallying Markets Will Absorb Every Market Blow",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-02/wall-street-bets-rallying-markets-will-absorb-every-market-blow",
-        "source": "Bloomberg Markets",
-        "weight": 0.715,
-        "score": -1.0
+        "title": "Q2 Earnings Season Nears Kickoff: Bank Earnings in Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-season-nears-kickoff-231000245.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4624,
+        "score": -0.9667
       },
       {
-        "title": "Private Credit Is Betting on Consumer Debt at a Precarious Time",
-        "url": "https://www.bloomberg.com/news/videos/2026-07-02/private-credit-is-betting-on-consumer-debt-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.7793,
-        "score": -0.6667
-      },
-      {
-        "title": "Securitize tokenizes $295 million of its own stock on Solana and Avalanche amid NYSE debut",
-        "url": "https://www.coindesk.com/business/2026/07/02/securitize-tokenizes-usd295-million-of-its-own-stock-on-solana-and-avalanche-amid-nyse-debut",
-        "source": "CoinDesk",
-        "weight": 0.7694,
+        "title": "Securitize gains on NYSE debut with tokenized stocks live on Solana, Avalanche",
+        "url": "https://cointelegraph.com/news/securitize-gains-on-nyse-debut-with-tokenized-stock-live-on-solana-avalanche?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.687,
         "score": -0.6333
+      },
+      {
+        "title": "Fear & Greed 21 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.35108989361860504,
-          "price_change_24h": 0.0133
+          "volume_mcap_ratio": 0.32360520782640373,
+          "price_change_24h": -0.00419
         }
       ],
       "momentum_shifts": []
