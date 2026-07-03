@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-03T07:29:27.087399+00:00",
+  "updated_at": "2026-07-03T10:44:42.069480+00:00",
   "indicators": {
-    "change24h": 0.054,
-    "vol": 0.152,
+    "change24h": 0.04,
+    "vol": 0.141,
     "fearGreed": 21,
-    "momentum": 0.939,
+    "momentum": 0.701,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4139,
-    "global_sentiment": 0.3992,
-    "combined_sentiment": 0.427,
-    "confidence": 0.703,
+    "crypto_sentiment": 0.3919,
+    "global_sentiment": 0.4074,
+    "combined_sentiment": 0.4112,
+    "confidence": 0.6958,
     "counts": {
-      "crypto": 58,
-      "global": 41
+      "crypto": 56,
+      "global": 49
     },
     "market_indicators": {
-      "btc_price": 61658,
-      "btc_change_24h": 2.58,
-      "eth_price": 1714.93,
-      "eth_change_24h": 6.21,
+      "btc_price": 61809,
+      "btc_change_24h": 1.03,
+      "eth_price": 1740.17,
+      "eth_change_24h": 5.83,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.95,
+      "market_breadth": 1.0,
       "fear_greed": {
         "value": 21,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 132903482783.0,
+        "volume_24h": 126768099190.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-16T22:02:38.579542+00:00",
-      "crypto": 0.5355,
-      "global": 0.545,
-      "combined": 0.5304,
-      "counts": {
-        "crypto": 40,
-        "global": 38
-      }
-    },
     {
       "ts": "2026-06-16T22:19:36.182374+00:00",
       "crypto": 0.5347,
@@ -1008,61 +998,71 @@
         "crypto": 58,
         "global": 41
       }
+    },
+    {
+      "ts": "2026-07-03T10:44:42.069480+00:00",
+      "crypto": 0.3919,
+      "global": 0.4074,
+      "combined": 0.4112,
+      "counts": {
+        "crypto": 56,
+        "global": 49
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Global crypto market cap up 2.7% — rally",
+        "title": "Global crypto market cap up 1.3% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "FTSE 100 Hits Highest Since March as Rally Extends",
-        "url": "https://www.bloomberg.com/news/live-blog/2026-07-03/ftse-100-live-pound-bonds-gilts-services-pmi-hormuz-ai-stocks-what-s-moving-uk-markets-right-now-markets-today",
+        "title": "Investors Warm to Burnham But Say Long-End Gilts Are ‘Unloved’",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-03/investors-warm-to-burnham-but-say-long-end-gilts-are-unloved",
         "source": "Bloomberg Markets",
-        "weight": 0.6735,
-        "score": 0.5333
+        "weight": 0.7779,
+        "score": 0.3333
       },
       {
-        "title": "Ether and solana extend gains as a short squeeze lifts bitcoin toward $62,000",
-        "url": "https://www.coindesk.com/markets/2026/07/03/ether-and-solana-extend-gains-as-a-short-squeeze-lifts-bitcoin-toward-usd62-000",
+        "title": "Live updates: Bitcoin rises above $61,000 as the red hot semiconductor trade starts to fade",
+        "url": "https://www.coindesk.com/tech/2026/07/03/live-updates-more-bitcoin-is-now-held-at-a-loss-than-at-a-profit",
         "source": "CoinDesk",
-        "weight": 0.7778,
+        "weight": 0.6557,
         "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "ICICI Bank Mulls First Benchmark Dollar Bond Sale Since 2017",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-03/icici-bank-mulls-first-benchmark-dollar-bond-sale-since-2017",
-        "source": "Bloomberg Markets",
-        "weight": 0.6298,
+        "title": "Bitcoin’s 14% Q2 drop came as stablecoin market contracts for first time since 2023",
+        "url": "https://cryptoslate.com/bitcoins-14-q2-drop-came-as-stablecoin-market-contracts-for-first-time-since-2023/",
+        "source": "CryptoSlate",
+        "weight": 0.7092,
         "score": -0.9667
       },
       {
-        "title": "Citi Says Oil May Slump to $60 as Hormuz Shock Fades Away",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-03/citi-says-oil-may-slump-to-60-as-the-hormuz-shock-fades-away",
-        "source": "Bloomberg Markets",
-        "weight": 0.6309,
-        "score": -0.8667
+        "title": "Christine Lagarde leaves door open to early ECB exit, as she mulls French politics",
+        "url": "https://www.cnbc.com/2026/07/03/christine-lagarde-ecb-france-election.html",
+        "source": "CNBC Markets",
+        "weight": 0.7845,
+        "score": -0.6667
       },
       {
-        "title": "AI Boom Cements HK's Role as Gateway to China | The China Show | 7/3/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-07-03/the-china-show-7-3-2026-video",
+        "title": "ECB Is in ‘Good Position’ After June Rate Hike, Moulin Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-03/ecb-is-in-good-position-after-june-rate-hike-moulin-says",
         "source": "Bloomberg Markets",
-        "weight": 0.705,
-        "score": -0.6333
+        "weight": 0.7534,
+        "score": -0.6667
       }
     ],
     "market_movers": {
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.31598806500221893,
-          "price_change_24h": 0.0135
+          "volume_mcap_ratio": 0.30269739154690445,
+          "price_change_24h": 0.02301
         }
       ],
       "momentum_shifts": []
