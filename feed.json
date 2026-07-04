@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-04T10:18:37.677062+00:00",
+  "updated_at": "2026-07-04T13:48:58.928764+00:00",
   "indicators": {
-    "change24h": 0.03,
-    "vol": 0.123,
+    "change24h": 0.018,
+    "vol": 0.117,
     "fearGreed": 22,
-    "momentum": 0.521,
+    "momentum": 0.318,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.3635,
-    "global_sentiment": 0.4131,
-    "combined_sentiment": 0.3904,
-    "confidence": 0.5639,
+    "crypto_sentiment": 0.3624,
+    "global_sentiment": 0.3848,
+    "combined_sentiment": 0.3872,
+    "confidence": 0.6186,
     "counts": {
       "crypto": 51,
-      "global": 44
+      "global": 36
     },
     "market_indicators": {
-      "btc_price": 62418,
-      "btc_change_24h": 1.31,
-      "eth_price": 1758.53,
-      "eth_change_24h": 1.58,
+      "btc_price": 62500,
+      "btc_change_24h": 0.74,
+      "eth_price": 1761.33,
+      "eth_change_24h": 0.9,
       "market_regime": "sideways",
       "regime_strength": 1.0,
-      "market_breadth": 0.85,
+      "market_breadth": 0.75,
       "fear_greed": {
         "value": 22,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 90200566425.0,
+        "volume_24h": 84298424242.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.0,
+        "btc_dominance": 56.98,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-18T11:54:13.205844+00:00",
-      "crypto": 0.5195,
-      "global": 0.4867,
-      "combined": 0.5135,
-      "counts": {
-        "crypto": 43,
-        "global": 43
-      }
-    },
     {
       "ts": "2026-06-18T15:41:35.004457+00:00",
       "crypto": 0.4519,
@@ -1008,33 +998,50 @@
         "crypto": 51,
         "global": 44
       }
+    },
+    {
+      "ts": "2026-07-04T13:48:58.928764+00:00",
+      "crypto": 0.3624,
+      "global": 0.3848,
+      "combined": 0.3872,
+      "counts": {
+        "crypto": 51,
+        "global": 36
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SOL rallies as Solana memecoins, prediction market activity surge: Are bulls back?",
-        "url": "https://cointelegraph.com/markets/sol-rallies-as-solana-memecoins-prediction-market-activity-surge-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.2211,
-        "score": 1.0
+        "title": "Robinhood, Dell Lead 5 Stocks Near Buy Points With AI Tailwinds",
+        "url": "https://finance.yahoo.com/m/7e3a9a73-015e-3acf-8edb-ce6291bde857/robinhood%2C-dell-lead-5-stocks.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6486,
+        "score": 0.6667
       },
       {
-        "title": "Crypto exchanges are selling stock options and tokenized stocks but users may not own what they think",
-        "url": "https://cryptoslate.com/crypto-exchanges-are-selling-stock-options-and-tokenized-stocks-but-users-may-not-own-what-they-think/",
+        "title": "Reported Riot 500 BTC custody transfer exposes Bitcoin miners’ AI funding pressure",
+        "url": "https://cryptoslate.com/reported-riot-500-btc-custody-transfer-exposes-bitcoin-miners-ai-funding-pressure/",
         "source": "CryptoSlate",
-        "weight": 0.6094,
+        "weight": 0.8191,
         "score": 0.3333
       },
       {
-        "title": "Ebola Vaccine Trials Could Start This Year",
-        "url": "https://www.bloomberg.com/news/videos/2026-07-04/ebola-vaccine-trials-could-start-this-year",
-        "source": "Bloomberg Markets",
-        "weight": 0.4334,
+        "title": "The World Cup sends prediction market volumes soaring to record highs",
+        "url": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html",
+        "source": "CNBC Markets",
+        "weight": 0.7197,
         "score": 0.3333
       }
     ],
     "negative": [
+      {
+        "title": "Vanguard S&P 500 Growth vs. Invesco SmallCap Revenue: How Do These ETFs Stack Up?",
+        "url": "https://www.fool.com/coverage/etfs/2026/07/04/vanguard-sp-500-growth-etf-vs-invesco-smallcap-revenue-etf/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7141,
+        "score": -0.6333
+      },
       {
         "title": "Fear & Greed 22 (Fear) — bearish",
         "url": "https://alternative.me/crypto/fear-and-greed-index/",
@@ -1043,18 +1050,11 @@
         "score": -0.5333
       },
       {
-        "title": "Oil Terminal in Russia’s St. Petersburg Comes Under Attack",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-04/oil-terminal-in-russia-s-st-petersburg-comes-under-drone-attack",
-        "source": "Bloomberg Markets",
-        "weight": 0.6215,
+        "title": "State Street or iShares: Which Consumer Staples ETF Offers Better Value?",
+        "url": "https://www.fool.com/coverage/etfs/2026/07/04/state-street-or-ishares-which-consumer-staples-etf-offers-better-value/?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6499,
         "score": -0.6333
-      },
-      {
-        "title": "Bitcoin profit and loss ratio falls to 43-month low",
-        "url": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4376,
-        "score": -0.5
       }
     ],
     "market_movers": {
