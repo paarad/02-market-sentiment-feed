@@ -1,29 +1,29 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-04T03:48:09.635709+00:00",
+  "updated_at": "2026-07-04T06:52:38.822341+00:00",
   "indicators": {
-    "change24h": 0.049,
-    "vol": 0.181,
+    "change24h": 0.04,
+    "vol": 0.159,
     "fearGreed": 22,
-    "momentum": 0.862,
+    "momentum": 0.708,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4107,
-    "global_sentiment": 0.5092,
-    "combined_sentiment": 0.4338,
-    "confidence": 0.6347,
+    "crypto_sentiment": 0.3843,
+    "global_sentiment": 0.4938,
+    "combined_sentiment": 0.4127,
+    "confidence": 0.6253,
     "counts": {
-      "crypto": 57,
-      "global": 48
+      "crypto": 55,
+      "global": 47
     },
     "market_indicators": {
-      "btc_price": 62639,
-      "btc_change_24h": 2.19,
-      "eth_price": 1753.29,
-      "eth_change_24h": 2.93,
+      "btc_price": 62449,
+      "btc_change_24h": 1.3,
+      "eth_price": 1752.78,
+      "eth_change_24h": 2.23,
       "market_regime": "sideways",
       "regime_strength": 0.8,
       "market_breadth": 0.9,
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 97613822031.0,
+        "volume_24h": 94820672911.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.11,
+        "btc_dominance": 57.03,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-17T22:06:33.719946+00:00",
-      "crypto": 0.4526,
-      "global": 0.4441,
-      "combined": 0.4598,
-      "counts": {
-        "crypto": 55,
-        "global": 34
-      }
-    },
     {
       "ts": "2026-06-18T04:46:09.807076+00:00",
       "crypto": 0.4486,
@@ -1008,30 +998,40 @@
         "crypto": 57,
         "global": 48
       }
+    },
+    {
+      "ts": "2026-07-04T06:52:38.822341+00:00",
+      "crypto": 0.3843,
+      "global": 0.4938,
+      "combined": 0.4127,
+      "counts": {
+        "crypto": 55,
+        "global": 47
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "SOL rallies as Solana memecoins, prediction market activity surge: Are bulls back?",
-        "url": "https://cointelegraph.com/markets/sol-rallies-as-solana-memecoins-prediction-market-activity-surge-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.4689,
-        "score": 1.0
-      },
-      {
-        "title": "Global crypto market cap up 1.9% — rally",
+        "title": "Global crypto market cap up 1.3% — rally",
         "url": "https://www.coingecko.com/en/global_charts",
         "source": "CoinGecko Global",
         "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "REE Automotive Announces Receipt of Nasdaq Delisting Notice",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ree-automotive-announces-receipt-nasdaq-183700168.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.2768,
-        "score": 0.9667
+        "title": "SOL rallies as Solana memecoins, prediction market activity surge: Are bulls back?",
+        "url": "https://cointelegraph.com/markets/sol-rallies-as-solana-memecoins-prediction-market-activity-surge-are-bulls-back?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.3287,
+        "score": 1.0
+      },
+      {
+        "title": "Ebola Vaccine Trials Could Start This Year",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-04/ebola-vaccine-trials-could-start-this-year",
+        "source": "Bloomberg Markets",
+        "weight": 0.6444,
+        "score": 0.3333
       }
     ],
     "negative": [
@@ -1043,18 +1043,18 @@
         "score": -0.5333
       },
       {
+        "title": "Bitcoin profit and loss ratio falls to 43-month low",
+        "url": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "weight": 0.6506,
+        "score": -0.5
+      },
+      {
         "title": "Zuckerberg: Meta’s AI reorganization goals 'haven’t come to fruition’",
         "url": "https://www.thestreet.com/investing/stocks/zuckerberg-meta-ai-reorganization-goals-havent-come-to-fruition?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6922,
+        "weight": 0.4853,
         "score": -0.6
-      },
-      {
-        "title": "VBR vs. IJJ: Small-Cap or Mid-Cap Value -- Which Is the Better ETF Buy?",
-        "url": "https://www.fool.com/coverage/etfs/2026/07/03/vbr-vs-ijj-small-cap-or-mid-cap-value-which-is-the-better-etf-buy/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.4058,
-        "score": -0.9667
       }
     ],
     "market_movers": {
