@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-04T21:05:23.213610+00:00",
+  "updated_at": "2026-07-05T04:06:36.398441+00:00",
   "indicators": {
-    "change24h": 0.009,
-    "vol": 0.102,
-    "fearGreed": 22,
-    "momentum": 0.15,
+    "change24h": -0.004,
+    "vol": 0.142,
+    "fearGreed": 23,
+    "momentum": -0.071,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4187,
-    "global_sentiment": 0.3897,
-    "combined_sentiment": 0.4298,
-    "confidence": 0.6413,
+    "crypto_sentiment": 0.4787,
+    "global_sentiment": 0.4704,
+    "combined_sentiment": 0.4816,
+    "confidence": 0.5602,
     "counts": {
-      "crypto": 48,
-      "global": 33
+      "crypto": 49,
+      "global": 32
     },
     "market_indicators": {
-      "btc_price": 63192,
-      "btc_change_24h": 0.7,
-      "eth_price": 1786.03,
-      "eth_change_24h": 1.14,
+      "btc_price": 62696,
+      "btc_change_24h": 0.15,
+      "eth_price": 1759.62,
+      "eth_change_24h": 0.36,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.7,
+      "market_breadth": 0.3,
       "fear_greed": {
-        "value": 22,
+        "value": 23,
         "classification": "Extreme Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 77739687467.0,
+        "volume_24h": 76275386528.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.05,
+        "btc_dominance": 57.11,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-18T22:20:23.292384+00:00",
-      "crypto": 0.3409,
-      "global": 0.5175,
-      "combined": 0.3821,
-      "counts": {
-        "crypto": 38,
-        "global": 46
-      }
-    },
     {
       "ts": "2026-06-19T05:05:50.950750+00:00",
       "crypto": 0.3095,
@@ -1008,53 +998,63 @@
         "crypto": 48,
         "global": 33
       }
+    },
+    {
+      "ts": "2026-07-05T04:06:36.398441+00:00",
+      "crypto": 0.4787,
+      "global": 0.4704,
+      "combined": 0.4816,
+      "counts": {
+        "crypto": 49,
+        "global": 32
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Coney Island Boardwalk Set for $1 Billion Upgrade",
-        "url": "https://www.bloomberg.com/news/videos/2026-07-04/coney-island-boardwalk-set-for-1-billion-upgrade-video",
+        "title": "Investors Looking for Shelter From AI Storm Are Turning to India",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-05/investors-looking-for-shelter-from-ai-storm-are-turning-to-india",
         "source": "Bloomberg Markets",
-        "weight": 0.5207,
-        "score": 0.6667
+        "weight": 0.6269,
+        "score": 0.8667
       },
       {
-        "title": "Kalshi hits record June trading volume as World Cup fuels prediction markets",
-        "url": "https://cointelegraph.com/news/world-cup-drives-prediction-markets-to-record-june-trading-volumes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin’s weekend rally faces a $66k trap as traders still hedge for another drop",
+        "url": "https://cryptoslate.com/bitcoins-weekend-rally-faces-a-66000-trap-as-traders-still-hedge-for-another-drop/",
+        "source": "CryptoSlate",
+        "weight": 0.4498,
+        "score": 0.7
+      },
+      {
+        "title": "Moonbeam to pivot from Polkadot to Base, unveils AI agent framework",
+        "url": "https://cointelegraph.com/news/moonbeam-pivots-from-polkadot-to-base-unveils-ai-agent-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.4869,
-        "score": 0.6667
-      },
-      {
-        "title": "Perplexity Co-Founder: AI Safety Is an Excuse to Lock Down Frontier",
-        "url": "https://decrypt.co/372755/perplexity-co-founder-ai-safety-excuse-lock-down-frontier",
-        "source": "Decrypt",
-        "weight": 0.4788,
-        "score": 0.6667
+        "weight": 0.5484,
+        "score": 0.3333
       }
     ],
     "negative": [
       {
-        "title": "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
-        "url": "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk",
-        "source": "CoinDesk",
-        "weight": 0.6998,
-        "score": -1.0
+        "title": "Fear & Greed 23 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
       },
       {
-        "title": "Nvidia Stock Is Nearly Flat for 2026. Time to Cash Out, or Load Up on Shares?",
-        "url": "https://www.fool.com/investing/2026/07/04/nvidia-stock-is-flat-for-2026-time-to-cash-out-or/?.tsrc=rss",
+        "title": "Netflix Is Down 21% This Year. History Says This Is the Time to Buy.",
+        "url": "https://www.fool.com/investing/2026/07/04/netflix-is-down-21-this-year-history-says-this-is/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7766,
-        "score": -0.6333
+        "weight": 0.6515,
+        "score": -0.6
       },
       {
-        "title": "Which Pharmaceutical ETF Is Better, VanEck's PPH or Invesco's PJP?",
-        "url": "https://www.fool.com/coverage/etfs/2026/07/04/which-pharmaceutical-etf-is-better-vaneck-s-pph-or-invesco-s-pjp/?.tsrc=rss",
+        "title": "Which Is the Better High Dividend ETF, iShares' HDV or Fidelity's FDVV?",
+        "url": "https://www.fool.com/coverage/etfs/2026/07/04/which-is-the-better-high-dividend-etf-ishares-hdv-or-fidelity-s-fdvv/?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7488,
-        "score": -0.6333
+        "weight": 0.3692,
+        "score": -0.9667
       }
     ],
     "market_movers": {
