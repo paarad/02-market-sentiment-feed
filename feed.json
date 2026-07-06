@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-06T18:15:25.805126+00:00",
+  "updated_at": "2026-07-06T21:14:55.996243+00:00",
   "indicators": {
-    "change24h": -0.002,
-    "vol": 0.101,
+    "change24h": 0.013,
+    "vol": 0.08,
     "fearGreed": 24,
-    "momentum": -0.041,
+    "momentum": 0.219,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4436,
-    "global_sentiment": 0.5338,
-    "combined_sentiment": 0.4605,
-    "confidence": 0.7305,
+    "crypto_sentiment": 0.4447,
+    "global_sentiment": 0.469,
+    "combined_sentiment": 0.4559,
+    "confidence": 0.7351,
     "counts": {
-      "crypto": 51,
-      "global": 42
+      "crypto": 52,
+      "global": 39
     },
     "market_indicators": {
-      "btc_price": 63649,
-      "btc_change_24h": 1.67,
-      "eth_price": 1787.69,
-      "eth_change_24h": 0.59,
+      "btc_price": 64304,
+      "btc_change_24h": 2.57,
+      "eth_price": 1819.9,
+      "eth_change_24h": 2.72,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.7,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 135776187676.0,
+        "volume_24h": 143857724465.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.27,
+        "btc_dominance": 57.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-20T17:40:08.620828+00:00",
-      "crypto": 0.2,
-      "global": 0.2436,
-      "combined": 0.2054,
-      "counts": {
-        "crypto": 40,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-06-20T20:55:59.150861+00:00",
       "crypto": 0.3471,
@@ -1008,52 +998,62 @@
         "crypto": 51,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-07-06T21:14:55.996243+00:00",
+      "crypto": 0.4447,
+      "global": 0.469,
+      "combined": 0.4559,
+      "counts": {
+        "crypto": 52,
+        "global": 39
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Bitcoin needs trillions to go parabolic again as ETF demand fades",
-        "url": "https://cryptoslate.com/bitcoin-needs-trillions-to-go-parabolic-again-as-etf-demand-fades/",
-        "source": "CryptoSlate",
-        "weight": 0.6498,
-        "score": 0.8667
+        "title": "Broadcom, Apple Extend Chips Partnership to 2031",
+        "url": "https://www.bloomberg.com/news/videos/2026-07-06/broadcom-apple-extend-chips-partnership-to-2031-video",
+        "source": "Bloomberg Markets",
+        "weight": 0.6846,
+        "score": 0.9167
       },
       {
-        "title": "Stock Market Today: Dow Up As This AI Stock Tests Entry; Microsoft Drops Amid Job Cutbacks (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/e4816774-35f0-3682-b37a-8d60e0419f0f/stock-market-today%3A-dow-up-as.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7827,
+        "title": "Global crypto market cap up 1.2% — rally",
+        "url": "https://www.coingecko.com/en/global_charts",
+        "source": "CoinGecko Global",
+        "weight": 0.8,
         "score": 0.5333
       },
       {
-        "title": "Rivian Stock Soars on Target Price Hike. There’s Just One Problem.",
-        "url": "https://finance.yahoo.com/m/54ffb743-8605-32de-b387-08750b23695c/rivian-stock-soars-on-target.html?.tsrc=rss",
+        "title": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Makes This Boast (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/e4816774-35f0-3682-b37a-8d60e0419f0f/stock-market-today%3A-dow-up%2C.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.6879,
-        "score": 0.5
+        "weight": 0.7535,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Sports-Related Deals on the Rise, Says William Blair’s IB Head",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-06/sports-related-deals-on-the-rise-says-william-blair-s-ib-head",
-        "source": "Bloomberg Markets",
-        "weight": 0.6936,
-        "score": -0.9667
-      },
-      {
-        "title": "DeFi protocol Summer.fi halts Lazy Summer vaults after $6 million exploit",
-        "url": "https://www.coindesk.com/web3/2026/07/06/defi-protocol-summer-fi-halts-lazy-summer-vaults-after-usd6-million-exploit",
-        "source": "CoinDesk",
-        "weight": 0.5909,
+        "title": "Solana Meme Coin Bonk Treasury Drained of $20 Million in 'Malicious' Governance Attack",
+        "url": "https://decrypt.co/372862/solana-meme-coin-bonk-treasury-drained-20-million",
+        "source": "Decrypt",
+        "weight": 0.8209,
         "score": -0.8333
       },
       {
-        "title": "Sector Update: Energy Stocks Mixed Monday Afternoon",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-monday-175411874.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7679,
+        "title": "Distressed Funds Explore Swap of Strategy Holdings Amid Rout",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-06/distressed-funds-explore-a-swap-of-strategy-holdings-after-rout",
+        "source": "Bloomberg Markets",
+        "weight": 0.6225,
+        "score": -0.9667
+      },
+      {
+        "title": "KKR’s Private Credit Clients Slow Down Their Redemption Requests",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-06/kkr-s-private-credit-clients-slow-down-their-redemption-requests",
+        "source": "Bloomberg Markets",
+        "weight": 0.7223,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.31728514208646014,
-          "price_change_24h": 0.00762
+          "volume_mcap_ratio": 0.33634188704567514,
+          "price_change_24h": 0.0159
         }
       ],
       "momentum_shifts": []
