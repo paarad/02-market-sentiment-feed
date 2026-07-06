@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-06T12:10:14.309611+00:00",
+  "updated_at": "2026-07-06T18:15:25.805126+00:00",
   "indicators": {
-    "change24h": 0.0,
-    "vol": 0.5,
+    "change24h": -0.002,
+    "vol": 0.101,
     "fearGreed": 24,
-    "momentum": 0.0,
-    "regime": "unknown",
+    "momentum": -0.041,
+    "regime": "sideways",
     "activity": 0.6,
-    "dominance": "mixed"
+    "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4495,
-    "global_sentiment": 0.5129,
-    "combined_sentiment": 0.4632,
-    "confidence": 0.6889,
+    "crypto_sentiment": 0.4436,
+    "global_sentiment": 0.5338,
+    "combined_sentiment": 0.4605,
+    "confidence": 0.7305,
     "counts": {
-      "crypto": 55,
-      "global": 37
+      "crypto": 51,
+      "global": 42
     },
     "market_indicators": {
-      "btc_price": 61949,
-      "btc_change_24h": -0.98,
-      "eth_price": 1740.0,
-      "eth_change_24h": -1.05,
-      "market_regime": "unknown",
-      "regime_strength": 0.0,
-      "market_breadth": 0,
+      "btc_price": 63649,
+      "btc_change_24h": 1.67,
+      "eth_price": 1787.69,
+      "eth_change_24h": 0.59,
+      "market_regime": "sideways",
+      "regime_strength": 0.8,
+      "market_breadth": 0.6,
       "fear_greed": {
         "value": 24,
         "classification": "Extreme Fear",
@@ -34,13 +34,13 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 85826346949.0,
-        "high_activity_coins": 0
+        "volume_24h": 135776187676.0,
+        "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 0,
-        "alt_season_score": 0,
-        "season": "unknown"
+        "btc_dominance": 57.27,
+        "alt_season_score": 0.0,
+        "season": "btc_dominance"
       },
       "data_quality": {
         "sources": 2,
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-20T14:19:44.632780+00:00",
-      "crypto": 0.216,
-      "global": 0.3008,
-      "combined": 0.2704,
-      "counts": {
-        "crypto": 40,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-20T17:40:08.620828+00:00",
       "crypto": 0.2,
@@ -1008,57 +998,73 @@
         "crypto": 55,
         "global": 37
       }
+    },
+    {
+      "ts": "2026-07-06T18:15:25.805126+00:00",
+      "crypto": 0.4436,
+      "global": 0.5338,
+      "combined": 0.4605,
+      "counts": {
+        "crypto": 51,
+        "global": 42
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Dow Jones Futures: Nasdaq Set To Reclaim Key Level; Apple, SpaceX, Sandisk, Robinhood In Focus",
-        "url": "https://finance.yahoo.com/m/ec56cf3b-dedb-33cd-b5a6-808b1a4fa8f8/dow-jones-futures%3A-nasdaq-set.html?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.7927,
-        "score": 0.6667
-      },
-      {
-        "title": "Tech Set to Rebound as AI Leadership Faces Fresh Tests",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-06/tech-set-to-rebound-as-ai-leadership-faces-fresh-tests",
-        "source": "Bloomberg Markets",
-        "weight": 0.771,
-        "score": 0.6667
-      },
-      {
-        "title": "XRP rises 3% as $1.14 breakout turns into support test",
-        "url": "https://www.coindesk.com/markets/2026/07/06/xrp-rises-3-as-usd1-14-breakout-turns-into-support-test",
-        "source": "CoinDesk",
-        "weight": 0.5395,
+        "title": "Bitcoin needs trillions to go parabolic again as ETF demand fades",
+        "url": "https://cryptoslate.com/bitcoin-needs-trillions-to-go-parabolic-again-as-etf-demand-fades/",
+        "source": "CryptoSlate",
+        "weight": 0.6498,
         "score": 0.8667
+      },
+      {
+        "title": "Stock Market Today: Dow Up As This AI Stock Tests Entry; Microsoft Drops Amid Job Cutbacks (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/e4816774-35f0-3682-b37a-8d60e0419f0f/stock-market-today%3A-dow-up-as.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7827,
+        "score": 0.5333
+      },
+      {
+        "title": "Rivian Stock Soars on Target Price Hike. There’s Just One Problem.",
+        "url": "https://finance.yahoo.com/m/54ffb743-8605-32de-b387-08750b23695c/rivian-stock-soars-on-target.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.6879,
+        "score": 0.5
       }
     ],
     "negative": [
       {
-        "title": "Dormant $1.9M Bitcoin tied to New York lawsuit moves after nearly 15 years",
-        "url": "https://cointelegraph.com/news/dormant-bitcoin-new-york-lawsuit-moved-15-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "weight": 0.5767,
-        "score": -1.0
-      },
-      {
-        "title": "Hungary Selling First Eurobond to Harvest Post-Orban Rally",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-06/hungary-selling-first-eurobond-to-capitalize-on-post-orban-rally",
+        "title": "Sports-Related Deals on the Rise, Says William Blair’s IB Head",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-06/sports-related-deals-on-the-rise-says-william-blair-s-ib-head",
         "source": "Bloomberg Markets",
-        "weight": 0.5481,
+        "weight": 0.6936,
         "score": -0.9667
       },
       {
-        "title": "Morgan Stanley’s Wilson Sees Rotation From Chips to Hyperscalers",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-06/morgan-stanley-s-wilson-sees-rotation-from-chips-to-hyperscalers",
-        "source": "Bloomberg Markets",
-        "weight": 0.5627,
-        "score": -0.9333
+        "title": "DeFi protocol Summer.fi halts Lazy Summer vaults after $6 million exploit",
+        "url": "https://www.coindesk.com/web3/2026/07/06/defi-protocol-summer-fi-halts-lazy-summer-vaults-after-usd6-million-exploit",
+        "source": "CoinDesk",
+        "weight": 0.5909,
+        "score": -0.8333
+      },
+      {
+        "title": "Sector Update: Energy Stocks Mixed Monday Afternoon",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-monday-175411874.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7679,
+        "score": -0.6333
       }
     ],
     "market_movers": {
-      "high_activity": [],
+      "high_activity": [
+        {
+          "symbol": "USDT",
+          "volume_mcap_ratio": 0.31728514208646014,
+          "price_change_24h": 0.00762
+        }
+      ],
       "momentum_shifts": []
     }
   },
