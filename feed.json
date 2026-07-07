@@ -1,44 +1,44 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-06T21:40:56.119766+00:00",
+  "updated_at": "2026-07-07T04:03:15.860023+00:00",
   "indicators": {
-    "change24h": 0.003,
-    "vol": 0.072,
-    "fearGreed": 24,
-    "momentum": 0.06,
+    "change24h": -0.017,
+    "vol": 0.075,
+    "fearGreed": 27,
+    "momentum": -0.293,
     "regime": "sideways",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4451,
-    "global_sentiment": 0.4753,
-    "combined_sentiment": 0.4567,
-    "confidence": 0.7295,
+    "crypto_sentiment": 0.4185,
+    "global_sentiment": 0.5388,
+    "combined_sentiment": 0.4421,
+    "confidence": 0.668,
     "counts": {
-      "crypto": 52,
-      "global": 42
+      "crypto": 51,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 64153,
-      "btc_change_24h": 1.94,
-      "eth_price": 1810.67,
-      "eth_change_24h": 1.71,
+      "btc_price": 63134,
+      "btc_change_24h": -0.23,
+      "eth_price": 1769.76,
+      "eth_change_24h": -0.52,
       "market_regime": "sideways",
       "regime_strength": 0.8,
-      "market_breadth": 0.6,
+      "market_breadth": 0.35,
       "fear_greed": {
-        "value": 24,
-        "classification": "Extreme Fear",
+        "value": 27,
+        "classification": "Fear",
         "trend": "improving"
       },
       "activity": {
         "level": "low",
-        "volume_24h": 144403706169.0,
+        "volume_24h": 138012704126.0,
         "high_activity_coins": 1
       },
       "dominance": {
-        "btc_dominance": 57.29,
+        "btc_dominance": 57.2,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-20T21:23:31.527385+00:00",
-      "crypto": 0.4322,
-      "global": 0.2635,
-      "combined": 0.4294,
-      "counts": {
-        "crypto": 41,
-        "global": 42
-      }
-    },
     {
       "ts": "2026-06-21T05:02:20.492201+00:00",
       "crypto": 0.4542,
@@ -1008,52 +998,62 @@
         "crypto": 52,
         "global": 42
       }
+    },
+    {
+      "ts": "2026-07-07T04:03:15.860023+00:00",
+      "crypto": 0.4185,
+      "global": 0.5388,
+      "combined": 0.4421,
+      "counts": {
+        "crypto": 51,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Broadcom, Apple Extend Chips Partnership to 2031",
-        "url": "https://www.bloomberg.com/news/videos/2026-07-06/broadcom-apple-extend-chips-partnership-to-2031-video",
-        "source": "Bloomberg Markets",
-        "weight": 0.6512,
-        "score": 0.9167
-      },
-      {
-        "title": "Stock Market Today, July 6: TeraWulf Gains on $19 Billion Anthropic AI Lease Deal",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/07/06/stock-market-today-july-6-terawulf-gains-on-usd19-billion-anthropic-ai-lease-deal/?.tsrc=rss",
+        "title": "Review & Preview: Monday Mojo",
+        "url": "https://finance.yahoo.com/m/6c4eb841-30b0-329a-bce4-72ae91c78962/review-%26-preview%3A-monday-mojo.html?.tsrc=rss",
         "source": "Yahoo Finance",
-        "weight": 0.7599,
-        "score": 0.5833
+        "weight": 0.496,
+        "score": 1.0
       },
       {
-        "title": "Global crypto market cap up 1.1% — rally",
-        "url": "https://www.coingecko.com/en/global_charts",
-        "source": "CoinGecko Global",
-        "weight": 0.8,
-        "score": 0.5333
+        "title": "Samsung’s Record Profit Fails to Impress After AI Chip Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-06/samsung-scores-profit-beat-due-to-runaway-demand-for-ai-memory",
+        "source": "Bloomberg Markets",
+        "weight": 0.4351,
+        "score": 1.0
+      },
+      {
+        "title": "Why Enovis (ENOV) Stock Is Trading Up Today",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-enovis-enov-stock-trading-231601221.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.4601,
+        "score": 0.6667
       }
     ],
     "negative": [
       {
-        "title": "Solana Meme Coin Bonk Treasury Drained of $20 Million in 'Malicious' Governance Attack",
-        "url": "https://decrypt.co/372862/solana-meme-coin-bonk-treasury-drained-20-million",
-        "source": "Decrypt",
-        "weight": 0.7809,
-        "score": -0.8333
-      },
-      {
-        "title": "Distressed Funds Explore Swap of Strategy Holdings Amid Rout",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-06/distressed-funds-explore-a-swap-of-strategy-holdings-after-rout",
+        "title": "Gold Slips for Second Day as Hormuz Tensions Fan Inflation Fears",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-06/gold-steadies-as-traders-look-to-fed-for-interest-rate-outlook",
         "source": "Bloomberg Markets",
-        "weight": 0.5921,
+        "weight": 0.4629,
         "score": -0.9667
       },
       {
-        "title": "KKR’s Private Credit Clients Slow Down Their Redemption Requests",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-06/kkr-s-private-credit-clients-slow-down-their-redemption-requests",
+        "title": "Fear & Greed 27 (Fear) — bearish",
+        "url": "https://alternative.me/crypto/fear-and-greed-index/",
+        "source": "Fear&Greed",
+        "weight": 0.8,
+        "score": -0.5333
+      },
+      {
+        "title": "LG Energy Profit Misses Estimates as Slow EV Demand Hits",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-06/lg-energy-profit-misses-estimates-amid-slow-ev-demand",
         "source": "Bloomberg Markets",
-        "weight": 0.687,
+        "weight": 0.498,
         "score": -0.6333
       }
     ],
@@ -1061,8 +1061,8 @@
       "high_activity": [
         {
           "symbol": "USDT",
-          "volume_mcap_ratio": 0.3392403794111256,
-          "price_change_24h": 0.02505
+          "volume_mcap_ratio": 0.324488108711581,
+          "price_change_24h": 0.02568
         }
       ],
       "momentum_shifts": []
