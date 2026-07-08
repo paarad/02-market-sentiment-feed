@@ -1,32 +1,32 @@
 {
   "version": "v1",
-  "updated_at": "2026-07-08T17:44:49.011190+00:00",
+  "updated_at": "2026-07-08T20:47:02.172215+00:00",
   "indicators": {
-    "change24h": -0.062,
-    "vol": 0.164,
+    "change24h": -0.049,
+    "vol": 0.136,
     "fearGreed": 20,
-    "momentum": -1.0,
+    "momentum": -0.86,
     "regime": "bear",
     "activity": 0.6,
     "dominance": "btc"
   },
   "summary": {
-    "crypto_sentiment": 0.4312,
-    "global_sentiment": 0.4286,
-    "combined_sentiment": 0.4425,
-    "confidence": 0.7946,
+    "crypto_sentiment": 0.4374,
+    "global_sentiment": 0.4413,
+    "combined_sentiment": 0.4482,
+    "confidence": 0.7935,
     "counts": {
-      "crypto": 54,
-      "global": 39
+      "crypto": 56,
+      "global": 38
     },
     "market_indicators": {
-      "btc_price": 62216,
-      "btc_change_24h": -2.99,
-      "eth_price": 1739.45,
-      "eth_change_24h": -3.65,
+      "btc_price": 62139,
+      "btc_change_24h": -2.27,
+      "eth_price": 1736.35,
+      "eth_change_24h": -2.51,
       "market_regime": "bear",
       "regime_strength": 0.6,
-      "market_breadth": 0.1,
+      "market_breadth": 0.15,
       "fear_greed": {
         "value": 20,
         "classification": "Extreme Fear",
@@ -34,11 +34,11 @@
       },
       "activity": {
         "level": "low",
-        "volume_24h": 111700299584.0,
+        "volume_24h": 108203601880.0,
         "high_activity_coins": 0
       },
       "dominance": {
-        "btc_dominance": 57.3,
+        "btc_dominance": 57.31,
         "alt_season_score": 0.0,
         "season": "btc_dominance"
       },
@@ -49,16 +49,6 @@
     }
   },
   "history": [
-    {
-      "ts": "2026-06-22T22:08:51.404468+00:00",
-      "crypto": 0.4036,
-      "global": 0.3268,
-      "combined": 0.4132,
-      "counts": {
-        "crypto": 39,
-        "global": 41
-      }
-    },
     {
       "ts": "2026-06-23T04:08:06.955568+00:00",
       "crypto": 0.4149,
@@ -1008,53 +998,63 @@
         "crypto": 54,
         "global": 39
       }
+    },
+    {
+      "ts": "2026-07-08T20:47:02.172215+00:00",
+      "crypto": 0.4374,
+      "global": 0.4413,
+      "combined": 0.4482,
+      "counts": {
+        "crypto": 56,
+        "global": 38
+      }
     }
   ],
   "drivers": {
     "positive": [
       {
-        "title": "Zillow, Rocket to Face August FTC Trial Over Rental-Listing Deal",
+        "title": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+        "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html",
+        "source": "CNBC Markets",
+        "weight": 0.7362,
+        "score": 0.5833
+      },
+      {
+        "title": "Zillow, Rocket to Face August FTC Trial Over Rental Listings",
         "url": "https://www.bloomberg.com/news/articles/2026-07-08/zillow-rocket-to-face-august-ftc-trial-over-rental-listing-deal",
         "source": "Bloomberg Markets",
-        "weight": 0.6672,
+        "weight": 0.4698,
         "score": 0.8833
       },
       {
-        "title": "Brent’s Surge Runs Into Options Levels That Could Fuel Gains",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-08/brent-s-surge-runs-into-options-levels-that-could-fuel-gains",
-        "source": "Bloomberg Markets",
-        "weight": 0.656,
-        "score": 0.8667
-      },
-      {
-        "title": "Adam Back’s Bitcoin treasury company seeks new terms with Cantor for SPAC merger",
-        "url": "https://cointelegraph.com/news/adam-back-bitcoin-treasury-company-terms-spac?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Tokenized stock transfers surge 105% in a month to $8.4B",
+        "url": "https://cointelegraph.com/news/tokenized-stock-transfers-surge-105-in-a-month-to-84b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "CoinTelegraph",
-        "weight": 0.7799,
-        "score": 0.5833
+        "weight": 0.7729,
+        "score": 0.5333
       }
     ],
     "negative": [
       {
-        "title": "Delaying Social Security reform raises risks for bond markets and the economy, research finds",
-        "url": "https://www.cnbc.com/2026/07/08/social-security-trust-fund-depletion.html",
-        "source": "CNBC Markets",
-        "weight": 0.7985,
-        "score": -0.9667
-      },
-      {
-        "title": "Wall Street Insider Says SK Hynix IPO Could Overwhelm the Market. Here’s the Risk Beyond Memory Stocks.",
-        "url": "https://247wallst.com/investing/2026/07/08/wall-street-insider-says-sk-hynix-ipo-could-overwhelm-the-market-heres-the-risk-beyond-memory-stocks/?.tsrc=rss",
-        "source": "Yahoo Finance",
-        "weight": 0.6758,
+        "title": "BNB Chain makes 1,000,000 TPS moonshot bet on AI as BNB price slips to 2024 lows",
+        "url": "https://cryptoslate.com/binance-backed-network-chases-ai-agent-economy-with-1m-tps-privacy-overhaul-amid-bnbs-price-struggles/",
+        "source": "CryptoSlate",
+        "weight": 0.8395,
         "score": -1.0
       },
       {
-        "title": "Citadel abandons multi-year crypto lawsuit to focus on bankruptcy order against an ex-employee",
-        "url": "https://www.coindesk.com/policy/2026/07/08/citadel-drops-u-s-portofino-suit-seeks-bankruptcy-order-against-firm-s-founder-in-uk",
-        "source": "CoinDesk",
-        "weight": 0.562,
-        "score": -0.9
+        "title": "Delaying Social Security reform raises risks for bond markets and the economy, research finds",
+        "url": "https://www.cnbc.com/2026/07/08/social-security-trust-fund-depletion.html",
+        "source": "CNBC Markets",
+        "weight": 0.5622,
+        "score": -0.9667
+      },
+      {
+        "title": "Service Properties Trust Second Quarter 2026 Conference Call Scheduled for Thursday, August 6th",
+        "url": "https://finance.yahoo.com/real-estate/articles/properties-trust-second-quarter-2026-201500511.html?.tsrc=rss",
+        "source": "Yahoo Finance",
+        "weight": 0.7521,
+        "score": -0.6333
       }
     ],
     "market_movers": {
